@@ -1,0 +1,1316 @@
+{
+    "id": 155151,
+    "user_id": 1699,
+    "title": "LER/DORT",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-04-18T19:00:21.000Z",
+    "updated_at": "2022-04-18T19:00:21.000Z",
+    "study_plan_id": 869,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+      {
+        "id": 5860,
+        "institution_id": 4,
+        "description": "Paciente mulher, 40 anos, apresenta-se à Unidade Básica de Saúde com dor em ombro esquerdo há 10 dias. Você imediatamente suspeita de Síndrome do Impacto do Ombro e confirma sua hipótese ao realizar as manobras de Neer e Jobe, ambas positivas. Qual é a sua conduta?",
+        "difficulty": "easy",
+        "year": "2019-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2021-01-23T21:05:05.000Z",
+        "updated_at": "2021-11-24T11:54:46.000Z",
+        "user_id": 50,
+        "is_residency": false,
+        "institution": {
+          "id": 4,
+          "title": "MEDsimple",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-16T21:11:41.000Z",
+          "updated_at": "2020-05-16T21:11:41.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 578,
+            "title": "Reumatismo de partes moles",
+            "description": null,
+            "parent_id": 44,
+            "is_enabled": true,
+            "created_at": "2021-01-22T18:17:36.000Z",
+            "updated_at": "2021-01-22T18:17:36.000Z",
+            "pivot": {
+              "discipline_id": 578,
+              "question_id": 5860
+            }
+          },
+          {
+            "id": 890,
+            "title": "LER/DORT",
+            "description": null,
+            "parent_id": 234,
+            "is_enabled": true,
+            "created_at": "2021-07-14T16:42:58.000Z",
+            "updated_at": "2021-07-14T16:42:58.000Z",
+            "pivot": {
+              "discipline_id": 890,
+              "question_id": 5860
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 24176,
+            "question_id": 5860,
+            "description": "Solicitar radiografia de ombro esquerdo",
+            "explanation": "Falso doc! 😋 O diagnóstico da síndrome do impacto do ombro é clínico, e, na ausência de sinais de alarme, como suspeita de trauma, por exemplo, você pode conduzir o caso clinicamente.",
+            "order": 0,
+            "correct": false,
+            "created_at": "2021-01-23T21:05:05.000Z",
+            "updated_at": "2021-11-24T11:54:47.000Z",
+            "files": []
+          },
+          {
+            "id": 24177,
+            "question_id": 5860,
+            "description": "Encaminhar a paciente a um hospital referência em cirurgia ortopédica",
+            "explanation": "Falso doc! 😋 Estamos diante de um possível quadro de reumatismo de partes moles, com evolução benigna e autolimitada. Não há necessidade de encaminhamento da paciente por enquanto! ",
+            "order": 1,
+            "correct": false,
+            "created_at": "2021-01-23T21:05:05.000Z",
+            "updated_at": "2021-11-24T11:54:47.000Z",
+            "files": []
+          },
+          {
+            "id": 24178,
+            "question_id": 5860,
+            "description": "Realizar artrocentese para esclarecimento diagnóstico",
+            "explanation": "Falso doc! 😋 Se não há suspeita de artrite séptica, não há necessidade de artrocentese. Doc, a nossa paciente apresenta uma dor com características periarticulares, o que nos afasta dessa hipótese diagnóstica!",
+            "order": 2,
+            "correct": false,
+            "created_at": "2021-01-23T21:05:05.000Z",
+            "updated_at": "2021-11-24T11:54:47.000Z",
+            "files": []
+          },
+          {
+            "id": 24179,
+            "question_id": 5860,
+            "description": "Prescrever terapia anti-inflamatória e repouso relativo",
+            "explanation": "Isso aí, Doc! 🤗 \n- Estamos diante de uma paciente com suspeita de síndrome do impacto do ombro, um reumatismo de partes moles, de curso benigno e autolimitado, com boa resposta a terapia anti-inflamatória e melhora espontânea em poucas semanas. \n- No caso dessa paciente, podemos manejar ambulatorialmente, indicando **repouso relativo** e prescrevendo terapia anti-inflamatória, em geral com **AINEs**, como diclofenato, nimesulida, entre outros.",
+            "order": 3,
+            "correct": true,
+            "created_at": "2021-01-23T21:05:05.000Z",
+            "updated_at": "2021-11-24T11:54:47.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 5860,
+          "questionary_id": 155151,
+          "timer": 0
+        }
+      },
+      {
+        "id": 5864,
+        "institution_id": 4,
+        "description": "Paciente A.F, homem, 50 anos, entregador de pizza há 25 anos, chega à UBS com queixa de dor em região proximal do antebraço direito, com dificuldade para segurar objetos com a mão direita. Ao exame físico, não há sinais flogísticos em articulação do cotovelo direito, e a dor é reproduzível quando o paciente faz uma extensão do punho direito contra a resistência. O teste de Neer e o teste Jobe são negativos. Com base nessa história, qual é a principal hipótese diagnóstica?",
+        "difficulty": "easy",
+        "year": "2019-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2021-01-23T21:43:00.000Z",
+        "updated_at": "2021-11-24T12:02:13.000Z",
+        "user_id": 50,
+        "is_residency": false,
+        "institution": {
+          "id": 4,
+          "title": "MEDsimple",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-16T21:11:41.000Z",
+          "updated_at": "2020-05-16T21:11:41.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 578,
+            "title": "Reumatismo de partes moles",
+            "description": null,
+            "parent_id": 44,
+            "is_enabled": true,
+            "created_at": "2021-01-22T18:17:36.000Z",
+            "updated_at": "2021-01-22T18:17:36.000Z",
+            "pivot": {
+              "discipline_id": 578,
+              "question_id": 5864
+            }
+          },
+          {
+            "id": 890,
+            "title": "LER/DORT",
+            "description": null,
+            "parent_id": 234,
+            "is_enabled": true,
+            "created_at": "2021-07-14T16:42:58.000Z",
+            "updated_at": "2021-07-14T16:42:58.000Z",
+            "pivot": {
+              "discipline_id": 890,
+              "question_id": 5864
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 24192,
+            "question_id": 5864,
+            "description": "Síndrome do Impacto do Ombro",
+            "explanation": "Falso, Doc! 🤔 Não há queixas de dor em ombro, além de que as manobras de Neer e Jobe são negativas!",
+            "order": 0,
+            "correct": false,
+            "created_at": "2021-01-23T21:43:00.000Z",
+            "updated_at": "2021-11-24T12:02:13.000Z",
+            "files": []
+          },
+          {
+            "id": 24193,
+            "question_id": 5864,
+            "description": "Epicondilite Medial",
+            "explanation": "Falso, Doc! 🤔 Na epicondilite medial, o paciente costuma referir dor em região **medial proximal do antebraç**o, além de que a dor é reproduzível quando o paciente faz **flexã**o do punho contra a resistência, e não extensão!",
+            "order": 1,
+            "correct": false,
+            "created_at": "2021-01-23T21:43:00.000Z",
+            "updated_at": "2021-11-24T12:02:13.000Z",
+            "files": []
+          },
+          {
+            "id": 24194,
+            "question_id": 5864,
+            "description": "Síndrome do Túnel do Carpo",
+            "explanation": "Falso, Doc! 🤔 Em um paciente com síndrome do túnel do carpo, geralmente há queixa de **dor ou formigament**o em região **palma**r, muitas vezes despertando o paciente durante a noite.",
+            "order": 2,
+            "correct": false,
+            "created_at": "2021-01-23T21:43:00.000Z",
+            "updated_at": "2021-11-24T12:02:13.000Z",
+            "files": []
+          },
+          {
+            "id": 24195,
+            "question_id": 5864,
+            "description": "Epicondilite Lateral",
+            "explanation": "Arrasou, Doc! 💪 \n- A epicondilite lateral é uma tendinopatia de origem no **extensor radial curto do carpo**, resultante de um sobreuso do braço dominante por não atletas.\n- O quadro costuma cursar com dor em região proximal do antebraço, no epicôndilo lateral, sendo a dor reproduzível pela **extensão do punho** do paciente contra a resistência. \n- A doença costuma acometer **homens**, de **40-50 anos**, e geralmente está relacionada a movimentos repetitivos.\n\nDoc, não lembra qual é o músculo **extensor radial curto do carpo**? Olha nessa imagem (aproveita a repara que os **extensores do antebraço** se fixam no **epicôndilo lateral**) 👇:\n\nFonte da imagem: NETTER, Frank H.. Atlas de Anatomia Humana. 2ed. Porto Alegre: Artmed, 2000.",
+            "order": 3,
+            "correct": true,
+            "created_at": "2021-01-23T21:43:00.000Z",
+            "updated_at": "2021-11-24T12:02:13.000Z",
+            "files": [
+              {
+                "id": 23946,
+                "file": "18fbede7-6590-46ac-9e93-32fe8d653d62.png",
+                "name": "Captura de tela 2021-11-24 090139.png",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "png",
+                "created_at": "2021-11-24T12:01:59.000Z",
+                "updated_at": "2021-11-24T12:01:59.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/18fbede7-6590-46ac-9e93-32fe8d653d62.png",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 23946,
+                  "alternative_id": 24195
+                }
+              }
+            ]
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 5864,
+          "questionary_id": 155151,
+          "timer": 0
+        }
+      },
+      {
+        "id": 9885,
+        "institution_id": 4,
+        "description": "Em relação às Lesões por Esforços Repetitivos e aos Distúrbios Osteomusculares Relacionados ao Trabalho, assinale a alternativa **INCORRETA**:",
+        "difficulty": "easy",
+        "year": "2020-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2021-07-14T13:58:22.000Z",
+        "updated_at": "2021-11-24T12:07:08.000Z",
+        "user_id": 50,
+        "is_residency": false,
+        "institution": {
+          "id": 4,
+          "title": "MEDsimple",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-16T21:11:41.000Z",
+          "updated_at": "2020-05-16T21:11:41.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 890,
+            "title": "LER/DORT",
+            "description": null,
+            "parent_id": 234,
+            "is_enabled": true,
+            "created_at": "2021-07-14T16:42:58.000Z",
+            "updated_at": "2021-07-14T16:42:58.000Z",
+            "pivot": {
+              "discipline_id": 890,
+              "question_id": 9885
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 40400,
+            "question_id": 9885,
+            "description": "Acomete principalmente indivíduos de 30-40 anos",
+            "explanation": "Essa está certa, Doc! 😅 \n- As LER/DORT agrupam entidades relacionadas ao **esforço repetitivo,** acometendo principalmente trabalhadores manuais, de linha de montagem, costureiras, operadores de caixa registradora, telefonistas, etc.\n- A faixa etária mais acometida é a de **30-40 anos**!",
+            "order": 0,
+            "correct": false,
+            "created_at": "2021-07-14T13:58:22.000Z",
+            "updated_at": "2021-11-24T12:07:08.000Z",
+            "files": []
+          },
+          {
+            "id": 40401,
+            "question_id": 9885,
+            "description": "Os fatores de risco são multicausais e dividem-se em fatores biomecânicos, psicossociais e relacionados à organização do trabalho",
+            "explanation": "Essa está certa, Doc! 😅\n- **fatores biomecânicos:** inclui o posto de trabalho do paciente e tem como determinantes a sobrecarga muscular e esquelética, movimentos repetitivos, força muscular exagerada, postura prolongada ou incorreta, entre outros.\n- **fatores psicossociais:** ausência de autonomia, pressões cotidianas, situação social do trabalho, considerações relativas à carreira, carga e ritmo de trabalho, entre outros.\n- **fatores relacionados à organização do trabalho:** ritmo e pressão de trabalho excessivo, excesso de jornada, ausência de pausas, natureza repetitiva do trabalho, problemas de comunicação com a chefia e/ou colegas, entre outros.",
+            "order": 1,
+            "correct": false,
+            "created_at": "2021-07-14T13:58:22.000Z",
+            "updated_at": "2021-11-24T12:07:08.000Z",
+            "files": []
+          },
+          {
+            "id": 40402,
+            "question_id": 9885,
+            "description": "O quadro clínico típico de uma LER/DORT é insidioso, caracterizado por dor, diminuição da força muscular e comumente relacionado à ansiedade",
+            "explanation": "Essa está certa, Doc! 😅 \n- LER/DORT é uma síndrome caracterizada por sintomas sobrepostos e que agrupa doenças como sinovites, tenossinovites, bursites, compressões de nervos periféricos e síndromes miofasciais. \n- O quadro clínico tipicamente é **unilateral**, **insidioso**, caracterizado por **dor**, **diminuição da força múscular** e relacionado à **ansiedade**!",
+            "order": 2,
+            "correct": false,
+            "created_at": "2021-07-14T13:58:22.000Z",
+            "updated_at": "2021-11-24T12:07:08.000Z",
+            "files": []
+          },
+          {
+            "id": 40403,
+            "question_id": 9885,
+            "description": "LER/DORT é uma síndrome que agrupa entidades neuro-ortopédicas e possui uma incidência maior no sexo masculino",
+            "explanation": "Boa, Doc, essa é a incorreta! 👊 \n- LER/DORT realmente é uma síndrome que agrupa diferentes entidades neuro-ortopédicas, como tenossinovites, bursites, compressões de nervos periféricos e síndromes miofasciais. \n- No entanto, são entidades mais comuns no sexo f**eminino** e em indivíduos de 30-40 anos!",
+            "order": 3,
+            "correct": true,
+            "created_at": "2021-07-14T13:58:22.000Z",
+            "updated_at": "2021-11-24T12:07:08.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 9885,
+          "questionary_id": 155151,
+          "timer": 0
+        }
+      },
+      {
+        "id": 9887,
+        "institution_id": 4,
+        "description": "A identificação de fatores de risco é essencial para o manejo do paciente com suspeita de LER/DORT. Sabe-se que esses fatores de risco subdividem-se em fatores biomecânicos, psicossociais e relacionados à organização do trabalho. Sobre isso, assinale a alternativa **INCORRETA**:",
+        "difficulty": "easy",
+        "year": "2020-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2021-07-14T14:11:53.000Z",
+        "updated_at": "2021-11-26T14:42:04.000Z",
+        "user_id": 50,
+        "is_residency": false,
+        "institution": {
+          "id": 4,
+          "title": "MEDsimple",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-16T21:11:41.000Z",
+          "updated_at": "2020-05-16T21:11:41.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 890,
+            "title": "LER/DORT",
+            "description": null,
+            "parent_id": 234,
+            "is_enabled": true,
+            "created_at": "2021-07-14T16:42:58.000Z",
+            "updated_at": "2021-07-14T16:42:58.000Z",
+            "pivot": {
+              "discipline_id": 890,
+              "question_id": 9887
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 40408,
+            "question_id": 9887,
+            "description": "A ausência de autonomia no trabalho e as pressões cotidianas fazem parte dos fatores psicossociais",
+            "explanation": "Essa está certa, Doc! 😉\n- Ausência de autonomia, pressões cotidianas, perfeccionismo, personalidade do indivíduo, experiências anteriores e a própria situação social do trabalho são fatores **psicossociais** que aumentam a tensão múscular, levando a uma reação mais exacerbada ao estresse, o que contribui para o desenvolvimento de LER/DORT!",
+            "order": 0,
+            "correct": false,
+            "created_at": "2021-07-14T14:11:53.000Z",
+            "updated_at": "2021-11-26T14:42:04.000Z",
+            "files": []
+          },
+          {
+            "id": 40409,
+            "question_id": 9887,
+            "description": "O desenvolvimento de LER/DORT é unicamente ambiental, não existindo fatores genéticos envolvidos",
+            "explanation": "Boa, Doc, essa é a incorreta! 👊 Na verdade, é bem o contrário!😋 \n- Embora os fatores de risco subdividam-se em **psicossociais**, **organizacionais** e **biomecânicos**, o desenvolvimento da LER/DORT é multifatorial e inclui os fatores de risco **ambientais** somados a um fator **genético**, que seria a predisposição do indivíduo ao desenvolvimento da doença!",
+            "order": 1,
+            "correct": true,
+            "created_at": "2021-07-14T14:11:53.000Z",
+            "updated_at": "2021-11-26T14:42:04.000Z",
+            "files": []
+          },
+          {
+            "id": 40410,
+            "question_id": 9887,
+            "description": "Jornadas prolongadas de trabalho e a obrigatoriedade de manter um ritmo acelerado de trabalho são fatores relacionados à organização do trabalho",
+            "explanation": "Essa está certa, Doc! 😉 \n- Entender a forma como o trabalho do indivíduo estrutura-se é fundamental no diagnóstico do paciente com LER/DORT. \n- Entre os fatores organizacionais conhecidos, podemos citar as **longas jornadas de trabalho**, a frequente realização de **horas extras**, o **ritmo acelerado** do trabalho, a **ausência de pausas** e rodízios, além do ritmo e da **pressão** de **trabalho excessivo**.",
+            "order": 2,
+            "correct": false,
+            "created_at": "2021-07-14T14:11:53.000Z",
+            "updated_at": "2021-11-26T14:42:04.000Z",
+            "files": []
+          },
+          {
+            "id": 40411,
+            "question_id": 9887,
+            "description": "Os fatores biomecânicos possuem como principal determinante o posto de trabalho do paciente",
+            "explanation": "Essa está certa, Doc! 😉\n- Postos de trabalhos que forcem o indivíduo a adotar **posturas específicas**, a suportar certas **cargas** e a se comportar de forma a causar **lesões músculo-esqueléticas** são considerados determinantes dos fatores biomecânicos!",
+            "order": 3,
+            "correct": false,
+            "created_at": "2021-07-14T14:11:53.000Z",
+            "updated_at": "2021-11-26T14:42:04.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 9887,
+          "questionary_id": 155151,
+          "timer": 0
+        }
+      },
+      {
+        "id": 9888,
+        "institution_id": 4,
+        "description": "Sobre a Síndrome do Túnel do Carpo, assinale a alternativa CORRETA:",
+        "difficulty": "easy",
+        "year": "2020-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2021-07-14T14:28:33.000Z",
+        "updated_at": "2021-11-26T14:43:53.000Z",
+        "user_id": 50,
+        "is_residency": false,
+        "institution": {
+          "id": 4,
+          "title": "MEDsimple",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-16T21:11:41.000Z",
+          "updated_at": "2020-05-16T21:11:41.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 890,
+            "title": "LER/DORT",
+            "description": null,
+            "parent_id": 234,
+            "is_enabled": true,
+            "created_at": "2021-07-14T16:42:58.000Z",
+            "updated_at": "2021-07-14T16:42:58.000Z",
+            "pivot": {
+              "discipline_id": 890,
+              "question_id": 9888
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 40412,
+            "question_id": 9888,
+            "description": "É uma LER/DORT resultante da compressão do nervo ulnar",
+            "explanation": "Falso doc! Olha a pegadinha aí! 😴 A síndrome do Túnel do Carpo é uma LER/DORT resultante da compressão do nervo **MEDIANO!** \n\nSe liga nessa imagem doc👇\n- Fonte: [https://www.hong.com.br/sindrome-do-tunel-do-carpo/](https://www.hong.com.br/sindrome-do-tunel-do-carpo/)",
+            "order": 0,
+            "correct": false,
+            "created_at": "2021-07-14T14:28:33.000Z",
+            "updated_at": "2021-11-26T14:43:53.000Z",
+            "files": [
+              {
+                "id": 13904,
+                "file": "c52af9bd-716c-4d9e-9c68-4553eb6e169a.jpeg",
+                "name": "sindrome-tunel-do-carpo.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2021-07-14T14:14:46.000Z",
+                "updated_at": "2021-07-14T14:14:46.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c52af9bd-716c-4d9e-9c68-4553eb6e169a.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 13904,
+                  "alternative_id": 40412
+                }
+              }
+            ]
+          },
+          {
+            "id": 40413,
+            "question_id": 9888,
+            "description": "É mais comum no sexo masculino e em indivíduos que trabalham com movimentos repetitivos do pulso",
+            "explanation": "Falso doc! Pegadinha!😋 \n- A síndrome do Túnel do Carpo, assim como a grande maioria das LER/DORT, é mais comum no sexo **feminino!** \n- Doc, tenha em mente aquela paciente que queixa-se de **dor em queimação e parestesia** na região de inervação do **nervo mediano** e que trabalhou a vida toda como costureira, com movimentos repetitivos de punho! \n- Esse é um quadro TÍPICO de síndrome do túnel do carpo!",
+            "order": 1,
+            "correct": false,
+            "created_at": "2021-07-14T14:28:33.000Z",
+            "updated_at": "2021-11-26T14:43:53.000Z",
+            "files": []
+          },
+          {
+            "id": 40414,
+            "question_id": 9888,
+            "description": "O quadro é caracterizado por dor e formigamento no território de inervação do nervo mediano",
+            "explanation": "Perfeito doc! Mandou bem!😍 \n- Tipicamente, o paciente com síndrome do túnel do carpo cursa com dor e parestesias no território de inervação do nervo mediano, com sintomas que geralmente surgem a **noite**, despertando o paciente! \n- A dificuldade de preensão e manipulação de objetos também pode se associar ao quadro! \n\nDoc, se liga nessa imagem para nunca mais esquecer a distribuição dos sintomas dessa doença👇\n- Fonte: [https://www.hong.com.br/sindrome-do-tunel-do-carpo/](https://www.hong.com.br/sindrome-do-tunel-do-carpo/)",
+            "order": 2,
+            "correct": true,
+            "created_at": "2021-07-14T14:28:33.000Z",
+            "updated_at": "2021-11-26T14:43:53.000Z",
+            "files": [
+              {
+                "id": 13904,
+                "file": "c52af9bd-716c-4d9e-9c68-4553eb6e169a.jpeg",
+                "name": "sindrome-tunel-do-carpo.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2021-07-14T14:14:46.000Z",
+                "updated_at": "2021-07-14T14:14:46.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c52af9bd-716c-4d9e-9c68-4553eb6e169a.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 13904,
+                  "alternative_id": 40414
+                }
+              }
+            ]
+          },
+          {
+            "id": 40415,
+            "question_id": 9888,
+            "description": "O tratamento de escolha é a cirurgia para descompressão nervosa",
+            "explanation": "Falso doc! 😋 \n- Na realidade, o tratamento de primeira escolha é **conservador**, com uso de **órteses**, **AINEs** para dor e **fisioterapia**. \n- A cirúrgia para descompressão é reservada para casos em que as alternativas anteriores não funcionaram!",
+            "order": 3,
+            "correct": false,
+            "created_at": "2021-07-14T14:28:33.000Z",
+            "updated_at": "2021-11-26T14:43:53.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 9888,
+          "questionary_id": 155151,
+          "timer": 0
+        }
+      },
+      {
+        "id": 9902,
+        "institution_id": 4,
+        "description": "Sabe-se que a epicondilite lateral é uma LER/DORT muito recorrente. Sobre essa doença, assinale a alternativa **INCORRETA**:",
+        "difficulty": "easy",
+        "year": "2020-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2021-07-15T04:05:04.000Z",
+        "updated_at": "2021-11-26T17:49:45.000Z",
+        "user_id": 50,
+        "is_residency": false,
+        "institution": {
+          "id": 4,
+          "title": "MEDsimple",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-16T21:11:41.000Z",
+          "updated_at": "2020-05-16T21:11:41.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 890,
+            "title": "LER/DORT",
+            "description": null,
+            "parent_id": 234,
+            "is_enabled": true,
+            "created_at": "2021-07-14T16:42:58.000Z",
+            "updated_at": "2021-07-14T16:42:58.000Z",
+            "pivot": {
+              "discipline_id": 890,
+              "question_id": 9902
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 40468,
+            "question_id": 9902,
+            "description": "É uma tendinite do extensor radial curto do carpo",
+            "explanation": "Essa está certa, Doc! 😉 \n- Movimentos repetitivos geram microlesões nesse músculo, levando ao desenvolvimento de um processo inflamatório local nessa região! \n\n\n\nDoc, relembrando a anatomia, se liga nessa imagem (repare que os extensores se fixam no epicôndilo lateral) 👇\n- Fonte: [https://www.auladeanatomia.com/novosite/pt/sistemas/sistema-muscular/musculos-do-membro-superior/musculos-do-antebraco/](https://www.auladeanatomia.com/novosite/pt/sistemas/sistema-muscular/musculos-do-membro-superior/musculos-do-antebraco/)",
+            "order": 0,
+            "correct": false,
+            "created_at": "2021-07-15T01:05:04.000Z",
+            "updated_at": "2021-11-26T14:49:45.000Z",
+            "files": [
+              {
+                "id": 13970,
+                "file": "76a8e131-23a2-4413-91f1-b04d48dcc65a.jpeg",
+                "name": "anteextensores1.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2021-07-15T00:39:24.000Z",
+                "updated_at": "2021-07-15T00:39:24.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/76a8e131-23a2-4413-91f1-b04d48dcc65a.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 13970,
+                  "alternative_id": 40468
+                }
+              }
+            ]
+          },
+          {
+            "id": 40469,
+            "question_id": 9902,
+            "description": "Acomete principalmente indivíduos dos 40 aos 50 anos",
+            "explanation": "Essa está certa, Doc! 😉 \n- A epicondilite lateral ocorre principalmente dos **40-50 anos**, em indivíduos que realizam movimentos repetitivos do cotovelo, como tenistas, pintores, soldadores, etc. \n- Possui **igual incidência entre homens e mulheres**!",
+            "order": 1,
+            "correct": false,
+            "created_at": "2021-07-15T01:05:04.000Z",
+            "updated_at": "2021-11-26T14:49:45.000Z",
+            "files": []
+          },
+          {
+            "id": 40470,
+            "question_id": 9902,
+            "description": "O teste de Jobe, quando positivo, confirma a epicondilite lateral",
+            "explanation": "Boa, Doc, essa é a incorreta! 😁\n-  O teste comumente positivo na Epicondilite Lateral é o **teste de Cozen**, em que solicita-se ao paciente que realize **extensão** do punho contra resistência, como ilustrado na imagem abaixo👇\n\n- Fonte: [https://traumatologiaeortopedia.com.br/informe/teste-de-cozen/](https://traumatologiaeortopedia.com.br/informe/teste-de-cozen/)",
+            "order": 2,
+            "correct": true,
+            "created_at": "2021-07-15T01:05:04.000Z",
+            "updated_at": "2021-11-26T14:49:45.000Z",
+            "files": [
+              {
+                "id": 13971,
+                "file": "43b9a79c-6228-4f5c-8b22-18cc30fb07a1.jpeg",
+                "name": "cozen2.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2021-07-15T01:00:30.000Z",
+                "updated_at": "2021-07-15T01:00:30.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/43b9a79c-6228-4f5c-8b22-18cc30fb07a1.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 13971,
+                  "alternative_id": 40470
+                }
+              }
+            ]
+          },
+          {
+            "id": 40471,
+            "question_id": 9902,
+            "description": "Crioterapia, AINEs, repouso relativo e alongamentos fazem parte do tratamento dessa condição",
+            "explanation": "Essa está certa, Doc! 😉 O tratamento de primeira escolha da epicondilite lateral é **conservado**r, com aplicação de gelo **(crioterapi**a), **AINE**s para dor, **repous**o relativo e **alongamento**s periódicos!",
+            "order": 3,
+            "correct": false,
+            "created_at": "2021-07-15T01:05:04.000Z",
+            "updated_at": "2021-11-26T14:49:45.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 9902,
+          "questionary_id": 155151,
+          "timer": 0
+        }
+      },
+      {
+        "id": 10012,
+        "institution_id": 4,
+        "description": "Fazem parte das medidas prevenção das LER/DORT, **EXCETO**:",
+        "difficulty": "easy",
+        "year": "2020-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2021-07-23T15:39:21.000Z",
+        "updated_at": "2021-11-26T17:55:36.000Z",
+        "user_id": 50,
+        "is_residency": false,
+        "institution": {
+          "id": 4,
+          "title": "MEDsimple",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-16T21:11:41.000Z",
+          "updated_at": "2020-05-16T21:11:41.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 890,
+            "title": "LER/DORT",
+            "description": null,
+            "parent_id": 234,
+            "is_enabled": true,
+            "created_at": "2021-07-14T16:42:58.000Z",
+            "updated_at": "2021-07-14T16:42:58.000Z",
+            "pivot": {
+              "discipline_id": 890,
+              "question_id": 10012
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 40920,
+            "question_id": 10012,
+            "description": "Exercício físico pelo menos 3 vezes por semana",
+            "explanation": "Essa está certa, Doc! 🤔  Atividade física e controle do peso são importantes medidas relacionadas à prevenção das LER/DORT, uma vez que **fortalece a musculatur**a evitando tensões excessivas que possam levar a um quadro patológico!",
+            "order": 0,
+            "correct": false,
+            "created_at": "2021-07-23T12:39:21.000Z",
+            "updated_at": "2021-11-26T14:55:36.000Z",
+            "files": []
+          },
+          {
+            "id": 40921,
+            "question_id": 10012,
+            "description": "Correção e troca periódica de postura",
+            "explanation": "Essa está certa, Doc! 🤔 \n- A postura é um dos grandes determinantes do desenvolvimento de determinadas LER/DORT, como, **por exemplo, as lombalgias**. \n- É importante a movimentação frequente, com alongamentos, mudanças periódicas de postura e correções da postura!",
+            "order": 1,
+            "correct": false,
+            "created_at": "2021-07-23T12:39:21.000Z",
+            "updated_at": "2021-11-26T14:55:36.000Z",
+            "files": []
+          },
+          {
+            "id": 40922,
+            "question_id": 10012,
+            "description": "Corticoterapia intra-articular periodicamente",
+            "explanation": "Boa, Doc, matou a errada! 😁👻 \n- **Não** temos indicação de corticoterapia profilática em pacientes com risco de desenvolvimento de LER/DORT. \n- As medidas preventivas concentram-se em correção postural, atividade física periódica, controle do peso, carga horária adequada, manejo de conflitos, campo de trabalho ao alcance dos braços, monitor na altura dos olhos, entre outras medidas **NÃO FARMACOLÓGICAS!**",
+            "order": 2,
+            "correct": true,
+            "created_at": "2021-07-23T12:39:21.000Z",
+            "updated_at": "2021-11-26T14:55:36.000Z",
+            "files": []
+          },
+          {
+            "id": 40923,
+            "question_id": 10012,
+            "description": "Carga horária de trabalho adequada",
+            "explanation": "Essa está certa, Doc! 🤔 O manejo de conflitos no trabalho e a manutenção de uma carga horária adequada, não excessiva, é fundamental para a prevenção das LER/DORT!",
+            "order": 3,
+            "correct": false,
+            "created_at": "2021-07-23T12:39:21.000Z",
+            "updated_at": "2021-11-26T14:55:36.000Z",
+            "files": []
+          },
+          {
+            "id": 40924,
+            "question_id": 10012,
+            "description": "Manejo de conflitos com colegas e chefe no trabalho",
+            "explanation": "Essa está certa, Doc! 🤔 \n- Um dos pilares do desenvolvimento das LER/DORT é composto pelos fatores **psicossociais**. \n- Logo, é fundamental que haja uma boa relação no trabalho a fim de **evitar níveis tensionais excessivos** que possam resultar em uma LER/DORT!",
+            "order": 4,
+            "correct": false,
+            "created_at": "2021-07-23T12:39:21.000Z",
+            "updated_at": "2021-11-26T14:55:36.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 10012,
+          "questionary_id": 155151,
+          "timer": 0
+        }
+      },
+      {
+        "id": 9903,
+        "institution_id": 4,
+        "description": "Sobre a Síndrome do Impacto do Ombro, assinale a alternativa CORRETA:",
+        "difficulty": "medium",
+        "year": "2019-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2021-07-15T04:15:55.000Z",
+        "updated_at": "2021-11-26T18:55:13.000Z",
+        "user_id": 50,
+        "is_residency": false,
+        "institution": {
+          "id": 4,
+          "title": "MEDsimple",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-16T21:11:41.000Z",
+          "updated_at": "2020-05-16T21:11:41.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 890,
+            "title": "LER/DORT",
+            "description": null,
+            "parent_id": 234,
+            "is_enabled": true,
+            "created_at": "2021-07-14T16:42:58.000Z",
+            "updated_at": "2021-07-14T16:42:58.000Z",
+            "pivot": {
+              "discipline_id": 890,
+              "question_id": 9903
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 40472,
+            "question_id": 9903,
+            "description": "É mais comum no sexo masculino",
+            "explanation": "Falso doc! 😋 Acomete principalmente **mulhere**s, entre **40-60 anos**!",
+            "order": 0,
+            "correct": false,
+            "created_at": "2021-07-15T01:15:55.000Z",
+            "updated_at": "2021-11-26T15:55:13.000Z",
+            "files": []
+          },
+          {
+            "id": 40473,
+            "question_id": 9903,
+            "description": "Teste de Neer e de Jobe, geralmente, são positivos nessa condição",
+            "explanation": "Perfeito doc! Mandou bem! 😍 \n- Na Síndrome do Impacto do Ombro, ocorre uma **tendinite do músculo supraespinhoso** devido ao atrito e compressão repetitiva do tendão no espaço subacromial. \n- Como consequência, há **dor** na região, **exacerbada por movimentos acima da cabeça**. \n- O **teste de Neer** é feito elevando-se bruscamente o membro afetado do paciente, com a mão em pronação. Se há impedimento do movimento, o teste é positivo. \n- Por outro lado, no **teste de Jobe**, o examinador deve forçar o braço do paciente contra a resistência, estando ambos os braços estentidos em abdução de 90º e flexão de 30º. A presença de dor positiva o teste. \n\nDoc, para nunca mais esquecer se liga nessas imagens 👇\n",
+            "order": 1,
+            "correct": true,
+            "created_at": "2021-07-15T01:15:55.000Z",
+            "updated_at": "2021-11-26T15:55:13.000Z",
+            "files": [
+              {
+                "id": 13973,
+                "file": "a0eeef45-5214-4648-946e-87f30a318235.jpeg",
+                "name": "teste de neer.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2021-07-15T01:12:03.000Z",
+                "updated_at": "2021-07-15T01:12:03.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a0eeef45-5214-4648-946e-87f30a318235.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 13973,
+                  "alternative_id": 40473
+                }
+              },
+              {
+                "id": 13972,
+                "file": "e3b102f3-b6a1-41a8-b155-558a0b74f8e6.jpeg",
+                "name": "mVzv5ZrqN4JgcMAETXnStAcetcTKE1dj6RhLQkDrSHc3Jf_zF_YMZcoTCNF-myBPPK6Ch81KpxDntrK670WiNsgvXXmxHiW4AZG-_Qd6FWpqwIuUbWmToY6PzSMt65c_8HGe-3fW5JcWDCJRhg.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2021-07-15T01:12:02.000Z",
+                "updated_at": "2021-07-15T01:12:02.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e3b102f3-b6a1-41a8-b155-558a0b74f8e6.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 13972,
+                  "alternative_id": 40473
+                }
+              }
+            ]
+          },
+          {
+            "id": 40474,
+            "question_id": 9903,
+            "description": "Decorre de uma tendinite dos músculos redondo maior e redondo menor",
+            "explanation": "Falso doc!😋 A Síndrome do Impacto do Ombro ocorre quanto o **manguito rotador** é comprimido contra as estruturas do teto do ombro, o que, geralmente, resulta em uma tendinite do músculo **supraespinhos**o!",
+            "order": 2,
+            "correct": false,
+            "created_at": "2021-07-15T01:15:55.000Z",
+            "updated_at": "2021-11-26T15:55:13.000Z",
+            "files": []
+          },
+          {
+            "id": 40475,
+            "question_id": 9903,
+            "description": "O tratamento de escolha é a infiltração com corticóide",
+            "explanation": "Falso doc!😋 \n- A primeira escolha nesses casos **SEMPRE é conservadora**, com **crioterapia**, **AINEs**, **repouso** relativo e **alongamentos**. \n- A infiltração com corticoides e a cirurgia só são indicadas para casos restritos, em que as medidas anteriores não funcionaram!",
+            "order": 3,
+            "correct": false,
+            "created_at": "2021-07-15T01:15:55.000Z",
+            "updated_at": "2021-11-26T15:55:13.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 9903,
+          "questionary_id": 155151,
+          "timer": 0
+        }
+      },
+      {
+        "id": 10013,
+        "institution_id": 4,
+        "description": "Em relação à avaliação das principais LER/DORT conhecidas, assinale a alternativa **CORRETA:**",
+        "difficulty": "medium",
+        "year": "2019-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2021-07-23T13:05:38.000Z",
+        "updated_at": "2021-11-26T16:05:00.000Z",
+        "user_id": 50,
+        "is_residency": false,
+        "institution": {
+          "id": 4,
+          "title": "MEDsimple",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-16T21:11:41.000Z",
+          "updated_at": "2020-05-16T21:11:41.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 890,
+            "title": "LER/DORT",
+            "description": null,
+            "parent_id": 234,
+            "is_enabled": true,
+            "created_at": "2021-07-14T16:42:58.000Z",
+            "updated_at": "2021-07-14T16:42:58.000Z",
+            "pivot": {
+              "discipline_id": 890,
+              "question_id": 10013
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 40925,
+            "question_id": 10013,
+            "description": "Um teste de Cozen positivo fala a favor de epicondilite medial",
+            "explanation": "Falso doc!😋 \n- O teste de Cozen consiste na **extensão** do punho contra a resistência, sendo positivo quando o paciente refere dor no epicôndilo lateral, sendo, portanto, indicativo de Epicondilite **LATERAL**! \n\nDoc, saca só como esse teste é feito👇\n- Fonte: [https://traumatologiaeortopedia.com.br/informe/teste-de-cozen/](https://traumatologiaeortopedia.com.br/informe/teste-de-cozen/)",
+            "order": 0,
+            "correct": false,
+            "created_at": "2021-07-23T13:05:38.000Z",
+            "updated_at": "2021-11-26T16:05:00.000Z",
+            "files": [
+              {
+                "id": 15314,
+                "file": "4b1efbad-8a86-47ed-93dd-0dd8b0ab387c.jpeg",
+                "name": "cozen2-1024x679.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2021-07-23T12:50:56.000Z",
+                "updated_at": "2021-07-23T12:50:56.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4b1efbad-8a86-47ed-93dd-0dd8b0ab387c.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 15314,
+                  "alternative_id": 40925
+                }
+              }
+            ]
+          },
+          {
+            "id": 40926,
+            "question_id": 10013,
+            "description": "Os testes de Tinel e Phalen, quando positivos, são indicativos de Síndrome do Túnel do Carpo",
+            "explanation": "Perfeito doc! Mandou bem demais!😎 \n- O **teste de Tinel** consiste na **percussão do punho**, na região do túnel do carpo\n- Já o **teste de Phalen** consiste em manter os punhos em **flexão máxima durante 1 minuto**. \n- A presença de dor em qualquer um dos testes torna eles positivos, indicando Síndrome do Túnel do Carpo. \n\n💡 Teste de **Ti**nel = pensa que faz \"tin tin\" quando percute com o dedo 😂\n💡 Teste de Phalen = pensa que o paciente fica com as mãos naquela posição até a **phalh**a 😜\n\nDoc, se liga nessa imagem ilustrando esses testes👇\n- Fonte: [https://br.pinterest.com/pin/660621839077375289/](https://br.pinterest.com/pin/660621839077375289/)",
+            "order": 1,
+            "correct": true,
+            "created_at": "2021-07-23T13:05:38.000Z",
+            "updated_at": "2021-11-26T16:05:00.000Z",
+            "files": [
+              {
+                "id": 15315,
+                "file": "6a5e1f28-58f1-4b27-934a-71b7c201ceca.jpeg",
+                "name": "9f994f5d235ccaab93e516cb0031d40b.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2021-07-23T12:55:31.000Z",
+                "updated_at": "2021-07-23T12:55:31.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/6a5e1f28-58f1-4b27-934a-71b7c201ceca.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 15315,
+                  "alternative_id": 40926
+                }
+              }
+            ]
+          },
+          {
+            "id": 40927,
+            "question_id": 10013,
+            "description": "O teste de Laségue, se positivo, fala a favor de um quadro de lombalgia sem acometimento nervoso",
+            "explanation": "Falso doc! É o contrário!😋 \n- O teste de Laségue consiste na **elevação do membro inferior** a 30-60º \n- É positivo se o paciente refere **dor na porção posterior** do membro elevado, indicando **ciatalgia**, resultante de compressão nervosa, geralmente por conta de uma **hérnia de disco**! \n\n💡 Doc, Lasegue começa com \"L\" de **Leg** (perna em inglês)\n\nSe liga nessa imagem doc👇\n- Fonte: [https://www.o-que-e.com/o-que-e-sinal-de-lasegue/](https://www.o-que-e.com/o-que-e-sinal-de-lasegue/)",
+            "order": 2,
+            "correct": false,
+            "created_at": "2021-07-23T13:05:38.000Z",
+            "updated_at": "2021-11-26T16:05:00.000Z",
+            "files": [
+              {
+                "id": 15323,
+                "file": "f05e96b7-9bca-4816-98f1-a74b54bb1a03.jpeg",
+                "name": "lasegue.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2021-07-23T13:01:15.000Z",
+                "updated_at": "2021-07-23T13:01:15.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f05e96b7-9bca-4816-98f1-a74b54bb1a03.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 15323,
+                  "alternative_id": 40927
+                }
+              }
+            ]
+          },
+          {
+            "id": 40928,
+            "question_id": 10013,
+            "description": "O teste de Finkelstein é utilizado para avaliar a presença de Síndrome do Impacto do Ombro",
+            "explanation": "Falso doc!😋 \n- O teste de Finkelstein é utilizado para avaliar a tenossinovite de De Quervain, como ilustrado na imagem abaixo👇\n- Fonte: [http://neoortopedia.com/2019/05/15/tenossinovite-de-quervain/](http://neoortopedia.com/2019/05/15/tenossinovite-de-quervain/)\n\n💡 Doc, pensa que o paciente faz um movimento como se estivesse **\"fin**cando\" algo numa superfície (**\"Fin**kelstein\")",
+            "order": 3,
+            "correct": false,
+            "created_at": "2021-07-23T13:05:38.000Z",
+            "updated_at": "2021-11-26T16:05:00.000Z",
+            "files": [
+              {
+                "id": 15330,
+                "file": "7a0e912f-8b10-4521-9cab-fee1c9b0e9c3.jpeg",
+                "name": "teno-3.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2021-07-23T13:05:27.000Z",
+                "updated_at": "2021-07-23T13:05:27.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7a0e912f-8b10-4521-9cab-fee1c9b0e9c3.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 15330,
+                  "alternative_id": 40928
+                }
+              }
+            ]
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 10013,
+          "questionary_id": 155151,
+          "timer": 0
+        }
+      },
+      {
+        "id": 10014,
+        "institution_id": 4,
+        "description": "Sabe-se que a lombalgia é uma queixa comum em pacientes com LER/DORT e que é fundamental diferenciar uma lombalgia mecânica de uma lombalgia não-mecânica. Sobre isso, qual dos seguintes **NÃO** é considerado um \"red flag\" da lombalgia?",
+        "difficulty": "medium",
+        "year": "2019-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2021-07-23T13:15:56.000Z",
+        "updated_at": "2021-11-26T16:09:06.000Z",
+        "user_id": 50,
+        "is_residency": false,
+        "institution": {
+          "id": 4,
+          "title": "MEDsimple",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-16T21:11:41.000Z",
+          "updated_at": "2020-05-16T21:11:41.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 890,
+            "title": "LER/DORT",
+            "description": null,
+            "parent_id": 234,
+            "is_enabled": true,
+            "created_at": "2021-07-14T16:42:58.000Z",
+            "updated_at": "2021-07-14T16:42:58.000Z",
+            "pivot": {
+              "discipline_id": 890,
+              "question_id": 10014
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 40929,
+            "question_id": 10014,
+            "description": "Idade avançada",
+            "explanation": "Essa está certa, Doc! 🤔  Esse é um red flag importante, sobretudo se **> 70 ano**s, uma vez que aumenta o risco como neoplasias, infecções e fraturas!",
+            "order": 0,
+            "correct": false,
+            "created_at": "2021-07-23T13:15:56.000Z",
+            "updated_at": "2021-11-26T16:09:06.000Z",
+            "files": []
+          },
+          {
+            "id": 40930,
+            "question_id": 10014,
+            "description": "Febre",
+            "explanation": "Essa está certa, Doc! 🤔 A febre é um red flag CLÁSSICO e deve levantar a suspeita de um **quadro infeccioso ou neoplásic**o em um paciente com lombalgia!",
+            "order": 1,
+            "correct": false,
+            "created_at": "2021-07-23T13:15:56.000Z",
+            "updated_at": "2021-11-26T16:09:06.000Z",
+            "files": []
+          },
+          {
+            "id": 40931,
+            "question_id": 10014,
+            "description": "Atividade com carga mecânica na região lombar",
+            "explanation": "Boa, Doc, essa é a incorreta! 🤓\n- Se o paciente com lombalgia apresenta uma história ocupacional de carga mecânica na região lombar, nosso raciocínio deve ser direcionado para uma possível **lombalgia mecânica**, relacionada ao excesso de carga na região. \n- Portanto, consideramos a atividade com carga uma \"**green flag**\", indicativa de lombalgia mecânica e não uma \"red flag\"!",
+            "order": 2,
+            "correct": true,
+            "created_at": "2021-07-23T13:15:56.000Z",
+            "updated_at": "2021-11-26T16:09:06.000Z",
+            "files": []
+          },
+          {
+            "id": 40932,
+            "question_id": 10014,
+            "description": "Corticoterapia crônica",
+            "explanation": "Essa está certa, Doc! 🤔 Paciente com lombalgia e uso crônico de corticóide apresenta **risco aumentado de infecçõe**s, por conta da imunosupressão, e de fraturas patológicas, por conta da redução da massa óssea induzida pelo corticoide!",
+            "order": 3,
+            "correct": false,
+            "created_at": "2021-07-23T13:15:56.000Z",
+            "updated_at": "2021-11-26T16:09:06.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 10014,
+          "questionary_id": 155151,
+          "timer": 0
+        }
+      },
+      {
+        "id": 13659,
+        "institution_id": 247,
+        "description": "Os sinais de Tinel e de Phalen são encontrados na: ",
+        "difficulty": "medium",
+        "year": "2009-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2022-04-13T15:00:36.000Z",
+        "updated_at": "2022-04-13T15:00:36.000Z",
+        "user_id": 1472,
+        "is_residency": false,
+        "institution": {
+          "id": 247,
+          "title": "HOSPITAL ISRAELITA ALBERT EINSTEIN – HIAE",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2021-02-22T22:21:53.000Z",
+          "updated_at": "2021-02-22T22:21:53.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 578,
+            "title": "Reumatismo de partes moles",
+            "description": null,
+            "parent_id": 44,
+            "is_enabled": true,
+            "created_at": "2021-01-22T18:17:36.000Z",
+            "updated_at": "2021-01-22T18:17:36.000Z",
+            "pivot": {
+              "discipline_id": 578,
+              "question_id": 13659
+            }
+          },
+          {
+            "id": 890,
+            "title": "LER/DORT",
+            "description": null,
+            "parent_id": 234,
+            "is_enabled": true,
+            "created_at": "2021-07-14T16:42:58.000Z",
+            "updated_at": "2021-07-14T16:42:58.000Z",
+            "pivot": {
+              "discipline_id": 890,
+              "question_id": 13659
+            }
+          },
+          {
+            "id": 245,
+            "title": "Exame Somático",
+            "description": null,
+            "parent_id": 245,
+            "is_enabled": true,
+            "created_at": "2020-06-23T01:46:12.000Z",
+            "updated_at": "2022-01-26T15:43:16.000Z",
+            "pivot": {
+              "discipline_id": 245,
+              "question_id": 13659
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 55965,
+            "question_id": 13659,
+            "description": "compressão do nervo ciático. ",
+            "explanation": "Falso, Doc! 😋 São sinais que indicam **síndrome do túnel do carpo.**  ",
+            "order": 0,
+            "correct": false,
+            "created_at": "2022-04-13T15:00:36.000Z",
+            "updated_at": "2022-04-13T15:00:36.000Z",
+            "files": []
+          },
+          {
+            "id": 55966,
+            "question_id": 13659,
+            "description": "ruptura do tendão de Aquiles. ",
+            "explanation": "Falso, Doc! 😋 São sinais que indicam **síndrome do túnel do carpo.**  ",
+            "order": 1,
+            "correct": false,
+            "created_at": "2022-04-13T15:00:36.000Z",
+            "updated_at": "2022-04-13T15:00:36.000Z",
+            "files": []
+          },
+          {
+            "id": 55967,
+            "question_id": 13659,
+            "description": "dissecção do cisto de Baker. ",
+            "explanation": "Falso, Doc! 😋 São sinais que indicam **síndrome do túnel do carpo.**  ",
+            "order": 2,
+            "correct": false,
+            "created_at": "2022-04-13T15:00:36.000Z",
+            "updated_at": "2022-04-13T15:00:36.000Z",
+            "files": []
+          },
+          {
+            "id": 55968,
+            "question_id": 13659,
+            "description": "síndrome do túnel do carpo. ",
+            "explanation": "Muito bem, Doc! 😁 Olha os macetes\n- 💡 Sinal de Phallen = pensa que o paciente fica na posição de punhos fletidos até que \"falhem\" (sente formigamento após até 1 minuto na posição)\n- 💡 Sinal de Tinel = pensa que você faz \"tin tin\" (percute) a região onde passa o nervo mediano. Se houver formigamento na região de inervação, é positivo. \n\nDoc, dizem que uma imagem vale mais que mil palavras. Se liga 👇:\n\nFonte das imagens: https://enfermagemilustrada.com/sinal-de-tinel/\nhttps://traumatologiaeortopedia.com.br/informe/teste-de-phalen/",
+            "order": 3,
+            "correct": true,
+            "created_at": "2022-04-13T15:00:36.000Z",
+            "updated_at": "2022-04-13T15:00:36.000Z",
+            "files": [
+              {
+                "id": 34078,
+                "file": "6f8f9f0b-4353-431f-8690-936e0c78a0ae.jpeg",
+                "name": "Captura de tela 2022-04-13 115736.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2022-04-13T15:00:24.000Z",
+                "updated_at": "2022-04-13T15:00:24.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/6f8f9f0b-4353-431f-8690-936e0c78a0ae.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 34078,
+                  "alternative_id": 55968
+                }
+              },
+              {
+                "id": 34077,
+                "file": "6244444c-b638-435a-a380-08e8f154c097.jpeg",
+                "name": "download (1).jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2022-04-13T15:00:23.000Z",
+                "updated_at": "2022-04-13T15:00:23.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/6244444c-b638-435a-a380-08e8f154c097.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 34077,
+                  "alternative_id": 55968
+                }
+              }
+            ]
+          },
+          {
+            "id": 55969,
+            "question_id": 13659,
+            "description": "necrose asséptica da cabeça do fêmur.",
+            "explanation": "Falso, Doc! 😋 São sinais que indicam **síndrome do túnel do carpo.** ",
+            "order": 4,
+            "correct": false,
+            "created_at": "2022-04-13T15:00:36.000Z",
+            "updated_at": "2022-04-13T15:00:36.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 13659,
+          "questionary_id": 155151,
+          "timer": 0
+        }
+      }
+    ]
+  }

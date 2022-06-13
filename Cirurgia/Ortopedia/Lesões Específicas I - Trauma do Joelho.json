@@ -1,0 +1,1579 @@
+{
+    "id": 155148,
+    "user_id": 1699,
+    "title": "Lesões Específicas I: Trauma do Joelho",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-04-18T18:59:43.000Z",
+    "updated_at": "2022-04-18T18:59:43.000Z",
+    "study_plan_id": 401,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+      {
+        "id": 4901,
+        "institution_id": 4,
+        "description": "Paciente de 55 anos, dá entrada no serviço de emergência devido queda ao sair de casa, colidindo seu joelho direito em um degrau de pedra. Nega outros traumas associados. Queixa de dor em joelho direito. Ao exame físico, percebe-se intenso edema, impotência funcional articular parcial, déficit da extensão ativa do quadríceps, sem ferimento corto contuso associado. Foram solicitadas radiografias de joelho, demonstradas abaixo: \n\n\n\nFonte: Fraturas em adultos de *Rockwood* & Green. 8.ed. Barueri, SP: Manole, 2016.\n\nQual o diagnóstico desta paciente?  ",
+        "difficulty": "easy",
+        "year": "2018-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2020-10-25T00:19:20.000Z",
+        "updated_at": "2021-03-11T04:57:54.000Z",
+        "user_id": 185,
+        "is_residency": false,
+        "institution": {
+          "id": 4,
+          "title": "MEDsimple",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-16T21:11:41.000Z",
+          "updated_at": "2020-05-16T21:11:41.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 234,
+            "title": "Ortopedia",
+            "description": null,
+            "parent_id": 15,
+            "is_enabled": true,
+            "created_at": "2020-06-20T22:54:42.000Z",
+            "updated_at": "2020-06-20T22:54:42.000Z",
+            "pivot": {
+              "discipline_id": 234,
+              "question_id": 4901
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 20265,
+            "question_id": 4901,
+            "description": "Fratura do fêmur distal",
+            "explanation": "Falsa, doc! Veja que a porção femoral está íntegra, sem traços de fratura! Observe a relação das estruturas ósseas na incidência AP do joelho:  \n\n\n",
+            "order": 0,
+            "correct": false,
+            "created_at": "2020-10-24T21:19:20.000Z",
+            "updated_at": "2021-03-11T01:58:33.000Z",
+            "files": [
+              {
+                "id": 1207,
+                "file": "1603574228480.png",
+                "name": "joelho 5.png",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "png",
+                "created_at": "2020-10-25T00:17:09.000Z",
+                "updated_at": "2020-10-25T00:17:09.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1603574228480.png",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 1207,
+                  "alternative_id": 20265
+                }
+              }
+            ]
+          },
+          {
+            "id": 20266,
+            "question_id": 4901,
+            "description": "Fratura do platô tibial",
+            "explanation": "Não caiu nessa né? Falsa! Platô tibial é a fratura intra-articular da tíbia proximal. Perceba, por meio do perfil, que a fratura é em um osso sesamoide anterior à tíbia e ao fêmur!  ",
+            "order": 1,
+            "correct": false,
+            "created_at": "2020-10-24T21:19:20.000Z",
+            "updated_at": "2020-10-25T00:50:06.000Z",
+            "files": []
+          },
+          {
+            "id": 20267,
+            "question_id": 4901,
+            "description": "Fratura da patela",
+            "explanation": "Correto! As incidências radiográficas solicitadas foram as AP, perfil e axial de patela. Perceba que o AP a patela fica com imagens sobrepostas ao fêmur, então é difícil de ver mesmo. Mas na segunda imagem, no perfil, dá para percebermos uma fratura de patela com desvio, certo? Perceba no enunciado, que o exame físico apresenta “déficit da extensão ativa do quadríceps”, isso porque a patela funciona como um elo entre o quadríceps e o tendão patelar, o qual, quando íntegro, permite a transmissão do troque gerado pelo músculo quadríceps para o terço proximal da tíbia, na extensão do joelho.   ",
+            "order": 2,
+            "correct": true,
+            "created_at": "2020-10-24T21:19:20.000Z",
+            "updated_at": "2020-10-25T00:50:06.000Z",
+            "files": []
+          },
+          {
+            "id": 20268,
+            "question_id": 4901,
+            "description": "Luxação do joelho",
+            "explanation": "Nada disso! A luxação de joelho seria a perda de congruência articular do joelho, ou seja, o fêmur e a tíbia estariam “tortos”. A luxação de joelho é grave e pode gerar lesão associada a artéria poplítea, então tem que\nficar ligado!  ",
+            "order": 3,
+            "correct": false,
+            "created_at": "2020-10-24T21:19:20.000Z",
+            "updated_at": "2020-10-25T00:50:06.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [
+          {
+            "id": 1205,
+            "file": "1603574104071.png",
+            "name": "joelho 4.png",
+            "path": "uploads",
+            "type": "image",
+            "subtype": "png",
+            "created_at": "2020-10-25T00:15:05.000Z",
+            "updated_at": "2020-10-25T00:15:05.000Z",
+            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1603574104071.png",
+            "description": null,
+            "source": null,
+            "overlay_id": null,
+            "user_id": null,
+            "pivot": {
+              "file_id": 1205,
+              "question_id": 4901
+            }
+          }
+        ],
+        "pivot": {
+          "question_id": 4901,
+          "questionary_id": 155148,
+          "timer": 0
+        }
+      },
+      {
+        "id": 4904,
+        "institution_id": 4,
+        "description": "Paciente de 28 anos, dá entrada no pronto socorro com histórico de trauma automobilístico há 30min. É trazida pelos bombeiros e a paciente está agitada e implora para que cesse intensa dor no joelho. Ao final da avaliação\nprimária do paciente, você percebe extremidades frias no momento acometido e deformidade importante no joelho em que a paciente se queixava de dor. Você solicita um Rx à beira do leito, que demonstra:  \n\n\n\nFonte: Fraturas em adultos de *Rockwood* & Green. 8.ed. Barueri, SP: Manole, 2016\n\nSobre o caso clínico acima, assinale a afirmativa INCORRETA:    ",
+        "difficulty": "easy",
+        "year": "2019-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2020-10-25T00:35:38.000Z",
+        "updated_at": "2021-03-11T04:57:54.000Z",
+        "user_id": 185,
+        "is_residency": false,
+        "institution": {
+          "id": 4,
+          "title": "MEDsimple",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-16T21:11:41.000Z",
+          "updated_at": "2020-05-16T21:11:41.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 234,
+            "title": "Ortopedia",
+            "description": null,
+            "parent_id": 15,
+            "is_enabled": true,
+            "created_at": "2020-06-20T22:54:42.000Z",
+            "updated_at": "2020-06-20T22:54:42.000Z",
+            "pivot": {
+              "discipline_id": 234,
+              "question_id": 4904
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 20277,
+            "question_id": 4904,
+            "description": "Trata-se de uma fratura-luxação de joelho, uma lesão gravíssima que requer tratamento imediato e que possui incidência descrita subestimada.",
+            "explanation": "Perfeita, Doc! É grave devido ao comum dano neurovascular associado, além da morbidade da lesão. Quanto à incidência, em até 50% dos casos há redução espontânea da incongruência articular logo após o acidente, por isso a incidência das luxações do joelho são subestimadas.  ",
+            "order": 0,
+            "correct": false,
+            "created_at": "2020-10-24T21:35:38.000Z",
+            "updated_at": "2020-10-25T00:49:23.000Z",
+            "files": []
+          },
+          {
+            "id": 20278,
+            "question_id": 4904,
+            "description": "As extremidades frias podem ser um resultado da má perfusão causada pela lesão da artéria poplítea.",
+            "explanation": "Verdadeira. A artéria poplítea é frequentemente lesada devido seu trajeto diretamente posterior à articulação do joelho, entre o hiato dos adutores proximalmente e o arco solear distalmente, ficam imóvel nesse trajeto e ficando susceptível à lesão. ",
+            "order": 1,
+            "correct": false,
+            "created_at": "2020-10-24T21:35:38.000Z",
+            "updated_at": "2020-10-25T00:49:23.000Z",
+            "files": []
+          },
+          {
+            "id": 20279,
+            "question_id": 4904,
+            "description": "A redução da luxação (incongruência articular) deve ser realizada de imediato, para evitar comprometimento neurovascular prolongado.",
+            "explanation": "Exatamente. A redução da fratura remove a tensão gerada no vaso e tende a melhorar o fluxo sanguíneo. A mesma coisa ocorre em relação à lesão nervosa (como o nervo fibular, que pode ser lesado por tração no aspecto lateral do joelho), podendo diminuir o risco de neuropraxia ou paralisia permanente. ",
+            "order": 2,
+            "correct": false,
+            "created_at": "2020-10-24T21:35:38.000Z",
+            "updated_at": "2020-10-25T00:49:23.000Z",
+            "files": []
+          },
+          {
+            "id": 20280,
+            "question_id": 4904,
+            "description": "A associação de lesão de outros órgãos é infrequente.   ",
+            "explanation": "Incorreta! Por ser uma lesão de alta energia (necessária para causar luxação em uma articulação tão grande), frequentemente está associada a lesões ameaçadoras à vida. Não raro estão associadas com trauma craniano,\ntorácico e abdominal. ",
+            "order": 3,
+            "correct": true,
+            "created_at": "2020-10-24T21:35:38.000Z",
+            "updated_at": "2020-10-25T00:49:23.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [
+          {
+            "id": 1213,
+            "file": "1603575070475.png",
+            "name": "joelho 9.png",
+            "path": "uploads",
+            "type": "image",
+            "subtype": "png",
+            "created_at": "2020-10-25T00:31:11.000Z",
+            "updated_at": "2020-10-25T00:31:11.000Z",
+            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1603575070475.png",
+            "description": null,
+            "source": null,
+            "overlay_id": null,
+            "user_id": null,
+            "pivot": {
+              "file_id": 1213,
+              "question_id": 4904
+            }
+          }
+        ],
+        "pivot": {
+          "question_id": 4904,
+          "questionary_id": 155148,
+          "timer": 0
+        }
+      },
+      {
+        "id": 4914,
+        "institution_id": 15,
+        "description": "No compartimento medial do joelho, o ligamento colateral medial, ou colateral tibial, se destaca. Ele é uma das principais estruturas lesadas. O seu mecanismo de lesão mais comum é:   ",
+        "difficulty": "easy",
+        "year": "2016-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2020-10-25T03:06:18.000Z",
+        "updated_at": "2020-10-25T03:06:18.000Z",
+        "user_id": 185,
+        "is_residency": false,
+        "institution": {
+          "id": 15,
+          "title": "UFPR",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-17T21:15:10.000Z",
+          "updated_at": "2020-05-17T21:15:10.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 234,
+            "title": "Ortopedia",
+            "description": null,
+            "parent_id": 15,
+            "is_enabled": true,
+            "created_at": "2020-06-20T22:54:42.000Z",
+            "updated_at": "2020-06-20T22:54:42.000Z",
+            "pivot": {
+              "discipline_id": 234,
+              "question_id": 4914
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 20318,
+            "question_id": 4914,
+            "description": "Hiperextensão do joelho. ",
+            "explanation": "Incorreta. Pode estar associada à lesão do ligamento cruzado quando há trauma rotacional com hiperextensão.  ",
+            "order": 0,
+            "correct": false,
+            "created_at": "2020-10-25T00:06:18.000Z",
+            "updated_at": "2020-10-25T00:06:18.000Z",
+            "files": []
+          },
+          {
+            "id": 20319,
+            "question_id": 4914,
+            "description": "Trauma direto. ",
+            "explanation": "Incorreta. O ligamento colateral medial é lesado em um trauma em valgo (aproxima o joelho da linha\nmediana).  ",
+            "order": 1,
+            "correct": false,
+            "created_at": "2020-10-25T00:06:18.000Z",
+            "updated_at": "2020-10-25T00:06:18.000Z",
+            "files": []
+          },
+          {
+            "id": 20320,
+            "question_id": 4914,
+            "description": "Rotação interna do joelho. ",
+            "explanation": "Incorreta! Os traumas rotacionais estão mais envolvidos na lesão dos ligamentos cruzados, que dão\nestabilidade nesse tipo de movimento.  ",
+            "order": 2,
+            "correct": false,
+            "created_at": "2020-10-25T00:06:18.000Z",
+            "updated_at": "2020-10-25T00:06:18.000Z",
+            "files": []
+          },
+          {
+            "id": 20321,
+            "question_id": 4914,
+            "description": "Estresse em valgo. ",
+            "explanation": "Correta! O estresse em valgo estira o ligamento colateral medial e pode o romper, a depender da força exercida e das condições de resistência do paciente.  ",
+            "order": 3,
+            "correct": true,
+            "created_at": "2020-10-25T00:06:18.000Z",
+            "updated_at": "2020-10-25T00:06:18.000Z",
+            "files": []
+          },
+          {
+            "id": 20322,
+            "question_id": 4914,
+            "description": "Trauma com a tíbia em extensão.",
+            "explanation": "Incorreta. Não está associado ao mecanismo de trauma do ligamento colateral medial.  ",
+            "order": 4,
+            "correct": false,
+            "created_at": "2020-10-25T00:06:18.000Z",
+            "updated_at": "2020-10-25T00:06:18.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 4914,
+          "questionary_id": 155148,
+          "timer": 0
+        }
+      },
+      {
+        "id": 4915,
+        "institution_id": 25,
+        "description": "Jogador de futebol profissional sofreu, em uma partida oficial, trauma em valgo do joelho direito que o impediu de se levantar do solo, tendo sido retirado na maca. Qual sinal, dentre os abaixo, deverá ser positivo para esse\ntipo de trauma?  ",
+        "difficulty": "easy",
+        "year": "2014-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2020-10-25T03:09:51.000Z",
+        "updated_at": "2020-10-25T03:09:51.000Z",
+        "user_id": 185,
+        "is_residency": false,
+        "institution": {
+          "id": 25,
+          "title": "USP",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-18T19:55:52.000Z",
+          "updated_at": "2020-05-18T19:55:52.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 234,
+            "title": "Ortopedia",
+            "description": null,
+            "parent_id": 15,
+            "is_enabled": true,
+            "created_at": "2020-06-20T22:54:42.000Z",
+            "updated_at": "2020-06-20T22:54:42.000Z",
+            "pivot": {
+              "discipline_id": 234,
+              "question_id": 4915
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 20323,
+            "question_id": 4915,
+            "description": "Teste da gaveta anterior",
+            "explanation": "Incorreta! Esse teste avalia a lesão do ligamento cruzado anterior, que tem como mecanismo principal de\ntrauma de lesão a rotação do fêmur sobre a tíbia (trauma rotacional).  ",
+            "order": 0,
+            "correct": false,
+            "created_at": "2020-10-25T00:09:51.000Z",
+            "updated_at": "2020-10-25T00:09:51.000Z",
+            "files": []
+          },
+          {
+            "id": 20324,
+            "question_id": 4915,
+            "description": "Teste da gaveta posterior",
+            "explanation": "Incorreta! Esse teste avalia a lesão do ligamento cruzado posterior, que não possui esse mecanismo de\ntrauma.  ",
+            "order": 1,
+            "correct": false,
+            "created_at": "2020-10-25T00:09:51.000Z",
+            "updated_at": "2020-10-25T00:09:51.000Z",
+            "files": []
+          },
+          {
+            "id": 20325,
+            "question_id": 4915,
+            "description": "Teste do bocejo medial",
+            "explanation": "Correta! O estresse em valgo (aproximação do joelho da linha mediana) coloca em risco a lesão do ligamento colateral medial, assim como o estresse em varo (afastamento do joelho da linha mediana) coloca em risco a lesão do ligamento colateral lateral. O teste para avaliação da lesão do ligamento colateral medial é o teste do bocejo medial ou estresse em valgo.   ",
+            "order": 2,
+            "correct": true,
+            "created_at": "2020-10-25T00:09:51.000Z",
+            "updated_at": "2020-10-25T00:09:51.000Z",
+            "files": []
+          },
+          {
+            "id": 20326,
+            "question_id": 4915,
+            "description": "Teste do bocejo lateral",
+            "explanation": "Incorreta! Esse teste avalia a lesão do ligamento colateral lateral, que tem por mecanismo de lesão o trauma em varo do joelho.  ",
+            "order": 3,
+            "correct": false,
+            "created_at": "2020-10-25T00:09:51.000Z",
+            "updated_at": "2020-10-25T00:09:51.000Z",
+            "files": []
+          },
+          {
+            "id": 20327,
+            "question_id": 4915,
+            "description": "Teste do ressalto de MacIntosh",
+            "explanation": "Incorreta! O Teste do ressalto de Macintosh ou Pivô-Shift avalia a lesão do ligamento cruzado anterior, que tem por mecanismo de trauma principalmente um trauma rotacional do fêmur sobre a tíbia.  ",
+            "order": 4,
+            "correct": false,
+            "created_at": "2020-10-25T00:09:51.000Z",
+            "updated_at": "2020-10-25T00:09:51.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 4915,
+          "questionary_id": 155148,
+          "timer": 0
+        }
+      },
+      {
+        "id": 4917,
+        "institution_id": 14,
+        "description": "Paciente de 15 anos estava jogando futebol no domingo quando teve trauma em joelho à direita. Ao exame: hiperemia, aumento discreto de temperatura, aumento de volume, com presença de edema e ausência de crepitação. A conduta mais indicada nesse caso é:  ",
+        "difficulty": "easy",
+        "year": "2010-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2020-10-25T03:22:58.000Z",
+        "updated_at": "2020-10-25T03:45:26.000Z",
+        "user_id": 185,
+        "is_residency": false,
+        "institution": {
+          "id": 14,
+          "title": "FJG",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-17T21:06:39.000Z",
+          "updated_at": "2020-05-17T21:06:39.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 234,
+            "title": "Ortopedia",
+            "description": null,
+            "parent_id": 15,
+            "is_enabled": true,
+            "created_at": "2020-06-20T22:54:42.000Z",
+            "updated_at": "2020-06-20T22:54:42.000Z",
+            "pivot": {
+              "discipline_id": 234,
+              "question_id": 4917
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 20333,
+            "question_id": 4917,
+            "description": "Prescrever compressas frias, recomendar elevar o membro para diminuir a dor e o edema e prescrever anti-inflamatório.",
+            "explanation": "Correta, doc! É uma questão que não envolve grandes conhecimentos específicos. O diagnóstico provável é o de uma contusão do joelho e a conduta correta é o descrito na alternativa A. ",
+            "order": 0,
+            "correct": true,
+            "created_at": "2020-10-25T00:22:58.000Z",
+            "updated_at": "2020-10-25T00:45:26.000Z",
+            "files": []
+          },
+          {
+            "id": 20334,
+            "question_id": 4917,
+            "description": "Prescrever compressas frias, recomendar elevar o membro para diminuir a dor e o edema e prescrever anti-inflamatório e antibiótico profilático.  ",
+            "explanation": "Incorreta. Os sinais flogísticos são compatíveis com o trauma recente e não há necessidade de prescrição de antibioticoterapia profilaxia neste caso de trauma fechado do joelho.  ",
+            "order": 1,
+            "correct": false,
+            "created_at": "2020-10-25T00:22:58.000Z",
+            "updated_at": "2020-10-25T00:45:26.000Z",
+            "files": []
+          },
+          {
+            "id": 20335,
+            "question_id": 4917,
+            "description": "Imobilização total do joelho com gesso por 2 semanas e prescrição de anti-inflamatório e de analgésico, sem necessidade de antibioticoterapia.  ",
+            "explanation": "Incorreta. Deve-se reservar a imobilização para casos de lesões ligamentares mais graves ou fraturas, pois sua utilização desnecessária pode levar à rigidez articular e hipotrofia muscular por desuso.  ",
+            "order": 2,
+            "correct": false,
+            "created_at": "2020-10-25T00:22:58.000Z",
+            "updated_at": "2020-10-25T00:45:26.000Z",
+            "files": []
+          },
+          {
+            "id": 20336,
+            "question_id": 4917,
+            "description": "Realizar punção articular para descompressão do derrame seroso, prescrição de anti-inflamatório e compressa fria.",
+            "explanation": "Incorreta. A punção articular só é realizada em hemartroses volumosas no trauma de joelho, com a finalidade de alívio sintomático. A questão não sugere derrame articular volumoso para tal conduta.  ",
+            "order": 3,
+            "correct": false,
+            "created_at": "2020-10-25T00:22:58.000Z",
+            "updated_at": "2020-10-25T00:45:26.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 4917,
+          "questionary_id": 155148,
+          "timer": 0
+        }
+      },
+      {
+        "id": 4898,
+        "institution_id": 4,
+        "description": "Paciente feminino, 25 anos, dá entrada na emergência geral após acidente moto versus carro, sem TCE, com mecanismo de trauma de forças compressivas axiais combinada estresse em valgo do joelho direito. Paciente se queixa de dor intensa em joelho direito, sem outras queixas. Ao exame físico, apresenta equimose em região proximal da tíbia, sinal da tecla positivo em joelho direito e limitação de movimento devido à dor.\nO médico plantonista solicita radiografias de joelho nas incidências AP (A), perfil (B), oblíqua interna (C) e oblíqua externa (D) e recebe as imagens abaixo:\n\n\n\n\nFonte imagem: Kfuri Júnior M, Fogagnolo F, Bitar RC, Freitas RL, Salim R, Paccola CAJ. Fraturas do planalto tibial. Rev Bras Ortop. 2009;44(6):468–74.   \n\nDe acordo com o caso clínico acima, assinale a afirmativa com as proposições corretas:\n- I. Trata-se de uma fratura de côndilo femoral direito.\n- II. Trata-se de uma fratura do platô tibial direito.\n- III. É uma fratura com distribuição bimodal: acomete mais jovens de 20-45 anos em traumas de alta energia e idosos em traumas de baixa energia.\n- IV. O acometimento mais comum é da região lateral da tíbia proximal.\n\n\n\n",
+        "difficulty": "medium",
+        "year": "2016-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2020-10-24T23:57:41.000Z",
+        "updated_at": "2021-03-11T04:57:54.000Z",
+        "user_id": 185,
+        "is_residency": false,
+        "institution": {
+          "id": 4,
+          "title": "MEDsimple",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-16T21:11:41.000Z",
+          "updated_at": "2020-05-16T21:11:41.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 234,
+            "title": "Ortopedia",
+            "description": null,
+            "parent_id": 15,
+            "is_enabled": true,
+            "created_at": "2020-06-20T22:54:42.000Z",
+            "updated_at": "2020-06-20T22:54:42.000Z",
+            "pivot": {
+              "discipline_id": 234,
+              "question_id": 4898
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 20253,
+            "question_id": 4898,
+            "description": "Somente I, III, IV são corretas.",
+            "explanation": "A. Essa afirmativa é falsa pois a fratura é do platô tibial e não do côndilo femoral (I incorreta). Fraturas do platô tibial (ou planalto tibial) são fraturas intra-articulares da tíbia proximal (II correta). As afirmativas II, III e IV são verdadeiras.\n\n \n\n Fonte imagem: Netter FH. Atlas de Anatomia Humana. 5a. Rio de Janeiro: Elsevier; 2011.  ",
+            "order": 0,
+            "correct": false,
+            "created_at": "2020-10-24T20:57:41.000Z",
+            "updated_at": "2021-03-11T01:58:33.000Z",
+            "files": [
+              {
+                "id": 1203,
+                "file": "1603572819246.png",
+                "name": "joelho 2.png",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "png",
+                "created_at": "2020-10-24T23:53:40.000Z",
+                "updated_at": "2020-10-24T23:53:40.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1603572819246.png",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 1203,
+                  "alternative_id": 20253
+                }
+              }
+            ]
+          },
+          {
+            "id": 20254,
+            "question_id": 4898,
+            "description": "Somente II, III, IV são corretas.",
+            "explanation": "B. Isso aí, Doc! A proposição II é correta pois a fratura demonstrada na radiografias é uma fratura intra-articular da tíbia proximal.\n\nA proposição III relata exatamente a epidemiologia desse tipo de fratura. As fraturas do platô tibial em jovens\ngeralmente cursa com traço de fratura por cisalhamento com ou sem depressão articular. Já em idosos, é comum a depressão óssea em trauma de baixa energia, tendo em vista a menor qualidade óssea desses pacientes.\n\nA proposição IV é correta. O acometimento mais comum é o lateral devido a existência de um valgo fisiológico do joelho.\n\n ",
+            "order": 1,
+            "correct": true,
+            "created_at": "2020-10-24T20:57:41.000Z",
+            "updated_at": "2020-10-25T00:52:13.000Z",
+            "files": []
+          },
+          {
+            "id": 20255,
+            "question_id": 4898,
+            "description": "Somente I e III são corretas.",
+            "explanation": "Vide comentários acima!",
+            "order": 2,
+            "correct": false,
+            "created_at": "2020-10-24T20:57:41.000Z",
+            "updated_at": "2020-10-25T00:52:13.000Z",
+            "files": []
+          },
+          {
+            "id": 20256,
+            "question_id": 4898,
+            "description": "Somente II e III são corretas.",
+            "explanation": "Vide comentários acima!",
+            "order": 3,
+            "correct": false,
+            "created_at": "2020-10-24T20:57:41.000Z",
+            "updated_at": "2020-10-25T00:52:13.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [
+          {
+            "id": 1201,
+            "file": "1603572575625.png",
+            "name": "joelho 1.png",
+            "path": "uploads",
+            "type": "image",
+            "subtype": "png",
+            "created_at": "2020-10-24T23:49:36.000Z",
+            "updated_at": "2020-10-24T23:49:36.000Z",
+            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1603572575625.png",
+            "description": null,
+            "source": null,
+            "overlay_id": null,
+            "user_id": null,
+            "pivot": {
+              "file_id": 1201,
+              "question_id": 4898
+            }
+          }
+        ],
+        "pivot": {
+          "question_id": 4898,
+          "questionary_id": 155148,
+          "timer": 0
+        }
+      },
+      {
+        "id": 4899,
+        "institution_id": 4,
+        "description": "O primeiro exame para o diagnóstico e o melhor exame para classificação e planejamento cirúrgico das fraturas de platô tibial são, respectivamente:\n\n",
+        "difficulty": "medium",
+        "year": "2018-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2020-10-25T00:06:42.000Z",
+        "updated_at": "2020-10-25T03:43:29.000Z",
+        "user_id": 185,
+        "is_residency": false,
+        "institution": {
+          "id": 4,
+          "title": "MEDsimple",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-16T21:11:41.000Z",
+          "updated_at": "2020-05-16T21:11:41.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 234,
+            "title": "Ortopedia",
+            "description": null,
+            "parent_id": 15,
+            "is_enabled": true,
+            "created_at": "2020-06-20T22:54:42.000Z",
+            "updated_at": "2020-06-20T22:54:42.000Z",
+            "pivot": {
+              "discipline_id": 234,
+              "question_id": 4899
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 20257,
+            "question_id": 4899,
+            "description": "Tomografia computadorizada e ressonância magnética de joelho.",
+            "explanation": "Falsa, doc! A Tomografia Computadorizada é um bom exame para classificação e planejamento cirúrgico das fraturas do platô tibial. Sabe-se que a Tomografia Computadorizada altera a via de acesso, em relação à avaliação pela radiografia, em 30% dos casos e altera o plano cirúrgico em 50% das fraturas de platô tibial. Isso porque, através dela, é possível avaliar melhor os fragmentos de praticamente todos os ângulos da fratura.   \nJá a Ressonância Magnética, tem sua utilidade na avaliação das lesões de partes moles associadas, como lesões meniscais e ligamentares. No entanto, como não há indicação de reparo destas lesões na fase aguda do trauma, geralmente este exame não é necessário. ",
+            "order": 0,
+            "correct": false,
+            "created_at": "2020-10-24T21:06:42.000Z",
+            "updated_at": "2020-10-25T00:43:29.000Z",
+            "files": []
+          },
+          {
+            "id": 20258,
+            "question_id": 4899,
+            "description": "Radiografia e  Tomografia computadorizada de joelho.",
+            "explanation": "Correta! A Radiografia é o primeiro exame a ser solicitado e frequentemente faz o diagnóstico da fratura. Sua vantagem em relação à tomografia computadorizada é a sua maior disponibilidade, baixo custo e menor dose de radiação.  \nAs incidências indicadas são a Antero-Posterior, Perfil e Antero-Posterior com 10 a 15 graus de angulação, esta a qual visualiza melhor a superfície do platô, devido à angulação de aproximadamente 11 graus deste. \nA Tomografia Computadorizada, por sua vez, é um excelente exame para classificação e planejamento cirúrgico. A classificação mais difundida é (lá vem palavrão da ortopedia, se prepara!) a de Schatzker.    \n\n\nI – Fratura por cisalhamento do platô lateral \nII – Fratura por cisalhamento e depressão do platô lateral \nIII – Depressão do platô lateral \nIV – Fratura por cisalhamento do platô medial \nV – Fratura bicondilar \nVI – Extensão metafisária  ",
+            "order": 1,
+            "correct": true,
+            "created_at": "2020-10-24T21:06:42.000Z",
+            "updated_at": "2021-03-11T01:58:33.000Z",
+            "files": [
+              {
+                "id": 1204,
+                "file": "1603573493852.png",
+                "name": "joelho 3.png",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "png",
+                "created_at": "2020-10-25T00:04:54.000Z",
+                "updated_at": "2020-10-25T00:04:54.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1603573493852.png",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 1204,
+                  "alternative_id": 20258
+                }
+              }
+            ]
+          },
+          {
+            "id": 20259,
+            "question_id": 4899,
+            "description": "Radiografia e ressonância magnética de joelho.",
+            "explanation": "Já explicamos né, Doc?! Sem mais enrolação. Revisa ali no comentário da A e B! Radiografia como primeiro exame ok, ressonância para classificar não!  \n\n",
+            "order": 2,
+            "correct": false,
+            "created_at": "2020-10-24T21:06:42.000Z",
+            "updated_at": "2020-10-25T00:43:29.000Z",
+            "files": []
+          },
+          {
+            "id": 20260,
+            "question_id": 4899,
+            "description": "Radiografia e ultrassom de joelho.",
+            "explanation": "Radiografia ok! Ultrassom de joelho avalia algumas lesões de partes moles, mas não consegue mostrar fratura e nem classificar!  ",
+            "order": 3,
+            "correct": false,
+            "created_at": "2020-10-24T21:06:42.000Z",
+            "updated_at": "2020-10-25T00:43:29.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 4899,
+          "questionary_id": 155148,
+          "timer": 0
+        }
+      },
+      {
+        "id": 4905,
+        "institution_id": 4,
+        "description": " Analise a imagem abaixo e assinale a alternativa correta:  \n\n\n\nFonte: Fraturas em adultos de *Rockwood* & Green. 8.ed. Barueri, SP: Manole, 2016  ",
+        "difficulty": "medium",
+        "year": "2017-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2020-10-25T00:38:28.000Z",
+        "updated_at": "2021-03-11T04:57:54.000Z",
+        "user_id": 185,
+        "is_residency": false,
+        "institution": {
+          "id": 4,
+          "title": "MEDsimple",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-16T21:11:41.000Z",
+          "updated_at": "2020-05-16T21:11:41.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 234,
+            "title": "Ortopedia",
+            "description": null,
+            "parent_id": 15,
+            "is_enabled": true,
+            "created_at": "2020-06-20T22:54:42.000Z",
+            "updated_at": "2020-06-20T22:54:42.000Z",
+            "pivot": {
+              "discipline_id": 234,
+              "question_id": 4905
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 20281,
+            "question_id": 4905,
+            "description": "Trata-se de uma luxação de joelho e se deve realizar a redução de imediato.",
+            "explanation": "Falsa, doc! O fêmur e a tíbia estão alinhados, não há incongruência articular, portanto não há luxação!  ",
+            "order": 0,
+            "correct": false,
+            "created_at": "2020-10-24T21:38:28.000Z",
+            "updated_at": "2020-10-25T00:49:05.000Z",
+            "files": []
+          },
+          {
+            "id": 20282,
+            "question_id": 4905,
+            "description": "Trata-se de uma fratura de côndilo femoral lateral.",
+            "explanation": "Falsa! Os côndilos estão íntegros, não há traço de fratura nas corticais ósseas femorais.  ",
+            "order": 1,
+            "correct": false,
+            "created_at": "2020-10-24T21:38:28.000Z",
+            "updated_at": "2020-10-25T00:49:05.000Z",
+            "files": []
+          },
+          {
+            "id": 20283,
+            "question_id": 4905,
+            "description": "Trata-se de uma fratura do platô tibial, com um traço de cisalhamento no platô lateral e depressão articular.",
+            "explanation": "Correto! É exatamente o que demonstra a radiografia do joelho, sendo classificada como Schatzker II, o tipo mais comum de fratura do platô tibial!  ",
+            "order": 2,
+            "correct": true,
+            "created_at": "2020-10-24T21:38:28.000Z",
+            "updated_at": "2020-10-25T00:49:05.000Z",
+            "files": []
+          },
+          {
+            "id": 20284,
+            "question_id": 4905,
+            "description": "As setas indicam o local do traço de cisalhamento da fratura da tíbia proximal.",
+            "explanation": "Falsa! As setas indicam o local de depressão óssea.  ",
+            "order": 3,
+            "correct": false,
+            "created_at": "2020-10-24T21:38:28.000Z",
+            "updated_at": "2020-10-25T00:49:05.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [
+          {
+            "id": 1214,
+            "file": "1603575377242.png",
+            "name": "joelho '0.png",
+            "path": "uploads",
+            "type": "image",
+            "subtype": "png",
+            "created_at": "2020-10-25T00:36:18.000Z",
+            "updated_at": "2020-10-25T00:36:18.000Z",
+            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1603575377242.png",
+            "description": null,
+            "source": null,
+            "overlay_id": null,
+            "user_id": null,
+            "pivot": {
+              "file_id": 1214,
+              "question_id": 4905
+            }
+          }
+        ],
+        "pivot": {
+          "question_id": 4905,
+          "questionary_id": 155148,
+          "timer": 0
+        }
+      },
+      {
+        "id": 4906,
+        "institution_id": 4,
+        "description": "Sobre as luxações do joelho, assinale a alternativa INCORRETA: ",
+        "difficulty": "medium",
+        "year": "2019-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2020-10-25T00:42:23.000Z",
+        "updated_at": "2020-10-25T03:45:08.000Z",
+        "user_id": 185,
+        "is_residency": false,
+        "institution": {
+          "id": 4,
+          "title": "MEDsimple",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-16T21:11:41.000Z",
+          "updated_at": "2020-05-16T21:11:41.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 234,
+            "title": "Ortopedia",
+            "description": null,
+            "parent_id": 15,
+            "is_enabled": true,
+            "created_at": "2020-06-20T22:54:42.000Z",
+            "updated_at": "2020-06-20T22:54:42.000Z",
+            "pivot": {
+              "discipline_id": 234,
+              "question_id": 4906
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 20285,
+            "question_id": 4906,
+            "description": "A luxação anterior é o tipo mais comum, por trauma em hiperextensão (fêmur para posterior e tíbia para anterior).",
+            "explanation": "Correta! Depois da luxação anterior, a luxação posterior é o segundo tipo mais comum. Podem ocorrer ainda luxações lateral, medial ou rotatória.  ",
+            "order": 0,
+            "correct": false,
+            "created_at": "2020-10-24T21:42:23.000Z",
+            "updated_at": "2020-10-25T00:45:08.000Z",
+            "files": []
+          },
+          {
+            "id": 20286,
+            "question_id": 4906,
+            "description": "As lesões neurovasculares são comuns, podendo levar à isquemia de perna e/ou “síndrome do pé caído”.  ",
+            "explanation": "Isso aí, correta! A lesão de artéria poplítea pode acontecer em 35-45% dos casos, podendo lesão à isquemia da perna e, se persistente, à amputação do membro. Quanto à síndrome do pé caído, esse ocorre por lesão do nervo fibular comum, que incide em 25-35% dos casos de luxação de joelho.  ",
+            "order": 1,
+            "correct": false,
+            "created_at": "2020-10-24T21:42:23.000Z",
+            "updated_at": "2020-10-25T00:45:08.000Z",
+            "files": []
+          },
+          {
+            "id": 20287,
+            "question_id": 4906,
+            "description": "A rigidez do joelho é uma complicação frequente.",
+            "explanation": "Correta e autoexplicativa!\n  ",
+            "order": 2,
+            "correct": false,
+            "created_at": "2020-10-24T21:42:23.000Z",
+            "updated_at": "2020-10-25T00:45:08.000Z",
+            "files": []
+          },
+          {
+            "id": 20288,
+            "question_id": 4906,
+            "description": "É uma lesão grave e, por isso, a redução deve ser sempre realizada no centro cirúrgico para proteção do paciente.",
+            "explanation": "Negativo, falsa! Justamente por ser uma lesão grave, a redução deve ser feita o quanto antes, incruenta,\npara não persistir o dano neurovascular, frequente nesse tipo de trauma.  ",
+            "order": 3,
+            "correct": true,
+            "created_at": "2020-10-24T21:42:23.000Z",
+            "updated_at": "2020-10-25T00:45:08.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 4906,
+          "questionary_id": 155148,
+          "timer": 0
+        }
+      },
+      {
+        "id": 4908,
+        "institution_id": 26,
+        "description": "Sobre as fraturas do planalto tibial, é correto afirmar que:   ",
+        "difficulty": "medium",
+        "year": "2020-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2020-10-25T00:52:58.000Z",
+        "updated_at": "2020-10-25T00:52:58.000Z",
+        "user_id": 185,
+        "is_residency": false,
+        "institution": {
+          "id": 26,
+          "title": "UEPA",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-18T19:57:18.000Z",
+          "updated_at": "2020-05-18T19:57:18.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 234,
+            "title": "Ortopedia",
+            "description": null,
+            "parent_id": 15,
+            "is_enabled": true,
+            "created_at": "2020-06-20T22:54:42.000Z",
+            "updated_at": "2020-06-20T22:54:42.000Z",
+            "pivot": {
+              "discipline_id": 234,
+              "question_id": 4908
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 20293,
+            "question_id": 4908,
+            "description": "As fraturas do platô medial estão relacionadas com trauma de alta energia. ",
+            "explanation": "Correta. Na verdade todas as fraturas do platô tibial com cisalhamento geralmente têm associação com\ntrauma de alta energia. Entretando, as do platô medial certamente estão.   ",
+            "order": 0,
+            "correct": true,
+            "created_at": "2020-10-24T21:52:58.000Z",
+            "updated_at": "2020-10-24T21:52:58.000Z",
+            "files": []
+          },
+          {
+            "id": 20294,
+            "question_id": 4908,
+            "description": "A avaliação de lesões de partes moles associadas em torno do joelho não é importante. ",
+            "explanation": "Incorreto! É importante pois nos dá uma dica quanto à maior energia do trauma e é fundamental para definição\ndo tratamento cirúrgico definitivo ou não. Lesão de partes moles com comunicação com o hematoma fraturário é uma fratura exposta, que possivelmente será abordada primeiramente com fixador externo (cirurgia de controle de danos) até a melhora das partes moles, seguida pelo tratamento definitivo com osteossíntese interna (possivelmente com o uso de placas).   ",
+            "order": 1,
+            "correct": false,
+            "created_at": "2020-10-24T21:52:58.000Z",
+            "updated_at": "2020-10-24T21:52:58.000Z",
+            "files": []
+          },
+          {
+            "id": 20295,
+            "question_id": 4908,
+            "description": "As fraturas do planalto tibial envolvem a superfície articular da região da extremidade distal da tíbia. ",
+            "explanation": "Incorreta! As fraturas do planalto tibial são as fraturas intra-articulares da extremidade proximal da tíbia. As da extremidade distal, intra-articulares, são denominadas fraturas do pilão tibial.   ",
+            "order": 2,
+            "correct": false,
+            "created_at": "2020-10-24T21:52:58.000Z",
+            "updated_at": "2020-10-24T21:52:58.000Z",
+            "files": []
+          },
+          {
+            "id": 20296,
+            "question_id": 4908,
+            "description": "Fraturas da região proximal da tíbia que não envolve a superfície articular apresentam características semelhantes. ",
+            "explanation": "Incorreta! As intra-articulares possuem uma abordagem de tratamento totalmente diferentes das extra-articulares e apresentam diferentes potenciais complicações (como rigidez articular).  ",
+            "order": 3,
+            "correct": false,
+            "created_at": "2020-10-24T21:52:58.000Z",
+            "updated_at": "2020-10-24T21:52:58.000Z",
+            "files": []
+          },
+          {
+            "id": 20297,
+            "question_id": 4908,
+            "description": "Não apresenta fraturas com alto potencial para causar complicações que podem colocar em risco o membro afetado.",
+            "explanation": "Incorreta! Essa fraturas têm alto risco de desenvolver síndrome compartimental, a qual coloca em risco o membro afetado e pode incorrer em amputação!",
+            "order": 4,
+            "correct": false,
+            "created_at": "2020-10-24T21:52:58.000Z",
+            "updated_at": "2020-10-24T21:52:58.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 4908,
+          "questionary_id": 155148,
+          "timer": 0
+        }
+      },
+      {
+        "id": 4916,
+        "institution_id": 13,
+        "description": "Paciente de 23 anos, sexo masculino, referindo entorse de joelho direito jogando futebol. Queixa-se de\ndor, edema e incapacidade de apoiar o pé direito no chão. Refere ter escutado um estalo na hora do entorse do joelho direito. Na punção da articulação do joelho encontramos hemartrose. Radiografias do joelho sem sinais de fratura. A principal hipótese diagnóstica é lesão do:  ",
+        "difficulty": "medium",
+        "year": "2011-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2020-10-25T03:13:27.000Z",
+        "updated_at": "2020-10-25T03:13:27.000Z",
+        "user_id": 185,
+        "is_residency": false,
+        "institution": {
+          "id": 13,
+          "title": "UNIFESP",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-17T18:27:33.000Z",
+          "updated_at": "2020-05-17T18:27:33.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 234,
+            "title": "Ortopedia",
+            "description": null,
+            "parent_id": 15,
+            "is_enabled": true,
+            "created_at": "2020-06-20T22:54:42.000Z",
+            "updated_at": "2020-06-20T22:54:42.000Z",
+            "pivot": {
+              "discipline_id": 234,
+              "question_id": 4916
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 20328,
+            "question_id": 4916,
+            "description": "Ligamento colateral medial",
+            "explanation": "Incorreta! Geralmente o mecanismo de trauma é estresse em valgo, não entorse (trauma torsional).  ",
+            "order": 0,
+            "correct": false,
+            "created_at": "2020-10-25T00:13:27.000Z",
+            "updated_at": "2020-10-25T00:13:27.000Z",
+            "files": []
+          },
+          {
+            "id": 20329,
+            "question_id": 4916,
+            "description": "Ligamento cruzado posterior",
+            "explanation": "Incorreta! Lesão mais rara em traumas torcionais. O mecanismo clássico é trauma direto sobre a tíbia em acidentes automobilísticos ou desacelerações bruscas.",
+            "order": 1,
+            "correct": false,
+            "created_at": "2020-10-25T00:13:27.000Z",
+            "updated_at": "2020-10-25T00:13:27.000Z",
+            "files": []
+          },
+          {
+            "id": 20330,
+            "question_id": 4916,
+            "description": "Menisco medial",
+            "explanation": "Incorreta! Essa lesão pode estar associada ao trauma, mas não é a hipótese principal.  ",
+            "order": 2,
+            "correct": false,
+            "created_at": "2020-10-25T00:13:27.000Z",
+            "updated_at": "2020-10-25T00:13:27.000Z",
+            "files": []
+          },
+          {
+            "id": 20331,
+            "question_id": 4916,
+            "description": "Ligamento cruzado anterior  ",
+            "explanation": "Correta! História clássica: dor no joelho após trauma torsional (rotação interna do fêmur sobre a tíbia), estalido\n(às vezes audível) e derrame articular (hemartrose) – nesse caso pense sempre em lesão do Ligamento Cruzado Anterior.   ",
+            "order": 3,
+            "correct": true,
+            "created_at": "2020-10-25T00:13:27.000Z",
+            "updated_at": "2020-10-25T00:13:27.000Z",
+            "files": []
+          },
+          {
+            "id": 20332,
+            "question_id": 4916,
+            "description": "Menisco lateral",
+            "explanation": "Incorreta! Essa lesão não é comum, o menisco medial é mais lesado do que o lateral.  ",
+            "order": 4,
+            "correct": false,
+            "created_at": "2020-10-25T00:13:27.000Z",
+            "updated_at": "2020-10-25T00:13:27.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 4916,
+          "questionary_id": 155148,
+          "timer": 0
+        }
+      },
+      {
+        "id": 4900,
+        "institution_id": 4,
+        "description": "Sobre o tratamento das fraturas do platô tibial, é correto afirmar:\n\n ",
+        "difficulty": "hard",
+        "year": "2020-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2020-10-25T00:14:06.000Z",
+        "updated_at": "2020-10-25T00:14:06.000Z",
+        "user_id": 185,
+        "is_residency": false,
+        "institution": {
+          "id": 4,
+          "title": "MEDsimple",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-16T21:11:41.000Z",
+          "updated_at": "2020-05-16T21:11:41.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 234,
+            "title": "Ortopedia",
+            "description": null,
+            "parent_id": 15,
+            "is_enabled": true,
+            "created_at": "2020-06-20T22:54:42.000Z",
+            "updated_at": "2020-06-20T22:54:42.000Z",
+            "pivot": {
+              "discipline_id": 234,
+              "question_id": 4900
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 20261,
+            "question_id": 4900,
+            "description": "O tratamento é sempre conservador, independentemente da classificação da fratura.",
+            "explanation": "Falsa, Doc! As fraturas de platô tibiais são intra-articulares, de modo que um desalinhamento e desnível\narticular leva a inúmeras sequelas, como rigidez articular, artrose pós-traumática, entre outros. Por isso, frequentemente são fraturas de tratamento cirúrgico. Se estiver curioso, as indicações principais de tratamento conservador são:  \n- Fraturas sem desvio e com baixo risco de desviarem; \n-  Pacientes idosos ou com baixa demanda; \n- Pacientes com alto risco cirúrgico; \n- Depressões articulares isoladas (até 10mm) do platô lateral sem\ndeformidades. \nJá as principais contra-indicações relativas são: \n-  Joelho instável;\n- Padrões desviados mediais.  ",
+            "order": 0,
+            "correct": false,
+            "created_at": "2020-10-24T21:14:06.000Z",
+            "updated_at": "2020-10-24T21:14:06.000Z",
+            "files": []
+          },
+          {
+            "id": 20262,
+            "question_id": 4900,
+            "description": "O tratamento é sempre cirúrgico, independentemente da classificação da fratura, por serem intra-articulares.",
+            "explanation": "Falsa! Calma lá, sempre cirúrgica não! Falamos na afirmativa A as principais indicações de tratamento\nconservador. Então vai abaixo as principais indicações de tratamento cirúrgico:  \n- Desviadas e instáveis quando não é possível manter o alinhamento com tratamento conservador;\n- Schatzker IV, V e VI, sempre que possível;\n- Schatzker I, II e III, se: Depressão > 50% da superfície e/ou fratura da cabeça da fíbula e/ou valgo clínico ou na radiografia.",
+            "order": 1,
+            "correct": false,
+            "created_at": "2020-10-24T21:14:06.000Z",
+            "updated_at": "2020-10-24T21:14:06.000Z",
+            "files": []
+          },
+          {
+            "id": 20263,
+            "question_id": 4900,
+            "description": "O tratamento é principalmente conservador,  para provocar menos agressão nas estruturas internas do joelho.",
+            "explanation": " Falsa! A agressão cirúrgica é o “custo” para o benefício de evitar as complicações de uma fratura intra-articular mal tratada, como artrose pós-traumática, que gera dor crônica no joelho!   ",
+            "order": 2,
+            "correct": false,
+            "created_at": "2020-10-24T21:14:06.000Z",
+            "updated_at": "2020-10-24T21:14:06.000Z",
+            "files": []
+          },
+          {
+            "id": 20264,
+            "question_id": 4900,
+            "description": "O tratamento é geralmente cirúrgico, mas há indicações de tratamento conservador que levam em consideração o desvio da fratura, o nível de depressão óssea/articular,  idade e condições clínicas do paciente, podendo ter bom resultado.",
+            "explanation": "Certíssima! Já percebeu pelos comentários anteriores que há indicações tanto conservadoras quanto cirúrgicas, mas que esta última abordagem é mais comum. O tratamento conservador, por sua vez, que envolve não pisar ao solo (chamamos de “sem carga”) por 4 a 8 semanas com o uso de imobilizadores tipo órtese, tem sucesso em até 90% dos casos, quando bem indicado.  ",
+            "order": 3,
+            "correct": true,
+            "created_at": "2020-10-24T21:14:06.000Z",
+            "updated_at": "2020-10-24T21:14:06.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 4900,
+          "questionary_id": 155148,
+          "timer": 0
+        }
+      },
+      {
+        "id": 4902,
+        "institution_id": 4,
+        "description": "Em relação ao tratamento das fraturas de patela, é correto afirmar: \n-  I. O tratamento das fraturas da patela está fundamentado na classificação da fratura e nos achados do exame físico, levando-se em conta a integridade do mecanismo extensor. Idade e qualidade óssea, além de lesões associadas, podem influenciar na tomada de decisão cirúrgica.   \n-  II. Dentre os objetivos do tratamento cirúrgico da fratura de patela estão: máxima preservação da patela, para que mantenha sua função de deslocamento e transmissão de força do mecanismo extensor; restauração da congruência articular.   \n-  III. O tratamento conservador é reservado aos casos de pacientes idosos com má qualidade óssea ou pacientes sem condições cirúrgicas.  ",
+        "difficulty": "hard",
+        "year": "2019-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2020-10-25T00:23:47.000Z",
+        "updated_at": "2020-10-25T03:33:06.000Z",
+        "user_id": 185,
+        "is_residency": false,
+        "institution": {
+          "id": 4,
+          "title": "MEDsimple",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-16T21:11:41.000Z",
+          "updated_at": "2020-05-16T21:11:41.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 234,
+            "title": "Ortopedia",
+            "description": null,
+            "parent_id": 15,
+            "is_enabled": true,
+            "created_at": "2020-06-20T22:54:42.000Z",
+            "updated_at": "2020-06-20T22:54:42.000Z",
+            "pivot": {
+              "discipline_id": 234,
+              "question_id": 4902
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 20269,
+            "question_id": 4902,
+            "description": "Somente a afirmativa I é correta.",
+            "explanation": "Falsa! As proposições I e II são corretas. Sobre elas: \n- I - Correta e autoexplicativa! O mecanismo extensor é importante visto que a patela, por\nligar o músculo quadríceps ao tendão patelar, permite a transmissão da força de extensão do joelho, que é fundamental para as atividades diárias, como subir escadas ou se levantar de uma cadeira.\n- II - Perfeita! Esses são os principais objetivos do tratamento cirúrgico, quando indicado.  ",
+            "order": 0,
+            "correct": false,
+            "created_at": "2020-10-24T21:23:47.000Z",
+            "updated_at": "2020-10-25T00:33:06.000Z",
+            "files": []
+          },
+          {
+            "id": 20270,
+            "question_id": 4902,
+            "description": "Somente a afirmativa II é correta.",
+            "explanation": "Falsa! As proposições I e II são corretas, como explicado acima!  ",
+            "order": 1,
+            "correct": false,
+            "created_at": "2020-10-24T21:23:47.000Z",
+            "updated_at": "2020-10-25T00:33:06.000Z",
+            "files": []
+          },
+          {
+            "id": 20271,
+            "question_id": 4902,
+            "description": "Somente as afirmativas I e II são corretas.",
+            "explanation": "É isso aí! As proposições I e II são corretas. Como já explicamos acima.  ",
+            "order": 2,
+            "correct": true,
+            "created_at": "2020-10-24T21:23:47.000Z",
+            "updated_at": "2020-10-25T00:33:06.000Z",
+            "files": []
+          },
+          {
+            "id": 20272,
+            "question_id": 4902,
+            "description": "Somente as afirmativas II e III são corretas.  ",
+            "explanation": "Negativo! A proposição III é falsa! Na proposição III consta os fatores que podem indicar o tratamento conservador (não operatório), sem dúvida, mas não é reservado somente para esses casos. Veja abaixo outras indicações:  \n\n\n Fonte: Fraturas em adultos de *Rockwood* & Green. 8.ed. Barueri, SP: Manole, 2016  ",
+            "order": 3,
+            "correct": false,
+            "created_at": "2020-10-24T21:23:47.000Z",
+            "updated_at": "2021-03-11T01:58:33.000Z",
+            "files": [
+              {
+                "id": 1208,
+                "file": "1603574606087.png",
+                "name": "joelho 6.png",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "png",
+                "created_at": "2020-10-25T00:23:26.000Z",
+                "updated_at": "2020-10-25T00:23:26.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1603574606087.png",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 1208,
+                  "alternative_id": 20272
+                }
+              }
+            ]
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 4902,
+          "questionary_id": 155148,
+          "timer": 0
+        }
+      },
+      {
+        "id": 4903,
+        "institution_id": 4,
+        "description": "Sobre as fraturas do fêmur distal, pode-se afirmar:  ",
+        "difficulty": "hard",
+        "year": "2019-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2020-10-25T00:29:59.000Z",
+        "updated_at": "2020-11-30T03:23:01.000Z",
+        "user_id": 185,
+        "is_residency": false,
+        "institution": {
+          "id": 4,
+          "title": "MEDsimple",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-16T21:11:41.000Z",
+          "updated_at": "2020-05-16T21:11:41.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 234,
+            "title": "Ortopedia",
+            "description": null,
+            "parent_id": 15,
+            "is_enabled": true,
+            "created_at": "2020-06-20T22:54:42.000Z",
+            "updated_at": "2020-06-20T22:54:42.000Z",
+            "pivot": {
+              "discipline_id": 234,
+              "question_id": 4903
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 20273,
+            "question_id": 4903,
+            "description": "Podem ser divididas em fraturas supracondilianas (acometem o fêmur distal acima dos côndilos femorais), intercondilianas (em que o traço de fratura ocorre entre os côndilos femorais) e condilianas ou condilar (o traço de fratura passa exatamente no(s) côndilo(s) femorais). ",
+            "explanation": "Correta! O grande problema dessas fraturas é que muitas delas são intra-articulares (fraturas do joelho!), de modo que pode haver lesão da cartilagem articular. Veja alguns exemplos esquemáticos:  \n\n\n\n Fraturas supracondilianas  👆\n\n\n Fratura intercondiliana  👆",
+            "order": 0,
+            "correct": true,
+            "created_at": "2020-10-24T21:29:59.000Z",
+            "updated_at": "2021-03-11T01:58:39.000Z",
+            "files": [
+              {
+                "id": 1212,
+                "file": "1603574852794.png",
+                "name": "joelho 7.1.png",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "png",
+                "created_at": "2020-10-25T00:27:33.000Z",
+                "updated_at": "2020-10-25T00:27:33.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1603574852794.png",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 1212,
+                  "alternative_id": 20273
+                }
+              },
+              {
+                "id": 1211,
+                "file": "1603574809704.png",
+                "name": "joelho 8.png",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "png",
+                "created_at": "2020-10-25T00:26:50.000Z",
+                "updated_at": "2020-10-25T00:26:50.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1603574809704.png",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 1211,
+                  "alternative_id": 20273
+                }
+              }
+            ]
+          },
+          {
+            "id": 20274,
+            "question_id": 4903,
+            "description": "São muito problemáticas, visto que há alta incidência de lesão da artéria poplítea, mais ainda do que nos casos de luxação de joelho.",
+            "explanation": " Incorreta! A lesão da artéria poplítea é mais comum na luxação de joelho do que nas fraturas distais do fêmur!  ",
+            "order": 1,
+            "correct": false,
+            "created_at": "2020-10-24T21:29:59.000Z",
+            "updated_at": "2020-11-30T00:23:01.000Z",
+            "files": []
+          },
+          {
+            "id": 20275,
+            "question_id": 4903,
+            "description": "São pouco graves, de modo que geralmente o tratamento é conservador (não-cirúrgico).",
+            "explanation": "Incorreta também. Via de regra, o tratamento é cirúrgico, o qual objetiva redução anatômica (“perfeita”), principalmente nas intra-articulares; preservação da vascularização aos fragmentos fraturários; estabilização da\nfratura com fixação interna adeuqada e movimentação ativa precoce do joelho. ",
+            "order": 2,
+            "correct": false,
+            "created_at": "2020-10-24T21:29:59.000Z",
+            "updated_at": "2020-11-30T00:23:01.000Z",
+            "files": []
+          },
+          {
+            "id": 20276,
+            "question_id": 4903,
+            "description": "Deve-se ficar um longo período com o joelho em tala (meses), no pós-operatório, sem fletir e estender, a fim de consolidar a fratura.",
+            "explanation": "Falsa! Para a consolidação da fratura, deve-se orientar o paciente quanto à liberação da carga axial (ou seja, quando ele pode voltar a pisar!). No entanto, deve-se estimular movimentação ativa precoce do joelho, para evitar rigidez articular.  ",
+            "order": 3,
+            "correct": false,
+            "created_at": "2020-10-24T21:29:59.000Z",
+            "updated_at": "2020-11-30T00:23:01.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 4903,
+          "questionary_id": 155148,
+          "timer": 0
+        }
+      },
+      {
+        "id": 4907,
+        "institution_id": 4,
+        "description": "Sobre as lesões ligamentares do joelho, assinale a alternativa CORRETA: ",
+        "difficulty": "hard",
+        "year": "2019-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2020-10-25T00:48:04.000Z",
+        "updated_at": "2020-10-25T03:31:53.000Z",
+        "user_id": 185,
+        "is_residency": false,
+        "institution": {
+          "id": 4,
+          "title": "MEDsimple",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-16T21:11:41.000Z",
+          "updated_at": "2020-05-16T21:11:41.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 234,
+            "title": "Ortopedia",
+            "description": null,
+            "parent_id": 15,
+            "is_enabled": true,
+            "created_at": "2020-06-20T22:54:42.000Z",
+            "updated_at": "2020-06-20T22:54:42.000Z",
+            "pivot": {
+              "discipline_id": 234,
+              "question_id": 4907
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 20289,
+            "question_id": 4907,
+            "description": "O ligamento cruzado anterior (LCA) e do ligamento colateral lateral (LCL) são os responsáveis pela maior parte da lesões ligamentares de joelho.",
+            "explanation": "Incorreta! Os responsáveis pela maior parte das lesões ligamentares do joelho são o Ligamento Cruzado\nAnterior (LCA) e Ligamento Colateral Medial (LCM), este devido à maior incidência de lesões com mecanismo de trauma em valgo (aproxima o joelho da linha mediana) do que em varo (afasta o joelho da linha mediana).  ",
+            "order": 0,
+            "correct": false,
+            "created_at": "2020-10-24T21:48:04.000Z",
+            "updated_at": "2020-10-25T00:31:53.000Z",
+            "files": []
+          },
+          {
+            "id": 20290,
+            "question_id": 4907,
+            "description": "O mecanismo mais comum de lesão do LCA é por súbita rotação interna do fêmur com o pé fixado no chão e hiperextensão do joelho.",
+            "explanation": "Correta e autoexplicativa! Esse é o mecanismo mais comum de lesão do LCA.  ",
+            "order": 1,
+            "correct": true,
+            "created_at": "2020-10-24T21:48:04.000Z",
+            "updated_at": "2020-10-25T00:31:53.000Z",
+            "files": []
+          },
+          {
+            "id": 20291,
+            "question_id": 4907,
+            "description": "O menisco mais lesado é o menisco lateral e o mecanismo típico de lesão meniscal envolve súbitos movimentos de torção do joelho fletido, gerando forças de compressão em um segmento meniscal. ",
+            "explanation": "Incorreta! O mais lesado é o menisco medial, 75% dos casos. Isso porque este é menos móvel, porque é nele\nque passa a maior parte da carga axial do corpo e pela maior frequência do seu mecanismo de trauma: súbita rotação interna do fêmur sobre a tíbia com o joelho flexionado e o pé fixado ao chão.  ",
+            "order": 2,
+            "correct": false,
+            "created_at": "2020-10-24T21:48:04.000Z",
+            "updated_at": "2020-10-25T00:31:53.000Z",
+            "files": []
+          },
+          {
+            "id": 20292,
+            "question_id": 4907,
+            "description": "A “tríade terrível” é composta pela lesão do menisco lateral, do Ligamento Cruzado Anterior (LCA) e do Ligamento Colateral Medial (LCM). ",
+            "explanation": "Incorreta!  A \"tríade terrível\" é a associação combinada do menisco medial, do LCA e do LCM, sendo a associação descrita mais comum de trauma conjunto de ligamento cruzado, ligamento colateral e menisco. Quanto ao tratamento, a lesão do ligamento cruzado anterior é geralmente cirúrgica, especialmente em pacientes jovens e ativos. Já ao ligamento colateral medial, é comum adotar-se uma conduta conservadora, visto há que boa cicatrização. Quanto ao menisco medial, a conduta é variável, a depender do grau de lesão da estrutura, análise realizada pelo especialista.   ",
+            "order": 3,
+            "correct": false,
+            "created_at": "2020-10-24T21:48:04.000Z",
+            "updated_at": "2020-10-25T00:31:53.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 4907,
+          "questionary_id": 155148,
+          "timer": 0
+        }
+      }
+    ]
+  }

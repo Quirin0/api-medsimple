@@ -1,0 +1,1424 @@
+{
+    "id": 155029,
+    "user_id": 1699,
+    "title": "Oftalmopediatria",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-04-18T18:29:14.000Z",
+    "updated_at": "2022-04-18T18:29:14.000Z",
+    "study_plan_id": 1164,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+      {
+        "id": 12817,
+        "institution_id": 540,
+        "description": "Pais de pré-escolar, sexo feminino, 4 anos, em consulta de rotina com pediatra referem que as fotos de sua filha, quando tiradas com flash, apresentam a **seguinte alteração:**\n \nO exame ocular revelou: reflexo vermelho alterado no olho direito e normal no esquerdo. Fundo de olho normal à esquerda e à direita com múltiplas massas rosadas, vascularizadas, parcialmente ",
+        "difficulty": "easy",
+        "year": "2022-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2022-02-21T22:49:31.000Z",
+        "updated_at": "2022-02-21T22:49:31.000Z",
+        "user_id": 32,
+        "is_residency": true,
+        "institution": {
+          "id": 540,
+          "title": "HOSPITAL ISREALITA ALBERT EINSTEIN",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2021-11-29T11:14:46.000Z",
+          "updated_at": "2021-11-29T11:14:46.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 1109,
+            "title": "Oftalmopediatria",
+            "description": null,
+            "parent_id": 364,
+            "is_enabled": true,
+            "created_at": "2022-02-21T22:30:30.000Z",
+            "updated_at": "2022-02-21T22:30:30.000Z",
+            "pivot": {
+              "discipline_id": 1109,
+              "question_id": 12817
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 52584,
+            "question_id": 12817,
+            "description": "retinoblastoma. ",
+            "explanation": "Perfeito, Doc 🤩.\n- O retinoblastoma é um tipo raro de câncer ocular, mais comum em crianças e responde por 3% dos cânceres infantis\n- Entre 60% e 75% dos casos de retinoblastoma são esporádicos\n- Doc, podemos ver na imagem um \"reflexo branco\" unilateral, compatível com uma obstrução na luz (impossibilitando que a mesma chegue a retina). Isso dá a impressão do \"branco\".\n- Recentemente, um caso veio a público trazido pela figura pública de Thiago Leifert em sua filha, confira na imagem.\n- Fonte da imagem: [https://www.fashionbubbles.com/saude/retinoblastoma/](https://www.fashionbubbles.com/saude/retinoblastoma/) ",
+            "order": 0,
+            "correct": true,
+            "created_at": "2022-02-21T22:49:31.000Z",
+            "updated_at": "2022-02-21T22:49:31.000Z",
+            "files": [
+              {
+                "id": 28454,
+                "file": "20a67e72-e863-4ad4-a050-e383fb4fa89b.jpeg",
+                "name": "lua_filha_de_tiago_leifert_retinoblastoma.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2022-02-21T22:37:33.000Z",
+                "updated_at": "2022-02-21T22:37:33.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/20a67e72-e863-4ad4-a050-e383fb4fa89b.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 28454,
+                  "alternative_id": 52584
+                }
+              }
+            ]
+          },
+          {
+            "id": 52585,
+            "question_id": 12817,
+            "description": "catarata congênita",
+            "explanation": "Quase, Doc 😊.\n- Seu raciocínio foi correto, mas vamos ver o porquê não está certo.\n- Uma turvação total ou parcial do cristalino que está presente no nascimento ou logo após o nascimento.\n- Aparece como um reflexo branco, que geralmente é unilateral. Mas então, porquê não poderia ser?\n- Como é uma obstrução do cristalino, não teriamos essas \"múltiplas massas rosadas, vascularizadas\", que são muito mais características do retinoblastoma.",
+            "order": 1,
+            "correct": false,
+            "created_at": "2022-02-21T22:49:31.000Z",
+            "updated_at": "2022-02-21T22:49:31.000Z",
+            "files": [
+              {
+                "id": 28455,
+                "file": "2f311667-ff4e-454b-93b4-7d3107edc077.jpeg",
+                "name": "catarata-congenita-como-identificar-no-seu-bebe.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2022-02-21T22:42:00.000Z",
+                "updated_at": "2022-02-21T22:42:00.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2f311667-ff4e-454b-93b4-7d3107edc077.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 28455,
+                  "alternative_id": 52585
+                }
+              }
+            ]
+          },
+          {
+            "id": 52586,
+            "question_id": 12817,
+            "description": "doença de Coats. ",
+            "explanation": "Falso, Doc.\n- Doença congênita, idiopática e não hereditária. Caracteriza-se por telangiectasias retinianas e intensa exsudação.\n- No fundo de olho temos **hemorragias e exsudatos decorrentes do extravasamento de sangue (como na imagem).**",
+            "order": 2,
+            "correct": false,
+            "created_at": "2022-02-21T22:49:31.000Z",
+            "updated_at": "2022-02-21T22:49:31.000Z",
+            "files": [
+              {
+                "id": 28456,
+                "file": "76fd732e-3055-4b44-a742-6ab1d4daacdd.png",
+                "name": "image-34.png",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "png",
+                "created_at": "2022-02-21T22:44:26.000Z",
+                "updated_at": "2022-02-21T22:44:26.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/76fd732e-3055-4b44-a742-6ab1d4daacdd.png",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 28456,
+                  "alternative_id": 52586
+                }
+              },
+              {
+                "id": 28458,
+                "file": "06af8e20-f57e-4bd9-84d1-ee101a053dff.png",
+                "name": "image-34.png",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "png",
+                "created_at": "2022-02-21T22:44:28.000Z",
+                "updated_at": "2022-02-21T22:44:28.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/06af8e20-f57e-4bd9-84d1-ee101a053dff.png",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 28458,
+                  "alternative_id": 52586
+                }
+              }
+            ]
+          },
+          {
+            "id": 52587,
+            "question_id": 12817,
+            "description": "descolamento de retina. ",
+            "explanation": "Longe, Doc 😂\n- É o desprendimento da retina da superfície interna do globo ocular.\n- Visualizamos essas imagens de descolamento (amarelado) em fundo de olho.\n- Acontece geralmente em pacientes mais velhos.",
+            "order": 3,
+            "correct": false,
+            "created_at": "2022-02-21T22:49:31.000Z",
+            "updated_at": "2022-02-21T22:49:31.000Z",
+            "files": [
+              {
+                "id": 28459,
+                "file": "d9939b18-3fa0-4bb3-b717-9ff9dabc1eb3.jpeg",
+                "name": "descolamento-de-retina.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2022-02-21T22:48:30.000Z",
+                "updated_at": "2022-02-21T22:48:30.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d9939b18-3fa0-4bb3-b717-9ff9dabc1eb3.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 28459,
+                  "alternative_id": 52587
+                }
+              }
+            ]
+          }
+        ],
+        "answers": [],
+        "files": [
+          {
+            "id": 28452,
+            "file": "3b42dc48-39dc-4269-8196-80c086dd80d8.png",
+            "name": "olhotestevermelho.png",
+            "path": "uploads",
+            "type": "image",
+            "subtype": "png",
+            "created_at": "2022-02-21T22:32:13.000Z",
+            "updated_at": "2022-02-21T22:32:13.000Z",
+            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3b42dc48-39dc-4269-8196-80c086dd80d8.png",
+            "description": null,
+            "source": null,
+            "overlay_id": null,
+            "user_id": null,
+            "pivot": {
+              "file_id": 28452,
+              "question_id": 12817
+            }
+          }
+        ],
+        "pivot": {
+          "question_id": 12817,
+          "questionary_id": 155029,
+          "timer": 0
+        }
+      },
+      {
+        "id": 12818,
+        "institution_id": null,
+        "description": "Qual lesão de nervo é mais compatível com a foto?",
+        "difficulty": "easy",
+        "year": "2022-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2022-02-21T23:15:06.000Z",
+        "updated_at": "2022-02-21T23:15:06.000Z",
+        "user_id": 32,
+        "is_residency": false,
+        "institution": null,
+        "disciplines": [
+          {
+            "id": 1109,
+            "title": "Oftalmopediatria",
+            "description": null,
+            "parent_id": 364,
+            "is_enabled": true,
+            "created_at": "2022-02-21T22:30:30.000Z",
+            "updated_at": "2022-02-21T22:30:30.000Z",
+            "pivot": {
+              "discipline_id": 1109,
+              "question_id": 12818
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 52588,
+            "question_id": 12818,
+            "description": "Paralisia do VII nervo",
+            "explanation": "Quase, Doc 😊\n- A paralisia do **nervo facial** (7º par craniano) geralmente é idiopática (anteriormente chamada paralisia de Bell).\n- Os sintomas da paralisia do nervo facial compreendem paresia hemifacial das porções superior e inferior da face.\n- [Fonte da imagem](https://www.msdmanuals.com/pt/profissional/dist%C3%BArbios-neurol%C3%B3gicos/doen%C3%A7as-neuroftalmol%C3%B3gicas-e-de-pares-cranianos/paralisia-do-nervo-facial) ",
+            "order": 0,
+            "correct": false,
+            "created_at": "2022-02-21T23:15:06.000Z",
+            "updated_at": "2022-02-21T23:15:06.000Z",
+            "files": [
+              {
+                "id": 28464,
+                "file": "88a7f447-6777-43fe-bcf2-ee66682ead25.png",
+                "name": "Screenshot 2022-02-21 200934.png",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "png",
+                "created_at": "2022-02-21T23:09:42.000Z",
+                "updated_at": "2022-02-21T23:09:42.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/88a7f447-6777-43fe-bcf2-ee66682ead25.png",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 28464,
+                  "alternative_id": 52588
+                }
+              }
+            ]
+          },
+          {
+            "id": 52589,
+            "question_id": 12818,
+            "description": "Paralisia do III nervo",
+            "explanation": "Quase, Doc.\n- O terceiro nervo craniano controla o movimento de **quatro dos seis músculos oculares.**\n- Crianças mais velhas e adultos com paralisia do terceiro nervo geralmente têm visão dupla (diplopia) devido ao desalinhamento dos olhos.\n- Confira na imagem o achado específico desse paralisia\n- [Fonte da imagem](https://d3i71xaburhd42.cloudfront.net/b33223719a36d8118c025f2768359d1e23270819/4-Figure3-1.png) ",
+            "order": 1,
+            "correct": false,
+            "created_at": "2022-02-21T23:15:06.000Z",
+            "updated_at": "2022-02-21T23:15:06.000Z",
+            "files": [
+              {
+                "id": 28465,
+                "file": "39ff2ef9-5e01-42b2-975d-cdd00ea5c631.png",
+                "name": "4-Figure3-1.png",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "png",
+                "created_at": "2022-02-21T23:14:23.000Z",
+                "updated_at": "2022-02-21T23:14:23.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/39ff2ef9-5e01-42b2-975d-cdd00ea5c631.png",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 28465,
+                  "alternative_id": 52589
+                }
+              }
+            ]
+          },
+          {
+            "id": 52590,
+            "question_id": 12818,
+            "description": "Paralisia do VI nervo",
+            "explanation": "Quase, Doc 😊. A lógica foi boa.\n- É a fraqueza do nervo que inerva o **músculo reto lateral.**\n- **Gira o olho para fora (abducente)**\n- Quando temos algum problema nesse nervo, o músculo reto lateral é fraco e o olho fica para dentro (como na foto).\n- [Fonte da imagem](https://www.scielo.br/j/rbof/a/Gtw6KnT84VkTYQgMBhkG9Wc/?lang=pt)  ",
+            "order": 2,
+            "correct": false,
+            "created_at": "2022-02-21T23:15:06.000Z",
+            "updated_at": "2022-02-21T23:15:06.000Z",
+            "files": [
+              {
+                "id": 28463,
+                "file": "22a9bf32-c397-4340-a296-2d2d7c744da7.jpeg",
+                "name": "1cd2cecfe62e95a86164e2c0438ff3904b683519.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2022-02-21T23:05:43.000Z",
+                "updated_at": "2022-02-21T23:05:43.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/22a9bf32-c397-4340-a296-2d2d7c744da7.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 28463,
+                  "alternative_id": 52590
+                }
+              }
+            ]
+          },
+          {
+            "id": 52591,
+            "question_id": 12818,
+            "description": "Paralisia do IV nervo",
+            "explanation": "Perfeito, Doc 🤩\n- O quarto nervo craniano inerva o **músculo oblíquo superior**, de modo a paralisia também é conhecida como paralisia oblíqua superior.\n- A fraqueza do músculo oblíquo superior causa uma combinação de estrabism**o vertical, horizontal e torcional dos olhos.** \n- O estrabismo vertical é normalmente **o desvio mais perceptível.**\n- **Confira numa nova imagem, Doc**",
+            "order": 3,
+            "correct": true,
+            "created_at": "2022-02-21T23:15:06.000Z",
+            "updated_at": "2022-02-21T23:15:06.000Z",
+            "files": [
+              {
+                "id": 28462,
+                "file": "a5738221-b3b1-477d-8b72-6bcb99986b3c.jpeg",
+                "name": "açao inervaç.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2022-02-21T23:03:41.000Z",
+                "updated_at": "2022-02-21T23:03:41.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a5738221-b3b1-477d-8b72-6bcb99986b3c.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 28462,
+                  "alternative_id": 52591
+                }
+              }
+            ]
+          }
+        ],
+        "answers": [],
+        "files": [
+          {
+            "id": 28460,
+            "file": "32c12f58-eeb3-4164-a076-ddf064913649.jpeg",
+            "name": "manobra-de-Bielschowsky.jpg",
+            "path": "uploads",
+            "type": "image",
+            "subtype": "jpeg",
+            "created_at": "2022-02-21T22:52:31.000Z",
+            "updated_at": "2022-02-21T22:52:31.000Z",
+            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/32c12f58-eeb3-4164-a076-ddf064913649.jpeg",
+            "description": null,
+            "source": null,
+            "overlay_id": null,
+            "user_id": null,
+            "pivot": {
+              "file_id": 28460,
+              "question_id": 12818
+            }
+          },
+          {
+            "id": 28461,
+            "file": "b4e3f69a-b812-4961-8eee-ff9c450d28e7.jpeg",
+            "name": "manobra-de-Bielschowsky.jpg",
+            "path": "uploads",
+            "type": "image",
+            "subtype": "jpeg",
+            "created_at": "2022-02-21T22:52:33.000Z",
+            "updated_at": "2022-02-21T22:52:33.000Z",
+            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b4e3f69a-b812-4961-8eee-ff9c450d28e7.jpeg",
+            "description": null,
+            "source": null,
+            "overlay_id": null,
+            "user_id": null,
+            "pivot": {
+              "file_id": 28461,
+              "question_id": 12818
+            }
+          }
+        ],
+        "pivot": {
+          "question_id": 12818,
+          "questionary_id": 155029,
+          "timer": 0
+        }
+      },
+      {
+        "id": 12823,
+        "institution_id": null,
+        "description": "Quais são os principais agentes bacterianos causadores de conjuntivite?",
+        "difficulty": "easy",
+        "year": "2022-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2022-02-21T23:52:16.000Z",
+        "updated_at": "2022-02-21T23:52:16.000Z",
+        "user_id": 32,
+        "is_residency": false,
+        "institution": null,
+        "disciplines": [
+          {
+            "id": 1109,
+            "title": "Oftalmopediatria",
+            "description": null,
+            "parent_id": 364,
+            "is_enabled": true,
+            "created_at": "2022-02-21T22:30:30.000Z",
+            "updated_at": "2022-02-21T22:30:30.000Z",
+            "pivot": {
+              "discipline_id": 1109,
+              "question_id": 12823
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 52608,
+            "question_id": 12823,
+            "description": "Haemophilus influenzae, Staphylococcus aureus e Streptococcus pneumonia.",
+            "explanation": "Perfeito Doc 🤩. Brilhante. Incrível! Você é demais.\n\nSegunda a Bíblia da Pediatria - Nelson Textbook of Pediatricas, os seguintes microrganismos são os mais comuns causadores de conjuntivite bacteriana: **Haemophilus influenzae, Haemophilus aegyptius, Streptococcus pneumoniae, Staphylococcus aureus, Moraxella catarrhalis.**",
+            "order": 0,
+            "correct": true,
+            "created_at": "2022-02-21T23:52:16.000Z",
+            "updated_at": "2022-02-21T23:52:16.000Z",
+            "files": []
+          },
+          {
+            "id": 52609,
+            "question_id": 12823,
+            "description": "Staphylococcus epidermidis, Staphylococcus aureus e Moraxella catarrhalis.",
+            "explanation": "Quase Doc 😢\n- Resposta conceitual, confira o comentário completo na alternativa correta 🤩",
+            "order": 1,
+            "correct": false,
+            "created_at": "2022-02-21T23:52:16.000Z",
+            "updated_at": "2022-02-21T23:52:16.000Z",
+            "files": []
+          },
+          {
+            "id": 52610,
+            "question_id": 12823,
+            "description": "Streptococcus pneumoniae, Moraxella catarrhalis e Streptococcus pyogenes.",
+            "explanation": "Quase Doc 😢\n- Resposta conceitual, confira o comentário completo na alternativa correta 🤩 ",
+            "order": 2,
+            "correct": false,
+            "created_at": "2022-02-21T23:52:16.000Z",
+            "updated_at": "2022-02-21T23:52:16.000Z",
+            "files": []
+          },
+          {
+            "id": 52611,
+            "question_id": 12823,
+            "description": "Staphylococcus pyogenes, Staphylococcus aureus e Streptococcus pneumonia.",
+            "explanation": "Quase Doc 😢\n- Resposta conceitual, confira o comentário completo na alternativa correta 🤩 ",
+            "order": 3,
+            "correct": false,
+            "created_at": "2022-02-21T23:52:16.000Z",
+            "updated_at": "2022-02-21T23:52:16.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 12823,
+          "questionary_id": 155029,
+          "timer": 0
+        }
+      },
+      {
+        "id": 12824,
+        "institution_id": null,
+        "description": "Sobre as conjuntivites alérgicas na faixa etária pediátrica assinale a alternativa incorreta:",
+        "difficulty": "easy",
+        "year": "2022-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2022-02-21T23:57:33.000Z",
+        "updated_at": "2022-02-21T23:57:33.000Z",
+        "user_id": 32,
+        "is_residency": false,
+        "institution": null,
+        "disciplines": [
+          {
+            "id": 1109,
+            "title": "Oftalmopediatria",
+            "description": null,
+            "parent_id": 364,
+            "is_enabled": true,
+            "created_at": "2022-02-21T22:30:30.000Z",
+            "updated_at": "2022-02-21T22:30:30.000Z",
+            "pivot": {
+              "discipline_id": 1109,
+              "question_id": 12824
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 52612,
+            "question_id": 12824,
+            "description": "Pode ocorrer em qualquer época do ano.",
+            "explanation": "Está correto, Doc 🤩. Principalmente num clima mais homegêneo (como no Brasil)",
+            "order": 0,
+            "correct": false,
+            "created_at": "2022-02-21T23:57:33.000Z",
+            "updated_at": "2022-02-21T23:57:33.000Z",
+            "files": []
+          },
+          {
+            "id": 52613,
+            "question_id": 12824,
+            "description": "Pode ter relação com outras doenças alérgicas como a rinite.",
+            "explanation": "Muito correto! Anota essa doc 🤩\n\nTemos uma relação gigantesca entre outras doenças atópicas como rinite alérgica, dermatite atópica, etc.",
+            "order": 1,
+            "correct": false,
+            "created_at": "2022-02-21T23:57:33.000Z",
+            "updated_at": "2022-02-21T23:57:33.000Z",
+            "files": []
+          },
+          {
+            "id": 52614,
+            "question_id": 12824,
+            "description": "Deve-se sempre utilizar colírio com corticoide para tratamento.",
+            "explanation": "Falso, Doc 😊. Tava na cara, né? 😂\n- O tratamento é baseado em cuidados gerais, tais como o **controle ambiental**, **evitar contatos com os alérgenos** desencadeantes e usar **compressas frias oculares.** \n- Boa, esse é o principal 👆👆👆\n- Massss... quando indicado tratamento medicamentoso, podemo**s usar lubrificantes oculares e anti-histamínicos orais ou tópicos.**\n- Corticoides apenas em últimas casos\n- \n[Fonte da imagem](https://www.dramagdamiranda.com.br/wp-content/uploads/2018/11/conjuntivite-alergica.jpg)  ",
+            "order": 2,
+            "correct": true,
+            "created_at": "2022-02-21T23:57:33.000Z",
+            "updated_at": "2022-02-21T23:57:33.000Z",
+            "files": [
+              {
+                "id": 28474,
+                "file": "f05a9ec7-fe6d-45d9-a3e2-bf149053731c.jpeg",
+                "name": "conjuntivite-alergica.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2022-02-21T23:56:43.000Z",
+                "updated_at": "2022-02-21T23:56:43.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f05a9ec7-fe6d-45d9-a3e2-bf149053731c.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 28474,
+                  "alternative_id": 52614
+                }
+              }
+            ]
+          },
+          {
+            "id": 52615,
+            "question_id": 12824,
+            "description": "O diagnóstico geralmente é clínico.",
+            "explanation": "Perfeito, doc 🤩\n- É isso mesmo, não precisamos de nenhum exame específico para o diagnóstico.\n- [Fonte da imagem](https://www.dramagdamiranda.com.br/wp-content/uploads/2018/11/conjuntivite-alergica.jpg) ",
+            "order": 3,
+            "correct": false,
+            "created_at": "2022-02-21T23:57:33.000Z",
+            "updated_at": "2022-02-21T23:57:33.000Z",
+            "files": [
+              {
+                "id": 28474,
+                "file": "f05a9ec7-fe6d-45d9-a3e2-bf149053731c.jpeg",
+                "name": "conjuntivite-alergica.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2022-02-21T23:56:43.000Z",
+                "updated_at": "2022-02-21T23:56:43.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f05a9ec7-fe6d-45d9-a3e2-bf149053731c.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 28474,
+                  "alternative_id": 52615
+                }
+              }
+            ]
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 12824,
+          "questionary_id": 155029,
+          "timer": 0
+        }
+      },
+      {
+        "id": 12819,
+        "institution_id": 28,
+        "description": "Criança de 9 anos apresenta cefaleia supraorbitária, fotofobia, ardor, lacrimejamento e hiperemia ocular. Os diagnósticos clínico e de ametropia, e a necessidade de lentes, são, respec-tivamente:",
+        "difficulty": "medium",
+        "year": "2019-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2022-02-21T23:27:46.000Z",
+        "updated_at": "2022-02-21T23:27:46.000Z",
+        "user_id": 32,
+        "is_residency": true,
+        "institution": {
+          "id": 28,
+          "title": "UNESP",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-05-18T20:27:31.000Z",
+          "updated_at": "2020-05-18T20:27:31.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 1109,
+            "title": "Oftalmopediatria",
+            "description": null,
+            "parent_id": 364,
+            "is_enabled": true,
+            "created_at": "2022-02-21T22:30:30.000Z",
+            "updated_at": "2022-02-21T22:30:30.000Z",
+            "pivot": {
+              "discipline_id": 1109,
+              "question_id": 12819
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 52592,
+            "question_id": 12819,
+            "description": "astenopia e astigmatismo miópico baixo; cilindro negativo.",
+            "explanation": "Perfeito, Doc 🤩\n- Astenopia é caracterizada pelo desconforto ocular após esforço, cefaléia supraorbitária, fotofobia, ardor, lacrimejamento e hiperemia ocular, caracterizam a mesma.\n- Realmente está relacionada ao astigmatismo, que nesse caso, temos os 2 pontos focais localizados antes da retina, por isso chamamos de **miopico** e o **cilindro negativo é a padronização da correção em nosso meio.**",
+            "order": 0,
+            "correct": true,
+            "created_at": "2022-02-21T23:27:46.000Z",
+            "updated_at": "2022-02-21T23:27:46.000Z",
+            "files": []
+          },
+          {
+            "id": 52593,
+            "question_id": 12819,
+            "description": "anisometropia e miopia; esférica positiva.",
+            "explanation": "Falso, Doc 😢\n- Anisometropia é a diferença de correção de **2,5 ou mais dioptrias entre os olhos**, sendo ela positiva ou negativa. Ela é corrigida com lentes esféricas **negativas.**",
+            "order": 1,
+            "correct": false,
+            "created_at": "2022-02-21T23:27:46.000Z",
+            "updated_at": "2022-02-21T23:27:46.000Z",
+            "files": []
+          },
+          {
+            "id": 52594,
+            "question_id": 12819,
+            "description": "ambliopia e hipermetropia; esférica negativa.",
+            "explanation": "Falso, Doc 😢\n- Ambliopia é a baixa de visão sem que haja **lesão orgânica ocular perceptível.**\n- **A hipermetropia lente é corrigida com lente esférica positiva.**",
+            "order": 2,
+            "correct": false,
+            "created_at": "2022-02-21T23:27:46.000Z",
+            "updated_at": "2022-02-21T23:27:46.000Z",
+            "files": []
+          },
+          {
+            "id": 52595,
+            "question_id": 12819,
+            "description": "anisocoria e presbiopia; esférica positiva.",
+            "explanation": "- Falso, Doc 😢\n- Anisocoria é a diferença de **diâmetro das pupilas.**\n- **A presbiopia ou \"vista cansada\" é realmente corrigida com lente esférica positiva.**",
+            "order": 3,
+            "correct": false,
+            "created_at": "2022-02-21T23:27:46.000Z",
+            "updated_at": "2022-02-21T23:27:46.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 12819,
+          "questionary_id": 155029,
+          "timer": 0
+        }
+      },
+      {
+        "id": 12820,
+        "institution_id": null,
+        "description": "Menino de três anos de idade foi levado por sua mãe à Clínica da Família, com relato de que a professora da educação infantil notou \"\"olhar vesgo\"\" no olho esquerdo há cerca de 20 dias. Nega processos infecciosos prévios e outros sintomas. Prematuro de 36 semanas, necessitando de oxigênio por um dia. Ao exame: estrabismo convergente unilateral, com leucocoria (reflexo do olho de gato). A hipótese diagnóstica mais provável é:",
+        "difficulty": "medium",
+        "year": "2022-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2022-02-21T23:36:17.000Z",
+        "updated_at": "2022-02-21T23:36:17.000Z",
+        "user_id": 32,
+        "is_residency": false,
+        "institution": null,
+        "disciplines": [
+          {
+            "id": 1109,
+            "title": "Oftalmopediatria",
+            "description": null,
+            "parent_id": 364,
+            "is_enabled": true,
+            "created_at": "2022-02-21T22:30:30.000Z",
+            "updated_at": "2022-02-21T22:30:30.000Z",
+            "pivot": {
+              "discipline_id": 1109,
+              "question_id": 12820
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 52596,
+            "question_id": 12820,
+            "description": "retinopatia da prematuridade",
+            "explanation": "Quase, Doc.\n- É uma doença vasoproliferativa secundária à inadequada vascularização da retina imatura dos recém-nascidos prematuros.\n- Não costuma cursar com estrabismo\n- Confira na imagem como fica o fundo de olho.\n- [Fonte da Imagem](https://vivaoftalmologia.com.br/wp-content/uploads/2021/09/Retinopatia-da-prematuridade-quais-os-riscos-para-meu-bebe-300x137.jpg) ",
+            "order": 0,
+            "correct": false,
+            "created_at": "2022-02-21T23:36:17.000Z",
+            "updated_at": "2022-02-21T23:36:17.000Z",
+            "files": [
+              {
+                "id": 28467,
+                "file": "f3b2b8f2-f722-4dd9-93a0-149447a594f3.jpeg",
+                "name": "Retinopatia-da-prematuridade-quais-os-riscos-para-meu-bebe-300x137.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2022-02-21T23:35:55.000Z",
+                "updated_at": "2022-02-21T23:35:55.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f3b2b8f2-f722-4dd9-93a0-149447a594f3.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 28467,
+                  "alternative_id": 52596
+                }
+              }
+            ]
+          },
+          {
+            "id": 52597,
+            "question_id": 12820,
+            "description": "hamartroma astrocítico",
+            "explanation": "Quase, Doc\n- **O hamartroma astrocítico não cursa com estrabismo.**\n- É um tumor glial benigno que surge da camada de fibras nervosas da retina.",
+            "order": 1,
+            "correct": false,
+            "created_at": "2022-02-21T23:36:17.000Z",
+            "updated_at": "2022-02-21T23:36:17.000Z",
+            "files": []
+          },
+          {
+            "id": 52598,
+            "question_id": 12820,
+            "description": "persistência do vítreo",
+            "explanation": "Falso, Doc 😢\n- Apersistência do vítreo primário hiperplásico (PVPH) é uma anomalia congênita, geralmente unilateral, ocorrendo em crianças nascidas a termo com peso normal\n- Nesse caso, temos uma hiperpigmentação da coroide (como na imagem)\n- Não costuma cursar com estrabismo\n- [Fonte da imagem](https://minio.scielo.br/documentstore/1982-8551/LjLhYTmz4GTRktn5YdnXXxz/7e314ffcbf8642fbb2527d1b442f5b6a0c323ab1.gif) ",
+            "order": 2,
+            "correct": false,
+            "created_at": "2022-02-21T23:36:17.000Z",
+            "updated_at": "2022-02-21T23:36:17.000Z",
+            "files": [
+              {
+                "id": 28466,
+                "file": "b34a112a-b6c3-4196-833c-aa86d0234fd8.gif",
+                "name": "7e314ffcbf8642fbb2527d1b442f5b6a0c323ab1.gif",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "gif",
+                "created_at": "2022-02-21T23:32:22.000Z",
+                "updated_at": "2022-02-21T23:32:22.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b34a112a-b6c3-4196-833c-aa86d0234fd8.gif",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 28466,
+                  "alternative_id": 52598
+                }
+              }
+            ]
+          },
+          {
+            "id": 52599,
+            "question_id": 12820,
+            "description": "retinoblastoma",
+            "explanation": "Perfeito, Doc 🤩\n- O retinoblastoma é um tumor maligno originário da membrana neuroectodérmica da retina embrionária.\n- Entre 60% e 75% dos casos de retinoblastoma são esporádicos \n- O principal sinal do Retinoblastoma é a **leucocoria** e o segundo mais comum é o **estrabismo.**\n- Fonte da imagem: [https://www.fashionbubbles.com/saude/retinoblastoma/](https://www.fashionbubbles.com/saude/retinoblastoma/)  ",
+            "order": 3,
+            "correct": true,
+            "created_at": "2022-02-21T23:36:17.000Z",
+            "updated_at": "2022-02-21T23:36:17.000Z",
+            "files": [
+              {
+                "id": 28454,
+                "file": "20a67e72-e863-4ad4-a050-e383fb4fa89b.jpeg",
+                "name": "lua_filha_de_tiago_leifert_retinoblastoma.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2022-02-21T22:37:33.000Z",
+                "updated_at": "2022-02-21T22:37:33.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/20a67e72-e863-4ad4-a050-e383fb4fa89b.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 28454,
+                  "alternative_id": 52599
+                }
+              }
+            ]
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 12820,
+          "questionary_id": 155029,
+          "timer": 0
+        }
+      },
+      {
+        "id": 12821,
+        "institution_id": null,
+        "description": "Assinale a alternativa correta sobre a conjuntivite neonatal:",
+        "difficulty": "medium",
+        "year": "2022-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2022-02-21T23:44:22.000Z",
+        "updated_at": "2022-02-21T23:44:22.000Z",
+        "user_id": 32,
+        "is_residency": false,
+        "institution": null,
+        "disciplines": [
+          {
+            "id": 1109,
+            "title": "Oftalmopediatria",
+            "description": null,
+            "parent_id": 364,
+            "is_enabled": true,
+            "created_at": "2022-02-21T22:30:30.000Z",
+            "updated_at": "2022-02-21T22:30:30.000Z",
+            "pivot": {
+              "discipline_id": 1109,
+              "question_id": 12821
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 52600,
+            "question_id": 12821,
+            "description": "A conjuntivite gonocócica apresenta secreção purulenta abundante, com formação de pseudomembranas e resolução espontânea.",
+            "explanation": "Falso, Doc😢\n- Não forma pseudomembranas, mas sim membranas verdadeiras\n- Sua resolução **NÃO é espontânea.**",
+            "order": 0,
+            "correct": false,
+            "created_at": "2022-02-21T23:44:22.000Z",
+            "updated_at": "2022-02-21T23:44:22.000Z",
+            "files": []
+          },
+          {
+            "id": 52601,
+            "question_id": 12821,
+            "description": "A conjuntivite química ocorre após 24 horas de vida, geralmente após o uso do colírio de nitrato de prata, e ocasiona edema palpebral bilateral, hiperemia e lacrimejamento.",
+            "explanation": "Perfeito, Doc 🤩\n- É causada pelo uso do colírio de **nitrato de prata**\n- **É usado para para prevenção da conjuntivite gonocócica, também chamado de Método de Credé.**\n- **[Fonte da imagem](https://unasus2.moodle.ufsc.br/pluginfile.php/11610/mod_resource/content/1/un03/img_content/figura3.2.jpeg) **",
+            "order": 1,
+            "correct": true,
+            "created_at": "2022-02-21T23:44:23.000Z",
+            "updated_at": "2022-02-21T23:44:23.000Z",
+            "files": [
+              {
+                "id": 28468,
+                "file": "6b8d9641-edd2-4ce1-8f44-707f81b54b33.jpeg",
+                "name": "figura3.2.jpeg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2022-02-21T23:39:43.000Z",
+                "updated_at": "2022-02-21T23:39:43.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/6b8d9641-edd2-4ce1-8f44-707f81b54b33.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 28468,
+                  "alternative_id": 52601
+                }
+              }
+            ]
+          },
+          {
+            "id": 52602,
+            "question_id": 12821,
+            "description": "A conjuntivite por clamídia, na maioria das vezes, não é transmitida durante o parto, por isso o primeiro sinal é secreção conjuntival abundante com edema palpebral.",
+            "explanation": "Falso, Doc 🤩\n- Na maioria das vezes é transmitida durante o parto \n- Além disso, sua secreção **NÃO é abundante**.",
+            "order": 2,
+            "correct": false,
+            "created_at": "2022-02-21T23:44:23.000Z",
+            "updated_at": "2022-02-21T23:44:23.000Z",
+            "files": []
+          },
+          {
+            "id": 52603,
+            "question_id": 12821,
+            "description": "A conjuntivite herpética é unilateral e pode ser transmitida por contato direto com pessoas que apresentem herpes labial.",
+            "explanation": "Falso Doc 😢\n- No período neonatal, é mais comum que ela seja **transmitida via canal de parto** e não por alguém com **herpes labial.**\n- HSV II é o agente mais comum\n- Os sinais aparecem entre o 5o e o 7o dia de vida\n- [Fonte da imagem](https://revistanews.com.br/wp-content/uploads/2018/08/herpes.jpg) ",
+            "order": 3,
+            "correct": false,
+            "created_at": "2022-02-21T23:44:23.000Z",
+            "updated_at": "2022-02-21T23:44:23.000Z",
+            "files": [
+              {
+                "id": 28469,
+                "file": "daa83c75-1c86-42ec-9424-d46529efb7aa.jpeg",
+                "name": "oftalmoday_b1_destaque.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2022-02-21T23:44:14.000Z",
+                "updated_at": "2022-02-21T23:44:14.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/daa83c75-1c86-42ec-9424-d46529efb7aa.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 28469,
+                  "alternative_id": 52603
+                }
+              }
+            ]
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 12821,
+          "questionary_id": 155029,
+          "timer": 0
+        }
+      },
+      {
+        "id": 12822,
+        "institution_id": null,
+        "description": "Assinale a alternativa correta sobre a conjuntivite viral na faixa etária pediátrica:",
+        "difficulty": "medium",
+        "year": "2022-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2022-02-21T23:48:40.000Z",
+        "updated_at": "2022-02-21T23:48:40.000Z",
+        "user_id": 32,
+        "is_residency": false,
+        "institution": null,
+        "disciplines": [
+          {
+            "id": 1109,
+            "title": "Oftalmopediatria",
+            "description": null,
+            "parent_id": 364,
+            "is_enabled": true,
+            "created_at": "2022-02-21T22:30:30.000Z",
+            "updated_at": "2022-02-21T22:30:30.000Z",
+            "pivot": {
+              "discipline_id": 1109,
+              "question_id": 12822
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 52604,
+            "question_id": 12822,
+            "description": "É pouco frequente, pois nessa idade prevalecem os casos de conjuntivite bacteriana.",
+            "explanation": "Falso, Doc 😢\n- A conjuntivite viral na faixa etária pediátrica é **muito mais frequente**",
+            "order": 0,
+            "correct": true,
+            "created_at": "2022-02-21T23:48:40.000Z",
+            "updated_at": "2022-02-21T23:48:40.000Z",
+            "files": []
+          },
+          {
+            "id": 52605,
+            "question_id": 12822,
+            "description": "É uma doença muito contagiosa cujo risco de transmissão, que ocorre por contato direto de mãos, gotículas ou itens pessoais, envolve 10 a 50% dos casos.",
+            "explanation": "Perfeito, Doc 🤩🤩🤩\n- É pediátrica é muito contagiosa. Muito disso devido à dificuldade de se manter a higiene (mão na boca, mão no chão, mão de volta no olho 😂)",
+            "order": 1,
+            "correct": false,
+            "created_at": "2022-02-21T23:48:40.000Z",
+            "updated_at": "2022-02-21T23:48:40.000Z",
+            "files": []
+          },
+          {
+            "id": 52606,
+            "question_id": 12822,
+            "description": "Deve se tratada com colírios antibióticos, como gentamicina e tobramicina",
+            "explanation": "Falso, Doc 😊\n- Como é um **quadro viral**, não há resposta adequada com o uso de **antibióticos**",
+            "order": 2,
+            "correct": false,
+            "created_at": "2022-02-21T23:48:40.000Z",
+            "updated_at": "2022-02-21T23:48:40.000Z",
+            "files": []
+          },
+          {
+            "id": 52607,
+            "question_id": 12822,
+            "description": "Esta pouco relacionada a quadros de infecção de vais aéreas superiores.",
+            "explanation": "Falso, Doc 😢\n- A conjuntivite viral na faixa etária pediátrica está bastante relacionada a quadros de infecção de **vias aéreas superiores.**",
+            "order": 3,
+            "correct": false,
+            "created_at": "2022-02-21T23:48:40.000Z",
+            "updated_at": "2022-02-21T23:48:40.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 12822,
+          "questionary_id": 155029,
+          "timer": 0
+        }
+      },
+      {
+        "id": 12826,
+        "institution_id": 159,
+        "description": "Para avaliar as representações abaixo devem considerar a situação I como pupilas normais (circulares centradas e diâmetros normais). As situações II, III e IV representam diferentes formas de discorias. Assinale com [V] para as assertivas verdadeiras e [F] para as falsas e escolha a alternativa que contenha a sequencia correta. \n- [ ] Na situação II verifica-se anisocoria com miose à direita; \n- [ ]Na situação III verifica-se isocoria e midríase bilateral; \n- [ ] Na situação IV verifica-se discoria à direita; \n- [ ] Na situação III verifica-se isocoria e miose bilateral; \n- [ ] Na situação IV verifica-se midríase à direita",
+        "difficulty": "medium",
+        "year": "2022-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2022-02-22T00:11:30.000Z",
+        "updated_at": "2022-02-22T00:11:30.000Z",
+        "user_id": 32,
+        "is_residency": false,
+        "institution": {
+          "id": 159,
+          "title": "HAC-PR",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2020-08-02T20:10:22.000Z",
+          "updated_at": "2020-08-02T20:10:22.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 1109,
+            "title": "Oftalmopediatria",
+            "description": null,
+            "parent_id": 364,
+            "is_enabled": true,
+            "created_at": "2022-02-21T22:30:30.000Z",
+            "updated_at": "2022-02-21T22:30:30.000Z",
+            "pivot": {
+              "discipline_id": 1109,
+              "question_id": 12826
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 52620,
+            "question_id": 12826,
+            "description": "F, V, F, V, F",
+            "explanation": "Quase Doc 🤩,\n\n\nConfira a resposta completa na alternativa certa. ",
+            "order": 0,
+            "correct": false,
+            "created_at": "2022-02-22T00:11:30.000Z",
+            "updated_at": "2022-02-22T00:11:30.000Z",
+            "files": []
+          },
+          {
+            "id": 52621,
+            "question_id": 12826,
+            "description": "V, F, V, F, V",
+            "explanation": "Quase Doc 🤩,\n\n\nConfira a resposta completa na alternativa certa. ",
+            "order": 1,
+            "correct": false,
+            "created_at": "2022-02-22T00:11:30.000Z",
+            "updated_at": "2022-02-22T00:11:30.000Z",
+            "files": []
+          },
+          {
+            "id": 52622,
+            "question_id": 12826,
+            "description": "F, F, F, V, F",
+            "explanation": "Quase Doc 🤩,\n\nConfira a resposta completa na alternativa certa. ",
+            "order": 2,
+            "correct": false,
+            "created_at": "2022-02-22T00:11:30.000Z",
+            "updated_at": "2022-02-22T00:11:30.000Z",
+            "files": []
+          },
+          {
+            "id": 52623,
+            "question_id": 12826,
+            "description": "V, V, F, F, F",
+            "explanation": "Perfeito, Doc! Você domina o assunto! Vamos situação por sistuação:\n- Na situação I temos estado \"normal\" de nossas pupilas: pupilas **isocóricas** (mesmo tamanho) e tamanho normal.\n- Na situação II temos, verifica-se **anisocoria** (pupilas de tamanho diferente) com miose (pupila menor) à direita.\n- Na situação III verifica-se **isocoria** (pupilas de mesmo tamanho) e **midríase** (pupilas dilatadas) bilateralmente.\n- Na situação IV verifica-se **discoria** (pupilas de formato diferentes) à esquerda",
+            "order": 3,
+            "correct": true,
+            "created_at": "2022-02-22T00:11:30.000Z",
+            "updated_at": "2022-02-22T00:11:30.000Z",
+            "files": []
+          },
+          {
+            "id": 52624,
+            "question_id": 12826,
+            "description": "Nenhuma das sequencias acima está correta.",
+            "explanation": "Quase Doc 🤩,\n\nConfira a resposta completa na alternativa certa.",
+            "order": 4,
+            "correct": false,
+            "created_at": "2022-02-22T00:11:30.000Z",
+            "updated_at": "2022-02-22T00:11:30.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [
+          {
+            "id": 28477,
+            "file": "b4774ef5-fd6a-426d-86fe-d84650e3471a.png",
+            "name": "Screenshot 2022-02-21 210552.png",
+            "path": "uploads",
+            "type": "image",
+            "subtype": "png",
+            "created_at": "2022-02-22T00:06:10.000Z",
+            "updated_at": "2022-02-22T00:06:10.000Z",
+            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b4774ef5-fd6a-426d-86fe-d84650e3471a.png",
+            "description": null,
+            "source": null,
+            "overlay_id": null,
+            "user_id": null,
+            "pivot": {
+              "file_id": 28477,
+              "question_id": 12826
+            }
+          }
+        ],
+        "pivot": {
+          "question_id": 12826,
+          "questionary_id": 155029,
+          "timer": 0
+        }
+      },
+      {
+        "id": 12827,
+        "institution_id": 630,
+        "description": "Sobre as alterações oculares relacionadas ao desvio do olhar, mais conhecidas como estrabismo, assinale a alternativa correta:",
+        "difficulty": "medium",
+        "year": "2022-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2022-02-22T00:19:38.000Z",
+        "updated_at": "2022-02-22T00:19:38.000Z",
+        "user_id": 32,
+        "is_residency": false,
+        "institution": {
+          "id": 630,
+          "title": "HMO-SA",
+          "state": null,
+          "is_enabled": true,
+          "created_at": "2022-02-22T00:19:38.000Z",
+          "updated_at": "2022-02-22T00:19:38.000Z"
+        },
+        "disciplines": [
+          {
+            "id": 1109,
+            "title": "Oftalmopediatria",
+            "description": null,
+            "parent_id": 364,
+            "is_enabled": true,
+            "created_at": "2022-02-21T22:30:30.000Z",
+            "updated_at": "2022-02-21T22:30:30.000Z",
+            "pivot": {
+              "discipline_id": 1109,
+              "question_id": 12827
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 52625,
+            "question_id": 12827,
+            "description": "A exotropia denomina a alteração ocular com desvio divergente no estrabismo.",
+            "explanation": "Show de bola, Doc 🤩\n- A exotropia representa o desvio divergente ocular.\n- [Fonte da imagem](https://salgadoborges.com/wp-content/themes/yootheme/cache/estrabismo-divergente-blog-41c6c484.jpeg) ",
+            "order": 0,
+            "correct": true,
+            "created_at": "2022-02-22T00:19:38.000Z",
+            "updated_at": "2022-02-22T00:19:38.000Z",
+            "files": [
+              {
+                "id": 28478,
+                "file": "d8cbc043-9d04-472b-a5f3-c2c516c2d42a.jpeg",
+                "name": "estrabismo-divergente-blog-41c6c484.jpeg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2022-02-22T00:15:18.000Z",
+                "updated_at": "2022-02-22T00:15:18.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d8cbc043-9d04-472b-a5f3-c2c516c2d42a.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 28478,
+                  "alternative_id": 52625
+                }
+              }
+            ]
+          },
+          {
+            "id": 52626,
+            "question_id": 12827,
+            "description": "O estrabismo é uma alteração ocular anatômica que não gera alterações quanto à acuidade visual.",
+            "explanation": "Incorreta, Doc.\n- Pode estar relacionado a **alterações de acuidade visual.**",
+            "order": 1,
+            "correct": false,
+            "created_at": "2022-02-22T00:19:38.000Z",
+            "updated_at": "2022-02-22T00:19:38.000Z",
+            "files": []
+          },
+          {
+            "id": 52627,
+            "question_id": 12827,
+            "description": "A lesão do VI (sexto) par craniano geralmente causa um estrabismo divergente.",
+            "explanation": "Incorreto, Doc.\n- O nervo abducente  é responsável pela inervação do músculo reto lateral\n- Está relacionados a **esotropia, ou estrabismo convergente.**\n- **[Fonte da imagem](https://minio.scielo.br/documentstore/1982-8551/Gtw6KnT84VkTYQgMBhkG9Wc/6af1286d482d70c5597a37e9f3f55df63f724f61.jpg) **",
+            "order": 2,
+            "correct": false,
+            "created_at": "2022-02-22T00:19:38.000Z",
+            "updated_at": "2022-02-22T00:19:38.000Z",
+            "files": [
+              {
+                "id": 28479,
+                "file": "cdafda41-fee5-4100-89b9-b0393ec95903.jpeg",
+                "name": "6af1286d482d70c5597a37e9f3f55df63f724f61.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2022-02-22T00:17:42.000Z",
+                "updated_at": "2022-02-22T00:17:42.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/cdafda41-fee5-4100-89b9-b0393ec95903.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 28479,
+                  "alternative_id": 52627
+                }
+              }
+            ]
+          },
+          {
+            "id": 52628,
+            "question_id": 12827,
+            "description": "O estrabismo é tratado com maior sucesso a partir dos 10 anos de idade.",
+            "explanation": "Não Doc. Essa é uma oportunidade bem grande para aprender esse conceito. \n- Os estrabismos precoces  devem ser tratados idealmente a partir dos **6 meses de vida seja com tampão ou colírios.**",
+            "order": 3,
+            "correct": false,
+            "created_at": "2022-02-22T00:19:38.000Z",
+            "updated_at": "2022-02-22T00:19:38.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 12827,
+          "questionary_id": 155029,
+          "timer": 0
+        }
+      },
+      {
+        "id": 12825,
+        "institution_id": null,
+        "description": "Catarata adquirida no período neonatal é alteração oftalmológica que ocorre no seguinte erro inato do metabolismo:",
+        "difficulty": "hard",
+        "year": "2022-01-01T00:00:00.000Z",
+        "is_enabled": true,
+        "created_at": "2022-02-22T00:04:03.000Z",
+        "updated_at": "2022-02-22T00:04:03.000Z",
+        "user_id": 32,
+        "is_residency": false,
+        "institution": null,
+        "disciplines": [
+          {
+            "id": 1109,
+            "title": "Oftalmopediatria",
+            "description": null,
+            "parent_id": 364,
+            "is_enabled": true,
+            "created_at": "2022-02-21T22:30:30.000Z",
+            "updated_at": "2022-02-21T22:30:30.000Z",
+            "pivot": {
+              "discipline_id": 1109,
+              "question_id": 12825
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "id": 52616,
+            "question_id": 12825,
+            "description": "Galactosemia",
+            "explanation": "Incrível, Doc 🤩\n- A causa mais comum  associada a alterações metabólicas que ocorrem em certas **doenças sistêmicas** como a **galactosemia.**\n- **Confira na imagem um exemplo do caso**\n- **[Fonte da imagem](https://www.centrooftalmologicomg.com.br/blog/wp-content/uploads/2018/11/catarata-congenita.jpg) **",
+            "order": 0,
+            "correct": true,
+            "created_at": "2022-02-22T00:04:03.000Z",
+            "updated_at": "2022-02-22T00:04:03.000Z",
+            "files": [
+              {
+                "id": 28475,
+                "file": "8a87c62a-a755-497c-b5ea-4e11861fc51e.jpeg",
+                "name": "catarata-congenita.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2022-02-22T00:00:15.000Z",
+                "updated_at": "2022-02-22T00:00:15.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8a87c62a-a755-497c-b5ea-4e11861fc51e.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 28475,
+                  "alternative_id": 52616
+                }
+              }
+            ]
+          },
+          {
+            "id": 52617,
+            "question_id": 12825,
+            "description": "Doença de gaucher",
+            "explanation": "Falso Doc,\n- A doença de Gaucher é uma doença genética causada por uma deficiência na enzima glicocerebrosidase, que digere certo tipo de gordura, o glicocerebrosídeo.\n- Pode promover  o acumulo de glucosilceramida na células do sistema reticuloendotelial, sendo o tipo III caracterizado por afecção neuropática e epilepsia mioclonica.\n- [Fonte da imagem](https://minio.scielo.br/documentstore/1982-8551/jHG9pw8T5KQN6gPbVRZJ75p/0ebb6904a0f1a99690afcaf45f51456ec13b8628.jpg) ",
+            "order": 1,
+            "correct": false,
+            "created_at": "2022-02-22T00:04:03.000Z",
+            "updated_at": "2022-02-22T00:04:03.000Z",
+            "files": [
+              {
+                "id": 28476,
+                "file": "a74d8c8b-65fe-4a54-b13e-e07479bc1e4f.jpeg",
+                "name": "0ebb6904a0f1a99690afcaf45f51456ec13b8628.jpg",
+                "path": "uploads",
+                "type": "image",
+                "subtype": "jpeg",
+                "created_at": "2022-02-22T00:01:43.000Z",
+                "updated_at": "2022-02-22T00:01:43.000Z",
+                "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a74d8c8b-65fe-4a54-b13e-e07479bc1e4f.jpeg",
+                "description": null,
+                "source": null,
+                "overlay_id": null,
+                "user_id": null,
+                "pivot": {
+                  "file_id": 28476,
+                  "alternative_id": 52617
+                }
+              }
+            ]
+          },
+          {
+            "id": 52618,
+            "question_id": 12825,
+            "description": "Deficiência de g6pd",
+            "explanation": "Falso Doc 🤩,\n- Pode levar ao comprometimento ocular motor do olhar para cima, contudo, não causa catarata.",
+            "order": 2,
+            "correct": false,
+            "created_at": "2022-02-22T00:04:03.000Z",
+            "updated_at": "2022-02-22T00:04:03.000Z",
+            "files": []
+          },
+          {
+            "id": 52619,
+            "question_id": 12825,
+            "description": "Glicogenose hepática",
+            "explanation": "Falso Doc 🤩,\n- Pode levar ao comprometimento ocular motor , contudo, não causa catarata. ",
+            "order": 3,
+            "correct": false,
+            "created_at": "2022-02-22T00:04:03.000Z",
+            "updated_at": "2022-02-22T00:04:03.000Z",
+            "files": []
+          }
+        ],
+        "answers": [],
+        "files": [],
+        "pivot": {
+          "question_id": 12825,
+          "questionary_id": 155029,
+          "timer": 0
+        }
+      }
+    ]
+  }
