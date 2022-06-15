@@ -1,0 +1,1873 @@
+{
+    "id": 237502,
+    "user_id": 1699,
+    "title": "Doença Ulcerosa Péptica",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-06-15T02:34:44.000Z",
+    "updated_at": "2022-06-15T02:34:44.000Z",
+    "study_plan_id": 379,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 4692,
+            "institution_id": 4,
+            "description": "As causas mais comuns de úlcera péptica são:\n",
+            "difficulty": "easy",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-27T19:06:13.000Z",
+            "updated_at": "2022-02-19T17:24:55.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4692
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19403,
+                    "question_id": 4692,
+                    "description": "Uso de AINEs e alcoolismo.",
+                    "explanation": "O alcoolismo crônica lesa a parede gástrica, podendo predispor uma úlcera. Contudo, não está entre as duas causas mais comuns,",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-09-27T16:06:13.000Z",
+                    "updated_at": "2022-02-19T17:24:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19404,
+                    "question_id": 4692,
+                    "description": "Uso de AINEs e sarcoidose.",
+                    "explanation": "A sarcoidose não é considerada um fator de risco para o desenvolvimento de úlceras pépticas.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-27T16:06:13.000Z",
+                    "updated_at": "2022-02-19T17:24:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19405,
+                    "question_id": 4692,
+                    "description": "Infecção por Helicobacter pylori e uso de anti-inflamatórios não esteroidais (AINEs).",
+                    "explanation": "Perfeito, Doc! 😍 É fácil o entendimento destas causas:\n- AINES ➡ inibem as **prostaglandinas**\n- **Prostaglandinas** ➡ Estimulam a formação de muco, síntese de bicarbonato, fluxo sanguíneo e regeneração da mucosa. \n- Helicobacter pylori ➡ Gera um quadro de **gastrite crônica** que predispõe o surgimento de úlceras.\n\nDoc, você já viu uma úlcera péptica em uma endoscopia digestiva alta? Se liga na imagem abaixo 👇:\n\nFonte da imagem: [https://www.msdmanuals.com/pt-br/casa/dist%C3%BArbios-digestivos/gastrite-e-%C3%BAlcera-p%C3%A9ptica/%C3%BAlcera-p%C3%A9ptica](https://www.msdmanuals.com/pt-br/casa/dist%C3%BArbios-digestivos/gastrite-e-%C3%BAlcera-p%C3%A9ptica/%C3%BAlcera-p%C3%A9ptica)",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-09-27T16:06:13.000Z",
+                    "updated_at": "2022-02-19T17:24:55.000Z",
+                    "files": [
+                        {
+                            "id": 7943,
+                            "file": "25e457f4-7dad-4b24-9dfb-01a5fc7595ae.jpeg",
+                            "name": "gastric_ulcer_arrow_pt.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-04-30T22:59:21.000Z",
+                            "updated_at": "2021-04-30T22:59:21.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/25e457f4-7dad-4b24-9dfb-01a5fc7595ae.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 7943,
+                                "alternative_id": 19405
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19406,
+                    "question_id": 4692,
+                    "description": "Síndrome de Zollinger-Ellison e tabagismo",
+                    "explanation": "A Síndrome de Zollinger-Ellison é decorrente da presença de um gastrinoma, tem como característica úlceras pépticas em diversos segmentos do trato digestivo, além do estômago e primeira porção do duodeno. É um fator de risco para úlcera, mas não o mais comum.\n\n\nO tabagismo parece ser um fator de risco significativo, pelo dano vascular, o fumo proporciona uma cicatrização mais lenta e isquemia da região ulcerosa.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T16:06:13.000Z",
+                    "updated_at": "2022-02-19T17:24:55.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4692,
+                "questionary_id": 237502,
+                "timer": 3
+            }
+        },
+        {
+            "id": 4693,
+            "institution_id": 4,
+            "description": "Qual das assertivas abaixo contém a descrição **CORRETA** da localização das úlceras gástricas segundo Johnson?\n",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-27T16:27:48.000Z",
+            "updated_at": "2021-08-21T01:09:15.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4693
+                    }
+                },
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 4693
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19407,
+                    "question_id": 4693,
+                    "description": "Tipo I - próximas à cárdia.",
+                    "explanation": "É a mais comum e está associada à normo ou hipocloridria, porém está localizada na **pequena curvatura** e não próxima à cardia!\n\n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-09-27T16:27:48.000Z",
+                    "updated_at": "2021-08-21T01:09:15.000Z",
+                    "files": [
+                        {
+                            "id": 1122,
+                            "file": "1601223665360.jpeg",
+                            "name": "úlcera.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-09-27T19:21:06.000Z",
+                            "updated_at": "2020-09-27T19:21:06.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1601223665360.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1122,
+                                "alternative_id": 19407
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19408,
+                    "question_id": 4693,
+                    "description": "Tipo II - localizadas no corpo gástrico e no canal pilórico.",
+                    "explanation": "Perfeito doc! É uma úlcera gástrica que possui relação direta com a hipercloridria, e sua patogênese é semelhante à da úlcera duodenal.\n- Está localizada no **corpo gástrico** associada à **úlcera duodenal (canal pilórico)!**\n\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-09-27T16:27:48.000Z",
+                    "updated_at": "2021-08-21T01:09:15.000Z",
+                    "files": [
+                        {
+                            "id": 1125,
+                            "file": "1601224005547.jpeg",
+                            "name": "úlcera.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-09-27T19:26:46.000Z",
+                            "updated_at": "2020-09-27T19:26:46.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1601224005547.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1125,
+                                "alternative_id": 19408
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19409,
+                    "question_id": 4693,
+                    "description": "Tipo III - localizadas no canal pilórico.",
+                    "explanation": "Falso doc! É uma úlcera gástrica que possui relação direta com a **hipercloridria**, e sua patogênese é semelhante à da úlcera duodenal, no entanto, sua localização é pré-pilórica!\n- Localização: Úlcera **pré-pilórica.**\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-09-27T16:27:48.000Z",
+                    "updated_at": "2021-08-21T01:09:15.000Z",
+                    "files": [
+                        {
+                            "id": 1124,
+                            "file": "1601223956357.jpeg",
+                            "name": "úlcera.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-09-27T19:25:57.000Z",
+                            "updated_at": "2020-09-27T19:25:57.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1601223956357.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1124,
+                                "alternative_id": 19409
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19410,
+                    "question_id": 4693,
+                    "description": "Tipo IV - localizadas na incisura angularis",
+                    "explanation": "Falso doc! É uma úlcera mais rara, **localizada na pequena curvatura, parte alta, próximo à junção gastroesofágica!**\n\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T16:27:48.000Z",
+                    "updated_at": "2021-08-21T01:09:15.000Z",
+                    "files": [
+                        {
+                            "id": 1123,
+                            "file": "1601223895915.jpeg",
+                            "name": "úlcera.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-09-27T19:24:56.000Z",
+                            "updated_at": "2020-09-27T19:24:56.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1601223895915.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1123,
+                                "alternative_id": 19410
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4693,
+                "questionary_id": 237502,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4696,
+            "institution_id": 4,
+            "description": "A maioria das úlceras que perfuram está situada na ................................... do ..............................",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-27T20:11:37.000Z",
+            "updated_at": "2020-09-27T20:11:37.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4696
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19419,
+                    "question_id": 4696,
+                    "description": "parede anterior ----- bulbo duodenal",
+                    "explanation": "- A maioria das úlceras que perfuram está situada na **parede anterior do bulbo duodenal**\n- A maioria das úlceras que sangram está situada na **parede posterior do bulbo duodenal (proximidade à artéria gastroduodenal) �**�",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-09-27T17:11:37.000Z",
+                    "updated_at": "2020-09-27T17:11:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19420,
+                    "question_id": 4696,
+                    "description": "parede posterior ----- bulbo duodenal",
+                    "explanation": "A maioria das úlceras que perfuram está situada na **parede anterior do bulbo duodenal** \n\nA maioria das úlceras que sangram está situada na **parede posterior do bulbo duodenal (proximidade à artéria gastroduodenal) �**� ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:11:37.000Z",
+                    "updated_at": "2020-09-27T17:11:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19421,
+                    "question_id": 4696,
+                    "description": "parede anterior ----- corpo gástrico",
+                    "explanation": "Entre os pacientes com úlcera duodenal, 6% a 11% apresentam perfuração e, entre os com **úlcera gástrica, 2% a 5% evoluem com tal complicação.** ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:11:37.000Z",
+                    "updated_at": "2020-09-27T17:11:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19422,
+                    "question_id": 4696,
+                    "description": "parede posterior ----- corpo gástrico",
+                    "explanation": "Entre os pacientes com úlcera duodenal, 6% a 11% apresentam perfuração e, entre os com **úlcera gástrica,** **2% a 5% evoluem com tal complicação.** ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:11:37.000Z",
+                    "updated_at": "2020-09-27T17:11:37.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4696,
+                "questionary_id": 237502,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4698,
+            "institution_id": 4,
+            "description": "Qual é o padrão-ouro para o diagnóstico de úlcera péptica?",
+            "difficulty": "easy",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-27T20:30:28.000Z",
+            "updated_at": "2021-04-30T23:37:08.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4698
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19427,
+                    "question_id": 4698,
+                    "description": "Seriografia Esôfago-Estômago-Duodeno (SEED)",
+                    "explanation": "Falso doc! Também chamado de exame baritado, a seriografia apresenta boa sensibilidade e especificidade, porém não é o padrão-ouro. Doc, se liga no exemplo desse exame em um paciente com úlcera péptica abaixo👇\n- Fonte: http://radiologia-tec.blogspot.com/2013/07/tgi-alto-seed-c-duplo-contraste-p.html",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:30:28.000Z",
+                    "updated_at": "2021-04-30T20:37:08.000Z",
+                    "files": [
+                        {
+                            "id": 7944,
+                            "file": "d11dc6d2-cbf0-446c-9333-19288d48cbe7.jpeg",
+                            "name": "ulcera peptica seriografia.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-04-30T23:21:03.000Z",
+                            "updated_at": "2021-04-30T23:21:03.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d11dc6d2-cbf0-446c-9333-19288d48cbe7.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 7944,
+                                "alternative_id": 19427
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19428,
+                    "question_id": 4698,
+                    "description": "Endoscopia Digestiva Alta (EDA)",
+                    "explanation": "Perfeito, Doc. Podemos visualizar a úlcera e ainda realizar a biópsia. Lembrando que:\n- Úlceras duodenais ➡ Raramente são malignas ➡ Não precisam de biópsia\n- Úlceras gástricas ➡ SEMPRE ser investigadas para câncer. Além disso, todo paciente com úlcera gástrica deve ser submetido à nova EDA após 8-12 semanas para acompanhamento pelo alto risco de malignidade!\n- Doc, se liga nessa endoscopia abaixo com uma setinha apontando para uma úlcera péptica muito característica👇\n- Fonte: https://www.msdmanuals.com/pt-br/casa/dist%C3%BArbios-digestivos/gastrite-e-%C3%BAlcera-p%C3%A9ptica/%C3%BAlcera-p%C3%A9ptica",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-09-27T17:30:28.000Z",
+                    "updated_at": "2021-04-30T20:37:08.000Z",
+                    "files": [
+                        {
+                            "id": 7943,
+                            "file": "25e457f4-7dad-4b24-9dfb-01a5fc7595ae.jpeg",
+                            "name": "gastric_ulcer_arrow_pt.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-04-30T22:59:21.000Z",
+                            "updated_at": "2021-04-30T22:59:21.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/25e457f4-7dad-4b24-9dfb-01a5fc7595ae.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 7943,
+                                "alternative_id": 19428
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19429,
+                    "question_id": 4698,
+                    "description": "Teste Respiratório da Ureia",
+                    "explanation": "Falso doc! Esse exame seria para fazer o diagnóstico da infecção por H.pylori e não necessariamente da úlcera! Doc, o teste da ureia é feito da seguinte forma:\n- paciente bebe ureia marcada com carbono 13 diluída em suco;\n- na presença de H.pylori, esta produz HCO3 com carbono 13 marcado;\n- o pulmão transforma HCO3 em CO2 com o carbono marcado\n- paciente expira CO2 em uma bolsa plástica\n- o ar desta bolsa é testado em um aparelho para ver se contém CO2 com carbono 13 marcado.\n- Fonte: [http://www.progastrojoinville.com.br/procedimentos/testes_respiratorios_gastroenterologia/pylori/](http://www.progastrojoinville.com.br/procedimentos/testes_respiratorios_gastroenterologia/pylori/)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:30:28.000Z",
+                    "updated_at": "2021-04-30T20:37:08.000Z",
+                    "files": [
+                        {
+                            "id": 7945,
+                            "file": "bb3a7a93-baf2-4f06-9c79-2b439dd028e1.jpeg",
+                            "name": "TESTE DA UREUA.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-04-30T23:33:05.000Z",
+                            "updated_at": "2021-04-30T23:33:05.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/bb3a7a93-baf2-4f06-9c79-2b439dd028e1.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 7945,
+                                "alternative_id": 19429
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19430,
+                    "question_id": 4698,
+                    "description": "Radiografia",
+                    "explanation": "Falso doc! Podemos observar, em casos de perfuração, ar abaixo do diafragma. No entanto, não é um bom exame para o diagnóstico. Se liga nesse exemplo abaixo de pneumoperitônio decorrente de úlcera péptica perfurada👇\n- Fonte: https://site.medicina.ufmg.br/imagemdasemana/caso37.html",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:30:28.000Z",
+                    "updated_at": "2021-04-30T20:37:08.000Z",
+                    "files": [
+                        {
+                            "id": 7946,
+                            "file": "dd2c2f06-1d9a-4765-be1c-6567c753435c.jpeg",
+                            "name": "caso37_p3.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-04-30T23:37:00.000Z",
+                            "updated_at": "2021-04-30T23:37:00.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/dd2c2f06-1d9a-4765-be1c-6567c753435c.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 7946,
+                                "alternative_id": 19430
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4698,
+                "questionary_id": 237502,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4694,
+            "institution_id": 4,
+            "description": "Quanto à úlcera péptica, está correto afirmar que:\n",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-27T16:54:19.000Z",
+            "updated_at": "2021-09-16T21:44:51.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4694
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19411,
+                    "question_id": 4694,
+                    "description": "A dor epigástrica em geral não mantém relação com a alimentação.",
+                    "explanation": "Falso doc!😋 Geralmente é uma dor abdominal epigástrica (epigastralgia), em queimação, que ocorre **2-3h após as refeições e à noite**.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-09-27T16:54:19.000Z",
+                    "updated_at": "2021-09-16T21:44:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19412,
+                    "question_id": 4694,
+                    "description": "Em grande parte das vezes a dor torna-se intratável, necessitando do uso de analgésicos opioides.",
+                    "explanation": "Falso doc!😋 A dor pode ser aliviada pelo uso de **antiácidos ou pelo alimento. Não é comum chegar a casos intratáveis. Doc, cerca de 40% das úlceras pépticas são detectadas em pacientes assintomáticos**!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-27T16:54:19.000Z",
+                    "updated_at": "2021-09-16T21:44:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19413,
+                    "question_id": 4694,
+                    "description": "Na fase aguda, a manifestação mais comum é a obstrução produzindo vômitos e saciedade.",
+                    "explanation": "Falso doc!😋 Em fase crônicas podemos ter algum perfil de obstrução. Contudo, na fase aguda, as manifestações mais comuns são a dor abdominal epigástrica (epigastralgia), em queimação, sensação de plenitude, naúseas e azia.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-09-27T16:54:19.000Z",
+                    "updated_at": "2021-09-16T21:44:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19414,
+                    "question_id": 4694,
+                    "description": "As úlceras duodenais são mais prevalentes que as úlceras gástricas",
+                    "explanation": "Perfeito doc! As úlceras duodenais são as mais prevalentes, além de serem lesões mais comumente encontrada em jovens, entre 20-50 anos. Outro dado interessante é que:\n- A infecção gástrica pelo HP é hoje responsável por mais de 95% dos casos de úlcera duodenal e 80% dos portadores de úlcera gástrica.\n- Doc, se liga na imagem abaixo de um paciente com úlcera duodenal vista à endoscopia digestiva alta👇\n- Fonte: [http://interativaplus.com.br/vetscopia/a-endoscopia/ulcera-duodenal/](http://interativaplus.com.br/vetscopia/a-endoscopia/ulcera-duodenal/)",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-09-27T16:54:19.000Z",
+                    "updated_at": "2021-09-16T21:44:51.000Z",
+                    "files": [
+                        {
+                            "id": 7947,
+                            "file": "c1de427e-43aa-4eb0-ac66-5252e9147c0c.jpeg",
+                            "name": "ulcera-duodenal.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-01T00:32:31.000Z",
+                            "updated_at": "2021-05-01T00:32:31.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c1de427e-43aa-4eb0-ac66-5252e9147c0c.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 7947,
+                                "alternative_id": 19414
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4694,
+                "questionary_id": 237502,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4695,
+            "institution_id": 4,
+            "description": "São considerados fatores de risco para úlcera gástrica associada ao estresse,EXCETO:\n",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-27T20:03:36.000Z",
+            "updated_at": "2021-04-30T22:55:08.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4695
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19415,
+                    "question_id": 4695,
+                    "description": "Jejum prolongado.",
+                    "explanation": "A úlcera de estresse acontece por uma vasoconstricção esplâncnica e hipoperfusão orgânica, com importante alteração da circulação sanguínea da mucosa, associada à redução da secreção de bicarbonato e à difusão retrógrada de ácido, além de mudanças na motilidade gastrointestinal.\n- O jejum prolongado não é um fator de risto para úlcera de estresse.\n\nFonte: Marquito et al.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-09-27T17:03:36.000Z",
+                    "updated_at": "2021-04-30T19:55:08.000Z",
+                    "files": [
+                        {
+                            "id": 1126,
+                            "file": "1601226186902.jpeg",
+                            "name": "ulcera.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-09-27T20:03:07.000Z",
+                            "updated_at": "2020-09-27T20:03:07.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1601226186902.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1126,
+                                "alternative_id": 19415
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19416,
+                    "question_id": 4695,
+                    "description": "Instabilidade hemodinâmica.",
+                    "explanation": "Pode levar a hipoperfusão gástrica e, assim, a uma úlcera de estresse.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:03:36.000Z",
+                    "updated_at": "2021-04-30T19:55:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19417,
+                    "question_id": 4695,
+                    "description": "Ventilação mecânica prolongada",
+                    "explanation": "Indica que o paciente apresentou uma falência respiratória para precisar de uma ventilação.\n- A hipóxia pode levar a uma úlcera de estresse.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:03:36.000Z",
+                    "updated_at": "2021-04-30T19:55:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19418,
+                    "question_id": 4695,
+                    "description": "Traumatismo cranioencefálico",
+                    "explanation": "Traumatismo cranioencefálico e politrauma são fatores de risco para o desenvolvimento de úlceras de estresse.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:03:36.000Z",
+                    "updated_at": "2021-04-30T19:55:08.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4695,
+                "questionary_id": 237502,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4697,
+            "institution_id": 4,
+            "description": "Qual é a localização mais comum das úlceras gástricas?",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-27T20:25:04.000Z",
+            "updated_at": "2021-08-11T03:05:23.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4697
+                    }
+                },
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 4697
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19423,
+                    "question_id": 4697,
+                    "description": "Tipo I - pequena curvatura",
+                    "explanation": "Perfeito doc!😁 É a localização mais comum das úlceras gástricas.\n- Está associada à normo ou hipocloridria, com gastrite atrófica do corpo gástrico pelo H. pylori.\n- Doc, se liga nessa imagem ilustrando os tipos de úlceras gástricas👇\n\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-09-27T17:25:04.000Z",
+                    "updated_at": "2021-08-11T00:05:23.000Z",
+                    "files": [
+                        {
+                            "id": 1127,
+                            "file": "1601226778595.jpeg",
+                            "name": "úlcera.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-09-27T20:12:59.000Z",
+                            "updated_at": "2020-09-27T20:12:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1601226778595.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1127,
+                                "alternative_id": 19423
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19424,
+                    "question_id": 4697,
+                    "description": "Tipo II - úlcera do corpo gástrico",
+                    "explanation": "Falso doc! Não é a localização mais comum, nem a descrição do tipo está correta.\n- Tipo II ➡ Úlcera do corpo gástrico associada à úlcera duodenal. \n- Lembrando que esse tipo está associado a hipercloridria!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:25:04.000Z",
+                    "updated_at": "2021-08-11T00:05:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19425,
+                    "question_id": 4697,
+                    "description": "Tipo III - Pré-pilórica.",
+                    "explanation": "Falso doc! É uma úlcera que possui relação direta com a hipercloridria, contudo, não é a mais comum!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:25:04.000Z",
+                    "updated_at": "2021-08-11T00:05:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19426,
+                    "question_id": 4697,
+                    "description": "Tipo IV - Pequena curvatura, parte alta.",
+                    "explanation": "Falso doc! Esse é o tipo de úlcera mais rara e tem sua patogênese parecida com o tipo I, relacionada a normo ou hipocloridria!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:25:04.000Z",
+                    "updated_at": "2021-08-11T00:05:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4697,
+                "questionary_id": 237502,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4699,
+            "institution_id": 4,
+            "description": "Estão presente no manejo clínico do paciente com doença ulcerosa péptica, **exceto:**",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-27T20:40:48.000Z",
+            "updated_at": "2021-05-01T00:46:26.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4699
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19431,
+                    "question_id": 4699,
+                    "description": "Dieta, cessação do tabagismo e redução do consumo de álcool",
+                    "explanation": "Perfeito doc! \n- A única recomendação importante quanto à dieta é evitar as comidas que exacerbam os sintomas, como comidas com um alto teor de gordura.\n- O fumo prejudica os mecanismos de reparo e proteção mucosa\n- O álcool não reduz a formação de úlceras, mas aumenta o risco de hemorragia digestiva alta.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:40:48.000Z",
+                    "updated_at": "2021-04-30T21:46:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19432,
+                    "question_id": 4699,
+                    "description": "Inibidores da Bomba de Prótons (IBPs)",
+                    "explanation": "Perfeito doc! É o tratamento farmacológico de primeira escolha na DUP.\n- Atuam na H+/K+ATPase, inibindo diretamente o mecanismo de secreção de HCl da célula parietal.\n- O tratamento dura de 4-8 semanas",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:40:48.000Z",
+                    "updated_at": "2021-04-30T21:46:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19433,
+                    "question_id": 4699,
+                    "description": "Bloqueadores H2",
+                    "explanation": "Perfeito doc! Essas drogas bloqueiam competitivamente os receptores H2 de histamina das células parietais, responsáveis pelo estímulo à produção de ácido gástrico. No geral, são prescritos por 4-8 semanas!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:40:48.000Z",
+                    "updated_at": "2021-04-30T21:46:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19434,
+                    "question_id": 4699,
+                    "description": "AINEs",
+                    "explanation": "Falso doc! Podem predispor ao aumento das úlceras ao inibir a formação de prostaglandinas pela mucosa gástrica! Os AINEs reduzem praticamente todas as defesas contra a secreção ácida, dificultando o reparo tecidual e a neutralização do HCl.\n- Úlceras duodenais ➡ 5-10% relacionadas aos AINEs\n- Úlceras gástricas ➡ 20-30% relacionadas aos AINEs.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-09-27T17:40:48.000Z",
+                    "updated_at": "2021-04-30T21:46:26.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4699,
+                "questionary_id": 237502,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4700,
+            "institution_id": 4,
+            "description": "São indicações para o tratamento cirúrgico das úlceras pépticas:\n- I - Intratabilidade clínica\n- II - Perfuração\n- III - Hemorragia\n- IV - Obstrução",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-27T20:51:30.000Z",
+            "updated_at": "2021-07-28T17:09:23.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4700
+                    }
+                },
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 4700
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19435,
+                    "question_id": 4700,
+                    "description": "I, II e III",
+                    "explanation": "Confira o comentário de cada alternativa na resposta correta. 💡 ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:51:30.000Z",
+                    "updated_at": "2021-07-28T14:09:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19436,
+                    "question_id": 4700,
+                    "description": "I, II",
+                    "explanation": "Confira o comentário de cada alternativa na resposta correta. 💡 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:51:30.000Z",
+                    "updated_at": "2021-07-28T14:09:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19437,
+                    "question_id": 4700,
+                    "description": "I, III e IV",
+                    "explanation": "Confira o comentário de cada alternativa na resposta correta. 💡 ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:51:30.000Z",
+                    "updated_at": "2021-07-28T14:09:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19438,
+                    "question_id": 4700,
+                    "description": "I, II e IV",
+                    "explanation": "Confira o comentário de cada alternativa na resposta correta. 💡",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:51:30.000Z",
+                    "updated_at": "2021-07-28T14:09:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19439,
+                    "question_id": 4700,
+                    "description": "I, II, III e IV",
+                    "explanation": "- I - É definida como a não cicatrização da úlcera após cerca de **8-12 semanas** de tratamento, ou sua **recidiva** após o término da terapia.\n- II, III e IV - São consideradas complicação da úlcera que necessitam de procedimento cirúrgico.\n- Lembrando que, em úlceras gástricas, é fundamental também descartarmos **malignidade.**\n- Entre os procedimentos de escolha, temos a vagotomia troncular, a vagotomia seletiva e a vagotomia superseletiva.\n- Doc, vide a imagem abaixo com os tipos de vagotomias👇\n- Fonte: [https://docplayer.com.br/74716891-Hemorragias-digestivas.html](https://docplayer.com.br/74716891-Hemorragias-digestivas.html)",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-09-27T17:51:30.000Z",
+                    "updated_at": "2021-07-28T14:09:23.000Z",
+                    "files": [
+                        {
+                            "id": 7948,
+                            "file": "c83b9407-a026-45db-9ca6-660131708a72.jpeg",
+                            "name": "21-1.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-01T00:52:56.000Z",
+                            "updated_at": "2021-05-01T00:52:56.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c83b9407-a026-45db-9ca6-660131708a72.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 7948,
+                                "alternative_id": 19439
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4700,
+                "questionary_id": 237502,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4711,
+            "institution_id": 4,
+            "description": "Sobre os procedimentos cirúrgicos nas úlceras pépticas, assinale a **incorreta:**",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-28T01:41:30.000Z",
+            "updated_at": "2021-07-24T22:07:44.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4711
+                    }
+                },
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 4711
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19486,
+                    "question_id": 4711,
+                    "description": "Enquanto a vagotomia afeta a liberação de acetilcolina, a antrectomia afeta a liberação de gastrina.",
+                    "explanation": "Perfeito.\n- Vagotomia ➡ Interrupção da estimulação das células parietais pela **acetilcolina.**\n- Antrectomia ➡ Interrupção da estimulação das células parietais pela **gastrina.**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-09-27T22:41:30.000Z",
+                    "updated_at": "2021-07-24T19:07:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19487,
+                    "question_id": 4711,
+                    "description": "Existem três formas de vagotomia: troncular, seletiva e superseletiva",
+                    "explanation": "Perfeito. Vamos caracterizar cada uma delas:\n- Troncular ➡ os troncos vagais anterior e posterior são seccionados. **Isso denerva o estômago e outras vísceras abdominais.**\n- Seletiva ➡ remove toda a inervação vagal do estômago, contudo **poupa as fibras vagais que vão para os demais órgãos abdominais.**\n- Superseletiva ➡ preserva a **inervação vagal do antro e do piloro,** afeta os nervos do fundo e corpo gástricos, chamados **nervos de Latarjet.**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-27T22:41:30.000Z",
+                    "updated_at": "2021-07-24T19:07:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19488,
+                    "question_id": 4711,
+                    "description": "É fundamental realizar a piloroplastia ou antrectomia numa vagotomia superseletiva",
+                    "explanation": "Falso. Eis o porquê: O procedimento chamado de \"drenagem\"(simples piloroplastia ou a retirada de todo o antro (antrectomia)) é necessária em procedimentos que afetam as inervações do antro e piloro.\n- E quais são os procedimentos que afetam a inervação do antro e piloro? ➡ Vagotomia **troncular e a seletiva.**\n- **A vagotomia do tipo superseletiva  preserva a inervação destas estruturas, ou seja,  não necessita da drenagem, pois não corre o risco da retenção gástrica.**\n- Doc, vide a imagem abaixo com a esquematização dos tipos de vagotomias👇\n- Fonte: https://docplayer.com.br/74716891-Hemorragias-digestivas.html",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-09-27T22:41:30.000Z",
+                    "updated_at": "2021-07-24T19:07:44.000Z",
+                    "files": [
+                        {
+                            "id": 7948,
+                            "file": "c83b9407-a026-45db-9ca6-660131708a72.jpeg",
+                            "name": "21-1.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-01T00:52:56.000Z",
+                            "updated_at": "2021-05-01T00:52:56.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c83b9407-a026-45db-9ca6-660131708a72.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 7948,
+                                "alternative_id": 19488
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19489,
+                    "question_id": 4711,
+                    "description": "A vagotomia troncular com antrectomia é a cirurgia com menor taxa de recidiva da úlcera",
+                    "explanation": "Perfeito. Nessa cirurgia se retira tanto **o antro quanto o piloro**. Após retirar o antro, temos que realizar uma reconstrução, que pode ser feita em:\n- Gastroduodenostomia(Billroth I)\n- Gastrojejunostomia(Billroth II)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T22:41:30.000Z",
+                    "updated_at": "2021-07-24T19:07:44.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4711,
+                "questionary_id": 237502,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4713,
+            "institution_id": 182,
+            "description": " A cirurgia para úlcera duodenal é raramente feita nos dias atuais. Pacientes com úlcera crônica que não respondem ao tratamento com inibidores de bomba de prótons ou bloqueadores de receptor H2, e são H. Pylori negativo, são candidatos ao tratamento cirúrgico. A operação que tem menor taxa de recidiva ulcerosa é:\n",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-27T22:47:49.000Z",
+            "updated_at": "2021-07-24T19:07:50.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 182,
+                "title": "SCMMA",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-09-27T22:47:49.000Z",
+                "updated_at": "2020-09-27T22:47:49.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4713
+                    }
+                },
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 4713
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19495,
+                    "question_id": 4713,
+                    "description": "Vagotomia seletiva.",
+                    "explanation": "Esse tipo de cururgia não traz benefícios em relação aos outros tipos de vagotomia, como a troncular.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-09-27T22:47:49.000Z",
+                    "updated_at": "2021-07-24T19:07:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19496,
+                    "question_id": 4713,
+                    "description": "Vagotomia super-seletiva.",
+                    "explanation": "Consiste na desconexão dos nervos de Latarjet da pequena curvatura do estômago. \n- A recorrência ulcerosa é variável e depende da habilidade do cirurgião, porém não é a cirurgia com menor taxa de recidiva.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-27T22:47:49.000Z",
+                    "updated_at": "2021-07-24T19:07:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19497,
+                    "question_id": 4713,
+                    "description": "Vagotomia troncular com antrectomia.",
+                    "explanation": "Perfeito. Nessa cirurgia se retira tanto **o antro quanto o piloro**. Após retirar o antro, temos que realizar uma reconstrução, que pode ser feita em:\n- Gastroduodenostomia(Billroth I)\n- Gastrojejunostomia(Billroth II)  \n- Outro detalhe: o antro é o responsável pela produção de gastrina, sua retirada como parte do procedimento de drenagem torna a vagotomia troncular com antrectomia a mais eficaz **em reduzir a secreção ácida.**\n- Doc, se liga nos tipos de reconstruções utilizadas pós-antrectomia👇\n- Fonte: http://docplayer.com.br/54961647-Doenca-ulcerosa-peptica-e-disturbios-relacionados.html",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-09-27T22:47:49.000Z",
+                    "updated_at": "2021-07-24T19:07:50.000Z",
+                    "files": [
+                        {
+                            "id": 7949,
+                            "file": "6e909fb5-0657-484c-a7c2-b7fe150adb41.jpeg",
+                            "name": "131-0.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-01T01:41:25.000Z",
+                            "updated_at": "2021-05-01T01:41:25.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/6e909fb5-0657-484c-a7c2-b7fe150adb41.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 7949,
+                                "alternative_id": 19497
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19498,
+                    "question_id": 4713,
+                    "description": "Vagotomia troncular com piloroplastia.",
+                    "explanation": "Nessa cirurgia, ambos os troncos do vago são totalmente seccionados, o que interrompe toda inervação do estômago. O esvaziamento gástrico se torna muito mais dependente da força da gravidade.\n- Não é a cirurgia com menor taxa de recidiva.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T22:47:49.000Z",
+                    "updated_at": "2021-07-24T19:07:50.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4713,
+                "questionary_id": 237502,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4714,
+            "institution_id": 74,
+            "description": "São características mais frequentes das úlceras gástricas tipo 1, em relação a secreção ácida e localização anatômica, respectivamente:\n",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-28T01:53:37.000Z",
+            "updated_at": "2021-05-01T01:54:21.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 74,
+                "title": "UFRJ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-25T22:36:14.000Z",
+                "updated_at": "2020-05-25T22:36:14.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4714
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19499,
+                    "question_id": 4714,
+                    "description": "hipercloridria e região pré-pilórica",
+                    "explanation": "As úlceras gástricas tipo 1 estão relacionadas a hipocloridria. Pra ficar mais fácil:\n- **Úlceras do tipo 1 e 4 ➡ Hipocloridria**\n- **Úlcera do tipo 2 e 3 ➡ Hipercloridria**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-09-27T22:53:37.000Z",
+                    "updated_at": "2021-04-30T22:54:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19500,
+                    "question_id": 4714,
+                    "description": "hipercloridria e corpo gástrico",
+                    "explanation": "As úlceras gástricas tipo 1 estão relacionadas a hipocloridria. Pra ficar mais fácil:\n- **Úlceras do tipo 1 e 4 ➡ Hipocloridria**\n- **Úlcera do tipo 2 e 3 ➡ Hipercloridria** ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-27T22:53:37.000Z",
+                    "updated_at": "2021-04-30T22:54:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19501,
+                    "question_id": 4714,
+                    "description": "hipocloridria e incisura angularis",
+                    "explanation": "É a mais comum e está associada à normo ou **hipocloridria**, estando localizada na **pequena curvatura(na incisura angularis)**\n\n\n\n\n ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-09-27T22:53:37.000Z",
+                    "updated_at": "2021-04-30T22:54:21.000Z",
+                    "files": [
+                        {
+                            "id": 1128,
+                            "file": "1601247045544.jpeg",
+                            "name": "úlcera.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-09-28T01:50:46.000Z",
+                            "updated_at": "2020-09-28T01:50:46.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1601247045544.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1128,
+                                "alternative_id": 19501
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19502,
+                    "question_id": 4714,
+                    "description": "hipocloridria e fundo gástrico",
+                    "explanation": "A úlcera do tipo **IV** apresenta-se tipicamente na pequena curvatura, na parte alta, próximo à **junção gastroesofágica.**  Esse tipo de lesão está associado à **hipocloridria!**\n\n\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T22:53:37.000Z",
+                    "updated_at": "2021-04-30T22:54:21.000Z",
+                    "files": [
+                        {
+                            "id": 1129,
+                            "file": "1601247132804.jpeg",
+                            "name": "úlcera.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-09-28T01:52:13.000Z",
+                            "updated_at": "2020-09-28T01:52:13.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1601247132804.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1129,
+                                "alternative_id": 19502
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4714,
+                "questionary_id": 237502,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4715,
+            "institution_id": 104,
+            "description": "Com relação à úlcera péptica podemos afirmar que:\n",
+            "difficulty": "medium",
+            "year": "2009-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-28T02:00:20.000Z",
+            "updated_at": "2021-07-24T22:07:57.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 104,
+                "title": "ABC",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-06-04T18:24:30.000Z",
+                "updated_at": "2020-06-04T18:24:30.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4715
+                    }
+                },
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 4715
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19503,
+                    "question_id": 4715,
+                    "description": "Habitualmente, o tratamento cirúrgico está indicado na perfuração em peritônio livre.",
+                    "explanation": "Perfeito doc! Temos duas indicações clássicas para o tratamento cirúrgico:\n- **Intratabilidade clínica;**\n- **Presença de complicações ➡ Perfuração, hemorragia, obstrução.**\n- Doc, geralmente utilizamos a vagotomia para o tratamento cirúrgico da úlcera péptica, podendo ser troncular, seletiva ou superseletiva! Vide na imagem abaixo como são feitos esses procedimentos👇\n- Fonte: [https://docplayer.com.br/74716891-Hemorragias-digestivas.html](https://docplayer.com.br/74716891-Hemorragias-digestivas.html)",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-09-27T23:00:20.000Z",
+                    "updated_at": "2021-07-24T19:07:57.000Z",
+                    "files": [
+                        {
+                            "id": 7965,
+                            "file": "f134aebe-964d-42a7-974b-269a7226ab51.jpeg",
+                            "name": "21-1.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-01T03:27:30.000Z",
+                            "updated_at": "2021-05-01T03:27:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f134aebe-964d-42a7-974b-269a7226ab51.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 7965,
+                                "alternative_id": 19503
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19504,
+                    "question_id": 4715,
+                    "description": "O Helicobacter pylori só pode ser diagnosticado por biópsia.",
+                    "explanation": "Falso doc! Até pode ser o padrão-ouro por meio do teste rápido da urease do fragmento biopsiado e da histopatologia, todavia, não é o único método.\n- Testes não invasivos para o diagnostico de H.pylori ➡ Sorologia e Teste respiratória da Ureia.\n- Esses testes não invasivos são utilizados quando o paciente possui suspeita de úlcera péptica porém não vai ser submetido a uma EDA!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:00:20.000Z",
+                    "updated_at": "2021-07-24T19:07:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19505,
+                    "question_id": 4715,
+                    "description": "As úlceras gástricas hemorrágicas apresentam menor morbimortalidade no idoso porque estes doentes tem taxa menor de ressangramento.",
+                    "explanation": "Falso doc! Tudo trocado😂. As úlceras gástrica**s hemorrágicas apresentam maior morbimortalidad**e no idoso porque estes doentes tem tax**a maior de ressangramento**.\n- Lembrando que as úlceras gástricas hemorrágicas estão relacionados, sobretudo, ao uso de AINEs.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:00:20.000Z",
+                    "updated_at": "2021-07-24T19:07:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19506,
+                    "question_id": 4715,
+                    "description": "Os inibidores de bomba de prótons apresentam importante papel no tratamento porque erradicam o Helicobacter Pylori",
+                    "explanation": "Falso doc! A terapia para erradicação do H. pylori tem como base uma combinação de pelo menos **três drogas. Podem ser elas: CAO**\n- **Claritromicina**\n- **Amoxicilina**\n- **Omeprazol**\n- Por 7-14 dias de ATB, depois IBP isolado até completar 4-8 semanas.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:00:20.000Z",
+                    "updated_at": "2021-07-24T19:07:57.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4715,
+                "questionary_id": 237502,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4717,
+            "institution_id": 40,
+            "description": "Dentre os efeitos não-gástricos da vagotomia troncular, pode-se citar:",
+            "difficulty": "medium",
+            "year": "2007-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-28T02:22:46.000Z",
+            "updated_at": "2021-07-24T22:08:10.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 40,
+                "title": "UFF",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-19T23:40:48.000Z",
+                "updated_at": "2020-05-19T23:40:48.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4717
+                    }
+                },
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 4717
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19512,
+                    "question_id": 4717,
+                    "description": "aumento da liberação de hormônios peptídeos mediados pelo vago.",
+                    "explanation": "O vago foi seccionado ➡ Menor tônus ➡ **diminuição da liberação de hormônios peptídeos** ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:22:46.000Z",
+                    "updated_at": "2021-07-24T19:08:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19513,
+                    "question_id": 4717,
+                    "description": "aumento das enzimas pancreáticas e do bicarbonato.",
+                    "explanation": "Temos um menor tônus do parassimpático sobre o estímulo exócrino pancreático, que resulta na **diminuição** das enzimas pancreáticas e do bicarbonato.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:22:46.000Z",
+                    "updated_at": "2021-07-24T19:08:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19514,
+                    "question_id": 4717,
+                    "description": "aumento do fluxo biliar pós-prandial.",
+                    "explanation": "Na realidade, temos a **diminuição** do fluxo biliar pós-prandial pelo menor tônus parassimpático.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:22:46.000Z",
+                    "updated_at": "2021-07-24T19:08:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19515,
+                    "question_id": 4717,
+                    "description": "diminuição do volume da vesícula biliar.",
+                    "explanation": "Na realidade, temos uma menor contração da vesícula biliar ➡ **aumento do volume da vesícula biliar.**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:22:46.000Z",
+                    "updated_at": "2021-07-24T19:08:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19516,
+                    "question_id": 4717,
+                    "description": "diminuição da secreção exócrina do pâncreas.",
+                    "explanation": "Perfeito doc! Temos um menor tônus do parassimpático sobre o estímulo exócrino pancreático, que resulta na **diminuição da secreção exócrina do pâncreas.** Doc, você sabe como é feita a vagotomia troncular? Se liga na imagem abaixo👇",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-09-27T23:22:46.000Z",
+                    "updated_at": "2021-07-24T19:08:10.000Z",
+                    "files": [
+                        {
+                            "id": 7966,
+                            "file": "5aa4479b-439f-4908-af1e-5a00eb4c05e8.jpeg",
+                            "name": "RYIYHYYY.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-01T03:45:27.000Z",
+                            "updated_at": "2021-05-01T03:45:27.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/5aa4479b-439f-4908-af1e-5a00eb4c05e8.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 7966,
+                                "alternative_id": 19516
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4717,
+                "questionary_id": 237502,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4716,
+            "institution_id": 11,
+            "description": "Um homem de 39 anos de idade, tabagista e hipertenso, é operado por abdome agudo perfurativo. No intraoperatório, é achada úlcera perfurada em antro gástrico, com 2 cm de diâmetro, e peritonite purulenta difusa. Melhor conduta:\n",
+            "difficulty": "hard",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-27T23:11:15.000Z",
+            "updated_at": "2021-08-21T01:15:38.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 11,
+                "title": "SUS-SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T17:55:16.000Z",
+                "updated_at": "2020-05-17T17:55:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4716
+                    }
+                },
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 4716
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19507,
+                    "question_id": 4716,
+                    "description": "Sutura da úlcera e epiploplastia.",
+                    "explanation": "Perfeito doc! Temos um paciente em mau estado geral em que o prolongamento do ato operatório irá piorar o quadro clínico, Por isso, opta-se pela sutura da úlcera e epiploplastia.\n- A úlcera aguda perfurada, isto é, aquela que não apresenta o calo fibroso ao redor da perfuração, deve ser tratada com a simples sutura da lesão. \n- Já a úlcera crônica perfurada deve ser tratada sempre que possível pela gastrectomia.\n- Tema controverso, mas é a melhor opção.\n- Doc, se liga na imagem abaixo, que mostra como esse procedimento é feito👇\n- Fonte: K. Søreide, K. Thorsen and J. A. Søreid. Strategies to improve the outcome of emergency surgery for perforated peptic ulcer. Br J Surg. 2014 Jan;101(1):e51-64. ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-09-27T23:11:15.000Z",
+                    "updated_at": "2021-08-21T01:15:38.000Z",
+                    "files": [
+                        {
+                            "id": 7967,
+                            "file": "62c9a14e-8133-454b-a7e4-c5b3d44d82b3.jpeg",
+                            "name": "download (1).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-01T04:13:58.000Z",
+                            "updated_at": "2021-05-01T04:13:58.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/62c9a14e-8133-454b-a7e4-c5b3d44d82b3.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 7967,
+                                "alternative_id": 19507
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19508,
+                    "question_id": 4716,
+                    "description": "Antrectomia com vagotomia seletiva.",
+                    "explanation": "Falso doc! Esse tipo de cirurgia não traz benefícios em relação aos outros tipos de vagotomia, como a troncular. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:11:15.000Z",
+                    "updated_at": "2021-08-21T01:15:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19509,
+                    "question_id": 4716,
+                    "description": "Gastrectomia parcial com reconstrução em Y de Roux.",
+                    "explanation": "Falso doc! Geralmente é indicada para quando a úlcera se localiza entre 2-5 cm da junção esofagogástrica em caráter eletivo.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:11:15.000Z",
+                    "updated_at": "2021-08-21T01:15:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19510,
+                    "question_id": 4716,
+                    "description": "Gastrectomia subtotal e reconstrução à BII.",
+                    "explanation": "Falso doc! Estaria correto se fosse uma cirurgia eletiva. Temos a úlcera mais comum que é a tipo I, localizada na pequena curvatura do corpo gástrico.\n- Lembre que a vagotomia troncular não é realizada ➡ Pois o mecanismo da úlcera não apresenta hipercloridria.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:11:15.000Z",
+                    "updated_at": "2021-08-21T01:15:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19511,
+                    "question_id": 4716,
+                    "description": "Antrectomia com vagotomia troncular.",
+                    "explanation": "Falso doc! É a cirurgia recomendada para **úlceras pépticas duodenais.**",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:11:15.000Z",
+                    "updated_at": "2021-08-21T01:15:38.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4716,
+                "questionary_id": 237502,
+                "timer": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,1892 @@
+{
+    "id": 237539,
+    "user_id": 1699,
+    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-06-15T02:42:03.000Z",
+    "updated_at": "2022-06-15T02:42:03.000Z",
+    "study_plan_id": 878,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 4693,
+            "institution_id": 4,
+            "description": "Qual das assertivas abaixo contém a descrição **CORRETA** da localização das úlceras gástricas segundo Johnson?\n",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-27T16:27:48.000Z",
+            "updated_at": "2021-08-21T01:09:15.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4693
+                    }
+                },
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 4693
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19407,
+                    "question_id": 4693,
+                    "description": "Tipo I - próximas à cárdia.",
+                    "explanation": "É a mais comum e está associada à normo ou hipocloridria, porém está localizada na **pequena curvatura** e não próxima à cardia!\n\n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-09-27T16:27:48.000Z",
+                    "updated_at": "2021-08-21T01:09:15.000Z",
+                    "files": [
+                        {
+                            "id": 1122,
+                            "file": "1601223665360.jpeg",
+                            "name": "úlcera.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-09-27T19:21:06.000Z",
+                            "updated_at": "2020-09-27T19:21:06.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1601223665360.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1122,
+                                "alternative_id": 19407
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19408,
+                    "question_id": 4693,
+                    "description": "Tipo II - localizadas no corpo gástrico e no canal pilórico.",
+                    "explanation": "Perfeito doc! É uma úlcera gástrica que possui relação direta com a hipercloridria, e sua patogênese é semelhante à da úlcera duodenal.\n- Está localizada no **corpo gástrico** associada à **úlcera duodenal (canal pilórico)!**\n\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-09-27T16:27:48.000Z",
+                    "updated_at": "2021-08-21T01:09:15.000Z",
+                    "files": [
+                        {
+                            "id": 1125,
+                            "file": "1601224005547.jpeg",
+                            "name": "úlcera.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-09-27T19:26:46.000Z",
+                            "updated_at": "2020-09-27T19:26:46.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1601224005547.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1125,
+                                "alternative_id": 19408
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19409,
+                    "question_id": 4693,
+                    "description": "Tipo III - localizadas no canal pilórico.",
+                    "explanation": "Falso doc! É uma úlcera gástrica que possui relação direta com a **hipercloridria**, e sua patogênese é semelhante à da úlcera duodenal, no entanto, sua localização é pré-pilórica!\n- Localização: Úlcera **pré-pilórica.**\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-09-27T16:27:48.000Z",
+                    "updated_at": "2021-08-21T01:09:15.000Z",
+                    "files": [
+                        {
+                            "id": 1124,
+                            "file": "1601223956357.jpeg",
+                            "name": "úlcera.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-09-27T19:25:57.000Z",
+                            "updated_at": "2020-09-27T19:25:57.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1601223956357.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1124,
+                                "alternative_id": 19409
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19410,
+                    "question_id": 4693,
+                    "description": "Tipo IV - localizadas na incisura angularis",
+                    "explanation": "Falso doc! É uma úlcera mais rara, **localizada na pequena curvatura, parte alta, próximo à junção gastroesofágica!**\n\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T16:27:48.000Z",
+                    "updated_at": "2021-08-21T01:09:15.000Z",
+                    "files": [
+                        {
+                            "id": 1123,
+                            "file": "1601223895915.jpeg",
+                            "name": "úlcera.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-09-27T19:24:56.000Z",
+                            "updated_at": "2020-09-27T19:24:56.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1601223895915.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1123,
+                                "alternative_id": 19410
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4693,
+                "questionary_id": 237539,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10055,
+            "institution_id": 4,
+            "description": "Assinale a alternativa CORRETA em relação ao tratamento cirúrgico das úlceras pépticas:",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-07-24T19:17:23.000Z",
+            "updated_at": "2021-07-24T19:17:23.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 10055
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 41099,
+                    "question_id": 10055,
+                    "description": "A maioria das complicações de úlcera péptica requerem tratamento emergencial",
+                    "explanation": "Falso, Doc! O tratamento é de **urgência** em 82% dos casos",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-07-24T19:17:23.000Z",
+                    "updated_at": "2021-07-24T19:17:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41100,
+                    "question_id": 10055,
+                    "description": "O tratamento de perfuração de úlcera é feito por rafia com ou sem omentoplastia e lavagem da cavidade",
+                    "explanation": "Isso mesmo, Doc! 🤗\n- Em caso de úlcera duodenal é esse o tratamento, podendo ser feita a vagotomia para evitar recidiva (Doc, lembra que se fizer vagotomia é importante associar a piloroplastia 😉)\n- Em caso de úlcera gástrica, além de ser obrigatória a biópsia é importante cogitar a possibilidade de gastrectomia parcial",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-07-24T19:17:23.000Z",
+                    "updated_at": "2021-07-24T19:17:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41101,
+                    "question_id": 10055,
+                    "description": "Em casos de hemorragia, o tratamento normalmente é cirúrgico",
+                    "explanation": "Falso, Doc! O tratamento costuma ser endoscópico, com ligadura",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-07-24T19:17:23.000Z",
+                    "updated_at": "2021-07-24T19:17:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41102,
+                    "question_id": 10055,
+                    "description": "A maioria das indicações de cirurgia ocorre devido a sangramentos",
+                    "explanation": "Falso, Doc! \n- Embora os sangramentos sejam mais comuns, são tratados muitas vezes por via endoscópica\n- 80% das indicações cirúrgicas são devidas a **perfuração**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-07-24T19:17:23.000Z",
+                    "updated_at": "2021-07-24T19:17:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10055,
+                "questionary_id": 237539,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4697,
+            "institution_id": 4,
+            "description": "Qual é a localização mais comum das úlceras gástricas?",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-27T20:25:04.000Z",
+            "updated_at": "2021-08-11T03:05:23.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4697
+                    }
+                },
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 4697
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19423,
+                    "question_id": 4697,
+                    "description": "Tipo I - pequena curvatura",
+                    "explanation": "Perfeito doc!😁 É a localização mais comum das úlceras gástricas.\n- Está associada à normo ou hipocloridria, com gastrite atrófica do corpo gástrico pelo H. pylori.\n- Doc, se liga nessa imagem ilustrando os tipos de úlceras gástricas👇\n\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-09-27T17:25:04.000Z",
+                    "updated_at": "2021-08-11T00:05:23.000Z",
+                    "files": [
+                        {
+                            "id": 1127,
+                            "file": "1601226778595.jpeg",
+                            "name": "úlcera.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-09-27T20:12:59.000Z",
+                            "updated_at": "2020-09-27T20:12:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1601226778595.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1127,
+                                "alternative_id": 19423
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19424,
+                    "question_id": 4697,
+                    "description": "Tipo II - úlcera do corpo gástrico",
+                    "explanation": "Falso doc! Não é a localização mais comum, nem a descrição do tipo está correta.\n- Tipo II ➡ Úlcera do corpo gástrico associada à úlcera duodenal. \n- Lembrando que esse tipo está associado a hipercloridria!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:25:04.000Z",
+                    "updated_at": "2021-08-11T00:05:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19425,
+                    "question_id": 4697,
+                    "description": "Tipo III - Pré-pilórica.",
+                    "explanation": "Falso doc! É uma úlcera que possui relação direta com a hipercloridria, contudo, não é a mais comum!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:25:04.000Z",
+                    "updated_at": "2021-08-11T00:05:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19426,
+                    "question_id": 4697,
+                    "description": "Tipo IV - Pequena curvatura, parte alta.",
+                    "explanation": "Falso doc! Esse é o tipo de úlcera mais rara e tem sua patogênese parecida com o tipo I, relacionada a normo ou hipocloridria!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:25:04.000Z",
+                    "updated_at": "2021-08-11T00:05:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4697,
+                "questionary_id": 237539,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4700,
+            "institution_id": 4,
+            "description": "São indicações para o tratamento cirúrgico das úlceras pépticas:\n- I - Intratabilidade clínica\n- II - Perfuração\n- III - Hemorragia\n- IV - Obstrução",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-27T20:51:30.000Z",
+            "updated_at": "2021-07-28T17:09:23.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4700
+                    }
+                },
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 4700
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19435,
+                    "question_id": 4700,
+                    "description": "I, II e III",
+                    "explanation": "Confira o comentário de cada alternativa na resposta correta. 💡 ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:51:30.000Z",
+                    "updated_at": "2021-07-28T14:09:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19436,
+                    "question_id": 4700,
+                    "description": "I, II",
+                    "explanation": "Confira o comentário de cada alternativa na resposta correta. 💡 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:51:30.000Z",
+                    "updated_at": "2021-07-28T14:09:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19437,
+                    "question_id": 4700,
+                    "description": "I, III e IV",
+                    "explanation": "Confira o comentário de cada alternativa na resposta correta. 💡 ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:51:30.000Z",
+                    "updated_at": "2021-07-28T14:09:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19438,
+                    "question_id": 4700,
+                    "description": "I, II e IV",
+                    "explanation": "Confira o comentário de cada alternativa na resposta correta. 💡",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T17:51:30.000Z",
+                    "updated_at": "2021-07-28T14:09:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19439,
+                    "question_id": 4700,
+                    "description": "I, II, III e IV",
+                    "explanation": "- I - É definida como a não cicatrização da úlcera após cerca de **8-12 semanas** de tratamento, ou sua **recidiva** após o término da terapia.\n- II, III e IV - São consideradas complicação da úlcera que necessitam de procedimento cirúrgico.\n- Lembrando que, em úlceras gástricas, é fundamental também descartarmos **malignidade.**\n- Entre os procedimentos de escolha, temos a vagotomia troncular, a vagotomia seletiva e a vagotomia superseletiva.\n- Doc, vide a imagem abaixo com os tipos de vagotomias👇\n- Fonte: [https://docplayer.com.br/74716891-Hemorragias-digestivas.html](https://docplayer.com.br/74716891-Hemorragias-digestivas.html)",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-09-27T17:51:30.000Z",
+                    "updated_at": "2021-07-28T14:09:23.000Z",
+                    "files": [
+                        {
+                            "id": 7948,
+                            "file": "c83b9407-a026-45db-9ca6-660131708a72.jpeg",
+                            "name": "21-1.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-01T00:52:56.000Z",
+                            "updated_at": "2021-05-01T00:52:56.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c83b9407-a026-45db-9ca6-660131708a72.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 7948,
+                                "alternative_id": 19439
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4700,
+                "questionary_id": 237539,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4711,
+            "institution_id": 4,
+            "description": "Sobre os procedimentos cirúrgicos nas úlceras pépticas, assinale a **incorreta:**",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-28T01:41:30.000Z",
+            "updated_at": "2021-07-24T22:07:44.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4711
+                    }
+                },
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 4711
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19486,
+                    "question_id": 4711,
+                    "description": "Enquanto a vagotomia afeta a liberação de acetilcolina, a antrectomia afeta a liberação de gastrina.",
+                    "explanation": "Perfeito.\n- Vagotomia ➡ Interrupção da estimulação das células parietais pela **acetilcolina.**\n- Antrectomia ➡ Interrupção da estimulação das células parietais pela **gastrina.**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-09-27T22:41:30.000Z",
+                    "updated_at": "2021-07-24T19:07:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19487,
+                    "question_id": 4711,
+                    "description": "Existem três formas de vagotomia: troncular, seletiva e superseletiva",
+                    "explanation": "Perfeito. Vamos caracterizar cada uma delas:\n- Troncular ➡ os troncos vagais anterior e posterior são seccionados. **Isso denerva o estômago e outras vísceras abdominais.**\n- Seletiva ➡ remove toda a inervação vagal do estômago, contudo **poupa as fibras vagais que vão para os demais órgãos abdominais.**\n- Superseletiva ➡ preserva a **inervação vagal do antro e do piloro,** afeta os nervos do fundo e corpo gástricos, chamados **nervos de Latarjet.**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-27T22:41:30.000Z",
+                    "updated_at": "2021-07-24T19:07:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19488,
+                    "question_id": 4711,
+                    "description": "É fundamental realizar a piloroplastia ou antrectomia numa vagotomia superseletiva",
+                    "explanation": "Falso. Eis o porquê: O procedimento chamado de \"drenagem\"(simples piloroplastia ou a retirada de todo o antro (antrectomia)) é necessária em procedimentos que afetam as inervações do antro e piloro.\n- E quais são os procedimentos que afetam a inervação do antro e piloro? ➡ Vagotomia **troncular e a seletiva.**\n- **A vagotomia do tipo superseletiva  preserva a inervação destas estruturas, ou seja,  não necessita da drenagem, pois não corre o risco da retenção gástrica.**\n- Doc, vide a imagem abaixo com a esquematização dos tipos de vagotomias👇\n- Fonte: https://docplayer.com.br/74716891-Hemorragias-digestivas.html",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-09-27T22:41:30.000Z",
+                    "updated_at": "2021-07-24T19:07:44.000Z",
+                    "files": [
+                        {
+                            "id": 7948,
+                            "file": "c83b9407-a026-45db-9ca6-660131708a72.jpeg",
+                            "name": "21-1.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-01T00:52:56.000Z",
+                            "updated_at": "2021-05-01T00:52:56.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c83b9407-a026-45db-9ca6-660131708a72.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 7948,
+                                "alternative_id": 19488
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19489,
+                    "question_id": 4711,
+                    "description": "A vagotomia troncular com antrectomia é a cirurgia com menor taxa de recidiva da úlcera",
+                    "explanation": "Perfeito. Nessa cirurgia se retira tanto **o antro quanto o piloro**. Após retirar o antro, temos que realizar uma reconstrução, que pode ser feita em:\n- Gastroduodenostomia(Billroth I)\n- Gastrojejunostomia(Billroth II)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T22:41:30.000Z",
+                    "updated_at": "2021-07-24T19:07:44.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4711,
+                "questionary_id": 237539,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4713,
+            "institution_id": 182,
+            "description": " A cirurgia para úlcera duodenal é raramente feita nos dias atuais. Pacientes com úlcera crônica que não respondem ao tratamento com inibidores de bomba de prótons ou bloqueadores de receptor H2, e são H. Pylori negativo, são candidatos ao tratamento cirúrgico. A operação que tem menor taxa de recidiva ulcerosa é:\n",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-27T22:47:49.000Z",
+            "updated_at": "2021-07-24T19:07:50.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 182,
+                "title": "SCMMA",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-09-27T22:47:49.000Z",
+                "updated_at": "2020-09-27T22:47:49.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4713
+                    }
+                },
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 4713
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19495,
+                    "question_id": 4713,
+                    "description": "Vagotomia seletiva.",
+                    "explanation": "Esse tipo de cururgia não traz benefícios em relação aos outros tipos de vagotomia, como a troncular.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-09-27T22:47:49.000Z",
+                    "updated_at": "2021-07-24T19:07:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19496,
+                    "question_id": 4713,
+                    "description": "Vagotomia super-seletiva.",
+                    "explanation": "Consiste na desconexão dos nervos de Latarjet da pequena curvatura do estômago. \n- A recorrência ulcerosa é variável e depende da habilidade do cirurgião, porém não é a cirurgia com menor taxa de recidiva.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-27T22:47:49.000Z",
+                    "updated_at": "2021-07-24T19:07:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19497,
+                    "question_id": 4713,
+                    "description": "Vagotomia troncular com antrectomia.",
+                    "explanation": "Perfeito. Nessa cirurgia se retira tanto **o antro quanto o piloro**. Após retirar o antro, temos que realizar uma reconstrução, que pode ser feita em:\n- Gastroduodenostomia(Billroth I)\n- Gastrojejunostomia(Billroth II)  \n- Outro detalhe: o antro é o responsável pela produção de gastrina, sua retirada como parte do procedimento de drenagem torna a vagotomia troncular com antrectomia a mais eficaz **em reduzir a secreção ácida.**\n- Doc, se liga nos tipos de reconstruções utilizadas pós-antrectomia👇\n- Fonte: http://docplayer.com.br/54961647-Doenca-ulcerosa-peptica-e-disturbios-relacionados.html",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-09-27T22:47:49.000Z",
+                    "updated_at": "2021-07-24T19:07:50.000Z",
+                    "files": [
+                        {
+                            "id": 7949,
+                            "file": "6e909fb5-0657-484c-a7c2-b7fe150adb41.jpeg",
+                            "name": "131-0.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-01T01:41:25.000Z",
+                            "updated_at": "2021-05-01T01:41:25.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/6e909fb5-0657-484c-a7c2-b7fe150adb41.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 7949,
+                                "alternative_id": 19497
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19498,
+                    "question_id": 4713,
+                    "description": "Vagotomia troncular com piloroplastia.",
+                    "explanation": "Nessa cirurgia, ambos os troncos do vago são totalmente seccionados, o que interrompe toda inervação do estômago. O esvaziamento gástrico se torna muito mais dependente da força da gravidade.\n- Não é a cirurgia com menor taxa de recidiva.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T22:47:49.000Z",
+                    "updated_at": "2021-07-24T19:07:50.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4713,
+                "questionary_id": 237539,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4715,
+            "institution_id": 104,
+            "description": "Com relação à úlcera péptica podemos afirmar que:\n",
+            "difficulty": "medium",
+            "year": "2009-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-28T02:00:20.000Z",
+            "updated_at": "2021-07-24T22:07:57.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 104,
+                "title": "ABC",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-06-04T18:24:30.000Z",
+                "updated_at": "2020-06-04T18:24:30.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4715
+                    }
+                },
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 4715
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19503,
+                    "question_id": 4715,
+                    "description": "Habitualmente, o tratamento cirúrgico está indicado na perfuração em peritônio livre.",
+                    "explanation": "Perfeito doc! Temos duas indicações clássicas para o tratamento cirúrgico:\n- **Intratabilidade clínica;**\n- **Presença de complicações ➡ Perfuração, hemorragia, obstrução.**\n- Doc, geralmente utilizamos a vagotomia para o tratamento cirúrgico da úlcera péptica, podendo ser troncular, seletiva ou superseletiva! Vide na imagem abaixo como são feitos esses procedimentos👇\n- Fonte: [https://docplayer.com.br/74716891-Hemorragias-digestivas.html](https://docplayer.com.br/74716891-Hemorragias-digestivas.html)",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-09-27T23:00:20.000Z",
+                    "updated_at": "2021-07-24T19:07:57.000Z",
+                    "files": [
+                        {
+                            "id": 7965,
+                            "file": "f134aebe-964d-42a7-974b-269a7226ab51.jpeg",
+                            "name": "21-1.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-01T03:27:30.000Z",
+                            "updated_at": "2021-05-01T03:27:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f134aebe-964d-42a7-974b-269a7226ab51.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 7965,
+                                "alternative_id": 19503
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19504,
+                    "question_id": 4715,
+                    "description": "O Helicobacter pylori só pode ser diagnosticado por biópsia.",
+                    "explanation": "Falso doc! Até pode ser o padrão-ouro por meio do teste rápido da urease do fragmento biopsiado e da histopatologia, todavia, não é o único método.\n- Testes não invasivos para o diagnostico de H.pylori ➡ Sorologia e Teste respiratória da Ureia.\n- Esses testes não invasivos são utilizados quando o paciente possui suspeita de úlcera péptica porém não vai ser submetido a uma EDA!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:00:20.000Z",
+                    "updated_at": "2021-07-24T19:07:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19505,
+                    "question_id": 4715,
+                    "description": "As úlceras gástricas hemorrágicas apresentam menor morbimortalidade no idoso porque estes doentes tem taxa menor de ressangramento.",
+                    "explanation": "Falso doc! Tudo trocado😂. As úlceras gástrica**s hemorrágicas apresentam maior morbimortalidad**e no idoso porque estes doentes tem tax**a maior de ressangramento**.\n- Lembrando que as úlceras gástricas hemorrágicas estão relacionados, sobretudo, ao uso de AINEs.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:00:20.000Z",
+                    "updated_at": "2021-07-24T19:07:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19506,
+                    "question_id": 4715,
+                    "description": "Os inibidores de bomba de prótons apresentam importante papel no tratamento porque erradicam o Helicobacter Pylori",
+                    "explanation": "Falso doc! A terapia para erradicação do H. pylori tem como base uma combinação de pelo menos **três drogas. Podem ser elas: CAO**\n- **Claritromicina**\n- **Amoxicilina**\n- **Omeprazol**\n- Por 7-14 dias de ATB, depois IBP isolado até completar 4-8 semanas.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:00:20.000Z",
+                    "updated_at": "2021-07-24T19:07:57.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4715,
+                "questionary_id": 237539,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4717,
+            "institution_id": 40,
+            "description": "Dentre os efeitos não-gástricos da vagotomia troncular, pode-se citar:",
+            "difficulty": "medium",
+            "year": "2007-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-28T02:22:46.000Z",
+            "updated_at": "2021-07-24T22:08:10.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 40,
+                "title": "UFF",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-19T23:40:48.000Z",
+                "updated_at": "2020-05-19T23:40:48.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4717
+                    }
+                },
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 4717
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19512,
+                    "question_id": 4717,
+                    "description": "aumento da liberação de hormônios peptídeos mediados pelo vago.",
+                    "explanation": "O vago foi seccionado ➡ Menor tônus ➡ **diminuição da liberação de hormônios peptídeos** ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:22:46.000Z",
+                    "updated_at": "2021-07-24T19:08:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19513,
+                    "question_id": 4717,
+                    "description": "aumento das enzimas pancreáticas e do bicarbonato.",
+                    "explanation": "Temos um menor tônus do parassimpático sobre o estímulo exócrino pancreático, que resulta na **diminuição** das enzimas pancreáticas e do bicarbonato.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:22:46.000Z",
+                    "updated_at": "2021-07-24T19:08:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19514,
+                    "question_id": 4717,
+                    "description": "aumento do fluxo biliar pós-prandial.",
+                    "explanation": "Na realidade, temos a **diminuição** do fluxo biliar pós-prandial pelo menor tônus parassimpático.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:22:46.000Z",
+                    "updated_at": "2021-07-24T19:08:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19515,
+                    "question_id": 4717,
+                    "description": "diminuição do volume da vesícula biliar.",
+                    "explanation": "Na realidade, temos uma menor contração da vesícula biliar ➡ **aumento do volume da vesícula biliar.**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:22:46.000Z",
+                    "updated_at": "2021-07-24T19:08:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19516,
+                    "question_id": 4717,
+                    "description": "diminuição da secreção exócrina do pâncreas.",
+                    "explanation": "Perfeito doc! Temos um menor tônus do parassimpático sobre o estímulo exócrino pancreático, que resulta na **diminuição da secreção exócrina do pâncreas.** Doc, você sabe como é feita a vagotomia troncular? Se liga na imagem abaixo👇",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-09-27T23:22:46.000Z",
+                    "updated_at": "2021-07-24T19:08:10.000Z",
+                    "files": [
+                        {
+                            "id": 7966,
+                            "file": "5aa4479b-439f-4908-af1e-5a00eb4c05e8.jpeg",
+                            "name": "RYIYHYYY.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-01T03:45:27.000Z",
+                            "updated_at": "2021-05-01T03:45:27.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/5aa4479b-439f-4908-af1e-5a00eb4c05e8.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 7966,
+                                "alternative_id": 19516
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4717,
+                "questionary_id": 237539,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10053,
+            "institution_id": 4,
+            "description": "Qual o tratamento para o tipo mais comum de úlcera gástrica?",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-07-24T18:41:43.000Z",
+            "updated_at": "2021-07-24T19:05:45.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 10053
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 41091,
+                    "question_id": 10053,
+                    "description": "Gastrectomia distal + reconstrução por Billroth I ou II",
+                    "explanation": "Muito bem, Doc! 😁\n- No caso de úlceras gástricas, pense sempre em eliminar a úlcera, de forma que **hemigastrectomias ou antrectomias** são os procedimentos mais utilizados (sempre englobando a úlcera, é claro!)\n- O **tipo de cirurgia** vai depender, então, da localização da úlcera. Deve-se sempre pensar também na reconstrução a ser feita\n- A **vagotomia** **não** diminui os índices de recidiva nas úlceras gástricas, exceto se esta for pré-pilórica ou duodenal concomitante (como ocorre em alguns tipos II e III)\n\nPodemos usar a classificação de Johnson:\n- Tipo 1 (curvatura menor, mais distal) (60% dos casos - a **mais comum**) = **gastrectomia distal + reconstrução Billroth 1 ou 2** (já que retira uma parte menor do estômago)\n- Tipo 2 (canal pilórico ou corpo próximo ao antro) = antrectomia + vagotomia \n- Tipo 3 (antro - há 2 cm do piloro) = antrectomia + vagotomia\n- Tipo 4 (parte proximal do estômago ou cárdia) = gastrectomia subtotal + reconstrução em Y de Roux",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-07-24T18:41:43.000Z",
+                    "updated_at": "2021-07-24T19:05:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41092,
+                    "question_id": 10053,
+                    "description": "Antrectomia + vagotomia",
+                    "explanation": "Falso, Doc!\n- No caso de úlceras gástricas, pense sempre em eliminar a úlcera, de forma que **hemigastrectomias ou antrectomias** são os procedimentos mais utilizados (sempre englobando a úlcera, é claro!)\n- O **tipo de cirurgia** vai depender, então, da localização da úlcera. Deve-se sempre pensar também na reconstrução a ser feita\n- A **vagotomia** **não** diminui os índices de recidiva nas úlceras gástricas, exceto se esta for pré-pilórica ou duodenal concomitante (como ocorre em alguns tipos II e III)\n\nPodemos usar a classificação de Johnson:\n- Tipo 1 (curvatura menor, mais distal) (60% dos casos - a **mais comum**) = **gastrectomia distal + reconstrução Billroth 1 ou 2** (já que retira uma parte menor do estômago)\n- Tipo 2 (canal pilórico ou corpo próximo ao antro) = antrectomia + vagotomia \n- Tipo 3 (antro - há 2 cm do piloro) = antrectomia + vagotomia\n- Tipo 4 (parte proximal do estômago ou cárdia) = gastrectomia subtotal + reconstrução em Y de Roux ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-07-24T18:41:43.000Z",
+                    "updated_at": "2021-07-24T19:05:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41093,
+                    "question_id": 10053,
+                    "description": "Vagotomia troncular + piloroplastia",
+                    "explanation": "Falso, Doc! \n- No caso de úlceras gástricas, pense sempre em eliminar a úlcera, de forma que **hemigastrectomias ou antrectomias** são os procedimentos mais utilizados (sempre englobando a úlcera, é claro!)\n- O **tipo de cirurgia** vai depender, então, da localização da úlcera. Deve-se sempre pensar também na reconstrução a ser feita\n- A **vagotomia** **não** diminui os índices de recidiva nas úlceras gástricas, exceto se esta for pré-pilórica ou duodenal concomitante (como ocorre em alguns tipos II e III)\n\nPodemos usar a classificação de Johnson:\n- Tipo 1 (curvatura menor, mais distal) (60% dos casos - a **mais comum**) = **gastrectomia distal + reconstrução Billroth 1 ou 2** (já que retira uma parte menor do estômago)\n- Tipo 2 (canal pilórico ou corpo próximo ao antro) = antrectomia + vagotomia \n- Tipo 3 (antro - há 2 cm do piloro) = antrectomia + vagotomia\n- Tipo 4 (parte proximal do estômago ou cárdia) = gastrectomia subtotal + reconstrução em Y de Roux ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-07-24T18:41:43.000Z",
+                    "updated_at": "2021-07-24T19:05:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41094,
+                    "question_id": 10053,
+                    "description": "Gastrectomia subtotal + reconstrução em Y de Roux",
+                    "explanation": "Falso, Doc! \n- No caso de úlceras gástricas, pense sempre em eliminar a úlcera, de forma que **hemigastrectomias ou antrectomias** são os procedimentos mais utilizados (sempre englobando a úlcera, é claro!)\n- O **tipo de cirurgia** vai depender, então, da localização da úlcera. Deve-se sempre pensar também na reconstrução a ser feita\n- A **vagotomia** **não** diminui os índices de recidiva nas úlceras gástricas, exceto se esta for pré-pilórica ou duodenal concomitante (como ocorre em alguns tipos II e III)\n\nPodemos usar a classificação de Johnson:\n- Tipo 1 (curvatura menor, mais distal) (60% dos casos - a **mais comum**) = **gastrectomia distal + reconstrução Billroth 1 ou 2** (já que retira uma parte menor do estômago)\n- Tipo 2 (canal pilórico ou corpo próximo ao antro) = antrectomia + vagotomia \n- Tipo 3 (antro - há 2 cm do piloro) = antrectomia + vagotomia\n- Tipo 4 (parte proximal do estômago ou cárdia) = gastrectomia subtotal + reconstrução em Y de Roux ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-07-24T18:41:43.000Z",
+                    "updated_at": "2021-07-24T19:05:45.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10053,
+                "questionary_id": 237539,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10054,
+            "institution_id": 4,
+            "description": "Diferentemente das úlceras gástricas, nas úlceras duodenais praticamente sempre é importante realizar vagotomia. Após uma vagotomia, sempre devemos realizar um procedimento para facilitação da drenagem do estômago, já que há risco de estase gástrica. Qual dos procedimentos abaixo é o mais comumente utilizado para esse fim?",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-07-24T19:03:26.000Z",
+            "updated_at": "2021-07-24T19:05:35.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 10054
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 41095,
+                    "question_id": 10054,
+                    "description": "Piloroplastia de Heineke-Mikulicz",
+                    "explanation": "Arrasou, Doc! 💪\n- As piloroplastias são procedimentos que alargam a abertura entre o antro e o duodeno, facilitanto o esvaziamento gástrico\n- A piloroplastia de Heineke-Mikulicz é a técnica mais utilizada, por ser inclusive um procedimento mais  simples\n- A incisão no esfíncter é feita longitudinalmente e suturada transversalmente\n\nDoc, dá uma olhada nesse esquema explicando o procedimento 👇:\n\nFonte da imagem: https://www.surgicalcore.org/Search.aspx?q=&page=86&pagesize=25&sort=date",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-07-24T19:03:26.000Z",
+                    "updated_at": "2021-07-24T19:05:35.000Z",
+                    "files": [
+                        {
+                            "id": 15450,
+                            "file": "b527d1ea-97e3-4b86-a916-0cc396c2c530.jpeg",
+                            "name": "loadBinary.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-24T18:59:51.000Z",
+                            "updated_at": "2021-07-24T18:59:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b527d1ea-97e3-4b86-a916-0cc396c2c530.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 15450,
+                                "alternative_id": 41095
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 41096,
+                    "question_id": 10054,
+                    "description": "Piloroplastia de Finney",
+                    "explanation": "Falso, Doc! \n- A piloroplastia de Finney é uma gastroduodenostomia. \n- A incisão é feita em \"FU\" invertido\n- Não é a mais utilizada\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-07-24T19:03:26.000Z",
+                    "updated_at": "2021-07-24T19:05:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41097,
+                    "question_id": 10054,
+                    "description": "Piloroplastia de Jaboulay",
+                    "explanation": "Falso, Doc! \n- A piloroplastia de Jaboulay é uma gastroduodenostomia útil em casos de processo inflamatório significativo na região pilórica ou escara cicatricial\n- Não é o procedimento mais utilizado",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-07-24T19:03:26.000Z",
+                    "updated_at": "2021-07-24T19:05:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41098,
+                    "question_id": 10054,
+                    "description": "Gastrojejunostomia",
+                    "explanation": "Falso, Doc! \n- Para facilitação da drenagem gástrica temos duas opções: as piloroplastias e a gastrojejunostomia\n- A gastrojejunostomia é uma anasstomose da porção pendente do estômago ao jejuno proximal\n- É usada se houver uma deformidade bulbar que não permita a realização de uma piloroplastia segura",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-07-24T19:03:26.000Z",
+                    "updated_at": "2021-07-24T19:05:35.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10054,
+                "questionary_id": 237539,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10057,
+            "institution_id": 4,
+            "description": "Em caso de úlcera péptica perfurada, é necessário  decidir se será feita apenas a rafia primária ou se é preferível fazer ressecção cirúrgica. Assinale a alternativa que NÃO traz uma situação que fala a favor de tratamento com ressecção cirúrgica:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-07-24T19:24:50.000Z",
+            "updated_at": "2021-07-24T19:24:50.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 10057
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 41107,
+                    "question_id": 10057,
+                    "description": "Paciente com mais de 65 anos",
+                    "explanation": "Esse é, sim, um fator a favor da ressecção, Doc! Comorbidades e estabilidade hemodinâmica também",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-07-24T19:24:50.000Z",
+                    "updated_at": "2021-07-24T19:24:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41108,
+                    "question_id": 10057,
+                    "description": "Localização no duodeno",
+                    "explanation": "Boa, Doc, essa é a incorreta! 👊 \n- Geralmente nas úlceras gástricas que pensamos em gastrectomia parcial\n- Nas úlceras duodenais pode ser feita apenas rafia com ou sem omentoplastia e lavagem da cavidade",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-07-24T19:24:50.000Z",
+                    "updated_at": "2021-07-24T19:24:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41109,
+                    "question_id": 10057,
+                    "description": "Tamanho maior do que 3 cm",
+                    "explanation": "Esse é, sim, um fator a favor de ressecção, Doc!  Também deve-se levar em conta a qualidade do cirurgião e os recursos do hospital para a possibilidade da ressecção",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-07-24T19:24:50.000Z",
+                    "updated_at": "2021-07-24T19:24:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41110,
+                    "question_id": 10057,
+                    "description": "Bordas friáveis, contaminadas e com sangramento",
+                    "explanation": "Esse é, sim, um fator a favor de ressecção, Doc! Assim como suspeita de malignidade",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-07-24T19:24:50.000Z",
+                    "updated_at": "2021-07-24T19:24:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41111,
+                    "question_id": 10057,
+                    "description": "Ausência de sepse severa ou peritonite generalizada",
+                    "explanation": "Esse é, sim, um fator a favor de ressecção, Doc!  Sepse severa e peritonite generalizada falam contra a ressecção cirúrgica",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-07-24T19:24:50.000Z",
+                    "updated_at": "2021-07-24T19:24:50.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10057,
+                "questionary_id": 237539,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10060,
+            "institution_id": 4,
+            "description": "Principalmente nas úlceras gástricas, se houver indicação cirúrgica, é comum que esta envolva ressecção, com gastrectomia parcial ou antrectomia. Nesses casos, é necessário pensar no melhor método de reconstrução. Assinale a alternativa que contém o método que causa a maior parte das complicações pós-operatórias:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-07-24T19:30:42.000Z",
+            "updated_at": "2021-07-24T19:30:42.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 10060
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 41121,
+                    "question_id": 10060,
+                    "description": "Bilroth I",
+                    "explanation": "Falso, Doc! O método Bilroth II é aquele em que há mais incidência de síndrome de Dumping precoce, síndrome da alça aferente, gastrite de refluxo alcalino, síndrome do antro retido, entre outras complicações.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-07-24T19:30:42.000Z",
+                    "updated_at": "2021-07-24T19:30:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41122,
+                    "question_id": 10060,
+                    "description": "Billroth II",
+                    "explanation": "Isso mesmo, Doc! 😉  O método Bilroth II é aquele em que há mais incidência de síndrome de Dumping precoce, síndrome da alça aferente, gastrite de refluxo alcalino, síndrome do antro retido, entre outras complicações. ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-07-24T19:30:42.000Z",
+                    "updated_at": "2021-07-24T19:30:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41123,
+                    "question_id": 10060,
+                    "description": "Y de Roux",
+                    "explanation": "Falso, Doc! \n- O método Bilroth II é aquele em que há mais incidência de síndrome de Dumping precoce, síndrome da alça aferente, gastrite de refluxo alcalino, síndrome do antro retido, entre outras complicações\n- Algumas complicações do Billroth II são, inclusive, corrigidas, convertendo-se para Y de Roux ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-07-24T19:30:42.000Z",
+                    "updated_at": "2021-07-24T19:30:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41124,
+                    "question_id": 10060,
+                    "description": "Jaboulay",
+                    "explanation": "Falso, Doc! Jaboulay não é um tipo de reconstrução pós-gastrectomia 😜, e sim um procedimento de piloroplastia para facilitar o esvaziamento gástrico após vagotomia ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-07-24T19:30:42.000Z",
+                    "updated_at": "2021-07-24T19:30:42.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10060,
+                "questionary_id": 237539,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10064,
+            "institution_id": 4,
+            "description": "Assinale a alternativa que contém o nome do procedimento de reconstrução pós-gastrectomia em que se realiza uma gastroduodenoanastomose:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-07-24T22:42:26.000Z",
+            "updated_at": "2021-07-24T22:44:07.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 10064
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 41138,
+                    "question_id": 10064,
+                    "description": "Billroth I",
+                    "explanation": "Isso mesmo, Doc! 🤗 O Billroth 1 preserva a continuidade duodenal e jejunal, anastomosando o duodeno à parte remanescente do estômago (ou ao esôfago distal, se a gastrectomia for total)\n\nVeja na imagem, Doc 👇:\n\nFonte da imagem: [https://www.uptodate.com/contents/image?imageKey=SURG%2F89669](https://www.uptodate.com/contents/image?imageKey=SURG%2F89669)\n\nDoc, veja o comentário das outras alternativas para aprender, especialmente aquele sobre a anastomose de Braun 😉",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-07-24T19:42:26.000Z",
+                    "updated_at": "2021-07-24T19:44:07.000Z",
+                    "files": [
+                        {
+                            "id": 15451,
+                            "file": "fd831416-640c-41de-a631-a321782c59c8.jpeg",
+                            "name": "Distal.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-24T19:39:55.000Z",
+                            "updated_at": "2021-07-24T19:39:55.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/fd831416-640c-41de-a631-a321782c59c8.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 15451,
+                                "alternative_id": 41138
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 41139,
+                    "question_id": 10064,
+                    "description": "Billroth II",
+                    "explanation": "Falso, DOc! Na técnica de Billroth II é feita uma gastrojejunoanastomose\n\nVeja na imagem, Doc 👇:\n\nFonte da imagem: https://www.uptodate.com/contents/image?imageKey=SURG%2F89669 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-07-24T19:42:26.000Z",
+                    "updated_at": "2021-07-24T19:44:07.000Z",
+                    "files": [
+                        {
+                            "id": 15451,
+                            "file": "fd831416-640c-41de-a631-a321782c59c8.jpeg",
+                            "name": "Distal.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-24T19:39:55.000Z",
+                            "updated_at": "2021-07-24T19:39:55.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/fd831416-640c-41de-a631-a321782c59c8.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 15451,
+                                "alternative_id": 41139
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 41140,
+                    "question_id": 10064,
+                    "description": "Y de Roux",
+                    "explanation": "Falso, Doc! Na reconstrução em Y de Roux é feita uma gastrojejunoanastomose, mas com outra anastomose entre o jejuno proximal e a alça distal\n\nVeja na imagem, Doc 👇:\n\nFonte da imagem: https://www.uptodate.com/contents/image?imageKey=SURG%2F89669 ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-07-24T19:42:26.000Z",
+                    "updated_at": "2021-07-24T19:44:07.000Z",
+                    "files": [
+                        {
+                            "id": 15451,
+                            "file": "fd831416-640c-41de-a631-a321782c59c8.jpeg",
+                            "name": "Distal.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-24T19:39:55.000Z",
+                            "updated_at": "2021-07-24T19:39:55.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/fd831416-640c-41de-a631-a321782c59c8.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 15451,
+                                "alternative_id": 41140
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 41141,
+                    "question_id": 10064,
+                    "description": "Anastomose de Braun",
+                    "explanation": "Falso, Doc! \n- A anastomose de Braun é uma técnica para se evitar refluxo biliar quando a alça do paciennte que passou por Billroth II é muito grande\n- É feita uma anastomose jejuno-jejunal\n\nVeja na imagem, Doc 👇:\n\nFonte da imagem: Hwang HK, Lee SH, Han DH, Choi SH, Kang CM, Lee WJ. Impact of Braun anastomosis on reducing delayed gastric emptying following pancreaticoduodenectomy: a prospective, randomized controlled trial. J Hepatobiliary Pancreat Sci. 2016;23(6):364–72. \n\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-07-24T19:42:26.000Z",
+                    "updated_at": "2021-07-24T19:44:07.000Z",
+                    "files": [
+                        {
+                            "id": 15452,
+                            "file": "7d551751-c080-432f-b681-32ae185e5d5d.png",
+                            "name": "jhbp349-fig-0001-m.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-24T19:41:55.000Z",
+                            "updated_at": "2021-07-24T19:41:55.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7d551751-c080-432f-b681-32ae185e5d5d.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 15452,
+                                "alternative_id": 41141
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10064,
+                "questionary_id": 237539,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10067,
+            "institution_id": 4,
+            "description": "Assinale a alternativa CORRETA em relação às síndromes pós-gastrectomias:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-07-24T22:56:40.000Z",
+            "updated_at": "2021-07-24T22:56:40.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 10067
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 41151,
+                    "question_id": 10067,
+                    "description": "A síndrome de dumping tardio é mais frequente do que a precoce",
+                    "explanation": "Falso, Doc! \n- A precoce é mais frequente\n- Nela há a ocorrência de sintomas gastrointestinais e cardiovasculares 20-30 minutos após a refeição\n- 50-60% dos casos ocorrem na reconstrução por Billroth II",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-07-24T19:56:40.000Z",
+                    "updated_at": "2021-07-24T19:56:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41152,
+                    "question_id": 10067,
+                    "description": "A acarbose pode ser usada para o tratamento da síndrome de Dumping precoce",
+                    "explanation": "Falso, Doc!\n-  É utilizada na **tardia**, em que ocorrem sintomas semelhantes à **hipoglicemia** 2-3 horas após a ingestão de refeição\n- A acarbose retarda a absorção de carboidratos, melhorando o quadro\n- Na síndrome precoce pode ser usada dieta com **menos** açúcar, rica em gorduras e proteínas e o acetato de octreotídeo é uma boa opção\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-07-24T19:56:40.000Z",
+                    "updated_at": "2021-07-24T19:56:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41153,
+                    "question_id": 10067,
+                    "description": "A síndrome da alça eferente é uma complicação associada com a reconstrução Billroth II em que a alça estiver maior que 30-40 cm",
+                    "explanation": "Falso, Doc! \n- é a síndrome da alça **aferente,** e ocorre quando esta possui o tamanho descrito e é anastomosada de forma antecólica, sendo a maioria dos casos em Billroth II\n- Podem ocorrer estenoses, emaranhados e herniações da alça aferente\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-07-24T19:56:40.000Z",
+                    "updated_at": "2021-07-24T19:56:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41154,
+                    "question_id": 10067,
+                    "description": "Em casos de gastrite de refluxo alcalino podemos converter a reconstrução para Y de Roux e deixar o ramo de Roux alongado (em torno de 50 cm)",
+                    "explanation": "Boa, DOc! 😎\n- Nessa síndrome, há refluxo de bile para o interior do estômago\n- Aumentando o tamanho da alça e convertendo para Y de Roux distanciamos o escoamento da bile da região estomacal",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-07-24T19:56:40.000Z",
+                    "updated_at": "2021-07-24T19:56:40.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10067,
+                "questionary_id": 237539,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10071,
+            "institution_id": 4,
+            "description": "Qual das alternativas abaixo NÃO contém uma das síndromes pós-gastrectomias relacionadas à vagotomia?",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-07-24T23:06:54.000Z",
+            "updated_at": "2021-07-24T23:06:54.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 10071
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 41168,
+                    "question_id": 10071,
+                    "description": "Diarreia persistente",
+                    "explanation": "Essa é, sim, uma das complicações, Doc! \n- Pode haver diarreia temporária (desaparece em até 4 meses) ou persistente\n- Deve-se usar colestiramina e, se persistir por 1 ano, faz-se cirurgia\n- A cirurgia é feit acom interposição de 10 cm de segmento de jejuno anisoperistáltico 70 a 100 cm a partir do ângulo de Treitz\n ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-07-24T20:06:54.000Z",
+                    "updated_at": "2021-07-24T20:06:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41169,
+                    "question_id": 10071,
+                    "description": "Atonia gástrica",
+                    "explanation": "Essa é, sim, uma das complicações, Doc! \n- Ocorre nas vagotomias **troncular ou seletiva** e consiste em gastroparesia, com prejuízo do esvaziamento gástrico\n- O tratamento pode ser feito com pró-cinéticos (metoclopramida, eritromicia, entre outros)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-07-24T20:06:54.000Z",
+                    "updated_at": "2021-07-24T20:06:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41170,
+                    "question_id": 10071,
+                    "description": "Síndrome do antro retido",
+                    "explanation": "Boa, Doc, essa é a incorreta! 😀\n- A síndrome do antro retido não ocorre devido a vagotomias e sim relacionada ao tipo de reconstrução\n- Consiste em mucosa de antro (de cerca de 0,5 cm) além do puloro que fica residual no coto duodenal após reconstrução por Billroth II\n- Essa mucosa residual acaba sendo estimulada pela secreção biliopancre´tica a produzir hipersecreção ácido levando a úlceras  em 80% dos casos\n- Tratamento: bloqueadores de H2 e IBPs (na falha, faz-se ressecção da mucosa antral e posterior reconstrução Bilroth I)",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-07-24T20:06:54.000Z",
+                    "updated_at": "2021-07-24T20:06:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41171,
+                    "question_id": 10071,
+                    "description": "Úlceras recorrentes",
+                    "explanation": "Essa é, sim, uma das complicações, Doc! Pode ocorrer se houver secção vagal incompleta\n ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-07-24T20:06:54.000Z",
+                    "updated_at": "2021-07-24T20:06:54.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10071,
+                "questionary_id": 237539,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4716,
+            "institution_id": 11,
+            "description": "Um homem de 39 anos de idade, tabagista e hipertenso, é operado por abdome agudo perfurativo. No intraoperatório, é achada úlcera perfurada em antro gástrico, com 2 cm de diâmetro, e peritonite purulenta difusa. Melhor conduta:\n",
+            "difficulty": "hard",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-27T23:11:15.000Z",
+            "updated_at": "2021-08-21T01:15:38.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 11,
+                "title": "SUS-SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T17:55:16.000Z",
+                "updated_at": "2020-05-17T17:55:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 486,
+                    "title": "Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 231,
+                    "is_enabled": true,
+                    "created_at": "2020-09-27T18:52:20.000Z",
+                    "updated_at": "2021-07-24T21:42:51.000Z",
+                    "pivot": {
+                        "discipline_id": 486,
+                        "question_id": 4716
+                    }
+                },
+                {
+                    "id": 903,
+                    "title": "Tratamento Cirúrgico da Doença Ulcerosa (Úlcera) Péptica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-24T22:05:29.000Z",
+                    "updated_at": "2021-07-24T22:05:29.000Z",
+                    "pivot": {
+                        "discipline_id": 903,
+                        "question_id": 4716
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19507,
+                    "question_id": 4716,
+                    "description": "Sutura da úlcera e epiploplastia.",
+                    "explanation": "Perfeito doc! Temos um paciente em mau estado geral em que o prolongamento do ato operatório irá piorar o quadro clínico, Por isso, opta-se pela sutura da úlcera e epiploplastia.\n- A úlcera aguda perfurada, isto é, aquela que não apresenta o calo fibroso ao redor da perfuração, deve ser tratada com a simples sutura da lesão. \n- Já a úlcera crônica perfurada deve ser tratada sempre que possível pela gastrectomia.\n- Tema controverso, mas é a melhor opção.\n- Doc, se liga na imagem abaixo, que mostra como esse procedimento é feito👇\n- Fonte: K. Søreide, K. Thorsen and J. A. Søreid. Strategies to improve the outcome of emergency surgery for perforated peptic ulcer. Br J Surg. 2014 Jan;101(1):e51-64. ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-09-27T23:11:15.000Z",
+                    "updated_at": "2021-08-21T01:15:38.000Z",
+                    "files": [
+                        {
+                            "id": 7967,
+                            "file": "62c9a14e-8133-454b-a7e4-c5b3d44d82b3.jpeg",
+                            "name": "download (1).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-01T04:13:58.000Z",
+                            "updated_at": "2021-05-01T04:13:58.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/62c9a14e-8133-454b-a7e4-c5b3d44d82b3.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 7967,
+                                "alternative_id": 19507
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 19508,
+                    "question_id": 4716,
+                    "description": "Antrectomia com vagotomia seletiva.",
+                    "explanation": "Falso doc! Esse tipo de cirurgia não traz benefícios em relação aos outros tipos de vagotomia, como a troncular. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:11:15.000Z",
+                    "updated_at": "2021-08-21T01:15:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19509,
+                    "question_id": 4716,
+                    "description": "Gastrectomia parcial com reconstrução em Y de Roux.",
+                    "explanation": "Falso doc! Geralmente é indicada para quando a úlcera se localiza entre 2-5 cm da junção esofagogástrica em caráter eletivo.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:11:15.000Z",
+                    "updated_at": "2021-08-21T01:15:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19510,
+                    "question_id": 4716,
+                    "description": "Gastrectomia subtotal e reconstrução à BII.",
+                    "explanation": "Falso doc! Estaria correto se fosse uma cirurgia eletiva. Temos a úlcera mais comum que é a tipo I, localizada na pequena curvatura do corpo gástrico.\n- Lembre que a vagotomia troncular não é realizada ➡ Pois o mecanismo da úlcera não apresenta hipercloridria.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:11:15.000Z",
+                    "updated_at": "2021-08-21T01:15:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19511,
+                    "question_id": 4716,
+                    "description": "Antrectomia com vagotomia troncular.",
+                    "explanation": "Falso doc! É a cirurgia recomendada para **úlceras pépticas duodenais.**",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-09-27T23:11:15.000Z",
+                    "updated_at": "2021-08-21T01:15:38.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4716,
+                "questionary_id": 237539,
+                "timer": 0
+            }
+        }
+    ]
+}

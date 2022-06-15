@@ -1,0 +1,1757 @@
+{
+    "id": 236692,
+    "user_id": 1699,
+    "title": "Abdome Agudo Vascular e Hemorrágico",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-06-14T20:13:36.000Z",
+    "updated_at": "2022-06-14T20:13:36.000Z",
+    "study_plan_id": 166,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 90,
+            "institution_id": 4,
+            "description": "**Sobre o abdome agudo vascular e hemorrágico faça as associações corretas:** \nA - Abdome Agudo Vascular, B- Abdome Agudo Hemorrágico\nI - Isquemia mesentérica, II- Gravidez ectópica rota, III- Trombose arterial mesentérica, IV - Rotura de Aneurisma da Aorta Abdominal, V- Colite isquêmica\n",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T22:39:17.000Z",
+            "updated_at": "2020-11-10T18:40:53.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 90
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 90
+                    }
+                },
+                {
+                    "id": 17,
+                    "title": "Abdome Agudo Vascular e Hemorrágico",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:46.000Z",
+                    "updated_at": "2020-05-18T22:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 17,
+                        "question_id": 90
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 367,
+                    "question_id": 90,
+                    "description": "I-A, II-A, III-B, IV-A, V-A",
+                    "explanation": "Gravidez ectópica rota e Aneurisma da Aorta Abdominal são  sangramentos, portanto HEMORRÁGICOS Trombose arterial mesentérica é uma causa isquêmica, portanto VASCULAR.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:39:17.000Z",
+                    "updated_at": "2020-11-10T15:40:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 368,
+                    "question_id": 90,
+                    "description": "I-A, II-B, III-A, IV-B, V-A",
+                    "explanation": " Lembre que o abdome VASCULAR diz respeito a causas ISQUÊMICAS, como isquemia mesentérica, trombose arterial mesentérica e colite isquêmica. Já o abdome HEMORRÁGICO diz respeito a SANGRAMENTOS, como  a gravidez ectópica e ruptura de aneurisma da aorta abdominal\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:39:17.000Z",
+                    "updated_at": "2020-11-10T15:40:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 369,
+                    "question_id": 90,
+                    "description": "I-A,II-B,III-A, IV-A, V-A",
+                    "explanation": "Incorreta. Aneurisma da Aorta Abdominal são  sangramentos, portanto HEMORRÁGICO.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:39:17.000Z",
+                    "updated_at": "2020-11-10T15:40:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 370,
+                    "question_id": 90,
+                    "description": "I-B, II-B, III-A, IV-B, V-A",
+                    "explanation": "Isquemia mesentérica é uma causa ISQUÊMICA e, portanto, VASCULAR.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:39:17.000Z",
+                    "updated_at": "2020-11-10T15:40:53.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 90,
+                "questionary_id": 236692,
+                "timer": 0
+            }
+        },
+        {
+            "id": 91,
+            "institution_id": 4,
+            "description": "**Qual é a ordem, do mais comum para o menos comum, das causas de isquemia mesentérica aguda?** ",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T22:40:52.000Z",
+            "updated_at": "2020-05-18T22:40:52.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 91
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 91
+                    }
+                },
+                {
+                    "id": 17,
+                    "title": "Abdome Agudo Vascular e Hemorrágico",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:46.000Z",
+                    "updated_at": "2020-05-18T22:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 17,
+                        "question_id": 91
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 371,
+                    "question_id": 91,
+                    "description": "Embolia da artéria mesentérica superior, Isquemia Não Oclusiva, Trombose Arterial e Trombose Venosa",
+                    "explanation": "Em ordem decrescente, as causas são: Embolia da artéria mesentérica superior (50%), Isquemia Não Oclusiva (20-30%), Trombose Arterial (15%) e Trombose Venosa (5%).",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:40:52.000Z",
+                    "updated_at": "2020-05-18T19:40:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 372,
+                    "question_id": 91,
+                    "description": "Embolia da artéria mesentérica superior, Trombose Arterial, Trombose Venosa e Isquemia Não Oclusiva",
+                    "explanation": "Isquemia não oclusiva é a segunda causa mais comum.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:40:52.000Z",
+                    "updated_at": "2020-05-18T19:40:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 373,
+                    "question_id": 91,
+                    "description": "Isquemia Não Oclusiva, Embolia da artéria mesentérica superior,  Trombose Arterial e Trombose Venosa",
+                    "explanation": "Isquemia Não Oclusiva é a segunda causa mais comum e Embolia é a primeira.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:40:52.000Z",
+                    "updated_at": "2020-05-18T19:40:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 374,
+                    "question_id": 91,
+                    "description": "Embolia da artéria mesentérica superior, Isquemia Não Oclusiva, Trombose Venosa e Trombose Arterial",
+                    "explanation": "Trombose arterial é mais comum do que trombose venosa",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:40:52.000Z",
+                    "updated_at": "2020-05-18T19:40:52.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 91,
+                "questionary_id": 236692,
+                "timer": 0
+            }
+        },
+        {
+            "id": 92,
+            "institution_id": 4,
+            "description": "**Quanto ao quadro clínico de isquemia mesentérica, assinale a alternativa INCORRETA**: ",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T22:43:08.000Z",
+            "updated_at": "2020-05-18T22:43:08.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 92
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 92
+                    }
+                },
+                {
+                    "id": 17,
+                    "title": "Abdome Agudo Vascular e Hemorrágico",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:46.000Z",
+                    "updated_at": "2020-05-18T22:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 17,
+                        "question_id": 92
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 375,
+                    "question_id": 92,
+                    "description": "A isquemia mesentérica aguda é muito mais comum do que a crônica",
+                    "explanation": "Correta. O quadro agudo ocorre em 95% das vezes",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:43:08.000Z",
+                    "updated_at": "2020-05-18T19:43:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 376,
+                    "question_id": 92,
+                    "description": "A isquemia mesentérica aguda é chamada de Infarto intestinal, e a isquemia mesentérica crônica também é chamada de “Angina” mesentérica",
+                    "explanation": "Está correto. Esses são nomes alternativos à essas condições.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:43:08.000Z",
+                    "updated_at": "2020-05-18T19:43:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 377,
+                    "question_id": 92,
+                    "description": "A isquemia mesentérica crônica se apresenta classicamente com dor pós prandial, náusea e emagrecimento",
+                    "explanation": "Correta. Essas são as 3 características principais da angina mesentérica.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:43:08.000Z",
+                    "updated_at": "2020-05-18T19:43:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 378,
+                    "question_id": 92,
+                    "description": "O infarto mesentérico se apresenta com dor abdominal que, ao exame físico, apresenta dor em proporção muio parecida a que o paciente refere na história",
+                    "explanation": "Essa é a incorreta.Uma das principais características do Infarto mesentérico é a “DOR DA HISTÓRIA DESPROPORCIONAL AOS ACHADOS DO EXAME FÍSICO”. \n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:43:08.000Z",
+                    "updated_at": "2020-05-18T19:43:08.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 92,
+                "questionary_id": 236692,
+                "timer": 0
+            }
+        },
+        {
+            "id": 93,
+            "institution_id": 4,
+            "description": "**O exame de imagem padrão ouro para o diagnóstico de isquemia mesentérica aguda é** ",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T22:44:13.000Z",
+            "updated_at": "2020-05-18T22:44:13.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 93
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 93
+                    }
+                },
+                {
+                    "id": 17,
+                    "title": "Abdome Agudo Vascular e Hemorrágico",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:46.000Z",
+                    "updated_at": "2020-05-18T22:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 17,
+                        "question_id": 93
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 379,
+                    "question_id": 93,
+                    "description": "Raio X de abdome",
+                    "explanation": "Esse exame não vai ser capaz de ver um vaso ocluído.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:44:13.000Z",
+                    "updated_at": "2020-05-18T19:44:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 380,
+                    "question_id": 93,
+                    "description": "Ultrassom de abdome",
+                    "explanation": "Esse exame não vai ser capaz de ver um vaso mais profundo ocluído com precisão.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T22:44:13.000Z",
+                    "updated_at": "2020-05-18T22:44:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 381,
+                    "question_id": 93,
+                    "description": "Angiografia",
+                    "explanation": "Esse é o padrão-ouro. Além deste, é comum o uso da AngioTC, para identificar o vaso ocluído.\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-18T22:44:13.000Z",
+                    "updated_at": "2020-05-18T22:44:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 382,
+                    "question_id": 93,
+                    "description": "Ressonância Magnética",
+                    "explanation": "O exame padrão-ouro é a angiografia, para conseguir identificar o vaso ocluído.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:44:13.000Z",
+                    "updated_at": "2020-05-18T19:44:13.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 93,
+                "questionary_id": 236692,
+                "timer": 0
+            }
+        },
+        {
+            "id": 94,
+            "institution_id": 4,
+            "description": "Sabemos que o tratamento da isquemia mesentérica aguda vai depender de sua causa. Sabendo disso é correto afirmar, exceto:\n ",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T22:45:26.000Z",
+            "updated_at": "2020-05-18T22:45:26.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 94
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 94
+                    }
+                },
+                {
+                    "id": 17,
+                    "title": "Abdome Agudo Vascular e Hemorrágico",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:46.000Z",
+                    "updated_at": "2020-05-18T22:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 17,
+                        "question_id": 94
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 383,
+                    "question_id": 94,
+                    "description": "Quando a causa é uma embolia, o tratamento é a embolectomia",
+                    "explanation": "Correta. Realiza-se embolectomia após a identificação do vaso ocluído por angiografia.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:45:26.000Z",
+                    "updated_at": "2020-05-18T19:45:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 384,
+                    "question_id": 94,
+                    "description": "Quando a causa é não oclusiva, o tratamento consiste em suporte hemodinâmico e papaverina intra-arterial.",
+                    "explanation": "Correta. Como a causa é não oclusiva, administra-se fluidos e a papaverina intra-arterial que tem ação espasmolítica, ou seja, anti-espasmo arterial para manter a luz aberta.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:45:26.000Z",
+                    "updated_at": "2020-05-18T19:45:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 385,
+                    "question_id": 94,
+                    "description": "Quando a causa é trombose arterial, desvia-se o fluxo com enxerto.",
+                    "explanation": "Correta, desvia-se o fluxo com enxerto por laparotomia\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:45:26.000Z",
+                    "updated_at": "2020-05-18T19:45:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 386,
+                    "question_id": 94,
+                    "description": "Quando a causa é trombose venosa, realiza-se laparotomia para a correção da trombose.",
+                    "explanation": " Essa é a Incorreta. Na trombose venosa como causa, realiza-se anticoagulação (heparinização) sistêmica.\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:45:26.000Z",
+                    "updated_at": "2020-05-18T19:45:26.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 94,
+                "questionary_id": 236692,
+                "timer": 0
+            }
+        },
+        {
+            "id": 95,
+            "institution_id": 4,
+            "description": "A imagem radiológica abaixo corresponde a qual condição?\n\n\n\n",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T22:47:19.000Z",
+            "updated_at": "2021-11-03T15:48:40.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 95
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 95
+                    }
+                },
+                {
+                    "id": 17,
+                    "title": "Abdome Agudo Vascular e Hemorrágico",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:46.000Z",
+                    "updated_at": "2020-05-18T22:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 17,
+                        "question_id": 95
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 387,
+                    "question_id": 95,
+                    "description": "Embolia da artéria mesentérica superior",
+                    "explanation": "Isquemia mesentérica não apresentaria um padrão definido ao raio-X\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:47:19.000Z",
+                    "updated_at": "2021-11-03T12:48:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 388,
+                    "question_id": 95,
+                    "description": "Colite isquêmica",
+                    "explanation": "Esse é o sinal do Thumbprint (impressão digital). A colite isquêmica ocorre por hipoperfusão do cólon, em 95% das vezes por causas não oclusivas, sendo esse sinal radiológico decorrente do edema das alças devido ao sofrimento delas. O paciente típico é uma idosa do sexo feminino e ocorre mais na flexura esplênica e reto superior, que são as áreas menos vascularizadas do cólon.\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:47:19.000Z",
+                    "updated_at": "2021-11-03T12:48:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 389,
+                    "question_id": 95,
+                    "description": "Trombose arterial da artéria mesentérica superior",
+                    "explanation": "Isquemia mesentérica não apresentaria um padrão definido ao raio-X\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:47:19.000Z",
+                    "updated_at": "2021-11-03T12:48:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 390,
+                    "question_id": 95,
+                    "description": "Isquemia mesentérica crônica",
+                    "explanation": "Isquemia mesentérica não apresentaria um padrão definido ao raio-X\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:47:19.000Z",
+                    "updated_at": "2021-11-03T12:48:40.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 46,
+                    "file": "1590189126878.jpeg",
+                    "name": "download (7).jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-05-23T02:12:07.000Z",
+                    "updated_at": "2020-05-23T02:12:07.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590189126878.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 46,
+                        "question_id": 95
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 95,
+                "questionary_id": 236692,
+                "timer": 0
+            }
+        },
+        {
+            "id": 96,
+            "institution_id": 4,
+            "description": "**Assinale a alternativa que NÃO POSSUI um sinal semiológico de abdome agudo hemorrágico:** ",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T22:49:55.000Z",
+            "updated_at": "2020-05-18T22:49:55.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 96
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 96
+                    }
+                },
+                {
+                    "id": 17,
+                    "title": "Abdome Agudo Vascular e Hemorrágico",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:46.000Z",
+                    "updated_at": "2020-05-18T22:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 17,
+                        "question_id": 96
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 391,
+                    "question_id": 96,
+                    "description": "Sinal de Kehr",
+                    "explanation": "Esse é sim um sinal de abdome hemorrágico. Dor em ombro esquerdo devido a irritação do diafragma por sangramento oriundo do baço",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:49:55.000Z",
+                    "updated_at": "2020-05-18T19:49:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 392,
+                    "question_id": 96,
+                    "description": "Sinal de Cullen",
+                    "explanation": "Esse é sim um sinal de abdome hemorrágico. Significa equimose periumbilical, por pancreatite necrohemorrágica, por exemplo\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:49:55.000Z",
+                    "updated_at": "2020-05-18T19:49:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 393,
+                    "question_id": 96,
+                    "description": "Sinal de Grey-Turner",
+                    "explanation": "Esse é sim um sinal de abdome hemorrágico. Significa equimose em flancos, por pancreatite necro-hemorrágica por exemplo",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:49:55.000Z",
+                    "updated_at": "2020-05-18T19:49:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 394,
+                    "question_id": 96,
+                    "description": "Sinal de Torres-Homem",
+                    "explanation": "Essa é a incorreta.Esse sinal é a dor a percussão do hipocôndrio direito, sinalizando possível abscesso hepático. Não tem relação com abdome hemorrágico.\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:49:55.000Z",
+                    "updated_at": "2020-05-18T19:49:55.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 96,
+                "questionary_id": 236692,
+                "timer": 0
+            }
+        },
+        {
+            "id": 97,
+            "institution_id": 4,
+            "description": "**Para confirmar a presença de sangramento por gravidez ectópica rota, podemos utilizar os seguintes exames, exceto:**\n ",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T22:51:23.000Z",
+            "updated_at": "2020-05-18T22:51:23.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 97
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 97
+                    }
+                },
+                {
+                    "id": 17,
+                    "title": "Abdome Agudo Vascular e Hemorrágico",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:46.000Z",
+                    "updated_at": "2020-05-18T22:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 17,
+                        "question_id": 97
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 395,
+                    "question_id": 97,
+                    "description": "Ultrassom",
+                    "explanation": "É uma forma de identificar líquido livre na cavidade abdominal.\n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:51:23.000Z",
+                    "updated_at": "2020-05-18T19:51:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 396,
+                    "question_id": 97,
+                    "description": "Lavado Peritoneal Diagnóstico",
+                    "explanation": "É uma forma de identificar sangramento na cavidade abdominal.\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:51:23.000Z",
+                    "updated_at": "2020-05-18T19:51:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 397,
+                    "question_id": 97,
+                    "description": "Culdocentese",
+                    "explanation": "É uma forma de identificar sangramento intra-abdominal através da punção no fundo de saco de Douglas\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:51:23.000Z",
+                    "updated_at": "2020-05-18T19:51:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 398,
+                    "question_id": 97,
+                    "description": "Raio-X de abdome",
+                    "explanation": "Não é um método adequado para identificar sangramentos intra-abdominais.\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:51:23.000Z",
+                    "updated_at": "2020-05-18T19:51:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 97,
+                "questionary_id": 236692,
+                "timer": 0
+            }
+        },
+        {
+            "id": 98,
+            "institution_id": 4,
+            "description": "**Sobre o aneurisma de aorta abdominal roto, podemos afirmar:**\n ",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T22:52:41.000Z",
+            "updated_at": "2020-05-18T22:52:41.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 98
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 98
+                    }
+                },
+                {
+                    "id": 17,
+                    "title": "Abdome Agudo Vascular e Hemorrágico",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:46.000Z",
+                    "updated_at": "2020-05-18T22:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 17,
+                        "question_id": 98
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 399,
+                    "question_id": 98,
+                    "description": "Sua localização mais comum é suprarrenal.",
+                    "explanation": "Em sua maioria das vezes é INFRARRENAL, o que é bom, pois acaba na maioria das vezes não afetando a perfusão renal.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:52:41.000Z",
+                    "updated_at": "2020-05-18T19:52:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 400,
+                    "question_id": 98,
+                    "description": "Pode ocorrer dor abdominal ou lombar",
+                    "explanation": "Correto, podem ocorrer ambas apresentações\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:52:41.000Z",
+                    "updated_at": "2020-05-18T19:52:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 401,
+                    "question_id": 98,
+                    "description": "Não observa-se massa pulsátil, já que o aneurisma já rompeu",
+                    "explanation": "Frequentemente ao exame físico observa-se massa pulsátil em abdome\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:52:41.000Z",
+                    "updated_at": "2020-05-18T19:52:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 402,
+                    "question_id": 98,
+                    "description": "O tratamento endovascular está contraindicado, sendo preferida a cirurgia aberta",
+                    "explanation": "Pode-se optar por cirurgia aberta ou até mesmo endovascular, sendo que nesta última somente se o procedimento for realizado rapidamente.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:52:41.000Z",
+                    "updated_at": "2020-05-18T19:52:41.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 98,
+                "questionary_id": 236692,
+                "timer": 0
+            }
+        },
+        {
+            "id": 103,
+            "institution_id": 4,
+            "description": "**Uma paciente de 18 anos dá entrada na Unidade de Pronto Atendimento (UPA), com quadro de dor abdominal iniciada há cerca de 16 horas, no andar inferior do abdome. A paciente está hipocorada, hipotensa, taquicárdica e normotérmica. A hipótese diagnóstica compatível para o caso é:**\n",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T22:59:31.000Z",
+            "updated_at": "2020-05-23T02:17:44.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 103
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 103
+                    }
+                },
+                {
+                    "id": 17,
+                    "title": "Abdome Agudo Vascular e Hemorrágico",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:46.000Z",
+                    "updated_at": "2020-05-18T22:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 17,
+                        "question_id": 103
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 420,
+                    "question_id": 103,
+                    "description": "Prenhez tubária",
+                    "explanation": "Mulher em idade fértil com sinais de choque e dor em andar inferior do abdome temos que pensar em prenhez tubária.\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:59:31.000Z",
+                    "updated_at": "2020-05-22T23:17:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 421,
+                    "question_id": 103,
+                    "description": "Apendicite supurativa",
+                    "explanation": "Não há história prévia de dor abdominal que evolui para dor em fossa ilíaca direita para pensarmos em apendicite.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:59:31.000Z",
+                    "updated_at": "2020-05-22T23:17:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 422,
+                    "question_id": 103,
+                    "description": "Úlcera péptica perfurada",
+                    "explanation": "Não há história do dispepsia, dor epigástrica ou abuso de AINEs para pensar em úlcera péptica perfurada.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:59:31.000Z",
+                    "updated_at": "2020-05-22T23:17:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 423,
+                    "question_id": 103,
+                    "description": "Diverticulite aguda",
+                    "explanation": "Diverticulite é mais comum em idosos, além de não haver história de dor em quadrante inferior esquerdo localizada.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:59:31.000Z",
+                    "updated_at": "2020-05-22T23:17:45.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 103,
+                "questionary_id": 236692,
+                "timer": 0
+            }
+        },
+        {
+            "id": 104,
+            "institution_id": 13,
+            "description": "O sinal de Kehr é um exemplo de dor irradiada que está associada ao abdome agudo:\n ",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:05:03.000Z",
+            "updated_at": "2020-05-18T23:05:03.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 13,
+                "title": "UNIFESP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T18:27:33.000Z",
+                "updated_at": "2020-05-17T18:27:33.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 104
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 104
+                    }
+                },
+                {
+                    "id": 17,
+                    "title": "Abdome Agudo Vascular e Hemorrágico",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:46.000Z",
+                    "updated_at": "2020-05-18T22:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 17,
+                        "question_id": 104
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 424,
+                    "question_id": 104,
+                    "description": "Inflamatório",
+                    "explanation": "O sinal de Kehr ocorre por irritação do diafragma por SANGUE.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:05:03.000Z",
+                    "updated_at": "2020-05-18T20:05:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 425,
+                    "question_id": 104,
+                    "description": "Obstrutivo",
+                    "explanation": "O sinal de Kehr ocorre por irritação do diafragma por SANGUE",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:05:03.000Z",
+                    "updated_at": "2020-05-18T20:05:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 426,
+                    "question_id": 104,
+                    "description": "Perfurativo",
+                    "explanation": "O sinal de Kehr ocorre por irritação do diafragma por SANGUE",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:05:03.000Z",
+                    "updated_at": "2020-05-18T20:05:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 427,
+                    "question_id": 104,
+                    "description": "Vascular",
+                    "explanation": "O sinal de Kehr ocorre por irritação do diafragma por SANGUE",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:05:03.000Z",
+                    "updated_at": "2020-05-18T20:05:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 428,
+                    "question_id": 104,
+                    "description": "Hemorrágico",
+                    "explanation": " O sinal de Kehr ocorre por irritação do diafragma por SANGUE proveniente de sangramento esplênico",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:05:03.000Z",
+                    "updated_at": "2020-05-18T20:05:03.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 104,
+                "questionary_id": 236692,
+                "timer": 0
+            }
+        },
+        {
+            "id": 99,
+            "institution_id": 4,
+            "description": "**Além da gravidez ectópica e aneurisma de aorta abdominal, o aneurisma de artérias viscerais também é uma possível causa de abdome hemorrágico. Qual é a artéria visceral em que essa situação mais ocorre?**\n ",
+            "difficulty": "hard",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T22:54:02.000Z",
+            "updated_at": "2020-05-18T22:54:02.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 99
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 99
+                    }
+                },
+                {
+                    "id": 17,
+                    "title": "Abdome Agudo Vascular e Hemorrágico",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:46.000Z",
+                    "updated_at": "2020-05-18T22:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 17,
+                        "question_id": 99
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 403,
+                    "question_id": 99,
+                    "description": "Hepática",
+                    "explanation": "",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:54:02.000Z",
+                    "updated_at": "2020-05-18T19:54:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 404,
+                    "question_id": 99,
+                    "description": "Pancreática",
+                    "explanation": "",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:54:02.000Z",
+                    "updated_at": "2020-05-18T19:54:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 405,
+                    "question_id": 99,
+                    "description": "Esplênica",
+                    "explanation": "É a apresentação mais comum dos aneurismas de artérias viscerais.\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:54:02.000Z",
+                    "updated_at": "2020-05-18T19:54:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 406,
+                    "question_id": 99,
+                    "description": "Pancreatoduodenal",
+                    "explanation": "",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:54:02.000Z",
+                    "updated_at": "2020-05-18T19:54:02.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 99,
+                "questionary_id": 236692,
+                "timer": 0
+            }
+        },
+        {
+            "id": 100,
+            "institution_id": 25,
+            "description": "**Homem de 67 anos com dor abdominal difusa, de forte intensidade e início súbito há 1 hora. Refere 2 episódios de vômitos. Nega alteração do hábito intestinal (evacuou ontem) ou sintomas urinários. Antecedente de cirurgia de urgência para úlcera gástrica há 25 anos, tabagismo (50 maços/ano), etilismo (3 doses de destilado/dia), hipertensão arterial e infarto agudo do miocárdio há 8 anos. Faz uso de aspirina, atenolol e atorvastatina. Ao exame clínico encontra-se em bom estado geral, agitado, FC 110 bpm, FR 16 irpm, anictérico. Abdome flácido e doloroso à palpação profunda, sem irritação peritoneal. Exames laboratorias Hb 15,4g/dL; Leucócitos 17 mil/mm³; Amilase 175 U/L; Lipase 130 U/L; PCR 87 mg/L; gasometria venosa com pH 7,31; Lactato 27 mg/dL. Qual a principal hipótese diagnóstica?**\n ",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T22:55:52.000Z",
+            "updated_at": "2020-05-18T22:55:52.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 25,
+                "title": "USP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:55:52.000Z",
+                "updated_at": "2020-05-18T19:55:52.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 100
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 100
+                    }
+                },
+                {
+                    "id": 17,
+                    "title": "Abdome Agudo Vascular e Hemorrágico",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:46.000Z",
+                    "updated_at": "2020-05-18T22:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 17,
+                        "question_id": 100
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 407,
+                    "question_id": 100,
+                    "description": "Isquemia intestinal",
+                    "explanation": "Dor abdominal de início súbito e rápida evolução associada a ausência de irritação peritoneal e acidose corrobora com o diagnóstico de isquemia intestinal. \n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:55:52.000Z",
+                    "updated_at": "2020-05-18T19:55:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 408,
+                    "question_id": 100,
+                    "description": "Úlcera perfurada",
+                    "explanation": "Na úlcera perfurada haveria sinais de irritação peritoneal.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:55:52.000Z",
+                    "updated_at": "2020-05-18T19:55:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 409,
+                    "question_id": 100,
+                    "description": " Pancreatite aguda",
+                    "explanation": "Uma evolução da dor muito rápida e uma pequena elevação de amilase e lipase não falam a favor de pancreatite",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:55:52.000Z",
+                    "updated_at": "2020-05-18T19:55:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 410,
+                    "question_id": 100,
+                    "description": "Diverticulite aguda perfurada",
+                    "explanation": "Na diverticulite aguda perfurada haveria sinais de irritação peritoneal",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:55:52.000Z",
+                    "updated_at": "2020-05-18T19:55:52.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 100,
+                "questionary_id": 236692,
+                "timer": 0
+            }
+        },
+        {
+            "id": 101,
+            "institution_id": 26,
+            "description": "Um homem de 78 anos, portador de fibrilação atrial crônica que não está em uso de anticoagulação, procura o pronto atendimento de um hospital com quadro súbito de dor no abdome inferior, seguido de diarreia sanguinolenta. O diagnóstico mais provável para o caso é:\n",
+            "difficulty": "hard",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T22:57:18.000Z",
+            "updated_at": "2022-03-13T20:12:17.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 26,
+                "title": "UEPA",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:57:18.000Z",
+                "updated_at": "2020-05-18T19:57:18.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 101
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 101
+                    }
+                },
+                {
+                    "id": 17,
+                    "title": "Abdome Agudo Vascular e Hemorrágico",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:46.000Z",
+                    "updated_at": "2020-05-18T22:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 17,
+                        "question_id": 101
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 411,
+                    "question_id": 101,
+                    "description": "Sangramento de divertículo do cólon direito",
+                    "explanation": " Diverticulite que complicou com sangramento certamente teria sinais de peritonite, mas não está descrito",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:57:18.000Z",
+                    "updated_at": "2022-03-13T20:12:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 412,
+                    "question_id": 101,
+                    "description": "Câncer de cólon ascendente",
+                    "explanation": "Para pensar em Câncer teríamos um quadro de obstrução mecânica mais arrastado",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:57:18.000Z",
+                    "updated_at": "2022-03-13T20:12:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 413,
+                    "question_id": 101,
+                    "description": "Colite pseudomembranosa",
+                    "explanation": " Não há história de uso de antimicrobianos para pensarmos em colite pseudomembranosa\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:57:18.000Z",
+                    "updated_at": "2022-03-13T20:12:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 414,
+                    "question_id": 101,
+                    "description": "Colite isquêmica",
+                    "explanation": "Apesar de as causas não oclusivas serem as mais prevalentes na colite isquêmica, esse paciente possui fibrilação atrial sem anticoagulação, o que certamente poderia predispor a ocorrência de um êmbolo e, consequentemente, hipoperfusão do cólon.\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:57:18.000Z",
+                    "updated_at": "2022-03-13T20:12:17.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 101,
+                "questionary_id": 236692,
+                "timer": 0
+            }
+        },
+        {
+            "id": 105,
+            "institution_id": 10,
+            "description": " **Mulher, grande multípara de 36 anos, apresenta-se no setor de emergência com dor abdominal intensa no quadrante superior esquerdo e vertigem. Ao exame físico, constata-se PA=90x60mmHg que responde a 1L de líquido intravenoso. O hematócrito é de 31%. Ela se sente melhor após receber o líquido. No entanto, ao deixar o hospital, sofre um colapso. Qual é o provável diagnóstico?**\n ",
+            "difficulty": "hard",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:06:17.000Z",
+            "updated_at": "2020-05-18T23:06:17.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 10,
+                "title": "SES-GO ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T14:20:45.000Z",
+                "updated_at": "2020-05-17T14:20:45.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 105
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 105
+                    }
+                },
+                {
+                    "id": 17,
+                    "title": "Abdome Agudo Vascular e Hemorrágico",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:46.000Z",
+                    "updated_at": "2020-05-18T22:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 17,
+                        "question_id": 105
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 429,
+                    "question_id": 105,
+                    "description": "ruptura de AAA",
+                    "explanation": "Ruptura de Aneurisma de Aorta Abdominal cursa com dor abdominal ou lombar, e não localizada em quadrante superior esquerdo.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:06:17.000Z",
+                    "updated_at": "2020-05-18T20:06:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 430,
+                    "question_id": 105,
+                    "description": "Aneurisma de artéria esplênica",
+                    "explanation": "É o aneurisma de artéria visceral mais comum! Sendo a dor em quadrante superior esquerdo sugestivo desse quadro.\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:06:17.000Z",
+                    "updated_at": "2020-05-18T20:06:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 431,
+                    "question_id": 105,
+                    "description": "Aneurisma de artéria hepática",
+                    "explanation": "Além de incomum, a dor seria no quadrante superior direito.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:06:17.000Z",
+                    "updated_at": "2020-05-18T20:06:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 432,
+                    "question_id": 105,
+                    "description": "Aneurisma de artéria mesentérica superior",
+                    "explanation": " Poderia ser uma causa, mas o aneurisma de artéria visceral mais comum é o de artéria esplênica.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:06:17.000Z",
+                    "updated_at": "2020-05-18T20:06:17.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 105,
+                "questionary_id": 236692,
+                "timer": 0
+            }
+        }
+    ]
+}

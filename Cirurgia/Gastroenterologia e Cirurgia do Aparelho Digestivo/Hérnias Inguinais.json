@@ -1,0 +1,1498 @@
+{
+    "id": 237540,
+    "user_id": 1699,
+    "title": "Hérnias Inguinais",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-06-15T02:42:23.000Z",
+    "updated_at": "2022-06-15T02:42:23.000Z",
+    "study_plan_id": 885,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 1148,
+            "institution_id": 4,
+            "description": "Quais são as hérnias mais comuns?",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-03T08:54:44.000Z",
+            "updated_at": "2022-01-23T14:39:18.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 141,
+                    "title": "Hérnias da Parede Abdominal",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2020-06-03T08:52:20.000Z",
+                    "updated_at": "2021-07-26T20:02:01.000Z",
+                    "pivot": {
+                        "discipline_id": 141,
+                        "question_id": 1148
+                    }
+                },
+                {
+                    "id": 908,
+                    "title": "Hérnia Inguinal",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-26T20:06:43.000Z",
+                    "updated_at": "2021-07-26T20:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 908,
+                        "question_id": 1148
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4713,
+                    "question_id": 1148,
+                    "description": "Femoral",
+                    "explanation": "Falso doc!😋 As hérnias femorais são raras, correspondendo a menos de 5 % das hérnias. São hérnias mais comuns em mulheres!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-03T05:54:45.000Z",
+                    "updated_at": "2022-01-23T11:39:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4714,
+                    "question_id": 1148,
+                    "description": "Inguinais",
+                    "explanation": "Perfeito doc! Arrasou!😍 As hérnias inguinais correspondem a mais de 75% das hérnias e ocorrem a partir de uma invaginação do conteúdo intestinal pelo anel inguinal, como ilustrado na imagem abaixo👇\n- Fonte: https://www.tuasaude.com/hernia-inguinal/",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-03T05:54:45.000Z",
+                    "updated_at": "2022-01-23T11:39:18.000Z",
+                    "files": [
+                        {
+                            "id": 26303,
+                            "file": "3f859f94-c664-4375-b62c-27c96ef932f8.jpeg",
+                            "name": "hernia-inguinal_28125_l.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-23T11:38:28.000Z",
+                            "updated_at": "2022-01-23T11:38:28.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3f859f94-c664-4375-b62c-27c96ef932f8.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26303,
+                                "alternative_id": 4714
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4715,
+                    "question_id": 1148,
+                    "description": "Epigástricas",
+                    "explanation": "Falso doc!😋 Hérnias epigástricas não são tão frequentes.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-03T05:54:45.000Z",
+                    "updated_at": "2022-01-23T11:39:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4716,
+                    "question_id": 1148,
+                    "description": "Umbilicais",
+                    "explanation": "Falso doc!😋 Hérnias umbilicais não são tão frequentes quanto as hérnias inguinais (correspondem a 4-13%).",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-03T05:54:45.000Z",
+                    "updated_at": "2022-01-23T11:39:18.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1148,
+                "questionary_id": 237540,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1150,
+            "institution_id": 4,
+            "description": "Sobre os conceitos de hérnia inguinal direta e indireta, assinale o que for **INCORRETO:**",
+            "difficulty": "easy",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-03T09:06:16.000Z",
+            "updated_at": "2022-02-14T18:15:23.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 908,
+                    "title": "Hérnia Inguinal",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-26T20:06:43.000Z",
+                    "updated_at": "2021-07-26T20:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 908,
+                        "question_id": 1150
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4721,
+                    "question_id": 1150,
+                    "description": "As hérnias diretas se insinuam pelo anel inguinal interno",
+                    "explanation": "Boa doc, essa é a incorreta!😴 As hérnias inguinais INDIRETAS é que se insinuam pelo anel inguinal interno! Doc, com esse macete MEDsimple você nunca mais vai ter dúvidas sobre as hérnias diretas e indiretas👇\n\n\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-03T06:06:16.000Z",
+                    "updated_at": "2022-02-14T15:15:23.000Z",
+                    "files": [
+                        {
+                            "id": 28102,
+                            "file": "329dc996-e7f6-4050-9696-1800d7641811.png",
+                            "name": "1591164170535.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-02-14T15:15:12.000Z",
+                            "updated_at": "2022-02-14T15:15:12.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/329dc996-e7f6-4050-9696-1800d7641811.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 28102,
+                                "alternative_id": 4721
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4722,
+                    "question_id": 1150,
+                    "description": "As hérnias inguinais indiretas ocorrem mais em crianças",
+                    "explanation": "Verdadeiro doc!😁 Ela ocorre pela não obliteração do conduto peritônio-vaginal.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:06:16.000Z",
+                    "updated_at": "2022-02-14T15:15:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4723,
+                    "question_id": 1150,
+                    "description": "As hérnias inguinais indiretas são mais comuns que as diretas",
+                    "explanation": "Verdadeiro doc!😁 Hérnias inguinais indiretas são mais comuns que as diretas!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:06:16.000Z",
+                    "updated_at": "2022-02-14T15:15:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4724,
+                    "question_id": 1150,
+                    "description": "Na idade adulta, as hérnias inguinais costumam ser diretas",
+                    "explanation": "Verdadeiro doc!😁 Pelo aumento da pressão intra-abdominal, a hérnia inguinal direta se projeta pela fáscia transversalis, atingindo o canal inguinal.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:06:16.000Z",
+                    "updated_at": "2022-02-14T15:15:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1150,
+                "questionary_id": 237540,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1151,
+            "institution_id": 4,
+            "description": "No pronto-socorro de sua cidade, a maior quantidade de hérnias encarceradas que você irá receber no pronto atendimento será de hérnias do tipo:",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-03T09:20:40.000Z",
+            "updated_at": "2022-01-23T14:45:35.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 141,
+                    "title": "Hérnias da Parede Abdominal",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2020-06-03T08:52:20.000Z",
+                    "updated_at": "2021-07-26T20:02:01.000Z",
+                    "pivot": {
+                        "discipline_id": 141,
+                        "question_id": 1151
+                    }
+                },
+                {
+                    "id": 908,
+                    "title": "Hérnia Inguinal",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-26T20:06:43.000Z",
+                    "updated_at": "2021-07-26T20:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 908,
+                        "question_id": 1151
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4725,
+                    "question_id": 1151,
+                    "description": "Femoral",
+                    "explanation": "Falso doc!😋 Proporcionalmente, a hérnia femoral é a que mais encarcera. Porém, como as hérnias inguinais são muito mais comuns, encontraremos mais hérnias inguinais encarceradas.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:20:41.000Z",
+                    "updated_at": "2022-01-23T11:45:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4726,
+                    "question_id": 1151,
+                    "description": "Inguinal indireta",
+                    "explanation": "Perfeito doc! Arrasou!😍 Lembrando que hérnia encarcerada é aquela hérnia que não é mais passível de redução manual. E hérnia estrangulada é aquela que não é passível de redução manual e está em sofrimento vascular (isquemia) Se liga nesse macete para saber tudo sobre hérnia inguinal👇\n\n\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-03T06:20:41.000Z",
+                    "updated_at": "2022-01-23T11:45:35.000Z",
+                    "files": [
+                        {
+                            "id": 294,
+                            "file": "1591165135784.png",
+                            "name": "Sem título.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-06-03T09:18:56.000Z",
+                            "updated_at": "2020-06-03T09:18:56.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591165135784.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 294,
+                                "alternative_id": 4726
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4727,
+                    "question_id": 1151,
+                    "description": "Inguinal direta",
+                    "explanation": "Falso doc!😋 Dentre as hérnias inguinais, a que mais encarcera é a hérnia indireta.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:20:41.000Z",
+                    "updated_at": "2022-01-23T11:45:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4728,
+                    "question_id": 1151,
+                    "description": "Spiegel",
+                    "explanation": "Falso doc!😋 A hérnia de Spiegel ocorre na linha semilunar do abdome e não é a que mais encarcera.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:20:41.000Z",
+                    "updated_at": "2022-01-23T11:45:35.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1151,
+                "questionary_id": 237540,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1152,
+            "institution_id": 4,
+            "description": "Sobre a lateralidade das hérnias inguinais, assinale a alternativa **CORRETA:**",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-03T09:24:03.000Z",
+            "updated_at": "2022-01-23T14:48:18.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 908,
+                    "title": "Hérnia Inguinal",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-26T20:06:43.000Z",
+                    "updated_at": "2021-07-26T20:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 908,
+                        "question_id": 1152
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4729,
+                    "question_id": 1152,
+                    "description": "As hérnias inguinais diretas ocorrem mais do lado direito e as hérnias inguinais indiretas ocorrem mais do lado direito também",
+                    "explanation": "Perfeito doc! Arrasou!😍 Tanto a hérnia inguinal indireta quanto a direta são mais comuns do lado direito. Pega esse macete MEDsimple doc👇\n\n\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-03T06:24:03.000Z",
+                    "updated_at": "2022-01-23T11:48:18.000Z",
+                    "files": [
+                        {
+                            "id": 295,
+                            "file": "1591165351563.png",
+                            "name": "1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-06-03T09:22:31.000Z",
+                            "updated_at": "2020-06-03T09:22:31.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591165351563.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 295,
+                                "alternative_id": 4729
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4730,
+                    "question_id": 1152,
+                    "description": "As hérnias inguinais diretas ocorrem mais do lado esquerdo e as hérnias inguinais indiretas ocorrem mais do lado esquerdo também",
+                    "explanation": "Falso doc!😋 Ambas ocorrem com mais frequência no lado direito!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:24:03.000Z",
+                    "updated_at": "2022-01-23T11:48:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4731,
+                    "question_id": 1152,
+                    "description": "As hérnias inguinais diretas ocorrem mais do lado direito e as hérnias inguinais indiretas ocorrem mais do lado esquerdo",
+                    "explanation": "Falso doc!😋 Ambas ocorrem com mais frequência no lado direito.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:24:03.000Z",
+                    "updated_at": "2022-01-23T11:48:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4732,
+                    "question_id": 1152,
+                    "description": "As hérnias inguinais diretas ocorrem mais do lado esquerdo e as hérnias inguinais indiretas ocorrem mais do lado direito",
+                    "explanation": "Falso doc!😋 Ambas ocorrem com maior frequência no lado direito.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:24:03.000Z",
+                    "updated_at": "2022-01-23T11:48:18.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1152,
+                "questionary_id": 237540,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1156,
+            "institution_id": 4,
+            "description": "Sobre as técnicas de correção das hérnias inguinais, assinale a alternativa **CORRETA:**",
+            "difficulty": "easy",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-03T06:41:56.000Z",
+            "updated_at": "2022-01-23T12:01:29.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 908,
+                    "title": "Hérnia Inguinal",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-26T20:06:43.000Z",
+                    "updated_at": "2021-07-26T20:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 908,
+                        "question_id": 1156
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4745,
+                    "question_id": 1156,
+                    "description": "A técnica padrão-ouro é a de Lichenstein, devendo ser administrado antibiótico profilático na operação",
+                    "explanation": "Perfeito doc! Arrasou!😍 A técnica de Lichenstein, conhecida como \"Tensio-Free\" (Livre de Tensão) é a padrão-ouro para a correção de hérnias inguinais. Está indicado o uso de antibiótico profilático na operação pois essa técnica usa tela. Se liga nessa imagem doc👇\n- Fonte: Sabiston; Tratado de cirurgia. 2015.\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-03T06:41:56.000Z",
+                    "updated_at": "2022-01-23T12:01:29.000Z",
+                    "files": [
+                        {
+                            "id": 26304,
+                            "file": "f747d9dd-b885-4587-acc1-bed0ca7ccaba.jpeg",
+                            "name": "sanar-4-2.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-23T11:59:29.000Z",
+                            "updated_at": "2022-01-23T11:59:29.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f747d9dd-b885-4587-acc1-bed0ca7ccaba.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26304,
+                                "alternative_id": 4745
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4746,
+                    "question_id": 1156,
+                    "description": "A técnica de McVay corrige exclusivamente hérnias femorais",
+                    "explanation": "Falso doc!😋 A grande vantagem da técnica de McVay é a correção simultânea de hérnias inguinais e femorais. Essa técnica não usa tela.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:41:56.000Z",
+                    "updated_at": "2022-01-23T12:01:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4747,
+                    "question_id": 1156,
+                    "description": "A técnica de Sholdice é uma das principais técnicas com uso de tela",
+                    "explanation": "Falso doc!😋 A técnica de Sholdice é uma das principais técnicas que não utiliza tela. É a famosa técnica do \"embricamento\".💡 Doc, um macete para gravar quais técnicas utilizam tela👇\n- S**t**oppa, Lich**t**enstein e Gilber**t** todas possuem a letra \"**T**\" no nome e, portanto, utilizam **t**ela\n- Já McVay, Bassini e Shouldice não possuem T no nome = Sem tela ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:41:56.000Z",
+                    "updated_at": "2022-01-23T12:01:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4748,
+                    "question_id": 1156,
+                    "description": "A técnica de Stoppa utiliza tela unilateral",
+                    "explanation": "Falso doc!😋 A técnica de Stoppa utiliza uma tela bilateral pré-peritoneal.💡 Doc, um macete para gravar quais técnicas utilizam tela:\n- S**t**oppa, Lich**t**enstein e Gilber**t** todas possuem a letra \"**T**\" no nome e, portanto, utilizam **t**ela\n- Já McVay, Bassini e Shouldice não possuem T no nome = Sem tela",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:41:56.000Z",
+                    "updated_at": "2022-01-23T12:01:29.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1156,
+                "questionary_id": 237540,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1155,
+            "institution_id": 4,
+            "description": "Sobre as condutas frente às hérnias inguinais, julgue as afirmativas:\n- I- Hérnias redutíveis devem ser reduzidas e realizadas cirurgia de urgência\n- II-Complicações locais de hérnias estranguladas ou encarceradas devem ser corrigidas por inguinotomia\n- III-Hérnias que evoluem com peritonite generalizada devem ser abordadas por laparotomia mediana",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-03T09:37:52.000Z",
+            "updated_at": "2022-01-23T14:57:10.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 908,
+                    "title": "Hérnia Inguinal",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-26T20:06:43.000Z",
+                    "updated_at": "2021-07-26T20:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 908,
+                        "question_id": 1155
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4741,
+                    "question_id": 1155,
+                    "description": "Apenas I está correta",
+                    "explanation": "Falso doc!😋 Não há necessidade de cirurgia de urgência se a hérnia for passível de redução!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:37:52.000Z",
+                    "updated_at": "2022-01-23T11:57:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4742,
+                    "question_id": 1155,
+                    "description": "Apenas I e II estão corretas",
+                    "explanation": "Falso doc!😋 A afirmativa I está incorreta, não há necessidade de cirurgia de urgência se a hérnia for redutível.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:37:52.000Z",
+                    "updated_at": "2022-01-23T11:57:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4743,
+                    "question_id": 1155,
+                    "description": "Apenas II e III estão corretas",
+                    "explanation": "Perfeito doc! Arrasou!😍 Que orgulho  hein. Me acompanha👇\n- I - Incorreta. Hérnias redutíveis devem sim ser reduzidas, mas podem ter sua cirurgia de correção marcadas eletivamente, sem urgência\n- II - Correta. Complicações locais por hérnia estrangulada ou encarcerada sem peritonite generalizada devem ser abordadas cirurgicamente por inguinotomia\n- III-Correta. Hérnias que complicam com peritonite generalizada tem como abordagem cirúrgica a laparotomia mediana",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-03T06:37:52.000Z",
+                    "updated_at": "2022-01-23T11:57:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4744,
+                    "question_id": 1155,
+                    "description": "Todas as alternativas estão corretas",
+                    "explanation": "Falso doc!😋 A afirmativa I está incorreta, uma vez que não há necessidade de cirurgia de urgência em hérnias redutíveis.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:37:52.000Z",
+                    "updated_at": "2022-01-23T11:57:10.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1155,
+                "questionary_id": 237540,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1157,
+            "institution_id": 4,
+            "description": "Assinale a alternativa que apresenta as duas principais complicações, em ordem de frequência, das cirurgias de correção de hérnia inguinal:",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-03T06:45:11.000Z",
+            "updated_at": "2022-01-23T12:03:17.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 908,
+                    "title": "Hérnia Inguinal",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-26T20:06:43.000Z",
+                    "updated_at": "2021-07-26T20:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 908,
+                        "question_id": 1157
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4749,
+                    "question_id": 1157,
+                    "description": "Seroma e lesões nervosas",
+                    "explanation": "Falso doc!😋 As complicações vasculares são mais comuns do que as lesões nervosas.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:45:11.000Z",
+                    "updated_at": "2022-01-23T12:03:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4750,
+                    "question_id": 1157,
+                    "description": "Seroma e Trombose Pampiniforme",
+                    "explanation": "Perfeito doc! Arrasou!😍  A complicação mais comum é o seroma, seguido da trombose do plexo pampiniforme, podendo cursar com orquite isquêmica ou atrofia testicular. A terceira complicação mais comum são as lesões nervosas, causadas por lesões no chamado \"trígono da dor\" no momento da cirurgia!",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-03T06:45:11.000Z",
+                    "updated_at": "2022-01-23T12:03:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4751,
+                    "question_id": 1157,
+                    "description": "Lesões nervosas e vasculares",
+                    "explanation": "Falso doc!😋 A complicação mais comuns é o seroma, seguido das complicações vasculares.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:45:11.000Z",
+                    "updated_at": "2022-01-23T12:03:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4752,
+                    "question_id": 1157,
+                    "description": "Lesões nervosas e linfáticas",
+                    "explanation": "Falso doc!😋 A complicação mais comum é o seroma, seguido de complicações vasculares!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:45:11.000Z",
+                    "updated_at": "2022-01-23T12:03:17.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1157,
+                "questionary_id": 237540,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1179,
+            "institution_id": 25,
+            "description": "Homem, 67 anos, procurou o serviço de emergência devido a dor e abaulamento na região inguinal direita há 2 horas, após esforço. Nega vômitos e alterações do hábito intestinal. Antecedentes de tabagismo e infarto agudo do miocárdio há 2 anos. Faz uso de aspirina 100mg/dia, atenolol e atorvastatina. Realizou há 2 meses exame de ecocardiograma que mostrou disfunção sistólica com fração de ejeção de 40%. Ao exame clínico encontra-se em bom estado geral, com abdome flácido, indolor e abaulamento na região inguinal direita. Realizado diagnóstico de hérnia inguinal. Qual a conduta neste momento?\n",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-03T23:50:39.000Z",
+            "updated_at": "2022-01-23T12:06:07.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 25,
+                "title": "USP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:55:52.000Z",
+                "updated_at": "2020-05-18T19:55:52.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 908,
+                    "title": "Hérnia Inguinal",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-26T20:06:43.000Z",
+                    "updated_at": "2021-07-26T20:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 908,
+                        "question_id": 1179
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4840,
+                    "question_id": 1179,
+                    "description": "Cirurgia de urgência por inguinotomia sem redução da hérnia.",
+                    "explanation": "Falso doc!😋 A hérnia não apresenta sinais de estrangulamento, logo não tem indicação cirúrgica!\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-03T23:50:39.000Z",
+                    "updated_at": "2022-01-23T12:06:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4841,
+                    "question_id": 1179,
+                    "description": "Não reduzir a hérnia e correção eletiva após suspensão da aspirina.",
+                    "explanation": "Falso doc!😋 A hérnia deve ser reduzida para evitar que se torne estrangulada!\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-03T23:50:39.000Z",
+                    "updated_at": "2022-01-23T12:06:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4842,
+                    "question_id": 1179,
+                    "description": " Redução da hérnia e cirurgia por inguinotomia após 48 horas.",
+                    "explanation": "Falso doc!😋 A hérnia deve ser reduzida, mas não há indicação de que ela seja operada em 48h.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-03T23:50:39.000Z",
+                    "updated_at": "2022-01-23T12:06:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4843,
+                    "question_id": 1179,
+                    "description": "Redução da hérnia e acompanhamento ambulatorial.",
+                    "explanation": "Perfeito doc! Arrasou!😍 A hérnia deve ser reduzida no momento, manualmente, para evitar estrangulamento e o paciente deve ser acompanhado ambulatorialmente para uma posterior cirurgia eletiva. Não há necessidade de cirurgia de urgência, uma vez que a hérnia é redutível e não há sinais de sofrimento vascular do conteúdo herniário!\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-03T23:50:39.000Z",
+                    "updated_at": "2022-01-23T12:06:07.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1179,
+                "questionary_id": 237540,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1181,
+            "institution_id": 1,
+            "description": "Assinale a alternativa **CORRETA** em relação à classificação de Nyhus para hérnias inguinais:",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-04T03:15:30.000Z",
+            "updated_at": "2022-01-23T15:09:37.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 1,
+                "title": "UFSC",
+                "state": "Santa Catarina",
+                "is_enabled": true,
+                "created_at": "2020-05-16T20:39:39.000Z",
+                "updated_at": "2020-05-16T20:39:39.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 141,
+                    "title": "Hérnias da Parede Abdominal",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2020-06-03T08:52:20.000Z",
+                    "updated_at": "2021-07-26T20:02:01.000Z",
+                    "pivot": {
+                        "discipline_id": 141,
+                        "question_id": 1181
+                    }
+                },
+                {
+                    "id": 908,
+                    "title": "Hérnia Inguinal",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-26T20:06:43.000Z",
+                    "updated_at": "2021-07-26T20:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 908,
+                        "question_id": 1181
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4848,
+                    "question_id": 1181,
+                    "description": "Esta classificação não avalia a hérnia recidivante.",
+                    "explanation": "Falso doc!😋 A classe IV corresponde às hérnias recidivantes.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-04T00:15:30.000Z",
+                    "updated_at": "2022-01-23T12:09:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4849,
+                    "question_id": 1181,
+                    "description": "Hérnias do tipo IV B de Nyhus correspondem à hérnia inguinal indireta.",
+                    "explanation": "Perfeito doc! Arrasou!😍 Hérnias do tipo IV B são hérnias indiretas recidivantes. Se liga nesse resuminho doc👇\n- Fonte: https://www.misodor.com.br/GABARITOPERGESCOLH.php?COPAC=2792",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-04T00:15:30.000Z",
+                    "updated_at": "2022-01-23T12:09:37.000Z",
+                    "files": [
+                        {
+                            "id": 26305,
+                            "file": "3966b7e1-f488-4c0a-be1c-faf62aebf2be.jpeg",
+                            "name": "00000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-23T12:08:50.000Z",
+                            "updated_at": "2022-01-23T12:08:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3966b7e1-f488-4c0a-be1c-faf62aebf2be.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26305,
+                                "alternative_id": 4849
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4850,
+                    "question_id": 1181,
+                    "description": "A classificação do tipo V corresponde à hérnia combinada, direta e indireta.",
+                    "explanation": "Falso doc!😋 Não existe classificação tipo V, só vai até IV.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-04T00:15:30.000Z",
+                    "updated_at": "2022-01-23T12:09:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4851,
+                    "question_id": 1181,
+                    "description": "A hérnia do tipo III associa os tipos A, B, C, com parede posterior íntegra.",
+                    "explanation": "Falso doc!😋 O tipo III se refere a defeitos na parede posterior do canal inguinal.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-04T00:15:30.000Z",
+                    "updated_at": "2022-01-23T12:09:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4852,
+                    "question_id": 1181,
+                    "description": "Hérnias do tipo I correspondem à hérnia inguinal direta.",
+                    "explanation": "Falso doc!😋 Hérnias do tipo I e II são exclusivamente hérnias inguinais indiretas!",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-06-04T00:15:30.000Z",
+                    "updated_at": "2022-01-23T12:09:37.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1181,
+                "questionary_id": 237540,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10116,
+            "institution_id": 4,
+            "description": "Em relação à técnica de Lichtenstein assinale a alternativa **INCORRETA:**",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-07-26T21:06:34.000Z",
+            "updated_at": "2022-01-23T15:16:39.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 908,
+                    "title": "Hérnia Inguinal",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-26T20:06:43.000Z",
+                    "updated_at": "2021-07-26T20:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 908,
+                        "question_id": 10116
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 41352,
+                    "question_id": 10116,
+                    "description": "A tela utilizada é do tipo macroporoso",
+                    "explanation": "Verdadeiro doc!😁 Essa tela utilizada é uma macroporosa de polipropileno que, embora mais cara, possui mais benefícios:\n- Na microporosa, em caso de infecção, a tela precisa ser tirada. Já na macroporosa pode-se usar o antibiótico (macrófagos passam pela tela). \n- A macroporosa tem maior maleabilidadde (menos sensação de corpo estranho).",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-07-26T18:06:34.000Z",
+                    "updated_at": "2022-01-23T12:16:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41353,
+                    "question_id": 10116,
+                    "description": "A tela é colocada na posição pré-aponeurótica (Sublay)",
+                    "explanation": "Verdadeiro doc!😁 A tela de propileno macroporosa é colocada após a dissecção do saco herniário e abertura da musculatura cremastérica!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-07-26T18:06:34.000Z",
+                    "updated_at": "2022-01-23T12:16:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41354,
+                    "question_id": 10116,
+                    "description": "Faz-se sutura com pontos separados para fechamento da área conjunta",
+                    "explanation": "Boa, Doc, essa é a incorreta! 😉 Me acompanha👇 \n- É feita sutura contínua por todo o ligamento inguinal e área conjunta (pontos separados apenas no pubis)\n- A técnica em que é feita sutura de pontos separados para fechar a área conjunta é a de **Falci-Lichtenstein** (sendo essa a única diferença entre as duas técnicas)\n- 🤓 Relembrando, Doc: a área conjunta é uma região de conjunção entre o m. oblíquo interno e o transverso do abdome junto à borda do reto (em 5-10% dos indivíduos há um tendão conjunto verdadeiro)\n- Veja essa área/tensão na imagem (em verde) 👇:\n- Fonte da imagem: [https://www.bibliomed.com.br/bibliomed/bmbooks/anatomia/livro2/cap/fig04-12.htm](https://www.bibliomed.com.br/bibliomed/bmbooks/anatomia/livro2/cap/fig04-12.htm) \n\n\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-07-26T18:06:34.000Z",
+                    "updated_at": "2022-01-23T12:16:39.000Z",
+                    "files": [
+                        {
+                            "id": 15565,
+                            "file": "8cfd481d-dcbb-4730-8d2a-d6d2a426689b.gif",
+                            "name": "fig04-12.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2021-07-26T18:05:00.000Z",
+                            "updated_at": "2021-07-26T18:05:00.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8cfd481d-dcbb-4730-8d2a-d6d2a426689b.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 15565,
+                                "alternative_id": 41354
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 41355,
+                    "question_id": 10116,
+                    "description": "O paciente possui menos dificuldade de manter a posição ereta ao levantar do leito nessa técnica do que na de McVay",
+                    "explanation": "Verdadeiro, Doc! \n- A técnica de Lichtenstein é uma técnica **sem tensão** (tension-free) com colocação de tela, assim como a de Gilbert\n- As técnicas sem tela são com tensão e, nelas, o paciente tem dificuldade de manter a posição ereta nos primeiros dias, apresentando dor.\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-07-26T18:11:09.000Z",
+                    "updated_at": "2022-01-23T12:16:39.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10116,
+                "questionary_id": 237540,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10120,
+            "institution_id": 4,
+            "description": "Qual das técnicas de fechamento com tensão é a mais utilizada para tratamento de hérnia inguinal?",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-07-26T18:50:07.000Z",
+            "updated_at": "2022-01-23T12:18:09.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 908,
+                    "title": "Hérnia Inguinal",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-26T20:06:43.000Z",
+                    "updated_at": "2021-07-26T20:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 908,
+                        "question_id": 10120
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 41368,
+                    "question_id": 10120,
+                    "description": "Lichtenstein",
+                    "explanation": "Falso doc!😋 A técnica de Lichtenstein é uma técnica **sem tensã**o (tension-free), já que utiliza tela!  ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-07-26T18:50:07.000Z",
+                    "updated_at": "2022-01-23T12:18:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41369,
+                    "question_id": 10120,
+                    "description": "Bassini",
+                    "explanation": "Falso doc!😋 A técnica mais utilizada é a de McVay.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-07-26T18:50:07.000Z",
+                    "updated_at": "2022-01-23T12:18:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41370,
+                    "question_id": 10120,
+                    "description": "McVay",
+                    "explanation": "Perfeito doc! Arrasou!😍 Essa técnica é preferível porque **previne também hérnias femorais**.\n- É feita aproximação do oblíquo interno, transverso e fáscia tranversalis (tripla camada) no ligamento pectíneo (ligamento de Cooper)\n- É uma técnica **sem tela**\n- É utilizada na correção de hérnias **femorais**\n- A técnica de Bassini é muito semelhante, com a diferença de que a tripla camada é ligada ao ligamento inguinal\n\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-07-26T18:50:07.000Z",
+                    "updated_at": "2022-01-23T12:18:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41371,
+                    "question_id": 10120,
+                    "description": "Schouldice",
+                    "explanation": "Falso doc!😋 A técnica mais utilizada é a de McVay. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-07-26T18:50:07.000Z",
+                    "updated_at": "2022-01-23T12:18:09.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10120,
+                "questionary_id": 237540,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10122,
+            "institution_id": 4,
+            "description": "Sobre a cirurgia para tratamento da hérnia inguinal, assinale a alternativa **INCORRETA:**",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-07-26T19:09:40.000Z",
+            "updated_at": "2022-01-23T12:19:28.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 908,
+                    "title": "Hérnia Inguinal",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-26T20:06:43.000Z",
+                    "updated_at": "2021-07-26T20:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 908,
+                        "question_id": 10122
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 41376,
+                    "question_id": 10122,
+                    "description": "A técnica mais utilizada é a transabdominal transperitoneal",
+                    "explanation": "Verdadeiro doc!😁\n- Podemos usar a sigla TAPP. \n- É feita com fixação de tela.\n- A outra opção por vídeo é a técnica totalmente extraperitoneal (com ou sem fixação de tela).",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-07-26T19:09:40.000Z",
+                    "updated_at": "2022-01-23T12:19:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41377,
+                    "question_id": 10122,
+                    "description": "A posição de tela sublay é mais utilizada em caso de cirurgia por vídeo",
+                    "explanation": "Verdadeiro doc!😁 Na posição pré-peritoneal ou retromuscular.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-07-26T19:09:40.000Z",
+                    "updated_at": "2022-01-23T12:19:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41378,
+                    "question_id": 10122,
+                    "description": "Sempre que possível devemos colocar tela em cirurgia para correção de hérnia inguinal, exceto em casos de infecção grosseira",
+                    "explanation": "Verdadeiro doc!😁 Nesses casos podemos utilizar uma das técnicas sem tela, como McVay.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-07-26T19:09:40.000Z",
+                    "updated_at": "2022-01-23T12:19:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41379,
+                    "question_id": 10122,
+                    "description": "A cirurgia por videolaparoscopia é feita por via anterior",
+                    "explanation": "Boa, Doc, essa é a incorreta! 😉 Temos duas opções para tratamento da hérnia inguinal:\n- Via anterior = laparotomia\n- Via posterior = videolaparoscopia",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-07-26T19:09:40.000Z",
+                    "updated_at": "2022-01-23T12:19:28.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10122,
+                "questionary_id": 237540,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1154,
+            "institution_id": 4,
+            "description": "Sobre a classificação de Nyhus, julgue as seguintes afirmativas:\n- I-Nyhus I são as hérnias indiretas sem dilatação do anel inguinal interno\n- II-Nyhus III são as hérnias por defeito na parede posterior\n- III- Nyhus IVc são hérnias femorais recidivadas",
+            "difficulty": "hard",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-03T09:33:40.000Z",
+            "updated_at": "2022-01-23T14:51:45.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 908,
+                    "title": "Hérnia Inguinal",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-26T20:06:43.000Z",
+                    "updated_at": "2021-07-26T20:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 908,
+                        "question_id": 1154
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4737,
+                    "question_id": 1154,
+                    "description": "Apenas I está correta",
+                    "explanation": "Falso doc!😋 Todas as afirmativas estão corretas!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:33:40.000Z",
+                    "updated_at": "2022-01-23T11:51:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4738,
+                    "question_id": 1154,
+                    "description": "Apenas I e II estão corretas",
+                    "explanation": "Falso doc!😋 Todas as afirmativas estão corretas!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:33:40.000Z",
+                    "updated_at": "2022-01-23T11:51:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4739,
+                    "question_id": 1154,
+                    "description": "Apenas II e III estão corretas",
+                    "explanation": "Falso doc!😋 Todas as afirmativas estão corretas!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-03T06:33:40.000Z",
+                    "updated_at": "2022-01-23T11:51:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4740,
+                    "question_id": 1154,
+                    "description": "Todas as afirmativas estão corretas",
+                    "explanation": "Perfeito doc! Arrasou!😍 Questão conceitual! Acompanha o tio aqui👇\n- **Nyhus I**) Indireta, com anel inguinal interno <2cm. Lembre que Nyhus \"I\" é \"I\"ndireta\n- **Nyhus II**)Indireta, com anel inginal interno >2cm. Se a Nyhus \"I\" é a Indireta, a Nyhus \"II\" é a Indireta duas vezes, ou seja, indireta dilatada (\"mais arregaçada\")\n- **Nyhus III)**Defeitos da parede posterior:\n- **A:** Direta\n- **B:**Indireta\n- **C:**Crural (femoral)\n- 💡Aqui você vai lembrar que é \"direto a direta\", ou seja, classe A, que é a primeira, é sempre a direta\n- 💡E também vai lembrar que class**e  C é** C de**** Crural (femoral)\n- **Nyhus IV) Hérnias recidivadas**\n- A: Direta (lembre do \"direto a direta)\n- B: Indireta\n- C: Crural (lembre de C de crural)\n- D: Combinada (Mista)",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-03T06:33:40.000Z",
+                    "updated_at": "2022-01-23T11:51:45.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1154,
+                "questionary_id": 237540,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10112,
+            "institution_id": 24,
+            "description": "O reparo cirúrgico da hérnia inguinal, no qual ocorrem aproximação e sutura do arco aponeurótico do músculo transverso ao ligamento de Cooper, é conhecido como técnica de:",
+            "difficulty": "hard",
+            "year": "2012-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-07-26T17:34:23.000Z",
+            "updated_at": "2022-01-23T12:12:19.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 24,
+                "title": "UFG",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:16:29.000Z",
+                "updated_at": "2020-05-18T19:16:29.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 908,
+                    "title": "Hérnia Inguinal",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2021-07-26T20:06:43.000Z",
+                    "updated_at": "2021-07-26T20:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 908,
+                        "question_id": 10112
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 41336,
+                    "question_id": 10112,
+                    "description": "McVay  ",
+                    "explanation": "Perfeito, arrasou, Doc! 😎 Me acompanha👇\n- A técnica descrita é a de McVay, em que ocorre aproximação do oblíquo interno, transverso e fáscia tranversalis (tripla camada) no ligamento pectíneo (ligamento de Cooper)\n- É uma técnica **sem tela**\n- É utilizada na correção de hérnias **femorais**\n- A técnica de Bassini é muito semelhante, com a diferença de que a tripla camada é ligada ao ligamento inguinal.\n- 💡 Doc, um macete para gravar quais técnicas utilizam tela:\n- S**t**oppa, Lich**t**enstein e Gilber**t** todas possuem a letra \"**T**\" no nome e, portanto, utilizam **t**ela\n- Já McVay, Bassini e Shouldice não possuem T no nome = Sem tela \n- Veja na parte inferior da imagem, Doc, onde se localiza o ligamento de Cooper 👇:\n- Fonte da imagem: [http://herniaremediation.org/2016/06/femoral-hernia/](http://herniaremediation.org/2016/06/femoral-hernia/)",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-07-26T17:34:23.000Z",
+                    "updated_at": "2022-01-23T12:12:19.000Z",
+                    "files": [
+                        {
+                            "id": 15562,
+                            "file": "3d0481e1-062d-47d3-8418-82a5dff8f743.jpeg",
+                            "name": "sanar-13-2.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-26T17:26:47.000Z",
+                            "updated_at": "2021-07-26T17:26:47.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3d0481e1-062d-47d3-8418-82a5dff8f743.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 15562,
+                                "alternative_id": 41336
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 41337,
+                    "question_id": 10112,
+                    "description": "Bassini  ",
+                    "explanation": "Falso doc!😋 \n- A técnica de Bassini, assim como a de McVay, é uma técnica **sem tela** e utilizada para tratamento de hérnias **femorais (**principalmente)\n- Nela, assim como na de McWay, ocorre aproximação do oblíquo interno, transverso e fáscia tranversalis (tripla camada) \n- A diferença é que a camada não é ligada no ligamento pectíneo (cooper) e, sim, no **ligamento inguinal** \n- 💡 Doc, um macete para gravar quais técnicas utilizam tela:\n- S**t**oppa, Lich**t**enstein e Gilber**t** todas possuem a letra \"**T**\" no nome e, portanto, utilizam **t**ela\n- Já McVay, Bassini e Shouldice não possuem T no nome = Sem tela  \n- Veja na parte inferior da imagem, Doc, onde se localiza o ligamento de Cooper e o ligamento inguinal 👇:\n- Fonte da imagem: [http://herniaremediation.org/2016/06/femoral-hernia/](http://herniaremediation.org/2016/06/femoral-hernia/) ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-07-26T17:34:23.000Z",
+                    "updated_at": "2022-01-23T12:12:19.000Z",
+                    "files": [
+                        {
+                            "id": 15562,
+                            "file": "3d0481e1-062d-47d3-8418-82a5dff8f743.jpeg",
+                            "name": "sanar-13-2.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-26T17:26:47.000Z",
+                            "updated_at": "2021-07-26T17:26:47.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3d0481e1-062d-47d3-8418-82a5dff8f743.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 15562,
+                                "alternative_id": 41337
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 41338,
+                    "question_id": 10112,
+                    "description": "Shouldice  ",
+                    "explanation": "Falso doc!😋 \n- Na técnica de Shouldice faz-se 4 camadas de sutura entre as estruturas da região inguinal\n- Há recidiva de 1,7-15%\n- É uma técnica sem uso de tela\n- 💡 Doc, um macete para gravar quais técnicas utilizam tela:\n- S**t**oppa, Lich**t**enstein e Gilber**t** todas possuem a letra \"**T**\" no nome e, portanto, utilizam **t**ela\n- Já McVay, Bassini e Shouldice não possuem T no nome = Sem tela  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-07-26T17:34:23.000Z",
+                    "updated_at": "2022-01-23T12:12:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 41339,
+                    "question_id": 10112,
+                    "description": "Cooper",
+                    "explanation": "Falso doc!😋 \n- Cooper não é o nome de uma técnica, e sim de uma estrutura anatômica\n- A técnica descrita é a de McVay, em que ocorre aproximação do oblíuo interno, transverso e fáscia tranversalis (tripla camada) no ligamento pectíneo (**ligamento de Cooper)**\n- É uma técnica **sem tela**\n- É utilizada na correção de hérnias **femorais**\n- A técnica de Bassini é muito semelhante, com a diferença de que a tripla camada é ligada ao ligamento inguinal\n- 💡 Doc, um macete para gravar quais técnicas utilizam tela:\n- S**t**oppa, Lich**t**enstein e Gilber**t** todas possuem a letra \"**T**\" no nome e, portanto, utilizam **t**ela\n- Já McVay, Bassini e Shouldice não possuem T no nome = Sem tela \n- Veja na parte inferior da imagem, Doc, onde se localiza o ligamento de Cooper 👇:\n- Fonte da imagem: [http://herniaremediation.org/2016/06/femoral-hernia/](http://herniaremediation.org/2016/06/femoral-hernia/) ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-07-26T17:34:23.000Z",
+                    "updated_at": "2022-01-23T12:12:19.000Z",
+                    "files": [
+                        {
+                            "id": 15562,
+                            "file": "3d0481e1-062d-47d3-8418-82a5dff8f743.jpeg",
+                            "name": "sanar-13-2.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-26T17:26:47.000Z",
+                            "updated_at": "2021-07-26T17:26:47.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3d0481e1-062d-47d3-8418-82a5dff8f743.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 15562,
+                                "alternative_id": 41339
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10112,
+                "questionary_id": 237540,
+                "timer": 0
+            }
+        }
+    ]
+}

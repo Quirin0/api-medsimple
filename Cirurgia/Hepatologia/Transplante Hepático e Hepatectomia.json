@@ -1,0 +1,918 @@
+{
+    "id": 236650,
+    "user_id": 1699,
+    "title": "Transplante Hepático e Hepatectomia",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-06-14T20:05:09.000Z",
+    "updated_at": "2022-06-14T20:05:09.000Z",
+    "study_plan_id": 504,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 5938,
+            "institution_id": 4,
+            "description": "Em relação ao transplante hepático, não é contraindicação:",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-01-30T13:17:19.000Z",
+            "updated_at": "2021-01-30T13:17:19.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 580,
+                    "title": "Transplante Hepático e Hepatectomica",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-01-30T13:08:41.000Z",
+                    "updated_at": "2021-01-30T13:08:41.000Z",
+                    "pivot": {
+                        "discipline_id": 580,
+                        "question_id": 5938
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 24492,
+                    "question_id": 5938,
+                    "description": "Sepse vigente",
+                    "explanation": "É uma contraindicação absoluta ao transplante hepático.\n- Pensa comigo, Doc. Devemos tratar primeiro a sepse antes de transplantar.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-01-30T10:17:19.000Z",
+                    "updated_at": "2021-01-30T10:17:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24493,
+                    "question_id": 5938,
+                    "description": "Idade maior que 65 anos",
+                    "explanation": "Pacientes **com mais de 65 anos podem ser submetidos ao transplante hepático.**",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-01-30T10:17:19.000Z",
+                    "updated_at": "2021-01-30T10:17:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24494,
+                    "question_id": 5938,
+                    "description": "Etilismo em atividade",
+                    "explanation": "Exige-se **6 meses de abstinência** para realização do transplante hepático.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-01-30T10:17:19.000Z",
+                    "updated_at": "2021-01-30T10:17:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24495,
+                    "question_id": 5938,
+                    "description": "Doenças metastáticas",
+                    "explanation": "As doenças metastáticas **são contraindicações** ao transplante hepático",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-01-30T10:17:19.000Z",
+                    "updated_at": "2021-01-30T10:17:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5938,
+                "questionary_id": 236650,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5939,
+            "institution_id": 4,
+            "description": "São indicações de transplante hepático, exceto:",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-01-30T13:22:21.000Z",
+            "updated_at": "2021-01-30T13:22:21.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 580,
+                    "title": "Transplante Hepático e Hepatectomica",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-01-30T13:08:41.000Z",
+                    "updated_at": "2021-01-30T13:08:41.000Z",
+                    "pivot": {
+                        "discipline_id": 580,
+                        "question_id": 5939
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 24496,
+                    "question_id": 5939,
+                    "description": "Atresia Biliar",
+                    "explanation": "Acontece por inflamação e obstrução progressiva dos ductos biliares.\n- É a colestase crônica e indicação de transplante hepático mais comum em crianças.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-01-30T10:22:21.000Z",
+                    "updated_at": "2021-01-30T10:22:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24497,
+                    "question_id": 5939,
+                    "description": "Cirrose Biliar Primária",
+                    "explanation": "Atualmente chamada de Colangite Biliar Primária ➡ É uma doença hepática **autoimune, colestática crônica e progressiva.**\n- O tratamento pode ser feito com ácido ursodesoxicólico \n- **O transplante hepático pode ser indicado em estágios avançados de cirrose.**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-01-30T10:22:21.000Z",
+                    "updated_at": "2021-01-30T10:22:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24498,
+                    "question_id": 5939,
+                    "description": "Cirrose Criptogênica",
+                    "explanation": "É a cirrose que não é possível determinar a etiologia.\n- O transplante é indicado quando há progressão da doença.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-01-30T10:22:21.000Z",
+                    "updated_at": "2021-01-30T10:22:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24499,
+                    "question_id": 5939,
+                    "description": "Síndrome de Alport",
+                    "explanation": "É uma doença genética rara ➡ Apresenta acometimento renal, auditivo e ocular.\n- Não apresenta doença hepática. Ou seja, não há indicação de transplante hepático.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-01-30T10:22:21.000Z",
+                    "updated_at": "2021-01-30T10:22:21.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5939,
+                "questionary_id": 236650,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5937,
+            "institution_id": 4,
+            "description": "Homem de 51 anos, portador da síndrome de Budd-Chiari, submetido a derivação portossistêmica há 2 anos, procura atendimento médico por apresentar alteração discreta de comportamento e aumento do volume abdominal (ascite moderada). Na admissão, foram realizados os seguintes exames: bilirrubinas totais = 3,5 mg/dL; albumina = 2,8 g/dL; TAP = 8 segundos. Qual é a opção terapêutica mais indicada ao paciente?\n",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-01-30T13:14:13.000Z",
+            "updated_at": "2021-01-30T13:14:13.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 580,
+                    "title": "Transplante Hepático e Hepatectomica",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-01-30T13:08:41.000Z",
+                    "updated_at": "2021-01-30T13:08:41.000Z",
+                    "pivot": {
+                        "discipline_id": 580,
+                        "question_id": 5937
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 24488,
+                    "question_id": 5937,
+                    "description": "TIPS",
+                    "explanation": "É um procedimento que faz uma derivação na veia hepática para a veia porta.\n- Esse paciente já foi submetido a derivação portossistêmica, evoluindo com doença hepática mesmo após 2 anos.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-01-30T10:14:13.000Z",
+                    "updated_at": "2021-01-30T10:14:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24489,
+                    "question_id": 5937,
+                    "description": "Escleroterapia endoscópica seriada",
+                    "explanation": "A escleroterapia endoscópica não terá nenhum valor para o tratamento da piora da função hepática apresentada por esse paciente. \n- Ela poderá ser útil no tratamento de eventuais varizes esofágicas",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-01-30T10:14:13.000Z",
+                    "updated_at": "2021-01-30T10:14:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24490,
+                    "question_id": 5937,
+                    "description": "Transplante hepático.",
+                    "explanation": "Perfeito, Doc.\n- Será um processo curativo para a progressão da doença hepática. Revisando um pouco mais o caso:\n- **Budd-Chiari ➡ Trombose de veias hepáticas ➡ Obstrução ao fluxo nas veias hepáticas.**\n- Como o paciente já foi submetido a derivação portossistêmica sem melhora, a melhor opção é o transplante hepático.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-01-30T10:14:13.000Z",
+                    "updated_at": "2021-01-30T10:14:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24491,
+                    "question_id": 5937,
+                    "description": "Espironolactona, lactulose e betabloqueador.",
+                    "explanation": "São drogas usadas no manejo do paciente enquanto não temos um tratamento definitivo, contudo, não são a escolha terapêutica.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-01-30T10:14:13.000Z",
+                    "updated_at": "2021-01-30T10:14:13.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5937,
+                "questionary_id": 236650,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5940,
+            "institution_id": 4,
+            "description": "Paciente de anos de idade, com histórico de hemorragia digestiva vultuosa há um mês. Nega etilismo. Relata antecedente de hepatite aos 20 anos de idade. Apresenta em exames laboratoriais : Bilirrubinas totais=3,5 ,Creatinina=1,5 e INR= 1,75. A tomografia apresenta fígado de heterogeneidade multinodular ,com nódulo periférico de 3 cm de diâmetro em lobo esquerdo, apresentando realce em fase arterial da infusão de contraste, desaparecendo nas fases portal e de equilíbrio. Qual conduta mais indicada:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-01-30T13:53:52.000Z",
+            "updated_at": "2021-01-30T13:53:52.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 580,
+                    "title": "Transplante Hepático e Hepatectomica",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-01-30T13:08:41.000Z",
+                    "updated_at": "2021-01-30T13:08:41.000Z",
+                    "pivot": {
+                        "discipline_id": 580,
+                        "question_id": 5940
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 24500,
+                    "question_id": 5940,
+                    "description": "Transplante hepático.",
+                    "explanation": "Perfeito, Doc. Vamos revisa os motivos da resposta correta:\n- O paciente apresenta-se Child B + Hipertensão porta + tumor único menor que 5 cm.\n- Para indicar o tranplante hepático, é necessário que o pacient esteja dentro dos critérios de Milão:\n- Critérios de Milão\n- 1 nódulo <= 5cm ou até 3 nódulos <= 3cm\n- Sem trombose da veia porta",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-01-30T10:53:52.000Z",
+                    "updated_at": "2021-01-30T10:53:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24501,
+                    "question_id": 5940,
+                    "description": "Ressecção hepática regrada: hepatectomia direita.",
+                    "explanation": "Os pacientes Child B ou C geralmente não toleram a hepatectomia\n- O tratamento curativo mais indicado é o **transplante hepático.** ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-01-30T10:53:52.000Z",
+                    "updated_at": "2021-01-30T10:53:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24502,
+                    "question_id": 5940,
+                    "description": "Ressecção hepática não regrada: nodulectomia.",
+                    "explanation": "Os pacientes Child B ou C geralmente não toleram a hepatectomia\n- O tratamento curativo mais indicado é o **transplante hepático.**  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-01-30T10:53:52.000Z",
+                    "updated_at": "2021-01-30T10:53:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24503,
+                    "question_id": 5940,
+                    "description": "Quimioembolização.",
+                    "explanation": "Está indicada nos tumores irresecáveis, como terapia paliativa.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-01-30T10:53:52.000Z",
+                    "updated_at": "2021-01-30T10:53:52.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5940,
+                "questionary_id": 236650,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5941,
+            "institution_id": 4,
+            "description": "Paciente ♂, 50 anos, portador de hepatite B, Child A, MELD 6, apresenta na tomografia de abdome com contraste dinâmico lesão hipervascular com washout precoce e diâmetro de 6,5 cm localizada em segmento III do fígado. A dosagem de alfa-feto-proteína foi de 1900 ng/ml. Qual a melhor conduta?",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-01-30T13:58:49.000Z",
+            "updated_at": "2021-01-30T13:58:49.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 580,
+                    "title": "Transplante Hepático e Hepatectomica",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-01-30T13:08:41.000Z",
+                    "updated_at": "2021-01-30T13:08:41.000Z",
+                    "pivot": {
+                        "discipline_id": 580,
+                        "question_id": 5941
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 24504,
+                    "question_id": 5941,
+                    "description": "Indicar transplante hepático",
+                    "explanation": "Para indicar o transplante hepático, um dos tratamentos curativos do CHC, é necessário que o paciente esteja dentro dos critérios de Milão.\n- 1 nódulo <=5cm ou até 3 nódulos <=3cm\n- Ou seja, nosso paciente está fora dos critérios de transplante hepático.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-01-30T10:58:49.000Z",
+                    "updated_at": "2021-01-30T10:58:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24505,
+                    "question_id": 5941,
+                    "description": "Ablação por radiofrequência",
+                    "explanation": "É indicada em tumores menores que 3 cm, com localização favorável. Não é uma conduta para uma grande lesão;",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-01-30T10:58:49.000Z",
+                    "updated_at": "2021-01-30T10:58:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24506,
+                    "question_id": 5941,
+                    "description": "Segmentectomia do segmento III",
+                    "explanation": "Perfeito, Doc.\n-  Temos uma lesão única compatível com CHC com 6,5cm, sem evidências de metástase à distância, sem hipertensão portal, com um Child-Pugh A.\n- Como o nódulo está localizado no lobo esquerdo, no segmento III, podemos realizar a segmentectomia.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-01-30T10:58:49.000Z",
+                    "updated_at": "2021-01-30T10:58:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24507,
+                    "question_id": 5941,
+                    "description": "Alcoolização percutânea",
+                    "explanation": "É considerada curativa, contudo, é usada para tumores pequenos, menores que 3cm.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-01-30T10:58:49.000Z",
+                    "updated_at": "2021-01-30T10:58:49.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5941,
+                "questionary_id": 236650,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5942,
+            "institution_id": 64,
+            "description": "Segundo a legislação brasileira de transplantes, são indicações de transplante hepático com doador cadavérico, EXCETO:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-01-30T14:03:34.000Z",
+            "updated_at": "2021-01-30T14:03:34.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 64,
+                "title": "UFPB",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-23T22:43:43.000Z",
+                "updated_at": "2020-05-23T22:43:43.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 580,
+                    "title": "Transplante Hepático e Hepatectomica",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-01-30T13:08:41.000Z",
+                    "updated_at": "2021-01-30T13:08:41.000Z",
+                    "pivot": {
+                        "discipline_id": 580,
+                        "question_id": 5942
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 24508,
+                    "question_id": 5942,
+                    "description": "Hemocromatose.",
+                    "explanation": "A hemocromatose hereditária é uma doença causada por mutações no gene HFE.\n- Atualmente a confirmação da doença se dá por pesquisa da mutação C282Y.\n- É uma indicação de transplante hepático.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-01-30T11:03:34.000Z",
+                    "updated_at": "2021-01-30T11:03:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24509,
+                    "question_id": 5942,
+                    "description": "Cirrose secundária à hepatite viral B.",
+                    "explanation": "Muito bem, o transplante hepático pode ser realizado em pacientes com cirrose pelo vírus da hepatite B.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-01-30T11:03:34.000Z",
+                    "updated_at": "2021-01-30T11:03:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24510,
+                    "question_id": 5942,
+                    "description": "Doença de Budd-Chiari.",
+                    "explanation": "É uma das possíveis indicações de transplante hepático.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-01-30T11:03:34.000Z",
+                    "updated_at": "2021-01-30T11:03:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24511,
+                    "question_id": 5942,
+                    "description": "Carcinoma hepatocelular de 7 cm.",
+                    "explanation": "Perfeito, doc. A afirmação está incorreta. \n- A indicação do transplante hepático em pacientes com hepatocarcinoma deve estar dentro dos critérios de Milão,\n- **Critérios de Milão: tumor único < 5 cm, até 3 lesões, todas com tamanho menor ou igual a 3 cm e ausência de invasão vascular ou metástase.** ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-01-30T11:03:34.000Z",
+                    "updated_at": "2021-01-30T11:03:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24512,
+                    "question_id": 5942,
+                    "description": "Hepatite fulminante por paracetamol. ",
+                    "explanation": "É uma das possíveis indicações de transplante hepático.",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-01-30T11:03:34.000Z",
+                    "updated_at": "2021-01-30T11:03:34.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5942,
+                "questionary_id": 236650,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5943,
+            "institution_id": 116,
+            "description": "Anatomicamente o fígado é dividido pelo ligamento falciforme em lobos direito e esquerdo, enquanto que funcionalmente ele é dividido em fígado direito e esquerdo transversalmente pelos ramos portais e longitudinalmente pelas veias hepáticas. Dado estes conhecimentos responda as seguintes questões:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-01-30T14:08:52.000Z",
+            "updated_at": "2021-01-30T14:08:52.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 116,
+                "title": "HPP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-06-12T15:01:06.000Z",
+                "updated_at": "2020-06-12T15:01:06.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 580,
+                    "title": "Transplante Hepático e Hepatectomica",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-01-30T13:08:41.000Z",
+                    "updated_at": "2021-01-30T13:08:41.000Z",
+                    "pivot": {
+                        "discipline_id": 580,
+                        "question_id": 5943
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 24513,
+                    "question_id": 5943,
+                    "description": "O fígado direito corresponde aos segmentos I, II, V e VI.",
+                    "explanation": "Confira o comentário completo na alternativa certa.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-01-30T11:08:52.000Z",
+                    "updated_at": "2021-01-30T11:08:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24514,
+                    "question_id": 5943,
+                    "description": "O fígado direito corresponde aos segmentos I, IV,V,VI e VII.",
+                    "explanation": "Confira o comentário completo na alternativa certa. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-01-30T11:08:52.000Z",
+                    "updated_at": "2021-01-30T11:08:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24515,
+                    "question_id": 5943,
+                    "description": "O Fígado esquerdo corresponde aos segmentos II, III e VII.",
+                    "explanation": "Confira o comentário completo na alternativa certa. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-01-30T11:08:52.000Z",
+                    "updated_at": "2021-01-30T11:08:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24516,
+                    "question_id": 5943,
+                    "description": "O fígado direito corresponde aos segmentos V,VI,VII e VIII.",
+                    "explanation": "Perfeito, Doc. Vamos revisar os principais tópicos da anatomia funcional do fígado.\n- É composta por 8 segmento  ➡ Cada um deles fornecido por uma única tríade portal.\n- **A fissura porta ou linha de Cantlie divide o fígado em lobos esquerdo e direito.**\n-  Essa cissura contém a veia hepática média.\n- Lobo direito ➡ **Segmentos 5 a 8**\n- Lobo esquerdo ➡ 2 a 4. Lobo caudado (1) fica na porção dorsal do fígado.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-01-30T11:08:52.000Z",
+                    "updated_at": "2021-01-30T11:08:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24517,
+                    "question_id": 5943,
+                    "description": "O Fígado direito corresponde os segmentos IV, V, VI e VII.",
+                    "explanation": "Confira o comentário completo na alternativa certa. ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-01-30T11:08:52.000Z",
+                    "updated_at": "2021-01-30T11:08:52.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5943,
+                "questionary_id": 236650,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5944,
+            "institution_id": 230,
+            "description": "Sobre o transplante hepático estão corretas as assertivas, EXCETO:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-01-30T19:48:23.000Z",
+            "updated_at": "2021-01-30T19:48:23.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 230,
+                "title": "Hospital Unimed Rio",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-01-30T16:48:23.000Z",
+                "updated_at": "2021-01-30T16:48:23.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 580,
+                    "title": "Transplante Hepático e Hepatectomica",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-01-30T13:08:41.000Z",
+                    "updated_at": "2021-01-30T13:08:41.000Z",
+                    "pivot": {
+                        "discipline_id": 580,
+                        "question_id": 5944
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 24518,
+                    "question_id": 5944,
+                    "description": "Ocasionalmente o transplante de fígado-coração é realizado para algumas doenças como amiloidose.",
+                    "explanation": "Pode ser realizado, um dos melhores exemplos realmente é a amiloidose.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-01-30T16:48:23.000Z",
+                    "updated_at": "2021-01-30T16:48:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24519,
+                    "question_id": 5944,
+                    "description": "A prioridade do paciente na lista de espera é baseada em seu status médico determinado pelo modelo de pontuação MELD.",
+                    "explanation": "Exatamente. Ele é calculado com o uso de uma calculadora eletrônica usando os valores de **bilirrubina, creatinina e RNI.** \n- **Atualmente ele é usado para avaliar a urgência e prioridade na realização do transplante hepático.**\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-01-30T16:48:23.000Z",
+                    "updated_at": "2021-01-30T16:48:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24520,
+                    "question_id": 5944,
+                    "description": "Contraindicado se houver sangramento varicoso",
+                    "explanation": "Uma das indicações do transplante hepático é a **hemorragia digestiva por ruptura de varizes esofágicas**",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-01-30T16:48:23.000Z",
+                    "updated_at": "2021-01-30T16:48:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24521,
+                    "question_id": 5944,
+                    "description": "A infecção crônica por hepatite C é a indicação mais comum para transplantes no mundo ocidental.",
+                    "explanation": "Perfeito. Sendo as indicações mais comuns:\n- Hepatite C\n- Hepatocarcinoma\n- Hepatopatia alcoólica.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-01-30T16:48:23.000Z",
+                    "updated_at": "2021-01-30T16:48:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5944,
+                "questionary_id": 236650,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5945,
+            "institution_id": 231,
+            "description": "Assinale a principal causa de transplante hepático, atualmente no Brasil:\n",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-01-30T19:53:31.000Z",
+            "updated_at": "2021-01-30T19:53:31.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 231,
+                "title": "HFR",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-01-30T16:53:31.000Z",
+                "updated_at": "2021-01-30T16:53:31.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 580,
+                    "title": "Transplante Hepático e Hepatectomica",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-01-30T13:08:41.000Z",
+                    "updated_at": "2021-01-30T13:08:41.000Z",
+                    "pivot": {
+                        "discipline_id": 580,
+                        "question_id": 5945
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 24522,
+                    "question_id": 5945,
+                    "description": "Cirrose por álcool.",
+                    "explanation": "Não é a principal, porém sempre importante lembrar que para se indicar o transplante de fígado **exige-se pelo menos 6 meses de abstinência ao álcool.** ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-01-30T16:53:31.000Z",
+                    "updated_at": "2021-01-30T16:53:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24523,
+                    "question_id": 5945,
+                    "description": "Cirrose por hepatite B.",
+                    "explanation": "Poucos pacientes com hepatite cronificam, 90-95% evoluem para cura espontânea",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-01-30T16:53:31.000Z",
+                    "updated_at": "2021-01-30T16:53:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24524,
+                    "question_id": 5945,
+                    "description": "Cirrose por hepatite C.",
+                    "explanation": "Perfeito, Doc. É a principal causa de transplante de fígado no Brasil.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-01-30T16:53:31.000Z",
+                    "updated_at": "2021-01-30T16:53:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24525,
+                    "question_id": 5945,
+                    "description": "Cirrose por esteatose hepática não alcoólica.",
+                    "explanation": "Ainda não é a principal, mas está aumentando ano a ano.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-01-30T16:53:31.000Z",
+                    "updated_at": "2021-01-30T16:53:31.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5945,
+                "questionary_id": 236650,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5946,
+            "institution_id": 22,
+            "description": "Mulher, 39a, com queixa de icterícia progressiva há 4 dias, adinamia e sonolência. Familiares referem períodos de confusão mental. Nega febre. Antecedentes: décimo dia pós-operatório de artroplastia de quadril esquerdo. Exame físico: regular estado geral; ictérica 2+/4; desidratada +/4+; descorada +/4+; PA = 100 x 78 mmHg; FC = 96 bpm; FR = 24 irpm; abdome: dor à palpação do epigástrio e hipocôndrio direito, ruídos hidroaéreos presentes. Neurológico: sonolenta, confusa, flapping presente. Ultrassonografia abdominal = sem alterações. Exames laboratoriais: Hb = 10,2 g/dl; leucócitos = 11.300/mm³ e plaquetas = 250.000/mm³; AST = 3.500 U/L; ALT= 5.600 U/L; bilirrubina total =18,5 mg/dl; tempo de protrombina = 150 segundos; INR = 3,8; creatinina sérica = 2,4 mg/dl. A CORRETA É:",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-01-30T19:58:18.000Z",
+            "updated_at": "2021-01-30T19:58:18.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 22,
+                "title": "UNICAMP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:12:16.000Z",
+                "updated_at": "2020-05-18T19:12:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 580,
+                    "title": "Transplante Hepático e Hepatectomica",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-01-30T13:08:41.000Z",
+                    "updated_at": "2021-01-30T13:08:41.000Z",
+                    "pivot": {
+                        "discipline_id": 580,
+                        "question_id": 5946
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 24526,
+                    "question_id": 5946,
+                    "description": "Há indicação de transplante hepático na dependência do valor do MELD. ",
+                    "explanation": "Então Doc, a presença de **hepatite fulminante** indica o **transplante independente do valor de escore MELD.** Trata-se de um prioridade para o transplante. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-01-30T16:58:18.000Z",
+                    "updated_at": "2021-01-30T16:58:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24527,
+                    "question_id": 5946,
+                    "description": "Iniciar hidratação, lactulona, nutrição parenteral e metilprednisolona. ",
+                    "explanation": "Até poderiamos usar a lactulina para o tratamento da encefalopatia hepática, contudo não há indicação para o uso de metilprednisona.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-01-30T16:58:18.000Z",
+                    "updated_at": "2021-01-30T16:58:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24528,
+                    "question_id": 5946,
+                    "description": "Iniciar antibioticoterapia endovenosa e infusão contínua de furosemida. ",
+                    "explanation": "Não há indicação de furosemida. Em pacientes com ascite, usamos a espironolactona.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-01-30T16:58:18.000Z",
+                    "updated_at": "2021-01-30T16:58:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24529,
+                    "question_id": 5946,
+                    "description": "Há indicação de transplante hepático com situação de priorização. ",
+                    "explanation": "Exatamente, estamos diante de um caso de hepatite fulminante já que:\n- Se caracteriza por uma lesão hepática aguda grave que evolui com encefalopatia hepática e prolongamento do tempo de protrombina (INR ≥ 1,5), em paciente sem doença hepática prévia, em um intervalo de 8 semanas após o início dos sintomas.\n- A presença de hepatite fulminante indica o transplante independente do valor de escore MELD. Trata-se de um prioridade para o transplante. ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-01-30T16:58:18.000Z",
+                    "updated_at": "2021-01-30T16:58:18.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5946,
+                "questionary_id": 236650,
+                "timer": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,1833 @@
+{
+    "id": 236677,
+    "user_id": 1699,
+    "title": "Hepatite C",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-06-14T20:10:23.000Z",
+    "updated_at": "2022-06-14T20:10:23.000Z",
+    "study_plan_id": 931,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 10547,
+            "institution_id": 99,
+            "description": "A presença do marcador de hepatite anti-HCV+ tem significado imunológico correspondente a:\n",
+            "difficulty": "easy",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-30T19:24:44.000Z",
+            "updated_at": "2021-08-30T19:24:44.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 99,
+                "title": "SUS-RR",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-06-02T00:11:23.000Z",
+                "updated_at": "2020-06-02T00:11:23.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 923,
+                    "title": "Hepatite C",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-03T00:31:46.000Z",
+                    "updated_at": "2021-08-06T00:37:07.000Z",
+                    "pivot": {
+                        "discipline_id": 923,
+                        "question_id": 10547
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43123,
+                    "question_id": 10547,
+                    "description": " doença crônica ",
+                    "explanation": "Falso, Doc! Para ser doença crônica é necessário haver também um marcador de replicação viral associado",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-30T19:24:44.000Z",
+                    "updated_at": "2021-08-30T19:24:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43124,
+                    "question_id": 10547,
+                    "description": " doença aguda ",
+                    "explanation": "Falso, Doc! O paciente pode ter tido a doença, mas já estar curado, pois mantém os anticorpos até o fim da vida (é um marcador de contato)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-30T19:24:44.000Z",
+                    "updated_at": "2021-08-30T19:24:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43125,
+                    "question_id": 10547,
+                    "description": "presença do vírus C na corrente sanguínea  ",
+                    "explanation": "FAlso, Doc! Para detectar se há HCV na corrente sanguínea devemos fazer exame de PCR quantitativo",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-30T19:24:44.000Z",
+                    "updated_at": "2021-08-30T19:24:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43126,
+                    "question_id": 10547,
+                    "description": "contato do portador com o vírus da hepatite C  ",
+                    "explanation": "Boa, Doc! 👊  O anticorpo anti-HCV indica que houve contato do paciente com o vírus (mesmo que já tenha havido cura)",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-08-30T19:24:44.000Z",
+                    "updated_at": "2021-08-30T19:24:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43127,
+                    "question_id": 10547,
+                    "description": "contato do portador com o vírus da hepatite B",
+                    "explanation": "Falso, Doc! O contato com o da hepatite B seria o anti-HBc e não o anti-HCV 😜",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-08-30T19:24:44.000Z",
+                    "updated_at": "2021-08-30T19:24:44.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10547,
+                "questionary_id": 236677,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10550,
+            "institution_id": 4,
+            "description": "Qual o tipo de material genético do vírus da hepatite C?",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-30T19:48:15.000Z",
+            "updated_at": "2021-08-30T19:48:15.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 923,
+                    "title": "Hepatite C",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-03T00:31:46.000Z",
+                    "updated_at": "2021-08-06T00:37:07.000Z",
+                    "pivot": {
+                        "discipline_id": 923,
+                        "question_id": 10550
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43136,
+                    "question_id": 10550,
+                    "description": "RNA de fita simples",
+                    "explanation": "Muito bem, Doc! 😁 \n- O vírus é de RNA de fita simples linear\n- É da família dos flavivírus",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-08-30T19:48:15.000Z",
+                    "updated_at": "2021-08-30T19:48:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43137,
+                    "question_id": 10550,
+                    "description": "DNA de fita simples",
+                    "explanation": "Falso, Doc! \n- O único DNA vírus entre os causadores de hepatite viral é o HBV, e ele é de fita dupla\n- O HBV é da família hepadnavírus, assim como o HDV",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-30T19:48:15.000Z",
+                    "updated_at": "2021-08-30T19:48:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43138,
+                    "question_id": 10550,
+                    "description": "DNA dupla fita",
+                    "explanation": "Falso, Doc! \n- O único DNA vírus entre os causadores de hepatite viral é o HBV, e ele é de fita dupla\n- O HBV é da família hepadnavírus, assim como o HDV ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-30T19:48:15.000Z",
+                    "updated_at": "2021-08-30T19:48:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43139,
+                    "question_id": 10550,
+                    "description": "RNA circular",
+                    "explanation": "Falso, Doc! O HCV é um vírus RNA de fita simples linear. O HDV é que é de fita simples circular",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-30T19:48:15.000Z",
+                    "updated_at": "2021-08-30T19:48:15.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10550,
+                "questionary_id": 236677,
+                "timer": 0
+            }
+        },
+        {
+            "id": 402,
+            "institution_id": 4,
+            "description": "**Sobre os marcadores de hepatite C, assinale a alternativa correta:**",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-23T23:00:10.000Z",
+            "updated_at": "2021-08-03T00:31:48.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 923,
+                    "title": "Hepatite C",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-03T00:31:46.000Z",
+                    "updated_at": "2021-08-06T00:37:07.000Z",
+                    "pivot": {
+                        "discipline_id": 923,
+                        "question_id": 402
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1654,
+                    "question_id": 402,
+                    "description": "Não há como diferenciar infecção aguda de crônica pela sorologia da hepatite C",
+                    "explanation": "Temos apenas o Anti-HCV que, se positivo, significa que o paciente já teve com o vírus. Para definir se há o vírus replicante ou não, realiza-se o PCR-RNA para contagem da carga viral",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-23T20:00:10.000Z",
+                    "updated_at": "2021-08-02T21:31:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1655,
+                    "question_id": 402,
+                    "description": "Após a confirmação da infecção pelo vírus da hepatite C por PCR, a realização da genotipagem não precisa ocorrer",
+                    "explanation": "Após confirmação de que há replicação viral com o PCR RNA, segue-se para a realização da genotipagem (para saber o genótipo do vírus) e a biópsia ou elastografia, para avaliar como está a estrutura hepática. Todos esses passos terão grande importância na definição do tratamento",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-23T20:00:10.000Z",
+                    "updated_at": "2021-08-02T21:31:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1656,
+                    "question_id": 402,
+                    "description": "O diagnóstico da hepatite C é feito diretamente por genotipagem",
+                    "explanation": "O fluxo do diagnóstico ocorre da seguinte maneira\nAnti-HCV (+) ➡️ PCR-RNA (se negativo, exclui-se infecção, mas se positivo, parte-se para a próxima etapa) ➡️ Genotipagem + Biópsia ou elastografia",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-23T20:00:10.000Z",
+                    "updated_at": "2021-08-02T21:31:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1657,
+                    "question_id": 402,
+                    "description": "A biópsia hepática é importante para a definição do genótipo do vírus",
+                    "explanation": "O que define a o genótipo é a genotipagem. A biópsia é útil para avaliar a estrutura do parênquima hepático",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-23T20:00:10.000Z",
+                    "updated_at": "2021-08-02T21:31:48.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 402,
+                "questionary_id": 236677,
+                "timer": 0
+            }
+        },
+        {
+            "id": 403,
+            "institution_id": 4,
+            "description": "**Sobre a hepatite C, julgue as afirmativas:**\n**I-Possui 6 genótipos**\n**II-Cronifica em 30% dos casos**\n**III-Entre os fatores de risco, podemos citar a transfusão de sngue antes de 1992**",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-23T23:07:40.000Z",
+            "updated_at": "2021-08-03T00:52:43.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 923,
+                    "title": "Hepatite C",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-03T00:31:46.000Z",
+                    "updated_at": "2021-08-06T00:37:07.000Z",
+                    "pivot": {
+                        "discipline_id": 923,
+                        "question_id": 403
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1658,
+                    "question_id": 403,
+                    "description": "Apenas I está correta",
+                    "explanation": "Comentário completo na alternativa correta",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-23T20:07:40.000Z",
+                    "updated_at": "2021-08-02T21:52:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1659,
+                    "question_id": 403,
+                    "description": "Apenas I e III estão corretas",
+                    "explanation": "I - Correto. O vírus da HepC é um RNA vírus, que possui 6 genótipos. É importante saber que o genótipo 1 é o mais comum e o 3 é o que pior responde ao tratamento\nII- Incorreta. 85% dos pacientes cronificam a infecção por hepatite C\nIII-Correta - Promiscuidade, uso de agulhas, tratamento com fatores de coagulação antes de 1987 e transfusão de sangue ou transplante antes de 1992 são fatores de risco para hepatite C",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-23T20:07:40.000Z",
+                    "updated_at": "2021-08-02T21:52:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1660,
+                    "question_id": 403,
+                    "description": "Apenas II está correta",
+                    "explanation": "Comentário completo na alternativa correta ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-23T20:07:40.000Z",
+                    "updated_at": "2021-08-02T21:52:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1661,
+                    "question_id": 403,
+                    "description": "Apenas II e III estão corretas",
+                    "explanation": "Comentário completo na alternativa correta ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-23T20:07:40.000Z",
+                    "updated_at": "2021-08-02T21:52:43.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 403,
+                "questionary_id": 236677,
+                "timer": 0
+            }
+        },
+        {
+            "id": 406,
+            "institution_id": 5,
+            "description": "**Teste anti-HCV positivo com genótipo negativo sugere:** ",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-23T20:23:42.000Z",
+            "updated_at": "2021-08-30T13:12:54.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 5,
+                "title": "AMRIGS",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T13:59:53.000Z",
+                "updated_at": "2020-05-17T13:59:53.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 923,
+                    "title": "Hepatite C",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-03T00:31:46.000Z",
+                    "updated_at": "2021-08-06T00:37:07.000Z",
+                    "pivot": {
+                        "discipline_id": 923,
+                        "question_id": 406
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1670,
+                    "question_id": 406,
+                    "description": " Detecção de HCV no 1º mês de diagnóstico.",
+                    "explanation": "Se houvesse HCV presente, haveria identificação de um tipo de vírus no genótipo, independente do mês de diagnóstico.\n ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-23T20:23:42.000Z",
+                    "updated_at": "2021-08-30T13:12:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1671,
+                    "question_id": 406,
+                    "description": "Detecção de HCV no 2º mês de diagnóstico",
+                    "explanation": "Se houvesse HCV presente, haveria identificação de um tipo de vírus no genótipo, independente do mês de diagnóstico.\n ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-23T20:23:42.000Z",
+                    "updated_at": "2021-08-30T13:12:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1672,
+                    "question_id": 406,
+                    "description": "Detecção de HCV no 3º mês de diagnóstico",
+                    "explanation": "Se houvesse HCV presente, haveria identificação de um tipo de vírus no genótipo, independente do mês de diagnóstico.\n ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-23T20:23:42.000Z",
+                    "updated_at": "2021-08-30T13:12:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1673,
+                    "question_id": 406,
+                    "description": " Cura da hepatite C adquirida no passado.",
+                    "explanation": "Como o anticorpo deu positivo e não há vírus (genótipo negativo), concluímos que o anticorpo é de uma infecção antiga.\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-23T20:23:42.000Z",
+                    "updated_at": "2021-08-30T13:12:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1674,
+                    "question_id": 406,
+                    "description": "Incapacidade do organismo de gerar genótipos.",
+                    "explanation": "Isso não existe. Se houvesse vírus, ele seria identificável.\n ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-05-23T20:23:42.000Z",
+                    "updated_at": "2021-08-30T13:12:54.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 406,
+                "questionary_id": 236677,
+                "timer": 0
+            }
+        },
+        {
+            "id": 409,
+            "institution_id": 5,
+            "description": "**Entre as recomendações para a mulher portadora de hepatite C que consulta na avaliação pré-gestacional inclui-se:** \n**I.Indicar uso de medicamentos para HCV durante a gestação;** \n**II.Preparar-se para não amamentar e fornecer apenas leite artificial ao bebê;**\n**III.Tratar o HCV antes da gestação.** \n**Quais estão CORRETAS?**",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-23T23:35:45.000Z",
+            "updated_at": "2021-08-03T00:32:13.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 5,
+                "title": "AMRIGS",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T13:59:53.000Z",
+                "updated_at": "2020-05-17T13:59:53.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 923,
+                    "title": "Hepatite C",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-03T00:31:46.000Z",
+                    "updated_at": "2021-08-06T00:37:07.000Z",
+                    "pivot": {
+                        "discipline_id": 923,
+                        "question_id": 409
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1684,
+                    "question_id": 409,
+                    "description": "Apenas I",
+                    "explanation": "Comentário completo na alternativa correta",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-23T20:35:45.000Z",
+                    "updated_at": "2021-08-02T21:32:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1685,
+                    "question_id": 409,
+                    "description": "Apenas II",
+                    "explanation": "Comentário completo na alternativa correta ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-23T20:35:45.000Z",
+                    "updated_at": "2021-08-02T21:32:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1686,
+                    "question_id": 409,
+                    "description": "Apenas III",
+                    "explanation": "I-Incorreta. As medicações como Ribavirina e alfapeguinterferona são teratogênicos. Já os Antivirais de Ação Direta ainda não há estudos sobre seu comportamento na gravidez.\nII-Incorreta. Se a paciente não estiver em tratamento antiviral, o aleitamento materno pode ser realizado desde que não haja lesões nos mamilos ou coinfecção com HIV \nIII- Correta.Deve-se evitar gravidez durante todo o tratamento e durante 6 meses após o fim do tratamento.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-23T20:35:45.000Z",
+                    "updated_at": "2021-08-02T21:32:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1687,
+                    "question_id": 409,
+                    "description": "Apenas I e II",
+                    "explanation": "Comentário completo na alternativa correta ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-23T20:35:45.000Z",
+                    "updated_at": "2021-08-02T21:32:13.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 409,
+                "questionary_id": 236677,
+                "timer": 0
+            }
+        },
+        {
+            "id": 410,
+            "institution_id": 61,
+            "description": "**Homem, 46 anos, assintomático, comparece em UBS buscando orientações para os resultados de exames abaixo realizados após doação de sangue. Exames laboratoriais: HBsAg = não reagente; anti-HBc IgG = reagente; anti-HBsAg = reagente; anti-HCV = reagente; AST = 18 U/L; ALT = 25 U/L. Qual é a conduta mais adequada?**",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-23T23:44:31.000Z",
+            "updated_at": "2021-08-03T00:32:18.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 61,
+                "title": "USP-RP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-23T20:44:31.000Z",
+                "updated_at": "2020-05-23T20:44:31.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 923,
+                    "title": "Hepatite C",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-03T00:31:46.000Z",
+                    "updated_at": "2021-08-06T00:37:07.000Z",
+                    "pivot": {
+                        "discipline_id": 923,
+                        "question_id": 410
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1688,
+                    "question_id": 410,
+                    "description": "Indicar biópsia hepática",
+                    "explanation": "A biópsia hepática só é indicada após a confirmação da positividade de carga viral  HCV-RNA",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-23T20:44:31.000Z",
+                    "updated_at": "2021-08-02T21:32:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1689,
+                    "question_id": 410,
+                    "description": "Solicitar RNA-HCV",
+                    "explanation": "Perfeito. Como o Anti-HCV deu positivo, sabemos que houve algum contato do paciente com o vírus da Hepatite C, mas não sabemos se a doença se resolveu ou se trata de uma infecção crônica. Para isso, solicitamos RNA-HCV para verificar a carga viral",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-23T20:44:31.000Z",
+                    "updated_at": "2021-08-02T21:32:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1690,
+                    "question_id": 410,
+                    "description": "Solicitar HBV-DNA",
+                    "explanation": "Pelos resultados dos exames sobre hepatite B, temos uma infecção já resolvida de Hepatite B, pois há negativação de HBsAg  Anti-HBs positivo",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-23T20:44:31.000Z",
+                    "updated_at": "2021-08-02T21:32:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1691,
+                    "question_id": 410,
+                    "description": "Repetir os exames em 6 meses",
+                    "explanation": "Como as transaminases estão normais, há possiblidade ou de infecção prévia curada ou de infecção crônica.\nApenas se as transaminases estivessem elevadas, pensaríamos em infecção aguda e, portanto, orientaria-se repetir o exame em 6 meses para verificar o estabelecimento ou não da infecção crônica",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-23T20:44:31.000Z",
+                    "updated_at": "2021-08-02T21:32:18.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 410,
+                "questionary_id": 236677,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10287,
+            "institution_id": 4,
+            "description": "Em relação à hepatite C, assinale a alternativa **INCORRETA:**",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-02T20:50:24.000Z",
+            "updated_at": "2021-10-02T13:33:40.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 923,
+                    "title": "Hepatite C",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-03T00:31:46.000Z",
+                    "updated_at": "2021-08-06T00:37:07.000Z",
+                    "pivot": {
+                        "discipline_id": 923,
+                        "question_id": 10287
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42050,
+                    "question_id": 10287,
+                    "description": "A maioria dos casos são assintomáticos, tanto em casos agudos quanto crônicos sem cirrose",
+                    "explanation": "Certo, Doc! \n- Em casos agudos sintomáticos o quadro é semelhante ao das outras hepatites agudas\n- Quando houver cirrose, o quadro é semelhante ao das hepatopatias crônicas",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-02T20:50:24.000Z",
+                    "updated_at": "2021-10-02T13:33:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42051,
+                    "question_id": 10287,
+                    "description": "Paciente anti-HCV positivo, mas com HCV RNA negativo provavelmente não é portador crônico",
+                    "explanation": "Certinho, Doc! Provavelmente é um paciente que teve contato com a doença mas apresentou cura\n\n💡 Se liga, Doc:\n- **Anti-HCV** = avalia se o paciente teve **contato**\n- **HCV-RNA** = confirma **infecção crônica** (pensa que se ele ainda tem o RNA ainda tem o vírus)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-02T20:50:24.000Z",
+                    "updated_at": "2021-10-02T13:33:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42052,
+                    "question_id": 10287,
+                    "description": "O uso de preservativos não é uma das formas de prevenção da hepatite C",
+                    "explanation": "Boa, Doc, essa é a incorreta! 😉 Embora raro, a transmissão da hepatite C pode sim ocorrer por transmissão sexual!",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-08-02T20:50:24.000Z",
+                    "updated_at": "2021-10-02T13:33:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42053,
+                    "question_id": 10287,
+                    "description": "As aminotransferases costumam estar abaixo de 300 UI/L",
+                    "explanation": "Verdadeiro, Doc! E costumam ser flutuantes",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-02T20:50:24.000Z",
+                    "updated_at": "2021-10-02T13:33:40.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10287,
+                "questionary_id": 236677,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10288,
+            "institution_id": 4,
+            "description": "Em relação à hepatite C, marque a **INCORRETA:**",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-02T21:03:30.000Z",
+            "updated_at": "2021-08-19T22:01:36.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 923,
+                    "title": "Hepatite C",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-03T00:31:46.000Z",
+                    "updated_at": "2021-08-06T00:37:07.000Z",
+                    "pivot": {
+                        "discipline_id": 923,
+                        "question_id": 10288
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42054,
+                    "question_id": 10288,
+                    "description": "O tratamento com antivirais deve ser feito para todos os pacientes ",
+                    "explanation": "Verdadeiro, Doc! Tanto nas formas agudas quanto crônicas o tratamento da hepatite C é sempre indicado!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-02T21:03:30.000Z",
+                    "updated_at": "2021-08-19T22:01:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42055,
+                    "question_id": 10288,
+                    "description": "O tratamento com antivirais deve ser feito durante 1 mês",
+                    "explanation": "Boa, Doc, essa é a incorreta! É feito durante 12 semanas, atingindo-se 95% de cura\n\nDoc, eu se fosse você olhava o comentário das outras alternativas 😉",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-08-02T21:03:30.000Z",
+                    "updated_at": "2021-08-19T22:01:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42056,
+                    "question_id": 10288,
+                    "description": "Anti-HCV negativo não descarta a possibilidade de hepatite C aguda",
+                    "explanation": "Isso mesmo, Doc! Está ausente em 30-50% dos pacientes no início dos sintomas",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-02T21:03:30.000Z",
+                    "updated_at": "2021-08-19T22:01:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42057,
+                    "question_id": 10288,
+                    "description": "Há praticamente 0% de chance de evoluir para insuficiência hepática aguda na hepatite C",
+                    "explanation": "Verdadeiro, Doc! \n- 25% dos pacientes com hepatite C aguda evoluem para cura\n- Os outros 75% evoluem para formas crônicas da doença",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-02T21:03:30.000Z",
+                    "updated_at": "2021-08-19T22:01:36.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10288,
+                "questionary_id": 236677,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10294,
+            "institution_id": 4,
+            "description": "Cerca de 20% dos pacientes com hepatite B crônica progridem para cirrose e 10-20% daqueles com hepatite C crônica também evoluem para cirrose. Qual dos abaixo NÃO é um dos fatores que aumenta o risco de desenvolvimento de cirrose em paciente com hepatite C crônica:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-02T21:50:07.000Z",
+            "updated_at": "2021-08-02T21:53:15.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 923,
+                    "title": "Hepatite C",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-03T00:31:46.000Z",
+                    "updated_at": "2021-08-06T00:37:07.000Z",
+                    "pivot": {
+                        "discipline_id": 923,
+                        "question_id": 10294
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42078,
+                    "question_id": 10294,
+                    "description": "Coinfecção pelo HIV",
+                    "explanation": "Esse é, sim, um fator de risco, Doc! Alguns fatores são:\n- idade \n- Sexo Masculino \n- Etilismo \n- Doença hepática terminal \n- HBV ou HIV \n- Obesidade \n- DM2",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-02T21:50:07.000Z",
+                    "updated_at": "2021-08-02T21:53:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42079,
+                    "question_id": 10294,
+                    "description": "Diabetes Mellitus tipo 2",
+                    "explanation": "Esse é, sim, um fator de risco, Doc! Alguns fatores são:\n- idade \n- Sexo Masculino \n- Etilismo \n- Doença hepática terminal \n- HBV ou HIV \n- Obesidade \n- DM2 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-02T21:50:07.000Z",
+                    "updated_at": "2021-08-02T21:53:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42080,
+                    "question_id": 10294,
+                    "description": "Sexo feminino",
+                    "explanation": "Boa, Doc, essa é a incorreta! Alguns fatores são:\n- idade \n- Sexo Masculino\n- Etilismo \n- Doença hepática terminal \n- HBV ou HIV \n- Obesidade \n- DM2 ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-08-02T21:50:07.000Z",
+                    "updated_at": "2021-08-02T21:53:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42081,
+                    "question_id": 10294,
+                    "description": "Obesidade",
+                    "explanation": "Esse é, sim, um fator de risco, Doc! Alguns fatores são:\n- idade \n- Sexo Masculino \n- Etilismo \n- Doença hepática terminal \n- HBV ou HIV \n- Obesidade \n- DM2  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-02T21:50:07.000Z",
+                    "updated_at": "2021-08-02T21:53:15.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10294,
+                "questionary_id": 236677,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10297,
+            "institution_id": 4,
+            "description": "Sobre o tratamento da hepatite C, assinale a CORRETA:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-02T22:33:17.000Z",
+            "updated_at": "2021-08-02T22:33:17.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 923,
+                    "title": "Hepatite C",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-03T00:31:46.000Z",
+                    "updated_at": "2021-08-06T00:37:07.000Z",
+                    "pivot": {
+                        "discipline_id": 923,
+                        "question_id": 10297
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42093,
+                    "question_id": 10297,
+                    "description": "O principal medicamento utilizado é o tenofovir",
+                    "explanation": "Falso, Doc! O tenofovir é utilizado para tratmento de hepatite **B.** São utilizados atualmente no tratamento da hepatite C crônica associações entre inibidor de polimerase e inibidor de NS5A, como:\n- sofosbuvir + ledipasvir (para genótipo 1)\n- sofosbuvir + velpatasvir (para genótipo 2)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-02T22:33:17.000Z",
+                    "updated_at": "2021-08-02T22:33:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42094,
+                    "question_id": 10297,
+                    "description": "O tratamento é feito com o uso de um antiviral apenas",
+                    "explanation": "Falso, Doc! São utilizados atualmente no tratamento da hepatite C crônica associações entre inibidor de polimerase e inibidor de NS5A, como:\n- sofosbuvir + ledipasvir (para genótipo 1)\n- sofosbuvir + velpatasvir (para genótipo 2) ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-02T22:33:17.000Z",
+                    "updated_at": "2021-08-02T22:33:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42095,
+                    "question_id": 10297,
+                    "description": "O tratamento da doença aguda é o mesmo da crônica",
+                    "explanation": "Muito bem, Doc! 😁 São utilizados atualmente no tratamento da hepatite C crônica associações entre inibidor de polimerase e inibidor de NS5A, como:\n- sofosbuvir + ledipasvir (para genótipo 1)\n- sofosbuvir + velpatasvir (para genótipo 2)  ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-08-02T22:33:17.000Z",
+                    "updated_at": "2021-08-02T22:33:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42096,
+                    "question_id": 10297,
+                    "description": "A maioria dos casos de hepatite C aguda evoluem para cura, sem cronificação",
+                    "explanation": "Falso, Doc! 75% dos casos cronificam!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-02T22:33:17.000Z",
+                    "updated_at": "2021-08-02T22:33:17.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10297,
+                "questionary_id": 236677,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10512,
+            "institution_id": 4,
+            "description": "Sobre a Hepatite C, assinale a alternativa **incorreta:**",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-28T23:54:59.000Z",
+            "updated_at": "2021-09-13T23:30:22.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 923,
+                    "title": "Hepatite C",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-03T00:31:46.000Z",
+                    "updated_at": "2021-08-06T00:37:07.000Z",
+                    "pivot": {
+                        "discipline_id": 923,
+                        "question_id": 10512
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42973,
+                    "question_id": 10512,
+                    "description": "A Hepatite C é a principal causa de transplante hepático no mundo.",
+                    "explanation": "- Alternativa correta, Doc! 😉\n- Dos pacientes infectados cronicamente, cerca de 20% evolui para cirrose hepática, em média de 20 a 30 anos após a infecção.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-28T23:54:59.000Z",
+                    "updated_at": "2021-09-13T23:30:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42974,
+                    "question_id": 10512,
+                    "description": "Há indicação de tratamento da Hepatite C independentemente do grau de fibrose no fígado.",
+                    "explanation": "- Alternativa correta, Doc! 😉\n- Há indicação de tratamento da Hepatite C independentemente do grau de fibrose no fígado.\n- Todos os pacientes com Hepatite C devem ser tratados.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-28T23:54:59.000Z",
+                    "updated_at": "2021-09-13T23:30:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42975,
+                    "question_id": 10512,
+                    "description": "A crioglobulinemia é a manifestação extrahepática mais comum da Hepatite C.",
+                    "explanation": "- Alternativa correta, Doc! 😉\n- Na Hepatite C, mecanismos autoimunes de resposta celular à infecção pelo HIV podem levar à formação de crioglobulinas, que são proteínas que se precipitam em baixas temperaturas.\n- Crioglobulinas podem causar glomerulonefrite, alterações cutâneas, alterações no fígado e  alterações no sistema nervoso central.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-28T23:54:59.000Z",
+                    "updated_at": "2021-09-13T23:30:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42976,
+                    "question_id": 10512,
+                    "description": "A Hepatite C se cronifica muito. Entretanto, menos que a Hepatite B.",
+                    "explanation": "- Boa, Doc! Essa é a alternativa **incorreta**! 😍\n- Na Hepatite C, 75% dos casos se cronificam! Lembre-se do **C** de **C**ronifica.\n- Na Hepatite B ocorre o oposto - 95% dos casos evoluem para cura da infecção.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-08-28T23:54:59.000Z",
+                    "updated_at": "2021-09-13T23:30:22.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10512,
+                "questionary_id": 236677,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10513,
+            "institution_id": 4,
+            "description": "Sobre o diagnóstico de hepatite C, assinale a **ERRADA:**",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-29T00:02:11.000Z",
+            "updated_at": "2022-05-16T11:05:10.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 923,
+                    "title": "Hepatite C",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-03T00:31:46.000Z",
+                    "updated_at": "2021-08-06T00:37:07.000Z",
+                    "pivot": {
+                        "discipline_id": 923,
+                        "question_id": 10513
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42977,
+                    "question_id": 10513,
+                    "description": "O diagnóstico geralmente ocorre de forma acidental",
+                    "explanation": "Certo, Doc! \n- Normalmente em doadores de sangue ou indivíduos em que se detecta elevação de transaminases\n- Como a doença é assintomática por muito tempo, o diagnóstico costuma ser feito na fase crônica",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-29T00:02:11.000Z",
+                    "updated_at": "2022-05-16T11:05:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42978,
+                    "question_id": 10513,
+                    "description": "Todos os pacientes portadores crônicos de HCV devem ser submetidos a biópsia hepática",
+                    "explanation": "Certo, Doc! Essa é a recomendação dos consensos mais recentes, devido à importância prognóstica e para o tratamento",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-29T00:02:11.000Z",
+                    "updated_at": "2022-05-16T11:05:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42979,
+                    "question_id": 10513,
+                    "description": "Após a confirmação do diagnóstico, deve-se solicitar genotipagem do HCV",
+                    "explanation": "Verdadeiro, Doc! Se o anti-HCV e o PCR quantitativo forem positivos, solicita-se genotipagem para melhor adequar o tratamento",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-29T00:02:11.000Z",
+                    "updated_at": "2022-05-16T11:05:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42980,
+                    "question_id": 10513,
+                    "description": "O genótipo tipo 1 do vírus da hepatite C é o mais comum e possui melhor resposta ao tratamento",
+                    "explanation": "Boa, Doc,  achou a errada! 🤓 \n- O genótipo tipo 1 é mesmo o mais comum (tanto no Brasil quanto no mundo). Entretanto, a resposta ao tratamento é pior nesses casos, devendo ser feito um tratamento mais longo\n- Os genótipos do HCV vão de 1 a 6\n\nFonte do conteúdo: https://bvsms.saude.gov.br/bvs/publicacoes/protocolos_diretrizes_hepatite_viral_c_coinfeccoes.pdf",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-08-29T00:02:11.000Z",
+                    "updated_at": "2022-05-16T11:05:10.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10513,
+                "questionary_id": 236677,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10529,
+            "institution_id": 298,
+            "description": "Com relação ao vírus da hepatite C (HCV) e ao vírus da hepatite B (HBV), pode-se afirmar que:\n",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-30T13:38:53.000Z",
+            "updated_at": "2021-08-30T13:38:53.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 298,
+                "title": "FMUSP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-05-03T18:48:26.000Z",
+                "updated_at": "2021-05-03T18:48:26.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 923,
+                    "title": "Hepatite C",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-03T00:31:46.000Z",
+                    "updated_at": "2021-08-06T00:37:07.000Z",
+                    "pivot": {
+                        "discipline_id": 923,
+                        "question_id": 10529
+                    }
+                },
+                {
+                    "id": 919,
+                    "title": "Hepatites B e D",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-02T19:49:13.000Z",
+                    "updated_at": "2021-08-03T00:30:48.000Z",
+                    "pivot": {
+                        "discipline_id": 919,
+                        "question_id": 10529
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43048,
+                    "question_id": 10529,
+                    "description": "o HCV apresenta menor virulência do que o HBV  ",
+                    "explanation": "Falso, Doc! A hepatite C apresenta maior virulênica",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-30T13:38:53.000Z",
+                    "updated_at": "2021-08-30T13:38:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43049,
+                    "question_id": 10529,
+                    "description": "a hepatite crônica ocorre em maior proporção em infectados pelo HBV  ",
+                    "explanation": "Falso, Doc! \n- Dos pacientes adultos infectados pelo HBV, apenas 5% cronificam\n- Já dos pacientes com HCV, cerca de 75% cronificam",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-30T13:38:53.000Z",
+                    "updated_at": "2021-08-30T13:38:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43050,
+                    "question_id": 10529,
+                    "description": "o HBV apresenta maior infectividade do que o HCV ",
+                    "explanation": "Boa, Doc! 👊 Para se ter uma ideia, em um acidente com material biológico há risco menos que 10% de se contrair o HCV, enquanto o HBV tem um risco de 67%!",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-08-30T13:38:53.000Z",
+                    "updated_at": "2021-08-30T13:38:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43051,
+                    "question_id": 10529,
+                    "description": "a forma crônica dessas hepatites independe da idade",
+                    "explanation": "Falso, Doc! Na hepatite B, uma criança que tenha contraído a doença tem 95% de chance de cronificar, ao passo que um adulto apresenta apenas 5% de chance de cronificação",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-30T13:38:53.000Z",
+                    "updated_at": "2021-08-30T13:38:53.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10529,
+                "questionary_id": 236677,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10530,
+            "institution_id": 149,
+            "description": "Uma paciente previamente hígida, de 40 anos, é encaminhada de banco de sangue com resultado de exame sorológico reagente para hepatite viral tipo C. A conduta mais adequada é a realização de:",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-30T13:57:05.000Z",
+            "updated_at": "2021-08-30T13:57:05.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 149,
+                "title": "PUC-SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-07-05T22:16:24.000Z",
+                "updated_at": "2020-07-05T22:16:24.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 923,
+                    "title": "Hepatite C",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-03T00:31:46.000Z",
+                    "updated_at": "2021-08-06T00:37:07.000Z",
+                    "pivot": {
+                        "discipline_id": 923,
+                        "question_id": 10530
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43052,
+                    "question_id": 10530,
+                    "description": "teste molecular para detecção de ácidos nucleicos do HCV (HCV-RNA) para confirmação diagnóstica  ",
+                    "explanation": "Boa, Doc! 👏 A paciente está sob suspeita de hepatite C, já que o teste sorológico deu positivo. Deve ser feito o genótipo para confirmação do diagnóstico.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-08-30T13:57:05.000Z",
+                    "updated_at": "2021-08-30T13:57:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43053,
+                    "question_id": 10530,
+                    "description": "exame bioquímico sérico para dosagem das enzimas hepáticas e coagulograma com a finalidade de avaliar doença hepática em atividade",
+                    "explanation": "FAlso, Doc!  A paciente está sob suspeita de hepatite C, já que o teste sorológico deu positivo. Deve ser feito o genótipo para confirmação do diagnóstico. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-30T13:57:05.000Z",
+                    "updated_at": "2021-08-30T13:57:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43054,
+                    "question_id": 10530,
+                    "description": "biópsia hepática para estadiamento da doença e possível indicação de tratamento ",
+                    "explanation": "Falso, DOc! O teste pode ser falso-negativo.  A paciente está sob suspeita de hepatite C, já que o teste sorológico deu positivo. Deve ser feito o genótipo para confirmação do diagnóstico. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-30T13:57:05.000Z",
+                    "updated_at": "2021-08-30T13:57:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43055,
+                    "question_id": 10530,
+                    "description": "elastografia hepática para estadiamento da doença e possível indicação de tratamento",
+                    "explanation": "Falso, DOc! O teste pode ser falso-negativo.  A paciente está sob suspeita de hepatite C, já que o teste sorológico deu positivo. Deve ser feito o genótipo para confirmação do diagnóstico. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-30T13:57:05.000Z",
+                    "updated_at": "2021-08-30T13:57:05.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10530,
+                "questionary_id": 236677,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10532,
+            "institution_id": 141,
+            "description": "Um paciente de 56 anos visita a Unidade Básica de Saúde levando em mãos o exame anti-HCV reagente. Encontra-se assintomático e realizando suas atividades laborais normalmente. Que hipótese diagnóstica não será possível com relação ao caso?",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-30T14:12:06.000Z",
+            "updated_at": "2021-11-11T21:15:12.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 141,
+                "title": "UNIOESTE",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-06-22T10:12:15.000Z",
+                "updated_at": "2020-06-22T10:12:15.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 923,
+                    "title": "Hepatite C",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-03T00:31:46.000Z",
+                    "updated_at": "2021-08-06T00:37:07.000Z",
+                    "pivot": {
+                        "discipline_id": 923,
+                        "question_id": 10532
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43060,
+                    "question_id": 10532,
+                    "description": "o paciente ter hepatite C crônica",
+                    "explanation": "Essa é uma opção, sim, Doc! Se o paciente tiver hepatite C crônica o anti-HCV fica positivo por mais de 6 meses",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-30T14:12:06.000Z",
+                    "updated_at": "2021-11-11T21:15:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43061,
+                    "question_id": 10532,
+                    "description": "o paciente ter hepatite C aguda  ",
+                    "explanation": "Essa é uma opção, sim, Doc! Pode ter contraído hepatite C agora. Nesse caso o PCR-HCV será positivo",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-30T14:12:06.000Z",
+                    "updated_at": "2021-11-11T21:15:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43062,
+                    "question_id": 10532,
+                    "description": "o paciente ter hepatite C curada espontaneamente ",
+                    "explanation": "Essa é uma opção, sim, Doc! \n- A cura espontânea da hepatite C ocorre em até 30% dos casos\n- Mesmo quando isso ocorre, o anti-HCV é positivo pelo resto da vida",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-30T14:12:06.000Z",
+                    "updated_at": "2021-11-11T21:15:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43063,
+                    "question_id": 10532,
+                    "description": "o paciente ter hepatite C curada com terapia medicamentosa  ",
+                    "explanation": "Essa é uma opção, sim, Doc! Mesmo quando isso ocorre, o anti-HCV é positivo pelo resto da vida ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-30T14:12:06.000Z",
+                    "updated_at": "2021-11-11T21:15:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43064,
+                    "question_id": 10532,
+                    "description": "o paciente estaria imune contra a hepatite C ",
+                    "explanation": "Parabéns, Doc, essa é a incorreta! 💪\n- Infelizmente, não existe marcador de imunidade para a hepatite C\n- A cura da infecção não confere imunidade e, para muitos pacientes, nova exposição pode resultar em nova infecção",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2021-08-30T14:12:06.000Z",
+                    "updated_at": "2021-11-11T21:15:12.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10532,
+                "questionary_id": 236677,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10538,
+            "institution_id": 306,
+            "description": "Um homem de 56 anos, 2 anos após uma hemotransfusão, ficou sabendo ter sido contaminado e agora apresenta hepatite crônica por vírus. Qual das alternativas a seguir é incorreta?",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-30T14:52:47.000Z",
+            "updated_at": "2021-08-30T14:52:47.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 306,
+                "title": "UNIFESO",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-05-05T16:07:29.000Z",
+                "updated_at": "2021-05-05T16:07:29.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 923,
+                    "title": "Hepatite C",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-03T00:31:46.000Z",
+                    "updated_at": "2021-08-06T00:37:07.000Z",
+                    "pivot": {
+                        "discipline_id": 923,
+                        "question_id": 10538
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43083,
+                    "question_id": 10538,
+                    "description": "o paciente pode ter hepatite por vírus C  ",
+                    "explanation": "Essa é uma opção, sim, Doc! A hemotransfusão é a principal forma de transmissão da hepatite C, que pode cronificar em 75% dos casos",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-30T14:52:47.000Z",
+                    "updated_at": "2021-08-30T14:52:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43084,
+                    "question_id": 10538,
+                    "description": "o paciente pode ter hepatite por vírus G  ",
+                    "explanation": "Boa, Doc, essa é a incorreta! 😁 A hepatite por vírus G até pode ser transmitida por hemotransfusão, mas sua cronicidade é questionável",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-08-30T14:52:47.000Z",
+                    "updated_at": "2021-08-30T14:52:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43085,
+                    "question_id": 10538,
+                    "description": "o paciente pode ter hepatite por vírus B  ",
+                    "explanation": "Essa é uma opção, sim, Doc! A hepatite B pode ser adquirida por hemotransfusão, além da via sexual e parenteral. Pode cronificar em adultos em 5% dos casos",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-30T14:52:47.000Z",
+                    "updated_at": "2021-08-30T14:52:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43086,
+                    "question_id": 10538,
+                    "description": "o paciente pode vir a apresentar hepatocarcinoma ",
+                    "explanation": "Verdadeiro, Doc! Se o paciente tiver adquirido hepatite C, por exemplo, terá fator de risco para hepatocarcinoma",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-30T14:52:47.000Z",
+                    "updated_at": "2021-08-30T14:52:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43087,
+                    "question_id": 10538,
+                    "description": "o paciente pode ter ou vir a ter vasculite por crioglobulinemia",
+                    "explanation": "Essa está certa, Doc! A hepatite C pode ser adquirida por transfusão e pode levar a vasculite por crioglobulinemia",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-08-30T14:52:47.000Z",
+                    "updated_at": "2021-08-30T14:52:47.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10538,
+                "questionary_id": 236677,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10548,
+            "institution_id": 53,
+            "description": "Um homem de 51 anos, assintomático, traz resultado da sorologia anti-HCV reagente. Com relação a esse caso, pode-se afirmar que:",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-30T19:33:08.000Z",
+            "updated_at": "2021-08-30T19:33:08.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 53,
+                "title": "FUNDHACRE",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-21T22:15:32.000Z",
+                "updated_at": "2020-05-21T22:15:32.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 923,
+                    "title": "Hepatite C",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-03T00:31:46.000Z",
+                    "updated_at": "2021-08-06T00:37:07.000Z",
+                    "pivot": {
+                        "discipline_id": 923,
+                        "question_id": 10548
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43128,
+                    "question_id": 10548,
+                    "description": "é portador da infecção crônica pelo Vírus da Hepatite C (VHC)  ",
+                    "explanation": "Falso, Doc! Para ser portador de infecção crônica precisaria estar associado um marcador de replicação viral. O anticorpo indica apenas que já houve contato",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-30T19:33:08.000Z",
+                    "updated_at": "2021-08-30T19:33:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43129,
+                    "question_id": 10548,
+                    "description": "apresenta imunidade após infecção pelo VHC",
+                    "explanation": "Falso, Doc! Não há marcador de imunidade para a hepatite C",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-30T19:33:08.000Z",
+                    "updated_at": "2021-08-30T19:33:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43130,
+                    "question_id": 10548,
+                    "description": "necessita realizar outro exame para confirmar ou não a infecção atual pelo VHC",
+                    "explanation": "Isso mesmo, Doc! 😎 O paciente já teve contato com o vírus, já que possui anticorpos. para sabermos se ainda está infectado, é necessário fazer o exame de PCR",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-08-30T19:33:08.000Z",
+                    "updated_at": "2021-08-30T19:33:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43131,
+                    "question_id": 10548,
+                    "description": "há uma remota possibilidade de manutenção da infecção pelo VHC",
+                    "explanation": "FAlso, DOc! 75% das pessoas que são infectadas pelo vírus da hepatite C cronificam, tornando elevada a chance de infecção ativa",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-30T19:33:09.000Z",
+                    "updated_at": "2021-08-30T19:33:09.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10548,
+                "questionary_id": 236677,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10549,
+            "institution_id": 22,
+            "description": "Uma manicure de 25 anos foi encaminhada por apresentar-se ictérica. Na investigação, foi identificada sorologia positiva para o vírus da hepatite C. É correto afirmar que:\n",
+            "difficulty": "medium",
+            "year": "2013-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-30T19:41:02.000Z",
+            "updated_at": "2021-08-30T19:43:31.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 22,
+                "title": "UNICAMP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:12:16.000Z",
+                "updated_at": "2020-05-18T19:12:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 923,
+                    "title": "Hepatite C",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-03T00:31:46.000Z",
+                    "updated_at": "2021-08-06T00:37:07.000Z",
+                    "pivot": {
+                        "discipline_id": 923,
+                        "question_id": 10549
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43132,
+                    "question_id": 10549,
+                    "description": "o HCV é um vírus DNA de elevado potencial de cronificação e evolução para hepatocarcinoma  ",
+                    "explanation": "Falso, Doc! \n- O HCV é um vírus de **RNA**\n- A cronificação ocorre mesmo em 75% dos infectados. Entretanto, o hepatocarcinoma só ocorre em uma pequena porcentagem que evolui para cirrose (diferentemente do vírus da hepatite B, que pode levar a hepatocarcinoma sem passar pelo estágio de cirrose)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-30T19:41:02.000Z",
+                    "updated_at": "2021-08-30T19:43:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43133,
+                    "question_id": 10549,
+                    "description": "no caso agudo sintomático, não há a recomendação de tratamento antiviral ",
+                    "explanation": "Falso, Doc! Devem ser tratados **todos** os pacientes com hepatite C",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-30T19:41:02.000Z",
+                    "updated_at": "2021-08-30T19:43:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43134,
+                    "question_id": 10549,
+                    "description": "o clareamento viral espontâneo ocorre, em geral, nas primeiras 12 semanas de infecção  ",
+                    "explanation": "Arrasou, Doc! 👏 \n- O clareamento viral espontâneo ocorre normalmente nos 3 primeiros meses\n- Lembrando que a maioria dos pacientes (75%) irá cronificar",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-08-30T19:41:02.000Z",
+                    "updated_at": "2021-08-30T19:43:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43135,
+                    "question_id": 10549,
+                    "description": "a resposta viral sustentada é muito baixa na infecção aguda por HCV",
+                    "explanation": "Falso, Doc! \n- Resposta viral sustentada é a ausência de RNA viral no paciente após o tratamento. \n- No caso do HCV esse índice é alto, pois o tratamento costuma ser muito efetivo, havendo clareamento viral em 95% após 12 semanas de tratamento",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-30T19:41:02.000Z",
+                    "updated_at": "2021-08-30T19:43:31.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10549,
+                "questionary_id": 236677,
+                "timer": 0
+            }
+        },
+        {
+            "id": 404,
+            "institution_id": 4,
+            "description": "Sobre o tratamento da hepatite C crônica, assinale a alternativa **INCORRETA:**",
+            "difficulty": "hard",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-23T23:13:45.000Z",
+            "updated_at": "2021-10-10T00:16:04.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 923,
+                    "title": "Hepatite C",
+                    "description": null,
+                    "parent_id": 64,
+                    "is_enabled": true,
+                    "created_at": "2021-08-03T00:31:46.000Z",
+                    "updated_at": "2021-08-06T00:37:07.000Z",
+                    "pivot": {
+                        "discipline_id": 923,
+                        "question_id": 404
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1662,
+                    "question_id": 404,
+                    "description": "A Ribavirina é reservada para quadros com maior chance de falha no tratamento",
+                    "explanation": "Correto. Ela é usada para quando há maior chance de falha, como genótipo tipo 3, cirróticos, idosos e coinfecção com HIV",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-23T20:13:45.000Z",
+                    "updated_at": "2021-10-09T21:16:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1663,
+                    "question_id": 404,
+                    "description": "Os antivirais de ação direta caíram em desuso com o surgimento da RIbavirina",
+                    "explanation": "A primeira linha de tratamento são os ANTIVIRAIS DE AÇÃO DIRETA. São usados em combinação de 2:como sofosbuvir, simeprevir, etc. Uma dica é que eles terminam sempre com \"...VIR\".\nA Ribavirina é reservada para quadros com maior chance de falha",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-23T20:13:45.000Z",
+                    "updated_at": "2021-10-09T21:16:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1664,
+                    "question_id": 404,
+                    "description": "Com o tratamento disponível na atualidade, há mais de 90% de chance de cura",
+                    "explanation": "Correto. Os antivirais de ação direta promovem hoje uma taxa de cura por volta de 90% ou mais",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-23T20:13:45.000Z",
+                    "updated_at": "2021-10-09T21:16:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1665,
+                    "question_id": 404,
+                    "description": "O genótipo 1 é o mais comum da hepatite C",
+                    "explanation": "Perfeito doc! O genótipo mais comum é o 1 e também é o mais resistente ao tratamento!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-23T20:13:45.000Z",
+                    "updated_at": "2021-10-09T21:16:04.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 404,
+                "questionary_id": 236677,
+                "timer": 0
+            }
+        }
+    ]
+}

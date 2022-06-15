@@ -1,0 +1,2013 @@
+{
+    "id": 236694,
+    "user_id": 1699,
+    "title": "Abdome Agudo Obstrutivo",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-06-14T20:14:29.000Z",
+    "updated_at": "2022-06-14T20:14:29.000Z",
+    "study_plan_id": 164,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 305,
+            "institution_id": 4,
+            "description": "Sobre obstrução intestinal, assinale a alternativa **CORRETA:**",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T02:27:16.000Z",
+            "updated_at": "2022-01-17T00:31:10.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 305
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 305
+                    }
+                },
+                {
+                    "id": 42,
+                    "title": "Abdome Agudo Obstrutivo",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-22T02:19:51.000Z",
+                    "updated_at": "2021-09-22T14:46:13.000Z",
+                    "pivot": {
+                        "discipline_id": 42,
+                        "question_id": 305
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1253,
+                    "question_id": 305,
+                    "description": "É mais comum obstrução de intestino grosso do que intestino delgado",
+                    "explanation": "Falso doc!😋 A Obstrução é mais comum no delgado, especialmente devido ás aderências (bridas), que ocorrem mais comumente nessa porção do TGI!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T23:27:16.000Z",
+                    "updated_at": "2022-01-16T21:31:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1254,
+                    "question_id": 305,
+                    "description": "A causa mais comum de obstrução intestinal são as aderências (bridas)",
+                    "explanation": "Perfeito doc! Arrasou😁 Elas são mais comuns no intestino delgado e a suspeita é feita pela história prévia de cirurgias abdominais ou também, que pouca gente lembra, de **processos inflamatórios intra-abdominais prévios**! Doc, você já viu uma aderência em uma laparoscopia? Se liga nisso👇\n- Fonte: https://pt.wikipedia.org/wiki/Ader%C3%AAncia_(patologia)",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-21T23:27:16.000Z",
+                    "updated_at": "2022-01-16T21:31:10.000Z",
+                    "files": [
+                        {
+                            "id": 8703,
+                            "file": "bfaa15ce-a103-4adc-a43a-02749bdca1a8.jpeg",
+                            "name": "Adhesions.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-13T22:54:39.000Z",
+                            "updated_at": "2021-05-13T22:54:39.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/bfaa15ce-a103-4adc-a43a-02749bdca1a8.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8703,
+                                "alternative_id": 1254
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1255,
+                    "question_id": 305,
+                    "description": "As aderências são mais comuns no intestino grosso",
+                    "explanation": "Falso doc! As aderências são mais comuns no delgado, o que leva as obstruções a também ocorrerem mais comumente no intestino delgado!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T23:27:16.000Z",
+                    "updated_at": "2022-01-16T21:31:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1256,
+                    "question_id": 305,
+                    "description": "A única causa conhecida de aderências são cirurgias abdominais ou pélvicas prévias",
+                    "explanation": "Falso doc!  Existe uma outra causa que pouca gente lembra, que são os processos inflamatórios intra-abdominais prévios🔥",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T23:27:16.000Z",
+                    "updated_at": "2022-01-16T21:31:10.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 305,
+                "questionary_id": 236694,
+                "timer": 0
+            }
+        },
+        {
+            "id": 307,
+            "institution_id": 4,
+            "description": "Quanto às obstruções intestinais altas e baixas, assinale a alternativa **CORRETA:**",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T02:36:04.000Z",
+            "updated_at": "2021-10-10T02:22:01.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 307
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 307
+                    }
+                },
+                {
+                    "id": 42,
+                    "title": "Abdome Agudo Obstrutivo",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-22T02:19:51.000Z",
+                    "updated_at": "2021-09-22T14:46:13.000Z",
+                    "pivot": {
+                        "discipline_id": 42,
+                        "question_id": 307
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1261,
+                    "question_id": 307,
+                    "description": "O marco anatômico que divide as obstruções em altas e baixas é o ângulo de Treitz",
+                    "explanation": "Falso doc! Pegadinha do malandro! 😋Cuidado para não confundir com o marco anatômico dos **sangramento**s altos e baixos, cujo marco é o ângulo de Treitz! Nas **obstruçõe**s o marco é a **VÁLVULA ÍLEO CECAL!** Mas falando nisso, você sabe onde fica esse marco anatômico? Se liga nisso👇\n- Fonte: https://pt.slideshare.net/dacondemx/imagenes-id-e-ig/10",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T23:36:04.000Z",
+                    "updated_at": "2021-10-09T23:22:01.000Z",
+                    "files": [
+                        {
+                            "id": 8704,
+                            "file": "a116c48c-64fb-4e1b-a581-76c212ed01b1.jpeg",
+                            "name": "imagenes-id-e-ig-8-728.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-13T23:08:47.000Z",
+                            "updated_at": "2021-05-13T23:08:47.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a116c48c-64fb-4e1b-a581-76c212ed01b1.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8704,
+                                "alternative_id": 1261
+                            }
+                        },
+                        {
+                            "id": 8706,
+                            "file": "c49a13d0-20b6-440f-814a-ce8b209fb0f5.jpeg",
+                            "name": "imagenes-id-e-ig-8-728.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-13T23:08:49.000Z",
+                            "updated_at": "2021-05-13T23:08:49.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c49a13d0-20b6-440f-814a-ce8b209fb0f5.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8706,
+                                "alternative_id": 1261
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1262,
+                    "question_id": 307,
+                    "description": "Nas obstruções altas, os vômitos são mais tardios",
+                    "explanation": " Falso doc! 😋É uma questão de trajetória🚴. Os vômitos são mais PRECOCES nas obstruções altas, pois o caminho da boca até o local da obstrução é muito pequeno comparado ao local de uma obstrução baixa, que é do cólon!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T23:36:04.000Z",
+                    "updated_at": "2021-10-09T23:22:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1263,
+                    "question_id": 307,
+                    "description": "Na obstrução alta, geralmente o distúrbio ácido base é a alcalose metabólica hipoclorêmica, hipocalêmica",
+                    "explanation": "Perfeito doc! Mandou bem 😁 Como ocorrem vômitos com mais frequência nas obstruções altas, o paciente perde muito ácido estomacal (HCl) pelo vômito. Perda de ácido vai culminar em alcalose, e como esse ácido contém Cl-, vai culminar em Alcalose hipoclorêmica. Com os vômitos haverá desidratação, ativando o sistema renina angiotensina aldosterona, promovendo a retenção de sódio e excreção de potássio, por isso hipocalêmica!",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-21T23:36:04.000Z",
+                    "updated_at": "2021-10-09T23:22:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1264,
+                    "question_id": 307,
+                    "description": "Só há parada da eliminação de gazes e fezes nas obstruções baixas",
+                    "explanation": "Falso doc! 😋Se o trânsito é interrompido em algum lugar mais alto, em algum momento as fezes abaixo desse ponto vão ser eliminadas pela defecação e, a partir desse momento, não haverá mais eliminação de gazes e fezes, mesmo se a obstrução for alta!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T23:36:04.000Z",
+                    "updated_at": "2021-10-09T23:22:01.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 307,
+                "questionary_id": 236694,
+                "timer": 0
+            }
+        },
+        {
+            "id": 309,
+            "institution_id": 4,
+            "description": "Sobre os sinais sistêmicos como consequência da obstrução intestinal, assinale a correta:",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T02:39:36.000Z",
+            "updated_at": "2021-05-14T19:05:08.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 309
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 309
+                    }
+                },
+                {
+                    "id": 42,
+                    "title": "Abdome Agudo Obstrutivo",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-22T02:19:51.000Z",
+                    "updated_at": "2021-09-22T14:46:13.000Z",
+                    "pivot": {
+                        "discipline_id": 42,
+                        "question_id": 309
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1269,
+                    "question_id": 309,
+                    "description": "Taquicardia",
+                    "explanation": "Perfeito doc!😁 Esse é um dos sinais, porém também existem outros. Confirma o comentário completo na alternativa correta!  ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T23:39:36.000Z",
+                    "updated_at": "2021-05-14T16:05:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1270,
+                    "question_id": 309,
+                    "description": "Desidratação",
+                    "explanation": "Perfeito doc!😁 Esse é um dos sinais, porém também existem outros. Confirma o comentário completo na alternativa correta!  ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T23:39:37.000Z",
+                    "updated_at": "2021-05-14T16:05:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1271,
+                    "question_id": 309,
+                    "description": "Distúrbios metabólicos",
+                    "explanation": "Perfeito doc!😁 Esse é um dos sinais, porém também existem outros. Confirma o comentário completo na alternativa correta!  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T23:39:37.000Z",
+                    "updated_at": "2021-05-14T16:05:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1272,
+                    "question_id": 309,
+                    "description": "Todas alternativas estão corretas",
+                    "explanation": "Perfeito doc! 😁 Mandou bem demais! Agora acompanha o raciocínio👇\n- obstrução leva a **náuseas e vômitos**, além de **edema de alças**=> resultando em **perda de líquidos**\n- a perda de líquidos resulta em **desidratação**=> cuja consequência imediata é a **taquicardia**\n- além disso, vômitos levam a **perda de ácido e eletrólitos**, como o Cl-=>levando a **distúrbios metabólicos**",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-21T23:39:37.000Z",
+                    "updated_at": "2021-05-14T16:05:08.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 309,
+                "questionary_id": 236694,
+                "timer": 0
+            }
+        },
+        {
+            "id": 310,
+            "institution_id": 4,
+            "description": "Sobre os exames complementares no abdome obstrutivo, analise as afirmações:\nI-É importante pedir eletrólitos como K+ e Cl-\nII-O raio-X de abdome na obstrução intestinal alta revela o sinal do Empilhamento de moedas\nIII-Lactato faz parte da avaliação do abdome agudo obstrutivo\nQuais afirmativas são corretas?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T02:46:57.000Z",
+            "updated_at": "2021-05-14T19:13:08.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 310
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 310
+                    }
+                },
+                {
+                    "id": 42,
+                    "title": "Abdome Agudo Obstrutivo",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-22T02:19:51.000Z",
+                    "updated_at": "2021-09-22T14:46:13.000Z",
+                    "pivot": {
+                        "discipline_id": 42,
+                        "question_id": 310
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1273,
+                    "question_id": 310,
+                    "description": "Apenas I",
+                    "explanation": "Comentário completo na alternativa correta",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T23:46:57.000Z",
+                    "updated_at": "2021-05-14T16:13:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1274,
+                    "question_id": 310,
+                    "description": "Apenas II e III",
+                    "explanation": "Comentário completo na alternativa correta ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T23:46:57.000Z",
+                    "updated_at": "2021-05-14T16:13:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1275,
+                    "question_id": 310,
+                    "description": "Apenas I e II",
+                    "explanation": "Comentário completo na alternativa correta ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T23:46:57.000Z",
+                    "updated_at": "2021-05-14T16:13:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1276,
+                    "question_id": 310,
+                    "description": "I, II e III",
+                    "explanation": "Perfeito doc! Arrasou 😁Na avaliação inicial do abdome obstrutivo, é importante a solicitação dos seguintes exames:\n- Hemograma\n- Creatinina\n- Eletrólitos\n- Lactato\n- Imagem: Raio X de Abdome e, se dúvida, Tomografia Computadorizada\n- Lembrando que👇\n- I- Obstruções altas cursam com alcalose hipoclorêmica e hipocalêmica, alterações essas que podem ser identificadas no exame labortorial.\n- II- O sinal do empilhamento de moedas é clássico na obstrução intestinal de delgado\n- III- Obstruções baixas podem cursar com acidose metabólica, com um valor de lactato mais elevado.\n- Doc, falando nisso, você já viu esse sinal do empilhamento de moedas? Se liga na imagem abaixo👇\n- Fonte: https://laccufjfgv.wixsite.com/clinicacirurgica/single-post/2018/05/03/obstru%C3%A7%C3%A3o-intestinal-de-delgado-exames-de-imagem",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-21T23:46:57.000Z",
+                    "updated_at": "2021-05-14T16:13:08.000Z",
+                    "files": [
+                        {
+                            "id": 8759,
+                            "file": "57263827-7066-4af3-a6f0-b41d27e848ad.jpeg",
+                            "name": "cd6401_bbb1855ef0ff418fb43005f87839fb16_mv2.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-14T19:12:59.000Z",
+                            "updated_at": "2021-05-14T19:12:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/57263827-7066-4af3-a6f0-b41d27e848ad.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8759,
+                                "alternative_id": 1276
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 310,
+                "questionary_id": 236694,
+                "timer": 0
+            }
+        },
+        {
+            "id": 312,
+            "institution_id": 4,
+            "description": "Sobre o manejo inicial de um paciente com abdome obstrutivo, assinale a alternativa correta:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T02:55:28.000Z",
+            "updated_at": "2021-05-14T19:22:10.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 312
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 312
+                    }
+                },
+                {
+                    "id": 42,
+                    "title": "Abdome Agudo Obstrutivo",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-22T02:19:51.000Z",
+                    "updated_at": "2021-09-22T14:46:13.000Z",
+                    "pivot": {
+                        "discipline_id": 42,
+                        "question_id": 312
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1282,
+                    "question_id": 312,
+                    "description": "O paciente não precisa necessariamente ficar em jejum durante a avaliação",
+                    "explanation": "Falso doc!😋 O jejum faz parte do manejo inicial. Caso a conduta venha a ser cirúrgica, se o paciente tiver se alimentado haverá maior risco de broncoaspiração durante a cirurgia, além de que a alimentação pode piorar a obstrução!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T23:55:28.000Z",
+                    "updated_at": "2021-05-14T16:22:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1283,
+                    "question_id": 312,
+                    "description": "Faz parte do manejo inicial a passagem de Sonda Nasogástrica para descompressão",
+                    "explanation": "Perfeito doc!😁 Mandou bem! O estômago ou as alças intestinais distendidas por conta da obstrução podem ser aliviadas e ter menos chance de ruptura ou lesão com a passagem de uma sonda nasogástrica para descompressão! Doc, para nunca mais esquecer, o manejo inicial consiste em:\n- Jejum\n- Hidratação\n- Analgesia\n- Sonda Nasogástrica\n- Antibioticoterapia para Gram - e anaeróbios\nDoc, falando nisso, você sabe como é feita a passagem de uma sonda nasogástrica? Se liga nisso👇\n- Fonte: http://janianeroberta.blogspot.com/2011/11/sonda-nasoenteral.html\n\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-21T23:55:28.000Z",
+                    "updated_at": "2021-05-14T16:22:10.000Z",
+                    "files": [
+                        {
+                            "id": 8760,
+                            "file": "1dd7ae1f-12e9-4cdd-9ced-fe601d6f7ac3.jpeg",
+                            "name": "SNE mm.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-14T19:17:01.000Z",
+                            "updated_at": "2021-05-14T19:17:01.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1dd7ae1f-12e9-4cdd-9ced-fe601d6f7ac3.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8760,
+                                "alternative_id": 1283
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1284,
+                    "question_id": 312,
+                    "description": "Não é usual o manejo inicial com a administração de antibióticos para gram negativos e anaeróbios",
+                    "explanation": "Falso doc! 😋É frequente o uso de ATB para gram negativos e anaeróbios pela frequente translocação bacteriana em um quadro de obstrução intestinal!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T23:55:28.000Z",
+                    "updated_at": "2021-05-14T16:22:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1285,
+                    "question_id": 312,
+                    "description": "Em caso de obstrução baixa com válvula ileocecal incompetente, indica-se cirurgia",
+                    "explanation": "Falso doc! A válvula ileocecal tem a função de impedir que qualquer conteúdo do ceco volte para o íleo. Se houver uma obstrução em cólon transverso, por exemplo, a pressão dessa obstrução se transmitirá para a válvula ileocecal:\n- se ela for incompetente, ela irá deixar essa pressão passar para o íleo, não sobrecarregando o ceco.\n- se ela for **competente, ela não irá deixar passar essa pressão para o íleo, distendendo o ceco, com risco de ruptura**. \n- 💡Logo, a conduta cirúrgica está indicada na obstrução em válvula ILEOCECAL COMPETENTE!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T23:55:28.000Z",
+                    "updated_at": "2021-05-14T16:22:10.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 312,
+                "questionary_id": 236694,
+                "timer": 0
+            }
+        },
+        {
+            "id": 314,
+            "institution_id": 4,
+            "description": "Sobre o volvo, assinale a alternativa INCORRETA:",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T03:00:58.000Z",
+            "updated_at": "2021-11-01T14:10:26.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 314
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 314
+                    }
+                },
+                {
+                    "id": 42,
+                    "title": "Abdome Agudo Obstrutivo",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-22T02:19:51.000Z",
+                    "updated_at": "2021-09-22T14:46:13.000Z",
+                    "pivot": {
+                        "discipline_id": 42,
+                        "question_id": 314
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1290,
+                    "question_id": 314,
+                    "description": "O tratamento do volvo consiste em cirurgia imediata",
+                    "explanation": "Falso doc!😋 O manejo do volvo, inicialmente, consiste na **redução do volv**o (tentar destorcer ele) via colonoscopia ou retossigmoidoscopia, com passagem de sonda retal e, só posteriormente, realiza-se a abordagem cirúrgica! Doc, você já viu um volvo? Se liga nisso👇\nFonte: [https://felipegastro.com.br/enciclopedia/aderencias-intestinais/](https://felipegastro.com.br/enciclopedia/aderencias-intestinais/)",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-22T00:00:59.000Z",
+                    "updated_at": "2021-11-01T11:10:26.000Z",
+                    "files": [
+                        {
+                            "id": 8761,
+                            "file": "977f4fc0-2eb5-4c2e-9c04-ab34376f037a.jpeg",
+                            "name": "img1-1.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-14T19:28:59.000Z",
+                            "updated_at": "2021-05-14T19:28:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/977f4fc0-2eb5-4c2e-9c04-ab34376f037a.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8761,
+                                "alternative_id": 1290
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1291,
+                    "question_id": 314,
+                    "description": "O sinal clássica do volvo no Raio X de abdome é o sinal do grão de café",
+                    "explanation": "Perfeito doc!😁 O sinal do grão de café é clássico no volvo. Doc, se liga nessa radiografia de abdome mostrando esse sinal👇\nFonte: [http://www.rmmg.org/artigo/detalhes/72](http://www.rmmg.org/artigo/detalhes/72)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-22T00:00:59.000Z",
+                    "updated_at": "2021-11-01T11:10:26.000Z",
+                    "files": [
+                        {
+                            "id": 8762,
+                            "file": "4e3c14f1-a52d-44cd-89cb-b3cb94f645a8.jpeg",
+                            "name": "unnamed (5).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-14T19:34:23.000Z",
+                            "updated_at": "2021-05-14T19:34:23.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4e3c14f1-a52d-44cd-89cb-b3cb94f645a8.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8762,
+                                "alternative_id": 1291
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1292,
+                    "question_id": 314,
+                    "description": "O local mais comum de ocorrência do volvo é o cólon sigmoide",
+                    "explanation": "Perfeito doc!😁 Geralmente, os volvos são obstruções baixas, sendo o sigmóide o local mais acometido e o ceco o segundo local mais comum!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-22T00:00:59.000Z",
+                    "updated_at": "2021-11-01T11:10:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1293,
+                    "question_id": 314,
+                    "description": "Volvo é, na grande maioria das vezes, uma obstrução intestinal baixa",
+                    "explanation": "Perfeito doc!😁 Na maioria das vezes, o volvo ocorre no sigmoide ou no ceco!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-22T00:00:59.000Z",
+                    "updated_at": "2021-11-01T11:10:26.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 314,
+                "questionary_id": 236694,
+                "timer": 0
+            }
+        },
+        {
+            "id": 315,
+            "institution_id": 4,
+            "description": "Sobre o íleo biliar assinale a alternativa CORRETA:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T03:08:32.000Z",
+            "updated_at": "2021-05-14T20:22:51.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 315
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 315
+                    }
+                },
+                {
+                    "id": 42,
+                    "title": "Abdome Agudo Obstrutivo",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-22T02:19:51.000Z",
+                    "updated_at": "2021-09-22T14:46:13.000Z",
+                    "pivot": {
+                        "discipline_id": 42,
+                        "question_id": 315
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1294,
+                    "question_id": 315,
+                    "description": "O Íleo biliar é uma obstrução intestinal alta por um cálculo biliar no intestino delgado",
+                    "explanation": "Perfeito doc!😁 Uma fístula entre o sistema biliar e o intestino, geralmente formada devido a um processo inflamatório prévio, como uma colecistite aguda,  permite a passagem de cálculos biliares maiores para o intestino, o que pode levar a obstrução! Doc, se liga nessa imagem ilustrando esse processo👇\n- Fonte: https://docs.bvsalud.org/biblioref/2018/04/882542/aspectos-atuais-no-manejo-dos-pacientes-com-ileo-biliar.pdf",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-22T00:08:32.000Z",
+                    "updated_at": "2021-05-14T17:22:51.000Z",
+                    "files": [
+                        {
+                            "id": 8834,
+                            "file": "b144bd25-5161-429b-825e-e0938e6026e0.jpeg",
+                            "name": "download (3).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-14T20:16:32.000Z",
+                            "updated_at": "2021-05-14T20:16:32.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b144bd25-5161-429b-825e-e0938e6026e0.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8834,
+                                "alternative_id": 1294
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1295,
+                    "question_id": 315,
+                    "description": "Não existe um sinal clássico ao raio X, pois como as demais obstruções altas, não tem uma imagem característica",
+                    "explanation": "Falso doc! O Raio X de abdome mostra a tríade de Rigler:\n- 1-Obstrução de delgado\n- 2-Cálculo biliares ectópicos (fora da vesícula e dentro do intestino)\n- 3-Pneumobilia (ar proveniente do intestino dentro da vesícula biliar)\n- Doc, se liga nessa tríade vista à TC de abdome👇\n- Fonte: http://www.rmmg.org/artigo/detalhes/69",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-22T00:08:32.000Z",
+                    "updated_at": "2021-05-14T17:22:51.000Z",
+                    "files": [
+                        {
+                            "id": 8835,
+                            "file": "d2cf01a9-792a-4e3d-8be7-865cc3a56d5a.jpeg",
+                            "name": "unnamed (6).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-14T20:22:36.000Z",
+                            "updated_at": "2021-05-14T20:22:36.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d2cf01a9-792a-4e3d-8be7-865cc3a56d5a.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8835,
+                                "alternative_id": 1295
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1296,
+                    "question_id": 315,
+                    "description": "Hematêmese é um sintoma comum dessa condição",
+                    "explanation": "Falso doc! 😋A tríade clássica compõe: obstrução de delgado, cálculos biliares ectópicos e pneumobilia!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-22T00:08:32.000Z",
+                    "updated_at": "2021-05-14T17:22:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1297,
+                    "question_id": 315,
+                    "description": "Íleo biliar refere-se à destruição da mucosa ileal por bile",
+                    "explanation": "Falso doc! 😋Não é esse o conceito. O que ocorre é que uma fístula entre o sistema biliar e o intestino, geralmente formada devido a um processo inflamatório prévio, permite a passagem de cálculos biliares maiores para o intestino, que pode levar a obstrução! ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-22T00:08:32.000Z",
+                    "updated_at": "2021-05-14T17:22:51.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 315,
+                "questionary_id": 236694,
+                "timer": 0
+            }
+        },
+        {
+            "id": 316,
+            "institution_id": 4,
+            "description": "Sobre a Síndrome de Ogilvie, assinale a alternativa CORRETA:",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T03:36:25.000Z",
+            "updated_at": "2021-05-14T20:35:51.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 15,
+                    "title": "Cirurgia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:36:57.000Z",
+                    "updated_at": "2020-05-18T22:36:57.000Z",
+                    "pivot": {
+                        "discipline_id": 15,
+                        "question_id": 316
+                    }
+                },
+                {
+                    "id": 16,
+                    "title": "Cirurgia Geral",
+                    "description": null,
+                    "parent_id": 15,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T22:37:20.000Z",
+                    "updated_at": "2020-05-18T22:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 16,
+                        "question_id": 316
+                    }
+                },
+                {
+                    "id": 42,
+                    "title": "Abdome Agudo Obstrutivo",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-22T02:19:51.000Z",
+                    "updated_at": "2021-09-22T14:46:13.000Z",
+                    "pivot": {
+                        "discipline_id": 42,
+                        "question_id": 316
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1298,
+                    "question_id": 316,
+                    "description": "Pode ser uma obstrução intestinal alta ou baixa",
+                    "explanation": "Falso doc! 😋 O conceito de Sd de Oglive é uma \"pseudo-obstrução\" intestinal **baix**a, ocorrendo no cólon!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-22T00:36:26.000Z",
+                    "updated_at": "2021-05-14T17:35:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1299,
+                    "question_id": 316,
+                    "description": "É também chamada de pseudo-obstrução colônica, e ocorre geralmente em pós operatórios",
+                    "explanation": "Perfeito doc!😁 Ocorre necessariamente no cólon, tendo como o pós operatório uma de suas principais causas, além de ocorrer em doenças como o hipertireoidismo! O motivo não é muito claro, mas a hipótese mais aceita é uma hiperativação simpática! Doc, se liga nesse rx mostrando uma pseudoobstrução pro síndrome de Olgivie👇\nFonte: https://www.scielo.br/scielo.php?script=sci_arttext&pid=S0102-67202009000200012",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-22T00:36:26.000Z",
+                    "updated_at": "2021-05-14T17:35:51.000Z",
+                    "files": [
+                        {
+                            "id": 8836,
+                            "file": "c43247e6-4302-42c1-a262-be26d987195c.jpeg",
+                            "name": "12f01.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-14T20:35:45.000Z",
+                            "updated_at": "2021-05-14T20:35:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c43247e6-4302-42c1-a262-be26d987195c.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8836,
+                                "alternative_id": 1299
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1300,
+                    "question_id": 316,
+                    "description": "A fisiopatologia mais aceita da doença é a que atribui como causa uma hiperativação parassimpática",
+                    "explanation": "Falso doc! A hipótese é que há uma hiperativação **SIMPÁTICA**. Se fosse parassimpática iria haver aumento do trânsito intestinal ao invés de parada!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-22T00:36:26.000Z",
+                    "updated_at": "2021-05-14T17:35:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1301,
+                    "question_id": 316,
+                    "description": "Não existe um tratamento para essa síndrome",
+                    "explanation": "Falso doc!😋 Como a fisiopatologia é uma hiperativação simpática, usa-se **NEOSTIGMIN**A (um inibidor da colinesterase), fazendo sobrar mais acetil-colina na fenda sináptica, aumentando a estimulação parassimpática e, consequentemente, aumentando o trânsito intestinal. Outra forma de tratamento é a colonoscopia descompressiva!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-22T00:36:26.000Z",
+                    "updated_at": "2021-05-14T17:35:51.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 316,
+                "questionary_id": 236694,
+                "timer": 0
+            }
+        },
+        {
+            "id": 340,
+            "institution_id": 25,
+            "description": "Homem de 49 anos com queixa de dor abdominal difusa, em cólica, de início há dois dias, acompanhada de distensão abdominal e vômitos, última evacuação há 4 dias. Nega antecedente de alteração do hábito intestinal e perda de peso. Antecedente de laparotomia devido a trauma abdominal fechado há 13 anos. Nega comorbidades. Ao exame clínico bom estado geral, desidratado 2+/4+, abdome distendido, timpânico, ruídos hidroaéreos aumentados, doloroso à palpação profunda e sem irritação peritoneal. Toque retal com fezes normais na ampola, em pequena quantidade e sem lesões tocáveis. Qual radiografia corresponderia ao quadro clínico atual?\n",
+            "difficulty": "medium",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T21:52:03.000Z",
+            "updated_at": "2022-05-09T11:57:06.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 25,
+                "title": "USP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:55:52.000Z",
+                "updated_at": "2020-05-18T19:55:52.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 42,
+                    "title": "Abdome Agudo Obstrutivo",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-22T02:19:51.000Z",
+                    "updated_at": "2021-09-22T14:46:13.000Z",
+                    "pivot": {
+                        "discipline_id": 42,
+                        "question_id": 340
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1395,
+                    "question_id": 340,
+                    "description": "A",
+                    "explanation": "Falso doc! A história de cirurgia abdominal prévia fala a favor de bridas, que é mais comum em intestino delgado, além da presença de fezes em ampola, falando ainda mais a favor de obstrução de delgado. A imagem acima mostra volvo de sigmoide com o sinal do grão de café! ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-22T18:52:04.000Z",
+                    "updated_at": "2022-05-09T11:57:06.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1396,
+                    "question_id": 340,
+                    "description": "B",
+                    "explanation": "Perfeito doc! A história de cirurgia abdominal prévia fala a favor de bridas, que é a principal causa de obstrução intestinal, além de ser mais comum em intestino delgado. Somado a isso, a presença de fezes em ampola, fala ainda mais a favor de obstrução de delgado, podendo ser representada pela imagem acima!\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-22T18:52:04.000Z",
+                    "updated_at": "2022-05-09T11:57:06.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1397,
+                    "question_id": 340,
+                    "description": "C",
+                    "explanation": "Falso doc! A história de cirurgia abdominal prévia fala a favor de bridas, que é mais comum em intestino delgado, além da presença de fezes em ampola, falando ainda mais a favor de obstrução de delgado. A imagem acima representa uma obstrução baixa ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-22T18:52:04.000Z",
+                    "updated_at": "2022-05-09T11:57:06.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1398,
+                    "question_id": 340,
+                    "description": "D",
+                    "explanation": "Falso doc! A história de cirurgia abdominal prévia fala a favor de bridas, que é mais comum em intestino delgado, além da presença de fezes em ampola, falando ainda mais a favor de obstrução de delgado. A imagem D mostra um caso de pneumoperitônio e pneumomediastino.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-22T18:52:04.000Z",
+                    "updated_at": "2022-05-09T11:57:06.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 32,
+                    "file": "1590173293595.png",
+                    "name": "A.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-05-22T21:48:14.000Z",
+                    "updated_at": "2020-05-22T21:48:14.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590173293595.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 32,
+                        "question_id": 340
+                    }
+                },
+                {
+                    "id": 34,
+                    "file": "1590173302065.png",
+                    "name": "B.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-05-22T21:48:22.000Z",
+                    "updated_at": "2020-05-22T21:48:22.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590173302065.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 34,
+                        "question_id": 340
+                    }
+                },
+                {
+                    "id": 35,
+                    "file": "1590173357518.png",
+                    "name": "C.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-05-22T21:49:17.000Z",
+                    "updated_at": "2020-05-22T21:49:17.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590173357518.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 35,
+                        "question_id": 340
+                    }
+                },
+                {
+                    "id": 36,
+                    "file": "1590173389666.png",
+                    "name": "D.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-05-22T21:49:50.000Z",
+                    "updated_at": "2020-05-22T21:49:50.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590173389666.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 36,
+                        "question_id": 340
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 340,
+                "questionary_id": 236694,
+                "timer": 0
+            }
+        },
+        {
+            "id": 343,
+            "institution_id": 5,
+            "description": "Diante de quadro de obstrução intestinal por volvo de sigmoide de recente instalação, assinale a alternativa que representa a conduta CORRETA:\n",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T22:03:35.000Z",
+            "updated_at": "2021-05-15T03:39:12.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 5,
+                "title": "AMRIGS",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T13:59:53.000Z",
+                "updated_at": "2020-05-17T13:59:53.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 42,
+                    "title": "Abdome Agudo Obstrutivo",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-22T02:19:51.000Z",
+                    "updated_at": "2021-09-22T14:46:13.000Z",
+                    "pivot": {
+                        "discipline_id": 42,
+                        "question_id": 343
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1407,
+                    "question_id": 343,
+                    "description": "Cirurgia imediata com redução do volvo e fixação do sigmoide",
+                    "explanation": "Falso doc! 😋 Na ausência de peritonite ou instabilidade hemodinâmica, não há indicação de cirurgia imediata ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-22T19:03:35.000Z",
+                    "updated_at": "2021-05-15T00:39:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1408,
+                    "question_id": 343,
+                    "description": "Cirurgia imediata com redução do volvo e colostomia em alça",
+                    "explanation": "Falso doc! 😋 Na ausência de peritonite ou instabilidade hemodinâmica, não há indicação de cirurgia imediata ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-22T19:03:35.000Z",
+                    "updated_at": "2021-05-15T00:39:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1409,
+                    "question_id": 343,
+                    "description": "Cirurgia imediata com ressecção do sigmoide à Hartmann",
+                    "explanation": "Falso doc! 😋Na ausência de peritonite ou instabilidade hemodinâmica, não há indicação de cirurgia imediata!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-22T19:03:35.000Z",
+                    "updated_at": "2021-05-15T00:39:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1410,
+                    "question_id": 343,
+                    "description": "Tratamento conservador com clister glicerinado",
+                    "explanation": "Falso doc! 😋 Clister glicerinado se usa em pacientes com fecaloma, não em volvo! Em volvo temos a indicação de redução da torção por colonoscopia ou retossigmoidoscopia!\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-22T19:03:35.000Z",
+                    "updated_at": "2021-05-15T00:39:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1411,
+                    "question_id": 343,
+                    "description": "Tentativa de redução com retossigmoidoscopia ou colonoscopia",
+                    "explanation": "Perfeito doc! 😁 É a chamada manobra de Brussgard: tentativa de redução com retossigmoidoscopia ou colonoscopia, passagem de sonda retal e somente após abordagem cirúrgica quando o doente estiver em melhores condições. Doc, você já viu um volvo de sigmoide ao rx? Se liga nisso (vide o sinal do grão de feijão característico dessa condição)👇\nFonte: http://www.rmmg.org/artigo/detalhes/72\n\n",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-05-22T19:03:35.000Z",
+                    "updated_at": "2021-05-15T00:39:12.000Z",
+                    "files": [
+                        {
+                            "id": 8841,
+                            "file": "6de053cd-2c53-497c-9507-8d60fe3dcd97.jpeg",
+                            "name": "unnamed (7).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-15T03:36:39.000Z",
+                            "updated_at": "2021-05-15T03:36:39.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/6de053cd-2c53-497c-9507-8d60fe3dcd97.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8841,
+                                "alternative_id": 1411
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 343,
+                "questionary_id": 236694,
+                "timer": 0
+            }
+        },
+        {
+            "id": 345,
+            "institution_id": 36,
+            "description": "São causas de obstrução intestinal mecânica de ordem extrínseca:",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T22:15:39.000Z",
+            "updated_at": "2021-05-15T03:46:41.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 36,
+                "title": "UFPI",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-19T16:16:10.000Z",
+                "updated_at": "2020-05-19T16:16:10.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 42,
+                    "title": "Abdome Agudo Obstrutivo",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-22T02:19:51.000Z",
+                    "updated_at": "2021-09-22T14:46:13.000Z",
+                    "pivot": {
+                        "discipline_id": 42,
+                        "question_id": 345
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1417,
+                    "question_id": 345,
+                    "description": "Bridas e aderências pós-operatórias",
+                    "explanation": "Perfeito doc!😁Quando a questão se refere a obstrução mecânica de ordem **extrínsec**a ela quer dizer que não são obstrução por conta de algo que está dentro da luz intestinal, mas algo fora da luz intestinal, que é o caso das aderências e bridas. Doc, falando nisso, você já viu uma aderência? Saca só👇\nFonte: http://jacobeparesoto.com.br/antigo/aderencias-instestinais/",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-22T19:15:39.000Z",
+                    "updated_at": "2021-05-15T00:46:41.000Z",
+                    "files": [
+                        {
+                            "id": 8842,
+                            "file": "f2ab50de-d1c6-4162-af74-71b49a6b1cf3.jpeg",
+                            "name": "unnamed (8).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-15T03:41:59.000Z",
+                            "updated_at": "2021-05-15T03:41:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f2ab50de-d1c6-4162-af74-71b49a6b1cf3.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8842,
+                                "alternative_id": 1417
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1418,
+                    "question_id": 345,
+                    "description": "Hérnias de parede abdominal e cálculo biliar",
+                    "explanation": "Falso doc! 😋 Essas são causas intrínsecas, já estão na luz intestinal obstruindo o fluxo!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-22T19:15:39.000Z",
+                    "updated_at": "2021-05-15T00:46:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1419,
+                    "question_id": 345,
+                    "description": "Tumor de cólon esquerdo e corpo estranho intraintestinal",
+                    "explanation": "Falso doc! 😋 São causas intrínsecas, já estão na luz intestinal obstruindo o fluxo!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-22T19:15:40.000Z",
+                    "updated_at": "2021-05-15T00:46:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1420,
+                    "question_id": 345,
+                    "description": "Bezoar e bolo de áscaris",
+                    "explanation": "Falso doc!😋 Bezoar e bolo de áscaris são causas intrínsecas, já estão na luz intestinal obstruindo o fluxo!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-22T19:15:40.000Z",
+                    "updated_at": "2021-05-15T00:46:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1421,
+                    "question_id": 345,
+                    "description": "Hérnia interna e estenose intestinal inflamatória",
+                    "explanation": "Falso doc! 😋 essas são causas intrínsecas, já estão na luz intestinal obstruindo o fluxo. Se liga nessa imagem doc👇\nFonte: http://jacobeparesoto.com.br/antigo/aderencias-instestinais/",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-05-22T19:15:40.000Z",
+                    "updated_at": "2021-05-15T00:46:41.000Z",
+                    "files": [
+                        {
+                            "id": 8842,
+                            "file": "f2ab50de-d1c6-4162-af74-71b49a6b1cf3.jpeg",
+                            "name": "unnamed (8).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-15T03:41:59.000Z",
+                            "updated_at": "2021-05-15T03:41:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f2ab50de-d1c6-4162-af74-71b49a6b1cf3.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8842,
+                                "alternative_id": 1421
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 345,
+                "questionary_id": 236694,
+                "timer": 0
+            }
+        },
+        {
+            "id": 338,
+            "institution_id": 4,
+            "description": "Sobre diversas causas de abdome obstrutivo, assinale a alternativa CORRETA:",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T21:44:16.000Z",
+            "updated_at": "2021-05-15T04:03:24.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 42,
+                    "title": "Abdome Agudo Obstrutivo",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-22T02:19:51.000Z",
+                    "updated_at": "2021-09-22T14:46:13.000Z",
+                    "pivot": {
+                        "discipline_id": 42,
+                        "question_id": 338
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1387,
+                    "question_id": 338,
+                    "description": "O íleo adinâmico ou paralítico tem como causas o pós operatório, drogas e distúrbios eletrolíticos",
+                    "explanation": "Perfeito doc!😁 Essas são as principais causas do íleo adinâmico. Temos que tomar cuidado pois muita gente confunde íleo paralítico com Síndrome de Oglive já que os dois podem ocorrer no pós-operatório. ÍLEO paralítico acontece no ÍLEO, e a síndrome de Oglive acontece no CÓLON, tanto é que também é chamada de pseudo-obstrução COLÔNICA!",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-22T18:44:16.000Z",
+                    "updated_at": "2021-05-15T01:03:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1388,
+                    "question_id": 338,
+                    "description": "O tratamento do íleo paralítico consiste em administração de opioides",
+                    "explanation": "Falso doc!😋 Muito pelo contrário. O uso de opioides tem que ser cessado ou diminuído frente a um quadro de íleo paralítico, já que essa medicação diminui a motilidade intestinal!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-22T18:44:16.000Z",
+                    "updated_at": "2021-05-15T01:03:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1389,
+                    "question_id": 338,
+                    "description": "Intussussepção intestinal não pode ser vista ao ultrassom",
+                    "explanation": "Falso doc! 😋Pode sim, inclusive há um sinal ultrassonográfico típico: \"Sinal do alvo ou da Casca de  Cebola\", que é o que se parece quando há uma alça invaginando para dentro da outra. Doc, se liga nessa imagem de USG mostrando esse sínal👇",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-22T18:44:16.000Z",
+                    "updated_at": "2021-05-15T01:03:24.000Z",
+                    "files": [
+                        {
+                            "id": 30,
+                            "file": "1590172965239.jpeg",
+                            "name": "24853f10.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-05-22T21:42:45.000Z",
+                            "updated_at": "2020-05-22T21:42:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590172965239.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 30,
+                                "alternative_id": 1389
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1390,
+                    "question_id": 338,
+                    "description": "O tratamento principal da intussussepção intestinal é a abordagem cirúrgica",
+                    "explanation": "Falso doc! A abordagem principal é o ENEMA AÉREO para a redução da intussussepção, que funciona em até 95% das vezes. Em caso de falha, parte-se para a abordagem cirúrgica! Doc, você sabe o que é uma intussussepção? Se liga nisso👇\nFonte: https://lapufpel.wordpress.com/2012/05/28/aderencias-intussuscepcao-e-volvulo/",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-22T18:44:16.000Z",
+                    "updated_at": "2021-05-15T01:03:24.000Z",
+                    "files": [
+                        {
+                            "id": 8843,
+                            "file": "505c7663-bbd7-4436-8383-bf0eea4fb87f.jpeg",
+                            "name": "obstruc3a7c3b5es-intestinais.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-15T03:59:58.000Z",
+                            "updated_at": "2021-05-15T03:59:58.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/505c7663-bbd7-4436-8383-bf0eea4fb87f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8843,
+                                "alternative_id": 1390
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 338,
+                "questionary_id": 236694,
+                "timer": 0
+            }
+        },
+        {
+            "id": 341,
+            "institution_id": 25,
+            "description": "Homem de 46 anos vítima de ferimento por projétil de arma de fogo, com lesão exclusiva de coluna torácica, evoluiu com défict neurológico motor e sensitivo completo em nível de T11. Tratamento cirúrgico para retirada de fragmentos ósseos do canal medular. Encontra-se no 5° pós-operatório com distensão abdominal, sem evacuar e eliminar gases desde o procedimento. Ao exame físico afebril, normotenso, eupneico, corado e hidratado. Abdome com importante distensão, timpânico, sem irritação peritoneal. Toque retal com gás na ampola e sem fezes. Exames laboratoriais: Hb 9,7g/dL; Leucócitos 11,33 mil/mm³ (sem desvio); PCR 78. RX simples de abdome apresentado. Qual o tratamento neste momento?\n\n\n",
+            "difficulty": "hard",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T22:00:59.000Z",
+            "updated_at": "2021-05-15T04:09:08.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 25,
+                "title": "USP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:55:52.000Z",
+                "updated_at": "2020-05-18T19:55:52.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 42,
+                    "title": "Abdome Agudo Obstrutivo",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-22T02:19:51.000Z",
+                    "updated_at": "2021-09-22T14:46:13.000Z",
+                    "pivot": {
+                        "discipline_id": 42,
+                        "question_id": 341
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1399,
+                    "question_id": 341,
+                    "description": "Colonoscopia",
+                    "explanation": "Perfeito doc! 😁Obstrução intestinal pós-cirúrgica, já sendo passadas mais de 72h, sendo mais provável uma torção de alça devido a cirurgia, sendo indicado colonoscopia!",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-22T19:00:59.000Z",
+                    "updated_at": "2021-05-15T01:09:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1400,
+                    "question_id": 341,
+                    "description": "Laparoscopia",
+                    "explanation": "Falso doc! 😋 Não há indicação de cirurgia por vídeo no momento!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-22T19:00:59.000Z",
+                    "updated_at": "2021-05-15T01:09:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1401,
+                    "question_id": 341,
+                    "description": "Lavagem intestinal",
+                    "explanation": "Falso doc! 😋 Obstrução intestinal pós-cirúrgica, já sendo passadas mais de 72h, sendo mais provável uma torção de alça devido a cirurgia, sendo indicado colonoscopia.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-22T19:00:59.000Z",
+                    "updated_at": "2021-05-15T01:09:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1402,
+                    "question_id": 341,
+                    "description": "Colectomia",
+                    "explanation": "Falso doc! 😋Obstrução intestinal pós-cirúrgica, já sendo passadas mais de 72h, sendo mais provável uma torção de alça devido a cirurgia, sendo indicado colonoscopia.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-22T19:00:59.000Z",
+                    "updated_at": "2021-05-15T01:09:08.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 37,
+                    "file": "1590173979225.png",
+                    "name": "abdome.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-05-22T21:59:39.000Z",
+                    "updated_at": "2020-05-22T21:59:39.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590173979225.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 37,
+                        "question_id": 341
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 341,
+                "questionary_id": 236694,
+                "timer": 0
+            }
+        },
+        {
+            "id": 344,
+            "institution_id": 5,
+            "description": "Na obstrução do cólon esquerdo por tumor, em alça fechada (válvula ileocecal competente), para evitar sofrimento vascular e perfuração no ceco, a laparotomia deve ser indicada quando o diâmetro do ceco for maior do que:\n",
+            "difficulty": "hard",
+            "year": "2013-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T22:05:38.000Z",
+            "updated_at": "2021-05-15T04:16:35.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 5,
+                "title": "AMRIGS",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T13:59:53.000Z",
+                "updated_at": "2020-05-17T13:59:53.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 42,
+                    "title": "Abdome Agudo Obstrutivo",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-22T02:19:51.000Z",
+                    "updated_at": "2021-09-22T14:46:13.000Z",
+                    "pivot": {
+                        "discipline_id": 42,
+                        "question_id": 344
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1412,
+                    "question_id": 344,
+                    "description": "5 cm",
+                    "explanation": "Falso doc! 😋É a partir de 10cm que temos um risco maior de perfuração!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-22T19:05:39.000Z",
+                    "updated_at": "2021-05-15T01:16:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1413,
+                    "question_id": 344,
+                    "description": "10 cm",
+                    "explanation": "Perfeito doc! 😁É a partir de 10cm que temos um risco maior de perfuração. Lembre da válvula ileocecal competente, que é aquela que não deixa o ar voltar para o íleo. E esse fato de ela ser competente é perigoso, pois acumula pressão no ceco, com risco de perfuração! Doc, se liga nessa imagem esquematizando a válvula ileocecal competente e a incompetente👇\nFonte: [https://www.slideshare.net/CsarPabloRamrezPlaza/obstruccin-intestinal-como-emergencia-quirrgica](https://www.slideshare.net/CsarPabloRamrezPlaza/obstruccin-intestinal-como-emergencia-quirrgica)",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-22T19:05:39.000Z",
+                    "updated_at": "2021-05-15T01:16:35.000Z",
+                    "files": [
+                        {
+                            "id": 8844,
+                            "file": "34e0b9a5-3d66-470d-89b6-0c0e559c74b5.jpeg",
+                            "name": "obstruccin-intestinal-como-emergencia-quirrgica-33-638.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-15T04:12:32.000Z",
+                            "updated_at": "2021-05-15T04:12:32.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/34e0b9a5-3d66-470d-89b6-0c0e559c74b5.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8844,
+                                "alternative_id": 1413
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1414,
+                    "question_id": 344,
+                    "description": "8 cm",
+                    "explanation": "Falso doc! 😋 É a partir de 10cm que temos um risco maior de perfuração.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-22T19:05:39.000Z",
+                    "updated_at": "2021-05-15T01:16:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1415,
+                    "question_id": 344,
+                    "description": "3 cm",
+                    "explanation": "É a partir de 10cm que temos um risco maior de perfuração.\n ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-22T19:05:39.000Z",
+                    "updated_at": "2021-05-15T01:16:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1416,
+                    "question_id": 344,
+                    "description": "7 cm",
+                    "explanation": "Falso doc! 😋 É a partir de 10cm que temos um risco maior de perfuração.\n",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-05-22T19:05:39.000Z",
+                    "updated_at": "2021-05-15T01:16:35.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 344,
+                "questionary_id": 236694,
+                "timer": 0
+            }
+        },
+        {
+            "id": 356,
+            "institution_id": 4,
+            "description": "Sobre algumas causas de abdome agudo obstrutivo, assinale a alternativa CORRETA:",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-23T02:24:34.000Z",
+            "updated_at": "2021-05-15T04:19:15.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 42,
+                    "title": "Abdome Agudo Obstrutivo",
+                    "description": null,
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-05-22T02:19:51.000Z",
+                    "updated_at": "2021-09-22T14:46:13.000Z",
+                    "pivot": {
+                        "discipline_id": 42,
+                        "question_id": 356
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1463,
+                    "question_id": 356,
+                    "description": "A síndrome da artéria mesentérica superior ocorre pela compressão da 3ª porção do duodeno",
+                    "explanation": "Perfeito doc! Mandou muito bem!😁Essa síndrome ocorre pela compressão da 3ª porção do duodeno pela artéria mesentérica superior contra a parede anterior da aorta! Doc, se liga nessa imagem esquematizando isso👇",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-22T23:24:34.000Z",
+                    "updated_at": "2021-05-15T01:19:15.000Z",
+                    "files": [
+                        {
+                            "id": 47,
+                            "file": "1590189671700.jpeg",
+                            "name": "unnamed.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-05-23T02:21:12.000Z",
+                            "updated_at": "2020-05-23T02:21:12.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590189671700.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 47,
+                                "alternative_id": 1463
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1464,
+                    "question_id": 356,
+                    "description": "A síndrome da artéria mesentérica superior ocorre pela compressão do duodeno pela artéria mesentérica superior e tronco celíaco",
+                    "explanation": "Falso doc! 😋A síndrome da artéria mesentérica superior ocorre pela compressão do duodeno pela artéria mesentérica superior e a **AORTA**!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-22T23:24:34.000Z",
+                    "updated_at": "2021-05-15T01:19:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1465,
+                    "question_id": 356,
+                    "description": "O Sinal de gersuny sugere obstrução por bridas",
+                    "explanation": "Falso doc! 😋O Sinal de gersuny sugere obstrução por fecaloma. É uma crepitação à descompressão!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-22T23:24:34.000Z",
+                    "updated_at": "2021-05-15T01:19:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1466,
+                    "question_id": 356,
+                    "description": "Um dos sinais semiológicos sugestivos de fecaloma é a crepitação ao descomprimir o abdome, chamado de Sinal de Fritz",
+                    "explanation": "Falso doc! 😋Esse é o sinal de Gersuny, sugestivo de fecaloma!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-22T23:24:34.000Z",
+                    "updated_at": "2021-05-15T01:19:15.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 356,
+                "questionary_id": 236694,
+                "timer": 0
+            }
+        }
+    ]
+}

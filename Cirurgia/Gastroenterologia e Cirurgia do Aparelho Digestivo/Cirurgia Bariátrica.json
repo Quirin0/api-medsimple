@@ -1,0 +1,1623 @@
+{
+    "id": 237555,
+    "user_id": 1699,
+    "title": "Cirurgia Bariátrica",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-06-15T02:46:10.000Z",
+    "updated_at": "2022-06-15T02:46:10.000Z",
+    "study_plan_id": 1253,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 1194,
+            "institution_id": 4,
+            "description": "São indicações para cirurgia bariátrica, **exceto:**",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-04T19:49:47.000Z",
+            "updated_at": "2022-04-19T14:27:54.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 143,
+                    "title": "Obesidade",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2020-06-04T16:20:06.000Z",
+                    "updated_at": "2020-06-04T16:20:06.000Z",
+                    "pivot": {
+                        "discipline_id": 143,
+                        "question_id": 1194
+                    }
+                },
+                {
+                    "id": 1172,
+                    "title": "Cirurgia Bariátrica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T14:27:41.000Z",
+                    "updated_at": "2022-04-19T14:27:41.000Z",
+                    "pivot": {
+                        "discipline_id": 1172,
+                        "question_id": 1194
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4902,
+                    "question_id": 1194,
+                    "description": "IMC ≥ 40 kg/m2",
+                    "explanation": "É uma das indicações de cirurgia bariátrica para pacientes com mais de **18 anos de idade.**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-04T16:49:47.000Z",
+                    "updated_at": "2022-04-19T14:27:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4903,
+                    "question_id": 1194,
+                    "description": "Falha no tratamento clínico após dois anos",
+                    "explanation": "Perfeito. Caso o paciente tenha tentado o tratamento clínico(dieta+exercício+medicação) por pelo menos **dois anos, indica-se a cirurgia.**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-04T16:49:47.000Z",
+                    "updated_at": "2022-04-19T14:27:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4904,
+                    "question_id": 1194,
+                    "description": " IMC ≥ 35 kg/m2 + estigmatização social",
+                    "explanation": "Perfeito e importante. A estigmatização social e depressão entraram recentemente nos critérios para indicação de cirurgia bariátriaca. Outros critérios são: HAS, dislipidemia, osteoartrose, diabetes mellitus, disfunção erétril, etc. Ao total são 21 comorbidades.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-04T16:49:47.000Z",
+                    "updated_at": "2022-04-19T14:27:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4905,
+                    "question_id": 1194,
+                    "description": " IMC ≥ 30 kg/m2  + Diabetes mellitus.",
+                    "explanation": "Em relação ao IMC, podemos ter a indicação de cirurgia com o **IMC ≥ 40 kg/m2** ou indicação quando **IMC ≥ 35 kg/m2 associado a uma das comorbidades** da resolução CFM 2.131/2015(diabetes, HAS, osteoartrose, doenças cardiovasculares, etc).",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-04T16:49:47.000Z",
+                    "updated_at": "2022-04-19T14:27:54.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1194,
+                "questionary_id": 237555,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13753,
+            "institution_id": 667,
+            "description": "Uma **CONTRAINDICAÇÃO** para a cirurgia de obesidade morbida é:",
+            "difficulty": "easy",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-22T18:55:39.000Z",
+            "updated_at": "2022-04-22T18:55:39.000Z",
+            "user_id": 5227,
+            "is_residency": true,
+            "institution": {
+                "id": 667,
+                "title": "SUS - RJ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2022-04-22T18:55:39.000Z",
+                "updated_at": "2022-04-22T18:55:39.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1172,
+                    "title": "Cirurgia Bariátrica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T14:27:41.000Z",
+                    "updated_at": "2022-04-19T14:27:41.000Z",
+                    "pivot": {
+                        "discipline_id": 1172,
+                        "question_id": 13753
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 56364,
+                    "question_id": 13753,
+                    "description": "IMC = 35kg/m², associado a diabetes mellitus e hipertensão arterial de difícil controle.",
+                    "explanation": "Falso, Doc! 🥵\n\nA **Obesidade Grau II com comorbidade de DM e HAS é indicada**.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-04-22T18:55:39.000Z",
+                    "updated_at": "2022-04-22T18:55:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56365,
+                    "question_id": 13753,
+                    "description": "Esteatose hepática não associada a cirrose ou hipertensão portal.",
+                    "explanation": "Falso, Doc! 🥵\n\nA **esteatose hepática e hipertensão portal não contraindica a cirurgia bariátrica**. Além disso, pacientes obesos normalmente irão apresentar esteatose hepática. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-04-22T18:55:39.000Z",
+                    "updated_at": "2022-04-22T18:55:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56366,
+                    "question_id": 13753,
+                    "description": "Incapacidade para deambular.",
+                    "explanation": "Isso aí, Doc! 🤓\n\nA **incapacidade de deambular é um contraindicação pelo risco de TVP e TEP no paciente**. Para a realização da cirurgia bariátrica em pacientes incapazes de andar é necessário que seja feito uma intervenção prévia que possibilite a deambulação.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2022-04-22T18:55:39.000Z",
+                    "updated_at": "2022-04-22T18:55:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56367,
+                    "question_id": 13753,
+                    "description": "Peso de 200kg aos 55 anos.",
+                    "explanation": "Falso, Doc! 🥵\n\n**Um peso específico ou uma idade não impossibilitam a realização da cirurgia**. As variáveis consideradas são:\n- IMC;\n- Comorbidades.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-22T18:55:39.000Z",
+                    "updated_at": "2022-04-22T18:55:39.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13753,
+                "questionary_id": 237555,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13754,
+            "institution_id": 667,
+            "description": "Assinale a **CORRETA**. A cirurgia bariátrica com banda gástrica ajustável:",
+            "difficulty": "easy",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-22T19:05:37.000Z",
+            "updated_at": "2022-04-22T19:05:37.000Z",
+            "user_id": 5227,
+            "is_residency": true,
+            "institution": {
+                "id": 667,
+                "title": "SUS - RJ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2022-04-22T18:55:39.000Z",
+                "updated_at": "2022-04-22T18:55:39.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1172,
+                    "title": "Cirurgia Bariátrica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T14:27:41.000Z",
+                    "updated_at": "2022-04-19T14:27:41.000Z",
+                    "pivot": {
+                        "discipline_id": 1172,
+                        "question_id": 13754
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 56368,
+                    "question_id": 13754,
+                    "description": "Tem excelentes resultados em relação à peso no longo prazo.",
+                    "explanation": "Falso, Doc! 😖\n\nA cirurgia com banda gástrica gera uma **perda de peso razoável** e a longo prazo **pode haver reganho**.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-04-22T19:05:37.000Z",
+                    "updated_at": "2022-04-22T19:05:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56369,
+                    "question_id": 13754,
+                    "description": "Está associada a ganho de peso no longo prazo.",
+                    "explanation": "Arrasou, Doc!! 🥰\n\nEssa é uma das características da cirurgia bariátrica com banda gástrica. ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-04-22T19:05:37.000Z",
+                    "updated_at": "2022-04-22T19:05:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56370,
+                    "question_id": 13754,
+                    "description": "Leva à perda de peso por disabsorção.",
+                    "explanation": "Falso, Doc! 😖\n\nA perda de peso da cirurgia barátrica com banda gástrica é apenas **restritiva**. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-22T19:05:37.000Z",
+                    "updated_at": "2022-04-22T19:05:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56371,
+                    "question_id": 13754,
+                    "description": "É um procedimento demorado.",
+                    "explanation": "Falso, Doc! 😖\n\nA cirurgia bariátrica com banda gástrica **é rápida e simples**, realizada através de videolapasroscopia. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-22T19:05:37.000Z",
+                    "updated_at": "2022-04-22T19:05:37.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13754,
+                "questionary_id": 237555,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13756,
+            "institution_id": 4,
+            "description": "Qual dos seguintes pacientes abaixo **NÃO TEM INDICAÇÃO** de cirurgia bariátrica?",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-22T19:38:25.000Z",
+            "updated_at": "2022-04-22T19:38:25.000Z",
+            "user_id": 5227,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1172,
+                    "title": "Cirurgia Bariátrica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T14:27:41.000Z",
+                    "updated_at": "2022-04-19T14:27:41.000Z",
+                    "pivot": {
+                        "discipline_id": 1172,
+                        "question_id": 13756
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 56376,
+                    "question_id": 13756,
+                    "description": "IMC 40 kg/m² sem comorbidades.",
+                    "explanation": "Falso, Doc!! 👀\n\nO IMC de 40 kg/m² caracteriza Obesidade Grau III, ou seja, o paciente não precisa apresentar comorbidades para realizar a cirurgia bariátrica.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-04-22T19:38:25.000Z",
+                    "updated_at": "2022-04-22T19:38:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56377,
+                    "question_id": 13756,
+                    "description": "IMC 32 kg/m² com HAS.",
+                    "explanation": "Arrasou, Doc!! 🤓\n\nA **Obesidade Grau I com HAS NÃO É INDICAÇÃO de cirurgia bariátrica.** A única comorbidade que se encaixaria para a indicação, nesse caso, seria DM tipo 2 descompensada. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-04-22T19:38:25.000Z",
+                    "updated_at": "2022-04-22T19:38:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56378,
+                    "question_id": 13756,
+                    "description": "IMC 37 kg/m² com disfunção erétil.",
+                    "explanation": "Falso, Doc!! 👀\n\n**A Obesidade Grau II com disfunção erétil encaixa-se na indicação de cirurgia bariátrica** presentes na resolução do CFM Nº 2.131/2015.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-22T19:38:25.000Z",
+                    "updated_at": "2022-04-22T19:38:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56379,
+                    "question_id": 13756,
+                    "description": "IMC 34 kg/m² com DM tipo 2 descompensada.",
+                    "explanation": "Falso, Doc!! 👀\n\n**A Obesidade Grau I com DM tipo 2 descompensada é indicação para cirurgia bariátrica!!** Nesse caso, chama-se de cirurgia metabólica. Mas não podemos esquecer que o paciente deve ter mais de 30 anos.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-22T19:38:25.000Z",
+                    "updated_at": "2022-04-22T19:38:25.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13756,
+                "questionary_id": 237555,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13770,
+            "institution_id": 4,
+            "description": "A realização da cirurgia bariátrica demanda algumas restrições. Qual das alternativas abaixo está **INCORRETA** e não é um impedimento da operação?",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-25T18:30:53.000Z",
+            "updated_at": "2022-04-25T18:30:53.000Z",
+            "user_id": 5227,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1172,
+                    "title": "Cirurgia Bariátrica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T14:27:41.000Z",
+                    "updated_at": "2022-04-19T14:27:41.000Z",
+                    "pivot": {
+                        "discipline_id": 1172,
+                        "question_id": 13770
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 56432,
+                    "question_id": 13770,
+                    "description": "Menores de 18 anos.",
+                    "explanation": "Arrasou, Doc!! 🎉\n\nNa verdade, **maiores de 16 anos podem fazer a cirurgia,** contanto que tenham autorização do seu responsável e seja demonstrada a real necessidade.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-04-25T18:30:53.000Z",
+                    "updated_at": "2022-04-25T18:30:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56433,
+                    "question_id": 13770,
+                    "description": "Distúrbios Psiquiátricos.",
+                    "explanation": "Falso, Doc!! 😬\n\nPacientes com **Distúrbios Psiquiátricos tendem a apresentar maiores complicações no pós-operatório**. Assim, são obstáculos para a realização da cirurgia.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-04-25T18:30:53.000Z",
+                    "updated_at": "2022-04-25T18:30:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56434,
+                    "question_id": 13770,
+                    "description": "Realização de terapia clínica.",
+                    "explanation": "Falso, Doc!! 😬\n\nNa verdade, **a realização de terapia clínica é uma REGRA para a realização da cirurgia bariátrica**. Pacientes só são operados se apresentarem atestados de 2 anos de tentativas de emagrecimento por esse método.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-25T18:30:53.000Z",
+                    "updated_at": "2022-04-25T18:30:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56435,
+                    "question_id": 13770,
+                    "description": "Alcoolismo.",
+                    "explanation": "Falso, Doc!! 😬\n\nPacientes **Alcoolistas tendem a apresentar maiores complicações no pós-operatório**. Assim, são obstáculos para a realização da cirurgia.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-25T18:30:53.000Z",
+                    "updated_at": "2022-04-25T18:30:53.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13770,
+                "questionary_id": 237555,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13771,
+            "institution_id": 4,
+            "description": "Qual o nome **CORRETO**, da técnica operatória demonstrada na imagem?\n\nReferência da Imagem: https://blog.clinicaconcon.com.br/",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-25T18:47:11.000Z",
+            "updated_at": "2022-04-25T18:47:11.000Z",
+            "user_id": 5227,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1172,
+                    "title": "Cirurgia Bariátrica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T14:27:41.000Z",
+                    "updated_at": "2022-04-19T14:27:41.000Z",
+                    "pivot": {
+                        "discipline_id": 1172,
+                        "question_id": 13771
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 56436,
+                    "question_id": 13771,
+                    "description": "BGYR.",
+                    "explanation": "Falso, Doc!! 🤨\n\nNa técnica de BGYR não ocorre Gastrectomia Vertical. Além disso, no BGYR ocorre alteração morfológica do intestino, diferentemente da imagem. \n\nObserve a imagem.\n\nReferência da Imagem: https://www.bariatrica.com.br/gastroplastia+em+y+de+roux+by+pass+gastrico+capella.aspx\n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-04-25T18:47:11.000Z",
+                    "updated_at": "2022-04-25T18:47:11.000Z",
+                    "files": [
+                        {
+                            "id": 36198,
+                            "file": "2c5208bf-4531-40f1-a452-0783293c371e.jpeg",
+                            "name": "TEXTO1.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-04-25T18:46:52.000Z",
+                            "updated_at": "2022-04-25T18:46:52.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2c5208bf-4531-40f1-a452-0783293c371e.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 36198,
+                                "alternative_id": 56436
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 56437,
+                    "question_id": 13771,
+                    "description": "Sleeve.",
+                    "explanation": "Arrasou, Doc!! 😁\n\nA técnica demonstrada na imagem é a de Sleeve, onde **ocorre unicamente a Gastrectomia Vertical**.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-04-25T18:47:11.000Z",
+                    "updated_at": "2022-04-25T18:47:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56438,
+                    "question_id": 13771,
+                    "description": "Banda Gástrica. ",
+                    "explanation": "Falso, Doc!! 🤨\n\nNesse técnica, **não são realizados alterações morfológicas nos órgãos**. Apenas ocorre a colocação de uma banda de silicone ajustável.\n\nObserve a imagem.\n\nReferência da Imagem: https://www.bariatrica.com.br/banda+gastrica+ajustavel.aspx\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-25T18:47:11.000Z",
+                    "updated_at": "2022-04-25T18:47:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56439,
+                    "question_id": 13771,
+                    "description": "Switch Duodenal.",
+                    "explanation": "Falso, Doc!! 🤨\n\nNa técnica de Switch Duodenal, além da **Gastrectomia Vertical, também ocorre derivação bílio-pancreática**. \n\nObserve a imagem ao lado.\n\nReferência da Imagem: https://www.bariatrica.com.br/duodenal+switch.aspx",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-25T18:47:11.000Z",
+                    "updated_at": "2022-04-25T18:47:11.000Z",
+                    "files": [
+                        {
+                            "id": 36197,
+                            "file": "f413926e-fc96-4a0e-8c59-5b73eb1e5c1b.jpeg",
+                            "name": "TEXTO5.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-04-25T18:39:24.000Z",
+                            "updated_at": "2022-04-25T18:39:24.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f413926e-fc96-4a0e-8c59-5b73eb1e5c1b.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 36197,
+                                "alternative_id": 56439
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 36196,
+                    "file": "6b0bf770-362d-46f7-a683-5aced526c348.jpeg",
+                    "name": "Cirurgia Bariátrica 1.",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2022-04-25T18:35:24.000Z",
+                    "updated_at": "2022-04-25T18:35:40.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/6b0bf770-362d-46f7-a683-5aced526c348.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 36196,
+                        "question_id": 13771
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 13771,
+                "questionary_id": 237555,
+                "timer": 0
+            }
+        },
+        {
+            "id": 16,
+            "institution_id": 8,
+            "description": "Izabel, 50 anos, com histórico prévio de cirurgia bariátrica (restritiva-disabsortiva) há 10 anos, sem seguimento regular. Encaminhada ao Pronto-Socorro do Hospital Cajuru por anemia, com Hb de 6,5 g por dL e volume corpuscular médio de 120 fL. Além disso apresentava diminuição da série branca (2500 leucócitos por mm3 ) e das plaquetas (45.000 por  mm3 ). Sorologias realizadas na admissão, incluindo pesquisa de HIV, negativas. Quadro recente relatado pelos familiares de piora cognitiva progressiva e desequilíbrio. Recebeu diagnóstico de Demência de Alzheimer há cerca de duas semanas, após avaliação em Unidade de Emergência, tendo iniciado Memantina, com pouca resposta.  Das deficiências a seguir, a que melhor explica as alterações clínicas encontradas nessa paciente é a deficiência de: \n",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T17:14:54.000Z",
+            "updated_at": "2022-04-19T14:27:45.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 8,
+                "title": "PUC-PR",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T14:14:54.000Z",
+                "updated_at": "2020-05-17T14:14:54.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 16
+                    }
+                },
+                {
+                    "id": 5,
+                    "title": "Anemias(introdução)",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:39:52.000Z",
+                    "updated_at": "2020-05-16T23:39:52.000Z",
+                    "pivot": {
+                        "discipline_id": 5,
+                        "question_id": 16
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 16
+                    }
+                },
+                {
+                    "id": 1172,
+                    "title": "Cirurgia Bariátrica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T14:27:41.000Z",
+                    "updated_at": "2022-04-19T14:27:41.000Z",
+                    "pivot": {
+                        "discipline_id": 1172,
+                        "question_id": 16
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 61,
+                    "question_id": 16,
+                    "description": "Ferro ",
+                    "explanation": " A questão nos mostra uma anemia com volume corpuscular médio alto(>100 fL). A anemia causada por deficiência de ferro, classicamente, cursa com hemácias pequenas(microcíticas).\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-17T17:14:54.000Z",
+                    "updated_at": "2022-04-19T14:27:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 62,
+                    "question_id": 16,
+                    "description": "zinco ",
+                    "explanation": "O zinco é importante para o turn-over celular de células epiteliais, todavia, não apresenta grande relevância para o raciocínio das anemias.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-17T17:14:54.000Z",
+                    "updated_at": "2022-04-19T14:27:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 63,
+                    "question_id": 16,
+                    "description": "piridoxina ",
+                    "explanation": "A vitamina B6 participa de processos enzimáticos intracelulares, todavia, não apresenta grande relevância para o raciocínio das anemias.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T17:14:54.000Z",
+                    "updated_at": "2022-04-19T14:27:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 64,
+                    "question_id": 16,
+                    "description": "vitamina D ",
+                    "explanation": "A vitamina D participa de processos enzimáticos intracelulares e na homeostase sérica de cálcio todavia, não apresenta grande relevância para o raciocínio das anemias.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:14:54.000Z",
+                    "updated_at": "2022-04-19T14:27:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 65,
+                    "question_id": 16,
+                    "description": "vitamina B12",
+                    "explanation": "A questão nos mostra uma anemia com volume corpuscular médio alto(>100).  O diagnóstico de deficiência de vitamina B12 é sugerido pelo histórico de cirurgia bariátrica, já que o fator intrínseco, necessário para a absorção desta vitamina, é produzido pelas células parietais(células localizadas no estômago).",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-05-17T14:14:54.000Z",
+                    "updated_at": "2022-04-19T14:27:45.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 16,
+                "questionary_id": 237555,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1195,
+            "institution_id": 4,
+            "description": "Sobre os procedimentos bariátricos, assinale a **incorreta:**",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-04T20:23:49.000Z",
+            "updated_at": "2022-04-19T14:28:05.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 143,
+                    "title": "Obesidade",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2020-06-04T16:20:06.000Z",
+                    "updated_at": "2020-06-04T16:20:06.000Z",
+                    "pivot": {
+                        "discipline_id": 143,
+                        "question_id": 1195
+                    }
+                },
+                {
+                    "id": 1172,
+                    "title": "Cirurgia Bariátrica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T14:27:41.000Z",
+                    "updated_at": "2022-04-19T14:27:41.000Z",
+                    "pivot": {
+                        "discipline_id": 1172,
+                        "question_id": 1195
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4906,
+                    "question_id": 1195,
+                    "description": "A banda gástrica ajustável é um procedimento puramente restritivo",
+                    "explanation": "Coloca-se uma **banda de silicone** no estômago superior. A constrição dessa banda pode ser ajustada por um aparelho que fica no subcutâneo.\n\n\nFonte:PennMedicine",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-04T17:23:49.000Z",
+                    "updated_at": "2022-04-19T14:28:05.000Z",
+                    "files": [
+                        {
+                            "id": 307,
+                            "file": "1591289581225.jpeg",
+                            "name": "adjustable_gastric_band_diagram.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-04T19:53:02.000Z",
+                            "updated_at": "2020-06-04T19:53:02.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591289581225.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 307,
+                                "alternative_id": 4906
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4907,
+                    "question_id": 1195,
+                    "description": "O by-pass gástrico em y de Roux é um procedimento restritivo e disabsortivo (misto)",
+                    "explanation": "Perfeito. É a cirurgia de maior eficácia para a perda de peso.\n\nFonte: Perth Bariatric Surgery",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-04T17:23:49.000Z",
+                    "updated_at": "2022-04-19T14:28:05.000Z",
+                    "files": [
+                        {
+                            "id": 308,
+                            "file": "1591289747854.jpeg",
+                            "name": "roux-en-y-gastric-bypass-obesity-surgery-best-perth-weight-loss-surgeon-1-1.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-04T19:55:48.000Z",
+                            "updated_at": "2020-06-04T19:55:48.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591289747854.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 308,
+                                "alternative_id": 4907
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4908,
+                    "question_id": 1195,
+                    "description": "A principal causa de obstrução intestinal aguda nos pacientes com by-pass gástrico é a formação de bridas intestinais",
+                    "explanation": "Falso! Questão difícil, Doc. A principal causa de obstrução é a chamada hérnia de Petersen. É uma hérnia interna que envolve a **subida da alça jejunal até o remanescente gástrico(acontece por uma falha no meso)**\n\nFonte: David D. Kerrigan et al",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-04T17:23:49.000Z",
+                    "updated_at": "2022-04-19T14:28:05.000Z",
+                    "files": [
+                        {
+                            "id": 309,
+                            "file": "1591290377651.png",
+                            "name": "2-Figure1-1 (1).png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-06-04T20:06:18.000Z",
+                            "updated_at": "2020-06-04T20:06:18.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591290377651.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 309,
+                                "alternative_id": 4908
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4909,
+                    "question_id": 1195,
+                    "description": "A Gastrectomia em manga(sleeve) é puramente restritiva",
+                    "explanation": "Consiste na retirada da **grande curvatura gástrica**. É uma técnica muito ultilizada no Brasil. O grande efeito colateral da cirurgia é a presença de doença do refluxo gastroesofágico, no pós-operatorio, devido ao menor volume gástrico.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-04T17:23:49.000Z",
+                    "updated_at": "2022-04-19T14:28:05.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1195,
+                "questionary_id": 237555,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13751,
+            "institution_id": 647,
+            "description": "Mulher de 47 anos de idade realiza acompanhamento no Ambulatório Médico de Especialidade devido a diabete e hipertensão arterial. Apresenta refluxo gastresofágico e foi submetida a endoscopia digestiva alta há 1 mês que revelou esofagite grau C de Los Angeles. Está em uso de omeprazol 40mg por dia há 6 meses, mas com persistência de pirose pós prandial, principalmente quando em decúbito horizontal. Exame clínico: bom estado geral, IMC: 36 kg/m², abdome indolor à palpação, sem outras alterações. Qual é a melhor opção operatória para o tratamento do refluxo gastro-esofágico desta paciente?",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-22T18:27:29.000Z",
+            "updated_at": "2022-04-22T18:27:37.000Z",
+            "user_id": 5227,
+            "is_residency": true,
+            "institution": {
+                "id": 647,
+                "title": "USP-SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2022-03-24T20:12:41.000Z",
+                "updated_at": "2022-03-24T20:12:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1172,
+                    "title": "Cirurgia Bariátrica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T14:27:41.000Z",
+                    "updated_at": "2022-04-19T14:27:41.000Z",
+                    "pivot": {
+                        "discipline_id": 1172,
+                        "question_id": 13751
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 56356,
+                    "question_id": 13751,
+                    "description": "Gastrectomia vertical (sleeve gástrico).",
+                    "explanation": "Falso. Doc! 🥴\n\nO Sleeve gástrico é um ótimo tratamento para a obesidade da paciente, no entanto, **essa cirurgia causa aumento do refluxo gastroesofágico** devido ao aumento da pressão pela manutenção do piloro, gerado pela Gastrectomia vertical.\n\n\n\n\nReferência da Imagem: https://rsaude.com.br/campo-mourao/materia/cirurgia-da-obesidade-sleeve-gastrico/9555",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-04-22T18:27:29.000Z",
+                    "updated_at": "2022-04-22T18:27:37.000Z",
+                    "files": [
+                        {
+                            "id": 35885,
+                            "file": "7310e4d1-9e72-4c2f-a2ad-02ef021f0945.jpeg",
+                            "name": "cirurgia-da-obesidade-sleeve-gastrico-23032016093255.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-04-22T18:13:24.000Z",
+                            "updated_at": "2022-04-22T18:13:24.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7310e4d1-9e72-4c2f-a2ad-02ef021f0945.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 35885,
+                                "alternative_id": 56356
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 56357,
+                    "question_id": 13751,
+                    "description": "Gastroplastia com derivação em Y-de-Roux (Bypass gástrico).",
+                    "explanation": "Arrasou, Doc!! 🤓\n\nO **Bypass gástrico é uma ótima opção para tratar o refluxo gastroesofágico** e, também, a obesidade grau II com comorbidade da paciente.\n\nReferência da Imagem: https://www.sallet.com.br/gastroplastia-com-derivacao-intestinal-ou-bypass-gastrico-ou-capella/",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-04-22T18:27:29.000Z",
+                    "updated_at": "2022-04-22T18:27:37.000Z",
+                    "files": [
+                        {
+                            "id": 35886,
+                            "file": "600c5638-0aa6-488f-b4af-ec95dd070ca4.png",
+                            "name": "bypassPag.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-04-22T18:17:46.000Z",
+                            "updated_at": "2022-04-22T18:17:46.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/600c5638-0aa6-488f-b4af-ec95dd070ca4.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 35886,
+                                "alternative_id": 56357
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 56358,
+                    "question_id": 13751,
+                    "description": "Hiatoplastia com fundoplicatura total.",
+                    "explanation": "Falso. Doc! 🥴\n\nAs cirurgias para, unicamente, **tratamento de refluxo gastroesofágico não funcionam para paciente obesos.** É preciso que seja feito um Bypass Gástrico, para tratar o refluxo e a obesidade.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-22T18:27:29.000Z",
+                    "updated_at": "2022-04-22T18:27:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56359,
+                    "question_id": 13751,
+                    "description": "Hiatoplástia com fundoplicatura parcial.",
+                    "explanation": "Falso. Doc! 🥴\n\nAs cirurgias para, unicamente, **tratamento de refluxo gastroesofágico não funcionam para paciente obesos.** É preciso que seja feito um Bypass Gástrico, para tratar o refluxo e a obesidade.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-22T18:27:29.000Z",
+                    "updated_at": "2022-04-22T18:27:37.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13751,
+                "questionary_id": 237555,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13752,
+            "institution_id": 237,
+            "description": "Sobre as indicações de cirurgia bariátrica e metabólica, podemos afirmar que ela **NÃO é indicada para**:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-22T18:39:20.000Z",
+            "updated_at": "2022-04-22T18:39:20.000Z",
+            "user_id": 5227,
+            "is_residency": true,
+            "institution": {
+                "id": 237,
+                "title": "FACULDADE DE MEDICINA DO ABC – SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-02-14T16:24:33.000Z",
+                "updated_at": "2021-02-14T16:24:33.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1172,
+                    "title": "Cirurgia Bariátrica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T14:27:41.000Z",
+                    "updated_at": "2022-04-19T14:27:41.000Z",
+                    "pivot": {
+                        "discipline_id": 1172,
+                        "question_id": 13752
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 56360,
+                    "question_id": 13752,
+                    "description": "Paciente com IMC = 42 kg/m² e história clínica de adicção a drogas ilícitas não controladas.",
+                    "explanation": "Arrasou, Doc! 🎉\n\nA cirurgia bariátrica **não é recomendada** para os seguintes paciente:\n- Com uso não controlado de drogas e etílicos;\n- Com distúrbios psiquiátricos;\n- Que não compreenderam a proposta da cirurgia.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-04-22T18:39:20.000Z",
+                    "updated_at": "2022-04-22T18:39:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56361,
+                    "question_id": 13752,
+                    "description": "Paciente com IMC = 33 kg/m² diagnosticado com diabetes tipo 2 há 8 anos, de difícil controle, mesmo com tratamento clínico e medicamentoso otimizado.",
+                    "explanation": "Falso, Doc! 😵‍💫\n\nMesmo que paciente tenha apenas Obesidade Grau I, devido a gravidade da DM tipo 2 e seu descontrole observado pelo endocrinologista a cirurgia bariátrica pode ser feita. **Nesse caso, chama-se de Cirurgia Metabólica.**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-04-22T18:39:20.000Z",
+                    "updated_at": "2022-04-22T18:39:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56362,
+                    "question_id": 13752,
+                    "description": "Paciente com IMC = 42 kg/m² sem doenças associadas.",
+                    "explanation": "Falso, Doc! 😵‍💫\n\nEsse paciente já tem **Obesidade Grau III e, portanto, a cirurgia bariátrica é indicada sem restrições de comorbidades**.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-22T18:39:20.000Z",
+                    "updated_at": "2022-04-22T18:39:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56363,
+                    "question_id": 13752,
+                    "description": "Paciente com IMC = 36 kg/m² com hipertensão arterial sistêmica e dislipidemia, controlados com medicação.",
+                    "explanation": "Falso, Doc! 😵‍💫\n\nA **Obesidade Grau II tem indicação de cirurgia bariátrica de acordo com a comorbidade apresentada pelo paciente** e sua ligação de piora com a doença. Desse modo, HAS e dislipidemia são comorbidades que se encaixam nos protocolos de realização da cirurgia.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-22T18:39:20.000Z",
+                    "updated_at": "2022-04-22T18:39:20.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13752,
+                "questionary_id": 237555,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13755,
+            "institution_id": 641,
+            "description": "Um dos procedimentos cirúrgicos para o tratamento da obesidade mórbida é a gastrectomia vertical \"em manga\" ou sleeve. Além do efeito restritivo, a retirada do fundo gástrico também ocasiona efeito anorexígeno, ocasionado pela diminuição de um hormônio, produzido especialmente nessa região gástrica. **Qual é esse hormônio?**",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-22T19:24:45.000Z",
+            "updated_at": "2022-04-22T19:24:45.000Z",
+            "user_id": 5227,
+            "is_residency": true,
+            "institution": {
+                "id": 641,
+                "title": "HOSPITAL DA CRUZ VERMELHA DO PARANÁ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2022-03-02T23:04:41.000Z",
+                "updated_at": "2022-03-02T23:04:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1172,
+                    "title": "Cirurgia Bariátrica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T14:27:41.000Z",
+                    "updated_at": "2022-04-19T14:27:41.000Z",
+                    "pivot": {
+                        "discipline_id": 1172,
+                        "question_id": 13755
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 56372,
+                    "question_id": 13755,
+                    "description": "Peptídeo PYY. ",
+                    "explanation": "Falso, Doc! 😵‍💫\n\nO **peptídeo PYY é um hormônio ANOREXÍGENO**, ou seja, ele auxilia na perda de peso. Logo, sua \"retirada\" não ajudaria o paciente obeso.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-04-22T19:24:45.000Z",
+                    "updated_at": "2022-04-22T19:24:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56373,
+                    "question_id": 13755,
+                    "description": "Gastrina.",
+                    "explanation": "Falso, Doc! 😵‍💫\n\nA **Gastrina é um hormônio estimulador da produção de suco gástrico**, ou seja, sua ação não interfere nem da perda e nem no ganho de peso do paciente obeso.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-04-22T19:24:45.000Z",
+                    "updated_at": "2022-04-22T19:24:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56374,
+                    "question_id": 13755,
+                    "description": "Grelina.",
+                    "explanation": "Arrasou, Doc!! 💪\n\n**A Grelina é um hormônio OREXÍGENO.** Sua produção ocorre no fundo gástrico e sua função é estimular a fome. A produção de grelina só cessa quando o estômago está cheio. Assim, a \"retirada\" das células produtoras gera um efeito anorexígeno no paciente obeso.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2022-04-22T19:24:45.000Z",
+                    "updated_at": "2022-04-22T19:24:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56375,
+                    "question_id": 13755,
+                    "description": "GLP-1.",
+                    "explanation": "O **GLP- 1 é um hormônio ANOREXÍGENO**, ou seja, ele auxilia na perda de peso. Logo, sua \"retirada\" não ajudaria o paciente obeso.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-22T19:24:45.000Z",
+                    "updated_at": "2022-04-22T19:24:45.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13755,
+                "questionary_id": 237555,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13762,
+            "institution_id": 4,
+            "description": "Existem várias técnicas operatórias para cirurgias bariátricas descritas atualmente. Qual das técnicas abaixo é a que realiza gastrectomia vertical? Assinale a resposta **CORRETA**.",
+            "difficulty": "medium",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-25T14:07:22.000Z",
+            "updated_at": "2022-04-25T14:07:22.000Z",
+            "user_id": 5227,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1172,
+                    "title": "Cirurgia Bariátrica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T14:27:41.000Z",
+                    "updated_at": "2022-04-19T14:27:41.000Z",
+                    "pivot": {
+                        "discipline_id": 1172,
+                        "question_id": 13762
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 56400,
+                    "question_id": 13762,
+                    "description": "Banda Gástrica.",
+                    "explanation": "Falso, Doc!! 🥴\n\nA Cirurgia de Banda Gástrica não realiza gastrectomia. Nesse caso, somente é colocado um limitador, dando a essa técnica a característica restritiva. \n\nReferência da Imagem: https://www.msdmanuals.com/pt/profissional/multimedia/figure/nut_gastric_banding_pt",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-04-25T14:07:22.000Z",
+                    "updated_at": "2022-04-25T14:07:22.000Z",
+                    "files": [
+                        {
+                            "id": 36163,
+                            "file": "f841c159-e740-4a12-a136-454912cd8e4a.gif",
+                            "name": "NUT_gastric_banding_pt.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-04-25T13:48:18.000Z",
+                            "updated_at": "2022-04-25T13:48:18.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f841c159-e740-4a12-a136-454912cd8e4a.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 36163,
+                                "alternative_id": 56400
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 56401,
+                    "question_id": 13762,
+                    "description": "Sleeve.",
+                    "explanation": "Arrasou, Doc!! 🤓\n\n**A Cirurgia Sleeve faz Gastrectomia Vertical.** \n\nCURIOSIDADE: Doc, você sabia quea técnica Sleeve é uma derivação de uma técnica cirúrgica mais antiga e que também faz Gastrectomia Vertical?? O nome é Switch Duodenal. \n\nReferência da Imagem: https://drluizfernandocordova.com.br/cirurgia-bariatrica-conheca-a-gastrectomia-vertical-o-sleeve/",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-04-25T14:07:22.000Z",
+                    "updated_at": "2022-04-25T14:07:22.000Z",
+                    "files": [
+                        {
+                            "id": 36166,
+                            "file": "a8866cd0-ba4f-4323-910d-27316dbbd9c8.png",
+                            "name": "INSTITUTO_LUIZ_FERNANDO_CÓRDOVA_-CIRURGIA_BARIÁTRICA_-_GASTRECTOMIA_VERTICAL_-_SLEEVE-749x749.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-04-25T14:05:43.000Z",
+                            "updated_at": "2022-04-25T14:05:43.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a8866cd0-ba4f-4323-910d-27316dbbd9c8.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 36166,
+                                "alternative_id": 56401
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 56402,
+                    "question_id": 13762,
+                    "description": "Bypass Gástrico.",
+                    "explanation": "Falso, Doc!! 🥴\n\nA Cirurgia de **Bypass Gástrico faz a criação de um pequeno estômago, chamado de Pouch Gástrico** (Bolsa Gástrica). Essa secção **NÃO** é chamada de Gastrectomia Vertical.\n\nReferência da Imagem: http://rsaude.com.br/materia/materia/reganho-de-peso-em-pacientes-pos-cirurgia-bariatrica/11938\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-25T14:07:22.000Z",
+                    "updated_at": "2022-04-25T14:07:22.000Z",
+                    "files": [
+                        {
+                            "id": 36164,
+                            "file": "1c55b719-b000-4070-80fc-018fc03e7478.png",
+                            "name": "reganho-de-peso-em-pacientes-pos-cirurgia-bariatrica-20032017164608.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-04-25T13:55:44.000Z",
+                            "updated_at": "2022-04-25T13:55:44.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1c55b719-b000-4070-80fc-018fc03e7478.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 36164,
+                                "alternative_id": 56402
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 56403,
+                    "question_id": 13762,
+                    "description": "Derivação Biliopancreática.",
+                    "explanation": "Falso, Doc!! 🥴\n\nA Cirurgia de Derivação Biliopancreática, também chamada de **Scopinaro, realiza uma Gastrectomia horizontal**.\n\nReferência da Imagem: https://gustavosantos.online/pre-op/",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-25T14:07:22.000Z",
+                    "updated_at": "2022-04-25T14:07:22.000Z",
+                    "files": [
+                        {
+                            "id": 36165,
+                            "file": "dca0fa6e-d9a4-44ed-a26c-9a93948cf5ce.jpeg",
+                            "name": "scopinaro1.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-04-25T14:01:31.000Z",
+                            "updated_at": "2022-04-25T14:01:31.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/dca0fa6e-d9a4-44ed-a26c-9a93948cf5ce.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 36165,
+                                "alternative_id": 56403
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13762,
+                "questionary_id": 237555,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13767,
+            "institution_id": 4,
+            "description": "Qual das seguintes limitações abaixo contraindicam a realização da Cirurgia Bariátrica Bypass Gástrico em Y de Roux? Assinale a alternativa **CORRETA**.",
+            "difficulty": "medium",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-25T17:46:41.000Z",
+            "updated_at": "2022-04-25T17:46:41.000Z",
+            "user_id": 5227,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1172,
+                    "title": "Cirurgia Bariátrica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T14:27:41.000Z",
+                    "updated_at": "2022-04-19T14:27:41.000Z",
+                    "pivot": {
+                        "discipline_id": 1172,
+                        "question_id": 13767
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 56420,
+                    "question_id": 13767,
+                    "description": "Pólipos Gástricos prévios.",
+                    "explanation": "Isso aí, Doc!! 😉\n\nIsso, pois, **a técnica de BGYR impede o rastreio do estômago excluso por endoscopia digestiva alta**, tornando as investigações futuras difíceis. \n\nA técnica mais indicada nesse caso é a Sleeve.\n\nReferência da Imagem: https://www.sallet.com.br/gastroplastia-com-derivacao-intestinal-ou-bypass-gastrico-ou-capella/",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-04-25T17:46:41.000Z",
+                    "updated_at": "2022-04-25T17:46:41.000Z",
+                    "files": [
+                        {
+                            "id": 36180,
+                            "file": "8bb1aad9-dd84-437c-b94c-23f5a18f1ed8.png",
+                            "name": "bypassPag-2.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-04-25T17:38:05.000Z",
+                            "updated_at": "2022-04-25T17:38:05.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8bb1aad9-dd84-437c-b94c-23f5a18f1ed8.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 36180,
+                                "alternative_id": 56420
+                            }
+                        },
+                        {
+                            "id": 36181,
+                            "file": "08009ad0-2c03-4475-b675-c786d5f3e58e.png",
+                            "name": "bypassPag-2.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-04-25T17:38:08.000Z",
+                            "updated_at": "2022-04-25T17:38:08.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/08009ad0-2c03-4475-b675-c786d5f3e58e.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 36181,
+                                "alternative_id": 56420
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 56421,
+                    "question_id": 13767,
+                    "description": "Doença do Refluxo Gastroesofágico.",
+                    "explanation": "Falso, Doc!! 😔\n\nNa verdade, **em caso de pacientes com DRGE a técnica indicada é a BGYR devido a retirada do piloro**. Assim, a pressão intragástrica diminui e, consequentemente, a DRGE também.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-04-25T17:46:41.000Z",
+                    "updated_at": "2022-04-25T17:46:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56422,
+                    "question_id": 13767,
+                    "description": "Diabetes Mellitus tipo 2.",
+                    "explanation": "Falso, Doc!! 😔\n\nNa verdade, **em caso de pacientes com DM tipo 2 a técnica indicada é a BGYR devido a alça de disabsorção** gerada pelo Y de Roux. \n\nA glicemia do paciente tende a baixar já nas primeiras horas após a cirurgia.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-25T17:46:41.000Z",
+                    "updated_at": "2022-04-25T17:46:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56423,
+                    "question_id": 13767,
+                    "description": "IMC: 32 kg/m² + Diabetes Mellitus tipo 2 descompensada.",
+                    "explanation": "Falso, Doc!! 😔\n\nNa verdade, **em caso de pacientes com Obesidade Grau I e DM tipo 2 a técnica indicada é a BGYR devido a alça de disabsorção** gerada pelo Y de Roux. Além disso, nesse caso, a cirurgia é chamada de metabólica, sabia?\n\nA glicemia do paciente tende a baixar já nas primeiras horas após a cirurgia.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-25T17:46:41.000Z",
+                    "updated_at": "2022-04-25T17:46:41.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 36166,
+                    "file": "a8866cd0-ba4f-4323-910d-27316dbbd9c8.png",
+                    "name": "INSTITUTO_LUIZ_FERNANDO_CÓRDOVA_-CIRURGIA_BARIÁTRICA_-_GASTRECTOMIA_VERTICAL_-_SLEEVE-749x749.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2022-04-25T14:05:43.000Z",
+                    "updated_at": "2022-04-25T14:05:43.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a8866cd0-ba4f-4323-910d-27316dbbd9c8.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 36166,
+                        "question_id": 13767
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 13767,
+                "questionary_id": 237555,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13769,
+            "institution_id": 4,
+            "description": "Cirurgias como um todo podem gerar complicações no paciente. Das complicações mencionadas abaixo, assinale a **CORRETA**, referente a técnica de Sleeve.",
+            "difficulty": "medium",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-25T18:09:53.000Z",
+            "updated_at": "2022-04-25T18:09:53.000Z",
+            "user_id": 5227,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1172,
+                    "title": "Cirurgia Bariátrica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T14:27:41.000Z",
+                    "updated_at": "2022-04-19T14:27:41.000Z",
+                    "pivot": {
+                        "discipline_id": 1172,
+                        "question_id": 13769
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 56428,
+                    "question_id": 13769,
+                    "description": "Deiscência das anastomoses.",
+                    "explanation": "Falso, Doc! 😖\n\nPor definição, anastomose é um processo de união de tubos, vasos sanguíneos ou nervos da mesma natureza. Nesse caso, **na técnica de Sleeve não existe anastomeses**, porque a técnica consiste apenas na gastrectomia vestical do estômago.\n\nA complicação de deiscência das anastomoses pode ocorrer na ténica de BGYR.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-04-25T18:09:53.000Z",
+                    "updated_at": "2022-04-25T18:09:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56429,
+                    "question_id": 13769,
+                    "description": "Hérnia de Petersen.",
+                    "explanation": "Falso, Doc! 😖\n\nA Hérnia de Peterson ocorre devido a espaços gerados sinteticamente durante a operação, que leva a migração do intestino para tais.\n\nNesse caso, na **técnica de Sleeve não existe a alteração de espaços no intestino**, porque a técnica consiste apenas na gastrectomia vestical do estômago.\n\nA complicação de hérnia de Petersen pode ocorrer na ténica de BGYR.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-04-25T18:09:53.000Z",
+                    "updated_at": "2022-04-25T18:09:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56430,
+                    "question_id": 13769,
+                    "description": "Deficiência de Ferro.",
+                    "explanation": "Falso, Doc! 😖\n\nVia de regra, a absorção do ferro ocorre especialmente no duodeno. Nesse caso, na **técnica de Sleeve não existe a alteração de espaços no intestino**, porque a técnica consiste apenas na gastrectomia vestical do estômago.\n\nA complicação de deficienência de Ferro pode ocorrer na ténica de BGYR.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-25T18:09:53.000Z",
+                    "updated_at": "2022-04-25T18:09:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56431,
+                    "question_id": 13769,
+                    "description": "Doença do Refluxo Gastroesofágico.",
+                    "explanation": "Mandou bem, Doc!! 🥰\n\nDevido a Gastrectomia Vertical, o **piloro é mantido e a pressão dentro do novo estômago pode ficar muito alta e acabar gerando a DRGE.**",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2022-04-25T18:09:53.000Z",
+                    "updated_at": "2022-04-25T18:09:53.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13769,
+                "questionary_id": 237555,
+                "timer": 0
+            }
+        }
+    ]
+}

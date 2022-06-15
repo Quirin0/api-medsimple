@@ -1,0 +1,1538 @@
+{
+    "id": 237497,
+    "user_id": 1699,
+    "title": "Trauma Torácico",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-06-15T02:32:19.000Z",
+    "updated_at": "2022-06-15T02:32:19.000Z",
+    "study_plan_id": 174,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 1744,
+            "institution_id": 4,
+            "description": "Um jovem de 29 anos foi atropelado por uma van enquanto tentava atravessar uma via expressa. Foi levado ao Pronto-socorro, onde deu entrada com quadro de dispnéia com grande esforço respiratório e turgência jugular. Ao exame físico, apresentava hipertimpanismo e abolição do murmúrio vesicular em hemitórax esquerdo. Qual é o provável diagnóstico?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-13T03:05:40.000Z",
+            "updated_at": "2021-12-18T18:23:18.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 201,
+                    "title": "Trauma torácico",
+                    "description": null,
+                    "parent_id": 94,
+                    "is_enabled": true,
+                    "created_at": "2020-06-13T02:59:08.000Z",
+                    "updated_at": "2020-06-13T02:59:08.000Z",
+                    "pivot": {
+                        "discipline_id": 201,
+                        "question_id": 1744
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7171,
+                    "question_id": 1744,
+                    "description": "Hemotórax",
+                    "explanation": "Falso doc!😋 Poderia ser por todos os sintomas, com exceção do hipertimpanismo, que fala a favor de pneumotórax. No hemotórax teríamos macicez à percussão.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:05:40.000Z",
+                    "updated_at": "2021-12-18T15:23:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7172,
+                    "question_id": 1744,
+                    "description": "Pneumotórax",
+                    "explanation": "Perfeito doc! Arrasou!😍 Devido ao hipertimpanismo, temos o diagnóstico de pneumotórax sendo favorecido. A conduta definitiva para a resolução é a drenagem de tórax em selo da água. Doc, se liga nessa imagem ilustrando essa condição👇\n- Fonte: http://www.itorax.com.br/pneumotorax/",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-13T00:05:40.000Z",
+                    "updated_at": "2021-12-18T15:23:18.000Z",
+                    "files": [
+                        {
+                            "id": 25103,
+                            "file": "eee027e6-a2b3-4a51-b5d3-c1c2786ff6f7.jpeg",
+                            "name": "unnamed (4).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-12-18T15:22:38.000Z",
+                            "updated_at": "2021-12-18T15:22:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/eee027e6-a2b3-4a51-b5d3-c1c2786ff6f7.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25103,
+                                "alternative_id": 7172
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 7173,
+                    "question_id": 1744,
+                    "description": "Tamponamento cardíaco",
+                    "explanation": "Falso doc!😋 Apesar da turgência jugular, não é relatado hipofonese de bulhas ou hipotensão. Além disso, o hipertimpanismo fala a favor de pneumotórax!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:05:41.000Z",
+                    "updated_at": "2021-12-18T15:23:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7174,
+                    "question_id": 1744,
+                    "description": "Tórax instável",
+                    "explanation": "Falso doc!😋 Não observamos a respiração paradoxal, típica do tórax instável!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:05:41.000Z",
+                    "updated_at": "2021-12-18T15:23:18.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1744,
+                "questionary_id": 237497,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1745,
+            "institution_id": 4,
+            "description": "Considerando-se a hipótese de tamponamento cardíaco por ferimento penetrante do tórax após exame inicial em um paciente instável. Qual a melhor conduta terapêutica:  ",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-13T03:09:36.000Z",
+            "updated_at": "2022-03-13T20:38:31.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 201,
+                    "title": "Trauma torácico",
+                    "description": null,
+                    "parent_id": 94,
+                    "is_enabled": true,
+                    "created_at": "2020-06-13T02:59:08.000Z",
+                    "updated_at": "2020-06-13T02:59:08.000Z",
+                    "pivot": {
+                        "discipline_id": 201,
+                        "question_id": 1745
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7175,
+                    "question_id": 1745,
+                    "description": "Drenagem torácica bilateral",
+                    "explanation": "Falso doc!😋 O paciente está instável hemodinamicamente. Não há tempo hábil para preparar o material para drenagem torácica.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:09:36.000Z",
+                    "updated_at": "2022-03-13T20:38:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7176,
+                    "question_id": 1745,
+                    "description": "Drenagem torácica unilateral",
+                    "explanation": "Falso doc!😋 O paciente está instável hemodinamicamente. Não há tempo hábil para preparar o material para drenagem torácica.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:09:37.000Z",
+                    "updated_at": "2022-03-13T20:38:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7177,
+                    "question_id": 1745,
+                    "description": "Punção pericárdica",
+                    "explanation": "Falso doc!😋 O paciente está instável hemodinamicamente após ferimento penetrante em tórax. Apenas a punção pericárdica não resolveria o problema.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:09:37.000Z",
+                    "updated_at": "2022-03-13T20:38:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7178,
+                    "question_id": 1745,
+                    "description": "Toracotomia ",
+                    "explanation": "Perfeito doc! Arrasou!😍 O paciente está instável hemodinamicamente após ferimento penetrante em tórax.  Está indicada a toracotomia imediata!",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-13T00:09:37.000Z",
+                    "updated_at": "2022-03-13T20:38:31.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1745,
+                "questionary_id": 237497,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1746,
+            "institution_id": 4,
+            "description": "São importantes sinais clínicos de pneumotórax e hemotórax, respectivamente:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-13T03:12:38.000Z",
+            "updated_at": "2021-12-18T18:25:51.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 201,
+                    "title": "Trauma torácico",
+                    "description": null,
+                    "parent_id": 94,
+                    "is_enabled": true,
+                    "created_at": "2020-06-13T02:59:08.000Z",
+                    "updated_at": "2020-06-13T02:59:08.000Z",
+                    "pivot": {
+                        "discipline_id": 201,
+                        "question_id": 1746
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7179,
+                    "question_id": 1746,
+                    "description": "MV aumentado e percussão timpânica/ MV aumentado e percussão maciça",
+                    "explanation": "Falso doc!😋  O Murmúrio vesicular estará com certeza diminuído nas duas situações, pois ou há ar ou sangue entre o estetoscópio e o parênquima pulmonar",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:12:38.000Z",
+                    "updated_at": "2021-12-18T15:25:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7180,
+                    "question_id": 1746,
+                    "description": "MV abolido e percussão timpânica/ MV abolido e percussão maciça",
+                    "explanation": "Perfeito doc! Que orgulho!😁 O Murmúrio vesicular estará com certeza diminuído nas duas situações, pois ou há ar ou sangue entre o estetoscópio e o parênquima pulmonar. Já a percussão no pneumotórax estará hipertimpânica devido ao ar entre o estetoscópio e o parênquima, e no hemotórax maciça devido ao acúmulo de líquido (sangue) entre o parênquima e o estetoscópio!",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-13T00:12:38.000Z",
+                    "updated_at": "2021-12-18T15:25:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7181,
+                    "question_id": 1746,
+                    "description": "MV aumentado e percussão maciça/ MV aumentado e percussão timpânica",
+                    "explanation": "Falso doc!😋 O Murmúrio vesicular estará com certeza diminuído nas duas situações, pois ou há ar ou sangue entre o estetoscópio e o parênquima pulmonar ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:12:38.000Z",
+                    "updated_at": "2021-12-18T15:25:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7182,
+                    "question_id": 1746,
+                    "description": "MV abolido e percussão timpânica/ MV aumentado e percussão maciça",
+                    "explanation": "Falso doc!😋 O Murmúrio vesicular estará com certeza diminuído nas duas situações, pois ou há ar ou sangue entre o estetoscópio e o parênquima pulmonar. Já a percussão no pneumotórax estará hipertimpânica devido ao ar entre o estetoscópio e o parênquima, e no hemotórax maciça devido ao acúmulo de líquido (sangue) entre o parênquima e o estetoscópio.  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:12:39.000Z",
+                    "updated_at": "2021-12-18T15:25:51.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1746,
+                "questionary_id": 237497,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1747,
+            "institution_id": 4,
+            "description": "Em relação ao ferimento por arma branca na região toracoabdominal. A exploração digital do ferimento NÃO deve ser realizada por risco de:  ",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-13T03:16:14.000Z",
+            "updated_at": "2021-12-18T18:27:25.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 201,
+                    "title": "Trauma torácico",
+                    "description": null,
+                    "parent_id": 94,
+                    "is_enabled": true,
+                    "created_at": "2020-06-13T02:59:08.000Z",
+                    "updated_at": "2020-06-13T02:59:08.000Z",
+                    "pivot": {
+                        "discipline_id": 201,
+                        "question_id": 1747
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7183,
+                    "question_id": 1747,
+                    "description": "Embolia pulmonar",
+                    "explanation": "Falso doc!😋 O fato de colocar o dedo em uma ferida não é capaz de fazer um êmbolo se deslocar para os pulmões",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:16:14.000Z",
+                    "updated_at": "2021-12-18T15:27:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7184,
+                    "question_id": 1747,
+                    "description": "Contusão pulmonar",
+                    "explanation": "Falso doc!😋 O fato de colocar o dedo em uma ferida não é capaz de gerar uma contusão pulmonar",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:16:15.000Z",
+                    "updated_at": "2021-12-18T15:27:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7185,
+                    "question_id": 1747,
+                    "description": "Pneumotórax",
+                    "explanation": "Perfeito doc! Arrasou!😍 Normalmente, nos traumatismos abdominais, fazemos a exploração digital dos ferimentos perfurantes. Todavia, no tórax/ transição toracoabdominal não é recomendada a exploração digital pois a pleura é muito frágil, podendo causar um pneumotórax ao colocar o dedo no ferimento.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-13T00:16:15.000Z",
+                    "updated_at": "2021-12-18T15:27:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7186,
+                    "question_id": 1747,
+                    "description": "Hemotórax",
+                    "explanation": "Falso doc!😋 O fato de colocar o dedo em um ferimento de tórax pode até estancar um sangramento, mas não gerar um hemotórax!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:16:15.000Z",
+                    "updated_at": "2021-12-18T15:27:25.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1747,
+                "questionary_id": 237497,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1748,
+            "institution_id": 4,
+            "description": "Assinale a afirmativa **INCORRETA** em relação ao pneumotórax traumático:  ",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-13T03:19:56.000Z",
+            "updated_at": "2021-12-18T18:29:05.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 201,
+                    "title": "Trauma torácico",
+                    "description": null,
+                    "parent_id": 94,
+                    "is_enabled": true,
+                    "created_at": "2020-06-13T02:59:08.000Z",
+                    "updated_at": "2020-06-13T02:59:08.000Z",
+                    "pivot": {
+                        "discipline_id": 201,
+                        "question_id": 1748
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7187,
+                    "question_id": 1748,
+                    "description": "Pode evoluir para um pneumotórax hipertensivo.",
+                    "explanation": "Perfeito doc! Um pneumotórax aberto se não tratado, com o acúmulo de ar na cavidade pleural pode evoluir para um pneumotórax hipertensivo!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:19:56.000Z",
+                    "updated_at": "2021-12-18T15:29:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7188,
+                    "question_id": 1748,
+                    "description": "A conduta conservadora é uma rotina.",
+                    "explanation": "Boa doc, essa é a incorreta!😉 Na mínima suspeita de pneumotórax ao exame físico de um paciente vítima de trauma, já devemos realizar a drenagem torácica. O fato de não realizar e postergar o tratamento de drenagem por dúvida é uma conduta de negligência e pode levar o paciente ao óbito!",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-13T00:19:56.000Z",
+                    "updated_at": "2021-12-18T15:29:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7189,
+                    "question_id": 1748,
+                    "description": "A drenagem torácica é sua principal opção terapêutica.",
+                    "explanation": "Perfeito doc! O tratamento definitivo do pneumotórax é a drenagem torácica em selo d'água!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:19:56.000Z",
+                    "updated_at": "2021-12-18T15:29:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7190,
+                    "question_id": 1748,
+                    "description": "O diagnóstico pode ser realizado clinicamente",
+                    "explanation": "Perfeito doc! Não é necessária a confirmação por exames de imagem para firmar o diagnóstico de pneumotórax. Murmúrio vesicular diminuido com hipertimpanismo fala a favor de pneumotórax, e a conduta é a drenagem torácica em selo d'água.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:19:56.000Z",
+                    "updated_at": "2021-12-18T15:29:05.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1748,
+                "questionary_id": 237497,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1749,
+            "institution_id": 4,
+            "description": "Em relação ao tórax instável, é **INCORRETA** afirmar:  ",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-13T03:23:39.000Z",
+            "updated_at": "2021-12-18T18:33:04.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 201,
+                    "title": "Trauma torácico",
+                    "description": null,
+                    "parent_id": 94,
+                    "is_enabled": true,
+                    "created_at": "2020-06-13T02:59:08.000Z",
+                    "updated_at": "2020-06-13T02:59:08.000Z",
+                    "pivot": {
+                        "discipline_id": 201,
+                        "question_id": 1749
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7191,
+                    "question_id": 1749,
+                    "description": "O pneumotórax e o hemotórax podem estar associados",
+                    "explanation": "Perfeito doc! No mesmo trauma que houve fratura de costela podemos ter perfuração da pleura e de vasos, gerando hemo e pneumotórax!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:23:39.000Z",
+                    "updated_at": "2021-12-18T15:33:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7192,
+                    "question_id": 1749,
+                    "description": "Fraturas de duas ou mais costelas em dois locais diferentes da costela provocam o tórax instável.",
+                    "explanation": "Perfeito doc, essa é a definição de tórax instável. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:23:39.000Z",
+                    "updated_at": "2021-12-18T15:33:04.000Z",
+                    "files": [
+                        {
+                            "id": 25104,
+                            "file": "1a7d4ea4-c4d9-4bc9-8484-7d2b8a59c081.jpeg",
+                            "name": "35.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-12-18T15:32:04.000Z",
+                            "updated_at": "2021-12-18T15:32:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1a7d4ea4-c4d9-4bc9-8484-7d2b8a59c081.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25104,
+                                "alternative_id": 7192
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 7193,
+                    "question_id": 1749,
+                    "description": "Caracteriza-se pelo movimento paradoxal da caixa torácica durante a respiração",
+                    "explanation": "Perfeito doc! No tórax instável temos a respiração paradoxal, na qual, durante a inspiração, há retração do tórax e durante a expiração há protusão da região do tórax em que as costelas estão fraturadas. Se liga nessa imagem👇\n- Fonte: https://bombeiroswaldo.blogspot.com/2020/05/torax-instavel-reconhecimento-conduta.html",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:23:39.000Z",
+                    "updated_at": "2021-12-18T15:33:04.000Z",
+                    "files": [
+                        {
+                            "id": 25104,
+                            "file": "1a7d4ea4-c4d9-4bc9-8484-7d2b8a59c081.jpeg",
+                            "name": "35.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-12-18T15:32:04.000Z",
+                            "updated_at": "2021-12-18T15:32:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1a7d4ea4-c4d9-4bc9-8484-7d2b8a59c081.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25104,
+                                "alternative_id": 7193
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 7194,
+                    "question_id": 1749,
+                    "description": "O tórax do paciente deve ser drenado para o tratamento",
+                    "explanation": "Boa doc, essa é a incorreta!😉 Só iremos realizar drenagem do tórax em caso de pneumo ou hemotórax. Para o tórax instável, a conduta é analgesia para diminuir a dor do paciente durante a respiração e garantir uma boa oxigenação. Conduta é conservadora. Saca só essa imagem doc👇\n- Fonte: https://bombeiroswaldo.blogspot.com/2020/05/torax-instavel-reconhecimento-conduta.html",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-13T00:23:39.000Z",
+                    "updated_at": "2021-12-18T15:33:04.000Z",
+                    "files": [
+                        {
+                            "id": 25104,
+                            "file": "1a7d4ea4-c4d9-4bc9-8484-7d2b8a59c081.jpeg",
+                            "name": "35.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-12-18T15:32:04.000Z",
+                            "updated_at": "2021-12-18T15:32:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1a7d4ea4-c4d9-4bc9-8484-7d2b8a59c081.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25104,
+                                "alternative_id": 7194
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1749,
+                "questionary_id": 237497,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1750,
+            "institution_id": 4,
+            "description": "Paciente vítima de colisão moto-carro. Ao chegar à Emergência, queixava-se de dor no peito. Avaliação primaria: via aérea livre, MV presente e bilateral, bulhas abafadas. Sat O2 95%, PA 100x80 mmHg (HIPOTENSA), FC 80 bpm, estase jugular positiva, Glasgow 15, hematoma superficial pré esternal. O diagnóstico mais provável é:  ",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-13T03:30:30.000Z",
+            "updated_at": "2021-12-18T18:35:40.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 201,
+                    "title": "Trauma torácico",
+                    "description": null,
+                    "parent_id": 94,
+                    "is_enabled": true,
+                    "created_at": "2020-06-13T02:59:08.000Z",
+                    "updated_at": "2020-06-13T02:59:08.000Z",
+                    "pivot": {
+                        "discipline_id": 201,
+                        "question_id": 1750
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7195,
+                    "question_id": 1750,
+                    "description": "tamponamento cardíaco",
+                    "explanation": "Perfeito doc! Arrasou!😍 A paciente possui a tríade de Beck: Hipotensão, turgência jugular e hipofonese de bulhas, clássica do tamponamento cardíaco. Se liga nessa imagem👇\n- Fonte: http://patologiaemfoq.blogspot.com/2010/03/tamponamento-cardiaco.html",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-13T00:30:30.000Z",
+                    "updated_at": "2021-12-18T15:35:40.000Z",
+                    "files": [
+                        {
+                            "id": 25105,
+                            "file": "8200641c-23bd-4323-8967-1eb225cc59e9.jpeg",
+                            "name": "tamponamento (1).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-12-18T15:34:29.000Z",
+                            "updated_at": "2021-12-18T15:34:29.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8200641c-23bd-4323-8967-1eb225cc59e9.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25105,
+                                "alternative_id": 7195
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 7196,
+                    "question_id": 1750,
+                    "description": "derrame pleural",
+                    "explanation": "Falso doc!😋 O MV é simétrico e bilateral, afastando derrame pleural!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:30:30.000Z",
+                    "updated_at": "2021-12-18T15:35:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7197,
+                    "question_id": 1750,
+                    "description": "tórax instável",
+                    "explanation": "Falso doc!😋 Não é relatada presença de dor torcica em costelas e respiração paradoxal para pensarmos em tórax instável.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:30:30.000Z",
+                    "updated_at": "2021-12-18T15:35:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7198,
+                    "question_id": 1750,
+                    "description": "contusão pulmonar",
+                    "explanation": "Falso doc!😋 Na contusão pulmonar teríamos murmúrio vesicular diminuído devido ao edema generalizado no intestício.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:30:30.000Z",
+                    "updated_at": "2021-12-18T15:35:40.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1750,
+                "questionary_id": 237497,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1751,
+            "institution_id": 4,
+            "description": "A \"respiração paradoxal\" é manifestação associada a: ",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-13T03:34:00.000Z",
+            "updated_at": "2021-12-18T18:40:37.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 201,
+                    "title": "Trauma torácico",
+                    "description": null,
+                    "parent_id": 94,
+                    "is_enabled": true,
+                    "created_at": "2020-06-13T02:59:08.000Z",
+                    "updated_at": "2020-06-13T02:59:08.000Z",
+                    "pivot": {
+                        "discipline_id": 201,
+                        "question_id": 1751
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7199,
+                    "question_id": 1751,
+                    "description": "fraturas múltiplas dos arcos costais",
+                    "explanation": "Perfeito doc! Arrasou!😍 Por definição, tórax instável é a condição em que há fratura de 2 ou mais costelas em pelo menos dois pontos diferentes da costela. Essa condição cursa com a chamada respiração paradoxal, na qual há retração do tórax durante a inspiração e protusão durante a expiração, como ilustrado na imagem abaixo👇\n- Fonte: https://bombeiroswaldo.blogspot.com/2020/05/torax-instavel-reconhecimento-conduta.html",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-13T00:34:00.000Z",
+                    "updated_at": "2021-12-18T15:40:37.000Z",
+                    "files": [
+                        {
+                            "id": 25104,
+                            "file": "1a7d4ea4-c4d9-4bc9-8484-7d2b8a59c081.jpeg",
+                            "name": "35.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-12-18T15:32:04.000Z",
+                            "updated_at": "2021-12-18T15:32:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1a7d4ea4-c4d9-4bc9-8484-7d2b8a59c081.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25104,
+                                "alternative_id": 7199
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 7200,
+                    "question_id": 1751,
+                    "description": "pneumotórax hipertensivo",
+                    "explanation": "Falso doc!😋 O pneumotórax cursa com dispneia, uma respiração ofegante e acelerada, mas não a respiração paradoxal, em que há alterações na retração do tórax no movimento respiratório!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:34:00.000Z",
+                    "updated_at": "2021-12-18T15:40:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7201,
+                    "question_id": 1751,
+                    "description": "hemotórax",
+                    "explanation": "Falso doc!😋  O hemotórax cursa com dispneia, uma respiração ofegante e acelerada, mas não a respiração paradoxal, em que há alterações na retração do tórax no movimento respiratório ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:34:00.000Z",
+                    "updated_at": "2021-12-18T15:40:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7202,
+                    "question_id": 1751,
+                    "description": "tamponamento cardíaco",
+                    "explanation": "Falso doc!😋 Talvez você confundiu com \"pulso paradoxal\" que podemos ter no tamponamento cardíaco, caracterizado pela diminuição da PA sistólica em pelo menos 20 mmHg durante a inspiração!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:34:00.000Z",
+                    "updated_at": "2021-12-18T15:40:37.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1751,
+                "questionary_id": 237497,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1752,
+            "institution_id": 4,
+            "description": "O tratamento imediato para o pneumotórax hipertensivo em adultos é:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-13T03:38:40.000Z",
+            "updated_at": "2021-12-18T18:41:41.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 201,
+                    "title": "Trauma torácico",
+                    "description": null,
+                    "parent_id": 94,
+                    "is_enabled": true,
+                    "created_at": "2020-06-13T02:59:08.000Z",
+                    "updated_at": "2020-06-13T02:59:08.000Z",
+                    "pivot": {
+                        "discipline_id": 201,
+                        "question_id": 1752
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7203,
+                    "question_id": 1752,
+                    "description": "Drenagem torácica em selo d'água",
+                    "explanation": "Falso doc!😋 Esse é o tratamento definitivo, mas não podemos esperar até os materiais da drenagem ficarem prontos para tomar uma conduta e salvar o paciente",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:38:40.000Z",
+                    "updated_at": "2021-12-18T15:41:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7204,
+                    "question_id": 1752,
+                    "description": "Punção de alívio em 2º espaço intercostal na linha hemiclavicular",
+                    "explanation": "Falso doc!😋 Essa era a conduta pelo antigo ATLS. Hoje, em adultos, a punção é feita no 5º espaço intercostal. Todavia, é importante lembrar que em crianças a punção de alívio ainda continua sendo no 2º espaço intercostal!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:38:40.000Z",
+                    "updated_at": "2021-12-18T15:41:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7205,
+                    "question_id": 1752,
+                    "description": "Punção de alívio em 5º espaço intercostal ",
+                    "explanation": "Perfeito doc! Arrasou!😍  Pelo novo ATLS, a punção de alívio é feita no 5º espaço intercostal na linha axilar anterior, no mesmo local em que posteriormente será feita a drenagem em selo d'água. \"Aproveitam o mesmo buraco\" basicamente.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-13T00:38:40.000Z",
+                    "updated_at": "2021-12-18T15:41:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7206,
+                    "question_id": 1752,
+                    "description": "Toracotomia de reanimação",
+                    "explanation": "Falso doc!😋 A toracotomia de reanimação é uma medida que está reservada para lesões penetrantes em tórax que levem a parada cardiorrespiratóra",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:38:40.000Z",
+                    "updated_at": "2021-12-18T15:41:42.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1752,
+                "questionary_id": 237497,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1753,
+            "institution_id": 4,
+            "description": "O tratamento imediato para o pneumotórax aberto é:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-13T03:42:06.000Z",
+            "updated_at": "2021-12-18T18:43:54.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 201,
+                    "title": "Trauma torácico",
+                    "description": null,
+                    "parent_id": 94,
+                    "is_enabled": true,
+                    "created_at": "2020-06-13T02:59:08.000Z",
+                    "updated_at": "2020-06-13T02:59:08.000Z",
+                    "pivot": {
+                        "discipline_id": 201,
+                        "question_id": 1753
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7207,
+                    "question_id": 1753,
+                    "description": "Drenagem torácica em selo d'água",
+                    "explanation": "Falso doc!😋 Esse é o tratamento definitivo, mas não podemos esperar a organização de todo o material de drenagem para salvar a vida do paciente.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:42:06.000Z",
+                    "updated_at": "2021-12-18T15:43:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7208,
+                    "question_id": 1753,
+                    "description": "Punção de alívio em 2º espaço intercostal",
+                    "explanation": "Falso doc!😋 Esse é o tratamento imediato do pneumotórax hipertensivo em crianças.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:42:06.000Z",
+                    "updated_at": "2021-12-18T15:43:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7209,
+                    "question_id": 1753,
+                    "description": "Punção de alívio em 5º espaço intercostal",
+                    "explanation": "Falso doc!😋 Esse é o tratamento imediato do pneumotórax hipertensivo em adultos.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-13T00:42:06.000Z",
+                    "updated_at": "2021-12-18T15:43:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7210,
+                    "question_id": 1753,
+                    "description": "Curativo de 3 pontas",
+                    "explanation": "Perfeito doc! Arrasou!😍 Definimos pneumotórax aberto quando um ferimento no tórax possui no mínimo 2/3 do diâmetro da traqueia. Dessa forma, o ar tende a só entrar para dentro do espaço pleural, podendo gerar um pneumotórax hipertensivo. Para evitar isso, o tratamento imediato é a realização de um curativo de 3 pontas, que permite apenas a saída do ar pelo tórax, e não a entrada. Se liga nessa imagem👇\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-13T00:42:06.000Z",
+                    "updated_at": "2021-12-18T15:43:54.000Z",
+                    "files": [
+                        {
+                            "id": 25106,
+                            "file": "9660f69d-6972-4cbf-bad9-bbea6e5fe1f7.jpeg",
+                            "name": "curativo-de-tres-pontas-e1628514754510.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-12-18T15:43:22.000Z",
+                            "updated_at": "2021-12-18T15:43:22.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9660f69d-6972-4cbf-bad9-bbea6e5fe1f7.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25106,
+                                "alternative_id": 7210
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1753,
+                "questionary_id": 237497,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1772,
+            "institution_id": 11,
+            "description": "Um jogador de beisebol foi atingido por um taco no tórax. Queixa-se de muita falta de ar e de dor torácica. Saturação de oxigênio: 87%, que não se elevou mesmo sendo ventilado com máscara de O2. Parece ter discreta estase jugular, mas não tem desvio da traqueia. O murmúrio vesicular está abolido à direita, onde a percussão revela timpanismo. Pulso = 130 bpm; PA = 60 × 40 mmHg. Na sala de admissão, fez a radiografia de tórax ilustrada a seguir.  Qual seria a melhor opção para o tratamento do caso:\n\n\n",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-13T15:33:43.000Z",
+            "updated_at": "2021-12-18T18:45:58.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 11,
+                "title": "SUS-SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T17:55:16.000Z",
+                "updated_at": "2020-05-17T17:55:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 201,
+                    "title": "Trauma torácico",
+                    "description": null,
+                    "parent_id": 94,
+                    "is_enabled": true,
+                    "created_at": "2020-06-13T02:59:08.000Z",
+                    "updated_at": "2020-06-13T02:59:08.000Z",
+                    "pivot": {
+                        "discipline_id": 201,
+                        "question_id": 1772
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7283,
+                    "question_id": 1772,
+                    "description": " Toracotomia de reanimação.",
+                    "explanation": "Falso doc!😋 Não seria a melhor indicação para um pneumotórax hipertensivo. Existem poucas indicações para toracotomia de reanimação, sendo a maioria delas relacionada a parada cardiorrespiratória na emergência.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-13T12:33:43.000Z",
+                    "updated_at": "2021-12-18T15:45:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7284,
+                    "question_id": 1772,
+                    "description": " Descompressão do hemitórax direito, por punção",
+                    "explanation": "Perfeito doc! Arrasou!😍 Essa seria a conduta ideal de imediato para o pneumotórax hipertensivo. Em adultos, pelo novo ATLS, essa descompressão é feita no 5º espaço intercostal.\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-13T12:33:44.000Z",
+                    "updated_at": "2021-12-18T15:45:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7285,
+                    "question_id": 1772,
+                    "description": " Toracotomia anterolateral direita no quinto espaço intercostal. ",
+                    "explanation": "Falso doc!😋 Após a descompressão de alívio, esse procedimento deve ser feito para drenar o ar contido na cavidade.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-13T12:33:44.000Z",
+                    "updated_at": "2021-12-18T15:45:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7286,
+                    "question_id": 1772,
+                    "description": "Drenagem de tórax com cateter de pigtail ou com dreno tubular siliconado, no quarto espaço intercostal direito, anteriormente à linha axilar média. ",
+                    "explanation": "Falso doc!😋 Não tem indicação para esse tipo de drenagem.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-13T12:33:44.000Z",
+                    "updated_at": "2021-12-18T15:45:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7287,
+                    "question_id": 1772,
+                    "description": "Intubação traqueal e ventilação mecânica.",
+                    "explanation": "Falso doc!😋 Com esse procedimento podemos piorar o estado hipoxêmico do paciente. Não seria a primeira conduta\n",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-06-13T12:33:44.000Z",
+                    "updated_at": "2021-12-18T15:45:58.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 426,
+                    "file": "1592051535713.jpeg",
+                    "name": "carcinoma.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-06-13T15:32:15.000Z",
+                    "updated_at": "2020-06-13T15:32:15.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1592051535713.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 426,
+                        "question_id": 1772
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 1772,
+                "questionary_id": 237497,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1773,
+            "institution_id": 11,
+            "description": "Um rapaz de 28 anos bateu a motocicleta contra um automóvel. Foi ejetado, tendo sido encontrado a 10 metros do local da colisão. Levado pelo Resgate, chega ao pronto socorro imobilizado em prancha rígida, com colar cervical. A via aérea está pérvia e não tem desvio de traqueia nem enfisema cervical. A expansibilidade torácica está diminuída à esquerda. A ausculta mostra murmúrio vesicular abolido desse lado, sendo que a percussão tende a macicez. Saturação de oxigênio, com máscara: 89%. Sente-se crepitação na palpação do esterno. Pulso: 120 bpm, regular; PA: 90 × 60 mmHg. Glasgow: 13. Não há outras lesões evidentes na avaliação inicial. Conduta inicial mais adequada:\n",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-13T15:37:01.000Z",
+            "updated_at": "2021-12-18T18:47:36.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 11,
+                "title": "SUS-SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T17:55:16.000Z",
+                "updated_at": "2020-05-17T17:55:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 201,
+                    "title": "Trauma torácico",
+                    "description": null,
+                    "parent_id": 94,
+                    "is_enabled": true,
+                    "created_at": "2020-06-13T02:59:08.000Z",
+                    "updated_at": "2020-06-13T02:59:08.000Z",
+                    "pivot": {
+                        "discipline_id": 201,
+                        "question_id": 1773
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7288,
+                    "question_id": 1773,
+                    "description": "Toracotomia de emergência.",
+                    "explanation": "Falso doc!😋 A indicação clássica para toracotomia na emergência é paciente com PCR na emergência e com ferimento penetrante em tórax!\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-13T12:37:01.000Z",
+                    "updated_at": "2021-12-18T15:47:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7289,
+                    "question_id": 1773,
+                    "description": "Intubação traqueal e avaliação de urgência do especialista da Cirurgia Torácica. ",
+                    "explanation": "Falso doc!😋 A crepitação em tórax induz a uma possível lesão brônquica, porém o quadro que fala mais forte é um hemotórax que deve ser drenado.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-13T12:37:01.000Z",
+                    "updated_at": "2021-12-18T15:47:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7290,
+                    "question_id": 1773,
+                    "description": " Drenagem pleural esquerda sob selo d’água. ",
+                    "explanation": "Perfeito doc! Arrasou!😍 Alternativa mais condizente. Paciente apresentando quadro de hemotórax, a conduta é drenagem pleural em selo d'água!\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-13T12:37:01.000Z",
+                    "updated_at": "2021-12-18T15:47:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7291,
+                    "question_id": 1773,
+                    "description": " Intubação traqueal e tomografia de corpo inteiro.",
+                    "explanation": "Falso doc!😋 Não seria totalmente errada, porém pelo quadro instável do paciente, a tomografia estaria contra indicada no momento!\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-13T12:37:01.000Z",
+                    "updated_at": "2021-12-18T15:47:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7292,
+                    "question_id": 1773,
+                    "description": "Descompressão torácica esquerda no segundo espaço intercostal, seguida de drenagem pleural sob selo d’água.",
+                    "explanation": "Falso doc!😋 Não temos dados para pensar num pneumotórax hipertensivo.\n",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-06-13T12:37:01.000Z",
+                    "updated_at": "2021-12-18T15:47:36.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1773,
+                "questionary_id": 237497,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1775,
+            "institution_id": 12,
+            "description": "Paciente de 35 anos, politraumatizado, chega à unidade de saúde com dispneia intensa e cianose. O diagnóstico do profissional de saúde foi de pneumotórax hipertensivo à esquerda. O achado típico desse caso é: \n",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-13T15:40:10.000Z",
+            "updated_at": "2021-12-18T18:50:11.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 12,
+                "title": "SES-RJ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T18:11:22.000Z",
+                "updated_at": "2020-05-17T18:11:22.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 201,
+                    "title": "Trauma torácico",
+                    "description": null,
+                    "parent_id": 94,
+                    "is_enabled": true,
+                    "created_at": "2020-06-13T02:59:08.000Z",
+                    "updated_at": "2020-06-13T02:59:08.000Z",
+                    "pivot": {
+                        "discipline_id": 201,
+                        "question_id": 1775
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7297,
+                    "question_id": 1775,
+                    "description": "a presença de turgência jugular a 90°, sem variações com a respiração ",
+                    "explanation": "Falso doc!😋 Geralmente turgência de jugular a 45º e com variações a respiração (quando você inspira, o retorno venoso aumenta junto com a turgência jugular)!\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-13T12:40:10.000Z",
+                    "updated_at": "2021-12-18T15:50:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7298,
+                    "question_id": 1775,
+                    "description": " diminuição do retorno venoso ao coração com hipotensão arterial ",
+                    "explanation": "Perfeito doc! Que orgulho!!😍 Exato, ocorre uma espécie de choque obstrutivo, diminuindo o retorno venoso ao coração.\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-13T12:40:10.000Z",
+                    "updated_at": "2021-12-18T15:50:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7299,
+                    "question_id": 1775,
+                    "description": " enfisema subcutâneo e traqueia desviada para esquerda ",
+                    "explanation": "Falso doc!😋 A traqueia estaria desviada para direita. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-13T12:40:10.000Z",
+                    "updated_at": "2021-12-18T15:50:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7300,
+                    "question_id": 1775,
+                    "description": "hiperressonância a percussão com egofonia à esquerda ",
+                    "explanation": "Falso doc!😋 Hiperressonância pode ser encontrada, porém egofonia são para casos em que aumente a densidade do parênquima pulmonar, como, por exemplo, numa pneumonia lobar!\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-13T12:40:10.000Z",
+                    "updated_at": "2021-12-18T15:50:11.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1775,
+                "questionary_id": 237497,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1774,
+            "institution_id": 22,
+            "description": "Homem, 28a, teve queda de 2,5 metros de altura há 30 minutos. Trazido pelo SAMU à Unidade de Pronto Atendimento, com imobilização cervical e em prancha rígida, acesso venoso periférico e com drenagem torácica à direita com saída de sangue.  Exame físico: consciente, orientado, PA = 110 x 70 mmHg; FR = 20 irpm; FC= 100 bpm; tórax: crepitação e dor à palpação na região média do gradil costal direito; pulmão: murmúrio vesicular presente anteriormente e bilateralmente, sem ruídos adventícios. Radiograma de tórax realizado na sala de urgência: opacidade em todo hemitórax direito. A opacidade corresponde a:\n",
+            "difficulty": "hard",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-13T15:38:26.000Z",
+            "updated_at": "2021-12-18T18:48:39.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 22,
+                "title": "UNICAMP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:12:16.000Z",
+                "updated_at": "2020-05-18T19:12:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 201,
+                    "title": "Trauma torácico",
+                    "description": null,
+                    "parent_id": 94,
+                    "is_enabled": true,
+                    "created_at": "2020-06-13T02:59:08.000Z",
+                    "updated_at": "2020-06-13T02:59:08.000Z",
+                    "pivot": {
+                        "discipline_id": 201,
+                        "question_id": 1774
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7293,
+                    "question_id": 1774,
+                    "description": "Lesão traumática do diafragma. ",
+                    "explanation": "Falso doc!😋 Não corresponderia a uma opacidade. O que poderia ser compatível é uma imagem de alças intestinais no tórax.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-13T12:38:27.000Z",
+                    "updated_at": "2021-12-18T15:48:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7294,
+                    "question_id": 1774,
+                    "description": "Tórax instável.",
+                    "explanation": "Falso doc!😋 É um diagnóstico feito a partir de 2 fraturas em costelas adjacentes em mais de 2 lugares.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-13T12:38:27.000Z",
+                    "updated_at": "2021-12-18T15:48:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7295,
+                    "question_id": 1774,
+                    "description": "Pneumotórax hipertensivo. ",
+                    "explanation": "Falso doc!😋 Diagnóstico clínico, porém não seria uma opacidade, mas sim uma imagem radiotransparente!\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-13T12:38:27.000Z",
+                    "updated_at": "2021-12-18T15:48:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7296,
+                    "question_id": 1774,
+                    "description": "Hemotórax residual.",
+                    "explanation": "Perfeito doc! Arrasou!😍 Alternativa mais condizente com uma opacidade em paciente com trauma torácica após drenagem de sangue.\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-13T12:38:27.000Z",
+                    "updated_at": "2021-12-18T15:48:39.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1774,
+                "questionary_id": 237497,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1776,
+            "institution_id": 25,
+            "description": "Homem, 27 anos de idade, foi admitido no Serviço de Emergência após colisão de automóvel contra anteparo fixo. A: via aérea pérvia. Saturação de oxigênio de 92% em ar ambiente; B: dor à palpação do tórax à direita na região inferior e linha axilar média. Hematoma e crepitação no local da dor; C: FC:90bpm e PA: 130x70mmHg. D: Glasgow de 15. Pupilas sem alterações; E: Diurese clara. Dorso sem alterações. Abdome indolor a palpação. Realizada tomografia de abdome demonstrada a seguir: Qual é a melhor conduta?\n\n\n",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-13T15:49:09.000Z",
+            "updated_at": "2021-12-18T18:51:31.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 25,
+                "title": "USP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:55:52.000Z",
+                "updated_at": "2020-05-18T19:55:52.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 201,
+                    "title": "Trauma torácico",
+                    "description": null,
+                    "parent_id": 94,
+                    "is_enabled": true,
+                    "created_at": "2020-06-13T02:59:08.000Z",
+                    "updated_at": "2020-06-13T02:59:08.000Z",
+                    "pivot": {
+                        "discipline_id": 201,
+                        "question_id": 1776
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7301,
+                    "question_id": 1776,
+                    "description": "Laparotomia.",
+                    "explanation": "Perfeito doc! Arrasou!😍 No trauma houve deformação da parede torácica, com elevação da pressão intra-abdominal e lesão diafragmática direita. Na TC podemos vermo fígado invadindo o hemitórax direito. Por meio da laparotomia, podemos verificar e explorar lesões abdominais e lesão do diafragma!",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-13T12:49:10.000Z",
+                    "updated_at": "2021-12-18T15:51:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7302,
+                    "question_id": 1776,
+                    "description": "Arteriografia.",
+                    "explanation": "Falso doc!😋 Poderíamos pensar em realizar uma arteriografia se a lesão tivesse sido na aorta ou em alguma outra artéria importante, mas a TC não evidencia alargamento mediastinal para pensar nessa possibilidade",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-13T12:49:10.000Z",
+                    "updated_at": "2021-12-18T15:51:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7303,
+                    "question_id": 1776,
+                    "description": "Drenagem torácica",
+                    "explanation": "Falso doc!😋 Se realizarmos uma drenagem de tórax nesse paciente haverá um grande risco de lesão do fígado que está invadindo o hemitórax direito",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-13T12:49:10.000Z",
+                    "updated_at": "2021-12-18T15:51:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7304,
+                    "question_id": 1776,
+                    "description": "Toracotomia.",
+                    "explanation": "Falso doc!😋 A toracotomia não é um bom procedimento para abodrar lesões de órgãos abdominais, como o fígado que está invadindo o hemitórax direito. Seria melhor a laparotomia, que é capaz de reparar a lesão diafragmática e reposicionar o fígado!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-13T12:49:10.000Z",
+                    "updated_at": "2021-12-18T15:51:31.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 427,
+                    "file": "1592052220970.jpeg",
+                    "name": "carcinoma.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-06-13T15:43:41.000Z",
+                    "updated_at": "2020-06-13T15:43:41.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1592052220970.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 427,
+                        "question_id": 1776
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 1776,
+                "questionary_id": 237497,
+                "timer": 0
+            }
+        }
+    ]
+}
