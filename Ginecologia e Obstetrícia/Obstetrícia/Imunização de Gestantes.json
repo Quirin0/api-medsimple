@@ -1,0 +1,936 @@
+{
+    "id": 238900,
+    "user_id": 1699,
+    "title": "Imunização de Gestantes",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-06-16T02:41:52.000Z",
+    "updated_at": "2022-06-16T02:41:52.000Z",
+    "study_plan_id": 734,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 8670,
+            "institution_id": 4,
+            "description": "Mulher de 25 anos entra em consultório com comprovação laboratorial e de ultrassonografia de gravidez, porém não possui carteira com seu estado vacinal. Nessa situação, quais vacinas você indicaria para essa gestante, segundo o Ministério da Saúde? ",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-31T00:09:54.000Z",
+            "updated_at": "2021-05-31T00:09:54.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 773,
+                    "title": "Imunização da Gestante",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2021-05-31T00:01:14.000Z",
+                    "updated_at": "2021-05-31T00:01:14.000Z",
+                    "pivot": {
+                        "discipline_id": 773,
+                        "question_id": 8670
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 35559,
+                    "question_id": 8670,
+                    "description": "Antirrábica.",
+                    "explanation": "Falso, doc! \n\nA vacina antirrábica **não é** uma das preconizadas pelo MS para a imunização de gestantes que não possuem carteira vacinal. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:09:54.000Z",
+                    "updated_at": "2021-05-30T21:09:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35560,
+                    "question_id": 8670,
+                    "description": "Hepatite B.",
+                    "explanation": "Certinho, doc!\n\nA vacina da hepatite B é **realmente** uma das três preconizadas pelo MS em caso de desconhecimento do estado vacinal da gestante, ou ausência de vacinação. \n\n- Hey doc, bora lembrar quais são as 3 vacinas preconizadas pelo MS para gestantes? 👇\n- Influenza, hepatite B e dTpa.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-05-30T21:09:55.000Z",
+                    "updated_at": "2021-05-30T21:09:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35561,
+                    "question_id": 8670,
+                    "description": "Varicela",
+                    "explanation": "Falso, doc! \n\nA vacina da varicela **não é** uma das preconizadas pelo MS para a imunização de gestantes que não possuem carteira vacinal. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:09:55.000Z",
+                    "updated_at": "2021-05-30T21:09:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35562,
+                    "question_id": 8670,
+                    "description": "Tríplice viral.",
+                    "explanation": "Falso, doc! \n\nA vacina tríplice viral **não é** uma das preconizadas pelo MS para a imunização de gestantes que não possuem carteira vacinal. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:09:55.000Z",
+                    "updated_at": "2021-05-30T21:09:55.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8670,
+                "questionary_id": 238900,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8671,
+            "institution_id": 4,
+            "description": "Dentre as vacinas abaixo, assinale a única que é RECOMENDADA pelo Ministério da Saúde para a imunização de gestantes. ",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-31T00:12:53.000Z",
+            "updated_at": "2021-05-31T00:19:10.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 773,
+                    "title": "Imunização da Gestante",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2021-05-31T00:01:14.000Z",
+                    "updated_at": "2021-05-31T00:01:14.000Z",
+                    "pivot": {
+                        "discipline_id": 773,
+                        "question_id": 8671
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 35563,
+                    "question_id": 8671,
+                    "description": "Tríplice bacteriana acelular do tipo adulto (dTpa).",
+                    "explanation": "Certinho, doc!\nComo uma revisão desse conceito, novamente temos as três vacinas preconizadas pelo MS para gestantes:\n\n- Influenza;\n- Hepatite B;\n- **dTpa = tríplice bacteriana acelular do tipo adulto.**",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-05-30T21:12:53.000Z",
+                    "updated_at": "2021-05-30T21:19:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35564,
+                    "question_id": 8671,
+                    "description": "Hepatite A.",
+                    "explanation": "Falso, doc! \n\nA **hepatite A** não é uma das três vacinas preconizadas pelo Ministério da Saúde para a imunização de gestantes. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:12:53.000Z",
+                    "updated_at": "2021-05-30T21:19:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35565,
+                    "question_id": 8671,
+                    "description": "Tríplice viral.",
+                    "explanation": "Falso, doc! \n\nA **tríplice viral** não é uma das três vacinas preconizadas pelo Ministério da Saúde para a imunização de gestantes.  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:12:53.000Z",
+                    "updated_at": "2021-05-30T21:19:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35566,
+                    "question_id": 8671,
+                    "description": "Varicela.",
+                    "explanation": "Falso, doc! \n\nA **varicela** não é uma das três vacinas preconizadas pelo Ministério da Saúde para a imunização de gestantes.  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:12:53.000Z",
+                    "updated_at": "2021-05-30T21:19:10.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8671,
+                "questionary_id": 238900,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8672,
+            "institution_id": 4,
+            "description": "Em relação a vacinação das gestantes, assinale a única alternativa CORRETA: ",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-31T00:28:27.000Z",
+            "updated_at": "2021-05-31T00:28:27.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 773,
+                    "title": "Imunização da Gestante",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2021-05-31T00:01:14.000Z",
+                    "updated_at": "2021-05-31T00:01:14.000Z",
+                    "pivot": {
+                        "discipline_id": 773,
+                        "question_id": 8672
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 35567,
+                    "question_id": 8672,
+                    "description": "Não se deve realizar a vacinação para COVID-19 em gestantes em nenhuma ocasião, por ser uma vacina “viva”. ",
+                    "explanation": "Falso, doc!\n\n\nNa verdade, a vacinação de gestantes para a COVID-19 depende da marca da vacina e do risco que a paciente possui de contrair a doença. Como todas as demais vacinações, sempre deve haver um balanceamento entre o risco e os benefícios de sua administração. \n\n\nPorém, esse ainda é um assunto delicado que está sendo cuidadosamente estudado para garantir a segurança da mãe e do feto. 😉",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:28:27.000Z",
+                    "updated_at": "2021-05-30T21:28:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35568,
+                    "question_id": 8672,
+                    "description": "O uso da vacina dTpa durante a gestação é importante para imunizar passivamente o recém-nascido. ",
+                    "explanation": "Certinho, doc!\n\nO uso da vacina dTpa **realmente** é importante de ser realizado em gestantes, para garantir a imunização passiva do feto e do recém-nascido, pelos anticorpos produzidos pela mãe. ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-05-30T21:28:27.000Z",
+                    "updated_at": "2021-05-30T21:28:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35569,
+                    "question_id": 8672,
+                    "description": "As vacinas dTpa, hepatite B e rubéola são recomendadas durante a gestação. ",
+                    "explanation": "Falso, doc!\n\nNa verdade, dentre as citadas pela alternativa, a única que não é recomendada durante a gestação é a **rubéola**. \n\nMinistério da Saúde preconiza a vacinação de Hepatite B, influenza e dTpa.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:28:27.000Z",
+                    "updated_at": "2021-05-30T21:28:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35570,
+                    "question_id": 8672,
+                    "description": "As vacinas que são recomendadas durante a gestação devem ocorrer durante o segundo trimestre de gestação, devido à sua teratogênese comprovada.",
+                    "explanation": "Falso, doc!\n\nNa verdade, as vacinas recomendadas durante a gestação podem ser administradas em diferentes trimestres, dependendo da composição. \n\nE além disso, doc, não existe teratogênese comprovada para a vacinação de gestantes de maneira generalizada, como escrito na alternativa.\n\nPor exemplo, doc, seguindo a Sociedade Brasileira de Imunização, temos as seguintes datas para vacinação de gestantes: 👇\n- dTpa: a partir da 20ª semana;\n- Hepatite B: 0 - 1 - 6 meses;\n- Influenza: dose única anual (mesmo no primeiro trimestre).\n\nDoc, se liga na imagem da SBI. 👇\nFonte: https://sbim.org.br/images/calendarios/calend-sbim-gestante.pdf",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:28:27.000Z",
+                    "updated_at": "2021-05-30T21:28:27.000Z",
+                    "files": [
+                        {
+                            "id": 9707,
+                            "file": "420a4122-d966-44a3-a5f8-9f9e2a292678.jpeg",
+                            "name": "0001.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-31T00:27:52.000Z",
+                            "updated_at": "2021-05-31T00:27:52.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/420a4122-d966-44a3-a5f8-9f9e2a292678.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9707,
+                                "alternative_id": 35570
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8672,
+                "questionary_id": 238900,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8673,
+            "institution_id": 4,
+            "description": "Dentre as vacinas abaixo, assinale a única que é CONTRAINDICADA pela Sociedade Brasileira de Imunizações para gestantes: ",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-31T00:36:02.000Z",
+            "updated_at": "2021-05-31T00:36:02.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 773,
+                    "title": "Imunização da Gestante",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2021-05-31T00:01:14.000Z",
+                    "updated_at": "2021-05-31T00:01:14.000Z",
+                    "pivot": {
+                        "discipline_id": 773,
+                        "question_id": 8673
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 35571,
+                    "question_id": 8673,
+                    "description": "Febre amarela",
+                    "explanation": "Falso, doc!\n\nNa verdade, a vacina contra a **febre amarela** é *recomendada em situações especiais,* segundo a Sociedade Brasileira de Imunizações*.* \n\nOu seja, ainda que normalmente ela seja **contraindicada** para gestantes, em situações em que haja grande risco de infecção, deve-se ponderar sobre sua aplicação. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:36:02.000Z",
+                    "updated_at": "2021-05-30T21:36:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35572,
+                    "question_id": 8673,
+                    "description": "Hepatite B",
+                    "explanation": "Falso, doc!\n\nNa verdade, a vacina contra a **hepatite B** é *recomendada*, segundo a Sociedade Brasileira de Imunizações. \n\nOu seja, a vacina hepatite B **deve ser aplicada** em gestantes não anteriormene vacinadas e suscetíveis à infecção. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:36:02.000Z",
+                    "updated_at": "2021-05-30T21:36:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35573,
+                    "question_id": 8673,
+                    "description": "HPV",
+                    "explanation": "Certinho, doc!\n\nA vacina **HPV** realmente é *contraindicada* pela Sociedade Brasileira de Imunizações. \n\nOu seja, essa vacina  **não deve ser** aplicada na gestação. E caso a gestante tenha iniciado o esquema de doses antes da gestação, deve **suspendê-lo** até o puerpério. \n\n- Doc, bora relembrar esse calendário pela SBI? 👇\n- Fonte: https://sbim.org.br/images/calendarios/calend-sbim-gestante.pdf",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-05-30T21:36:02.000Z",
+                    "updated_at": "2021-05-30T21:36:02.000Z",
+                    "files": [
+                        {
+                            "id": 9707,
+                            "file": "420a4122-d966-44a3-a5f8-9f9e2a292678.jpeg",
+                            "name": "0001.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-31T00:27:52.000Z",
+                            "updated_at": "2021-05-31T00:27:52.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/420a4122-d966-44a3-a5f8-9f9e2a292678.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9707,
+                                "alternative_id": 35573
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 35574,
+                    "question_id": 8673,
+                    "description": "Influenza",
+                    "explanation": "Falso, doc!\n\nNa verdade, a vacina contra a **Influenza** é *recomendada*, segundo a Sociedade Brasileira de Imunizações. \n\nOu seja, a vacina influenza **deve ser aplicada** em gestantes anualmente, ainda que estejam no primeiro trimestre de gestação. \n\nPreferencialmente, recomenda-se a vacina influenza 4V, por conferior maior cobertura das cepas circulantes.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:36:02.000Z",
+                    "updated_at": "2021-05-30T21:36:02.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8673,
+                "questionary_id": 238900,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8674,
+            "institution_id": 4,
+            "description": "Acerca da imunização das gestantes, assinale a única alternativa **INCORRETA:** ",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-31T00:38:50.000Z",
+            "updated_at": "2022-05-02T13:59:45.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 773,
+                    "title": "Imunização da Gestante",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2021-05-31T00:01:14.000Z",
+                    "updated_at": "2021-05-31T00:01:14.000Z",
+                    "pivot": {
+                        "discipline_id": 773,
+                        "question_id": 8674
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 35575,
+                    "question_id": 8674,
+                    "description": "A vacina da Hepatite A é recomendada pela SBI em situações especiais, em duas doses. ",
+                    "explanation": "Falso, doc!\n\nEssa alternativa está correta e o exercício solicita a INCORRETA.\n\nA vacina da Hepatite A é **realmente** recomendada pela SBI em situações especiais, em duas doses. \n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:38:50.000Z",
+                    "updated_at": "2022-05-02T13:59:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35576,
+                    "question_id": 8674,
+                    "description": "A vacina contra a dengue é contraindicada, nunca devendo ser vacinada na gestação.",
+                    "explanation": "Falso, doc! \n\nEssa alternativa está correta e o exercício solicita a INCORRETA.\n\nA vacina contra a dengue é **realmente** contraindicada, nunca devendo ser vacinada na gestação. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:38:50.000Z",
+                    "updated_at": "2022-05-02T13:59:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35577,
+                    "question_id": 8674,
+                    "description": "A vacina dT deve ser aplicada na gestante em três doses, caso nunca tenha sido vacinada ou não possua histórico vacinal.",
+                    "explanation": "Essa está correta Doc! Gestantes que não receberam três doses de vacina contendo toxóide tetânico e diftérico (Td) devem realizar ou completar a série de três vacinações. O esquema preferido em gestantes é no tempo 0, 4 semanas depois e 6 a 12 meses após a dose inicial!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:38:50.000Z",
+                    "updated_at": "2022-05-02T13:59:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35578,
+                    "question_id": 8674,
+                    "description": "A vacina contra febre amarela é contraindicada, e não deve ser administrada durante a gestação. ",
+                    "explanation": "Certinho, doc!\n\nEssa é a alternativa incorreta que o exercício solicita. \n\nNa verdade, a vacina contra febre amarela é uma vacina **recomendada em situações especiais**, isto é, deve ser aplicada quando o risco de infecção e suas complicações são superiores aos possíveis riscos da vacinação em gestantes. Segundo a Sociedade Brasileira de Imunização. ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-05-30T21:38:50.000Z",
+                    "updated_at": "2022-05-02T13:59:45.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8674,
+                "questionary_id": 238900,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8675,
+            "institution_id": 4,
+            "description": "A gravidez é um momento importante na vida de algumas mulheres. Diante disso, assinale a única alternativa INCORRETA sobre a imunização nessa fase da vida.  ",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-31T00:44:01.000Z",
+            "updated_at": "2021-05-31T00:44:01.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 773,
+                    "title": "Imunização da Gestante",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2021-05-31T00:01:14.000Z",
+                    "updated_at": "2021-05-31T00:01:14.000Z",
+                    "pivot": {
+                        "discipline_id": 773,
+                        "question_id": 8675
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 35579,
+                    "question_id": 8675,
+                    "description": "A decisão de vacinação da gestante deve se basear na comparação entre risco e benefício.",
+                    "explanation": "Falso, doc! \n\nEssa alternativa está correta e o exercício solicita a INCORRETA. \n\nA decisão de vacinação da gestante deve **realmente** se basear na comparação entre risco e benefício.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:44:01.000Z",
+                    "updated_at": "2021-05-30T21:44:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35580,
+                    "question_id": 8675,
+                    "description": "As contraindicações indicam grande chance de reação adversa grave, normalmente não administrando a vacina. ",
+                    "explanation": "Falso, doc! \n\nEssa alternativa está correta e o exercício solicita a INCORRETA. \n\nAs contraindicações **realmente** indicam grande chance de reação adversa grave, normalmente não administrando a vacina.  ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:44:01.000Z",
+                    "updated_at": "2021-05-30T21:44:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35581,
+                    "question_id": 8675,
+                    "description": "A alergia a determinada vacina é somente local e manifestada por urticária e inchaços.",
+                    "explanation": "Certinho, doc!\n\nEssa é a alternativa incorreta que o exercício solicita. \n\nNa verdade doc, a alergia a determinada vacina pode ser local **ou sistêmica**, e causar manifestações como urticária, inchaços e **sibilos, dispneia, hipotensão e choque anafilático**, manifestações que podem ser graves em pacientes alérgicos a determinados componentes, por exemplo. ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-05-30T21:44:01.000Z",
+                    "updated_at": "2021-05-30T21:44:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35582,
+                    "question_id": 8675,
+                    "description": "As alergias graves podem ser resultado por antígenos vacinais, proteínas animais residuais, agentes antimicrobianos, preservantes ou outros componentes. ",
+                    "explanation": "Falso, doc! \n\nEssa alternativa está correta e o exercício solicita a INCORRETA.\n\nAs alergias graves **realmente** podem ser resultado por antígenos vacinais, proteínas animais residuais, agentes antimicrobianos, preservantes ou outros componentes.  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:44:01.000Z",
+                    "updated_at": "2021-05-30T21:44:01.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8675,
+                "questionary_id": 238900,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8676,
+            "institution_id": 4,
+            "description": "Sobre a vacinação na gravidez, assinale a alternativa CORRETA: ",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-31T00:49:34.000Z",
+            "updated_at": "2021-05-31T00:49:34.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 773,
+                    "title": "Imunização da Gestante",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2021-05-31T00:01:14.000Z",
+                    "updated_at": "2021-05-31T00:01:14.000Z",
+                    "pivot": {
+                        "discipline_id": 773,
+                        "question_id": 8676
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 35583,
+                    "question_id": 8676,
+                    "description": "A imunização em gestantes é melhor quando feita após da concepção. ",
+                    "explanation": "Falso, doc!\n\nNa verdade, ainda que não existam muitas comprovações para teratogênese de vacinas em gestantes, algumas reações podem ser sérias devido ao período mais delicado que a mulher está passando. \n\nAssim, a imunização em gestantes é sempre melhor se feita **antes** da concepção, pois fornece todos os benefícios para a mãe e o feto, sem trazer prejuízos para a saúde de ambos.\n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:49:34.000Z",
+                    "updated_at": "2021-05-30T21:49:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35584,
+                    "question_id": 8676,
+                    "description": "Os benefícios da vacinação em gestantes é sempre superior aos riscos.. ",
+                    "explanation": "Falso, doc! \n\nNa verdade, os benefícios da vacinação em gestantes somente são superiores aos riscos quando a possibilidade de infecção é alta, colocando a gestante e o feto em perigo. \n\nEsse é o motivo de existirem vacinas contraindicadas e recomendadas em situações especiais para gestantes. 😉",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:49:34.000Z",
+                    "updated_at": "2021-05-30T21:49:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35585,
+                    "question_id": 8676,
+                    "description": "A infecção por determinada doença é um risco para a gestante e para o feto. ",
+                    "explanation": "Certinho, doc!\n\nA infecção por determinada doença é **realmente** um risco para a gestante e para o feto. \n\nAlgumas doenças podem cursar com graves complicações, podendo até mesmo causar morte da gestante e feto. Assim, a vacinação consciente sempre é uma boa opção antes da concepção, e durante a gestação devem ser muito bem observadas.  ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-05-30T21:49:34.000Z",
+                    "updated_at": "2021-05-30T21:49:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35586,
+                    "question_id": 8676,
+                    "description": "A vacinação da gestante não previne a transmissão vertical da infecção. ",
+                    "explanation": "Falso, doc!\n\nNa verdade, a vacinação da gestante realmente previne a transmissão vertical da infecção. Isso é devido a diminuição da carga bacteriana ou viral na mãe, devido aos anticorpos capazes de melhorar a ativação de seu sistema imune. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:49:34.000Z",
+                    "updated_at": "2021-05-30T21:49:34.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8676,
+                "questionary_id": 238900,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8677,
+            "institution_id": 4,
+            "description": "Assinale a única alternativa que NÃO INDICA um dos benefícios da vacinação correta da gestante: ",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-31T00:53:17.000Z",
+            "updated_at": "2021-05-31T00:53:17.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 773,
+                    "title": "Imunização da Gestante",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2021-05-31T00:01:14.000Z",
+                    "updated_at": "2021-05-31T00:01:14.000Z",
+                    "pivot": {
+                        "discipline_id": 773,
+                        "question_id": 8677
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 35587,
+                    "question_id": 8677,
+                    "description": "Imunização da gestante.",
+                    "explanation": "Falso, doc! \n\nA imunização da gestante realmente é um dos benefícios da vacinação correta em gestantes.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:53:17.000Z",
+                    "updated_at": "2021-05-30T21:53:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35588,
+                    "question_id": 8677,
+                    "description": "Prevenção da transmissão vertical da infecção.",
+                    "explanation": "Falso, doc!\n\nA prevenção da transmissão vertical da infecção é **realmente** um dos benefícios da vacinação correta das gestantes. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:53:17.000Z",
+                    "updated_at": "2021-05-30T21:53:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35589,
+                    "question_id": 8677,
+                    "description": "Redução de infecções no feto e lactente.",
+                    "explanation": "Falso, doc!\n\nA redução de infecções no feto e lactente é **realmente** um dos benefícios da vacinação correta da gestante.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:53:17.000Z",
+                    "updated_at": "2021-05-30T21:53:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35590,
+                    "question_id": 8677,
+                    "description": "Maior transferência de células imunes.",
+                    "explanation": "Certinho, doc!\n\nNa verdade, a transferência de células imunes **não ocorre**  durante a gestação. Assim, não ocorre aumento ou diminuição de transferência dessas células, devido a barreira placentária. \n\nAh, doc! Vale mencionar que os **anticorpos** são capazes de ultrapassar a barreira placentária. É por isso que a carteira vacinal em dia da gestante é tão importante! Pois além de prevenir complicações pela infecção durante a gravidez, também imuniza passivamente o feto.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-05-30T21:53:17.000Z",
+                    "updated_at": "2021-05-30T21:53:17.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8677,
+                "questionary_id": 238900,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8678,
+            "institution_id": 4,
+            "description": "Assinale a única alternativa que contém as três vacinas PRECONIZADAS pelo Ministério da Saúde para mulheres grávidas: ",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-31T00:57:29.000Z",
+            "updated_at": "2021-05-31T00:57:29.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 773,
+                    "title": "Imunização da Gestante",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2021-05-31T00:01:14.000Z",
+                    "updated_at": "2021-05-31T00:01:14.000Z",
+                    "pivot": {
+                        "discipline_id": 773,
+                        "question_id": 8678
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 35591,
+                    "question_id": 8678,
+                    "description": "Febre amarela, influenza, dTpa.",
+                    "explanation": "Falso, doc!\n\n\nAinda que as vacinas influenza e dTpa sejam recomendadas pelo MS, a **vacina contra febre amarela** não é recomendada., \n\nA vacina contra febre amarela somente deve ser aplicada em situações especiais, em que o risco de adquirir a doença seja pior do que os possíveis riscos de complicações d a vacinação da gestante.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:57:29.000Z",
+                    "updated_at": "2021-05-30T21:57:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35592,
+                    "question_id": 8678,
+                    "description": "Influenza, hepatite B e dTpa. ",
+                    "explanation": "Certinho, doc!\n\nEssas são **realmente** as três vacinas preconizadas pelo MS para a vacinação de gestantes que não possuem o calendário vacinal completo. ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-05-30T21:57:29.000Z",
+                    "updated_at": "2021-05-30T21:57:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35593,
+                    "question_id": 8678,
+                    "description": "Hepatite B, dT e meningocócica. ",
+                    "explanation": "Falso, doc!\n\nAinda que a hepatite B seja uma das vacinas preconizadas pelo MS, as demais não são. \n\nA **dT** é recomendada pela SBI, mas não se menciona muito sobre ela no MS, então sempre tenhamos atenção! \n\nE a **meningocócica,** segundo a SBI é recomendada somente em situações especiais. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:57:29.000Z",
+                    "updated_at": "2021-05-30T21:57:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35594,
+                    "question_id": 8678,
+                    "description": "Febre amarela, pneumocócica e dTpa.",
+                    "explanation": "Falso, doc!\n\n\nAinda que a dTpa seja preconizada pelo MS, as demais não são. \n\nTanto a vacina de **febre amarela** quanto a **pneumocócica** são recomendadas somente em situações especiais. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-30T21:57:29.000Z",
+                    "updated_at": "2021-05-30T21:57:29.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8678,
+                "questionary_id": 238900,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8679,
+            "institution_id": 4,
+            "description": "Assinale a única alternativa que contém as quatro vacinas CONTRAINDICADAS pela Sociedade Brasileira de Imunizações para gestantes: ",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-30T22:03:48.000Z",
+            "updated_at": "2021-08-21T01:33:46.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 773,
+                    "title": "Imunização da Gestante",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2021-05-31T00:01:14.000Z",
+                    "updated_at": "2021-05-31T00:01:14.000Z",
+                    "pivot": {
+                        "discipline_id": 773,
+                        "question_id": 8679
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 35595,
+                    "question_id": 8679,
+                    "description": "Tríplice bacteriana acelular do tipo adulto, influenza, hepatite A e febre amarela. ",
+                    "explanation": "Falso, doc!\n\nNenhuma dessas vacinas é contraindicada para gestantes pelo SBI. \n\nA **dTpa** e **influenza** são inclusive recomendadas. \n\nA **hepatite A** e **febre amarela** são recomendadas em situações especiais. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-30T22:03:48.000Z",
+                    "updated_at": "2021-08-21T01:33:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35596,
+                    "question_id": 8679,
+                    "description": "dT, pneumocócica, hepatite A e tríplice viral.",
+                    "explanation": "Falso, doc!\n\nEssas não são as 4 vacinas contraindicadas pela SBI para gestantes. \n\nA **dT** pode ser aplicada segundo a SBI, como uma das doses da dTpa. \n\nA **pneumocócica** e **hepatite A** são recomendadas em situações especiais. \n\nA **tríplice viral** *realmente* é contraindicada pela SBI.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-30T22:03:48.000Z",
+                    "updated_at": "2021-08-21T01:33:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35597,
+                    "question_id": 8679,
+                    "description": "Meningocócica, febre amarela, HPV e hepatite B.",
+                    "explanation": "Falso, doc!\n\nEssas não são as 4 vacinas contraindicadas pela SBI para gestantes.  \n\nA **meningocócia** e a **febre amarela** são recomendadas em situações especiais. \n\nA **hepatite B** é recomendada tanto pela SBI quanto pelo MS para aplicação em gestantes. \n\nA **HPV** é *realmente* contraindicada para aplicação em gestantes pelo SBI.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-30T22:03:48.000Z",
+                    "updated_at": "2021-08-21T01:33:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 35598,
+                    "question_id": 8679,
+                    "description": "Tríplice viral, HPV, varicela e dengue.",
+                    "explanation": "Certinho, doc!\n\nEssas são as 4 vacinas **contraindicadas** pela SBI.\n\nA **tríplice viral, HPV** e **varicela** não podem ser aplicadas na gestante, sendo contraindicadas. Porém, podem ser aplicadas no puerpério e durante a amamentação. \n\nJá a **dengue** não pode ser aplicada na gestante, sendo contraindicada! Além disso, também é contraindicada em mulheres soronegativas, que estejam amamentando e em imunodeprimidas. ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-05-30T22:03:48.000Z",
+                    "updated_at": "2021-08-21T01:33:46.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8679,
+                "questionary_id": 238900,
+                "timer": 0
+            }
+        }
+    ]
+}

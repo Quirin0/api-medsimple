@@ -1,49 +1,1713 @@
 {
-    "id": 1699,
-    "name": "Lucas Kauan Guimarães monteiro",
-    "email": "kauangima@gmail.com",
-    "is_admin": false,
-    "is_enabled": true,
-    "created_at": "2021-07-12T01:37:21.000Z",
-    "updated_at": "2021-07-12T01:38:40.000Z",
-    "avatar_id": 15305,
-    "has_bonus": true,
-    "college": "Humanitas ",
-    "college_step": "2° período ",
-    "genre": "male",
-    "is_coworker": false,
-    "avatar": {
-        "id": 15305,
-        "file": "5e92bfe5-58b6-4899-80ff-836f0a33db0d.jpeg",
-        "name": "Avatar MEDsimple",
-        "path": "uploads",
-        "type": "image",
-        "subtype": "jpeg",
-        "created_at": "2021-07-23T00:53:09.000Z",
-        "updated_at": "2021-07-23T00:53:20.000Z",
-        "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/5e92bfe5-58b6-4899-80ff-836f0a33db0d.jpeg",
-        "description": null,
-        "source": null,
-        "overlay_id": null,
-        "user_id": null
-    },
-    "has_active_plan": {
-        "id": 9,
-        "title": "Turma 8 e 9",
-        "valide_for": 280,
-        "is_default": false,
-        "is_lifelong": false,
-        "created_at": "2021-10-18T02:48:33.000Z",
-        "updated_at": "2022-05-12T11:52:26.000Z",
-        "pivot": {
-            "plan_id": 9,
-            "user_id": 1699,
-            "start_at": "2021-10-18T00:03:00.000Z",
-            "end_at": "2022-07-25T23:59:00.000Z",
-            "is_current": true
+    "id": 238878,
+    "user_id": 1699,
+    "title": "Assistência Pré-Natal\t\t",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-06-16T02:34:14.000Z",
+    "updated_at": "2022-06-16T02:34:14.000Z",
+    "study_plan_id": 7,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 1017,
+            "institution_id": 4,
+            "description": "Quantas consultas de pré-natal, no mínimo, devem ser realizadas?",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T16:40:17.000Z",
+            "updated_at": "2022-05-30T10:43:04.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 126,
+                    "title": "Assistência pré-natal\t\t",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T16:32:20.000Z",
+                    "updated_at": "2020-06-01T16:32:20.000Z",
+                    "pivot": {
+                        "discipline_id": 126,
+                        "question_id": 1017
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4175,
+                    "question_id": 1017,
+                    "description": "10 consultas.",
+                    "explanation": "- Falso, Doc! 🤔\n- O Ministério da Saúde recomenda que sejam realizadas, pelo menos, seis consultas de pré-natal.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T13:40:17.000Z",
+                    "updated_at": "2022-05-30T10:43:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4176,
+                    "question_id": 1017,
+                    "description": "4 consultas.",
+                    "explanation": "- Falso, Doc! 🤔\n- O Ministério da Saúde recomenda que sejam realizadas, pelo menos, seis consultas de pré-natal.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T13:40:17.000Z",
+                    "updated_at": "2022-05-30T10:43:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4177,
+                    "question_id": 1017,
+                    "description": "6 consultas.",
+                    "explanation": "- Perfeito, Doc! Arrasou! 😍 \n- O Ministério da Saúde recomenda que sejam realizadas, pelo menos, seis consultas de pré-natal, sendo:\n- Uma consulta no primeiro trimestre; \n- Duas consultas no segundo trimestre; \n- Três consultas no terceiro trimestre de gestação.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-01T13:40:17.000Z",
+                    "updated_at": "2022-05-30T10:43:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4178,
+                    "question_id": 1017,
+                    "description": "8 consultas.",
+                    "explanation": "- Falso, Doc! 🤔\n- O Ministério da Saúde recomenda que sejam realizadas, pelo menos, seis consultas de pré-natal.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T13:40:17.000Z",
+                    "updated_at": "2022-05-30T10:43:04.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1017,
+                "questionary_id": 238878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1018,
+            "institution_id": 4,
+            "description": "Qual destes exames **NÃO** faz parte do pré-natal?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T17:03:48.000Z",
+            "updated_at": "2022-02-24T19:33:33.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 126,
+                    "title": "Assistência pré-natal\t\t",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T16:32:20.000Z",
+                    "updated_at": "2020-06-01T16:32:20.000Z",
+                    "pivot": {
+                        "discipline_id": 126,
+                        "question_id": 1018
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4179,
+                    "question_id": 1018,
+                    "description": "Hemograma",
+                    "explanation": "Verdadeiro, Doc! 😁 É um exame feito na **primeira consulta e outro no 3º trimestre**.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T14:03:48.000Z",
+                    "updated_at": "2022-02-24T19:33:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4180,
+                    "question_id": 1018,
+                    "description": "Glicemia de jejum",
+                    "explanation": "Verdadeiro, Doc! 😁 É um exame feito na **primeira consulta e outro no 3º trimestre**. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T14:03:48.000Z",
+                    "updated_at": "2022-02-24T19:33:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4181,
+                    "question_id": 1018,
+                    "description": "Anti-HIV",
+                    "explanation": "Verdadeiro, Doc! 😁 É um exame feito na **primeira consulta e outro no 3º trimestre**.  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T14:03:48.000Z",
+                    "updated_at": "2022-02-24T19:33:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4182,
+                    "question_id": 1018,
+                    "description": "Teste rápido para rubéola",
+                    "explanation": "Boa doc, essa é a incorreta! 😴. Não está na rotina do pré-natal. Vamos para um mnemônico que vai te ajudar a lembrar de todos os pedidos.👇\n- **TESTAR�**�\n- **T**ipagem sanguínea, Rh;\n- **E**AS e urocultura;\n- **S**exuais(HIV, HBsAG e VDRL);\n- **T**oxoplasmose;\n- **A**nemia(hemograma) e **A**çucar(Glicemia de jejum);\n- **R**epetir no terceiro trimestre.\n- Doc, se liga nessas tabelinha👇\n- Fonte da imagem: https://bvsms.saude.gov.br/bvs/publicacoes/cd04_11.pdf",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-01T14:03:48.000Z",
+                    "updated_at": "2022-02-24T19:33:33.000Z",
+                    "files": [
+                        {
+                            "id": 28642,
+                            "file": "69610c1b-7055-4451-9095-aa6387fb10d0.jpeg",
+                            "name": "00000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-02-24T19:32:48.000Z",
+                            "updated_at": "2022-02-24T19:32:48.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/69610c1b-7055-4451-9095-aa6387fb10d0.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 28642,
+                                "alternative_id": 4182
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1018,
+                "questionary_id": 238878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1019,
+            "institution_id": 4,
+            "description": "Qual destes exames **NÃO é** obrigatório no pré-natal, segundo o Ministério da Saúde? ",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T17:10:51.000Z",
+            "updated_at": "2021-12-13T23:35:35.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 126,
+                    "title": "Assistência pré-natal\t\t",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T16:32:20.000Z",
+                    "updated_at": "2020-06-01T16:32:20.000Z",
+                    "pivot": {
+                        "discipline_id": 126,
+                        "question_id": 1019
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4183,
+                    "question_id": 1019,
+                    "description": "Urinocultura",
+                    "explanation": "É um dos exames obrigatórios, feito no primeiro e terceiro trimestre. **TESTAR. T**ipagem sanguínea, Rh; **E**AS e urocultura; **S**exuais(HIV, HBsAG e VDRL); **T**oxoplasmose; **A**nemia(hemograma) e Açucar(Glicemia de jejum); **R**epetir no terceiro trimestre.  ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T14:10:51.000Z",
+                    "updated_at": "2021-12-13T20:35:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4184,
+                    "question_id": 1019,
+                    "description": "Ultrassonografia obstétrica",
+                    "explanation": "Perfeito doc, arrasou!😎 Segundo o MS, **nã**o **é obrigatóri**o. No SUS, geralmente é feito no segundo trimestre. Lembrando os exames obrigatórios: **TESTAR.** Tipagem sanguínea, Rh;****     EAS e urocultura;****Sexuais(HIV, HBsAG e VDRL);****Toxoplasmose;****Anemia(hemograma) e Açucar(Glicemia de jejum);****Repetir no terceiro trimestre.  ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-01T14:10:51.000Z",
+                    "updated_at": "2021-12-13T20:35:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4185,
+                    "question_id": 1019,
+                    "description": "Sorologia para Toxoplasmose",
+                    "explanation": "É um dos exames obrigatórios do pré-natal. **TESTAR. T**ipagem sanguínea, Rh; **E**AS e urocultura; **S**exuais(HIV, HBsAG e VDRL); **T**oxoplasmose; **A**nemia(hemograma) e Açucar(Glicemia de jejum); **R**epetir no terceiro trimestre.  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T14:10:51.000Z",
+                    "updated_at": "2021-12-13T20:35:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4186,
+                    "question_id": 1019,
+                    "description": "Sorologia para hepatite B",
+                    "explanation": "É um dos exames obrigatórios feito no primeiro e terceiro semestre. Lembrando dos testes obrigatórios: **TESTAR. T**ipagem sanguínea, Rh; **E**AS e urocultura; **S**exuais(HIV, HBsAG e VDRL); **T**oxoplasmose; **A**nemia(hemograma) e Açucar(Glicemia de jejum); **R**epetir no terceiro trimestre.  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T14:10:51.000Z",
+                    "updated_at": "2021-12-13T20:35:35.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1019,
+                "questionary_id": 238878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1020,
+            "institution_id": 4,
+            "description": "Assinale a alternativa **CORRETA:**",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T17:42:37.000Z",
+            "updated_at": "2022-02-25T12:27:17.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 126,
+                    "title": "Assistência pré-natal\t\t",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T16:32:20.000Z",
+                    "updated_at": "2020-06-01T16:32:20.000Z",
+                    "pivot": {
+                        "discipline_id": 126,
+                        "question_id": 1020
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4187,
+                    "question_id": 1020,
+                    "description": "Uma paciente secundigesta teve dois partos",
+                    "explanation": "Falso, Doc! 😋 O sufixo “gesta” refere-se ao **número de gestações e não ao número de parto**s. Uma paciente secundigesta teve duas gestações não importando a duração ou o número de fetos!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T14:42:38.000Z",
+                    "updated_at": "2022-02-25T12:27:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4188,
+                    "question_id": 1020,
+                    "description": "Uma paciente na primeira gravidez com parto gemelar vai ser: gesta II, para II",
+                    "explanation": "Falso, Doc! 😋 A paridade não leva em consideração **o número de fetos nascidos em cada parto**. O sufixo \"gesta\" também não leva em conta **número de fetos em cada uma delas**.\n- **💡** O correto seri**a Gesta I; Para** I",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T14:42:38.000Z",
+                    "updated_at": "2022-02-25T12:27:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4189,
+                    "question_id": 1020,
+                    "description": "Paciente na segunda gravidez, com um aborto prévio: gesta II; para 0",
+                    "explanation": "Perfeito, Doc! Arrasou! 😍 O sufixo “gesta” refere-se ao número de gestações que a paciente **já apresento**u. O sufixo “para” se refere ao número de gestações **com viabilidade fetal**.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-01T14:42:38.000Z",
+                    "updated_at": "2022-02-25T12:27:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4190,
+                    "question_id": 1020,
+                    "description": "As melhores condições biológicas para gravidez estão entre 14 e 18 anos",
+                    "explanation": "Falso, Doc! 😋 As melhores condições biológicas para gravidez estão entre **18 e 35 ano**s. Paciente com menos de 16 ou mais de 35 possuem maior risco de **disfunções gestacionais**.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T14:42:38.000Z",
+                    "updated_at": "2022-02-25T12:27:17.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1020,
+                "questionary_id": 238878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1022,
+            "institution_id": 4,
+            "description": "A partir de quantas semanas é possível auscultar os batimentos cardíacos fetais?",
+            "difficulty": "easy",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T19:48:58.000Z",
+            "updated_at": "2022-02-25T12:31:54.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 126,
+                    "title": "Assistência pré-natal\t\t",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T16:32:20.000Z",
+                    "updated_at": "2020-06-01T16:32:20.000Z",
+                    "pivot": {
+                        "discipline_id": 126,
+                        "question_id": 1022
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4195,
+                    "question_id": 1022,
+                    "description": "10-12 semanas pelo sonar e 20 semanas pelo estetoscópio de Pinard",
+                    "explanation": "Perfeito doc! Saca só👇\n- Sonar: **10-12 semanas**;\n- Estetoscópio de Pinard: **20 semanas.**\n- E faz sentido, já que o Pinard é um instrumento muito mais rústico que o sonar.\n- 💡Lembre que o **Son**o do bebê é às **12h. (Sonar = Sono**)\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-01T16:48:58.000Z",
+                    "updated_at": "2022-02-25T12:31:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4196,
+                    "question_id": 1022,
+                    "description": "6-8 semanas pelo sonar e 16 semanas pelo estetoscópio de Pinard",
+                    "explanation": "❤ Cardiofetais; Sonar: **10-12 semanas**; Estetoscópio de Pinard: **20 semanas.**  💡 Confira a resposta e o mnemônico na alternativa A",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T16:48:58.000Z",
+                    "updated_at": "2022-02-25T12:31:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4197,
+                    "question_id": 1022,
+                    "description": "20-22 semanas pelo sonar e 12 semanas pelo estetoscópio de Pinard",
+                    "explanation": "Falso, Doc! 😋 Sonar: **10-12 semana**s; Estetoscópio de Pinard: **20 semanas**. \n\n💡 Confira a resposta e o mnemônico na alternativa A",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T16:48:59.000Z",
+                    "updated_at": "2022-02-25T12:31:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4198,
+                    "question_id": 1022,
+                    "description": "10-12 semanas pelo sonar e 24 semanas pelo estetoscópio de Pinard",
+                    "explanation": "Falso, Doc! 😋 Sonar: **10-12 semana**s; Estetoscópio de Pinard: **20 semanas**. \n\n💡 Confira a resposta e o mnemônico na alternativa A",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T16:48:59.000Z",
+                    "updated_at": "2022-02-25T12:31:54.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1022,
+                "questionary_id": 238878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1025,
+            "institution_id": 4,
+            "description": "Qual dessas vacinas é **CONTRAINDICADA** na gestação?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T20:40:44.000Z",
+            "updated_at": "2022-02-25T12:38:01.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 126,
+                    "title": "Assistência pré-natal\t\t",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T16:32:20.000Z",
+                    "updated_at": "2020-06-01T16:32:20.000Z",
+                    "pivot": {
+                        "discipline_id": 126,
+                        "question_id": 1025
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4207,
+                    "question_id": 1025,
+                    "description": "Influenza",
+                    "explanation": "Falso, Doc! 😋 É recomendada **a todas as gestante**s **em qualquer período gestacional**!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T17:40:44.000Z",
+                    "updated_at": "2022-02-25T12:38:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4208,
+                    "question_id": 1025,
+                    "description": "Rubéola",
+                    "explanation": "Perfeito, Doc! Arrasou! 😍 É uma **vacina de vírus vivo atenuad**o, por isso, é indicado que a gestante se vacine **antes da gestaçã**o e espere, pelo menos, **1 mê**s para engravidar. Lembrando que, durante a gestação, estão contraindicadas as vacinas de microrganismos atenuados.\n\n💡Mas Doc, como faz para lembrar das vacinas de microorganismos atenuados?👇\n\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-01T17:40:44.000Z",
+                    "updated_at": "2022-02-25T12:38:01.000Z",
+                    "files": [
+                        {
+                            "id": 254,
+                            "file": "1591032962508.jpeg",
+                            "name": "bora4v.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-01T20:36:02.000Z",
+                            "updated_at": "2020-06-01T20:36:02.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591032962508.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 254,
+                                "alternative_id": 4208
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4209,
+                    "question_id": 1025,
+                    "description": "Tétano",
+                    "explanation": "Falso, Doc! 😋 Mesmo com o **esquema completo de imunização para o tétan**o, as pacientes devem se vacinar com uma dose de dTpa a partir da 20ª semana de gestação. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T17:40:44.000Z",
+                    "updated_at": "2022-02-25T12:38:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4210,
+                    "question_id": 1025,
+                    "description": "Hepatite B",
+                    "explanation": "Falso, Doc! 😋 É recomendada para evitar a contaminação d**a gestante e prevenir a transmissão vertica**l.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T17:40:44.000Z",
+                    "updated_at": "2022-02-25T12:38:01.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1025,
+                "questionary_id": 238878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1053,
+            "institution_id": 12,
+            "description": "O atendimento pré-natal é uma excelente oportunidade de avaliação global da saúde da mulher e, dentro dessa perspectiva, uma oportunidade de atualização do calendário vacinal, Entre as vacinas indicadas para uso na gravidez, encontra-se:  ",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T01:10:31.000Z",
+            "updated_at": "2022-02-25T12:58:13.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 12,
+                "title": "SES-RJ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T18:11:22.000Z",
+                "updated_at": "2020-05-17T18:11:22.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 126,
+                    "title": "Assistência pré-natal\t\t",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T16:32:20.000Z",
+                    "updated_at": "2020-06-01T16:32:20.000Z",
+                    "pivot": {
+                        "discipline_id": 126,
+                        "question_id": 1053
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4324,
+                    "question_id": 1053,
+                    "description": "rubéola",
+                    "explanation": "Falso, Doc! 😋 **Rubéol**a é uma vacina de vírus atenuado, ou seja, contraindicada na gravidez. Para gravar todos os microrganismos atenuados👇👇👇👇👇.\n\n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T22:10:31.000Z",
+                    "updated_at": "2022-02-25T12:58:13.000Z",
+                    "files": [
+                        {
+                            "id": 263,
+                            "file": "1591049147293.jpeg",
+                            "name": "bora4v.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-02T01:05:47.000Z",
+                            "updated_at": "2020-06-02T01:05:47.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591049147293.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 263,
+                                "alternative_id": 4324
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4325,
+                    "question_id": 1053,
+                    "description": "sarampo",
+                    "explanation": " Falso, Doc! 😋 **Saramp**o é uma vacina de vírus atenuado, ou seja, contraindicada na gravidez. Para gravar todos os microrganismos atenuados👇👇👇👇👇. \n\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T22:10:31.000Z",
+                    "updated_at": "2022-02-25T12:58:13.000Z",
+                    "files": [
+                        {
+                            "id": 266,
+                            "file": "1591049385154.jpeg",
+                            "name": "bora4v.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-02T01:09:45.000Z",
+                            "updated_at": "2020-06-02T01:09:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591049385154.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 266,
+                                "alternative_id": 4325
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4326,
+                    "question_id": 1053,
+                    "description": "caxumba",
+                    "explanation": "Falso, Doc! 😋 **Caxumb**a é uma vacina de vírus atenuado, ou seja, contraindicada na gravidez. Para gravar todos os microrganismos atenuados👇👇👇👇👇 \n\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T22:10:31.000Z",
+                    "updated_at": "2022-02-25T12:58:13.000Z",
+                    "files": [
+                        {
+                            "id": 265,
+                            "file": "1591049248004.jpeg",
+                            "name": "bora4v.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-02T01:07:28.000Z",
+                            "updated_at": "2020-06-02T01:07:28.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591049248004.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 265,
+                                "alternative_id": 4326
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4327,
+                    "question_id": 1053,
+                    "description": "influenza ",
+                    "explanation": "Excelente, Doc😍! A vacina da influenza é uma vacina indicada na gestação. Outras vacinas também indicadas são a da hepatite B e a dTpa, como ilustrado no calendário vacinal da gestante abaixo👇\n\nFonte da imagem: https://sbim.org.br/images/calendarios/calend-sbim-gestante.pdf",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-01T22:10:31.000Z",
+                    "updated_at": "2022-02-25T12:58:13.000Z",
+                    "files": [
+                        {
+                            "id": 28671,
+                            "file": "8e0a54f2-269e-4856-b89e-c72cbcbc8f83.jpeg",
+                            "name": "00000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-02-25T12:35:25.000Z",
+                            "updated_at": "2022-02-25T12:35:25.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8e0a54f2-269e-4856-b89e-c72cbcbc8f83.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 28671,
+                                "alternative_id": 4327
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1053,
+                "questionary_id": 238878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1021,
+            "institution_id": 4,
+            "description": "Sobre as manobras de Leopold, assinale a alternativa **CORRETA:**",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T17:58:46.000Z",
+            "updated_at": "2022-02-25T12:29:56.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 126,
+                    "title": "Assistência pré-natal\t\t",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T16:32:20.000Z",
+                    "updated_at": "2020-06-01T16:32:20.000Z",
+                    "pivot": {
+                        "discipline_id": 126,
+                        "question_id": 1021
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4191,
+                    "question_id": 1021,
+                    "description": "Primeiro tempo - Determina a posição fetal",
+                    "explanation": "Falso, Doc! 😋 Doc, na primeira manobra de Leopold, o observador **delimita o fundo de útero e observa qual pólo fetal que o ocup**a. Pra nunca mais esquecer desse tema. \n\n💡Use o mnemônico \"senta pai\", ou melhor, **SIT PAI. Situação(1), Posição(2), Apresentação(3) e Insinuação(4)**. Está na ordem dos tempos da manobra de Leopold.\n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T14:58:46.000Z",
+                    "updated_at": "2022-02-25T12:29:56.000Z",
+                    "files": [
+                        {
+                            "id": 250,
+                            "file": "1591023037710.jpeg",
+                            "name": "sitpai.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-01T17:50:38.000Z",
+                            "updated_at": "2020-06-01T17:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591023037710.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 250,
+                                "alternative_id": 4191
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4192,
+                    "question_id": 1021,
+                    "description": "Segundo Tempo - Determina a apresentação fetal",
+                    "explanation": "Falso, Doc! 😋 Na segunda manobra, deslizam-se as mãos do fundo em direção ao pólo inferior para identificar o **dorso fetal de um lado e os membros do outro**. Determina a **posição fetal**.\n\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T14:58:46.000Z",
+                    "updated_at": "2022-02-25T12:29:56.000Z",
+                    "files": [
+                        {
+                            "id": 251,
+                            "file": "1591023192348.jpeg",
+                            "name": "sitpai.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-01T17:53:12.000Z",
+                            "updated_at": "2020-06-01T17:53:12.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591023192348.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 251,
+                                "alternative_id": 4192
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4193,
+                    "question_id": 1021,
+                    "description": "Terceiro Tempo - Posição fetal",
+                    "explanation": "Falso, Doc! 😋 Na terceira manobra, usa-se o polegar e o dedo indicador para verificar o grau de penetração da apresentação. Identifica a **apresentação fetal**. \n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T14:58:46.000Z",
+                    "updated_at": "2022-02-25T12:29:56.000Z",
+                    "files": [
+                        {
+                            "id": 252,
+                            "file": "1591023328816.jpeg",
+                            "name": "sitpai.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-01T17:55:29.000Z",
+                            "updated_at": "2020-06-01T17:55:29.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591023328816.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 252,
+                                "alternative_id": 4193
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4194,
+                    "question_id": 1021,
+                    "description": "Quarto tempo - Insinuação fetal",
+                    "explanation": "Perfeito, Doc! Arrasou! 😍 Na quarta manobra, tentamos penetrar na pelve com os dedos para averiguar o grau de penetração no estreito superior da bacia. Essa manobra identifica a **insinuação fetal.** \n\n💡Doc, se liga nesse super macete MEDsimple👇\n\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-01T14:58:46.000Z",
+                    "updated_at": "2022-02-25T12:29:56.000Z",
+                    "files": [
+                        {
+                            "id": 253,
+                            "file": "1591023434936.jpeg",
+                            "name": "sitpai.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-01T17:57:15.000Z",
+                            "updated_at": "2020-06-01T17:57:15.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591023434936.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 253,
+                                "alternative_id": 4194
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1021,
+                "questionary_id": 238878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1023,
+            "institution_id": 4,
+            "description": "Sobre a nutrição no pré-natal, de acordo com o Ministério da Saúde, assinale a **INCORRETA:**",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T17:00:55.000Z",
+            "updated_at": "2022-05-16T19:00:04.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 126,
+                    "title": "Assistência pré-natal\t\t",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T16:32:20.000Z",
+                    "updated_at": "2020-06-01T16:32:20.000Z",
+                    "pivot": {
+                        "discipline_id": 126,
+                        "question_id": 1023
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4199,
+                    "question_id": 1023,
+                    "description": "Recomenda-se uma reposição de ferro elementar de 30-60 mg/dia",
+                    "explanation": "Verdadeiro, Doc! 😁 Isso mesmo. \n- É recomendado uma dose de 30-60mg de ferro elementar do momento do diagnóstico da gravidez até o 3 meses após o parto.\n- Importante lembrar que isso representa 150-300 gotas de sulfato ferroso (que contém 20% de ferro elementar)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T17:00:55.000Z",
+                    "updated_at": "2022-05-16T19:00:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4200,
+                    "question_id": 1023,
+                    "description": "A reposição de ácido fólico é recomendada apenas a partir do diagnóstico de gravidez",
+                    "explanation": "Boa doc, essa é a incorreta! 😴. \n- A reposição de ácido fólico é indicada cerca de t**rês meses antes da concepção.** É feito com uma dose de 0**,4mg/dia.** \n- Essa suplementação é capaz de reduzir a incidência de defeitos do tubo neural e abortamento. Em pacientes de alto risco para má formações, faz-se o uso de 4mg/dia de ácido fólico. Se liga nesse quadrinho Doc👇\n- Fonte: [https://aps.bvs.br/aps/como-deve-ser-a-prescricao-de-acido-folico-e-sulfato-ferroso-durante-a-gestacao/](https://aps.bvs.br/aps/como-deve-ser-a-prescricao-de-acido-folico-e-sulfato-ferroso-durante-a-gestacao/)",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-01T17:00:55.000Z",
+                    "updated_at": "2022-05-16T19:00:04.000Z",
+                    "files": [
+                        {
+                            "id": 28639,
+                            "file": "2e6343a3-1d39-4f85-8d79-d3d4f30817f0.png",
+                            "name": "bg1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-02-24T19:11:43.000Z",
+                            "updated_at": "2022-02-24T19:11:43.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2e6343a3-1d39-4f85-8d79-d3d4f30817f0.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 28639,
+                                "alternative_id": 4200
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4201,
+                    "question_id": 1023,
+                    "description": "O tabagismo é proibido na gestação",
+                    "explanation": "Verdadeiro, Doc! 😁 Está relacionado a **má-formações e óbito fetal**. A ingestão de bebidas alcoólicas também é proibida durante esse período, não existindo dose segura de ingestão.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T17:00:55.000Z",
+                    "updated_at": "2022-05-16T19:00:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4202,
+                    "question_id": 1023,
+                    "description": "Existe um aumento da demanda de cálcio, mas isso pode ser corrigido com a alimentação",
+                    "explanation": "Verdadeiro, Doc! 😁 A demanda de cálcio aumenta **1,5x durante a gestaçã**o. Por isso, a ingesta de alimentos ricos em cálcio deve ser estimulada.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T17:00:55.000Z",
+                    "updated_at": "2022-05-16T19:00:04.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1023,
+                "questionary_id": 238878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1024,
+            "institution_id": 4,
+            "description": "Sobre a vacinação do tétano durante a gestação, assinale a **CORRETA:**",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T20:30:31.000Z",
+            "updated_at": "2022-04-11T19:52:52.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 126,
+                    "title": "Assistência pré-natal\t\t",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T16:32:20.000Z",
+                    "updated_at": "2020-06-01T16:32:20.000Z",
+                    "pivot": {
+                        "discipline_id": 126,
+                        "question_id": 1024
+                    }
+                },
+                {
+                    "id": 1162,
+                    "title": "Tétano",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2022-04-11T19:35:43.000Z",
+                    "updated_at": "2022-04-11T19:35:43.000Z",
+                    "pivot": {
+                        "discipline_id": 1162,
+                        "question_id": 1024
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4203,
+                    "question_id": 1024,
+                    "description": "Esquema completo de dT (três doses) - não precisa receber vacina",
+                    "explanation": "Falso, Doc! 😋 Mesmo com o esquema completo, a paciente deverá sempre receber uma dose de dTpa a partir da **20ª semana de gestação**.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T17:30:32.000Z",
+                    "updated_at": "2022-04-11T19:52:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4204,
+                    "question_id": 1024,
+                    "description": "Esquema incompleto de dT (duas doses): administrar uma dose de dTpa a partir da 20ª semana de gestação.",
+                    "explanation": "Perfeito, Doc! Arrasou! 😍 Lembre-se que **sempr**e vamos administrar a dTpa a partir da 20ª semana de gestação. Nesse caso, estamos também completando o esquema imunológico da paciente. Resuminho👇\n- 💡Esquema incompleto de dT (uma dose): administra**r uma dose de dT e uma de dTpa a partir da 20ª semana d**e gestação.\n- 💡Esquema incompleto de dT (duas doses): administra**r uma dose de dTpa a partir da 20ª semana de gestação**.\n- 💡Esquema completo de dT (três doses): administra**r uma dose de dTpa a partir da 20ª semana de gestação**.\n- Doc, para nunca mais esquecer, se liga nessa tabelinha das vacinas recomendadas para gestantes👇\n- Fonte da imagem: https://sbim.org.br/images/calendarios/calend-sbim-gestante.pdf",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-01T17:30:32.000Z",
+                    "updated_at": "2022-04-11T19:52:52.000Z",
+                    "files": [
+                        {
+                            "id": 28671,
+                            "file": "8e0a54f2-269e-4856-b89e-c72cbcbc8f83.jpeg",
+                            "name": "00000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-02-25T12:35:25.000Z",
+                            "updated_at": "2022-02-25T12:35:25.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8e0a54f2-269e-4856-b89e-c72cbcbc8f83.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 28671,
+                                "alternative_id": 4204
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4205,
+                    "question_id": 1024,
+                    "description": "Esquema incompleto de dT (uma dose): administrar duas dose de dT e uma de dTpa a partir da 20ª semana de gestação.",
+                    "explanation": "Falso, Doc! 😋 Na realidade, aqui temos que completar **as três dose**s necessárias para a proteção imunológica. Por isso, aplicamos **uma dose de dT e uma de dTpa**.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T17:30:32.000Z",
+                    "updated_at": "2022-04-11T19:52:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4206,
+                    "question_id": 1024,
+                    "description": "Esquema incompleto de dT (duas doses): administrar uma dose de dT e uma de dTpa a partir da 20ª semana de gestação.",
+                    "explanation": "Falso, Doc! 😋 Na realidade, aqui temos que completar **as três dose**s necessárias para a proteção imunológica. Por isso, aplicamos **uma dose de dTpa**. \n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T17:30:32.000Z",
+                    "updated_at": "2022-04-11T19:52:52.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1024,
+                "questionary_id": 238878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1027,
+            "institution_id": 4,
+            "description": "Mulher, 30a, G1P0C0A0, inicia pré-natal com idade gestacional de 10 semanas. Foi orientada a coletar exames de rotina pré-natal, iniciar suplementação de ferro e a atualização do calendário vacinal. Na avaliação da carteira de vacinação foi observado que a paciente não possui vacinação para o tétano. Trabalha em uma universidade na qual houve um surto recente de caxumba. A ORIENTAÇÃO COM RELAÇÃO ÀS IMUNIZAÇÕES NESTE CASO É:\n\n*questão modificada**\n",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T21:34:36.000Z",
+            "updated_at": "2022-02-25T12:40:56.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 126,
+                    "title": "Assistência pré-natal\t\t",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T16:32:20.000Z",
+                    "updated_at": "2020-06-01T16:32:20.000Z",
+                    "pivot": {
+                        "discipline_id": 126,
+                        "question_id": 1027
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4215,
+                    "question_id": 1027,
+                    "description": "Uma dose de dTPa; vacina para influenza; vacina para caxumba (SCR), vacina meningocócica ACWY. ",
+                    "explanation": "Falso, Doc! 😋 Temos que completar o esquema vacinal para o tétano. Além disso, a vacina para caxumba é **contraindicada na gestaçã**o, já que estamos falando de um microrganismo atenuado.\n\nVacinas de microrganismos atenuados👇👇👇👇\n\n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T18:34:36.000Z",
+                    "updated_at": "2022-02-25T12:40:56.000Z",
+                    "files": [
+                        {
+                            "id": 255,
+                            "file": "1591035922770.jpeg",
+                            "name": "bora4v.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-01T21:25:23.000Z",
+                            "updated_at": "2020-06-01T21:25:23.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591035922770.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 255,
+                                "alternative_id": 4215
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4216,
+                    "question_id": 1027,
+                    "description": "Vacina para influenza; três doses de dT; vacina para hepatite A; se anti-HbsAg negativo, vacina para hepatite B. ",
+                    "explanation": "Falso, Doc! 😋 **São duas doses de dT e a última de dTp**a(isto é, vacina da pertussis acelular). As outras vacinas podem ser administradas na gestação.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T18:34:36.000Z",
+                    "updated_at": "2022-02-25T12:40:56.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4217,
+                    "question_id": 1027,
+                    "description": "Uma dose de dTPa; vacina para caxumba (SCR), vacina para varicela e febre amarela, se o risco de infecção supera os riscos potenciais da vacinação.",
+                    "explanation": "Falso, Doc! 😋 **São duas doses de dT e a última de dTp**a. Além disso, a vacina para caxumba, varicela e febre amarela são **contraindicadas na gestaçã**o, já que estamos falando de um microrganismo atenuado. Vacinas de microrganismos atenuados👇👇👇👇 \n\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T18:34:36.000Z",
+                    "updated_at": "2022-02-25T12:40:56.000Z",
+                    "files": [
+                        {
+                            "id": 256,
+                            "file": "1591036166024.jpeg",
+                            "name": "bora4v.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-01T21:29:26.000Z",
+                            "updated_at": "2020-06-01T21:29:26.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591036166024.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 256,
+                                "alternative_id": 4217
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4218,
+                    "question_id": 1027,
+                    "description": "Esquema completo para tétano com três doses, sendo a última de dTPa; vacina para influenza; se anti-HbsAg negativo, vacina para hepatite B.",
+                    "explanation": "Excelente, Doc😍 Temos que administrar **duas doses de dT e uma (última) de dTp**a, já que a paciente não tem doses administradas do esquema vacinal do tétano. As outras vacinas (influenza e hepatite B) são indicadas para a gestação. Se liga no calendário vacinal da gestante Doc👇\n\nFonte da imagem: https://sbim.org.br/images/calendarios/calend-sbim-gestante.pdf\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-01T18:34:36.000Z",
+                    "updated_at": "2022-02-25T12:40:56.000Z",
+                    "files": [
+                        {
+                            "id": 28671,
+                            "file": "8e0a54f2-269e-4856-b89e-c72cbcbc8f83.jpeg",
+                            "name": "00000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-02-25T12:35:25.000Z",
+                            "updated_at": "2022-02-25T12:35:25.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8e0a54f2-269e-4856-b89e-c72cbcbc8f83.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 28671,
+                                "alternative_id": 4218
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1027,
+                "questionary_id": 238878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1039,
+            "institution_id": 11,
+            "description": "A assistência ao pré-natal nas gestações saudáveis é fundamental, pois garante o bem estar materno-fetal. O Ministério da Saúde recomenda solicitar os seguintes exames:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T23:36:22.000Z",
+            "updated_at": "2022-02-25T12:50:38.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 11,
+                "title": "SUS-SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T17:55:16.000Z",
+                "updated_at": "2020-05-17T17:55:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 126,
+                    "title": "Assistência pré-natal\t\t",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T16:32:20.000Z",
+                    "updated_at": "2020-06-01T16:32:20.000Z",
+                    "pivot": {
+                        "discipline_id": 126,
+                        "question_id": 1039
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4263,
+                    "question_id": 1039,
+                    "description": " ferritina, glicemia de jejum, insulina e cálcio.",
+                    "explanation": "Falso, Doc! 😋 Ferritina, cálcio e insulina não são necessários. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T20:36:22.000Z",
+                    "updated_at": "2022-02-25T12:50:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4264,
+                    "question_id": 1039,
+                    "description": "colesterol total e frações, triglicérides, TSH e hemograma completo.",
+                    "explanation": "Falso, Doc! 😋 CT, triglicérides e TSH não fazem parte do pré-natal.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T20:36:22.000Z",
+                    "updated_at": "2022-02-25T12:50:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4265,
+                    "question_id": 1039,
+                    "description": "sorologia para hepatite B, VDRL, teste rápido de HIV, tipagem sanguínea",
+                    "explanation": "Perfeito, Doc! Arrasou! 😍 Todos esses são exames solicitados no pré-natal.\n- 👇Doc, para não esquecer os testes do pré-natal: **TESTAR**.\n- **T**ipagem sanguínea, Rh;\n- **E**AS e urocultura;\n- **S**exuais(HIV, HBsAG e VDRL);\n- **T**oxoplasmose;\n- **A**nemia(hemograma) e Açucar (Glicemia de jejum);\n- **R**epetir no terceiro trimestre.   \n- Se liga nesse esquema Doc👇\n- Fonte da imagem: https://bvsms.saude.gov.br/bvs/publicacoes/cd04_11.pdf\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-01T20:36:22.000Z",
+                    "updated_at": "2022-02-25T12:50:38.000Z",
+                    "files": [
+                        {
+                            "id": 28642,
+                            "file": "69610c1b-7055-4451-9095-aa6387fb10d0.jpeg",
+                            "name": "00000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-02-24T19:32:48.000Z",
+                            "updated_at": "2022-02-24T19:32:48.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/69610c1b-7055-4451-9095-aa6387fb10d0.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 28642,
+                                "alternative_id": 4265
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4266,
+                    "question_id": 1039,
+                    "description": "tipagem sanguínea, sorologia para hepatite B, transaminases hepáticas",
+                    "explanation": "Falso, Doc! 😋 Transaminases não são solicitadas no pré-natal.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T20:36:22.000Z",
+                    "updated_at": "2022-02-25T12:50:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4267,
+                    "question_id": 1039,
+                    "description": "sódio, potássio, creatinina, VDRL, teste rápido de HIV, TSH",
+                    "explanation": "Falso, Doc! 😋 Sódio, potássio e TSH não são solicitados de rotina no pré-natal. ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-06-01T20:36:22.000Z",
+                    "updated_at": "2022-02-25T12:50:38.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1039,
+                "questionary_id": 238878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1052,
+            "institution_id": 11,
+            "description": "Gestante de 13 semanas chega ao pré-natal sem queixas. O médico não consegue ouvir os batimentos cardíacos fetais com o Pinard. É **CORRETO** afirmar que os batimentos não estão audíveis pois:\n",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T01:04:18.000Z",
+            "updated_at": "2022-02-25T12:53:01.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 11,
+                "title": "SUS-SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T17:55:16.000Z",
+                "updated_at": "2020-05-17T17:55:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 126,
+                    "title": "Assistência pré-natal\t\t",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T16:32:20.000Z",
+                    "updated_at": "2020-06-01T16:32:20.000Z",
+                    "pivot": {
+                        "discipline_id": 126,
+                        "question_id": 1052
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4319,
+                    "question_id": 1052,
+                    "description": "com 13 semanas, o coração fetal só é audível por meio de ultrassonografia com doppler. ",
+                    "explanation": "Falso, Doc! 😋 Através da ultrassonografia com doppler, o coração pode ser auscultado com **6 semana**s, já o sonar pode detectar os batimentos fetais com **10-12 semanas**. Por isso a alternativa está incorreta.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T22:04:19.000Z",
+                    "updated_at": "2022-02-25T12:53:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4320,
+                    "question_id": 1052,
+                    "description": "nessa idade gestacional a ausculta fetal deve ser feita com o sonar. ",
+                    "explanation": "Exatamente, Doc😍 Devemos acalmar a mãe, já que o coração só vai ser auscultado com o Pinard na 20ª semana. Saca só👇\n- **USG doppler =** 6 semanas\n- **Sonar =** 10-12 semanas\n- **Pinard =** 20 semanas",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-01T22:04:19.000Z",
+                    "updated_at": "2022-02-25T12:53:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4321,
+                    "question_id": 1052,
+                    "description": "deve ter ocorrido óbito fetal. ",
+                    "explanation": "Falso, Doc! 😋 Não podemos afirmar isso, já que o coração só vai ser auscultado com o Pinard na **20ª semana**. \n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T22:04:19.000Z",
+                    "updated_at": "2022-02-25T12:53:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4322,
+                    "question_id": 1052,
+                    "description": "o feto deve estar em apresentação anômala.",
+                    "explanation": "Falso, Doc! 😋 Não é a hipótese mais provável, já que o coração só vai ser auscultado com o Pinard na **20ª semana**.   \n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T22:04:19.000Z",
+                    "updated_at": "2022-02-25T12:53:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4323,
+                    "question_id": 1052,
+                    "description": "o útero deve ser retrovertido.",
+                    "explanation": "Falso, Doc! 😋 Não é a hipótese mais provável, já que o coração só vai ser auscultado com o Pinard na **20ª semana**.",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-06-01T22:04:19.000Z",
+                    "updated_at": "2022-02-25T12:53:01.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1052,
+                "questionary_id": 238878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1056,
+            "institution_id": 17,
+            "description": "Gestante de 11 semanas, tem resultado de sorologia para toxoplasmose mostrando IgM positiva, IgG positiva com baixa avidez. Indica-se:",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T22:36:35.000Z",
+            "updated_at": "2022-02-25T12:47:18.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 17,
+                "title": "HIAE",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T14:14:57.000Z",
+                "updated_at": "2020-05-18T14:14:57.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 126,
+                    "title": "Assistência pré-natal\t\t",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T16:32:20.000Z",
+                    "updated_at": "2020-06-01T16:32:20.000Z",
+                    "pivot": {
+                        "discipline_id": 126,
+                        "question_id": 1056
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4337,
+                    "question_id": 1056,
+                    "description": "sulfadiazina + azitromicina",
+                    "explanation": "Falso, Doc! 😋 Não é um **esquema antibiótic**o utilizado para o tratamento da toxoplasmose!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T22:36:35.000Z",
+                    "updated_at": "2022-02-25T12:47:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4338,
+                    "question_id": 1056,
+                    "description": "sulfadiazina + pirimetamina",
+                    "explanation": "Falso, Doc! 😋 Vamos fazer um resuminho pra te ajudar no raciocínio da toxoplasmose congênita👇\n- **Paciente com menos de 18 semanas  IgM+ e IgG+** ➡ Peça exame de avidez(você não sabe se a infecção foi agora ou faz tempo)\n- **Alta avidez** ➡ Faz tempo, não precisa fazer nada🏊‍♀️\n- **Baixa avidez**➡ Faz pouco, precisamos tratar a **infecção materna** e pesquisar infecção no feto.\n- **Tratamento para infecção materna ➡** Espiramicina\n- Avaliação fetal com a **amniocentese ➡** Se positiva ➡ Tratamento do feto com **sulfadiazina + pirimetamina**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T22:36:35.000Z",
+                    "updated_at": "2022-02-25T12:47:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4339,
+                    "question_id": 1056,
+                    "description": "espiramicina",
+                    "explanation": "Exatamente, Doc😍. Vou deixar um resuminho aqui em baixo sobre o raciocínio da sorologia da toxoplasmose congênita👇\n- Paciente com **menos de 18 semanas** **IgM+ e IgG+** ➡ Peça exame de **avidez** (você não sabe se a infecção foi agora ou faz tempo)\n- **Alta avidez** ➡ Faz tempo, não precisa fazer nada🏊‍♀️\n- **Baixa avidez**➡ Faz pouco, precisamos tratar a **infecção materna** **e pesquisar infecção no feto.**\n- **Tratamento para infecção materna** ➡ Espiramicina\n- Avaliação fetal com a **amniocentese ➡** Se positiva ➡ Tratamento do feto com **sulfadiazina + pirimetamina** ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-01T22:36:35.000Z",
+                    "updated_at": "2022-02-25T12:47:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4340,
+                    "question_id": 1056,
+                    "description": "repetir a sorologia em 2 semanas",
+                    "explanation": "Falso, Doc! 😋 Como temos IgG com **baixa avide**z, a melhor opção seria iniciar o tratamento do feto com espiramicina!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T22:36:35.000Z",
+                    "updated_at": "2022-02-25T12:47:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4341,
+                    "question_id": 1056,
+                    "description": "seguimento pré-natal (infecção antiga)",
+                    "explanation": "Falso, Doc! 😋 A **baixa avide**z do IgG nos indica uma **infecção recente.** Seria uma infecção antiga **se IgG de alta avidez**!",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-06-01T22:36:35.000Z",
+                    "updated_at": "2022-02-25T12:47:18.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1056,
+                "questionary_id": 238878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1054,
+            "institution_id": 60,
+            "description": "Substâncias de categoria X segundo o FDA são as que devem ser suspensas ou substituídas durante a gestação. **NÃO** faz parte desta categoria o medicamento:",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T01:24:26.000Z",
+            "updated_at": "2022-02-25T13:00:03.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 60,
+                "title": "AMP-PR",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-23T18:08:25.000Z",
+                "updated_at": "2020-05-23T18:08:25.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 126,
+                    "title": "Assistência pré-natal\t\t",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T16:32:20.000Z",
+                    "updated_at": "2020-06-01T16:32:20.000Z",
+                    "pivot": {
+                        "discipline_id": 126,
+                        "question_id": 1054
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4328,
+                    "question_id": 1054,
+                    "description": "lítio",
+                    "explanation": "Falso, Doc! 😋 O lítio habitualmente é usado no controle de transtornos de humor como transtorno bipolar. É um medicamento da **categoria X(associado a anomalia de Ebstein)**.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T22:24:26.000Z",
+                    "updated_at": "2022-02-25T13:00:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4329,
+                    "question_id": 1054,
+                    "description": "varfarina",
+                    "explanation": "Falso, Doc! 😋 A varfarina é um anticoagulnate de **categoria** X(podem levar a embriopatia pelo varfarin). Na gestação, recomenda-se o uso de heparina se necessário anticoagular.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T22:24:26.000Z",
+                    "updated_at": "2022-02-25T13:00:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4330,
+                    "question_id": 1054,
+                    "description": "ibuprofeno",
+                    "explanation": "Perfeito, Doc! Arrasou! 😍 Os AINEs não são considerados teratogênicos e, em geral, são **classe** C durante a gestação. Contudo, quando administrados durante o terceiro trimestre, podem levar à **gravidez prolongada e a oclusão precoce do ducto arterioso**!",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-01T22:24:26.000Z",
+                    "updated_at": "2022-02-25T13:00:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4331,
+                    "question_id": 1054,
+                    "description": "isotretinoína",
+                    "explanation": "Falso, Doc! 😋 Você deve conhecer pelo nome **roacutan**, que é um medicamento utilizado no tratamento da acne. Extremamente teratogênica. **Categoria X**.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T22:24:26.000Z",
+                    "updated_at": "2022-02-25T13:00:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4332,
+                    "question_id": 1054,
+                    "description": "ácido valproico",
+                    "explanation": "Falso, Doc! 😋 É um medicamento usado no tratamento da epilepsia e considerado **categoria** X(associado a defeitos do tubo neural). Devemos modificar a medicação, por exemplo, para a lamotrigina(classe C).",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-06-01T22:24:27.000Z",
+                    "updated_at": "2022-02-25T13:00:03.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1054,
+                "questionary_id": 238878,
+                "timer": 0
+            }
         }
-    },
-    "plan_started_at": "2021-10-18T00:03:00.000Z",
-    "plan_expire_at": "2022-07-25T23:59:00.000Z",
-    "plan_is_lifelong": false
+    ]
 }

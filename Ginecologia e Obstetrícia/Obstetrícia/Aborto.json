@@ -1,0 +1,1797 @@
+{
+    "id": 238883,
+    "user_id": 1699,
+    "title": "Aborto",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-06-16T02:35:16.000Z",
+    "updated_at": "2022-06-16T02:35:16.000Z",
+    "study_plan_id": 143,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 107,
+            "institution_id": 4,
+            "description": "Sobre o aborto, assinale a alternativa **CORRETA:**",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:08:22.000Z",
+            "updated_at": "2022-06-03T18:10:42.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 18,
+                    "title": "Ginecologia e Obstetrícia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:46.000Z",
+                    "updated_at": "2020-05-18T23:06:46.000Z",
+                    "pivot": {
+                        "discipline_id": 18,
+                        "question_id": 107
+                    }
+                },
+                {
+                    "id": 19,
+                    "title": "Obstetrícia",
+                    "description": null,
+                    "parent_id": 18,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:57.000Z",
+                    "updated_at": "2020-05-18T23:06:57.000Z",
+                    "pivot": {
+                        "discipline_id": 19,
+                        "question_id": 107
+                    }
+                },
+                {
+                    "id": 20,
+                    "title": "Aborto",
+                    "description": null,
+                    "parent_id": 19,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:07:09.000Z",
+                    "updated_at": "2020-05-18T23:07:09.000Z",
+                    "pivot": {
+                        "discipline_id": 20,
+                        "question_id": 107
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 438,
+                    "question_id": 107,
+                    "description": "Define-se aborto como a perda do concepto antes de 12 semanas de idade gestacional ou peso menor que 500g",
+                    "explanation": "Falso, Doc! 😋 O peso está correto, mas a idade gestacional é de 20 semanas (de acordo com a OMS) ou 22 semanas, dependendo a referência.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:08:22.000Z",
+                    "updated_at": "2022-06-03T18:10:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 439,
+                    "question_id": 107,
+                    "description": "Define-se aborto como a perda do concepto antes de 20-22 semanas de idade gestacional ou peso menos que 700g",
+                    "explanation": "Falso, Doc! 😋 A idade gestacional está correta, mas o peso é de 500g ou menor.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:08:22.000Z",
+                    "updated_at": "2022-06-03T18:10:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 440,
+                    "question_id": 107,
+                    "description": "Define-se aborto como a perda do concepto antes de 20-22 semanas de idade gestacional e peso menor que 500g",
+                    "explanation": "Perfeito, Doc! Arrasou! 😍 Podemos definir como abortamento a perda do concepto antes de 20-22 semanas de gestação, com feto pesando menos de 500g ou medindo menos de 16,5cm.\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:08:22.000Z",
+                    "updated_at": "2022-06-03T18:10:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 441,
+                    "question_id": 107,
+                    "description": "Define-se aborto como a perda do concepto, independente da idade gestacional ou do peso do feto.",
+                    "explanation": "Falso, Doc! 😋 Aborto tem uma definição, com idade gestacional e peso específicos.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:08:22.000Z",
+                    "updated_at": "2022-06-03T18:10:42.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 107,
+                "questionary_id": 238883,
+                "timer": 0
+            }
+        },
+        {
+            "id": 108,
+            "institution_id": 4,
+            "description": "Sobre o aborto, assinale a alternativa **INCORRETA:**\n",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:09:57.000Z",
+            "updated_at": "2022-06-03T18:10:17.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 18,
+                    "title": "Ginecologia e Obstetrícia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:46.000Z",
+                    "updated_at": "2020-05-18T23:06:46.000Z",
+                    "pivot": {
+                        "discipline_id": 18,
+                        "question_id": 108
+                    }
+                },
+                {
+                    "id": 19,
+                    "title": "Obstetrícia",
+                    "description": null,
+                    "parent_id": 18,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:57.000Z",
+                    "updated_at": "2020-05-18T23:06:57.000Z",
+                    "pivot": {
+                        "discipline_id": 19,
+                        "question_id": 108
+                    }
+                },
+                {
+                    "id": 20,
+                    "title": "Aborto",
+                    "description": null,
+                    "parent_id": 19,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:07:09.000Z",
+                    "updated_at": "2020-05-18T23:07:09.000Z",
+                    "pivot": {
+                        "discipline_id": 20,
+                        "question_id": 108
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 442,
+                    "question_id": 108,
+                    "description": "Faz parte das causas de sangramento de primeira metade da gestação",
+                    "explanation": "Verdadeiro, Doc! 😁 Aborto, Doença Trofoblástica gestacional e gravidez ectópica são as principais causas de sangramento de primeira metade de gestação\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:09:57.000Z",
+                    "updated_at": "2022-06-03T18:10:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 443,
+                    "question_id": 108,
+                    "description": "Ocorre em cerca de 20% das gestações",
+                    "explanation": "Verdadeiro, Doc! 😁 Ocorre em 1 a cada 5 gestações! Para vermos que não é algo incomum.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:09:57.000Z",
+                    "updated_at": "2022-06-03T18:10:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 444,
+                    "question_id": 108,
+                    "description": "É dito abortamento precoce quando ocorre com 15 semanas de idade gestacional, ou menos",
+                    "explanation": "Boa doc, essa é a incorreta! 😴. O aborto é dito precoce quando ocorre com 12 semanas de idade gestacional ou menos e tardio quando ocorre entre 12-22 semanas.\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:09:57.000Z",
+                    "updated_at": "2022-06-03T18:10:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 445,
+                    "question_id": 108,
+                    "description": "Quando ocorre após 20 ou 22 semanas, não chamamos de abortamento, mas de óbito fetal intra útero",
+                    "explanation": "Verdadeiro, Doc! 😁 Já que a definição de aborto é apenas até 20-22 semanas de idade gestacional.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:09:57.000Z",
+                    "updated_at": "2022-06-03T18:10:17.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 108,
+                "questionary_id": 238883,
+                "timer": 0
+            }
+        },
+        {
+            "id": 109,
+            "institution_id": 4,
+            "description": "Sobre as causas de abortamento, assinale a alternativa **CORRETA:**\n",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:11:19.000Z",
+            "updated_at": "2022-06-03T18:12:46.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 18,
+                    "title": "Ginecologia e Obstetrícia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:46.000Z",
+                    "updated_at": "2020-05-18T23:06:46.000Z",
+                    "pivot": {
+                        "discipline_id": 18,
+                        "question_id": 109
+                    }
+                },
+                {
+                    "id": 19,
+                    "title": "Obstetrícia",
+                    "description": null,
+                    "parent_id": 18,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:57.000Z",
+                    "updated_at": "2020-05-18T23:06:57.000Z",
+                    "pivot": {
+                        "discipline_id": 19,
+                        "question_id": 109
+                    }
+                },
+                {
+                    "id": 20,
+                    "title": "Aborto",
+                    "description": null,
+                    "parent_id": 19,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:07:09.000Z",
+                    "updated_at": "2020-05-18T23:07:09.000Z",
+                    "pivot": {
+                        "discipline_id": 20,
+                        "question_id": 109
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 446,
+                    "question_id": 109,
+                    "description": "A causa mais comum de aborto são as infecções do trato genital",
+                    "explanation": "Falso, Doc! 😋 A causa mais comum de aborto são as anomalias cromossômicas.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T23:11:19.000Z",
+                    "updated_at": "2022-06-03T18:12:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 447,
+                    "question_id": 109,
+                    "description": "Entre as anomalias cromossômicas que podem causar aborto, a mais comum são as trissomias, sendo a trissomia do 16 a responsável pela maioria dos casos",
+                    "explanation": "Perfeito, Doc! Arrasou! 😍 É uma questão conceitual! Lembre do macete “a mãe fica DESESSEIPERADA” para lembrar da trissomia do 16 como principal trissomia que causa aborto.\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-18T23:11:19.000Z",
+                    "updated_at": "2022-06-03T18:12:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 448,
+                    "question_id": 109,
+                    "description": "As monossomias do cromossomo X são a segunda causa cromossômica de aborto depois das trissomias e, quando ocorre essa anomalia, cerca de 20% casos há aborto",
+                    "explanation": "Falso, Doc! 😋 Na monossomia do cromossomo X, 99% dos casos acabam resultando em aborto. \n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T23:11:19.000Z",
+                    "updated_at": "2022-06-03T18:12:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 449,
+                    "question_id": 109,
+                    "description": "As trombofilias , quando causas de aborto, geralmente causam abortos precocemente",
+                    "explanation": "Falso, Doc! 😋 As trombofilias, sejam elas adquiridas, como a Síndrome Anticorpo Fosfolípide, ou hereditárias, geralmente causam abortos tardios, ou seja, após a 12ª semana de gestação.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T23:11:19.000Z",
+                    "updated_at": "2022-06-03T18:12:46.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 109,
+                "questionary_id": 238883,
+                "timer": 0
+            }
+        },
+        {
+            "id": 110,
+            "institution_id": 4,
+            "description": "Sobre as causas do aborto, assinale a alternativa **CORRETA:**\n",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:12:40.000Z",
+            "updated_at": "2022-06-03T18:15:32.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 18,
+                    "title": "Ginecologia e Obstetrícia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:46.000Z",
+                    "updated_at": "2020-05-18T23:06:46.000Z",
+                    "pivot": {
+                        "discipline_id": 18,
+                        "question_id": 110
+                    }
+                },
+                {
+                    "id": 19,
+                    "title": "Obstetrícia",
+                    "description": null,
+                    "parent_id": 18,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:57.000Z",
+                    "updated_at": "2020-05-18T23:06:57.000Z",
+                    "pivot": {
+                        "discipline_id": 19,
+                        "question_id": 110
+                    }
+                },
+                {
+                    "id": 20,
+                    "title": "Aborto",
+                    "description": null,
+                    "parent_id": 19,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:07:09.000Z",
+                    "updated_at": "2020-05-18T23:07:09.000Z",
+                    "pivot": {
+                        "discipline_id": 20,
+                        "question_id": 110
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 450,
+                    "question_id": 110,
+                    "description": "Dentre as causas endócrinas, a insuficiência do corpo lúteo tem seu diagnóstico feito laboratorialmente, sendo o tratamento com progesterona via oral ou via vaginal até 10-12 semanas de gestação",
+                    "explanation": "Falso, Doc! 😋 A insuficiência do corpo lúteo é um diagnóstico de exclusão, não havendo exames que confirmem esse diagnóstico. Presume-se que o corpo lúteo não está produzindo progesterona suficiente para manter a gestação inicialmente, ao excluir as demais causas. O tratamento descrito está correto.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:12:40.000Z",
+                    "updated_at": "2022-06-03T18:15:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 451,
+                    "question_id": 110,
+                    "description": "Dentre as causas anatômicas, podemos citar a síndrome de Asherman, que consiste em sinéquias intra-uterinas",
+                    "explanation": "Perfeito, Doc! Arrasou! 😍 A síndrome de Asherman se caracteriza por sinéquias (aderências intrauterinas), que geralmente são consequência de procedimentos ou processos inflamatórios prévios dentro do útero. Se liga nessa imagem Doc👇\n\nFonte da imagem: https://clinicagera.com.br/sindrome-de-asherman/",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:12:40.000Z",
+                    "updated_at": "2022-06-03T18:15:32.000Z",
+                    "files": [
+                        {
+                            "id": 40873,
+                            "file": "325ed36d-b538-45c7-b55a-24a45e08c7eb.png",
+                            "name": "bg1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-03T18:15:20.000Z",
+                            "updated_at": "2022-06-03T18:15:20.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/325ed36d-b538-45c7-b55a-24a45e08c7eb.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 40873,
+                                "alternative_id": 451
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 452,
+                    "question_id": 110,
+                    "description": "O diagnóstico de síndrome de Asherman é feito por ultrassom",
+                    "explanation": "Falso, Doc! 😋 O diagnóstico é feito por histerossalpingografia, onde identifica-se falha de enchimento uterino ao contraste.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T23:12:40.000Z",
+                    "updated_at": "2022-06-03T18:15:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 453,
+                    "question_id": 110,
+                    "description": "Miomas e malformações uterinas podem dificultar a nidação, mas não são causas de aborto, pois a gravidez nem chega a ocorrer quando há essas doenças",
+                    "explanation": "Falso, Doc! 😋 A gravidez pode ocorrer na presença de miomas e malformações uterinas (septado, didelfo, bicorno, unicorno), porém há maior chance de abortamento.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T23:12:40.000Z",
+                    "updated_at": "2022-06-03T18:15:32.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 110,
+                "questionary_id": 238883,
+                "timer": 0
+            }
+        },
+        {
+            "id": 111,
+            "institution_id": 4,
+            "description": "Sobre a incompetência istmocervical, assinale a alternativa **CORRETA:**\n",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:14:02.000Z",
+            "updated_at": "2022-06-03T18:19:16.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 18,
+                    "title": "Ginecologia e Obstetrícia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:46.000Z",
+                    "updated_at": "2020-05-18T23:06:46.000Z",
+                    "pivot": {
+                        "discipline_id": 18,
+                        "question_id": 111
+                    }
+                },
+                {
+                    "id": 19,
+                    "title": "Obstetrícia",
+                    "description": null,
+                    "parent_id": 18,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:57.000Z",
+                    "updated_at": "2020-05-18T23:06:57.000Z",
+                    "pivot": {
+                        "discipline_id": 19,
+                        "question_id": 111
+                    }
+                },
+                {
+                    "id": 20,
+                    "title": "Aborto",
+                    "description": null,
+                    "parent_id": 19,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:07:09.000Z",
+                    "updated_at": "2020-05-18T23:07:09.000Z",
+                    "pivot": {
+                        "discipline_id": 20,
+                        "question_id": 111
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 454,
+                    "question_id": 111,
+                    "description": "É a principal causa de abortamento precoce",
+                    "explanation": "Falso, Doc! 😋 É a principal causa de aborto tardio! A principal causa de abortamento precoce são as anomalias cromossômicas, como a trissomia do 16, que é a principal!\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T23:14:02.000Z",
+                    "updated_at": "2022-06-03T18:19:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 455,
+                    "question_id": 111,
+                    "description": "Na história clássica, a paciente refere partos cada vez mais cedo, pouco sangramento e uma dilatação cervical muito dolorosa",
+                    "explanation": "Falso, Doc! 😋 A dilatação do colo ocorre de forma classicamente INDOLOR, permitindo a saída do feto com facilidade!\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T23:14:02.000Z",
+                    "updated_at": "2022-06-03T18:19:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 456,
+                    "question_id": 111,
+                    "description": "Tem como causas a história de trauma ou procedimentos no colo uterino, alterações no colágeno ou exposição a dietilestilbestrol",
+                    "explanation": "Perfeito, Doc! Arrasou! 😍 Todas essas causas são passíveis de causar alterações no colo uterino que o tornam incompetentes para segurar uma gestação a longo prazo. Doc, se liga nessa imagem:\n\nFonte da imagem: https://www.eumedicoresidente.com.br/post/incompetencia-istmo-cervical \n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-18T23:14:02.000Z",
+                    "updated_at": "2022-06-03T18:19:16.000Z",
+                    "files": [
+                        {
+                            "id": 40874,
+                            "file": "e4a7b3f0-8f4b-48b5-8960-9db68693865f.jpeg",
+                            "name": "00000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-03T18:18:09.000Z",
+                            "updated_at": "2022-06-03T18:18:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e4a7b3f0-8f4b-48b5-8960-9db68693865f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 40874,
+                                "alternative_id": 456
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 457,
+                    "question_id": 111,
+                    "description": "O tratamento para a incompetência istmocervical é a cerclagem uterina, que deve ser realizada antes da 12ª semana de gestação",
+                    "explanation": "Falso, Doc! 😋 O tratamento é sim a cerclagem, mas esta tem sua melhor indicação entre 12 e 16 semanas de gestação, quando o colo possui consistência adequada para que a sutura pela técnica de McDonald seja realizada!\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T23:14:02.000Z",
+                    "updated_at": "2022-06-03T18:19:16.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 111,
+                "questionary_id": 238883,
+                "timer": 0
+            }
+        },
+        {
+            "id": 112,
+            "institution_id": 4,
+            "description": "Quanto à classificação do aborto, é **CORRETO** afirmar: ",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:15:35.000Z",
+            "updated_at": "2022-06-03T18:22:46.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 18,
+                    "title": "Ginecologia e Obstetrícia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:46.000Z",
+                    "updated_at": "2020-05-18T23:06:46.000Z",
+                    "pivot": {
+                        "discipline_id": 18,
+                        "question_id": 112
+                    }
+                },
+                {
+                    "id": 19,
+                    "title": "Obstetrícia",
+                    "description": null,
+                    "parent_id": 18,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:57.000Z",
+                    "updated_at": "2020-05-18T23:06:57.000Z",
+                    "pivot": {
+                        "discipline_id": 19,
+                        "question_id": 112
+                    }
+                },
+                {
+                    "id": 20,
+                    "title": "Aborto",
+                    "description": null,
+                    "parent_id": 19,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:07:09.000Z",
+                    "updated_at": "2020-05-18T23:07:09.000Z",
+                    "pivot": {
+                        "discipline_id": 20,
+                        "question_id": 112
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 458,
+                    "question_id": 112,
+                    "description": "Na ocorrência de ameaça de aborto, menos de 10% dos casos culmina posteriormente em abortamento",
+                    "explanation": "Falso, Doc! 😋 Cerca de 50% das ameaças de aborto evoluem para abortamento.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:15:35.000Z",
+                    "updated_at": "2022-06-03T18:22:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 459,
+                    "question_id": 112,
+                    "description": "Na ocorrência de ameaça de aborto, o tratamento consiste em antiespasmódicos, abstinência sexual, repouso relativo e aplicação de soro Anti-D, se paciente for Rh negativo",
+                    "explanation": "Perfeito, Doc! Arrasou! 😍 Não há como impedir a progressão de uma ameaça de aborto, que pode ou não evoluir para abortamento. Apenas controla-se a dor, evita-se estímulos que possam piorar a progressão e faz-se aplicação de soro anti-D em mulheres Rh negativas para evitar sensibilização ao fator Rh!\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:15:35.000Z",
+                    "updated_at": "2022-06-03T18:22:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 460,
+                    "question_id": 112,
+                    "description": "Em geral, os abortamentos inevitável, incompleto e infectado apresentam-se com o colo fechado",
+                    "explanation": "Falso, Doc! 😋 Justamente o oposto, apresentam-se geralmente com o colo aberto. O macete é “iii” o colo está aberto: iNEVITÁVEL, iNCOMPLETO e iNFECTADO. Já os abortos de colo fechado lembre do CAR (Carro de porta fechada): Completo, Ameaça e Retido.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:15:35.000Z",
+                    "updated_at": "2022-06-03T18:22:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 461,
+                    "question_id": 112,
+                    "description": "No aborto inevitável, já há saída de boa parte do concepto via vaginal",
+                    "explanation": "Falso, Doc! 😋 No aborto inevitável temos um colo aberto, sendo possível ver ou tocar o concepto no polo inferior do útero, mas ainda não há saída do concepto pelo colo. Quando há saída de partes do concepto, consideramos abortamento incompleto!\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:15:35.000Z",
+                    "updated_at": "2022-06-03T18:22:46.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 112,
+                "questionary_id": 238883,
+                "timer": 0
+            }
+        },
+        {
+            "id": 113,
+            "institution_id": 4,
+            "description": "Sobre as classificações do aborto, é **INCORRETO** afirmar:\n",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:17:00.000Z",
+            "updated_at": "2022-06-03T18:28:32.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 18,
+                    "title": "Ginecologia e Obstetrícia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:46.000Z",
+                    "updated_at": "2020-05-18T23:06:46.000Z",
+                    "pivot": {
+                        "discipline_id": 18,
+                        "question_id": 113
+                    }
+                },
+                {
+                    "id": 19,
+                    "title": "Obstetrícia",
+                    "description": null,
+                    "parent_id": 18,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:57.000Z",
+                    "updated_at": "2020-05-18T23:06:57.000Z",
+                    "pivot": {
+                        "discipline_id": 19,
+                        "question_id": 113
+                    }
+                },
+                {
+                    "id": 20,
+                    "title": "Aborto",
+                    "description": null,
+                    "parent_id": 19,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:07:09.000Z",
+                    "updated_at": "2020-05-18T23:07:09.000Z",
+                    "pivot": {
+                        "discipline_id": 20,
+                        "question_id": 113
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 462,
+                    "question_id": 113,
+                    "description": "No abortamento em curso, temos uma altura de fundo uterino menor ou igual àquela esperada para a idade gestacional",
+                    "explanation": "Verdadeiro, Doc! 😁 Já que temos uma saída completa (aborto completo) ou parcial (aborto incompleto) do feto!\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:17:00.000Z",
+                    "updated_at": "2022-06-03T18:28:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 463,
+                    "question_id": 113,
+                    "description": "No abortamento em curso, ao medirmos a espessura endometrial pelo eco endometrial, teremos menos que 15mm para abortos completos e mais de 15mm para abortos incompletos",
+                    "explanation": "Verdadeiro, Doc! 😁 Lembre que no aborto completo o feto já saiu, então ele não está aderido ao endométrio, logo a espessura é menor, ao contrário do abortamento incompleto, em que ainda há partes do concepto aderidas ao endométrio!\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:17:00.000Z",
+                    "updated_at": "2022-06-03T18:28:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 464,
+                    "question_id": 113,
+                    "description": "O tratamento de escolha para o abortamento em curso, seja completo ou incompleto, é a curetagem, independente da idade gestacional",
+                    "explanation": "Boa doc, essa é a incorreta! 😴 Antes de 12 semanas de gestação opta-se por AMIU, apesar de poder ser feita a curetagem também. Após 12 semanas, como o feto já tem espículas ósseas é perigoso fazer AMIU, logo primeiro faz-se indução para o feto sair, e após faz-se curetagem!\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:17:00.000Z",
+                    "updated_at": "2022-06-03T18:28:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 465,
+                    "question_id": 113,
+                    "description": "Antes das 12 semanas de idade gestacional o feto ainda não possui espículas ósseas, permitindo a realização de AMIU com mais segurança",
+                    "explanation": "Verdadeiro, Doc! 😁 Sem espículas ósseas, há menor risco de perfuração uterina.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:17:00.000Z",
+                    "updated_at": "2022-06-03T18:28:32.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 113,
+                "questionary_id": 238883,
+                "timer": 0
+            }
+        },
+        {
+            "id": 114,
+            "institution_id": 4,
+            "description": "Sobre o aborto retido, marque a alternativa **CORRETO:**\n",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:18:26.000Z",
+            "updated_at": "2022-06-03T18:32:51.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 18,
+                    "title": "Ginecologia e Obstetrícia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:46.000Z",
+                    "updated_at": "2020-05-18T23:06:46.000Z",
+                    "pivot": {
+                        "discipline_id": 18,
+                        "question_id": 114
+                    }
+                },
+                {
+                    "id": 19,
+                    "title": "Obstetrícia",
+                    "description": null,
+                    "parent_id": 18,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:57.000Z",
+                    "updated_at": "2020-05-18T23:06:57.000Z",
+                    "pivot": {
+                        "discipline_id": 19,
+                        "question_id": 114
+                    }
+                },
+                {
+                    "id": 20,
+                    "title": "Aborto",
+                    "description": null,
+                    "parent_id": 19,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:07:09.000Z",
+                    "updated_at": "2020-05-18T23:07:09.000Z",
+                    "pivot": {
+                        "discipline_id": 20,
+                        "question_id": 114
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 466,
+                    "question_id": 114,
+                    "description": "Geralmente, os sinais e sintomas da gestação permanecem enquanto o feto está morto intra-útero",
+                    "explanation": "Falso, Doc! 😋 No aborto retido, há regressão dos sinais e sintomas da gestação, pois as reações hormonais devido a gravidez cessam/reduzem com a morte fetal!\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:18:26.000Z",
+                    "updated_at": "2022-06-03T18:32:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 467,
+                    "question_id": 114,
+                    "description": "Antes de 12 semanas, o tratamento do aborto retido consiste em indução com misoprostol seguida de AMIU, ou apenas 3 doses de misoprostol de 12 em 12 horas",
+                    "explanation": "Perfeito, Doc! Arrasou! 😍 Essas são as opções de tratamento para expulsão do feto retido!",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:18:26.000Z",
+                    "updated_at": "2022-06-03T18:32:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 468,
+                    "question_id": 114,
+                    "description": "Entre 12 e 17 semanas, o tratamento é com misoprostol de 6 em 6 horas, até 4 doses, seguida de AMIU",
+                    "explanation": "Falso, Doc! 😋 O erro está em AMIU, a qual só é feita antes de 12 semanas, pois após 12 semanas o feto já possui espículas ósseas, e sua aspiração pode causar ruptura uterina!\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:18:26.000Z",
+                    "updated_at": "2022-06-03T18:32:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 469,
+                    "question_id": 114,
+                    "description": "Entre 18 e 22 semanas, a expulsão do feto retido não ocorre por indução, por isso usa-se a curetagem apenas",
+                    "explanation": "Falso, Doc! 😋 Entre 18 e 22 semanas opta-se  pela indução com misoprostol, podendo não necessitar de curetagem!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:18:26.000Z",
+                    "updated_at": "2022-06-03T18:32:51.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 114,
+                "questionary_id": 238883,
+                "timer": 0
+            }
+        },
+        {
+            "id": 115,
+            "institution_id": 4,
+            "description": "Sobre o abortamento infectado, responda a alternativa **CORRETA:**",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:19:58.000Z",
+            "updated_at": "2022-06-03T18:39:12.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 18,
+                    "title": "Ginecologia e Obstetrícia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:46.000Z",
+                    "updated_at": "2020-05-18T23:06:46.000Z",
+                    "pivot": {
+                        "discipline_id": 18,
+                        "question_id": 115
+                    }
+                },
+                {
+                    "id": 19,
+                    "title": "Obstetrícia",
+                    "description": null,
+                    "parent_id": 18,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:57.000Z",
+                    "updated_at": "2020-05-18T23:06:57.000Z",
+                    "pivot": {
+                        "discipline_id": 19,
+                        "question_id": 115
+                    }
+                },
+                {
+                    "id": 20,
+                    "title": "Aborto",
+                    "description": null,
+                    "parent_id": 19,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:07:09.000Z",
+                    "updated_at": "2020-05-18T23:07:09.000Z",
+                    "pivot": {
+                        "discipline_id": 20,
+                        "question_id": 115
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 470,
+                    "question_id": 115,
+                    "description": "A infecção responsável pelo abortamento geralmente é causada por um germe específico que, em grande quantidade, gera o processo",
+                    "explanation": "Falso, Doc! 😋 A infecção é, geralmente, POLIMICROBIANA (vários germes), sendo a clindamicina uma ótima opção de tratamento por conta de sua ampla cobertura!\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:19:58.000Z",
+                    "updated_at": "2022-06-03T18:39:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 471,
+                    "question_id": 115,
+                    "description": "O tratamento consiste em Estabilização hemodinâmica da mãe, esvaziamento da cavidade uterina e antibioticoterapia",
+                    "explanation": "Perfeito, Doc! Arrasou! 😍 Essa é a base para o tratamento completo de um aborto infectado.\n- 1- estabilização hemodinâmica SEMPRE\n- 2- eliminação do agente causador da infecção (nesse caso, o concepto infectado)\n- 3-ATBterapia para resolução da infecção\n- ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:19:58.000Z",
+                    "updated_at": "2022-06-03T18:39:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 472,
+                    "question_id": 115,
+                    "description": "A antibioticoterapia com gentamicina e clindamicina não tem eficácia nesses casos",
+                    "explanation": "Falso, Doc! 😋 Geralmente é essa a combinação de ATBs usada no aborto infectado. Clindamicina possui uma ampla cobertura para gram positivos e gentamicina possui ampla cobertura para gram-negativos, em especial para os agentes entéricos.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:19:58.000Z",
+                    "updated_at": "2022-06-03T18:39:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 473,
+                    "question_id": 115,
+                    "description": "O aborto infectado geralmente cursa com colo fechado.",
+                    "explanation": "Falso, Doc! 😋 Lembre do macete: “iii” o colo está aberto: iNFECTADO, iNCOMPLETO e iNEVITÁVEL!\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:19:58.000Z",
+                    "updated_at": "2022-06-03T18:39:12.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 115,
+                "questionary_id": 238883,
+                "timer": 0
+            }
+        },
+        {
+            "id": 118,
+            "institution_id": 13,
+            "description": "Quartigesta, nulípara, 35 anos de idade, 12 semanas de gestação, refere antecedente de perdas gestacionais com 20, 18 e 16 semanas, que foram rápidas, indolores e sem sangramento importante. A ultrassonografia constatou feto único, vivo, sem anomalias e biometria compatível com a idade gestacional menstrual. O próximo passo no cuidado dessa gestante é:\n",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:22:55.000Z",
+            "updated_at": "2022-06-03T18:50:40.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 13,
+                "title": "UNIFESP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T18:27:33.000Z",
+                "updated_at": "2020-05-17T18:27:33.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 18,
+                    "title": "Ginecologia e Obstetrícia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:46.000Z",
+                    "updated_at": "2020-05-18T23:06:46.000Z",
+                    "pivot": {
+                        "discipline_id": 18,
+                        "question_id": 118
+                    }
+                },
+                {
+                    "id": 19,
+                    "title": "Obstetrícia",
+                    "description": null,
+                    "parent_id": 18,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:57.000Z",
+                    "updated_at": "2020-05-18T23:06:57.000Z",
+                    "pivot": {
+                        "discipline_id": 19,
+                        "question_id": 118
+                    }
+                },
+                {
+                    "id": 20,
+                    "title": "Aborto",
+                    "description": null,
+                    "parent_id": 19,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:07:09.000Z",
+                    "updated_at": "2020-05-18T23:07:09.000Z",
+                    "pivot": {
+                        "discipline_id": 20,
+                        "question_id": 118
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 482,
+                    "question_id": 118,
+                    "description": "Cerclagem via vaginal entre 12 e 16 semanas",
+                    "explanation": "Perfeito, Doc! Arrasou! 😍 Quadro compatível com incompetência istmocervical, sendo indicada cerclagem no início do segundo trimestre para garantir que a gestação alcance uma idade gestacional mais avançada! Doc, saca só essa imagem ilustrando esse procedimento:\n\nFonte da imagem: https://pt.wikipedia.org/wiki/Incompet%C3%AAncia_istmocervical\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:22:55.000Z",
+                    "updated_at": "2022-06-03T18:50:40.000Z",
+                    "files": [
+                        {
+                            "id": 40875,
+                            "file": "b0ae6790-d86d-4b91-9fe7-95ab1c53c4ee.png",
+                            "name": "bg1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-03T18:48:39.000Z",
+                            "updated_at": "2022-06-03T18:48:39.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b0ae6790-d86d-4b91-9fe7-95ab1c53c4ee.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 40875,
+                                "alternative_id": 482
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 483,
+                    "question_id": 118,
+                    "description": "Progesterona vaginal e medidas seriadas do colo uterino",
+                    "explanation": "Falso, Doc! 😋 O uso de progesterona vaginal é inferior à realização da cerclagem em pacientes com incompetência istmo-cervical!\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:22:55.000Z",
+                    "updated_at": "2022-06-03T18:50:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 484,
+                    "question_id": 118,
+                    "description": "Pessário vaginal e cerclagem entre 16 e 20 semanas",
+                    "explanation": "Falso, Doc! 😋 Não há indicação de combinação de pessário+cerclagem. Além disso, realiza-se cerclagem entre 12 e 16 semanas!\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:22:55.000Z",
+                    "updated_at": "2022-06-03T18:50:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 485,
+                    "question_id": 118,
+                    "description": "Abstinência sexual e progesterona vaginal",
+                    "explanation": "Falso, Doc! 😋 O uso de progesterona vaginal é inferior à realização da cerclagem em pacientes com incompetência istmo-cervical, e a abstinência sexual não diminui a incidência de perdas gestacionais tardia!\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:22:55.000Z",
+                    "updated_at": "2022-06-03T18:50:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 486,
+                    "question_id": 118,
+                    "description": "Repouso no leito e progesterona vaginal",
+                    "explanation": "Falso, Doc! 😋 O uso de progesterona vaginal é inferior à realização da cerclagem em pacientes com incompetência istmo-cervical!\n",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:22:55.000Z",
+                    "updated_at": "2022-06-03T18:50:40.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 118,
+                "questionary_id": 238883,
+                "timer": 0
+            }
+        },
+        {
+            "id": 120,
+            "institution_id": 5,
+            "description": "Primigesta, 12 semanas de gestação, assintomática, vem realizar ultrassonografia morfológica de 1º trimestre. Ao exame, observou-se ausência de batimentos cardíacos fetais e feto com estimativa de 10 semanas de gestação. Faz-se o diagnóstico de gestação interrompida. Qual é a causa mais comum de aborto espontâneo?\n",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:26:13.000Z",
+            "updated_at": "2022-06-03T19:11:46.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 5,
+                "title": "AMRIGS",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T13:59:53.000Z",
+                "updated_at": "2020-05-17T13:59:53.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 18,
+                    "title": "Ginecologia e Obstetrícia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:46.000Z",
+                    "updated_at": "2020-05-18T23:06:46.000Z",
+                    "pivot": {
+                        "discipline_id": 18,
+                        "question_id": 120
+                    }
+                },
+                {
+                    "id": 19,
+                    "title": "Obstetrícia",
+                    "description": null,
+                    "parent_id": 18,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:57.000Z",
+                    "updated_at": "2020-05-18T23:06:57.000Z",
+                    "pivot": {
+                        "discipline_id": 19,
+                        "question_id": 120
+                    }
+                },
+                {
+                    "id": 20,
+                    "title": "Aborto",
+                    "description": null,
+                    "parent_id": 19,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:07:09.000Z",
+                    "updated_at": "2020-05-18T23:07:09.000Z",
+                    "pivot": {
+                        "discipline_id": 20,
+                        "question_id": 120
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 491,
+                    "question_id": 120,
+                    "description": "Insuficiência de corpo lúteo",
+                    "explanation": "Falso, Doc! 😋 Questão conceitual. A principal causa são as anomalias cromossômicas!\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:26:13.000Z",
+                    "updated_at": "2022-06-03T19:11:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 492,
+                    "question_id": 120,
+                    "description": "Alterações cromossômicas",
+                    "explanation": "Perfeito, Doc! Arrasou! 😍 Esse é a principal causa de abortamento espontâneo. Cerca de metade dos abortamentos são por anomalias cromossômicas. Primeiro as trissomias (do 16, 22 e 21, respectivamente) e depois as monossomias do cromossomo X.\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:26:13.000Z",
+                    "updated_at": "2022-06-03T19:11:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 493,
+                    "question_id": 120,
+                    "description": "Alterações gênicas",
+                    "explanation": "Falso, Doc! 😋 Questão conceitual. A principal causa são as anomalias cromossômicas.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:26:13.000Z",
+                    "updated_at": "2022-06-03T19:11:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 494,
+                    "question_id": 120,
+                    "description": "Infecção materna",
+                    "explanation": "Falso, Doc! 😋 Questão conceitual. A principal causa são as anomalias cromossômicas.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:26:13.000Z",
+                    "updated_at": "2022-06-03T19:11:46.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 120,
+                "questionary_id": 238883,
+                "timer": 0
+            }
+        },
+        {
+            "id": 121,
+            "institution_id": 28,
+            "description": "Primigesta de 16 anos apresenta dor abdominal e febre há 1 dia. Refere atraso menstrual. Exame físico: REG; PA = 110 x 60 mmHg; FC = 110 bpm; temperatura axilar de 38,3 °C; abdome plano, depressível, doloroso em região de hipogástrio. Exame ginecológico: colo pérvio 2 cm, doloroso à palpação, presença de secreção fétida. Exames laboratoriais: hematócrito – 32%; hemoglobina – 10,9 g/dl; plaquetas – 155 mil/mm³; glóbulos brancos – 21 mil/mm³; presença de bastões; urina tipo I – normal; teste de gravidez – positivo. O diagnóstico e a conduta são: ",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:27:31.000Z",
+            "updated_at": "2022-06-03T19:24:11.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 28,
+                "title": "UNESP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T20:27:31.000Z",
+                "updated_at": "2020-05-18T20:27:31.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 18,
+                    "title": "Ginecologia e Obstetrícia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:46.000Z",
+                    "updated_at": "2020-05-18T23:06:46.000Z",
+                    "pivot": {
+                        "discipline_id": 18,
+                        "question_id": 121
+                    }
+                },
+                {
+                    "id": 19,
+                    "title": "Obstetrícia",
+                    "description": null,
+                    "parent_id": 18,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:57.000Z",
+                    "updated_at": "2020-05-18T23:06:57.000Z",
+                    "pivot": {
+                        "discipline_id": 19,
+                        "question_id": 121
+                    }
+                },
+                {
+                    "id": 20,
+                    "title": "Aborto",
+                    "description": null,
+                    "parent_id": 19,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:07:09.000Z",
+                    "updated_at": "2020-05-18T23:07:09.000Z",
+                    "pivot": {
+                        "discipline_id": 20,
+                        "question_id": 121
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 495,
+                    "question_id": 121,
+                    "description": "Aborto incompleto; curetagem uterina",
+                    "explanation": "Falso, Doc! 😋 No abortamento incompleto não haveria esses sinais sistêmicos e locais de infecção como secreção fétida e febre.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:27:31.000Z",
+                    "updated_at": "2022-06-03T19:24:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 496,
+                    "question_id": 121,
+                    "description": "Doença inflamatória pélvica; laparotomia exploradora.",
+                    "explanation": "Falso, Doc! 😋 A presença de atraso menstrual e teste de gravidez positivo falam a favor de abortamento.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:27:31.000Z",
+                    "updated_at": "2022-06-03T19:24:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 497,
+                    "question_id": 121,
+                    "description": "Doença inflamatória pélvica; iniciar antibioticoterapia.",
+                    "explanation": "Falso, Doc! 😋 A presença de atraso menstrual e teste de gravidez positivo falam a favor de abortamento!\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:27:31.000Z",
+                    "updated_at": "2022-06-03T19:24:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 498,
+                    "question_id": 121,
+                    "description": "Aborto séptico; antibioticoterapia e curetagem uterina.",
+                    "explanation": "Perfeito, Doc! Arrasou! 😍 Atraso menstrual, secreção fétida, colo ABERTO e doloroso, fala a favor de aborto INFECTADO.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:27:31.000Z",
+                    "updated_at": "2022-06-03T19:24:11.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 121,
+                "questionary_id": 238883,
+                "timer": 0
+            }
+        },
+        {
+            "id": 122,
+            "institution_id": 29,
+            "description": "Quanto à definição de forma clínica de abortamento, colo uterino dilatado e presença de restos ovulares na cavidade uterina pela ultrassonografia caracterizam:\n",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:28:57.000Z",
+            "updated_at": "2022-06-03T19:25:08.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 29,
+                "title": "UNICISAL",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T20:28:57.000Z",
+                "updated_at": "2020-05-18T20:28:57.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 18,
+                    "title": "Ginecologia e Obstetrícia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:46.000Z",
+                    "updated_at": "2020-05-18T23:06:46.000Z",
+                    "pivot": {
+                        "discipline_id": 18,
+                        "question_id": 122
+                    }
+                },
+                {
+                    "id": 19,
+                    "title": "Obstetrícia",
+                    "description": null,
+                    "parent_id": 18,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:57.000Z",
+                    "updated_at": "2020-05-18T23:06:57.000Z",
+                    "pivot": {
+                        "discipline_id": 19,
+                        "question_id": 122
+                    }
+                },
+                {
+                    "id": 20,
+                    "title": "Aborto",
+                    "description": null,
+                    "parent_id": 19,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:07:09.000Z",
+                    "updated_at": "2020-05-18T23:07:09.000Z",
+                    "pivot": {
+                        "discipline_id": 20,
+                        "question_id": 122
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 499,
+                    "question_id": 122,
+                    "description": "Ameaça de abortamento",
+                    "explanation": "Falso, Doc! 😋 Na ameaça, não há presença de restos ovulares, mas sim do feto e de todos os seus anexos, pois na ameaça ocorre apenas o sangramento, sem saída do feto e seus anexos.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:28:57.000Z",
+                    "updated_at": "2022-06-03T19:25:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 500,
+                    "question_id": 122,
+                    "description": "Aborto incompleto",
+                    "explanation": "Perfeito, Doc! Arrasou! 😍 Restos ovulares sobrando na cavidade (se fosse feito um eco endometrial iria dar mais de 15mm), colo ABERTO (macete do iii - Incompleto, Infectado e Inevitável), falam a favor de aborto incompleto!\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:28:57.000Z",
+                    "updated_at": "2022-06-03T19:25:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 501,
+                    "question_id": 122,
+                    "description": "Aborto inevitável",
+                    "explanation": "Falso, Doc! 😋 No aborto inevitável, por definição, ainda não saiu conteúdo fetal do colo uterino. Se no útero só tem restos ovulares, é porque então já saiu alguma coisa.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:28:57.000Z",
+                    "updated_at": "2022-06-03T19:25:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 502,
+                    "question_id": 122,
+                    "description": "Aborto retido",
+                    "explanation": "Falso, Doc! 😋 No aborto retido o colo está fechado, com o feto e seus anexos dentro da cavidade.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:28:57.000Z",
+                    "updated_at": "2022-06-03T19:25:08.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 122,
+                "questionary_id": 238883,
+                "timer": 0
+            }
+        },
+        {
+            "id": 116,
+            "institution_id": 4,
+            "description": "Marque a alternativa que corresponde ao conceito de abortamento HABITUAL: ",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:21:13.000Z",
+            "updated_at": "2022-06-03T18:40:39.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 18,
+                    "title": "Ginecologia e Obstetrícia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:46.000Z",
+                    "updated_at": "2020-05-18T23:06:46.000Z",
+                    "pivot": {
+                        "discipline_id": 18,
+                        "question_id": 116
+                    }
+                },
+                {
+                    "id": 19,
+                    "title": "Obstetrícia",
+                    "description": null,
+                    "parent_id": 18,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:57.000Z",
+                    "updated_at": "2020-05-18T23:06:57.000Z",
+                    "pivot": {
+                        "discipline_id": 19,
+                        "question_id": 116
+                    }
+                },
+                {
+                    "id": 20,
+                    "title": "Aborto",
+                    "description": null,
+                    "parent_id": 19,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:07:09.000Z",
+                    "updated_at": "2020-05-18T23:07:09.000Z",
+                    "pivot": {
+                        "discipline_id": 20,
+                        "question_id": 116
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 474,
+                    "question_id": 116,
+                    "description": "Três ou mais abortos, não necessariamente consecutivos, de gestações com o mesmo parceiro",
+                    "explanation": "Falso, Doc! 😋 Nesse conceito, precisam ser consecutivos, não podendo haver gestações bem sucedidas entre eles!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:21:13.000Z",
+                    "updated_at": "2022-06-03T18:40:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 475,
+                    "question_id": 116,
+                    "description": "Cinco ou mais abortos, consecutivos, de gestações independentes do parceiro",
+                    "explanation": "Falso, Doc! 😋 São 3 ou mais abortos, e devem ser do mesmo parceiro!\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:21:13.000Z",
+                    "updated_at": "2022-06-03T18:40:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 476,
+                    "question_id": 116,
+                    "description": "3 ou mais abortos, consecutivos, de gestações com o mesmo parceiro",
+                    "explanation": "Perfeito, Doc! Arrasou! 😍 Esse é o conceito de abortamento habitual!\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:21:13.000Z",
+                    "updated_at": "2022-06-03T18:40:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 477,
+                    "question_id": 116,
+                    "description": "A principal causa de abortamento habitual é a insuficiência de corpo lúteo",
+                    "explanation": "Falso, Doc! 😋 A principal causa é a INCOMPETÊNCIA ISTMOCERVICAL!\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:21:13.000Z",
+                    "updated_at": "2022-06-03T18:40:40.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 116,
+                "questionary_id": 238883,
+                "timer": 0
+            }
+        },
+        {
+            "id": 119,
+            "institution_id": 25,
+            "description": "Paciente de 22 anos está em sua 1ª gestação. A idade gestacional é de 8 semanas (conforme data da última mensturação e ultrassonografia de 1º trimestre). Refere sangramento genital abundante há 2 horas, associado a cólica intensa. No exame especular, encontrou-se moderada quantidade de sangue coletado em fórnice posterior. Ao toque vaginal, útero aumentado, sem dor anexial. Colo grosso, posterior e impérvio. Realizada USG com ausência de saco gestacional e eco endometrial menor que 15mm. Assinale o diagnóstico mais provável:",
+            "difficulty": "hard",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:25:00.000Z",
+            "updated_at": "2022-06-03T18:55:39.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 25,
+                "title": "USP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:55:52.000Z",
+                "updated_at": "2020-05-18T19:55:52.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 18,
+                    "title": "Ginecologia e Obstetrícia",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:46.000Z",
+                    "updated_at": "2020-05-18T23:06:46.000Z",
+                    "pivot": {
+                        "discipline_id": 18,
+                        "question_id": 119
+                    }
+                },
+                {
+                    "id": 19,
+                    "title": "Obstetrícia",
+                    "description": null,
+                    "parent_id": 18,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:06:57.000Z",
+                    "updated_at": "2020-05-18T23:06:57.000Z",
+                    "pivot": {
+                        "discipline_id": 19,
+                        "question_id": 119
+                    }
+                },
+                {
+                    "id": 20,
+                    "title": "Aborto",
+                    "description": null,
+                    "parent_id": 19,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:07:09.000Z",
+                    "updated_at": "2020-05-18T23:07:09.000Z",
+                    "pivot": {
+                        "discipline_id": 20,
+                        "question_id": 119
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 487,
+                    "question_id": 119,
+                    "description": "Abortamento completo",
+                    "explanation": "Perfeito, Doc! Arrasou! 😍 Sangramento de primeiro trimestre com USG prévia de gestação de 8 semanas, seguida de USG pós sangramento sem saco gestacional e com eco endometrial menor que 15mm fecha o diagnóstico de abortamento completo. Você pode ter ficado confuso quando ele fala em útero aumentado, pois no aborto em curso (completo/incompleto) o útero está diminuído ou igual à idade gestacional. Mas aqui ele não fala em idade gestacional! Fala apenas em útero aumentado, que é o normal que ocorra em uma gestação, um útero maior do que em uma mulher não grávida!\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:25:00.000Z",
+                    "updated_at": "2022-06-03T18:55:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 488,
+                    "question_id": 119,
+                    "description": "Gestação incipiente",
+                    "explanation": "Falso, Doc! 😋 Se não houvesse um ultrassom prévio com diagnóstico de gestação, o diagnóstico poderia até ser gestação incipiente (ou seja, tão inicial que nem dá para ver), com erro de data!\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:25:00.000Z",
+                    "updated_at": "2022-06-03T18:55:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 489,
+                    "question_id": 119,
+                    "description": "Abortamento incompleto",
+                    "explanation": "Falso, Doc! 😋 Lembre que no abortamento incompleto, o ecoendometrial mede mais que 15mm e o colo geralmente é ABERTO.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:25:00.000Z",
+                    "updated_at": "2022-06-03T18:55:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 490,
+                    "question_id": 119,
+                    "description": "Gestação ectópica",
+                    "explanation": "Falso, Doc! 😋 Como há Ultrassom com diagnóstico prévio de gestação, não podemos dizer que de repente esse saco gestacional migrou e se tornou ectópico!\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:25:00.000Z",
+                    "updated_at": "2022-06-03T18:55:39.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 119,
+                "questionary_id": 238883,
+                "timer": 0
+            }
+        }
+    ]
+}

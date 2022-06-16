@@ -1,0 +1,851 @@
+{
+    "id": 238938,
+    "user_id": 1699,
+    "title": "Consulta Ginecológica",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-06-16T02:55:06.000Z",
+    "updated_at": "2022-06-16T02:55:06.000Z",
+    "study_plan_id": 783,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 9130,
+            "institution_id": 4,
+            "description": "Qual dos instrumentos listados abaixo é utilizado para realizar o exame ginecológico interno? ",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-16T00:25:05.000Z",
+            "updated_at": "2022-02-08T14:12:13.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 831,
+                    "title": "Consulta Ginecológica",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2021-06-16T00:22:45.000Z",
+                    "updated_at": "2021-06-16T00:22:45.000Z",
+                    "pivot": {
+                        "discipline_id": 831,
+                        "question_id": 9130
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 37351,
+                    "question_id": 9130,
+                    "description": "Estetoscópio.",
+                    "explanation": "Falso, doc! 😋 Na verdade, o estetoscópio é utilizado para realizar a **ausculta cardíac**a e **pulmona**r no exame físico geral, e não no exame ginecológico interno. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:25:05.000Z",
+                    "updated_at": "2022-02-08T11:12:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 37352,
+                    "question_id": 9130,
+                    "description": "Pinça de Cheron. ",
+                    "explanation": "Falso, doc! 😋 Na verdade, a pinça de Cheron auxilia o exame ginecológico, nesse caso o **extern**o, pela antissepsia da paciente, e não no exame ginecológico interno. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:25:05.000Z",
+                    "updated_at": "2022-02-08T11:12:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 37353,
+                    "question_id": 9130,
+                    "description": "Espéculo.",
+                    "explanation": "Certinho, doc! 🤗 O espéculo serve para afastar as paredes vaginais e permitir a observação e demais procedimentos no colo uterino.\n\n- Hey doc, já viu o espéculo e suas partes? Se liga na imagem 👇: \n- Fonte: [https://www.hospitalardistribuidora.com.br/especulo-de-collin/p](https://www.hospitalardistribuidora.com.br/especulo-de-collin/p) ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-06-15T21:25:05.000Z",
+                    "updated_at": "2022-02-08T11:12:13.000Z",
+                    "files": [
+                        {
+                            "id": 11286,
+                            "file": "a0200724-314f-4fe6-83c0-0b61533b18c7.jpeg",
+                            "name": "Consulta ginecológica - 1.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-15T21:24:42.000Z",
+                            "updated_at": "2021-06-15T21:24:42.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a0200724-314f-4fe6-83c0-0b61533b18c7.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 11286,
+                                "alternative_id": 37353
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37354,
+                    "question_id": 9130,
+                    "description": "Tesoura de Mayo. ",
+                    "explanation": "Falso, doc! 😋 Na verdade a tesoura de Mayo é utilizada em **procedimentos cirúrgico**s, principalmente em tecidos grosseiros, e não no exame ginecológico interno. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:25:05.000Z",
+                    "updated_at": "2022-02-08T11:12:13.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9130,
+                "questionary_id": 238938,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9131,
+            "institution_id": 4,
+            "description": "Em uma consulta ginecológica de mulheres com vida sexual ativa após os 25 anos, sempre devemos realizar um exame de rotina. Qual é esse exame ginecológico? ",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-15T21:27:18.000Z",
+            "updated_at": "2022-02-08T11:14:13.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 831,
+                    "title": "Consulta Ginecológica",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2021-06-16T00:22:45.000Z",
+                    "updated_at": "2021-06-16T00:22:45.000Z",
+                    "pivot": {
+                        "discipline_id": 831,
+                        "question_id": 9131
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 37355,
+                    "question_id": 9131,
+                    "description": "Teste de Schiller. ",
+                    "explanation": "Falso, Doc! 😕 \n- Na verdade, o teste de Schiller é um exame diagnóstico que permite identificar melhor lesões no colo do útero. \n- Atualmente não são muito utilizados como exame de rastreio, mas podem ajudar muito os ginecologistas em caso de Papanicolau **sugestivo de lesão pré-maligna,** identificando a área suspeita para recolher a amostra para biópsia.  ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:27:18.000Z",
+                    "updated_at": "2022-02-08T11:14:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 37356,
+                    "question_id": 9131,
+                    "description": "Colpocitologia oncótica cervical.",
+                    "explanation": "Mandou bem, Doc! 😁\nA colpocitologia oncótica cervical é o exame preventivo de colo do útero, utilizado para detectar alterações em células do colo uterino. \n\nEle pode também ser denominado de “**Papanicolau**”.\n\n- Hey doc, já sabe como realizar a coleta de células da endocérvice e da ectocérvice, certo? Mas se liga nessa imagem ilustrativa! 👇\n- Fonte da imagem: [http://kcm.com.br/blog/15-exame-de-papanicolau-na-prevencao-do-cancer-de-colo-do-utero](http://kcm.com.br/blog/15-exame-de-papanicolau-na-prevencao-do-cancer-de-colo-do-utero) ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-06-15T21:27:18.000Z",
+                    "updated_at": "2022-02-08T11:14:13.000Z",
+                    "files": [
+                        {
+                            "id": 11288,
+                            "file": "9d10cc18-779c-40cb-b6ac-a2877211c9dc.jpeg",
+                            "name": "Consulta ginecológica - 2.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-15T21:26:41.000Z",
+                            "updated_at": "2021-06-15T21:26:41.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9d10cc18-779c-40cb-b6ac-a2877211c9dc.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 11288,
+                                "alternative_id": 37356
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37357,
+                    "question_id": 9131,
+                    "description": "Mamografia.",
+                    "explanation": "Falso, Doc! 😕 Na verdade, a mamografia é recomendada para mulheres entre **50 e 69 anos a cada dois anos**, exceto em mulheres com suspeita de síndromes hereditárias ou complementação de diagnóstico em casos de nódulos palpáveis ou outras necessidades.  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:27:18.000Z",
+                    "updated_at": "2022-02-08T11:14:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 37358,
+                    "question_id": 9131,
+                    "description": "Ultrassonografia pélvica.",
+                    "explanation": "Falso, Doc! 😕 Na verdade, a ultrassonografia pélvica é indicada somente **quando há queixa**s relacionadas à pelve, ou suspeitas de alteração, como complicações relacionadas à DIP, a exemplo do abscesso tubo-ovariano, cistos ovarianos e torção do ovários.  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:27:18.000Z",
+                    "updated_at": "2022-02-08T11:14:13.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9131,
+                "questionary_id": 238938,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9134,
+            "institution_id": 4,
+            "description": "Durante a consulta ginecológica é recomendado seguir uma ordem de procedimentos. Assinale a alternativa que contém a ordem CORRETA: ",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-16T00:29:24.000Z",
+            "updated_at": "2022-02-08T14:17:10.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 831,
+                    "title": "Consulta Ginecológica",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2021-06-16T00:22:45.000Z",
+                    "updated_at": "2021-06-16T00:22:45.000Z",
+                    "pivot": {
+                        "discipline_id": 831,
+                        "question_id": 9134
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 37367,
+                    "question_id": 9134,
+                    "description": "Exames complementares - anamnese completa - exame físico geral - exame das mamas - exame da vulva - exame dos genitais internos. ",
+                    "explanation": "Falso, Doc! 😵 Essa não é a alternativa que contém a ordem correta de uma consulta ginecológica.  \n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:29:24.000Z",
+                    "updated_at": "2022-02-08T11:17:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 37368,
+                    "question_id": 9134,
+                    "description": "Exames complementares - exame físico geral - exame das mamas - anamnese completa - exame dos genitais internos - exame da vulva.",
+                    "explanation": "Falso, Doc! 😵 Essa não é a alternativa que contém a ordem correta de uma consulta ginecológica. \n\n- Doc, sempre devemos seguir o “passo a passo” da consulta para que não esqueçamos de nada e consigamos cobrir a maioria das necessidades da paciente!  ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:29:24.000Z",
+                    "updated_at": "2022-02-08T11:17:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 37369,
+                    "question_id": 9134,
+                    "description": "Anamnese completa - exame físico geral - exame das mamas - exame da vulva - exame dos genitais internos - exames complementares. ",
+                    "explanation": "Isso mesmo, Doc! 🤗Essa é a alternativa que contém a ordem correta de uma consulta ginecológica. \n\n- Doc, explicando mais detalhadamente essa ordem: primeiro realizamos a **anamnese completa**, seguida da anamnese **ginecológica e obstétric**a; e então vamos para o **exame físico geral**, afinal a paciente pode ter outras condições importantes, além de suas queixas ginecológicas; **exame das mamas,** **exame da vulva** e exame dos **genitais internos**, compondo o exame físico ginecológico padrão de **rastreio**; e terminamos com a solicitação de **exames complementares,** caso sejam necessários!  ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-06-15T21:29:24.000Z",
+                    "updated_at": "2022-02-08T11:17:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 37370,
+                    "question_id": 9134,
+                    "description": "Anamnese completa - exame das mamas - exame físico geral - exames complementares - exame da vulva - exame dos genitais internos.",
+                    "explanation": "Falso, Doc! 😵 Essa não é a alternativa que contém a ordem correta de uma consulta ginecológica. \n\n- Doc, sempre devemos seguir o “passo a passo” da consulta para que não esqueçamos de nada e consigamos cobrir a maioria das necessidades da paciente!  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:29:24.000Z",
+                    "updated_at": "2022-02-08T11:17:10.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9134,
+                "questionary_id": 238938,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9135,
+            "institution_id": 4,
+            "description": "Acerca da anamnese da paciente ginecológica, assinale a alternativa **INCORRETA**: ",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-16T00:30:29.000Z",
+            "updated_at": "2022-02-08T14:21:09.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 831,
+                    "title": "Consulta Ginecológica",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2021-06-16T00:22:45.000Z",
+                    "updated_at": "2021-06-16T00:22:45.000Z",
+                    "pivot": {
+                        "discipline_id": 831,
+                        "question_id": 9135
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 37371,
+                    "question_id": 9135,
+                    "description": "Na primeira consulta, é rotina questionar sobre a menarca, telarca e pubarca. ",
+                    "explanation": "Essa está certinha, Doc! 😇 \n- Na primeira consulta, realmente é rotina questionar sobre a menarca, telarca e pubarca.  \n- Lembre que a primeira consulta deve-se coletar uma anamnese bem completinha, tanto geral quanto ginecológica 😉",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:30:29.000Z",
+                    "updated_at": "2022-02-08T11:21:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 37372,
+                    "question_id": 9135,
+                    "description": "As principais queixas na consulta ginecológica são de dor abdominal e pélvica, corrimento e infecções. ",
+                    "explanation": "Essa está certinha, Doc! 😇 \n- As principais queixas na consulta ginecológica são realmente dor abdominal e pélvica, corrimento e infecções.\n- Lembrando que os principais motivos de consulta incluem também questões não patológicas, como check-up e realização do preventivo. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:30:29.000Z",
+                    "updated_at": "2022-02-08T11:21:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 37373,
+                    "question_id": 9135,
+                    "description": "Os antecedentes obstétricos e gestacionais são sempre pedidos em consultas de continuidade.",
+                    "explanation": "Boa, Doc, essa é a incorreta! 👊 \n- Na verdade, os antecedentes obstétricos e gestacionais são sempre questionados na **primeira** consulta, sendo arquivados nos prontuários. \n- Assim, não há necessidade de questionar em todas as consultas de rotina ou continuidade, pois já estão coletadas.  ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-06-15T21:30:29.000Z",
+                    "updated_at": "2022-02-08T11:21:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 37374,
+                    "question_id": 9135,
+                    "description": "Os materiais para coleta de material cérvico-vaginal devem sempre estar previamente no local.",
+                    "explanation": "Essa está certinha, Doc! 😇 \n- Os materiais para coleta de material cérvico-vaginal realmente sempre devem estar previamente no local. \n- Isso agiliza a consulta e evita constrangimentos à paciente.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:30:29.000Z",
+                    "updated_at": "2022-02-08T11:21:09.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9135,
+                "questionary_id": 238938,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9136,
+            "institution_id": 4,
+            "description": "Assinale a única alternativa que NÃO corresponde a um material utilizado no exame ginecológico de rotina.  ",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-15T21:31:57.000Z",
+            "updated_at": "2022-02-08T11:24:56.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 831,
+                    "title": "Consulta Ginecológica",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2021-06-16T00:22:45.000Z",
+                    "updated_at": "2021-06-16T00:22:45.000Z",
+                    "pivot": {
+                        "discipline_id": 831,
+                        "question_id": 9136
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 37375,
+                    "question_id": 9136,
+                    "description": "Espátula de Ayres.",
+                    "explanation": "Essa está certa, Doc! 😅 \nEsse é realmente um dos materiais utilizados no exame ginecológico. \n\nA espátula de Ayres é utilizada para coleta de material cérvico-vaginal ou amostragem da superfície ectocervical. \n\n\nDá uma olhada nos materiais que precisamos para a coleta do Papanicolau, Doc 👇:\n\nFonte da imagem: http://www.vidrariadelaboratorio.com.br/papanicolau/ ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:31:57.000Z",
+                    "updated_at": "2022-02-08T11:24:56.000Z",
+                    "files": [
+                        {
+                            "id": 27350,
+                            "file": "f7faa359-e09a-462d-b6e3-a987637f8a84.jpeg",
+                            "name": "download (3).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-02-08T11:24:33.000Z",
+                            "updated_at": "2022-02-08T11:24:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f7faa359-e09a-462d-b6e3-a987637f8a84.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 27350,
+                                "alternative_id": 37375
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37376,
+                    "question_id": 9136,
+                    "description": "Escova cervical. ",
+                    "explanation": "Essa está certa, Doc! 😅 \nEsse é realmente um dos materiais utilizados no exame ginecológico.\n\nA escova cervical é utilizada para coleta de material do canal endocervical, sem sangramento ou perfuração.  \n\n\n\nDá uma olhada nos materiais que precisamos para a coleta do Papanicolau, Doc 👇:\n\n\n\n\nFonte da imagem: http://www.vidrariadelaboratorio.com.br/papanicolau/  ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:31:57.000Z",
+                    "updated_at": "2022-02-08T11:24:56.000Z",
+                    "files": [
+                        {
+                            "id": 27350,
+                            "file": "f7faa359-e09a-462d-b6e3-a987637f8a84.jpeg",
+                            "name": "download (3).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-02-08T11:24:33.000Z",
+                            "updated_at": "2022-02-08T11:24:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f7faa359-e09a-462d-b6e3-a987637f8a84.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 27350,
+                                "alternative_id": 37376
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37377,
+                    "question_id": 9136,
+                    "description": "Pinça de Cheron.",
+                    "explanation": "Essa está certa, Doc! 😅 A pinça de Cheron pode ser utilizada como um auxiliar no exame ginecológico, realizando a antissepsia da paciente.  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:31:57.000Z",
+                    "updated_at": "2022-02-08T11:24:56.000Z",
+                    "files": []
+                },
+                {
+                    "id": 37378,
+                    "question_id": 9136,
+                    "description": "Tesoura de Mayo.",
+                    "explanation": "Certinho, Doc! 🤗 Essa foi fácil, né? 😴\n- Esse é o material que não é utilizado de rotina no exame ginecológico. \n- Na verdade, a tesoura de Mayo é um material utilizado na rotina cirúrgica, principalmente na versão R em tecidos grosseiros. \n\n- Hey doc, dá uma olhadinha no material básico de coleta do Papanicolau. Nele, podemos ver a Espátula de Ayres, a Escova cervical e  o espéculo! \n- Fonte da imagem: [https://www.fibracirurgica.com.br/kit-papanicolau-vagispec-nao-esteril-p/p](https://www.fibracirurgica.com.br/kit-papanicolau-vagispec-nao-esteril-p/p) ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-06-15T21:31:57.000Z",
+                    "updated_at": "2022-02-08T11:24:56.000Z",
+                    "files": [
+                        {
+                            "id": 11290,
+                            "file": "038d53c1-c2da-469b-b59b-b82010339829.jpeg",
+                            "name": "Consulta ginecológica - 3.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-15T21:31:50.000Z",
+                            "updated_at": "2021-06-15T21:31:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/038d53c1-c2da-469b-b59b-b82010339829.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 11290,
+                                "alternative_id": 37378
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9136,
+                "questionary_id": 238938,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9139,
+            "institution_id": 4,
+            "description": "Analise as frases abaixo e assinale a(s) CORRETA(S): \n\n1. O teste de Schiller positivo consiste no encontro de áreas amareladas no colo uterino. \n2. O teste do ácido acético normal consiste no encontro de um colo de útero acetobranco. ",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-16T00:35:14.000Z",
+            "updated_at": "2022-06-13T13:55:03.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 831,
+                    "title": "Consulta Ginecológica",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2021-06-16T00:22:45.000Z",
+                    "updated_at": "2021-06-16T00:22:45.000Z",
+                    "pivot": {
+                        "discipline_id": 831,
+                        "question_id": 9139
+                    }
+                },
+                {
+                    "id": 889,
+                    "title": "Colposcopia",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2021-07-14T15:46:22.000Z",
+                    "updated_at": "2021-07-14T15:46:22.000Z",
+                    "pivot": {
+                        "discipline_id": 889,
+                        "question_id": 9139
+                    }
+                },
+                {
+                    "id": 149,
+                    "title": "HPV e neoplasia intraepitelial cervical",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-06-05T05:16:36.000Z",
+                    "updated_at": "2020-06-05T05:16:36.000Z",
+                    "pivot": {
+                        "discipline_id": 149,
+                        "question_id": 9139
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 37385,
+                    "question_id": 9139,
+                    "description": "I, apenas. ",
+                    "explanation": "Arrasou, Doc! 😎\n\nVamos justificar as alternativas? \n- 1 - ✅ V - O teste de Schiller positivo ou teste do iodo negativo realmente consiste no encontro de áreas amareladas no colo uterino, sendo essas áreas sugestivas de alteração cancerígena. Haja visto que o iodo penetra células que possuem glicogênio, enquanto que células alteradas não o possuem.\n- 2 - ❌ F - Na verdade, doc, o teste do ácido acético normal consiste no encontro de um colo uterino rosado, enquanto que áreas acetobrancas são indicativos de alteração celular.  \n- Observe na imagem a seguir um teste de Schiller e do ácido acético positivos:\n- Fonte da imagem: [https://www.mdsaude.com/ginecologia/teste-de-schiller/](https://www.mdsaude.com/ginecologia/teste-de-schiller/)",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-06-15T21:35:14.000Z",
+                    "updated_at": "2022-06-13T13:55:03.000Z",
+                    "files": [
+                        {
+                            "id": 29677,
+                            "file": "cf1bc50a-1e55-48c7-b38c-e3c8efa32e73.jpeg",
+                            "name": "Teste-de-Schiller.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-03-08T11:00:20.000Z",
+                            "updated_at": "2022-03-08T11:00:20.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/cf1bc50a-1e55-48c7-b38c-e3c8efa32e73.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29677,
+                                "alternative_id": 37385
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37386,
+                    "question_id": 9139,
+                    "description": "II, apenas.",
+                    "explanation": "Falso, Doc! 😣 Verifique a explicação completa no comentário da alternativa correta 😉\n\n- Observe na imagem a seguir um teste de Schiller e do ácido acético positivos:\n- Fonte da imagem: https://www.mdsaude.com/ginecologia/teste-de-schiller/ ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:35:14.000Z",
+                    "updated_at": "2022-06-13T13:55:03.000Z",
+                    "files": [
+                        {
+                            "id": 29677,
+                            "file": "cf1bc50a-1e55-48c7-b38c-e3c8efa32e73.jpeg",
+                            "name": "Teste-de-Schiller.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-03-08T11:00:20.000Z",
+                            "updated_at": "2022-03-08T11:00:20.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/cf1bc50a-1e55-48c7-b38c-e3c8efa32e73.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29677,
+                                "alternative_id": 37386
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37387,
+                    "question_id": 9139,
+                    "description": "I e II.",
+                    "explanation": "Falso, Doc! 😣 Verifique a explicação completa no comentário da alternativa correta 😉\n\n\n\n- Observe na imagem a seguir um teste de Schiller e do ácido acético positivos:\n- Fonte da imagem: https://www.mdsaude.com/ginecologia/teste-de-schiller/ ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:35:14.000Z",
+                    "updated_at": "2022-06-13T13:55:03.000Z",
+                    "files": [
+                        {
+                            "id": 29677,
+                            "file": "cf1bc50a-1e55-48c7-b38c-e3c8efa32e73.jpeg",
+                            "name": "Teste-de-Schiller.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-03-08T11:00:20.000Z",
+                            "updated_at": "2022-03-08T11:00:20.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/cf1bc50a-1e55-48c7-b38c-e3c8efa32e73.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29677,
+                                "alternative_id": 37387
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37388,
+                    "question_id": 9139,
+                    "description": "Nenhuma.",
+                    "explanation": "Falso, Doc! 😣 Verifique a explicação completa no comentário da alternativa correta 😉\n\n\n- Observe na imagem a seguir um teste de Schiller e do ácido acético positivos:\n- Fonte da imagem: https://www.mdsaude.com/ginecologia/teste-de-schiller/ ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:35:14.000Z",
+                    "updated_at": "2022-06-13T13:55:03.000Z",
+                    "files": [
+                        {
+                            "id": 29677,
+                            "file": "cf1bc50a-1e55-48c7-b38c-e3c8efa32e73.jpeg",
+                            "name": "Teste-de-Schiller.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-03-08T11:00:20.000Z",
+                            "updated_at": "2022-03-08T11:00:20.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/cf1bc50a-1e55-48c7-b38c-e3c8efa32e73.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29677,
+                                "alternative_id": 37388
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9139,
+                "questionary_id": 238938,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9146,
+            "institution_id": 380,
+            "description": "O câncer de mama é a causa mais frequente de morte por câncer em mulheres. Sobre o rastreamento seguindo as recomendações do Ministério da Saúde-INCA, assinale a alternativa **CORRETA**: \n- *questão modificada*",
+            "difficulty": "medium",
+            "year": "2011-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-16T00:52:27.000Z",
+            "updated_at": "2022-05-14T17:57:50.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 380,
+                "title": "UNIFACISA",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-06-15T21:44:19.000Z",
+                "updated_at": "2021-06-15T21:44:19.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 831,
+                    "title": "Consulta Ginecológica",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2021-06-16T00:22:45.000Z",
+                    "updated_at": "2021-06-16T00:22:45.000Z",
+                    "pivot": {
+                        "discipline_id": 831,
+                        "question_id": 9146
+                    }
+                },
+                {
+                    "id": 202,
+                    "title": "Câncer de mama",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-06-13T03:42:34.000Z",
+                    "updated_at": "2020-06-13T03:42:34.000Z",
+                    "pivot": {
+                        "discipline_id": 202,
+                        "question_id": 9146
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 37415,
+                    "question_id": 9146,
+                    "description": "A recomendação para mulheres de 50 a 69 anos é a realização da mamografia a cada 2 anos e do exame clínico das mamas quando há queixas ",
+                    "explanation": "Excelente, Doc! 🤩\nA recomendação pelo MS é que o rastreamento por **mamografia** seja realizado a cada 2 anos em mulheres de **50-69 anos**. ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-06-15T21:52:27.000Z",
+                    "updated_at": "2022-05-14T17:57:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 37416,
+                    "question_id": 9146,
+                    "description": "Para as mulheres de 40 a 49 anos, a recomendação brasileira é o ECM anual e a USG mamária a cada 2 anos em substituição a mamografia pela maior densidade mamária ",
+                    "explanation": "Falso, Doc! 🤔\n- O exame de rastreamento de câncer de mama é realizado por **mamografia** e **exame clínico das mamas.** \n- A USG mamária é um exame complementar em caso de achados radiológicos.\n- A idade é entre 50 e 69 anos.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:52:27.000Z",
+                    "updated_at": "2022-05-14T17:57:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 37417,
+                    "question_id": 9146,
+                    "description": "A recomendação para as mulheres de 50 a 75 anos é a realização de mamografia e do ECM anualmente ",
+                    "explanation": "Falso, Doc! 🤔 A idade é entre **50 e 69 ano**s, e a mamografia deve ser realizada a cada **2 ano**s.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:52:27.000Z",
+                    "updated_at": "2022-05-14T17:57:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 37418,
+                    "question_id": 9146,
+                    "description": "Em mulheres com risco elevado para o câncer de mama deve ser feito mamografia anualmente a partir dos 30 anos",
+                    "explanation": "Falso, Doc! 🤔 As mulheres com risco elevado possuem indicação de rastreamento diferenciado: 👇\n- Mamografia anual;\n- **Após os 35 anos;**\nNo geral, mas vale mencionar que diferentes históricos envolvem diferentes rastreamentos! 😉",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-15T21:52:27.000Z",
+                    "updated_at": "2022-05-14T17:57:50.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9146,
+                "questionary_id": 238938,
+                "timer": 0
+            }
+        }
+    ]
+}

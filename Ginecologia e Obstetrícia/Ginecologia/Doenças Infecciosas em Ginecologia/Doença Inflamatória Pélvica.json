@@ -1,0 +1,2708 @@
+{
+    "id": 238943,
+    "user_id": 1699,
+    "title": "Doença Inflamatória Pélvica \t",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-06-16T02:57:22.000Z",
+    "updated_at": "2022-06-16T02:57:22.000Z",
+    "study_plan_id": 154,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 254,
+            "institution_id": 4,
+            "description": "Quais são os agentes etiológicos mais comuns de DIP?",
+            "difficulty": "easy",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-21T15:38:05.000Z",
+            "updated_at": "2021-05-23T23:15:57.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 254
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1043,
+                    "question_id": 254,
+                    "description": "C. trachomatis e T. vaginalis",
+                    "explanation": "Falso doc! Os dois patógenos principais primários da DIP são a C. trachomatis e N. gonorrhoeae. O curioso é que a DIP inicia com a infecção cervical por Chlamydia trachomatis e/ou por Neisseria gonorrhoeae e, geralmente, conduz à infecção polimicrobiana.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T12:38:05.000Z",
+                    "updated_at": "2021-05-23T20:15:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1044,
+                    "question_id": 254,
+                    "description": "T.vaginalis N. gonorrhoeae",
+                    "explanation": "Falso doc! É uma questão mais conceitual. O T. vaginalis é causador da tricomoníase, que geralmente é uma vulvovaginite. Os dois patógenos principais primários da DIP são a C. trachomatis e N. gonorrhoeae. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T12:38:05.000Z",
+                    "updated_at": "2021-05-23T20:15:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1045,
+                    "question_id": 254,
+                    "description": "C. trachomatis e N. gonorrhoeae",
+                    "explanation": "Perfeito doc! 😁Essa é uma questão mais conceitual. Os dois patógenos principais da DIP são a **C. trachomatis e N. gonorrhoeae**. Doc, se liga na estrutura desses patógenos abaixo👇\n- Fonte Chamydia: https://pt.dreamstime.com/illustration/chlamydia.html\n- Fonte Neisseria: https://pt.dreamstime.com/gonorrhoeae-de-neisseria-estrutura-uma-pilha-bacteriana-image118621913",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-21T12:38:05.000Z",
+                    "updated_at": "2021-05-23T20:15:57.000Z",
+                    "files": [
+                        {
+                            "id": 9302,
+                            "file": "e24293ee-ebb8-49d4-aadf-e2c8966abf87.jpeg",
+                            "name": "chlamydia-trachomatis-infecções-bacterianas-clamidiose-doenças-sexualmente-transmissíveis-infográfico-vetor-ilustração-172687473.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-23T23:15:03.000Z",
+                            "updated_at": "2021-05-23T23:15:03.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e24293ee-ebb8-49d4-aadf-e2c8966abf87.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9302,
+                                "alternative_id": 1045
+                            }
+                        },
+                        {
+                            "id": 9301,
+                            "file": "293f5051-8f65-4fce-a520-d79c31a9fb6d.jpeg",
+                            "name": "gonorrhoeae-de-neisseria-estrutura-uma-pilha-bacteriana-118621913.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-23T23:15:03.000Z",
+                            "updated_at": "2021-05-23T23:15:03.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/293f5051-8f65-4fce-a520-d79c31a9fb6d.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9301,
+                                "alternative_id": 1045
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1046,
+                    "question_id": 254,
+                    "description": "C. trachomatis e Gardnerella vaginalis",
+                    "explanation": "Falso doc! É uma questão mais conceitual. O T. vaginalis é causador da tricomoníase, que geralmente é uma vulvovaginite. A G. vaginalis é o principal patógeno da vaginose bacteriana. Os dois patógenos principais primários da DIP são a C. trachomatis e N. gonorrhoeae.  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T12:38:05.000Z",
+                    "updated_at": "2021-05-23T20:15:57.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 254,
+                "questionary_id": 238943,
+                "timer": 9
+            }
+        },
+        {
+            "id": 256,
+            "institution_id": 4,
+            "description": "São fatores de risco para DIP, **EXCETO:**",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-21T15:58:44.000Z",
+            "updated_at": "2021-05-23T23:20:05.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 256
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1051,
+                    "question_id": 256,
+                    "description": " Início precoce da atividade sexual",
+                    "explanation": "Perfeito doc! Pacientes com menos de 25 anos possuem **3-5x** mais chance de apresentar DIP. Os fatores associados são fatores imunológicos (possuem menos anticorpos contra clamídia e gonococco), atraso para procurar atendimento médico e maior exposição a vida sexual.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T12:58:44.000Z",
+                    "updated_at": "2021-05-23T20:20:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1052,
+                    "question_id": 256,
+                    "description": "Uso de drogas",
+                    "explanation": "Perfeito doc! Esse fator **se associa** positivamente ao desenvolvimento de DIP!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T12:58:44.000Z",
+                    "updated_at": "2021-05-23T20:20:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1053,
+                    "question_id": 256,
+                    "description": "DIP prévias",
+                    "explanation": "Perfeito doc! Pacientes com DIP prévia tem **um aumento** na chance de um novo episódio!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T12:58:44.000Z",
+                    "updated_at": "2021-05-23T20:20:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1054,
+                    "question_id": 256,
+                    "description": "Uso de preservativo",
+                    "explanation": "Falso doc! 🙈 Os preservativos protegem quanto a infecções sexualmente transmissíveis. Ou seja, também tem efeito protetor sobre as doenças inflamatórias pélvicas, visto que os principais patógenos são a Chlamydia trachomatis e o Neiseria gonorrhoeae!",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-21T12:58:44.000Z",
+                    "updated_at": "2021-05-23T20:20:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1055,
+                    "question_id": 256,
+                    "description": " História de infecções sexualmente transmissíveis",
+                    "explanation": "Perfeito doc! Pacientes com histórico de infecção por gonococo, micoplasma ou clamídia apresentam um **risco aumentado** de DIP!",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-05-21T12:58:44.000Z",
+                    "updated_at": "2021-05-23T20:20:05.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 256,
+                "questionary_id": 238943,
+                "timer": 0
+            }
+        },
+        {
+            "id": 257,
+            "institution_id": 4,
+            "description": "São critérios maiores(ou mínimos) para o diagnóstico de DIP, **EXCETO:**",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-21T16:24:53.000Z",
+            "updated_at": "2021-05-23T23:25:42.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 257
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1056,
+                    "question_id": 257,
+                    "description": "Dor à palpação dos anexos",
+                    "explanation": "Falso doc! Lembre-se disso: todo **critério maior** da DIP está relacionado a **dor.** Por exemplo, dor a palpação, dor a mobilização. Precisamos de três critérios maiores e um menor para realizar o diagnóstico!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T13:24:53.000Z",
+                    "updated_at": "2021-05-23T20:25:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1057,
+                    "question_id": 257,
+                    "description": "Dor à mobilização do colo uterino.",
+                    "explanation": "Falso doc! Lembre-se disso: todo **critério maior** da DIP está relacionado a **dor.** Por exemplo, dor a palpação, dor a mobilização. Precisamos de três critérios maiores e um menor para realizar o diagnóstico. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T13:24:53.000Z",
+                    "updated_at": "2021-05-23T20:25:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1058,
+                    "question_id": 257,
+                    "description": "Dor abdominal infraumbilical ",
+                    "explanation": "Falso doc! Lembre-se disso: todo **critério maior** da DIP está relacionado a **dor.** Por exemplo, dor a palpação, dor a mobilização. Precisamos de três critérios maiores e um menor para realizar o diagnóstico. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T13:24:53.000Z",
+                    "updated_at": "2021-05-23T20:25:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1059,
+                    "question_id": 257,
+                    "description": "Massa pélvica",
+                    "explanation": "Perfeito doc! Arrasou! 😁 Esse **não** é um critério maior e sim é um dos **critérios menores para DI**P, junto com leucocitose, conteúdo vaginal ou secreção endocervical anormal,  temperatura axilar elevada, comprovação laboratorial de infecção cervical pelo gonococo, clamídia ou micoplasma, Proteína C-reativa ou VHS elevadas e leucócitos na secreção do endocérvice. Existem também os **critérios elaborados ou definitivo**s, como a evidência histopatológica de endometrite, abscesso tuboovariano e videolaparoscopia com evidência de DIP. Basta apenas **um critério elaborado para realizar o diagnóstico**. Doc, para fixar, se liga nessa tabela mostrando todos os critérios👇\n- Fonte: http://rmmg.org/artigo/detalhes/219\n\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-21T13:24:53.000Z",
+                    "updated_at": "2021-05-23T20:25:42.000Z",
+                    "files": [
+                        {
+                            "id": 9303,
+                            "file": "c349c460-b486-4596-ae3d-0d0422376065.jpeg",
+                            "name": "unnamed (13).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-23T23:24:20.000Z",
+                            "updated_at": "2021-05-23T23:24:20.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c349c460-b486-4596-ae3d-0d0422376065.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9303,
+                                "alternative_id": 1059
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 257,
+                "questionary_id": 238943,
+                "timer": 0
+            }
+        },
+        {
+            "id": 264,
+            "institution_id": 4,
+            "description": "Qual é a **tríade** de sinais e sintomas para o diagnóstico clínico de Doença Inflamatória Pélvica?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-21T19:37:19.000Z",
+            "updated_at": "2021-05-23T23:31:52.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 264
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1086,
+                    "question_id": 264,
+                    "description": "Dor pélvica, dor à mobilização do colo uterino e dos anexos, e febre.",
+                    "explanation": "Perfeito doc! Mandou bem demais!😁Nessa alternativa temos os **três critérios maiores**👇\n- dor pélvica\n- dor à palpação dos anexos\n- dor à mobilização do colo uterino\n- Além disso, para fechar o diagnóstico temos a **febre** que é um **critério menor.**\n- Doc, mas falando nisso, você conhece os critérios diagnósticos para a DIP? Se liga nisso👇\n- Fonte: http://rmmg.org/artigo/detalhes/219http://rmmg.org/artigo/detalhes/219",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-21T16:37:20.000Z",
+                    "updated_at": "2021-05-23T20:31:52.000Z",
+                    "files": [
+                        {
+                            "id": 9303,
+                            "file": "c349c460-b486-4596-ae3d-0d0422376065.jpeg",
+                            "name": "unnamed (13).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-23T23:24:20.000Z",
+                            "updated_at": "2021-05-23T23:24:20.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c349c460-b486-4596-ae3d-0d0422376065.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9303,
+                                "alternative_id": 1086
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1087,
+                    "question_id": 264,
+                    "description": "Disúria, dor pélvica e dor à mobilização dos anexos.",
+                    "explanation": "Falso doc! Temos três **critérios maiores** na alternativa. No entanto, para realizar o diagnóstico, precisariamos de mais um **critério menor**, como: temperatura maior que 38,3°C, conteúdo vaginal anormal, massa pélvica, leucocitose, proteína C-reativa ou VHS elevadas, entre outros. Doc, se liga nessa tabela👇\n- Fonte: http://rmmg.org/artigo/detalhes/219",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T16:37:20.000Z",
+                    "updated_at": "2021-05-23T20:31:52.000Z",
+                    "files": [
+                        {
+                            "id": 9303,
+                            "file": "c349c460-b486-4596-ae3d-0d0422376065.jpeg",
+                            "name": "unnamed (13).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-23T23:24:20.000Z",
+                            "updated_at": "2021-05-23T23:24:20.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c349c460-b486-4596-ae3d-0d0422376065.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9303,
+                                "alternative_id": 1087
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1088,
+                    "question_id": 264,
+                    "description": "Dor suprapúbica, febre e sangramento uterino anormal",
+                    "explanation": "Falso doc! O sangramento uterino anormal **não costuma** fazer parte do quadro de doença inflamatória pélvica. Algumas causas de SUA são adenomiose, coagulopatias, miomas submucosos, pólipos endometriais. Doc, para lembrar da tríade, basta lembrar dos principais critérios diagnósticos da DIP. Se liga nessa tabela👇\n- Fonte: http://rmmg.org/artigo/detalhes/219",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T16:37:20.000Z",
+                    "updated_at": "2021-05-23T20:31:52.000Z",
+                    "files": [
+                        {
+                            "id": 9303,
+                            "file": "c349c460-b486-4596-ae3d-0d0422376065.jpeg",
+                            "name": "unnamed (13).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-23T23:24:20.000Z",
+                            "updated_at": "2021-05-23T23:24:20.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c349c460-b486-4596-ae3d-0d0422376065.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9303,
+                                "alternative_id": 1088
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1089,
+                    "question_id": 264,
+                    "description": "Corrimento vaginal, dor pélvica e disúria.",
+                    "explanation": "Falso doc! Temos apenas um **critério maior** na alternativa que é a dor pélvica. O corrimento vaginal é um **critério menor.** Doc, se liga nessa tabela👇\n- Fonte: http://rmmg.org/artigo/detalhes/219",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T16:37:20.000Z",
+                    "updated_at": "2021-05-23T20:31:52.000Z",
+                    "files": [
+                        {
+                            "id": 9303,
+                            "file": "c349c460-b486-4596-ae3d-0d0422376065.jpeg",
+                            "name": "unnamed (13).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-23T23:24:20.000Z",
+                            "updated_at": "2021-05-23T23:24:20.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c349c460-b486-4596-ae3d-0d0422376065.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9303,
+                                "alternative_id": 1089
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 264,
+                "questionary_id": 238943,
+                "timer": 0
+            }
+        },
+        {
+            "id": 266,
+            "institution_id": 4,
+            "description": "São sequelas importantes da Doença Inflamatória Pélvica, **EXCETO:**",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-21T20:09:11.000Z",
+            "updated_at": "2021-05-23T23:43:28.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 266
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1094,
+                    "question_id": 266,
+                    "description": "Infertilidade. ",
+                    "explanation": "Perfeito doc! 😁A infertilidade é diretamente proporcional aos **pisódios de DI**P. Em outras palavras, quanto mais episódios de DIP, maiores são as chances da paciente ficar infértil (sendo mais de 50% após o terceiro episódio😮😮😮).",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T17:09:12.000Z",
+                    "updated_at": "2021-05-23T20:43:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1095,
+                    "question_id": 266,
+                    "description": "Metrorragia. ",
+                    "explanation": "Falso doc! 🙈. A metrorragia (sangramento uterino fora do período menstrual, **NÃO** é uma sequela associada a episódios de DIP. As principais sequelas da DIP incluem👇\n- formação de aderências=> por conta do próprio processo inflamatório\n- infertilidade=> diretamente proporcional aos episódios de DIP, aumentando absurdamenta após o 3º episódio\n- gravidez ectópica=> decorrente de alterações na anatomia uterina\n\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-21T17:09:12.000Z",
+                    "updated_at": "2021-05-23T20:43:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1096,
+                    "question_id": 266,
+                    "description": "Prenhez ectópica",
+                    "explanation": "Perfeito doc! 😁A prenhez ectópica é uma das **sequelas tardia**s. Acontece quando existe uma alteração na anatomia uterina(com a presença de aderências e inflamação remanescente). Isso pode proporcionar um ambiente mais favorável a ocorrência de gravidez ectópica!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T17:09:12.000Z",
+                    "updated_at": "2021-05-23T20:43:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1097,
+                    "question_id": 266,
+                    "description": "Aderências.",
+                    "explanation": "Perfeito doc! 😁As aderências são uma das sequelas **tardia**s da DIP. Pensa comigo doc, após um processo inflamatório, é normal formar **tecido fibrótico no local!** Doc, se liga nessa imagem abaixo mostrando a formação de aderências em um quadro de DIP👇\n- Fonte: https://www.sogimig.org.br/curso/material/ginecologica/DIP-2017.pdf",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T17:09:12.000Z",
+                    "updated_at": "2021-05-23T20:43:28.000Z",
+                    "files": [
+                        {
+                            "id": 9304,
+                            "file": "b0c8bb76-ce44-47d0-acd1-a6fa924f1fc0.jpeg",
+                            "name": "download (7).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-23T23:42:04.000Z",
+                            "updated_at": "2021-05-23T23:42:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b0c8bb76-ce44-47d0-acd1-a6fa924f1fc0.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9304,
+                                "alternative_id": 1097
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 266,
+                "questionary_id": 238943,
+                "timer": 0
+            }
+        },
+        {
+            "id": 267,
+            "institution_id": 52,
+            "description": "Jovem, nuligesta, com quadro de DIP, poderá ter como principal **sequela**:*(adaptada)*",
+            "difficulty": "easy",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-21T20:20:22.000Z",
+            "updated_at": "2021-05-23T23:48:07.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 52,
+                "title": "HOSPITAL DAS CLÍNICAS DE TERESÓPOLIS COSTANTINO OTTAVIANO – RJ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-21T17:20:22.000Z",
+                "updated_at": "2020-05-21T17:20:22.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 267
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1098,
+                    "question_id": 267,
+                    "description": "Anovulação crônica.  ",
+                    "explanation": "Falso doc! 😋 A anovulação crônica tem como uma das principais causas a síndrome dos ovários policísticos. A DIP **não altera função ovarian**a, ou seja, não pode causar anovulação crônica!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T17:20:23.000Z",
+                    "updated_at": "2021-05-23T20:48:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1099,
+                    "question_id": 267,
+                    "description": "Obstrução tubária",
+                    "explanation": "Perfeito doc! Mandou bem demais!😁 É uma das sequelas tardias da DIP. A **infertilidad**e e a **gestação ectópic**a podem ocorrer pela obstrução tubária após o processo inflamatório! Doc, essa obstrução geralmente está relacionada a formação de tecido fibroso, como esquematizado na imagem abaixo👇\n- Fonte: https://drmarcellolopes.site.med.br/index.asp?PageName=Obstru-E7-E3o-20das-20Trompas-20de-20Fal-F3pio",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-21T17:20:23.000Z",
+                    "updated_at": "2021-05-23T20:48:07.000Z",
+                    "files": [
+                        {
+                            "id": 9305,
+                            "file": "55c720b8-ba81-428b-bba0-5d6b74bde942.png",
+                            "name": "30440699_1676739455714181_8541506301706895360_n.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-23T23:47:07.000Z",
+                            "updated_at": "2021-05-23T23:47:07.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/55c720b8-ba81-428b-bba0-5d6b74bde942.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9305,
+                                "alternative_id": 1099
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1100,
+                    "question_id": 267,
+                    "description": "Endometriose pélvica.",
+                    "explanation": "Falso doc! A endometriose **NÃO é** uma das sequelas de DIP. A endometriose pode ter alguns fatores de risco, como nuliparidade e histórico de endometriose na família!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T17:20:23.000Z",
+                    "updated_at": "2021-05-23T20:48:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1101,
+                    "question_id": 267,
+                    "description": "Dismenorreia.",
+                    "explanation": "Falso doc! 😋 A dismenorreia é uma dor em cólica relacionada com períodos menstruais. Uma das principais causas de dismenorreia é a **endometriose**!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T17:20:23.000Z",
+                    "updated_at": "2021-05-23T20:48:07.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 267,
+                "questionary_id": 238943,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13522,
+            "institution_id": 394,
+            "description": "Os agentes etiológicos mais comuns envolvidos na doença inflamatória pélvica são: ",
+            "difficulty": "easy",
+            "year": "2012-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-05T15:30:27.000Z",
+            "updated_at": "2022-04-05T15:30:27.000Z",
+            "user_id": 1472,
+            "is_residency": true,
+            "institution": {
+                "id": 394,
+                "title": "FUNDAÇÃO JOÃO GOULART – HOSPITAIS  MUNICIPAIS – RJ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-07-04T20:59:05.000Z",
+                "updated_at": "2021-07-04T20:59:05.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 13522
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 55401,
+                    "question_id": 13522,
+                    "description": "Streptoccocus B-hemolítico e Mycoplasma hominis. ",
+                    "explanation": "Falso, Doc! 😋 São o **gonococo e a clamídi**a! Os mesmos que causam as cervicites 😉 ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-04-05T15:30:27.000Z",
+                    "updated_at": "2022-04-05T15:30:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55402,
+                    "question_id": 13522,
+                    "description": "Neisseria gonorrhoeae e Chlamydia trachomatis. ",
+                    "explanation": "Isso mesmo, Doc! 😁 São o **gonococo e a clamídi**a! Os mesmos que causam as cervicites. Lembrando que o tratamento da DIP é feito com:\n- Ceftriaxona (que cobre gonococo)\n- Doxicicllina (que cobre clamídia)\n- E metronidazol",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-04-05T15:30:27.000Z",
+                    "updated_at": "2022-04-05T15:30:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55403,
+                    "question_id": 13522,
+                    "description": "Chlamydia trachomatis e Mycoplasma hominis. ",
+                    "explanation": "Falso, Doc! 😋 São o **gonococo e a clamídi**a! Os mesmos que causam as cervicites 😉 ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-05T15:30:27.000Z",
+                    "updated_at": "2022-04-05T15:30:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55404,
+                    "question_id": 13522,
+                    "description": "Trichomonas vaginalis e Chlamydia trachomatis.",
+                    "explanation": "Falso, Doc! 😋 São o **gonococo e a clamídi**a! Os mesmos que causam as cervicites 😉",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-05T15:30:27.000Z",
+                    "updated_at": "2022-04-05T15:30:27.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13522,
+                "questionary_id": 238943,
+                "timer": 0
+            }
+        },
+        {
+            "id": 258,
+            "institution_id": 4,
+            "description": "Na classificação de DIP, qual alternativa **NÃO apresenta** o correto significado do seu estágio:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-21T16:43:57.000Z",
+            "updated_at": "2021-05-23T23:53:25.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 258
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1060,
+                    "question_id": 258,
+                    "description": "Estágio 1 - Endometrite e salpingite aguda sem peritonite",
+                    "explanation": "Perfeito doc! E nesse caso o tratamento é ambulatorial. Se liga nessa tabela doc👇\n- Fonte: http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T13:43:57.000Z",
+                    "updated_at": "2021-05-23T20:53:25.000Z",
+                    "files": [
+                        {
+                            "id": 9306,
+                            "file": "5efe6266-7a4a-4121-88e2-4960fb2e95ab.png",
+                            "name": "672__500x400_estagios_doenca_inflamatoria_pelvica.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-23T23:51:31.000Z",
+                            "updated_at": "2021-05-23T23:51:31.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/5efe6266-7a4a-4121-88e2-4960fb2e95ab.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9306,
+                                "alternative_id": 1060
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1061,
+                    "question_id": 258,
+                    "description": "Estágio 2 - Salpingite aguda com peritonite",
+                    "explanation": "Perfeito doc! 😁. Nesse caso, o tratamento já é hospitalar para observação do quadro. Se liga nessa tabela doc👇\n- Fonte: http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T13:43:57.000Z",
+                    "updated_at": "2021-05-23T20:53:25.000Z",
+                    "files": [
+                        {
+                            "id": 9306,
+                            "file": "5efe6266-7a4a-4121-88e2-4960fb2e95ab.png",
+                            "name": "672__500x400_estagios_doenca_inflamatoria_pelvica.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-23T23:51:31.000Z",
+                            "updated_at": "2021-05-23T23:51:31.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/5efe6266-7a4a-4121-88e2-4960fb2e95ab.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9306,
+                                "alternative_id": 1061
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1062,
+                    "question_id": 258,
+                    "description": "Estágio 3 - Salpingite aguda com oclusão tubária",
+                    "explanation": "Excelente doc❤. O tratamento é hospitalar. E doc, aqui tem um passo muito importante. Não necessariamente você deve drenar o abscesso, mas pode começar o tratamento com antibiótico e observar se há remissão do quadro. Se liga nessa tabela doc👇\n- Fonte: http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T13:43:57.000Z",
+                    "updated_at": "2021-05-23T20:53:25.000Z",
+                    "files": [
+                        {
+                            "id": 9306,
+                            "file": "5efe6266-7a4a-4121-88e2-4960fb2e95ab.png",
+                            "name": "672__500x400_estagios_doenca_inflamatoria_pelvica.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-23T23:51:31.000Z",
+                            "updated_at": "2021-05-23T23:51:31.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/5efe6266-7a4a-4121-88e2-4960fb2e95ab.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9306,
+                                "alternative_id": 1062
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1063,
+                    "question_id": 258,
+                    "description": "Estágio 4 - Abscesso tubo-ovariano íntegro",
+                    "explanation": "Falso doc!🐱‍👤. O abscesso nesse caso **é rot**o com secreção purulenta na cavidade. O tratamento é cirúrgico e envolve a drenagem do abscesso e limpeza da cavidade! Doc, se liga nessa tabela que esquematiza os estágios da DIP👇\n- Fonte: http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-21T13:43:57.000Z",
+                    "updated_at": "2021-05-23T20:53:25.000Z",
+                    "files": [
+                        {
+                            "id": 9306,
+                            "file": "5efe6266-7a4a-4121-88e2-4960fb2e95ab.png",
+                            "name": "672__500x400_estagios_doenca_inflamatoria_pelvica.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-23T23:51:31.000Z",
+                            "updated_at": "2021-05-23T23:51:31.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/5efe6266-7a4a-4121-88e2-4960fb2e95ab.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9306,
+                                "alternative_id": 1063
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 258,
+                "questionary_id": 238943,
+                "timer": 0
+            }
+        },
+        {
+            "id": 259,
+            "institution_id": 4,
+            "description": "Qual é o **tratamento medicamentoso** ambulatorial da DIP de acordo com o Ministério da Saúde?",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-21T16:51:44.000Z",
+            "updated_at": "2021-12-13T23:45:29.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 259
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1064,
+                    "question_id": 259,
+                    "description": "Cetriaxona + Penicilina + Metronidazol",
+                    "explanation": "Falso doc! 😋A penicilina é usada no tratamento de **ISTs como sífili**s, porém não tem um grande ação na DIP. O tratamento deve cobrir os patógenos mais prevalentes da DIP: gonococo, clamídia e anaeróbios. Por isso, escolhemos a sequência composta na alternativa: ceftriaxona(gonococo), doxiciclina(clamídia), anaeróbios(metronidazol). ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T13:51:44.000Z",
+                    "updated_at": "2021-12-13T20:45:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1065,
+                    "question_id": 259,
+                    "description": "Cetriaxona + Doxiciclina + Metronidazol",
+                    "explanation": "Perfeito doc! Arrasou! 😁 O tratamento deve cobrir os patógenos mais prevalentes da DIP: gonococo, clamídia e anaeróbios. Por isso, escolhemos a seguinte sequência \n- ceftriaxona(gonococo)\n- doxiciclina(clamídia)\n- anaeróbios(metronidazol)\n- Doc, para nunca mais esquecer, podemos lembrar pelo mnemônico: **C**oisa **D**o **M**al.  ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-21T13:51:44.000Z",
+                    "updated_at": "2021-12-13T20:45:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1066,
+                    "question_id": 259,
+                    "description": "Cetriaxona + Azitromicina",
+                    "explanation": "Falso doc! 😋Não é a cobertura de antibióticos de primeira escolha. O tratamento deve cobrir os patógenos mais prevalentes da DIP: gonococo, clamídia e anaeróbios. Por isso, escolhemos a sequência composta na alternativa: ceftriaxona(gonococo), doxiciclina(clamídia), anaeróbios(metronidazol). ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T13:51:44.000Z",
+                    "updated_at": "2021-12-13T20:45:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1067,
+                    "question_id": 259,
+                    "description": "Penicilina + Metronidazol",
+                    "explanation": "Falso doc! 😋 Com esse esquema, não cobrimos os patógenos mais prevalentes da DIP, uma vez que a penicilina tem uma baixa cobertura para gonococo e clamídia. Doc, a lógica é a seguinte: o tratamento deve cobrir os patógenos mais prevalentes da DIP: gonococo, clamídia e anaeróbios. Por isso, escolhemos a sequência composta na alternativa: ceftriaxona(gonococo), doxiciclina(clamídia) e anaeróbios(metronidazol). ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T13:51:44.000Z",
+                    "updated_at": "2021-12-13T20:45:29.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 259,
+                "questionary_id": 238943,
+                "timer": 0
+            }
+        },
+        {
+            "id": 260,
+            "institution_id": 4,
+            "description": "Qual **NÃO é** uma sequela tardia da DIP?",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-21T16:57:59.000Z",
+            "updated_at": "2021-05-24T00:00:43.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 260
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1068,
+                    "question_id": 260,
+                    "description": "Infertilidade",
+                    "explanation": "Falso doc!😋 A infertilidade é sim uma sequela tardia e está diretamente ligadaas reação inflamatórias. Isto é, quanto **mai**s episódio de DIP, **maio**r a chance de infertilidade!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T13:58:00.000Z",
+                    "updated_at": "2021-05-23T21:00:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1069,
+                    "question_id": 260,
+                    "description": " Abscesso tubo-ovariano",
+                    "explanation": "Perfeito doc! Pegadinha🐱‍👤🐱‍👤🐱‍👤. Essa é uma se**quela p**recoce da DIP. Classifica a DIP como estágio 3. E, se roto, parte para o estágio 4. Ambos devem ter um tratamento hospitalar. Doc, se liga nessa imagem de videolaparoscopia mostrando um abscesso tubo-ovariano em uma DIP👇\n- Fonte: [https://www.medicinanet.com.br/conteudos/casos/7639/doenca_inflamatoria_pelvica_com_abscesso_tuboovariano.htm](https://www.medicinanet.com.br/conteudos/casos/7639/doenca_inflamatoria_pelvica_com_abscesso_tuboovariano.htm)",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-21T13:58:00.000Z",
+                    "updated_at": "2021-05-23T21:00:43.000Z",
+                    "files": [
+                        {
+                            "id": 9307,
+                            "file": "16d166f0-d7dc-4a69-af2b-752c88fce201.png",
+                            "name": "20181005093700.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-23T23:57:42.000Z",
+                            "updated_at": "2021-05-23T23:57:42.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/16d166f0-d7dc-4a69-af2b-752c88fce201.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9307,
+                                "alternative_id": 1069
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1070,
+                    "question_id": 260,
+                    "description": "Dor pélvica crônica",
+                    "explanation": "Falso doc!😋 A dor pélvica crônica é sim uma sequela tardia. Pode estar relacionada ao processo **inflamatório remanescente e aderências locais**. Doc, por isso a importância do **tratamento correto da DIP**!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T13:58:00.000Z",
+                    "updated_at": "2021-05-23T21:00:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1071,
+                    "question_id": 260,
+                    "description": "Recorrência da DIP",
+                    "explanation": "Falso doc! 😋A recorrência da DIP é considerada uma sequela tardia! Doc, você se lembra que era **um fator de risco para DIP**? Quase 1/4 das pacientes que tem DIP vão ter recorrência!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T13:58:00.000Z",
+                    "updated_at": "2021-05-23T21:00:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1072,
+                    "question_id": 260,
+                    "description": "Dispareunia",
+                    "explanation": "Falso doc! 😋 É sim uma sequela tardia! Quase **metad**e das pacientes apresentam esse sintoma. Pode estar relacionado as aderência resultantes da infecção.",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-05-21T13:58:00.000Z",
+                    "updated_at": "2021-05-23T21:00:43.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 260,
+                "questionary_id": 238943,
+                "timer": 0
+            }
+        },
+        {
+            "id": 261,
+            "institution_id": 13,
+            "description": "Mulher, 18 anos de idade, queixa-se de corrimento cinza de odor fétido há 7 dias, dor em hipogástrio e febre há 2 dias. É usuária de DIU de cobre há 6 meses. Qual o provável agente etiológico responsável pelo quadro e qual a melhor conduta?  ",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-21T17:17:01.000Z",
+            "updated_at": "2021-05-24T00:03:55.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 13,
+                "title": "UNIFESP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T18:27:33.000Z",
+                "updated_at": "2020-05-17T18:27:33.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 261
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1073,
+                    "question_id": 261,
+                    "description": "Candida glabrata, antifúngico, manutenção do DIU",
+                    "explanation": "Falso doc! 😋 Não é um dos patógenos iniciais mais comuns de DIP, nem das vulvovaginites (seria a candida albicans)!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T14:17:01.000Z",
+                    "updated_at": "2021-05-23T21:03:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1074,
+                    "question_id": 261,
+                    "description": "Clamydia trachomatis, antibioticoterapia, manutenção do DIU",
+                    "explanation": "Perfeito doc! Arrasou demais! 😁 Temos uma provável DIP Os principais sintomas e sintomas são: **dor pélvic**a, **dor à mobilização do colo uterin**o, dispareunia, **dor anexia**l, corrimento vagina, leucocitose, febre. A infecção final da DIP até pode ser polimicrobiana, porém os patógenos iniciais mais comuns são a **Clamydia trachomatis e a Neisseria gonorrhoea**e. Atualmente, é preconizado deixar(ou seja, não retirar) o DIU e iniciar o tratamento. Doc, para facilitar no raciocínio diagnóstico, se liga nessa tabela de critérios para DIP👇\n- Fonte: http://rmmg.org/artigo/detalhes/219",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-21T14:17:01.000Z",
+                    "updated_at": "2021-05-23T21:03:55.000Z",
+                    "files": [
+                        {
+                            "id": 9303,
+                            "file": "c349c460-b486-4596-ae3d-0d0422376065.jpeg",
+                            "name": "unnamed (13).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-23T23:24:20.000Z",
+                            "updated_at": "2021-05-23T23:24:20.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c349c460-b486-4596-ae3d-0d0422376065.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9303,
+                                "alternative_id": 1074
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1075,
+                    "question_id": 261,
+                    "description": "Actinomyces israelli, antiparasitário, retirada imediata do DIU",
+                    "explanation": "Falso doc! 😋 É um dos patógenos mais comuns na subpopulação de usuárias de DIU causadores de DIP. Porém, a Clamydia trachomatis e a Neisseria gonorrhoeae ainda são causadoras de quase 90% dos episódios de DIP aguda!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T14:17:01.000Z",
+                    "updated_at": "2021-05-23T21:03:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1076,
+                    "question_id": 261,
+                    "description": "Mycoplasma hominis, antibioticoterapia, retirada do DIU",
+                    "explanation": "Falso doc! 😋 Esse patógeno pode estar aumentado nos casos de DIP em **soropositiva**s. Porém, a Clamydia trachomatis e a Neisseria gonorrhoeae ainda são causadoras de quase 90% dos episódios de DIP aguda!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T14:17:01.000Z",
+                    "updated_at": "2021-05-23T21:03:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1077,
+                    "question_id": 261,
+                    "description": "vaginose bacteriana, antiparasitário, retirada do DIU",
+                    "explanation": "Falso doc! 😋Pouco provável que uma vaginose bacteriana daria um quadro de **febr**e e **dor em hipogastr**o na paciente. Mas eu entendo, Doc, ficou uma pegadinha na parte do **corrimento cinza de odor fétido**, que são características do quadro de vaginose bacteriana!",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-05-21T14:17:01.000Z",
+                    "updated_at": "2021-05-23T21:03:55.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 261,
+                "questionary_id": 238943,
+                "timer": 0
+            }
+        },
+        {
+            "id": 262,
+            "institution_id": 25,
+            "description": "Mulher de 30 anos apresenta febre e dor intensa no baixo-ventre. Sua ultrassonografia revelou presença de massa complexa, sugestiva de abscesso tubo-ovariano esquerdo de 5 cm. A conduta imediata deve ser a:",
+            "difficulty": "medium",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-21T19:17:18.000Z",
+            "updated_at": "2021-05-31T02:05:24.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 25,
+                "title": "USP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:55:52.000Z",
+                "updated_at": "2020-05-18T19:55:52.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 262
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1078,
+                    "question_id": 262,
+                    "description": "Culdotomia.",
+                    "explanation": "Falso doc! 😋 Abscesso em quadros de DIP **não** é indicação direta de culdotomia. Devemos primeiramente tentar o **tratamento clínico!** ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T16:17:18.000Z",
+                    "updated_at": "2021-05-30T23:05:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1079,
+                    "question_id": 262,
+                    "description": "Laparoscopia.",
+                    "explanation": "Falso doc! 😋Abscesso em quadros de DIP não é indicação direta de laparoscopia. Devemos primeiramente tentar o **tratamento clínico**!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T16:17:18.000Z",
+                    "updated_at": "2021-05-30T23:05:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1080,
+                    "question_id": 262,
+                    "description": "Laparotomia.",
+                    "explanation": "Falso doc! 😋  A laparotomia é um procedimento invasivo e abscesso em quadros de DIP não é indicação direta de laparotomia. Devemos primeiramente tentar o **tratamento clínico!** A laparotomia fica reservada a casos de abscesso roto ou sinais de choque séptico👇\n- Fonte: http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T16:17:18.000Z",
+                    "updated_at": "2021-05-30T23:05:24.000Z",
+                    "files": [
+                        {
+                            "id": 9728,
+                            "file": "ca4a5fc8-0ce9-4fbb-9d66-5413da19dcec.png",
+                            "name": "672__500x400_estagios_doenca_inflamatoria_pelvica (1).png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-31T02:03:42.000Z",
+                            "updated_at": "2021-05-31T02:03:42.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ca4a5fc8-0ce9-4fbb-9d66-5413da19dcec.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9728,
+                                "alternative_id": 1080
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1081,
+                    "question_id": 262,
+                    "description": "Antibioticoterapia.",
+                    "explanation": "Perfeito doc✌😁. O tratamento hospitalar com antibioticoterapia venosa está indicado em casos de presença de abscesso tubo-ovariano. Lembrando que a cirurgia só está indicada quando há **falha no tratamento clínic**o, **presença de massa pélvic**a que persiste apesar do tratamento clínico, suspeita de rotura de abscesso tubo-ovariano e hemoperitônio. Se liga nessa tabela doc👇\n- Fonte: http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-21T16:17:18.000Z",
+                    "updated_at": "2021-05-30T23:05:24.000Z",
+                    "files": [
+                        {
+                            "id": 9728,
+                            "file": "ca4a5fc8-0ce9-4fbb-9d66-5413da19dcec.png",
+                            "name": "672__500x400_estagios_doenca_inflamatoria_pelvica (1).png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-31T02:03:42.000Z",
+                            "updated_at": "2021-05-31T02:03:42.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ca4a5fc8-0ce9-4fbb-9d66-5413da19dcec.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9728,
+                                "alternative_id": 1081
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 262,
+                "questionary_id": 238943,
+                "timer": 0
+            }
+        },
+        {
+            "id": 263,
+            "institution_id": 4,
+            "description": "Paciente de 25 anos apresenta febre e dor intensa no baixo-ventre. Ao toque bimanual, refere dor à mobilização do colo uterino. Palpa-se massa anexial. Os exames mostram leucocitose com desvio para a esquerda, VHS e proteína C-reativa elevados. A ultrassonografia transvaginal revela imagem cística anexial de conteúdo espesso medindo 4 cm de diâmetro. A conduta imediata é:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-21T19:24:35.000Z",
+            "updated_at": "2021-05-31T02:10:51.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 263
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1082,
+                    "question_id": 263,
+                    "description": "Antibiótico aerobicida e anaerobicida parenteral.",
+                    "explanation": "Perfeito doc!😁.Temos uma paciente com DIP em estágio 3, isto é, a conduta inicial é a internação hospitalar. Após isso, tentaremos um tratamento clínico com **antibioticoterapia para o abscesso de 4c**m. Devemos cobrir os patógenos mais comuns: gonococo, clamídia e anaeróbios. Em casos de refratariedade do quadro ao tratamento, podemos optar pelo acesso cirúrgico. ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-21T16:24:35.000Z",
+                    "updated_at": "2021-05-30T23:10:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1083,
+                    "question_id": 263,
+                    "description": "Aspiração guiada por ultrassonografia.",
+                    "explanation": "Falso doc! 😋 Em casos de doença inflamatória pélvica, **não é indicad**o a realização de procedimento cirúrgico como primeira etapa no tratamento de abscesso. Existem exceções como instabilidade da paciente, refratariedade ao tratamento, rotura do abscesso, abscesso localizado no fundo de saco e suspeita de choque séptico! Se liga nessa imagem doc👇\n- Fonte: http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T16:24:35.000Z",
+                    "updated_at": "2021-05-30T23:10:51.000Z",
+                    "files": [
+                        {
+                            "id": 9728,
+                            "file": "ca4a5fc8-0ce9-4fbb-9d66-5413da19dcec.png",
+                            "name": "672__500x400_estagios_doenca_inflamatoria_pelvica (1).png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-31T02:03:42.000Z",
+                            "updated_at": "2021-05-31T02:03:42.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ca4a5fc8-0ce9-4fbb-9d66-5413da19dcec.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9728,
+                                "alternative_id": 1083
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1084,
+                    "question_id": 263,
+                    "description": "Laparoscopia cirúrgica.",
+                    "explanation": "Falso doc! 😋Em casos de doença inflamatória pélvica, não é indicado a realização de **procedimento cirúrgic**o como primeira etapa no tratamento de abscesso. A laparoscopia é reservada para casos de abscesso roto ou suspeita de choque séptico, como na tabela abaixo👇\n- Fonte: http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T16:24:35.000Z",
+                    "updated_at": "2021-05-30T23:10:51.000Z",
+                    "files": [
+                        {
+                            "id": 9728,
+                            "file": "ca4a5fc8-0ce9-4fbb-9d66-5413da19dcec.png",
+                            "name": "672__500x400_estagios_doenca_inflamatoria_pelvica (1).png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-31T02:03:42.000Z",
+                            "updated_at": "2021-05-31T02:03:42.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ca4a5fc8-0ce9-4fbb-9d66-5413da19dcec.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9728,
+                                "alternative_id": 1084
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1085,
+                    "question_id": 263,
+                    "description": "Drenagem por culdotomia.",
+                    "explanation": "Falso doc! 😋Em casos de doença inflamatória pélvica, não é indicado a realização de **procedimento cirúrgic**o como primeira etapa no tratamento de abscesso! A primeira abordagem sempre é clínica, a não ser que haja suspeita de abscesso roto ou de choque séptico!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T16:24:35.000Z",
+                    "updated_at": "2021-05-30T23:10:51.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 263,
+                "questionary_id": 238943,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10596,
+            "institution_id": 5,
+            "description": "Em relação à doença inflamatória pélvica, analise as assertivas abaixo:  \nI – Deve-se à ascensão de microrganismos do endocérvice, levando à infecção polimicrobiana do trato genital superior, sendo o gonococo e a clamídia os agentes mais comuns. \nII – Na presença de abscesso tubo-ovariano, o tratamento cirúrgico está indicado.   \nIII – O tratamento do parceiro é obrigatório, independentemente da gravidade do  quadro que o paciente apresentar.  \nIV – Dor pélvica crônica, gestação ectópica e infertilidade são complicações tardias associadas e essa patologia. Quais estão corretas: ",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-31T20:38:37.000Z",
+            "updated_at": "2021-08-31T20:38:37.000Z",
+            "user_id": 1570,
+            "is_residency": false,
+            "institution": {
+                "id": 5,
+                "title": "AMRIGS",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T13:59:53.000Z",
+                "updated_at": "2020-05-17T13:59:53.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 10596
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43328,
+                    "question_id": 10596,
+                    "description": "Apenas I e II.",
+                    "explanation": "**Falso, doc!** A afirmativa II está incorreta pois o tratamento cirúrgico é indicado apenas no estágio 4 da doença, ou seja, na presença de abcesso tubo-ovariano roto ou com sinais de choque séptico.  \n- Fonte: [http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html](http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html) ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-31T20:38:37.000Z",
+                    "updated_at": "2021-08-31T20:38:37.000Z",
+                    "files": [
+                        {
+                            "id": 18636,
+                            "file": "bcbb59d4-f3be-40ff-92cf-3457afe33913.png",
+                            "name": "Tratamento DIP.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-08-31T20:25:24.000Z",
+                            "updated_at": "2021-08-31T20:25:24.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/bcbb59d4-f3be-40ff-92cf-3457afe33913.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18636,
+                                "alternative_id": 43328
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 43329,
+                    "question_id": 10596,
+                    "description": "Apenas II e III.",
+                    "explanation": "**Falso, doc!** A afirmativa II está incorreta pois o tratamento cirúrgico é indicado apenas no estágio 4 da doença, ou seja, na presença de abcesso tubo-ovariano roto ou com sinais de choque séptico.  \n- Fonte: [http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html](http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html)  ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-31T20:38:37.000Z",
+                    "updated_at": "2021-08-31T20:38:37.000Z",
+                    "files": [
+                        {
+                            "id": 18636,
+                            "file": "bcbb59d4-f3be-40ff-92cf-3457afe33913.png",
+                            "name": "Tratamento DIP.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-08-31T20:25:24.000Z",
+                            "updated_at": "2021-08-31T20:25:24.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/bcbb59d4-f3be-40ff-92cf-3457afe33913.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18636,
+                                "alternative_id": 43329
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 43330,
+                    "question_id": 10596,
+                    "description": "Apenas I, III e IV.",
+                    "explanation": "**Perfeito, doc!** 👊 \n- A afirmativa I está correta, a DIP se caracteriza por uma infecção ascendente do trato genital que se dissemina através do cérvix, gerando uma endometrite que pode estar associada a uma salpingite e ooforite. A infecção é polimicrobiana envolvendo sobretudo a clamídia e o gonococo\n- A afirmativa III também está correta, visto que por estar relacionada a uma infecção sexualmente transmissível, os parceiros devem ser investigados e tratados para a doença.\n- A afirmativa IV é correta, dor pélvica crônica, gravidez ectópica e a infertilidade  são as principais complicações tardias decorrentes da DIP, sendo que a infertilidade pode ocorrer devido a adesões nas trompas de falópio causadas por deposição de tecido fibroso pós-atividade inflamatória. ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-08-31T20:38:37.000Z",
+                    "updated_at": "2021-08-31T20:38:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43331,
+                    "question_id": 10596,
+                    "description": "Apenas II, III e IV.",
+                    "explanation": "**Falso, doc!** A afirmativa II está incorreta pois o tratamento cirúrgico é indicado apenas no estágio 4 da doença, ou seja, na presença de abcesso tubo-ovariano roto ou com sinais de choque séptico.  \n- Fonte: [http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html](http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html)  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-31T20:38:37.000Z",
+                    "updated_at": "2021-08-31T20:38:37.000Z",
+                    "files": [
+                        {
+                            "id": 18636,
+                            "file": "bcbb59d4-f3be-40ff-92cf-3457afe33913.png",
+                            "name": "Tratamento DIP.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-08-31T20:25:24.000Z",
+                            "updated_at": "2021-08-31T20:25:24.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/bcbb59d4-f3be-40ff-92cf-3457afe33913.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18636,
+                                "alternative_id": 43331
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 43332,
+                    "question_id": 10596,
+                    "description": "I, II, III e IV.",
+                    "explanation": "**Falso, doc!** A afirmativa II está incorreta pois o tratamento cirúrgico é indicado apenas no estágio 4 da doença, ou seja, na presença de abcesso tubo-ovariano roto ou com sinais de choque séptico.  \n- Fonte: [http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html](http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html)  ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-08-31T20:38:37.000Z",
+                    "updated_at": "2021-08-31T20:38:37.000Z",
+                    "files": [
+                        {
+                            "id": 18636,
+                            "file": "bcbb59d4-f3be-40ff-92cf-3457afe33913.png",
+                            "name": "Tratamento DIP.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-08-31T20:25:24.000Z",
+                            "updated_at": "2021-08-31T20:25:24.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/bcbb59d4-f3be-40ff-92cf-3457afe33913.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18636,
+                                "alternative_id": 43332
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10596,
+                "questionary_id": 238943,
+                "timer": 0
+            }
+        },
+        {
+            "id": 255,
+            "institution_id": 4,
+            "description": "Qual agente etiológico de DIP é particularmente mais comum em usuárias de DIU?",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-21T15:50:32.000Z",
+            "updated_at": "2021-05-31T02:13:59.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 255
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1047,
+                    "question_id": 255,
+                    "description": "Actinomyces israelli",
+                    "explanation": "Perfeito doc! Mandou bem!😁O agente etiológico que aumenta nesse subgrupo é o **Actinomyces israelli**. Doc, esse agente é uma espécia de actinobactéria bacilar gram-positiva e anaeróbia facultativa. Se liga na estrutura desse microorganismo em coloração de gram👇\n- Fonte: https://maestrovirtuale.com/actinomyces-israelii-caracteristicas-morfologia-patogenese/",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-21T12:50:32.000Z",
+                    "updated_at": "2021-05-30T23:13:59.000Z",
+                    "files": [
+                        {
+                            "id": 9729,
+                            "file": "eb3beb81-5305-4bcb-8e4a-c24031ae3b69.jpeg",
+                            "name": "imagen-Actinomices-israelii.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-31T02:13:18.000Z",
+                            "updated_at": "2021-05-31T02:13:18.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/eb3beb81-5305-4bcb-8e4a-c24031ae3b69.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9729,
+                                "alternative_id": 1047
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1048,
+                    "question_id": 255,
+                    "description": "C. trachomatis ",
+                    "explanation": "Falso doc! 😋 A maioria dos casos de DIP em pacientes **usuárias de DI**U ainda são causadas pela Chlamydia trachomatis e/ou por Neisseria gonorrhoeae. Todavia, o agente etiológico que aumenta nesse subgrupo é o **Actinomyces israelli**.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T12:50:32.000Z",
+                    "updated_at": "2021-05-30T23:13:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1049,
+                    "question_id": 255,
+                    "description": "N. gonorrhoeae",
+                    "explanation": "Falso doc! 😋A maioria dos casos de DIP em pacientes **usuárias de DI**U ainda são causadas pela Chlamydia trachomatis e/ou por Neisseria gonorrhoeae. Todavia, o agente etiológico que aumenta nesse subgrupo é o **Actinomyces israelli**. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T12:50:32.000Z",
+                    "updated_at": "2021-05-30T23:13:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1050,
+                    "question_id": 255,
+                    "description": "M. hominis",
+                    "explanation": "Falso doc! 😋 O M. hominis aumenta sua prevalência nas pacientes **soropositiva**s junto com a candida, o estreptococos e o HPV.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T12:50:32.000Z",
+                    "updated_at": "2021-05-30T23:13:59.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 255,
+                "questionary_id": 238943,
+                "timer": 0
+            }
+        },
+        {
+            "id": 265,
+            "institution_id": 51,
+            "description": "Qual das seguintes infecções está mais provavelmente associada com doença tubária?  ",
+            "difficulty": "hard",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-21T19:59:37.000Z",
+            "updated_at": "2021-05-31T02:20:15.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 51,
+                "title": "UNCISAL",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-21T16:59:37.000Z",
+                "updated_at": "2020-05-21T16:59:37.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 265
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1090,
+                    "question_id": 265,
+                    "description": "Trichomonas vaginalis",
+                    "explanation": "Falso doc! 😋 Esse é o agente causador da tricomoníase. É um dos patógenos mais comum das vulvovaginites! ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T16:59:37.000Z",
+                    "updated_at": "2021-05-30T23:20:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1091,
+                    "question_id": 265,
+                    "description": "Chlamydia trachomatis",
+                    "explanation": "Falso doc! Essa é uma questão pegadinha🐱‍👤🐱‍👤🐱‍👤. É para lembrar você que a doença inflamatória pélvica (DIP) é definida como infecção polimicrobiana do trato genital (e não especificamente de uma parte). A virulência dos germes e a resposta imune definem a progressão. Em geral, os patógenos mais comuns são a Clamídia e o Gonococo. No entanto, especificamente nas infecções tubárias o patógeno mais comu**m é o Proteus sp**ecies.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T16:59:37.000Z",
+                    "updated_at": "2021-05-30T23:20:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1092,
+                    "question_id": 265,
+                    "description": "Proteus species",
+                    "explanation": "Perfeito doc! Mandou ver! 😁 A doença tubária está relacionada com o germe **Proteus species,** uma bactéria gram-negativa e anaeróbia facultativa! A prevalência é subestimada, pois a maioria dos casos é subclínica (> 60%)! Doc, se liga nessa imagem esquematizando um quadro de DIP tubária👇\n- Fonte: [http://eduardodale.com.br/hidrossalpinge](http://eduardodale.com.br/hidrossalpinge)",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-21T16:59:37.000Z",
+                    "updated_at": "2021-05-30T23:20:15.000Z",
+                    "files": [
+                        {
+                            "id": 9730,
+                            "file": "9a294241-a9ae-4a45-add4-626725a6f966.jpeg",
+                            "name": "00000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-31T02:18:46.000Z",
+                            "updated_at": "2021-05-31T02:18:46.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9a294241-a9ae-4a45-add4-626725a6f966.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 9730,
+                                "alternative_id": 1092
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1093,
+                    "question_id": 265,
+                    "description": "Treponema pallidum",
+                    "explanation": "Falso doc! 😋 Esse é o agente causador da sífilis. Apresenta-se como uma úlcera indolor na fase primária, como lesões mucocutâneas na secundária e de variadas formas na terciária(como gomas sifilíticas). Lembrando que a neurossífilis pode ocorrer em qualquer momento da infecção!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T16:59:37.000Z",
+                    "updated_at": "2021-05-30T23:20:15.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 265,
+                "questionary_id": 238943,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10599,
+            "institution_id": 22,
+            "description": "Uma mulher de 22 anos retorna 4 dias após o diagnóstico de DIPA, em UBS . Fez uso de azitromicina (1g) e queixa-se de piora da dor no baixo-ventre. Relata mal-estar geral e episódio de febre não aferida e, ao exame físico, apresenta regular estado geral, FR = 14 irpm, FC = 100 bpm, PA = 110X70mmHg e T=37,8ºC. O abdome revela dor à palpação profunda da fossa ilíaca esquerda e descompressão brusca duvidosa. Ao exame ginecológico, observam-se secreção purulenta endocervical, dor à palpação dos anexos e mobilização uterina. A conduta é: ",
+            "difficulty": "hard",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-31T20:57:42.000Z",
+            "updated_at": "2021-08-31T20:57:42.000Z",
+            "user_id": 1570,
+            "is_residency": false,
+            "institution": {
+                "id": 22,
+                "title": "UNICAMP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:12:16.000Z",
+                "updated_at": "2020-05-18T19:12:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 10599
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43343,
+                    "question_id": 10599,
+                    "description": "tratamento ambulatorial, prescrever ceftriaxona 500 mg IM dose única e doxiciclina 100 mg VO a cada 12 horas por 14 dias e solicitar agendamento de ultrassonograﬁa transvaginal",
+                    "explanation": "**Falso, doc!** A evolução do quadro do paciente com hipotensão, taquicardia e sinais de peritonite sugerem uma complicação da DIP, requerindo hospitalização para antibioticoterapia intravenosa.\n- Fonte: [http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html](http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html) ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-31T20:57:42.000Z",
+                    "updated_at": "2021-08-31T20:57:42.000Z",
+                    "files": [
+                        {
+                            "id": 18636,
+                            "file": "bcbb59d4-f3be-40ff-92cf-3457afe33913.png",
+                            "name": "Tratamento DIP.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-08-31T20:25:24.000Z",
+                            "updated_at": "2021-08-31T20:25:24.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/bcbb59d4-f3be-40ff-92cf-3457afe33913.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18636,
+                                "alternative_id": 43343
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 43344,
+                    "question_id": 10599,
+                    "description": "internação, prescrever cefoxitina 2 g IV a cada 6 horas e doxiciclina 100 mg VO a cada 12 horas por 14 dias e realizar ultrassonograﬁa transvaginal.",
+                    "explanation": "**Perfeito, doc! 👊** Suspeita-se que o quadro do paciente evoluiu para uma pelviperitonite, a qual configura a doença como estágio 2, requerindo tratamento intrahospitalar com antibioticoterapia intravenosa. A cefoxitina ou cefotetano e doxiciclina são os antibióticos de escolha para abranger um número de microorganismos adequado para o tratamento. Deve ser feita a ultrassonografia para avaliar presença de abcesso. \n- Fonte: [http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html](http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html) ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-08-31T20:57:42.000Z",
+                    "updated_at": "2021-08-31T20:57:42.000Z",
+                    "files": [
+                        {
+                            "id": 18636,
+                            "file": "bcbb59d4-f3be-40ff-92cf-3457afe33913.png",
+                            "name": "Tratamento DIP.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-08-31T20:25:24.000Z",
+                            "updated_at": "2021-08-31T20:25:24.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/bcbb59d4-f3be-40ff-92cf-3457afe33913.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18636,
+                                "alternative_id": 43344
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 43345,
+                    "question_id": 10599,
+                    "description": "tratamento ambulatorial, prescrever ceftriaxona 500 mg IM dose única e metronidazol 500 mg VO a cada 12 horas por 14 dias e fazer reavaliação na Unidade Básica de Saúde em 3 dias",
+                    "explanation": "**Falso, doc!** O tratamento ambulatorial só é indicado no estágio 1 da DIP, na qual não há sinais de peritonite ou choque séptico. Diferente da paciente em questão, que apresenta taquicardia, hipotensão e dor à palpação profunda da fossa ilíaca esquerda com descompressão brusca duvidosa. Além disso, o tratamento ambulatorial é feito com ceftriaxona IM, doxiciclina e metronidazol VO.\n- Fonte: [http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html](http://deiafargnoli.blogspot.com/2014/06/doenca-inflamatoria-pelvica-dip.html) ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-31T20:57:42.000Z",
+                    "updated_at": "2021-08-31T20:57:42.000Z",
+                    "files": [
+                        {
+                            "id": 18636,
+                            "file": "bcbb59d4-f3be-40ff-92cf-3457afe33913.png",
+                            "name": "Tratamento DIP.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-08-31T20:25:24.000Z",
+                            "updated_at": "2021-08-31T20:25:24.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/bcbb59d4-f3be-40ff-92cf-3457afe33913.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18636,
+                                "alternative_id": 43345
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 43346,
+                    "question_id": 10599,
+                    "description": "internação, prescrever azitromicina 1 g VO e metronidazol 500 mg IV a cada 12 horas por 7 dias e realizar ultrassonograﬁa transvaginal",
+                    "explanation": "**Falso, doc!** Apesar de o paciente sim completar os critérios para internação (sinais de peritonite e choque séptico), o tratamento intrahospitalar da DIP complicada é feito com cefoxitina/cefotetana IV + doxiciclina VO.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-31T20:57:42.000Z",
+                    "updated_at": "2021-08-31T20:57:42.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10599,
+                "questionary_id": 238943,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10600,
+            "institution_id": 96,
+            "description": "As repercussões clínicas e econômicas da Doença Inflamatória Pélvica impõem a mobilização para um diagnóstico precoce e um tratamento eficaz. São critérios elaborados para o diagnóstico da DIP, **exceto**:",
+            "difficulty": "hard",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-09-01T00:12:03.000Z",
+            "updated_at": "2021-09-01T00:12:03.000Z",
+            "user_id": 1570,
+            "is_residency": false,
+            "institution": {
+                "id": 96,
+                "title": "SMS-SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-30T21:49:22.000Z",
+                "updated_at": "2020-05-30T21:49:22.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 10600
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43347,
+                    "question_id": 10600,
+                    "description": "Videolaparoscopia com evidência de DIP",
+                    "explanation": "**Perfeito, doc!** 👊 Os critérios elaborados para diagnóstico de DIP são:\n1. Histopatologia com evidência de endometrite;\n2. Ultra-sonografia pélvica com presença de abcesso tubo-ovariano ou no fundo de saco de Douglas;\n3. Laparoscopia com evidências de DIP. \nLembrando que com apenas **1 critério elaborado** já é possível fechar o diagnóstico de DIP.\n- Fonte: [http://rmmg.org/artigo/detalhes/219](http://rmmg.org/artigo/detalhes/219) ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-31T21:12:03.000Z",
+                    "updated_at": "2021-08-31T21:12:03.000Z",
+                    "files": [
+                        {
+                            "id": 18639,
+                            "file": "8fd5500b-a65b-45b8-9931-487d54b10827.jpeg",
+                            "name": "criterios elaborados DIP.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-08-31T21:06:26.000Z",
+                            "updated_at": "2021-08-31T21:06:26.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8fd5500b-a65b-45b8-9931-487d54b10827.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18639,
+                                "alternative_id": 43347
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 43348,
+                    "question_id": 10600,
+                    "description": "Evidências histopatológicas de endometrite ",
+                    "explanation": "**Perfeito, doc!** 👊 Os critérios elaborados para diagnóstico de DIP são:\n1. Histopatologia com evidência de endometrite;\n2. Ultra-sonografia pélvica com presença de abcesso tubo-ovariano ou no fundo de saco de Douglas;\n3. Laparoscopia com evidências de DIP. \nLembrando que com apenas **1 critério elaborado** já é possível fechar o diagnóstico de DIP. \n- fonte: http://rmmg.org/artigo/detalhes/219",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-31T21:12:03.000Z",
+                    "updated_at": "2021-08-31T21:12:03.000Z",
+                    "files": [
+                        {
+                            "id": 18639,
+                            "file": "8fd5500b-a65b-45b8-9931-487d54b10827.jpeg",
+                            "name": "criterios elaborados DIP.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-08-31T21:06:26.000Z",
+                            "updated_at": "2021-08-31T21:06:26.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8fd5500b-a65b-45b8-9931-487d54b10827.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18639,
+                                "alternative_id": 43348
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 43349,
+                    "question_id": 10600,
+                    "description": "Presença de dor à mobilização do colo uterino.",
+                    "explanation": "**Falso, doc!** Esse é um dos critérios maiores para diagnóstico de DIP, juntamente com dor no andar inferior do abdôme e dor à palpação dos anexos.\n- fonte: http://rmmg.org/artigo/detalhes/219",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-08-31T21:12:03.000Z",
+                    "updated_at": "2021-08-31T21:12:03.000Z",
+                    "files": [
+                        {
+                            "id": 18639,
+                            "file": "8fd5500b-a65b-45b8-9931-487d54b10827.jpeg",
+                            "name": "criterios elaborados DIP.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-08-31T21:06:26.000Z",
+                            "updated_at": "2021-08-31T21:06:26.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8fd5500b-a65b-45b8-9931-487d54b10827.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18639,
+                                "alternative_id": 43349
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 43350,
+                    "question_id": 10600,
+                    "description": "Presença de abscesso tubo-ovariano em estudo de imagem",
+                    "explanation": "**Perfeito, doc!** 👊 Os critérios elaborados para diagnóstico de DIP são:\n1. Histopatologia com evidência de endometrite;\n2. Ultra-sonografia pélvica com presença de abcesso tubo-ovariano ou no fundo de saco de Douglas;\n3. Laparoscopia com evidências de DIP. \nLembrando que com apenas **1 critério elaborado** já é possível fechar o diagnóstico de DIP.\n- Fonte: [http://rmmg.org/artigo/detalhes/219](http://rmmg.org/artigo/detalhes/219)  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-31T21:12:03.000Z",
+                    "updated_at": "2021-08-31T21:12:03.000Z",
+                    "files": [
+                        {
+                            "id": 18639,
+                            "file": "8fd5500b-a65b-45b8-9931-487d54b10827.jpeg",
+                            "name": "criterios elaborados DIP.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-08-31T21:06:26.000Z",
+                            "updated_at": "2021-08-31T21:06:26.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8fd5500b-a65b-45b8-9931-487d54b10827.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18639,
+                                "alternative_id": 43350
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10600,
+                "questionary_id": 238943,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10618,
+            "institution_id": 367,
+            "description": "Paciente de 26 anos usuária de anticoncepcional oral combinado há um ano, procura consultório ginecológico queixando-se de dor pélvica, dispareunia e corrimento vaginal há 7 dias. Ao exame clínico apresenta bom estado geral, abdome doloroso à palpação profunda em região suprapúbica, mas sem massas palpáveis ou visceromegalias. Presença de secreção vaginal mucopurulenta no exame especular. Ao toque ginecológico: colo doloroso à mobilização e ausência de massas anexiais. Relata ciclos menstruais regulares, vida sexual ativa e sem parceiro fixo. Em relação a essa paciente, assinale a conduta inicial **CORRETA**:",
+            "difficulty": "hard",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-09-01T17:58:58.000Z",
+            "updated_at": "2021-12-13T21:31:53.000Z",
+            "user_id": 1570,
+            "is_residency": false,
+            "institution": {
+                "id": 367,
+                "title": "HOSPITAL NACIONAL DO CÂNCER – RJ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-06-10T14:37:36.000Z",
+                "updated_at": "2021-06-10T14:37:36.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 10618
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43429,
+                    "question_id": 10618,
+                    "description": "Colher secreção vaginal para cultura e aguardar resultado para iniciar tratamento específico.",
+                    "explanation": "**Falso, doc**! A paciente possui dois critérios maiores (dor no andar inferior do abdome e dor à palpação do colo do útero) e um critério maior (secreção vaginal mucopurulenta) para doença inflamatória pélvica. Apesar de não fechar o diagnóstico clássico de 3 critérios maiores e 1 menor, essa continua sendo a hipótese mais provável e devido ao risco de desenvolver DST (jovem, sem parceiro fixo e com vida sexual ativa) a paciente pode ser tratada empiricamente com antibioticoterapia sem necessitar de exames de cultura. \n- Fonte: [http://rmmg.org/artigo/detalhes/219](http://rmmg.org/artigo/detalhes/219) ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-09-01T17:58:59.000Z",
+                    "updated_at": "2021-12-13T21:31:53.000Z",
+                    "files": [
+                        {
+                            "id": 18639,
+                            "file": "8fd5500b-a65b-45b8-9931-487d54b10827.jpeg",
+                            "name": "criterios elaborados DIP.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-08-31T21:06:26.000Z",
+                            "updated_at": "2021-08-31T21:06:26.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8fd5500b-a65b-45b8-9931-487d54b10827.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18639,
+                                "alternative_id": 43429
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 43430,
+                    "question_id": 10618,
+                    "description": "Internar a paciente e solicitar exame de urina de urgência, iniciar antibioticoterapia venosa com cobertura para patógenos Gram-negativos.",
+                    "explanation": "**Falso, doc!** O diagnóstico mais provável é o de DIP (doença inflamatória pélvica), porém a paciente não possui sinais de complicação da doença como peritonite e choque séptico para ser internada.\n- Fonte: [http://rmmg.org/artigo/detalhes/219](http://rmmg.org/artigo/detalhes/219) ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-09-01T17:58:59.000Z",
+                    "updated_at": "2021-12-13T21:31:53.000Z",
+                    "files": [
+                        {
+                            "id": 18639,
+                            "file": "8fd5500b-a65b-45b8-9931-487d54b10827.jpeg",
+                            "name": "criterios elaborados DIP.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-08-31T21:06:26.000Z",
+                            "updated_at": "2021-08-31T21:06:26.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8fd5500b-a65b-45b8-9931-487d54b10827.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18639,
+                                "alternative_id": 43430
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 43431,
+                    "question_id": 10618,
+                    "description": "Iniciar antibioticoterapia oral que proporcione cobertura empírica de amplo espectro dos patógenos mais prováveis, com acompanhamento ambulatorial para DIP (Doença Inflamatória Pélvica).",
+                    "explanation": "**Perfeito, doc!** 👊 O diagnóstico de DIP é a hipótese principal nesse quadro uma vez que a paciente possui dois critérios maiores (dor no andar inferior do abdome e dor à palpação do colo do útero) e um critério menor (secreção vaginal mucopurulenta) para doença inflamatória pélvica, juntamente com o risco de desenvolver DST pela vida sexual ativa sem parceiro fixo. A paciente deve ser tratada pela antibioticoterapia empírica com ceftriaxona IM + doxiciclina e metronidazol orais.\n- Fonte: [http://rmmg.org/artigo/detalhes/219](http://rmmg.org/artigo/detalhes/219) ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-09-01T17:58:59.000Z",
+                    "updated_at": "2021-12-13T21:31:53.000Z",
+                    "files": [
+                        {
+                            "id": 18639,
+                            "file": "8fd5500b-a65b-45b8-9931-487d54b10827.jpeg",
+                            "name": "criterios elaborados DIP.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-08-31T21:06:26.000Z",
+                            "updated_at": "2021-08-31T21:06:26.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8fd5500b-a65b-45b8-9931-487d54b10827.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18639,
+                                "alternative_id": 43431
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 43432,
+                    "question_id": 10618,
+                    "description": "Solicitar tomografia de urgência e chamar a equipe da cirurgia geral para avaliar.",
+                    "explanation": "**Falso, doc**! Não é necessário solicitar exame de imagem de urgência para o diagnóstico de doença inflamatória pélvica, o diagnóstico é clínico, sendo utilizado o ultrassom transvaginal para casos em que possuem complicações com necessidade de avaliação.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-09-01T17:58:59.000Z",
+                    "updated_at": "2021-12-13T21:31:53.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10618,
+                "questionary_id": 238943,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10620,
+            "institution_id": 165,
+            "description": "Paciente de 24 anos, sexualmente ativa, em uso de anticoncepcional oral, consultou por dor pélvica e temperatura axilar de 38,5°C. Negou atraso menstrual. Ao exame físico, apresentava dor abdominal sem sinais de irritação peritoneal, dor à mobilização do colo uterino e massa palpável e dolorosa no anexo esquerdo. O médico solicitou dosagem de hCG urinário, tendo deixado a paciente em observação até o resultado do exame, que foi negativo. O plano é prescrever doxiciclina por via oral por 14 dias para uso domiciliar e reavaliar a paciente após o tratamento. Em relação à conduta médica, é **CORRETO** afirmar que:",
+            "difficulty": "hard",
+            "year": "2012-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-09-01T21:17:39.000Z",
+            "updated_at": "2022-02-23T17:42:36.000Z",
+            "user_id": 1570,
+            "is_residency": false,
+            "institution": {
+                "id": 165,
+                "title": "HOSPITAL DAS CLÍNICAS DE PORTO ALEGRE - RS",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-08-19T15:15:33.000Z",
+                "updated_at": "2020-08-19T15:15:33.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 10620
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43438,
+                    "question_id": 10620,
+                    "description": "Não havia necessidade de solicitar dosagem de hCG urinário; ao invés disso, deveria ter sido feito um hemograma.",
+                    "explanation": "**Falso, doc!** A paciente fecha 3 critérios maiores (dor à palpação de anexos, dor abdominal inferior e dor à mobilização do colo uterino) e 1 menor (febre), fechando o diagnóstico de DIP (doença inflamatória pélvica). Tendo em vista a presença de massa anexial, aumentando o risco para gravidez ectópica, foi correta a conduta de solicitar a dosagem de hCG urinário, entretando a paciente deveria ter sido internada para receber antibioticoterapia intravenosa, uma vez que a massa anexial com hCG negativo sugere um abcesso tubo-ovariano. \n- Fonte: [http://rmmg.org/artigo/detalhes/219](http://rmmg.org/artigo/detalhes/219) ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-09-01T18:17:39.000Z",
+                    "updated_at": "2022-02-23T17:42:36.000Z",
+                    "files": [
+                        {
+                            "id": 18639,
+                            "file": "8fd5500b-a65b-45b8-9931-487d54b10827.jpeg",
+                            "name": "criterios elaborados DIP.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-08-31T21:06:26.000Z",
+                            "updated_at": "2021-08-31T21:06:26.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8fd5500b-a65b-45b8-9931-487d54b10827.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18639,
+                                "alternative_id": 43438
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 43439,
+                    "question_id": 10620,
+                    "description": "Havia necessidade de solicitar dosagem de hCG urinário e indicar antimicrobiano, mas a paciente deveria ser revista em 48-72 horas.",
+                    "explanation": "**Falso, doc!** Apesar de a conduta de dosagem de hCG urinário ser correta, a paciente deveria ter sido internada para antibioticoterapia empírica IV, devido à suspeita de abcesso tubo-ovariano (massa à palpação de anexo).",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-09-01T18:17:39.000Z",
+                    "updated_at": "2022-02-23T17:42:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43440,
+                    "question_id": 10620,
+                    "description": "Havia necessidade de solicitar dosagem de hCG urinário, mas a conduta recomendada seria internar a paciente para uso de antimicrobianos intravenosos.",
+                    "explanation": "Perfeito, Doc! 👊 \n- A paciente fecha **3 critérios maiores** (dor à palpação de anexos, dor abdominal inferior e dor à mobilização do colo uterino) e **1 menor** (febre), fechando o diagnóstico de DIP (doença inflamatória pélvica). \n- Tendo em vista a presença de massa anexial, aumentando o risco para gravidez ectópica, foi correta a conduta de solicitar a dosagem de hCG urinário. Justamente, pelo risco dessa massa anexial ser um abcesso tubo-ovariano, diante do hCG negativado, a paciente se enquadrava em **estágio 3 ou 4** de DIP (suspeita de abscesso tubulo-ovariano, veja a massa palpável) necessitando de internação e tratamento com antibioticoterapia intravenosa de amplo espectro (cefoxitina + doxiciclina).\n- Doc, tratamento ambulatorial de DIP é apenas para estágio 1, quando há salpingite sem peritonite. E isso em não-gestantes. Se o estágio 1 não melhorar em 72h, também deve ser internado. \n\nOlha nas imagens os critérios para diagnóstico de DIP e os estágios:\n- Fonte da imagem: [http://rmmg.org/artigo/detalhes/219](http://rmmg.org/artigo/detalhes/219) ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-09-01T18:17:39.000Z",
+                    "updated_at": "2022-02-23T17:42:36.000Z",
+                    "files": [
+                        {
+                            "id": 18639,
+                            "file": "8fd5500b-a65b-45b8-9931-487d54b10827.jpeg",
+                            "name": "criterios elaborados DIP.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-08-31T21:06:26.000Z",
+                            "updated_at": "2021-08-31T21:06:26.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8fd5500b-a65b-45b8-9931-487d54b10827.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18639,
+                                "alternative_id": 43440
+                            }
+                        },
+                        {
+                            "id": 28614,
+                            "file": "28bcbd21-7b6b-4daf-a03d-8e5a78909ad9.jpeg",
+                            "name": "acute-pelvic-inflammatory-disease-ahmed-walid-anwar-morad-20-320 (2).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-02-23T16:32:52.000Z",
+                            "updated_at": "2022-02-23T16:32:52.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/28bcbd21-7b6b-4daf-a03d-8e5a78909ad9.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 28614,
+                                "alternative_id": 43440
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 43441,
+                    "question_id": 10620,
+                    "description": "Havia necessidade de solicitar dosagem de hCG urinário, mas deveriam ter sido prescritos doxiciclina e metronidazol e programada reavaliação em 7 dias.",
+                    "explanation": "**Falso, doc!** Seria esse o caso se a paciente não apresentasse sinal de complicação da DIP (doença inflamatória pélvica). Entretanto, com a massa anexial e o hCG negativado, a paciente deveria ter sido internada para tratamento intrahospitalar com antibioticoterapia empírica intravenosa frente à suspeita de abcesso tubo-ovariano.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-09-01T18:17:39.000Z",
+                    "updated_at": "2022-02-23T17:42:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43442,
+                    "question_id": 10620,
+                    "description": "Foi adequada em todos os aspectos.",
+                    "explanation": "**Falso, doc!** Apesar de a conduta de solicitar beta hCG ser correta, a paciente deveria ter sido internada, uma vez que havia um sinal de complicação da DIP, a massa anexial palpável sugerindo abcesso tubo-ovariano.\n- Fonte: [http://rmmg.org/artigo/detalhes/219](http://rmmg.org/artigo/detalhes/219) ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-09-01T18:17:39.000Z",
+                    "updated_at": "2022-02-23T17:42:36.000Z",
+                    "files": [
+                        {
+                            "id": 18639,
+                            "file": "8fd5500b-a65b-45b8-9931-487d54b10827.jpeg",
+                            "name": "criterios elaborados DIP.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-08-31T21:06:26.000Z",
+                            "updated_at": "2021-08-31T21:06:26.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8fd5500b-a65b-45b8-9931-487d54b10827.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18639,
+                                "alternative_id": 43442
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10620,
+                "questionary_id": 238943,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10623,
+            "institution_id": 433,
+            "description": "Paciente 32 Anos, GII PII 2PN, chega ao atendimento do pronto socorro com quadro de dor em hipogástrio, febre alta há dois dias. Relata ao médico plantonista que percebeu aumento da secreção vaginal com início dois dias antes do quadro febril. Ao ser examinada através do toque vaginal pelo Ginecologista de plantão, foi observado aumento da secreção vaginal e hipersensibilidade uterina. Após ser medicada, a paciente se recorda que em consulta anterior há poucos dias em seu ginecologista, o mesmo havia solicitado um exame denominado Histeroscopia Diagnóstica, e finalmente mostra o laudo do seu exame que traz o diagnóstico de “endometrite”. Quanto a isso, assinale a alternativa **INCORRETA:**",
+            "difficulty": "hard",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-09-01T18:38:54.000Z",
+            "updated_at": "2021-09-21T21:30:15.000Z",
+            "user_id": 1570,
+            "is_residency": false,
+            "institution": {
+                "id": 433,
+                "title": "ESPPB",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-09-01T18:38:54.000Z",
+                "updated_at": "2021-09-01T18:38:54.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 36,
+                    "title": "Doença Inflamatória Pélvica(DIP)",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T15:29:29.000Z",
+                    "updated_at": "2020-05-21T15:29:29.000Z",
+                    "pivot": {
+                        "discipline_id": 36,
+                        "question_id": 10623
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43452,
+                    "question_id": 10623,
+                    "description": "Os agentes mais comuns são Neisseria Gonorrhoae e Chlamydia trachomatis.",
+                    "explanation": "**Perfeito, doc!** 👊 A paciente possui um diagnóstico de doença inflamatória pélvica, caracterizada por colonização polimicrobiana, que ascende da região do cérvice uterino, até o endométrio e acometendo em alguns casos as tubas e os ovários. Os principais agentes etiológicos dessa doença são Neisseria Gonorrhoae e Chlamydia trachomatis.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-09-01T18:38:54.000Z",
+                    "updated_at": "2021-09-21T21:30:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43453,
+                    "question_id": 10623,
+                    "description": "A histeroscopia deve ser evitada em quadros de suspeita de doença inflamatória pélvica aguda",
+                    "explanation": "**Perfeito, doc**! 👊 A histeroscopia diagnóstica é contraindicada em casos de doença inflamatória pélvica não tratada, sendo substituída pelo ultrassom transvaginal como método diagnóstico em caso de dúvida ou complicação da patologia.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-09-01T18:38:54.000Z",
+                    "updated_at": "2021-09-21T21:30:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43454,
+                    "question_id": 10623,
+                    "description": "Os cortes histológicos evidenciam infiltrados leucocitários densos no estroma, difusos ou focais, que destroem o epitélio e ocupam a luz glandular, levando a liquefação e a necrose tecidual acompanhadas de edema.",
+                    "explanation": "**Perfeito, doc**! 👊 Essas alterações histológicas estão relacionadas à atividade inflamatória causada pela colonização microbiana na região do endométrio, causando a endometrite.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-09-01T18:38:54.000Z",
+                    "updated_at": "2021-09-21T21:30:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43455,
+                    "question_id": 10623,
+                    "description": "Os achados anatomopatológicos de endometrite crônica ou aguda na avaliação do sangramento uterino anormal são frequentes.",
+                    "explanation": "**Falso, doc**! O sangramento uterino anormal não é comum na fisiopatologia da doença inflamatória pélvica (DIP), diagnóstico confirmado pelo achado de endometrite na histeroscopia diagnóstica dessa paciente.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-09-01T18:38:54.000Z",
+                    "updated_at": "2021-09-21T21:30:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43456,
+                    "question_id": 10623,
+                    "description": "Se a infecção não for tratada adequadamente ou se existir fatores predisponentes poderá ocorrer cronificação",
+                    "explanation": "**Perfeito, doc**! 👊 A DIP (doença inflamatória pélvica) pode cronificar gerando complicações tardias como gravidez ectópica, infertilidade e dor crônica se não tratada adequadamente. São alterações relacionadas sobretudo à formação de tecido fibroso na região do útero e anexos.",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-09-01T18:38:54.000Z",
+                    "updated_at": "2021-09-21T21:30:15.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10623,
+                "questionary_id": 238943,
+                "timer": 0
+            }
+        }
+    ]
+}
