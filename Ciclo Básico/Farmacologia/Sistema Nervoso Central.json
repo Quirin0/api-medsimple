@@ -1,0 +1,916 @@
+{
+    "id": 239412,
+    "user_id": 1699,
+    "title": "Sistema Nervoso Central",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-06-16T15:43:14.000Z",
+    "updated_at": "2022-06-16T15:43:14.000Z",
+    "study_plan_id": 86,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 2754,
+            "institution_id": 4,
+            "description": "Qual dos compostos age como um antagonista dos benzodiazepínicos?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-06T17:08:32.000Z",
+            "updated_at": "2021-12-01T21:38:19.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 289,
+                    "title": "Sistema Nervoso Central - Farmacologia\t\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-06T17:01:16.000Z",
+                    "updated_at": "2020-07-06T17:01:16.000Z",
+                    "pivot": {
+                        "discipline_id": 289,
+                        "question_id": 2754
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11329,
+                    "question_id": 2754,
+                    "description": "Flumazenil",
+                    "explanation": "Parabéns, Doc! 👏 \n- É um antagonista dos efeitos hipnóticos, sedativos e da inibição psicomotora provocados pelos **benzodiazepínicos.**\n- Ele se liga com alta afinidade a locais específicos sobre o receptor GABA, onde impede a ligação e os **efeitos hipnóticos dos benzodiazepínicos.**\n- Lembrando que o **GABA,** que tem efeito aumentado pelos benzodiazepínicos,**** é o principal neurotransmissor **inibitório** do SNC\n\nDoc, se você esqueceu o mecanismo de ação dos benzodiazepínicos, dá uma olhadinha nessa imagem 👇: \n\nFonte: https://aia1317.fandom.com/pt-br/wiki/Ansioliticos_Hipnoticos?file=Receptor_GABAa.png",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-06T14:08:32.000Z",
+                    "updated_at": "2021-12-01T18:38:19.000Z",
+                    "files": [
+                        {
+                            "id": 24264,
+                            "file": "9efe331e-f434-427d-8e7a-24818e497216.png",
+                            "name": "Receptor_GABAa (1).png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-12-01T18:37:44.000Z",
+                            "updated_at": "2021-12-01T18:37:44.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9efe331e-f434-427d-8e7a-24818e497216.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 24264,
+                                "alternative_id": 11329
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11330,
+                    "question_id": 2754,
+                    "description": "Naloxona",
+                    "explanation": "Falso, Doc! 🙉  \n- É uma droga antagonista de opioides.\n- É um antagonista não seletivo dos receptores de opioide.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-06T14:08:32.000Z",
+                    "updated_at": "2021-12-01T18:38:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11331,
+                    "question_id": 2754,
+                    "description": "Furazolidona",
+                    "explanation": "Falso, Doc! 🙉  É um antimicrobiano da classe das nitrofurantoínas.\n- Também é inibidor de monoamino oxidase.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-06T14:08:32.000Z",
+                    "updated_at": "2021-12-01T18:38:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11332,
+                    "question_id": 2754,
+                    "description": "Naltrexona",
+                    "explanation": "Falso, Doc! 🙉  É uma droga usada no manejo da dependência de álcool e opioides.\n- É um antagonista dos receptores de opioide",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-06T14:08:32.000Z",
+                    "updated_at": "2021-12-01T18:38:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2754,
+                "questionary_id": 239412,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2755,
+            "institution_id": 4,
+            "description": "Qual dos agentes abaixo não age na via dos receptores GABA?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-06T17:15:29.000Z",
+            "updated_at": "2021-12-01T21:40:39.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 289,
+                    "title": "Sistema Nervoso Central - Farmacologia\t\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-06T17:01:16.000Z",
+                    "updated_at": "2020-07-06T17:01:16.000Z",
+                    "pivot": {
+                        "discipline_id": 289,
+                        "question_id": 2755
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11333,
+                    "question_id": 2755,
+                    "description": "Zopiclona",
+                    "explanation": "Esse age, sim, Doc! 😋 \n- É um medicamento hipnótico utilizado para induzir e manter o sono.\n- Aumenta a transmissão de GABA no sistema nervoso central.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-06T14:15:29.000Z",
+                    "updated_at": "2021-12-01T18:40:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11334,
+                    "question_id": 2755,
+                    "description": "Benzodiazepínicos",
+                    "explanation": "Esse age, sim, Doc! 😋 \n- Aumentam o potencial do GABA no receptor GABAa ➡ Resultando em propriedades sedativas, hipnóticasm ansiolíticas, anticonvulsivantes e de relaxamente muscular.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-06T14:15:29.000Z",
+                    "updated_at": "2021-12-01T18:40:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11335,
+                    "question_id": 2755,
+                    "description": "Tiopental",
+                    "explanation": "Esse age, sim, Doc! 😋 \n- É um barbitúrico de ação rápida.\n- Atua nos receptores de GABA",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-06T14:15:29.000Z",
+                    "updated_at": "2021-12-01T18:40:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11336,
+                    "question_id": 2755,
+                    "description": "Prometazina",
+                    "explanation": "Boa, Doc, essa é a incorreta! 👊 \n- **A prometazina é um anti-histamínico H1** \n- Possui atividade antialérgica, antiemética, sedante para indução do sono.\n- Age como **antagonista** nos **receptores H1**",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-07-06T14:15:29.000Z",
+                    "updated_at": "2021-12-01T18:40:39.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2755,
+                "questionary_id": 239412,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2758,
+            "institution_id": 4,
+            "description": "Quando se fala de opioides endógenos, estamos falando:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-06T17:59:31.000Z",
+            "updated_at": "2021-12-01T21:41:59.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 289,
+                    "title": "Sistema Nervoso Central - Farmacologia\t\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-06T17:01:16.000Z",
+                    "updated_at": "2020-07-06T17:01:16.000Z",
+                    "pivot": {
+                        "discipline_id": 289,
+                        "question_id": 2758
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11345,
+                    "question_id": 2758,
+                    "description": "Encefalinas",
+                    "explanation": "Esta está certa, Doc, mas as outras também estão! 😜 É um peptídeo opióide endógeno. \n- Apresenta altos níveis de apresentação no sistema nervoso central.\n- Se liga aos receptores deltas e mu.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-06T14:59:31.000Z",
+                    "updated_at": "2021-12-01T18:41:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11346,
+                    "question_id": 2758,
+                    "description": "Endorfinas",
+                    "explanation": "Esta está certa, Doc, mas as outras também estão! 😜  É um peptídeo opióide endógeno.  \n- São produzidos e armazenadas na hipófise.\n- Possuem preferência pelos receptores opioides-u.\n- Podem produzir uma sensação de euforia.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-06T14:59:31.000Z",
+                    "updated_at": "2021-12-01T18:41:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11347,
+                    "question_id": 2758,
+                    "description": "Dinorfinas",
+                    "explanation": "Esta está certa, Doc, mas as outras também estão! 😜 É um peptídeo opióide endógeno.\n- Formam parte do sistema de transmissão da percepção dolorosa, da regulação do estado de ânimo e do aprendizado.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-06T14:59:31.000Z",
+                    "updated_at": "2021-12-01T18:41:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11348,
+                    "question_id": 2758,
+                    "description": "Todas estão certas.",
+                    "explanation": "Muito bem, Doc! 😁 O corpo produz uma tríade de peptídeos opioides.\n- **Encefalinas**\n- **B-endorfina**\n- **Dinorfinas**",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-07-06T14:59:31.000Z",
+                    "updated_at": "2021-12-01T18:41:59.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2758,
+                "questionary_id": 239412,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2759,
+            "institution_id": 4,
+            "description": "Qual é a droga usada na profilaxia da mania?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-06T18:05:13.000Z",
+            "updated_at": "2021-12-01T21:45:55.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 289,
+                    "title": "Sistema Nervoso Central - Farmacologia\t\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-06T17:01:16.000Z",
+                    "updated_at": "2020-07-06T17:01:16.000Z",
+                    "pivot": {
+                        "discipline_id": 289,
+                        "question_id": 2759
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11349,
+                    "question_id": 2759,
+                    "description": "Lítio",
+                    "explanation": "Arrasou, Doc! 😎 É a medicação de escolha para o **tratamento do transtorno bipolar**.\n- Pode realizar a profilaxia dos **episódios de mania.**\n- Efeitos colaterais comuns são o aumento da excreção urinária, aumento da sede e tremor de mãos.\n- É recomendado a monitorização dos níveis de lítio sérico ➡ Possuem **potencial de toxicidade**",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-06T15:05:13.000Z",
+                    "updated_at": "2021-12-01T18:45:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11350,
+                    "question_id": 2759,
+                    "description": "Haloperidol",
+                    "explanation": "Falso, Doc! 😣 \n- Também conhecido como **Haldol.**\n- É um antipsicótico **típico** ➡ Usado no tratamento da esquizofrenia, no episódio de mania, delirium, psicose.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-06T15:05:13.000Z",
+                    "updated_at": "2021-12-01T18:45:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11351,
+                    "question_id": 2759,
+                    "description": "Clozapina",
+                    "explanation": "Falso, Doc! 😣 É um **antipsicótico atípico**.\n- É usada, basicamente, no tratamento da esquizofrenia.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-06T15:05:13.000Z",
+                    "updated_at": "2021-12-01T18:45:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11352,
+                    "question_id": 2759,
+                    "description": "Carbamazepina",
+                    "explanation": "Falso, Doc! 😣 É um anticonvulsivante, antipsicótico e antiepilético. É um dos principais medicamentos utilizados no tratamento da epilepsia e dor neuropática.\n- Demonstra ser ineficaz para o tratamento de **crises de ausência** ou **crises mioclônicas**. \n- Potencializa a ação do **GABA.** ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-06T15:05:13.000Z",
+                    "updated_at": "2021-12-01T18:45:55.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2759,
+                "questionary_id": 239412,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2756,
+            "institution_id": 4,
+            "description": "Qual é o benzodiazepínico de ação mais rápida?",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-06T17:30:45.000Z",
+            "updated_at": "2021-12-01T21:51:28.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 289,
+                    "title": "Sistema Nervoso Central - Farmacologia\t\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-06T17:01:16.000Z",
+                    "updated_at": "2020-07-06T17:01:16.000Z",
+                    "pivot": {
+                        "discipline_id": 289,
+                        "question_id": 2756
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11337,
+                    "question_id": 2756,
+                    "description": "Midazolam",
+                    "explanation": "Isso aí, Doc! 🤗 É um benzodiazepínico de **ação rápida**.\n- Tempo de meia vida: 3h\n- Usado para ansiedae, indução anestésica e sedação.  ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-06T14:30:45.000Z",
+                    "updated_at": "2021-12-01T18:51:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11338,
+                    "question_id": 2756,
+                    "description": "Alprazolam",
+                    "explanation": "Falso, Doc! 🤔 É um benzodiazepínico de **ação intermediária**.\n- Tempo de meia vida: 11h ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-06T14:30:45.000Z",
+                    "updated_at": "2021-12-01T18:51:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11339,
+                    "question_id": 2756,
+                    "description": "Lorazepam",
+                    "explanation": "Falso, Doc! 🤔 É um benzodiazepínico de **ação intermediária**.\n- Tempo de meia vida: 12h",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-06T14:30:45.000Z",
+                    "updated_at": "2021-12-01T18:51:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11340,
+                    "question_id": 2756,
+                    "description": "Diazepam",
+                    "explanation": "Falso, Doc! 🤔 É um benzodiazepínico de **longa-ação**.\n- Usado como ansiolítico, sedação, em terapia de retirada do álcool.\n- Tempo de meia vida: 43h",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-06T14:30:45.000Z",
+                    "updated_at": "2021-12-01T18:51:28.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2756,
+                "questionary_id": 239412,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2760,
+            "institution_id": 4,
+            "description": "Qual é a droga de escolha para o tratamento do status epilepticus?",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-06T18:15:13.000Z",
+            "updated_at": "2021-12-01T21:53:18.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 289,
+                    "title": "Sistema Nervoso Central - Farmacologia\t\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-06T17:01:16.000Z",
+                    "updated_at": "2020-07-06T17:01:16.000Z",
+                    "pivot": {
+                        "discipline_id": 289,
+                        "question_id": 2760
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11353,
+                    "question_id": 2760,
+                    "description": "Propofol",
+                    "explanation": "Falso, Doc! 🙈 Não se sabe o real mecanismo de ação, mas acredita-se que o propofol age via **receptor GABA**.\n- Induz e mantém a sedação.\n- É muito utilizado na anestesia geral.\n- Se provou ineficaz no tratamento do status epilepticus.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-06T15:15:13.000Z",
+                    "updated_at": "2021-12-01T18:53:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11354,
+                    "question_id": 2760,
+                    "description": "Lorazepam",
+                    "explanation": "Fera demais, Doc! 🙀 \n- Status epilepticus \n1. Crise convulsiva isolada que dura mais que 5 minutos \n2. Ou mais de uma crise dentro de 5 minutos (sem que a pessoa retorne a consciência)\n- O tratamento de primeira linha é feito com benzodiazepínicos.\n- Lorazepam >>>> Diazepam ➡ Para tratamento de convulsões.\n- O midazolam intramuscular também pode ser usado.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-06T15:15:13.000Z",
+                    "updated_at": "2021-12-01T18:53:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11355,
+                    "question_id": 2760,
+                    "description": "Tiopental",
+                    "explanation": "Falso, Doc! 🙈 \n- É um barbitúrico de ação rápida.\n- Atua nos **receptores de GABA** \n- Não é o medicamento de primeira escolha, mas pode ser usado.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-06T15:15:13.000Z",
+                    "updated_at": "2021-12-01T18:53:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11356,
+                    "question_id": 2760,
+                    "description": "Haloperidol",
+                    "explanation": "Falso, Doc! 🙈 \n- Também conhecido como **Haldol.**\n- É um antipsicótico típico ➡ Usado no tratamento da esquizofrenia, no episódio de mania, delirium, psicose. \n- Não se recomenda o uso de antipsicóticos no status epilepticus.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-06T15:15:13.000Z",
+                    "updated_at": "2021-12-01T18:53:18.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2760,
+                "questionary_id": 239412,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2761,
+            "institution_id": 4,
+            "description": "Qual das seguintes drogas **não é** uma agonista de opioides?",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-06T19:56:23.000Z",
+            "updated_at": "2021-12-01T21:55:03.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 289,
+                    "title": "Sistema Nervoso Central - Farmacologia\t\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-06T17:01:16.000Z",
+                    "updated_at": "2020-07-06T17:01:16.000Z",
+                    "pivot": {
+                        "discipline_id": 289,
+                        "question_id": 2761
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11357,
+                    "question_id": 2761,
+                    "description": "Heroina",
+                    "explanation": "Essa é, sim, Doc! 😅 Conhecida também como dimorfina.\n- Age nos receptores de opiodes.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-06T16:56:23.000Z",
+                    "updated_at": "2021-12-01T18:55:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11358,
+                    "question_id": 2761,
+                    "description": "Ketamina",
+                    "explanation": "Boa, Doc, essa é a incorreta! 😉 É uma antagonista de **NMDA**.\n- Usada como agente indutor na anestesia.\n- Pode ser usada no tratamento da dor e depressão.\n- É usada em sequências de intubação rápida.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-06T16:56:23.000Z",
+                    "updated_at": "2021-12-01T18:55:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11359,
+                    "question_id": 2761,
+                    "description": "Metadona",
+                    "explanation": "Essa é, sim, Doc! 😅 Conhecida como **dolantina**.\n- É um opiode usado na **terapia de dependência a opiodes ➡** Dessensibilizando\n- É usada na **dor crônica.**",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-06T16:56:23.000Z",
+                    "updated_at": "2021-12-01T18:55:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11360,
+                    "question_id": 2761,
+                    "description": "Codeína",
+                    "explanation": "Essa é, sim, Doc! 😅 É um opioide.\n- É usado em traumas, geralmente associada a AINEs",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-06T16:56:23.000Z",
+                    "updated_at": "2021-12-01T18:55:03.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2761,
+                "questionary_id": 239412,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2762,
+            "institution_id": 4,
+            "description": "Todas as drogas são usadas no tratamento do tabagismo, **exceto:**",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-06T20:07:45.000Z",
+            "updated_at": "2021-12-01T21:56:21.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 289,
+                    "title": "Sistema Nervoso Central - Farmacologia\t\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-06T17:01:16.000Z",
+                    "updated_at": "2020-07-06T17:01:16.000Z",
+                    "pivot": {
+                        "discipline_id": 289,
+                        "question_id": 2762
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11361,
+                    "question_id": 2762,
+                    "description": "Buspirona",
+                    "explanation": "Boa, Doc, essa é a incorreta! 😍Buspirona é um agente ansiolítico não-benzodiazepínico\n- É agonista de receptores de **serotonina 5-HT1a**\n- **Não é usado no tratamento de cessação ao trabagismo**",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-06T17:07:45.000Z",
+                    "updated_at": "2021-12-01T18:56:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11362,
+                    "question_id": 2762,
+                    "description": "Bupropiona",
+                    "explanation": "Essa é, sim, Doc! 🤔 É um inibidor da recaptação de dopamina e norepinefrina.\n- Atua no tratamento da depressão e da cessação ao tabagismo.\n- Efeitos colaterais comuns são: boca seca, dificuldade de sono, agitação e cefaleia.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-06T17:07:45.000Z",
+                    "updated_at": "2021-12-01T18:56:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11363,
+                    "question_id": 2762,
+                    "description": "Vareniciclina",
+                    "explanation": "Essa é, sim, Doc! 🤔 É um agonista parcial dos receptores nicotínicos de acetilcolina.(nACh).\n- É usada no tratamento para cessação do tabagismo.\n- É mais eficiente que a bupropiona.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-06T17:07:45.000Z",
+                    "updated_at": "2021-12-01T18:56:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11364,
+                    "question_id": 2762,
+                    "description": "Nicotina",
+                    "explanation": "Essa é, sim, Doc! 🤔 Age como **agonista do receptor nicotínico**.\n- É usada no tratamento da dependência a nicotina causado pelo tabagismo.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-06T17:07:45.000Z",
+                    "updated_at": "2021-12-01T18:56:21.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2762,
+                "questionary_id": 239412,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2763,
+            "institution_id": 4,
+            "description": "São todos efeitos colaterais da cafeína, **exceto:**",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-06T20:31:59.000Z",
+            "updated_at": "2021-12-01T21:57:28.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 289,
+                    "title": "Sistema Nervoso Central - Farmacologia\t\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-06T17:01:16.000Z",
+                    "updated_at": "2020-07-06T17:01:16.000Z",
+                    "pivot": {
+                        "discipline_id": 289,
+                        "question_id": 2763
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11365,
+                    "question_id": 2763,
+                    "description": "Arritmias",
+                    "explanation": "Essa é, sim, Doc! 🤔 A cafeína pode estimular certos pontos do sistema nervoso autônomo ➡ Estimular o inotropismo cardíaco ➡ Pode ser a gênese de distúrbios de condução cardíaco.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-06T17:31:59.000Z",
+                    "updated_at": "2021-12-01T18:57:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11366,
+                    "question_id": 2763,
+                    "description": "Insônia",
+                    "explanation": "Essa é, sim, Doc! 🤔 Cafeína ➡ Bloqueia a **ação da adenosin**a no sistema nervoso central.\n- Adenosina ➡ Tem o efeito do gatilho da **sonolência** no sistema nervoso central.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-06T17:31:59.000Z",
+                    "updated_at": "2021-12-01T18:57:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11367,
+                    "question_id": 2763,
+                    "description": "Hipotensão",
+                    "explanation": "Boa, Doc, achou a errada! 😁 Ao contrário, como a cafeína tende a estimular o sistema nervoso autonômico(especialmente **o simpátic**o), podemos encontrar uma vasoconstrição periférica.\n- Vasoconstrição periférica ➡ Aumento da resistência arterial periférica ➡ Aumento da pressão arterial.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-06T17:31:59.000Z",
+                    "updated_at": "2021-12-01T18:57:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11368,
+                    "question_id": 2763,
+                    "description": "Excitação psicomotora",
+                    "explanation": "Essa é, sim, Doc! 🤔 Cafeína ➡ Bloqueia a **ação da adenosin**a no sistema nervoso central.\n- Adenosina ➡ Tem o efeito do gatilho da **sonolência** no sistema nervoso central. \n- Cafeína ➡ Causa excitação psicomotora.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-06T17:31:59.000Z",
+                    "updated_at": "2021-12-01T18:57:28.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2763,
+                "questionary_id": 239412,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2757,
+            "institution_id": 4,
+            "description": "Qual é a droga de escolha para epilepsia mioclônica:",
+            "difficulty": "hard",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-06T17:52:26.000Z",
+            "updated_at": "2021-12-01T21:58:52.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 289,
+                    "title": "Sistema Nervoso Central - Farmacologia\t\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-06T17:01:16.000Z",
+                    "updated_at": "2020-07-06T17:01:16.000Z",
+                    "pivot": {
+                        "discipline_id": 289,
+                        "question_id": 2757
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11341,
+                    "question_id": 2757,
+                    "description": "Carbamazepina",
+                    "explanation": "Falso, Doc! 👀 É um dos principais medicamentos utilizados no tratamento da epilepsia e dor neuropática.\n- Demonstra ser ineficaz para o tratamento de **crises de ausência** ou **crises mioclônicas**. \n- Potencializa a ação do **GABA.**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-06T14:52:26.000Z",
+                    "updated_at": "2021-12-01T18:58:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11342,
+                    "question_id": 2757,
+                    "description": "Valproato de sódio",
+                    "explanation": "Você é fera, Doc! 😻 \n- É um anticonvulsivantes e estabilizador de humor muito usado no tratamento de epilepsia (generalizadas ou focais)\n- Age na inibição da **Gaba Transaminase,** enzima que realiza a degradação do **GABA.**\n- **É o único medicamento entre as alternativas útil para epilepsias mioclônicas.**",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-06T14:52:26.000Z",
+                    "updated_at": "2021-12-01T18:58:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11343,
+                    "question_id": 2757,
+                    "description": "Fenobarbital",
+                    "explanation": "Falso, Doc! 👀 É um barbitúrico ➡ Atua nos receptores GABA\n- É usado no tratamento de convulsões, exceto em crises de ausência\n- Todavia, entre as alternativas, para crises mioclônicas, a preferência é pelo valproato.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-06T14:52:26.000Z",
+                    "updated_at": "2021-12-01T18:58:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11344,
+                    "question_id": 2757,
+                    "description": "Fenitoína",
+                    "explanation": "Falso, Doc! 👀 \n- Aumenta a concentração local do neurotransmissor de GABA ➡ **inibitório.**\n- Diminui a concentração de neurotransmissores excitatórios como **noradrenalina e acetilcolina.**\n- **Não é a melhor opção para crises de ausência** ou **crises mioclônicas** ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-06T14:52:26.000Z",
+                    "updated_at": "2021-12-01T18:58:52.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2757,
+                "questionary_id": 239412,
+                "timer": 0
+            }
+        }
+    ]
+}

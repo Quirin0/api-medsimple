@@ -1,0 +1,1635 @@
+{
+    "id": 239402,
+    "user_id": 1699,
+    "title": "Outros Psicofármacos",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-06-16T15:38:40.000Z",
+    "updated_at": "2022-06-16T15:38:40.000Z",
+    "study_plan_id": 88,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 2498,
+            "institution_id": 4,
+            "description": "Qual droga é comumente utilizada no tratamento do tabagismo?",
+            "difficulty": "easy",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-29T20:23:43.000Z",
+            "updated_at": "2022-02-01T20:12:34.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 270,
+                    "title": "Outros Psicofármacos",
+                    "description": null,
+                    "parent_id": 179,
+                    "is_enabled": true,
+                    "created_at": "2020-06-29T20:21:03.000Z",
+                    "updated_at": "2022-02-14T18:33:03.000Z",
+                    "pivot": {
+                        "discipline_id": 270,
+                        "question_id": 2498
+                    }
+                },
+                {
+                    "id": 765,
+                    "title": "Tabagismo",
+                    "description": null,
+                    "parent_id": 33,
+                    "is_enabled": true,
+                    "created_at": "2021-05-26T15:33:40.000Z",
+                    "updated_at": "2021-05-26T15:33:40.000Z",
+                    "pivot": {
+                        "discipline_id": 765,
+                        "question_id": 2498
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10297,
+                    "question_id": 2498,
+                    "description": "Naloxona",
+                    "explanation": "Falso, Doc! A Naloxona é uma droga antagonista de opioides.\n- É usada como tratamento de **intoxicações por opioides**\n- A administração **parenteral** é a mais comum\n- É um composto **lipofílico**\n- Age como **competidor não-seletivo** do receptor de opioide\n- Possui uma alta afinidade pelo receptor **μ-opioide**. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-29T17:23:43.000Z",
+                    "updated_at": "2022-02-01T17:12:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10298,
+                    "question_id": 2498,
+                    "description": "Diazepam",
+                    "explanation": "Falso, Doc!\n- Também conhecido como **Valium**\n- É um **benzodiazepínico**\n- É usado no tratamento da ansiedade, insônia, ataques de pânico e sintomas de abstinência alcoólica aguda.\n- São modulatores alostéricos positivos do GABA ➡ **O neurotransmissor mais inibitório do sistema nervoso central** ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-29T17:23:43.000Z",
+                    "updated_at": "2022-02-01T17:12:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10299,
+                    "question_id": 2498,
+                    "description": "Alprazolam",
+                    "explanation": "Falso, Doc!\n- É um **benzodiazepínico**\n- É usado no tratamento da ansiedade, insônia, ataques de pânico e sintomas de abstinência alcoólica aguda.\n- São modulatores alostéricos positivos do GABA ➡ **O neurotransmissor mais inibitório do sistema nervoso central**  \n- Também conhecido como Xanax ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-29T17:23:43.000Z",
+                    "updated_at": "2022-02-01T17:12:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10300,
+                    "question_id": 2498,
+                    "description": "Bupropiona",
+                    "explanation": "Arrasou, Doc! 😁 Também conhecido como Zyban\n- É um inibidor de recaptação de noradrenalina e dopamina\n- É um fármaco utilizado principalmente para o tratamento da depressão e como suporte em pessoas que pretendem deixar de fumar.\n- Inibe a recaptação de dopamina e noradrenalina ➡ **sobram mais destes neurotransmissores na fenda sináptica.**\n- É também um antagonista não competitivo dos receptores nicotínicos ➡ **Atuação no tabagismo.** 💡",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-29T17:23:43.000Z",
+                    "updated_at": "2022-02-01T17:12:34.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2498,
+                "questionary_id": 239402,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2500,
+            "institution_id": 4,
+            "description": "Os antipsicóticos atípicos são assim classificados pela menor propensão em causar efeitos colaterais motores (extrapiramidais). Das medicações a seguir, aquela que pode ser classificada como antipsicótica atípica é:",
+            "difficulty": "easy",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-29T20:27:13.000Z",
+            "updated_at": "2021-11-02T21:13:11.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 270,
+                    "title": "Outros Psicofármacos",
+                    "description": null,
+                    "parent_id": 179,
+                    "is_enabled": true,
+                    "created_at": "2020-06-29T20:21:03.000Z",
+                    "updated_at": "2022-02-14T18:33:03.000Z",
+                    "pivot": {
+                        "discipline_id": 270,
+                        "question_id": 2500
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10305,
+                    "question_id": 2500,
+                    "description": "Haloperidol",
+                    "explanation": "Falso, Doc! Esse é um antipsicótico **típico**\n- Usado no tratamento da esquizofrenia, síndrome de Tourette, transtorno bipolar (fase de mania), vômitos, náuseas, delirium, agitação\n- Possui alta afinidade pelos receptores D2, sendo um antagonista. \n- O uso crônico pode levar a sintomas extrapiramidais.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-29T17:27:13.000Z",
+                    "updated_at": "2021-11-02T18:13:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10306,
+                    "question_id": 2500,
+                    "description": "Olanzapina",
+                    "explanation": "Isso aí, Doc! 🤗 É um antipsicótico atípico conhecido também como Zyprexa\n- É usado no tratamento da **esquizofrenia e transtorno bipolar.**\n- Efeitos colaterais incluem ganho de peso, transtornos de movimento, náuseas, fadiga, constipação.\n- Possui afinidade maior pelo 5-HT2a > receptores D2 de dopamina. ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-29T17:27:13.000Z",
+                    "updated_at": "2021-11-02T18:13:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10307,
+                    "question_id": 2500,
+                    "description": "Clorpromazina",
+                    "explanation": "Falso, Doc! É um antipsicótico clássico.\n- Bloqueia os impulsos gerados pela dopamina nas sinapses.\n- Possui alta afinidade pelos receptores D2, sendo um antagonista. \n- O uso crônico pode levar a sintomas extrapiramidais ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-29T17:27:13.000Z",
+                    "updated_at": "2021-11-02T18:13:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10308,
+                    "question_id": 2500,
+                    "description": "Metoclopramida",
+                    "explanation": "Falso, Doc!\n- É um antiemético\n- É um inibidor dos receptores D2 dopaminérgicos no sistema nervoso central. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-29T17:27:13.000Z",
+                    "updated_at": "2021-11-02T18:13:11.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2500,
+                "questionary_id": 239402,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2521,
+            "institution_id": 4,
+            "description": "São todos benzodiazepínicos, **exceto:**\n",
+            "difficulty": "easy",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-29T22:57:28.000Z",
+            "updated_at": "2022-02-14T15:30:47.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 270,
+                    "title": "Outros Psicofármacos",
+                    "description": null,
+                    "parent_id": 179,
+                    "is_enabled": true,
+                    "created_at": "2020-06-29T20:21:03.000Z",
+                    "updated_at": "2022-02-14T18:33:03.000Z",
+                    "pivot": {
+                        "discipline_id": 270,
+                        "question_id": 2521
+                    }
+                },
+                {
+                    "id": 1106,
+                    "title": "Ansiolíticos",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2022-02-14T18:30:42.000Z",
+                    "updated_at": "2022-02-14T18:30:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1106,
+                        "question_id": 2521
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10364,
+                    "question_id": 2521,
+                    "description": "Diazepam",
+                    "explanation": "Esse é, sim, um benzodiazepínico, Doc! 😋\n- Benzodiazepínicos são agonistas alostéricos do receptor GABAa, potencializando as ações do GABA (neurotransmissor inibitório)\n\nVeja na imagem 👇:\n\nFonte da imagem: [https://aia1317.fandom.com/pt-br/wiki/Ansioliticos_Hipnoticos?file=Receptor_GABAa.png](https://aia1317.fandom.com/pt-br/wiki/Ansioliticos_Hipnoticos?file=Receptor_GABAa.png)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-29T22:57:28.000Z",
+                    "updated_at": "2022-02-14T15:30:47.000Z",
+                    "files": [
+                        {
+                            "id": 22713,
+                            "file": "f8770664-6eca-4c75-9702-36bc0cb779cb.png",
+                            "name": "Receptor_GABAa.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-02T18:35:12.000Z",
+                            "updated_at": "2021-11-02T18:35:12.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f8770664-6eca-4c75-9702-36bc0cb779cb.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 22713,
+                                "alternative_id": 10364
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 10365,
+                    "question_id": 2521,
+                    "description": "Alprazolam",
+                    "explanation": "Esse é, sim, um benzodiazepínico, Doc! 😋\n- Benzodiazepínicos são agonistas alostéricos do receptor GABAa, potencializando as ações do GABA (neurotransmissor inibitório)\n\nVeja na imagem 👇:\n\nFonte da imagem: [https://aia1317.fandom.com/pt-br/wiki/Ansioliticos_Hipnoticos?file=Receptor_GABAa.png](https://aia1317.fandom.com/pt-br/wiki/Ansioliticos_Hipnoticos?file=Receptor_GABAa.png) ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-29T22:57:28.000Z",
+                    "updated_at": "2022-02-14T15:30:47.000Z",
+                    "files": [
+                        {
+                            "id": 22713,
+                            "file": "f8770664-6eca-4c75-9702-36bc0cb779cb.png",
+                            "name": "Receptor_GABAa.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-02T18:35:12.000Z",
+                            "updated_at": "2021-11-02T18:35:12.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f8770664-6eca-4c75-9702-36bc0cb779cb.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 22713,
+                                "alternative_id": 10365
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 10366,
+                    "question_id": 2521,
+                    "description": "Escitalopram",
+                    "explanation": "Boa, Doc, esse é o que não é benzodiazepínico! 👏\n- É um inibidor seletivo da recaptação de serotonina.\n- Usado no tratamento de depressão, TOC, síndrome do pânico e fobia social.\n- É o ISRS mais perigoso em relação a overdose, porém, em geral, são drogas seguras. ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-29T22:57:28.000Z",
+                    "updated_at": "2022-02-14T15:30:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10367,
+                    "question_id": 2521,
+                    "description": "Clonazepam",
+                    "explanation": "Esse é, sim, um benzodiazepínico, Doc! 😋\n- Benzodiazepínicos são agonistas alostéricos do receptor GABAa, potencializando as ações do GABA (neurotransmissor inibitório)\n\nVeja na imagem 👇:\n\nFonte da imagem: [https://aia1317.fandom.com/pt-br/wiki/Ansioliticos_Hipnoticos?file=Receptor_GABAa.png](https://aia1317.fandom.com/pt-br/wiki/Ansioliticos_Hipnoticos?file=Receptor_GABAa.png) ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-29T22:57:28.000Z",
+                    "updated_at": "2022-02-14T15:30:47.000Z",
+                    "files": [
+                        {
+                            "id": 22713,
+                            "file": "f8770664-6eca-4c75-9702-36bc0cb779cb.png",
+                            "name": "Receptor_GABAa.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-02T18:35:12.000Z",
+                            "updated_at": "2021-11-02T18:35:12.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f8770664-6eca-4c75-9702-36bc0cb779cb.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 22713,
+                                "alternative_id": 10367
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2521,
+                "questionary_id": 239402,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2536,
+            "institution_id": 4,
+            "description": "São exemplos de medicamentos antiepiléticos, **exceto:** ",
+            "difficulty": "easy",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T04:52:19.000Z",
+            "updated_at": "2022-02-01T20:12:42.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 270,
+                    "title": "Outros Psicofármacos",
+                    "description": null,
+                    "parent_id": 179,
+                    "is_enabled": true,
+                    "created_at": "2020-06-29T20:21:03.000Z",
+                    "updated_at": "2022-02-14T18:33:03.000Z",
+                    "pivot": {
+                        "discipline_id": 270,
+                        "question_id": 2536
+                    }
+                },
+                {
+                    "id": 229,
+                    "title": "Epilepsia",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2020-06-19T06:35:15.000Z",
+                    "updated_at": "2020-06-19T06:35:15.000Z",
+                    "pivot": {
+                        "discipline_id": 229,
+                        "question_id": 2536
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10427,
+                    "question_id": 2536,
+                    "description": "Fenobarbital",
+                    "explanation": "Esse é, sim, um antiepilético, Doc!\n- É um representante dos **barbitúricos** \n- Agem como depressores do sistema nervoso central",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T01:52:19.000Z",
+                    "updated_at": "2022-02-01T17:12:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10428,
+                    "question_id": 2536,
+                    "description": "Fenitoína",
+                    "explanation": "Esse é, sim, um antiepilético, Doc!\n- É um representante das Hidantoínas.\n- São usados para prevenir **convulsões tônico-clônicas.**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T01:52:19.000Z",
+                    "updated_at": "2022-02-01T17:12:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10429,
+                    "question_id": 2536,
+                    "description": "Topiramato",
+                    "explanation": "Esse é, sim, um antiepilético, Doc!\n- É um representante dos derivados da frutose. \n- Age também como **estabilizador de humor.**",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T01:52:19.000Z",
+                    "updated_at": "2022-02-01T17:12:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10430,
+                    "question_id": 2536,
+                    "description": "Gabapentina",
+                    "explanation": "Esse é, sim, um antiepilético, Doc! É um anticonvulsivante análogo de GABA \n- É muito utilizado no tratamento de dor ocasionada pelos nervos periféricos.\n- Causa aumento na síntese e a libertação de GABA na fenda sinática.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T01:52:19.000Z",
+                    "updated_at": "2022-02-01T17:12:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10431,
+                    "question_id": 2536,
+                    "description": "Todas as alternativas estão corretas.",
+                    "explanation": "Parabéns, Doc! 😎 Todos são exemplos de **medicamentos anticonvulsivantes**.\n\n💡 Confira cada comentário para potencializar o seu aprendizado👏.",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-06-30T01:52:19.000Z",
+                    "updated_at": "2022-02-01T17:12:42.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2536,
+                "questionary_id": 239402,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12844,
+            "institution_id": null,
+            "description": "Dentre os medicamentos abaixo, assinale aquele comumente associados à hiperprolactemia:",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-02-23T02:53:34.000Z",
+            "updated_at": "2022-02-23T02:53:34.000Z",
+            "user_id": 2296,
+            "is_residency": false,
+            "institution": null,
+            "disciplines": [
+                {
+                    "id": 1112,
+                    "title": "Hiperprolactinemia",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2022-02-22T23:44:32.000Z",
+                    "updated_at": "2022-02-22T23:44:32.000Z",
+                    "pivot": {
+                        "discipline_id": 1112,
+                        "question_id": 12844
+                    }
+                },
+                {
+                    "id": 66,
+                    "title": "Endocrinologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-26T15:03:36.000Z",
+                    "updated_at": "2020-05-26T15:03:36.000Z",
+                    "pivot": {
+                        "discipline_id": 66,
+                        "question_id": 12844
+                    }
+                },
+                {
+                    "id": 270,
+                    "title": "Outros Psicofármacos",
+                    "description": null,
+                    "parent_id": 179,
+                    "is_enabled": true,
+                    "created_at": "2020-06-29T20:21:03.000Z",
+                    "updated_at": "2022-02-14T18:33:03.000Z",
+                    "pivot": {
+                        "discipline_id": 270,
+                        "question_id": 12844
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 52693,
+                    "question_id": 12844,
+                    "description": "Risperidona.",
+                    "explanation": "Boa doc 🤓! Os antipsicóticos atuam inbindo a ação da dopamina. A dopamina é responsável por inibir a secreção de prolactina na hipófise, logo, a diminuição da dopamina faz os níveis de prolactina aumentarem.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-02-23T02:53:34.000Z",
+                    "updated_at": "2022-02-23T02:53:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52694,
+                    "question_id": 12844,
+                    "description": "Furosemida.",
+                    "explanation": "Falso doc. Não existe correlação entre os diuréticos de alça e hiperprolactinemia.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-02-23T02:53:34.000Z",
+                    "updated_at": "2022-02-23T02:53:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52695,
+                    "question_id": 12844,
+                    "description": "Cabergolina.",
+                    "explanation": "Incorreto doc! A cabergolina é um agonista dopaminérgico, e, pelo contrário, é utilizado no tratamento da hiperprolactinemia: a dopamina é responsável por diminuir a produção de prolactina, assim, **agonistas dopaminérgicos tratam a hiperprolactinemia.**",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-02-23T02:53:34.000Z",
+                    "updated_at": "2022-02-23T02:53:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52696,
+                    "question_id": 12844,
+                    "description": "Ondansetrona.",
+                    "explanation": "Faaalso doc! A ondansetrona não altera os níveis plasmáticos de prolactina. \nPelo  contrário, a metoclopramida, outro anti-emético, aumenta os níveis de prolactina, sendo inclusive utilizado para esse fim.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-02-23T02:53:34.000Z",
+                    "updated_at": "2022-02-23T02:53:34.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12844,
+                "questionary_id": 239402,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2522,
+            "institution_id": 72,
+            "description": "Assinale a alternativa que apresenta, corretamente, uma medicação que apresenta menor chance de causar disfunção sexual (como diminuição de libido e anorgasmia):\n",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-29T22:59:16.000Z",
+            "updated_at": "2021-11-02T18:51:10.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 72,
+                "title": "UEL",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-25T20:28:55.000Z",
+                "updated_at": "2020-05-25T20:28:55.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 270,
+                    "title": "Outros Psicofármacos",
+                    "description": null,
+                    "parent_id": 179,
+                    "is_enabled": true,
+                    "created_at": "2020-06-29T20:21:03.000Z",
+                    "updated_at": "2022-02-14T18:33:03.000Z",
+                    "pivot": {
+                        "discipline_id": 270,
+                        "question_id": 2522
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10368,
+                    "question_id": 2522,
+                    "description": "Bupropiona",
+                    "explanation": "Show de bola, Doc! ⚽\n- Medicação usada no tratamento do transtorno depressivo e na cessação ao tabagismo\n- **Apresenta menores taxas de disfunção sexual e insônia**. Além disso, está relacionado a perda de peso. ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-29T22:59:16.000Z",
+                    "updated_at": "2021-11-02T18:51:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10369,
+                    "question_id": 2522,
+                    "description": "Escitalopram.",
+                    "explanation": "Falso, Doc! \n- É um inibidor seletivo da recaptação de serotonina.\n- Usado no tratamento de depressão, TOC, síndrome do pânico e fobia social.\n- É o ISRS mais perigoso em relação a overdose, porém, em geral, são drogas seguras.\n- **Está associado a perda de líbido** ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-29T22:59:16.000Z",
+                    "updated_at": "2021-11-02T18:51:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10370,
+                    "question_id": 2522,
+                    "description": "Fluoxetina",
+                    "explanation": "Falso, Doc!\n- É um inibidor seletivo da recaptação de serotonina.\n- Está associada a **perda de líbido, insônia e diarreia.** ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-29T22:59:16.000Z",
+                    "updated_at": "2021-11-02T18:51:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10371,
+                    "question_id": 2522,
+                    "description": "Venlafaxina.",
+                    "explanation": "Falso, Doc! \n- É um antidepressivo inibidor da recaptação de serotonina e noradrenalina\n- Possui menos relato de perda de líbido, mas ainda apresenta casos.\n- Podem causar o aumento dos níveis de pressão arterial ➡ São contraindicados para pacientes com risco cardiovascular moderado ou alto. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-29T22:59:16.000Z",
+                    "updated_at": "2021-11-02T18:51:10.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2522,
+                "questionary_id": 239402,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2524,
+            "institution_id": 70,
+            "description": "Na abordagem do tabagismo, pode ser necessário usar medicamentos para controlar os sintomas de abstinência à nicotina. Que efeito(s) adverso(s), dentre os abaixo, **não** faz(em) parte do espectro de reações que podem acompanhar o uso do adesivo de nicotina?\n",
+            "difficulty": "medium",
+            "year": "2012-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T02:01:02.000Z",
+            "updated_at": "2022-02-01T20:12:19.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 70,
+                "title": "HCPA",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-25T13:31:28.000Z",
+                "updated_at": "2020-05-25T13:31:28.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 270,
+                    "title": "Outros Psicofármacos",
+                    "description": null,
+                    "parent_id": 179,
+                    "is_enabled": true,
+                    "created_at": "2020-06-29T20:21:03.000Z",
+                    "updated_at": "2022-02-14T18:33:03.000Z",
+                    "pivot": {
+                        "discipline_id": 270,
+                        "question_id": 2524
+                    }
+                },
+                {
+                    "id": 765,
+                    "title": "Tabagismo",
+                    "description": null,
+                    "parent_id": 33,
+                    "is_enabled": true,
+                    "created_at": "2021-05-26T15:33:40.000Z",
+                    "updated_at": "2021-05-26T15:33:40.000Z",
+                    "pivot": {
+                        "discipline_id": 765,
+                        "question_id": 2524
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10376,
+                    "question_id": 2524,
+                    "description": "Prurido.",
+                    "explanation": "Esse é, sim, um efeito adverso, Doc! A irritação da pele seguida de prurido é um efeito colateral comum ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-29T23:01:02.000Z",
+                    "updated_at": "2022-02-01T17:12:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10377,
+                    "question_id": 2524,
+                    "description": "Insônia.",
+                    "explanation": "Esse é, sim, um efeito adverso, Doc! Tanto insônia quanto distúrbios do sono são efeitos colaterais comuns ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-29T23:01:02.000Z",
+                    "updated_at": "2022-02-01T17:12:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10378,
+                    "question_id": 2524,
+                    "description": "Eritema.",
+                    "explanation": "Esse é, sim, um efeito adverso, Doc! A irritação da pele seguida de eritema é um efeito colateral comum ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-29T23:01:02.000Z",
+                    "updated_at": "2022-02-01T17:12:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10379,
+                    "question_id": 2524,
+                    "description": "Insuficiência hepática.",
+                    "explanation": "Boa, Doc, essa é a incorreta! 😉 Não existem evidências que a reposição de nicotina possa levar a insuficiência hepática ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-29T23:01:02.000Z",
+                    "updated_at": "2022-02-01T17:12:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10380,
+                    "question_id": 2524,
+                    "description": "Náuseas e vômitos",
+                    "explanation": "Esses são, sim, efeitos adversos, Doc! \n- Náusea é um efeito colateral comum\n- Vômitos estão listados como menos comuns ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-06-29T23:01:02.000Z",
+                    "updated_at": "2022-02-01T17:12:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2524,
+                "questionary_id": 239402,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2538,
+            "institution_id": 4,
+            "description": "Qual dos hormônios abaixo apresenta um aumento considerável nos níveis plasmáticos, sabendo que o paciente faz uso de antipsicótico convencional de alta potência:",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T05:01:22.000Z",
+            "updated_at": "2021-11-02T22:06:34.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 270,
+                    "title": "Outros Psicofármacos",
+                    "description": null,
+                    "parent_id": 179,
+                    "is_enabled": true,
+                    "created_at": "2020-06-29T20:21:03.000Z",
+                    "updated_at": "2022-02-14T18:33:03.000Z",
+                    "pivot": {
+                        "discipline_id": 270,
+                        "question_id": 2538
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10436,
+                    "question_id": 2538,
+                    "description": "Triidotironina",
+                    "explanation": "Falso, Doc! Os níveis de T3 até podem estar baixos, já que os neurônios dopaminérgicos são agonistas do TSH.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T02:01:22.000Z",
+                    "updated_at": "2021-11-02T19:06:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10437,
+                    "question_id": 2538,
+                    "description": "Prolactina",
+                    "explanation": "Genial, Doc! 🤓\n- Os antipsicóticos são agentes inibitórios dos neurônios dopaminérgicos\n- Os neurônios dopaminérgicos são antagonistas da **secreção de prolactina**\n- Por isso que algumas mulheres podem, por exemplo, ter galactorreia ao tomar plasil(inibidor dopaminérgico)",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-30T02:01:22.000Z",
+                    "updated_at": "2021-11-02T19:06:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10438,
+                    "question_id": 2538,
+                    "description": "Aldosterona",
+                    "explanation": "Falso, Doc! Não temos uma relação direta entre os medicamentos antipsicóticos e a liberação de aldosterona.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T02:01:22.000Z",
+                    "updated_at": "2021-11-02T19:06:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10439,
+                    "question_id": 2538,
+                    "description": "Leptina",
+                    "explanation": "Falso, Doc! Não temos uma relação direta entre os medicamentos antipsicóticos e a liberação de leptina.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T02:01:22.000Z",
+                    "updated_at": "2021-11-02T19:06:34.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2538,
+                "questionary_id": 239402,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2541,
+            "institution_id": 138,
+            "description": "A principal ação dos antipsicóticos típicos seria:\n",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T05:09:40.000Z",
+            "updated_at": "2021-11-02T22:07:36.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 138,
+                "title": "UEM",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-06-20T21:45:00.000Z",
+                "updated_at": "2020-06-20T21:45:00.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 270,
+                    "title": "Outros Psicofármacos",
+                    "description": null,
+                    "parent_id": 179,
+                    "is_enabled": true,
+                    "created_at": "2020-06-29T20:21:03.000Z",
+                    "updated_at": "2022-02-14T18:33:03.000Z",
+                    "pivot": {
+                        "discipline_id": 270,
+                        "question_id": 2541
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10448,
+                    "question_id": 2541,
+                    "description": "Bloqueio dos receptores gabaergicos D5 no sistema nervos central.",
+                    "explanation": "Falso, Doc! Os antipsicóticos não estão relacionados aos receptores gabaergicos.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T02:09:40.000Z",
+                    "updated_at": "2021-11-02T19:07:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10449,
+                    "question_id": 2541,
+                    "description": "Bloqueio dos receptores nicotínicos D1 no sistema nervoso central.",
+                    "explanation": "Falso, Doc! O bloqueio de receptores nicotínicos pode ser feito pela bupropiona.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T02:09:40.000Z",
+                    "updated_at": "2021-11-02T19:07:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10450,
+                    "question_id": 2541,
+                    "description": "Bloqueio dos receptores dopaminérgicos D2 no sistema nervoso central.",
+                    "explanation": "Arrasou, Doc! 😎 Os medicamentos antipsicóticos (haloperidol, clorpromazina) bloqueiam os receptores dopaminérgicos D2 no sistema nervoso central.\n- O excesso de dopamina no sistema mesolímbico está relacionado a experiências psicóticas\n- O uso crônico da medicação pode levar a transtornos do movimento ➡ discinesia tardia, por exemplo.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-30T02:09:40.000Z",
+                    "updated_at": "2021-11-02T19:07:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10451,
+                    "question_id": 2541,
+                    "description": "Bloqueio dos receptores serotonérgicos D4 no sistema nervoso central.",
+                    "explanation": "Falso, Doc! O bloqueio de receptores serotonérgicos pode ser feito pelos ISRS (fluoxetina, escitalopram, sertralina).",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T02:09:40.000Z",
+                    "updated_at": "2021-11-02T19:07:36.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2541,
+                "questionary_id": 239402,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12720,
+            "institution_id": 417,
+            "description": "No uso medicamentoso do lítio (p.ex, no transtorno afetivo bipolar) pode ocorrer:\n",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-02-11T20:21:49.000Z",
+            "updated_at": "2022-02-11T20:22:01.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 417,
+                "title": "HOSPITAL PROFESSOR EDMUNDO VASCONCELOS - SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-08-30T14:45:32.000Z",
+                "updated_at": "2021-08-30T14:45:32.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 200,
+                    "title": "Transtornos do Humor\t\t",
+                    "description": null,
+                    "parent_id": 179,
+                    "is_enabled": true,
+                    "created_at": "2020-06-12T20:15:41.000Z",
+                    "updated_at": "2020-06-12T20:15:41.000Z",
+                    "pivot": {
+                        "discipline_id": 200,
+                        "question_id": 12720
+                    }
+                },
+                {
+                    "id": 270,
+                    "title": "Outros Psicofármacos",
+                    "description": null,
+                    "parent_id": 179,
+                    "is_enabled": true,
+                    "created_at": "2020-06-29T20:21:03.000Z",
+                    "updated_at": "2022-02-14T18:33:03.000Z",
+                    "pivot": {
+                        "discipline_id": 270,
+                        "question_id": 12720
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 52195,
+                    "question_id": 12720,
+                    "description": "doença de Addison. ",
+                    "explanation": "Falso, Doc! 👀 Não é um efeito colateral do uso do lítio.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-02-11T17:21:49.000Z",
+                    "updated_at": "2022-02-11T17:22:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52196,
+                    "question_id": 12720,
+                    "description": "hipotireoidismo. ",
+                    "explanation": "Boa, Doc, acertou! 🤗👊\n- O lítio é um dos estabilizadores do humor mais utilizados para prevenir e tratar o transtorno bipolar\n- Uma das desvantagens da medicação é sua estreita faixa terapêutica (0,5-1,5 mEq/L, sendo que com 2 mEq/L já se torna tóxico), facilmente causando intoxicação e efeitos colaterais.\n- Os efeitos colaterais podem ser diversos, entre eles o **hipotireoidismo,** presente em 5 a 35% dos pacientes, após alguns meses de uso.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-02-11T17:21:49.000Z",
+                    "updated_at": "2022-02-11T17:22:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52197,
+                    "question_id": 12720,
+                    "description": "vitiligo. ",
+                    "explanation": "Falso, Doc! 👀 Não é um efeito colateral do uso do lítio. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-02-11T17:21:49.000Z",
+                    "updated_at": "2022-02-11T17:22:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52198,
+                    "question_id": 12720,
+                    "description": "doença de Cushing. ",
+                    "explanation": "Falso, Doc! 👀 Não é um efeito colateral do uso do lítio. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-02-11T17:21:49.000Z",
+                    "updated_at": "2022-02-11T17:22:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52199,
+                    "question_id": 12720,
+                    "description": "furunculose.",
+                    "explanation": "Falso, Doc! 👀 Não é um efeito colateral do uso do lítio. ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2022-02-11T17:21:49.000Z",
+                    "updated_at": "2022-02-11T17:22:01.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12720,
+                "questionary_id": 239402,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12766,
+            "institution_id": 59,
+            "description": "Paciente feminina de 50 anos é atendida por um quadro de agitação motora há duas semanas. Ela refere sensação de melhora ao se movimentar e é incapaz de permanecer sentada ou parada durante a consulta. A paciente apresenta história de esquizofrenia e iniciou uso de haloperidol há três semanas. Apresenta FC 94/min, PA 122/78 mmHg, FR 17/min, temperatura 37,4 °C. À inspeção, apresenta movimentos frequentes de membros superiores e inferiores bilateralmente. Nesse caso, o diagnóstico correto é:\n",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-02-14T17:03:35.000Z",
+            "updated_at": "2022-02-14T17:07:51.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 59,
+                "title": "HOSPITAL DAS CLÍNICAS DO PARANÁ – PR",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-23T17:50:02.000Z",
+                "updated_at": "2020-05-23T17:50:02.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 270,
+                    "title": "Outros Psicofármacos",
+                    "description": null,
+                    "parent_id": 179,
+                    "is_enabled": true,
+                    "created_at": "2020-06-29T20:21:03.000Z",
+                    "updated_at": "2022-02-14T18:33:03.000Z",
+                    "pivot": {
+                        "discipline_id": 270,
+                        "question_id": 12766
+                    }
+                },
+                {
+                    "id": 324,
+                    "title": "Esquizofrenia e outros transtornos psicóticos",
+                    "description": null,
+                    "parent_id": 179,
+                    "is_enabled": true,
+                    "created_at": "2020-07-12T05:37:01.000Z",
+                    "updated_at": "2020-07-12T05:37:01.000Z",
+                    "pivot": {
+                        "discipline_id": 324,
+                        "question_id": 12766
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 52360,
+                    "question_id": 12766,
+                    "description": "Acatisia. ",
+                    "explanation": "Muito bem, Doc! 😁 \n- Os antipsicóticos agem na **inibição da dopamina** na via mesolímbica, prevenindo a psicose.\n- No entanto, às vezes não são tão seletivos, agindo na dopamina da **via nigroestriatal** (a mesma em que as pessoas com a síndrome de Parkinson tem deficiência de dopamina, lembra, Doc? 🤓) levando a distúrbios do movimento\n- Um dos efeitos pode ser a **acatisia,** nome que**** vem do grego e significa, realmente, **dificuldade de sentar.** Ou seja, é essa condição em que o paciente fica \"inquieto\", ansioso, com agitação e formigamento. ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-02-14T17:03:35.000Z",
+                    "updated_at": "2022-02-14T17:07:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52361,
+                    "question_id": 12766,
+                    "description": "Hipertermia maligna. ",
+                    "explanation": "Falso, Doc! 🤔 A hipertermia maligna ocorre em alguns pacientes genéticamente predispostos quando expostos a anestesia geral, naõ tendo relação com o caso.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-02-14T17:03:35.000Z",
+                    "updated_at": "2022-02-14T17:07:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52362,
+                    "question_id": 12766,
+                    "description": "Síndrome neuroléptica maligna. ",
+                    "explanation": "Falso, Doc! 🤔 \n- A síndrome neuroléptica maligna pode ser confundida com hipertermia maligna e é um quadro **raro**, uma **emergência neurológica,** mais comum em **homens jovens** causado por **antipsicóticos**.\n- É caracterizada pela **tétrade**: alteração do estado mental, rigidez, febre e disautonomia. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-02-14T17:03:35.000Z",
+                    "updated_at": "2022-02-14T17:07:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52363,
+                    "question_id": 12766,
+                    "description": "Discinesia tardia. ",
+                    "explanation": "Falso, Doc! 🤔 \n- A discinesia tardia pode ser causada por antipsicóticos, mas em caso de **uso crônico**, e não apenas três semanas como a paciente (olha o nome, Doc, \"tardia\")\n- É caracterizada por **movimentos involuntários repetitivos.**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-02-14T17:03:35.000Z",
+                    "updated_at": "2022-02-14T17:07:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52364,
+                    "question_id": 12766,
+                    "description": "Distonia aguda.",
+                    "explanation": "Falso, Doc! 🤔 \n- A distonia aguda pode ser causada por antipsicóticos, mas é caracterizada por **movimentos involuntários** do tipo **espasmo muscular** lento e anormal \n- É mais comum atingir os músculos da **face**",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2022-02-14T17:03:35.000Z",
+                    "updated_at": "2022-02-14T17:07:51.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12766,
+                "questionary_id": 239402,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12916,
+            "institution_id": 395,
+            "description": "O uso abusivo de benzodiazepínicos para os distúrbios do sono é uma condição corriqueira na prática clínica. Entretanto, essa prática tem sido cada vez mais questionada, uma vez que alguns representantes dessa classe de medicamentos podem causar tolerância, dependência e rebote. Dessa forma, alguns autores têm defendido o uso preferencial de hipnóticos não benzodiazepínicos. Marque a opção em que há um representante dessa classe.",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-02-28T11:41:41.000Z",
+            "updated_at": "2022-02-28T12:00:43.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 395,
+                "title": "INSTITUTO FERNANDES FIGUEIRA - RJ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-07-04T21:03:29.000Z",
+                "updated_at": "2021-07-04T21:03:29.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 934,
+                    "title": "Distúrbios do Sono",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2021-08-20T00:44:01.000Z",
+                    "updated_at": "2022-02-24T21:12:56.000Z",
+                    "pivot": {
+                        "discipline_id": 934,
+                        "question_id": 12916
+                    }
+                },
+                {
+                    "id": 270,
+                    "title": "Outros Psicofármacos",
+                    "description": null,
+                    "parent_id": 179,
+                    "is_enabled": true,
+                    "created_at": "2020-06-29T20:21:03.000Z",
+                    "updated_at": "2022-02-14T18:33:03.000Z",
+                    "pivot": {
+                        "discipline_id": 270,
+                        "question_id": 12916
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 52992,
+                    "question_id": 12916,
+                    "description": "Amoxapina. ",
+                    "explanation": "Falso, Doc! 🤔 \n- A amoxapina é um antidepressivo tricíclico.\n- Não é muito utilizada. \n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-02-28T11:41:41.000Z",
+                    "updated_at": "2022-02-28T12:00:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52993,
+                    "question_id": 12916,
+                    "description": "Mirtazapina. ",
+                    "explanation": "Falso, Doc! 🤔 \n- A mirtazapina é um antidepressivo tetracíclico\n- Muito utilizada em idosos. \n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-02-28T11:41:41.000Z",
+                    "updated_at": "2022-02-28T12:00:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52994,
+                    "question_id": 12916,
+                    "description": "Estazolam. ",
+                    "explanation": "Falso, Doc! 🤔 \n- O estazolam é justamente um benzodiazepínico (fique atento ao sufixo \"zolam\", Doc 😉)\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-02-28T11:41:41.000Z",
+                    "updated_at": "2022-02-28T12:00:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52995,
+                    "question_id": 12916,
+                    "description": "Zolpidem. ",
+                    "explanation": "Parabéns, Doc! 👏 \n- É um dos hipnóticos não benzodiazepínicos mais utilizados!\n- Pertence ao grupo das imidazopiridinas",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2022-02-28T11:41:41.000Z",
+                    "updated_at": "2022-02-28T12:00:43.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12916,
+                "questionary_id": 239402,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12917,
+            "institution_id": 595,
+            "description": "Uma senhora de 58 anos de idade vem à Unidade de Saúde da Família para uma consulta de rotina e queixa-se que sempre teve problemas para dormir e que isto tem piorado muito nos últimos anos. Está mais dispersa, com dificuldades de se concentrar e está ficando muito sonolenta durante o dia. A paciente é saudável, não apresenta sintomas ansiosos ou depressivos. Você então solicita que a paciente faça um diário do sono e siga algumas recomendações básicas para uma boa higiene do sono. Dois meses depois, ela retorna e queixa-se que apesar de atender às recomendações sugeridas, ainda mantém o quadro de insônia. Você opta por iniciar tratamento medicamentoso por um curto período de tempo. Dentre as possibilidades apresentadas, qual a melhor opção terapêutica?\n",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-02-28T11:53:44.000Z",
+            "updated_at": "2022-02-28T12:00:36.000Z",
+            "user_id": 1472,
+            "is_residency": true,
+            "institution": {
+                "id": 595,
+                "title": "HOSPITAL DAS CLÍNICAS DA FACULDADE DE MEDICINA DE RP DA USP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2022-01-31T20:26:10.000Z",
+                "updated_at": "2022-01-31T20:26:10.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 934,
+                    "title": "Distúrbios do Sono",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2021-08-20T00:44:01.000Z",
+                    "updated_at": "2022-02-24T21:12:56.000Z",
+                    "pivot": {
+                        "discipline_id": 934,
+                        "question_id": 12917
+                    }
+                },
+                {
+                    "id": 270,
+                    "title": "Outros Psicofármacos",
+                    "description": null,
+                    "parent_id": 179,
+                    "is_enabled": true,
+                    "created_at": "2020-06-29T20:21:03.000Z",
+                    "updated_at": "2022-02-14T18:33:03.000Z",
+                    "pivot": {
+                        "discipline_id": 270,
+                        "question_id": 12917
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 52996,
+                    "question_id": 12917,
+                    "description": "Amitriptilina 25 mg. ",
+                    "explanation": "Falso, Doc! 😕 A paciente não possui sintomas depressivos, não sendo um antidepressivo a melhor escolha.\n\n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-02-28T11:53:44.000Z",
+                    "updated_at": "2022-02-28T12:00:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52997,
+                    "question_id": 12917,
+                    "description": "Prometazina 25 mg. ",
+                    "explanation": "Falso, Doc! 😕 \n- Prometazina é um antialérgico com efeito sedativo (bloqueio de histamina)\n- Não é a melhor opção para o caso ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-02-28T11:53:44.000Z",
+                    "updated_at": "2022-02-28T12:00:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52998,
+                    "question_id": 12917,
+                    "description": "Melatonina 5 mg. ",
+                    "explanation": "Falso, Doc! 😕 Há controvérsias quanto ao uso de melatonina no tratamento da insônia. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-02-28T11:53:44.000Z",
+                    "updated_at": "2022-02-28T12:00:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52999,
+                    "question_id": 12917,
+                    "description": "Zolpidem 10 mg.",
+                    "explanation": "Muito bem, Doc! 😁 \n- A insônia é um distúrbio **incapacitante** que deve ser tratado em casos crônicos (pelo menos 3x por semana por ao menos 3 meses) \n- A paciente tem uma insônia **persistente**, com fatores perpetuantes, sendo indicado tratamento medicamentoso\n- Hoje em dia, evita-se o uso de **benzodiazepínicos**, que podem causar muitos efeitos colaterais e dependência\n- Um dos hipnóticos não benzodiazepínicos mais indicados é justamente o **Zolpidem**\n\nDoc, dá uma olhada nesse esquema que mostra as opções de tratamento da insônia 👇 : \n\nFonte da imagem: https://www.psiquiatriageral.com.br/sono/diagnostico.htm",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2022-02-28T11:53:44.000Z",
+                    "updated_at": "2022-02-28T12:00:36.000Z",
+                    "files": [
+                        {
+                            "id": 28801,
+                            "file": "917b5401-3b44-49f3-8083-e00f025a64f0.jpeg",
+                            "name": "Captura de tela 2022-02-28 085203.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-02-28T11:53:41.000Z",
+                            "updated_at": "2022-02-28T11:53:41.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/917b5401-3b44-49f3-8083-e00f025a64f0.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 28801,
+                                "alternative_id": 52999
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12917,
+                "questionary_id": 239402,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2525,
+            "institution_id": 147,
+            "description": "Na prescrição dos medicamentos alprazolam, morfina e carbamazepina deve-se usar os seguintes receituários, respectivamente:\n",
+            "difficulty": "hard",
+            "year": "2013-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T02:02:45.000Z",
+            "updated_at": "2021-11-02T22:17:58.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 147,
+                "title": "SGCH",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-06-29T23:02:45.000Z",
+                "updated_at": "2020-06-29T23:02:45.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 270,
+                    "title": "Outros Psicofármacos",
+                    "description": null,
+                    "parent_id": 179,
+                    "is_enabled": true,
+                    "created_at": "2020-06-29T20:21:03.000Z",
+                    "updated_at": "2022-02-14T18:33:03.000Z",
+                    "pivot": {
+                        "discipline_id": 270,
+                        "question_id": 2525
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10381,
+                    "question_id": 2525,
+                    "description": "Azul, amarelo, branco de controle especial.",
+                    "explanation": "Ninguém segura você, Doc!😼\n- Azul ➡ Receita tipo “B” ➡ Benzodiazepínicos ➡ Diazepam, Alprazolam, Lorazepam, etc.\n- Amarelo➡ Receita tipo “A” ➡ Opioides ➡ Morfina, oxicodona, ópio, etc.\n- Branco de controle especial ➡ Receita tipo “C” ➡ Anticonvulsivantes ➡ Ácido Valproico, Carbamazepina, Lamotrigina\n\nDoc, dá uma olhada nesses esquemas para entender melhor 👇:\n\nFonte das imagens: \nhttps://enfermagemilustrada.com/os-tipos-de-receitas-medicas/\nhttp://www.cremerj.org.br/publicacoes/download/193\n\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-29T23:02:45.000Z",
+                    "updated_at": "2021-11-02T19:17:58.000Z",
+                    "files": [
+                        {
+                            "id": 22714,
+                            "file": "86fbd696-06ae-497d-b84c-31084c30c3e5.png",
+                            "name": "tiposdereceitamedica.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-02T19:16:56.000Z",
+                            "updated_at": "2021-11-02T19:16:56.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/86fbd696-06ae-497d-b84c-31084c30c3e5.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 22714,
+                                "alternative_id": 10381
+                            }
+                        },
+                        {
+                            "id": 22715,
+                            "file": "e221f1b2-58de-4a15-b614-a1c768b0fd4f.png",
+                            "name": "Captura de tela 2021-11-02 161153.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-02T19:16:57.000Z",
+                            "updated_at": "2021-11-02T19:16:57.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e221f1b2-58de-4a15-b614-a1c768b0fd4f.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 22715,
+                                "alternative_id": 10381
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 10382,
+                    "question_id": 2525,
+                    "description": "Amarelo, azul, branco de controle especial.",
+                    "explanation": "- 💡Explicação completa na letra A ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-29T23:02:45.000Z",
+                    "updated_at": "2021-11-02T19:17:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10383,
+                    "question_id": 2525,
+                    "description": "Azul, amarelo, branco comum",
+                    "explanation": "💡Explicação completa na letra A  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-29T23:02:45.000Z",
+                    "updated_at": "2021-11-02T19:17:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10384,
+                    "question_id": 2525,
+                    "description": "Branco de controle especial, amarelo, azul",
+                    "explanation": "💡Explicação completa na letra A  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-29T23:02:45.000Z",
+                    "updated_at": "2021-11-02T19:17:58.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2525,
+                "questionary_id": 239402,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2557,
+            "institution_id": 4,
+            "description": "Qual destes medicamentos é um agonista inverso do receptor de benzodiazepínico?",
+            "difficulty": "hard",
+            "year": "2012-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T14:28:19.000Z",
+            "updated_at": "2022-02-14T18:31:02.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 270,
+                    "title": "Outros Psicofármacos",
+                    "description": null,
+                    "parent_id": 179,
+                    "is_enabled": true,
+                    "created_at": "2020-06-29T20:21:03.000Z",
+                    "updated_at": "2022-02-14T18:33:03.000Z",
+                    "pivot": {
+                        "discipline_id": 270,
+                        "question_id": 2557
+                    }
+                },
+                {
+                    "id": 1106,
+                    "title": "Ansiolíticos",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2022-02-14T18:30:42.000Z",
+                    "updated_at": "2022-02-14T18:30:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1106,
+                        "question_id": 2557
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10515,
+                    "question_id": 2557,
+                    "description": "Fenobarbital",
+                    "explanation": "Falso, Doc! É um medicamento barbitúrico ➡ anticonvulsivante.\n- Usado para tratar certos tipos de epilepsia\n- Pode causar nistagmo e ataxia.\n- Atua nos receptores GABAa, aumentando o fluxo de íons cloreto.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T11:28:19.000Z",
+                    "updated_at": "2022-02-14T15:31:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10516,
+                    "question_id": 2557,
+                    "description": "Flumazenil",
+                    "explanation": "Falso, Doc! É um antagonista do receptor de benzodiazepínico. Diminuindo o efeito dos benzodiazepínicos.\n- **Muito usado em casos de intoxicações.**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T11:28:19.000Z",
+                    "updated_at": "2022-02-14T15:31:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10517,
+                    "question_id": 2557,
+                    "description": "Betacarbolina",
+                    "explanation": "Muito bem, Doc! **😁 Um agonista invers**o é um agente capaz de se ligar ao mesmo receptor que um agonista, mas induzindo **uma resposta farmacológica oposta**.\n- Pode ter efeito convulsivo e ansiogênico",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-30T11:28:19.000Z",
+                    "updated_at": "2022-02-14T15:31:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10518,
+                    "question_id": 2557,
+                    "description": "Gabapentina",
+                    "explanation": "Falso, Doc!  \n- É um medicamento anticonvulsivante\n- Usado no tratamento de dores neuropáticas\n- Efeitos colaterais comuns são a insônia e as náuseas.\n- É análoga do GABA.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T11:28:19.000Z",
+                    "updated_at": "2022-02-14T15:31:02.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2557,
+                "questionary_id": 239402,
+                "timer": 0
+            }
+        }
+    ]
+}

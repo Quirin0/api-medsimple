@@ -1,0 +1,1524 @@
+{
+    "id": 239385,
+    "user_id": 1699,
+    "title": "Glicopeptídeos e Lipopeptídeos",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-06-16T15:34:15.000Z",
+    "updated_at": "2022-06-16T15:34:15.000Z",
+    "study_plan_id": 410,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 5004,
+            "institution_id": 4,
+            "description": "Qual é o mecanismo de ação dos glicopeptídeos?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-10-30T17:30:12.000Z",
+            "updated_at": "2021-12-29T21:25:19.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 512,
+                    "title": "Glicopeptídeos e Lipopeptídeos",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-10-30T16:50:45.000Z",
+                    "updated_at": "2022-01-04T04:07:51.000Z",
+                    "pivot": {
+                        "discipline_id": 512,
+                        "question_id": 5004
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 20683,
+                    "question_id": 5004,
+                    "description": "Inibição da síntese da parede celular bacteriana",
+                    "explanation": "Perfeito doc! \n- Esses antibióticos agem como antagonistas competitivos da polimerização da cadeia peptidoglicana que forma a parede celular, **inibindo a síntese da parede celular** bacteriana.\n- Eles fazem isso pela ligação com o aminoácido terminal D-ala impedindo a ligação da **transglicosilase** \n\n\n💡 Doc, não confunda com o mecanismo de ação do**s beta-lactâmico**s, que também agem por inibição da síntese da parede celular, mas, nesse caso, inibem a **transpeptidas**e\n\n\nVeja na imagem 👇:\n\nFonte: https://www.youtube.com/watch?v=4AWYuQ8KttY",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-10-30T14:30:12.000Z",
+                    "updated_at": "2021-12-29T18:25:19.000Z",
+                    "files": [
+                        {
+                            "id": 25483,
+                            "file": "c8a1211b-89fa-41e0-ba56-a3e1ff045167.png",
+                            "name": "Captura de tela 2021-12-29 151904.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-12-29T18:21:38.000Z",
+                            "updated_at": "2021-12-29T18:21:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c8a1211b-89fa-41e0-ba56-a3e1ff045167.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25483,
+                                "alternative_id": 20683
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 20684,
+                    "question_id": 5004,
+                    "description": "Inibição da síntese proteica",
+                    "explanation": "Falso, Doc! 🙈 Existe uma série de antimicrobianos com esse mecanismo, como, por exemplo, os **macrolídeos e os aminoglicosídeo**s, no entanto, esse não é o mecanismo de ação dos glicopeptídeos.\n\nOlha a imagem para relembrar, Doc 👇:\n\nFonte da imagem: https://farmaceuticodigital.com/2018/06/como-os-antimicrobianos-sao-classificados.html",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-10-30T14:30:12.000Z",
+                    "updated_at": "2021-12-29T18:25:19.000Z",
+                    "files": [
+                        {
+                            "id": 25484,
+                            "file": "f8373e50-6f54-47aa-aeb7-7e06df19c2f2.jpeg",
+                            "name": "esquema_mecanismoacao (1).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-12-29T18:24:12.000Z",
+                            "updated_at": "2021-12-29T18:24:12.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f8373e50-6f54-47aa-aeb7-7e06df19c2f2.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25484,
+                                "alternative_id": 20684
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 20685,
+                    "question_id": 5004,
+                    "description": "Indução da produção de proteínas defeituosas",
+                    "explanation": "Falso, Doc! 🙈 Esse é um dos mecanismos de ação dos **aminoglicosídeos** ao ligarem-se à fração 30s dos ribossomos bacterianos.\n\n\n\nOlha a imagem para relembrar, Doc 👇:\n\n\nFonte da imagem: https://farmaceuticodigital.com/2018/06/como-os-antimicrobianos-sao-classificados.html ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-10-30T14:30:12.000Z",
+                    "updated_at": "2021-12-29T18:25:19.000Z",
+                    "files": [
+                        {
+                            "id": 25484,
+                            "file": "f8373e50-6f54-47aa-aeb7-7e06df19c2f2.jpeg",
+                            "name": "esquema_mecanismoacao (1).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-12-29T18:24:12.000Z",
+                            "updated_at": "2021-12-29T18:24:12.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f8373e50-6f54-47aa-aeb7-7e06df19c2f2.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25484,
+                                "alternative_id": 20685
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 20686,
+                    "question_id": 5004,
+                    "description": "Inibição do metabolismo do ácido fólico",
+                    "explanation": "Falso, Doc! 🙈 Esse é o mecanismo de ação das **sulfonamida**s.\n\n\nOlha a imagem para relembrar, Doc 👇:\n\nFonte da imagem: https://farmaceuticodigital.com/2018/06/como-os-antimicrobianos-sao-classificados.html ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-10-30T14:30:12.000Z",
+                    "updated_at": "2021-12-29T18:25:19.000Z",
+                    "files": [
+                        {
+                            "id": 25484,
+                            "file": "f8373e50-6f54-47aa-aeb7-7e06df19c2f2.jpeg",
+                            "name": "esquema_mecanismoacao (1).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-12-29T18:24:12.000Z",
+                            "updated_at": "2021-12-29T18:24:12.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f8373e50-6f54-47aa-aeb7-7e06df19c2f2.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25484,
+                                "alternative_id": 20686
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5004,
+                "questionary_id": 239385,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5005,
+            "institution_id": 4,
+            "description": "Em relação ao espectro de ação dos glicopeptídeos, assinale a alternativa CORRETA:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-10-30T18:10:21.000Z",
+            "updated_at": "2021-12-29T21:27:36.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 512,
+                    "title": "Glicopeptídeos e Lipopeptídeos",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-10-30T16:50:45.000Z",
+                    "updated_at": "2022-01-04T04:07:51.000Z",
+                    "pivot": {
+                        "discipline_id": 512,
+                        "question_id": 5005
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 20687,
+                    "question_id": 5005,
+                    "description": "Não possuem atividade contra aneróbios",
+                    "explanation": "Falso, Doc! 😬 Os glicopeptídeos são ativos contra aeróbios e anaeróbios, como, por exemplo, os germes da família Clostridium.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-10-30T15:10:21.000Z",
+                    "updated_at": "2021-12-29T18:27:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20688,
+                    "question_id": 5005,
+                    "description": "Possuem maior potência contra gram-negativos",
+                    "explanation": "Falso, Doc! 😬 Os glicopeptídeos **não** possuem atividade contra gram-negativos.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-10-30T15:10:21.000Z",
+                    "updated_at": "2021-12-29T18:27:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20689,
+                    "question_id": 5005,
+                    "description": "Possuem boa cobertura para micobactérias",
+                    "explanation": "Falso, Doc! 😬 Os glicopeptídeos **não** possuem atividade contra micobactérias, assim como não agem como gram-negativos, treponemas, bacterioides, leptospiras e fungos.  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-10-30T15:10:21.000Z",
+                    "updated_at": "2021-12-29T18:27:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20690,
+                    "question_id": 5005,
+                    "description": "São especialmente ativos contra gram-positivos",
+                    "explanation": "Perfeito, Doc! 😍\n- Os glicopeptídeos possuem espectro de ação voltado aos germes **gram-positivos,** sejam eles aeróbios ou anaeróbios. \n- Não possuem atividade contra gram-negativos, treponemas, bacterioides, micobactérias, leptospiras e fungos.  ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-10-30T15:10:21.000Z",
+                    "updated_at": "2021-12-29T18:27:36.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5005,
+                "questionary_id": 239385,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5006,
+            "institution_id": 4,
+            "description": "Qual dos seguintes germes é naturalmente resistente à vancomicina?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-10-30T19:05:17.000Z",
+            "updated_at": "2021-12-29T21:30:52.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 512,
+                    "title": "Glicopeptídeos e Lipopeptídeos",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-10-30T16:50:45.000Z",
+                    "updated_at": "2022-01-04T04:07:51.000Z",
+                    "pivot": {
+                        "discipline_id": 512,
+                        "question_id": 5006
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 20691,
+                    "question_id": 5006,
+                    "description": "Staphylococcus aureus",
+                    "explanation": "Falso, Doc! 🤔 A vancomicina possui **ótima** atividade contra cepas de S. aureus, sendo, inclusive, especialmente indicada para o tratamento de infecções por esse germe quando há resistência aos beta-lactâmicos ou em pacientes com hipersensibilidade às penicilinas e cefalosporinas.\n\n💡 Doc, grava aí:\n- S. aureus meticilino sensível (MSSA) = oxacilina (meticilina)\n- S. aureus meticilino resistente (MRSA) = **vancomicina**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-10-30T16:05:17.000Z",
+                    "updated_at": "2021-12-29T18:30:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20692,
+                    "question_id": 5006,
+                    "description": "Streptococos pneumoniae",
+                    "explanation": "Falso, Doc! 🤔 A vancomicina possui ótima atividade contra **cocos gram-positivo**s, sendo, inclusive, uma das indicações terapêuticas a sua utilização em infecções por pneumococos resistentes às penicilinas.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-10-30T16:05:17.000Z",
+                    "updated_at": "2021-12-29T18:30:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20693,
+                    "question_id": 5006,
+                    "description": "Pseudomonas aeruginosa",
+                    "explanation": "Muito bem, Doc! 🤗 A vancomicina, assim como todos os glicopeptídeos, **nã**o possuem atividade contra bactérias gram-negativas, incluindo a P. aeruginosa.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-10-30T16:05:17.000Z",
+                    "updated_at": "2021-12-29T18:30:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20694,
+                    "question_id": 5006,
+                    "description": "Clostridium difficile",
+                    "explanation": "Falso, Doc! 🤔 A vancomicina possui boa atividade contra gram-positivos aeróbios e também **anaeróbio**s, como a Clostridium difficile, sendo, inclusive, indicada via oral como alternativa ao metronidazol no tratamento da colite pseudomembranosa por esse agente.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-10-30T16:05:17.000Z",
+                    "updated_at": "2021-12-29T18:30:52.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5006,
+                "questionary_id": 239385,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5017,
+            "institution_id": 4,
+            "description": "Qual é o mecanismo de ação dos lipopeptídeos?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-10-30T23:43:29.000Z",
+            "updated_at": "2021-12-29T22:06:44.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 512,
+                    "title": "Glicopeptídeos e Lipopeptídeos",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-10-30T16:50:45.000Z",
+                    "updated_at": "2022-01-04T04:07:51.000Z",
+                    "pivot": {
+                        "discipline_id": 512,
+                        "question_id": 5017
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 20735,
+                    "question_id": 5017,
+                    "description": "Ligação irreversível a membrana bacteriana, despolarizando-a e causando perda de gradientes iônicos",
+                    "explanation": "Perfeito, Doc! 😍 \n- Os lipopeptídeos tem como mecanismo de ação a ligação irreversível à membrana citoplasmática da bactéria, despolarizando-a e causando **perda de gradientes iônicos**, o que leva à rápida morte celular. \n- Esse mecanismo confere à droga um efeito **bactericida** extremamente eficaz.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-10-30T20:43:29.000Z",
+                    "updated_at": "2021-12-29T19:06:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20736,
+                    "question_id": 5017,
+                    "description": "Inibição da síntese proteica e indução da síntese de proteínas defeituosas",
+                    "explanation": "Falso, Doc! 😣 Existe uma série de antimicrobianos com esse mecanismo de ação, como, por exemplo, os **macrolídeos e os aminoglicosídeos**, no entanto, esse não é o mecanismo de ação dos lipopeptídeos.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-10-30T20:43:29.000Z",
+                    "updated_at": "2021-12-29T19:06:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20737,
+                    "question_id": 5017,
+                    "description": "Inibição da síntese da parede bacteriana por inibição da transpeptidação",
+                    "explanation": "Falso, Doc! 😣 Esse é o mecanismo de ação do**s beta-lactâmico**s",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-10-30T20:43:29.000Z",
+                    "updated_at": "2021-12-29T19:06:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20738,
+                    "question_id": 5017,
+                    "description": "Inibição do metabolismo do ácido fólico",
+                    "explanation": "Falso, Doc! 😣 Esse é o mecanismo de ação das **sulfonamida**s.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-10-30T20:43:29.000Z",
+                    "updated_at": "2021-12-29T19:06:44.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5017,
+                "questionary_id": 239385,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5007,
+            "institution_id": 4,
+            "description": "Qual é a única indicação da administração oral de vancomicina?",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-10-30T19:12:39.000Z",
+            "updated_at": "2021-12-29T21:40:07.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 512,
+                    "title": "Glicopeptídeos e Lipopeptídeos",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-10-30T16:50:45.000Z",
+                    "updated_at": "2022-01-04T04:07:51.000Z",
+                    "pivot": {
+                        "discipline_id": 512,
+                        "question_id": 5007
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 20695,
+                    "question_id": 5007,
+                    "description": "Pneumonia por S.pneumoniae resistente às penicilinas",
+                    "explanation": "Falso, Doc! 😣 Nesse caso, a administração deve ser parenteral.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-10-30T16:12:39.000Z",
+                    "updated_at": "2021-12-29T18:40:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20696,
+                    "question_id": 5007,
+                    "description": "Meningite por H. influenzae",
+                    "explanation": "Falso, Doc! 😣 A vancomicina não possui atividade contra gram-negativos, além de que, quando indicada para tratamento de meningite, deve ser utilizada via parenteral.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-10-30T16:12:39.000Z",
+                    "updated_at": "2021-12-29T18:40:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20697,
+                    "question_id": 5007,
+                    "description": "Endocardite por enterococos ",
+                    "explanation": "Falso, Doc! 😣 Nesse caso, a administração deve ser parenteral. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-10-30T16:12:39.000Z",
+                    "updated_at": "2021-12-29T18:40:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20698,
+                    "question_id": 5007,
+                    "description": "Colite pseudomembranosa por Clostridium difficile",
+                    "explanation": "Arrasou, Doc! 😎\n- A vancomicina é muito **pouco absorvida por via oral**\n- É administrada por esta via somente nos casos de infecção intestinal pelo **C. difficile**, como **alternativa ao metronidazol.** \n- Para infecções sistêmicas, a administração deve ser **parenteral**, sendo recomendada somente IV, uma vez que possui um efeito irritativo importante quando administrada via IM. ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-10-30T16:12:39.000Z",
+                    "updated_at": "2021-12-29T18:40:07.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5007,
+                "questionary_id": 239385,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5008,
+            "institution_id": 4,
+            "description": "Em relação à farmacocinética e farmacodinâmica da vancomicina, assinale a alternativa CORRETA:",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-10-30T16:27:49.000Z",
+            "updated_at": "2021-12-29T18:35:44.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 512,
+                    "title": "Glicopeptídeos e Lipopeptídeos",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-10-30T16:50:45.000Z",
+                    "updated_at": "2022-01-04T04:07:51.000Z",
+                    "pivot": {
+                        "discipline_id": 512,
+                        "question_id": 5008
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 20699,
+                    "question_id": 5008,
+                    "description": "Deve ser administrada preferencialmente por via oral",
+                    "explanation": "Falso, Doc! 😅 A vancomicina é administrada preferencialmente via **parentera**l, sendo usada por via oral apenas para tratamento de colite pseudomembranosa por Clostridium difficile.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-10-30T16:27:49.000Z",
+                    "updated_at": "2021-12-29T18:35:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20700,
+                    "question_id": 5008,
+                    "description": "Não ultrapassa a barreira hematoencefálica, mesmo em pacientes com meningite",
+                    "explanation": "Falso, Doc! 😅 Em pacientes com inflamação meníngea, a vancomicina **atinge** concentrações terapêuticas no liquor, embora apresente variações entre cada paciente.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-10-30T16:27:49.000Z",
+                    "updated_at": "2021-12-29T18:35:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20701,
+                    "question_id": 5008,
+                    "description": "Quando utilizada via parenteral, deve-se evitar a via IM",
+                    "explanation": "Mandou bem, Doc! 👊\n- A vancomicina, na maioria das vezes (com exceção do tratamento da colite pseudomembranosa), é utilizada via parenteral, sendo recomendado apenas a administração **intravenosa**\n- Possui **efeitos irritativos** importantes quando administrada via **IM**. \n- A administração IV deve ser diluída em solução glicosada ou salina. ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-10-30T16:27:49.000Z",
+                    "updated_at": "2021-12-29T18:35:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20702,
+                    "question_id": 5008,
+                    "description": "Possui baixa penetração nos ossos, infectados ou não",
+                    "explanation": "Falso, Doc! 😅 A vancomicina possui uma **ótima penetração nos ossos,** independente de haver processo infeccioso, atingindo níveis terapêuticos para tratamento da **osteomielite estafilocócic**a, por exemplo.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-10-30T16:27:49.000Z",
+                    "updated_at": "2021-12-29T18:35:44.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5008,
+                "questionary_id": 239385,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5010,
+            "institution_id": 4,
+            "description": "São indicações clínicas da vancomicina, **EXCETO**:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-10-30T21:53:00.000Z",
+            "updated_at": "2021-12-29T21:39:53.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 512,
+                    "title": "Glicopeptídeos e Lipopeptídeos",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-10-30T16:50:45.000Z",
+                    "updated_at": "2022-01-04T04:07:51.000Z",
+                    "pivot": {
+                        "discipline_id": 512,
+                        "question_id": 5010
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 20707,
+                    "question_id": 5010,
+                    "description": "Infecções estafilocócicas graves em substituição aos beta-lactâmicos",
+                    "explanation": "Esta está certa, Doc! 😇 Essa é a principal indicação da vancomicina.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-10-30T18:53:00.000Z",
+                    "updated_at": "2021-12-29T18:39:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20708,
+                    "question_id": 5010,
+                    "description": "Infecção hospitalar por MRSA",
+                    "explanation": "Esta está certa, Doc! 😇 Essa é uma indicação precisa e muito importante da vancomicina, uma vez que esse antibiótico possui uma **boa cobertura para estafilococos meticilino resistentes**.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-10-30T18:53:00.000Z",
+                    "updated_at": "2021-12-29T18:39:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20709,
+                    "question_id": 5010,
+                    "description": "Tratamento via oral de colite pseudomembranosa",
+                    "explanation": "Esta está certa, Doc! 😇 Essa é um indicação clássica da vancomicina como alternativa ao metronidazol.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-10-30T18:53:00.000Z",
+                    "updated_at": "2021-12-29T18:39:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20710,
+                    "question_id": 5010,
+                    "description": "Infecção urinária por E. coli",
+                    "explanation": "Boa, Doc, essa é a incorreta! 👊 A vancomicina **não possui ação contra gram-negativo**s, não sendo indicada nessas situações.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-10-30T18:53:00.000Z",
+                    "updated_at": "2021-12-29T18:39:53.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5010,
+                "questionary_id": 239385,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5011,
+            "institution_id": 4,
+            "description": "Qual é a droga que pode desencadear a síndrome do homem vermelho?",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-10-30T21:58:38.000Z",
+            "updated_at": "2021-12-29T21:45:43.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 512,
+                    "title": "Glicopeptídeos e Lipopeptídeos",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-10-30T16:50:45.000Z",
+                    "updated_at": "2022-01-04T04:07:51.000Z",
+                    "pivot": {
+                        "discipline_id": 512,
+                        "question_id": 5011
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 20711,
+                    "question_id": 5011,
+                    "description": "Ceftriaxona",
+                    "explanation": "Falso, Doc! 😋 Questão conceitual! Vide a explicação na alternativa correta.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-10-30T18:58:38.000Z",
+                    "updated_at": "2021-12-29T18:45:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20712,
+                    "question_id": 5011,
+                    "description": "Vancomicina",
+                    "explanation": "Não tem pra ninguém, Doc! 💪 \n- Um efeito colateral frequente com a **infusão rápida** da droga é a chamada “síndrome do homem (ou do pescoço) vermelho”\n- É caracterizada pelo surgimento de **prurido, eritema, congestão e angioedema** do pescoço e tórax e, raramente, choque. \n- Essa reação é devida ao aumento da concentração de **histamina** no plasma, relacionado com a desgranulaçao de mastócitos e basófilos, não dependente de IgE. \n- Se for constatada a síndrome, deve-se **suspender a infusão** do medicamento e aplicar um anti histamínico. Eventualmente, pode ser necessário o uso de um **vasoconstritor**, se houver hipotensão grave.\n\n⚠️ Doc, então não esquece! A administração de vancomicina deve ser por infusão **lenta!**\n\n\nDoc, dá uma olhada nesse esquema sobre a síndrome do homem vermelho para fixar 👇:\n\nFonte da imagem: https://enfermagemilustrada.com/sindrome-do-homem-vermelho-shv/",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-10-30T18:58:38.000Z",
+                    "updated_at": "2021-12-29T18:45:43.000Z",
+                    "files": [
+                        {
+                            "id": 25485,
+                            "file": "1014f110-9914-4d6d-98fc-fa6b40c8bb62.png",
+                            "name": "sindromehomemvermelho (1).png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-12-29T18:45:25.000Z",
+                            "updated_at": "2021-12-29T18:45:25.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1014f110-9914-4d6d-98fc-fa6b40c8bb62.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25485,
+                                "alternative_id": 20712
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 20713,
+                    "question_id": 5011,
+                    "description": "Gentamicina",
+                    "explanation": "Falso, Doc! 😋 Questão conceitual! Vide a explicação na alternativa correta. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-10-30T18:58:38.000Z",
+                    "updated_at": "2021-12-29T18:45:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20714,
+                    "question_id": 5011,
+                    "description": "Amoxicilina",
+                    "explanation": "Falso, Doc! 😋 Questão conceitual! Vide a explicação na alternativa correta. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-10-30T18:58:38.000Z",
+                    "updated_at": "2021-12-29T18:45:43.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5011,
+                "questionary_id": 239385,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5012,
+            "institution_id": 4,
+            "description": "Quais as principais vantagens farmacocinética da teicoplanina em relação à vancomicina?",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-10-30T22:07:45.000Z",
+            "updated_at": "2021-12-29T21:53:30.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 512,
+                    "title": "Glicopeptídeos e Lipopeptídeos",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-10-30T16:50:45.000Z",
+                    "updated_at": "2022-01-04T04:07:51.000Z",
+                    "pivot": {
+                        "discipline_id": 512,
+                        "question_id": 5012
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 20715,
+                    "question_id": 5012,
+                    "description": "Meia vida mais longa e menor toxicidade",
+                    "explanation": "Você é fera, Doc! 😻 \n- O simples aumento da meia vida permite uma **administração única diária** da droga, sendo mais cômodo a sua administração\n- Possui **menor toxicidade renal e auditiva** do que a vancomicina. \n- Por fim, a teicoplanina também é **menos irritativa**, o que permite a sua administração via **IM,** e leva a **menos reações alérgicas**",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-10-30T19:07:45.000Z",
+                    "updated_at": "2021-12-29T18:53:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20716,
+                    "question_id": 5012,
+                    "description": "Meia vida mais curta e administração IM",
+                    "explanation": "Falso, Doc! 🤔 \n- A teicoplanina pode sim ser administrada via IM, o que lhe confere uma vantagem \n- No entanto, ela possui meia vida **mais longa** e não mais curta, o que também é uma vantagem já que permite a sua administração em dose única diária.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-10-30T19:07:45.000Z",
+                    "updated_at": "2021-12-29T18:53:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20717,
+                    "question_id": 5012,
+                    "description": "Maior espectro de ação e menor toxicidade",
+                    "explanation": "Falso, Doc! 🤔 A teicoplanina possui de fato menor toxicidade, porém o se**u espectro de ação é igual** ao da vancomicina.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-10-30T19:07:45.000Z",
+                    "updated_at": "2021-12-29T18:53:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20718,
+                    "question_id": 5012,
+                    "description": "Menor espectro de ação e meia vida mais longa",
+                    "explanation": "Falso, Doc! 🤔 A teicoplanina possui meia vida mais longa sim, porém o seu **espectro de ação é igua**l ao da vancomicina.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-10-30T19:07:45.000Z",
+                    "updated_at": "2021-12-29T18:53:30.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5012,
+                "questionary_id": 239385,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5013,
+            "institution_id": 4,
+            "description": "Em relação à farmacocinética e a farmacodinâmica da teicoplanina, assinale a alternativa CORRETA:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-10-30T22:17:17.000Z",
+            "updated_at": "2021-12-29T21:55:19.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 512,
+                    "title": "Glicopeptídeos e Lipopeptídeos",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-10-30T16:50:45.000Z",
+                    "updated_at": "2022-01-04T04:07:51.000Z",
+                    "pivot": {
+                        "discipline_id": 512,
+                        "question_id": 5013
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 20719,
+                    "question_id": 5013,
+                    "description": "A principal forma de administração é via oral",
+                    "explanation": "Falso, Doc! 👀 A teicoplanina NÃO é absorvida via oral.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-10-30T19:17:17.000Z",
+                    "updated_at": "2021-12-29T18:55:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20720,
+                    "question_id": 5013,
+                    "description": "Pode ser administrada em doses únicas diárias",
+                    "explanation": "Parabéns, Doc! 👏 \n- Essa é uma das principais vantagens da teicoplanina. Ela possui **meia vida prolongada**, próxima a **70 horas,** o que permite a sua administração em doses únicas diárias.\n- Essa característica resulta da ligação da droga aos tecidos e da sua lenta eliminação renal ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-10-30T19:17:17.000Z",
+                    "updated_at": "2021-12-29T18:55:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20721,
+                    "question_id": 5013,
+                    "description": "Possui baixa ligação às proteínas séricas com pequena difusão nos tecidos",
+                    "explanation": "Falso, Doc! 👀 \n- A teicoplanina liga-se às proteínas plasmáticas em **90%** e distribui-se em concentrações terapêuticas em **muitos tecidos:** nas amígdalas, fígado, pâncreas, vesícula biliar, ossos e articulações, mucosa oral, pulmões, líquidos sinovial, pleural e peritoneal e, possivelmente, penetra em células ou liga-se à sua superfície.  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-10-30T19:17:17.000Z",
+                    "updated_at": "2021-12-29T18:55:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20722,
+                    "question_id": 5013,
+                    "description": "Possui alta penetração no líquor",
+                    "explanation": "Falso, Doc! 👀 A droga **não penetr**a em concentrações adequadas no líquido cefalorraquidiano, mesmo em pacientes com meningites.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-10-30T19:17:17.000Z",
+                    "updated_at": "2021-12-29T18:55:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5013,
+                "questionary_id": 239385,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5014,
+            "institution_id": 4,
+            "description": "São indicações clínicas da teicoplanina, **EXCETO**:",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-10-30T22:25:14.000Z",
+            "updated_at": "2021-12-29T21:56:53.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 512,
+                    "title": "Glicopeptídeos e Lipopeptídeos",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-10-30T16:50:45.000Z",
+                    "updated_at": "2022-01-04T04:07:51.000Z",
+                    "pivot": {
+                        "discipline_id": 512,
+                        "question_id": 5014
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 20723,
+                    "question_id": 5014,
+                    "description": "Infecções enterocócicas em pacientes alérgicos à ampicilina",
+                    "explanation": "Esta está certa, Doc! 😅 Essa é uma indicação precisa da teicoplanina.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-10-30T19:25:14.000Z",
+                    "updated_at": "2021-12-29T18:56:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20724,
+                    "question_id": 5014,
+                    "description": "Alternativa terapêutica para a endocardite estreptocócica em pacientes alérgicos à penicilina",
+                    "explanation": "Esta está certa, Doc! 😅 Essa é uma indicação importante da teicoplanina.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-10-30T19:25:14.000Z",
+                    "updated_at": "2021-12-29T18:56:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20725,
+                    "question_id": 5014,
+                    "description": "Tratamento de meningoencefalites estafilocócicas",
+                    "explanation": "Boa, Doc, essa é a incorreta! 😋\n- As indicações da teicoplanina são muito semelhantes às da vancomicina, com exceção das infecções meníngeas, nas quais a teicoplanina não é indicada, por **não atravessar a barreira hematoencefálica.** ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-10-30T19:25:14.000Z",
+                    "updated_at": "2021-12-29T18:56:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20726,
+                    "question_id": 5014,
+                    "description": "Profilaxia da endocardite em pacientes com valvopatias que vão se submeter a procedimentos",
+                    "explanation": "Esta está certa, Doc! 😅 A teicoplanina pode ser utilizada em substituição a vancomicina nesses casos!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-10-30T19:25:14.000Z",
+                    "updated_at": "2021-12-29T18:56:53.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5014,
+                "questionary_id": 239385,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5015,
+            "institution_id": 4,
+            "description": "Em relação à teicoplanina, assinale a alternativa CORRETA:",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-10-30T22:44:33.000Z",
+            "updated_at": "2021-12-29T21:59:05.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 512,
+                    "title": "Glicopeptídeos e Lipopeptídeos",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-10-30T16:50:45.000Z",
+                    "updated_at": "2022-01-04T04:07:51.000Z",
+                    "pivot": {
+                        "discipline_id": 512,
+                        "question_id": 5015
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 20727,
+                    "question_id": 5015,
+                    "description": "Recomenda-se sua administração apenas via IV por conta da irritabilidade que causa quando administrada via IM",
+                    "explanation": "Falso, Doc! 😋 Esse é o caso da vancomicina. A teicoplanina apresenta boa tolerabilidade tanto IV quanto IM.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-10-30T19:44:33.000Z",
+                    "updated_at": "2021-12-29T18:59:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20728,
+                    "question_id": 5015,
+                    "description": "A teicoplanina apresenta maior nefrotoxicidade e ototoxicidade do que a vancomicina",
+                    "explanation": "Falso, Doc! 😋 É o contrário! A teicoplanina, inclusive, muitas vezes é preferível à vancomicina por conta da su**a menor toxicidade**.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-10-30T19:44:33.000Z",
+                    "updated_at": "2021-12-29T18:59:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20729,
+                    "question_id": 5015,
+                    "description": "Pode ser administrada via oral como alternativa a vancomicina no tratamento de colite pseudomembranosa por Clostridium difficile",
+                    "explanation": "Isso mesmo, Doc! 🤓\n- Essa é uma das indicações da teicoplanina. \n- O tratamento de eleição para colite pseudomembranosa por Clostridium difficile é o **metronidazol**, sendo a segunda opção a **vancomicina** e, depois da vancomicina, a **teicoplanina**.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-10-30T19:44:33.000Z",
+                    "updated_at": "2021-12-29T18:59:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20730,
+                    "question_id": 5015,
+                    "description": "Pode ser administrada com segurança para tratamento de infecções em gestantes e nutrizes",
+                    "explanation": "Falso, Doc! 😋 A teicoplanina **não** é indicada para a terapêutica de infecções na gestante, nem na nutriz, exceto em situações clínicas em que o benefício supere o risco de sua administração **(nefro e neurotoxicidade fetais**).",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-10-30T19:44:33.000Z",
+                    "updated_at": "2021-12-29T18:59:05.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5015,
+                "questionary_id": 239385,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5016,
+            "institution_id": 4,
+            "description": "Em relação à daptomicina, assinale a alternativa CORRETA:",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-10-30T23:25:08.000Z",
+            "updated_at": "2021-12-29T22:04:58.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 512,
+                    "title": "Glicopeptídeos e Lipopeptídeos",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-10-30T16:50:45.000Z",
+                    "updated_at": "2022-01-04T04:07:51.000Z",
+                    "pivot": {
+                        "discipline_id": 512,
+                        "question_id": 5016
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 20731,
+                    "question_id": 5016,
+                    "description": "É um antibiótico da classe dos glicopeptídeos",
+                    "explanation": "Falso, Doc! 🙊 A daptomicina é um **lipopeptíde**o.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-10-30T20:25:08.000Z",
+                    "updated_at": "2021-12-29T19:04:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20732,
+                    "question_id": 5016,
+                    "description": "Possui maior potência contra gram-positivos",
+                    "explanation": "Na mosca, Doc! 🐝\n- A daptomicina é um lipopeptídeo com boa atividade contra microrganismos **gram-positivos,** com espectro de ação similar ao da vancomicina. \n- Mostra-se **ativa contra estafilococos meticilinarresistentes**, tendo potência antimicrobiana contra o S. aureus semelhante ou superior à da vancomicina. \n- Contra o S. epidermidis, é duas a **quatro vezes** mais potente que a vancomicina e a teicoplanina, enquanto sua ação contra enterococos e listérias é menor do que a da vancomicina. No entanto, a droga pode apresentar ação contra enterococos vancomicina resistentes ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-10-30T20:25:08.000Z",
+                    "updated_at": "2021-12-29T19:04:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20733,
+                    "question_id": 5016,
+                    "description": "Seu mecanismo de ação envolve a inibição da síntese protéica",
+                    "explanation": "Falso, Doc! 🙊 A daptomicina atua pela **ligação irreversível à membrana citoplasmática** da bactéria, despolarizando-a e causando perda de gradientes iônicos, o que leva à **rápida morte celular** ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-10-30T20:25:08.000Z",
+                    "updated_at": "2021-12-29T19:04:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20734,
+                    "question_id": 5016,
+                    "description": "Sua administração preferencialmente é por via oral",
+                    "explanation": "Falso, Doc! 🙊 A daptomicina não é absorvida via oral, devendo ser administrada via **parentera**l.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-10-30T20:25:08.000Z",
+                    "updated_at": "2021-12-29T19:04:58.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5016,
+                "questionary_id": 239385,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5018,
+            "institution_id": 4,
+            "description": "Em relação ao espectro de ação e as indicações clínicas da daptomicina, assinale a alternativa CORRETA:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-10-31T00:14:47.000Z",
+            "updated_at": "2021-12-29T22:39:33.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 512,
+                    "title": "Glicopeptídeos e Lipopeptídeos",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-10-30T16:50:45.000Z",
+                    "updated_at": "2022-01-04T04:07:51.000Z",
+                    "pivot": {
+                        "discipline_id": 512,
+                        "question_id": 5018
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 20739,
+                    "question_id": 5018,
+                    "description": "Possui boa atividade contra P. aeurignosa",
+                    "explanation": "Falso, Doc! 🙉  A daptomicina **não possui atividade contra gram-negativo**s, incluindo a P. aeruginosa.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-10-30T21:14:47.000Z",
+                    "updated_at": "2021-12-29T19:39:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20740,
+                    "question_id": 5018,
+                    "description": "Sua ação contra listerias e enterococos é maior do que a da vancomicina",
+                    "explanation": "Falso, Doc! 🙉   A daptomicina possui **meno**r atividade contra listerias e enterococos quando comparada a vancomicina.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-10-30T21:14:47.000Z",
+                    "updated_at": "2021-12-29T19:39:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20741,
+                    "question_id": 5018,
+                    "description": "É extremamente eficaz em infecções por S. aureus e S.epidermidis",
+                    "explanation": "Perfeito, Doc! 😍 \n- A daptomicina mostra-se ativa contra **estafilococos meticilinarresistentes**, tendo potência antimicrobiana contra o S. aureus semelhante ou superior à da vancomicina \n- Contra o S. epidermidis é **duas a quatro vezes** mais potente que a vancomicina e a teicoplanina, sendo, inclusive, essas, indicações precisas do seu uso.\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-10-30T21:14:47.000Z",
+                    "updated_at": "2021-12-29T19:39:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20742,
+                    "question_id": 5018,
+                    "description": "É a primeira escolha para o tratamento de infecções de via aérea por H. influenzae",
+                    "explanation": "Falso, Doc! 🙉  A daptomicina **não apresenta atividade contra gram-negativos**, como o H. influenzae.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-10-30T21:14:47.000Z",
+                    "updated_at": "2021-12-29T19:39:33.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5018,
+                "questionary_id": 239385,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7429,
+            "institution_id": 4,
+            "description": "Os lipopeptídeos compõem um grupo de fármacos que atuam na membrana celular de bactérias, sobre os mesmos, assinale a alternativa CORRETA:\n",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-04-26T15:46:51.000Z",
+            "updated_at": "2022-03-21T22:47:01.000Z",
+            "user_id": 635,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 512,
+                    "title": "Glicopeptídeos e Lipopeptídeos",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-10-30T16:50:45.000Z",
+                    "updated_at": "2022-01-04T04:07:51.000Z",
+                    "pivot": {
+                        "discipline_id": 512,
+                        "question_id": 7429
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 30528,
+                    "question_id": 7429,
+                    "description": "Possuem atividade bactericida especialmente contra bactérias gram-negativas.",
+                    "explanation": "Falso, Doc! 🙈 A ação dos lipopeptídeos é especialmente contra **gram positiva**s.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-04-26T12:46:51.000Z",
+                    "updated_at": "2022-03-21T22:47:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 30529,
+                    "question_id": 7429,
+                    "description": "São moléculas pequenas com a característica de ser hidrofílica.",
+                    "explanation": "Falso, Doc! 🙈 É justamente o oposto, são considerados moléculas **grande**s, com uma cadeia longa.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-04-26T12:46:51.000Z",
+                    "updated_at": "2022-03-21T22:47:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 30530,
+                    "question_id": 7429,
+                    "description": "Colicistina, polimixina B e Daptomicina são lipopetídeos, e possuem a característica de serem altamente neurotóxicos e nefrotóxicos.",
+                    "explanation": "Exatamente, Doc! 🤓\n- Por ter essa característica, os lipopeptídeos **não** são utilizados como fármacos de primeira escolha para tratamento de infecções bacterianas.\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-04-26T12:46:51.000Z",
+                    "updated_at": "2022-03-21T22:47:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 30531,
+                    "question_id": 7429,
+                    "description": "Apesar de atuar em membranas celulares, os lipopeptídeos apresentam baixa eficácia, especialmente contra bactérias mais resistentes.",
+                    "explanation": "Falso, Doc! 🙈 Os lipopeptídeos são usados **justamente** para bactérias mais resistentes.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-04-26T12:46:51.000Z",
+                    "updated_at": "2022-03-21T22:47:01.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7429,
+                "questionary_id": 239385,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5009,
+            "institution_id": 4,
+            "description": "Em relação às interações medicamentosas da vancomicina, assinale a alternativa CORRETA:",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-10-30T19:46:53.000Z",
+            "updated_at": "2021-12-29T21:38:42.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 512,
+                    "title": "Glicopeptídeos e Lipopeptídeos",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-10-30T16:50:45.000Z",
+                    "updated_at": "2022-01-04T04:07:51.000Z",
+                    "pivot": {
+                        "discipline_id": 512,
+                        "question_id": 5009
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 20703,
+                    "question_id": 5009,
+                    "description": "A associação com aminoglicosídeos é sinérgica e indicada para tratamento de infecções germes resistentes",
+                    "explanation": "Falso, Doc! 🙉 \n- A associação vancomicina + aminoglicosídeos pode **potencializar e muito os efeitos nefro e neurotóxicos** de ambas as drogas. \n- Ou seja, tal associação deve ser evitada ao máximo!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-10-30T16:46:53.000Z",
+                    "updated_at": "2021-12-29T18:38:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20704,
+                    "question_id": 5009,
+                    "description": "A associação com hidrocortisona no mesmo frasco potencializa os efeitos antimicrobianos da vancomicina",
+                    "explanation": "Falso, Doc! 🙉  Não se deve adicionar hidrocortisona no mesmo frasco contendo a vancomicina, pois há a **precipitação do antibiótic**o.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-10-30T16:46:53.000Z",
+                    "updated_at": "2021-12-29T18:38:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20705,
+                    "question_id": 5009,
+                    "description": "Não deve ser administrada por via oral juntamente com a colestiramina, no tratamento da colite pseudomembranosa",
+                    "explanation": "Fera demais, Doc! 🤓 \n- A colestiramina é um fármaco sequestrador de ácidos biliares utilizado para tratamento de dislipidemias. \n- Quando administrado juntamente a vancomicina, liga-se ao antibiótico, **reduzindo, marcadamente, sua ação** antimicrobiana. ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-10-30T16:46:53.000Z",
+                    "updated_at": "2021-12-29T18:38:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20706,
+                    "question_id": 5009,
+                    "description": "A vancomicina não possui interações medicamentosas importantes, podendo ser administrada independentemente de outros fármacos",
+                    "explanation": "Falso, Doc! 🙉  \n- A vancomicina deve ser evitada em associação com **aminoglicosídeos**, por conta da potencialização dos efeitos nefro e neurotóxicos, além de que sua administração também não é compatível com a administração conjunta de **cloranfenicol, meticilina e heparina.** \n- Por fim, não deve ser utilizada via oral com colestiramina, uma vez que a **colestiramina** reduz seus efeitos antimicrobianos.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-10-30T16:46:53.000Z",
+                    "updated_at": "2021-12-29T18:38:42.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5009,
+                "questionary_id": 239385,
+                "timer": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,896 @@
+{
+    "id": 239399,
+    "user_id": 1699,
+    "title": "Farmacologia do Sistema Respiratório",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-06-16T15:37:47.000Z",
+    "updated_at": "2022-06-16T15:37:47.000Z",
+    "study_plan_id": 79,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 2640,
+            "institution_id": 4,
+            "description": "Qual droga pode precipitar um quadro de asma?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-02T14:29:39.000Z",
+            "updated_at": "2020-07-02T14:29:39.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 279,
+                    "title": "Sistema Respiratório - Farmacologia\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-02T14:12:37.000Z",
+                    "updated_at": "2020-07-02T19:41:43.000Z",
+                    "pivot": {
+                        "discipline_id": 279,
+                        "question_id": 2640
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10871,
+                    "question_id": 2640,
+                    "description": "Beta agonistas",
+                    "explanation": "Ao contrário, são usados no tratamento da asma.\n\n- Exemploos de medicamentos beta-2-agonistas.\n- Curta duração ➡ Salbutamol, Terbutalina, Fenoterol\n- Longa duração ➡ Salmeterol, Formoterol. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-02T11:29:39.000Z",
+                    "updated_at": "2020-07-02T11:29:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10872,
+                    "question_id": 2640,
+                    "description": "AINEs",
+                    "explanation": "Tanto que a aspirina pode induzir a asma.\n- Aspirina pode desacetilar a COX-2. Enzima que converte o ácido araquidônico ➡ 15-HETE\n- Dentro dos leucócitos, o 15-HETE pode ser convertido em lipotoxinas(15-epi-LXA4)\n- Essas lipotoxinas são extremamente **broncoconstritoras.**",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-02T11:29:39.000Z",
+                    "updated_at": "2020-07-02T11:29:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10873,
+                    "question_id": 2640,
+                    "description": "Bloqueadores de Canal de Cálcio",
+                    "explanation": "Podem relaxar a musculatura lisa dos bronquíolos e causar uma leve melhora na broncoconstrição.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-02T11:29:39.000Z",
+                    "updated_at": "2020-07-02T11:29:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10874,
+                    "question_id": 2640,
+                    "description": "Bloqueadores H1",
+                    "explanation": "Podem até melhorar a inflamação, já que a asma alérgica possui degranulação de mastócitos com liberação de histamina.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-02T11:29:39.000Z",
+                    "updated_at": "2020-07-02T11:29:39.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2640,
+                "questionary_id": 239399,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2641,
+            "institution_id": 4,
+            "description": "Qual dos seguintes é um beta-2-agonista de longa duração?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-02T14:32:54.000Z",
+            "updated_at": "2020-07-02T14:32:54.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 279,
+                    "title": "Sistema Respiratório - Farmacologia\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-02T14:12:37.000Z",
+                    "updated_at": "2020-07-02T19:41:43.000Z",
+                    "pivot": {
+                        "discipline_id": 279,
+                        "question_id": 2641
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10875,
+                    "question_id": 2641,
+                    "description": "Formoterol",
+                    "explanation": "É um Beta 2 agonista usado em crises agudas.\n- Atualmente é step 1 de tratamento em adultos ➡ Associado aos corticoides inalatórios.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-02T11:32:54.000Z",
+                    "updated_at": "2020-07-02T11:32:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10876,
+                    "question_id": 2641,
+                    "description": "Salbutamol",
+                    "explanation": "É um Beta agonista de curta duração.\n- É um dos medicamentos mais usados em emergências para crises de asma.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-02T11:32:54.000Z",
+                    "updated_at": "2020-07-02T11:32:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10877,
+                    "question_id": 2641,
+                    "description": "Fenoterol.",
+                    "explanation": "É um Beta agonista de curta duração. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-02T11:32:54.000Z",
+                    "updated_at": "2020-07-02T11:32:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10878,
+                    "question_id": 2641,
+                    "description": "Procaterol",
+                    "explanation": "É um Beta agonista de curta duração. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-02T11:32:54.000Z",
+                    "updated_at": "2020-07-02T11:32:54.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2641,
+                "questionary_id": 239399,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2642,
+            "institution_id": 4,
+            "description": "Qual é a droga de escolha para o tratamento agudo das crises de asma?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-02T11:44:24.000Z",
+            "updated_at": "2020-07-02T11:44:24.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 279,
+                    "title": "Sistema Respiratório - Farmacologia\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-02T14:12:37.000Z",
+                    "updated_at": "2020-07-02T19:41:43.000Z",
+                    "pivot": {
+                        "discipline_id": 279,
+                        "question_id": 2642
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10879,
+                    "question_id": 2642,
+                    "description": "Antagonistas de Leucotrienos",
+                    "explanation": "Temos os exemplos do Montelucaste ➡ Inibe a broncoconstrição atuando no receptor LT1.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-02T11:44:24.000Z",
+                    "updated_at": "2020-07-02T11:44:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10880,
+                    "question_id": 2642,
+                    "description": "Inibidores de Lipoxigenases",
+                    "explanation": "Temos como exemplo o Zileuton.\n- Inibe a síntese de LTB4(quimiotático), LTC4 e LTD4(broncoconstritor).\n- Estão relacionadas com hepatotoxicidade.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-02T11:44:24.000Z",
+                    "updated_at": "2020-07-02T11:44:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10881,
+                    "question_id": 2642,
+                    "description": "Beta 2 agonistas",
+                    "explanation": "- São drogas que causam relaxamento da musculatura bronquiolar lisa\n- São as drogas de ação mais rápida ➡ Por isso, usadas na crise asmática.\n- **Curta duração ➡ Salbutamol, Terbutalina, Fenoterol**\n- **Longa duração ➡ Salmeterol, Formoterol.**\n\n ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-02T11:44:24.000Z",
+                    "updated_at": "2020-07-02T11:44:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10882,
+                    "question_id": 2642,
+                    "description": "Anticolinérgicos",
+                    "explanation": "Esses medicamentos causas broncodilatação em grandes vias aéreas.\n- São mais efetivos no tratamento do **DPOC** do que da **Asma.**\n- **Exemplos de anticolinérgicos(inibidores de M3) ➡ Ipatrópio, tiotrópio.**\n- São os medicamentos de escolha em pacientes que usam betabloqueadores e possuem asma ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-02T11:44:24.000Z",
+                    "updated_at": "2020-07-02T11:44:24.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2642,
+                "questionary_id": 239399,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2645,
+            "institution_id": 4,
+            "description": "Qual dos seguintes **não é** um efeito do salbutamol?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-02T12:33:51.000Z",
+            "updated_at": "2020-07-02T12:33:51.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 279,
+                    "title": "Sistema Respiratório - Farmacologia\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-02T14:12:37.000Z",
+                    "updated_at": "2020-07-02T19:41:43.000Z",
+                    "pivot": {
+                        "discipline_id": 279,
+                        "question_id": 2645
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10891,
+                    "question_id": 2645,
+                    "description": "Taquicardia",
+                    "explanation": "O salbutamol é um beta agonista adrenérgico.\n- Age nos receptores beta 2 cardíacos(cronotrópicos) ➡ Taquicardia\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-02T12:33:51.000Z",
+                    "updated_at": "2020-07-02T12:33:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10892,
+                    "question_id": 2645,
+                    "description": "Tolerância",
+                    "explanation": "Perfeito.\n- Basicamente, a tolerância exige doses maiores de determinada substância para produzir o mesmo efeito. \n- Ocorre dessensibilização dos receptores beta.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-02T12:33:51.000Z",
+                    "updated_at": "2020-07-02T12:33:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10893,
+                    "question_id": 2645,
+                    "description": "Hipocalemia",
+                    "explanation": "O salbutamol é um beta agonista adrenérgico. \n- Age nas células estimulando a bomba de sódio e potássio ➡ Mais potássio para o intracelular ➡ Hipocalemia\n- É até uma estratégia feita na prática para diminuir os níveis séricos de potássio.\n- A insulina tem efeito semelhante.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-02T12:33:51.000Z",
+                    "updated_at": "2020-07-02T12:33:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10894,
+                    "question_id": 2645,
+                    "description": "Hipoglicemia",
+                    "explanation": "Ao contrário, temos um estímulo a **glicogenólise e gliconeogênese** ➡ Resultando em **hiperglicemia.**",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-07-02T12:33:51.000Z",
+                    "updated_at": "2020-07-02T12:33:51.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2645,
+                "questionary_id": 239399,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2647,
+            "institution_id": 4,
+            "description": "Qual é um agente diretamente relacionado a supressão da tosse?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-02T16:11:39.000Z",
+            "updated_at": "2020-07-02T16:11:39.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 279,
+                    "title": "Sistema Respiratório - Farmacologia\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-02T14:12:37.000Z",
+                    "updated_at": "2020-07-02T19:41:43.000Z",
+                    "pivot": {
+                        "discipline_id": 279,
+                        "question_id": 2647
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10899,
+                    "question_id": 2647,
+                    "description": "Dextrometorfano",
+                    "explanation": "É um medicamento supressor da tose.\n- Agem diretamente do SNC ou inibindo o impulso tussinogênico do trato respiratório.\n- Apenas devem ser usados em **tosses secas.**",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-02T13:11:39.000Z",
+                    "updated_at": "2020-07-02T13:11:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10900,
+                    "question_id": 2647,
+                    "description": "Bromexina",
+                    "explanation": "Bromexina é um fármaco com propriedades mucolíticas, utilizado na bronquite",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-02T13:11:39.000Z",
+                    "updated_at": "2020-07-02T13:11:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10901,
+                    "question_id": 2647,
+                    "description": "Corticoides",
+                    "explanation": "- São potentes anti-inflamatórios\n- Diminuem a hiperreatividade brônquica e o edema de mucosa.\n- **Não são broncodilatadores❌**\n- **Contudo, aumentam a sensibilidade dos brônquios a outros broncodilatadores ➡ B2 agonistas.** ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-02T13:11:39.000Z",
+                    "updated_at": "2020-07-02T13:11:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10902,
+                    "question_id": 2647,
+                    "description": "Acetilcisteína",
+                    "explanation": "A acetilcisteína é um fármaco com propriedades **mucolíticas.**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-02T13:11:39.000Z",
+                    "updated_at": "2020-07-02T13:11:39.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2647,
+                "questionary_id": 239399,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2639,
+            "institution_id": 4,
+            "description": "Qual é o mecanismo de ação da teofilina na asma?",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-02T14:22:21.000Z",
+            "updated_at": "2020-07-02T14:25:01.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 279,
+                    "title": "Sistema Respiratório - Farmacologia\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-02T14:12:37.000Z",
+                    "updated_at": "2020-07-02T19:41:43.000Z",
+                    "pivot": {
+                        "discipline_id": 279,
+                        "question_id": 2639
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10867,
+                    "question_id": 2639,
+                    "description": "Inibição das fosfodiesterase 4",
+                    "explanation": "- A teofilina tem o seguinte mecanismo:\n- Inibição da fosfodiesterase(particularmente a PDE-4)\n- Antagonismo dos receptores de adenosina\n- Aumenta da desacetilação de histonas ➡ A acetilação de histonas é um processo que aumenta a transcrição de fatores inflamatórios",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-02T11:22:21.000Z",
+                    "updated_at": "2020-07-02T11:25:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10868,
+                    "question_id": 2639,
+                    "description": "Agonista de B2",
+                    "explanation": "Exemplos de medicamentos beta-2-agonistas.\n- Curta duração ➡ Salbutamol, Terbutalina, Fenoterol\n- Longa duração ➡ Salmeterol, Formoterol.\n\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-02T11:22:21.000Z",
+                    "updated_at": "2020-07-02T11:25:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10869,
+                    "question_id": 2639,
+                    "description": "Ação anticolinérgica",
+                    "explanation": "Exemploos de medicamentos anticolinérgicos:\n- Ipatrópio, Tiotrópio.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-02T11:22:21.000Z",
+                    "updated_at": "2020-07-02T11:25:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10870,
+                    "question_id": 2639,
+                    "description": "Inibição do clearance mucociliar",
+                    "explanation": "O clearance mucociliar é importante para evitar com que patógenos cheguem a vias aéreas inferiores.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-02T11:22:21.000Z",
+                    "updated_at": "2020-07-02T11:25:01.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2639,
+                "questionary_id": 239399,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2643,
+            "institution_id": 4,
+            "description": "Qual é o mecanismo de ação do Montelucaste?",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-02T15:20:51.000Z",
+            "updated_at": "2020-07-02T15:20:51.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 279,
+                    "title": "Sistema Respiratório - Farmacologia\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-02T14:12:37.000Z",
+                    "updated_at": "2020-07-02T19:41:43.000Z",
+                    "pivot": {
+                        "discipline_id": 279,
+                        "question_id": 2643
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10883,
+                    "question_id": 2643,
+                    "description": "Inibição competitiva com o receptor de leucotrienos",
+                    "explanation": "Montelucaste ➡ Inibe a broncoconstrição atuando no receptor LT1 por inibição competitiva.\n- São usadosna profilaxia da asma brônquica",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-02T12:20:51.000Z",
+                    "updated_at": "2020-07-02T12:20:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10884,
+                    "question_id": 2643,
+                    "description": "Inibição de receptores alfa",
+                    "explanation": "Não é a ação realizada por esse medicamento.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-02T12:20:51.000Z",
+                    "updated_at": "2020-07-02T12:20:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10885,
+                    "question_id": 2643,
+                    "description": "Inibição da cicloxigenase",
+                    "explanation": "Medicamentos como os AINEs realizam a inibição da COX",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-02T12:20:51.000Z",
+                    "updated_at": "2020-07-02T12:20:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10886,
+                    "question_id": 2643,
+                    "description": "Inibição não competitiva da síntese de leucotrienos.",
+                    "explanation": "Temos como exemplo o Zileuton.\n- Inibe a síntese de LTB4(quimiotático), LTC4 e LTD4(broncoconstritor).\n- Estão relacionadas com hepatotoxicidade. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-02T12:20:51.000Z",
+                    "updated_at": "2020-07-02T12:20:51.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2643,
+                "questionary_id": 239399,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2644,
+            "institution_id": 4,
+            "description": "Qual é o efeito colateral mais comum da inalação de beclometasona?",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-02T12:25:59.000Z",
+            "updated_at": "2020-07-02T12:27:02.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 279,
+                    "title": "Sistema Respiratório - Farmacologia\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-02T14:12:37.000Z",
+                    "updated_at": "2020-07-02T19:41:43.000Z",
+                    "pivot": {
+                        "discipline_id": 279,
+                        "question_id": 2644
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10887,
+                    "question_id": 2644,
+                    "description": "Supressão da Adrenal",
+                    "explanation": "Geralmente acontece mais com a parada do uso de maneira súbita em tratamentos com corticoterapia sistêmica.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-02T12:25:59.000Z",
+                    "updated_at": "2020-07-02T12:27:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10888,
+                    "question_id": 2644,
+                    "description": "Candidíase orofaríngea",
+                    "explanation": "Existem dois efeitos colaterais comuns dos corticoides inalatórios: \n- Candidíase orofaríngea ➡ Resultado da imunossupressão local\n- A candidíase pode ser prevenida pelo gargarejo com água após o uso da medicação.\n- Rouquidão vocal ➡ Resultado de alterações anatômica das cordas vocais",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-02T12:25:59.000Z",
+                    "updated_at": "2020-07-02T12:27:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10889,
+                    "question_id": 2644,
+                    "description": "Broncoconstrição",
+                    "explanation": "Ao contrário, como os corticoides são potentes anti-inflamatórios, temos a diminuição da hiperreatividade brônquica.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-02T12:25:59.000Z",
+                    "updated_at": "2020-07-02T12:27:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10890,
+                    "question_id": 2644,
+                    "description": "Hepatite",
+                    "explanation": "Não é um efeito colateral comum.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-02T12:25:59.000Z",
+                    "updated_at": "2020-07-02T12:27:02.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2644,
+                "questionary_id": 239399,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2646,
+            "institution_id": 4,
+            "description": "Qual dos medicamentos a seguir **não é** um broncodilatador?",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-02T16:03:37.000Z",
+            "updated_at": "2020-07-02T16:03:37.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 279,
+                    "title": "Sistema Respiratório - Farmacologia\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-02T14:12:37.000Z",
+                    "updated_at": "2020-07-02T19:41:43.000Z",
+                    "pivot": {
+                        "discipline_id": 279,
+                        "question_id": 2646
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10895,
+                    "question_id": 2646,
+                    "description": "Beta 2 agonistas",
+                    "explanation": "- São drogas que causam relaxamento da musculatura bronquiolar lisa\n- São as drogas de ação mais rápida ➡ Por isso, usadas na crise asmática.\n- **Curta duração ➡ Salbutamol, Terbutalina, Fenoterol**\n- **Longa duração ➡ Salmeterol, Formoterol.** ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-02T13:03:37.000Z",
+                    "updated_at": "2020-07-02T13:03:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10896,
+                    "question_id": 2646,
+                    "description": "Metilxantinas",
+                    "explanation": "- Agem por meio do bloqueio dos receptores de **adenosina e inibição da fosfodiesterase**\n- A teofilina é um potente vasodilatador ➡ Pode gerar hipotensão e taquicardia reflexa.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-02T13:03:37.000Z",
+                    "updated_at": "2020-07-02T13:03:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10897,
+                    "question_id": 2646,
+                    "description": "Corticoides",
+                    "explanation": "- São potentes anti-inflamatórios\n- Diminuem a hiperreatividade brônquica e o edema de mucosa.\n- **Não são broncodilatadores❌**\n- **Contudo, aumentam a sensibilidade dos brônquios a outros broncodilatadores ➡ B2 agonistas.**",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-02T13:03:37.000Z",
+                    "updated_at": "2020-07-02T13:03:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10898,
+                    "question_id": 2646,
+                    "description": "Anticolinérgicos",
+                    "explanation": "Esses medicamentos causas broncodilatação em grandes vias aéreas.\n- São mais efetivos no tratamento do **DPOC** do que da **Asma.**\n- **Exemplos de anticolinérgicos(inibidores de M3) ➡ Ipatrópio, tiotrópio.**\n- São os medicamentos de escolha em pacientes que usam betabloqueadores e possuem asma  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-02T13:03:37.000Z",
+                    "updated_at": "2020-07-02T13:03:37.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2646,
+                "questionary_id": 239399,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2648,
+            "institution_id": 4,
+            "description": "Qual é a vantagem do formoterol para o salbutamol?",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-02T16:15:44.000Z",
+            "updated_at": "2020-07-02T16:15:44.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 279,
+                    "title": "Sistema Respiratório - Farmacologia\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-02T14:12:37.000Z",
+                    "updated_at": "2020-07-02T19:41:43.000Z",
+                    "pivot": {
+                        "discipline_id": 279,
+                        "question_id": 2648
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10903,
+                    "question_id": 2648,
+                    "description": "Menor duração",
+                    "explanation": "O salbutamol possui **menor duração.**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-02T13:15:44.000Z",
+                    "updated_at": "2020-07-02T13:15:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10904,
+                    "question_id": 2648,
+                    "description": "Maior potência",
+                    "explanation": "Possuem potências semelhantes, com pequena vantagem para o salbutamol.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-02T13:15:44.000Z",
+                    "updated_at": "2020-07-02T13:15:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10905,
+                    "question_id": 2648,
+                    "description": "Longa duração",
+                    "explanation": "Perfeito.\n- Uma desvantagem do salbutamol é sua curta ação ➡ Os pacientes precisam ficar repetindo a dose.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-02T13:15:44.000Z",
+                    "updated_at": "2020-07-02T13:15:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10906,
+                    "question_id": 2648,
+                    "description": "Menores efeitos cardiovasculares",
+                    "explanation": "Ambos possuem efeitos cardiovasculares semelhantes.\n- Taquicardia é o principal deles.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-02T13:15:44.000Z",
+                    "updated_at": "2020-07-02T13:15:44.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2648,
+                "questionary_id": 239399,
+                "timer": 0
+            }
+        }
+    ]
+}

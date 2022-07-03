@@ -1,0 +1,896 @@
+{
+    "id": 239405,
+    "user_id": 1699,
+    "title": "Sistema Gastrointestinal",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-06-16T15:39:40.000Z",
+    "updated_at": "2022-06-16T15:39:40.000Z",
+    "study_plan_id": 81,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 2609,
+            "institution_id": 4,
+            "description": "Os inibidores de bomba de prótons são mais efetivos quando administrados:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-01T22:40:55.000Z",
+            "updated_at": "2020-07-01T22:40:55.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 278,
+                    "title": "Sistema Gastrointestinal - Farmacologia\t\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-01T22:33:32.000Z",
+                    "updated_at": "2020-07-02T19:42:19.000Z",
+                    "pivot": {
+                        "discipline_id": 278,
+                        "question_id": 2609
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10730,
+                    "question_id": 2609,
+                    "description": "Após as refeições",
+                    "explanation": "Não faria sentido, já que o ácido começa a ser produzido momentos antes da alimentação(só de pensar na comida😆).",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-01T19:40:55.000Z",
+                    "updated_at": "2020-07-01T19:40:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10731,
+                    "question_id": 2609,
+                    "description": "Junto com o alimento",
+                    "explanation": "É nesse momento que temos o maior número de célula parietais ativas, não sendo propício para inibição pelo IBP.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-01T19:40:55.000Z",
+                    "updated_at": "2020-07-01T19:40:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10732,
+                    "question_id": 2609,
+                    "description": "Juntamento com bloqueadores H2",
+                    "explanation": "Geralmente o efeito não potencializa. \n- Os H2 tem um tempo de ação mais rápido que os IBPs, porém são menos eficazes.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-01T19:40:55.000Z",
+                    "updated_at": "2020-07-01T19:40:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10733,
+                    "question_id": 2609,
+                    "description": "Durante o jejum ou antes da refeição",
+                    "explanation": "É neste momento que as células parietais apresentam **o maior número de bombas de prótons em repouso**, aptas para serem inibidas. \n- Os inibidores da bomba de prótons (IBPs), são medicamentos que inibem, de maneira irreversível, **a enzima H+, K+ ATPase (ou bomba de prótons).**",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-07-01T19:40:55.000Z",
+                    "updated_at": "2020-07-01T19:40:55.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2609,
+                "questionary_id": 239405,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2610,
+            "institution_id": 4,
+            "description": "Qual das drogas **não é** usada no tratamento do H.pylori?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-01T22:50:37.000Z",
+            "updated_at": "2020-07-01T22:50:37.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 278,
+                    "title": "Sistema Gastrointestinal - Farmacologia\t\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-01T22:33:32.000Z",
+                    "updated_at": "2020-07-02T19:42:19.000Z",
+                    "pivot": {
+                        "discipline_id": 278,
+                        "question_id": 2610
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10734,
+                    "question_id": 2610,
+                    "description": "Metronidazol",
+                    "explanation": "É um antibiótico com excelente cobertura para protozoários e anaeróbios.\n- Pode estar presente no esquema terapêutico ➡ Claritromicina + Metronidazol + IBP",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-01T19:50:37.000Z",
+                    "updated_at": "2020-07-01T19:50:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10735,
+                    "question_id": 2610,
+                    "description": "Omeprazol",
+                    "explanation": "- São inibidores irreversíveis da bomba de H+/K+ ATPase\n- São administrados, em jejum, logo pela manhã.\n- Podem realizar a inibição gástrica por mais de 24h ➡ 1 administração por dia.\n- São os medicamentos de escolha para o tratamento das úlceras e estão presente no tratamento da H. pylori.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-01T19:50:37.000Z",
+                    "updated_at": "2020-07-01T19:50:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10736,
+                    "question_id": 2610,
+                    "description": "Cefalexina",
+                    "explanation": "Não é um antibiótico usado no tratamento do H. pylori\n💡 Doc, confira os comentários das outras alternativas.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-01T19:50:37.000Z",
+                    "updated_at": "2020-07-01T19:50:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10737,
+                    "question_id": 2610,
+                    "description": "Amoxicilina",
+                    "explanation": "Está no esquema terapêutico clássico.\n- CAP ➡ Claritromicina + Amoxicilina + inibidor de bomba de Prótons",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-01T19:50:37.000Z",
+                    "updated_at": "2020-07-01T19:50:37.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2610,
+                "questionary_id": 239405,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2630,
+            "institution_id": 4,
+            "description": "Qual medicamento não é usado para tratar vômitos causados por movimento(cinetose)?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-02T02:58:03.000Z",
+            "updated_at": "2020-07-02T02:58:03.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 278,
+                    "title": "Sistema Gastrointestinal - Farmacologia\t\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-01T22:33:32.000Z",
+                    "updated_at": "2020-07-02T19:42:19.000Z",
+                    "pivot": {
+                        "discipline_id": 278,
+                        "question_id": 2630
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10825,
+                    "question_id": 2630,
+                    "description": "Metoclopramida",
+                    "explanation": "- Não é um bom medicamento para o **tratamento ou profilaxia da cinetose.**\n- É um bloqueador dos **receptores D2.**\n- É efetivo para enjôos matinais ➡ Contudo, **não deve ser usado na gravidez.**\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-01T23:58:03.000Z",
+                    "updated_at": "2020-07-01T23:58:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10826,
+                    "question_id": 2630,
+                    "description": "Ciclizina",
+                    "explanation": "É um antihistamínico \n- Atua no sistema vestibular ➡ nos receptores H1 ➡ Histamínicos. \n- Possui efeito semelhante a prometazina, meclizina, etc.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-01T23:58:03.000Z",
+                    "updated_at": "2020-07-01T23:58:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10827,
+                    "question_id": 2630,
+                    "description": "Cinarizina",
+                    "explanation": "- É um antihistamínico com propriedades anticolinérgicas e antiserotoninérgicas.\n- É usada no tratamento do vertigo.\n- Atua no sistema vestibular ➡ nos receptores H1 ➡ Histamínicos.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-01T23:58:03.000Z",
+                    "updated_at": "2020-07-01T23:58:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10828,
+                    "question_id": 2630,
+                    "description": "Escopolamina",
+                    "explanation": "Também conhecido como Hioscina\n- Geralmente está na formulação do Buscopan ➡ Hioscina + Dipirona\n- Pode ser usada como profilaxia da cinetose.\n- Age no sistema vestibular ➡ Nos receptores **M1 ➡ Muscarínicos.**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-01T23:58:03.000Z",
+                    "updated_at": "2020-07-01T23:58:03.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2630,
+                "questionary_id": 239405,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2632,
+            "institution_id": 4,
+            "description": "Todas as alternativas estão corretas sobre diarreia, **exceto:**",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-02T00:11:28.000Z",
+            "updated_at": "2020-07-02T00:12:23.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 278,
+                    "title": "Sistema Gastrointestinal - Farmacologia\t\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-01T22:33:32.000Z",
+                    "updated_at": "2020-07-02T19:42:19.000Z",
+                    "pivot": {
+                        "discipline_id": 278,
+                        "question_id": 2632
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10833,
+                    "question_id": 2632,
+                    "description": "Os opioides atrasam a passagem do alimento no intestino por redução da peristalse ",
+                    "explanation": "Perfeito.\n- Os opioides ➡ Inibem a liberação de acetilcolina e prostaglandinas ➡ Reduzem a contração da musculatura intestinal lisa ➡ Reduzem a peristalse.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-02T00:11:28.000Z",
+                    "updated_at": "2020-07-02T00:12:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10834,
+                    "question_id": 2632,
+                    "description": "Loperamida é um opioide com ação anti-peristalse",
+                    "explanation": "A loperamida se liga ao receptor opiáceo da parede do intestino inibindo a liberação de acetilcolina e prostaglandinas, reduzindo assim o peristaltismo e aumentando o tempo de trânsito intestinal.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-02T00:11:28.000Z",
+                    "updated_at": "2020-07-02T00:12:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10835,
+                    "question_id": 2632,
+                    "description": "Medicamentos anti-peristalse são efetivos contra diarreias infecciosas bacterianas",
+                    "explanation": "Ao contrário, são completamente perigosos em casos de infecção bacteriana, principalmente as invasivas.\n- Podem culminar na piora da infecção. \n- Doc, a diarreia serve justamente para eliminar secreções(junto com os agentes infecciosos) do nosso organismo.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-02T00:11:28.000Z",
+                    "updated_at": "2020-07-02T00:12:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10836,
+                    "question_id": 2632,
+                    "description": "A meia-vida da Loperamida é, em torno, de 12 horas",
+                    "explanation": "Perfeito. São cerca de 11h em homens.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-02T00:11:28.000Z",
+                    "updated_at": "2020-07-02T00:12:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2632,
+                "questionary_id": 239405,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2619,
+            "institution_id": 4,
+            "description": "Sobre a metoclopramida, assinale a verdadeira:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-02T00:20:46.000Z",
+            "updated_at": "2020-07-02T00:20:46.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 278,
+                    "title": "Sistema Gastrointestinal - Farmacologia\t\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-01T22:33:32.000Z",
+                    "updated_at": "2020-07-02T19:42:19.000Z",
+                    "pivot": {
+                        "discipline_id": 278,
+                        "question_id": 2619
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10777,
+                    "question_id": 2619,
+                    "description": "É um inibidor da musculatura lisa do trato gastrointestinal",
+                    "explanation": "Na realidade, por ser um antagonista dos receptores D2 ➡ Estimula a liberação de acetilcolina ➡ Melhora o trânsito intestinal.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-01T21:20:46.000Z",
+                    "updated_at": "2020-07-01T21:20:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10778,
+                    "question_id": 2619,
+                    "description": "Diminui a pressão do esfíncter esofágico inferior",
+                    "explanation": "Acaba por aumentar o tônus do EEI ➡ Efeito anti-emético.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-01T21:20:46.000Z",
+                    "updated_at": "2020-07-01T21:20:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10779,
+                    "question_id": 2619,
+                    "description": "Estimula o receptor D2",
+                    "explanation": "Metoclopramida é um antagonista dos receptores D2.\n- Ativação dos receptores D2 ➡ Inibe a liberação de Acetilcolina",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-01T21:20:46.000Z",
+                    "updated_at": "2020-07-01T21:20:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10780,
+                    "question_id": 2619,
+                    "description": "Aumenta a motilidade colônica",
+                    "explanation": "Perfeito. Tanto que também é considerado um agente procinético.\n- É um antagonista dos **receptores D2** ➡ Estimula a liberação de acetilcolina ➡ Melhora o trânsito intestinal. ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-07-01T21:20:46.000Z",
+                    "updated_at": "2020-07-01T21:20:46.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2619,
+                "questionary_id": 239405,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2622,
+            "institution_id": 4,
+            "description": "A inibição da secreção de HCl pelo omeprazol ocorre dentro de uma hora, atinge o pico em duas horas e o platô em quatro horas. Após quantos dias a secreção irá normalizar?",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-02T00:39:34.000Z",
+            "updated_at": "2020-07-02T00:39:34.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 278,
+                    "title": "Sistema Gastrointestinal - Farmacologia\t\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-01T22:33:32.000Z",
+                    "updated_at": "2020-07-02T19:42:19.000Z",
+                    "pivot": {
+                        "discipline_id": 278,
+                        "question_id": 2622
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10790,
+                    "question_id": 2622,
+                    "description": "<24 horas",
+                    "explanation": "É pouco tempo para formar outra célula parietal.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-01T21:39:34.000Z",
+                    "updated_at": "2020-07-01T21:39:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10791,
+                    "question_id": 2622,
+                    "description": "1-2 dias",
+                    "explanation": "É pouco tempo para formar outra célula parietal. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-01T21:39:34.000Z",
+                    "updated_at": "2020-07-01T21:39:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10792,
+                    "question_id": 2622,
+                    "description": "3-5 dias",
+                    "explanation": "Como temos a inibição irreversível da bomba K+/H+ da célula parietal ➡ O tempo de duração vai ser o tempo do turnover celular.\n- Para célula parietal, isso gira em torno de 3-5 dias.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-01T21:39:34.000Z",
+                    "updated_at": "2020-07-01T21:39:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10793,
+                    "question_id": 2622,
+                    "description": "6-10 dias",
+                    "explanation": "São poucos dias a mais do turnover da célula parietal.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-01T21:39:34.000Z",
+                    "updated_at": "2020-07-01T21:39:34.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2622,
+                "questionary_id": 239405,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2628,
+            "institution_id": 4,
+            "description": "Qual dos medicamentos abaixo é útil no tratamento de varizes esofágicas?",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-02T02:40:31.000Z",
+            "updated_at": "2021-06-07T00:02:04.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 278,
+                    "title": "Sistema Gastrointestinal - Farmacologia\t\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-01T22:33:32.000Z",
+                    "updated_at": "2020-07-02T19:42:19.000Z",
+                    "pivot": {
+                        "discipline_id": 278,
+                        "question_id": 2628
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10817,
+                    "question_id": 2628,
+                    "description": "Octreotide",
+                    "explanation": "É um análogo de somatostatina de longa duração ➡ Faz a vasoconstrição do leito esplênico\n- Basicamento o manejo das varizes esofágicas funciona assim:\n- Prevenção: Betabloqueadores e ligadura elástica\n- Manejo do sangramento ➡ Estabilização, octreotide, endoscopia.\n- Em último caso: Tamponamento com balão",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-01T23:40:31.000Z",
+                    "updated_at": "2021-06-06T21:02:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10818,
+                    "question_id": 2628,
+                    "description": "Pantoprazol",
+                    "explanation": "- É um inibidor de bomba H+/K+/ ATPase\n- Não é muito útil em sangramento de varizes esofágicas",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-01T23:40:31.000Z",
+                    "updated_at": "2021-06-06T21:02:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10819,
+                    "question_id": 2628,
+                    "description": "Dexametasona",
+                    "explanation": "- É um corticoide.\n- Pode ser usado no tratamento de vômitos em pacientes em tratamento quimioterápico",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-01T23:40:31.000Z",
+                    "updated_at": "2021-06-06T21:02:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10820,
+                    "question_id": 2628,
+                    "description": "5-ASA",
+                    "explanation": "É um anti-inflamatório que age diretamente no cólon.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-01T23:40:31.000Z",
+                    "updated_at": "2021-06-06T21:02:04.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2628,
+                "questionary_id": 239405,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2629,
+            "institution_id": 4,
+            "description": "O abuso de laxantes é associado a:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-02T02:49:04.000Z",
+            "updated_at": "2020-07-02T02:49:04.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 278,
+                    "title": "Sistema Gastrointestinal - Farmacologia\t\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-01T22:33:32.000Z",
+                    "updated_at": "2020-07-02T19:42:19.000Z",
+                    "pivot": {
+                        "discipline_id": 278,
+                        "question_id": 2629
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10821,
+                    "question_id": 2629,
+                    "description": "Hipocalemia",
+                    "explanation": "- Precisamos manter uma ingesta de potássio para repor seus níveis séricos.\n- Grande parte desse potássio é absorvido em região colônica. \n- Ou seja, em casos de abuso de laxativos, um distúrbio eletrolítico clássico é a hipocalemia.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-01T23:49:04.000Z",
+                    "updated_at": "2020-07-01T23:49:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10822,
+                    "question_id": 2629,
+                    "description": "Hipomagnesemia",
+                    "explanation": "Não é um distúrbio eletrolítico comum associado ao abuso de laxativos",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-01T23:49:04.000Z",
+                    "updated_at": "2020-07-01T23:49:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10823,
+                    "question_id": 2629,
+                    "description": "Hipoglicemia",
+                    "explanation": "A glicose é absorvida no intestino delgado, ou seja, mesmo com quadro diarreico, boa parte dela é absorvida.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-01T23:49:04.000Z",
+                    "updated_at": "2020-07-01T23:49:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10824,
+                    "question_id": 2629,
+                    "description": "Hipercalcemia",
+                    "explanation": "Não é um distúrbio eletrolítico comum associado ao abuso de laxativos ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-01T23:49:04.000Z",
+                    "updated_at": "2020-07-01T23:49:04.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2629,
+                "questionary_id": 239405,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2631,
+            "institution_id": 4,
+            "description": "A sulfassalazina é usada no tratamento da(o):",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-02T03:04:09.000Z",
+            "updated_at": "2020-07-02T03:04:09.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 278,
+                    "title": "Sistema Gastrointestinal - Farmacologia\t\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-01T22:33:32.000Z",
+                    "updated_at": "2020-07-02T19:42:19.000Z",
+                    "pivot": {
+                        "discipline_id": 278,
+                        "question_id": 2631
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10829,
+                    "question_id": 2631,
+                    "description": "Retocolite ulcerativa",
+                    "explanation": "- Os salicilatos são compostos imunomodulatores que agem no cólon.\n- São a primeira linha de tratamento para o tratamento da **retocolite ulcerativa leve e moderada.**\n- Efeitos colaterais incluem náuseas, vômitos, hipersensibilidade.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-02T00:04:09.000Z",
+                    "updated_at": "2020-07-02T00:04:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10830,
+                    "question_id": 2631,
+                    "description": "Osteoartrite",
+                    "explanation": "Não recebe o tratamento com imunomoduladores.\n- O tratamento é feito com analgésicos simples ➡ **Paracetamol**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-02T00:04:09.000Z",
+                    "updated_at": "2020-07-02T00:04:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10831,
+                    "question_id": 2631,
+                    "description": "Artrite gotosa",
+                    "explanation": "É preferível o tratamento agudo com AINEs ou colchicina.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-02T00:04:09.000Z",
+                    "updated_at": "2020-07-02T00:04:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10832,
+                    "question_id": 2631,
+                    "description": "Síndrome do intestino irritável",
+                    "explanation": "Não recebe o tratamento com imunomoduladores.\n- O tratamento é muito individualizado dependendo dos sintomas predominantes ➡ diarreicos ou constipatórios.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-02T00:04:09.000Z",
+                    "updated_at": "2020-07-02T00:04:09.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2631,
+                "questionary_id": 239405,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2620,
+            "institution_id": 4,
+            "description": "Qual é a melhor droga para ser administrada em vômitos induzidos por medicamentos antineoplásicos?",
+            "difficulty": "hard",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-02T00:29:00.000Z",
+            "updated_at": "2020-07-02T00:29:00.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 278,
+                    "title": "Sistema Gastrointestinal - Farmacologia\t\t",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-01T22:33:32.000Z",
+                    "updated_at": "2020-07-02T19:42:19.000Z",
+                    "pivot": {
+                        "discipline_id": 278,
+                        "question_id": 2620
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10781,
+                    "question_id": 2620,
+                    "description": "Ondasentrona",
+                    "explanation": "Os medicamentos de primeira escolha para vômtios por quimioterápicos são os bloqueadores de HT3 ➡ Ondansetrona, dolasetrona, etc.\n- A Ondasentrona tem a menor meia vida desses medicamentos\n- A eficácia aumenta quando usado juntamento com outros antieméticos ➡ Antihistamínicos, bloqueadores D2 ou **dexametasona.**\n ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-01T21:29:00.000Z",
+                    "updated_at": "2020-07-01T21:29:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10782,
+                    "question_id": 2620,
+                    "description": "Prometazina",
+                    "explanation": "É um antihistamínico.\n- São usados para vômitos induzidos por movimento.\n- Hioscina também pode ser usada para esse fim\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-01T21:29:00.000Z",
+                    "updated_at": "2020-07-01T21:29:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10783,
+                    "question_id": 2620,
+                    "description": "Metoclopramida",
+                    "explanation": "Os medicamentos de primeira escolha para vômitos por quimioterápicos são os bloqueadores de HT3 ➡ Ondansetrona, dolasetrona, etc.\n- A metoclopramida é um bloqueador dos receptores D2 ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-01T21:29:00.000Z",
+                    "updated_at": "2020-07-01T21:29:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10784,
+                    "question_id": 2620,
+                    "description": "Trifluoperazina",
+                    "explanation": "Triflouperazina é um fármaco de ação antipsicótica do grupo dos derivados das fenotiazinas. \n- Não costuma ser usado no tratamento de vômitos durante a quimioterapia.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-01T21:29:00.000Z",
+                    "updated_at": "2020-07-01T21:29:00.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2620,
+                "questionary_id": 239405,
+                "timer": 0
+            }
+        }
+    ]
+}
