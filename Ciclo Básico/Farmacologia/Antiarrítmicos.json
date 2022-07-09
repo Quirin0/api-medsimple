@@ -1,0 +1,1480 @@
+{
+    "id": 261681,
+    "user_id": 1699,
+    "title": "Antiarrítmicos",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-03T16:17:30.000Z",
+    "updated_at": "2022-07-03T16:17:30.000Z",
+    "study_plan_id": 703,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 8254,
+            "institution_id": 4,
+            "description": "Assinale a alternativa que contém um fármaco antiarrítimico de classe IB, segundo a classificação de Vaughan-Williams:",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-17T14:26:11.000Z",
+            "updated_at": "2021-05-17T14:26:11.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 748,
+                    "title": "Antiarrítmicos",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2021-05-17T14:06:43.000Z",
+                    "updated_at": "2021-05-17T14:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 748,
+                        "question_id": 8254
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 33869,
+                    "question_id": 8254,
+                    "description": "Amiodarona",
+                    "explanation": "Falso, Doc! A amiodarona é um antiarrítimico de **classe III,** pois sua ação é o **bloqueio de canais de K+,** levando a prolongamento da repolarização",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-17T11:26:11.000Z",
+                    "updated_at": "2021-05-17T11:26:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33870,
+                    "question_id": 8254,
+                    "description": "Propanolol",
+                    "explanation": "Falso, Doc! O propanolol é um medicamento **beta-bloqueador** (termina com \"lol\", que nem os demais) e, portanto, um antiarrítimico de **classe II** a\n\n💡 Relembrando:\n- Classe I ➞  bloqueadores de canais de Na+ (fase 0 - despolarização) (procainamida (IA), lidocaína (IB) e propafenona (IC))\n- Classe II ➞ beta-bloqueadores (ex.: todos os \"lol\" - propranolol, carvedilol, atenolol, etc)\n- Classe III ➞ bloqueadores de canais de K+ (repolarização) (ex.: amiodarona)\n- Classe IV ➞  bloqueadores de canal de cálcio (ex.: Verapamil)\n\n\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-17T11:26:11.000Z",
+                    "updated_at": "2021-05-17T11:26:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33871,
+                    "question_id": 8254,
+                    "description": "Lidocaína",
+                    "explanation": "Isso mesmo, Doc! 😁 \n- Os antiarrítmicos de classe I são os **bloqueadores dos canais de sódio** e, portanto, todos **prolongam a despolarização, isto é, a fase 0** do potencial de ação dos miócitos. \n\nSão divididos em três subgrupos, que podem ser diferenciados pelo seu efeito na repolarização:\n- IA ➞ **prolongamento** da repolarização (ex.: Procainamida)\n- IB ➞ **diminuem** a repolarização (ex.: lidocaína)\n- IC ➞ **pouco efeito** na repolarização (ex.: propafenona)\n\n💡 Não lembra muito bem quais as fases do potencial de ação cardíaco e os íons envolvidos? Não tem problema, Doc, só olhar a imagem abaixo:\n\nFonte da imagem: SILVERTHORN DU. Fisiologia humana: Uma abordagem integrada. 7ª ed.,\nPorto Alegre: Ed. Artmed, 2017 \n\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-05-17T11:26:11.000Z",
+                    "updated_at": "2021-05-17T11:26:11.000Z",
+                    "files": [
+                        {
+                            "id": 8900,
+                            "file": "ba917fe5-bb1c-4205-9750-99785c33e24d.png",
+                            "name": "Captura de tela 2021-05-17 081833.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-17T14:24:25.000Z",
+                            "updated_at": "2021-05-17T14:24:25.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ba917fe5-bb1c-4205-9750-99785c33e24d.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8900,
+                                "alternative_id": 33871
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 33872,
+                    "question_id": 8254,
+                    "description": "Procainamida ",
+                    "explanation": "Falso, Doc! A procainamida é um medicamento da classe IA, tendo ação de prolongamento pequeno da fase 0 (todos os fármacos da classe I, sendo bloqueadores de canal de Na+, prolongam a fase 0) e encurtamento da repolarização . \n\t\t\n- IA ➞ **prolongamento** da repolarização (ex.: Procainamida)\n- IB ➞ **diminuem** a repolarização (ex.: lidocaína)\n- IC ➞ **pouco efeito** na repolarização (ex.: propafenona)\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-17T11:26:11.000Z",
+                    "updated_at": "2021-05-17T11:26:11.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8254,
+                "questionary_id": 261681,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8258,
+            "institution_id": 4,
+            "description": "Assinale a alternativa que contém um fármaco antiarrítimico de classe III, segundo a classificação de Vaughan-Williams:",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-17T16:15:44.000Z",
+            "updated_at": "2021-05-17T16:15:44.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 748,
+                    "title": "Antiarrítmicos",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2021-05-17T14:06:43.000Z",
+                    "updated_at": "2021-05-17T14:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 748,
+                        "question_id": 8258
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 33885,
+                    "question_id": 8258,
+                    "description": "Verapamil",
+                    "explanation": "Falso, Doc! O verapamil é um antiarrítmico de **classe IV** e, portanto, um bloqueador de canais de Ca2+\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-17T13:15:44.000Z",
+                    "updated_at": "2021-05-17T13:15:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33886,
+                    "question_id": 8258,
+                    "description": "Amiodarona",
+                    "explanation": "Muito bem, Doc! 😁\n- A amiodarona é um antiarrítimico de classe III, pois sua ação é o **bloqueio de canais de K+**, levando a prolongamento da repolarização\n- É um dos fármacos antiarrítmicos mais utilizados na prática clínica",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-05-17T13:15:44.000Z",
+                    "updated_at": "2021-05-17T13:15:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33887,
+                    "question_id": 8258,
+                    "description": "Procainamida",
+                    "explanation": "Falso, Doc! \n- A procainamida é um medicamento da **classe IA**, tendo ação de prolongamento pequeno da fase 0 (todos os fármacos da classe I, sendo bloqueadores de canal de Na+, prolongam a fase 0) e encurtamento da repolarização . \n\n💡 Para lembrar:\n- IA ➞ Moderado efeito sobre a fase 0 e prolongamento da repolarização (ex.: Procainamida)\n- IB ➞ Fraco efeito sobre a fase 0 e diminuem a repolarização (ex.: lidocaína)\n- IC ➞ Forte efeito sobre a fase 0 e pouco efeito na repolarização (ex.: propafenona)\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-17T13:15:44.000Z",
+                    "updated_at": "2021-05-17T13:15:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33888,
+                    "question_id": 8258,
+                    "description": "Propanolol",
+                    "explanation": "Falso, Doc! O propanolol é um medicamento beta-bloqueador (termina com \"lol\", que nem os demais) e, portanto, um antiarrítimico de classe II\n\n💡 Para lembrar:\n- Classe I ➞  bloqueadores de canais de Na+ (fase 0 - despolarização) (procainamida (IA), lidocaína (IB) e propafenona (IC))\n- Classe II ➞ beta-bloqueadores (ex.: todos os \"lol\" - propranolol, carvedilol, atenolol, etc)\n- Classe III ➞ bloqueadores de canais de K+ (repolarização) (ex.: amiodarona)\n- Classe IV ➞  bloqueadores de canal de cálcio (ex.: Verapamil)\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-17T13:15:44.000Z",
+                    "updated_at": "2021-05-17T13:15:44.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8258,
+                "questionary_id": 261681,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8279,
+            "institution_id": 4,
+            "description": "Os antiarrítmicos da classe I apresentam uma propriedade chamada de bloqueio dependente de uso (ou uso-dependente/estado-dependente). Essa propriedade significa que tais fármacos se ligam mais rapidamento em quais canais?",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-17T18:09:12.000Z",
+            "updated_at": "2021-05-17T18:09:12.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 748,
+                    "title": "Antiarrítmicos",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2021-05-17T14:06:43.000Z",
+                    "updated_at": "2021-05-17T14:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 748,
+                        "question_id": 8279
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 33969,
+                    "question_id": 8279,
+                    "description": "Abertos, apenas",
+                    "explanation": "Falso, Doc! Eles se ligam mais em canais **abertos e inativados,** o que possibilita bloquear mais rapidamente aquelas células disparando potenciais com frequência anormalmente alta, prevenindo arritmias.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-17T15:09:12.000Z",
+                    "updated_at": "2021-05-17T15:09:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33970,
+                    "question_id": 8279,
+                    "description": "Inativados, apenas",
+                    "explanation": "Falso, Doc! Eles se ligam mais em canais **abertos e inativados,** o que possibilita bloquear mais rapidamente aquelas células disparando potenciais com frequência anormalmente alta, prevenindo arritmias. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-17T15:09:12.000Z",
+                    "updated_at": "2021-05-17T15:09:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33971,
+                    "question_id": 8279,
+                    "description": "Fechados, apenas",
+                    "explanation": "Falso, Doc! Eles se ligam mais em canais **abertos e inativados,** o que possibilita bloquear mais rapidamente aquelas células disparando potenciais com frequência anormalmente alta, prevenindo arritmias. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-17T15:09:12.000Z",
+                    "updated_at": "2021-05-17T15:09:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33972,
+                    "question_id": 8279,
+                    "description": "Abertos e inativados",
+                    "explanation": "Parabéns, Doc! 👏 Os antiarrítimicos de classe I possuem o chamado bloqueio estado-dependente, o que signiifica que ligam-se mais rapidamente em canais **abertos ou inativado**s\n- Com isso, fica mais fácil que os fármacos bloqueiem células  muito ativadas, ou seja, disparando em uma frequência muito alta. Faz sentido, né, Doc?\n\nDá uma olhada nesse esquema mostrando os estados dos canais iônicos para relembrar 👇:",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-05-17T15:09:12.000Z",
+                    "updated_at": "2021-05-17T15:09:12.000Z",
+                    "files": [
+                        {
+                            "id": 8932,
+                            "file": "02e511ae-8976-4d46-b3be-297a278d8b5f.png",
+                            "name": "Three-state-model-of-voltage-gated-ion-channels-Closed-open-and-inactivated-states-with.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-17T18:08:08.000Z",
+                            "updated_at": "2021-05-17T18:08:08.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/02e511ae-8976-4d46-b3be-297a278d8b5f.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8932,
+                                "alternative_id": 33972
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 33973,
+                    "question_id": 8279,
+                    "description": "Inativados e fechados",
+                    "explanation": "Falso, Doc! Eles se ligam mais em canais **abertos e inativados,** o que possibilita bloquear mais rapidamente aquelas células disparando potenciais com frequência anormalmente alta, prevenindo arritmias. ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-05-17T15:09:12.000Z",
+                    "updated_at": "2021-05-17T15:09:12.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8279,
+                "questionary_id": 261681,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8284,
+            "institution_id": 331,
+            "description": "Fármacos antiarrítmicos são uma ferramenta importante na retomada da função correta da atividade do marcapasso do coração e/ou na condução correta do impulso que induz as contrações cardíacas. Das alternativas abaixo, marque o item que apresenta um dos mecanismos de ação passíveis de corrigir possíveis arritmias",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-17T18:56:07.000Z",
+            "updated_at": "2021-05-17T18:56:07.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 331,
+                "title": "Prefeitura de Fortaleza - CE",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-05-17T15:56:07.000Z",
+                "updated_at": "2021-05-17T15:56:07.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 748,
+                    "title": "Antiarrítmicos",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2021-05-17T14:06:43.000Z",
+                    "updated_at": "2021-05-17T14:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 748,
+                        "question_id": 8284
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 33990,
+                    "question_id": 8284,
+                    "description": "Encurtamento do período refratário efetivo. ",
+                    "explanation": "Falso, Doc! \n- Um dos mecanismos dos fármacos antiarrítmicos, na verdade, é justamente o **prolongamento** do período refratário (diminuindo a chance de estímulos surgirem fora da hora adequada). \n- Exemplos de fármacos que possuem esse mecanismo de ação são os de **classe III** - pelo bloqueio de canais de K+",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-17T15:56:07.000Z",
+                    "updated_at": "2021-05-17T15:56:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33991,
+                    "question_id": 8284,
+                    "description": "Ativação de canal de cálcio. ",
+                    "explanation": "Falso, Doc! \n- Um dos mecanismos dos fármacos antiarrítmicos, na verdade, é justamente o **bloqueio** de canais de cálcio, já que estes estão relacionados com a geração do potencial de ação\n- Fármacos que possuem esse mecanismo de ação são classificados como **classe IV,** por exemplo, o verapamil",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-17T15:56:07.000Z",
+                    "updated_at": "2021-05-17T15:56:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33992,
+                    "question_id": 8284,
+                    "description": "Aumento da atividade do sistema nervoso simpático. ",
+                    "explanation": "Falso, Doc! \n- Um dos mecanismos dos fármacos antiarrítmicos, na verdade, é justamente o **a inibição** do sistema nervoso simpático, em especial dos receptores beta-1, responsáveis por aumentar a frequência cardíaca. Dessa forma, pela diminuição da FC, a chance de desenvolver arritmias é reduzida.\n- Fármacos que possuem esse mecanismo de ação são os beta-bloqueadores, classificados como **classe II**",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-17T15:56:07.000Z",
+                    "updated_at": "2021-05-17T15:56:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33993,
+                    "question_id": 8284,
+                    "description": "Bloqueio do canal de sódio.",
+                    "explanation": "Isso mesmo, Doc! 🤗 \n- Os canais de sódio são os principais responsáveis pela despolarização do miócito, de forma que sua inibição diminue a velocidade de conduçao e previne contra arritmias. \n- Fármacos que possuem esse mecanismo de ação são classificados como **classe I**, sendo divididos em IA - de ação moderada sobre os canais de sódio (ex.: procainamida); IB - ação mais leve (ex.: lidocaína); e IC - mais potentes (ex.: propafenona)",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-05-17T15:56:07.000Z",
+                    "updated_at": "2021-05-17T15:56:07.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8284,
+                "questionary_id": 261681,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8298,
+            "institution_id": 333,
+            "description": "O verapamil e o diltiazem são exemplos de fármacos da classe dos vasodilatadores. Em relação ao mecanismo de ação deles, assinalar a alternativa CORRETA:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-17T20:22:53.000Z",
+            "updated_at": "2021-05-17T20:22:53.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 333,
+                "title": "Prefeitura de Portâo - RS",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-05-17T17:22:53.000Z",
+                "updated_at": "2021-05-17T17:22:53.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 748,
+                    "title": "Antiarrítmicos",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2021-05-17T14:06:43.000Z",
+                    "updated_at": "2021-05-17T14:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 748,
+                        "question_id": 8298
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 34047,
+                    "question_id": 8298,
+                    "description": "Esses fármacos atuam bloqueando os canais de cálcio, reduzindo a corrente de cálcio transmembrana. ",
+                    "explanation": "Acertou, Doc! 😁\n- Lembre-se que, nos tecidos nodais, o íon mais importante para a fase 0 (despolarização) é o cálcio\n- Sendo assim, os antiarrítmicos de classe IV (como verapamil e diltiazem) atuam inibindo canais de Ca2+ nos tecidos nodais, o que reduz a FC e a condução no nó AV",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-05-17T17:22:53.000Z",
+                    "updated_at": "2021-05-17T17:22:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 34048,
+                    "question_id": 8298,
+                    "description": "A atividade desses fármacos ocorre pela inibição da enzima conversora de angiotensina, promovendo assim o relaxamento do músculo liso.",
+                    "explanation": "Falso, Doc!\n- Os fármacos antiarrítmicos de classe IV (como verapamil e diltiazem) atuam inibindo canais de Ca2+ nos tecidos nodais, o que reduz a FC e a condução no nó AV",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-17T17:22:53.000Z",
+                    "updated_at": "2021-05-17T17:22:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 34049,
+                    "question_id": 8298,
+                    "description": "Esses fármacos atuam inibindo a síntese de óxido nítrico pelas células musculares lisas, promovendo um efeito de relaxamento das mesmas.",
+                    "explanation": "Falso, Doc!\n- Os fármacos antiarrítmicos de classe IV (como verapamil e diltiazem) atuam inibindo canais de Ca2+ nos tecidos nodais, o que reduz a FC e a condução no nó AV ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-17T17:22:53.000Z",
+                    "updated_at": "2021-05-17T17:22:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 34050,
+                    "question_id": 8298,
+                    "description": "O mecanismo de ação dos fármacos citados baseia-se na sua capacidade de bloquear os receptores β-adrenérgicos. ",
+                    "explanation": "Falso, Doc!\n- Os fármacos antiarrítmicos de classe IV (como verapamil e diltiazem) atuam inibindo canais de Ca2+ nos tecidos nodais, o que reduz a FC e a condução no nó AV ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-17T17:22:53.000Z",
+                    "updated_at": "2021-05-17T17:22:53.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8298,
+                "questionary_id": 261681,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8255,
+            "institution_id": 4,
+            "description": "Assinale a alternativa que contém um fármaco antiarrítmico cujo principal mecanismo é o bloqueio de canais de K+, prolongando a repolarização:\n",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-17T14:36:24.000Z",
+            "updated_at": "2021-05-17T14:36:24.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 748,
+                    "title": "Antiarrítmicos",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2021-05-17T14:06:43.000Z",
+                    "updated_at": "2021-05-17T14:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 748,
+                        "question_id": 8255
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 33873,
+                    "question_id": 8255,
+                    "description": "Lidocaína",
+                    "explanation": "Falso, Doc! \n- A lidocaína é um fármaco da classe IB e, já que pertence à classe I é, por definição, um bloqueador de canais de Na+\n- Como é do subgrupo IB, a lidocaína encurta a repolarização, e não aumenta.\n\n 💡 Para lembrar:\n- IA ➞ prolongamento da repolarização (ex.: Procainamida)\n- IB ➞ diminuem a repolarização (ex.: lidocaína)\n- IC ➞ pouco efeito na repolarização (ex.: propafenona)\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-17T11:36:24.000Z",
+                    "updated_at": "2021-05-17T11:36:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33874,
+                    "question_id": 8255,
+                    "description": "Procainamida ",
+                    "explanation": "Falso, Doc! \n- A procainamida é um medicamento da classe I e, portanto é, por definição, um **bloqueador de canais de Na+.** \n- Como pertence ao subgrupo IA, a procainamida também **interfere tanbén nos canais de K+,** prolongando a repolarização, mas esse não é seu principal mecanismo de ação \n\n\n 💡 Para lembrar: \n- Classe I ➞  bloqueadores de canais de Na+ (fase 0 - despolarização) (procainamida (IA), lidocaína (IB) e propafenona (IC))\n- Classe II ➞ beta-bloqueadores (ex.: todos os \"lol\" - propranolol, carvedilol, atenolol, etc)\n- Classe III ➞ bloqueadores de canais de K+ (repolarização) (ex.: amiodarona)\n- Classe IV ➞  bloqueadores de canal de cálcio (ex.: Verapamil)\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-17T11:36:24.000Z",
+                    "updated_at": "2021-05-17T11:36:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33875,
+                    "question_id": 8255,
+                    "description": "Verapamil",
+                    "explanation": "Falso, Doc! O verapamil é um antiarrítmico de classe IV e, portanto, um **bloqueador de canais de Ca2+**\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-17T11:36:24.000Z",
+                    "updated_at": "2021-05-17T11:36:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33876,
+                    "question_id": 8255,
+                    "description": "Amiodarona",
+                    "explanation": "Perfeito, Doc! A amiodarona é um antiarrítmico da classe III, sendo um **bloqueador de canais de K+.**\n\n\n💡 Para lembrar: \n- Classe I ➞  bloqueadores de canais de Na+ (fase 0 - despolarização) (procainamida (IA), lidocaína (IB) e propafenona (IC))\n- Classe II ➞ beta-bloqueadores (ex.: todos os \"lol\" - propranolol, carvedilol, atenolol, etc)\n- Classe III ➞ bloqueadores de canais de K+ (repolarização) (ex.: amiodarona)\n- Classe IV ➞  bloqueadores de canal de cálcio (ex.: Verapamil)\n\n \n\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-05-17T11:36:24.000Z",
+                    "updated_at": "2021-05-17T11:36:24.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8255,
+                "questionary_id": 261681,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8256,
+            "institution_id": 4,
+            "description": "Os antiarrítmicos de classe causam prolongamento da fase 0 do potencial de ação dos miócitos pelo bloqueio de canais de sódio. Assinale a alternativa que contém a ordem correta do antiarrítmico com maior efeito sobre a fase 0 para o que possui menor prolongamento dessa fase:\n",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-17T15:50:52.000Z",
+            "updated_at": "2022-05-02T12:16:01.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 748,
+                    "title": "Antiarrítmicos",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2021-05-17T14:06:43.000Z",
+                    "updated_at": "2021-05-17T14:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 748,
+                        "question_id": 8256
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 33877,
+                    "question_id": 8256,
+                    "description": "Procainamida > Lidocaína > Propafenona",
+                    "explanation": "Falso, Doc!\n- IA ➞ Moderado efeito sobre a fase 0 e prolongamento da repolarização (ex.: Procainamida)\n- IB ➞ Fraco efeito sobre a fase 0 e diminuem a repolarização (ex.: lidocaína)\n- IC ➞ Forte efeito sobre a fase 0 e pouco efeito na repolarização (ex.: propafenona)\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-17T12:50:52.000Z",
+                    "updated_at": "2022-05-02T12:16:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33878,
+                    "question_id": 8256,
+                    "description": "Propafenona > Procainamida > Lidocaína",
+                    "explanation": "Arrasou, Doc! 😁\n- IA ➞ Moderado efeito sobre a fase 0 e prolongamento da repolarização (ex.: Procainamida)\n- IB ➞ Fraco efeito sobre a fase 0 e diminuem a repolarização (ex.: lidocaína)\n- IC ➞ Forte efeito sobre a fase 0 e pouco efeito na repolarização (ex.: propafenona)\n\nVeja na tabela 👇: \n\nFonte da imagem: WHALEN, K.; FINKEL, R.; PANAVELIL, T. A. **Farmacologia ilustrada**. 6. ed. Porto Alegre: Artmed, 2016. \n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-05-17T12:50:52.000Z",
+                    "updated_at": "2022-05-02T12:16:01.000Z",
+                    "files": [
+                        {
+                            "id": 37297,
+                            "file": "02740ef6-546e-4700-ada1-880c59dcf299.jpeg",
+                            "name": "Captura de tela 2022-05-02 091031.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-05-02T12:10:55.000Z",
+                            "updated_at": "2022-05-02T12:10:55.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/02740ef6-546e-4700-ada1-880c59dcf299.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 37297,
+                                "alternative_id": 33878
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 33879,
+                    "question_id": 8256,
+                    "description": "Lidocaína > Propafenona > Procainamida",
+                    "explanation": "Falso, Doc!\n- IA ➞ Moderado efeito sobre a fase 0 e prolongamento da repolarização (ex.: Procainamida)\n- IB ➞ Fraco efeito sobre a fase 0 e diminuem a repolarização (ex.: lidocaína)\n- IC ➞ Forte efeito sobre a fase 0 e pouco efeito na repolarização (ex.: propafenona)\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-17T12:50:52.000Z",
+                    "updated_at": "2022-05-02T12:16:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33880,
+                    "question_id": 8256,
+                    "description": "Lidocaína > Procainamida > Propafenona",
+                    "explanation": "Falso, Doc!\n- IA ➞ Moderado efeito sobre a fase 0 e prolongamento da repolarização (ex.: Procainamida)\n- IB ➞ Fraco efeito sobre a fase 0 e diminuem a repolarização (ex.: lidocaína)\n- IC ➞ Forte efeito sobre a fase 0 e pouco efeito na repolarização (ex.: propafenona)\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-17T12:50:52.000Z",
+                    "updated_at": "2022-05-02T12:16:01.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8256,
+                "questionary_id": 261681,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8280,
+            "institution_id": 4,
+            "description": "Assinale a alternativa que contém exemplos de fármacos antiarrítimicos  do grupo V (novos fármacos antiarrítmicos) e indicam corretament seu mecanismo de ação:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-17T18:24:58.000Z",
+            "updated_at": "2021-05-17T18:24:58.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 748,
+                    "title": "Antiarrítmicos",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2021-05-17T14:06:43.000Z",
+                    "updated_at": "2021-05-17T14:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 748,
+                        "question_id": 8280
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 33974,
+                    "question_id": 8280,
+                    "description": "Ranolazina - Inibição da corrente retificadora de potássio",
+                    "explanation": "Falso, Doc! A ranolazina é mesmo um medicamento da classe V, mas sua ação é inibir a corrente tardia de sódio. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-17T15:24:58.000Z",
+                    "updated_at": "2021-05-17T15:24:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33975,
+                    "question_id": 8280,
+                    "description": "Digitálicos - Inibição de canais de sódio",
+                    "explanation": "Falso, Doc! Os digitálicos são fármacos antiarrítmicos de classe V, mas sua ação é inibir a bomba de sódio e potássio na membrana dos miócitos",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-17T15:24:58.000Z",
+                    "updated_at": "2021-05-17T15:24:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33976,
+                    "question_id": 8280,
+                    "description": "Ivabradina - inibição dos canais \"funny\" nas células nodais",
+                    "explanation": "Perfeito, Doc! \n- Inibindo esses canais, a ivabradina acaba por inibir parte da automaticidade das células nodais, \n- Isso confere um efeito bradicardico seletivo, sem interferir na pressão arterial ou contratilidade",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-05-17T15:24:58.000Z",
+                    "updated_at": "2021-05-17T15:24:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33977,
+                    "question_id": 8280,
+                    "description": "Verapamil - Bloqueio de canais de cálcio",
+                    "explanation": "FAlso, Doc! O mecanismo de ação do verapamil está correto, mas isso faz com que esse medicamento pertença à **classe IV**, e não V. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-17T15:24:58.000Z",
+                    "updated_at": "2021-05-17T15:24:58.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8280,
+                "questionary_id": 261681,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8262,
+            "institution_id": 4,
+            "description": "Paciente com taquicardia ventricular polimórfica com duração do intervalo QT aumentada. Você resolve administrar um fármaco antiarrítmico, mas tem receio de que o prolongamento do intervalo QT se agrave e acabe por piorar a arritmia. Qual a melhor escolha farmacológica para esse caso?\n",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-17T16:26:44.000Z",
+            "updated_at": "2021-05-17T16:26:44.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 748,
+                    "title": "Antiarrítmicos",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2021-05-17T14:06:43.000Z",
+                    "updated_at": "2021-05-17T14:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 748,
+                        "question_id": 8262
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 33901,
+                    "question_id": 8262,
+                    "description": "Procainamida",
+                    "explanation": "Falso, Doc! A procainamida é um medicamento da classe IA e **causa o prolongamento do intervalo QT**, o que não seria indicado nesse caso, visto que o intervalo QT já está alargado.\n\n💡 Para lembrar:\n- IA ➞ prolongamento da repolarização (ex.: Procainamida)\n- IB ➞ diminuem a repolarização (ex.: lidocaína)\n- IC ➞ pouco efeito na repolarização (ex.: propafenona)\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-17T13:26:44.000Z",
+                    "updated_at": "2021-05-17T13:26:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33902,
+                    "question_id": 8262,
+                    "description": "Amiodarona",
+                    "explanation": "Falso, Doc! A amiodarona é um antiarrítimico de classe III, pois sua ação é o **bloqueio de canais de K+**, levando a **prolongamento da repolarização** (e, portanto, do intervalo QT)\n\n\n💡 Para lembrar:\n- Segmento ST ➞ repolarização ventricular (fase 2)\n- Onda T ➞ repolarização ventricular (fase 3)\n- Intervalo QT ➞ duração da repolarização ventricular\n\nDoc, olha essa tabela que correlaciona as fases do potencial de ação com o ECG 👇:\n\nFonte da imagem: http://angomed.com/electrofisiologia-basica/\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-17T13:26:44.000Z",
+                    "updated_at": "2021-05-17T13:26:44.000Z",
+                    "files": [
+                        {
+                            "id": 8919,
+                            "file": "2b0a67d0-b453-4811-9482-a6a8c53a59f6.jpeg",
+                            "name": "resmo-potencial.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-17T16:22:20.000Z",
+                            "updated_at": "2021-05-17T16:22:20.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2b0a67d0-b453-4811-9482-a6a8c53a59f6.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8919,
+                                "alternative_id": 33902
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 33903,
+                    "question_id": 8262,
+                    "description": "Carvedilol",
+                    "explanation": "Falso, Doc! \n- carvedilol é um medicamento beta-bloqueador e, portanto, um antiarrítimico de classe II. \n- Ele atua primordialmente sobre a frequência cardíaca, inibindo os receptores beta-1 do sistema nervoso simpático no coração e reduz a sobrecarga de cálcio intracelular. \n- Não possui efeitos significativos benéficos sobre o intervalo QT que pudessem ser úteis nesse caso. \n- Entretanto, os beta-bloqueadores são a primeira escolha para paciente com taquicardia ventricular polimórfica com intervalo QT normal\n\nDoc, você já viu como fica uma taquicardia ventricular polimórfica no ECG? 👇\n\nFonte da imagem: http://www.mairimed.com/artigos/taquicardias/\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-17T13:26:44.000Z",
+                    "updated_at": "2021-05-17T13:26:44.000Z",
+                    "files": [
+                        {
+                            "id": 8920,
+                            "file": "4358a1a4-1e56-445f-b245-2cba44c3a140.png",
+                            "name": "taqui5.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-17T16:25:14.000Z",
+                            "updated_at": "2021-05-17T16:25:14.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4358a1a4-1e56-445f-b245-2cba44c3a140.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8920,
+                                "alternative_id": 33903
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 33904,
+                    "question_id": 8262,
+                    "description": "Lidocaína",
+                    "explanation": "Perfeito, Doc, arrasou! 😍\n- A lidocaína é um fármaco da classe IB e, já que pertence à classe I é, por definição, um bloqueador de canais de Na+\n- Como é do subgrupo IB, a lidocaína encurta a repolarização, e não aumenta.\n\t\n- IA ➞ prolongamento da repolarização (ex.: Procainamida)\n- IB ➞ diminuem a repolarização (ex.: lidocaína)\n- IC ➞ pouco efeito na repolarização (ex.: propafenona)\n\nDoc, olha o comentário das outras alternativas, que vai valer a pena pra você aprofundar seus conhecimentos 😉\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-05-17T13:26:44.000Z",
+                    "updated_at": "2021-05-17T13:26:44.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8262,
+                "questionary_id": 261681,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8281,
+            "institution_id": 4,
+            "description": "Assinale a alternativa que contém uma correlação **incorreta** entre o fármaco mencionado e suas principais indicações:",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-17T18:33:08.000Z",
+            "updated_at": "2021-05-17T18:33:08.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 748,
+                    "title": "Antiarrítmicos",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2021-05-17T14:06:43.000Z",
+                    "updated_at": "2021-05-17T14:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 748,
+                        "question_id": 8281
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 33978,
+                    "question_id": 8281,
+                    "description": "Procainamida - Taquicardia ventricular",
+                    "explanation": "Certo, Doc! A procainamida pode ser usada principalmente em casos de taquicardia ventricular monomórfica com fração de ejeção normal.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-17T15:33:08.000Z",
+                    "updated_at": "2021-05-17T15:33:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33979,
+                    "question_id": 8281,
+                    "description": "Propafenona - Reversão e profilaxia da fibrilação atrial",
+                    "explanation": "Verdadeiro, Doc! A propafenona é um dos prinicpais medicamentos utilizados para pacientes com fibrilação atrial sem doença estrutural ou indicação para cardioversão elétrica. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-17T15:33:08.000Z",
+                    "updated_at": "2021-05-17T15:33:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33980,
+                    "question_id": 8281,
+                    "description": "Amiodarona - reversão de fibrilação atrial, taquicardias atriais e taquicardias ventriculares",
+                    "explanation": "Certo, Doc! A amiodarona é utilizada tanto para tratamento de taquicardias ventriculares quanto supraventriculares e é um dos antiarrítmicos mais utilizados na prática clínica.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-17T15:33:08.000Z",
+                    "updated_at": "2021-05-17T15:33:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33981,
+                    "question_id": 8281,
+                    "description": "Vernakalant - taquicardia paroxística ventricular",
+                    "explanation": "Boa, Doc, essa é a incorreta! 🤗\n- O Vernakalant é um antiarrítmico novo (classe V) e que tem sido usado principalmente para o tratamento de **fibrilação atrial**",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-05-17T15:33:08.000Z",
+                    "updated_at": "2021-05-17T15:33:08.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8281,
+                "questionary_id": 261681,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8282,
+            "institution_id": 4,
+            "description": "Qual desses grupos de antiarrítmicos pode ser usado para a prevenção de arritmias pós-infarto?",
+            "difficulty": "hard",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-17T18:37:57.000Z",
+            "updated_at": "2021-05-17T18:38:07.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 748,
+                    "title": "Antiarrítmicos",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2021-05-17T14:06:43.000Z",
+                    "updated_at": "2021-05-17T14:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 748,
+                        "question_id": 8282
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 33982,
+                    "question_id": 8282,
+                    "description": "Digitálicos",
+                    "explanation": "Falso, Doc! Não há comprovação de estudos que mostrem essa classe de fármacos como eficiente para prevenção de arritmias pós-infaro.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-17T15:37:57.000Z",
+                    "updated_at": "2021-05-17T15:38:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33983,
+                    "question_id": 8282,
+                    "description": "Antiarrítimicos de classe IC",
+                    "explanation": "Falso, Doc! Não há comprovação de estudos que mostrem essa classe de fármacos como eficiente para prevenção de arritmias pós-infaro. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-17T15:37:57.000Z",
+                    "updated_at": "2021-05-17T15:38:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33984,
+                    "question_id": 8282,
+                    "description": "Beta-Bloqueadores",
+                    "explanation": "Perfeito, Doc! 😉 Os beta-bloqueadores pertencem à classe II dos antiarrítmicos e são usados para a prevenção de arritmias pós-infarto. ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-05-17T15:37:57.000Z",
+                    "updated_at": "2021-05-17T15:38:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33985,
+                    "question_id": 8282,
+                    "description": "Antiarrítmicos de classe IA",
+                    "explanation": "Falso, Doc! Não há comprovação de estudos que mostrem essa classe de fármacos como eficiente para prevenção de arritmias pós-infaro.  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-17T15:37:57.000Z",
+                    "updated_at": "2021-05-17T15:38:07.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8282,
+                "questionary_id": 261681,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8283,
+            "institution_id": 4,
+            "description": "Assinale a alternativa que contém uma correlação correta entre o fármaco anti-arrítmico e um dos principais efeitos adversos causados por ele:",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-17T18:46:45.000Z",
+            "updated_at": "2021-05-17T18:46:45.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 748,
+                    "title": "Antiarrítmicos",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2021-05-17T14:06:43.000Z",
+                    "updated_at": "2021-05-17T14:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 748,
+                        "question_id": 8283
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 33986,
+                    "question_id": 8283,
+                    "description": "Procainamida - Convulsões",
+                    "explanation": "Falso, Doc! \n- A procainamida pode causar **hipotensão arterial** quando a administração for IV\n- Convulsões são mais comuns com o uso de **lidocaína**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-17T15:46:45.000Z",
+                    "updated_at": "2021-05-17T15:46:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33987,
+                    "question_id": 8283,
+                    "description": "Amiodarona - hipotieroidismo",
+                    "explanation": "Arrasou, Doc! 😍\n- Cerca de 50% dos pacientes em uso crônico de amiodarona desenvolvem hipotireoidismo\n- Outro efeito adverso importante é a fibrose pulmonar que, embora rara, leva à contraindicação desse medicamento para pacientes com doença pulmonar estrutural ⚠️\n\nDoc, olha o comentário das outras alternativas para entender melhor outros efeitos adversos dos antiarrítmicos 😉",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-05-17T15:46:45.000Z",
+                    "updated_at": "2021-05-17T15:46:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33988,
+                    "question_id": 8283,
+                    "description": "Propanolol - rubor facial",
+                    "explanation": "Falso, Doc!\n- Beta-bloqueadores podem causar **broncoespasmo**, mesmo que sejam Beta-1 seletivos, porque a seletividade nem sempre é completa\n- O rubor facial é mais comum com o uso de **adenosina**, um antiarrítmico novo (classe V ), utilizado no tratamento de taquicardia por reentrada nodal, principalmente",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-17T15:46:45.000Z",
+                    "updated_at": "2021-05-17T15:46:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33989,
+                    "question_id": 8283,
+                    "description": "Propafenona - bloqueio atrioventricular",
+                    "explanation": "Falso, Doc! \n- A propafenona pode causar **depressão do miocárdio** como um de seus principais efeitso adversos (fármacos do grupo I prolongam a despolarização e não costumam ser usados em pacientes com doença cardíaca estrutural, sendo preferível a amiodarona para esses pacientes)\n- O **verapamil** é um antiarrítimico cujo uso gera risco de bloqueio atrioventricular mais comumente",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-17T15:46:45.000Z",
+                    "updated_at": "2021-05-17T15:46:45.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8283,
+                "questionary_id": 261681,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8286,
+            "institution_id": 332,
+            "description": "Assinale a alternativa correta em relação aos antiarrítmicos citados a seguir e seus mecanismos de ação.",
+            "difficulty": "hard",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-17T19:09:33.000Z",
+            "updated_at": "2021-05-17T19:09:33.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 332,
+                "title": "Secretaria de Administração Penitenciária de São Paulo",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-05-17T16:09:33.000Z",
+                "updated_at": "2021-05-17T16:09:33.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 748,
+                    "title": "Antiarrítmicos",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2021-05-17T14:06:43.000Z",
+                    "updated_at": "2021-05-17T14:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 748,
+                        "question_id": 8286
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 33998,
+                    "question_id": 8286,
+                    "description": "A amiodarona prolonga substancialmente o potencial de ação cardíaca, mas apresenta graves efeitos colaterais.",
+                    "explanation": "Falso, Doc! Os efeitos adversos da amioderona não costumam ser tão graves quando administrada corretamente. \n- O mais comum é o hipotireoidismo, que acomete 50% dos pacientes em uso crônico\n- Um efeito grave possível é a fibrose pulmonar, mas é raro. Mesmo assim, esse medicamento é contraindicado para pacientes com doença pulmonar estrutural",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-17T16:09:33.000Z",
+                    "updated_at": "2021-05-17T16:09:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 33999,
+                    "question_id": 8286,
+                    "description": "A procainamida bloqueia os canais de sódio e é usada para prevenir a recorrência de taquicardia supraventricular paroxística.",
+                    "explanation": "FAlso, Doc! \n- A procainamida é um medicamento da classe IA e, portanto, bloqueia canais de sódio. Entretanto, esse não é o uso clínico dela. \n- A procainamida é mais usada em taquicardias **ventriculares**\n- As medicações de primeira escolha para a prevenção de taquicardia supraventricular são de **classe II** (beta-bloqueadores, como o propranolol) e **IV** (bloqueadores do canal de cálcio, como verapamil)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-17T16:09:33.000Z",
+                    "updated_at": "2021-05-17T16:09:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 34000,
+                    "question_id": 8286,
+                    "description": "A lidocaína impede a recorrência de taquiarritmias provocadas por aumento da atividade simpática.",
+                    "explanation": "Falso, Doc! Para isso, faz mais sentido usar um inibidor do sistema nervoso simpático, isto é, os beta-bloqueadores (classe II)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-17T16:09:33.000Z",
+                    "updated_at": "2021-05-17T16:09:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 34001,
+                    "question_id": 8286,
+                    "description": "Os glicosídeos cardíacos reduzem a frequência cardíaca e a velocidade de condução no AV, além de aumentar a força da contração, pois possuem efeito inotrópico positivo.",
+                    "explanation": "Parabéns, Doc! 😎 \n- Os glicosídeos cardíacos são os digitálicos, e são mais famosos por seu efeito inotrópico positivo, gerando aumento de contração. \n- Eles bloqueiam uma atpase de membrana de Na+ e K+\n- Como antiarrítmicos, são de classe V e atuam pelo efeito de diminuição da frequência cardíaca e da condução no nó AV",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-05-17T16:09:33.000Z",
+                    "updated_at": "2021-05-17T16:09:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 34002,
+                    "question_id": 8286,
+                    "description": "O verapamil ativa os canais de cálcio e é usado para prevenir arritmias ventriculares.",
+                    "explanation": "Falso, Doc! O verapamil é um **bloqueador** de canais de cálcio, assim como os outros antiarrítmicos de classe IV",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-05-17T16:09:33.000Z",
+                    "updated_at": "2021-05-17T16:09:33.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8286,
+                "questionary_id": 261681,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8309,
+            "institution_id": 334,
+            "description": "Relacionado aos antiarrítmicos, leia os itens que seguem e após assinale o que se pede:\n\nI. Os antiarrítmicos da classe IA exercem bloqueio moderado sobre os canais de Na+ e prolongam a repolarização tanto das células do nó AS quanto dos miócitos ventriculares.\n\nII. São considerados antiarrítmicos da classe A, a quinidina, a procaínamida e a disopiramida.\n\nIII. Os agentes antiarrítmicos da classe II são agonistas β adrenérgicos.\n\nIV. Os antiarrítmicos da classe IB incluem a lidocaína, mexiletina e a fenitoina.\n\nV. Os antiarrítmicos da classe IC são os mais potentes bloqueadores dos canais de Na+ e exercem pouco ou nenhum efeito sobre a duração do potencial de ação.\n\nVI. Amiodarona é fármaco com propriedades antiarrítmicas de classe I. É usada no controle da arritmia ventricular e supraventricular, assim como aquela relacionada à síndrome de Wolff-Parkinson-White.\n\nDos itens acima estão INCORRETOS os apontados na alternativa:",
+            "difficulty": "hard",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-18T00:31:14.000Z",
+            "updated_at": "2021-05-18T00:31:14.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 334,
+                "title": "Prefeitura de Morro da Fumaça",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-05-17T21:31:14.000Z",
+                "updated_at": "2021-05-17T21:31:14.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 748,
+                    "title": "Antiarrítmicos",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2021-05-17T14:06:43.000Z",
+                    "updated_at": "2021-05-17T14:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 748,
+                        "question_id": 8309
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 34091,
+                    "question_id": 8309,
+                    "description": "II e VI.",
+                    "explanation": "Errado, Doc! As erradas são a III e a VI. Para entender melhor, dá uma olhada no comentário da alternativa correta 😉",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-17T21:31:14.000Z",
+                    "updated_at": "2021-05-17T21:31:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 34092,
+                    "question_id": 8309,
+                    "description": "II e V.",
+                    "explanation": "Errado, Doc! As erradas são a III e a VI. Para entender melhor, dá uma olhada no comentário da alternativa correta 😉 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-17T21:31:14.000Z",
+                    "updated_at": "2021-05-17T21:31:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 34093,
+                    "question_id": 8309,
+                    "description": "I e IV.",
+                    "explanation": "Errado, Doc! As erradas são a III e a VI. Para entender melhor, dá uma olhada no comentário da alternativa correta 😉 ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-17T21:31:14.000Z",
+                    "updated_at": "2021-05-17T21:31:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 34094,
+                    "question_id": 8309,
+                    "description": "III e VI.",
+                    "explanation": "Isso mesmo, Doc, essas são as incorretas! 👏 Analisando as alternativas:\n\nI - ✅ Perfeito, Doc! Para lembrar: \n-  IA ➞\nModerado efeito sobre a fase 0 e **prolongamento** da repolarização (ex.: Procainamida) \n- IB ➞ Fraco efeito sobre a fase 0 e **diminuem** a repolarização (ex.: lidocaína) \n- IC ➞ Forte efeito sobre a fase 0 e **pouco efeito** na repolarização (ex.: propafenona)  \n\nII - ✅ Certinha! São todos fármacos da classe IA, que bloqueiam moderadamente os canais de Na+\n\nIII - ❌ Falso, Doc! São os beta-**bloqueadores**, isto é, são **antagonistas** de receptores beta adrenérgicos.\n\nIV - ✅ É isso mesmo, Doc! Lembrando que eles bloqueiam fracamente os canais de sódio, e causam encurtamento da repolarização.\n\nV - ✅ Verdadeiro, Doc! Eles alongam o período de despolarização, mas sem aumentar o potencial de ação como um todo. Um exemplo desse tipo de fármaco é a propafenona.\n\nVI - ❌ Falso, Doc! A amiodarona é um antiarrítmico de classi **III**",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-05-17T21:31:14.000Z",
+                    "updated_at": "2021-05-17T21:31:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 34095,
+                    "question_id": 8309,
+                    "description": "II, III e V.",
+                    "explanation": "Errado, Doc! As erradas são a III e a VI. Para entender melhor, dá uma olhada no comentário da alternativa correta 😉 ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-05-17T21:31:14.000Z",
+                    "updated_at": "2021-05-17T21:31:14.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8309,
+                "questionary_id": 261681,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8310,
+            "institution_id": 335,
+            "description": "No que diz respeito a antiarrítmicos, é INCORRETO afirmar que:",
+            "difficulty": "hard",
+            "year": "2008-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-18T00:54:23.000Z",
+            "updated_at": "2021-05-18T00:54:23.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 335,
+                "title": "Tribunal Regional do Trabalho da 2a Região - SP",
+                "state": "São Paulo",
+                "is_enabled": true,
+                "created_at": "2021-05-17T21:54:23.000Z",
+                "updated_at": "2021-05-17T23:16:46.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 748,
+                    "title": "Antiarrítmicos",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2021-05-17T14:06:43.000Z",
+                    "updated_at": "2021-05-17T14:06:43.000Z",
+                    "pivot": {
+                        "discipline_id": 748,
+                        "question_id": 8310
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 34096,
+                    "question_id": 8310,
+                    "description": "a lidocaína é usada por via parenteral para evitar excessiva metabolização hepática.",
+                    "explanation": "Verdade, Doc! A extensa metabolização de primeira passagem no fígado impede sua administração oral.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-17T21:54:23.000Z",
+                    "updated_at": "2021-05-17T21:54:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 34097,
+                    "question_id": 8310,
+                    "description": "a quinidina pode reduzir a eliminação da digoxina.",
+                    "explanation": "Certo, Doc! Praticamente todos os pacientes em uso de quinidina possuem uma redução do clearence da digoxina, se em uso concomitante, o que aumenta seus níveis no sangue e pode causar toxicidade",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-17T21:54:23.000Z",
+                    "updated_at": "2021-05-17T21:54:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 34098,
+                    "question_id": 8310,
+                    "description": "os betabloqueadores são antiarrítmicos da classe II. ",
+                    "explanation": "Verdadeiro, Doc! Esses são os antiarrítmicos de classe II. \n\n💡 Para lembrar, Doc:\n- Classe I ➞  bloqueadores de canais de Na+ (fase 0 - despolarização) (procainamida (IA), lidocaína (IB) e propafenona (IC))\n- Classe II ➞ beta-bloqueadores (ex.: todos os \"lol\" - propranolol, carvedilol, atenolol, etc)\n- Classe III ➞ bloqueadores de canais de K+ (repolarização) (ex.: amiodarona)\n- Classe IV ➞  bloqueadores de canal de cálcio (ex.: Verapamil)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-17T21:54:23.000Z",
+                    "updated_at": "2021-05-17T21:54:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 34099,
+                    "question_id": 8310,
+                    "description": "os efeitos da amiodarona sobre o pulmão são independentes da dose. ",
+                    "explanation": "Boa, Doc, essa é a incorreta! 😁 \n- A amiodarona possui vários efeitos adversos, os quais aumentam o risco com o aumento da dose. Entretanto, o uso de doses baixas e a monitorização na prática clínica têm prevenido muito esses efeitos. \n- Um dos efeitos colaterais mais graves do medicamento é a fibrose pulmonar, o que a torna contraindicada para pacientes com doença pulmonar estrutural",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-05-17T21:54:23.000Z",
+                    "updated_at": "2021-05-17T21:54:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 34100,
+                    "question_id": 8310,
+                    "description": "insuficiência cardíaca de classe IV contra-indica o uso de verapamil.",
+                    "explanation": "Verdadeira, Doc! \n- Um dos efeitos adversos dos bloqueadores dos canais de cálcio são o bloqueio atrioventricular, de forma que devemos evitar seu uso em situações em que o coração já está com dificuldade de trabalhar (ICC grave)\n- Além disso, os bloqueadores de canais de cálcio, mesmo os cardiosseletivos, como o verapamil, podem causar um efeito vasodilatar, o que pode induzir bradicardia reflexa. Doc, lembra que a fórmula do débito cardíaco é DC = VS.FC? Então! Se aumentarmos o volume sistólico, a frequência cardíaca pode reduzir mantendo o mesmo débito cardíaco. Mas, se o paciente já está com ICC o seu débito cardíaco já está reduzido e bradicardia não seria benéfica.",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-05-17T21:54:23.000Z",
+                    "updated_at": "2021-05-17T21:54:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8310,
+                "questionary_id": 261681,
+                "timer": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,495 @@
+{
+    "id": 261866,
+    "user_id": 1699,
+    "title": "Hipertensão Arterial",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-03T18:40:54.000Z",
+    "updated_at": "2022-07-03T18:40:54.000Z",
+    "study_plan_id": 227,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 349,
+            "institution_id": 4,
+            "description": "Sobre a angiotensina II, assinale a alternativa correta:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-23T01:28:52.000Z",
+            "updated_at": "2020-05-23T01:31:24.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1,
+                    "title": "Ciclo Básico",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:35:42.000Z",
+                    "updated_at": "2020-05-16T23:35:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1,
+                        "question_id": 349
+                    }
+                },
+                {
+                    "id": 2,
+                    "title": "-Patologia",
+                    "description": null,
+                    "parent_id": 1,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:36:26.000Z",
+                    "updated_at": "2021-07-19T23:20:11.000Z",
+                    "pivot": {
+                        "discipline_id": 2,
+                        "question_id": 349
+                    }
+                },
+                {
+                    "id": 8,
+                    "title": "Patologia Vascular",
+                    "description": null,
+                    "parent_id": 2,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:52:44.000Z",
+                    "updated_at": "2020-05-16T23:52:44.000Z",
+                    "pivot": {
+                        "discipline_id": 8,
+                        "question_id": 349
+                    }
+                },
+                {
+                    "id": 46,
+                    "title": "Hipertensão Arterial (Pato)",
+                    "description": null,
+                    "parent_id": 8,
+                    "is_enabled": true,
+                    "created_at": "2020-05-23T01:24:32.000Z",
+                    "updated_at": "2020-05-23T01:24:32.000Z",
+                    "pivot": {
+                        "discipline_id": 46,
+                        "question_id": 349
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1434,
+                    "question_id": 349,
+                    "description": "induz vasodilatação",
+                    "explanation": "1. \n*Errado. Lembre-se que a angiotensina II tem DOIS efeitos principais e você deve conhecê-los. O primeiro deles é a vasoconstrição que ela causa por ativar a musculatura lisa das artérias do nosso corpo. Portanto, não é vasodilatação, mas sim vasoconstrição. O segundo efeito é a indução da secreção de aldosterona, que é um hormônio anti-natriurético (que palavra difícil, né?). Vamos traduzir o termo: natriurético é “Na-Urese” ou seja: urinar sódio; portanto, anti-natriurético é não urinar sódio. A aldosterona é um hormônio que induz a reabsorção de sódio e portanto a retenção de mais água (sódio retido no corpo puxa água para dentro).* ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-22T22:28:52.000Z",
+                    "updated_at": "2020-05-22T22:31:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1435,
+                    "question_id": 349,
+                    "description": "induz secreção de aldosterona",
+                    "explanation": "Verdade! Lembre-se que a angiotensina II tem DOIS efeitos principais e você deve conhecê-los (angio II = 2 efeitos). O primeiro deles é a vasoconstrição que ela causa por ativar a musculatura lisa das artérias do nosso corpo. O segundo efeito é a indução da secreção de aldosterona, que é um hormônio anti-natriurético (que palavra difícil, né?). Vamos traduzir o termo: natriurético é “Na-Urese” (Na = sódio) ou seja: urinar sódio; portanto, anti-natriurético é não urinar sódio. A aldosterona é um hormônio que induz a reabsorção de sódio e portanto a retenção de mais água (sódio retido no corpo puxa água para dentro). ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-22T22:28:52.000Z",
+                    "updated_at": "2020-05-22T22:31:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1436,
+                    "question_id": 349,
+                    "description": "é convertida em angiotensina I",
+                    "explanation": "Falso, na verdade é a angiotensina I que é convertida em angiotensina II",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-22T22:28:52.000Z",
+                    "updated_at": "2020-05-22T22:31:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1437,
+                    "question_id": 349,
+                    "description": "é convertida em angiotensinogênio",
+                    "explanation": "Falso, essa cascata é uma das principais da medicina e explica a fisiopatologia de várias doenças e medicamentos. Você deve conhecê-la bem! Lembre-se que o angiotensinogênio é convertido em angiotensina I pela renina e a angiotensina I é convertida em angiotensina II pela ECA. A ECA (enzima conversora da angiotensina) é uma enzima presente principalmente na vasculatura pulmonar e é inibida pelos medicamentos iECA, terminados em “pril” (Enalapril, por exemplo). ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-22T22:28:52.000Z",
+                    "updated_at": "2020-05-22T22:31:25.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 349,
+                "questionary_id": 261866,
+                "timer": 0
+            }
+        },
+        {
+            "id": 352,
+            "institution_id": 4,
+            "description": "Estenose de artéria renal é um exemplo clássico de causa de: ",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-23T01:37:20.000Z",
+            "updated_at": "2020-05-23T01:37:20.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 46,
+                    "title": "Hipertensão Arterial (Pato)",
+                    "description": null,
+                    "parent_id": 8,
+                    "is_enabled": true,
+                    "created_at": "2020-05-23T01:24:32.000Z",
+                    "updated_at": "2020-05-23T01:24:32.000Z",
+                    "pivot": {
+                        "discipline_id": 46,
+                        "question_id": 352
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1446,
+                    "question_id": 352,
+                    "description": "hipertensão primária",
+                    "explanation": "Falso, a hipertensão primária é definida como hipertensão de causa desconhecida e corresponde a 95% dos casos de hipertensão.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-22T22:37:20.000Z",
+                    "updated_at": "2020-05-22T22:37:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1447,
+                    "question_id": 352,
+                    "description": "hipertensão secundária",
+                    "explanation": "Verdade! Estenose de artéria renal causa hipertensão secundária, que é definida como a hipertensão causada por alguma doença conhecida. A hipertensão secundária corresponde a 5% dos casos de hipertensão ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-22T22:37:20.000Z",
+                    "updated_at": "2020-05-22T22:37:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1448,
+                    "question_id": 352,
+                    "description": "hipertensão maligna",
+                    "explanation": "Errado. Estenose de artéria renal não é um exemplo clássico de causa de hipertensão maligna, que é definida como pressão bastante elevada, >200/120mmHg ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-22T22:37:20.000Z",
+                    "updated_at": "2020-05-22T22:37:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1449,
+                    "question_id": 352,
+                    "description": "Nenhuma delas",
+                    "explanation": "Falso.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-22T22:37:20.000Z",
+                    "updated_at": "2020-05-22T22:37:20.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 352,
+                "questionary_id": 261866,
+                "timer": 0
+            }
+        },
+        {
+            "id": 354,
+            "institution_id": 4,
+            "description": "As pressões arteriais sistólica e diastólica são expressões de, respectivamente:",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-23T02:03:42.000Z",
+            "updated_at": "2022-07-01T15:43:45.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 46,
+                    "title": "Hipertensão Arterial (Pato)",
+                    "description": null,
+                    "parent_id": 8,
+                    "is_enabled": true,
+                    "created_at": "2020-05-23T01:24:32.000Z",
+                    "updated_at": "2020-05-23T01:24:32.000Z",
+                    "pivot": {
+                        "discipline_id": 46,
+                        "question_id": 354
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1455,
+                    "question_id": 354,
+                    "description": "Resistência total periférica e volume de ejeção.",
+                    "explanation": "- Errado, Doc! 🙈\n- A resistência total periférica representa a pressão diastólica, que é o segundo número que o esfigmomanômetro mede quando medimos a pressão do paciente.\n- É fácil você entender isso: pense que, na diástole, o coração está com as válvulas fechadas e dilatado.\n- Nesse sentido, a única pressão que o esfigmomanômetro está sentindo no braço do paciente é a pressão dos vasos sanguíneos (80 mmHg).\n- Já na pressão sistólica, o esfigmomanômetro sente justamente a pressão da sístole do coração, que é de 40 mmHg a mais, chegando a 120 mmHg.\n- Essa pressão sistólica é função do volume de ejeção.\n- Quanto mais sangue ele ejetar, maior a PA sistólica.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-22T23:03:42.000Z",
+                    "updated_at": "2022-07-01T15:43:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1456,
+                    "question_id": 354,
+                    "description": "Volume de ejeção e resistência total periférica.",
+                    "explanation": "- Perfeito, Doc! 😻\n- Quanto maior o volume de ejeção, maior vai ser a pressão sistólica que vai chegar no esfigmomanômetro, que é basicamente a soma da pressão dos vasos sanguíneos + a pressão de ejeção do coração.\n- Quanto maior a resistência total periférica, maior a PA diastólica no esfigmomanômetro, porque durante a diástole o coração não está mais exercendo pressão.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-22T23:03:42.000Z",
+                    "updated_at": "2022-07-01T15:43:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1457,
+                    "question_id": 354,
+                    "description": "Volume de sangue no corpo e frequência cardíaca.",
+                    "explanation": "- Errado, Doc! 🙈\n- As pressões que o esfigmomanômetro mede (sistólica e diastólica) não são funções diretas do volume de sangue no corpo.\n- Pacientes com mais ou menos sangue não necessariamente terão pressões maiores/menores, isso depende da pressão que é exercida em seus vasos sanguíneos (PA diastólica) e também da pressão que o coração está exercendo durante a sístole (PA sistólica), com o volume de ejeção.\n- A FC não exerce função direta nos valores da PA.\n- Você pode pensar que \"quanto mais rápido o coração bate, maior a pressão\", mas isso não é necessariamente verdade.\n- Se esse paciente tiver uma miocardiopatia que diminui o volume de ejeção do coração durante a sístole, pode ser que sua pressão seja baixa mesmo com uma FC alta, por exemplo.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-22T23:03:42.000Z",
+                    "updated_at": "2022-07-01T15:43:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1458,
+                    "question_id": 354,
+                    "description": "Frequência cardíaca e volume de sangue no corpo.",
+                    "explanation": "- Errado, Doc! 🙈\n- A FC não exerce função direta nos valores da PA.\n- Você pode pensar que \"quanto mais rápido o coração bate, maior a pressão\", mas isso não é necessariamente verdade.\n- Se esse paciente tiver uma miocardiopatia que diminui o volume de ejeção do coração durante a sístole, pode ser que sua pressão seja baixa mesmo com uma FC alta, por exemplo.\n- As pressões que o esfigmomanômetro mede (sistólica e diastólica) não são funções diretas do volume de sangue no corpo.\n- Pacientes com mais ou menos sangue não necessariamente terão pressões maiores/menores, isso depende da pressão que é exercida em seus vasos sanguíneos (PA diastólica) e também da pressão que o coração está exercendo durante a sístole (PA sistólica), com o volume de ejeção.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-22T23:03:42.000Z",
+                    "updated_at": "2022-07-01T15:43:45.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 354,
+                "questionary_id": 261866,
+                "timer": 0
+            }
+        },
+        {
+            "id": 355,
+            "institution_id": 4,
+            "description": "São causas comuns de estenose de artéria renal:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-23T02:14:55.000Z",
+            "updated_at": "2020-05-23T02:16:50.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 46,
+                    "title": "Hipertensão Arterial (Pato)",
+                    "description": null,
+                    "parent_id": 8,
+                    "is_enabled": true,
+                    "created_at": "2020-05-23T01:24:32.000Z",
+                    "updated_at": "2020-05-23T01:24:32.000Z",
+                    "pivot": {
+                        "discipline_id": 46,
+                        "question_id": 355
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1459,
+                    "question_id": 355,
+                    "description": "edema de papila e TCE",
+                    "explanation": "Falso. Edema de papila é literalmente \"inchaço na retina do olho\", um acometimento que acontece no olho principalmente devido à hipertensão intracraniana (faz sentido: alta pressão no crânio vai acometer os menores vasinhos da nossa cabeça - olhos). Esse edema não é causa de estenose de artéria renal.\nFalso, TCE é trauma cranioencefálico. Não é uma causa comum de estenose de artéria renal. A estenose é uma doença que é mais crônica, demora anos pra se estabelecer e um TCE é uma coisa aguda, o cara bate a cabeça e tem sintomas repentinos (às vezes os sintomas podem ser mais crônicos também - como por exemplo em casos de hematomas intracranianos em alcoolistas, que podem gerar sintomas anos depois de ele bater a cabeça várias vezes). Porém os problemas não estão relacionados com o rim.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-22T23:14:56.000Z",
+                    "updated_at": "2020-05-22T23:16:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1460,
+                    "question_id": 355,
+                    "description": "aterosclerose e displasia fibromuscular",
+                    "explanation": "Perfeito. A aterosclerose é uma das entidades clássicas que causam a estenose da artéria renal; caracterizada pela formação de uma placa de gordura nas artérias do paciente que iniciam seu desenvolvimento já quando esse cara é novo, porém se manifestam tarde.\nA displasia fibromuscular é um defeito de mal formação de artérias. Não vá muito afundo na patologia dessa doença agora, porém saiba que é causa clássica de estenose de artéria renal.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-22T23:14:56.000Z",
+                    "updated_at": "2020-05-22T23:16:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1461,
+                    "question_id": 355,
+                    "description": "edema de papila e aterosclerose",
+                    "explanation": "Falso. Edema de papila é literalmente \"inchaço na retina do olho\", um acometimento que acontece no olho principalmente devido à hipertensão intracraniana (faz sentido: alta pressão no crânio vai acometer os menores vasinhos da nossa cabeça - olhos). Esse edema não é causa de estenose de artéria renal. \nAterosclerose é sim uma causa clássica.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-22T23:14:56.000Z",
+                    "updated_at": "2020-05-22T23:16:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1462,
+                    "question_id": 355,
+                    "description": "displasia fibromuscular e TCE",
+                    "explanation": "Falso.\nDisplasia muscular é um defeito de mal formação de artérias. Não vá muito afundo na patologia dessa doença agora, só saiba que é uma causa clássica de estenose de artéria renal.\nTCE é trauma cranioencefálico. Não é uma causa comum de estenose de artéria renal. A estenose é uma doença que é mais crônica, demora anos pra se estabelecer e um TCE é uma coisa aguda, o cara bate a cabeça e tem sintomas repentinos (às vezes os sintomas podem ser mais crônicos também - como por exemplo em casos de hematomas intracranianos em alcoolistas, que podem gerar sintomas anos depois de ele bater a cabeça várias vezes). Porém os problemas não estão relacionados com o rim. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-22T23:16:51.000Z",
+                    "updated_at": "2020-05-22T23:16:51.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 355,
+                "questionary_id": 261866,
+                "timer": 0
+            }
+        },
+        {
+            "id": 350,
+            "institution_id": 4,
+            "description": "A estenose da artéria renal (EAR) é uma doença que cursa classicamente com Hipertensão Arterial Sistêmica (HAS). Sobre a EAR, assinale o que acontece com a renina plasmática do paciente: ",
+            "difficulty": "hard",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-23T01:33:32.000Z",
+            "updated_at": "2020-05-23T01:33:32.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 46,
+                    "title": "Hipertensão Arterial (Pato)",
+                    "description": null,
+                    "parent_id": 8,
+                    "is_enabled": true,
+                    "created_at": "2020-05-23T01:24:32.000Z",
+                    "updated_at": "2020-05-23T01:24:32.000Z",
+                    "pivot": {
+                        "discipline_id": 46,
+                        "question_id": 350
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1438,
+                    "question_id": 350,
+                    "description": "permanece igual",
+                    "explanation": "Falso, a estenose da artéria renal gera diminuição do fluxo sanguíneo para o rim. O aparelho justaglomerular renal sente essa diminuição de fluxo e pensa “poxa, tem menos sangue chegando, precisamos aumentar esse fluxo”. Nesse sentido, o rim libera renina :) ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-22T22:33:32.000Z",
+                    "updated_at": "2020-05-22T22:33:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1439,
+                    "question_id": 350,
+                    "description": "aumenta",
+                    "explanation": "aumenta ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-22T22:33:32.000Z",
+                    "updated_at": "2020-05-22T22:33:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1440,
+                    "question_id": 350,
+                    "description": "diminui",
+                    "explanation": "Errado. A estenose gera diminuição do fluxo sanguíneo para o rim. O aparelho justaglomerular sente essa diminuição de fluxo e pensa “poxa, tem menos sangue chegando, precisamos aumentar esse fluxo de sangue”. Nesse sentido, o rim libera renina :)  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-22T22:33:32.000Z",
+                    "updated_at": "2020-05-22T22:33:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1441,
+                    "question_id": 350,
+                    "description": "diminui e depois volta à normalidade",
+                    "explanation": "Errado. A estenose gera diminuição do fluxo sanguíneo para o rim. O aparelho justaglomerular sente essa diminuição de fluxo e pensa “poxa, tem menos sangue chegando, precisamos aumentar esse fluxo de sangue”. Nesse sentido, o rim libera renina :) \n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-22T22:33:32.000Z",
+                    "updated_at": "2020-05-22T22:33:32.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 350,
+                "questionary_id": 261866,
+                "timer": 0
+            }
+        }
+    ]
+}

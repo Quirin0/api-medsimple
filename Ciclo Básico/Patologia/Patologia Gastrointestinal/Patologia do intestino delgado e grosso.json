@@ -1,0 +1,978 @@
+{
+    "id": 261878,
+    "user_id": 1699,
+    "title": "Patologia do intestino delgado e grosso",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-03T18:44:46.000Z",
+    "updated_at": "2022-07-03T18:44:46.000Z",
+    "study_plan_id": 947,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 10754,
+            "institution_id": 4,
+            "description": "Qual doença provavelmente o paciente de quem foi extraída essa biópsia possui?\n\nFonte da imagem: KUMAR, V. et al. Robbins patologia básica.9ª Edição. Rio de Janeiro: Elsevier, 2013.",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-09-07T18:45:54.000Z",
+            "updated_at": "2021-09-07T18:45:54.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 952,
+                    "title": "Patologia do Intestino Delgado e Grosso",
+                    "description": null,
+                    "parent_id": 47,
+                    "is_enabled": true,
+                    "created_at": "2021-09-07T14:52:34.000Z",
+                    "updated_at": "2022-02-09T17:34:01.000Z",
+                    "pivot": {
+                        "discipline_id": 952,
+                        "question_id": 10754
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 44012,
+                    "question_id": 10754,
+                    "description": "Doença de Crohn",
+                    "explanation": "Muito bem, Doc! 🤗 Facinha essa, né? 😴\n- A imagem é de uma biópsia de **doença de Crohn** transmural,\n- Há **granulomas** na submucosa e serosa apontados pelas setas, que **não estão presentes na RCUI**",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-09-07T18:45:54.000Z",
+                    "updated_at": "2021-09-07T18:45:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 44013,
+                    "question_id": 10754,
+                    "description": "Retocolite ulcerativa",
+                    "explanation": "Falso, Doc!\n- A imagem é de uma biópsia de **doença de Crohn** transmural,\n- Há **granulomas** na submucosa e serosa apontados pelas setas, que **não estão presentes na RCUI** ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-09-07T18:45:54.000Z",
+                    "updated_at": "2021-09-07T18:45:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 44014,
+                    "question_id": 10754,
+                    "description": "Não é possível diferenciar qual doença inflamatória intestinal, pela imagem",
+                    "explanation": "Falso, Doc!\n- A imagem é de uma biópsia de **doença de Crohn** transmural,\n- Há **granulomas** na submucosa e serosa apontados pelas setas, que **não estão presentes na RCUI** ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-09-07T18:45:54.000Z",
+                    "updated_at": "2021-09-07T18:45:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 44015,
+                    "question_id": 10754,
+                    "description": "A imagem descarta o diagnóstico de doença inflamatória intestinal",
+                    "explanation": "Falso, Doc!\n- A imagem é de uma biópsia de **doença de Crohn** transmural,\n- Há **granulomas** na submucosa e serosa apontados pelas setas, que **não estão presentes na RCUI** ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-09-07T18:45:54.000Z",
+                    "updated_at": "2021-09-07T18:45:54.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 19075,
+                    "file": "823e7886-247c-4f41-b615-86165197fd38.png",
+                    "name": "Captura de tela 2021-09-07 153907.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2021-09-07T18:42:36.000Z",
+                    "updated_at": "2021-09-07T18:42:36.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/823e7886-247c-4f41-b615-86165197fd38.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 19075,
+                        "question_id": 10754
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 10754,
+                "questionary_id": 261878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10727,
+            "institution_id": 4,
+            "description": "Sobre a isquemia intestinal, assinale a CORRETA:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-09-07T15:26:17.000Z",
+            "updated_at": "2022-02-14T15:55:25.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 952,
+                    "title": "Patologia do Intestino Delgado e Grosso",
+                    "description": null,
+                    "parent_id": 47,
+                    "is_enabled": true,
+                    "created_at": "2021-09-07T14:52:34.000Z",
+                    "updated_at": "2022-02-09T17:34:01.000Z",
+                    "pivot": {
+                        "discipline_id": 952,
+                        "question_id": 10727
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43898,
+                    "question_id": 10727,
+                    "description": "A flexura esplênica é uma região menos susceptível a isquemia, já que é irrigada tanto pela mesentérica superior quanto inferior",
+                    "explanation": "Falso, Doc! \n- A flexura esplênica é, na verdade, uma das **zonas limítrofes**, mais susceptível a isquemia\n- Isso porque nela terminam duas artérias, a mesentérica superior e inferior\n- Outras regiões assim são o cólon sigmóide e o reto\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-09-07T15:26:17.000Z",
+                    "updated_at": "2022-02-14T15:55:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43899,
+                    "question_id": 10727,
+                    "description": "As criptas são regiões mais susceptíveis à isquemia",
+                    "explanation": "Falso, Doc!\n- As criptas são **protegidas** por uma configuração da circulação em que os **capilares partem das criptas** à superfície\n- Isso faz com que a **superfície seja mais sujeita a isquemia**\n- Mas, calma, Doc, isso é estratégico! 🤓 Lembra que é nas criptas que estão as **células-tronco** para a renovação do epitélio? Por isso faz sentido elas serem mais protegidas",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-09-07T15:26:17.000Z",
+                    "updated_at": "2022-02-14T15:55:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43900,
+                    "question_id": 10727,
+                    "description": "Na maioria dos casos o infarto da mucosa e mural cursa com hemorragia da serosa, edema da parede intestinal e, muitas vezes, ulceração da mucosa",
+                    "explanation": "Falso, Doc! Normalmente a hemorragia da serosa e serosite estão ausentes. O que se vê é:\n- Edema da parede\n- Mucosa hemorrágica e, muitas vezes, ulcerada\n- Na doença grave há hemorragia extensa da mucosa e submucosa e serosa",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-09-07T15:26:17.000Z",
+                    "updated_at": "2022-02-14T15:55:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43901,
+                    "question_id": 10727,
+                    "description": "Ao microscópio, o intestino isquêmico é atrofiado ou descamado, com criptas que podem ser hiperproliferativas",
+                    "explanation": "Boa, Doc! 👊 Você manja mesmo, hein!\n- Além disso, os infiltrados inflamatórios estão ausentes no início e presentes após a reperfusão (neutrófilos)\n- Na isquemia crônica costuma haver cicatriz fibrosa da lâmina própria",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-09-07T15:26:17.000Z",
+                    "updated_at": "2022-02-14T15:55:25.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10727,
+                "questionary_id": 261878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10728,
+            "institution_id": 4,
+            "description": "Sobre a biópsia do intestino para diagnóstico de doença celíaca, assinale a CORRETA:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-09-07T15:32:32.000Z",
+            "updated_at": "2021-09-07T15:32:32.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 952,
+                    "title": "Patologia do Intestino Delgado e Grosso",
+                    "description": null,
+                    "parent_id": 47,
+                    "is_enabled": true,
+                    "created_at": "2021-09-07T14:52:34.000Z",
+                    "updated_at": "2022-02-09T17:34:01.000Z",
+                    "pivot": {
+                        "discipline_id": 952,
+                        "question_id": 10728
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43902,
+                    "question_id": 10728,
+                    "description": "Atrofia de criptas fala a favor do diagnóstico",
+                    "explanation": "Falso, Doc! Ocorre **hiperplasia** de criptas",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-09-07T15:32:32.000Z",
+                    "updated_at": "2021-09-07T15:32:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43903,
+                    "question_id": 10728,
+                    "description": "A biópsia deve ser feita na primeira porção do duodeno ",
+                    "explanation": "Falso, Doc! Deve ser feita na **segunda porção do duodeno** ou **jejuno proximal**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-09-07T15:32:32.000Z",
+                    "updated_at": "2021-09-07T15:32:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43904,
+                    "question_id": 10728,
+                    "description": "Linfocitose intraepitelial fala a favor do diagnóstico",
+                    "explanation": "Muito bem, Doc! 🤗 Há infiltrado de linfócitos T CD8+",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-09-07T15:32:32.000Z",
+                    "updated_at": "2021-09-07T15:32:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43905,
+                    "question_id": 10728,
+                    "description": "Hiperplasia de vilosidades fala a favor do diagnóstico",
+                    "explanation": "Falso, Doc! Ocorre **atrofia** de vilosidades",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-09-07T15:32:32.000Z",
+                    "updated_at": "2021-09-07T15:32:32.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10728,
+                "questionary_id": 261878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10731,
+            "institution_id": 4,
+            "description": "Observe a imagem de uma biópsia do intestino delgado. Qual dos diagnóstico abaixo é o mais provável?\n\nFonte da imagem: KUMAR, V. et al. Robbins patologia básica.9ª Edição. Rio de Janeiro: Elsevier, 2013.",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-09-07T15:38:17.000Z",
+            "updated_at": "2021-09-07T15:39:21.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 952,
+                    "title": "Patologia do Intestino Delgado e Grosso",
+                    "description": null,
+                    "parent_id": 47,
+                    "is_enabled": true,
+                    "created_at": "2021-09-07T14:52:34.000Z",
+                    "updated_at": "2022-02-09T17:34:01.000Z",
+                    "pivot": {
+                        "discipline_id": 952,
+                        "question_id": 10731
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43915,
+                    "question_id": 10731,
+                    "description": "Doença inflamatória intestinal",
+                    "explanation": "Falso, Doc! Observa-se na imagem uma **hiperplasia de criptas** e **atrofia de vilosidades,** além de um infiltrado plasmocitário na lâmina própria, características que fazem pensar em **doença celíaca** ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-09-07T15:38:17.000Z",
+                    "updated_at": "2021-09-07T15:39:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43916,
+                    "question_id": 10731,
+                    "description": "Isquemia mesentérica",
+                    "explanation": "Falso, Doc! Observa-se na imagem uma **hiperplasia de criptas** e **atrofia de vilosidades,** além de um infiltrado plasmocitário na lâmina própria, características que fazem pensar em **doença celíaca**  ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-09-07T15:38:17.000Z",
+                    "updated_at": "2021-09-07T15:39:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43917,
+                    "question_id": 10731,
+                    "description": "Enteropatia tropical",
+                    "explanation": "Falso, Doc! Observa-se na imagem uma **hiperplasia de criptas** e **atrofia de vilosidades,** além de um infiltrado plasmocitário na lâmina própria, características que fazem pensar em **doença celíaca**  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-09-07T15:38:17.000Z",
+                    "updated_at": "2021-09-07T15:39:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43918,
+                    "question_id": 10731,
+                    "description": "Fibrose cística",
+                    "explanation": "Falso, Doc! Observa-se na imagem uma **hiperplasia de criptas** e **atrofia de vilosidades,** além de um infiltrado plasmocitário na lâmina própria, características que fazem pensar em **doença celíaca**  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-09-07T15:38:17.000Z",
+                    "updated_at": "2021-09-07T15:39:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43919,
+                    "question_id": 10731,
+                    "description": "Doença celíaca",
+                    "explanation": "Arrasou, Doc! 😎 Observa-se na imagem uma **hiperplasia de criptas** e **atrofia de vilosidades,** além de um infiltrado plasmocitário na lâmina própria, características que fazem pensar em **doença celíac**a  ",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2021-09-07T15:38:17.000Z",
+                    "updated_at": "2021-09-07T15:39:21.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 19055,
+                    "file": "b0663233-36ae-4b09-9f27-3a9da35b1d13.png",
+                    "name": "Captura de tela 2021-09-07 123315.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2021-09-07T15:34:11.000Z",
+                    "updated_at": "2021-09-07T15:34:11.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b0663233-36ae-4b09-9f27-3a9da35b1d13.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 19055,
+                        "question_id": 10731
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 10731,
+                "questionary_id": 261878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10732,
+            "institution_id": 4,
+            "description": "A histopatologia induzida no intestino pelas infecções por Shigella, Salmonella, Campylobacter , E. Coli, entre outros, é muito semelhante. Assinale a alternativa que contém o nome dessa alteração histopatológica:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-09-07T15:47:29.000Z",
+            "updated_at": "2021-09-07T16:40:18.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 952,
+                    "title": "Patologia do Intestino Delgado e Grosso",
+                    "description": null,
+                    "parent_id": 47,
+                    "is_enabled": true,
+                    "created_at": "2021-09-07T14:52:34.000Z",
+                    "updated_at": "2022-02-09T17:34:01.000Z",
+                    "pivot": {
+                        "discipline_id": 952,
+                        "question_id": 10732
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43920,
+                    "question_id": 10732,
+                    "description": "Colite aguda autolimitada",
+                    "explanation": "Você é fera, né, Doc! 😻 A colite aguda autolimitada é caracterizada por:\n- Criptite (infiltração de neutrófilos das criptas)\n- Abscessos de cripta (criptas com acúmulo de neutrófilos luminais)\n- Infiltrados de neutrófilos intraepiteliais",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-09-07T15:47:29.000Z",
+                    "updated_at": "2021-09-07T16:40:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43921,
+                    "question_id": 10732,
+                    "description": "Criptite infecciosa",
+                    "explanation": "Falso, Doc! A criptite é uma das características do padrão histopatológico em questão, mas não o nome dele",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-09-07T15:47:29.000Z",
+                    "updated_at": "2021-09-07T16:40:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43922,
+                    "question_id": 10732,
+                    "description": "Doença inflamatória intestinal",
+                    "explanation": "Falso, Doc! Doença inflamatória intestinal é uma afecção autoimune que pode ser Doença de Crohn ou Retocolite ulcerativa",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-09-07T15:47:29.000Z",
+                    "updated_at": "2021-09-07T16:40:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43923,
+                    "question_id": 10732,
+                    "description": "Colite pseudomembranosa",
+                    "explanation": "Falso, Doc! A colite pseudomembranosa é típica de infecção por C. difficile",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-09-07T15:47:29.000Z",
+                    "updated_at": "2021-09-07T16:40:18.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10732,
+                "questionary_id": 261878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10738,
+            "institution_id": 4,
+            "description": "O padrão mostrado na imagem é típico de uma infecção por:\n\n\n",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-09-07T16:56:32.000Z",
+            "updated_at": "2021-09-07T16:56:32.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 952,
+                    "title": "Patologia do Intestino Delgado e Grosso",
+                    "description": null,
+                    "parent_id": 47,
+                    "is_enabled": true,
+                    "created_at": "2021-09-07T14:52:34.000Z",
+                    "updated_at": "2022-02-09T17:34:01.000Z",
+                    "pivot": {
+                        "discipline_id": 952,
+                        "question_id": 10738
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43945,
+                    "question_id": 10738,
+                    "description": "Salmonella typhi",
+                    "explanation": "Falso, Doc! A imagem mostra uma cripta danificada e distendida por exudato purulento, com neutrófilos saindo como uma \"erupção vulcânica\" 🌋, um padrão visto na colite por **C. difficil**e",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-09-07T16:56:32.000Z",
+                    "updated_at": "2021-09-07T16:56:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43946,
+                    "question_id": 10738,
+                    "description": "Shigella",
+                    "explanation": "Falso, Doc! A imagem mostra uma cripta danificada e distendida por exudato purulento, com neutrófilos saindo como uma \"erupção vulcânica\" 🌋, um padrão visto na colite por **C. difficil**e ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-09-07T16:56:32.000Z",
+                    "updated_at": "2021-09-07T16:56:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43947,
+                    "question_id": 10738,
+                    "description": "Escherichia coli",
+                    "explanation": "Falso, Doc! A imagem mostra uma cripta danificada e distendida por exudato purulento, com neutrófilos saindo como uma \"erupção vulcânica\" 🌋, um padrão visto na colite por **C. difficil**e ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-09-07T16:56:32.000Z",
+                    "updated_at": "2021-09-07T16:56:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43948,
+                    "question_id": 10738,
+                    "description": "Clostridium Difficile",
+                    "explanation": "Parabéns, Doc! 😍 \n- A imagem mostra uma cripta danificada e distendida por exudato purulento, com neutrófilos saindo como uma \"erupção vulcânica\" 🌋, um padrão visto na colite por **C. difficil**e \n\nOutras características são:\n- **pseudomembranas** (formadas por uma cama de células inflamatórias e detritos)\n- Epitélio desnudado\n- Lâmina própria com grande infiltrado de neutrófilos e trombos ocasionais de fibrina nos capilares",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-09-07T16:56:32.000Z",
+                    "updated_at": "2021-09-07T16:56:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43949,
+                    "question_id": 10738,
+                    "description": "Campylobacter jejuni",
+                    "explanation": "Falso, Doc! A imagem mostra uma cripta danificada e distendida por exudato purulento, com neutrófilos saindo como uma \"erupção vulcânica\" 🌋, um padrão visto na colite por **C. difficil**e  ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-09-07T16:56:32.000Z",
+                    "updated_at": "2021-09-07T16:56:32.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 19060,
+                    "file": "69ba967d-8a06-4c6a-b42f-0104a800a215.png",
+                    "name": "Captura de tela 2021-09-07 134703.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2021-09-07T16:48:05.000Z",
+                    "updated_at": "2021-09-07T16:48:05.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/69ba967d-8a06-4c6a-b42f-0104a800a215.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 19060,
+                        "question_id": 10738
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 10738,
+                "questionary_id": 261878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10749,
+            "institution_id": 4,
+            "description": "Sobre a diverticulite, assinale a CORRETA:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-09-07T18:14:29.000Z",
+            "updated_at": "2021-09-07T18:14:29.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 952,
+                    "title": "Patologia do Intestino Delgado e Grosso",
+                    "description": null,
+                    "parent_id": 47,
+                    "is_enabled": true,
+                    "created_at": "2021-09-07T14:52:34.000Z",
+                    "updated_at": "2022-02-09T17:34:01.000Z",
+                    "pivot": {
+                        "discipline_id": 952,
+                        "question_id": 10749
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43992,
+                    "question_id": 10749,
+                    "description": "A região mais atingida é o cólon descendente",
+                    "explanation": "Falso, Doc! \n- É o cólon **sigmoide**\n- A camada **muscular longitudinal externa é descontínua** no cólon (forma três faixas, as tênias), favorecendo  a formação de divertículos",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-09-07T18:14:29.000Z",
+                    "updated_at": "2021-09-07T18:14:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43993,
+                    "question_id": 10749,
+                    "description": "As baixas pressões luminais favorecem a formação de divertículos",
+                    "explanation": "Falso, Doc! Os divertículos se desenvolvem em condições de **alta pressão** luminal, que pode ser gerada por peristalse aumentada, entre outros",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-09-07T18:14:29.000Z",
+                    "updated_at": "2021-09-07T18:14:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43994,
+                    "question_id": 10749,
+                    "description": "Os divertículos possuem parede fina, composta por camada mucosa,  submucosa e, às vezes, muscular da mucosa",
+                    "explanation": "Show, Doc! 😁\n- A mucosa é achatada ou atrófica e a submucosa comprimida\n- Muitas vezes a muscular da mucosa está ausente\n- ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-09-07T18:14:29.000Z",
+                    "updated_at": "2021-09-07T18:14:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43995,
+                    "question_id": 10749,
+                    "description": "Os divertículos são evaginações do cólon não compressíveis que costumam ser circundados por apêndices epiploicos",
+                    "explanation": "Falso, Doc! São compressíveis, um dos motivos porque frequentemente são perdidos na inspeção casual",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-09-07T18:14:29.000Z",
+                    "updated_at": "2021-09-07T18:14:29.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10749,
+                "questionary_id": 261878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10751,
+            "institution_id": 4,
+            "description": "Qual dessas NÃO é uma das características observadas na doença de Crohn:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-09-07T18:25:52.000Z",
+            "updated_at": "2021-09-07T18:25:52.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 952,
+                    "title": "Patologia do Intestino Delgado e Grosso",
+                    "description": null,
+                    "parent_id": 47,
+                    "is_enabled": true,
+                    "created_at": "2021-09-07T14:52:34.000Z",
+                    "updated_at": "2022-02-09T17:34:01.000Z",
+                    "pivot": {
+                        "discipline_id": 952,
+                        "question_id": 10751
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 44000,
+                    "question_id": 10751,
+                    "description": "Granuloma caseoso",
+                    "explanation": "Boa, Doc, essa é a incorreta! 💪\n- O granuloma **não** caseoso é que é uma característica da DC\n- Lembrando que a ausência de granuloma não exclui o diagnóstico de DC",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-09-07T18:25:52.000Z",
+                    "updated_at": "2021-09-07T18:25:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 44001,
+                    "question_id": 10751,
+                    "description": "Gordura rastejante",
+                    "explanation": "Essa é, sim, uma característica  DC, Doc! \n- Quando há doença transmural extensa, a gordura mesentérica se estende em torno da superfície serosa, e é chamada de gordura rastejante",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-09-07T18:25:52.000Z",
+                    "updated_at": "2021-09-07T18:25:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 44002,
+                    "question_id": 10751,
+                    "description": "Abscessos de cripta",
+                    "explanation": "Essa é, sim, uma característica  DC, Doc! \n- Constitui a aglomeração de neutrófilos dentro da cripta\n- Está associada muitas vezes à destruição da cripta\n ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-09-07T18:25:52.000Z",
+                    "updated_at": "2021-09-07T18:25:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 44003,
+                    "question_id": 10751,
+                    "description": "Metaplasia de células de Paneth",
+                    "explanation": "Essa é, sim, uma característica que pode ocorrer na  DC, Doc! Ocorre no cólon esquerdo, onde as células de Paneth normalmente estão ausentes",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-09-07T18:25:52.000Z",
+                    "updated_at": "2021-09-07T18:25:52.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10751,
+                "questionary_id": 261878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10752,
+            "institution_id": 4,
+            "description": "Quais dessas são características da Doença de Crohn (DC)?\n\n1- Úlcera aftosa\n\n2- Mucosa em pedras de calçamento\n\n3- Abscesso de criptas\n\n4- Lesões salteadas\n\n\nEstão corretas:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-09-07T18:30:03.000Z",
+            "updated_at": "2021-09-07T18:30:03.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 952,
+                    "title": "Patologia do Intestino Delgado e Grosso",
+                    "description": null,
+                    "parent_id": 47,
+                    "is_enabled": true,
+                    "created_at": "2021-09-07T14:52:34.000Z",
+                    "updated_at": "2022-02-09T17:34:01.000Z",
+                    "pivot": {
+                        "discipline_id": 952,
+                        "question_id": 10752
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 44004,
+                    "question_id": 10752,
+                    "description": "1 e 2",
+                    "explanation": "Errado, Doc! Estão todas corretas ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-09-07T18:30:03.000Z",
+                    "updated_at": "2021-09-07T18:30:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 44005,
+                    "question_id": 10752,
+                    "description": "1, 2 e 4",
+                    "explanation": "Errado, Doc! Estão todas corretas ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-09-07T18:30:03.000Z",
+                    "updated_at": "2021-09-07T18:30:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 44006,
+                    "question_id": 10752,
+                    "description": "1, 2, 3 e 4",
+                    "explanation": "Mandou bem, Doc! 👏 Todas são características presentes na DC",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-09-07T18:30:03.000Z",
+                    "updated_at": "2021-09-07T18:30:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 44007,
+                    "question_id": 10752,
+                    "description": "1, 2 e 3",
+                    "explanation": "Errado, Doc! Estão todas corretas",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-09-07T18:30:03.000Z",
+                    "updated_at": "2021-09-07T18:30:03.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10752,
+                "questionary_id": 261878,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10753,
+            "institution_id": 4,
+            "description": "Assinale a alternativa que NÃO contém uma diferença entre a Doença de Crohn (DC) e a retocolite ulcerativa (RCUI):",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-09-07T18:38:30.000Z",
+            "updated_at": "2021-09-07T18:38:30.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 952,
+                    "title": "Patologia do Intestino Delgado e Grosso",
+                    "description": null,
+                    "parent_id": 47,
+                    "is_enabled": true,
+                    "created_at": "2021-09-07T14:52:34.000Z",
+                    "updated_at": "2022-02-09T17:34:01.000Z",
+                    "pivot": {
+                        "discipline_id": 952,
+                        "question_id": 10753
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 44008,
+                    "question_id": 10753,
+                    "description": "Na RCUI também há úlceras, mas elas não são serpenteantes como na DC",
+                    "explanation": "Certo, Doc! Na avaliação macroscópica a mucosa pode estar vermelha e exibir **úlceras de base larga,** normalmente não serpenteantes como na DC",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-09-07T18:38:30.000Z",
+                    "updated_at": "2021-09-07T18:38:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 44009,
+                    "question_id": 10753,
+                    "description": "Na RCUI, ao contrário da DC, não ocorre espessamento mural",
+                    "explanation": "Certo, Doc! Além disso a serosa é normal e não ocorrem estreitamentos",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-09-07T18:38:30.000Z",
+                    "updated_at": "2021-09-07T18:38:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 44010,
+                    "question_id": 10753,
+                    "description": "Na RCUI, diferentemente da DC, as lesões não são salteadas",
+                    "explanation": "Certo, Doc! E a inflamação não é transmural, mas limitada à mucosa e submucosa",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-09-07T18:38:30.000Z",
+                    "updated_at": "2021-09-07T18:38:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 44011,
+                    "question_id": 10753,
+                    "description": "Na RCUI, diferentemente da DC, não há acometimento do íleo",
+                    "explanation": "Boa, Doc, ligado nas pegadinhas, hein! 😜\n- Os locais mais comuns da DC são **íleo terminal, válvula íleo cecal e ceco**\n- Já na RCUI, é raro o acometimento do íleo. Entretanto, ele pode ocorrer, na chamada **íleíte de refluxo**, que ocorre em casos graves de pancolite",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-09-07T18:38:30.000Z",
+                    "updated_at": "2021-09-07T18:38:30.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10753,
+                "questionary_id": 261878,
+                "timer": 0
+            }
+        }
+    ]
+}

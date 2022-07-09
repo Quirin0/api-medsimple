@@ -1,0 +1,507 @@
+{
+    "id": 261871,
+    "user_id": 1699,
+    "title": "Cavidade oral",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-03T18:42:23.000Z",
+    "updated_at": "2022-07-03T18:42:23.000Z",
+    "study_plan_id": 228,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 376,
+            "institution_id": 1,
+            "description": "As células escamosas estão localizadas:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-23T15:15:31.000Z",
+            "updated_at": "2020-05-23T15:19:19.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 1,
+                "title": "UFSC",
+                "state": "Santa Catarina",
+                "is_enabled": true,
+                "created_at": "2020-05-16T20:39:39.000Z",
+                "updated_at": "2020-05-16T20:39:39.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 48,
+                    "title": "Cavidade Oral (Pato)",
+                    "description": null,
+                    "parent_id": 47,
+                    "is_enabled": true,
+                    "created_at": "2020-05-23T02:22:17.000Z",
+                    "updated_at": "2020-05-23T02:22:17.000Z",
+                    "pivot": {
+                        "discipline_id": 48,
+                        "question_id": 376
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1544,
+                    "question_id": 376,
+                    "description": "Derme",
+                    "explanation": "Falso! A derme é composta de tecido conjuntivo, nervos, vasos etc, não é onde estão as células escamosas\n\n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-23T12:15:32.000Z",
+                    "updated_at": "2021-03-11T01:58:17.000Z",
+                    "files": [
+                        {
+                            "id": 57,
+                            "file": "1590235282977.jpeg",
+                            "name": "derme-og.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-05-23T15:01:23.000Z",
+                            "updated_at": "2020-05-23T15:01:23.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590235282977.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 57,
+                                "alternative_id": 1544
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1545,
+                    "question_id": 376,
+                    "description": "Epiderme",
+                    "explanation": "Isso! As células escamosas estão na epiderme! Lembre-se ainda que escamosa é um tipo de classificação de como as células da epiderme se organizam. Há várias outras, como nessa imagem:\n\n\n\n\n\n\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-23T12:15:32.000Z",
+                    "updated_at": "2021-03-11T01:58:17.000Z",
+                    "files": [
+                        {
+                            "id": 60,
+                            "file": "1590235726388.jpeg",
+                            "name": "5c83c25b-e601-4e4a-a46e-184bac058578.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-05-23T15:08:46.000Z",
+                            "updated_at": "2020-05-23T15:08:46.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590235726388.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 60,
+                                "alternative_id": 1545
+                            }
+                        },
+                        {
+                            "id": 59,
+                            "file": "1590235441670.jpeg",
+                            "name": "Illu_epithelium.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-05-23T15:04:02.000Z",
+                            "updated_at": "2020-05-23T15:04:02.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590235441670.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 59,
+                                "alternative_id": 1545
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1546,
+                    "question_id": 376,
+                    "description": "Hipoderme",
+                    "explanation": "Falso! Na hipoderme está principalmente a gordura e vasos sanguíneos.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-23T12:15:32.000Z",
+                    "updated_at": "2020-05-23T12:19:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1547,
+                    "question_id": 376,
+                    "description": "Tecido conjuntivo",
+                    "explanation": "Falso! Não tem nada a ver. O tecido conjuntivo é rico em fibroblastos e não em células epiteliais. Olha onde fica o tecido conjuntivo:\n\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-23T12:15:32.000Z",
+                    "updated_at": "2021-03-11T01:58:17.000Z",
+                    "files": [
+                        {
+                            "id": 61,
+                            "file": "1590236105101.png",
+                            "name": "2014-11-22_123749.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-05-23T15:15:05.000Z",
+                            "updated_at": "2020-05-23T15:15:05.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590236105101.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 61,
+                                "alternative_id": 1547
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 376,
+                "questionary_id": 261871,
+                "timer": 0
+            }
+        },
+        {
+            "id": 373,
+            "institution_id": 4,
+            "description": "\n\n\nObserve a foto e responda: quantas proeminências faciais formam o rosto humano?",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-23T14:04:51.000Z",
+            "updated_at": "2021-03-11T04:57:58.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 48,
+                    "title": "Cavidade Oral (Pato)",
+                    "description": null,
+                    "parent_id": 47,
+                    "is_enabled": true,
+                    "created_at": "2020-05-23T02:22:17.000Z",
+                    "updated_at": "2020-05-23T02:22:17.000Z",
+                    "pivot": {
+                        "discipline_id": 48,
+                        "question_id": 373
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1532,
+                    "question_id": 373,
+                    "description": "3",
+                    "explanation": "Falso.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-23T11:04:51.000Z",
+                    "updated_at": "2020-05-23T11:04:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1533,
+                    "question_id": 373,
+                    "description": "4",
+                    "explanation": "Falso",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-23T11:04:51.000Z",
+                    "updated_at": "2020-05-23T11:04:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1534,
+                    "question_id": 373,
+                    "description": "5",
+                    "explanation": "Perfeito! O rosto humano é formado por 5 proeminências que se unem! Uma delas vem de cima (a frontonasal), duas do lado (as maxilares) e por último: duas debaixo (as mandibulares). É importante conhecer isso porque a falha da união dessas proeminências gera a fenda palatina e/ou o lábio leporino, que são mal formações bem comuns e que todo médico deve conhecer.\n\n\n \n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-23T11:04:51.000Z",
+                    "updated_at": "2021-03-11T01:58:17.000Z",
+                    "files": [
+                        {
+                            "id": 55,
+                            "file": "1590231832837.jpeg",
+                            "name": "749067612_labioleporino.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-05-23T14:03:53.000Z",
+                            "updated_at": "2020-05-23T14:03:53.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590231832837.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 55,
+                                "alternative_id": 1534
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1535,
+                    "question_id": 373,
+                    "description": "6",
+                    "explanation": "Falso!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-23T11:04:51.000Z",
+                    "updated_at": "2020-05-23T11:04:51.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 54,
+                    "file": "1590231541298.png",
+                    "name": "Migration-of-neural-crest-cells-and-formation-of-facial-prominences-Different-groups-of.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-05-23T13:59:01.000Z",
+                    "updated_at": "2020-05-23T13:59:01.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590231541298.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 54,
+                        "question_id": 373
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 373,
+                "questionary_id": 261871,
+                "timer": 0
+            }
+        },
+        {
+            "id": 375,
+            "institution_id": 4,
+            "description": "Assinale a alternativa correta:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-23T14:48:12.000Z",
+            "updated_at": "2020-05-23T14:49:07.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 48,
+                    "title": "Cavidade Oral (Pato)",
+                    "description": null,
+                    "parent_id": 47,
+                    "is_enabled": true,
+                    "created_at": "2020-05-23T02:22:17.000Z",
+                    "updated_at": "2020-05-23T02:22:17.000Z",
+                    "pivot": {
+                        "discipline_id": 48,
+                        "question_id": 375
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1540,
+                    "question_id": 375,
+                    "description": "eritroplaquia tem maior chance de gerar câncer do que leucoplaquia",
+                    "explanation": "Verdade! Leucoplaquia pode ser devido à cândida ou Epstein Barr, mas você como médico sempre deve afastar um possível câncer, seja com exame físico (passando o palito) ou com biópsia. Já eritroplaquia é uma leucoplaquia com vasos sanguíneos (dai o nome, eritro = vermelho). Se tem vasos sanguíneos, tem angiogênese, e se tem angiogênese é bem mais provável que tenha câncer.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-23T11:48:12.000Z",
+                    "updated_at": "2020-05-23T11:49:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1541,
+                    "question_id": 375,
+                    "description": "leucoplaquia não evolui para displasia",
+                    "explanation": "Falso, pode evoluir sim. Ao ver um paciente com leucoplaquia você tem que verificar se aquilo não é uma displasia que poderá virar um carcinoma de células escamosas.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-23T11:48:12.000Z",
+                    "updated_at": "2020-05-23T11:49:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1542,
+                    "question_id": 375,
+                    "description": "eritroplaquia não evolui para displasia",
+                    "explanation": "Falso. Pode evoluir sim e na verdade é um motivo de preocupação. Língua vermelha demais não é bom nem em filmes de terror e nem aqui na medicina.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-23T11:48:12.000Z",
+                    "updated_at": "2020-05-23T11:49:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1543,
+                    "question_id": 375,
+                    "description": "leucoplaquia pilosa é câncer",
+                    "explanation": "Falso. A eritroplaquia pilosa está associada com EBV (Epstein Barr virus) e é caracterizada por acometimento de uma lesão esbranquiçada na LATERAL da língua, principalmente em pacientes imunossuprimidos.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-23T11:48:12.000Z",
+                    "updated_at": "2020-05-23T11:49:07.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 375,
+                "questionary_id": 261871,
+                "timer": 0
+            }
+        },
+        {
+            "id": 374,
+            "institution_id": 4,
+            "description": "A leucoplasia pilosa é classicamente vista:",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-23T14:38:52.000Z",
+            "updated_at": "2021-02-01T22:24:03.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 48,
+                    "title": "Cavidade Oral (Pato)",
+                    "description": null,
+                    "parent_id": 47,
+                    "is_enabled": true,
+                    "created_at": "2020-05-23T02:22:17.000Z",
+                    "updated_at": "2020-05-23T02:22:17.000Z",
+                    "pivot": {
+                        "discipline_id": 48,
+                        "question_id": 374
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1536,
+                    "question_id": 374,
+                    "description": "No palato",
+                    "explanation": "Falso. Não é a localização típica",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-23T11:38:53.000Z",
+                    "updated_at": "2021-02-01T19:24:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1537,
+                    "question_id": 374,
+                    "description": "No assoalho da boca",
+                    "explanation": "Falso, não é a localização típica. O assoalho da boca é a localização mais comum de carcinoma de células escamosas, principalmente devido ao consumo de álcool e tabaco.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-23T11:38:53.000Z",
+                    "updated_at": "2021-02-01T19:24:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1538,
+                    "question_id": 374,
+                    "description": "Na parte central da língua",
+                    "explanation": "Falso. Leucoplasia, como o nome diz é branco na língua. Quando você vê isso em um paciente a primeira coisa que faz é passar o palito (aqueles de picolé mesmo) e ver se sai. Se sair é muito provavelmente devido à candida (principalmente se o paciente for imunossuprimido). Porém se não sair, você começa a pensar em outros diagósticos, como displasia escamosa ou eritroplaquia pilosa, que é devido ao EBV (Epstein Barr virus).",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-23T11:38:53.000Z",
+                    "updated_at": "2021-02-01T19:24:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1539,
+                    "question_id": 374,
+                    "description": "Lateral da língua",
+                    "explanation": "Perfeito! A leucoplasia pilosa tem essa característica de lesão esbrenquiçada e \"peluda\" na lateral da língua, como mostra a imagem. É causada pelo EBV (Epstein Barr vírus) o qual gera apenas hiperplasia da mucosa escamosa, não há displasia! Importante saber disso porque você afasta um provável câncer. Acontece geralmente em pacientes imunosuprimidos.\n\n\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-23T11:38:53.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 56,
+                            "file": "1590233917733.jpeg",
+                            "name": "Fig1.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-05-23T14:38:37.000Z",
+                            "updated_at": "2020-05-23T14:38:37.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590233917733.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 56,
+                                "alternative_id": 1539
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 374,
+                "questionary_id": 261871,
+                "timer": 0
+            }
+        }
+    ]
+}

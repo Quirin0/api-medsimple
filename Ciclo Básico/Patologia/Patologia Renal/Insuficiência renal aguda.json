@@ -1,0 +1,896 @@
+{
+    "id": 261859,
+    "user_id": 1699,
+    "title": "Insuficiência renal aguda",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-03T18:38:04.000Z",
+    "updated_at": "2022-07-03T18:38:04.000Z",
+    "study_plan_id": 234,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 723,
+            "institution_id": 4,
+            "description": "Qual a principal marca da insuficiência renal aguda?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-28T21:06:01.000Z",
+            "updated_at": "2020-05-28T21:06:01.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 93,
+                    "title": "Insuficiência Renal Aguda (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-28T20:56:31.000Z",
+                    "updated_at": "2020-05-28T20:56:31.000Z",
+                    "pivot": {
+                        "discipline_id": 93,
+                        "question_id": 723
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 2974,
+                    "question_id": 723,
+                    "description": "Azotemia",
+                    "explanation": "Perfeito. A azotemia se define como o aumento de produtos nitrogenados no sangue. É classicamente identificada com o aumento da creatinina e pelo aumento do nitrogênio ureico no sangue.\nÉ extremamente importante que acenda uma luz na sua cabeça toda vez que você ler IRA. Essa luz deve te lembrar de \"azotemia\" e \"oliguria\".",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-28T18:06:01.000Z",
+                    "updated_at": "2020-05-28T18:06:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2975,
+                    "question_id": 723,
+                    "description": "Hipocalemia",
+                    "explanation": "Falso, não é a marca clássica da IRA.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-28T18:06:02.000Z",
+                    "updated_at": "2020-05-28T18:06:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2976,
+                    "question_id": 723,
+                    "description": "Hiponatremia",
+                    "explanation": "Falso, não é a marca clássica da IRA.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-28T18:06:02.000Z",
+                    "updated_at": "2020-05-28T18:06:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2977,
+                    "question_id": 723,
+                    "description": "Hipercalemia",
+                    "explanation": "Falso.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-28T18:06:02.000Z",
+                    "updated_at": "2020-05-28T18:06:02.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 723,
+                "questionary_id": 261859,
+                "timer": 0
+            }
+        },
+        {
+            "id": 727,
+            "institution_id": 4,
+            "description": "Sobre a FENa (Fração de Excreção de Sódio), assinale a alternativa correta:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-28T22:30:22.000Z",
+            "updated_at": "2020-05-28T22:30:22.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 93,
+                    "title": "Insuficiência Renal Aguda (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-28T20:56:31.000Z",
+                    "updated_at": "2020-05-28T20:56:31.000Z",
+                    "pivot": {
+                        "discipline_id": 93,
+                        "question_id": 727
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 2992,
+                    "question_id": 727,
+                    "description": "O valor normal da FENa é >1%",
+                    "explanation": "Falso, o valor normal da FENa é <1%, o que indica que excretamos menos de 1% de sódio na urina.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-28T19:30:22.000Z",
+                    "updated_at": "2020-05-28T19:30:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2993,
+                    "question_id": 727,
+                    "description": "A FENa indica se há ou não dano renal",
+                    "explanation": "Verdadeiro! Isso é uma coisa que você TEM que ter em mente sobre a FENa. Pensa comigo: se há dano no glomérulo, lá no néfron, então a habilidade de reabsorver sódio ficará prejudicada, o que vai aumentar a quantidade de Na (sódio) na urina. Portanto: aumento da FENa para mais de 1% indica que o nefrón não está reabsorvendo sódio e portanto indica lesão renal.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-28T19:30:22.000Z",
+                    "updated_at": "2020-05-28T19:30:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2994,
+                    "question_id": 727,
+                    "description": "A função tubular não pode ser avaliada com a FENa",
+                    "explanation": "Falso. Pode sim e é uma de suas principais utilidades, uma vez que ela avalia se os túbulos renais estão conseguindo fazer a reabsorção de sódio adequadamente. Se não há reabsorção, então os índices de Na na urina irão aumentar, indicando que há algo errado. Isso tudo pode ser avaliado através da FENa",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-28T19:30:22.000Z",
+                    "updated_at": "2020-05-28T19:30:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2995,
+                    "question_id": 727,
+                    "description": "Quanto maior a FENa, mais sódio está sendo reabsorvido",
+                    "explanation": "Falso. A FENa é justamente a fração de excreção de sódio, quanto maior a FENa, mais sódio está sendo jogado fora na urina, ou seja: menos sódio está sendo reabsorvido. Alternativa errada.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-28T19:30:22.000Z",
+                    "updated_at": "2020-05-28T19:30:22.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 727,
+                "questionary_id": 261859,
+                "timer": 0
+            }
+        },
+        {
+            "id": 729,
+            "institution_id": 4,
+            "description": "Sobre a osmolaridade da urina, avalie as alternativas a seguir:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-28T22:45:45.000Z",
+            "updated_at": "2020-05-28T22:45:45.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 93,
+                    "title": "Insuficiência Renal Aguda (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-28T20:56:31.000Z",
+                    "updated_at": "2020-05-28T20:56:31.000Z",
+                    "pivot": {
+                        "discipline_id": 93,
+                        "question_id": 729
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3000,
+                    "question_id": 729,
+                    "description": "Um bom valor para diferenciar urina concentrada de urina diluida é a osmolaridade de 5mOsmol/kg",
+                    "explanation": "Falso, isso indica uma urina extremamente diluída. O valor que você deve ter em mente é 500mOsmol/kg. Acima de 500 a tendência é a urina concentrar e abaixo de 500 a tendência é a urina diluir.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-28T19:45:46.000Z",
+                    "updated_at": "2020-05-28T19:45:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3001,
+                    "question_id": 729,
+                    "description": "Não é possível avaliar função tubular através da osmolaridade da urina",
+                    "explanation": "Falso! É possível sim, junto com a FENa.\nUm conceito chave pra você entender aqui, se ainda não entende é a diferença entre FILTRAÇÃO GLOMERULAR e FUNÇÃO TUBULAR. Cuidado, embora tenham nomes parecidos, elas são extremamente diferentes. Na filtração é bem óbvio que você usa a TFG pra verificar se o rim tá ok. Já na função tubular, você não tá verificando a filtração; mas sim a REABSORÇÃO nos diferentes segmentos de alça do néfron. Dessa forma, você usa a FENa e a osmolaridade da urina, uma vez que elas medem a capacidade de o néfron absorver água e sódio. Caso a reabsorção tenha defeito, a tendência é a urina ficar extremamente diluída (com osmolaridade abaixo de 500) e cheia de sódio (FENa >1%).",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-28T19:45:46.000Z",
+                    "updated_at": "2020-05-28T19:45:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3002,
+                    "question_id": 729,
+                    "description": "Com a osmolaridade da urina avaliamos a filtração glomerular",
+                    "explanation": "Falso, para avaliar a filtração glomerular você usa TFG.\nPara avaliar FUNÇÃO TUBULAR você usa FENa e osmolaridade da urina.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-28T19:45:46.000Z",
+                    "updated_at": "2020-05-28T19:45:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3003,
+                    "question_id": 729,
+                    "description": "A função tubular pode ser avaliada com a osmolaridade da urina e com a FENa",
+                    "explanation": "Alternativa PERFEITA. Você tem que ter esse conceito em mente.\nFiltração glomerular: avaliamos com a TFG\nFunção tubular: avaliamos com a FENa e com a osmolaridade da urina.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-28T19:45:46.000Z",
+                    "updated_at": "2020-05-28T19:45:46.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 729,
+                "questionary_id": 261859,
+                "timer": 0
+            }
+        },
+        {
+            "id": 730,
+            "institution_id": 4,
+            "description": "A principal causa de insuficiência renal aguda pré-renal é:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-28T22:55:57.000Z",
+            "updated_at": "2020-05-28T22:55:57.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 93,
+                    "title": "Insuficiência Renal Aguda (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-28T20:56:31.000Z",
+                    "updated_at": "2020-05-28T20:56:31.000Z",
+                    "pivot": {
+                        "discipline_id": 93,
+                        "question_id": 730
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3004,
+                    "question_id": 730,
+                    "description": "Obstrução urinária por um cálculo renal",
+                    "explanation": "Falso. Isso seria PÓS-RENAL e não pré-renal.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-28T19:55:57.000Z",
+                    "updated_at": "2020-05-28T19:55:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3005,
+                    "question_id": 730,
+                    "description": "Diminuição de fluxo sanguíneo para os rins",
+                    "explanation": "Perfeito. Essa é a principal causa de IRA pré-renal. Você deve seguir o seguinte fluxo de raciocínio: diminuição do fluxo sanguíneo para os rins -> diminui a quantidade de sangue filtrado -> diminui a TFG -> aumenta excretas nitrogenadas no sangue (azotemia) e gera oliguria (pouco sangue filtrado = pouco xixi).",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-28T19:55:57.000Z",
+                    "updated_at": "2020-05-28T19:55:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3006,
+                    "question_id": 730,
+                    "description": "Dano renal por conta de medicações, principalmente antibióticos",
+                    "explanation": "Falso, isso seria IRA RENAL e não PRÉ-RENAL.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-28T19:55:57.000Z",
+                    "updated_at": "2020-05-28T19:55:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3007,
+                    "question_id": 730,
+                    "description": "Aumento da FENa para >1% ",
+                    "explanation": "Falso, na verdade o aumento da FENa seria uma consequência de um dano renal, não causa. Porém na IRA pré-renal o defeito é na FILTRAÇÃO GLOMERULAR e não na FUNÇÃO TUBULAR (que é avaliada pela FENa e pela osmolaridade da urina). A capacidade de os túbulos renais reabsorverem sódio está intacta nesse caso (FENa<1%).",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-28T19:55:57.000Z",
+                    "updated_at": "2020-05-28T19:55:57.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 730,
+                "questionary_id": 261859,
+                "timer": 0
+            }
+        },
+        {
+            "id": 734,
+            "institution_id": 4,
+            "description": "Qual das classes de antimicrobianos abaixo é causa comum de necrose tubular aguda?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-29T02:57:42.000Z",
+            "updated_at": "2020-05-29T02:57:42.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 93,
+                    "title": "Insuficiência Renal Aguda (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-28T20:56:31.000Z",
+                    "updated_at": "2020-05-28T20:56:31.000Z",
+                    "pivot": {
+                        "discipline_id": 93,
+                        "question_id": 734
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3020,
+                    "question_id": 734,
+                    "description": "Aminoglicosídeos",
+                    "explanation": "Perfeito! Aminoglicosídeos são clássicos causadores de necrose tubular aguda.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-28T23:57:42.000Z",
+                    "updated_at": "2020-05-28T23:57:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3021,
+                    "question_id": 734,
+                    "description": "Penicilinas",
+                    "explanation": "Na verdade são causa clássica de nefrite intersticial.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-28T23:57:42.000Z",
+                    "updated_at": "2020-05-28T23:57:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3022,
+                    "question_id": 734,
+                    "description": "Cefalosporinas",
+                    "explanation": "Falso, não são causa clássica",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-28T23:57:42.000Z",
+                    "updated_at": "2020-05-28T23:57:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3023,
+                    "question_id": 734,
+                    "description": "Alopurinol",
+                    "explanation": "Na verdade o alopurinol é utilizado como prevenção, junto com hidratação intensa, em caso de quimioterapia. Isso para evitar necrose tubular aguda.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-28T23:57:42.000Z",
+                    "updated_at": "2020-05-28T23:57:42.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 734,
+                "questionary_id": 261859,
+                "timer": 0
+            }
+        },
+        {
+            "id": 777,
+            "institution_id": 4,
+            "description": "Qual das células abaixo é clássica na nefrite intersticial aguda?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-29T06:55:08.000Z",
+            "updated_at": "2020-05-29T06:55:08.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 93,
+                    "title": "Insuficiência Renal Aguda (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-28T20:56:31.000Z",
+                    "updated_at": "2020-05-28T20:56:31.000Z",
+                    "pivot": {
+                        "discipline_id": 93,
+                        "question_id": 777
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3192,
+                    "question_id": 777,
+                    "description": "Neutrófilos",
+                    "explanation": "Falso.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-29T03:55:08.000Z",
+                    "updated_at": "2020-05-29T03:55:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3193,
+                    "question_id": 777,
+                    "description": "Eosinófilos",
+                    "explanation": "Perfeito. Eosinófilos na urina é quase patognomônico de nefrite intersticial aguda.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-29T03:55:08.000Z",
+                    "updated_at": "2020-05-29T03:55:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3194,
+                    "question_id": 777,
+                    "description": "Linfócitos",
+                    "explanation": "Falso.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-29T03:55:08.000Z",
+                    "updated_at": "2020-05-29T03:55:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3195,
+                    "question_id": 777,
+                    "description": "Monócitos",
+                    "explanation": "Falso.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-29T03:55:08.000Z",
+                    "updated_at": "2020-05-29T03:55:08.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 777,
+                "questionary_id": 261859,
+                "timer": 0
+            }
+        },
+        {
+            "id": 778,
+            "institution_id": 4,
+            "description": "Qual é o efeito da IRA pós renal na taxa de filtração glomerular?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-29T07:00:53.000Z",
+            "updated_at": "2020-05-29T07:00:53.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 93,
+                    "title": "Insuficiência Renal Aguda (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-28T20:56:31.000Z",
+                    "updated_at": "2020-05-28T20:56:31.000Z",
+                    "pivot": {
+                        "discipline_id": 93,
+                        "question_id": 778
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3196,
+                    "question_id": 778,
+                    "description": "Aumenta",
+                    "explanation": "Falso, uma obstrução por um cálculo, por exemplo, vai fazer com que a pressão glomerular diminua. É como se o rim estivesse tentando vencer a pressão de uma pedra obstruindo um cano. A TFG diminui.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-29T04:00:53.000Z",
+                    "updated_at": "2020-05-29T04:00:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3197,
+                    "question_id": 778,
+                    "description": "Diminui",
+                    "explanation": "Perfeito. É como se o rim estivesse tentando vencer a pressão de uma pedra obstruindo um cano. A TFG diminui. ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-29T04:00:53.000Z",
+                    "updated_at": "2020-05-29T04:00:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3198,
+                    "question_id": 778,
+                    "description": "Inaltera",
+                    "explanation": "Falso, a taxa de filtração glomerular diminui na IRA pós-renal.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-29T04:00:53.000Z",
+                    "updated_at": "2020-05-29T04:00:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3199,
+                    "question_id": 778,
+                    "description": "Inicialmente diminui e depois aumenta",
+                    "explanation": "Falso, ela não aumenta. O rim não consegue filtrar contra um encanamento obstruído, como no caso da IRA pós-renal.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-29T04:00:53.000Z",
+                    "updated_at": "2020-05-29T04:00:53.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 778,
+                "questionary_id": 261859,
+                "timer": 0
+            }
+        },
+        {
+            "id": 781,
+            "institution_id": 4,
+            "description": "Sobre a IRA, assinale a alternativa correta:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-29T07:50:37.000Z",
+            "updated_at": "2020-05-29T07:50:37.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 93,
+                    "title": "Insuficiência Renal Aguda (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-28T20:56:31.000Z",
+                    "updated_at": "2020-05-28T20:56:31.000Z",
+                    "pivot": {
+                        "discipline_id": 93,
+                        "question_id": 781
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3208,
+                    "question_id": 781,
+                    "description": "A IRA pós-renal pode ser resumida como a necrose tubular aguda e a nefrite intersticial aguda",
+                    "explanation": "Falso, essas são IRAs intra-renais. Pós renal seria um cálculo, por exemplo.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-29T04:50:37.000Z",
+                    "updated_at": "2020-05-29T04:50:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3209,
+                    "question_id": 781,
+                    "description": "A principal causa de IRA intra renal é a diminuição do fluxo sanguíneo ao rim",
+                    "explanation": "Falso, isso seria pré-renal!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-29T04:50:37.000Z",
+                    "updated_at": "2020-05-29T04:50:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3210,
+                    "question_id": 781,
+                    "description": "A principal causa de IRA pós-renal são os cálculos renais.",
+                    "explanation": "Perfeito! IRA pós renal é marcada por cálculos!",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-29T04:50:37.000Z",
+                    "updated_at": "2020-05-29T04:50:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3211,
+                    "question_id": 781,
+                    "description": "Podemos resumir a IRA pré-renal como o dano causado no rim por drogas",
+                    "explanation": "Falso, isso seria IRA intra-renal: nefrite intersticial aguda e necrose tubular aguda.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-29T04:50:37.000Z",
+                    "updated_at": "2020-05-29T04:50:37.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 781,
+                "questionary_id": 261859,
+                "timer": 0
+            }
+        },
+        {
+            "id": 779,
+            "institution_id": 4,
+            "description": "Sobre a Injúria Renal Aguda, assinale a alternativa correta:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-29T07:18:38.000Z",
+            "updated_at": "2020-05-29T07:20:38.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 93,
+                    "title": "Insuficiência Renal Aguda (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-28T20:56:31.000Z",
+                    "updated_at": "2020-05-28T20:56:31.000Z",
+                    "pivot": {
+                        "discipline_id": 93,
+                        "question_id": 779
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3200,
+                    "question_id": 779,
+                    "description": "A nefrite intersticial aguda é caracterizada histologicamente pela perda de núcleos de células tubulares e descolamento de células tubulares da membrana basal",
+                    "explanation": "Falso, essas características são da necrose tubular aguda e as células que descolam da membrana basal são as células é que são vistas no exame de urina como \"brown casts\"",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-29T04:18:38.000Z",
+                    "updated_at": "2020-05-29T04:20:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3201,
+                    "question_id": 779,
+                    "description": "Uma IRA pós-renal acontece com obstrução unilateral",
+                    "explanation": "Falso, a IRA pós-renal acontece somente com obstrução bilateral. Um rim consegue filtrar sangue sem problemas. Tanto que pessoas com 1 rim sobrevivem sem problemas.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-29T04:18:38.000Z",
+                    "updated_at": "2020-05-29T04:20:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3202,
+                    "question_id": 779,
+                    "description": "Após retirada de uma droga, o dano da necrose tubular aguda demora cerca de 3 semanas para ser reparado",
+                    "explanation": "Perfeito, as células tubulares são quiescentes e demoram o período de cerca de 3 semanas para se renovarem.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-29T04:18:38.000Z",
+                    "updated_at": "2020-05-29T04:20:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3203,
+                    "question_id": 779,
+                    "description": "A função tubular diminui na IRA pré-renal",
+                    "explanation": "Falso, a diminuição do fluxo sanguíneo para o rim vai apenas gerar uma diminuição na TFR, não vai alterar função tubular (FENa e osmolaridade da urina).",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-29T04:18:38.000Z",
+                    "updated_at": "2020-05-29T04:20:39.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 779,
+                "questionary_id": 261859,
+                "timer": 0
+            }
+        },
+        {
+            "id": 780,
+            "institution_id": 4,
+            "description": "Sobre a necrose tubular aguda, assinale a alternativa INCORRETA:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-29T07:30:37.000Z",
+            "updated_at": "2020-05-29T07:30:37.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 93,
+                    "title": "Insuficiência Renal Aguda (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-28T20:56:31.000Z",
+                    "updated_at": "2020-05-28T20:56:31.000Z",
+                    "pivot": {
+                        "discipline_id": 93,
+                        "question_id": 780
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3204,
+                    "question_id": 780,
+                    "description": "Durante a fase de recuperação da necrose tubular aguda, há um risco aumentado de hipocalemia e perda renal de outros eletrólitos e minerais",
+                    "explanation": "Perfeito, pense que é como se o rim ficasse um pouco confuso com o dano que sofrou e, do nada, começasse a trabalhar muito por algum tempo.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-29T04:30:37.000Z",
+                    "updated_at": "2020-05-29T04:30:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3205,
+                    "question_id": 780,
+                    "description": "A classe de antibióticos que é classicamente causadora de necrose tubular aguda é a dos aminoglicosídeos.",
+                    "explanation": "Perfeito, como por exemplo a streptomicina ou a neomicina.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-29T04:30:37.000Z",
+                    "updated_at": "2020-05-29T04:30:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3206,
+                    "question_id": 780,
+                    "description": "Na evolução da necrose tubular aguda o paciente pode apresentar acidose metabólica",
+                    "explanation": "Perfeito, isso acontece na fase de manutenção da necrose tubular aguda, devido à diminuição de excreção de ácidos.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-29T04:30:37.000Z",
+                    "updated_at": "2020-05-29T04:30:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3207,
+                    "question_id": 780,
+                    "description": "A IRA pós-renal é geralmente causada por necrose tubular aguda ou isquemia / toxinas",
+                    "explanation": "Falso, a IRA INTRA renal que é causada por necrose tubular aguda ou isquemia/toxinas.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-29T04:30:37.000Z",
+                    "updated_at": "2020-05-29T04:30:37.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 780,
+                "questionary_id": 261859,
+                "timer": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,2536 @@
+{
+    "id": 262105,
+    "user_id": 1699,
+    "title": "Sistema Complemento",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-03T20:16:17.000Z",
+    "updated_at": "2022-07-03T20:16:17.000Z",
+    "study_plan_id": 601,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 3254,
+            "institution_id": 4,
+            "description": "O componente inicial do sistema complemento que é ligado a anticorpos fixadores de complemento é?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-16T00:17:39.000Z",
+            "updated_at": "2022-01-11T22:57:00.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 339,
+                    "title": "Sistema complemento",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2020-07-16T02:59:55.000Z",
+                    "updated_at": "2020-07-16T02:59:55.000Z",
+                    "pivot": {
+                        "discipline_id": 339,
+                        "question_id": 3254
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 13398,
+                    "question_id": 3254,
+                    "description": "C1q.",
+                    "explanation": "- Perfeito! Acertou! 😻\n- A região constante do IgM e do IgG, anticorpos Ig2 e Ig3, se ligam à C1q depois que o anticorpo formou um complexo com o antígeno. Isto vai levar à geração de C4b2b convertase que  quebra C3.\n- Observe: https://www.msdmanuals.com/pt/profissional/imunologia-dist%C3%BArbios-al%C3%A9rgicos/biologia-do-sistema-imunit%C3%A1rio/sistema-complemento",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-16T00:17:39.000Z",
+                    "updated_at": "2022-01-11T22:57:00.000Z",
+                    "files": [
+                        {
+                            "id": 25915,
+                            "file": "2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "name": "IMM_complement_activation_pt.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-01-11T22:31:33.000Z",
+                            "updated_at": "2022-01-11T22:31:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25915,
+                                "alternative_id": 13398
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13399,
+                    "question_id": 3254,
+                    "description": "C1s.",
+                    "explanation": "- Falso, Doc! 🤔\n- C1s somente se liga depois que C1q e C1r já se ligaram.\n- A região constante do IgM e do IgG, anticorpos Ig2 e Ig3, se ligam à C1q depois que o anticorpo formou um complexo com o antígeno. Isto vai levar à geração de C4b2b convertase que  quebra C3.\n- Observe: https://www.msdmanuals.com/pt/profissional/imunologia-dist%C3%BArbios-al%C3%A9rgicos/biologia-do-sistema-imunit%C3%A1rio/sistema-complemento",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:17:39.000Z",
+                    "updated_at": "2022-01-11T22:57:00.000Z",
+                    "files": [
+                        {
+                            "id": 25915,
+                            "file": "2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "name": "IMM_complement_activation_pt.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-01-11T22:31:33.000Z",
+                            "updated_at": "2022-01-11T22:31:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25915,
+                                "alternative_id": 13399
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13400,
+                    "question_id": 3254,
+                    "description": "C3b.",
+                    "explanation": "- Falso, Doc! 🤔\n- C3b pode ser gerado pela via clássica, via das lectinas ou via alternativa e age como uma opsonina.\n- A região constante do IgM e do IgG, anticorpos Ig2 e Ig3, se ligam à C1q depois que o anticorpo formou um complexo com o antígeno. Isto vai levar à geração de C4b2b convertase que  quebra C3.\n- Observe: https://www.msdmanuals.com/pt/profissional/imunologia-dist%C3%BArbios-al%C3%A9rgicos/biologia-do-sistema-imunit%C3%A1rio/sistema-complemento",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:17:39.000Z",
+                    "updated_at": "2022-01-11T22:57:00.000Z",
+                    "files": [
+                        {
+                            "id": 25915,
+                            "file": "2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "name": "IMM_complement_activation_pt.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-01-11T22:31:33.000Z",
+                            "updated_at": "2022-01-11T22:31:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25915,
+                                "alternative_id": 13400
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13401,
+                    "question_id": 3254,
+                    "description": "C5a.",
+                    "explanation": "- Falso, Doc! 🤔\n- C5a é gerado pela C5 convertase e age como um poderoso agente quimiotáxico para neutrófilos e uma anafilotoxina causando degranulação de mastócitos.\n- A região constante do IgM e do IgG, anticorpos Ig2 e Ig3, se ligam à C1q depois que o anticorpo formou um complexo com o antígeno. Isto vai levar à geração de C4b2b convertase que  quebra C3.\n- Observe: https://www.msdmanuals.com/pt/profissional/imunologia-dist%C3%BArbios-al%C3%A9rgicos/biologia-do-sistema-imunit%C3%A1rio/sistema-complemento",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:17:39.000Z",
+                    "updated_at": "2022-01-11T22:57:00.000Z",
+                    "files": [
+                        {
+                            "id": 25915,
+                            "file": "2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "name": "IMM_complement_activation_pt.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-01-11T22:31:33.000Z",
+                            "updated_at": "2022-01-11T22:31:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25915,
+                                "alternative_id": 13401
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3254,
+                "questionary_id": 262105,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3255,
+            "institution_id": 4,
+            "description": "As vias clássica e alternativa se \"encontram\" em qual componente do complemento?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-16T00:22:23.000Z",
+            "updated_at": "2022-01-11T22:51:36.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 339,
+                    "title": "Sistema complemento",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2020-07-16T02:59:55.000Z",
+                    "updated_at": "2020-07-16T02:59:55.000Z",
+                    "pivot": {
+                        "discipline_id": 339,
+                        "question_id": 3255
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 13402,
+                    "question_id": 3255,
+                    "description": "C4.",
+                    "explanation": "- Falso, Doc! 🙊\n- Cada via de ativação do complemento produz uma C3 convertase, ou C4b2b (vias clássica e via das lectinas) ou C3bBb (via alternativa), que cliva C3 em C3a e C3b.\n- Observe: https://www.msdmanuals.com/pt/profissional/imunologia-dist%C3%BArbios-al%C3%A9rgicos/biologia-do-sistema-imunit%C3%A1rio/sistema-complemento",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:22:23.000Z",
+                    "updated_at": "2022-01-11T22:51:36.000Z",
+                    "files": [
+                        {
+                            "id": 25915,
+                            "file": "2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "name": "IMM_complement_activation_pt.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-01-11T22:31:33.000Z",
+                            "updated_at": "2022-01-11T22:31:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25915,
+                                "alternative_id": 13402
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13403,
+                    "question_id": 3255,
+                    "description": "C4b.",
+                    "explanation": "- Falso, Doc! 🙊\n- Cada via de ativação do complemento produz uma C3 convertase, ou C4b2b (vias clássica e via das lectinas) ou C3bBb (via alternativa), que cliva C3 em C3a e C3b.\n- Observe: https://www.msdmanuals.com/pt/profissional/imunologia-dist%C3%BArbios-al%C3%A9rgicos/biologia-do-sistema-imunit%C3%A1rio/sistema-complemento",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:22:23.000Z",
+                    "updated_at": "2022-01-11T22:51:36.000Z",
+                    "files": [
+                        {
+                            "id": 25915,
+                            "file": "2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "name": "IMM_complement_activation_pt.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-01-11T22:31:33.000Z",
+                            "updated_at": "2022-01-11T22:31:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25915,
+                                "alternative_id": 13403
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13404,
+                    "question_id": 3255,
+                    "description": "Fator D.",
+                    "explanation": "- Falso, Doc! 🙊\n- Cada via de ativação do complemento produz uma C3 convertase, ou C4b2b (vias clássica e via das lectinas) ou C3bBb (via alternativa), que cliva C3 em C3a e C3b.\n- Observe: https://www.msdmanuals.com/pt/profissional/imunologia-dist%C3%BArbios-al%C3%A9rgicos/biologia-do-sistema-imunit%C3%A1rio/sistema-complemento",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:22:23.000Z",
+                    "updated_at": "2022-01-11T22:51:36.000Z",
+                    "files": [
+                        {
+                            "id": 25915,
+                            "file": "2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "name": "IMM_complement_activation_pt.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-01-11T22:31:33.000Z",
+                            "updated_at": "2022-01-11T22:31:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25915,
+                                "alternative_id": 13404
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13405,
+                    "question_id": 3255,
+                    "description": "C3.",
+                    "explanation": "- Exatamente, Doc! Muito bem! 🎉\n- Cada via de ativação do complemento produz uma C3 convertase, ou C4b2b (vias clássica e via das lectinas) ou C3bBb (via alternativa), que cliva C3 em C3a e C3b.\n- Observe: https://www.msdmanuals.com/pt/profissional/imunologia-dist%C3%BArbios-al%C3%A9rgicos/biologia-do-sistema-imunit%C3%A1rio/sistema-complemento",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-07-16T00:22:23.000Z",
+                    "updated_at": "2022-01-11T22:51:36.000Z",
+                    "files": [
+                        {
+                            "id": 25915,
+                            "file": "2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "name": "IMM_complement_activation_pt.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-01-11T22:31:33.000Z",
+                            "updated_at": "2022-01-11T22:31:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25915,
+                                "alternative_id": 13405
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3255,
+                "questionary_id": 262105,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3256,
+            "institution_id": 4,
+            "description": "O componente C3 do sistema complemento é clivado por?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-16T00:27:27.000Z",
+            "updated_at": "2022-01-11T22:49:04.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 339,
+                    "title": "Sistema complemento",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2020-07-16T02:59:55.000Z",
+                    "updated_at": "2020-07-16T02:59:55.000Z",
+                    "pivot": {
+                        "discipline_id": 339,
+                        "question_id": 3256
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 13406,
+                    "question_id": 3256,
+                    "description": "C3b.",
+                    "explanation": "- Falso, Doc! 🤔\n- **C3bBb** é a enzima C3 convertase gerada na via alternativa do complemento e é responsável por separar o pequeno peptídeo C3a, deixando C3b como um resíduo.\n- Observe: https://www.msdmanuals.com/pt/profissional/imunologia-dist%C3%BArbios-al%C3%A9rgicos/biologia-do-sistema-imunit%C3%A1rio/sistema-complemento",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:27:27.000Z",
+                    "updated_at": "2022-01-11T22:49:04.000Z",
+                    "files": [
+                        {
+                            "id": 25915,
+                            "file": "2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "name": "IMM_complement_activation_pt.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-01-11T22:31:33.000Z",
+                            "updated_at": "2022-01-11T22:31:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25915,
+                                "alternative_id": 13406
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13407,
+                    "question_id": 3256,
+                    "description": "C3bBb.",
+                    "explanation": "- Acertou! Muito bem, Doc! 👏\n- C3bBb é a enzima C3 convertase gerada na via alternativa do complemento e é responsável por separar o pequeno peptídeo C3a, deixando C3b como um resíduo.\n- Observe: https://www.msdmanuals.com/pt/profissional/imunologia-dist%C3%BArbios-al%C3%A9rgicos/biologia-do-sistema-imunit%C3%A1rio/sistema-complemento",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-16T00:27:27.000Z",
+                    "updated_at": "2022-01-11T22:49:04.000Z",
+                    "files": [
+                        {
+                            "id": 25915,
+                            "file": "2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "name": "IMM_complement_activation_pt.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-01-11T22:31:33.000Z",
+                            "updated_at": "2022-01-11T22:31:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25915,
+                                "alternative_id": 13407
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13408,
+                    "question_id": 3256,
+                    "description": "Fator B.",
+                    "explanation": "- Falso, Doc! 🤔\n- **C3bBb** é a enzima C3 convertase gerada na via alternativa do complemento e é responsável por separar o pequeno peptídeo C3a, deixando C3b como um resíduo.\n- Observe: https://www.msdmanuals.com/pt/profissional/imunologia-dist%C3%BArbios-al%C3%A9rgicos/biologia-do-sistema-imunit%C3%A1rio/sistema-complemento",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:27:27.000Z",
+                    "updated_at": "2022-01-11T22:49:04.000Z",
+                    "files": [
+                        {
+                            "id": 25915,
+                            "file": "2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "name": "IMM_complement_activation_pt.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-01-11T22:31:33.000Z",
+                            "updated_at": "2022-01-11T22:31:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25915,
+                                "alternative_id": 13408
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13409,
+                    "question_id": 3256,
+                    "description": "Fator D.",
+                    "explanation": "- Falso, Doc! 🤔\n- **C3bBb** é a enzima C3 convertase gerada na via alternativa do complemento e é responsável por separar o pequeno peptídeo C3a, deixando C3b como um resíduo.\n- Observe: https://www.msdmanuals.com/pt/profissional/imunologia-dist%C3%BArbios-al%C3%A9rgicos/biologia-do-sistema-imunit%C3%A1rio/sistema-complemento",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:27:27.000Z",
+                    "updated_at": "2022-01-11T22:49:04.000Z",
+                    "files": [
+                        {
+                            "id": 25915,
+                            "file": "2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "name": "IMM_complement_activation_pt.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-01-11T22:31:33.000Z",
+                            "updated_at": "2022-01-11T22:31:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25915,
+                                "alternative_id": 13409
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3256,
+                "questionary_id": 262105,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3257,
+            "institution_id": 4,
+            "description": "O complexo de ataque a membrana (MAC) consiste em?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-16T00:31:08.000Z",
+            "updated_at": "2022-01-11T22:46:31.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 339,
+                    "title": "Sistema complemento",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2020-07-16T02:59:55.000Z",
+                    "updated_at": "2020-07-16T02:59:55.000Z",
+                    "pivot": {
+                        "discipline_id": 339,
+                        "question_id": 3257
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 13410,
+                    "question_id": 3257,
+                    "description": "OH.",
+                    "explanation": "- Falso, Doc! 😣\n- C5b, 6, 7, 8 e 9 são os componentes finais que formam um complexo que se insere na membrana para formar um canal iônico transmembrana que leva à lise da célula (MAC).\n- Observe: https://www.wikiwand.com/pt/Complexo_de_ataque_%C3%A0_membrana",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:31:08.000Z",
+                    "updated_at": "2022-01-11T22:46:31.000Z",
+                    "files": [
+                        {
+                            "id": 25916,
+                            "file": "47c51b3d-c866-4b90-9259-9dc821d2f74a.png",
+                            "name": "700px-Formowanie_MAC-en.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T22:44:53.000Z",
+                            "updated_at": "2022-01-11T22:44:53.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/47c51b3d-c866-4b90-9259-9dc821d2f74a.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25916,
+                                "alternative_id": 13410
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13411,
+                    "question_id": 3257,
+                    "description": "C3b3b e Bb.",
+                    "explanation": "- Falso, Doc! 😣\n- C5b, 6, 7, 8 e 9 são os componentes finais que formam um complexo que se insere na membrana para formar um canal iônico transmembrana que leva à lise da célula (MAC).\n- Observe: https://www.wikiwand.com/pt/Complexo_de_ataque_%C3%A0_membrana",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:31:08.000Z",
+                    "updated_at": "2022-01-11T22:46:31.000Z",
+                    "files": [
+                        {
+                            "id": 25916,
+                            "file": "47c51b3d-c866-4b90-9259-9dc821d2f74a.png",
+                            "name": "700px-Formowanie_MAC-en.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T22:44:53.000Z",
+                            "updated_at": "2022-01-11T22:44:53.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/47c51b3d-c866-4b90-9259-9dc821d2f74a.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25916,
+                                "alternative_id": 13411
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13412,
+                    "question_id": 3257,
+                    "description": "C5b, 6, 7, 8 e 9.",
+                    "explanation": "- Perfeito! Arrasou! 😻\n- C5b, 6, 7, 8 e 9 são os componentes finais que formam um complexo que se insere na membrana para formar um canal iônico transmembrana que leva à lise da célula (MAC).\n- Observe: https://www.wikiwand.com/pt/Complexo_de_ataque_%C3%A0_membrana",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-16T00:31:08.000Z",
+                    "updated_at": "2022-01-11T22:46:31.000Z",
+                    "files": [
+                        {
+                            "id": 25916,
+                            "file": "47c51b3d-c866-4b90-9259-9dc821d2f74a.png",
+                            "name": "700px-Formowanie_MAC-en.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T22:44:53.000Z",
+                            "updated_at": "2022-01-11T22:44:53.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/47c51b3d-c866-4b90-9259-9dc821d2f74a.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25916,
+                                "alternative_id": 13412
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13413,
+                    "question_id": 3257,
+                    "description": "Properdina.",
+                    "explanation": "- Falso, Doc! 😣\n- A properdina ou fator P é um componente da via alternativa que estabiliza a C3 convertase C3bBb.\n- C5b, 6, 7, 8 e 9 são os componentes finais que formam um complexo que se insere na membrana para formar um canal iônico transmembrana que leva à lise da célula (MAC).\n- Observe: https://www.wikiwand.com/pt/Complexo_de_ataque_%C3%A0_membrana",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:31:08.000Z",
+                    "updated_at": "2022-01-11T22:46:31.000Z",
+                    "files": [
+                        {
+                            "id": 25916,
+                            "file": "47c51b3d-c866-4b90-9259-9dc821d2f74a.png",
+                            "name": "700px-Formowanie_MAC-en.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T22:44:53.000Z",
+                            "updated_at": "2022-01-11T22:44:53.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/47c51b3d-c866-4b90-9259-9dc821d2f74a.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25916,
+                                "alternative_id": 13413
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3257,
+                "questionary_id": 262105,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3258,
+            "institution_id": 4,
+            "description": "Sobre o sistema complemento, assinale a alternativa **INCORRETA**:",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-16T00:38:22.000Z",
+            "updated_at": "2022-01-11T22:42:20.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 339,
+                    "title": "Sistema complemento",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2020-07-16T02:59:55.000Z",
+                    "updated_at": "2020-07-16T02:59:55.000Z",
+                    "pivot": {
+                        "discipline_id": 339,
+                        "question_id": 3258
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 13414,
+                    "question_id": 3258,
+                    "description": "A partir da temperatura de 56ºC, o sistema complemento deixa de agir.",
+                    "explanation": "- Essa está certinha, Doc! 😜\n- É a partir dessa temperatura que ocorre a desnaturação das proteínas do sistema complemento.\n- Observe o esqueminha: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:38:22.000Z",
+                    "updated_at": "2022-01-11T22:42:20.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 13414
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13415,
+                    "question_id": 3258,
+                    "description": "O objetivo final do sistema complemento é a formação de um poro na parede/membrana celular bacteriana.",
+                    "explanation": "- Essa está certinha, Doc! 😜\n- O objetivo é formar o chamado Complexo de Ataque a Membrana, que nada mais é do que um canal iônico transmembrana, que leva à lise celular.\n- Observe o esqueminha: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:38:22.000Z",
+                    "updated_at": "2022-01-11T22:42:20.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 13415
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13416,
+                    "question_id": 3258,
+                    "description": "O sistema complemento atua através de uma cascata de zimogênios.",
+                    "explanation": "- Essa está certinha, Doc! 😜\n- Zimogênios são proteínas que adquirem atividade enzimática proteolítica através da ativação por outras proteases.\n- Observe o esqueminha: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:38:22.000Z",
+                    "updated_at": "2022-01-11T22:42:20.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 13416
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13417,
+                    "question_id": 3258,
+                    "description": "O sistema complemento pode ser ativado por apenas uma via específica.",
+                    "explanation": "- Acertou, Doc! Essa é a alternativa **incorreta**! 😍 \n- O sistema complemento possui 3 vias de ativação:\n- Via alternativa: pela superfície do patógeno.\n- Via clássica: via IgG ou IgM.\n- Via das lectinas: via manose, presente em muitos micróbios.\n- Observe e compare as 3 vias: https://aia1317.fandom.com/pt-br/wiki/Sistema_Complemento_-_Via_Cl%C3%A1ssica",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-07-16T00:38:22.000Z",
+                    "updated_at": "2022-01-11T22:42:20.000Z",
+                    "files": [
+                        {
+                            "id": 25914,
+                            "file": "f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "name": "Figura12_6.JPG.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-11T22:04:51.000Z",
+                            "updated_at": "2022-01-11T22:04:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25914,
+                                "alternative_id": 13417
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3258,
+                "questionary_id": 262105,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3259,
+            "institution_id": 4,
+            "description": "Sobre o sistema complemento, assinale a alternativa correta:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-16T00:42:11.000Z",
+            "updated_at": "2022-01-11T22:38:44.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 339,
+                    "title": "Sistema complemento",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2020-07-16T02:59:55.000Z",
+                    "updated_at": "2020-07-16T02:59:55.000Z",
+                    "pivot": {
+                        "discipline_id": 339,
+                        "question_id": 3259
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 13418,
+                    "question_id": 3259,
+                    "description": "A via clássica é ativada pelas lectinas.",
+                    "explanation": "- Falso, Doc! 😣\n- A via clássica é ativada por complexos antígeno-anticorpo.\n- Observe e compare as 3 vias: https://aia1317.fandom.com/pt-br/wiki/Sistema_Complemento_-_Via_Cl%C3%A1ssica",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:42:11.000Z",
+                    "updated_at": "2022-01-11T22:38:44.000Z",
+                    "files": [
+                        {
+                            "id": 25914,
+                            "file": "f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "name": "Figura12_6.JPG.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-11T22:04:51.000Z",
+                            "updated_at": "2022-01-11T22:04:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25914,
+                                "alternative_id": 13418
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13419,
+                    "question_id": 3259,
+                    "description": "A via alternativa é formada por complexos antígeno-anticorpo.",
+                    "explanation": "- Falso, Doc! 😣\n- A via alternativa é ativada pela membrana celular do micróbio, sem a presença de anticorpos.\n- Observe e compare as 3 vias: https://aia1317.fandom.com/pt-br/wiki/Sistema_Complemento_-_Via_Cl%C3%A1ssica",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:42:11.000Z",
+                    "updated_at": "2022-01-11T22:38:44.000Z",
+                    "files": [
+                        {
+                            "id": 25914,
+                            "file": "f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "name": "Figura12_6.JPG.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-11T22:04:51.000Z",
+                            "updated_at": "2022-01-11T22:04:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25914,
+                                "alternative_id": 13419
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13420,
+                    "question_id": 3259,
+                    "description": "A via das lectinas é ativada ao ligar-se a um resíduo microbiano de manose.",
+                    "explanation": "- Correto! Parabéns, Doc! 🎉\n- A lectina plasmática ativa o complemento ao ligar-se a um resíduo de manose do micróbrio.\n- Observe e compare as 3 vias: https://aia1317.fandom.com/pt-br/wiki/Sistema_Complemento_-_Via_Cl%C3%A1ssica",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-16T00:42:11.000Z",
+                    "updated_at": "2022-01-11T22:38:44.000Z",
+                    "files": [
+                        {
+                            "id": 25914,
+                            "file": "f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "name": "Figura12_6.JPG.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-11T22:04:51.000Z",
+                            "updated_at": "2022-01-11T22:04:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25914,
+                                "alternative_id": 13420
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13421,
+                    "question_id": 3259,
+                    "description": "Filogeneticamente, a via clássica é a mais antiga.",
+                    "explanation": "- Falso, Doc! 😣\n- A mais antiga é a via alternativa, já que depende apenas da membrana celular do micróbio e não envolve anticorpos como a via clássica.\n- Observe e compare as 3 vias: https://aia1317.fandom.com/pt-br/wiki/Sistema_Complemento_-_Via_Cl%C3%A1ssica",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:42:11.000Z",
+                    "updated_at": "2022-01-11T22:38:44.000Z",
+                    "files": [
+                        {
+                            "id": 25914,
+                            "file": "f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "name": "Figura12_6.JPG.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-11T22:04:51.000Z",
+                            "updated_at": "2022-01-11T22:04:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25914,
+                                "alternative_id": 13421
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3259,
+                "questionary_id": 262105,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3260,
+            "institution_id": 4,
+            "description": "Sobre o sistema complemento, assinale a alternativa correta:",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-16T00:48:52.000Z",
+            "updated_at": "2022-01-11T22:35:50.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 339,
+                    "title": "Sistema complemento",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2020-07-16T02:59:55.000Z",
+                    "updated_at": "2020-07-16T02:59:55.000Z",
+                    "pivot": {
+                        "discipline_id": 339,
+                        "question_id": 3260
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 13422,
+                    "question_id": 3260,
+                    "description": "A proteína mais abundante do complemento é a C5.",
+                    "explanation": "- Falso, Doc! 😜\n- A proteína mais abundante é a C3.\n- Observe: https://www.msdmanuals.com/pt/profissional/imunologia-dist%C3%BArbios-al%C3%A9rgicos/biologia-do-sistema-imunit%C3%A1rio/sistema-complemento",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:48:52.000Z",
+                    "updated_at": "2022-01-11T22:35:50.000Z",
+                    "files": [
+                        {
+                            "id": 25915,
+                            "file": "2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "name": "IMM_complement_activation_pt.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-01-11T22:31:33.000Z",
+                            "updated_at": "2022-01-11T22:31:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25915,
+                                "alternative_id": 13422
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13423,
+                    "question_id": 3260,
+                    "description": "A via de ativação clássica é um mecanismo de imunidade inata.",
+                    "explanation": "- Falso, Doc! 😜\n- Como a via clássica envolve anticorpos, não podemos considerar imunidade inata.\n- Já as vias alternativa e via das lectinas são consideradas imunidade inata.\n- Observe e compare as 3 vias: https://aia1317.fandom.com/pt-br/wiki/Sistema_Complemento_-_Via_Cl%C3%A1ssica",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:48:52.000Z",
+                    "updated_at": "2022-01-11T22:35:50.000Z",
+                    "files": [
+                        {
+                            "id": 25914,
+                            "file": "f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "name": "Figura12_6.JPG.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-11T22:04:51.000Z",
+                            "updated_at": "2022-01-11T22:04:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25914,
+                                "alternative_id": 13423
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13424,
+                    "question_id": 3260,
+                    "description": "Os complexos proteolíticos mais importantes da cascata do complemento são: C3 convertase e C5 convertase.",
+                    "explanation": "- Perfeito, Doc! Arrasou! 😻 \n- Os complexos proteolíticos mais importantes da cascata do complemento são: C3 convertase e C5 convertase.\n- Observe-os: https://www.msdmanuals.com/pt/profissional/imunologia-dist%C3%BArbios-al%C3%A9rgicos/biologia-do-sistema-imunit%C3%A1rio/sistema-complemento",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-16T00:48:52.000Z",
+                    "updated_at": "2022-01-11T22:35:50.000Z",
+                    "files": [
+                        {
+                            "id": 25915,
+                            "file": "2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "name": "IMM_complement_activation_pt.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-01-11T22:31:33.000Z",
+                            "updated_at": "2022-01-11T22:31:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25915,
+                                "alternative_id": 13424
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13425,
+                    "question_id": 3260,
+                    "description": "Na clivagem do complemento, o componente \"b\" é sempre maior que o \"a\".",
+                    "explanation": "- Falso, Doc! 😜\n- Em quase todas as clivagens isso é verdade, menos em C2, que ocorre o contrário.\n- Observe o esqueminha: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:48:52.000Z",
+                    "updated_at": "2022-01-11T22:35:50.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 13425
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3260,
+                "questionary_id": 262105,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3261,
+            "institution_id": 4,
+            "description": "Sobre o sistema complemento, assinale a alternativa correta:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-16T00:52:38.000Z",
+            "updated_at": "2022-01-11T22:31:37.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 339,
+                    "title": "Sistema complemento",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2020-07-16T02:59:55.000Z",
+                    "updated_at": "2020-07-16T02:59:55.000Z",
+                    "pivot": {
+                        "discipline_id": 339,
+                        "question_id": 3261
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 13426,
+                    "question_id": 3261,
+                    "description": "A C5 convertase vem primeiro na cascata do que a C3 convertase.",
+                    "explanation": "- Falso! 🙀\n- A C3 convertase vem primeiro que a C5.\n- Observe: https://www.msdmanuals.com/pt/profissional/imunologia-dist%C3%BArbios-al%C3%A9rgicos/biologia-do-sistema-imunit%C3%A1rio/sistema-complemento",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:52:38.000Z",
+                    "updated_at": "2022-01-11T22:31:37.000Z",
+                    "files": [
+                        {
+                            "id": 25915,
+                            "file": "2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "name": "IMM_complement_activation_pt.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-01-11T22:31:33.000Z",
+                            "updated_at": "2022-01-11T22:31:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2c0afbb5-deeb-469e-9a52-665641e6345b.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25915,
+                                "alternative_id": 13426
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13427,
+                    "question_id": 3261,
+                    "description": "A partir da clivagem de C5, as 3 vias de ativação do complemento são iguais.",
+                    "explanation": "- Verdadeiro! Muito bem, Doc! 😻\n- É a partir da clivagem de C5 que as 3 vias se tornam iguais.\n- Observe e compare as 3 vias: https://aia1317.fandom.com/pt-br/wiki/Sistema_Complemento_-_Via_Cl%C3%A1ssica",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-16T00:52:38.000Z",
+                    "updated_at": "2022-01-11T22:31:37.000Z",
+                    "files": [
+                        {
+                            "id": 25914,
+                            "file": "f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "name": "Figura12_6.JPG.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-11T22:04:51.000Z",
+                            "updated_at": "2022-01-11T22:04:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25914,
+                                "alternative_id": 13427
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13428,
+                    "question_id": 3261,
+                    "description": "Na via alternativa, C3 convertase é constituída por C3bBa.",
+                    "explanation": "- Falso! 🙀\n- Quase isso: na via alternativa, C3 convertase é constituída por C3bB**b.**\n- Observe e compare as 3 vias: https://aia1317.fandom.com/pt-br/wiki/Sistema_Complemento_-_Via_Cl%C3%A1ssica",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:52:39.000Z",
+                    "updated_at": "2022-01-11T22:31:37.000Z",
+                    "files": [
+                        {
+                            "id": 25914,
+                            "file": "f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "name": "Figura12_6.JPG.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-11T22:04:51.000Z",
+                            "updated_at": "2022-01-11T22:04:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25914,
+                                "alternative_id": 13428
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13429,
+                    "question_id": 3261,
+                    "description": "Os anticorpos que podem desencadear a ativação do complemento pela via clássica são IgM e IgA.",
+                    "explanation": "- Falso! 🙀\n- Os anticorpos que podem desencadear a ativação do complemento pela via clássica são IgM e IgG!\n- Observe e compare as 3 vias: https://aia1317.fandom.com/pt-br/wiki/Sistema_Complemento_-_Via_Cl%C3%A1ssica",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:52:39.000Z",
+                    "updated_at": "2022-01-11T22:31:37.000Z",
+                    "files": [
+                        {
+                            "id": 25914,
+                            "file": "f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "name": "Figura12_6.JPG.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-11T22:04:51.000Z",
+                            "updated_at": "2022-01-11T22:04:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25914,
+                                "alternative_id": 13429
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3261,
+                "questionary_id": 262105,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7085,
+            "institution_id": 4,
+            "description": "O sistema complemento é composto por proteínas circulantes e presentes na membrana celular que são muito importantes para a defesa do hospedeiro contra microrganismos. Sobre o sistema complemento, assinale o que for **INCORRETO**:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-04-05T12:43:32.000Z",
+            "updated_at": "2022-01-11T22:27:46.000Z",
+            "user_id": 184,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 339,
+                    "title": "Sistema complemento",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2020-07-16T02:59:55.000Z",
+                    "updated_at": "2020-07-16T02:59:55.000Z",
+                    "pivot": {
+                        "discipline_id": 339,
+                        "question_id": 7085
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 29142,
+                    "question_id": 7085,
+                    "description": "O termo \"complemento\" se dá devido à capacidade das proteínas de auxiliarem e complementarem a atividade antimicrobiana dos anticorpos.",
+                    "explanation": "- Essa está certinha, Doc! 😉\n- O termo complemento está relacionado à capacidade das proteínas do sistema complemento de auxiliarem e complementarem a atividade antimicrobiana dos anticorpos.\n- Observe o esqueminha: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-04-05T12:43:32.000Z",
+                    "updated_at": "2022-01-11T22:27:46.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 29142
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 29143,
+                    "question_id": 7085,
+                    "description": "O sistema complemento pode atuar na imunidade adquirida, quando na ausência de anticorpos, e na imunidade inata, quando na presença de anticorpos.",
+                    "explanation": "- Acertou, Doc! Essa é a alternativa **incorreta**! 😻\n- O sistema complemento pode ser ativado na ausência de anticorpos, quando parte da imunidade inata. Também pode ser ativado pelos anticorpos ligados aos microrganismos, quando parte da imunidade adquirida.\n- Observe o esqueminha: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-04-05T12:43:32.000Z",
+                    "updated_at": "2022-01-11T22:27:46.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 29143
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 29144,
+                    "question_id": 7085,
+                    "description": "As proteínas do complemento são ativadas pela clivagem proteolítica, que gera moléculas efetoras na eliminação dos microorganismos.",
+                    "explanation": "- Essa está certinha, Doc! 😉\n- A ativação das proteínas do complemento se dá pela clivagem proteolítica sequencial das mesmas, levando à formação de moléculas efetoras que irão participar da eliminação dos microrganismos.\n- Observe o esqueminha: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-04-05T12:43:32.000Z",
+                    "updated_at": "2022-01-11T22:27:46.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 29144
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 29145,
+                    "question_id": 7085,
+                    "description": "O sistema complemento é regulado por moléculas presentes nas células, buscando impedir ativação descontrolada e nociva.",
+                    "explanation": "- Essa está certinha, Doc! 😉\n- O sistema complemento é rigorosamente controlado por moléculas presentes nas células do hospedeiro. A regulação do sistema complemento impede uma ativação descontrolada e nociva.\n- Observe o esqueminha: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-04-05T12:43:32.000Z",
+                    "updated_at": "2022-01-11T22:27:46.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 29145
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7085,
+                "questionary_id": 262105,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7086,
+            "institution_id": 4,
+            "description": "Existem três principais vias de ativação do sistema complemento. Sobre elas, assinale o que for correto:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-04-05T16:11:36.000Z",
+            "updated_at": "2022-01-12T01:05:35.000Z",
+            "user_id": 184,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 339,
+                    "title": "Sistema complemento",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2020-07-16T02:59:55.000Z",
+                    "updated_at": "2020-07-16T02:59:55.000Z",
+                    "pivot": {
+                        "discipline_id": 339,
+                        "question_id": 7086
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 29146,
+                    "question_id": 7086,
+                    "description": "A via clássica de ativação do complemento é iniciada por microrganismos na ausência de anticorpos.",
+                    "explanation": "- Falso, Doc! 🤔\n- **Via alternativa de ativação e via da lectina**: são ativadas por microrganismos na ausência de anticorpos.\n- **Via de ativação clássica**: é ativada por isótipos de anticorpos ligados a antígenos.\n- Observe: https://aia1317.fandom.com/pt-br/wiki/Sistema_Complemento_-_Via_Cl%C3%A1ssica",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-04-05T13:11:36.000Z",
+                    "updated_at": "2022-01-11T22:05:35.000Z",
+                    "files": [
+                        {
+                            "id": 25914,
+                            "file": "f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "name": "Figura12_6.JPG.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-11T22:04:51.000Z",
+                            "updated_at": "2022-01-11T22:04:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25914,
+                                "alternative_id": 29146
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 29147,
+                    "question_id": 7086,
+                    "description": "A proteína do sistema complemento mais abundante no plasma é a C5.",
+                    "explanation": "- Falso, Doc! 🤔\n- A proteína do sistema complemento mais abundante no plasma é a C3, que desempenha um papel fundamental em todas as três vias de ativação.\n- Observe e compare, Doc: https://aia1317.fandom.com/pt-br/wiki/Sistema_Complemento_-_Via_Cl%C3%A1ssica",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-04-05T13:11:36.000Z",
+                    "updated_at": "2022-01-11T22:05:35.000Z",
+                    "files": [
+                        {
+                            "id": 25914,
+                            "file": "f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "name": "Figura12_6.JPG.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-11T22:04:51.000Z",
+                            "updated_at": "2022-01-11T22:04:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25914,
+                                "alternative_id": 29147
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 29148,
+                    "question_id": 7086,
+                    "description": "A via alternativa de ativação do complemento é iniciada quando uma molécula de C3b é depositada na superfície de um microrganismo.",
+                    "explanation": "- Perfeito, Doc! 🤗\n- A via alternativa de ativação do complemento é iniciada quando uma molécula de C3b é depositada na superfície de um microrganismo.\n- 1) Hidrólise de C3 -> gera C3b.\n- 2) C3b -> forma ligações com a superfície de um microrganismo, ativando a via alternativa.\n- 3) C3b -> se liga ao fator B.\n- 4) Fator B -> é degradado em fator Bb.\n- 5) Forma-se o complexo C3bBb.\n- 6) Forma-se o complexo C5 convertase, que rompe a proteína C5 do complemento e inicia as etapas finais de ativação do complemento.\n- Observe: https://aia1317.fandom.com/pt-br/wiki/Sistema_Complemento_-_Via_Cl%C3%A1ssica",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-04-05T13:11:36.000Z",
+                    "updated_at": "2022-01-11T22:05:35.000Z",
+                    "files": [
+                        {
+                            "id": 25914,
+                            "file": "f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "name": "Figura12_6.JPG.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-11T22:04:51.000Z",
+                            "updated_at": "2022-01-11T22:04:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25914,
+                                "alternative_id": 29148
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 29149,
+                    "question_id": 7086,
+                    "description": "A via clássica de ativação do complemento é desencadeada por IgM ou IgD.",
+                    "explanation": "- Falso, Doc! 🤔\n- A via clássica de ativação do complemento é desencadeada quando IgMs ou IgGs se ligam aos antígenos.\n- 1) Ligação anticorpo - antígeno.\n- 2) Ligação C1 - anticorpo. \n- 3) C1 cliva C4 e C2. \n- 4) C4b (fragmento de C4) se liga a C2 formando o complexo C4b2a. \n- 5) C3 se liga a este complexo, funcionando como C5 convertase e clivando a proteína C5.\n- Observe: https://aia1317.fandom.com/pt-br/wiki/Sistema_Complemento_-_Via_Cl%C3%A1ssica",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-04-05T13:11:36.000Z",
+                    "updated_at": "2022-01-11T22:05:35.000Z",
+                    "files": [
+                        {
+                            "id": 25914,
+                            "file": "f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "name": "Figura12_6.JPG.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-11T22:04:51.000Z",
+                            "updated_at": "2022-01-11T22:04:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f2745038-839e-42ce-8271-cf67bd31eb50.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25914,
+                                "alternative_id": 29149
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7086,
+                "questionary_id": 262105,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3252,
+            "institution_id": 4,
+            "description": "Sobre o sistema complemento, podemos dizer que C3b é um?",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-16T03:09:37.000Z",
+            "updated_at": "2022-01-12T02:03:17.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 339,
+                    "title": "Sistema complemento",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2020-07-16T02:59:55.000Z",
+                    "updated_at": "2020-07-16T02:59:55.000Z",
+                    "pivot": {
+                        "discipline_id": 339,
+                        "question_id": 3252
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 13390,
+                    "question_id": 3252,
+                    "description": "Quimiotáxico.",
+                    "explanation": "- Falso, Doc! 🤔\n- A bactéria, quando coberta por C3b, adere-se a receptores C3b em células fagocíticas profissionais. Ou seja, ele age como um agente opsonizador.\n- Observe: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:09:38.000Z",
+                    "updated_at": "2022-01-11T23:03:17.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 13390
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13391,
+                    "question_id": 3252,
+                    "description": "É uma anafilotoxina.",
+                    "explanation": "- Falso, Doc! 🤔\n- A bactéria, quando coberta por C3b, adere-se a receptores C3b em células fagocíticas profissionais. Ou seja, ele age como um agente opsonizador.\n- Observe: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:09:38.000Z",
+                    "updated_at": "2022-01-11T23:03:17.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 13391
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13392,
+                    "question_id": 3252,
+                    "description": "Opsonizador de bactéria.",
+                    "explanation": "- Acertou! Muito bem! 😍\n- A bactéria, quando coberta por C3b, adere-se a receptores C3b em células fagocíticas profissionais. Ou seja, ele age como um agente opsonizador.\n- Observe: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-16T00:09:38.000Z",
+                    "updated_at": "2022-01-11T23:03:17.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 13392
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13393,
+                    "question_id": 3252,
+                    "description": "Causador de dano direto à bactéria.",
+                    "explanation": "- Falso, Doc! 🤔\n- A bactéria, quando coberta por C3b, adere-se a receptores C3b em células fagocíticas profissionais. Ou seja, ele age como um agente opsonizador.\n- Observe: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:09:38.000Z",
+                    "updated_at": "2022-01-11T23:03:17.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 13393
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3252,
+                "questionary_id": 262105,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7087,
+            "institution_id": 4,
+            "description": "Sobre o sistema complemento, assinale o que for correto:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-04-05T16:29:03.000Z",
+            "updated_at": "2022-01-12T01:00:19.000Z",
+            "user_id": 184,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 339,
+                    "title": "Sistema complemento",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2020-07-16T02:59:55.000Z",
+                    "updated_at": "2020-07-16T02:59:55.000Z",
+                    "pivot": {
+                        "discipline_id": 339,
+                        "question_id": 7087
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 29150,
+                    "question_id": 7087,
+                    "description": "O sistema complemento também estimula o desenvolvimento de respostas imunes humorais através da proteína C4.",
+                    "explanation": "- Falso, Doc! 🙈\n- Quando C3 é ativado, clivado e libera C3d, os receptores do complemento tipo 2 (CR2) dos linfócitos B identificam a presença de C3d.\n- Após esta identificação, ocorre ativação dos linfócitos B, desencadeando respostas imunes humorais.\n- Observe o esqueminha: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-04-05T13:29:03.000Z",
+                    "updated_at": "2022-01-11T22:00:19.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 29150
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 29151,
+                    "question_id": 7087,
+                    "description": "Moléculas de C5b funcionam como marcadores de opsonização de microrganismos, permitindo a fagocitose.",
+                    "explanation": "- Falso, Doc! 🙈\n- Moléculas de C3b se ligam aos microrganismos, funcionando como forma de opsonização.\n- O reconhecimento do C3b pelos fagócitos permite a fagocitose e a morte de microrganismo.\n- Observe o esqueminha: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-04-05T13:29:03.000Z",
+                    "updated_at": "2022-01-11T22:00:19.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 29151
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 29152,
+                    "question_id": 7087,
+                    "description": "A formação do complexo de ataque à membrana (MAC) pela molécula de poli-C9 é o resultado final da ativação do complemento.",
+                    "explanation": "- Exatamente! Parabéns, Doc! 🤗\n- Após a clivagem da proteína C5, há a formação da molécula C5b.\n- Os componentes restantes do sistema complemento: C6, C7, C8 e C9 se ligam ao complexo formado pela molécula de C5b.\n- A proteína C9, então, se polimeriza para formar um poro na membrana do microrganismo, permitindo a passagem de água e íons e a consequente morte do invasor.\n- O poli-C9 é o componente chave do complexo de ataque de membrana (MAC), sendo o resultado final da ativação do complemento.\n- Observe o esqueminha: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-04-05T13:29:03.000Z",
+                    "updated_at": "2022-01-11T22:00:19.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 29152
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 29153,
+                    "question_id": 7087,
+                    "description": "A via da lectina de ativação do complemento é também iniciada por anticorpos, sendo muito similar à via clássica, com poucas e pontuais modificações.",
+                    "explanation": "- Falso, Doc! 🙈\n- A via da lectina de ativação do complemento não é iniciada por anticorpos.\n- Na verdade, ela é iniciada pela ligação da lectina ligante de manose plasmática a um microrganismo.\n- Esta lectina é estruturalmente similar ao C1 da via clássica, servindo para ativar C4. As etapas sequenciais são as mesmas da via clássica.\n- Observe o esqueminha: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-04-05T13:29:03.000Z",
+                    "updated_at": "2022-01-11T22:00:19.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 29153
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7087,
+                "questionary_id": 262105,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7088,
+            "institution_id": 4,
+            "description": "Assinale a alternativa que apresenta **ERRO:**",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-04-05T16:41:34.000Z",
+            "updated_at": "2022-01-12T00:56:46.000Z",
+            "user_id": 184,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 339,
+                    "title": "Sistema complemento",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2020-07-16T02:59:55.000Z",
+                    "updated_at": "2020-07-16T02:59:55.000Z",
+                    "pivot": {
+                        "discipline_id": 339,
+                        "question_id": 7088
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 29154,
+                    "question_id": 7088,
+                    "description": "A deficiência de C1 INH é a causa da hemoglobinúria paroxística noturna, que provoca a lise dos eritrócitos.",
+                    "explanation": "- Acertou, Doc! Essa é a alternativa **incorreta**! 🤓\n- A hemoglobinúria paroxística noturna é resultado da deficiência das células-tronco hematopoiéticas na produção de uma enzima que sintetiza uma espécie de \"âncora\" de moléculas na membrana celular, incluindo DAF e CD59, moléculas regulatórias do complemento.\n- A falta destas moléculas provoca ativação descontrolada do complemento, levando à lise dos eritrócitos.\n- Imagem: https://pebmed.com.br/o-que-o-clinico-precisa-saber-sobre-hemoglobinuria-paroxistica-noturna/",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-04-05T13:41:34.000Z",
+                    "updated_at": "2022-01-11T21:56:46.000Z",
+                    "files": [
+                        {
+                            "id": 25913,
+                            "file": "08afb092-7432-46cc-aff7-e58cdcb7a116.png",
+                            "name": "hemoglobinúria-paroxísticanoturna.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:56:38.000Z",
+                            "updated_at": "2022-01-11T21:56:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/08afb092-7432-46cc-aff7-e58cdcb7a116.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25913,
+                                "alternative_id": 29154
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 29155,
+                    "question_id": 7088,
+                    "description": "O fator de aceleração do decaimento (DAF) é uma proteína reguladora do sistema complemento, pois interrompe a ligação entre diversos fatores, impedindo a ativação do complemento.",
+                    "explanation": "- Essa está correta, Doc! 😉\n- O fator de aceleração do decaimento (DAF) é uma proteína que interrompe a ligação do fator Bb com C3b e do fator C4b com C2a, bloqueando a formação da C3 convertase e impedindo a ativação do sistema complemento na via alternativa e na via clássica.\n- Observe o esqueminha, Doc: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-04-05T13:41:34.000Z",
+                    "updated_at": "2022-01-11T21:56:46.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 29155
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 29156,
+                    "question_id": 7088,
+                    "description": "Deficiências hereditárias nas proteínas do sistema complemento podem causar doenças que comprometem o sistema imune de seres humanos.",
+                    "explanation": "- Essa está correta, Doc! 😉\n- A deficiência de C3, por exemplo, resulta em suscetibilidade a infecções, podendo ser fatal no início da vida.\n- Deficiências em C2 e C4 podem estar associadas ao lúpus eritematoso sistêmico.\n- Observe o esqueminha, Doc: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-04-05T13:41:34.000Z",
+                    "updated_at": "2022-01-11T21:56:46.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 29156
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 29157,
+                    "question_id": 7088,
+                    "description": "Fragmentos de C3, C4 e C5 são quimiotáticos para neutrófilos, além de estimular a liberação de mediadores inflamatórios.",
+                    "explanation": "- Essa está correta, Doc! 😉\n- Fragmentos peptídicos de C3, C4 e C5 são quimiotáticos para neutrófilos, estimulando a liberação de mediadores inflamatórios de diversos leucócitos e agindo nas células endoteliais para aumentar o movimento destes leucócitos.\n- Portanto, os fragmentos do complemento induzem reações inflamatórias que também servem para eliminar microrganismos.\n- Observe o esqueminha, Doc: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-04-05T13:41:34.000Z",
+                    "updated_at": "2022-01-11T21:56:46.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 29157
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7088,
+                "questionary_id": 262105,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7089,
+            "institution_id": 4,
+            "description": "Assinale o que for correto sobre o sistema complemento:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-04-05T16:49:17.000Z",
+            "updated_at": "2022-01-12T00:51:14.000Z",
+            "user_id": 184,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 339,
+                    "title": "Sistema complemento",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2020-07-16T02:59:55.000Z",
+                    "updated_at": "2020-07-16T02:59:55.000Z",
+                    "pivot": {
+                        "discipline_id": 339,
+                        "question_id": 7089
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 29158,
+                    "question_id": 7089,
+                    "description": "O edema angioneurótico hereditário é causado por uma deficiência de C1 INH.",
+                    "explanation": "- Perfeito, Doc! Acertou! 😍\n- A deficiência de C1 INH é a causa do edema angioneurótico hereditário, no qual há uma ativação excessiva de C1, produzindo fragmentos proteicos vasoativos que levam ao escape de líquido na laringe e em outros tecidos.\n- Observe o esqueminha: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-04-05T13:49:17.000Z",
+                    "updated_at": "2022-01-11T21:51:14.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 29158
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 29159,
+                    "question_id": 7089,
+                    "description": "A proteína C1 inicia a via alternativa de ativação do sistema complemento.",
+                    "explanation": "- Errado, Doc! 🤔\n- A proteína C1 inicia a via clássiva de ativação do complemento. C1q se liga à porção Fc do anticorpo. Posteriormente, C1r e C1s agem como proteases para clivar e ativar C4 e C2.\n- Observe o esqueminha: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-04-05T13:49:17.000Z",
+                    "updated_at": "2022-01-11T21:51:14.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 29159
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 29160,
+                    "question_id": 7089,
+                    "description": "A proteína C5 é o principal componente do MAC.",
+                    "explanation": "- Errado, Doc! 🤔\n- C5b inicia a organização do complexo de ataque à membrana (MAC). Componentes do MAC: C6, C7, C8 e C9.\n- Observe o esqueminha: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-04-05T13:49:17.000Z",
+                    "updated_at": "2022-01-11T21:51:14.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 29160
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 29161,
+                    "question_id": 7089,
+                    "description": "C8 é um componente do MAC que se liga ao C5b para formar poros na membrana do microrganismo.",
+                    "explanation": "- Errado, Doc! 🤔\n- C8 é um componente do MAC que se liga a C5b para iniciar a polimerização de C9. C9 é quem se polimeriza para formar poros na membrana do organismo invasor!\n- Observe o esqueminha: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-04-05T13:49:17.000Z",
+                    "updated_at": "2022-01-11T21:51:14.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 29161
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7089,
+                "questionary_id": 262105,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3253,
+            "institution_id": 4,
+            "description": "Qual dos componentes do sistema complemento  é altamente quimiotáxico para neutrófilos?",
+            "difficulty": "hard",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-16T03:12:57.000Z",
+            "updated_at": "2022-01-12T02:00:25.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 339,
+                    "title": "Sistema complemento",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2020-07-16T02:59:55.000Z",
+                    "updated_at": "2020-07-16T02:59:55.000Z",
+                    "pivot": {
+                        "discipline_id": 339,
+                        "question_id": 3253
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 13394,
+                    "question_id": 3253,
+                    "description": "C9.",
+                    "explanation": "- Errado, Doc! 🤔\n- O C9 é o componente final da cascata do complemento e forma parte do complexo de ataque à membrana.\n- **C5a** é um agente quimiotáxico poderoso e também é uma anafilotoxina (induz a degranulação de mastócitos).\n- Observe: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:12:57.000Z",
+                    "updated_at": "2022-01-11T23:00:25.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 13394
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13395,
+                    "question_id": 3253,
+                    "description": "C5a.",
+                    "explanation": "- Perfeito! 🎉\n- C5a é um agente quimiotáxico poderoso e também é uma anafilotoxina (induz a degranulação de mastócitos).\n- Observe: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-16T00:12:57.000Z",
+                    "updated_at": "2022-01-11T23:00:25.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 13395
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13396,
+                    "question_id": 3253,
+                    "description": "C3.",
+                    "explanation": "- Errado, Doc! 🤔\n- C3 não tem ação quimiotáxica direta. Sua clivagem gera C3a e C3b.\n- **C5a** é um agente quimiotáxico poderoso e também é uma anafilotoxina (induz a degranulação de mastócitos).\n- Observe: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:12:57.000Z",
+                    "updated_at": "2022-01-11T23:00:25.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 13396
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 13397,
+                    "question_id": 3253,
+                    "description": "C3b.",
+                    "explanation": "- Errado, Doc! 🤔\n- C3b é um opsonizador de microrganismos para facilitar a adesão deles às células fagocíticas.\n- **C5a** é um agente quimiotáxico poderoso e também é uma anafilotoxina (induz a degranulação de mastócitos).\n- Observe: https://www.passeidireto.com/pergunta/54322545/quais-as-tres-vias-do-sistema-complemento",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-16T00:12:57.000Z",
+                    "updated_at": "2022-01-11T23:00:25.000Z",
+                    "files": [
+                        {
+                            "id": 25912,
+                            "file": "7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "name": "d08a92eb-3fd6-452b-8871-f7e696193e8a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T21:50:38.000Z",
+                            "updated_at": "2022-01-11T21:50:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7fb9aaba-0f7b-42ca-b3a1-4dc9d1ed208c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25912,
+                                "alternative_id": 13397
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3253,
+                "questionary_id": 262105,
+                "timer": 0
+            }
+        }
+    ]
+}

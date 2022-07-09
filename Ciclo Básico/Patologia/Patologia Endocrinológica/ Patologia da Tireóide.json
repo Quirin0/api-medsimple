@@ -1,0 +1,916 @@
+{
+    "id": 261881,
+    "user_id": 1699,
+    "title": "Patologia da Tireóide",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-03T18:46:20.000Z",
+    "updated_at": "2022-07-03T18:46:20.000Z",
+    "study_plan_id": 8,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 870,
+            "institution_id": 4,
+            "description": "É comum todos saberem que o hipertireoidismo \"aumenta o metabolismo basal\". Assinale a opção que representa o principal mecanismo fisiopatológico por trás desse aumento no metabolismo basal:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-30T16:51:50.000Z",
+            "updated_at": "2020-05-30T16:51:50.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 112,
+                    "title": "Tireóide (Pato)",
+                    "description": null,
+                    "parent_id": 111,
+                    "is_enabled": true,
+                    "created_at": "2020-05-30T16:35:45.000Z",
+                    "updated_at": "2020-05-30T16:35:45.000Z",
+                    "pivot": {
+                        "discipline_id": 112,
+                        "question_id": 870
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3571,
+                    "question_id": 870,
+                    "description": "Aumento atividade do sistema nervoso parassimpático",
+                    "explanation": "Falso, na verdade aumenta a atividade do sistema nervoso SIMPÁTICO, através do aumento da expressão de receptores adrenérgicos Beta-1 ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-30T13:51:50.000Z",
+                    "updated_at": "2020-05-30T13:51:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3572,
+                    "question_id": 870,
+                    "description": "Aumento da atividade de ATP-sintase dependente de sódio e potássio",
+                    "explanation": "Perfeito, junto com a maior expressão de receptores adrenérgicos Beta-1 para ativar o sistema nervoso simpático, o aumento da atividade de ATP-sintase é uma das principais formas de você aumentar o metabolismo basal.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-30T13:51:50.000Z",
+                    "updated_at": "2020-05-30T13:51:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3573,
+                    "question_id": 870,
+                    "description": "Aumento da atividade da bomba de sódio e potássio",
+                    "explanation": "Falso. Na verdade é da ATP sintetase dependente de sódio e potássio e não da bomba.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-30T13:51:50.000Z",
+                    "updated_at": "2020-05-30T13:51:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3574,
+                    "question_id": 870,
+                    "description": "Aumento do sistema renina-antiotensina",
+                    "explanation": "Falso, esse sistema é regulado de acordo com os níveis de sódio que chegam no rim. De acordo com essa informação o rim libera renina.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-30T13:51:50.000Z",
+                    "updated_at": "2020-05-30T13:51:50.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 870,
+                "questionary_id": 261881,
+                "timer": 0
+            }
+        },
+        {
+            "id": 896,
+            "institution_id": 4,
+            "description": "Em relação ao hipertireodismo, assinale a alternativa correta:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-30T22:53:14.000Z",
+            "updated_at": "2020-05-30T22:53:14.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 112,
+                    "title": "Tireóide (Pato)",
+                    "description": null,
+                    "parent_id": 111,
+                    "is_enabled": true,
+                    "created_at": "2020-05-30T16:35:45.000Z",
+                    "updated_at": "2020-05-30T16:35:45.000Z",
+                    "pivot": {
+                        "discipline_id": 112,
+                        "question_id": 896
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3676,
+                    "question_id": 896,
+                    "description": "A exoftalmia acontece devido ao excesso de T3 e T4",
+                    "explanation": "Falso, a exoftalmia não tem relação com o excesso de T3 e T4, mas sim com o fato de que os fibroblastos presentes atrás dos olhos tem receptores de TSH. Os anticorpos criados na doença de Graves, ativam esses receptores de TSH e causam a exoftalmia",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-30T19:53:15.000Z",
+                    "updated_at": "2020-05-30T19:53:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3677,
+                    "question_id": 896,
+                    "description": "O mixedema tibial é causado por excesso de T3 e T4",
+                    "explanation": "Falso, o mixedema tibial é causado por fibroblastos presentes nas canelas que secretam mais glicosaminoglicanos; esses fibroblastos são ativados porque tem receptores de TSH neles, os mesmos que estão atrás dos olhos.\nInteressante saber também que a palavra mixedema indica pra gente que não é um edema causado necessariamente pelo acúmulo de água, mas sim de glicosaminoglicanos. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-30T19:53:15.000Z",
+                    "updated_at": "2020-05-30T19:53:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3678,
+                    "question_id": 896,
+                    "description": "Na doença de Graves o TSH está elevado",
+                    "explanation": "Falso, doença de Graves é caracterizada por produção de anticorpos que ativam os receptores de TSH, o que induz a produção de T4. O aumento de T4 faz um feedback negativo no TSH e diminui a sua produção.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-30T19:53:15.000Z",
+                    "updated_at": "2020-05-30T19:53:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3679,
+                    "question_id": 896,
+                    "description": "O mecanismo pelo qual o T4 diminui a liberação de TSH é através da diminuição de receptores de TRH na pituitária anterior",
+                    "explanation": "Perfeito! O T4 estimula a diminuição dos receptores de TRH na pituitária anterior e isso faz com que ela produza menos TSH!",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-30T19:53:15.000Z",
+                    "updated_at": "2020-05-30T19:53:15.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 896,
+                "questionary_id": 261881,
+                "timer": 0
+            }
+        },
+        {
+            "id": 927,
+            "institution_id": 4,
+            "description": "Assinale a opção que NÃO serve de tratamento para hipertireoidismo:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-31T00:39:06.000Z",
+            "updated_at": "2020-05-31T01:41:15.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 112,
+                    "title": "Tireóide (Pato)",
+                    "description": null,
+                    "parent_id": 111,
+                    "is_enabled": true,
+                    "created_at": "2020-05-30T16:35:45.000Z",
+                    "updated_at": "2020-05-30T16:35:45.000Z",
+                    "pivot": {
+                        "discipline_id": 112,
+                        "question_id": 927
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3802,
+                    "question_id": 927,
+                    "description": "Beta-bloqueadores",
+                    "explanation": "Perfeito, lembre-se que uma das principais ações do T4 é justamente aumentar a expressão de receptores Beta-adrenérgicos e também a atividade da ATPsintase dependente de sódio e potássio. Nesse sentido, beta-bloqueadores são muito úteis.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-30T21:39:06.000Z",
+                    "updated_at": "2020-05-30T22:41:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3803,
+                    "question_id": 927,
+                    "description": "Ablação com radioiodo",
+                    "explanation": "Perfeito. A ideia aqui é que você dê pro paciente radioiodo, o qual será incorporado pelas células da tireoide, causando a morte delas (ablação).",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-30T21:39:06.000Z",
+                    "updated_at": "2020-05-30T22:41:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3804,
+                    "question_id": 927,
+                    "description": "Tioamida",
+                    "explanation": "Essa droga é utilizada no tratamento de hipertireoidismo. Ela tem a habilidade de bloquear a peroxidase, que é uma enzima envolvida no processo de síntese dos hormônios tireoidianos. Dê uma olhada na imagem abaixo:\n\n\nFonte: [https://step1.medbullets.com/endocrine/109014/thyroid-hormones](https://step1.medbullets.com/endocrine/109014/thyroid-hormones) \nNote como a peroxidase está envolvida em várias etapas da síntese dos hormônios tireoidianos.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-30T21:39:06.000Z",
+                    "updated_at": "2021-03-11T01:58:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3805,
+                    "question_id": 927,
+                    "description": "Levotiroxina",
+                    "explanation": "Falso, os níveis de T4 já estão aumentados no hipertireoidismo, não faz sentido dar esse medicamento.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-30T21:39:07.000Z",
+                    "updated_at": "2020-05-30T22:41:16.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 927,
+                "questionary_id": 261881,
+                "timer": 0
+            }
+        },
+        {
+            "id": 935,
+            "institution_id": 4,
+            "description": "Qual dos genes abaixo está relacionado com a tireoidite de Hashimoto?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-31T01:03:35.000Z",
+            "updated_at": "2020-05-31T01:03:35.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 112,
+                    "title": "Tireóide (Pato)",
+                    "description": null,
+                    "parent_id": 111,
+                    "is_enabled": true,
+                    "created_at": "2020-05-30T16:35:45.000Z",
+                    "updated_at": "2020-05-30T16:35:45.000Z",
+                    "pivot": {
+                        "discipline_id": 112,
+                        "question_id": 935
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3835,
+                    "question_id": 935,
+                    "description": "HLA-DR5",
+                    "explanation": "Perfeito!",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-30T22:03:35.000Z",
+                    "updated_at": "2020-05-30T22:03:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3836,
+                    "question_id": 935,
+                    "description": "HLA-B27",
+                    "explanation": "Na verdade esse gene está associado com a espondilite anquilosante.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-30T22:03:35.000Z",
+                    "updated_at": "2020-05-30T22:03:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3837,
+                    "question_id": 935,
+                    "description": "HLA-DQ2",
+                    "explanation": "Esse HLA está relacionado à Doença Celíaca",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-30T22:03:35.000Z",
+                    "updated_at": "2020-05-30T22:03:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3838,
+                    "question_id": 935,
+                    "description": "Não está relacionado com HLA",
+                    "explanation": "Falso, tem relação sim.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-30T22:03:35.000Z",
+                    "updated_at": "2020-05-30T22:03:35.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 935,
+                "questionary_id": 261881,
+                "timer": 0
+            }
+        },
+        {
+            "id": 938,
+            "institution_id": 4,
+            "description": "Qual a principal causa de hipertireoidismo?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-31T01:40:43.000Z",
+            "updated_at": "2020-05-31T01:40:43.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 112,
+                    "title": "Tireóide (Pato)",
+                    "description": null,
+                    "parent_id": 111,
+                    "is_enabled": true,
+                    "created_at": "2020-05-30T16:35:45.000Z",
+                    "updated_at": "2020-05-30T16:35:45.000Z",
+                    "pivot": {
+                        "discipline_id": 112,
+                        "question_id": 938
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3847,
+                    "question_id": 938,
+                    "description": "Doença de Hashimoto",
+                    "explanation": "Falso, na verdade a doença de Hashimoto tem duas fases: uma inicial de hipertireoidismo e uma segunda fase caracterizada por hipotireoidismo. Porém não é a a causa mais comum de hipertireoidismo.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-30T22:40:43.000Z",
+                    "updated_at": "2020-05-30T22:40:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3848,
+                    "question_id": 938,
+                    "description": "Doença de Graves",
+                    "explanation": "Verdadeiro. Essa doença é caracterizada por um anticorpo IgG contra o receptor de TSH, isso aumenta tanto a produção quanto a liberação de T3  e T4. Classicamente ocorre em mulheres em idade fértil.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-30T22:40:43.000Z",
+                    "updated_at": "2020-05-30T22:40:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3849,
+                    "question_id": 938,
+                    "description": "Tireoidite de Riedel",
+                    "explanation": "Falso, essa é uma doença que cursa com uma tireoide \"dura como madeira\" e HIPOtireoidismo. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-30T22:40:43.000Z",
+                    "updated_at": "2020-05-30T22:40:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3850,
+                    "question_id": 938,
+                    "description": "Tiroidite de deQuervain",
+                    "explanation": "Embora curse com hipertireoidismo transiente, essa doença não é a principal causa de hipertireoidismo. Se caracteriza por uma tireoidite granulomatosa depois de uma infecção viral e a principal palavra que vem junto com ela quando descrita em questões é tireóide \"MOLE\" no exame físico.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-30T22:40:43.000Z",
+                    "updated_at": "2020-05-30T22:40:43.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 938,
+                "questionary_id": 261881,
+                "timer": 0
+            }
+        },
+        {
+            "id": 907,
+            "institution_id": 4,
+            "description": "Sobre os resultados do hipertireodismo em exames laboratoriais, assinale a alternativa correta:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-30T23:19:52.000Z",
+            "updated_at": "2020-05-30T23:19:52.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 112,
+                    "title": "Tireóide (Pato)",
+                    "description": null,
+                    "parent_id": 111,
+                    "is_enabled": true,
+                    "created_at": "2020-05-30T16:35:45.000Z",
+                    "updated_at": "2020-05-30T16:35:45.000Z",
+                    "pivot": {
+                        "discipline_id": 112,
+                        "question_id": 907
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3721,
+                    "question_id": 907,
+                    "description": "Excesso de T4 causa hipocolesterolemia",
+                    "explanation": "Perfeito! isso acontece basicamente por conta de regulação gênica. A expressão da apo B-100, a principal proteína do LDL, é acentuadamente diminuída pelo hormônio da tireóide, enquanto a expressão da apo A-I, a principal proteína do HDL, é profundamente aumentada pelo hormônio da tireóide. Além disso, há o aumento da expressão do gene do receptor LDL hepático e da colesterol 7 alfa hidroxilase.\nOs resultados disso são:\n- Na diminuição dos níveis de LDL por causa da diminuição da síntese de apo B-100;\n- Aumento do HDL, por causa do aumento da síntese de apoA-I, para auxiliar no transporte reverso de colesterol do tecido periférico para o fígado,\n- Aumento da remoção do LDL do sangue por aumento receptores hepáticos de LDL;\n- Aumento da eliminação do colesterol na forma de esteróis neutros e ácidos biliares devido ao aumento do colesterol 7 alfa-hidroxilase. \nTudo isso diminui os níveis plasmáticos de colesterol.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-30T20:19:52.000Z",
+                    "updated_at": "2020-05-30T20:19:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3722,
+                    "question_id": 907,
+                    "description": "Excesso de T4 causa hipercolesterolemia",
+                    "explanation": "Falso. T4 diminui a expressão de apo B-100, a principal proteína do LDL; aumenta a expressão da apo A-I, a principal proteína do HDL; aumenta a expressão do gene do receptor LDL hepático e por último: aumenta a expressão da enzima colesterol 7 alfa hidroxilase. Tudo isso DIMINUI os níveis de colesterol no sangue. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-30T20:19:52.000Z",
+                    "updated_at": "2020-05-30T20:19:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3723,
+                    "question_id": 907,
+                    "description": "Excesso de T4 não tem influência no colesterol sanguíneo",
+                    "explanation": "Falso. Tem sim! Isso acontece basicamente porque o T4 regula a expressão gênica de vários fatores envolvidos no transporte e síntese de colesterol, como ApoB-100, Apo A-I, o gene do receptor LDL hepático e a enzima colesterol 7 alfa hidroxilase. Alguns desses fatores são diminuídos, outros aumentados e no final o resultado é a diminuição do colesterol sanguíneo.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-30T20:19:52.000Z",
+                    "updated_at": "2020-05-30T20:19:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3724,
+                    "question_id": 907,
+                    "description": "Embora o excesso de T4 não influencie na regulação gênica e do colesterol, a hipercolesterolemia acontece no hipertireoidismo por fatores ainda não muito bem explicados",
+                    "explanation": "Falso, são explicados sim! E a regulação gênica do colesterol é influenciada pelo T4 sim, causando hipocolesterolemia e não HIPER.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-30T20:19:52.000Z",
+                    "updated_at": "2020-05-30T20:19:52.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 907,
+                "questionary_id": 261881,
+                "timer": 0
+            }
+        },
+        {
+            "id": 910,
+            "institution_id": 4,
+            "description": "Sobre os exames laboratoriais em um paciente com hipertireoidismo, assinale a alternativa correta:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-30T23:29:13.000Z",
+            "updated_at": "2020-05-30T23:29:13.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 112,
+                    "title": "Tireóide (Pato)",
+                    "description": null,
+                    "parent_id": 111,
+                    "is_enabled": true,
+                    "created_at": "2020-05-30T16:35:45.000Z",
+                    "updated_at": "2020-05-30T16:35:45.000Z",
+                    "pivot": {
+                        "discipline_id": 112,
+                        "question_id": 910
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3734,
+                    "question_id": 910,
+                    "description": "Os níveis de glicose sanguínea aumentam",
+                    "explanation": "Perfeito, o T4 aumenta a gliconeogenese e a glicogenólise, causando aumento de glicose no sangue.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-30T20:29:13.000Z",
+                    "updated_at": "2020-05-30T20:29:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3735,
+                    "question_id": 910,
+                    "description": "Os níveis de glicose no sangue diminuem",
+                    "explanation": "Falso. Não diminuem, aumentam por conta da ativação da glicogenólise e gliconeogênese. Pensa que o os hormônios tireoidianos querem aumentar o metabolismo, certo? Para isso necessitamos aumentar os níveis de glicose no sangue, de modo a deixar mais \"energia\" disponível.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-30T20:29:13.000Z",
+                    "updated_at": "2020-05-30T20:29:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3736,
+                    "question_id": 910,
+                    "description": "Não há alteração dos níveis de glicose no sangue",
+                    "explanation": "Falso, há sim. Há hiperglicemia sanguínea por conta da gliconeogenese e glicogenólise induzidas pelo T4.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-30T20:29:13.000Z",
+                    "updated_at": "2020-05-30T20:29:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3737,
+                    "question_id": 910,
+                    "description": "Embora o nível de glicose sanguínea diminua muito em quadros de hipertireoidismo, não sabe ao certo qual o motivo dessa alteração",
+                    "explanation": "Falso. Na verdade o níivel de glicose AUMENTA a gente sabe o porquê: T4 induz gliconeogênese de glicogenólise.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-30T20:29:13.000Z",
+                    "updated_at": "2020-05-30T20:29:13.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 910,
+                "questionary_id": 261881,
+                "timer": 0
+            }
+        },
+        {
+            "id": 930,
+            "institution_id": 4,
+            "description": "Em relação aos hormônios produzidos pela glândula tireóide, assinale a alternativa correta:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-31T00:46:29.000Z",
+            "updated_at": "2020-05-31T00:46:29.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 112,
+                    "title": "Tireóide (Pato)",
+                    "description": null,
+                    "parent_id": 111,
+                    "is_enabled": true,
+                    "created_at": "2020-05-30T16:35:45.000Z",
+                    "updated_at": "2020-05-30T16:35:45.000Z",
+                    "pivot": {
+                        "discipline_id": 112,
+                        "question_id": 930
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3814,
+                    "question_id": 930,
+                    "description": "O hormônio mais liberado pela tireoide é o T3",
+                    "explanation": "Falso, na verdade a tireóide libera grandes quantidades de T4, que a forma menos ativa do hormônio.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-30T21:46:29.000Z",
+                    "updated_at": "2020-05-30T21:46:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3815,
+                    "question_id": 930,
+                    "description": "T3 é convertido em T4 nos tecidos periféricos porque T4 é a forma mais ativa do hormônio",
+                    "explanation": "Falso, na verdade é o contrário. T4 é convertido em T3 nos tecidos periféricos porque o T3 é a forma mais ativa do hormônio.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-30T21:46:29.000Z",
+                    "updated_at": "2020-05-30T21:46:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3816,
+                    "question_id": 930,
+                    "description": "T3 é a forma mais ativa do hormônio liberado pela tireóide, embora o T4 seja liberado em maior quantidade",
+                    "explanation": "Perfeito! O T4 é convetido em T3 nos tecidos periféricos.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-30T21:46:29.000Z",
+                    "updated_at": "2020-05-30T21:46:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3817,
+                    "question_id": 930,
+                    "description": "A forma mais ativa dos hormônios liberados pela tireóide é T4",
+                    "explanation": "Falso, a forma mais ativa é T3, embora T4 seja a forma mais produzida.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-30T21:46:29.000Z",
+                    "updated_at": "2020-05-30T21:46:29.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 930,
+                "questionary_id": 261881,
+                "timer": 0
+            }
+        },
+        {
+            "id": 937,
+            "institution_id": 4,
+            "description": "Sobre a doença de Hashimoto, avalie as alternativas corretas e assinale a correta:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-31T01:22:15.000Z",
+            "updated_at": "2020-05-31T01:22:15.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 112,
+                    "title": "Tireóide (Pato)",
+                    "description": null,
+                    "parent_id": 111,
+                    "is_enabled": true,
+                    "created_at": "2020-05-30T16:35:45.000Z",
+                    "updated_at": "2020-05-30T16:35:45.000Z",
+                    "pivot": {
+                        "discipline_id": 112,
+                        "question_id": 937
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3843,
+                    "question_id": 937,
+                    "description": "Quando o T4 está baixo, diminuem o número de receptores de TRH na pituitária anterior",
+                    "explanation": "Falso, aumentam o número de receptores e isso vai fazer com que a hipófise libere mais TSH; que é um dos principais achados do hipotireoidismo: baixo T4 e alto TSH.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-30T22:22:15.000Z",
+                    "updated_at": "2020-05-30T22:22:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3844,
+                    "question_id": 937,
+                    "description": "A doença de Hashimoto é caracterizada por ser um hipotireoidismo no começo, depois por um hipertireoidismo e termina num estado de hipotireoidismo crônico",
+                    "explanation": "Falso, na verdade a doença de Hashimoto começa com um hipertireoidismo devido à destruição da tireóide, o que vai liberar certa quantidade de hormônios no sangue, e depois evolui para um hipotireoidismo. Note que são apenas 2 fases, não 3 como indica a alternativa. A primeira fase é de hipertireoidismo e a segunda de hipotireoidismo.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-30T22:22:15.000Z",
+                    "updated_at": "2020-05-30T22:22:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3845,
+                    "question_id": 937,
+                    "description": "Os anticorpos responsáveis por causar a doença de Hashimoto são os anticorpos anti-tireoglobulina e anti-microsomal",
+                    "explanation": "Falso. Na verdade esses anti-corpos aparecem no sangue quando a tireóide sofre dano e não são os causadores da doença.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-30T22:22:15.000Z",
+                    "updated_at": "2020-05-30T22:22:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3846,
+                    "question_id": 937,
+                    "description": "As principais alterações patológicas são inflamação crônica, formação de centros germinais e aparecimento de células de Hurthle",
+                    "explanation": "Perfeito! Essas são as principais alterações patológicas que acontecem na tireoidite de Hashimoto.\n\n\nFonte: [http://ilovepathology.com/hashimotos-thyroiditis/](http://ilovepathology.com/hashimotos-thyroiditis/) ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-30T22:22:15.000Z",
+                    "updated_at": "2021-03-11T01:58:17.000Z",
+                    "files": [
+                        {
+                            "id": 237,
+                            "file": "1590877318168.png",
+                            "name": "hashimotos-thyroiditis.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-05-31T01:21:58.000Z",
+                            "updated_at": "2020-05-31T01:21:58.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590877318168.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 237,
+                                "alternative_id": 3846
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 937,
+                "questionary_id": 261881,
+                "timer": 0
+            }
+        },
+        {
+            "id": 939,
+            "institution_id": 4,
+            "description": "Assinale a alternativa correta:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-31T01:58:47.000Z",
+            "updated_at": "2021-05-02T22:01:09.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 112,
+                    "title": "Tireóide (Pato)",
+                    "description": null,
+                    "parent_id": 111,
+                    "is_enabled": true,
+                    "created_at": "2020-05-30T16:35:45.000Z",
+                    "updated_at": "2020-05-30T16:35:45.000Z",
+                    "pivot": {
+                        "discipline_id": 112,
+                        "question_id": 939
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3851,
+                    "question_id": 939,
+                    "description": "Tireoidite de de Quervain se apresenta com tireoide dura como madeira",
+                    "explanation": "Falso. Essa doença é também chamada de Tiroidite granulomatosa subaguda e geralmente é pós-viral. Se aprensenta com uma tireoide **mole** à palpação e hipertireoidismo transitório. Essa é uma das poucas doenças onde você tem esse aspecto de tireóide \"mole\".",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-30T22:58:47.000Z",
+                    "updated_at": "2021-05-02T19:01:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3852,
+                    "question_id": 939,
+                    "description": "Tiroidite de Reidel se apresenta com tireoide de aspecto \"mole\" no exame físico",
+                    "explanation": "Justamente o contrário. Essa doença é caracterizada por se apresentar com tireoide DURA COMO MADEIRA. Aspecto mole é caracteristica da tireoidite de deQuervain.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-30T22:58:47.000Z",
+                    "updated_at": "2021-05-02T19:01:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3853,
+                    "question_id": 939,
+                    "description": "A doença de Graves é caracterizada por um anticorpo IgA estimulando receptores de TSH",
+                    "explanation": "Falso, na verdade são receptores IgG, não IgA. IgA é um anticorpo principalmente de mucosas.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-30T22:58:47.000Z",
+                    "updated_at": "2021-05-02T19:01:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3854,
+                    "question_id": 939,
+                    "description": "O bócio multinodular tóxico é também conhecido como doença de Plummer",
+                    "explanation": "Perfeito! O bócio multinodular tóxico é o simples aparecimento de nódulos na tireóide do paciente que geram o seu aumento de tamanho. Mas é estranho né? Imagina que tá tudo bem e do nada aparecem nódulos na sua tireóide. Esses nódulos geralmente demoram pra se desenvolver, mas o paciente só vai procurar ajuda quando estão grandes. As causas deles ainda estão sendo estudadas, mas as principais são mutações e também deficiência de iodo.\nA presença de múltiplos nódulos coloides, nódulos hiperplásicos ou adenomas tireoidianos causa a formação de bócio multinodular não tóxico. Se tiver uma mutação que ativa a via de sinalização de TSH, sem o TSH estar ali, então esse nódulo é chamado de hiperfuncionante,  \"quente\" ou tóxico. São chamados \"quentes\" por conta de seu aumento da captação de iodo radioativo em uma exame de radiologia nuclear.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-30T22:58:47.000Z",
+                    "updated_at": "2021-05-02T19:01:09.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 939,
+                "questionary_id": 261881,
+                "timer": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,1069 @@
+{
+    "id": 263656,
+    "user_id": 1699,
+    "title": "Regulação de Eletrólitos e Glicose",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-05T02:04:01.000Z",
+    "updated_at": "2022-07-05T02:04:01.000Z",
+    "study_plan_id": 115,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 3090,
+            "institution_id": 4,
+            "description": "São mecanismo que induzem a entrada de K+ na célula, **EXCETO:**",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-12T00:38:43.000Z",
+            "updated_at": "2022-05-14T19:29:21.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 317,
+                    "title": "Regulação de Eletrólitos e Glicose",
+                    "description": null,
+                    "parent_id": 307,
+                    "is_enabled": true,
+                    "created_at": "2020-07-11T02:17:33.000Z",
+                    "updated_at": "2020-07-11T20:26:34.000Z",
+                    "pivot": {
+                        "discipline_id": 317,
+                        "question_id": 3090
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 12716,
+                    "question_id": 3090,
+                    "description": "Insulina",
+                    "explanation": "Essa induz, sim, Doc! 🤔\n- A insulina estimula a Bomba de Na+/K+ATPase ➡ **⬆ Entrada de K+ na célula**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-11T21:38:43.000Z",
+                    "updated_at": "2022-05-14T19:29:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12717,
+                    "question_id": 3090,
+                    "description": "Hiperosmolaridade extra-celular",
+                    "explanation": "Boa, Doc, essa é a incorreta! 🤓\n- Hiperosmolaridade ➡ Água do LIC vai para o LEC ➡ Acaba \"carregando\" K+ junto ➡ **K+ sai da célula.**\n\nDoc, olha essa imagem mostrando outros fenômenos que podem causar hipercalemia 👇:\n\nFonte do conteúdo: https://www.sciencedirect.com/topics/medicine-and-dentistry/hyperosmolarity\n\nFonte da imagem: https://www.bmj.com/content/339/bmj.b4114",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-11T21:38:43.000Z",
+                    "updated_at": "2022-05-14T19:29:21.000Z",
+                    "files": [
+                        {
+                            "id": 37774,
+                            "file": "67d2ac07-a806-41ea-819c-af3b224b3c79.jpeg",
+                            "name": "F1.large.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-05-07T13:01:17.000Z",
+                            "updated_at": "2022-05-07T13:01:17.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/67d2ac07-a806-41ea-819c-af3b224b3c79.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 37774,
+                                "alternative_id": 12717
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 12718,
+                    "question_id": 3090,
+                    "description": "Agonista Beta Adrenérgicos",
+                    "explanation": "\nEssa induz, sim, Doc! 🤔\n- Os Beta agonistas estimulam a Bomba de Na+⏺K+⏺ATPase ➡ **⬆ Entrada de K+ na célula** ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-11T21:38:43.000Z",
+                    "updated_at": "2022-05-14T19:29:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12719,
+                    "question_id": 3090,
+                    "description": "Alcalose",
+                    "explanation": "Essa induz, sim, Doc! 🤔 Alcalose ➡ ⬇ H+ no extracelular\n- Célula **troca** H+ do intracelular pelo K+ extracelular\n- ⬆ H+ no extracelular\n- **Entrada de K+ para dentro da célula.**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-11T21:38:43.000Z",
+                    "updated_at": "2022-05-14T19:29:21.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3090,
+                "questionary_id": 263656,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3058,
+            "institution_id": 4,
+            "description": "- **Calcule a taxa de reabsorção de glicose:**\n- Sabendo que:\n- Taxa de Filtração Glomerular: 100 mL/min\n- Concentração de glicose no plasma: 500 mg/dL\n- Concentração de glicose na urina: 2500 mg/dL \n- Fluxo urinário: 6 ml/min",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-11T11:49:08.000Z",
+            "updated_at": "2022-05-07T13:04:06.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 317,
+                    "title": "Regulação de Eletrólitos e Glicose",
+                    "description": null,
+                    "parent_id": 307,
+                    "is_enabled": true,
+                    "created_at": "2020-07-11T02:17:33.000Z",
+                    "updated_at": "2020-07-11T20:26:34.000Z",
+                    "pivot": {
+                        "discipline_id": 317,
+                        "question_id": 3058
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 12588,
+                    "question_id": 3058,
+                    "description": "350 mg/min",
+                    "explanation": "Mandou bem demais, Doc! 😍 Temos o seguinte cálculo:\n\n\nCarga filtrada ➡ TFG x Concentração de glicose no plasma\n- Carga Filtrada ➡ 100ml/min x 500mg/dL\n- **Carga Filtrada ➡ 500mg/min**\n\n\n**Excreção ➡ Fluxo urinário x Concentração de glicose na urina**\n- Excreção ➡ 6 ml/min x  2500mg/dL\n- Excreção ➡ 150mg.ml\n\n\nLogo:\n- Reabsorção ➡ 500 mg/min - 150 mg/min\n- **Reabsorção ➡ 350 mg/min**\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-11T11:49:08.000Z",
+                    "updated_at": "2022-05-07T13:04:06.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12589,
+                    "question_id": 3058,
+                    "description": " 300 mg/min",
+                    "explanation": "Falso, Doc! 😣 Confira o cálculo completo na alternativa A.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-11T11:49:08.000Z",
+                    "updated_at": "2022-05-07T13:04:06.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12590,
+                    "question_id": 3058,
+                    "description": "400 mg/min",
+                    "explanation": "Falso, Doc! 😣 Confira o cálculo completo na alternativa A. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-11T11:49:08.000Z",
+                    "updated_at": "2022-05-07T13:04:06.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12591,
+                    "question_id": 3058,
+                    "description": "375 mg/min",
+                    "explanation": "Falso, Doc! 😣 Confira o cálculo completo na alternativa A. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-11T11:49:08.000Z",
+                    "updated_at": "2022-05-07T13:04:06.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3058,
+                "questionary_id": 263656,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3059,
+            "institution_id": 4,
+            "description": "Qual alteração tende a aumentar a reabsorção de um fluido no capilar peritubular?",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-11T14:56:36.000Z",
+            "updated_at": "2022-05-07T13:11:01.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 317,
+                    "title": "Regulação de Eletrólitos e Glicose",
+                    "description": null,
+                    "parent_id": 307,
+                    "is_enabled": true,
+                    "created_at": "2020-07-11T02:17:33.000Z",
+                    "updated_at": "2020-07-11T20:26:34.000Z",
+                    "pivot": {
+                        "discipline_id": 317,
+                        "question_id": 3059
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 12592,
+                    "question_id": 3059,
+                    "description": "⬆ Resistência arteriolar eferente",
+                    "explanation": "Perfeito, Doc! 😍\n- Quanto mais a pressão coloidosmótica for maior do que a pressão hidrostática dentro dos capilares peritubulares, maior será a reabsorção (veja a imagem!)\n- ⬆ Resistência arteriolar eferente ➡ ⬇ Pressão hidrostática do capilar peritubular ➡ **⬆ Reabsorção do fluido.**\n\nDoc, olha esse esquema sensacional para entender melhor 👇:\n\nFonte do conteúdo e da imagem: SILVERTHORN, D. Fisiologia Humana: Uma Abordagem Integrada, 7ª Edição, Artmed, 2017.  ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-11T11:56:36.000Z",
+                    "updated_at": "2022-05-07T13:11:01.000Z",
+                    "files": [
+                        {
+                            "id": 37779,
+                            "file": "b0c4589b-bf4b-4dff-afac-33a272a68f88.jpeg",
+                            "name": "Captura de tela 2022-05-07 100814.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-05-07T13:08:41.000Z",
+                            "updated_at": "2022-05-07T13:08:41.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b0c4589b-bf4b-4dff-afac-33a272a68f88.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 37779,
+                                "alternative_id": 12592
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 12593,
+                    "question_id": 3059,
+                    "description": "⬇ Angiotensina II",
+                    "explanation": "Falso, Doc! 😕 \n- ⬇ Angiotensina II ➡ Vasodilatação de arteríolas eferentes ➡ ⬆ Pressão hidrostática do capilar peritubular ➡ **⬇ Reabsorção do fluido.** ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-11T11:56:36.000Z",
+                    "updated_at": "2022-05-07T13:11:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12594,
+                    "question_id": 3059,
+                    "description": "⬆ Fluxo Sanguíneo Renal ",
+                    "explanation": "Falso, Doc! 😕  \n- ⬆ Fluxo Sanguíneo Renal  ➡ ⬆ Pressão hidrostática do capilar peritubular ➡ **⬇ Reabsorção do fluido.**  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-11T11:56:36.000Z",
+                    "updated_at": "2022-05-07T13:11:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12595,
+                    "question_id": 3059,
+                    "description": "⬆ Pressão Arterial",
+                    "explanation": "Falso, Doc! 😕  \n- ⬆ Pressão Arterial ➡ ⬆ Pressão hidrostática do capilar peritubular ➡ **⬇ Reabsorção do fluido.**  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-11T11:56:36.000Z",
+                    "updated_at": "2022-05-07T13:11:01.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3059,
+                "questionary_id": 263656,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3060,
+            "institution_id": 4,
+            "description": "Paciente de 42 anos com Hipertensão e Insuficiência Cardíaca Congestiva. Você resolveu iniciar o tratamento com furosemida, quais alterações são mais condizentes com o quadro do paciente no início do tratamento?\n- Furosemida ➡ Diurético de alça ➡ Inibidor do transporte de Na+/K+/Cl- na alça de Henle",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-11T12:28:20.000Z",
+            "updated_at": "2022-05-07T13:17:00.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 317,
+                    "title": "Regulação de Eletrólitos e Glicose",
+                    "description": null,
+                    "parent_id": 307,
+                    "is_enabled": true,
+                    "created_at": "2020-07-11T02:17:33.000Z",
+                    "updated_at": "2020-07-11T20:26:34.000Z",
+                    "pivot": {
+                        "discipline_id": 317,
+                        "question_id": 3060
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 12596,
+                    "question_id": 3060,
+                    "description": "⬆ Excreção de Na+ na urina ----- ⬆ Volume do fluido extracelular",
+                    "explanation": "Inicialmente, o ⬆ Excreção de Na+ na urina ➡ Causa o ⬆ Excreção de H20 na urina ➡ **⬇ Volume do fluido extracelular**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-11T12:28:20.000Z",
+                    "updated_at": "2022-05-07T13:17:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12597,
+                    "question_id": 3060,
+                    "description": "⬆ Excreção de Na+ na urina ----- ⬇ Volume do fluido extracelular",
+                    "explanation": "Muito bem, Doc! 😁 Temos o seguintes esquema:\n- Uso de diúreticos de alça ➡ ⬆ Excreção de Na+ na urina \n- ⬆ Excreção de Na+ na urina ➡ Causa o ⬆ Excreção de H20 na urina ➡ **⬇ Volume do fluido extracelular** \n- A longo prazo, temos uma **⬇ Pressão arterial** ➡ O que leva a **↔ Excreção de Na+**\n\nVeja onde agem os diferentes tipos de diuréticos e seu efeito final 👇:\n\nFonte do conteúdo e da imagem: https://www.nature.com/articles/nrcardio.2014.215\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-11T12:28:20.000Z",
+                    "updated_at": "2022-05-07T13:17:00.000Z",
+                    "files": [
+                        {
+                            "id": 37815,
+                            "file": "101f4dfc-c73f-4667-a0eb-48f9ebee00af.jpeg",
+                            "name": "Captura de tela 2022-05-07 101609.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-05-07T13:16:24.000Z",
+                            "updated_at": "2022-05-07T13:16:24.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/101f4dfc-c73f-4667-a0eb-48f9ebee00af.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 37815,
+                                "alternative_id": 12597
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 12598,
+                    "question_id": 3060,
+                    "description": "⬇ Excreção de Na+ na urina ----- ⬆ Volume do fluido extracelular",
+                    "explanation": "Uso de diúreticos de alça ➡ ⬆ Excreção de Na+ na urina  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-11T12:28:20.000Z",
+                    "updated_at": "2022-05-07T13:17:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12599,
+                    "question_id": 3060,
+                    "description": "⬇ Excreção de Na+ na urina ----- ⬇ Volume do fluido extracelular",
+                    "explanation": "Uso de diúreticos de alça ➡ ⬆ Excreção de Na+ na urina  \n- Pelo menos no início do tratamento.\n- A longo prazo(1-2 meses de tratamento) ➡ Podemos encontrar uma normalização da excreção de sódio na urina.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-11T12:28:20.000Z",
+                    "updated_at": "2022-05-07T13:17:00.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3060,
+                "questionary_id": 263656,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3072,
+            "institution_id": 4,
+            "description": "São fatores que aumentam a secreção de K+ nos túbulos distais, **EXCETO:**",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-11T20:19:21.000Z",
+            "updated_at": "2022-05-07T13:23:24.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 317,
+                    "title": "Regulação de Eletrólitos e Glicose",
+                    "description": null,
+                    "parent_id": 307,
+                    "is_enabled": true,
+                    "created_at": "2020-07-11T02:17:33.000Z",
+                    "updated_at": "2020-07-11T20:26:34.000Z",
+                    "pivot": {
+                        "discipline_id": 317,
+                        "question_id": 3072
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 12644,
+                    "question_id": 3072,
+                    "description": "Aumento da ingestão de K+",
+                    "explanation": "Esse aumenta, sim, Doc! 😇 Se liga no princípio da fisiologia renal ➡ A excreção dos eletrólitos sempre vai se igualar com sua ingestão.\n- **⬆ Ingestão de K+ ➡ ⬆ Excreção de K+**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-11T17:19:21.000Z",
+                    "updated_at": "2022-05-07T13:23:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12645,
+                    "question_id": 3072,
+                    "description": "Hiperaldosteronismo",
+                    "explanation": "Esse aumenta, sim, Doc! 😇 ⬆ Aldosterona ➡ ⬆ Reabsorção de Na+ e Secreção de K+",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-11T17:19:21.000Z",
+                    "updated_at": "2022-05-07T13:23:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12646,
+                    "question_id": 3072,
+                    "description": "Acidose",
+                    "explanation": "Boa, Doc, essa é errada! 👊\n- O H+ e o K+ são trocados na membrana basolateral das células renais\n- **Acidose ➡ ⬇ Secreção de K+** \n- O sangue contém um excesso de H+ ➡ **⬆ H+ entra na célula** pela membrana basolateral e **⬆ K+ sai da célula** ➡ Ou seja, ⬆ H+ é trocado pelo Na+ ➡ **⬆ H+ é secretado**\n\nFonte do conteúdo: https://pubmed.ncbi.nlm.nih.gov/23953803/#:~:text=In%20general%2C%20acidosis%20causes%20decreased,ammoniagenesis%20and%20H%2DK%2DATPase%20activity.\n\nFonte da imagem: https://labpedia.net/urine-potassium-k-quantitative-24-urine-or-random-sample/",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-11T17:19:21.000Z",
+                    "updated_at": "2022-05-07T13:23:24.000Z",
+                    "files": [
+                        {
+                            "id": 37821,
+                            "file": "2aea4ccd-e82a-4c09-9a60-0c55f1cf631a.png",
+                            "name": "download (2).png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-05-07T13:22:35.000Z",
+                            "updated_at": "2022-05-07T13:22:35.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2aea4ccd-e82a-4c09-9a60-0c55f1cf631a.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 37821,
+                                "alternative_id": 12646
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 12647,
+                    "question_id": 3072,
+                    "description": "Uso de diuréticos tiazídicos",
+                    "explanation": "Esse aumenta, sim, Doc! 😇 ⬆ Secreção de K+.\n- ⬆ Fluxo nos túbulos distais ➡ ⬆ Diluição do K+ ➡ ⬇ Concentração de K+ intraluminal ➡ **Resulta ⬆ Secreção de K+.**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-11T17:19:21.000Z",
+                    "updated_at": "2022-05-07T13:23:24.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3072,
+                "questionary_id": 263656,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3075,
+            "institution_id": 4,
+            "description": "Assinale os parâmetros renais de um paciente diabético tipo I com glicemia de 350mg/dl:\n- Limiar da glicose: 180mg/dl ",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-11T20:32:00.000Z",
+            "updated_at": "2022-05-07T14:03:43.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 317,
+                    "title": "Regulação de Eletrólitos e Glicose",
+                    "description": null,
+                    "parent_id": 307,
+                    "is_enabled": true,
+                    "created_at": "2020-07-11T02:17:33.000Z",
+                    "updated_at": "2020-07-11T20:26:34.000Z",
+                    "pivot": {
+                        "discipline_id": 317,
+                        "question_id": 3075
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 12656,
+                    "question_id": 3075,
+                    "description": "⬆ Taxa de Filtração Glomerular ----- ⬆ Resistência da arteríola aferente",
+                    "explanation": "Falso, Doc! 🥴 ⬆ Concentração de glicose ➡ ⬆ Vasodilatação da arteríola aferente ➡ **⬇ Resistência da arteríola aferente**.\n- **Não se sabe ao certo o porquê, mas encontramos hiperfluxo urinário em pacientes com diabetes(é um dos primeiros sinais de lesão renal)**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-11T17:32:00.000Z",
+                    "updated_at": "2022-05-07T14:03:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12657,
+                    "question_id": 3075,
+                    "description": "⬇ Taxa de Filtração Glomerular ----- ⬆ Resistência da arteríola aferente",
+                    "explanation": "Falso, Doc! 🥴 ⬆ Concentração de glicose ➡ ⬆ Vasodilatação da arteríola aferente ➡ **⬇ Resistência da arteríola aferent**e ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-11T17:32:00.000Z",
+                    "updated_at": "2022-05-07T14:03:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12658,
+                    "question_id": 3075,
+                    "description": "⬆ Taxa de Filtração Glomerular ----- ⬇ Resistência da arteríola aferente",
+                    "explanation": "Perfeito, Doc! 😍 Nesses valores teremos excreção de glicose pela urina (Reabsorção < Filtração)\n- ⬆ Concentração de glicose ➡ ⬆ Vasodilatação da arteríola aferente ➡ **⬇ Resistência da arteríola aferente ➡ ⬆ Taxa de Filtração Glomerular**\n- Não se sabe ao certo o porquê, mas encontramos hiperfluxo urinário em pacientes com diabetes é um dos primeiros sinais de lesão renal\n- Veja esse esquema retirado de um artigo elencando os possíveis mecanismos para o fenômeno 👇: \n\nFonte do conteúdo: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2886724/\n\nFonte da imagem: https://jasn.asnjournals.org/content/28/4/1023",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-11T17:32:00.000Z",
+                    "updated_at": "2022-05-07T14:03:43.000Z",
+                    "files": [
+                        {
+                            "id": 37879,
+                            "file": "39887e8d-af96-4052-934a-7c83f839c239.jpeg",
+                            "name": "F3.large.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-05-07T14:03:30.000Z",
+                            "updated_at": "2022-05-07T14:03:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/39887e8d-af96-4052-934a-7c83f839c239.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 37879,
+                                "alternative_id": 12658
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 12659,
+                    "question_id": 3075,
+                    "description": "⬇ Taxa de Filtração Glomerular ----- ⬇ Resistência da arteríola aferente",
+                    "explanation": "Falso, Doc! 🥴 ⬆ Concentração de glicose ➡ ⬆ Vasodilatação da arteríola aferente ➡ ⬇ Resistência da arteríola aferente **➡ ⬆ Taxa de Filtração Glomerula**r ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-11T17:32:00.000Z",
+                    "updated_at": "2022-05-07T14:03:43.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3075,
+                "questionary_id": 263656,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3079,
+            "institution_id": 4,
+            "description": "Qual das alternativas diminui a depuração renal de cálcio?\n- Depuração = clearence",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-11T20:47:23.000Z",
+            "updated_at": "2022-05-07T14:08:22.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 317,
+                    "title": "Regulação de Eletrólitos e Glicose",
+                    "description": null,
+                    "parent_id": 307,
+                    "is_enabled": true,
+                    "created_at": "2020-07-11T02:17:33.000Z",
+                    "updated_at": "2020-07-11T20:26:34.000Z",
+                    "pivot": {
+                        "discipline_id": 317,
+                        "question_id": 3079
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 12673,
+                    "question_id": 3079,
+                    "description": "Uso de Tiazídicos",
+                    "explanation": "Isso mesmo, Doc! 🤗 **Tiazídicos ➡ ⬆ Reabsorção de Cálcio ➡ ⬇ Clearance de Cálci**o \n- Prática: São usados como profilaxia em pacientes com cálculos renais por **hipercalciúria idiopática.**\n\nVeja as ações dos tiazídicos, Doc 👇:\n\nFonte do conteúdo e da imagem: https://www.researchgate.net/figure/Effects-of-action-of-thiazide-diuretics_fig4_342631931",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-11T17:47:23.000Z",
+                    "updated_at": "2022-05-07T14:08:22.000Z",
+                    "files": [
+                        {
+                            "id": 37880,
+                            "file": "e3f38a48-557f-4509-8983-2c6dc2667be3.png",
+                            "name": "Effects-of-action-of-thiazide-diuretics.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-05-07T14:07:52.000Z",
+                            "updated_at": "2022-05-07T14:07:52.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e3f38a48-557f-4509-8983-2c6dc2667be3.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 37880,
+                                "alternative_id": 12673
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 12674,
+                    "question_id": 3079,
+                    "description": "Uso de diurético de alça",
+                    "explanation": "Falso, Doc! 🤔 Diurético de alça ➡ ⬇ Reabsorção de Na+ ➡ Em decorrência temos ⬇ Cálcio(está associado a reabsorção de Sódio) ➡ ⬆ Clearance de Cálcio ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-11T17:47:23.000Z",
+                    "updated_at": "2022-05-07T14:08:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12675,
+                    "question_id": 3079,
+                    "description": "Hipoparatireoidismo",
+                    "explanation": "Falso, Doc! 🤔 Hipoparatireoidismo ➡ ⬇PTH ➡ ⬇ Reabsorção de Cálcio ➡ ⬆ Clearance de Cálcio",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-11T17:47:23.000Z",
+                    "updated_at": "2022-05-07T14:08:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12676,
+                    "question_id": 3079,
+                    "description": "Hipermagnesemia",
+                    "explanation": "Falso, Doc! 🤔 Na alça de Henle parte ascendente ➡ Magnésio e Cálcio competem para serem reabsorvidos.\n- Ou seja, Hipermagnesia ➡ ⬆ Clearance de Cálcio",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-11T17:47:23.000Z",
+                    "updated_at": "2022-05-07T14:08:22.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3079,
+                "questionary_id": 263656,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3092,
+            "institution_id": 4,
+            "description": "Sobre os mecanismos renais de reabsorção, filtração e secreção da ureia, assinale a **CORRETA:**",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-12T00:49:43.000Z",
+            "updated_at": "2022-05-07T14:27:56.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 317,
+                    "title": "Regulação de Eletrólitos e Glicose",
+                    "description": null,
+                    "parent_id": 307,
+                    "is_enabled": true,
+                    "created_at": "2020-07-11T02:17:33.000Z",
+                    "updated_at": "2020-07-11T20:26:34.000Z",
+                    "pivot": {
+                        "discipline_id": 317,
+                        "question_id": 3092
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 12724,
+                    "question_id": 3092,
+                    "description": "50% da ureia filtrada é reabsorvida na alça de Henle",
+                    "explanation": "Falso, Doc! 😓\n- 50% da ureia filtrada é reabsorvida nos **túbulos contorcidos proximais.**\n- **Os túbulos contorcidos distais e ductos coletores(parte cortical) são impermeáveis a ureia.**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-11T21:49:43.000Z",
+                    "updated_at": "2022-05-07T14:27:56.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12725,
+                    "question_id": 3092,
+                    "description": "O ADH diminui a permeabilidade da ureia em parte do ducto coletor intramedular.",
+                    "explanation": "Falso, Doc! 😓 O ADH aumenta a permeabilidade da ureia em parte do ducto coletor intramedular.\n- É isso que permite o desenvolvimento do gradiente osmótico corticopapilar.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-11T21:49:43.000Z",
+                    "updated_at": "2022-05-07T14:27:56.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12726,
+                    "question_id": 3092,
+                    "description": "⬆ Reabsorção de água ----- ⬆ Reabsorção de ureia ------ ⬇ Excreção de ureia",
+                    "explanation": "Parabéns, Doc! 👏\n- O aumento da reabsorção de água é acompanhado pelo aumento da reabsorção da ureia\n- Quando a água é reabsorvida cria-se uma urina mais concentrada em ureia, de forma que, por diferença de concentração, a ureia passa também a ser mais reabsorvida\n- Aplicação prática ➡ Em casos de lesão renal aguda pré-renal (geralmente por hipovolemia) ➡ **⬆ Ureia**\n\nVeja na imagem como funciona a filtração e reabsorção de ureia 👇: \n\nFonte do conteúdo e da imagem: SILVERTHORN, D. Fisiologia Humana: Uma Abordagem Integrada, 7ª Edição, Artmed, 2017.   ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-11T21:49:43.000Z",
+                    "updated_at": "2022-05-07T14:27:56.000Z",
+                    "files": [
+                        {
+                            "id": 37882,
+                            "file": "55e9e6f6-e7f9-47e6-b346-d93e815d9e09.jpeg",
+                            "name": "Captura de tela 2022-05-07 112242.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-05-07T14:25:18.000Z",
+                            "updated_at": "2022-05-07T14:25:18.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/55e9e6f6-e7f9-47e6-b346-d93e815d9e09.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 37882,
+                                "alternative_id": 12726
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 12727,
+                    "question_id": 3092,
+                    "description": "⬇ Reabsorção de água ----- ⬆ Reabsorção de ureia ------ ⬇ Excreção de ureia",
+                    "explanation": "Falso, Doc! 😓 \n- O aumento da reabsorção de água é acompanhado pelo aumento da reabsorção da ureia ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-11T21:49:43.000Z",
+                    "updated_at": "2022-05-07T14:27:56.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3092,
+                "questionary_id": 263656,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3093,
+            "institution_id": 4,
+            "description": "Sobre a reabsorção de sódio, assinale a **INCORRETA:**",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-11T22:02:44.000Z",
+            "updated_at": "2022-05-07T14:34:26.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 317,
+                    "title": "Regulação de Eletrólitos e Glicose",
+                    "description": null,
+                    "parent_id": 307,
+                    "is_enabled": true,
+                    "created_at": "2020-07-11T02:17:33.000Z",
+                    "updated_at": "2020-07-11T20:26:34.000Z",
+                    "pivot": {
+                        "discipline_id": 317,
+                        "question_id": 3093
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 12728,
+                    "question_id": 3093,
+                    "description": "1/4 do Na+ é reabsorvido nos túbulos distais e ductos coletores",
+                    "explanation": "Arrasou, Doc, essa é a incorreta! 😎\n- **Apenas 8% do Na+ é reabsorvido nesses locais.**\n- É reabsorvido pelo cotransportador Na+⏺Cl- ➡ Começo do túbulo distal\n- É reabsorvido em troca do potássio ➡ Na+⏺K+ ➡ Final do túbulo distal e ductos coletores ➡ Ação da aldosterona.\n\nFonte do conteúdo e da imagem: https://doctorlib.info/physiology/physiology-2/58.html\n\nSILVERTHORN, D. Fisiologia Humana: Uma Abordagem Integrada, 7ª Edição, Artmed, 2017.   ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-11T22:02:44.000Z",
+                    "updated_at": "2022-05-07T14:34:26.000Z",
+                    "files": [
+                        {
+                            "id": 37883,
+                            "file": "dcac75e0-778a-4151-a280-f466b6e52ac2.jpeg",
+                            "name": "image419.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-05-07T14:33:42.000Z",
+                            "updated_at": "2022-05-07T14:33:42.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/dcac75e0-778a-4151-a280-f466b6e52ac2.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 37883,
+                                "alternative_id": 12728
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 12729,
+                    "question_id": 3093,
+                    "description": "2/3 são reabsorvidos nos túbulos proximais",
+                    "explanation": "Essa está certinha, Doc! 😇\n- Praticamente 67% da água e sódio são absorvidos nos túbulos proximais. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-11T22:02:44.000Z",
+                    "updated_at": "2022-05-07T14:34:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12730,
+                    "question_id": 3093,
+                    "description": "Túbulo proximal ➡ Na+ pode ser reabsorvido junto com a glicose e aminoácidos",
+                    "explanation": "Essa está certinha, Doc! 😇 \n- Na realidade, esse transporte representa 100% da glicose e aminoácidos reabsorvidos.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-11T22:02:44.000Z",
+                    "updated_at": "2022-05-07T14:34:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12731,
+                    "question_id": 3093,
+                    "description": "1/4 do sódio é reabsorvido no ramo ascendente do alça de Henle",
+                    "explanation": "Essa está certinha, Doc! 😇 \n- Através do cotransportador Na+/K+/2Cl- localizado na membrana luminal\n- Essa parte é impermeável a água ➡ Ou seja, o NaCl é reabsorvido isoladamente.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-11T22:02:44.000Z",
+                    "updated_at": "2022-05-07T14:34:26.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3093,
+                "questionary_id": 263656,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3061,
+            "institution_id": 4,
+            "description": "Qual é a melhor representação dos parâmetros de eletrólitos em um paciente com Síndrome de Conn?\n- Síndrome de Conn ➡ Aumento da liberação de aldosterona\n- Sabendo que: o paciente não ingeriu eletrólitos.\n- Paciente apresenta quadro **crônico ➡ Equilíbrio**",
+            "difficulty": "hard",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-11T12:43:28.000Z",
+            "updated_at": "2022-05-07T14:40:37.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 317,
+                    "title": "Regulação de Eletrólitos e Glicose",
+                    "description": null,
+                    "parent_id": 307,
+                    "is_enabled": true,
+                    "created_at": "2020-07-11T02:17:33.000Z",
+                    "updated_at": "2020-07-11T20:26:34.000Z",
+                    "pivot": {
+                        "discipline_id": 317,
+                        "question_id": 3061
+                    }
+                },
+                {
+                    "id": 252,
+                    "title": "Distúrbio do potássio\t\t",
+                    "description": null,
+                    "parent_id": 189,
+                    "is_enabled": true,
+                    "created_at": "2020-06-23T19:21:33.000Z",
+                    "updated_at": "2020-06-23T19:21:33.000Z",
+                    "pivot": {
+                        "discipline_id": 252,
+                        "question_id": 3061
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 12600,
+                    "question_id": 3061,
+                    "description": "⬆ Excreção de Potássio na Urina ----- ⬆ Concentração de Potássio no plasma ------ ⬆ Excreção de Sódio na Urina",
+                    "explanation": "Falso, Doc! 🤔\nAldosterona ➡ Estimula a secreção de Potássio e a reabsorção de sódio ➡ Redução transitória na excreção de sódio e aumento na excreção de potássio.\n- Contudo ➡ Em condições de equilíbrio estacionário ➡ A excreção de sódio e secreção de potássio voltam ao normal ➡ Se equilibram com a ingestão desses eletrólitos.\n- Temos a **⬇ Concentração de potássio no plasma** ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-11T12:43:28.000Z",
+                    "updated_at": "2022-05-07T14:40:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12601,
+                    "question_id": 3061,
+                    "description": "⬆ Excreção de Potássio na Urina ----- ⬆ Concentração de Potássio no plasma ------ ⬇ Excreção de Sódio na Urina",
+                    "explanation": "Falso, Doc! 🤔 \nAldosterona ➡ Estimula a secreção de Potássio e a reabsorção de sódio ➡ Redução transitória na excreção de sódio e aumento na excreção de potássio. \n- Temos a **⬇ Concentração de potássio no plasma**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-11T12:43:28.000Z",
+                    "updated_at": "2022-05-07T14:40:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12602,
+                    "question_id": 3061,
+                    "description": "↔ Excreção de Potássio na Urina ----- ⬇ Concentração de Potássio no plasma ------ ↔ Excreção de Sódio na Urina",
+                    "explanation": "Arrasou, Doc! 🤓\nAldosterona ➡ Estimula a secreção de Potássio e a reabsorção de Sódio ➡ Redução transitória na excreção de sódio e aumento na excreção de potássio.\n- Contudo ➡ Em condições de equilíbrio estacionário ➡ A excreção de sódio e secreção de potássio voltam ao normal ➡ Se equilibram com a ingestão desses eletrólitos.\n- Temos a **⬇ Concentração de potássio no plasma**  \n- Dica: Doc, uma coisa é a **concentração do eletrólito no plasma** ➡ É comum você encontrar o paciente com síndrome de Conn e hipocalemia. Outra coisa é a **excreção do eletrólito** ➡ Tende ao equilíbrio.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-11T12:43:28.000Z",
+                    "updated_at": "2022-05-07T14:40:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 12603,
+                    "question_id": 3061,
+                    "description": "↔ Excreção de Potássio na Urina ----- ⬆ Concentração de Potássio no plasma ------ ↔ Excreção de Sódio na Urina",
+                    "explanation": "Falso, Doc! 🤔 \nTemos a **⬇ Concentração de potássio no plasma** ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-11T12:43:28.000Z",
+                    "updated_at": "2022-05-07T14:40:37.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3061,
+                "questionary_id": 263656,
+                "timer": 0
+            }
+        }
+    ]
+}

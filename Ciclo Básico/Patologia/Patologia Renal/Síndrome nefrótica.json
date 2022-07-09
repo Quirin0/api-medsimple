@@ -1,0 +1,997 @@
+{
+    "id": 261860,
+    "user_id": 1699,
+    "title": "Síndrome nefrótica",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-03T18:38:38.000Z",
+    "updated_at": "2022-07-03T18:38:38.000Z",
+    "study_plan_id": 233,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 735,
+            "institution_id": 4,
+            "description": "Quando falamos em desorderns glomerulares, precisamos ter em mente que a principal característica delas é a perda de proteína na urina. Nessas desordens, qual é, classicamente, a proteína excretada na urina?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-29T03:07:13.000Z",
+            "updated_at": "2020-05-29T03:07:13.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 96,
+                    "title": "Síndrome Nefrótica (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-29T03:02:41.000Z",
+                    "updated_at": "2020-05-31T05:49:42.000Z",
+                    "pivot": {
+                        "discipline_id": 96,
+                        "question_id": 735
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3024,
+                    "question_id": 735,
+                    "description": "Hemoglobina",
+                    "explanation": "A hemoglobina só aparece na urina em caso de dano em algum local do trato urinário ou um grande dano nos glomérulos, o qual possibilita que uma molécula grande como a Hb ultrapasse a barreira de filtração glomerular. Não é classicamente causa de proteinúria.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-29T00:07:13.000Z",
+                    "updated_at": "2020-05-29T00:07:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3025,
+                    "question_id": 735,
+                    "description": "Celulose",
+                    "explanation": "Cara... celulose é um carboidrato",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-29T00:07:13.000Z",
+                    "updated_at": "2020-05-29T00:07:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3026,
+                    "question_id": 735,
+                    "description": "Colágeno",
+                    "explanation": "Não, essa é uma molécula extremamente grande. Não passa facilmente pela barreira de filtração glomerular.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-29T00:07:13.000Z",
+                    "updated_at": "2020-05-29T00:07:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3027,
+                    "question_id": 735,
+                    "description": "Albumina",
+                    "explanation": "Perfeito. Hipoalbuminemia é clássico das desordens glomerulares.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-29T00:07:13.000Z",
+                    "updated_at": "2020-05-29T00:07:13.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 735,
+                "questionary_id": 261860,
+                "timer": 0
+            }
+        },
+        {
+            "id": 738,
+            "institution_id": 4,
+            "description": "Desordens glomerulares como síndrome nefrótica são caracterizadas por qual dos índices de proteinúria abaixo:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-29T03:24:37.000Z",
+            "updated_at": "2021-01-23T15:48:43.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 96,
+                    "title": "Síndrome Nefrótica (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-29T03:02:41.000Z",
+                    "updated_at": "2020-05-31T05:49:42.000Z",
+                    "pivot": {
+                        "discipline_id": 96,
+                        "question_id": 738
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3036,
+                    "question_id": 738,
+                    "description": ">10g/dia",
+                    "explanation": "Falso",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-29T00:24:37.000Z",
+                    "updated_at": "2021-01-23T12:48:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3037,
+                    "question_id": 738,
+                    "description": ">9g/dia",
+                    "explanation": "Falso",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-29T00:24:37.000Z",
+                    "updated_at": "2021-01-23T12:48:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3038,
+                    "question_id": 738,
+                    "description": ">3,5g/dia",
+                    "explanation": "Perfeito! Junto com as manifestações de hipoalbuminemia, uma vez que a principal proteína que circula no nosso sangue é a albumina, hipogammaglobulinemia, o que predispõe a infecções (fácil notar isso porque as gammaglobulinas estão envolvidas com anticorpos (nome sugestivo)), estato de hipercoagulabilidade devido à perda de antitrombina III na urina e finalmente, hiperlipidemia e hipercolesterolemia, como respostas do fígado à baixa quantidade de proteínas no sangue.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-29T00:24:37.000Z",
+                    "updated_at": "2021-01-23T12:48:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3039,
+                    "question_id": 738,
+                    "description": ">1g/dia",
+                    "explanation": "Falso",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-29T00:24:37.000Z",
+                    "updated_at": "2021-01-23T12:48:43.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 738,
+                "questionary_id": 261860,
+                "timer": 0
+            }
+        },
+        {
+            "id": 747,
+            "institution_id": 4,
+            "description": "Qual a principal causa de síndrome nefrótica em crianças?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-29T03:57:24.000Z",
+            "updated_at": "2020-05-29T03:57:24.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 96,
+                    "title": "Síndrome Nefrótica (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-29T03:02:41.000Z",
+                    "updated_at": "2020-05-31T05:49:42.000Z",
+                    "pivot": {
+                        "discipline_id": 96,
+                        "question_id": 747
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3072,
+                    "question_id": 747,
+                    "description": "Síndrome de Goodpasture",
+                    "explanation": "Falso. Caracterizada por ser uma reação de hipersensibilidade do tipo II, que envolve tipicamente 2 órgãos (rins e pulmão) e um defeito no colágeno tipo 2x2 (IV), não é a principal causa de síndrome nefrótica em crianças. Lembre-se que síndrome nefrótica é caracterizada pela tríade de hiperlipidemia, hipoalbuminúria e proteinúria. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-29T00:57:24.000Z",
+                    "updated_at": "2020-05-29T00:57:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3073,
+                    "question_id": 747,
+                    "description": "Doença de lesão mínima",
+                    "explanation": "Perfeito, caracterizada pelo achatamento dos prolongamentos dos podócitos que acontece devido à produção exagerada de citocinas, principalmente no Linfoma de Hodgkin. Pode ser idiopática também. Na coloração de eosina não aparecem alterações, porém na microscopia eletrônica é possível ver o achatamento dos podócitos.\nLembre-se que não há deposição de imunocomplexos aqui.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-29T00:57:24.000Z",
+                    "updated_at": "2020-05-29T00:57:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3074,
+                    "question_id": 747,
+                    "description": "Glomerulonefrite pós-estreptocóccica",
+                    "explanation": "Falso! A GNPS, embora possa ser associada a crianças na sua cabeça (faringite e etc) não é a causa mais comum de síndrome nefrótica em crianças. Lembre-se que síndrome nefrótica é caracterizada pela tríade de hiperlipidemia, hipoalbuminúria e proteinúria.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-29T00:57:24.000Z",
+                    "updated_at": "2020-05-29T00:57:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3075,
+                    "question_id": 747,
+                    "description": "Glomerulonefrite rapidamente progressiva (GNRP)",
+                    "explanation": "Falso, essa é uma doença tipica de pacientes que tem lúpus.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-29T00:57:24.000Z",
+                    "updated_at": "2020-05-29T00:57:24.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 747,
+                "questionary_id": 261860,
+                "timer": 0
+            }
+        },
+        {
+            "id": 749,
+            "institution_id": 4,
+            "description": "Sabendo que a Doença da Lesão Mínima e a Glomeruloesclerose segmentar e focal (GESF ou GSF) são doenças que tem imunofluorescência negativa, assinale a alternativa correta:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-29T04:11:37.000Z",
+            "updated_at": "2020-05-29T04:11:37.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 96,
+                    "title": "Síndrome Nefrótica (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-29T03:02:41.000Z",
+                    "updated_at": "2020-05-31T05:49:42.000Z",
+                    "pivot": {
+                        "discipline_id": 96,
+                        "question_id": 749
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3080,
+                    "question_id": 749,
+                    "description": "Não há formação de imunocomplexos em ambas doenças",
+                    "explanation": "Verdadeiro. É isso mesmo! É isso que indica um exame de IF negativo!",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-29T01:11:37.000Z",
+                    "updated_at": "2020-05-29T01:11:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3081,
+                    "question_id": 749,
+                    "description": "Existem imunocomplexos na doença da lesão mínima, mas não da Glomeruloesclerose segmentar e focal (GESF ou GSF)",
+                    "explanation": "Falso, se ambas tem imunofluorescência negativa, ambas não tem imunocomplexos envolvidos na sua patologia.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-29T01:11:37.000Z",
+                    "updated_at": "2020-05-29T01:11:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3082,
+                    "question_id": 749,
+                    "description": "Existem imunocomplexos na Glomeruloesclerose segmentar e focal (GESF ou GSF), mas não na doença da lesão mínima.",
+                    "explanation": "Falso, se ambas tem IF negativa, então ambas não envolvem formação de imunocomplexos.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-29T01:11:37.000Z",
+                    "updated_at": "2020-05-29T01:11:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3083,
+                    "question_id": 749,
+                    "description": "Há formação de imunocomplexos em ambas as doenças.",
+                    "explanation": "Falso. Não há, pois se houvesse a IF de ambas seria positiva.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-29T01:11:37.000Z",
+                    "updated_at": "2020-05-29T01:11:37.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 749,
+                "questionary_id": 261860,
+                "timer": 0
+            }
+        },
+        {
+            "id": 769,
+            "institution_id": 4,
+            "description": "Assinale a alternativa que contém sintomas/sinais da síndrome nefrótica:",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-29T06:17:34.000Z",
+            "updated_at": "2022-03-15T00:37:47.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 96,
+                    "title": "Síndrome Nefrótica (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-29T03:02:41.000Z",
+                    "updated_at": "2020-05-31T05:49:42.000Z",
+                    "pivot": {
+                        "discipline_id": 96,
+                        "question_id": 769
+                    }
+                },
+                {
+                    "id": 240,
+                    "title": "Síndrome Nefrótica",
+                    "description": null,
+                    "parent_id": 189,
+                    "is_enabled": true,
+                    "created_at": "2020-06-22T13:29:54.000Z",
+                    "updated_at": "2020-06-22T13:29:54.000Z",
+                    "pivot": {
+                        "discipline_id": 240,
+                        "question_id": 769
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3160,
+                    "question_id": 769,
+                    "description": "Hipoalbuminúria, hipolipidemia e proteinúria",
+                    "explanation": "O termo hipoalbuminúria aqui está para confundir você, uma vez que baixa quantidade de albumina na urina não te diz nada. O termo correto seria hipoalbuminemia que é a baixa quantidade de albumina no sangue, porque ela está sendo excretada na urina.\nNão acontece hipolipidemia, mas sim hiperlipidemia, numa tentativa de o fígado suprir as perdas de moléculas do sangue, ela libera lipídeos na corrente sanguínea.\nProteinúria é o único termo correto aqui.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-29T03:17:34.000Z",
+                    "updated_at": "2022-03-15T00:37:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3161,
+                    "question_id": 769,
+                    "description": "Hipoalbuminemia, hiperlipidemia e proteinúria.",
+                    "explanation": "Perfeito, Doc! 😍 As principais manifestações da doença são:\n- Proteinúria\n- Hipoalbuminemia\n- Edema\n- Hiperlipidemia (achado não obrigatório!)\n\n📝 Doc, anota aí que você **precisa** lembrar disso!",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-29T03:17:34.000Z",
+                    "updated_at": "2022-03-15T00:37:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3162,
+                    "question_id": 769,
+                    "description": "Hipoalbuminemia, hipolipidemia e proteinúria.",
+                    "explanation": "Não acontece hipolipidemia, mas sim hiperlipidemia, numa tentativa de o fígado suprir as perdas de moléculas do sangue, ela libera lipídeos na corrente sanguínea. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-29T03:17:34.000Z",
+                    "updated_at": "2022-03-15T00:37:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3163,
+                    "question_id": 769,
+                    "description": "Hiperalbuminemia, hiperlipidemia e proteinúria",
+                    "explanation": "Falso, não há grande quantidade de de albumina, muito pelo contrário, o glomérulo está danificado, o que está aumentando a quantidade de albumina perdida na urina.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-29T03:17:34.000Z",
+                    "updated_at": "2022-03-15T00:37:47.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 769,
+                "questionary_id": 261860,
+                "timer": 0
+            }
+        },
+        {
+            "id": 862,
+            "institution_id": 4,
+            "description": "Qual a causa mais comum de nefropatia no mundo?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-30T04:50:14.000Z",
+            "updated_at": "2020-05-30T04:50:14.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 96,
+                    "title": "Síndrome Nefrótica (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-29T03:02:41.000Z",
+                    "updated_at": "2020-05-31T05:49:42.000Z",
+                    "pivot": {
+                        "discipline_id": 96,
+                        "question_id": 862
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3537,
+                    "question_id": 862,
+                    "description": "Nefropatia por IgA",
+                    "explanation": "Perfeito. Essa doença é caracterizada por um depósito de imunocomplexos no mesângio do glomérulo. Geralmente acontece na infância, logo depois de uma infecção de mucosas na criança; e isso faz sentido: pensa comigo: o IgA é o anticorpo que é produzido em maior quantidade no corpo, mas não no sangue e sim nas mucosas e no TGI, em infecções ele aumenta a produção e é por isso que existe o depósito no rim!",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-30T01:50:14.000Z",
+                    "updated_at": "2020-05-30T01:50:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3538,
+                    "question_id": 862,
+                    "description": "Síndrome de Alport",
+                    "explanation": "Falso. É uma doença genética ligada ao cromossomo X, não é comum.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-30T01:50:14.000Z",
+                    "updated_at": "2020-05-30T01:50:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3539,
+                    "question_id": 862,
+                    "description": "Síndrome de Goodpasture",
+                    "explanation": "Desenvolvimento de anticorpos contra o colágeno tipo IV, não é a mais comum do mundo não...",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-30T01:50:14.000Z",
+                    "updated_at": "2020-05-30T01:50:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3540,
+                    "question_id": 862,
+                    "description": "Granulomatose de Wegener",
+                    "explanation": "Caracterizada por ser a doença do C (formato de C no corpo humano - faringe, pulmões e rins) e por ser C-ANCA positiva. É uma vasculite que dá sintomas renais.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-30T01:50:14.000Z",
+                    "updated_at": "2020-05-30T01:50:14.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 862,
+                "questionary_id": 261860,
+                "timer": 0
+            }
+        },
+        {
+            "id": 736,
+            "institution_id": 4,
+            "description": "Pacientes com desordens glomerulares ficam em estado de \"hipercoagulabilidade\" devido à perda de:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-29T03:16:27.000Z",
+            "updated_at": "2020-05-29T03:16:27.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 96,
+                    "title": "Síndrome Nefrótica (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-29T03:02:41.000Z",
+                    "updated_at": "2020-05-31T05:49:42.000Z",
+                    "pivot": {
+                        "discipline_id": 96,
+                        "question_id": 736
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3028,
+                    "question_id": 736,
+                    "description": "Heparina",
+                    "explanation": "Falso, embora esteja envolvida no mecanismo, não é a heparina que os pacientes perdem na urina para causar a hipercoagubilidade.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-29T00:16:27.000Z",
+                    "updated_at": "2020-05-29T00:16:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3029,
+                    "question_id": 736,
+                    "description": "Anti-trombina III",
+                    "explanation": "Perfeito, essa molécula se liga com a trombina e impede a coagulação (olha o nome dela anti-trombina). Dessa forma, quando o paciente perde ela na urina, aumenta sua capacidade de coagulação.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-29T00:16:27.000Z",
+                    "updated_at": "2020-05-29T00:16:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3030,
+                    "question_id": 736,
+                    "description": "Fator X",
+                    "explanation": "Essa molécula faz parte da via comum da coagulação, porém não está relacionada com desordens glomerulares.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-29T00:16:27.000Z",
+                    "updated_at": "2020-05-29T00:16:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3031,
+                    "question_id": 736,
+                    "description": "GPIIbIIIa",
+                    "explanation": "Falso, isso é um receptor das plaquetas responsável por ligar uma plaqueta na outra. Não tem nada a ver com desordens glomerulares.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-29T00:16:27.000Z",
+                    "updated_at": "2020-05-29T00:16:27.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 736,
+                "questionary_id": 261860,
+                "timer": 0
+            }
+        },
+        {
+            "id": 737,
+            "institution_id": 4,
+            "description": "Nas desordens glomerulares, o paciente fica:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-29T03:21:02.000Z",
+            "updated_at": "2020-05-29T03:21:02.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 96,
+                    "title": "Síndrome Nefrótica (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-29T03:02:41.000Z",
+                    "updated_at": "2020-05-31T05:49:42.000Z",
+                    "pivot": {
+                        "discipline_id": 96,
+                        "question_id": 737
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3032,
+                    "question_id": 737,
+                    "description": "Com hiperlipidemia e com hipercolesterolemia",
+                    "explanation": "Perfeito. Uma maneira de pensar nisso é que quanto mais proteína o paciente perde na urina, mais \"fino\" fica o sangue dele. Dessa forma, o fígado libera grande quantidade de gordura no sangue de modo a tentar compensar essa perda de proteínas.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-29T00:21:02.000Z",
+                    "updated_at": "2020-05-29T00:21:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3033,
+                    "question_id": 737,
+                    "description": "Com hiperlipidemia e com hipocolesterolemia",
+                    "explanation": "Falso, o fígado joga no sangue tanto lipídeos quanto colesterol em caso de desordens glomerulares.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-29T00:21:02.000Z",
+                    "updated_at": "2020-05-29T00:21:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3034,
+                    "question_id": 737,
+                    "description": "Com hipolipidemia e com hipercolesterolemia",
+                    "explanation": "Falso, o fígado libera no sangue tanto lipídeos quanto colesterol em caso de desordens glomerulares.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-29T00:21:02.000Z",
+                    "updated_at": "2020-05-29T00:21:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3035,
+                    "question_id": 737,
+                    "description": "Com hipocolesterolemia e com hipolipidemia",
+                    "explanation": "Falso. Nenhum dos dois.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-29T00:21:02.000Z",
+                    "updated_at": "2020-05-29T00:21:02.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 737,
+                "questionary_id": 261860,
+                "timer": 0
+            }
+        },
+        {
+            "id": 751,
+            "institution_id": 4,
+            "description": "Assinale a única alternativa que representa uma síndrome nefrítica:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-29T04:23:45.000Z",
+            "updated_at": "2020-05-29T04:23:45.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 96,
+                    "title": "Síndrome Nefrótica (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-29T03:02:41.000Z",
+                    "updated_at": "2020-05-31T05:49:42.000Z",
+                    "pivot": {
+                        "discipline_id": 96,
+                        "question_id": 751
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3088,
+                    "question_id": 751,
+                    "description": "Glomeruloesclerose segmentar e focal (GESF ou GSF)",
+                    "explanation": "Falso. É uma síndrome nefrótica, ou seja: cursa com proteinúria, hipoalbuminúria e hiperlilidemia. É a causa mais comum de síndrome nefrótica em Hispânicos. Geralmente idiopática, pode estar associada com HIV, uso de heroína e anemia falciforme.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-29T01:23:45.000Z",
+                    "updated_at": "2020-05-29T01:23:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3089,
+                    "question_id": 751,
+                    "description": "Doença de lesão mínima",
+                    "explanation": "Falso, é a causa mais comum de síndrome nefrótica em crianças.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-29T01:23:45.000Z",
+                    "updated_at": "2020-05-29T01:23:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3090,
+                    "question_id": 751,
+                    "description": "Glomerulonefrite Proliferativa Difusa",
+                    "explanation": "Essa é uma síndrome NEFRÍTICA, ou seja: cursa com hipertensão, hematúria e oligúria. Classicamente conhecida por ser a principal causa de morte em pacientes com LÚPUS.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-29T01:23:45.000Z",
+                    "updated_at": "2020-05-29T01:23:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3091,
+                    "question_id": 751,
+                    "description": "Nefropatia membranosa",
+                    "explanation": "É uma síndrome nefrótica sim, cursa com hipoalbuminemia, hiperlipidemia e proteinúria. Geralmente idiopática, mas pode estar associada com Hepatite B ou C, tumores sólidos, lúpus e até alguma drogas (AINES e penicilinas, por exemplo).",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-29T01:23:45.000Z",
+                    "updated_at": "2020-05-29T01:23:45.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 751,
+                "questionary_id": 261860,
+                "timer": 0
+            }
+        },
+        {
+            "id": 770,
+            "institution_id": 4,
+            "description": "Qual das doenças abaixo não tem deposição de imunocomplexos?",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-29T06:23:13.000Z",
+            "updated_at": "2020-05-29T06:23:13.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 96,
+                    "title": "Síndrome Nefrótica (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-29T03:02:41.000Z",
+                    "updated_at": "2020-05-31T05:49:42.000Z",
+                    "pivot": {
+                        "discipline_id": 96,
+                        "question_id": 770
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3164,
+                    "question_id": 770,
+                    "description": "Nefropatia Membranosa",
+                    "explanation": "Falso! Tem sim, toda doença renal com \"membrana\" ou \"membranosa\" no nome tem deposição de imunocomplexos.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-29T03:23:13.000Z",
+                    "updated_at": "2020-05-29T03:23:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3165,
+                    "question_id": 770,
+                    "description": "Glomerulonefrite membranoproliferativa",
+                    "explanation": "Falso! Tem sim, toda doença renal com \"membrana\" ou \"membranosa\" no nome tem deposição de imunocomplexos. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-29T03:23:13.000Z",
+                    "updated_at": "2020-05-29T03:23:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3166,
+                    "question_id": 770,
+                    "description": "Glomerulonefrite pós-estreptocóccica",
+                    "explanation": "Falso. Há deposição de imunocomplexos aqui, que acontecem geralmente 3 semanas após a faringite por strep. Outra caracterítica é a deposição dos imunocomplexos na forma \"lumpy-bumpy\" vista na histologia.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-29T03:23:13.000Z",
+                    "updated_at": "2020-05-29T03:23:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3167,
+                    "question_id": 770,
+                    "description": "Doença de Lesão Mínima",
+                    "explanation": "Perfeito. Nessa doença não ocorre deposição de imunocomplexos. É caracterizada pelo achatamento dos processos dos podócitos e não são vistas alterações na histologia, somente na microscopia eletrônica (que é justamente o achatamento dos podócitos). Devido à ausência de imunocomplexos, é uma doença com imunofluorescência negativa.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-29T03:23:13.000Z",
+                    "updated_at": "2020-05-29T03:23:13.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 770,
+                "questionary_id": 261860,
+                "timer": 0
+            }
+        },
+        {
+            "id": 773,
+            "institution_id": 4,
+            "description": "Sobre o diabetes mellitus causando síndrome nefrótica, assinale a alternativa correta:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-29T06:40:29.000Z",
+            "updated_at": "2020-05-29T06:40:29.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 96,
+                    "title": "Síndrome Nefrótica (Pato)",
+                    "description": null,
+                    "parent_id": 92,
+                    "is_enabled": true,
+                    "created_at": "2020-05-29T03:02:41.000Z",
+                    "updated_at": "2020-05-31T05:49:42.000Z",
+                    "pivot": {
+                        "discipline_id": 96,
+                        "question_id": 773
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3176,
+                    "question_id": 773,
+                    "description": "O mecanismo pelo qual o DM desenvolve síndrome nefrótica baseia-se em excesso de insulina",
+                    "explanation": "Falso, na verdade o mecanismo é o excesso de glicose, que causa glicolização não enzimática, principalmente na arteríola eferente, gerando arterioloesclerose hialina, e portanto, aumentando a pressão no glomérulo e gerando esclerose do glomérulo, o que vai evoluir para síndrome nefrótica.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-29T03:40:30.000Z",
+                    "updated_at": "2020-05-29T03:40:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3177,
+                    "question_id": 773,
+                    "description": "iECAs são ótimos medicamentos para desacelerar a evolução do dano renal na diabetes",
+                    "explanation": "Perfeito, a angiotensina ajuda na constrição da arteríola eferente, portanto vai aumentar a pressão no glomérulo. Um iECA vai diminuir essa constrição, por consequência, a pressão glomerular.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-29T03:40:30.000Z",
+                    "updated_at": "2020-05-29T03:40:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3178,
+                    "question_id": 773,
+                    "description": "A artéria aferente é mais afetada pela DM do que a artéria eferente",
+                    "explanation": "Falso. A artéria mais afetada é a eferente, não se sabe o porquê...",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-29T03:40:30.000Z",
+                    "updated_at": "2020-05-29T03:40:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3179,
+                    "question_id": 773,
+                    "description": "No mecanismo da lesão renal por DM, primeiro acontece a síndrome nefrótica com a esclerose do mesângio e por último a microalbuminúria",
+                    "explanation": "Falso. Na verdade é o contrário, a arterioloesclerose hialina da artéria eferente gera aumento da pressão do glomérulo e isso gera microalbuminúria, a primeira alteração. Com o tempo há a evolução para síndrome nefrótica. A marca da síndrome nefrótica nesse caso é a esclerose do mesângio.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-29T03:40:30.000Z",
+                    "updated_at": "2020-05-29T03:40:30.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 773,
+                "questionary_id": 261860,
+                "timer": 0
+            }
+        }
+    ]
+}

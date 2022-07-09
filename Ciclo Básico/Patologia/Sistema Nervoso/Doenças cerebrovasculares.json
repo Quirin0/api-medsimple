@@ -1,0 +1,584 @@
+{
+    "id": 261888,
+    "user_id": 1699,
+    "title": "Doenças cerebrovasculares",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-03T18:48:42.000Z",
+    "updated_at": "2022-07-03T18:48:42.000Z",
+    "study_plan_id": 238,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 1028,
+            "institution_id": 4,
+            "description": "Qual o tipo de necrose que ocorre no cérebro após um AVC isquêmico?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T21:49:21.000Z",
+            "updated_at": "2020-06-01T21:49:21.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 121,
+                    "title": "Doenças Cerebrovasculares (Pato)",
+                    "description": null,
+                    "parent_id": 118,
+                    "is_enabled": true,
+                    "created_at": "2020-05-31T06:24:07.000Z",
+                    "updated_at": "2020-05-31T06:24:07.000Z",
+                    "pivot": {
+                        "discipline_id": 121,
+                        "question_id": 1028
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4219,
+                    "question_id": 1028,
+                    "description": "Necrose coagulativa",
+                    "explanation": "Falso, a necrose coagulativa ocorre em todos os tecidos do corpo após um infarto isquêmico, exceto em cérebro e pâncreas.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T18:49:21.000Z",
+                    "updated_at": "2020-06-01T18:49:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4220,
+                    "question_id": 1028,
+                    "description": "Necrose liquefativa",
+                    "explanation": "Perfeito. O primeiro achado são \"neurônios vermelhos\" cerca de 12 horas após o infarto cerebral, posteriormente uma reparação com células da micróglia e neutrófilos e o último achado serão espaços císticos com fluído dentro cercados de astrócitos.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-01T18:49:21.000Z",
+                    "updated_at": "2020-06-01T18:49:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4221,
+                    "question_id": 1028,
+                    "description": "Necrose caseosa",
+                    "explanation": "Falso, típica de infecções bacteríanas, principalmente tuberculose.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T18:49:21.000Z",
+                    "updated_at": "2020-06-01T18:49:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4222,
+                    "question_id": 1028,
+                    "description": "Necrose gordurosa",
+                    "explanation": "Falso, típica do pâncreas.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T18:49:21.000Z",
+                    "updated_at": "2020-06-01T18:49:21.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1028,
+                "questionary_id": 261888,
+                "timer": 0
+            }
+        },
+        {
+            "id": 963,
+            "institution_id": 4,
+            "description": "Sobre a isquemia cerebral global, assinale a alternativa correta:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-31T20:03:27.000Z",
+            "updated_at": "2020-05-31T20:03:27.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 121,
+                    "title": "Doenças Cerebrovasculares (Pato)",
+                    "description": null,
+                    "parent_id": 118,
+                    "is_enabled": true,
+                    "created_at": "2020-05-31T06:24:07.000Z",
+                    "updated_at": "2020-05-31T06:24:07.000Z",
+                    "pivot": {
+                        "discipline_id": 121,
+                        "question_id": 963
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3950,
+                    "question_id": 963,
+                    "description": "As doenças cerebrovasculares mais comuns são as hemorrágicas",
+                    "explanation": "Falso. São as isquêmicas.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-31T17:03:27.000Z",
+                    "updated_at": "2020-05-31T17:03:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3951,
+                    "question_id": 963,
+                    "description": "Choque e anemia estão entre as causas de isquemia cerebral global",
+                    "explanation": "Perfeito! É isso mesmo! A definição de choque é justamente a falta de O2 nas células, e a consequência final da anemia também é justamente a falta de O2 para as células cerebrais. Além dessas causas, temos também a aterosclerose e episódios repetidos de hipoglicemia, uma vez que glicose é um alimento essencial para os neurônios.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-31T17:03:27.000Z",
+                    "updated_at": "2020-05-31T17:03:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3952,
+                    "question_id": 963,
+                    "description": "Um insulinoma causa excesso de glicose nos neurônios, levando à isquemia cerebral global",
+                    "explanation": "Falso, na verdade um insulinoma produz insulina e gera HIPOglicemia. Repetidos episódios de hipoglicemia vão gerar um isquemia cerebral global porque o cérebro não vai conseguir consumir o O2 mesmo que ele chegue lá.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-31T17:03:27.000Z",
+                    "updated_at": "2020-05-31T17:03:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3953,
+                    "question_id": 963,
+                    "description": "Um insulinoma geralmente é causa de isquemia cerebral global severa",
+                    "explanation": "Falso, geralmente é causa de isquemia cerebral global leve: é o caso típico da pessoa que fica hipoglicêmica e tem uma leve confusão mental. Porém, ao ingerir alguma coisa com glicose, essa pessoa já se recupera.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-31T17:03:27.000Z",
+                    "updated_at": "2020-05-31T17:03:27.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 963,
+                "questionary_id": 261888,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1026,
+            "institution_id": 4,
+            "description": "Abaixo estão listadas as 3 principais maneiras pelas quais é possível surgir um AVC (ou AVE):\n- *Maneira 1) Trombo*\n- *Maneira 2) Êmbolo*\n- *Maneira 3) Arteríoloesclerose*\nSobre esse assunto, assinale a alternativa correta:\n",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T21:19:01.000Z",
+            "updated_at": "2020-06-01T21:20:22.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 121,
+                    "title": "Doenças Cerebrovasculares (Pato)",
+                    "description": null,
+                    "parent_id": 118,
+                    "is_enabled": true,
+                    "created_at": "2020-05-31T06:24:07.000Z",
+                    "updated_at": "2020-05-31T06:24:07.000Z",
+                    "pivot": {
+                        "discipline_id": 121,
+                        "question_id": 1026
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4211,
+                    "question_id": 1026,
+                    "description": "A maneira 2 gera um infarto inicialmente hemorrágico que depois se torna isquêmico",
+                    "explanation": "Falso, a sequência correta seria primeiro um infarto isquêmico e depois um hemorrágico. Geralmente o que acontece com um êmbolo (maneira 2) é que ele gera um infarto isquêmico e logo em seguida ele é destruído pela fibrinólise fisiológica do organismo. Após o caminho de passagem de sangue ser reaberto, gera-se um infarto hemorrágico.\nPortanto a sequência correta no AVC por êmbolo seria: inicialmente forma-se um infarto anêmico (também chamado de isquêmico ou branco) devido à interrupção da irrigação cerebral pelo êmbolo e, porteriormente com a fibrinólise do êmbolo, forma-se um infarto hemorrágico (também chamado vermelho).\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T18:19:01.000Z",
+                    "updated_at": "2020-06-01T18:20:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4212,
+                    "question_id": 1026,
+                    "description": "A maneira 1 gera um infarto hemorrágico",
+                    "explanation": "Falso, gera um infarto isquêmico. Um trombo se forma com a ruptura de uma placa de aterosclerose em alguma artéria que irriga o cérebro, nesse sentido, por mais que a fibrinólise fisiológica tente destruir esse trombo, um novo sangue entrará em contato com a placa rompida (colágeno subendotelial e fator tecidual) e formará novamente outro trombo, gerando um infarto anêmico (também chamado de isquêmico ou branco) principalmente na periferia do córtex cerebral.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T18:19:01.000Z",
+                    "updated_at": "2020-06-01T18:20:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4213,
+                    "question_id": 1026,
+                    "description": "A maneira 3 ocorre principalmente devido à diabetes mellitus e hipertensão benigna e gera o AVC lacunar",
+                    "explanation": "Perfeito! O aumento da pressão na parede dos pequenos vasos e a glicolização não-enzimática gerada pelo DM vão desenvolver o processo de arterioloesclerose hialina na parede dos pequenos vasos cerebrais (principalmente nos vasos lenticuloestriados), o que vai gerar pequenas áreas de infarto por todo o encéfalo chamadas de \"lacuna\".",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-01T18:19:01.000Z",
+                    "updated_at": "2020-06-01T18:20:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4214,
+                    "question_id": 1026,
+                    "description": "A maneira 1 também é gerada pelo processo de arteríoloesclerose",
+                    "explanation": "Falso, na verdade a maneira 1 é pelo processo de aterosclerose, que seria a formação de uma placa de ateroma em uma artéria de grande ou médio calibre. Arterioloesclerose é basicamente um processo que ocorre com a hialinização das artérias de pequeno calibre devido à DM e HAS.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T18:19:01.000Z",
+                    "updated_at": "2020-06-01T18:20:22.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1026,
+                "questionary_id": 261888,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1029,
+            "institution_id": 4,
+            "description": "A PRINCIPAL característica de uma punção lombar na hemorragia subaracnóidea é:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T22:03:47.000Z",
+            "updated_at": "2020-06-01T22:03:47.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 121,
+                    "title": "Doenças Cerebrovasculares (Pato)",
+                    "description": null,
+                    "parent_id": 118,
+                    "is_enabled": true,
+                    "created_at": "2020-05-31T06:24:07.000Z",
+                    "updated_at": "2020-05-31T06:24:07.000Z",
+                    "pivot": {
+                        "discipline_id": 121,
+                        "question_id": 1029
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4223,
+                    "question_id": 1029,
+                    "description": "Neutrófilos",
+                    "explanation": "Falso, isso seria uma das principais característica de uma punção lombar com infecção de bactérias no LCR.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T19:03:48.000Z",
+                    "updated_at": "2020-06-01T19:03:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4224,
+                    "question_id": 1029,
+                    "description": "Linfócitos",
+                    "explanation": "Falso. Linfócitos na PL são a principal característica de uma infecção viral do LCR.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T19:03:48.000Z",
+                    "updated_at": "2020-06-01T19:03:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4225,
+                    "question_id": 1029,
+                    "description": "Xantocromia",
+                    "explanation": "Perfeito! Na hemorragia subaracnóidea nós temos excesso de hemoglobina no LCR, essa hemoglobina será convertida em bilirrubina e deixará o LCR com coloração amarelada.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-01T19:03:48.000Z",
+                    "updated_at": "2020-06-01T19:03:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4226,
+                    "question_id": 1029,
+                    "description": "LCR claro",
+                    "explanation": "Falso. Na hemorragia subaracnóidea você pensaria em um aspecto vermelho devido ao excesso de sangue, porém com o tempo esse vermelho se torna amarelo devido à conversão de hemoglobina em bilirrubina.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T19:03:48.000Z",
+                    "updated_at": "2020-06-01T19:03:48.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1029,
+                "questionary_id": 261888,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1030,
+            "institution_id": 4,
+            "description": "Qual o local mais comum de surgimento de uma hemorragia subaracnóidea:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T22:16:15.000Z",
+            "updated_at": "2020-06-01T22:16:15.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 121,
+                    "title": "Doenças Cerebrovasculares (Pato)",
+                    "description": null,
+                    "parent_id": 118,
+                    "is_enabled": true,
+                    "created_at": "2020-05-31T06:24:07.000Z",
+                    "updated_at": "2020-05-31T06:24:07.000Z",
+                    "pivot": {
+                        "discipline_id": 121,
+                        "question_id": 1030
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4227,
+                    "question_id": 1030,
+                    "description": "Parte anterior do círculo de Willis",
+                    "explanation": "Perfeito! Principalmente no local de comunicação da artéria comunicante anterior com a cerebral anterior!\n\n\nFonte da imagem: [https://br.pinterest.com/pin/537687643011196361/](https://br.pinterest.com/pin/537687643011196361/) ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-01T19:16:15.000Z",
+                    "updated_at": "2021-03-11T01:58:18.000Z",
+                    "files": [
+                        {
+                            "id": 257,
+                            "file": "1591038907560.jpeg",
+                            "name": "f3e94532b420921e5d7e166b57466d0a.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-01T22:15:08.000Z",
+                            "updated_at": "2020-06-01T22:15:08.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591038907560.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 257,
+                                "alternative_id": 4227
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4228,
+                    "question_id": 1030,
+                    "description": "Parte média do círculo de Willis",
+                    "explanation": "Não é o principal local.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T19:16:15.000Z",
+                    "updated_at": "2020-06-01T19:16:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4229,
+                    "question_id": 1030,
+                    "description": "Parte posterior do círculo de Willis",
+                    "explanation": "Não é o principal local",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T19:16:15.000Z",
+                    "updated_at": "2020-06-01T19:16:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4230,
+                    "question_id": 1030,
+                    "description": "Na artéria basilar",
+                    "explanation": "Falso, não é o local mais comum",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T19:16:15.000Z",
+                    "updated_at": "2020-06-01T19:16:15.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1030,
+                "questionary_id": 261888,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1031,
+            "institution_id": 4,
+            "description": "Em relação à doença cerebrovascular e seus subtipos, analise as afirmativas a seguir e assinale a correta:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T22:25:55.000Z",
+            "updated_at": "2020-06-01T22:25:55.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 121,
+                    "title": "Doenças Cerebrovasculares (Pato)",
+                    "description": null,
+                    "parent_id": 118,
+                    "is_enabled": true,
+                    "created_at": "2020-05-31T06:24:07.000Z",
+                    "updated_at": "2020-05-31T06:24:07.000Z",
+                    "pivot": {
+                        "discipline_id": 121,
+                        "question_id": 1031
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4231,
+                    "question_id": 1031,
+                    "description": "Se os déficits focais de uma isquemia vascular focal duram menos de 24 horas, então chamamos a doença de \"AVE\" (ou AVC)",
+                    "explanation": "Falso, se os déficits focais duram menos de 24 horas nós chamamos a doença de **ataque isquêmico transiente (AIT)**\nE o que são déficits neurológicos focais? Déficit neurológico focal é a perda de movimento, sensação ou função em um local específico do corpo, como o lado esquerdo da face, braço esquerdo ou áreas menores, como a língua. Complicações na visão, audição e fala também são considerados déficits neurológicos focais. Um déficit focal bem conhecido é o paciente ficar com a boca numa posição estranha, como se estivesse \"sorrindo\".\nAVC ou AVE (o termo mais correto seria AVE (acidente vascular encefálico)), ocorre quando os déficits duram mais de 24 horas.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T19:25:55.000Z",
+                    "updated_at": "2020-06-01T19:25:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4232,
+                    "question_id": 1031,
+                    "description": "Se os déficits focais de uma isquemia vascular focal duram mais de 24 horas, então chamamos a doença de AIT",
+                    "explanation": "Falso, AIT é acidente isquêmico transitório, e os sintomas/déficits focais persistem por MENOS de 24 horas.\nSe os sintomas durarem mais de 24 horas chamamos de AVC ou AVE (mais correto é AVE).\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T19:25:55.000Z",
+                    "updated_at": "2020-06-01T19:25:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4233,
+                    "question_id": 1031,
+                    "description": "Existem três tipos de infarto cerebral hemorrágico: pálido, intracerebral e subaracnóideo",
+                    "explanation": "Falso, não existe infarto cerebral hemorrágico pálido. Ou é pálido/isquêmico ou é hemorrágico/vermelho. Não dá pra ser as duas coisas. Na verdade existem apenas 2 tipos de infarto cerebral hemorrágico: intracerebral e subaracnóideo.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T19:25:55.000Z",
+                    "updated_at": "2020-06-01T19:25:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4234,
+                    "question_id": 1031,
+                    "description": "O infarto intracerebral hemorrágico acontece classicamente devido à ruptura de microaneurismas de Charcot-Bouchard",
+                    "explanation": "Perfeito! É isso mesmo. O local mais comum é a área do gânglio basal, e geralmente esses aneurismas se desenvolvem como uma complicação de HAS. Pode se apresentar com cefaleia, náuseas ou vômitos, e perda da consciência.\n\n\nFonte: [http://masterusmlestep1.blogspot.com/2017/12/charcot-bouchard-microaneurysm.html](http://masterusmlestep1.blogspot.com/2017/12/charcot-bouchard-microaneurysm.html) ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-01T19:25:55.000Z",
+                    "updated_at": "2021-03-11T01:58:18.000Z",
+                    "files": [
+                        {
+                            "id": 258,
+                            "file": "1591039498843.jpeg",
+                            "name": "Charcot-Bouchard+Microaneurysms.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-01T22:24:59.000Z",
+                            "updated_at": "2020-06-01T22:24:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591039498843.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 258,
+                                "alternative_id": 4234
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1031,
+                "questionary_id": 261888,
+                "timer": 0
+            }
+        }
+    ]
+}

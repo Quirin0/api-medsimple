@@ -1,0 +1,280 @@
+{
+    "id": 261889,
+    "user_id": 1699,
+    "title": "Meningite",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-03T18:49:02.000Z",
+    "updated_at": "2022-07-03T18:49:02.000Z",
+    "study_plan_id": 239,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 949,
+            "institution_id": 4,
+            "description": "Qual a causa viral mais comum de meningite?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-31T06:06:13.000Z",
+            "updated_at": "2020-05-31T06:06:13.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 120,
+                    "title": "Meningite (Pato)",
+                    "description": null,
+                    "parent_id": 118,
+                    "is_enabled": true,
+                    "created_at": "2020-05-31T05:58:23.000Z",
+                    "updated_at": "2020-05-31T05:58:23.000Z",
+                    "pivot": {
+                        "discipline_id": 120,
+                        "question_id": 949
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3891,
+                    "question_id": 949,
+                    "description": "Rotavírus",
+                    "explanation": "Falso, Rotavirus é um vírus de RNA e uma das principais causas de diarreia grave em lactentes e crianças jovens.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-31T03:06:14.000Z",
+                    "updated_at": "2020-05-31T03:06:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3892,
+                    "question_id": 949,
+                    "description": "Vírus Sincicial Respiratório",
+                    "explanation": "Falso, esse vírus causa resfriado comum",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-31T03:06:14.000Z",
+                    "updated_at": "2020-05-31T03:06:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3893,
+                    "question_id": 949,
+                    "description": "Coxsackievirus",
+                    "explanation": "Perfeito. Esse vírus comumente infecta a pele causando doenças muito comuns em crianças, como a herpangina e a síndrome mão-pé-boca",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-31T03:06:14.000Z",
+                    "updated_at": "2020-05-31T03:06:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3894,
+                    "question_id": 949,
+                    "description": "Rhinovirus",
+                    "explanation": "Falso, esse vírus também é uma causa de resfriado comum.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-31T03:06:14.000Z",
+                    "updated_at": "2020-05-31T03:06:14.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 949,
+                "questionary_id": 261889,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1095,
+            "institution_id": 4,
+            "description": "O agente mais comum da meningite em neonatos é:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T06:25:47.000Z",
+            "updated_at": "2020-06-02T06:25:47.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 120,
+                    "title": "Meningite (Pato)",
+                    "description": null,
+                    "parent_id": 118,
+                    "is_enabled": true,
+                    "created_at": "2020-05-31T05:58:23.000Z",
+                    "updated_at": "2020-05-31T05:58:23.000Z",
+                    "pivot": {
+                        "discipline_id": 120,
+                        "question_id": 1095
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4499,
+                    "question_id": 1095,
+                    "description": "S aureus",
+                    "explanation": "Falso, não está nem entre os 3 mais comuns.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-02T03:25:47.000Z",
+                    "updated_at": "2020-06-02T03:25:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4500,
+                    "question_id": 1095,
+                    "description": "GBS",
+                    "explanation": "Perfeito. O Streptococcus agalactiae ou Strep do grupo B é o principal causador de meningite em neonatos. Inclusive, faz-se profilaxia com penicilina para mulheres com cultura positiva nas 35 semanas de gestação.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-02T03:25:47.000Z",
+                    "updated_at": "2020-06-02T03:25:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4501,
+                    "question_id": 1095,
+                    "description": "E. coli",
+                    "explanation": "Falso, é a segunda principal causadora de meningite em neonatos.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-02T03:25:47.000Z",
+                    "updated_at": "2020-06-02T03:25:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4502,
+                    "question_id": 1095,
+                    "description": "Lysteria monocytogenes",
+                    "explanation": "Falso, essa é a terceira causa mais comum de meningite em neonatos. Importante também lembrar que o segundo grupo de risco para meningite por Lysteria são os idosos.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-02T03:25:47.000Z",
+                    "updated_at": "2020-06-02T03:25:47.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1095,
+                "questionary_id": 261889,
+                "timer": 0
+            }
+        },
+        {
+            "id": 950,
+            "institution_id": 4,
+            "description": "Em relação à meningite, analise as opções abaixo e assinale a correta:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-31T06:20:50.000Z",
+            "updated_at": "2022-04-12T02:15:38.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 120,
+                    "title": "Meningite (Pato)",
+                    "description": null,
+                    "parent_id": 118,
+                    "is_enabled": true,
+                    "created_at": "2020-05-31T05:58:23.000Z",
+                    "updated_at": "2020-05-31T05:58:23.000Z",
+                    "pivot": {
+                        "discipline_id": 120,
+                        "question_id": 950
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 3895,
+                    "question_id": 950,
+                    "description": "Fotofobia é um sintoma mais comum na meningite bacteriana do que na viral",
+                    "explanation": "Falso, é mais comum em meningite viral. Não se sabe muito bem o porquê...",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-31T03:20:50.000Z",
+                    "updated_at": "2022-04-12T02:15:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3896,
+                    "question_id": 950,
+                    "description": "A medula espinal termina em L2, mas o espaço subaracnóideo vai até S2.",
+                    "explanation": "PERFEITO! Esse é o motivo pelo qual o local ideal para uma punção lombar é L4-L5. Se você colocar uma agulha entre L4 e L5, você pode chegar até o espaço subaracnóideo sem risco de lesar a medula.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-31T03:20:50.000Z",
+                    "updated_at": "2022-04-12T02:15:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3897,
+                    "question_id": 950,
+                    "description": "A análise de um LCR infectado por bactérias geralmente mostra baixa glicose e linfócitos",
+                    "explanation": "Falso, Doc!\n- Linfócitos estarão normais ou aumentados, embora o predomínio seja de **neutróficos**\n- Como é uma infecção, as células de defesa estão aumentadas\n- O que ocorre é que o **predomínio** na meningite bacteriana é de neutrófilos e, na viral, de linfócitos",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-31T03:20:50.000Z",
+                    "updated_at": "2022-04-12T02:15:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 3898,
+                    "question_id": 950,
+                    "description": "A análise de um LCR infectado por vírus geralmente mostra baixa glicose e linfócitos",
+                    "explanation": "Falso, vírus não consomem glicose. A glicose do LCR é 2/3 da glicose no sangue. As bactérias consomem glicose, já os vírus obviamente não. Portanto numa meningite por bactérias terá baixa glicose no LCR e numa meningite viral terá glicose normal.\nLinfócitos está correto. São eles que lutam contra os vírus.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-31T03:20:50.000Z",
+                    "updated_at": "2022-04-12T02:15:39.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 950,
+                "questionary_id": 261889,
+                "timer": 0
+            }
+        }
+    ]
+}

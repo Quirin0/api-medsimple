@@ -1,0 +1,896 @@
+{
+    "id": 263714,
+    "user_id": 1699,
+    "title": "pH e Tamponamento",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-05T02:22:01.000Z",
+    "updated_at": "2022-07-05T02:22:01.000Z",
+    "study_plan_id": 599,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 6986,
+            "institution_id": 4,
+            "description": "Sobre o conceito de ácidos, bases, pH e solução tampão para os sistemas biológicos, assinale a alternativa que contém uma informação FALSA.",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-28T22:18:40.000Z",
+            "updated_at": "2021-03-28T22:18:40.000Z",
+            "user_id": 202,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 653,
+                    "title": "pH e Tamponamento",
+                    "description": null,
+                    "parent_id": 68,
+                    "is_enabled": true,
+                    "created_at": "2021-03-28T22:03:24.000Z",
+                    "updated_at": "2021-06-24T02:27:08.000Z",
+                    "pivot": {
+                        "discipline_id": 653,
+                        "question_id": 6986
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 28733,
+                    "question_id": 6986,
+                    "description": "Usa-se o conceito de ácido como sendo a substância doadora de prótons (H+) e base como a aceptora desses prótons.",
+                    "explanation": "Verdadeira, doc!\n- Em fórmula química teríamos: HA (ácido) + H20 (base) -> H3O+ (ácido conjugado) + A- (base conjugada)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-03-28T19:18:40.000Z",
+                    "updated_at": "2021-03-28T19:18:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28734,
+                    "question_id": 6986,
+                    "description": "Os principais ácidos e bases dos sistemas biológicos são: fosfato monobásico, íon amônio, ácido carbônico e ácido lático",
+                    "explanation": "Veradeira, doc! \n- Esses ácidos e suas bases conjugadas participam na formação de soluções tampão do organismo",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-03-28T19:18:40.000Z",
+                    "updated_at": "2021-03-28T19:18:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28735,
+                    "question_id": 6986,
+                    "description": "O pKa indica a concentração de íons H+ na solução e quanto menor ele for, menos íons H+ você encontra nessa solução",
+                    "explanation": "Boa, doc! Essa é a alternativa falsa! 👏\n- pKa indica a força de dissociação do ácido, ou seja, se ele libera com mais facilidade ou dificuldade seus íons H+\n- Quanto menor for o pKa, mais forte é o ácido\n- pKa= - log Ka",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-03-28T19:18:40.000Z",
+                    "updated_at": "2021-03-28T19:18:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28736,
+                    "question_id": 6986,
+                    "description": "Um ácido forte é aquele que libera, praticamente, todos os seus H+ em meio aquoso",
+                    "explanation": "Verdadeira, doc!\n- Já um ácido fraco é aquele que não libera todos os seus H+ em meio aquoso.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-03-28T19:18:40.000Z",
+                    "updated_at": "2021-03-28T19:18:40.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 6986,
+                "questionary_id": 263714,
+                "timer": 0
+            }
+        },
+        {
+            "id": 6987,
+            "institution_id": 4,
+            "description": "Uma solução tampão é formada por:",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-28T22:25:41.000Z",
+            "updated_at": "2021-03-28T22:25:41.000Z",
+            "user_id": 202,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 653,
+                    "title": "pH e Tamponamento",
+                    "description": null,
+                    "parent_id": 68,
+                    "is_enabled": true,
+                    "created_at": "2021-03-28T22:03:24.000Z",
+                    "updated_at": "2021-06-24T02:27:08.000Z",
+                    "pivot": {
+                        "discipline_id": 653,
+                        "question_id": 6987
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 28737,
+                    "question_id": 6987,
+                    "description": "Um ácido forte e uma base fraca, sendo o pH>pKa",
+                    "explanation": "Errada, doc! 🤔 Confira o comentário da alternativa correta! 😉",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-03-28T19:25:41.000Z",
+                    "updated_at": "2021-03-28T19:25:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28738,
+                    "question_id": 6987,
+                    "description": "Um ácido fraco e uma base fraca, sendo o pH<pKa",
+                    "explanation": "Errada, doc! 🤔 Confira o comentário da alternativa correta! 😉 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-03-28T19:25:41.000Z",
+                    "updated_at": "2021-03-28T19:25:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28739,
+                    "question_id": 6987,
+                    "description": "Um ácido forte e sua base conjugada, sendo pH=pKa",
+                    "explanation": "Errada, doc! 🤔 Confira o comentário da alternativa correta! 😉 ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-03-28T19:25:41.000Z",
+                    "updated_at": "2021-03-28T19:25:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28740,
+                    "question_id": 6987,
+                    "description": "Um ácido fraco e sua base conjugada, sendo o pH=pKa",
+                    "explanation": "Boa, doc! Está correta! 🤓\n- O sistema tampão consiste de uma solução aquosa capaz de resistir a mudanças de pH quando ácidos ou álcalis são adicionados ao meio.\n- São formados por ácidos fracos e suas bases conjugadas\n- Quando pH=pKa, temos uma mistura com concentrações iguais de ácido fraco e sua base conjugada.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-03-28T19:25:41.000Z",
+                    "updated_at": "2021-03-28T19:25:41.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 6987,
+                "questionary_id": 263714,
+                "timer": 0
+            }
+        },
+        {
+            "id": 6989,
+            "institution_id": 4,
+            "description": "Assinale a alternativa que melhor descreve uma propriedade universal dos tampões.",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-28T22:31:08.000Z",
+            "updated_at": "2021-03-28T22:31:08.000Z",
+            "user_id": 202,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 653,
+                    "title": "pH e Tamponamento",
+                    "description": null,
+                    "parent_id": 68,
+                    "is_enabled": true,
+                    "created_at": "2021-03-28T22:03:24.000Z",
+                    "updated_at": "2021-06-24T02:27:08.000Z",
+                    "pivot": {
+                        "discipline_id": 653,
+                        "question_id": 6989
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 28745,
+                    "question_id": 6989,
+                    "description": "Tampões funcionam melhor em um pH no qual as moléculas estejam completamente dissociadas.",
+                    "explanation": "Errada, doc!\n- Ele funciona melhor em um pH próximo do pKa, ou seja, quando as concentrações do ácido e da base conjugada são iguais",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-03-28T19:31:08.000Z",
+                    "updated_at": "2021-03-28T19:31:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28746,
+                    "question_id": 6989,
+                    "description": "Tampões funcionam melhor em um pH no qual seus componentes encontrem-se 50% na forma dissociada/ionizada e 50% na forma não dissociada",
+                    "explanation": "Boa, doc! Está correta! 😍\n- Nesse ponto, pH=pKa e as concentrações do ácido fraco e de sua base conjugada são iguais",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-03-28T19:31:08.000Z",
+                    "updated_at": "2021-03-28T19:31:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28747,
+                    "question_id": 6989,
+                    "description": "Tampões são, em geral, formados por uma mistura de ácidos e bases fortes.",
+                    "explanation": "Errada, doc!\n- São formados por um ácido fraco e sua base conjugada.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-03-28T19:31:08.000Z",
+                    "updated_at": "2021-03-28T19:31:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28748,
+                    "question_id": 6989,
+                    "description": "Tampões são formados por misturas de sais e ácidos fortes.",
+                    "explanation": "Errada, doc!\n- São formados por um ácido fraco e sua base conjugada. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-03-28T19:31:08.000Z",
+                    "updated_at": "2021-03-28T19:31:08.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 6989,
+                "questionary_id": 263714,
+                "timer": 0
+            }
+        },
+        {
+            "id": 6996,
+            "institution_id": 4,
+            "description": "Mulher de 49 anos, com crise de ansiedade. Queixa-se de que \"parece que lhe falta o ar\" nos últimos 4 dias. A avaliação laboratorial mostrou: **pH= 7,5** (VR= 7,35 - 7,45); **pCO2= 30mmHg** (VR= 35 - 45mmHg); **HCO3= 19mEq/L** (VR= 22 - 28 mEq/L). Qual o distúrbio observado?",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-28T23:25:20.000Z",
+            "updated_at": "2022-05-02T12:54:57.000Z",
+            "user_id": 202,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 653,
+                    "title": "pH e Tamponamento",
+                    "description": null,
+                    "parent_id": 68,
+                    "is_enabled": true,
+                    "created_at": "2021-03-28T22:03:24.000Z",
+                    "updated_at": "2021-06-24T02:27:08.000Z",
+                    "pivot": {
+                        "discipline_id": 653,
+                        "question_id": 6996
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 28773,
+                    "question_id": 6996,
+                    "description": "Alcalose metabólica",
+                    "explanation": "Errada, doc! 🤔Confira o comentário da alternativa correta 😉 ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-03-28T20:25:20.000Z",
+                    "updated_at": "2022-05-02T12:54:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28774,
+                    "question_id": 6996,
+                    "description": "Acidose metabólica",
+                    "explanation": "Errada, doc! 🤔Confira o comentário da alternativa correta 😉 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-03-28T20:25:20.000Z",
+                    "updated_at": "2022-05-02T12:54:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28775,
+                    "question_id": 6996,
+                    "description": "Acidose respiratória",
+                    "explanation": "Errada, doc! 🤔Confira o comentário da alternativa correta 😉 ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-03-28T20:25:20.000Z",
+                    "updated_at": "2022-05-02T12:54:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28776,
+                    "question_id": 6996,
+                    "description": "Alcalose respiratória",
+                    "explanation": "Boa, doc! Está correta! 😍\n- Alcalose: pois o pH está acima do considerado normal\n- Respiratória: perceba, doc, que a paciente está com crise de ansiedade. Nesses casos, há uma estimulação da respiração, ou seja, ela hiperventila. Com isso, muito CO2 é eliminado (veja a concentração abaixo do normal). Ou seja, a origem do problema está na frequência respiratória aumentada.\n- O corpo, para compensar essa alcalose, elimina mais bicarbonato (substância básica) pela urina. Por isso a concentração também está baixa - o corpo já está tentando compensar esse distúrbio.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-03-28T20:25:20.000Z",
+                    "updated_at": "2022-05-02T12:54:57.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 6996,
+                "questionary_id": 263714,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7000,
+            "institution_id": 4,
+            "description": "Sobre a **alcalose metabólica**, assinale a alternativa que correlaciona corretamente como V (verdadeira) ou F (falsa) as sentenças abaixo:\n- (   ) Advém de uma queda na concentração do HCO3- sem alterar a pCO2\n- (   ) Pode ser causada por hiperemese (vômitos)\n- (   ) Tem como principais respostas fisiológicas a diminuição da frequência respiratória e o aumento na excreção de bicarbonato pelos rins",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-28T23:50:56.000Z",
+            "updated_at": "2021-03-28T23:50:56.000Z",
+            "user_id": 202,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 653,
+                    "title": "pH e Tamponamento",
+                    "description": null,
+                    "parent_id": 68,
+                    "is_enabled": true,
+                    "created_at": "2021-03-28T22:03:24.000Z",
+                    "updated_at": "2021-06-24T02:27:08.000Z",
+                    "pivot": {
+                        "discipline_id": 653,
+                        "question_id": 7000
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 28789,
+                    "question_id": 7000,
+                    "description": "F, V, F",
+                    "explanation": "Errada, doc! Verifique o comentário da alternativa correta! 🤗",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-03-28T20:50:56.000Z",
+                    "updated_at": "2021-03-28T20:50:56.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28790,
+                    "question_id": 7000,
+                    "description": "V, V, F",
+                    "explanation": "Errada, doc! Verifique o comentário da alternativa correta! 🤗 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-03-28T20:50:56.000Z",
+                    "updated_at": "2021-03-28T20:50:56.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28791,
+                    "question_id": 7000,
+                    "description": "V, F, V",
+                    "explanation": "Errada, doc! Verifique o comentário da alternativa correta! 🤗 ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-03-28T20:50:56.000Z",
+                    "updated_at": "2021-03-28T20:50:56.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28792,
+                    "question_id": 7000,
+                    "description": "F, V, V",
+                    "explanation": "Boa, doc! Está correta! 😍\n- FALSA. Advém de um AUMENTO na concentração de HCO3- sem alterar a pCO2\n- VERDADEIRA. A perda do conteúdo estomacal faz com que diminua-se a quantidade de ácidos no organismo, desviando o equilíbrio ácido-base para uma alcalose.\n- VERDADEIRA. A diminuição da frequência respiratória visa aumentar a pCO2 e, consequentemente, a concentração do ácido carbônico; já o aumento da excreção de bicarbonato pelos rins, visa remover o excesso de bases do organismo. Tudo isso, com o propósito de diminuir o pH sanguíneo.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-03-28T20:50:56.000Z",
+                    "updated_at": "2021-03-28T20:50:56.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7000,
+                "questionary_id": 263714,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7001,
+            "institution_id": 4,
+            "description": "Sobre a acidose respiratória, assinale a alternativa que correlaciona as sentenças abaixo como V (verdadeiras) ou F (falsas) corretamente.\n- (    ) Advém de um acúmulo anormal de CO2 pela incapacidade dos pulmões de excretá-lo\n- (    ) Pode ter como uma causa crônica o enfisema pulmonar\n- (    ) Uma das suas respostas fisiológicas é a diminuição da reabsorção de bicarbonato pelos rins\n- (    ) Outra resposta fisiológica é a diminuição da excreção de H+ pelos rins",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-28T23:58:25.000Z",
+            "updated_at": "2021-03-28T23:58:25.000Z",
+            "user_id": 202,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 653,
+                    "title": "pH e Tamponamento",
+                    "description": null,
+                    "parent_id": 68,
+                    "is_enabled": true,
+                    "created_at": "2021-03-28T22:03:24.000Z",
+                    "updated_at": "2021-06-24T02:27:08.000Z",
+                    "pivot": {
+                        "discipline_id": 653,
+                        "question_id": 7001
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 28793,
+                    "question_id": 7001,
+                    "description": "V, V, F, F",
+                    "explanation": "Boa, doc! Está correta! 😍\n- VERDADEIRA. Esse acúmulo de CO2 gera mais ácidos no organismo\n- VERDADEIRA. No enfisema há uma dificuldade de expiração pela perda da elasticidade do pulmão. Dessa forma, o CO2 é acumulado\n- FALSA. Uma das suas respostas fisiológicas é **o aumento** da reabsorção de bicarbonato pelos rins\n- FALSA. Ocorre um **aumento** da excreção de H+ pelos rins ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-03-28T20:58:25.000Z",
+                    "updated_at": "2021-03-28T20:58:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28794,
+                    "question_id": 7001,
+                    "description": "V, V, V, V",
+                    "explanation": "Errada, doc! Verifique o comentário da alternativa correta! 🤗 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-03-28T20:58:25.000Z",
+                    "updated_at": "2021-03-28T20:58:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28795,
+                    "question_id": 7001,
+                    "description": "F, F, F, F",
+                    "explanation": "Errada, doc! Verifique o comentário da alternativa correta! 🤗 ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-03-28T20:58:25.000Z",
+                    "updated_at": "2021-03-28T20:58:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28796,
+                    "question_id": 7001,
+                    "description": "V, F, F, F",
+                    "explanation": "Errada, doc! Verifique o comentário da alternativa correta! 🤗 ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-03-28T20:58:25.000Z",
+                    "updated_at": "2021-03-28T20:58:25.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7001,
+                "questionary_id": 263714,
+                "timer": 0
+            }
+        },
+        {
+            "id": 6990,
+            "institution_id": 4,
+            "description": "Paciente do sexo feminino, de 50 anos, internada na UTI pós-cirurgia abdominal, em choque hipovolêmico. Apresenta gasometria arterial: **pH=7,25** (Valor de Referência: VR= 7,35 - 7,45); **PaCO2= 22mmHg** (VR= 35-45 mmHg); **HCO3- = 9,7 mEq/L** (VR= 22 a 28 mEq/L). O distúrbio primário é:",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-28T22:46:27.000Z",
+            "updated_at": "2021-03-28T22:46:27.000Z",
+            "user_id": 202,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 653,
+                    "title": "pH e Tamponamento",
+                    "description": null,
+                    "parent_id": 68,
+                    "is_enabled": true,
+                    "created_at": "2021-03-28T22:03:24.000Z",
+                    "updated_at": "2021-06-24T02:27:08.000Z",
+                    "pivot": {
+                        "discipline_id": 653,
+                        "question_id": 6990
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 28749,
+                    "question_id": 6990,
+                    "description": "Acidose respiratória",
+                    "explanation": "Errada, doc! 🤔Confira o comentário da alternativa correta 😉",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-03-28T19:46:27.000Z",
+                    "updated_at": "2021-03-28T19:46:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28750,
+                    "question_id": 6990,
+                    "description": "Alcalose respiratória",
+                    "explanation": "Errada, doc! 🤔Confira o comentário da alternativa correta 😉 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-03-28T19:46:27.000Z",
+                    "updated_at": "2021-03-28T19:46:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28751,
+                    "question_id": 6990,
+                    "description": "Alcalose metabólica",
+                    "explanation": "Errada, doc! 🤔Confira o comentário da alternativa correta 😉 ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-03-28T19:46:27.000Z",
+                    "updated_at": "2021-03-28T19:46:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28752,
+                    "question_id": 6990,
+                    "description": "Acidose metabólica",
+                    "explanation": "Boa, doc! Está correta! 😍\n- Acidose: pois o pH está abaixo da faixa normal.\n- Metabólica: atente-se, doc, que a paciente está em choque hipovolêmico. Ou seja, ela perdeu muito sangue. Com essa perda de sangue, perde-se também muito bicarbonato (verifique como os níveis estão baixos). Dessa forma, a origem da acidose está no metabolismo e não na respiração.\n- O corpo tentará ajustar o pH através da hiperventilação, isso é, aumento na frequência respiratória. Isso faz com que mais CO2 seja eliminado, o que baixa sua concentração (verifique que a PaCO2 também está abaixo do normal). \n- Ou seja, o corpo já está tentando compensar essa acidose metabólica.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-03-28T19:46:27.000Z",
+                    "updated_at": "2021-03-28T19:46:27.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 6990,
+                "questionary_id": 263714,
+                "timer": 0
+            }
+        },
+        {
+            "id": 6992,
+            "institution_id": 4,
+            "description": "Uma pessoa resolve passar férias no Peru, visitando a cidade de Machu Picchu, a 2400 metros de altitude. No primeiro dia de visita, seria esperado que a **frequência respiratória**, a **PCO2** e o **pH sanguíneo** dessa pessoa estivessem, respectivamente: ",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-28T22:57:33.000Z",
+            "updated_at": "2021-03-28T22:57:33.000Z",
+            "user_id": 202,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 653,
+                    "title": "pH e Tamponamento",
+                    "description": null,
+                    "parent_id": 68,
+                    "is_enabled": true,
+                    "created_at": "2021-03-28T22:03:24.000Z",
+                    "updated_at": "2021-06-24T02:27:08.000Z",
+                    "pivot": {
+                        "discipline_id": 653,
+                        "question_id": 6992
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 28757,
+                    "question_id": 6992,
+                    "description": "Elevada, baixa e normal",
+                    "explanation": "Errada, doc! 🤔Confira o comentário da alternativa correta 😉 ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-03-28T19:57:33.000Z",
+                    "updated_at": "2021-03-28T19:57:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28758,
+                    "question_id": 6992,
+                    "description": "Elevada, baixa e elevado",
+                    "explanation": "Boa, doc! Está correta! 😍\n- Como em grandes altitudes o ar é rarefeito, há uma menor quantidade de gás oxigênio disponível. \n- Para compensar essa queda de O2 inspirado, o corpo **aumenta a frequência respiratória**.\n- Todavia, aumentando a frequência respiratória, mais CO2 será eliminado. Ou seja, a **PCO2 diminui.**\n- Mais CO2 sendo eliminado, significa que mais ácido carbônico está sendo convertido em CO2, diminuindo a concentração desse. Com menos ácido, **maior fica o pH**.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-03-28T19:57:33.000Z",
+                    "updated_at": "2021-03-28T19:57:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28759,
+                    "question_id": 6992,
+                    "description": "Normal, normal e elevado",
+                    "explanation": "Errada, doc! 🤔Confira o comentário da alternativa correta 😉 ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-03-28T19:57:33.000Z",
+                    "updated_at": "2021-03-28T19:57:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28760,
+                    "question_id": 6992,
+                    "description": "Baixa, elevada e baixo",
+                    "explanation": "Errada, doc! 🤔Confira o comentário da alternativa correta 😉 ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-03-28T19:57:33.000Z",
+                    "updated_at": "2021-03-28T19:57:33.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 6992,
+                "questionary_id": 263714,
+                "timer": 0
+            }
+        },
+        {
+            "id": 6994,
+            "institution_id": 4,
+            "description": "Qual das seguintes condições fisiológicas/patológicas tem maior probabilidade de resultar em uma alcalose se não for completamente compensada pelo corpo?",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-28T23:14:54.000Z",
+            "updated_at": "2021-03-28T23:14:54.000Z",
+            "user_id": 202,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 653,
+                    "title": "pH e Tamponamento",
+                    "description": null,
+                    "parent_id": 68,
+                    "is_enabled": true,
+                    "created_at": "2021-03-28T22:03:24.000Z",
+                    "updated_at": "2021-06-24T02:27:08.000Z",
+                    "pivot": {
+                        "discipline_id": 653,
+                        "question_id": 6994
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 28765,
+                    "question_id": 6994,
+                    "description": "Vômitos repetidos, com perda do conteúdo estomacal, incluindo HCl",
+                    "explanation": "Boa, doc! Está correta!\n- Com uma perda consideravel de ácidos estomacais, o pH pode ficar mais básico, justamente por essa perda.\n- Trataria-se, então, de uma alcalose metabólica.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-03-28T20:14:54.000Z",
+                    "updated_at": "2021-03-28T20:14:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28766,
+                    "question_id": 6994,
+                    "description": "Produção de corpos cetônicos por um paciente com diabetes melito.",
+                    "explanation": "Errada, doc!\n- Lembre-se que os corpos cetônicos são os ácidos acetoacéticos, ou acetoacetatos.\n- Em sua estrutura, possuem grupo funcional ácido e liberam H+ em solução aquosa.\n- Ou seja, quando em excesso, tendem a gerar uma ÁCIDOSE metabólica.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-03-28T20:14:54.000Z",
+                    "updated_at": "2021-03-28T20:14:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28767,
+                    "question_id": 6994,
+                    "description": "Produção de ácido lático pelos músculos durante o exercício",
+                    "explanation": "Errada, doc!\n- O próprio nome já entrega o erro: ÁCIDO lático.\n- Ou seja, ele libera H+ em meio aquoso.\n- Então, não tem como gerar uma alcalose, mas sim, uma acidose.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-03-28T20:14:54.000Z",
+                    "updated_at": "2021-03-28T20:14:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28768,
+                    "question_id": 6994,
+                    "description": "Diarreia com perda de ânions bicarbonato secretados no intestino.",
+                    "explanation": "Errada, doc!\n- O bicarbonato é uma importante base para os sistemas biológicos do nosso corpo. \n- Isso sgnifica que ele é capaz de \"sequestrar\" íons H+ do meio.\n- Com menos bicarbonato disponível, mais íons H+ ficam disponíveis, o que aumenta o pH = causa **acidose.**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-03-28T20:14:54.000Z",
+                    "updated_at": "2021-03-28T20:14:54.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 6994,
+                "questionary_id": 263714,
+                "timer": 0
+            }
+        },
+        {
+            "id": 6998,
+            "institution_id": 4,
+            "description": "Paciente masculino de 55 anos, com histórico de asma e bronquite e uso do analgésico metadona, deu entrada na clínica médica. Foi relatado que o paciente apresentava tontura, falta de atenção, perda de memória, irritabilidade e fortes dores de cabeça. Os testes laboratoriais foram condizentes com qual dos seguintes resultados?",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-28T23:42:08.000Z",
+            "updated_at": "2021-03-28T23:42:08.000Z",
+            "user_id": 202,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 653,
+                    "title": "pH e Tamponamento",
+                    "description": null,
+                    "parent_id": 68,
+                    "is_enabled": true,
+                    "created_at": "2021-03-28T22:03:24.000Z",
+                    "updated_at": "2021-06-24T02:27:08.000Z",
+                    "pivot": {
+                        "discipline_id": 653,
+                        "question_id": 6998
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 28781,
+                    "question_id": 6998,
+                    "description": "pCO2= 40mmHg; pH= 7,26",
+                    "explanation": "Errada, doc! 🤔Confira o comentário da alternativa correta 😉 ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-03-28T20:42:08.000Z",
+                    "updated_at": "2021-03-28T20:42:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28782,
+                    "question_id": 6998,
+                    "description": "pCO2= 45mmHg; pH=7,45",
+                    "explanation": "Errada, doc! 🤔Confira o comentário da alternativa correta 😉 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-03-28T20:42:08.000Z",
+                    "updated_at": "2021-03-28T20:42:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28783,
+                    "question_id": 6998,
+                    "description": "pCO2= 20mmHg; pH= 7,45",
+                    "explanation": "Errada, doc! 🤔Confira o comentário da alternativa correta 😉 ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-03-28T20:42:08.000Z",
+                    "updated_at": "2021-03-28T20:42:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28784,
+                    "question_id": 6998,
+                    "description": "pCO2= 80mmHg; pH= 7,26",
+                    "explanation": "Muito bem, doc! Você acertou! 😍\n- Primeiro, relembremos os valores de referência:\n- **pH: 7,35 - 7,45**\n- **pCO2: 35 - 45 mmHg**\n- Como esse paciente apresenta asma e bronquite, podemos desconfiar de uma dificuldade respiratória - menos O2 entre e menos CO2 sai.\n- Além disso, ele está tomando metadona, um analgésico que tem efeito depressor respiratório, exercendo suas principais funções sobre o sistema nervoso central e órgãos compostos de músculos lisos. Em sua bula, inclusive, tem-se a contraindicação de uso para pessoas com asma e bronquite.\n- Assim, podemos concluir que esse paciente está com insuficiência respiratória. Como dito anteriormente, menos O2 entra e menos CO2 sai.\n- Então encontraremos a pCO2 **aumentada**. \n- E pelo aumento da pCO2, bem como do ácido carbônico, encontraremos o **pH abaixo dos valores de referência**.\n- Trata-se, portanto, de um caso de acidose respiratória.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-03-28T20:42:08.000Z",
+                    "updated_at": "2021-03-28T20:42:08.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 6998,
+                "questionary_id": 263714,
+                "timer": 0
+            }
+        }
+    ]
+}

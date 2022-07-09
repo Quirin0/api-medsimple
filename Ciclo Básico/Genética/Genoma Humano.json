@@ -1,0 +1,896 @@
+{
+    "id": 263519,
+    "user_id": 1699,
+    "title": "Genoma Humano",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-05T01:06:47.000Z",
+    "updated_at": "2022-07-05T01:06:47.000Z",
+    "study_plan_id": 315,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 3915,
+            "institution_id": 4,
+            "description": "Há alguns anos atrás todo o genoma humano foi sequenciado no chamado \"Projeto Genoma Humano\". Em qual ano esse projeto iniciou?",
+            "difficulty": "easy",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-05T23:43:33.000Z",
+            "updated_at": "2022-06-02T17:01:20.000Z",
+            "user_id": 33,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 410,
+                    "title": "Genoma Humano",
+                    "description": null,
+                    "parent_id": 382,
+                    "is_enabled": true,
+                    "created_at": "2020-08-05T23:28:38.000Z",
+                    "updated_at": "2020-08-05T23:28:38.000Z",
+                    "pivot": {
+                        "discipline_id": 410,
+                        "question_id": 3915
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 16139,
+                    "question_id": 3915,
+                    "description": "1996",
+                    "explanation": "Falso. Explicação na alternativa correta.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-05T20:43:33.000Z",
+                    "updated_at": "2022-06-02T17:01:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16140,
+                    "question_id": 3915,
+                    "description": "2000",
+                    "explanation": "Falso. Explicação na alternativa correta. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-05T20:43:33.000Z",
+                    "updated_at": "2022-06-02T17:01:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16141,
+                    "question_id": 3915,
+                    "description": "1990",
+                    "explanation": "Perfeito! O Projeto Genoma Humano iniciou em 1990 e foi concluído em 2003. Esse projeto tinha como objetivo sequenciar todos os 3 bilhões de pares de base do DNA humano; ou seja: todos os 23 pares de cromossomos.\nAtravés dele, descobriu-se que 98,5% do DNA humano não codifica nada; isto é: apenas 1,5% do nosso DNA é útil e possui genes que codificam proteínas.\nForam identificados cerca de 25 mil genes no Projeto Genoma Humano.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-08-05T20:43:33.000Z",
+                    "updated_at": "2022-06-02T17:01:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16142,
+                    "question_id": 3915,
+                    "description": "2003",
+                    "explanation": "Falso, na verdade o Projeto Genoma Humano foi concluido em 2003!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-05T20:43:33.000Z",
+                    "updated_at": "2022-06-02T17:01:20.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3915,
+                "questionary_id": 263519,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3917,
+            "institution_id": 4,
+            "description": "O genoma humano tem quantos pares de cromossomos autossômicos?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-06T00:10:46.000Z",
+            "updated_at": "2020-08-06T04:45:19.000Z",
+            "user_id": 33,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 410,
+                    "title": "Genoma Humano",
+                    "description": null,
+                    "parent_id": 382,
+                    "is_enabled": true,
+                    "created_at": "2020-08-05T23:28:38.000Z",
+                    "updated_at": "2020-08-05T23:28:38.000Z",
+                    "pivot": {
+                        "discipline_id": 410,
+                        "question_id": 3917
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 16147,
+                    "question_id": 3917,
+                    "description": "23",
+                    "explanation": "Falso. Cuidado, esse é o número total de pares cromossomos, incluindo 22 pares autossômicos e 1 par de sexuais.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-05T21:10:46.000Z",
+                    "updated_at": "2020-08-06T01:45:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16148,
+                    "question_id": 3917,
+                    "description": "46",
+                    "explanation": "Falso, cuidado. Atenção à pergunta: quer saber o número de PARES de cromossomos.\nO ser humano possui 46 cromossomos e 23 pares de cromossomos.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-05T21:10:46.000Z",
+                    "updated_at": "2020-08-06T01:45:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16149,
+                    "question_id": 3917,
+                    "description": "22",
+                    "explanation": "Perfeito!\nSão 22 pares de cromossomos autossômicos e 1 par de cromossomos sexuais, que pode ser XX ou XY.\nLembre-se que um dos cromossomos X é desativado na mulher, formando o que chamamos de corpúsculo de Bahr.\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-08-05T21:10:46.000Z",
+                    "updated_at": "2020-08-06T01:45:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16150,
+                    "question_id": 3917,
+                    "description": "44",
+                    "explanation": "Falso, não há 44 pares de cromossomos nos humanos, mas sim 23 pares, sendo 22 deles autossômicos.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-05T21:10:46.000Z",
+                    "updated_at": "2020-08-06T01:45:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3917,
+                "questionary_id": 263519,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3922,
+            "institution_id": 4,
+            "description": "Existem aproximadamente 25000 __________ humanos. \nO(s) termo(s) que completa(m) corretamente a frase acima é(são):",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-06T01:20:26.000Z",
+            "updated_at": "2020-08-06T01:20:26.000Z",
+            "user_id": 33,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 410,
+                    "title": "Genoma Humano",
+                    "description": null,
+                    "parent_id": 382,
+                    "is_enabled": true,
+                    "created_at": "2020-08-05T23:28:38.000Z",
+                    "updated_at": "2020-08-05T23:28:38.000Z",
+                    "pivot": {
+                        "discipline_id": 410,
+                        "question_id": 3922
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 16167,
+                    "question_id": 3922,
+                    "description": "Pares de base",
+                    "explanation": "Falso, na verdade o genoma humano contém cerca de 3 bilhões de pares de base.\nG3noma",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-05T22:20:26.000Z",
+                    "updated_at": "2020-08-05T22:20:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16168,
+                    "question_id": 3922,
+                    "description": "Nucleotídeos.",
+                    "explanation": "Falso, levando em conta que são 3 bilhões de pares de bases. Então em uma fita dupla de DNA tem-se cerca de 6 bilhões de nucleotídeos.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-05T22:20:26.000Z",
+                    "updated_at": "2020-08-05T22:20:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16169,
+                    "question_id": 3922,
+                    "description": "Genes",
+                    "explanation": "Perfeito!",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-08-05T22:20:26.000Z",
+                    "updated_at": "2020-08-05T22:20:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16170,
+                    "question_id": 3922,
+                    "description": "Cromossomos autossômicos",
+                    "explanation": "Falso. Nós humanos temos 44 cromossomos autossômicos e 2 cromossomos sexuais: XX ou XY.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-05T22:20:26.000Z",
+                    "updated_at": "2020-08-05T22:20:26.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3922,
+                "questionary_id": 263519,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3931,
+            "institution_id": 4,
+            "description": "Sobre o DNA humano, assinale a alternativa correta:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-06T04:41:28.000Z",
+            "updated_at": "2020-08-06T04:41:28.000Z",
+            "user_id": 33,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 410,
+                    "title": "Genoma Humano",
+                    "description": null,
+                    "parent_id": 382,
+                    "is_enabled": true,
+                    "created_at": "2020-08-05T23:28:38.000Z",
+                    "updated_at": "2020-08-05T23:28:38.000Z",
+                    "pivot": {
+                        "discipline_id": 410,
+                        "question_id": 3931
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 16208,
+                    "question_id": 3931,
+                    "description": "A eucromatina aparece preta na microscopia eletrônica.",
+                    "explanation": "Falso, aparece branca. A heterocromatina que aparece preta. A heterocromatina é formada por DNA CONDENSADO, o que impede que a luz passe através dele, gerando a imagem preta.\n\n\n\n\nFonte da imagem: https://pt-static.z-dn.net/files/daf/873a98d92a821f2192c778f40a24b4b9.jpg",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-06T01:41:28.000Z",
+                    "updated_at": "2021-03-11T01:58:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16209,
+                    "question_id": 3931,
+                    "description": "As histonas servem para descondensar o DNA",
+                    "explanation": "Falso, as histonas condensam a molécula de DNA, permitindo que ele seja compactado e armazenado, já que é uma molécula imensa.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-06T01:41:28.000Z",
+                    "updated_at": "2020-08-06T01:41:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16210,
+                    "question_id": 3931,
+                    "description": "Existem basicamente 100 tipos de histonas humandas: do H1 até o H100",
+                    "explanation": "Falso, existem 5 tipos: H1, H2A, H2B, H3 e H4.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-06T01:41:28.000Z",
+                    "updated_at": "2020-08-06T01:41:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16211,
+                    "question_id": 3931,
+                    "description": "O DNA humano dá 2 voltas em um octâmero de histonas.",
+                    "explanation": "Perfeito! Exatamente isso que acontece.\n\n\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-08-06T01:41:28.000Z",
+                    "updated_at": "2021-03-11T01:58:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3931,
+                "questionary_id": 263519,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3916,
+            "institution_id": 4,
+            "description": "Qual a principal enzima utilizada para decodificar todo o DNA humano no Projeto Genoma Humano?",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-06T00:01:47.000Z",
+            "updated_at": "2020-08-06T00:58:09.000Z",
+            "user_id": 33,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 410,
+                    "title": "Genoma Humano",
+                    "description": null,
+                    "parent_id": 382,
+                    "is_enabled": true,
+                    "created_at": "2020-08-05T23:28:38.000Z",
+                    "updated_at": "2020-08-05T23:28:38.000Z",
+                    "pivot": {
+                        "discipline_id": 410,
+                        "question_id": 3916
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 16143,
+                    "question_id": 3916,
+                    "description": "Endonucleases de restrição",
+                    "explanation": "Perfeito! Atualmente conhece-se cerca de 3000 endonucleases de restrição. Essas enzimas cortam o DNA humano em vários pequenos fragmentos através do reconhecimento de pequenas sequências chamadas de \"palíndromos\".\nPalíndromos na língua portuguesa são frases que são iguais de trás pra frente, como por exemplo: SOCORRAM-ME SUBI NO ÔNIBUS EM MARROCOS ou MALA O NAMORO DO ROMANO ALAM. Se você ler essas frases de trás pra frente, elas são iguais!\nAqui as sequências gênicas se comportam exatamente como palíndromos. Note o exemplo de uma sequência gênica palíndromo:\nGTCGAC\nCAGCTG\nEssas sequências palíndromos são reconhecidas pelas endonucleases de restrição, a qual literalmente corta o DNA em fragmentos.\nObserve a imagem:\n\n\n\n\nFonte da imagem: [https://kasvi.com.br/clonagem-molecular-dna-recombinante/](https://kasvi.com.br/clonagem-molecular-dna-recombinante/) \n\nApós ser cortado em fragmentos, o DNA é separado das proteínas, histonas e todo o resto. Esse DNA genônico é então colocado em bactérias e essas bactérias carregam então o genoma inteiro do ser humano.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-08-05T21:01:47.000Z",
+                    "updated_at": "2021-03-11T01:58:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16144,
+                    "question_id": 3916,
+                    "description": "cDNA",
+                    "explanation": "Falso, esse \"C\" significa \"complementary\". O cDNA é um DNA feito a partir de RNA mensageiro tirado do citoplasma de células. Isso é útil quando você quer clonar um gene específico, não o genoma humano inteiro. \nAlém disso, cDNA não é uma enzima.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-05T21:01:47.000Z",
+                    "updated_at": "2020-08-05T21:58:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16145,
+                    "question_id": 3916,
+                    "description": "mRNA",
+                    "explanation": "Falso, o RNA mensageiro é utilizado principalmente para clonar um gene específico, uma vez que ele representa um DNA que foi transcrito, ou seja: que não tem íntrons.\nAlém disso, o RNA mensageiro não é uma enzima.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-05T21:01:47.000Z",
+                    "updated_at": "2020-08-05T21:58:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16146,
+                    "question_id": 3916,
+                    "description": "Transcriptase Reversa",
+                    "explanation": "Falso, embora essa enzima tenha sido utilizada para produzir genes específicos através do RNA mensageiro, quando falamos do Projeto Genoma Humano nós estamos falando de todo o DNA do ser humano, incluíndo íntrons e éxons, nesse caso a principal enzima não seria a transcriptase reversa.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-05T21:01:47.000Z",
+                    "updated_at": "2020-08-05T21:58:09.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3916,
+                "questionary_id": 263519,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3918,
+            "institution_id": 4,
+            "description": "Imagine que um paciente com fibrose cística tem que ser tratado usando terapia gênica, que tipo de célula deveria ser a célula receptora do genoma modificado?",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-06T00:22:38.000Z",
+            "updated_at": "2020-08-06T00:22:38.000Z",
+            "user_id": 33,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 410,
+                    "title": "Genoma Humano",
+                    "description": null,
+                    "parent_id": 382,
+                    "is_enabled": true,
+                    "created_at": "2020-08-05T23:28:38.000Z",
+                    "updated_at": "2020-08-05T23:28:38.000Z",
+                    "pivot": {
+                        "discipline_id": 410,
+                        "question_id": 3918
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 16151,
+                    "question_id": 3918,
+                    "description": "Células germinativas",
+                    "explanation": "Falso. Muito falso. Doc, você não deve colocar genes novos em células germinativas porque isso gera sérios problemas éticos e religiosos. Colocar genes nessas células seria literalmente como brincar de modificar a espécie humana, uma vez que esses genes que você inseriu seriam transmitidos aos descendentes dessas pessoas.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-05T21:22:38.000Z",
+                    "updated_at": "2020-08-05T21:22:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16152,
+                    "question_id": 3918,
+                    "description": "Células B",
+                    "explanation": "Falso. Aqui você tem que pensar qual é o problema principal e usar a terapia gênica pra resolver esse problema. \nNo caso da fibrose cística, falta o gene que codifica os canais de cloro nas células epiteliais pulmonares. Esse gene é o CFTR.\nVocê pensaria em células B se o problema fosse um linfoma de células B de origem genética, por exemplo.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-05T21:22:38.000Z",
+                    "updated_at": "2020-08-05T21:22:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16153,
+                    "question_id": 3918,
+                    "description": "Células epiteliais",
+                    "explanation": "Perfeito! As células epiteliais pulmonares com ausência do gene CFTR não conseguem produzir os canais de cloro. Se você der esse gene pra elas, o problema estará resolvido.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-08-05T21:22:38.000Z",
+                    "updated_at": "2020-08-05T21:22:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16154,
+                    "question_id": 3918,
+                    "description": "Células tronco hematopoieticas",
+                    "explanation": "Falso. Esse nome \"células tronco\" está aqui só pra te confundir já que essas células são usadas em transplantes e etc. Mas não caia nessa: quando falamos em terapia gênica, você tem que colocar o gene onde está o problema. No caso da fibrose cística, não há problemas envolvendo as células tronco hematopoiéticas.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-05T21:22:38.000Z",
+                    "updated_at": "2020-08-05T21:22:38.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3918,
+                "questionary_id": 263519,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3921,
+            "institution_id": 4,
+            "description": "Em relação ao Projeto Genoma Humano, assinale a alternativa correta:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-06T01:13:04.000Z",
+            "updated_at": "2020-08-06T01:13:04.000Z",
+            "user_id": 33,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 410,
+                    "title": "Genoma Humano",
+                    "description": null,
+                    "parent_id": 382,
+                    "is_enabled": true,
+                    "created_at": "2020-08-05T23:28:38.000Z",
+                    "updated_at": "2020-08-05T23:28:38.000Z",
+                    "pivot": {
+                        "discipline_id": 410,
+                        "question_id": 3921
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 16163,
+                    "question_id": 3921,
+                    "description": "A sequência do DNA humano decodificada nesse projeto é guardada a 7 chaves atualmente, visto que muitos problemas éticos e religiosos podem ocorrer se essa sequência cair em mãos erradas",
+                    "explanation": "Falso. Na verdade o projeto genoma humano está disponível para qualquer pessoa do mundo verificar a qualquer minuto na internet.\nSe você quiser ver, doc, é só acessar esse site aqui: [https://www.ncbi.nlm.nih.gov/genome/guide/human/ ](https://www.ncbi.nlm.nih.gov/genome/guide/human/) \nVocê pode clicar no cromossomo que deseja ver a sequência e ele te mostra tudo.\nO grande problema envolvendo genética está na verdade na mudança e posterior inserção desse DNA alterado especificamente em CÉLULAS GERMINATIVAS. Isso porque essas células seriam transferidas para outras gerações, o que certamente geraria muitos problemas religiosos e éticos.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-05T22:13:04.000Z",
+                    "updated_at": "2020-08-05T22:13:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16164,
+                    "question_id": 3921,
+                    "description": "O projeto genoma humano não conseguiu sequenciar o cromossomo Y",
+                    "explanation": "Falso. Sequenciou TODOS os cromossomos humanos.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-05T22:13:04.000Z",
+                    "updated_at": "2020-08-05T22:13:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16165,
+                    "question_id": 3921,
+                    "description": "Embora esse projeto tenha sequenciado todo o DNA humano, ele não desvendou a função e nem a localização dos genes humanos.",
+                    "explanation": "Falso. O projeto também mapeou a localização e determinou a função de todos os genes no genoma humano.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-05T22:13:04.000Z",
+                    "updated_at": "2020-08-05T22:13:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16166,
+                    "question_id": 3921,
+                    "description": "Desde o seu lançamento em 1990, o HGP estabeleceu e financiou um comitê separado para supervisionar possíveis questões éticas, legais e sociais associadas ao projeto",
+                    "explanation": "Perfeito. Como é algo que envolve estudo e sequenciamento do DNA humano, há muitos problemas legais, éticos e religiosos no meio de tudo isso.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-08-05T22:13:04.000Z",
+                    "updated_at": "2020-08-05T22:13:04.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3921,
+                "questionary_id": 263519,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3929,
+            "institution_id": 4,
+            "description": "Sobre o genoma humano, assinale a alternativa correta:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-06T04:32:58.000Z",
+            "updated_at": "2020-08-06T04:32:58.000Z",
+            "user_id": 33,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 410,
+                    "title": "Genoma Humano",
+                    "description": null,
+                    "parent_id": 382,
+                    "is_enabled": true,
+                    "created_at": "2020-08-05T23:28:38.000Z",
+                    "updated_at": "2020-08-05T23:28:38.000Z",
+                    "pivot": {
+                        "discipline_id": 410,
+                        "question_id": 3929
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 16200,
+                    "question_id": 3929,
+                    "description": "O genoma humano do homem é maior que o da mulher",
+                    "explanation": "Falso. Os homens têm menos que as mulheres porque o cromossomo Y tem cerca de 57 milhões de pares de bases, enquanto o X é cerca de 156 milhões ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-06T01:32:58.000Z",
+                    "updated_at": "2020-08-06T01:32:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16201,
+                    "question_id": 3929,
+                    "description": "O maior cromossomo humano em tamanho é o primeiro",
+                    "explanation": "Perfeito. O primeiro cromossomo humano tem 85mm e é o maior.\nO menor é 0 21 e o segundo menor é o Y.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-08-06T01:32:58.000Z",
+                    "updated_at": "2020-08-06T01:32:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16202,
+                    "question_id": 3929,
+                    "description": "A análise da variação no genoma mitocondrial humano levou à postulação de um ancestral comum recente para todos os seres humanos na linha de descendência paterna",
+                    "explanation": "Falso, na verdade é na linha MATERNA que se refere. É a chamada Eva Mitocondrial.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-06T01:32:58.000Z",
+                    "updated_at": "2020-08-06T01:32:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16203,
+                    "question_id": 3929,
+                    "description": "Os cientistas se surpreenderam ao descobrir que no DNA humano havia somente cerca de 100 mil genes",
+                    "explanation": "Falso. Eles se surpreenderam que havia cerca de 25 mil genes.\n100 mil era o que eles achavam que existia.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-06T01:32:58.000Z",
+                    "updated_at": "2020-08-06T01:32:58.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3929,
+                "questionary_id": 263519,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3919,
+            "institution_id": 4,
+            "description": "Uma empresa farmacêutica está interessada na produção de uma determinada molécula humana em grandes quantidades para ver se um medicamento funciona. Eles resolveram produzir essa molécula a partir da clonagem de DNA e posterior síntese bacteriana. Um passo importante envolve a ligação de cDNA em um plasmídeo bacteriano contendo o seguinte:\n- uma origem de replicação\n- um gene de resistência a antibióticos\n- uma sequência promotora. \nQue sequência deve ser incluída neste plasmídeo para garantir a produção ideal dessa molécula?",
+            "difficulty": "hard",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-06T00:47:38.000Z",
+            "updated_at": "2020-08-06T00:47:38.000Z",
+            "user_id": 33,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 410,
+                    "title": "Genoma Humano",
+                    "description": null,
+                    "parent_id": 382,
+                    "is_enabled": true,
+                    "created_at": "2020-08-05T23:28:38.000Z",
+                    "updated_at": "2020-08-05T23:28:38.000Z",
+                    "pivot": {
+                        "discipline_id": 410,
+                        "question_id": 3919
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 16155,
+                    "question_id": 3919,
+                    "description": "Operador",
+                    "explanation": "Falso, uma sequência operadora é uma sequência que está logo depois da sequência promotora e que permite que uma proteína repressora interrompa a síntese de DNA.\nSeguem as funções de cada um promotor, operador e sequência estrutural.\nPromotor: ativa a transcrição da proteína\nOperador: permite que uma proteína repressora se ligue, impedindo a ação do gene promotor.\nSequência estrutural: onde a transcrição de fato acontece.\nNão faz sentido adicionar um operador aqui, porque na verdade estaríamos diminuindo a produção de RNAm e o objetido da indústria farmacêutica aqui é justamente produzir mais RNAm e, por consequência, mais proteína.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-05T21:47:38.000Z",
+                    "updated_at": "2020-08-05T21:47:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16156,
+                    "question_id": 3919,
+                    "description": "Sequência Poli-A",
+                    "explanation": "Falso. Ela serve para proteger o RNAm da degradação de enzimas citoplasmáticas, ajuda no transporte para o citoplasma para posterior tradução. Como aqui a produção seria in vitro e não no corpo de alguém, não há necessidade de proteger a sequência de RNAm gerada.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-05T21:47:38.000Z",
+                    "updated_at": "2020-08-05T21:47:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16157,
+                    "question_id": 3919,
+                    "description": "Sequência de Shine-Dalgarno",
+                    "explanation": "Perfeito. Essa sequência permite a ligação de um RIBOSSOMO ao cDNA (complementary DNA). Se um ribossomo se liga ali, a transcrição para mRNA pode iniciar e é exatamente isso que falta para que a empresa possa produzir a proteína em larga escala.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-08-05T21:47:38.000Z",
+                    "updated_at": "2020-08-05T21:47:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16158,
+                    "question_id": 3919,
+                    "description": "Atuanuador",
+                    "explanation": "Falso. Como o próprio nome diz: a sequência de atuação faria uma parada da síntese de RNAm. É caracterizado como um mecanismo de regulação das bactérias e serve para diminuir síntese proteínca e não aumentar.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-05T21:47:38.000Z",
+                    "updated_at": "2020-08-05T21:47:38.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3919,
+                "questionary_id": 263519,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3920,
+            "institution_id": 4,
+            "description": "Imagine que ocorreu uma mutação em uma molécula de DNA reconhecida por uma endonucleases de restrição. Essa mutação foi uma mudança de uma única base que produziu a sequência GTGGAC, a qual não pode mais ser reconhecida pela enzima. Levando em consideração que as endonucleases de restrição reconhecem palíndromos, qual foi a sequência original reconhecida pela endonuclease de restrição?",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-06T00:57:00.000Z",
+            "updated_at": "2020-08-06T00:58:54.000Z",
+            "user_id": 33,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 410,
+                    "title": "Genoma Humano",
+                    "description": null,
+                    "parent_id": 382,
+                    "is_enabled": true,
+                    "created_at": "2020-08-05T23:28:38.000Z",
+                    "updated_at": "2020-08-05T23:28:38.000Z",
+                    "pivot": {
+                        "discipline_id": 410,
+                        "question_id": 3920
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 16159,
+                    "question_id": 3920,
+                    "description": "GTAGAC",
+                    "explanation": "Falso, explicação na resposta correta.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-05T21:57:00.000Z",
+                    "updated_at": "2020-08-05T21:58:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16160,
+                    "question_id": 3920,
+                    "description": "GCGGAC",
+                    "explanation": "Falso, explicação na resposta correta. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-05T21:57:00.000Z",
+                    "updated_at": "2020-08-05T21:58:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16161,
+                    "question_id": 3920,
+                    "description": "CTGGAC",
+                    "explanation": "Falso, explicação na resposta correta.  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-05T21:57:00.000Z",
+                    "updated_at": "2020-08-05T21:58:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16162,
+                    "question_id": 3920,
+                    "description": "GTCGAC",
+                    "explanation": "Perfeito. Se você observar, todas as outras alternativas representam sequências originais em que houve mudança de apenas uma base. Porém a única das sequências que tem um palíndromo (igual de trás pra frente) é essa.\nObserve:\nGTCGAC\nCAGCTG\n\nNote como a sequência é igual de trás pra frente! São essas sequências chamadas palíndromos que são reconhecidas pelas endonucleases de restrição.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-08-05T21:57:00.000Z",
+                    "updated_at": "2020-08-05T21:58:54.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3920,
+                "questionary_id": 263519,
+                "timer": 0
+            }
+        }
+    ]
+}

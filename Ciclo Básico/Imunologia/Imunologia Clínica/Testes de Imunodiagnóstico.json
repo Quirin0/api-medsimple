@@ -1,0 +1,2536 @@
+{
+    "id": 262082,
+    "user_id": 1699,
+    "title": "Testes de Imunodiagnóstico",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-03T20:10:24.000Z",
+    "updated_at": "2022-07-03T20:10:24.000Z",
+    "study_plan_id": 559,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 6638,
+            "institution_id": 4,
+            "description": "Nas últimas décadas, diversas técnicas têm utilizado conceitos da imunologia para o diagnóstico de doenças. A própria COVID-19 é um exemplo disso. Sobre o assunto, assinale a alternativa correta:",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-07T14:23:45.000Z",
+            "updated_at": "2022-01-26T22:01:47.000Z",
+            "user_id": 635,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 629,
+                    "title": "Testes de Imunodiagnóstico",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2021-03-07T17:21:38.000Z",
+                    "updated_at": "2021-03-07T17:21:38.000Z",
+                    "pivot": {
+                        "discipline_id": 629,
+                        "question_id": 6638
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 27324,
+                    "question_id": 6638,
+                    "description": "Os testes do tipo ELISA possuem a vantagem de nunca terem necessitado de hibridomas em seu processo de fabricação.",
+                    "explanation": "- Falso, Doc! 🤔\n- O teste do tipo ELISA utiliza anticorpos específicos para moléculas humanas (sejam elas anticorpos ou antígenos). Dessa forma, o uso de hibridomas para a fabricação de anticorpos monoclonais pode ser necessário para compor o teste tipo ELISA.\n- Observe os hibridomas:\n- [https://www.wikiwand.com/pt/Hibridoma](https://www.wikiwand.com/pt/Hibridoma)\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:23:45.000Z",
+                    "updated_at": "2022-01-26T22:01:47.000Z",
+                    "files": [
+                        {
+                            "id": 13485,
+                            "file": "482df39d-0e4a-4068-bcd6-0b5dd186f2d1.png",
+                            "name": "640px-Monoclonals.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-11T14:24:12.000Z",
+                            "updated_at": "2021-07-11T14:24:12.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/482df39d-0e4a-4068-bcd6-0b5dd186f2d1.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13485,
+                                "alternative_id": 27324
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27325,
+                    "question_id": 6638,
+                    "description": "Diversos testes imunológicos utilizam anticorpos monoclonais produzidos por linfócitos B de outros animais para detectar a presença de IgMs e IgGs humanas.",
+                    "explanation": "- Acertou! Parabéns, Doc! 😍\n- Os anticorpos monoclonais são produzidos a partir de hibridomas, que são células B híbridas com células cancerígenas de mielomas. \n- Os anticorpos monoclonais produzem ativamente anticorpos que podem ser usados para a detecção de anticorpos e antígenos humanos.\n- Observe os hibridomas:\n- [https://www.wikiwand.com/pt/Hibridoma](https://www.wikiwand.com/pt/Hibridoma)",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-03-07T14:23:45.000Z",
+                    "updated_at": "2022-01-26T22:01:47.000Z",
+                    "files": [
+                        {
+                            "id": 13485,
+                            "file": "482df39d-0e4a-4068-bcd6-0b5dd186f2d1.png",
+                            "name": "640px-Monoclonals.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-11T14:24:12.000Z",
+                            "updated_at": "2021-07-11T14:24:12.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/482df39d-0e4a-4068-bcd6-0b5dd186f2d1.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13485,
+                                "alternative_id": 27325
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27326,
+                    "question_id": 6638,
+                    "description": "As células B de outros animais são extremamente resistentes a estímulos externos. Por conta disso, são utilizadas, sem nenhuma preparação, para a produção de anticorpos monoclonais.",
+                    "explanation": "- Falso, Doc! 🤔\n- Geralmente, as células B dos animais são fundidas a células tumorais de mielomas para proporcionar maior resistência e eficiência na produção dos anticorpos monoclonais, formando os \"hibridomas\".\n- Observe os hibridomas:\n- [https://www.wikiwand.com/pt/Hibridoma](https://www.wikiwand.com/pt/Hibridoma)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:23:45.000Z",
+                    "updated_at": "2022-01-26T22:01:47.000Z",
+                    "files": [
+                        {
+                            "id": 13485,
+                            "file": "482df39d-0e4a-4068-bcd6-0b5dd186f2d1.png",
+                            "name": "640px-Monoclonals.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-11T14:24:12.000Z",
+                            "updated_at": "2021-07-11T14:24:12.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/482df39d-0e4a-4068-bcd6-0b5dd186f2d1.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13485,
+                                "alternative_id": 27326
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27327,
+                    "question_id": 6638,
+                    "description": "Nos testes rápidos de HIV e de sífilis realizados em Unidades Básicas de Saúde, a técnica de imunofluorescência geralmente é utilizada para detectar a presença de anticorpos.",
+                    "explanation": "- Falso, Doc! 🤔\n- Os testes rápidos, como os de HIV e de sífilis, são geralmente realizados por meio de técnicas de imunocromatografia e não de imunofluorescência.\n- Observe o funcionamento destes testes:\n- [https://www.biomedicinapadrao.com.br/2012/06/imunocromatografia.html](https://www.biomedicinapadrao.com.br/2012/06/imunocromatografia.html)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:23:45.000Z",
+                    "updated_at": "2022-01-26T22:01:47.000Z",
+                    "files": [
+                        {
+                            "id": 13486,
+                            "file": "029e7ba6-8b84-44c6-9992-8ec65c8cbf5c.png",
+                            "name": "Imunocromatografia2.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-11T14:26:30.000Z",
+                            "updated_at": "2021-07-11T14:26:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/029e7ba6-8b84-44c6-9992-8ec65c8cbf5c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13486,
+                                "alternative_id": 27327
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 6638,
+                "questionary_id": 262082,
+                "timer": 18
+            }
+        },
+        {
+            "id": 6641,
+            "institution_id": 4,
+            "description": "O vírus da imunodeficiência humana (HIV) apresenta o teste ELISA como primeira linha de diagnóstico da infecção. A respeito dos procedimentos imunológicos para determinação de doenças, assinale a alternativa correta:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-07T14:29:55.000Z",
+            "updated_at": "2022-01-26T22:10:53.000Z",
+            "user_id": 635,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 629,
+                    "title": "Testes de Imunodiagnóstico",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2021-03-07T17:21:38.000Z",
+                    "updated_at": "2021-03-07T17:21:38.000Z",
+                    "pivot": {
+                        "discipline_id": 629,
+                        "question_id": 6641
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 27336,
+                    "question_id": 6641,
+                    "description": "O teste do tipo ELISA possui essa sigla justamente por utilizar uma enzima como molécula de detecção do diagnóstico.",
+                    "explanation": "- Perfeito, Doc! 😉\n- ELISA é a sigla de Enzyme-Linked Immunosorbent Assay, enzima que catabolizará uma reação, alterando a cor do tubo e permitindo o diagnóstico.\n- Observe:\n- [https://www.pensabio.com.br/post/2019/03/21/conheca-os-diferentes-tipos-de-elisa](https://www.pensabio.com.br/post/2019/03/21/conheca-os-diferentes-tipos-de-elisa)",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-03-07T14:29:55.000Z",
+                    "updated_at": "2022-01-26T22:10:53.000Z",
+                    "files": [
+                        {
+                            "id": 13493,
+                            "file": "a15adb49-cc9e-4d1c-9942-7031d91970d4.png",
+                            "name": "file.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-11T15:15:37.000Z",
+                            "updated_at": "2021-07-11T15:15:37.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a15adb49-cc9e-4d1c-9942-7031d91970d4.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13493,
+                                "alternative_id": 27336
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27337,
+                    "question_id": 6641,
+                    "description": "É comum a utilização de dois anticorpos monoclonais nesses testes: um primário e outro secundário, sendo que é o anticorpo primário que permite o diagnóstico, já que há uma molécula de detecção ligada a ele.",
+                    "explanation": "- Falso, Doc! 🙈\n- A utilização de dois anticorpos monoclonais realmente é comum nos testes de imunodiagnóstico. \n- Entretanto, é o anticorpo secundário que permite o diagnóstico, por possuir uma molécula de detecção ligada a ele.\n- Observe:\n- [https://www.argospatologia.com.br/wp-content/uploads/2019/06/imunohistoquimica.jpg](https://www.argospatologia.com.br/wp-content/uploads/2019/06/imunohistoquimica.jpg)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:29:55.000Z",
+                    "updated_at": "2022-01-26T22:10:53.000Z",
+                    "files": [
+                        {
+                            "id": 13494,
+                            "file": "6dc8af30-fca5-4d67-9ba8-a4f6b882706a.jpeg",
+                            "name": "imunohistoquimica.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T15:16:19.000Z",
+                            "updated_at": "2021-07-11T15:16:19.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/6dc8af30-fca5-4d67-9ba8-a4f6b882706a.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13494,
+                                "alternative_id": 27337
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27338,
+                    "question_id": 6641,
+                    "description": "Por serem testes que utilizam apenas um tipo de anticorpo monoclonal, estes são pouco específicos e não apresentam possibilidade de quantificação da infecção.",
+                    "explanation": "- Falso, Doc! 🙈\n- Em geral, são utilizados dois anticorpos monoclonais para aumentar a especificidade dos testes. Além disso, é possível estimar a quantidade de antígenos detectados nos exames.\n- Observe os anticorpos monoclonais usados:\n- [https://www.argospatologia.com.br/wp-content/uploads/2019/06/imunohistoquimica.jpg](https://www.argospatologia.com.br/wp-content/uploads/2019/06/imunohistoquimica.jpg)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:29:55.000Z",
+                    "updated_at": "2022-01-26T22:10:53.000Z",
+                    "files": [
+                        {
+                            "id": 13494,
+                            "file": "6dc8af30-fca5-4d67-9ba8-a4f6b882706a.jpeg",
+                            "name": "imunohistoquimica.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T15:16:19.000Z",
+                            "updated_at": "2021-07-11T15:16:19.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/6dc8af30-fca5-4d67-9ba8-a4f6b882706a.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13494,
+                                "alternative_id": 27338
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27339,
+                    "question_id": 6641,
+                    "description": "A imunohistoquímica é muito usada em diagnósticos de tecidos neoplásicos, já que as células tumorais naturalmente apresentam antígenos fluorescentes que coram quando ligados às proteínas da imunohistoquímica.",
+                    "explanation": "- Falso, Doc! 🙈\n- A substância fluorescente é adicionada na preparação do teste, não sendo encontrada sozinha naturalmente no tecido neoplásico.\n- Observe:\n- [https://www.argospatologia.com.br/fluorescencia-direta/](https://www.argospatologia.com.br/fluorescencia-direta/)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:29:55.000Z",
+                    "updated_at": "2022-01-26T22:10:53.000Z",
+                    "files": [
+                        {
+                            "id": 13495,
+                            "file": "b1098170-9228-49e2-a3f3-858a053b567f.jpeg",
+                            "name": "Laboratorio-Argos-fourescencia-direta-1.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T15:17:26.000Z",
+                            "updated_at": "2021-07-11T15:17:26.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b1098170-9228-49e2-a3f3-858a053b567f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13495,
+                                "alternative_id": 27339
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 6641,
+                "questionary_id": 262082,
+                "timer": 0
+            }
+        },
+        {
+            "id": 6643,
+            "institution_id": 4,
+            "description": "Teste imunológico que fornece a quantificação, o tamanho e a granulosidade das células por meio de técnicas do tipo Forward-Scatter (FCC) e Side-Scatter (SSC). Assinale a alternativa que apresenta o nome desse teste:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-07T17:33:05.000Z",
+            "updated_at": "2022-01-27T01:13:18.000Z",
+            "user_id": 635,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 629,
+                    "title": "Testes de Imunodiagnóstico",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2021-03-07T17:21:38.000Z",
+                    "updated_at": "2021-03-07T17:21:38.000Z",
+                    "pivot": {
+                        "discipline_id": 629,
+                        "question_id": 6643
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 27344,
+                    "question_id": 6643,
+                    "description": "Imunocromatografia.",
+                    "explanation": "- Falso, Doc! 🤓\n- O teste de imunocromatografia é comumente conhecido como teste rápido e avalia se há a presença ou não de antígenos e de anticorpos, **não avaliando o tamanho e a granulosidade de células.**\n- Observe:\n- [https://www.biomedicinapadrao.com.br/2012/06/imunocromatografia.html](https://www.biomedicinapadrao.com.br/2012/06/imunocromatografia.html)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:33:05.000Z",
+                    "updated_at": "2022-01-26T22:13:18.000Z",
+                    "files": [
+                        {
+                            "id": 13486,
+                            "file": "029e7ba6-8b84-44c6-9992-8ec65c8cbf5c.png",
+                            "name": "Imunocromatografia2.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-11T14:26:30.000Z",
+                            "updated_at": "2021-07-11T14:26:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/029e7ba6-8b84-44c6-9992-8ec65c8cbf5c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13486,
+                                "alternative_id": 27344
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27345,
+                    "question_id": 6643,
+                    "description": "Western Blot.",
+                    "explanation": "- Falso, Doc! 🤓\n- O Western Blot pode avaliar tamanho de partículas, mas não avalia granulosidade de células. Além disso, nem o Foward Scatter nem o Side Scatter são técnicas presentes no Western Blot.\n- Observe:\n- [https://microbenotes.com/western-blot/](https://microbenotes.com/western-blot/)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:33:05.000Z",
+                    "updated_at": "2022-01-26T22:13:18.000Z",
+                    "files": [
+                        {
+                            "id": 13498,
+                            "file": "8a8c243c-8499-44cf-b019-a8076b9f1ece.jpeg",
+                            "name": "Western-Blot.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T16:17:37.000Z",
+                            "updated_at": "2021-07-11T16:17:37.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8a8c243c-8499-44cf-b019-a8076b9f1ece.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13498,
+                                "alternative_id": 27345
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27346,
+                    "question_id": 6643,
+                    "description": "Citometria de fluxo.",
+                    "explanation": "- Perfeito, Doc! 🤗\n- O teste de citometria de fluxo utiliza feixes de luz e marcadores celulares para avaliar tamanho, granulosidade e presença de moléculas nas células.\n- Observe:\n- [https://bioemfoco.com.br/noticia/o-que-e-citometria-de-fluxo-e-qual-sua-aplicacao-para-a-saude/](https://bioemfoco.com.br/noticia/o-que-e-citometria-de-fluxo-e-qual-sua-aplicacao-para-a-saude/)",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-03-07T14:33:05.000Z",
+                    "updated_at": "2022-01-26T22:13:18.000Z",
+                    "files": [
+                        {
+                            "id": 13497,
+                            "file": "d63d2c23-2a0b-4c81-846d-dd4543459602.jpeg",
+                            "name": "download.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T16:15:51.000Z",
+                            "updated_at": "2021-07-11T16:15:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d63d2c23-2a0b-4c81-846d-dd4543459602.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13497,
+                                "alternative_id": 27346
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27347,
+                    "question_id": 6643,
+                    "description": "Imunofluorescência.",
+                    "explanation": "- Falso, Doc! 🤓\n- A imunofluorescência tem como principal objetivo avaliar a presença ou não de antígenos, por meio de moléculas fluorescentes, não permitindo números relacionados ao tamanho nem à granulosidade de células.\n- Observe:\n- [https://www.argospatologia.com.br/fluorescencia-direta/](https://www.argospatologia.com.br/fluorescencia-direta/)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:33:05.000Z",
+                    "updated_at": "2022-01-26T22:13:18.000Z",
+                    "files": [
+                        {
+                            "id": 13495,
+                            "file": "b1098170-9228-49e2-a3f3-858a053b567f.jpeg",
+                            "name": "Laboratorio-Argos-fourescencia-direta-1.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T15:17:26.000Z",
+                            "updated_at": "2021-07-11T15:17:26.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b1098170-9228-49e2-a3f3-858a053b567f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13495,
+                                "alternative_id": 27347
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 6643,
+                "questionary_id": 262082,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9578,
+            "institution_id": 4,
+            "description": "Sobre conceitos iniciais necessários para a compreensão das técnicas imunológicas de diagnóstico, assinale a alternativa **INCORRETA**:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-07-02T13:14:26.000Z",
+            "updated_at": "2022-01-26T21:59:18.000Z",
+            "user_id": 184,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 629,
+                    "title": "Testes de Imunodiagnóstico",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2021-03-07T17:21:38.000Z",
+                    "updated_at": "2021-03-07T17:21:38.000Z",
+                    "pivot": {
+                        "discipline_id": 629,
+                        "question_id": 9578
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 39154,
+                    "question_id": 9578,
+                    "description": "Anticorpos monoclonais são anticorpos produzidos por um único linfócito B e seus clones, apresentando a mesma especificidade.",
+                    "explanation": "- Essa está certa! 😜\n- **Anticorpos monoclonais**: anticorpos produzidos por uma única célula B, a qual, quando estimulada, se multiplica, gerando milhares de clones que produzem o mesmo anticorpo.\n- Todos os anticorpos monoclonais produzidos possuem a mesma especificidade.\n- Observe: ([https://www.bindingsite.com/-/media/translated-images/portuguese-brazillian/monoclonal-vs-polyclonal-epitopesbrpt.jpg?la=pt-br&hash=C6E9B9AD60EE34161DB1300E3FDC74B12812D264](https://www.bindingsite.com/-/media/translated-images/portuguese-brazillian/monoclonal-vs-polyclonal-epitopesbrpt.jpg?la=pt-br&hash=C6E9B9AD60EE34161DB1300E3FDC74B12812D264))",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-07-02T13:14:26.000Z",
+                    "updated_at": "2022-01-26T21:59:18.000Z",
+                    "files": [
+                        {
+                            "id": 12642,
+                            "file": "a2ef05e0-fd1b-490c-a15c-6a18e9da47ab.jpeg",
+                            "name": "Monoclonal vs polyclonal epitopesbrpt.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-02T13:12:48.000Z",
+                            "updated_at": "2021-07-02T13:12:48.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a2ef05e0-fd1b-490c-a15c-6a18e9da47ab.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12642,
+                                "alternative_id": 39154
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 39155,
+                    "question_id": 9578,
+                    "description": "Para a produção de anticorpos monoclonais em laboratório, são coletadas as células B de um hospedeiro, as quais são fundidas com células de mielomas.",
+                    "explanation": "- Essa está certa! 😜\n- A produção em laboratório de anticorpos monoclonais envolve a coleta de células B de um hospedeiro, com especificidades distintas.\n- Os linfócitos B são colocados em presença de células de mielomas, ou seja, tumorais e com grande capacidade de sobrevivência, e reagentes que realizam a fusão entre as células, formando hibridomas.\n- Os hibridomas são estimulados com diferentes antígenos. O hibridoma que é capaz de responder ao antígeno se prolifera e produz os anticorpos monoclonais.\n- Os anticorpos são, então, utilizados em diversos tipos de testes diagnósticos.\n- Observe: ([https://pbs.twimg.com/media/EeW4gf8XgAED1fU.png](https://pbs.twimg.com/media/EeW4gf8XgAED1fU.png))",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-07-02T13:14:26.000Z",
+                    "updated_at": "2022-01-26T21:59:18.000Z",
+                    "files": [
+                        {
+                            "id": 12641,
+                            "file": "a7bb645c-3578-4683-92a6-7558abd67468.png",
+                            "name": "EeW4gf8XgAED1fU.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-02T13:10:18.000Z",
+                            "updated_at": "2021-07-02T13:10:18.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a7bb645c-3578-4683-92a6-7558abd67468.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12641,
+                                "alternative_id": 39155
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 39156,
+                    "question_id": 9578,
+                    "description": "Os hibridomas formados durante a produção de anticorpos monoclonais em laboratório precisam ser descartados, pois há risco de desenvolvimento de cânceres.",
+                    "explanation": "- Acertou, Doc! Essa está **errada**! 😻\n- Na verdade, são justamente os hibridomas que são utilizados, por conta da sua alta capacidade de sobrevivência.\n- A produção em laboratório de anticorpos monoclonais envolve a coleta de células B de um hospedeiro, com especificidades distintas.\n- Os linfócitos B são colocados em presença de células de mielomas, ou seja, tumorais e com grande capacidade de sobrevivência, e reagentes que realizam a fusão entre as células, formando **hibridomas**.\n- Os **hibridomas** são estimulados com diferentes antígenos. O hibridoma que é capaz de responder ao antígeno se prolifera e produz os anticorpos monoclonais.\n- Os anticorpos são, então, utilizados em diversos tipos de testes diagnósticos.\n- Observe: ([https://pbs.twimg.com/media/EeW4gf8XgAED1fU.png](https://pbs.twimg.com/media/EeW4gf8XgAED1fU.png))",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-07-02T13:14:26.000Z",
+                    "updated_at": "2022-01-26T21:59:18.000Z",
+                    "files": [
+                        {
+                            "id": 12641,
+                            "file": "a7bb645c-3578-4683-92a6-7558abd67468.png",
+                            "name": "EeW4gf8XgAED1fU.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-02T13:10:18.000Z",
+                            "updated_at": "2021-07-02T13:10:18.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a7bb645c-3578-4683-92a6-7558abd67468.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12641,
+                                "alternative_id": 39156
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 39157,
+                    "question_id": 9578,
+                    "description": "Alguns testes diagnósticos utilizam o mecanismo de aglutinação, que envolve a presença de anticorpos e de antígenos.",
+                    "explanation": "- Essa está certa! 😜\n- **Aglutinação**: envolve principalmente anticorpos IgG e IgM, que são capazes de se aglutinar na presença de antígenos específicos.\n- Por exemplo: hemácias com antígenos do grupo A, na presença de anticorpos monoclonais Anti-A, sofrem aglutinação, indicando a presença dos antígenos.\n- Assim são feitas as tipagens dos grupos sanguíneos.\n- Observe: ([https://upload.wikimedia.org/wikipedia/commons/f/fe/Sistema_ABO.jpg](https://upload.wikimedia.org/wikipedia/commons/f/fe/Sistema_ABO.jpg))",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-07-02T13:14:26.000Z",
+                    "updated_at": "2022-01-26T21:59:18.000Z",
+                    "files": [
+                        {
+                            "id": 12643,
+                            "file": "8c00dd7c-f763-41d1-9971-16725052536f.jpeg",
+                            "name": "Sistema_ABO.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-02T13:13:51.000Z",
+                            "updated_at": "2021-07-02T13:13:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8c00dd7c-f763-41d1-9971-16725052536f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12643,
+                                "alternative_id": 39157
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9578,
+                "questionary_id": 262082,
+                "timer": 0
+            }
+        },
+        {
+            "id": 6644,
+            "institution_id": 4,
+            "description": "Com a pandemia da COVID-19, os chamados testes rápidos ganharam bastante popularidade, sendo utilizados para detectar anticorpos, principalmente IgM e IgG. A respeito disso, analise a fala de um paciente sobre um teste de COVID e assinale a alternativa que contém o nome do teste e as conclusões que podem ser tiradas:\n- \"Então, Doutor, fiz um teste do coronavírus aqui no postinho, bem prático, só tiveram que pegar uma gota de sangue, colocar num sabonetinho, ai tinha 3 letrinhas miúdas: IgM, IgG e C. A enfermeira me explicou alguma coisa sobre o teste, mas não me lembro, só sei que marcou somente uma barrinha vermelha no IgG\".",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-07T14:37:43.000Z",
+            "updated_at": "2022-01-26T22:14:52.000Z",
+            "user_id": 635,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 629,
+                    "title": "Testes de Imunodiagnóstico",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2021-03-07T17:21:38.000Z",
+                    "updated_at": "2021-03-07T17:21:38.000Z",
+                    "pivot": {
+                        "discipline_id": 629,
+                        "question_id": 6644
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 27348,
+                    "question_id": 6644,
+                    "description": "Teste de Imunocromatografia. É possível afirmar que esse paciente está na fase inicial da doença, já que possui IgG positiva.",
+                    "explanation": "- Incorreto, Doc! 🤔\n- O teste é o de imunocromatografia. Entretanto, na COVID-19 e na maioria das infecções, a presença de IgM é indicativa de fase inicial, enquanto IgG inidica a fase tardia.\n- Observe o teste:\n- [https://www.biomedicinapadrao.com.br/2012/06/imunocromatografia.html](https://www.biomedicinapadrao.com.br/2012/06/imunocromatografia.html)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:37:43.000Z",
+                    "updated_at": "2022-01-26T22:14:52.000Z",
+                    "files": [
+                        {
+                            "id": 13499,
+                            "file": "51e4a447-7ca2-4430-82a2-ed10df9e6875.png",
+                            "name": "imunocromatografia[4].png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-11T16:31:33.000Z",
+                            "updated_at": "2021-07-11T16:31:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/51e4a447-7ca2-4430-82a2-ed10df9e6875.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13499,
+                                "alternative_id": 27348
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27349,
+                    "question_id": 6644,
+                    "description": "Teste de imunofluorescência. É possível afirmar que o paciente está na fase tardia da doença, já que possui IgM positiva.",
+                    "explanation": "- Incorreto, Doc! 🤔\n- O teste é de imunocromatografia e, segundo o enunciado, o resultado do teste deu IgM negativa.\n- Observe o teste:\n- [https://www.biomedicinapadrao.com.br/2012/06/imunocromatografia.html](https://www.biomedicinapadrao.com.br/2012/06/imunocromatografia.html)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:37:43.000Z",
+                    "updated_at": "2022-01-26T22:14:52.000Z",
+                    "files": [
+                        {
+                            "id": 13499,
+                            "file": "51e4a447-7ca2-4430-82a2-ed10df9e6875.png",
+                            "name": "imunocromatografia[4].png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-11T16:31:33.000Z",
+                            "updated_at": "2021-07-11T16:31:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/51e4a447-7ca2-4430-82a2-ed10df9e6875.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13499,
+                                "alternative_id": 27349
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27350,
+                    "question_id": 6644,
+                    "description": "Teste de imunocromatografia. Não é possível afirmar a condição da doença, pois o teste foi inválido.",
+                    "explanation": "- Correto! Parabéns! 🤗\n- Observe que a faixa controle do teste não foi corada (o paciente relatou que somente a IgG ficou com barrinha vermelha), demonstrando que ocorreu alguma falha no teste. Deve-se repetir o exame.\n- Observe:\n- [https://www.biomedicinapadrao.com.br/2012/06/imunocromatografia.html](https://www.biomedicinapadrao.com.br/2012/06/imunocromatografia.html)",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-03-07T14:37:43.000Z",
+                    "updated_at": "2022-01-26T22:14:52.000Z",
+                    "files": [
+                        {
+                            "id": 13499,
+                            "file": "51e4a447-7ca2-4430-82a2-ed10df9e6875.png",
+                            "name": "imunocromatografia[4].png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-11T16:31:33.000Z",
+                            "updated_at": "2021-07-11T16:31:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/51e4a447-7ca2-4430-82a2-ed10df9e6875.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13499,
+                                "alternative_id": 27350
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27351,
+                    "question_id": 6644,
+                    "description": "Teste de imunocromatografia. É possível afirmar que o paciente não possui mais RNA do SARS-COV-2.",
+                    "explanation": "- Incorreto, Doc! 🤔\n- Na verdade, o teste foi inválido, pois a faixa controle não foi corada. \n- Mesmo se a faixa de controle tivesse corado, a alternativa estaria errada, pois pacientes com IgG positiva e IgM negativa podem sim apresentar RNA viral na corrente sanguínea, mas em baixas quantidades.\n- Observe:\n- [https://www.biomedicinapadrao.com.br/2012/06/imunocromatografia.html](https://www.biomedicinapadrao.com.br/2012/06/imunocromatografia.html)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:37:43.000Z",
+                    "updated_at": "2022-01-26T22:14:52.000Z",
+                    "files": [
+                        {
+                            "id": 13499,
+                            "file": "51e4a447-7ca2-4430-82a2-ed10df9e6875.png",
+                            "name": "imunocromatografia[4].png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-11T16:31:33.000Z",
+                            "updated_at": "2021-07-11T16:31:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/51e4a447-7ca2-4430-82a2-ed10df9e6875.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13499,
+                                "alternative_id": 27351
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 6644,
+                "questionary_id": 262082,
+                "timer": 0
+            }
+        },
+        {
+            "id": 6646,
+            "institution_id": 4,
+            "description": "Na composição dos testes diagnósticos imunológicos, é comum a utilização de anticorpos monoclonais. A respeito disso, assinale a alternativa correta:\n",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-07T17:41:00.000Z",
+            "updated_at": "2022-01-27T01:18:54.000Z",
+            "user_id": 635,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 629,
+                    "title": "Testes de Imunodiagnóstico",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2021-03-07T17:21:38.000Z",
+                    "updated_at": "2021-03-07T17:21:38.000Z",
+                    "pivot": {
+                        "discipline_id": 629,
+                        "question_id": 6646
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 27356,
+                    "question_id": 6646,
+                    "description": "No procedimento de produção de anticorpos monoclonais, geralmente são usados linfócitos B transformados em hibridomas.",
+                    "explanation": "- Perfeito, Doc! 😎\n- Em geral, os linfócitos B produtores de anticorpos são fundidos a células tumorais de mielomas, a fim de se tornarem mais resistentes e de possibilitarem uma melhor produção dos anticorpos monoclonais.\n- Observe:\n- [https://wikiciencias.casadasciencias.org/wiki/index.php/Anticorpo_Monoclonal](https://wikiciencias.casadasciencias.org/wiki/index.php/Anticorpo_Monoclonal)",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-03-07T14:41:00.000Z",
+                    "updated_at": "2022-01-26T22:18:54.000Z",
+                    "files": [
+                        {
+                            "id": 13502,
+                            "file": "045af074-7ac1-40c1-bc9b-8374c0f31f89.jpeg",
+                            "name": "600px-anticorpomonoclonal.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T16:54:36.000Z",
+                            "updated_at": "2021-07-11T16:54:36.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/045af074-7ac1-40c1-bc9b-8374c0f31f89.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13502,
+                                "alternative_id": 27356
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27357,
+                    "question_id": 6646,
+                    "description": "A técnica de uso de anticorpos monoclonais é muito recente, sendo usada pela primeira vez apenas em 2014.",
+                    "explanation": "- Falso, Doc! 🤔\n- A técnica de produção de anticorpos monoclonais foi descrita pela primeira vez em 1975 e é muito utilizada desde a sua criação até os dias atuais.\n- Observe a técnica:\n- [https://wikiciencias.casadasciencias.org/wiki/index.php/Anticorpo_Monoclonal](https://wikiciencias.casadasciencias.org/wiki/index.php/Anticorpo_Monoclonal)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:41:00.000Z",
+                    "updated_at": "2022-01-26T22:18:54.000Z",
+                    "files": [
+                        {
+                            "id": 13502,
+                            "file": "045af074-7ac1-40c1-bc9b-8374c0f31f89.jpeg",
+                            "name": "600px-anticorpomonoclonal.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T16:54:36.000Z",
+                            "updated_at": "2021-07-11T16:54:36.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/045af074-7ac1-40c1-bc9b-8374c0f31f89.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13502,
+                                "alternative_id": 27357
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27358,
+                    "question_id": 6646,
+                    "description": "A produção de um anticorpo monoclonal envolve diversos linfócitos T específicos para vários antígenos, que sintetizam os anticorpos mas não sofrem expansão clonal.",
+                    "explanation": "- Falso, Doc! 🤔\n- Lembre-se de que são os linfócitos B que produzem anticorpos, não os linfócitos T. \n- Além disso, como o nome sugere, anticorpos **mono**clonais são anticorpos provenientes de um só clone (célula B específica para um antígeno que sofreu expansão clonal).\n- Observe:\n- [https://www.bindingsite.com/pt-br/disclaimer?returnUrl=%252fpt-br%252four-products%252ffreelite-and-hevylite%252ffreelite%252flaboratory-information%252fpolyclonal-vs-monoclonal](https://www.bindingsite.com/pt-br/disclaimer?returnUrl=%252fpt-br%252four-products%252ffreelite-and-hevylite%252ffreelite%252flaboratory-information%252fpolyclonal-vs-monoclonal)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:41:00.000Z",
+                    "updated_at": "2022-01-26T22:18:54.000Z",
+                    "files": [
+                        {
+                            "id": 13501,
+                            "file": "de161d53-fed2-4296-b5bc-bd6b110ab908.jpeg",
+                            "name": "Monoclonal vs polyclonal epitopesbrpt.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T16:53:54.000Z",
+                            "updated_at": "2021-07-11T16:53:54.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/de161d53-fed2-4296-b5bc-bd6b110ab908.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13501,
+                                "alternative_id": 27358
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27359,
+                    "question_id": 6646,
+                    "description": "O teste ELISA não é um exemplo de uso de anticorpos monoclonais, pois utiliza apenas enzimas para a identificação de antígenos e de imunoglobulinas humanas.",
+                    "explanation": "- Falso, Doc! 🤔\n- O teste ELISA utiliza sim anticorpos monoclonais para a detecção de moléculas humanas. Em alguns desses anticorpos, está acoplada uma enzima para identificação.\n- Observe:\n- [https://www.pensabio.com.br/post/2019/03/21/conheca-os-diferentes-tipos-de-elisa](https://www.pensabio.com.br/post/2019/03/21/conheca-os-diferentes-tipos-de-elisa)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:41:00.000Z",
+                    "updated_at": "2022-01-26T22:18:54.000Z",
+                    "files": [
+                        {
+                            "id": 13493,
+                            "file": "a15adb49-cc9e-4d1c-9942-7031d91970d4.png",
+                            "name": "file.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-11T15:15:37.000Z",
+                            "updated_at": "2021-07-11T15:15:37.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a15adb49-cc9e-4d1c-9942-7031d91970d4.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13493,
+                                "alternative_id": 27359
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 6646,
+                "questionary_id": 262082,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9579,
+            "institution_id": 4,
+            "description": "Os testes de imunodiagnóstico geralmente utilizam a mesma estratégia de detecção de algo a partir de anticorpos, com algumas peculiaridades. Esse algo pode ser um antígeno ou um anticorpo do paciente em questão. Sobre estes testes, assinale a alternativa correta:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-07-02T16:37:35.000Z",
+            "updated_at": "2022-01-27T00:55:34.000Z",
+            "user_id": 184,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 629,
+                    "title": "Testes de Imunodiagnóstico",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2021-03-07T17:21:38.000Z",
+                    "updated_at": "2021-03-07T17:21:38.000Z",
+                    "pivot": {
+                        "discipline_id": 629,
+                        "question_id": 9579
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 39158,
+                    "question_id": 9579,
+                    "description": "A reação dos testes de imunodiagnóstico sempre envolve apenas um tipo de anticorpo monoclonal.",
+                    "explanation": "- Falso, Doc! 😣\n- Na maioria das vezes, a reação envolve dois anticorpos monoclonais diferentes, para aumentar a especificidade, a clareza e a qualidade de detecção dos testes.\n- Um anticorpo é denominado **primário**, pois se liga diretamente à partícula que se deseja detectar, e o outro é denominado **secundário**, pois se liga ao anticorpo primário.\n- Observe na imagem: ([https://www.argospatologia.com.br/wp-content/uploads/2019/06/imunohistoquimica.jpg](https://www.argospatologia.com.br/wp-content/uploads/2019/06/imunohistoquimica.jpg))",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-07-02T13:37:35.000Z",
+                    "updated_at": "2022-01-26T21:55:34.000Z",
+                    "files": [
+                        {
+                            "id": 12644,
+                            "file": "50552737-21b6-428c-8926-e6dac1ee55f1.jpeg",
+                            "name": "imunohistoquimica.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-02T13:28:48.000Z",
+                            "updated_at": "2021-07-02T13:28:48.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/50552737-21b6-428c-8926-e6dac1ee55f1.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12644,
+                                "alternative_id": 39158
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 39159,
+                    "question_id": 9579,
+                    "description": "A partícula a ser detectada nos testes de imunodiagnóstico necessariamente é um antígeno.",
+                    "explanation": "- Falso, Doc! 😣\n- Os testes de imunodiagnóstico podem detectar tanto antígenos quanto anticorpos!\n- O teste IgM/IgG para COVID-19 detecta os anticorpos e não os antígenos, por exemplo.\n- Observe: ([https://i.em.com.br/iOko2It3hLuNPTrGYEtX1Fb21LQ=/](https://i.em.com.br/iOko2It3hLuNPTrGYEtX1Fb21LQ=/) 790x/smart/imgsapp.em.com.br/app/noticia_127983242361/ 2020/07/27/1170448/20200727121954796947a.jpg)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-07-02T13:37:35.000Z",
+                    "updated_at": "2022-01-26T21:55:34.000Z",
+                    "files": [
+                        {
+                            "id": 12646,
+                            "file": "90a1d820-ad8b-492c-b81d-d3b867a927bc.jpeg",
+                            "name": "20200727121954796947a.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-02T13:37:10.000Z",
+                            "updated_at": "2021-07-02T13:37:10.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/90a1d820-ad8b-492c-b81d-d3b867a927bc.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12646,
+                                "alternative_id": 39159
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 39160,
+                    "question_id": 9579,
+                    "description": "Geralmente, o anticorpo secundário é utilizado conjugado a algum elemento que permita detectar a reação, como uma enzima ou uma molécula fluorescente.",
+                    "explanation": "- Perfeito! Muito bem! 😍\n- **Anticorpo primário**: é específico ao antígeno que se quer detectar. \n- **Anticorpo secundário**: é específico ao anticorpo primário. Geralmente está conjugado a algum elemento que permita detectar que a reação está acontecendo, como uma enzima que provoca mudança de cor ou uma molécula fluorescente.\n- Observe na imagem: ([https://www.argospatologia.com.br/wp-content/uploads/2019/06/imunohistoquimica.jpg](https://www.argospatologia.com.br/wp-content/uploads/2019/06/imunohistoquimica.jpg))\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-07-02T13:37:35.000Z",
+                    "updated_at": "2022-01-26T21:55:34.000Z",
+                    "files": [
+                        {
+                            "id": 12644,
+                            "file": "50552737-21b6-428c-8926-e6dac1ee55f1.jpeg",
+                            "name": "imunohistoquimica.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-02T13:28:48.000Z",
+                            "updated_at": "2021-07-02T13:28:48.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/50552737-21b6-428c-8926-e6dac1ee55f1.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12644,
+                                "alternative_id": 39160
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 39161,
+                    "question_id": 9579,
+                    "description": "Todas estão incorretas.",
+                    "explanation": "- Falso, Doc! 😣\n- Na verdade, a letra C está correta.\n- **Anticorpo primário**: é específico ao antígeno que se quer detectar. \n- **Anticorpo secundário**: é específico ao anticorpo primário. Geralmente está conjugado a algum elemento que permita detectar que a reação está acontecendo, como uma enzima que provoca mudança de cor ou uma molécula fluorescente.\n- Observe na imagem: ([https://www.argospatologia.com.br/wp-content/uploads/2019/06/imunohistoquimica.jpg](https://www.argospatologia.com.br/wp-content/uploads/2019/06/imunohistoquimica.jpg))",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-07-02T13:37:35.000Z",
+                    "updated_at": "2022-01-26T21:55:34.000Z",
+                    "files": [
+                        {
+                            "id": 12644,
+                            "file": "50552737-21b6-428c-8926-e6dac1ee55f1.jpeg",
+                            "name": "imunohistoquimica.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-02T13:28:48.000Z",
+                            "updated_at": "2021-07-02T13:28:48.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/50552737-21b6-428c-8926-e6dac1ee55f1.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12644,
+                                "alternative_id": 39161
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9579,
+                "questionary_id": 262082,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9580,
+            "institution_id": 4,
+            "description": "Sobre o teste imunodiagnóstico ELISA, ensaio imunossorvente ligado à enzima, assinale a alternativa correta:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-07-02T13:50:22.000Z",
+            "updated_at": "2022-01-26T21:53:49.000Z",
+            "user_id": 184,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 629,
+                    "title": "Testes de Imunodiagnóstico",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2021-03-07T17:21:38.000Z",
+                    "updated_at": "2021-03-07T17:21:38.000Z",
+                    "pivot": {
+                        "discipline_id": 629,
+                        "question_id": 9580
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 39162,
+                    "question_id": 9580,
+                    "description": "O teste é denominado indireto quando a observação ocorre pelo conjugado associado ao anticorpo primário.",
+                    "explanation": "- Falso, Doc! 🙈\n- O teste é denominado indireto quando a observação ocorre por um **conjugado associado a um anticorpo secundário**, o qual se liga a um anticorpo primário.\n- Observe: ([http://hhub.com.br/fotos/elisatipos.jpg](http://hhub.com.br/fotos/elisatipos.jpg))",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-07-02T13:50:22.000Z",
+                    "updated_at": "2022-01-26T21:53:49.000Z",
+                    "files": [
+                        {
+                            "id": 12649,
+                            "file": "4bc8421c-00fc-4534-8fac-fd1f611d8ac2.jpeg",
+                            "name": "elisatipos.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-02T13:49:43.000Z",
+                            "updated_at": "2021-07-02T13:49:43.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4bc8421c-00fc-4534-8fac-fd1f611d8ac2.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12649,
+                                "alternative_id": 39162
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 39163,
+                    "question_id": 9580,
+                    "description": "O teste é denominado ELISA sandwich quando, além dos anticorpos primário e secundário, há um anticorpo adicional fixado na camada do ELISA.",
+                    "explanation": "- Perfeito! Isso mesmo! 🤓\n- O teste é denominado ELISA sandwich quando há um anticorpo adicional fixado na camada do ELISA, o qual irá se conectar ao antígeno ou ao anticorpo que se deseja detectar, já fixado aos anticorpos primário e secundário.\n- Os testes ELISA sandwich são os mais comuns.\n- Observe: ([http://hhub.com.br/fotos/elisatipos.jpg](http://hhub.com.br/fotos/elisatipos.jpg))",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-07-02T13:50:22.000Z",
+                    "updated_at": "2022-01-26T21:53:49.000Z",
+                    "files": [
+                        {
+                            "id": 12649,
+                            "file": "4bc8421c-00fc-4534-8fac-fd1f611d8ac2.jpeg",
+                            "name": "elisatipos.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-02T13:49:43.000Z",
+                            "updated_at": "2021-07-02T13:49:43.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4bc8421c-00fc-4534-8fac-fd1f611d8ac2.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12649,
+                                "alternative_id": 39163
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 39164,
+                    "question_id": 9580,
+                    "description": "O teste é denominado direto quando a observação ocorre por um conjugado associado a um anticorpo secundário.",
+                    "explanation": "- Falso, Doc! 🙈\n- O teste é denominado direto quando a observação ocorre por um **conjugado associado diretamente a um anticorpo primário**, o qual se liga ao antígeno ou ao anticorpo que se deseja detectar.\n- Observe: ([http://hhub.com.br/fotos/elisatipos.jpg](http://hhub.com.br/fotos/elisatipos.jpg))",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-07-02T13:50:22.000Z",
+                    "updated_at": "2022-01-26T21:53:49.000Z",
+                    "files": [
+                        {
+                            "id": 12649,
+                            "file": "4bc8421c-00fc-4534-8fac-fd1f611d8ac2.jpeg",
+                            "name": "elisatipos.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-02T13:49:43.000Z",
+                            "updated_at": "2021-07-02T13:49:43.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4bc8421c-00fc-4534-8fac-fd1f611d8ac2.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12649,
+                                "alternative_id": 39164
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 39165,
+                    "question_id": 9580,
+                    "description": "O teste é denominado competitivo quando os anticorpos primários e secundários competem por um antígeno.",
+                    "explanation": "- Falso, Doc! 🙈\n- O teste é denominado competitivo quando **dois antígenos diferentes competem pela ligação dos anticorpos**, sendo possível quantificar a presença do antígeno que se deseja detectar.\n- Observe: ([http://hhub.com.br/fotos/elisatipos.jpg](http://hhub.com.br/fotos/elisatipos.jpg))",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-07-02T13:50:22.000Z",
+                    "updated_at": "2022-01-26T21:53:49.000Z",
+                    "files": [
+                        {
+                            "id": 12649,
+                            "file": "4bc8421c-00fc-4534-8fac-fd1f611d8ac2.jpeg",
+                            "name": "elisatipos.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-02T13:49:43.000Z",
+                            "updated_at": "2021-07-02T13:49:43.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4bc8421c-00fc-4534-8fac-fd1f611d8ac2.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12649,
+                                "alternative_id": 39165
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9580,
+                "questionary_id": 262082,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9581,
+            "institution_id": 4,
+            "description": "Sobre os diferentes tipos de testes de imunodiagnóstico, assinale a alternativa **INCORRETA**:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-07-02T14:28:22.000Z",
+            "updated_at": "2022-01-26T21:51:57.000Z",
+            "user_id": 184,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 629,
+                    "title": "Testes de Imunodiagnóstico",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2021-03-07T17:21:38.000Z",
+                    "updated_at": "2021-03-07T17:21:38.000Z",
+                    "pivot": {
+                        "discipline_id": 629,
+                        "question_id": 9581
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 39166,
+                    "question_id": 9581,
+                    "description": "O teste de gravidez comumente comprado em farmácias, que identifica a presença do B-HCG, é um exemplo de imunofluorescência.",
+                    "explanation": "- Acertou, Doc! Essa está **errada**! 😸\n- O teste B-HCG, comumente encontrado em farmácias, é um exemplo de imunocromatografia.\n- Na nitrocelulose, são colocados conjugados com anticorpos monoclonais específicos contra B-HCG. \n- Na área teste, são adicionados anticorpos contra B-HCG e na área controle são colocados anticorpos específicos contra os conjugados iniciais.\n- Na amostra de urina da mulher, se o B-HCG estiver presente, ele irá se ligar aos anticorpos conjugados iniciais e viajará até a área teste, por capilaridade. Na área teste, os anticorpos contra B-HCG irão se ligar a ele, marcando o teste como positivo.\n- Observe: [https://www.fcav.unesp.br/Home/depart](https://www.fcav.unesp.br/Home/depart) amentos/patologia/HELIOJOSEMONTASSIER/aula-pratica-5--testes-rapidos-sorodiagnostico.pdf",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-07-02T14:28:22.000Z",
+                    "updated_at": "2022-01-26T21:51:57.000Z",
+                    "files": [
+                        {
+                            "id": 12662,
+                            "file": "5863e731-8265-4e23-9649-0eab51184b9e.png",
+                            "name": "Captura de Tela 2021-07-02 às 11.26.57.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-02T14:27:40.000Z",
+                            "updated_at": "2021-07-02T14:27:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/5863e731-8265-4e23-9649-0eab51184b9e.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12662,
+                                "alternative_id": 39166
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 39167,
+                    "question_id": 9581,
+                    "description": "A imunocromatografia envolve uma fita de nitrocelulose que, por capilaridade, detecta a presença dos antígenos ou anticorpos a serem detectados.",
+                    "explanation": "- Essa está certa! 😉\n- A imunocromatografia envolve uma amostra que molha uma fita de nitrocelulose e, por capilaridade, viaja até a área de teste e até a área de controle, marcando o resultado do teste.\n- **Teste negativo**: área de controle visível e área de teste não visível.\n- **Teste positivo**: área de controle visível e área de teste visível.\n- Observe: [https://1.bp.blogspot.com/-HH4Rib4bfbY/XcGlmh_h4dI/AAAAAAAAG](https://1.bp.blogspot.com/-HH4Rib4bfbY/XcGlmh_h4dI/AAAAAAAAG) Rk/RXawozkm1fAGc5pDMeSK40wyc3wZyaw4gCLc BGAsYHQ/s1600/Imunocromatografia2.png",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-07-02T14:28:22.000Z",
+                    "updated_at": "2022-01-26T21:51:57.000Z",
+                    "files": [
+                        {
+                            "id": 12659,
+                            "file": "1833af0b-7a60-4dd2-a53e-d2fb00e4f71b.png",
+                            "name": "Imunocromatografia2.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-02T14:08:09.000Z",
+                            "updated_at": "2021-07-02T14:08:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1833af0b-7a60-4dd2-a53e-d2fb00e4f71b.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12659,
+                                "alternative_id": 39167
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 39168,
+                    "question_id": 9581,
+                    "description": "A imunofluorescência utiliza anticorpos associados a conjugados em tecidos e cortes histológicos que deixam a amostra positiva fluorescente.",
+                    "explanation": "- Essa está certa! 😉\n- **Imunofluorescência**: utiliza anticorpos associados a conjugados que deixam amostras de tecidos e cortes histológicos fluorescentes quando positivas. \n- Observe: ([https://www.argospatologia.com.br/wp-content/uploads/2019/06/Laboratorio-Argos-fourescencia-direta-1.jpg](https://www.argospatologia.com.br/wp-content/uploads/2019/06/Laboratorio-Argos-fourescencia-direta-1.jpg))",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-07-02T14:28:22.000Z",
+                    "updated_at": "2022-01-26T21:51:57.000Z",
+                    "files": [
+                        {
+                            "id": 12651,
+                            "file": "d4d6cfaa-773c-4daf-88c0-5dac545fda69.jpeg",
+                            "name": "Laboratorio-Argos-fourescencia-direta-1.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-02T13:58:25.000Z",
+                            "updated_at": "2021-07-02T13:58:25.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d4d6cfaa-773c-4daf-88c0-5dac545fda69.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12651,
+                                "alternative_id": 39168
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 39169,
+                    "question_id": 9581,
+                    "description": "A imunohistoquímica utiliza anticorpos associados a conjugados em tecidos e cortes histológicos que deixam a amostra positiva mais escura que a negativa.",
+                    "explanation": "- Essa está certa! 😉\n- **Imunohistoquímica**: utiliza anticorpos associados a conjugados que deixam amostras de tecidos e cortes histológicos mais escuras quando positivas. \n- A detecção de PSA em adenocarcinoma de próstata é um exemplo deste teste.\n- Observe: ([https://www.argospatologia.com.br/wp-content/uploads/2019/06/imunohistoquimica.jpg](https://www.argospatologia.com.br/wp-content/uploads/2019/06/imunohistoquimica.jpg))",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-07-02T14:28:22.000Z",
+                    "updated_at": "2022-01-26T21:51:57.000Z",
+                    "files": [
+                        {
+                            "id": 12644,
+                            "file": "50552737-21b6-428c-8926-e6dac1ee55f1.jpeg",
+                            "name": "imunohistoquimica.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-02T13:28:48.000Z",
+                            "updated_at": "2021-07-02T13:28:48.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/50552737-21b6-428c-8926-e6dac1ee55f1.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12644,
+                                "alternative_id": 39169
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9581,
+                "questionary_id": 262082,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9614,
+            "institution_id": 4,
+            "description": "Sobre os diferentes tipos de testes de imunodiagnóstico, assinale a alternativa **INCORRETA**:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-07-05T20:23:57.000Z",
+            "updated_at": "2022-01-27T00:47:45.000Z",
+            "user_id": 184,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 629,
+                    "title": "Testes de Imunodiagnóstico",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2021-03-07T17:21:38.000Z",
+                    "updated_at": "2021-03-07T17:21:38.000Z",
+                    "pivot": {
+                        "discipline_id": 629,
+                        "question_id": 9614
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 39302,
+                    "question_id": 9614,
+                    "description": "A técnica de imunodiagnóstico Western Blot analisa amostras complexas utilizando corrente elétrica, eletroforese e capilaridade.",
+                    "explanation": "- Essa está certa, Doc!😌\n- A técnica de imunodiagnóstico Western Blot analisa amostras complexas, como tecidos fragmentados ou em pedaços.\n- As moléculas do tecido entram em poros de um gel e nele viajam por corrente elétrica. As moléculas mais pesadas viajam menos que as mais leves, podendo estas então ser separadas por eletroforese.\n- Após a eletroforese, a carga elétrica e a capilaridade são utilizadas para mover as moléculas para um papel de nitrocelulose, onde há incorporação de anticorpo monoclonal com conjugado que permite a identificação das estruturas.\n- Observe: ([https://www.biolegend.com/Files/Images/BioLegend/westernblot/Fig1_WB.jpg](https://www.biolegend.com/Files/Images/BioLegend/westernblot/Fig1_WB.jpg))",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-07-05T17:23:57.000Z",
+                    "updated_at": "2022-01-26T21:47:45.000Z",
+                    "files": [
+                        {
+                            "id": 12813,
+                            "file": "18d380ca-e9e0-49cd-ad88-f4dfbde8b73a.jpeg",
+                            "name": "Fig1_WB.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-05T17:05:53.000Z",
+                            "updated_at": "2021-07-05T17:05:53.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/18d380ca-e9e0-49cd-ad88-f4dfbde8b73a.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12813,
+                                "alternative_id": 39302
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 39303,
+                    "question_id": 9614,
+                    "description": "A técnica de citometria de fluxo é uma das mais utilizadas no diagnóstico clínico. Um exemplo clássico onde esta técnica é utilizada é na detecção de linfócitos.",
+                    "explanation": "- Essa está certa, Doc!😌\n- A citometria de fluxo é bastante utilizada para a detecção de linfócitos. Uma amostra de sangue é coletada, as hemácias serão lisadas e os leucócitos analisados através de anticorpos monoclonais.\n- O citômetro absorve a amostra e o aparelho cria um fluxo de células, permitindo a detecção delas pelo sensores do aparelho, os quais emitem ondas de luz para analisar o tamanho e a complexidade das células e, assim, identificá-las.\n- Observe um resultado da citometria de fluxo:\n- [https://bioemfoco.com.br/wp-content/uploads/imagem1.png](https://bioemfoco.com.br/wp-content/uploads/imagem1.png)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-07-05T17:23:57.000Z",
+                    "updated_at": "2022-01-26T21:47:45.000Z",
+                    "files": [
+                        {
+                            "id": 12814,
+                            "file": "9d8a86c6-626f-42ca-8b0d-b319dc801954.png",
+                            "name": "imagem1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-05T17:16:36.000Z",
+                            "updated_at": "2021-07-05T17:16:36.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9d8a86c6-626f-42ca-8b0d-b319dc801954.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12814,
+                                "alternative_id": 39303
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 39304,
+                    "question_id": 9614,
+                    "description": "Na citometria de fluxo, as proteínas CD4 e CD3 auxiliam na detecção de linfócitos auxiliares, enquanto a proteína FoxP3 identifica linfócitos T reguladores.",
+                    "explanation": "- Essa está certa, Doc!😌\n- A citometria de fluxo é bastante utilizada para a detecção de linfócitos. Uma amostra de sangue é coletada, as hemácias serão lisadas e os leucócitos analisados através de anticorpos monoclonais.\n- O citômetro absorve a amostra e o aparelho cria um fluxo de células, permitindo a detecção delas pelo sensores do aparelho, os quais emitem ondas de luz para analisar o tamanho e a complexidade das células e, assim, identificá-las.\n- Os linfócitos T reguladores são identificados pela reação anticorpo-proteína FoxP3. Os linfócitos T auxiliares pelas proteínas CD3 e CD4 e os linfócitos T citotóxicos pelas proteínas CD3 e CD8.\n- Observe um resultado da citometria de fluxo:\n- [https://bioemfoco.com.br/wp-content/uploads/imagem1.png](https://bioemfoco.com.br/wp-content/uploads/imagem1.png)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-07-05T17:23:57.000Z",
+                    "updated_at": "2022-01-26T21:47:45.000Z",
+                    "files": [
+                        {
+                            "id": 12814,
+                            "file": "9d8a86c6-626f-42ca-8b0d-b319dc801954.png",
+                            "name": "imagem1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-05T17:16:36.000Z",
+                            "updated_at": "2021-07-05T17:16:36.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9d8a86c6-626f-42ca-8b0d-b319dc801954.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12814,
+                                "alternative_id": 39304
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 39305,
+                    "question_id": 9614,
+                    "description": "A técnica Northern Blot geralmente detecta DNA e a técnica Southern Blot geralmente detecta RNA mensageiro.",
+                    "explanation": "- Perfeito! Essa está **errada**, Doc! 😜\n- A técnica de imunodiagnóstico Western Blot analisa amostras complexas, como tecidos fragmentados ou em pedaços.\n- As moléculas do tecido entram em poros de um gel e nele viajam por corrente elétrica. As moléculas mais pesadas viajam menos que as mais leves, podendo estas então ser separadas por eletroforese.\n- Após a eletroforese, a carga elétrica e a capilaridade são utilizadas para mover as moléculas para um papel de nitrocelulose, onde há incorporação de anticorpo monoclonal com conjugado que permite a identificação das estruturas.\n- **A técnica Northern Blot geralmente detecta RNA mensageiro e a técnica Southern Blot geralmente detecta DNA.**\n- Observe: ([https://www.biolegend.com/Files/Images/BioLegend/westernblot/Fig1_WB.jpg](https://www.biolegend.com/Files/Images/BioLegend/westernblot/Fig1_WB.jpg))",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-07-05T17:23:57.000Z",
+                    "updated_at": "2022-01-26T21:47:45.000Z",
+                    "files": [
+                        {
+                            "id": 12813,
+                            "file": "18d380ca-e9e0-49cd-ad88-f4dfbde8b73a.jpeg",
+                            "name": "Fig1_WB.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-05T17:05:53.000Z",
+                            "updated_at": "2021-07-05T17:05:53.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/18d380ca-e9e0-49cd-ad88-f4dfbde8b73a.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12813,
+                                "alternative_id": 39305
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9614,
+                "questionary_id": 262082,
+                "timer": 0
+            }
+        },
+        {
+            "id": 6639,
+            "institution_id": 4,
+            "description": "Em dezembro de 2019, surgiram nos noticiários as primeiras informações sobre o novo coronavírus, microrganismo que, posteriormente, causaria a pandemia de COVID-19. Uma das principais formas de controle dos casos de infecção é através do diagnóstico envolvendo a detecção de imunoglobulinas M e G da COVID-19 pelo teste de imunocromatografia. A respeito disso, analise as afirmações e assinale a alternativa correta:\n- I – Também chamada de \"teste rápido\", a imunocromatografia é altamente inespecífica e não recomendada para avaliar diagnósticos, já que não possui uma faixa controle para determinar a viabilidade do exame.\n- II – A imunocromatografia é altamente limitada a pequenos grupos de proteínas, já que é impossível produzir um anticorpo que se ligue a outro anticorpo (um anticorpo de um anticorpo).\n- III – A nitrocelulose pode ser um dos componentes desse tipo de teste.",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-07T17:26:30.000Z",
+            "updated_at": "2022-01-27T01:04:18.000Z",
+            "user_id": 635,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 629,
+                    "title": "Testes de Imunodiagnóstico",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2021-03-07T17:21:38.000Z",
+                    "updated_at": "2021-03-07T17:21:38.000Z",
+                    "pivot": {
+                        "discipline_id": 629,
+                        "question_id": 6639
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 27328,
+                    "question_id": 6639,
+                    "description": "Todas estão corretas.",
+                    "explanation": "- Errado, Doc! 🙈\n- **I – Está incorreta**. A especificidade de um teste de imunocromatografia depende de diversos fatores. Além disso, o teste possui uma faixa controle que deve ser corada quando realizado o teste.\n- **II – Está incorreta**. É possível sim criar um anticorpo que se ligue a outro anticorpo. Isso ocorre em testes de detecção de imunoglobulinas por infecções de Covid, por exemplo.\n- **III – Está correta**. A nitrocelulose é utilizada em alguns testes de imunocromatografia, de forma a providenciar a capilaridade necessária para os anticorpos se “movimentarem” sobre a placa.\n- Observe o funcionamento dos testes de imunocromatografia:\n- [https://www.biomedicinapadrao.com.br/2012/06/imunocromatografia.html](https://www.biomedicinapadrao.com.br/2012/06/imunocromatografia.html)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:26:30.000Z",
+                    "updated_at": "2022-01-26T22:04:18.000Z",
+                    "files": [
+                        {
+                            "id": 13486,
+                            "file": "029e7ba6-8b84-44c6-9992-8ec65c8cbf5c.png",
+                            "name": "Imunocromatografia2.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-11T14:26:30.000Z",
+                            "updated_at": "2021-07-11T14:26:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/029e7ba6-8b84-44c6-9992-8ec65c8cbf5c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13486,
+                                "alternative_id": 27328
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27329,
+                    "question_id": 6639,
+                    "description": "Somente I e III estão corretas.",
+                    "explanation": "- Errado, Doc! 🙈\n- **I – Está incorreta**. A especificidade de um teste de imunocromatografia depende de diversos fatores. Além disso, o teste possui uma faixa controle que deve ser corada quando realizado o teste.\n- **II – Está incorreta**. É possível sim criar um anticorpo que se ligue a outro anticorpo. Isso ocorre em testes de detecção de imunoglobulinas por infecções de Covid, por exemplo.\n- **III – Está correta**. A nitrocelulose é utilizada em alguns testes de imunocromatografia, de forma a providenciar a capilaridade necessária para os anticorpos se “movimentarem” sobre a placa.\n- Observe o funcionamento dos testes de imunocromatografia:\n- [https://www.biomedicinapadrao.com.br/2012/06/imunocromatografia.html](https://www.biomedicinapadrao.com.br/2012/06/imunocromatografia.html)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:26:30.000Z",
+                    "updated_at": "2022-01-26T22:04:18.000Z",
+                    "files": [
+                        {
+                            "id": 13486,
+                            "file": "029e7ba6-8b84-44c6-9992-8ec65c8cbf5c.png",
+                            "name": "Imunocromatografia2.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-11T14:26:30.000Z",
+                            "updated_at": "2021-07-11T14:26:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/029e7ba6-8b84-44c6-9992-8ec65c8cbf5c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13486,
+                                "alternative_id": 27329
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27330,
+                    "question_id": 6639,
+                    "description": "Somente III está correta.",
+                    "explanation": "- Perfeito! Acertou! 😍\n- **I – Está incorreta**. A especificidade de um teste de imunocromatografia depende de diversos fatores. Além disso, o teste possui uma faixa controle que deve ser corada quando realizado o teste.\n- **II – Está incorreta**. É possível sim criar um anticorpo que se ligue a outro anticorpo. Isso ocorre em testes de detecção de imunoglobulinas por infecções de Covid, por exemplo.\n- **III – Está correta**. A nitrocelulose é utilizada em alguns testes de imunocromatografia, de forma a providenciar a capilaridade necessária para os anticorpos se “movimentarem” sobre a placa.\n- Observe o funcionamento dos testes de imunocromatografia:\n- [https://www.biomedicinapadrao.com.br/2012/06/imunocromatografia.html](https://www.biomedicinapadrao.com.br/2012/06/imunocromatografia.html)",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-03-07T14:26:30.000Z",
+                    "updated_at": "2022-01-26T22:04:18.000Z",
+                    "files": [
+                        {
+                            "id": 13486,
+                            "file": "029e7ba6-8b84-44c6-9992-8ec65c8cbf5c.png",
+                            "name": "Imunocromatografia2.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-11T14:26:30.000Z",
+                            "updated_at": "2021-07-11T14:26:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/029e7ba6-8b84-44c6-9992-8ec65c8cbf5c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13486,
+                                "alternative_id": 27330
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27331,
+                    "question_id": 6639,
+                    "description": "Somente I e II estão corretas.",
+                    "explanation": "- Errado, Doc! 🙈\n- **I – Está incorreta**. A especificidade de um teste de imunocromatografia depende de diversos fatores. Além disso, o teste possui uma faixa controle que deve ser corada quando realizado o teste.\n- **II – Está incorreta**. É possível sim criar um anticorpo que se ligue a outro anticorpo. Isso ocorre em testes de detecção de imunoglobulinas por infecções de Covid, por exemplo.\n- **III – Está correta**. A nitrocelulose é utilizada em alguns testes de imunocromatografia, de forma a providenciar a capilaridade necessária para os anticorpos se “movimentarem” sobre a placa.\n- Observe o funcionamento dos testes de imunocromatografia:\n- [https://www.biomedicinapadrao.com.br/2012/06/imunocromatografia.html](https://www.biomedicinapadrao.com.br/2012/06/imunocromatografia.html)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:26:30.000Z",
+                    "updated_at": "2022-01-26T22:04:18.000Z",
+                    "files": [
+                        {
+                            "id": 13486,
+                            "file": "029e7ba6-8b84-44c6-9992-8ec65c8cbf5c.png",
+                            "name": "Imunocromatografia2.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-07-11T14:26:30.000Z",
+                            "updated_at": "2021-07-11T14:26:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/029e7ba6-8b84-44c6-9992-8ec65c8cbf5c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13486,
+                                "alternative_id": 27331
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 6639,
+                "questionary_id": 262082,
+                "timer": 0
+            }
+        },
+        {
+            "id": 6640,
+            "institution_id": 4,
+            "description": "Uma jovem de 28 anos grávida, em seu pré-natal, recebe a sugestão do médico para realizar a sua tipagem sanguínea. Sabendo disso, assinale a alternativa que contempla informações verdadeiras sobre o assunto:\n",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-07T17:28:20.000Z",
+            "updated_at": "2022-01-27T01:06:21.000Z",
+            "user_id": 635,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 629,
+                    "title": "Testes de Imunodiagnóstico",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2021-03-07T17:21:38.000Z",
+                    "updated_at": "2021-03-07T17:21:38.000Z",
+                    "pivot": {
+                        "discipline_id": 629,
+                        "question_id": 6640
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 27332,
+                    "question_id": 6640,
+                    "description": "A tipagem sanguínea pode ser realizada coletando o sangue da jovem e colocando-o em 2 soluções, cada uma com um tipo de anticorpo, anti-A e anti-B. Se o sangue da jovem tiver coagulado nas duas soluções, pode-se afirmar que ela é O+.",
+                    "explanation": "- Falso, Doc! 😌\n- Se o sangue reagiu nas amostras anti-A e anti-B, significa que a jovem possui uma tipagem sanguínea do tipo AB, pois os anticorpos reagiram com os antígenos presentes no sangue.\n- Não é possível caracterizar se o fator Rh é positivo ou negativo nesse caso.\n- Observe:\n- [https://pt.wikipedia.org/wiki/Sistema_ABO](https://pt.wikipedia.org/wiki/Sistema_ABO)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:28:20.000Z",
+                    "updated_at": "2022-01-26T22:06:21.000Z",
+                    "files": [
+                        {
+                            "id": 13490,
+                            "file": "630458f5-6981-4405-baed-d7fad8fbb433.jpeg",
+                            "name": "410px-Sistema_ABO.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T15:04:08.000Z",
+                            "updated_at": "2021-07-11T15:04:08.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/630458f5-6981-4405-baed-d7fad8fbb433.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13490,
+                                "alternative_id": 27332
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27333,
+                    "question_id": 6640,
+                    "description": " A solicitação do exame pelo médico foi desnecessária, já que os tipos de moléculas presentes na hemácia da mãe não apresentam, em nenhum momento ou situação, risco para o recém-nascido.",
+                    "explanation": "- Falso, Doc! 😌\n- O fator Rh é muito importante na prática clínica, já que mães Rh- produzirão anticorpos contra o fator Rh+ do primeiro filho, o que pode ser perigoso e prejudicial caso a mãe venha a ter mais filhos Rh+.\n- Observe:\n- [https://www.coladaweb.com/doencas/eritroblastose-fetal](https://www.coladaweb.com/doencas/eritroblastose-fetal)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:28:20.000Z",
+                    "updated_at": "2022-01-26T22:06:21.000Z",
+                    "files": [
+                        {
+                            "id": 13491,
+                            "file": "aa928532-694c-4cdc-b0d9-de9ea7ad8267.jpeg",
+                            "name": "20190801-eristroblastose-fetal.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T15:05:27.000Z",
+                            "updated_at": "2021-07-11T15:05:27.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/aa928532-694c-4cdc-b0d9-de9ea7ad8267.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13491,
+                                "alternative_id": 27333
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27334,
+                    "question_id": 6640,
+                    "description": "Caso a mãe for Rh- e o primeiro filho Rh+, haverá uma grande complicação no momento do parto.",
+                    "explanation": "- Falso, Doc! 😌\n- Nesse caso, se a mãe não tomar as precauções clinicas, ela irá produzir anticorpos contra o fator Rh do filho.\n- Pode ser que estes anticorpos maternos agora presentes causem complicações em gravidezes futuras, se os filhos futuros apresentarem Rh+.\n- Observe:\n- [https://www.coladaweb.com/doencas/eritroblastose-fetal](https://www.coladaweb.com/doencas/eritroblastose-fetal)\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:28:20.000Z",
+                    "updated_at": "2022-01-26T22:06:21.000Z",
+                    "files": [
+                        {
+                            "id": 13491,
+                            "file": "aa928532-694c-4cdc-b0d9-de9ea7ad8267.jpeg",
+                            "name": "20190801-eristroblastose-fetal.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T15:05:27.000Z",
+                            "updated_at": "2021-07-11T15:05:27.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/aa928532-694c-4cdc-b0d9-de9ea7ad8267.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13491,
+                                "alternative_id": 27334
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27335,
+                    "question_id": 6640,
+                    "description": "A tipagem sanguínea envolve, assim como no teste de ELISA, a presença de anticorpos que se aglutinam com antígenos específicos.",
+                    "explanation": "- Correto! Muito bem! 🤗\n- Apesar de serem testes de imunodiagnóstico diferentes, imunocromatografia, imunofluorescência, ELISA e tipagem sanguínea envolvem princípios parecidos de aglutinação e utilização de anticorpos que irão se ligar em moléculas específicas (antígenos ou anticorpos).\n- Observe o exemplo:\n- [https://pt.wikipedia.org/wiki/Sistema_ABO](https://pt.wikipedia.org/wiki/Sistema_ABO)",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-03-07T14:28:20.000Z",
+                    "updated_at": "2022-01-26T22:06:21.000Z",
+                    "files": [
+                        {
+                            "id": 13490,
+                            "file": "630458f5-6981-4405-baed-d7fad8fbb433.jpeg",
+                            "name": "410px-Sistema_ABO.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T15:04:08.000Z",
+                            "updated_at": "2021-07-11T15:04:08.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/630458f5-6981-4405-baed-d7fad8fbb433.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13490,
+                                "alternative_id": 27335
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 6640,
+                "questionary_id": 262082,
+                "timer": 0
+            }
+        },
+        {
+            "id": 6642,
+            "institution_id": 4,
+            "description": "Você deseja quantificar os linfócitos T auxiliadores de um paciente HIV positivo a fim de averiguar o estágio da infecção no organismo. Para isso, você se dirige à citometria de fluxo e analisa a amostra de sangue do paciente. Assinale a alternativa que apresenta o conjunto de anticorpos necessários para detectar as células T auxiliadoras no aparelho de citometria:\n",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-07T14:31:34.000Z",
+            "updated_at": "2022-01-26T22:12:09.000Z",
+            "user_id": 635,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 629,
+                    "title": "Testes de Imunodiagnóstico",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2021-03-07T17:21:38.000Z",
+                    "updated_at": "2021-03-07T17:21:38.000Z",
+                    "pivot": {
+                        "discipline_id": 629,
+                        "question_id": 6642
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 27340,
+                    "question_id": 6642,
+                    "description": "Anti-TCR e anti-Foxp3.",
+                    "explanation": "- Incorreto, Doc! 😣\n- TCR e CD3 são moléculas presentes em todos os tipos de linfócitos T.\n- A molécula CD4 é classicamente identificada em linfócitos Th (auxiliadores).\n- FoxP3 está presente em linfócitos T reguladores.\n- Observe na imagem:\n- [https://www.medicinanet.com.br/m/conteudos/acp-medicine/4548/orgaos_e_celulas_do_sistema_imunologico__john_r_david_e_cox_terhorst.htm](https://www.medicinanet.com.br/m/conteudos/acp-medicine/4548/orgaos_e_celulas_do_sistema_imunologico__john_r_david_e_cox_terhorst.htm)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:31:34.000Z",
+                    "updated_at": "2022-01-26T22:12:09.000Z",
+                    "files": [
+                        {
+                            "id": 13496,
+                            "file": "3f105532-0feb-4532-953d-1e2faa616101.jpeg",
+                            "name": "20120227094310.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T15:41:48.000Z",
+                            "updated_at": "2021-07-11T15:41:48.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3f105532-0feb-4532-953d-1e2faa616101.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13496,
+                                "alternative_id": 27340
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27341,
+                    "question_id": 6642,
+                    "description": "Anti-TCR, anti-CD3 e anti-CD4.",
+                    "explanation": "- Perfeito, Doc! 🤓\n- TCR e CD3 são moléculas presentes em todos os tipos de linfócitos T.\n- A molécula CD4 é classicamente identificada em linfócitos Th (auxiliadores).\n- Observe na imagem:\n- [https://www.medicinanet.com.br/m/conteudos/acp-medicine/4548/orgaos_e_celulas_do_sistema_imunologico__john_r_david_e_cox_terhorst.htm](https://www.medicinanet.com.br/m/conteudos/acp-medicine/4548/orgaos_e_celulas_do_sistema_imunologico__john_r_david_e_cox_terhorst.htm)\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-03-07T14:31:34.000Z",
+                    "updated_at": "2022-01-26T22:12:09.000Z",
+                    "files": [
+                        {
+                            "id": 13496,
+                            "file": "3f105532-0feb-4532-953d-1e2faa616101.jpeg",
+                            "name": "20120227094310.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T15:41:48.000Z",
+                            "updated_at": "2021-07-11T15:41:48.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3f105532-0feb-4532-953d-1e2faa616101.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13496,
+                                "alternative_id": 27341
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27342,
+                    "question_id": 6642,
+                    "description": "Anti-BCL6 e anti T-BET.",
+                    "explanation": "- Incorreto, Doc! 😣\n- TCR e CD3 são moléculas presentes em todos os tipos de linfócitos T.\n- A molécula CD4 é classicamente identificada em linfócitos Th (auxiliadores).\n- BCL6 está presente em linfócitos T foliculares.\n- T-BET está presente apenas em linfócitos Th1.\n- Observe na imagem:\n- [https://www.medicinanet.com.br/m/conteudos/acp-medicine/4548/orgaos_e_celulas_do_sistema_imunologico__john_r_david_e_cox_terhorst.htm](https://www.medicinanet.com.br/m/conteudos/acp-medicine/4548/orgaos_e_celulas_do_sistema_imunologico__john_r_david_e_cox_terhorst.htm)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:31:34.000Z",
+                    "updated_at": "2022-01-26T22:12:09.000Z",
+                    "files": [
+                        {
+                            "id": 13496,
+                            "file": "3f105532-0feb-4532-953d-1e2faa616101.jpeg",
+                            "name": "20120227094310.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T15:41:48.000Z",
+                            "updated_at": "2021-07-11T15:41:48.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3f105532-0feb-4532-953d-1e2faa616101.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13496,
+                                "alternative_id": 27342
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27343,
+                    "question_id": 6642,
+                    "description": "Anti-GATA3.",
+                    "explanation": "- Incorreto, Doc! 😣\n- TCR e CD3 são moléculas presentes em todos os tipos de linfócitos T.\n- A molécula CD4 é classicamente identificada em linfócitos Th (auxiliadores).\n- GATA3 está presente apenas em linfócitos Th2.\n- Observe na imagem:\n- [https://www.medicinanet.com.br/m/conteudos/acp-medicine/4548/orgaos_e_celulas_do_sistema_imunologico__john_r_david_e_cox_terhorst.htm](https://www.medicinanet.com.br/m/conteudos/acp-medicine/4548/orgaos_e_celulas_do_sistema_imunologico__john_r_david_e_cox_terhorst.htm)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:31:34.000Z",
+                    "updated_at": "2022-01-26T22:12:09.000Z",
+                    "files": [
+                        {
+                            "id": 13496,
+                            "file": "3f105532-0feb-4532-953d-1e2faa616101.jpeg",
+                            "name": "20120227094310.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T15:41:48.000Z",
+                            "updated_at": "2021-07-11T15:41:48.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3f105532-0feb-4532-953d-1e2faa616101.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13496,
+                                "alternative_id": 27343
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 6642,
+                "questionary_id": 262082,
+                "timer": 0
+            }
+        },
+        {
+            "id": 6645,
+            "institution_id": 4,
+            "description": "Você está fazendo pesquisas laboratoriais com antígenos, anticorpos e outras moléculas importantes para estudo. Em um determinado momento, você necessita avaliar o tamanho dessas moléculas e, para isso, realiza um teste imunológico. Sobre isso, analise as afirmativas e assinale a alternativa correta:\n- I – O teste do tipo ELISA pode ser usado para avaliar o tamanho dessas moléculas, já que, de acordo com o tipo de coloração registrado, pode-se saber o peso molecular.\n- II – Provavelmente, o Western Blot foi o exame utilizado para avaliar o tamanho dos antígenos, dos anticorpos e de outras moléculas, já que, pela eletroforese, é possível identificar essa característica.\n- III – Atualmente, os testes diagnósticos imunológicos evoluíram tanto na técnica que não necessitam da utilização de anticorpos monoclonais para quantificar o tamanho das moléculas.",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-07T14:39:39.000Z",
+            "updated_at": "2022-01-26T22:17:17.000Z",
+            "user_id": 635,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 629,
+                    "title": "Testes de Imunodiagnóstico",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2021-03-07T17:21:38.000Z",
+                    "updated_at": "2021-03-07T17:21:38.000Z",
+                    "pivot": {
+                        "discipline_id": 629,
+                        "question_id": 6645
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 27352,
+                    "question_id": 6645,
+                    "description": "Somente I e II estão corretas.",
+                    "explanation": "- Falso! 😜\n- **I – Está incorreta**. O teste ELISA não avalia o tamanho das moléculas. A intensidade da coloração é indicativa da quantidade de antígenos/anticorpos avaliados.\n- **II – Está correta**. O Western Blot é capaz de avaliar o tamanho das moléculas por eletroforese.\n- **III – Está incorreta**. Muitos testes ainda utilizam os anticorpos monoclonais para identificar tamanho das moléculas.\n- Observe:\n- [https://microbenotes.com/western-blot/](https://microbenotes.com/western-blot/)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:39:39.000Z",
+                    "updated_at": "2022-01-26T22:17:17.000Z",
+                    "files": [
+                        {
+                            "id": 13498,
+                            "file": "8a8c243c-8499-44cf-b019-a8076b9f1ece.jpeg",
+                            "name": "Western-Blot.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T16:17:37.000Z",
+                            "updated_at": "2021-07-11T16:17:37.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8a8c243c-8499-44cf-b019-a8076b9f1ece.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13498,
+                                "alternative_id": 27352
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27353,
+                    "question_id": 6645,
+                    "description": "Somente I está correta.",
+                    "explanation": "- Falso! 😜\n- **I – Está incorreta**. O teste ELISA não avalia o tamanho das moléculas. A intensidade da coloração é indicativa da quantidade de antígenos/anticorpos avaliados.\n- **II – Está correta**. O Western Blot é capaz de avaliar o tamanho das moléculas por eletroforese.\n- **III – Está incorreta**. Muitos testes ainda utilizam os anticorpos monoclonais para identificar tamanho das moléculas.\n- Observe:\n- [https://microbenotes.com/western-blot/](https://microbenotes.com/western-blot/)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:39:39.000Z",
+                    "updated_at": "2022-01-26T22:17:17.000Z",
+                    "files": [
+                        {
+                            "id": 13498,
+                            "file": "8a8c243c-8499-44cf-b019-a8076b9f1ece.jpeg",
+                            "name": "Western-Blot.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T16:17:37.000Z",
+                            "updated_at": "2021-07-11T16:17:37.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8a8c243c-8499-44cf-b019-a8076b9f1ece.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13498,
+                                "alternative_id": 27353
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27354,
+                    "question_id": 6645,
+                    "description": "Somente III está correta.",
+                    "explanation": "- Falso! 😜\n- **I – Está incorreta**. O teste ELISA não avalia o tamanho das moléculas. A intensidade da coloração é indicativa da quantidade de antígenos/anticorpos avaliados.\n- **II – Está correta**. O Western Blot é capaz de avaliar o tamanho das moléculas por eletroforese.\n- **III – Está incorreta**. Muitos testes ainda utilizam os anticorpos monoclonais para identificar tamanho das moléculas.\n- Observe:\n- [https://microbenotes.com/western-blot/](https://microbenotes.com/western-blot/)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:39:39.000Z",
+                    "updated_at": "2022-01-26T22:17:17.000Z",
+                    "files": [
+                        {
+                            "id": 13498,
+                            "file": "8a8c243c-8499-44cf-b019-a8076b9f1ece.jpeg",
+                            "name": "Western-Blot.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T16:17:37.000Z",
+                            "updated_at": "2021-07-11T16:17:37.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8a8c243c-8499-44cf-b019-a8076b9f1ece.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13498,
+                                "alternative_id": 27354
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27355,
+                    "question_id": 6645,
+                    "description": "Somente II está correta.",
+                    "explanation": "- Correto! Muito bem! 😉\n- **I – Está incorreta**. O teste ELISA não avalia o tamanho das moléculas. A intensidade da coloração é indicativa da quantidade de antígenos/anticorpos avaliados.\n- **II – Está correta**. O Western Blot é capaz de avaliar o tamanho das moléculas por eletroforese.\n- **III – Está incorreta**. Muitos testes ainda utilizam os anticorpos monoclonais para identificar tamanho das moléculas.\n- Observe:\n- [https://microbenotes.com/western-blot/](https://microbenotes.com/western-blot/)",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-03-07T14:39:39.000Z",
+                    "updated_at": "2022-01-26T22:17:17.000Z",
+                    "files": [
+                        {
+                            "id": 13498,
+                            "file": "8a8c243c-8499-44cf-b019-a8076b9f1ece.jpeg",
+                            "name": "Western-Blot.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T16:17:37.000Z",
+                            "updated_at": "2021-07-11T16:17:37.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8a8c243c-8499-44cf-b019-a8076b9f1ece.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13498,
+                                "alternative_id": 27355
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 6645,
+                "questionary_id": 262082,
+                "timer": 0
+            }
+        },
+        {
+            "id": 6647,
+            "institution_id": 4,
+            "description": "Paciente homem, 57 anos, apresenta quadro moderado de COVID-19 há 10 dias, com febre, astenia, dispneia leve, cefaleia e anosmia. Assinale a alternativa correta que apresenta o mais provável achado nos testes diagnósticos para a doença: \n- Obs.: Considere que todos os diagnósticos foram válidos, sem chances de falso positivo ou de falso negativo.",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-07T17:42:23.000Z",
+            "updated_at": "2022-01-27T01:21:05.000Z",
+            "user_id": 635,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 629,
+                    "title": "Testes de Imunodiagnóstico",
+                    "description": null,
+                    "parent_id": 328,
+                    "is_enabled": true,
+                    "created_at": "2021-03-07T17:21:38.000Z",
+                    "updated_at": "2021-03-07T17:21:38.000Z",
+                    "pivot": {
+                        "discipline_id": 629,
+                        "question_id": 6647
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 27360,
+                    "question_id": 6647,
+                    "description": "PCR (-); IgM (+); IgA (-); IgG (+), representando que o paciente não possui mais o vírus no organismo, apenas imunoglobulinas de fase crônica da doença (IgG e IgM).",
+                    "explanation": "- Incorreto, Doc! 🙈\n- Muito provavelmente, o paciente ainda possui detecções de RNA do SARS-CoV-2 em seu sangue, mesmo que não captados pelo RT-PCR.\n- O anticorpo IgM não é considerado uma imunoglobulina de fase crônica da doença, mas sim os anticorpos IgA e IgG.\n- Observe na tabela:\n- [https://www.cecom.unicamp.br/cecom-amplia-exames-para-detectar-covid-19-a-todos-os-alunos-professores-e-funcionarios/](https://www.cecom.unicamp.br/cecom-amplia-exames-para-detectar-covid-19-a-todos-os-alunos-professores-e-funcionarios/)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:42:23.000Z",
+                    "updated_at": "2022-01-26T22:21:05.000Z",
+                    "files": [
+                        {
+                            "id": 13500,
+                            "file": "12d03bac-dc8b-4791-8bb9-9f45b42a18d7.jpeg",
+                            "name": "atu_cecom_20200521_3.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T16:41:02.000Z",
+                            "updated_at": "2021-07-11T16:41:02.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/12d03bac-dc8b-4791-8bb9-9f45b42a18d7.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13500,
+                                "alternative_id": 27360
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27361,
+                    "question_id": 6647,
+                    "description": "PCR (+); IgM (+); IgA (+); IgG (+), representando uma fase ativa da doença, em que seus linfócitos B já foram mobilizados por linfócitos TCD4+ para produzirem formas mais especializadas de imunoglobulinas.",
+                    "explanation": "- Exatamente, Doc! Muito bem! 😻\n- Pela descrição do paciente, percebe-se que ele está na fase ativa da doença, com alta produção de IgGs e IgAs, as quais são imunoglobulinas mais específicas, representando que os linfócitos B já receberam ajuda de linfócitos auxiliadores. \n- Esse achado é percebido pela temporalidade dos sintomas: 10 dias é um intervalo de tempo considerável para que aconteça o “switch de classe” das Igs. Por ser um caso moderado, provavelmente o paciente ainda possui o vírus circulando no corpo.\n- Observe na tabela:\n- [https://www.cecom.unicamp.br/cecom-amplia-exames-para-detectar-covid-19-a-todos-os-alunos-professores-e-funcionarios/](https://www.cecom.unicamp.br/cecom-amplia-exames-para-detectar-covid-19-a-todos-os-alunos-professores-e-funcionarios/)",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-03-07T14:42:23.000Z",
+                    "updated_at": "2022-01-26T22:21:05.000Z",
+                    "files": [
+                        {
+                            "id": 13500,
+                            "file": "12d03bac-dc8b-4791-8bb9-9f45b42a18d7.jpeg",
+                            "name": "atu_cecom_20200521_3.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T16:41:02.000Z",
+                            "updated_at": "2021-07-11T16:41:02.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/12d03bac-dc8b-4791-8bb9-9f45b42a18d7.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13500,
+                                "alternative_id": 27361
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27362,
+                    "question_id": 6647,
+                    "description": "PCR (+); IgM (-); IgA(+); IgG (+), representando que seus linfócitos Th já não possuem mais a capacidade de sintetizar IgM, apenas IgG e IgA.",
+                    "explanation": "- Incorreto, Doc! 🙈\n- Apesar de ser um achado laboratorial possível, ou seja, o paciente realmente pode ter níveis indetectáveis de IgM antes de eliminar totalmente as detecções de RNA viral, a questão aborda que os linfócitos Th produzem os anticorpos, o que não é verdade, pois são as células B que realizam essa função.\n- Observe na tabela:\n- [https://www.cecom.unicamp.br/cecom-amplia-exames-para-detectar-covid-19-a-todos-os-alunos-professores-e-funcionarios/](https://www.cecom.unicamp.br/cecom-amplia-exames-para-detectar-covid-19-a-todos-os-alunos-professores-e-funcionarios/)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:42:23.000Z",
+                    "updated_at": "2022-01-26T22:21:05.000Z",
+                    "files": [
+                        {
+                            "id": 13500,
+                            "file": "12d03bac-dc8b-4791-8bb9-9f45b42a18d7.jpeg",
+                            "name": "atu_cecom_20200521_3.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T16:41:02.000Z",
+                            "updated_at": "2021-07-11T16:41:02.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/12d03bac-dc8b-4791-8bb9-9f45b42a18d7.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13500,
+                                "alternative_id": 27362
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 27363,
+                    "question_id": 6647,
+                    "description": "Não é possível determinar o principal achado do teste diagnóstico, já que o paciente apresenta um quadro moderado de COVID-19 e, portanto, não apresenta nenhuma citocina atuando no organismo.",
+                    "explanation": "- Incorreto, Doc! 🙈\n- Por ser um caso moderado, o paciente apresentará sim citocinas atuando, já que há uma resposta normal do sistema imune contra o vírus. \n- O que o paciente provavelmente não irá apresentar é uma tempestade de citocinas.\n- Observe na tabela:\n- [https://www.cecom.unicamp.br/cecom-amplia-exames-para-detectar-covid-19-a-todos-os-alunos-professores-e-funcionarios/](https://www.cecom.unicamp.br/cecom-amplia-exames-para-detectar-covid-19-a-todos-os-alunos-professores-e-funcionarios/)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-03-07T14:42:23.000Z",
+                    "updated_at": "2022-01-26T22:21:05.000Z",
+                    "files": [
+                        {
+                            "id": 13500,
+                            "file": "12d03bac-dc8b-4791-8bb9-9f45b42a18d7.jpeg",
+                            "name": "atu_cecom_20200521_3.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-11T16:41:02.000Z",
+                            "updated_at": "2021-07-11T16:41:02.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/12d03bac-dc8b-4791-8bb9-9f45b42a18d7.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 13500,
+                                "alternative_id": 27363
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 6647,
+                "questionary_id": 262082,
+                "timer": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,2536 @@
+{
+    "id": 261896,
+    "user_id": 1699,
+    "title": "Estrutura do Exame Clínico",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-03T18:53:31.000Z",
+    "updated_at": "2022-07-03T18:53:31.000Z",
+    "study_plan_id": 1070,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 2200,
+            "institution_id": 4,
+            "description": "Ao iniciar o exame clínico de uma criança de 10 anos com história de 1 pico febril persistente diariamente e emagrecimento de 2 kg em 2 meses, você encontra 1 linfonodo cervical palpável, medindo cerca de 2cm de diâmetro e indolor. A melhor conduta neste momento é:",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-20T21:40:46.000Z",
+            "updated_at": "2021-11-18T10:32:14.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 236,
+                    "title": "Anamnese",
+                    "description": null,
+                    "parent_id": 97,
+                    "is_enabled": true,
+                    "created_at": "2020-06-21T00:28:45.000Z",
+                    "updated_at": "2020-06-21T00:28:45.000Z",
+                    "pivot": {
+                        "discipline_id": 236,
+                        "question_id": 2200
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 9051,
+                    "question_id": 2200,
+                    "description": "Interromper o exame físico e encaminhá-la imediatamente a um especialista.",
+                    "explanation": "- Errado, Doc! 👎\n- A história da criança não traz nenhuma alteração de sinais vitais que torne necessário interromper imediatamente o exame físico e encaminhar a paciente a algum outro serviço de saúde com urgência. \n- Sendo assim, a anamnese e o exame físico devem ser completos e detalhados.\n- Observe os linfonodos cervicais: https://www.portalped.com.br/especialidades-da-pediatria/infectologia/linfadenopatias-em-criancas-principais-causas/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-20T21:40:46.000Z",
+                    "updated_at": "2021-11-18T10:32:14.000Z",
+                    "files": [
+                        {
+                            "id": 23431,
+                            "file": "2080708a-bd7f-4941-ad31-dc25c788cce9.jpeg",
+                            "name": "3d-human-head-maps-v1-pic-5.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-18T10:31:39.000Z",
+                            "updated_at": "2021-11-18T10:31:39.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2080708a-bd7f-4941-ad31-dc25c788cce9.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23431,
+                                "alternative_id": 9051
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9052,
+                    "question_id": 2200,
+                    "description": "Imediatamente solicitar exames laboratoriais.",
+                    "explanation": "- Errado, Doc! 👎\n- A anamnese e o exame físico devem ser completos e finalizados devidamente antes da solicitação de exames.\n- Somente após isso, o profissional, com base no seu raciocínio clínico e diagnóstico, deve solicitar exames, caso haja necessidade.\n- Observe os linfonodos cervicais: https://www.portalped.com.br/especialidades-da-pediatria/infectologia/linfadenopatias-em-criancas-principais-causas/",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-20T21:40:46.000Z",
+                    "updated_at": "2021-11-18T10:32:14.000Z",
+                    "files": [
+                        {
+                            "id": 23431,
+                            "file": "2080708a-bd7f-4941-ad31-dc25c788cce9.jpeg",
+                            "name": "3d-human-head-maps-v1-pic-5.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-18T10:31:39.000Z",
+                            "updated_at": "2021-11-18T10:31:39.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2080708a-bd7f-4941-ad31-dc25c788cce9.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23431,
+                                "alternative_id": 9052
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9053,
+                    "question_id": 2200,
+                    "description": "Procurar criteriosamente outros linfonodos e tentar caracterizá-los, se presentes.",
+                    "explanation": "- Correto! Muito bem! 😉\n- Aqui temos um paciente pediátrico de 10 anos, com um quadro de picos persistentes de febre e emagracimento recente. \n- Ao encontrar um linfonodo cervical palpável, indolor e com um tamanho relativamente grande, o profissional deve investigar mais criteriosamente as demais cadeias de linfonodos, caracterizando todos os achados do exame físico.\n- Observe os linfonodos cervicais: https://www.portalped.com.br/especialidades-da-pediatria/infectologia/linfadenopatias-em-criancas-principais-causas/",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-20T21:40:46.000Z",
+                    "updated_at": "2021-11-18T10:32:14.000Z",
+                    "files": [
+                        {
+                            "id": 23431,
+                            "file": "2080708a-bd7f-4941-ad31-dc25c788cce9.jpeg",
+                            "name": "3d-human-head-maps-v1-pic-5.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-18T10:31:39.000Z",
+                            "updated_at": "2021-11-18T10:31:39.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2080708a-bd7f-4941-ad31-dc25c788cce9.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23431,
+                                "alternative_id": 9053
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9054,
+                    "question_id": 2200,
+                    "description": "Fazer uma ecografia do linfonodo encontrado para verificar sua densidade.",
+                    "explanation": "- Errado, Doc! 👎\n- Primeiramente, deve-se examinar e avaliar criteriosamente todas as demais cadeias linfonodais, bem como esclarecer detalhadamente a história clínica do paciente, finalizando a anamnese e o exame físico completamente antes da solicitação de exames complementares.\n- Observe os linfonodos cervicais: https://www.portalped.com.br/especialidades-da-pediatria/infectologia/linfadenopatias-em-criancas-principais-causas/",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-20T21:40:46.000Z",
+                    "updated_at": "2021-11-18T10:32:14.000Z",
+                    "files": [
+                        {
+                            "id": 23431,
+                            "file": "2080708a-bd7f-4941-ad31-dc25c788cce9.jpeg",
+                            "name": "3d-human-head-maps-v1-pic-5.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-18T10:31:39.000Z",
+                            "updated_at": "2021-11-18T10:31:39.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2080708a-bd7f-4941-ad31-dc25c788cce9.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23431,
+                                "alternative_id": 9054
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2200,
+                "questionary_id": 261896,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2202,
+            "institution_id": 4,
+            "description": "Durante uma entrevista médica, o entrevistador fez a seguinte pergunta: \"O senhor tem dispneia, edema ou falta de ar?”. Que tipo de pergunta é esta?  ",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-21T00:48:44.000Z",
+            "updated_at": "2021-11-18T13:34:44.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 236,
+                    "title": "Anamnese",
+                    "description": null,
+                    "parent_id": 97,
+                    "is_enabled": true,
+                    "created_at": "2020-06-21T00:28:45.000Z",
+                    "updated_at": "2020-06-21T00:28:45.000Z",
+                    "pivot": {
+                        "discipline_id": 236,
+                        "question_id": 2202
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 9059,
+                    "question_id": 2202,
+                    "description": "Pergunta em menu.",
+                    "explanation": "- Falso, Doc! 🙈\n- A pergunta em menu é a pergunta que fornece opções de escolha para o paciente. Por exemplo: \"a dor que o senhor sente é em queimação, em pontada ou em aperto?\".\n- Observe as diferenças entre perguntas abertas e fechadas: https://guiadamonografia.com.br/forma-de-abordagem-qualitativa/exemplo-perguntas-abertas-fechadas/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-20T21:48:44.000Z",
+                    "updated_at": "2021-11-18T10:34:44.000Z",
+                    "files": [
+                        {
+                            "id": 23432,
+                            "file": "ec9ee683-852a-4abc-acbb-89b10e682edb.png",
+                            "name": "exemplo-perguntas-abertas-fechadas.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-18T10:34:09.000Z",
+                            "updated_at": "2021-11-18T10:34:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ec9ee683-852a-4abc-acbb-89b10e682edb.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23432,
+                                "alternative_id": 9059
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9060,
+                    "question_id": 2202,
+                    "description": "Pergunta aberta focada.",
+                    "explanation": "- Falso, Doc! 🙈\n- A pergunta aberta focada deixa o paciente livre para falar. Porém, o assunto é direcionado e determinado pelo médico.\n- Observe as diferenças entre perguntas abertas e fechadas: https://guiadamonografia.com.br/forma-de-abordagem-qualitativa/exemplo-perguntas-abertas-fechadas/",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-20T21:48:44.000Z",
+                    "updated_at": "2021-11-18T10:34:44.000Z",
+                    "files": [
+                        {
+                            "id": 23432,
+                            "file": "ec9ee683-852a-4abc-acbb-89b10e682edb.png",
+                            "name": "exemplo-perguntas-abertas-fechadas.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-18T10:34:09.000Z",
+                            "updated_at": "2021-11-18T10:34:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ec9ee683-852a-4abc-acbb-89b10e682edb.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23432,
+                                "alternative_id": 9060
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9061,
+                    "question_id": 2202,
+                    "description": "Pergunta complexa.",
+                    "explanation": "- Correto! Muito bem! 😜\n- A pergunta complexa envolve a utilização de termos desconhecidos pelo paciente, como os termos \"edema\" e \"dispneia\" utilizados pelo médico nesta entrevista clínica. \n- Essa condição dificulta a interação, prejudicando a relação médico-paciente.\n- Observe as diferenças entre perguntas abertas e fechadas: https://guiadamonografia.com.br/forma-de-abordagem-qualitativa/exemplo-perguntas-abertas-fechadas/",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-20T21:48:44.000Z",
+                    "updated_at": "2021-11-18T10:34:44.000Z",
+                    "files": [
+                        {
+                            "id": 23432,
+                            "file": "ec9ee683-852a-4abc-acbb-89b10e682edb.png",
+                            "name": "exemplo-perguntas-abertas-fechadas.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-18T10:34:09.000Z",
+                            "updated_at": "2021-11-18T10:34:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ec9ee683-852a-4abc-acbb-89b10e682edb.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23432,
+                                "alternative_id": 9061
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9062,
+                    "question_id": 2202,
+                    "description": "Pergunta fechada.",
+                    "explanation": "- Falso, Doc! 🙈\n- A pergunta fechada envolve uma resposta objetiva, como \"sim\" ou \"não\". Por exemplo: \"o senhor sente falta de ar?\".\n- Observe as diferenças entre perguntas abertas e fechadas: https://guiadamonografia.com.br/forma-de-abordagem-qualitativa/exemplo-perguntas-abertas-fechadas/",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-20T21:48:44.000Z",
+                    "updated_at": "2021-11-18T10:34:44.000Z",
+                    "files": [
+                        {
+                            "id": 23432,
+                            "file": "ec9ee683-852a-4abc-acbb-89b10e682edb.png",
+                            "name": "exemplo-perguntas-abertas-fechadas.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-18T10:34:09.000Z",
+                            "updated_at": "2021-11-18T10:34:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ec9ee683-852a-4abc-acbb-89b10e682edb.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23432,
+                                "alternative_id": 9062
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2202,
+                "questionary_id": 261896,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2203,
+            "institution_id": 4,
+            "description": "Na fase de revisão dos sistemas da entrevista médica, as perguntas mais adequadas são as:",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-21T00:55:39.000Z",
+            "updated_at": "2021-11-18T13:35:53.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 236,
+                    "title": "Anamnese",
+                    "description": null,
+                    "parent_id": 97,
+                    "is_enabled": true,
+                    "created_at": "2020-06-21T00:28:45.000Z",
+                    "updated_at": "2020-06-21T00:28:45.000Z",
+                    "pivot": {
+                        "discipline_id": 236,
+                        "question_id": 2203
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 9063,
+                    "question_id": 2203,
+                    "description": "Perguntas abertas.",
+                    "explanation": "- Falso, Doc! 🙈\n- As perguntas abertas normalmente são utilizadas no começo da anamnese. Por exemplo: \"olá, como eu posso lhe ajudar?\".\n- Na revisão de sistemas, o mais adequado é o uso de perguntas fechadas, ou seja, perguntas nas quais a resposta é direta, como \"sim\" ou \"não.\n- Observe as diferenças entre perguntas abertas e fechadas: https://guiadamonografia.com.br/forma-de-abordagem-qualitativa/exemplo-perguntas-abertas-fechadas/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-20T21:55:39.000Z",
+                    "updated_at": "2021-11-18T10:35:53.000Z",
+                    "files": [
+                        {
+                            "id": 23432,
+                            "file": "ec9ee683-852a-4abc-acbb-89b10e682edb.png",
+                            "name": "exemplo-perguntas-abertas-fechadas.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-18T10:34:09.000Z",
+                            "updated_at": "2021-11-18T10:34:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ec9ee683-852a-4abc-acbb-89b10e682edb.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23432,
+                                "alternative_id": 9063
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9064,
+                    "question_id": 2203,
+                    "description": "Perguntas abertas focadas.",
+                    "explanation": "- Falso, Doc! 🙈\n- Perguntas abertas, mesmo que focadas, durante a revisão de sistemas, tendem a desviar a atenção do sintoma principal que trouxe o paciente ao médico, focando a consulta em outros sintomas.\n- Na revisão de sistemas, o mais adequado é o uso de perguntas fechadas, ou seja, perguntas nas quais a resposta é direta, como \"sim\" ou \"não.\n- Observe as diferenças entre perguntas abertas e fechadas: https://guiadamonografia.com.br/forma-de-abordagem-qualitativa/exemplo-perguntas-abertas-fechadas/",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-20T21:55:39.000Z",
+                    "updated_at": "2021-11-18T10:35:53.000Z",
+                    "files": [
+                        {
+                            "id": 23432,
+                            "file": "ec9ee683-852a-4abc-acbb-89b10e682edb.png",
+                            "name": "exemplo-perguntas-abertas-fechadas.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-18T10:34:09.000Z",
+                            "updated_at": "2021-11-18T10:34:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ec9ee683-852a-4abc-acbb-89b10e682edb.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23432,
+                                "alternative_id": 9064
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9065,
+                    "question_id": 2203,
+                    "description": "Perguntas em menu.",
+                    "explanation": "- Falso, Doc! 🙈\n- Perguntas em menu tendem a prolongar a revisão de sistemas, além de restringir a resposta do paciente a poucas opções ofertadas pelo médico.\n- Na revisão de sistemas, o mais adequado é o uso de perguntas fechadas, ou seja, perguntas nas quais a resposta é direta, como \"sim\" ou \"não.\n- Observe as diferenças entre perguntas abertas e fechadas: https://guiadamonografia.com.br/forma-de-abordagem-qualitativa/exemplo-perguntas-abertas-fechadas/",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-20T21:55:39.000Z",
+                    "updated_at": "2021-11-18T10:35:53.000Z",
+                    "files": [
+                        {
+                            "id": 23432,
+                            "file": "ec9ee683-852a-4abc-acbb-89b10e682edb.png",
+                            "name": "exemplo-perguntas-abertas-fechadas.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-18T10:34:09.000Z",
+                            "updated_at": "2021-11-18T10:34:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ec9ee683-852a-4abc-acbb-89b10e682edb.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23432,
+                                "alternative_id": 9065
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9066,
+                    "question_id": 2203,
+                    "description": "Perguntas fechadas.",
+                    "explanation": "- Exatamente! Parabéns! 🎉\n- O objetivo da revisão de aparelhos e sistemas é justamente a revisão rápida dos demais sistemas do organismo, de modo que não se deixe passar nenhum sinal ou sintoma possivelmente relacionado ao quadro. \n- Para esse fim, perguntas fechadas são eficientes e tornam essa fase da entrevista clínica mais dinâmica e objetiva.\n- Observe as diferenças entre perguntas abertas e fechadas: https://guiadamonografia.com.br/forma-de-abordagem-qualitativa/exemplo-perguntas-abertas-fechadas/",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-20T21:55:39.000Z",
+                    "updated_at": "2021-11-18T10:35:53.000Z",
+                    "files": [
+                        {
+                            "id": 23432,
+                            "file": "ec9ee683-852a-4abc-acbb-89b10e682edb.png",
+                            "name": "exemplo-perguntas-abertas-fechadas.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-18T10:34:09.000Z",
+                            "updated_at": "2021-11-18T10:34:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ec9ee683-852a-4abc-acbb-89b10e682edb.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23432,
+                                "alternative_id": 9066
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2203,
+                "questionary_id": 261896,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2213,
+            "institution_id": 4,
+            "description": "A anamnese é a entrevista clínica que estabelece o contato inicial da relação médico-paciente. Sobre a anamnese é **INCORRETO** afirmar:",
+            "difficulty": "easy",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-21T01:00:04.000Z",
+            "updated_at": "2021-11-18T10:42:19.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 236,
+                    "title": "Anamnese",
+                    "description": null,
+                    "parent_id": 97,
+                    "is_enabled": true,
+                    "created_at": "2020-06-21T00:28:45.000Z",
+                    "updated_at": "2020-06-21T00:28:45.000Z",
+                    "pivot": {
+                        "discipline_id": 236,
+                        "question_id": 2213
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 9106,
+                    "question_id": 2213,
+                    "description": "Na anamnese se estabelece a relação médico-paciente. É nela que são investigados sinais, sintomas, antecedentes pessoais, hábitos de vida e condições socioeconômicas e culturais.",
+                    "explanation": "- Essa está correta, Doc! 😉\n- A anamnese é a entrevista clínica, na qual é estabelecido o primeiro contato da relação médico-paciente.\n- Este contato deve evoluir para uma relação que vai interferir continuamente no processo de saúde e de cuidado. \n- Na anamnese são investigados os sinais e os sintomas referidos pelo paciente, os antecedentes relacionados à saúde, hábitos de vida e condições econômicas e psicossociais deste.\n- Imagem: https://pt.slideshare.net/lacmuam/anamnese-12319433",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-21T01:00:04.000Z",
+                    "updated_at": "2021-11-18T10:42:19.000Z",
+                    "files": [
+                        {
+                            "id": 23437,
+                            "file": "1b72fbb5-7044-4fc9-b511-80c46faa9011.png",
+                            "name": "Captura de Tela 2021-11-18 às 07.42.00.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-18T10:42:13.000Z",
+                            "updated_at": "2021-11-18T10:42:13.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1b72fbb5-7044-4fc9-b511-80c46faa9011.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23437,
+                                "alternative_id": 9106
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9107,
+                    "question_id": 2213,
+                    "description": "O interrogatório sintomatológico se constitui no complemento da história da doença atual.",
+                    "explanation": "- Essa está correta, Doc! 😉\n- O interrogatório sintomatológico (ou revisão de sistemas) é uma revisão de todos os aparelhos e sistemas do organismo, visando não deixar passar nenhum sinal ou sintoma possivelmente relacionado à queixa principal e não citado pelo paciente.\n- Imagem: https://slideplayer.com.br/slide/360483/",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-21T01:00:04.000Z",
+                    "updated_at": "2021-11-18T10:42:19.000Z",
+                    "files": [
+                        {
+                            "id": 23436,
+                            "file": "7d83d223-e15e-4fa2-b681-d5f571a480f9.jpeg",
+                            "name": "Anamnese+Revisão+de+Sistemas_.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-18T10:40:24.000Z",
+                            "updated_at": "2021-11-18T10:40:24.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7d83d223-e15e-4fa2-b681-d5f571a480f9.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23436,
+                                "alternative_id": 9107
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9108,
+                    "question_id": 2213,
+                    "description": "O sintoma guia é o sinal ou sintoma que permite recompor a história da doença atual com mais facilidade e precisão.",
+                    "explanation": "- Essa está correta, Doc! 😉\n- O sintoma guia costuma ser a primeira queixa ou a queixa mais relatada pelo paciente. \n- Esse termo se refere a um sinal ou um sintoma que permite recompor a história clínica do paciente de maneira cronológica e dinâmica, sem perder o foco da consulta.\n- Imagem: https://slideplayer.com.br/slide/360483/",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-21T01:00:04.000Z",
+                    "updated_at": "2021-11-18T10:42:19.000Z",
+                    "files": [
+                        {
+                            "id": 23435,
+                            "file": "d1d4b82c-4b6d-48f0-b13e-0c2ee4ffef4f.jpeg",
+                            "name": "Anamnese+História+da+Doença+Atual_.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-18T10:39:48.000Z",
+                            "updated_at": "2021-11-18T10:39:48.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d1d4b82c-4b6d-48f0-b13e-0c2ee4ffef4f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23435,
+                                "alternative_id": 9108
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9109,
+                    "question_id": 2213,
+                    "description": "Os hábitos de vida e a história psicossocial não são questionamentos fundamentais da anamnese, ficando a critério do médico questionar ou não.",
+                    "explanation": "- Acertou, Doc! Essa é a alternativa **errada**! 🎉\n- Os hábitos de vida e a história psicossocial são questionamentos fundamentais, visto que podem fornecer informações importantes para o raciocínio clínico e para o diagnóstico acerca da doença atual. \n- Exemplos claros disso são: o tabagismo, o uso de drogas psicoativas, bebidas alcoólicas em exagero, entre outras condições que estão diretamente relacionadas a comorbidades conhecidas.\n- Imagem: https://slideplayer.com.br/slide/1253673/",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-21T01:00:04.000Z",
+                    "updated_at": "2021-11-18T10:42:19.000Z",
+                    "files": [
+                        {
+                            "id": 23433,
+                            "file": "a5dc8435-5e35-4d9e-bd64-9ae2359506dc.jpeg",
+                            "name": "História+Psicossocial.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-18T10:37:02.000Z",
+                            "updated_at": "2021-11-18T10:37:02.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a5dc8435-5e35-4d9e-bd64-9ae2359506dc.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23433,
+                                "alternative_id": 9109
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2213,
+                "questionary_id": 261896,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9051,
+            "institution_id": 4,
+            "description": "Sobre o exame clínico, assinale a alternativa correta:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-14T21:51:28.000Z",
+            "updated_at": "2021-11-16T18:07:22.000Z",
+            "user_id": 202,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 821,
+                    "title": "Estrutura do exame clínico",
+                    "description": null,
+                    "parent_id": 97,
+                    "is_enabled": true,
+                    "created_at": "2021-06-14T21:40:15.000Z",
+                    "updated_at": "2021-06-14T21:40:15.000Z",
+                    "pivot": {
+                        "discipline_id": 821,
+                        "question_id": 9051
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 37029,
+                    "question_id": 9051,
+                    "description": "No exame clínico, são feitos apenas os exames físicos no paciente, a fim de chegar-se a um diagnóstico ao fim da consulta.",
+                    "explanation": "- Errado, Doc! 🤔\n- No exame clínico, é feita a coleta da história (anamnese) e também os exames físicos, caso necessários.\n- Imagem: https://br.pinterest.com/pin/711850284844476739/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-14T18:51:28.000Z",
+                    "updated_at": "2021-11-16T15:07:22.000Z",
+                    "files": [
+                        {
+                            "id": 23346,
+                            "file": "b8f0f83a-95f7-41a7-beb0-e0141e532726.png",
+                            "name": "dd47605dca6a177df3e434a2ff02d3e7.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-16T15:05:54.000Z",
+                            "updated_at": "2021-11-16T15:05:54.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b8f0f83a-95f7-41a7-beb0-e0141e532726.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23346,
+                                "alternative_id": 37029
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37030,
+                    "question_id": 9051,
+                    "description": "Na coleta da história, pergunta-se apenas sobre a doença atual, a qual motivou a consulta.",
+                    "explanation": "- Errado, Doc! 🤔\n- Além de informações básicas sobre o paciente, como a identificação, é colhida a história da doença atual, a história mórbida pregressa, \na história familiar e a história psicossocial.\n- Observe este exemplo: https://pt.scribd.com/doc/309571962/EXEMPLO-anamnese",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-14T18:51:28.000Z",
+                    "updated_at": "2021-11-16T15:07:22.000Z",
+                    "files": [
+                        {
+                            "id": 23345,
+                            "file": "9374f5c6-289c-4c52-bb20-818981fc8b83.jpeg",
+                            "name": "1633205004.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:57:21.000Z",
+                            "updated_at": "2021-11-16T14:57:21.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9374f5c6-289c-4c52-bb20-818981fc8b83.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23345,
+                                "alternative_id": 37030
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37031,
+                    "question_id": 9051,
+                    "description": "A identificação é importante, pois algumas doenças ocorrem com mais frequência em determinado sexo ou idade, por exemplo, o que pode ajudar a chegar em um diagnóstico.",
+                    "explanation": "- Boa, Doc! Acertou! 😍\n- Na identificação, colhe-se: nome, idade, sexo, cor (raça), estado civil, profissão, local de trabalho, naturalidade, procedência e residência.\n- Em algum grau, todas essas informações podem ajudar a chegar em um diagnóstico.\n- Imagem: https://slideplayer.com.br/slide/3128841/",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-06-14T18:51:28.000Z",
+                    "updated_at": "2021-11-16T15:07:22.000Z",
+                    "files": [
+                        {
+                            "id": 23347,
+                            "file": "33a1bd7f-7bc4-4567-a796-b70b5cd71d57.jpeg",
+                            "name": "Anamnese+-+passos+Identificação_+-+Nome+-+Sexo+-+Idade+-+Raça.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T15:07:13.000Z",
+                            "updated_at": "2021-11-16T15:07:13.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/33a1bd7f-7bc4-4567-a796-b70b5cd71d57.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23347,
+                                "alternative_id": 37031
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37032,
+                    "question_id": 9051,
+                    "description": "Os exames físicos feitos em um exame clínico são apenas gerais.",
+                    "explanation": "- Errado, Doc! 🤔\n- Os exames físicos podem ser tanto gerais quanto segmentares.\n- Imagem: https://br.pinterest.com/pin/711850284844476739/",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-14T18:51:28.000Z",
+                    "updated_at": "2021-11-16T15:07:22.000Z",
+                    "files": [
+                        {
+                            "id": 23346,
+                            "file": "b8f0f83a-95f7-41a7-beb0-e0141e532726.png",
+                            "name": "dd47605dca6a177df3e434a2ff02d3e7.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-16T15:05:54.000Z",
+                            "updated_at": "2021-11-16T15:05:54.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b8f0f83a-95f7-41a7-beb0-e0141e532726.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23346,
+                                "alternative_id": 37032
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9051,
+                "questionary_id": 261896,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9056,
+            "institution_id": 4,
+            "description": "Sobre o relato feito pelo paciente, julgue as sentenças a seguir como sendo V (verdadeiras) ou F (falsas):\n- (   ) Ao anotar a queixa principal, deve-se fazer um resumo detalhado, com sentenças completas, e traduzir para o jargão médico as informações passadas pelo paciente.\n- (   ) Ao anotar a história da doença atual, deve-se utilizar poucas palavras, da forma e na ordem em que o paciente está contando.\n- (   ) A coleta da história mórbida pregressa é quando se pergunta se alguém da família do paciente já morreu pela doença que ele tem no momento.",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-14T19:32:03.000Z",
+            "updated_at": "2021-11-16T14:58:25.000Z",
+            "user_id": 202,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 821,
+                    "title": "Estrutura do exame clínico",
+                    "description": null,
+                    "parent_id": 97,
+                    "is_enabled": true,
+                    "created_at": "2021-06-14T21:40:15.000Z",
+                    "updated_at": "2021-06-14T21:40:15.000Z",
+                    "pivot": {
+                        "discipline_id": 821,
+                        "question_id": 9056
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 37048,
+                    "question_id": 9056,
+                    "description": "V - V - F",
+                    "explanation": "- Errado, Doc! 🤔\n- **F-** A anotação da queixa principal deve ser feita em poucas palavras, sem usar sentenças completas e, de preferência, utilizando os termos relatados pelo paciente e não jargões médicos.\n- **F-** A anotação da história da doença atual deve ser feita em frases completas, mas de maneira sucinta, de forma que a leitura seja fácil.\n- **F-** Na história mórbida pregressa, pergunta-se sobre os antecedentes fisiológicos e patológicos do paciente, como, por exemplo, doenças que ele já teve e se curou ou alergias.\n- Observe neste exemplo: https://pt.scribd.com/doc/309571962/EXEMPLO-anamnese",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-14T19:32:03.000Z",
+                    "updated_at": "2021-11-16T14:58:25.000Z",
+                    "files": [
+                        {
+                            "id": 23345,
+                            "file": "9374f5c6-289c-4c52-bb20-818981fc8b83.jpeg",
+                            "name": "1633205004.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:57:21.000Z",
+                            "updated_at": "2021-11-16T14:57:21.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9374f5c6-289c-4c52-bb20-818981fc8b83.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23345,
+                                "alternative_id": 37048
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37049,
+                    "question_id": 9056,
+                    "description": "F - F - F",
+                    "explanation": "- Boa, Doc! Acertou! 😍\n- **F-** A anotação da queixa principal deve ser feita em poucas palavras, sem usar sentenças completas e, de preferência, utilizando os termos relatados pelo paciente e não jargões médicos.\n- **F-** A anotação da história da doença atual deve ser feita em frases completas, mas de maneira sucinta, de forma que a leitura seja fácil.\n- **F-** Na história mórbida pregressa, pergunta-se sobre os antecedentes fisiológicos e patológicos do paciente, como, por exemplo, doenças que ele já teve e se curou ou alergias.\n- Observe neste exemplo: https://pt.scribd.com/doc/309571962/EXEMPLO-anamnese",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-06-14T19:32:03.000Z",
+                    "updated_at": "2021-11-16T14:58:25.000Z",
+                    "files": [
+                        {
+                            "id": 23345,
+                            "file": "9374f5c6-289c-4c52-bb20-818981fc8b83.jpeg",
+                            "name": "1633205004.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:57:21.000Z",
+                            "updated_at": "2021-11-16T14:57:21.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9374f5c6-289c-4c52-bb20-818981fc8b83.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23345,
+                                "alternative_id": 37049
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37050,
+                    "question_id": 9056,
+                    "description": "F - V - F",
+                    "explanation": "- Errado, Doc! 🤔\n- **F-** A anotação da queixa principal deve ser feita em poucas palavras, sem usar sentenças completas e, de preferência, utilizando os termos relatados pelo paciente e não jargões médicos.\n- **F-** A anotação da história da doença atual deve ser feita em frases completas, mas de maneira sucinta, de forma que a leitura seja fácil.\n- **F-** Na história mórbida pregressa, pergunta-se sobre os antecedentes fisiológicos e patológicos do paciente, como, por exemplo, doenças que ele já teve e se curou ou alergias.\n- Observe neste exemplo: https://pt.scribd.com/doc/309571962/EXEMPLO-anamnese",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-14T19:32:03.000Z",
+                    "updated_at": "2021-11-16T14:58:25.000Z",
+                    "files": [
+                        {
+                            "id": 23345,
+                            "file": "9374f5c6-289c-4c52-bb20-818981fc8b83.jpeg",
+                            "name": "1633205004.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:57:21.000Z",
+                            "updated_at": "2021-11-16T14:57:21.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9374f5c6-289c-4c52-bb20-818981fc8b83.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23345,
+                                "alternative_id": 37050
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37051,
+                    "question_id": 9056,
+                    "description": "V - F - V",
+                    "explanation": "- Errado, Doc! 🤔\n- **F-** A anotação da queixa principal deve ser feita em poucas palavras, sem usar sentenças completas e, de preferência, utilizando os termos relatados pelo paciente e não jargões médicos.\n- **F-** A anotação da história da doença atual deve ser feita em frases completas, mas de maneira sucinta, de forma que a leitura seja fácil.\n- **F-** Na história mórbida pregressa, pergunta-se sobre os antecedentes fisiológicos e patológicos do paciente, como, por exemplo, doenças que ele já teve e se curou ou alergias.\n- Observe neste exemplo: https://pt.scribd.com/doc/309571962/EXEMPLO-anamnese",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-14T19:32:03.000Z",
+                    "updated_at": "2021-11-16T14:58:26.000Z",
+                    "files": [
+                        {
+                            "id": 23345,
+                            "file": "9374f5c6-289c-4c52-bb20-818981fc8b83.jpeg",
+                            "name": "1633205004.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:57:21.000Z",
+                            "updated_at": "2021-11-16T14:57:21.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9374f5c6-289c-4c52-bb20-818981fc8b83.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23345,
+                                "alternative_id": 37051
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9056,
+                "questionary_id": 261896,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9057,
+            "institution_id": 4,
+            "description": "Sobre as histórias colhidas no exame clínico, assinale a alternativa **INCORRETA**:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-14T22:44:57.000Z",
+            "updated_at": "2021-11-16T17:53:56.000Z",
+            "user_id": 202,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 821,
+                    "title": "Estrutura do exame clínico",
+                    "description": null,
+                    "parent_id": 97,
+                    "is_enabled": true,
+                    "created_at": "2021-06-14T21:40:15.000Z",
+                    "updated_at": "2021-06-14T21:40:15.000Z",
+                    "pivot": {
+                        "discipline_id": 821,
+                        "question_id": 9057
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 37052,
+                    "question_id": 9057,
+                    "description": "A História da Doença Atual (HDA) é o \"coração\" da história diagnóstica, devendo ser escrita em uma narrativa lúcida, sucinta e cronológica. Idealmente, deve ser breve, permitindo a leitura fácil.",
+                    "explanation": "- Essa está correta, Doc! 🙈\n- A História da Doença Atual (HDA) é o \"coração\" da história diagnóstica, devendo ser escrita em uma narrativa lúcida, sucinta e cronológica. Idealmente, deve ser breve, permitindo a leitura fácil.\n- Na coleta da HDA, deve-se encorajar o paciente a dar mais detalhes e a que ele faça um relato cronológico.\n- Imagem: https://slideplayer.com.br/slide/360483/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-14T19:44:57.000Z",
+                    "updated_at": "2021-11-16T14:53:56.000Z",
+                    "files": [
+                        {
+                            "id": 23344,
+                            "file": "effae833-71d2-4670-8ad4-92a3644dc616.jpeg",
+                            "name": "Anamnese+História+da+Doença+Atual_.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:53:45.000Z",
+                            "updated_at": "2021-11-16T14:53:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/effae833-71d2-4670-8ad4-92a3644dc616.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23344,
+                                "alternative_id": 37052
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37053,
+                    "question_id": 9057,
+                    "description": "Na História Mórbida Pregressa (HMP) o paciente é questionado sobre as causas de morte dos seus parentes próximos, como pais e avós.",
+                    "explanation": "- Boa, Doc! Essa é a sentença **incorreta**! 😎\n- Na HMP, o paciente é questionado acerca dos seus antecedentes fisiológicos e patológicos.\n- A importância dos eventos varia com a situação.\n- Imagem: https://slidetodoc.com/anamnese-isdashmphmfhcv-elementos-componentes-da-anamnese-identificao-queixa/",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-06-14T19:44:57.000Z",
+                    "updated_at": "2021-11-16T14:53:56.000Z",
+                    "files": [
+                        {
+                            "id": 23343,
+                            "file": "01747d55-5161-4e89-b86f-154cbb3b6be2.jpeg",
+                            "name": "image-20.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:52:39.000Z",
+                            "updated_at": "2021-11-16T14:52:39.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/01747d55-5161-4e89-b86f-154cbb3b6be2.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23343,
+                                "alternative_id": 37053
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37054,
+                    "question_id": 9057,
+                    "description": "Na coleta da História Familiar, o paciente é questionado sobre o estado de saúde de 3 gerações de familiares: pais, irmãos e filhos, por exemplo. Pode-se adicionar também dados sobre o/a cônjuge.",
+                    "explanation": "- Essa está correta, Doc! 🙈\n- Na coleta da História Familiar, o paciente é questionado sobre o estado de saúde de 3 gerações de familiares: pais, irmãos e filhos, por exemplo. Pode-se adicionar também dados sobre o/a cônjuge.\n- Caso o paciente ainda não tenha filhos, pode-se perguntar sobre seus avós, por exemplo.\n- Dentre as doenças crônicas investigadas e mais significantes para a saúde pública têm-se: doenças cardiovasculares, diabetes, cânceres, osteoporose e asma.\n- Imagem: https://slideplayer.com.br/slide/360483/",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-14T19:44:57.000Z",
+                    "updated_at": "2021-11-16T14:53:56.000Z",
+                    "files": [
+                        {
+                            "id": 23342,
+                            "file": "d1893ce4-194e-413d-930f-28cc32d48ae7.jpeg",
+                            "name": "Anamnese+História+Familiar_.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:51:51.000Z",
+                            "updated_at": "2021-11-16T14:51:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d1893ce4-194e-413d-930f-28cc32d48ae7.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23342,
+                                "alternative_id": 37054
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37055,
+                    "question_id": 9057,
+                    "description": "Na História Psicossocial, são colhidos dados gerais sobre o estilo de vida do paciente, como alimentação, habitação e vícios.",
+                    "explanation": "- Essa está correta, Doc! 🙈\n- Na História Psicossocial, são colhidos dados gerais sobre o estilo de vida do paciente, como alimentação, habitação e vícios.\n- Além desses dados, pergunta-se sobre: ocupação atual e anteriores, condições socioeconômicas, condições culturais, escolaridade, vida religiosa, vida conjugal, animais de estimação e viagens recentes. \n- Imagem: https://slideplayer.com.br/slide/1253673/",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-14T19:44:57.000Z",
+                    "updated_at": "2021-11-16T14:53:56.000Z",
+                    "files": [
+                        {
+                            "id": 23341,
+                            "file": "1bb6a10d-1879-4908-8c41-ec41c3358c28.jpeg",
+                            "name": "História+Psicossocial.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:51:13.000Z",
+                            "updated_at": "2021-11-16T14:51:13.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1bb6a10d-1879-4908-8c41-ec41c3358c28.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23341,
+                                "alternative_id": 37055
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9057,
+                "questionary_id": 261896,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9207,
+            "institution_id": 4,
+            "description": "O primeiro passo de um exame clínico é realizar a identificação do paciente. Sobre o processo de identificação, assinale a alternativa correta:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-17T23:42:49.000Z",
+            "updated_at": "2021-11-16T18:10:21.000Z",
+            "user_id": 184,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 821,
+                    "title": "Estrutura do exame clínico",
+                    "description": null,
+                    "parent_id": 97,
+                    "is_enabled": true,
+                    "created_at": "2021-06-14T21:40:15.000Z",
+                    "updated_at": "2021-06-14T21:40:15.000Z",
+                    "pivot": {
+                        "discipline_id": 821,
+                        "question_id": 9207
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 37663,
+                    "question_id": 9207,
+                    "description": "Deve-se identificar e se referir ao paciente sempre pelo número do leito, pelo prontuário ou pelo diagnóstico e não pelo nome.",
+                    "explanation": "- Falso, Doc! 😣\n- A identificação é feita pelo nome completo do paciente, sem abreviações.\n- Não se deve designar o paciente pelo número do leito, do prontuário ou pelo diagnóstico, pois isso pode prejudicar severamente a relação médico-paciente.\n- Imagem: https://slideplayer.com.br/slide/3128841/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-17T20:42:49.000Z",
+                    "updated_at": "2021-11-16T15:10:21.000Z",
+                    "files": [
+                        {
+                            "id": 23347,
+                            "file": "33a1bd7f-7bc4-4567-a796-b70b5cd71d57.jpeg",
+                            "name": "Anamnese+-+passos+Identificação_+-+Nome+-+Sexo+-+Idade+-+Raça.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T15:07:13.000Z",
+                            "updated_at": "2021-11-16T15:07:13.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/33a1bd7f-7bc4-4567-a796-b70b5cd71d57.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23347,
+                                "alternative_id": 37663
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37664,
+                    "question_id": 9207,
+                    "description": "A idade do paciente é identificada por razão de mera formalidade, não possuindo relevância para o exame clínico.",
+                    "explanation": "- Falso, Doc! 😣\n- Muitas doenças atingem faixas etárias específicas. \n- Por exemplo: existem doenças próprias da infância; infarto agudo de miocárdio apresenta incidência muito maior em pacientes com mais de 40 anos; entre outras condições.\n- Determinar a idade do paciente é de fundamental importância para o correto diagnóstico.\n- Imagem: https://slideplayer.com.br/slide/3128841/",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-17T20:42:49.000Z",
+                    "updated_at": "2021-11-16T15:10:21.000Z",
+                    "files": [
+                        {
+                            "id": 23347,
+                            "file": "33a1bd7f-7bc4-4567-a796-b70b5cd71d57.jpeg",
+                            "name": "Anamnese+-+passos+Identificação_+-+Nome+-+Sexo+-+Idade+-+Raça.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T15:07:13.000Z",
+                            "updated_at": "2021-11-16T15:07:13.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/33a1bd7f-7bc4-4567-a796-b70b5cd71d57.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23347,
+                                "alternative_id": 37664
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37665,
+                    "question_id": 9207,
+                    "description": "Identificar o local de trabalho do paciente, procedência e residência são de fundamental importância para o exame clínico, visando o diagnóstico correto.",
+                    "explanation": "- Perfeito! Muito bem! 😍\n- Questões como estado civil, profissão, local de trabalho, procedência, naturalidade e residência do paciente podem fornecer dados epidemiológicos para doenças infecto-parasitárias e endêmicas e determinar as condições socioeconômicas do paciente, sendo de fundamental importância para o correto diagnóstico.\n- Imagem: https://slideplayer.com.br/slide/3128841/",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-06-17T20:42:49.000Z",
+                    "updated_at": "2021-11-16T15:10:21.000Z",
+                    "files": [
+                        {
+                            "id": 23347,
+                            "file": "33a1bd7f-7bc4-4567-a796-b70b5cd71d57.jpeg",
+                            "name": "Anamnese+-+passos+Identificação_+-+Nome+-+Sexo+-+Idade+-+Raça.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T15:07:13.000Z",
+                            "updated_at": "2021-11-16T15:07:13.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/33a1bd7f-7bc4-4567-a796-b70b5cd71d57.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23347,
+                                "alternative_id": 37665
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37666,
+                    "question_id": 9207,
+                    "description": "Questões como gênero e cor são muito delicadas de se perguntar ao paciente, devendo ser omitidas no processo de identificação.",
+                    "explanation": "- Falso, Doc! 😣\n- Determinadas enfermidades só ocorrem em um sexo específico ou apresentam incidência relevantemente maior.\n- Da mesma forma, algumas enfermidades são mais prevalentes e incidentes em populações de determinada cor.\n- Por isso, para um diagnóstico correto, é essencial determinar o gênero e a cor do paciente.\n- Imagem: https://slideplayer.com.br/slide/3128841/",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-17T20:42:49.000Z",
+                    "updated_at": "2021-11-16T15:10:21.000Z",
+                    "files": [
+                        {
+                            "id": 23347,
+                            "file": "33a1bd7f-7bc4-4567-a796-b70b5cd71d57.jpeg",
+                            "name": "Anamnese+-+passos+Identificação_+-+Nome+-+Sexo+-+Idade+-+Raça.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T15:07:13.000Z",
+                            "updated_at": "2021-11-16T15:07:13.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/33a1bd7f-7bc4-4567-a796-b70b5cd71d57.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23347,
+                                "alternative_id": 37666
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9207,
+                "questionary_id": 261896,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9209,
+            "institution_id": 4,
+            "description": "Em um exame clínico, a coleta dos sintomas é imprescindível para o correto diagnóstico. Sobre ela, assinale a alternativa correta:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-18T00:18:49.000Z",
+            "updated_at": "2021-11-16T18:17:03.000Z",
+            "user_id": 184,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 821,
+                    "title": "Estrutura do exame clínico",
+                    "description": null,
+                    "parent_id": 97,
+                    "is_enabled": true,
+                    "created_at": "2021-06-14T21:40:15.000Z",
+                    "updated_at": "2021-06-14T21:40:15.000Z",
+                    "pivot": {
+                        "discipline_id": 821,
+                        "question_id": 9209
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 37671,
+                    "question_id": 9209,
+                    "description": "Se a informação proveniente do paciente soar estranha ou incoerente, deve-se ignorá-la.",
+                    "explanation": "- Errado, Doc! 🤔\n- Toda informação coletada no exame clínico é válida e pode ser essencial! \n- Em casos de suspeita de incoerência na fala do paciente, pode-se utilizar a palavra \"Sic\", que indica que o que foi escrito é o que foi propriamente dito pelo paciente.\n- Imagem: https://slideplayer.com.br/slide/7384131/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-17T21:18:50.000Z",
+                    "updated_at": "2021-11-16T15:17:03.000Z",
+                    "files": [
+                        {
+                            "id": 23340,
+                            "file": "375b72af-a6c3-417a-93f8-bc6dbe1ca26c.jpeg",
+                            "name": "Uso+do+termo+SIC+Sic+é+um+termo+da+língua+latina+cuja+tradução+literal+é+assim+(Sic+et+simpliciter).jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:45:50.000Z",
+                            "updated_at": "2021-11-16T14:45:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/375b72af-a6c3-417a-93f8-bc6dbe1ca26c.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23340,
+                                "alternative_id": 37671
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37672,
+                    "question_id": 9209,
+                    "description": "De maneira resumida e didática, deve-se identificar fatores provocativos, qualidade, região, severidade e temporalidade dos sintomas.",
+                    "explanation": "- Perfeito! Isso mesmo! 😎\n- De acordo com DeGowin, pode-se utilizar a regra PQRST na hora de coletar os sintomas:\n- P (provocativo) - fatores de agravo e de melhora dos sintomas.\n- Q (qualidade) -características dos sintomas.\n- R (região) - localização dos sintomas.\n- S (severidade) - gravidade dos sintomas.\n- T (temporalidade) - duração, evolução cronológica e variação diária dos sintomas.\n- Imagem: https://slideplayer.com.br/slide/360483/",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-06-17T21:18:50.000Z",
+                    "updated_at": "2021-11-16T15:17:03.000Z",
+                    "files": [
+                        {
+                            "id": 23344,
+                            "file": "effae833-71d2-4670-8ad4-92a3644dc616.jpeg",
+                            "name": "Anamnese+História+da+Doença+Atual_.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:53:45.000Z",
+                            "updated_at": "2021-11-16T14:53:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/effae833-71d2-4670-8ad4-92a3644dc616.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23344,
+                                "alternative_id": 37672
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37673,
+                    "question_id": 9209,
+                    "description": "Se o paciente não apresentar os sintomas durante a consulta, não há necessidade de continuar o exame clínico, pois a doença provavelmente já foi curada.",
+                    "explanation": "- Errado, Doc! 🤔\n- Existem diversos tipos diferentes de sintomas e de manifestação de sintomas.\n- Se durante a consulta os sintomas não se manifestam, não quer dizer que a doença foi curada.\n- Deve-se buscar características do sintoma, como localização, qualidade, intensidade, frequência, evolução cronológica, entre outras, e formular o diagnóstico.\n- Imagem: https://slideplayer.com.br/slide/360483/",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-17T21:18:50.000Z",
+                    "updated_at": "2021-11-16T15:17:03.000Z",
+                    "files": [
+                        {
+                            "id": 23344,
+                            "file": "effae833-71d2-4670-8ad4-92a3644dc616.jpeg",
+                            "name": "Anamnese+História+da+Doença+Atual_.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:53:45.000Z",
+                            "updated_at": "2021-11-16T14:53:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/effae833-71d2-4670-8ad4-92a3644dc616.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23344,
+                                "alternative_id": 37673
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37674,
+                    "question_id": 9209,
+                    "description": "Determinar o início e a duração dos sintomas é útil apenas em caso de doenças transmissíveis, para evitar o contágio.",
+                    "explanation": "- Errado, Doc! 🤔\n- Durante a anamnese, deve-se determinar informações relacionadas ao início dos sintomas, como a época/data de iniciação, o modo de ínicio (gradativo ou súbito) e fatores desencadeantes.\n- A duração dos sintomas também precisa ser identificada.\n- Estas informações não são úteis apenas em casos de doenças transmissíveis. \n- Sabendo-se a respeito do início e duração dos sintomas, o diagnóstico de muitas doenças de caráter não-transmissível também pode ser facilitado.\n- Imagem: https://slideplayer.com.br/slide/360483/",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-17T21:18:50.000Z",
+                    "updated_at": "2021-11-16T15:17:03.000Z",
+                    "files": [
+                        {
+                            "id": 23344,
+                            "file": "effae833-71d2-4670-8ad4-92a3644dc616.jpeg",
+                            "name": "Anamnese+História+da+Doença+Atual_.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:53:45.000Z",
+                            "updated_at": "2021-11-16T14:53:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/effae833-71d2-4670-8ad4-92a3644dc616.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23344,
+                                "alternative_id": 37674
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9209,
+                "questionary_id": 261896,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9213,
+            "institution_id": 4,
+            "description": "Assinale a ordem teoricamente correta a ser realizada em um exame clínico:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-17T21:50:05.000Z",
+            "updated_at": "2021-11-16T15:24:42.000Z",
+            "user_id": 184,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 821,
+                    "title": "Estrutura do exame clínico",
+                    "description": null,
+                    "parent_id": 97,
+                    "is_enabled": true,
+                    "created_at": "2021-06-14T21:40:15.000Z",
+                    "updated_at": "2021-06-14T21:40:15.000Z",
+                    "pivot": {
+                        "discipline_id": 821,
+                        "question_id": 9213
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 37687,
+                    "question_id": 9213,
+                    "description": "Identificação, história da doença atual, queixa principal, revisão de sistemas, história mórbida pregressa, história familial, história psicossocial e exame físico.",
+                    "explanation": "- Errado! Quase, Doc! 😌\n- Teoricamente, em um exame clínico, deve-se seguir a ordem:\n- 1- Identificação do paciente.\n- **2- Queixa principal.**\n- **3- História da doença atual.**\n- 4- Revisão de sistemas.\n- 5- História mórbida pregressa.\n- 6- História familial.\n- 7- História psicossocial.\n- 8- Exame físico.\n- Imagem: https://pt.slideshare.net/lacmuam/anamnese-12319433",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-17T21:50:05.000Z",
+                    "updated_at": "2021-11-16T15:24:42.000Z",
+                    "files": [
+                        {
+                            "id": 23348,
+                            "file": "7cc7af3c-165e-41fd-b6fe-7feafd380e7d.png",
+                            "name": "Captura de Tela 2021-11-16 às 12.23.46.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-16T15:24:00.000Z",
+                            "updated_at": "2021-11-16T15:24:00.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7cc7af3c-165e-41fd-b6fe-7feafd380e7d.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23348,
+                                "alternative_id": 37687
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37688,
+                    "question_id": 9213,
+                    "description": "Identificação, queixa principal, história da doença atual, história mórbida pregressa, história familial, história psicossocial, revisão de sistemas e exame físico.",
+                    "explanation": "- Errado! Quase, Doc! 😌\n- Teoricamente, em um exame clínico, deve-se seguir a ordem:\n- 1- Identificação do paciente.\n- 2- Queixa principal.\n- 3- História da doença atual.\n- **4- Revisão de sistemas.**\n- 5- História mórbida pregressa.\n- 6- História familial.\n- 7- História psicossocial.\n- 8- Exame físico.\n- Imagem: https://pt.slideshare.net/lacmuam/anamnese-12319433",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-17T21:50:05.000Z",
+                    "updated_at": "2021-11-16T15:24:42.000Z",
+                    "files": [
+                        {
+                            "id": 23348,
+                            "file": "7cc7af3c-165e-41fd-b6fe-7feafd380e7d.png",
+                            "name": "Captura de Tela 2021-11-16 às 12.23.46.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-16T15:24:00.000Z",
+                            "updated_at": "2021-11-16T15:24:00.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7cc7af3c-165e-41fd-b6fe-7feafd380e7d.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23348,
+                                "alternative_id": 37688
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37689,
+                    "question_id": 9213,
+                    "description": "Identificação, queixa principal, história da doença atual, revisão de sistemas, história mórbida pregressa e exame físico.",
+                    "explanation": "- Errado! Quase, Doc! 😌\n- Teoricamente, em um exame clínico, deve-se seguir a ordem:\n- 1- Identificação do paciente.\n- 2- Queixa principal.\n- 3- História da doença atual.\n- 4- Revisão de sistemas.\n- 5- História mórbida pregressa.\n- **6- História familial.**\n- **7- História psicossocial.**\n- 8- Exame físico.\n- Imagem: https://pt.slideshare.net/lacmuam/anamnese-12319433",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-17T21:50:05.000Z",
+                    "updated_at": "2021-11-16T15:24:42.000Z",
+                    "files": [
+                        {
+                            "id": 23348,
+                            "file": "7cc7af3c-165e-41fd-b6fe-7feafd380e7d.png",
+                            "name": "Captura de Tela 2021-11-16 às 12.23.46.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-16T15:24:00.000Z",
+                            "updated_at": "2021-11-16T15:24:00.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7cc7af3c-165e-41fd-b6fe-7feafd380e7d.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23348,
+                                "alternative_id": 37689
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37690,
+                    "question_id": 9213,
+                    "description": "Identificação, queixa principal, história da doença atual, revisão de sistemas, história mórbida pregressa, história familial, história psicossocial e exame físico.",
+                    "explanation": "- Perfeito! Arrasou, Doc! 🤗\n- Teoricamente, em um exame clínico, deve-se seguir a ordem:\n- 1- Identificação do paciente.\n- 2- Queixa principal.\n- 3- História da doença atual.\n- 4- Revisão de sistemas.\n- 5- História mórbida pregressa.\n- 6- História familial.\n- 7- História psicossocial.\n- 8- Exame físico.\n- Imagem: https://pt.slideshare.net/lacmuam/anamnese-12319433",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-06-17T21:50:05.000Z",
+                    "updated_at": "2021-11-16T15:24:42.000Z",
+                    "files": [
+                        {
+                            "id": 23348,
+                            "file": "7cc7af3c-165e-41fd-b6fe-7feafd380e7d.png",
+                            "name": "Captura de Tela 2021-11-16 às 12.23.46.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-16T15:24:00.000Z",
+                            "updated_at": "2021-11-16T15:24:00.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7cc7af3c-165e-41fd-b6fe-7feafd380e7d.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23348,
+                                "alternative_id": 37690
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9213,
+                "questionary_id": 261896,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2204,
+            "institution_id": 4,
+            "description": "Sobre os aspectos da anamnese na semiologia pulmonar, assinale a alternativa **INCORRETA**:",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-20T22:21:32.000Z",
+            "updated_at": "2021-11-18T10:38:32.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 236,
+                    "title": "Anamnese",
+                    "description": null,
+                    "parent_id": 97,
+                    "is_enabled": true,
+                    "created_at": "2020-06-21T00:28:45.000Z",
+                    "updated_at": "2020-06-21T00:28:45.000Z",
+                    "pivot": {
+                        "discipline_id": 236,
+                        "question_id": 2204
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 9067,
+                    "question_id": 2204,
+                    "description": "A importância de se questionar sobre a ocupação atual e as anteriores reside em analisar a quais materiais o paciente pode ter sido exposto, a fim de investigar ou descartar colagenoses.",
+                    "explanation": "- Perfeito, Doc! Essa é a **incorreta**. 😍\n- A importância do questionamento sobre a ocupação atual e as ocupações anteriores do paciente reside em analisar com quais materiais o paciente teve contato e que ambientes o paciente frequentou durante sua vida ocupacional.\n- Com essas informações, pode-se investigar ou descartar **doenças pulmonares ocupacionais**, como, por exemplo, a Silicose.\n- Imagem: https://slideplayer.com.br/slide/1253673/",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-20T22:21:32.000Z",
+                    "updated_at": "2021-11-18T10:38:32.000Z",
+                    "files": [
+                        {
+                            "id": 23433,
+                            "file": "a5dc8435-5e35-4d9e-bd64-9ae2359506dc.jpeg",
+                            "name": "História+Psicossocial.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-18T10:37:02.000Z",
+                            "updated_at": "2021-11-18T10:37:02.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a5dc8435-5e35-4d9e-bd64-9ae2359506dc.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23433,
+                                "alternative_id": 9067
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9068,
+                    "question_id": 2204,
+                    "description": "A história mórbida pregressa pode auxiliar no raciocínio clínico. Por exemplo, infecções pulmonares graves na infância podem, no futuro, reduzir as reservas respiratórias em razão da proliferação do tecido cicatricial (fibrose pulmonar).",
+                    "explanation": "- Essa está correta, Doc! 😉\n- A história mórbida pregressa é fundamental na investigação da doença atual.\n- Isso porque uma série de acometimentos relacionados à saúde que ocorreram no passado refletem diretamente na condição de saúde do paciente atualmente. \n- A fibrose pulmonar é um dos exemplos.\n- Imagem: https://slidetodoc.com/anamnese-isdashmphmfhcv-elementos-componentes-da-anamnese-identificao-queixa/",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-20T22:21:32.000Z",
+                    "updated_at": "2021-11-18T10:38:32.000Z",
+                    "files": [
+                        {
+                            "id": 23434,
+                            "file": "1349ca2c-4036-4e1a-a670-c85b327afbc8.jpeg",
+                            "name": "image-20.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-18T10:37:47.000Z",
+                            "updated_at": "2021-11-18T10:37:47.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1349ca2c-4036-4e1a-a670-c85b327afbc8.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23434,
+                                "alternative_id": 9068
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9069,
+                    "question_id": 2204,
+                    "description": "Se o paciente for tabagista, deve se indagar quantos cigarros ele fuma por dia, quando iniciou o hábito, se já interrompeu o uso e quanto tempo parou. O tabagismo apresenta relação direta com DPOC, asma e carcinoma brônquico.",
+                    "explanation": "- Essa está correta, Doc! 😉\n- O tabagismo é um dos principais fatores de risco para uma série de doenças, incluindo doenças pulmonares e neoplasias. \n- No que tange às doenças pulmonares, a carga tabágica possui influencia direta em pacientes com DPOC, sobretudo em pacientes enfisematosos.\n- Imagem: https://slideplayer.com.br/slide/1253673/",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-20T22:21:32.000Z",
+                    "updated_at": "2021-11-18T10:38:32.000Z",
+                    "files": [
+                        {
+                            "id": 23433,
+                            "file": "a5dc8435-5e35-4d9e-bd64-9ae2359506dc.jpeg",
+                            "name": "História+Psicossocial.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-18T10:37:02.000Z",
+                            "updated_at": "2021-11-18T10:37:02.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a5dc8435-5e35-4d9e-bd64-9ae2359506dc.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23433,
+                                "alternative_id": 9069
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9070,
+                    "question_id": 2204,
+                    "description": "É importante questionar os medicamentos em uso, pois o uso de corticoides, imunossupressores e antibióticos em doses elevadas levantam a suspeita de doenças causadas por agentes oportunistas.",
+                    "explanation": "- Essa está correta, Doc! 😉\n- O uso de medicamentos que interferem na imunidade, como corticoides e imunosupressores, bem como de medicamentos que alteram a microbiota fisiológica do organismo, como antibióticos, podem predispor a infecção por agentes oportunistas. \n- Tendo isso em vista, o questionamento acerca do uso desses medicamentos é fundamental para o raciocínio clínico e diagnóstico.\n- Imagem: https://slidetodoc.com/anamnese-isdashmphmfhcv-elementos-componentes-da-anamnese-identificao-queixa/",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-20T22:21:32.000Z",
+                    "updated_at": "2021-11-18T10:38:32.000Z",
+                    "files": [
+                        {
+                            "id": 23434,
+                            "file": "1349ca2c-4036-4e1a-a670-c85b327afbc8.jpeg",
+                            "name": "image-20.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-18T10:37:47.000Z",
+                            "updated_at": "2021-11-18T10:37:47.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1349ca2c-4036-4e1a-a670-c85b327afbc8.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23434,
+                                "alternative_id": 9070
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2204,
+                "questionary_id": 261896,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9054,
+            "institution_id": 4,
+            "description": "Sobre os sintomas, avalie as sentenças abaixo como sendo V (verdadeiras) ou F (falsas):\n- (   ) Sintoma-guia é o sinal ou sintoma que permite recompor com mais facilidade a história da doença atual, sendo, geralmente, o sintoma mais destacado pelo paciente.\n- (   ) Deve-se evitar fazer perguntas diretas sobre os sintomas, a fim de deixar o paciente mais confortável.\n- (   ) Na investigação sobre os sintomas, deve-se abordar os seguintes eixos: provocativos e paliativos, a qualidade, a região, a severidade e a temporalidade.",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-14T22:07:00.000Z",
+            "updated_at": "2021-11-16T18:02:05.000Z",
+            "user_id": 202,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 821,
+                    "title": "Estrutura do exame clínico",
+                    "description": null,
+                    "parent_id": 97,
+                    "is_enabled": true,
+                    "created_at": "2021-06-14T21:40:15.000Z",
+                    "updated_at": "2021-06-14T21:40:15.000Z",
+                    "pivot": {
+                        "discipline_id": 821,
+                        "question_id": 9054
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 37040,
+                    "question_id": 9054,
+                    "description": "V - F - V",
+                    "explanation": "- Boa, Doc! Acertou! 😍\n- **V-** Não há uma regra fixa para estabelecer-se o sintoma-guia, mas, como orientação geral, ele é aquele de maior duração ou mais salientado pelo paciente.\n- **F-** Perguntas diretas devem ser feitas para obter maiores detalhes sobre os sintomas relatados pelo paciente.\n- **V-** Essas são as perguntas diretas que devem ser feitas, caso o relato do paciente não supra todas elas. Atente-se que elas formam um mnemônico, Doc: PQRST.\n- Imagem: https://slideplayer.com.br/slide/360483/",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-06-14T19:07:00.000Z",
+                    "updated_at": "2021-11-16T15:02:05.000Z",
+                    "files": [
+                        {
+                            "id": 23344,
+                            "file": "effae833-71d2-4670-8ad4-92a3644dc616.jpeg",
+                            "name": "Anamnese+História+da+Doença+Atual_.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:53:45.000Z",
+                            "updated_at": "2021-11-16T14:53:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/effae833-71d2-4670-8ad4-92a3644dc616.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23344,
+                                "alternative_id": 37040
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37041,
+                    "question_id": 9054,
+                    "description": "V - V - V",
+                    "explanation": "- Errado, Doc! 🤔\n- **V-** Não há uma regra fixa para estabelecer-se o sintoma-guia, mas, como orientação geral, ele é aquele de maior duração ou mais salientado pelo paciente.\n- **F-** Perguntas diretas devem ser feitas para obter maiores detalhes sobre os sintomas relatados pelo paciente.\n- **V-** Essas são as perguntas diretas que devem ser feitas, caso o relato do paciente não supra todas elas. Atente-se que elas formam um mnemônico, Doc: PQRST.\n- Imagem: https://slideplayer.com.br/slide/360483/",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-14T19:07:00.000Z",
+                    "updated_at": "2021-11-16T15:02:05.000Z",
+                    "files": [
+                        {
+                            "id": 23344,
+                            "file": "effae833-71d2-4670-8ad4-92a3644dc616.jpeg",
+                            "name": "Anamnese+História+da+Doença+Atual_.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:53:45.000Z",
+                            "updated_at": "2021-11-16T14:53:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/effae833-71d2-4670-8ad4-92a3644dc616.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23344,
+                                "alternative_id": 37041
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37042,
+                    "question_id": 9054,
+                    "description": "V - F - F",
+                    "explanation": "- Errado, Doc! 🤔\n- **V-** Não há uma regra fixa para estabelecer-se o sintoma-guia, mas, como orientação geral, ele é aquele de maior duração ou mais salientado pelo paciente.\n- **F-** Perguntas diretas devem ser feitas para obter maiores detalhes sobre os sintomas relatados pelo paciente.\n- **V-** Essas são as perguntas diretas que devem ser feitas, caso o relato do paciente não supra todas elas. Atente-se que elas formam um mnemônico, Doc: PQRST.\n- Imagem: https://slideplayer.com.br/slide/360483/",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-14T19:07:00.000Z",
+                    "updated_at": "2021-11-16T15:02:05.000Z",
+                    "files": [
+                        {
+                            "id": 23344,
+                            "file": "effae833-71d2-4670-8ad4-92a3644dc616.jpeg",
+                            "name": "Anamnese+História+da+Doença+Atual_.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:53:45.000Z",
+                            "updated_at": "2021-11-16T14:53:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/effae833-71d2-4670-8ad4-92a3644dc616.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23344,
+                                "alternative_id": 37042
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37043,
+                    "question_id": 9054,
+                    "description": "F - V - F",
+                    "explanation": "- Errado, Doc! 🤔\n- **V-** Não há uma regra fixa para estabelecer-se o sintoma-guia, mas, como orientação geral, ele é aquele de maior duração ou mais salientado pelo paciente.\n- **F-** Perguntas diretas devem ser feitas para obter maiores detalhes sobre os sintomas relatados pelo paciente.\n- **V-** Essas são as perguntas diretas que devem ser feitas, caso o relato do paciente não supra todas elas. Atente-se que elas formam um mnemônico, Doc: PQRST.\n- Imagem: https://slideplayer.com.br/slide/360483/",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-14T19:07:00.000Z",
+                    "updated_at": "2021-11-16T15:02:05.000Z",
+                    "files": [
+                        {
+                            "id": 23344,
+                            "file": "effae833-71d2-4670-8ad4-92a3644dc616.jpeg",
+                            "name": "Anamnese+História+da+Doença+Atual_.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:53:45.000Z",
+                            "updated_at": "2021-11-16T14:53:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/effae833-71d2-4670-8ad4-92a3644dc616.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23344,
+                                "alternative_id": 37043
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9054,
+                "questionary_id": 261896,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9058,
+            "institution_id": 4,
+            "description": "Sobre a estrutura do exame clínico, julgue as sentenças abaixo como sendo V (verdadeiras) ou F (falsas):\n- (   ) A ordem cronológica não importa tanto ao anotar o relato. O mais importante é escrever exatamente da forma que o paciente relatou. \n- (   ) O termo \"sic\" é um advérbio latino que significa \"exatamente assim\" e é utilizado após uma citação para indicar que a fala original está sendo reproduzida, por mais errado ou estranho que possa parecer. \n- (   ) A Revisão dos Sistemas serve para complementar a História da Doença Atual (HDA), levantando possibilidades e reconhecendo enfermidades que não estão relacionadas com o quadro registrado na HDA. ",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-14T20:08:20.000Z",
+            "updated_at": "2021-11-16T14:46:56.000Z",
+            "user_id": 202,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 821,
+                    "title": "Estrutura do exame clínico",
+                    "description": null,
+                    "parent_id": 97,
+                    "is_enabled": true,
+                    "created_at": "2021-06-14T21:40:15.000Z",
+                    "updated_at": "2021-06-14T21:40:15.000Z",
+                    "pivot": {
+                        "discipline_id": 821,
+                        "question_id": 9058
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 37056,
+                    "question_id": 9058,
+                    "description": "V - V - V",
+                    "explanation": "- Errado, Doc! 🤔\n- **F-** As informações obtidas na anamnese devem ser elaboradas e processadas mentalmente para serem registradas, verificando se a história obtida possui começo, meio e fim.\n- **V-** Apesar de muitos acharem, \"sic\" não é uma sigla. Em geral, é um advérbio utilizado quando não há como verificar a veracidade do relato do paciente.\n- **V-** Ela deve seguir um roteiro rígido dos sintomas indicativos de alterações dos vários aparelhos e sistemas do organismo.\n- Imagem: https://slideplayer.com.br/slide/7384131/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-14T20:08:20.000Z",
+                    "updated_at": "2021-11-16T14:46:56.000Z",
+                    "files": [
+                        {
+                            "id": 23340,
+                            "file": "375b72af-a6c3-417a-93f8-bc6dbe1ca26c.jpeg",
+                            "name": "Uso+do+termo+SIC+Sic+é+um+termo+da+língua+latina+cuja+tradução+literal+é+assim+(Sic+et+simpliciter).jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:45:50.000Z",
+                            "updated_at": "2021-11-16T14:45:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/375b72af-a6c3-417a-93f8-bc6dbe1ca26c.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23340,
+                                "alternative_id": 37056
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37057,
+                    "question_id": 9058,
+                    "description": "F - F - V",
+                    "explanation": "- Errado, Doc! 🤔\n- **F-** As informações obtidas na anamnese devem ser elaboradas e processadas mentalmente para serem registradas, verificando se a história obtida possui começo, meio e fim.\n- **V-** Apesar de muitos acharem, \"sic\" não é uma sigla. Em geral, é um advérbio utilizado quando não há como verificar a veracidade do relato do paciente.\n- **V-** Ela deve seguir um roteiro rígido dos sintomas indicativos de alterações dos vários aparelhos e sistemas do organismo.\n- Imagem: https://slideplayer.com.br/slide/7384131/",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-14T20:08:20.000Z",
+                    "updated_at": "2021-11-16T14:46:56.000Z",
+                    "files": [
+                        {
+                            "id": 23340,
+                            "file": "375b72af-a6c3-417a-93f8-bc6dbe1ca26c.jpeg",
+                            "name": "Uso+do+termo+SIC+Sic+é+um+termo+da+língua+latina+cuja+tradução+literal+é+assim+(Sic+et+simpliciter).jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:45:50.000Z",
+                            "updated_at": "2021-11-16T14:45:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/375b72af-a6c3-417a-93f8-bc6dbe1ca26c.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23340,
+                                "alternative_id": 37057
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37058,
+                    "question_id": 9058,
+                    "description": "F - F - F",
+                    "explanation": "- Errado, Doc! 🤔\n- **F-** As informações obtidas na anamnese devem ser elaboradas e processadas mentalmente para serem registradas, verificando se a história obtida possui começo, meio e fim.\n- **V-** Apesar de muitos acharem, \"sic\" não é uma sigla. Em geral, é um advérbio utilizado quando não há como verificar a veracidade do relato do paciente.\n- **V-** Ela deve seguir um roteiro rígido dos sintomas indicativos de alterações dos vários aparelhos e sistemas do organismo.\n- Imagem: https://slideplayer.com.br/slide/7384131/",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-14T20:08:20.000Z",
+                    "updated_at": "2021-11-16T14:46:56.000Z",
+                    "files": [
+                        {
+                            "id": 23340,
+                            "file": "375b72af-a6c3-417a-93f8-bc6dbe1ca26c.jpeg",
+                            "name": "Uso+do+termo+SIC+Sic+é+um+termo+da+língua+latina+cuja+tradução+literal+é+assim+(Sic+et+simpliciter).jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:45:50.000Z",
+                            "updated_at": "2021-11-16T14:45:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/375b72af-a6c3-417a-93f8-bc6dbe1ca26c.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23340,
+                                "alternative_id": 37058
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37059,
+                    "question_id": 9058,
+                    "description": "F - V - V",
+                    "explanation": "- Boa, Doc! Acertou! 😍\n- **F-** As informações obtidas na anamnese devem ser elaboradas e processadas mentalmente para serem registradas, verificando se a história obtida possui começo, meio e fim.\n- **V-** Apesar de muitos acharem, \"sic\" não é uma sigla. Em geral, é um advérbio utilizado quando não há como verificar a veracidade do relato do paciente.\n- **V-** Ela deve seguir um roteiro rígido dos sintomas indicativos de alterações dos vários aparelhos e sistemas do organismo.\n- Imagem: https://slideplayer.com.br/slide/7384131/",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-06-14T20:08:20.000Z",
+                    "updated_at": "2021-11-16T14:46:56.000Z",
+                    "files": [
+                        {
+                            "id": 23340,
+                            "file": "375b72af-a6c3-417a-93f8-bc6dbe1ca26c.jpeg",
+                            "name": "Uso+do+termo+SIC+Sic+é+um+termo+da+língua+latina+cuja+tradução+literal+é+assim+(Sic+et+simpliciter).jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:45:50.000Z",
+                            "updated_at": "2021-11-16T14:45:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/375b72af-a6c3-417a-93f8-bc6dbe1ca26c.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23340,
+                                "alternative_id": 37059
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9058,
+                "questionary_id": 261896,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9208,
+            "institution_id": 4,
+            "description": "A anamnese, ou coleta da história do paciente, é a parte onde as técnicas e métodos de entrevista são aplicados. Sobre a anamnese em um exame clínico, assinale a alternativa correta:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-18T00:01:07.000Z",
+            "updated_at": "2021-11-16T18:13:36.000Z",
+            "user_id": 184,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 821,
+                    "title": "Estrutura do exame clínico",
+                    "description": null,
+                    "parent_id": 97,
+                    "is_enabled": true,
+                    "created_at": "2021-06-14T21:40:15.000Z",
+                    "updated_at": "2021-06-14T21:40:15.000Z",
+                    "pivot": {
+                        "discipline_id": 821,
+                        "question_id": 9208
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 37667,
+                    "question_id": 9208,
+                    "description": "Durante a anamnese, não se deve escrever de nenhuma forma, pois é essencial que o paciente perceba que você o está escutando e o compreendendo.",
+                    "explanation": "- Falso, Doc! 🙈\n- Algumas histórias coletadas na anamnese podem ser curtas e simples, como é o caso de doenças agudas, por exemplo. Entretanto, algumas histórias podem ser longas e complexas, como no caso de doenças crônicas ou de longa duração.\n- Realizar anotações durante a consulta, de maneira respeitosa, é essencial para garantir que você não irá esquecer nenhuma informação valiosa na hora de realizar o diagnóstico. \n- Mas é claro que você precisa se preocupar em mostrar para o paciente que o está escutando e o compreendendo, apesar de estar realizando anotações.\n- Observe este exemplo: https://pt.scribd.com/doc/309571962/EXEMPLO-anamnese",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-17T21:01:07.000Z",
+                    "updated_at": "2021-11-16T15:13:36.000Z",
+                    "files": [
+                        {
+                            "id": 23345,
+                            "file": "9374f5c6-289c-4c52-bb20-818981fc8b83.jpeg",
+                            "name": "1633205004.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:57:21.000Z",
+                            "updated_at": "2021-11-16T14:57:21.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9374f5c6-289c-4c52-bb20-818981fc8b83.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23345,
+                                "alternative_id": 37667
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37668,
+                    "question_id": 9208,
+                    "description": "Antes de perguntar ao paciente sobre a sua queixa principal, deve-se questionar sobre a história da doença atual.",
+                    "explanation": "- Falso, Doc! 🙈\n- Após o processo de identificação, é necessário questionar a respeito da queixa principal.\n- É aquela pergunta básica: \"Em que posso te ajudar?\", \"O que traz o senhor aqui hoje?\".\n- A busca pela queixa principal visa identificar os principais sintomas que levaram o paciente a procurar assistência médica, sendo estes essenciais para o correto diagnóstico.\n- Observe este exemplo: https://pt.scribd.com/doc/309571962/EXEMPLO-anamnese",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-17T21:01:07.000Z",
+                    "updated_at": "2021-11-16T15:13:36.000Z",
+                    "files": [
+                        {
+                            "id": 23345,
+                            "file": "9374f5c6-289c-4c52-bb20-818981fc8b83.jpeg",
+                            "name": "1633205004.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:57:21.000Z",
+                            "updated_at": "2021-11-16T14:57:21.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9374f5c6-289c-4c52-bb20-818981fc8b83.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23345,
+                                "alternative_id": 37668
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37669,
+                    "question_id": 9208,
+                    "description": "A história da doença atual serve para fortalecer a relação médico-paciente, não apresentando relevância para a eficiência do diagnóstico.",
+                    "explanation": "- Falso, Doc! 🙈\n- A história da doença atual (HDA) é o \"coração\" do diagnóstico. É através dela que detalhes e sintomas indispensáveis para o diagnóstico são identificados.\n- A HDA precisa ser registrada e o registro deve ser feito de maneira lúcida, sucinta, cronológica e em bom português, para que outros profissionais consigam compreendê-la.\n- Imagem: https://slideplayer.com.br/slide/360483/",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-17T21:01:07.000Z",
+                    "updated_at": "2021-11-16T15:13:36.000Z",
+                    "files": [
+                        {
+                            "id": 23344,
+                            "file": "effae833-71d2-4670-8ad4-92a3644dc616.jpeg",
+                            "name": "Anamnese+História+da+Doença+Atual_.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:53:45.000Z",
+                            "updated_at": "2021-11-16T14:53:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/effae833-71d2-4670-8ad4-92a3644dc616.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23344,
+                                "alternative_id": 37669
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37670,
+                    "question_id": 9208,
+                    "description": "O sintoma-guia pode ser utilizado para facilitar e precisar a coleta da história da doença atual.",
+                    "explanation": "- Perfeito! Acertou! 😍\n- O sintoma-guia é o sintoma ou o sinal que permite recompor a história da doença atual de maneira mais fácil e precisa.\n- Não existe regra fixa para determiná-lo, mas como orientação geral, o sintoma-guia é classificado como a queixa de maior duração ou o sintoma mais salientado pelo paciente.\n- Imagem: https://slideplayer.com.br/slide/360483/",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-06-17T21:01:07.000Z",
+                    "updated_at": "2021-11-16T15:13:36.000Z",
+                    "files": [
+                        {
+                            "id": 23344,
+                            "file": "effae833-71d2-4670-8ad4-92a3644dc616.jpeg",
+                            "name": "Anamnese+História+da+Doença+Atual_.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:53:45.000Z",
+                            "updated_at": "2021-11-16T14:53:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/effae833-71d2-4670-8ad4-92a3644dc616.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23344,
+                                "alternative_id": 37670
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9208,
+                "questionary_id": 261896,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9212,
+            "institution_id": 4,
+            "description": "Sobre a anamnese, assinale a alternativa **INCORRETA**:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-18T00:41:25.000Z",
+            "updated_at": "2021-11-16T18:19:56.000Z",
+            "user_id": 184,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 821,
+                    "title": "Estrutura do exame clínico",
+                    "description": null,
+                    "parent_id": 97,
+                    "is_enabled": true,
+                    "created_at": "2021-06-14T21:40:15.000Z",
+                    "updated_at": "2021-06-14T21:40:15.000Z",
+                    "pivot": {
+                        "discipline_id": 821,
+                        "question_id": 9212
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 37683,
+                    "question_id": 9212,
+                    "description": "A anamnese termina na coleta do histórico familial, sendo decidido pelo médico o feitio ou não de exames complementares.",
+                    "explanation": "- Perfeito, Doc! Essa está **errada**! 🤓\n- Após a coleta do histórico familial, determina-se a história psicossocial.\n- A história psicossocial determina a qualidade e a quantidade da alimentação, as condições de habitação, ocupações atuais e anteriores, vícios, condições culturais, condições socioeconômicas, escolaridade, religião, entre outras informações.\n- Imagem: https://slideplayer.com.br/slide/1253673/",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-06-17T21:41:25.000Z",
+                    "updated_at": "2021-11-16T15:19:56.000Z",
+                    "files": [
+                        {
+                            "id": 23341,
+                            "file": "1bb6a10d-1879-4908-8c41-ec41c3358c28.jpeg",
+                            "name": "História+Psicossocial.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:51:13.000Z",
+                            "updated_at": "2021-11-16T14:51:13.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1bb6a10d-1879-4908-8c41-ec41c3358c28.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23341,
+                                "alternative_id": 37683
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37684,
+                    "question_id": 9212,
+                    "description": "A história familial determina o estado de saúde das gerações passadas, buscando condições de caráter hereditário, genético, entre outros, que possam ser relevantes para o diagnóstico.",
+                    "explanation": "- Essa está correta! 😉\n- Na história familial, questiona-se sobre o estado de saúde das gerações passadas, buscando informações a respeito de falecimentos, doenças e outras condições.\n- Pode ser fundamental para determinar doenças de caráter hereditário ou com predisposição genética e o correto diagnóstico.\n- Imagem: https://slideplayer.com.br/slide/360483/",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-17T21:41:25.000Z",
+                    "updated_at": "2021-11-16T15:19:56.000Z",
+                    "files": [
+                        {
+                            "id": 23342,
+                            "file": "d1893ce4-194e-413d-930f-28cc32d48ae7.jpeg",
+                            "name": "Anamnese+História+Familiar_.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:51:51.000Z",
+                            "updated_at": "2021-11-16T14:51:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d1893ce4-194e-413d-930f-28cc32d48ae7.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23342,
+                                "alternative_id": 37684
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37685,
+                    "question_id": 9212,
+                    "description": "A história mórbida pregressa busca determinar antecedentes fisiológicos e patológicos do paciente para auxiliar no diagnóstico.",
+                    "explanation": "- Essa está correta! 😉\n- A história mórbida pregressa busca determinar antecedentes fisiológicos (pediatria e ginecologia, por exemplo) e patológicos (doenças da infância e vida adulta, alergias, cirurgias, traumatismos, por exemplo) do paciente para auxiliar no diagnóstico.\n- Imagem: https://slidetodoc.com/anamnese-isdashmphmfhcv-elementos-componentes-da-anamnese-identificao-queixa/",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-17T21:41:25.000Z",
+                    "updated_at": "2021-11-16T15:19:56.000Z",
+                    "files": [
+                        {
+                            "id": 23343,
+                            "file": "01747d55-5161-4e89-b86f-154cbb3b6be2.jpeg",
+                            "name": "image-20.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:52:39.000Z",
+                            "updated_at": "2021-11-16T14:52:39.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/01747d55-5161-4e89-b86f-154cbb3b6be2.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23343,
+                                "alternative_id": 37685
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37686,
+                    "question_id": 9212,
+                    "description": "A revisão de sistemas serve para complementar a história da doença atual, levantando hipóteses e sintomas que não foram citados pelo paciente ou não estão diretamente relacionados com a enfermidade.",
+                    "explanation": "- Essa está correta! 😉\n- A revisão de sistemas serve como um complemento da história da doença atual.\n- Auxilia o profissional a levantar hipóteses e reconhecer enfermidades e sintomas não citados diretamente pelo paciente.\n- Dados coletados durante a revisão de sistemas podem ser decisivos na definição do diagnóstico.\n- Observe no exemplo: https://pt.scribd.com/doc/309571962/EXEMPLO-anamnese",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-17T21:41:25.000Z",
+                    "updated_at": "2021-11-16T15:19:56.000Z",
+                    "files": [
+                        {
+                            "id": 23345,
+                            "file": "9374f5c6-289c-4c52-bb20-818981fc8b83.jpeg",
+                            "name": "1633205004.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-16T14:57:21.000Z",
+                            "updated_at": "2021-11-16T14:57:21.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9374f5c6-289c-4c52-bb20-818981fc8b83.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23345,
+                                "alternative_id": 37686
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9212,
+                "questionary_id": 261896,
+                "timer": 0
+            }
+        }
+    ]
+}

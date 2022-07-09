@@ -1,0 +1,947 @@
+{
+    "id": 263620,
+    "user_id": 1699,
+    "title": "Troca de Gases",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-05T01:54:15.000Z",
+    "updated_at": "2022-07-05T01:54:15.000Z",
+    "study_plan_id": 110,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 2886,
+            "institution_id": 4,
+            "description": "Sabendo a pressão atmosférica a nível do mar é de **760mmHg** e que **21%** corresponde ao oxigênio. **Calcule a pressão parcial de O2 no ar inspirado:**",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-08T16:17:04.000Z",
+            "updated_at": "2020-07-08T16:17:04.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 300,
+                    "title": "Troca de Gases\t\t",
+                    "description": null,
+                    "parent_id": 294,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T19:09:02.000Z",
+                    "updated_at": "2020-07-08T19:09:02.000Z",
+                    "pivot": {
+                        "discipline_id": 300,
+                        "question_id": 2886
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11878,
+                    "question_id": 2886,
+                    "description": "150mmHg",
+                    "explanation": "Essa é a pressão parcial de oxigênio na traqueia.\n- Como é um lugar quente e umificado ➡ Temos que corrigir o cálculo da pressão parcial de O2 diminuindo pela pressão parcial de H20\n- PO2 = (760mmHg - 47mmHg(pressão de H20)) x 0,21\n- **PO2 = 150mmHg**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-08T16:17:04.000Z",
+                    "updated_at": "2020-07-08T16:17:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11879,
+                    "question_id": 2886,
+                    "description": "160mmHg",
+                    "explanation": "Perfeito, é a pressão parcial de oxigênio no ar atmosférico.\n- O cálculo é feito através: **PO2 = 760mmHg x 0,21**\n- PO2 = 160mmHg\n- Fórmula padrão:\n- Pressão parcial = Pressão total x Fração do gás",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-08T16:17:04.000Z",
+                    "updated_at": "2020-07-08T16:17:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11880,
+                    "question_id": 2886,
+                    "description": "155mmHg",
+                    "explanation": "💡Confira o cálculo correto n**a alternativa B**.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-08T16:17:04.000Z",
+                    "updated_at": "2020-07-08T16:17:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11881,
+                    "question_id": 2886,
+                    "description": "140mmHg",
+                    "explanation": "💡Confira o cálculo correto n**a alternativa B**. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-08T16:17:04.000Z",
+                    "updated_at": "2020-07-08T16:17:04.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2886,
+                "questionary_id": 263620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2887,
+            "institution_id": 4,
+            "description": "Assinale a correlação **INCORRETA** em condições normais:",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-08T19:24:26.000Z",
+            "updated_at": "2022-05-02T11:03:12.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 300,
+                    "title": "Troca de Gases\t\t",
+                    "description": null,
+                    "parent_id": 294,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T19:09:02.000Z",
+                    "updated_at": "2020-07-08T19:09:02.000Z",
+                    "pivot": {
+                        "discipline_id": 300,
+                        "question_id": 2887
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11882,
+                    "question_id": 2887,
+                    "description": "PO2 = 100mmHg ➡ Ar alveolar",
+                    "explanation": "Perfeito.\n- O O2 se difunde nos capilares pulmonares, oxigenando o sangue.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-08T16:24:26.000Z",
+                    "updated_at": "2022-05-02T11:03:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11883,
+                    "question_id": 2887,
+                    "description": "PCO2 = 40mmHg ➡ Ar alveolar",
+                    "explanation": "Perfeito.\n- **O CO2 se difunde nos alvéolos pulmonares** ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-08T16:24:26.000Z",
+                    "updated_at": "2022-05-02T11:03:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11884,
+                    "question_id": 2887,
+                    "description": "PCO2 = 45 mmHg ➡ Sangue Venoso",
+                    "explanation": "Essa está certinha, Doc! 😇\n- Varia entre 41-51 mmHg (fonte: [https://acutecaretesting.org/en/articles/central-venous-blood-gas-analysis](https://acutecaretesting.org/en/articles/central-venous-blood-gas-analysis) )\n- CO2 se difunde dos tecidos para o sangue venoso, **aumentando a PCO2**\n- Lembre que o CO2 é obtido através do metabolismo aeróbio.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-08T16:24:26.000Z",
+                    "updated_at": "2022-05-02T11:03:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11885,
+                    "question_id": 2887,
+                    "description": "PO2 = 46mmHg ➡ Sangue Venoso",
+                    "explanation": "Perfeito\n- O valor correto seria **40mmHg**\n- O O2 se difunde nos tecidos, **diminuindo a PO2 do sangue venoso.**\n- Lembre que o O2 é consumido através do metabolismo aeróbio. ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-07-08T16:24:26.000Z",
+                    "updated_at": "2022-05-02T11:03:12.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2887,
+                "questionary_id": 263620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2888,
+            "institution_id": 4,
+            "description": "São elementos que diminuem a afinidade da hemoglobina pelo O2, **exceto:**",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-08T19:40:22.000Z",
+            "updated_at": "2021-03-28T19:05:07.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 300,
+                    "title": "Troca de Gases\t\t",
+                    "description": null,
+                    "parent_id": 294,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T19:09:02.000Z",
+                    "updated_at": "2020-07-08T19:09:02.000Z",
+                    "pivot": {
+                        "discipline_id": 300,
+                        "question_id": 2888
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11886,
+                    "question_id": 2888,
+                    "description": "Aumento da pCO2",
+                    "explanation": "Perfeito.\n- **O aumento da pCO2 ➡ Diminuição do pH**\n- A perda da afinidade facilita a entrega de oxigênio para os tecidos ➡ Efeito Bohr\n- Ex: Durante o exercício ➡ Corpo produz mais CO2 ➡ Queda do pH ➡ Pelo efeito Bohr, temos um estimulo a maior entrega de oxigênio aos tecidos",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-08T16:40:22.000Z",
+                    "updated_at": "2021-03-28T16:05:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11887,
+                    "question_id": 2888,
+                    "description": "Aumento do pH",
+                    "explanation": "Ao contrário, **o aumento do pH leva a maior afinidade da hemoglobina pelo oxigênio.**\n- **Diminuição do pH ➡ Induz a perda da afinidade pelo oxigênio ➡ Efeito Bohr**\n- Ex: Durante o exercício ➡ Corpo produz mais CO2 ➡ **Queda do pH** ➡ Pelo efeito Bohr, temos um estimulo **a maior entrega de oxigênio aos tecidos.** ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-08T16:40:22.000Z",
+                    "updated_at": "2021-03-28T16:05:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11888,
+                    "question_id": 2888,
+                    "description": "Aumento da Temperatura",
+                    "explanation": "- Leva a curva para a direita.\n- Diminui a afinidade do O2 e facilita sua entrega para os tecidos.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-08T16:40:22.000Z",
+                    "updated_at": "2021-03-28T16:05:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11889,
+                    "question_id": 2888,
+                    "description": "Aumento da concentração de 2,3-DPG",
+                    "explanation": "É uma proteína que se liga as **cadeias betas da desoxihemoglobina** e **diminui a afinidade da hemoglobina pelo oxigênio.**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-08T16:40:22.000Z",
+                    "updated_at": "2021-03-28T16:05:07.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2888,
+                "questionary_id": 263620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2889,
+            "institution_id": 4,
+            "description": "Assinale a alternativa **correta:**\n- **PaO2 ➡ PO2 arterial**\n- **Gradiente A-a ➡ Diferença entre PO2 alveolar e o PO2 arterial**",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-08T19:53:23.000Z",
+            "updated_at": "2020-07-08T19:53:23.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 300,
+                    "title": "Troca de Gases\t\t",
+                    "description": null,
+                    "parent_id": 294,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T19:09:02.000Z",
+                    "updated_at": "2020-07-08T19:09:02.000Z",
+                    "pivot": {
+                        "discipline_id": 300,
+                        "question_id": 2889
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11890,
+                    "question_id": 2889,
+                    "description": " ⬆ PaO2 ----- ↔ Gradiente A-a  ➡➡➡ Alta altitude",
+                    "explanation": "Em altas altitudes ➡ Temos uma menor pressão atmosférica ➡ ⬇ Menor parcial dos gases(incluindo O2) ➡ ⬇ PaO2",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-08T16:53:23.000Z",
+                    "updated_at": "2020-07-08T16:53:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11891,
+                    "question_id": 2889,
+                    "description": "⬇ PaO2 ----- ↔ Gradiente A-a  ➡➡➡ Hipoventilação",
+                    "explanation": "Perfeito.\n- Temos uma menor entrada de O2 ➡ **Menos O2 chega aos alvéolos(⬇PAO2)** ➡ **Menos O2 chega ao sangue(PaO2)**",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-08T16:53:23.000Z",
+                    "updated_at": "2020-07-08T16:53:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11892,
+                    "question_id": 2889,
+                    "description": " ⬆ PaO2 ----- ⬆ Gradiente A-a  ➡➡➡ Disfunção da relação V/Q",
+                    "explanation": "- Tem um distúrbio de ventilação e perfusão dos tecidos\n- Pode acontecer, por exemplo, numa pneumonia.\n- **Menos O2 chega ao sangue(PaO2) ➡ Temos algo impedindo a perfeita ventilação.**\n- Contudo, enquanto temos um problema na ventilação, a perfusão continua a mesma\n- É tipo servir o mesmo tanto de comida para mais pessoas famintas😂\n- Por isso, temos um **⬆ Gradiente A-a** ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-08T16:53:23.000Z",
+                    "updated_at": "2020-07-08T16:53:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11893,
+                    "question_id": 2889,
+                    "description": " ⬆ PaO2 ----- ⬆ Gradiente A-a  ➡➡➡ Shunt direita-esquerda",
+                    "explanation": "**Ocorre mistura de sangue venoso com arterial ➡  ⬇ PaO2**\n- Como temos uma maior diferença entre PO2 alveolar e o PO2 arterial ➡ ⬆ Gradiente A-a",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-08T16:53:23.000Z",
+                    "updated_at": "2020-07-08T16:53:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2889,
+                "questionary_id": 263620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2890,
+            "institution_id": 4,
+            "description": "Paciente masculino, 3 anos, chega a emergência com histórico de dispneia(falta de ar), histórico de estar brincando sozinho quando foi encontrado. Você suspeita de que a criança aspirou alguma peça do brinquedo. Supondo que a peça do brinquedo caiu no bronquíolo direito(bloqueando-o). Qual é a opção que melhor retrata o quadro?",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-08T17:10:18.000Z",
+            "updated_at": "2020-07-08T17:10:18.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 300,
+                    "title": "Troca de Gases\t\t",
+                    "description": null,
+                    "parent_id": 294,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T19:09:02.000Z",
+                    "updated_at": "2020-07-08T19:09:02.000Z",
+                    "pivot": {
+                        "discipline_id": 300,
+                        "question_id": 2890
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11894,
+                    "question_id": 2890,
+                    "description": "PO2 alveolar do pulmão direito ⬆ ------- PCO2 alveolar do pulmão direito ⬆",
+                    "explanation": "Pensa comigo, **não tem como a PO2 alveolar aumentar** ➡ O O2 que está no alvéolo tende a se equilibrar com o do sangue(em torno de 40mmHg)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-08T17:10:18.000Z",
+                    "updated_at": "2020-07-08T17:10:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11895,
+                    "question_id": 2890,
+                    "description": "PO2 alveolar do pulmão direito ⬆ ------- PCO2 alveolar do pulmão direito ⬇",
+                    "explanation": "Pensa comigo, **não tem como a PO2 alveolar aumentar** ➡ O O2 que está no alvéolo tende a se equilibrar com o do sangue(em torno de 40mmHg) .\n- PO2 alveolar ➡ 100mmHg\n- PO2 do sangue ➡ 40mmHg\n- Ah, mas por que não fica na metade? \n- Pensa comigo, passa quase 5L de sangue por minuto pelo pulmão(sim o débito cardíaco😂) ➡ É uma troca de gás com proporções diferentes.\n- É a mesma coisa que abrir uma garrafa de ar dentro de uma sala e esperar que as duas tenham a metade da pressão das duas somadas. ➡ 😂 Desculpa se o tio mais confundiu do que ajudou.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-08T17:10:18.000Z",
+                    "updated_at": "2020-07-08T17:10:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11896,
+                    "question_id": 2890,
+                    "description": "PO2 alveolar do pulmão direito ⬇ ------- PCO2 alveolar do pulmão direito ⬆",
+                    "explanation": "Perfeito. E é fácil entender. Vem comigo.\n- Como não temos mais ventilação no bronquíolo direito ➡ O ar que estava em contato com o alvéolo tende a entrar em equilíbrio com o sangue.\n- Ok, muito bem, vamos para as pressões parciais de cada local.\n- Alvéolo➡ PO2 100mmHg e PCO2 40mmHg\n- Sangue venoso ➡ PO2 40mmHg e PCO2 45mmHg\n- O resumo de tudo é que a tendência é o alvéolo atingir os valores de **PO2 e PCO2 do sangue venoso.**\n- Ou seja, PO2⬇ e a PCO2⬆",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-08T17:10:18.000Z",
+                    "updated_at": "2020-07-08T17:10:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11897,
+                    "question_id": 2890,
+                    "description": "PO2 alveolar do pulmão direito ⬇ ------- PCO2 alveolar do pulmão direito ⬇",
+                    "explanation": "- Temos a tendência ao equilíbrio entre a PCO2 alveolar e arterial\n- Alvéolo➡ PO2 100mmHg e PCO2 40mmHg\n- Sangue venoso ➡ PO2 40mmHg e PCO2 45mmHg \n- **Ou seja, PCO2⬆**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-08T17:10:18.000Z",
+                    "updated_at": "2020-07-08T17:10:18.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2890,
+                "questionary_id": 263620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2891,
+            "institution_id": 4,
+            "description": "São causas de hipóxia:\nI - Diminuição do débito cardíaco\nII - Intoxicação por CO\nIII - Anemia\nIV - Intoxicação por cianeto",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-08T20:25:20.000Z",
+            "updated_at": "2020-07-08T20:25:20.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 300,
+                    "title": "Troca de Gases\t\t",
+                    "description": null,
+                    "parent_id": 294,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T19:09:02.000Z",
+                    "updated_at": "2020-07-08T19:09:02.000Z",
+                    "pivot": {
+                        "discipline_id": 300,
+                        "question_id": 2891
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11898,
+                    "question_id": 2891,
+                    "description": "I, II e III",
+                    "explanation": "- **💡Confira a resposta completa na letra** D\n- IV - ⬇ Diminui a utilização de oxigênio pelos tecidos ➡ Age a nível mitocondrial ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-08T17:25:20.000Z",
+                    "updated_at": "2020-07-08T17:25:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11899,
+                    "question_id": 2891,
+                    "description": "I e III",
+                    "explanation": "💡Confira a resposta completa na letra D \n- II - ⬇ Do conteúdo de O2 ligado a hemoglobina. \n- IV - ⬇ Diminui a utilização de oxigênio pelos tecidos ➡ Age a nível mitocondrial ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-08T17:25:20.000Z",
+                    "updated_at": "2020-07-08T17:25:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11900,
+                    "question_id": 2891,
+                    "description": "II, III e IV",
+                    "explanation": "💡Confira a resposta completa na letra D \nI - ⬇ Sangue sendo distribuido para o corpo ➡ ⬇ O2 sendo entregue para os tecidos. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-08T17:25:20.000Z",
+                    "updated_at": "2020-07-08T17:25:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11901,
+                    "question_id": 2891,
+                    "description": "Todas estão corretas",
+                    "explanation": "- I - ⬇ Sangue sendo distribuido para o corpo ➡ ⬇ O2 sendo entregue para os tecidos.\n- II - ⬇ Do conteúdo de O2 ligado a hemoglobina.\n- III - ⬇ Diminuição da Hemoglobina ➡ Célula carreadora de oxigênio.\n- IV - ⬇ Diminui a utilização de oxigênio pelos tecidos ➡ Age a nível mitocondrial",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-07-08T17:25:20.000Z",
+                    "updated_at": "2020-07-08T17:25:20.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2891,
+                "questionary_id": 263620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2892,
+            "institution_id": 4,
+            "description": "Sobre o transporte de CO2, assinale a **incorreta:**",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-08T18:14:57.000Z",
+            "updated_at": "2020-07-08T18:14:57.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 300,
+                    "title": "Troca de Gases\t\t",
+                    "description": null,
+                    "parent_id": 294,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T19:09:02.000Z",
+                    "updated_at": "2020-07-08T19:09:02.000Z",
+                    "pivot": {
+                        "discipline_id": 300,
+                        "question_id": 2892
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11902,
+                    "question_id": 2892,
+                    "description": "CO2 é gerado nos tecidos",
+                    "explanation": "Perfeito, é o resultado do **metabolismo aeróbio.**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-08T18:14:57.000Z",
+                    "updated_at": "2020-07-08T18:14:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11903,
+                    "question_id": 2892,
+                    "description": "O CO2 pode ser combinar a água(H20) para formar o H2CO3",
+                    "explanation": "Perfeito.\n- Reação que é catalisada pela **anidrase carbônica.**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-08T18:14:57.000Z",
+                    "updated_at": "2020-07-08T18:14:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11904,
+                    "question_id": 2892,
+                    "description": "O HCO3- é a principal forma na qual o CO2 é transportado para os pulmões",
+                    "explanation": "O HCO3- é trocado pelo Cl- nas hemácias e transportado no plasma até os pulmões.\n- O HCO3- representa **90% da forma em que o CO2 é transportado.**",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-08T18:14:57.000Z",
+                    "updated_at": "2020-07-08T18:14:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11905,
+                    "question_id": 2892,
+                    "description": "A maior parte do HCO3- é transportado pelas hemácias aos pulmões",
+                    "explanation": "A maior parte do HCO3- é transportado dissolvido no plasma.\n\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-07-08T18:14:57.000Z",
+                    "updated_at": "2021-03-11T01:58:25.000Z",
+                    "files": [
+                        {
+                            "id": 641,
+                            "file": "1594232011200.jpeg",
+                            "name": "2325_Carbon_Dioxide_Transport.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-07-08T21:13:32.000Z",
+                            "updated_at": "2020-07-08T21:13:32.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1594232011200.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 641,
+                                "alternative_id": 11905
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2892,
+                "questionary_id": 263620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2893,
+            "institution_id": 4,
+            "description": "São causas de aumento da afinidade da hemoglobina pelo oxigênio, **exceto:**",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-08T21:31:13.000Z",
+            "updated_at": "2020-07-08T21:31:13.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 300,
+                    "title": "Troca de Gases\t\t",
+                    "description": null,
+                    "parent_id": 294,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T19:09:02.000Z",
+                    "updated_at": "2020-07-08T19:09:02.000Z",
+                    "pivot": {
+                        "discipline_id": 300,
+                        "question_id": 2893
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11906,
+                    "question_id": 2893,
+                    "description": "Aumento da produção de HbF",
+                    "explanation": "HbF ➡ Hemoglobina Fetal\n- A hemoglobina fetal não se liga com a proteína 2,3-DPG como a hemoglobina do adulta.\n- Se temos uma menor ligação a proteína 2,3-DPG ➡ **Maior afinidade da hemoglobina ao oxigênio.**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-08T18:31:13.000Z",
+                    "updated_at": "2020-07-08T18:31:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11907,
+                    "question_id": 2893,
+                    "description": "Diminuição da temperatura",
+                    "explanation": "- Leva a curva para a esquerda\n- Aumenta a afinidade do O2 e dificulta sua entrega para os tecidos. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-08T18:31:13.000Z",
+                    "updated_at": "2020-07-08T18:31:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11908,
+                    "question_id": 2893,
+                    "description": "Aumento da pCO2",
+                    "explanation": "**O aumento da pCO2 ➡ Diminuição do pH**\n- A perda da afinidade facilita a entrega de oxigênio para os tecidos ➡ Efeito Bohr\n- Ex: Durante o exercício ➡ Corpo produz mais CO2 ➡ Queda do pH ➡ Pelo efeito Bohr, **temos um estimulo a maior entrega de oxigênio aos tecidos** ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-08T18:31:13.000Z",
+                    "updated_at": "2020-07-08T18:31:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11909,
+                    "question_id": 2893,
+                    "description": "Diminuição da 2,3-DPG",
+                    "explanation": "É uma proteína que se liga as **cadeias betas da desoxihemoglobina** e **diminui a afinidade da hemoglobina pelo oxigênio.** ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-08T18:31:13.000Z",
+                    "updated_at": "2020-07-08T18:31:13.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2893,
+                "questionary_id": 263620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2894,
+            "institution_id": 4,
+            "description": "Paciente de 36 anos chega ao hospital alegando falta de ar. A gasometria mostra:\n- PaCO2 = 60 mmHg, \n- pH = 7,25, e\n- HCO3- = 28 mM\n- A maior parte do CO2 está sendo transportado:",
+            "difficulty": "hard",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-08T18:40:53.000Z",
+            "updated_at": "2020-07-08T18:40:53.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 300,
+                    "title": "Troca de Gases\t\t",
+                    "description": null,
+                    "parent_id": 294,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T19:09:02.000Z",
+                    "updated_at": "2020-07-08T19:09:02.000Z",
+                    "pivot": {
+                        "discipline_id": 300,
+                        "question_id": 2894
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11910,
+                    "question_id": 2894,
+                    "description": "Dissolvido no plasma",
+                    "explanation": "Menos de 10% do **CO2** é transportado dissolvido no plasma.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-08T18:40:53.000Z",
+                    "updated_at": "2020-07-08T18:40:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11911,
+                    "question_id": 2894,
+                    "description": "Na forma de CO2 ligado a hemoglobina",
+                    "explanation": "Cerca de **20% do CO2** é transportado diretamente ligado a hemoglobina.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-08T18:40:53.000Z",
+                    "updated_at": "2020-07-08T18:40:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11912,
+                    "question_id": 2894,
+                    "description": "Na forma de íons bicarbonato",
+                    "explanation": "Praticamente 75% do CO2 é convertido em H+ e HCO3-.\n- O HCO3-(íon bicarbonato) é a forma predominante de transporte do CO2.\n\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-08T18:40:53.000Z",
+                    "updated_at": "2021-03-11T01:58:25.000Z",
+                    "files": [
+                        {
+                            "id": 642,
+                            "file": "1594233562315.jpeg",
+                            "name": "Bicarbonate-metabolism-2-1024x814.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-07-08T21:39:23.000Z",
+                            "updated_at": "2020-07-08T21:39:23.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1594233562315.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 642,
+                                "alternative_id": 11912
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11913,
+                    "question_id": 2894,
+                    "description": "Nenhuma das alternativas",
+                    "explanation": "Temos apenas três formas de transporte de CO2 ➡ As citadas nas outras alternativas",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-08T18:40:53.000Z",
+                    "updated_at": "2020-07-08T18:40:53.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2894,
+                "questionary_id": 263620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2895,
+            "institution_id": 4,
+            "description": "No exercício físico intenso feito por um atleta sadio, como você espera os seguintes paramêtros?",
+            "difficulty": "hard",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-08T19:08:45.000Z",
+            "updated_at": "2020-07-08T19:08:45.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 300,
+                    "title": "Troca de Gases\t\t",
+                    "description": null,
+                    "parent_id": 294,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T19:09:02.000Z",
+                    "updated_at": "2020-07-08T19:09:02.000Z",
+                    "pivot": {
+                        "discipline_id": 300,
+                        "question_id": 2895
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11914,
+                    "question_id": 2895,
+                    "description": "⬆ PO2 arterial ----- ⬆ PCO2 arterial ----- ⬇ pH arterial",
+                    "explanation": "Pegadinha, Doc, confira a explicação na **alternativa E** do porquê não encontramos alterações.  ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-08T19:08:45.000Z",
+                    "updated_at": "2020-07-08T19:08:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11915,
+                    "question_id": 2895,
+                    "description": "⬆ PO2 arterial ----- ⬇ PCO2 arterial ----- ⬇ pH arterial",
+                    "explanation": "Pegadinha, Doc, confira a explicação na alternativa E do porquê não encontramos alterações.  ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-08T19:08:45.000Z",
+                    "updated_at": "2020-07-08T19:08:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11916,
+                    "question_id": 2895,
+                    "description": "⬇ PO2 arterial ----- ⬆ PCO2 arterial ----- ⬇ pH arterial",
+                    "explanation": "Pegadinha, Doc, confira a explicação na alternativa E do porquê não encotramos alterações. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-08T19:08:45.000Z",
+                    "updated_at": "2020-07-08T19:08:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11917,
+                    "question_id": 2895,
+                    "description": "⬇ PO2 arterial ----- ⬆ PCO2 arterial ----- ⬆ pH arterial",
+                    "explanation": "Pegadinha, Doc, confira a explicação na alternativa E do porquê não temos alterações. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-08T19:08:45.000Z",
+                    "updated_at": "2020-07-08T19:08:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11918,
+                    "question_id": 2895,
+                    "description": "Sem mudanças",
+                    "explanation": "O corpo se adapta a novas demandas do organismo.\n- Aumenta o débito cardíaco ➡ Entrega **mais oxigênio para um consumo mais elevado**\n- Aumenta a Ritmo Respiratório ➡ Aumento da ventilação ➡ Consegue realizar com precisão o **aumento de demanda de trocas gasosas**\n- **💡Na prática, acontecem pequenas alterações**. \n- Lembra que durante o exercício, temos mudanças até na afinidade da hemoglobina para captar e entregar mais oxigênio.",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-07-08T19:08:45.000Z",
+                    "updated_at": "2020-07-08T19:08:45.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2895,
+                "questionary_id": 263620,
+                "timer": 0
+            }
+        }
+    ]
+}
