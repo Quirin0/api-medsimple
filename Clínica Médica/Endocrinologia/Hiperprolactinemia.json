@@ -1,0 +1,552 @@
+{
+    "id": 266656,
+    "user_id": 1699,
+    "title": "Hiperprolactinemia",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-09T03:49:28.000Z",
+    "updated_at": "2022-07-09T03:49:28.000Z",
+    "study_plan_id": 1165,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 12842,
+            "institution_id": 4,
+            "description": "A hiperprolactinemia é uma causa comum de infertilidade. Assinale a alternativa abaixo que contém o tratamento farmacológico para essa condição:",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-02-22T23:58:04.000Z",
+            "updated_at": "2022-02-22T23:58:04.000Z",
+            "user_id": 2296,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 280,
+                    "title": "Endocrinologia - Farmacologia",
+                    "description": null,
+                    "parent_id": 172,
+                    "is_enabled": true,
+                    "created_at": "2020-07-02T18:57:46.000Z",
+                    "updated_at": "2020-07-02T19:42:03.000Z",
+                    "pivot": {
+                        "discipline_id": 280,
+                        "question_id": 12842
+                    }
+                },
+                {
+                    "id": 66,
+                    "title": "Endocrinologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-26T15:03:36.000Z",
+                    "updated_at": "2020-05-26T15:03:36.000Z",
+                    "pivot": {
+                        "discipline_id": 66,
+                        "question_id": 12842
+                    }
+                },
+                {
+                    "id": 719,
+                    "title": "Infertilidade",
+                    "description": null,
+                    "parent_id": 31,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T21:59:47.000Z",
+                    "updated_at": "2021-05-05T21:59:47.000Z",
+                    "pivot": {
+                        "discipline_id": 719,
+                        "question_id": 12842
+                    }
+                },
+                {
+                    "id": 1112,
+                    "title": "Hiperprolactinemia",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2022-02-22T23:44:32.000Z",
+                    "updated_at": "2022-02-22T23:44:32.000Z",
+                    "pivot": {
+                        "discipline_id": 1112,
+                        "question_id": 12842
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 52685,
+                    "question_id": 12842,
+                    "description": "Heparina.",
+                    "explanation": "Falso doc! A heparina não é utilizada na hiperprolactinemia. No entanto, é amplamente utilizada em pacientes com história de abortamento por Síndrome Antifosfolipides (SAF).",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-02-22T23:58:04.000Z",
+                    "updated_at": "2022-02-22T23:58:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52686,
+                    "question_id": 12842,
+                    "description": "Clomifeno.",
+                    "explanation": "Falso doc! Pegadinha essa: o clomifeno é um antiestrogênio utilizado para tratar infertilidade por anovulação. Não confunda: a hiperprolactinemia também causa anovulação, uma vez que a prolactina inibe a secreção de FSH e LH por feedback negativo. No entanto, tratando-se a causa de base com agonistas  (aumento da prolactina) há retorno ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-02-22T23:58:04.000Z",
+                    "updated_at": "2022-02-22T23:58:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52687,
+                    "question_id": 12842,
+                    "description": "Cabergolina.",
+                    "explanation": "BOOOA DOC! 😎 A **cabergolina é um agonista dopaminérgico**. Você se lembra da fisiopatologia da hiperprolactinemia? A **prolactina é produzida na hipófis**e, e sua **secreção é controlada pela dopamina: qu**anto mais dopamina, menos prolactina é produzida. Assim, se utilizarmos um agonista dopaminérgico haverá redução na produção de prolactina.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2022-02-22T23:58:04.000Z",
+                    "updated_at": "2022-02-22T23:58:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52688,
+                    "question_id": 12842,
+                    "description": "Metformina.",
+                    "explanation": "Incorreta doc. Também pegadinha: a metformina é utilizada na Síndrome dos Ovários Policísticos (SOP) para diminuir a resistência insulínica. inclusive nos ovários, auxiliando na ovulação. No entanto, não é utilizada na hiperprolactinemia.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-02-22T23:58:04.000Z",
+                    "updated_at": "2022-02-22T23:58:04.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12842,
+                "questionary_id": 266656,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12843,
+            "institution_id": null,
+            "description": "São causas fisiológicas de hiperprolactinemia, exceto:",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-02-23T02:14:08.000Z",
+            "updated_at": "2022-02-23T02:14:08.000Z",
+            "user_id": 2296,
+            "is_residency": false,
+            "institution": null,
+            "disciplines": [
+                {
+                    "id": 1112,
+                    "title": "Hiperprolactinemia",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2022-02-22T23:44:32.000Z",
+                    "updated_at": "2022-02-22T23:44:32.000Z",
+                    "pivot": {
+                        "discipline_id": 1112,
+                        "question_id": 12843
+                    }
+                },
+                {
+                    "id": 66,
+                    "title": "Endocrinologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-26T15:03:36.000Z",
+                    "updated_at": "2020-05-26T15:03:36.000Z",
+                    "pivot": {
+                        "discipline_id": 66,
+                        "question_id": 12843
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 52689,
+                    "question_id": 12843,
+                    "description": "Gravidez.",
+                    "explanation": "Essa alternativa é correta doc! A gravidez é causa fisiológica de hiperprolactinemia.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-02-23T02:14:08.000Z",
+                    "updated_at": "2022-02-23T02:14:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52690,
+                    "question_id": 12843,
+                    "description": "Estimulação do mamilo.",
+                    "explanation": "Sim! Doc, a estimulação do mamilo pode levar ao aumento da prolactina. Isso é importante na lactação, na qual a sucção pelo bebê estimula o hipotálamo a secretar o fator liberador da prolactina, aumentando a produção de leite.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-02-23T02:14:08.000Z",
+                    "updated_at": "2022-02-23T02:14:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52691,
+                    "question_id": 12843,
+                    "description": "Jejum.",
+                    "explanation": "Boa doc! Essa é a alternativa incorreta. O jejum diminui a produção de prolactina:  esse é um mecanismo de defesa materno, que diminui a produção de leite para conservar energia. Em contrapartida, após a alimentação ocorre a liberação aguda de prolactina, principalmente após ingestão de alimentos de origem proteica à noite.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2022-02-23T02:14:08.000Z",
+                    "updated_at": "2022-02-23T02:14:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52692,
+                    "question_id": 12843,
+                    "description": "Exercício físico.",
+                    "explanation": "Boa doc, o exercício físico aumenta agudamente os níveis séricos de prolactina, no entando o exercício intenso e prologando diminuem.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-02-23T02:14:08.000Z",
+                    "updated_at": "2022-02-23T02:14:08.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12843,
+                "questionary_id": 266656,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12844,
+            "institution_id": null,
+            "description": "Dentre os medicamentos abaixo, assinale aquele comumente associados à hiperprolactemia:",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-02-23T02:53:34.000Z",
+            "updated_at": "2022-02-23T02:53:34.000Z",
+            "user_id": 2296,
+            "is_residency": false,
+            "institution": null,
+            "disciplines": [
+                {
+                    "id": 1112,
+                    "title": "Hiperprolactinemia",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2022-02-22T23:44:32.000Z",
+                    "updated_at": "2022-02-22T23:44:32.000Z",
+                    "pivot": {
+                        "discipline_id": 1112,
+                        "question_id": 12844
+                    }
+                },
+                {
+                    "id": 66,
+                    "title": "Endocrinologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-26T15:03:36.000Z",
+                    "updated_at": "2020-05-26T15:03:36.000Z",
+                    "pivot": {
+                        "discipline_id": 66,
+                        "question_id": 12844
+                    }
+                },
+                {
+                    "id": 270,
+                    "title": "Outros Psicofármacos",
+                    "description": null,
+                    "parent_id": 179,
+                    "is_enabled": true,
+                    "created_at": "2020-06-29T20:21:03.000Z",
+                    "updated_at": "2022-02-14T18:33:03.000Z",
+                    "pivot": {
+                        "discipline_id": 270,
+                        "question_id": 12844
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 52693,
+                    "question_id": 12844,
+                    "description": "Risperidona.",
+                    "explanation": "Boa doc 🤓! Os antipsicóticos atuam inbindo a ação da dopamina. A dopamina é responsável por inibir a secreção de prolactina na hipófise, logo, a diminuição da dopamina faz os níveis de prolactina aumentarem.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-02-23T02:53:34.000Z",
+                    "updated_at": "2022-02-23T02:53:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52694,
+                    "question_id": 12844,
+                    "description": "Furosemida.",
+                    "explanation": "Falso doc. Não existe correlação entre os diuréticos de alça e hiperprolactinemia.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-02-23T02:53:34.000Z",
+                    "updated_at": "2022-02-23T02:53:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52695,
+                    "question_id": 12844,
+                    "description": "Cabergolina.",
+                    "explanation": "Incorreto doc! A cabergolina é um agonista dopaminérgico, e, pelo contrário, é utilizado no tratamento da hiperprolactinemia: a dopamina é responsável por diminuir a produção de prolactina, assim, **agonistas dopaminérgicos tratam a hiperprolactinemia.**",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-02-23T02:53:34.000Z",
+                    "updated_at": "2022-02-23T02:53:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52696,
+                    "question_id": 12844,
+                    "description": "Ondansetrona.",
+                    "explanation": "Faaalso doc! A ondansetrona não altera os níveis plasmáticos de prolactina. \nPelo  contrário, a metoclopramida, outro anti-emético, aumenta os níveis de prolactina, sendo inclusive utilizado para esse fim.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-02-23T02:53:34.000Z",
+                    "updated_at": "2022-02-23T02:53:34.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12844,
+                "questionary_id": 266656,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12845,
+            "institution_id": null,
+            "description": "Dentre os tumores hipofisários, assinale o hormônio cuja secreção é a mais frequente:",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-02-23T04:06:34.000Z",
+            "updated_at": "2022-02-23T04:06:34.000Z",
+            "user_id": 2296,
+            "is_residency": false,
+            "institution": null,
+            "disciplines": [
+                {
+                    "id": 1112,
+                    "title": "Hiperprolactinemia",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2022-02-22T23:44:32.000Z",
+                    "updated_at": "2022-02-22T23:44:32.000Z",
+                    "pivot": {
+                        "discipline_id": 1112,
+                        "question_id": 12845
+                    }
+                },
+                {
+                    "id": 66,
+                    "title": "Endocrinologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-26T15:03:36.000Z",
+                    "updated_at": "2020-05-26T15:03:36.000Z",
+                    "pivot": {
+                        "discipline_id": 66,
+                        "question_id": 12845
+                    }
+                },
+                {
+                    "id": 1083,
+                    "title": "Tumores Benignos Primários do SNC",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2022-02-01T15:38:45.000Z",
+                    "updated_at": "2022-02-01T15:38:45.000Z",
+                    "pivot": {
+                        "discipline_id": 1083,
+                        "question_id": 12845
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 52697,
+                    "question_id": 12845,
+                    "description": "ACTH.",
+                    "explanation": "Falso doc! Os tumores secretores de ACTH são o terceiro subtipo mais comum, após os secretores de prolactina e os secretores de GH.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-02-23T04:06:34.000Z",
+                    "updated_at": "2022-02-23T04:06:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52698,
+                    "question_id": 12845,
+                    "description": "Prolactina.",
+                    "explanation": "Correto doc!!! 😁 Os tumores secretores de prolactina são os mais comuns, seguidos pelos secretores de GH e pelos de ACTH.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-02-23T04:06:34.000Z",
+                    "updated_at": "2022-02-23T04:06:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52699,
+                    "question_id": 12845,
+                    "description": "GH.",
+                    "explanation": "Incorreta doc! Os tumores secretores de GH são o segundo subtipo mais comum, logo atrás dos prolactinomas.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-02-23T04:06:34.000Z",
+                    "updated_at": "2022-02-23T04:06:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52700,
+                    "question_id": 12845,
+                    "description": "Estrogênio.",
+                    "explanation": "Errado doc. O estrogênio não é produzido ou armazenado na hipófise.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-02-23T04:06:34.000Z",
+                    "updated_at": "2022-02-23T04:06:34.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12845,
+                "questionary_id": 266656,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12846,
+            "institution_id": 4,
+            "description": "Uma mulher de 27 anos tem apresentado a saída espontânea de líquido claro das mamas, bilateralmente. Também,  há 2 meses não menstrua. Dentre os diagnósticos abaixo, qual não entra como diferencial?",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-02-23T04:50:54.000Z",
+            "updated_at": "2022-02-23T04:50:54.000Z",
+            "user_id": 2296,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 66,
+                    "title": "Endocrinologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-26T15:03:36.000Z",
+                    "updated_at": "2020-05-26T15:03:36.000Z",
+                    "pivot": {
+                        "discipline_id": 66,
+                        "question_id": 12846
+                    }
+                },
+                {
+                    "id": 1112,
+                    "title": "Hiperprolactinemia",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2022-02-22T23:44:32.000Z",
+                    "updated_at": "2022-02-22T23:44:32.000Z",
+                    "pivot": {
+                        "discipline_id": 1112,
+                        "question_id": 12846
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 52701,
+                    "question_id": 12846,
+                    "description": "Adenoma hipofisário.",
+                    "explanation": "Boa doc! Essa alternativa é correta: o adenoma hipofisário produtor de prolactina pode causar amenorreia e lactação.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-02-23T04:50:54.000Z",
+                    "updated_at": "2022-02-23T04:50:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52702,
+                    "question_id": 12846,
+                    "description": "Uso de risperidona.",
+                    "explanation": "Essa alternativa é correta doc! O uso de antipsicóticos que antagonizam as ações da dopamina, podem levar à hiperprolactinemia. Isso porquê a dopamina modula negativamente a secreção de prolactina. \nNíveis altos de prolactina impedem a ovulação e causam lactação.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-02-23T04:50:54.000Z",
+                    "updated_at": "2022-02-23T04:50:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52703,
+                    "question_id": 12846,
+                    "description": "Gravidez.",
+                    "explanation": "Ceerrrto doc! Essa alternativa está certa: deve-se solicitar um beta-HCG para essa paciente, pois a gravidez também cursa com amenorreia e lactação.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-02-23T04:50:54.000Z",
+                    "updated_at": "2022-02-23T04:50:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 52704,
+                    "question_id": 12846,
+                    "description": "Hipertireoidismo.",
+                    "explanation": "BOA DOC! 🤗 Essa alternativa está errada. O hipertireoidismo não é diagnóstico diferencial nesse caso, pois não se relaciona à níveis aumentados de prolactina. \nO hipotireoidismo, pelo contrário, é causa de hiperprolactinemia, pois causa aumento do TRH. O TRH, por sua vez, estimula primariamente as células que produzem o TSH, mas também estimula os lactotrófos.\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2022-02-23T04:50:54.000Z",
+                    "updated_at": "2022-02-23T04:50:54.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12846,
+                "questionary_id": 266656,
+                "timer": 0
+            }
+        }
+    ]
+}

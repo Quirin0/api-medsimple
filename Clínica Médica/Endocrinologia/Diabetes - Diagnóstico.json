@@ -1,0 +1,1706 @@
+{
+    "id": 266662,
+    "user_id": 1699,
+    "title": "Diabetes - Diagnóstico",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-09T03:52:03.000Z",
+    "updated_at": "2022-07-09T03:52:03.000Z",
+    "study_plan_id": 95,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 1096,
+            "institution_id": 4,
+            "description": "São indicações para o rastreamento de diabetes, **EXCETO:**",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T14:46:45.000Z",
+            "updated_at": "2021-09-23T03:01:38.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 132,
+                    "title": "Diabetes - Diagnóstico",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2020-06-02T14:39:09.000Z",
+                    "updated_at": "2020-08-19T19:35:03.000Z",
+                    "pivot": {
+                        "discipline_id": 132,
+                        "question_id": 1096
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4503,
+                    "question_id": 1096,
+                    "description": "qualquer pessoa a partir dos 40 anos de idade",
+                    "explanation": "Falso doc! Pegadinha hein!😋. **A idade de cort**e para pacientes sem sobrepeso/obesidade começarem o rastreamento para diabetes, segundo o Ministério da Saúde, é de **45 anos.** Doc, se liga nessa tabelinha com as principais indicações de rastreamento da última diretriz de diabetes de 2019/2020👇\n- Fonte: [https://diabetes.org.br/e-book/diretrizes-da-sociedade-brasileira-de-diabetes-2017-2018/](https://www.diabetes.org.br/profissionais/images/DIRETRIZES-COMPLETA-2019-2020.pdf)",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-02T11:46:45.000Z",
+                    "updated_at": "2021-09-23T00:01:38.000Z",
+                    "files": [
+                        {
+                            "id": 12080,
+                            "file": "70145315-5405-4cf7-b2cf-a8aeb4fec77b.jpeg",
+                            "name": "00000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-23T22:53:24.000Z",
+                            "updated_at": "2021-06-23T22:53:24.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/70145315-5405-4cf7-b2cf-a8aeb4fec77b.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12080,
+                                "alternative_id": 4503
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4504,
+                    "question_id": 1096,
+                    "description": "indivíduos com sobrepeso + sedentarismo",
+                    "explanation": "Perfeito doc! O sobrepeso é identificado a partir de **IMC > 25 kg/m2.** Outros exemplos aliados ao sobrepeso que devemos começar o rastreio é a etnicidade de risco (negro, hispânico, asiático, etc), história de doença cardiovascular, história de glicemia alterada, outras doenças metabólicas. Saca só essa tabelinha doc👇\n- Fonte: https://www.diabetes.org.br/profissionais/images/DIRETRIZES-COMPLETA-2019-2020.pdf",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-02T11:46:45.000Z",
+                    "updated_at": "2021-09-23T00:01:38.000Z",
+                    "files": [
+                        {
+                            "id": 12080,
+                            "file": "70145315-5405-4cf7-b2cf-a8aeb4fec77b.jpeg",
+                            "name": "00000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-23T22:53:24.000Z",
+                            "updated_at": "2021-06-23T22:53:24.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/70145315-5405-4cf7-b2cf-a8aeb4fec77b.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12080,
+                                "alternative_id": 4504
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4505,
+                    "question_id": 1096,
+                    "description": "indivíduos com sobrepeso + hipertensos",
+                    "explanation": "Perfeito doc! O sobrepeso é identificado a partir de **IMC > 25 kg/m2.** Outros exemplos aliados ao sobrepeso que devemos começar o rastreio é a etnicidade de risco(negro, hispânico, asiático, etc), história de doença cardiovascular, história de glicemia alterada, outras doenças metabólicas.  Saca só essa tabelinha doc👇\n- Fonte: https://www.diabetes.org.br/profissionais/images/DIRETRIZES-COMPLETA-2019-2020.pdf",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-02T11:46:45.000Z",
+                    "updated_at": "2021-09-23T00:01:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4506,
+                    "question_id": 1096,
+                    "description": "indivíduos com sobrepeso +  história familiar de DM em parente de primeiro grau.",
+                    "explanation": "Perfeito doc! O sobrepeso é identificado a partir de **IMC > 25 kg/m2.** Outros exemplos aliados ao **sobrepeso** que devemos começar **o rastreio** é a etnicidade de risco(negro, hispânico, asiático, etc), história de doença cardiovascular, história de glicemia alterada, outras doenças metabólicas. Se liga nessa tabelinha doc👇\n- Fonte: https://www.diabetes.org.br/profissionais/images/DIRETRIZES-COMPLETA-2019-2020.pdf ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-02T11:46:45.000Z",
+                    "updated_at": "2021-09-23T00:01:38.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1096,
+                "questionary_id": 266662,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1097,
+            "institution_id": 4,
+            "description": "É um dos critérios para diagnóstico de diabetes, **EXCETO:**",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T14:55:42.000Z",
+            "updated_at": "2021-06-24T23:05:58.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 132,
+                    "title": "Diabetes - Diagnóstico",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2020-06-02T14:39:09.000Z",
+                    "updated_at": "2020-08-19T19:35:03.000Z",
+                    "pivot": {
+                        "discipline_id": 132,
+                        "question_id": 1097
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4507,
+                    "question_id": 1097,
+                    "description": "Glicemia de jejum ≥ 126 mg/dl em, pelo menos, duas ocasiões.",
+                    "explanation": "Perfeito doc! O diagnóstico exige **dois resultados anormais** de uma mesma amostra ou em **duas amostras** de teste separadas. Segundo os Critérios diagnósticos de Diabetes ADA 2019, a **Glicemia de jejum ≥126 mg / dL** faz o diagnóstico de diabetes. Doc, se liga nessa tabelinha da Associação Brasileira de Diabetes👇\n- Fonte: https://www.diabetes.org.br/profissionais/images/DIRETRIZES-COMPLETA-2019-2020.pdf",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-02T11:55:42.000Z",
+                    "updated_at": "2021-06-24T20:05:58.000Z",
+                    "files": [
+                        {
+                            "id": 12081,
+                            "file": "a69948a7-3f40-49e6-9d9e-08b706c46120.jpeg",
+                            "name": "00000000000000000000000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-23T23:01:44.000Z",
+                            "updated_at": "2021-06-23T23:01:44.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a69948a7-3f40-49e6-9d9e-08b706c46120.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12081,
+                                "alternative_id": 4507
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4508,
+                    "question_id": 1097,
+                    "description": "HbA1c≥ 6,5% em, pelo menos, duas ocasiões.",
+                    "explanation": "Perfeito doc! O diagnóstico exige **dois resultados anormais** de uma mesma amostra ou em **duas amostras** de teste separadas. Segundo os Critérios diagnósticos de Diabetes ADA 2019, a **A1C ≥6,5%** faz o diagnóstico de diabetes. Doc, para nunca mais esquecer, dá uma olhada nessa tabelinha👇\n- Fonte: https://www.diabetes.org.br/profissionais/images/DIRETRIZES-COMPLETA-2019-2020.pdf",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-02T11:55:42.000Z",
+                    "updated_at": "2021-06-24T20:05:58.000Z",
+                    "files": [
+                        {
+                            "id": 12081,
+                            "file": "a69948a7-3f40-49e6-9d9e-08b706c46120.jpeg",
+                            "name": "00000000000000000000000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-23T23:01:44.000Z",
+                            "updated_at": "2021-06-23T23:01:44.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a69948a7-3f40-49e6-9d9e-08b706c46120.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12081,
+                                "alternative_id": 4508
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4509,
+                    "question_id": 1097,
+                    "description": "TOTG-75 (2h) ≥ 140 mg/dl em, pelo menos, duas ocasiões.",
+                    "explanation": "Falso doc! Pegadinha do malandro!😎 Segundo os Critérios diagnósticos de Diabetes ADA 2019, a **Glicemia plasmática após 2h do TOTG ≥200 mg / d**L é que faz o diagnóstico de diabetes. Lembrando, doc, que o teste deve ser feito em duas ocasiões para que se possa confirmar o diagnóstico de diabetes mellitus, a não ser que o paciente possua sintomas clássicos, como poliúria, polifagia e polidipsia. Aí basta solicitar uma glicemia ao acaso e caso essa venha >= 200 mg/dL temos o diagnóstico de DM. Agora para nunca mais esquecer, se liga nessa tabelinha👇\n- Fonte: https://www.diabetes.org.br/profissionais/images/DIRETRIZES-COMPLETA-2019-2020.pdf",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-02T11:55:42.000Z",
+                    "updated_at": "2021-06-24T20:05:58.000Z",
+                    "files": [
+                        {
+                            "id": 12111,
+                            "file": "f8f420e8-68e8-4d69-ba32-c27ed6ff2591.jpeg",
+                            "name": "00000000000000000000000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-24T20:05:40.000Z",
+                            "updated_at": "2021-06-24T20:05:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f8f420e8-68e8-4d69-ba32-c27ed6ff2591.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12111,
+                                "alternative_id": 4509
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4510,
+                    "question_id": 1097,
+                    "description": "Paciente com sintomas clássicos de hiperglicemia com uma glicose plasmática aleatória ≥200 mg / dL.",
+                    "explanation": "Perfeito doc! Nesse caso, pode-se realizar o diagnóstico de diabetes **com um exame apenas💡.** Saca só essa tabelinha doc👇\n- Fonte: https://www.diabetes.org.br/profissionais/images/DIRETRIZES-COMPLETA-2019-2020.pdf",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-02T11:55:42.000Z",
+                    "updated_at": "2021-06-24T20:05:58.000Z",
+                    "files": [
+                        {
+                            "id": 12081,
+                            "file": "a69948a7-3f40-49e6-9d9e-08b706c46120.jpeg",
+                            "name": "00000000000000000000000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-23T23:01:44.000Z",
+                            "updated_at": "2021-06-23T23:01:44.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a69948a7-3f40-49e6-9d9e-08b706c46120.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12081,
+                                "alternative_id": 4510
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1097,
+                "questionary_id": 266662,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1100,
+            "institution_id": 5,
+            "description": "A maioria dos casos do Diabetes tipo 2 está associada a duas condições clínicas, quais sejam:",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T13:03:01.000Z",
+            "updated_at": "2021-06-23T20:23:23.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 5,
+                "title": "AMRIGS",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T13:59:53.000Z",
+                "updated_at": "2020-05-17T13:59:53.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 132,
+                    "title": "Diabetes - Diagnóstico",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2020-06-02T14:39:09.000Z",
+                    "updated_at": "2020-08-19T19:35:03.000Z",
+                    "pivot": {
+                        "discipline_id": 132,
+                        "question_id": 1100
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4519,
+                    "question_id": 1100,
+                    "description": "alcoolismo e dieta rica em carboidratos",
+                    "explanation": "Falso doc! Podem estar juntos e contribuir para o desenvolvimento do DM2! Contudo, não são a**s principais causas,** entre as alternativas, do desenvolvimento desta patologia.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-02T13:03:01.000Z",
+                    "updated_at": "2021-06-23T20:23:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4520,
+                    "question_id": 1100,
+                    "description": "sobrepeso e sedentarismo",
+                    "explanation": "Perfeito doc! Arrasou demais! 😍Habitualmente, o diabetes mellitus tipo 2 surge após os 40 anos de idade, e 80% dos pacientes afetados possuem obesidade/sobrepeso. O sedentarismo e o sobrepeso são as duas alternativas que têm o maior peso no desenvolvimento dessa doença, de modo que o risco aumenta à medida que aumenta o IMC. A idade avançada também é um fator de risco importante, no entanto, cada vez mais tem-se visto pacientes jovens com DM2. Doc, para nunca mais esquecer se liga nos principais fatores de risco para o desenvolvimento de DM2👇\n- sobrepeso/obesidade\n- sedentarismo\n- idade avançada\n- dislipidemia\n- síndrome dos ovários policísticos\n- diabetes gestacional\n- pré-diabetes\n- ascendência não-branca\n- hipertensão arterial\n- histórico familiar de DM2\n- estresse\n- doenças cardiovasculares",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-02T13:03:01.000Z",
+                    "updated_at": "2021-06-23T20:23:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4521,
+                    "question_id": 1100,
+                    "description": "erro alimentar e imunidade",
+                    "explanation": "Falso doc! O erro alimentar e a imunidade são sim considerados fatores relacionados ao desenvolvimento de DM2, no entanto, não são os principais. Doc, é só lembrar que cerca de 80% dos pacientes com DM2 possuem sobrepeso/obesidade que, aliado ao sedentarismo, constituem os principais fatores de risco!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-02T13:03:01.000Z",
+                    "updated_at": "2021-06-23T20:23:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4522,
+                    "question_id": 1100,
+                    "description": "idade avançada e intoxicações",
+                    "explanation": "Falso doc! Embora a idade avançada seja um fator importante para o desenvolvimento do DM2, cada vez mais tem se visto jovens com DM2, haja vista as mudanças nos hábitos alimentares, aumento do sedentarismo e da prevalência de sobrepeso/obesidade. Doc, é importante lembrar que o risco de DM2 aumenta à medida que aumenta o IMC do paciente!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-02T13:03:01.000Z",
+                    "updated_at": "2021-06-23T20:23:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1100,
+                "questionary_id": 266662,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1101,
+            "institution_id": 102,
+            "description": "Todas as assertivas abaixo são fatores isolados de maior risco para Diabetes tipo 2, **EXCETO:**\n",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T16:07:32.000Z",
+            "updated_at": "2021-06-24T00:22:35.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 102,
+                "title": "AMSL",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-06-02T13:07:32.000Z",
+                "updated_at": "2020-06-02T13:07:32.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 132,
+                    "title": "Diabetes - Diagnóstico",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2020-06-02T14:39:09.000Z",
+                    "updated_at": "2020-08-19T19:35:03.000Z",
+                    "pivot": {
+                        "discipline_id": 132,
+                        "question_id": 1101
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4523,
+                    "question_id": 1101,
+                    "description": "idade < 30 anos",
+                    "explanation": "Falso doc! Pegadinha!😋 A idade **acima de 45 ano**s é um fator de risco para o desenvolvimento do **diabetes tipo 2**. Tanto que, todos os indivíduos acima desta idade **devem ser rastreados para a doença.** Doc, se liga nos principais fatores de risco para o desenvolvimento de DM2👇\n- sedentarismo\n- sobrepeso/obesidade\n- idade avançada\n- hipertensão arterial\n- dislipidemia\n- síndrome dos ovários policísticos\n- pré-diabetes e diabetes gestacional\n- doenças cardiovassculares\n- estresse\n- história familiar de DM2",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-02T13:07:32.000Z",
+                    "updated_at": "2021-06-23T21:22:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4524,
+                    "question_id": 1101,
+                    "description": "sobrepeso (Índice de Massa Corporal IMC > 25)",
+                    "explanation": "Perfeito doc! O sobrepeso é um dos principais fatores de risco para do desenvolvimento de **diabetes mellitus tipo 2!**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-02T13:07:32.000Z",
+                    "updated_at": "2021-06-23T21:22:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4525,
+                    "question_id": 1101,
+                    "description": "antecedente familiar (mãe ou pai) de diabetes",
+                    "explanation": "Perfeito doc! Na DM2 existe um componente familiar muito importante, sendo um dos principais fatores de risco para do desenvolvimento de **diabetes mellitus tipo 2.**",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-02T13:07:32.000Z",
+                    "updated_at": "2021-06-23T21:22:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4526,
+                    "question_id": 1101,
+                    "description": "história de macrossomia ou diabetes gestacional",
+                    "explanation": "Perfeito doc! A macrossomia está relacionada à diabetes gestacional, que é um fator de risco importantíssimo para o desenvolvimento de diabetes mellitus do tipo 2. Doc, esse risco é tão importante que 6 semanas após o parto é importante que a gestante que teve diabetes gestacional seja rastreada quando à presença de DM2, como desmontrado no fluxograma abaixo👇\n- Fonte: https://docs.bvsalud.org/biblioref/2019/12/1046553/femina-2019-4711-786-796.pdf",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-02T13:07:32.000Z",
+                    "updated_at": "2021-06-23T21:22:35.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1101,
+                "questionary_id": 266662,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1104,
+            "institution_id": 4,
+            "description": "São medidas preventivas recomendadas no pré-diabetes, **EXCETO:**",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T19:46:01.000Z",
+            "updated_at": "2021-06-24T00:38:59.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 132,
+                    "title": "Diabetes - Diagnóstico",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2020-06-02T14:39:09.000Z",
+                    "updated_at": "2020-08-19T19:35:03.000Z",
+                    "pivot": {
+                        "discipline_id": 132,
+                        "question_id": 1104
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4535,
+                    "question_id": 1104,
+                    "description": "Praticar exercícios",
+                    "explanation": "Perfeito doc! A prática de exercícios aeróbicos > 150 minutos/semanais mostrou-se eficiente na redução dos níveis glicêmicos. Doc, é importante que o paciente mantenha-se fazendo atividade física, sendo a principal recomendação >150 minutos/semana de atividade aeróbia de moderada à alta intensidade, associada a 2-3 sessões semanais de atividades de fortalecimento muscular. Doc, para nunca mais esquecer, se liga nesse fluxograma👇\n- Fonte: https://www.diabetes.org.br/profissionais/images/DIRETRIZES-COMPLETA-2019-2020.pdf",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-02T16:46:01.000Z",
+                    "updated_at": "2021-06-23T21:38:59.000Z",
+                    "files": [
+                        {
+                            "id": 12084,
+                            "file": "e81cdb09-527c-46eb-b6ba-4bd326b56290.jpeg",
+                            "name": "000000000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-23T21:34:47.000Z",
+                            "updated_at": "2021-06-23T21:34:47.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e81cdb09-527c-46eb-b6ba-4bd326b56290.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12084,
+                                "alternative_id": 4535
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4536,
+                    "question_id": 1104,
+                    "description": "Consultas com o médico para reforçar metas",
+                    "explanation": "Perfeito doc! Existe uma associação positiva em consultas com o profissional da saúde a as metas glicêmicas atingidas. Doc, existe uma recomendação de até 16 consultas em 6 meses durante o tratamento inicial de pacientes com DM, focando em dietoterapia, exercício físico e mudanças gerais no hábito de vida.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-02T16:46:01.000Z",
+                    "updated_at": "2021-06-23T21:38:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4537,
+                    "question_id": 1104,
+                    "description": "Administração de metformina",
+                    "explanation": "Falso doc! A metformina é recomendada no tratamento do pré-diabetes apenas para **pacientes com alto risco.** O tratamento padrão são medidas de dieta e exercício físico, isto é, mudanças de hábitos de vida🍎🎽. Doc, lembrando que não existe uma dieta ideal e sim recomenda-se a redução de carboidratos, evitar gorduras trans, aumento do consumo de fibras, cessar tabagismo e evitar o consumo excessivo de álcool. Quando à atividade física, é recomendado pelo menos 150 minutos por semana de atividade aeróbica associada a 2-3 sessões semanais de treinos de fortalecimento muscular! Doc, sobre a prática de exercício físico, saca só esse fluxograma👇\n- Fonte: https://www.diabetes.org.br/profissionais/images/DIRETRIZES-COMPLETA-2019-2020.pdf",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-02T16:46:01.000Z",
+                    "updated_at": "2021-06-23T21:38:59.000Z",
+                    "files": [
+                        {
+                            "id": 12084,
+                            "file": "e81cdb09-527c-46eb-b6ba-4bd326b56290.jpeg",
+                            "name": "000000000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-23T21:34:47.000Z",
+                            "updated_at": "2021-06-23T21:34:47.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e81cdb09-527c-46eb-b6ba-4bd326b56290.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12084,
+                                "alternative_id": 4537
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4538,
+                    "question_id": 1104,
+                    "description": "Realização de exames anuais para rastreio do DM.",
+                    "explanation": "Perfeito doc! O rastreio anual é uma das medidas preventivas, já que rastreia o estado da doença em que o paciente se encontra. Lembrando que rastreamos anualmente pacientes com pré-diabetes e pacientes com glicemia normal porém alto risco para o desenvolvimento de DM2!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-02T16:46:01.000Z",
+                    "updated_at": "2021-06-23T21:38:59.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1104,
+                "questionary_id": 266662,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1106,
+            "institution_id": 4,
+            "description": "É uma manifestação cutânea comum na resistência insulínica:",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T17:07:56.000Z",
+            "updated_at": "2021-06-23T21:46:52.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 132,
+                    "title": "Diabetes - Diagnóstico",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2020-06-02T14:39:09.000Z",
+                    "updated_at": "2020-08-19T19:35:03.000Z",
+                    "pivot": {
+                        "discipline_id": 132,
+                        "question_id": 1106
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4544,
+                    "question_id": 1106,
+                    "description": "Herpes",
+                    "explanation": "Falso doc! Questão mais conceitual. A lesão dermatológica clássica do paciente com resistência insulínica é a **acantose nigricans!** A Herpes pode sim apresentar-se associada quando há imunodepressão do paciente, porém não é uma lesão classica de resistência à insulina!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-02T17:07:56.000Z",
+                    "updated_at": "2021-06-23T21:46:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4545,
+                    "question_id": 1106,
+                    "description": "Eczema agudo",
+                    "explanation": "Falso doc! Questão mais conceitual. A lesão dermatológica clássica do paciente com resistência insulínica é a **acantose nigricans!** ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-02T17:07:56.000Z",
+                    "updated_at": "2021-06-23T21:46:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4546,
+                    "question_id": 1106,
+                    "description": "Xantoma",
+                    "explanation": "Falso doc! Questão mais conceitual! Xantomas são depósitos lipídicos que ocorrem em regiões de cotovelo, glúteo, joelhos, mãos e pés, e estão relacionados a quadros avançados de dislipidemia! Quando presentes nas pálpebras, chamamos essa deposição de xantelasmas! Se liga nesse exemplo doc👇\n- Fonte: http://www.semioblog.website/2009/12/xantomas.html ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-02T17:07:56.000Z",
+                    "updated_at": "2021-06-23T21:46:52.000Z",
+                    "files": [
+                        {
+                            "id": 12085,
+                            "file": "bd6fb083-0503-4290-b3d6-997b018b1fb2.jpeg",
+                            "name": "xantom1.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-23T21:42:45.000Z",
+                            "updated_at": "2021-06-23T21:42:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/bd6fb083-0503-4290-b3d6-997b018b1fb2.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12085,
+                                "alternative_id": 4546
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4547,
+                    "question_id": 1106,
+                    "description": "Acantose",
+                    "explanation": "Perfeito doc! Que orgulho!😍 A acantose nigricans é uma lesão aveludada e escura que predomina em áreas de dobra cutânea. É uma lesão típica de pacientes com resistência à insulina. Aparece devido a estimulação de queratinócitos e fibroblastos da pele pela hiperinsulinemia. Doc, se liga nesses exemplos👇\n- Fonte imagem 1: https://drasuzanavieira.med.br/2015/05/05/acantose-nigricante/\n- Fonte imagem 2: https://mipmed.com/Acanthosis-nigricans-axilas-dobras-cutaneas-escurecidas\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-02T17:07:56.000Z",
+                    "updated_at": "2021-06-23T21:46:52.000Z",
+                    "files": [
+                        {
+                            "id": 12087,
+                            "file": "d98ee7be-2076-459d-9b0f-ae7cbea72312.jpeg",
+                            "name": "acantose-nigricans.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-23T21:45:48.000Z",
+                            "updated_at": "2021-06-23T21:45:48.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d98ee7be-2076-459d-9b0f-ae7cbea72312.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12087,
+                                "alternative_id": 4547
+                            }
+                        },
+                        {
+                            "id": 12088,
+                            "file": "0169efdf-6c8e-4d87-8526-7b68b1572b0d.jpeg",
+                            "name": "Dark-armpit-skin-could-be-acanthosis-nigricans-a-sign-of-diabetes-min-380x250.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-23T21:45:48.000Z",
+                            "updated_at": "2021-06-23T21:45:48.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/0169efdf-6c8e-4d87-8526-7b68b1572b0d.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12088,
+                                "alternative_id": 4547
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1106,
+                "questionary_id": 266662,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1098,
+            "institution_id": 4,
+            "description": "Assinale a **correta** sobre a diabetes mellitus tipo I:",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T15:17:47.000Z",
+            "updated_at": "2021-06-24T00:57:28.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 132,
+                    "title": "Diabetes - Diagnóstico",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2020-06-02T14:39:09.000Z",
+                    "updated_at": "2020-08-19T19:35:03.000Z",
+                    "pivot": {
+                        "discipline_id": 132,
+                        "question_id": 1098
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4511,
+                    "question_id": 1098,
+                    "description": "É uma doença diretamente relacionada a resistência a insulina",
+                    "explanation": "Falso doc! A diabetes tipo I é uma **doença autoimune.** Ou seja, temos uma resposta necroinflamatória nas ilhotas pancreáticas, culminando na destruição progressiva ds c**élulas betapancreáticas,** o que resulta em produção deficiente de insulina!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-02T12:17:47.000Z",
+                    "updated_at": "2021-06-23T21:57:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4512,
+                    "question_id": 1098,
+                    "description": "É mais comumente diagnosticado em crianças e adolescentes e frequentemente abre o quadro com cetoacidose",
+                    "explanation": "Perfeito doc! Arrasou demais!😍 Sobre a diabetes mellitus do tipo 1 tenha em mente o seguinte👇\n- é uma doença autoimune\n- mais comum em crianças e adolescentes\n- 1/3 dos pacientes abrem o quadro com cetoacidose\n- a associação familiar é menos comum do que na DM2\n- não possui relação com sobrepeso/obesidade\n- se não tratado precocemente, evolui com rápida deterioração clínica ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-02T12:17:47.000Z",
+                    "updated_at": "2021-06-23T21:57:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4513,
+                    "question_id": 1098,
+                    "description": "Frequentemente os pacientes são obesos ou tem alguma doença cardiovascular prévia, como hipertensão e dislipidemia",
+                    "explanation": "Falso doc! O perfil dos pacientes com diabetes tipo I está associado aos **4P: Polifagia, Polidipsia, Poliúria, Perda de Peso,** geralmente acometendo uma criança ou adolescente de forma abrupta!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-02T12:17:47.000Z",
+                    "updated_at": "2021-06-23T21:57:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4514,
+                    "question_id": 1098,
+                    "description": "O Anticorpo anti-insulinaé rotineiramente usado como auxiliador no diagnóstico",
+                    "explanation": "Falso doc! Podemos encontrar anticorpos na circulação de pacientes com diabetes tipo I chamados anticorpos Anti Células da Ilhota. Destes, os principais são **anti-insulina, anti-GAD e o anti-IA-2.** No entanto, não são utilizados rotineiramente para o estabelecimento diagnóstico!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-02T12:17:47.000Z",
+                    "updated_at": "2021-06-23T21:57:28.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1098,
+                "questionary_id": 266662,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1099,
+            "institution_id": 4,
+            "description": "Assinale a **INCORRETA** sobre diabetes mellitus tipo 2:",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T15:33:33.000Z",
+            "updated_at": "2021-10-16T18:58:12.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 132,
+                    "title": "Diabetes - Diagnóstico",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2020-06-02T14:39:09.000Z",
+                    "updated_at": "2020-08-19T19:35:03.000Z",
+                    "pivot": {
+                        "discipline_id": 132,
+                        "question_id": 1099
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4515,
+                    "question_id": 1099,
+                    "description": "A influência genética no DM tipo 1 é muito maior do que no DM tipo 2",
+                    "explanation": "Acertou, Doc! Essa é a **incorreta**! 😻 Eu sei que é um pouco contraintuitivo, mas a carga genética tem grande influência **no diabetes tipo** 2. Tanto é que a concordância do DM tipo 2 entre gêmeos univitelinos é **superior a 90**%, contra **apenas 30**% para o DM tipo 1. Doc, isso é tão verdade que durante o rastreamento consideramos a presença de sobrepeso/obesidade e histórico familiar positivo como indicativos de rastreio para DM2, como nessa tabelinha👇\n- Fonte: [https://www.diabetes.org.br/profissionais/images/DIRETRIZES-COMPLETA-2019-2020.pdf](https://www.diabetes.org.br/profissionais/images/DIRETRIZES-COMPLETA-2019-2020.pdf)",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-02T12:33:33.000Z",
+                    "updated_at": "2021-10-16T15:58:12.000Z",
+                    "files": [
+                        {
+                            "id": 12080,
+                            "file": "70145315-5405-4cf7-b2cf-a8aeb4fec77b.jpeg",
+                            "name": "00000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-23T22:53:24.000Z",
+                            "updated_at": "2021-06-23T22:53:24.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/70145315-5405-4cf7-b2cf-a8aeb4fec77b.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12080,
+                                "alternative_id": 4515
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4516,
+                    "question_id": 1099,
+                    "description": "A maioria dos pacientes com DM2 são obesos",
+                    "explanation": "Essa está correta, Doc! 😉 Mais de **80% dos pacientes com diabetes tipo 2 são obeso**s do tipo abdominovisceral. Contudo, é importante ter em mente que apenas um pequena parte dos pacientes com obesidade abdominovisceral ficam diabéticos! Doc, não é a toa que consideramos a obesidade/sobrepeso e o sedentarismo os principais fatores de risco relacionados ao desenvolvimento de DM2!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-02T12:33:33.000Z",
+                    "updated_at": "2021-10-16T15:58:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4517,
+                    "question_id": 1099,
+                    "description": "A resistência à insulina está relacionada a gênese da doença",
+                    "explanation": "Essa está correta, Doc! 😉 Raciocina comigo👇\n- antes, a insulina precisava abrir uma fechadura para fazer com que a glicose entrasse na célula\n- contudo, com a resistência à insulina, a mesma insulina precisa abrir 4 portas para a glicose entrar.\n- com isso, o corpo aumenta a secreção da insulina para compensar essa maior demanda\n- por isso, é comum um estado de hiperinsulinismo associado a hiperglicemia",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-02T12:33:33.000Z",
+                    "updated_at": "2021-10-16T15:58:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4518,
+                    "question_id": 1099,
+                    "description": "Habitualmente o diagnóstico da diabetes tipo II é tardio",
+                    "explanation": "Essa está correta, Doc! 😉 Esse é o motivo é que muitos pacientes passam anos ou mesmo décadas completamente assintomáticos e evoluem diretamente com complicações micro ou macrovasculares da doença!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-02T12:33:33.000Z",
+                    "updated_at": "2021-10-16T15:58:12.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1099,
+                "questionary_id": 266662,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1102,
+            "institution_id": 4,
+            "description": "Sobre o diabetes tipo MODY e LADA, assinale a **correta:**",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T17:45:15.000Z",
+            "updated_at": "2021-06-26T21:57:07.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 132,
+                    "title": "Diabetes - Diagnóstico",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2020-06-02T14:39:09.000Z",
+                    "updated_at": "2020-08-19T19:35:03.000Z",
+                    "pivot": {
+                        "discipline_id": 132,
+                        "question_id": 1102
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4527,
+                    "question_id": 1102,
+                    "description": "O LADA acomete mais crianças e adolescentes",
+                    "explanation": "Falso doc! Pegadinha hein!😋 Na realidade, o MODY é uma forma hereditária de DM em que **crianças e adolescente**s são acometidos precocemente com um quadro parecido com **o DM tipo 2,** enquanto o LADA é a forma latente da DM1, que acomete indivíduos mais velhos!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-02T14:45:15.000Z",
+                    "updated_at": "2021-06-26T18:57:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4528,
+                    "question_id": 1102,
+                    "description": "A maioria dos pacientes com diabetes tipo MODY são obesos",
+                    "explanation": "Falso doc! Pegadinha!😋Ao contrário, a grande maioria não apresenta **obesidade.** Doc, é como se fosse a DM2, só que é um quadro hereditário que acomete crianças e adolescentes, não tendo associação com sobrepeso/obesidade, diferente da DM2 no adulto, em que mais de 80% dos pacientes possuem sobrepeso/obesidade!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-02T14:45:15.000Z",
+                    "updated_at": "2021-06-26T18:57:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4529,
+                    "question_id": 1102,
+                    "description": "O LADA aparece em indivíduos mais velhos",
+                    "explanation": "Perfeito doc! Que orgulho!😍 Aparece também de forma lenta, gradual. Contudo, algum dia o hipoinsulinismo absoluto se estabelece, produzindo manifestações clínicas mais características de **DM tipo 1.** Doc, para nunca mais esquecer👇\n- LADA - Latente e Autoimune (parecido com DM1).\n- MODY - Mature Onset (começo precoce) Diabetes of the Young (jovem), parecido com o DM2.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-02T14:45:15.000Z",
+                    "updated_at": "2021-06-26T18:57:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4530,
+                    "question_id": 1102,
+                    "description": "O diabetes do tipo MODY aparece em indivíduos mais velhos",
+                    "explanation": "Falso doc! É o contrário! O MODY é uma forma hereditária de DM em que **crianças e adolescentes** são acometidos precocemente. Os pacientes desenvolvem um quadro muito parecido com DM2!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-02T14:45:15.000Z",
+                    "updated_at": "2021-06-26T18:57:07.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1102,
+                "questionary_id": 266662,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1103,
+            "institution_id": 4,
+            "description": "São considerados estado pré-diabético, **EXCETO:**",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T18:02:16.000Z",
+            "updated_at": "2022-03-26T13:54:34.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 132,
+                    "title": "Diabetes - Diagnóstico",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2020-06-02T14:39:09.000Z",
+                    "updated_at": "2020-08-19T19:35:03.000Z",
+                    "pivot": {
+                        "discipline_id": 132,
+                        "question_id": 1103
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4531,
+                    "question_id": 1103,
+                    "description": "Glicemia de jejum de 110 mg/dL.",
+                    "explanation": "Essa não é a resposta, Doc! Para considerarmos um estado pré-diabético, temos que ter uma glicemia de jejum **entre 100-125 mg/dL.✅** Saca só essa tabela doc👇\nFonte: [https://www.diabetes.org.br/profissionais/images/DIRETRIZES-COMPLETA-2019-2020.pdf](https://www.diabetes.org.br/profissionais/images/DIRETRIZES-COMPLETA-2019-2020.pdf)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-02T15:02:16.000Z",
+                    "updated_at": "2022-03-26T13:54:34.000Z",
+                    "files": [
+                        {
+                            "id": 12081,
+                            "file": "a69948a7-3f40-49e6-9d9e-08b706c46120.jpeg",
+                            "name": "00000000000000000000000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-23T23:01:44.000Z",
+                            "updated_at": "2021-06-23T23:01:44.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a69948a7-3f40-49e6-9d9e-08b706c46120.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12081,
+                                "alternative_id": 4531
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4532,
+                    "question_id": 1103,
+                    "description": "Glicemia de jejum de 124 mg/dL.",
+                    "explanation": "Essa não é a resposta, Doc! Para considerarmos um estado pré-diabético, temos que ter uma glicemia de jejum **entre 100-125 mg/dL. ✅** Se liga nessa tabela doc👇\n- Fonte: [https://www.diabetes.org.br/profissionais/images/DIRETRIZES-COMPLETA-2019-2020.pdf](https://www.diabetes.org.br/profissionais/images/DIRETRIZES-COMPLETA-2019-2020.pdf)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-02T15:02:16.000Z",
+                    "updated_at": "2022-03-26T13:54:34.000Z",
+                    "files": [
+                        {
+                            "id": 12081,
+                            "file": "a69948a7-3f40-49e6-9d9e-08b706c46120.jpeg",
+                            "name": "00000000000000000000000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-23T23:01:44.000Z",
+                            "updated_at": "2021-06-23T23:01:44.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a69948a7-3f40-49e6-9d9e-08b706c46120.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12081,
+                                "alternative_id": 4532
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4533,
+                    "question_id": 1103,
+                    "description": "Glicemia de 189 mg/dL após 2 horas do TOTG 75.",
+                    "explanation": "Verdadeiro Doc! Para considerarmos um estado pré-diabético, temos que ter uma glicemia entre **140-199 mg/dL,** 2h após o TOTG 75**✅** Doc, se liga nessa tabela👇\n- Fonte: [https://www.diabetes.org.br/profissionais/images/DIRETRIZES-COMPLETA-2019-2020.pdf](https://www.diabetes.org.br/profissionais/images/DIRETRIZES-COMPLETA-2019-2020.pdf)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-02T15:02:16.000Z",
+                    "updated_at": "2022-03-26T13:54:34.000Z",
+                    "files": [
+                        {
+                            "id": 12081,
+                            "file": "a69948a7-3f40-49e6-9d9e-08b706c46120.jpeg",
+                            "name": "00000000000000000000000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-23T23:01:44.000Z",
+                            "updated_at": "2021-06-23T23:01:44.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a69948a7-3f40-49e6-9d9e-08b706c46120.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12081,
+                                "alternative_id": 4533
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4534,
+                    "question_id": 1103,
+                    "description": "Hemoglobina Glicada de 5,5%.",
+                    "explanation": "Acertou, Doc! Essa é a incorreta! Para considerarmos um estado pré-diabético, temos que ter a Hemoglobina Glicada (A1C) entre **5,7-6,4%. ❌** Doc, para nunca mais esquecer, se liga nessa tabelinha👇\n- Fonte: [http://www.saude.ba.gov.br/wp-content/uploads/2020/02/Diretrizes-Sociedade-Brasileira-de-Diabetes-2019-2020.pdf](http://www.saude.ba.gov.br/wp-content/uploads/2020/02/Diretrizes-Sociedade-Brasileira-de-Diabetes-2019-2020.pdf)",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-02T15:02:16.000Z",
+                    "updated_at": "2022-03-26T13:54:34.000Z",
+                    "files": [
+                        {
+                            "id": 20040,
+                            "file": "de7f327f-cbea-47df-8144-1ff828ae998d.png",
+                            "name": "diabetes_tabela.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-09-21T21:32:17.000Z",
+                            "updated_at": "2021-09-21T21:32:17.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/de7f327f-cbea-47df-8144-1ff828ae998d.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 20040,
+                                "alternative_id": 4534
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1103,
+                "questionary_id": 266662,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1105,
+            "institution_id": 36,
+            "description": "Sobre Diabetes Mellitus, assinale a opção **CORRETA.** ",
+            "difficulty": "medium",
+            "year": "2006-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T20:01:42.000Z",
+            "updated_at": "2021-12-01T22:18:14.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 36,
+                "title": "UFPI",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-19T16:16:10.000Z",
+                "updated_at": "2020-05-19T16:16:10.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 132,
+                    "title": "Diabetes - Diagnóstico",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2020-06-02T14:39:09.000Z",
+                    "updated_at": "2020-08-19T19:35:03.000Z",
+                    "pivot": {
+                        "discipline_id": 132,
+                        "question_id": 1105
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4539,
+                    "question_id": 1105,
+                    "description": "A glicemia ao acaso de 234mg/dl, isoladamente, já fecha o diagnóstico de diabetes",
+                    "explanation": "Falso doc! Isolamente não fecha o diagnóstico, já que precisamos de uma **glicemia ao acaso >=200mg/dl + sintomas**(poliúria, polidipsia, perda de peso, etc) para realizar o diagnóstico. Na ausência de sintomas, podemos fechar diagnóstico com dois exames alterados!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-02T17:01:43.000Z",
+                    "updated_at": "2021-12-01T19:18:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4540,
+                    "question_id": 1105,
+                    "description": "TOTG deve ser realizado sempre que a glicemia de jejum estiver acima de 90mg/dl",
+                    "explanation": "Falso doc! Na realidade, o teste oral de tolerância à glicose deve ser feito após o diagnóstico de \"pré-diabetes\", isto é, quando a glicemia está entre 100-125mg/dl. Outra recomendação é na dúvida diagnóstica de glicemias de jejum ou para confirmação diagnóstica em paciente com um teste de glicemia alterado!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-02T17:01:43.000Z",
+                    "updated_at": "2021-12-01T19:18:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4541,
+                    "question_id": 1105,
+                    "description": "Na presença de sintomas compatíveis, um nível de glicemia de jejum acima de 126mg/dl já confirma o diagnóstico de diabetes",
+                    "explanation": "Isolamente não fecha o diagnóstico, Doc! 😜\n- É a **glicemia ao acaso** que, quando **glicemia >200mg/dl com sintomas típicos associados** (poliúria, polidipsia, perda de peso, etc) fecha o diagnóstico (e não a glicemia de jejum)\n- Precisaríamos de **dois resultados** de glicemia de jejum acima de 126mg/dl para realizar o diagnóstico.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-02T17:01:43.000Z",
+                    "updated_at": "2021-12-01T19:18:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4542,
+                    "question_id": 1105,
+                    "description": "Hiperglicemia em pacientes internados sem diagnóstico prévio de diabetes implica maior mortalidade que níveis semelhantes de glicemia em pacientes sabidamente diabéticos",
+                    "explanation": "Perfeito doc! Arrasou!😍 A **hiperglicemi**a em pacientes internados é um fator que **piora o prognóstico do paciente**. Vários fatores parecem estar relacionados com esse efeito, como o menor controle de doenças cardiovasculares, menor resposta imune, pior controle do quadro glicêmico!",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-02T17:01:43.000Z",
+                    "updated_at": "2021-12-01T19:18:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4543,
+                    "question_id": 1105,
+                    "description": "O tratamento intensivo da glicemia, mantendo seus níveis entre 80 e 110mg/dl, é fundamental como medida para redução de mortalidade em pacientes de terapia intensiva",
+                    "explanation": "Falso doc! Ao contrário, o controle intensivo mostrou piores resultados de prognóstico, já que, em alguns casos, levou a **hipoglicemia.** Doc, isto não quer dizer que o diabetes não deva ser controlado, mas sim que o **controle intensivo** não apresentou um bom prognóstico!",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-06-02T17:01:43.000Z",
+                    "updated_at": "2021-12-01T19:18:14.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1105,
+                "questionary_id": 266662,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1108,
+            "institution_id": 86,
+            "description": "Paciente de 53 anos com queixas principais de cansaço e sonolência. Tem história familiar de diabetes mellitus tipo 2. Entre as condutas para a definição diagnóstica, assinale a CORRETA:",
+            "difficulty": "medium",
+            "year": "2013-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T20:28:58.000Z",
+            "updated_at": "2021-06-24T23:10:22.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 86,
+                "title": "FMABC-SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-28T00:32:05.000Z",
+                "updated_at": "2020-05-28T00:32:05.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 132,
+                    "title": "Diabetes - Diagnóstico",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2020-06-02T14:39:09.000Z",
+                    "updated_at": "2020-08-19T19:35:03.000Z",
+                    "pivot": {
+                        "discipline_id": 132,
+                        "question_id": 1108
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4552,
+                    "question_id": 1108,
+                    "description": "dosar hemoglobina glicada e anticorpo anti-GAD",
+                    "explanation": "Falso doc!😋 O **Anti-GA**D será dosado em paciente com diagnóstico de diabetes mellitus e suspeita de **tipo 1!** Estamos diante de um paciente com alta suspeita de DM2, não há necessidade de dosar autoanticorpos!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-02T17:28:58.000Z",
+                    "updated_at": "2021-06-24T20:10:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4553,
+                    "question_id": 1108,
+                    "description": " fazer nova glicemia de jejum e hemoglobina glicada",
+                    "explanation": "Perfeito doc! Que orgulho! 😍 Estamos diante de um paciente com mais de 40 anos, com queixas de sonolência e cansaço, que podem ser indicativos precoces de doenças cardiovasculares. Além disso, esse paciente possui um histórico familiar de DM2, o que deve nos levantar um alerta vermelho em relação ao risco desse paciente estar com um quadro de diabetes. Esse paciente já deve receber a solicitação da glicemia de jejum por estar acima dos **45 ano**s, contudo, pela suspeita ainda mais forte do diagnóstico, pedimos a **hemoglobina glicad**a adjuntamente! Doc, para nunca mais esquecer, se liga nessa tabelinha dos valores que confirmam diabetes mellitus👇\n- Fonte: https://www.diabetes.org.br/profissionais/images/DIRETRIZES-COMPLETA-2019-2020.pdf",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-02T17:28:58.000Z",
+                    "updated_at": "2021-06-24T20:10:22.000Z",
+                    "files": [
+                        {
+                            "id": 12111,
+                            "file": "f8f420e8-68e8-4d69-ba32-c27ed6ff2591.jpeg",
+                            "name": "00000000000000000000000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-24T20:05:40.000Z",
+                            "updated_at": "2021-06-24T20:05:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f8f420e8-68e8-4d69-ba32-c27ed6ff2591.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12111,
+                                "alternative_id": 4553
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4554,
+                    "question_id": 1108,
+                    "description": "fazer teste oral de tolerância à glicose com 75 g de glicose anidra",
+                    "explanation": "Falso doc! O teste de tolerância oral à glicose geralmente é solicitado quando a glicemia de jejum e a hemoglobina glicada não fecham o diagnóstico, além de que esse exame isoladamente não fecha diagnóstico!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-02T17:28:59.000Z",
+                    "updated_at": "2021-06-24T20:10:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4555,
+                    "question_id": 1108,
+                    "description": "dosar anticorpos anti-GAD e anti-IA2",
+                    "explanation": "Falso doc! Os anticorpos **Anti-GAD e Anti-IA2** são dosados, em alguns casos, em paciente com diagnóstico de diabetes mellitus e suspeita de **tipo 1!**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-02T17:28:59.000Z",
+                    "updated_at": "2021-06-24T20:10:22.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1108,
+                "questionary_id": 266662,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1109,
+            "institution_id": 4,
+            "description": "Em um paciente com diabetes mellitus tipo 1 com diarreia persistente, é recomendável que se avalie a possível associação com a seguinte doença:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T20:33:43.000Z",
+            "updated_at": "2021-06-26T22:00:26.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 132,
+                    "title": "Diabetes - Diagnóstico",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2020-06-02T14:39:09.000Z",
+                    "updated_at": "2020-08-19T19:35:03.000Z",
+                    "pivot": {
+                        "discipline_id": 132,
+                        "question_id": 1109
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4556,
+                    "question_id": 1109,
+                    "description": "Doença de Crohn",
+                    "explanation": "Falso doc!😋 Não existe relacão direta entre o diabetes mellitus tipo 1 e **doenças inflamatórias intestinais**.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-02T17:33:43.000Z",
+                    "updated_at": "2021-06-26T19:00:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4557,
+                    "question_id": 1109,
+                    "description": "Doença celíaca",
+                    "explanation": "Perfeito doc! Voando baixo!😎 Existe relação direta entre diabetes mellitus tipo 1 e outras doenças autoimunes como: Hashimoto, **Doença celíac**a, vitiligo, entre outras, uma vez que o DM1 é uma doença autoimune e, assim como todas doenças autoimunes, seu caráter de resposta imune contra o próprio organismo frequentemente se relaciona com doenças com um caráter semelhante!",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-02T17:33:43.000Z",
+                    "updated_at": "2021-06-26T19:00:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4558,
+                    "question_id": 1109,
+                    "description": "Retocolite ulcerativa",
+                    "explanation": "Falso doc!😋 Não existe relacão direta entre o diabetes mellitus do tipo 1 e as **doenças inflamatórias intestinais**. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-02T17:33:44.000Z",
+                    "updated_at": "2021-06-26T19:00:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4559,
+                    "question_id": 1109,
+                    "description": "Divertículo de Meckel",
+                    "explanation": "Falso doc!😋 O divertículo de Meckel é uma malformação congênita não relacionada ao desenvolvimento de **diabetes mellitus tipo I!** Doc, guarde o seguinte: DM1 é uma doença AUTOIMUNE, logo, possui relações com outras doenças autoimunes!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-02T17:33:44.000Z",
+                    "updated_at": "2021-06-26T19:00:26.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1109,
+                "questionary_id": 266662,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1110,
+            "institution_id": 4,
+            "description": "O efeito da insulina sobre o transporte de glicose é:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T22:00:59.000Z",
+            "updated_at": "2021-06-26T22:04:22.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 132,
+                    "title": "Diabetes - Diagnóstico",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2020-06-02T14:39:09.000Z",
+                    "updated_at": "2020-08-19T19:35:03.000Z",
+                    "pivot": {
+                        "discipline_id": 132,
+                        "question_id": 1110
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4560,
+                    "question_id": 1110,
+                    "description": "Permitir o transporte contra um gradiente de concentração.",
+                    "explanation": "Falso doc! Na realidade ela ajuda indiretamente no gradiente a favor da concentração, já que o **estado glicêmico do sangue vai ser maior que o de dentro da célula!**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-02T19:00:59.000Z",
+                    "updated_at": "2021-06-26T19:04:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4561,
+                    "question_id": 1110,
+                    "description": "Aumentar o transporte através da membrana celular.",
+                    "explanation": "Perfeito doc! Que orgulho hein!😍 Essa resposta para o nível clínico está ótima! A maioria das membranas celulares utiliza o transportador GLUT4 para o transporte, o qual é dependente da insulina. Por isso, existe o aumento no transporte através da membrana celular. Doc, imagine a insulina como uma chave, que vai abrir as portas dos tecidos para a entrada da glicose. Se liga nessa imagem para nunca mais esquecer👇\n- Fonte: https://pt.wikipedia.org/wiki/GLUT4",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-02T19:00:59.000Z",
+                    "updated_at": "2021-06-26T19:04:22.000Z",
+                    "files": [
+                        {
+                            "id": 12280,
+                            "file": "cc03d550-3451-46d6-a64f-c25c993fd16e.jpeg",
+                            "name": "38666356264e05df8436dfb5fa49fe69.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-26T19:03:02.000Z",
+                            "updated_at": "2021-06-26T19:03:02.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/cc03d550-3451-46d6-a64f-c25c993fd16e.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12280,
+                                "alternative_id": 4561
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4562,
+                    "question_id": 1110,
+                    "description": "Aumentar o transporte para o cérebro.",
+                    "explanation": "Falso doc! Pegadinha do malandro!😋O transporte de glicose para o cérebro é através de GLUT 1, isto é, **o transporte de glicose ocorre independentemente da presença de insulia**!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-02T19:00:59.000Z",
+                    "updated_at": "2021-06-26T19:04:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4563,
+                    "question_id": 1110,
+                    "description": "Aumentar o transporte através da mucosa intestinal.",
+                    "explanation": "Falso doc! O transportador de glicose na mucosa intestinal atua com o sódio e o cloro, **sendo independente da insulina!**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-02T19:00:59.000Z",
+                    "updated_at": "2021-06-26T19:04:22.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1110,
+                "questionary_id": 266662,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1107,
+            "institution_id": 10,
+            "description": "Qual tipo de diabetes tem modo de transmissão autossômica dominante? ",
+            "difficulty": "hard",
+            "year": "2013-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T20:20:41.000Z",
+            "updated_at": "2022-05-14T18:02:22.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 10,
+                "title": "SES-GO ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T14:20:45.000Z",
+                "updated_at": "2020-05-17T14:20:45.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 132,
+                    "title": "Diabetes - Diagnóstico",
+                    "description": null,
+                    "parent_id": 66,
+                    "is_enabled": true,
+                    "created_at": "2020-06-02T14:39:09.000Z",
+                    "updated_at": "2020-08-19T19:35:03.000Z",
+                    "pivot": {
+                        "discipline_id": 132,
+                        "question_id": 1107
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4548,
+                    "question_id": 1107,
+                    "description": "Diabetes tipo 1",
+                    "explanation": "Falso doc! 🤔\n\nA DM1 é uma doença de causa multifatorial, sendo genética uma delas (lembrando que a DM2 tem mais influência genética que a DM1). Contudo, **não é de transmissão autossômica dominante!** ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-02T17:20:41.000Z",
+                    "updated_at": "2022-05-14T18:02:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4549,
+                    "question_id": 1107,
+                    "description": "Diabetes tipo 2",
+                    "explanation": "Falso doc!🤔\n\nA DM2 é uma doença de causa multifatorial, sendo a genética uma delas. Contudo, **não é de transmissão autossômica dominante!**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-02T17:20:41.000Z",
+                    "updated_at": "2022-05-14T18:02:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4550,
+                    "question_id": 1107,
+                    "description": "Diabetes tipo MODY(Maturity-Onset-Diabetes of the Young) ",
+                    "explanation": "Perfeito doc! Mandou bem demais!😍 \nO diabetes do tipo MODY é uma forma **hereditária** de DM em que **crianças e adolescentes** desenvolvem precocemente um quadro parecido com o DM tipo 2.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-02T17:20:41.000Z",
+                    "updated_at": "2022-05-14T18:02:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4551,
+                    "question_id": 1107,
+                    "description": "Diabetes tipo LADA(Latent Autoimmune Diabetes of Adults) ",
+                    "explanation": "Falso doc!🤔 \n\nO LADA aparece em indivíduos **mais velhos e evolui de forma insidiosa**, sendo confundida com DM2. **Não tem transmissão autossômica dominante**!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-02T17:20:41.000Z",
+                    "updated_at": "2022-05-14T18:02:22.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1107,
+                "questionary_id": 266662,
+                "timer": 0
+            }
+        }
+    ]
+}
