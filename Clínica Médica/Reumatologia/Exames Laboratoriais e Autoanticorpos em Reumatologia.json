@@ -1,0 +1,2275 @@
+{
+    "id": 268290,
+    "user_id": 1699,
+    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T23:52:54.000Z",
+    "updated_at": "2022-07-11T23:52:54.000Z",
+    "study_plan_id": 958,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 10472,
+            "institution_id": 4,
+            "description": "Qual alternativa NÃO contém um anticorpo que pode estar aumentado no Lupus Eritematoso Sistêmico (LES)?",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-25T13:12:16.000Z",
+            "updated_at": "2021-08-25T15:32:33.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 938,
+                    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2021-08-25T15:33:43.000Z",
+                    "updated_at": "2021-08-25T15:33:43.000Z",
+                    "pivot": {
+                        "discipline_id": 938,
+                        "question_id": 10472
+                    }
+                },
+                {
+                    "id": 213,
+                    "title": "Lúpus Eritematoso Sistêmico\t\t",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2020-06-15T13:16:48.000Z",
+                    "updated_at": "2020-06-15T13:16:48.000Z",
+                    "pivot": {
+                        "discipline_id": 213,
+                        "question_id": 10472
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42800,
+                    "question_id": 10472,
+                    "description": "Anti-Ro",
+                    "explanation": "Esse é, sim, um anticorpo que pode estar aumentado no LES, Doc! \n- Em 30% dos casos de LES! \n- É direcionado contra antígenos Ro (uma proteína **nuclear** presente no RNA)\n- Está presente em **60% dos casos de Síndrome de Sjôgren**\n\n💡 Doc, lembra o seguinte: LES = anticorpos contra antígenos do **núcle**o celular\n\n- Alguns ficam fáceis 🤓 (pense em todas as estruturas do núcleo). Anti: -DNA (FAN), nucleossomos, -P ribossomal, -histona, -fosfolípides\n- Assim fica faltando só lembrar dos anticorpos da Síndrome de Sjôgren que podem aumentar também no LES, os RoLa 🕊️ (anti-Ro e anti-La) e o anti-Sm\n- Também pode haver anticardiolipinas e anti-RNP elevados, mas são mais típicos de SAF e DMTC, respectivamente ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-25T13:12:16.000Z",
+                    "updated_at": "2021-08-25T15:32:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42801,
+                    "question_id": 10472,
+                    "description": "Anti-CCP",
+                    "explanation": "Boa, Doc, essa é a incorreta! 😃 \n- O anti-CCP está presente na AR, com especificidade de **95%.** \n- Atacam peptideo citrulinado ciclico (CCP) causando dano articular\n\nDoc, eu se fosse você não perderia o comentário e os macetes das outras alternativas 😉",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-08-25T13:12:16.000Z",
+                    "updated_at": "2021-08-25T15:32:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42802,
+                    "question_id": 10472,
+                    "description": "Antinucleossomos",
+                    "explanation": "Esse é, sim, um anticorpo que pode estar aumentado no LES, Doc! \n- É o **anticorpo mais sensível e específico do LES**\n- O exame é reservado para casos de dúvida diagnóstica\n\n💡 Doc, lembra o seguinte: LES = anticorpos contra antígenos do **núcle**o celular\n- Alguns ficam fáceis 🤓 (pense em todas as estruturas do núcleo). Anti: -DNA (FAN), nucleossomos, -P ribossomal, -histona, -fosfolípides\n- Assim fica faltando só lembrar dos anticorpos da Síndrome de Sjôgren que podem aumentar também no LES, os RoLa 🕊️ (anti-Ro e anti-La) ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-25T13:12:16.000Z",
+                    "updated_at": "2021-08-25T15:32:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42803,
+                    "question_id": 10472,
+                    "description": "Antifosfolípide",
+                    "explanation": "Esse é, sim, um anticorpo que pode estar aumentado no LES, Doc! \n- Está presente também na SAF\n- Apesar de não ser específico para LES, entra nos critérios diagnósticos da doença\n\n💡 Doc, lembra o seguinte: LES = anticorpos contra antígenos do **núcle**o celular\n- Alguns ficam fáceis 🤓 (pense em todas as estruturas do núcleo). Anti: -DNA (FAN), nucleossomos, -P ribossomal, -histona, -fosfolípides\n- Assim fica faltando só lembrar dos anticorpos da Síndrome de Sjôgren que podem aumentar também no LES, os RoLa 🕊️ (anti-Ro e anti-La)  e o anti-Sm\n- Também pode haver anticardiolipinas e anti-RNP elevados, mas são mais típicos de SAF e DMTC, respectivamente  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-25T13:12:16.000Z",
+                    "updated_at": "2021-08-25T15:32:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42804,
+                    "question_id": 10472,
+                    "description": "Anti-P ribossomal",
+                    "explanation": "Esse é, sim, um anticorpo que pode estar aumentado no LES, Doc! \n- Associa-se à psicose lúupica\n- Presente em 20% dos casos \n\n\n💡 Doc, lembra o seguinte: LES = anticorpos contra antígenos do **núcle**o celular\n\n- Alguns ficam fáceis 🤓 (pense em todas as estruturas do núcleo). Anti: -DNA (FAN), nucleossomos, -P ribossomal, -histona, -fosfolípides\n- Assim fica faltando só lembrar dos anticorpos da Síndrome de Sjôgren que podem aumentar também no LES, os RoLa 🕊️ (anti-Ro e anti-La)  e o anti-Sm\n- Também pode haver anticardiolipinas e anti-RNP elevados, mas são mais típicos de SAF e DMTC, respectivamente  ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-08-25T13:12:16.000Z",
+                    "updated_at": "2021-08-25T15:32:33.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10472,
+                "questionary_id": 268290,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10474,
+            "institution_id": 4,
+            "description": "Qual desses é o anticorpo  mais sensível e específico para Lupus Eritematoso Sistêmico?",
+            "difficulty": "easy",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-25T17:41:56.000Z",
+            "updated_at": "2022-05-17T14:17:44.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 938,
+                    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2021-08-25T15:33:43.000Z",
+                    "updated_at": "2021-08-25T15:33:43.000Z",
+                    "pivot": {
+                        "discipline_id": 938,
+                        "question_id": 10474
+                    }
+                },
+                {
+                    "id": 213,
+                    "title": "Lúpus Eritematoso Sistêmico\t\t",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2020-06-15T13:16:48.000Z",
+                    "updated_at": "2020-06-15T13:16:48.000Z",
+                    "pivot": {
+                        "discipline_id": 213,
+                        "question_id": 10474
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42809,
+                    "question_id": 10474,
+                    "description": "Anti-DNA",
+                    "explanation": "Falso, Doc! \n- É considerado específico para LES, mas não é tão sensível (presente em 70% dos casos de LES)\n- Associado a glomerulonefrite proliferativa",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-25T14:41:56.000Z",
+                    "updated_at": "2022-05-17T14:17:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42810,
+                    "question_id": 10474,
+                    "description": "Anti-histona",
+                    "explanation": "Falso, Doc! O anti-histona é mais associado com o LES fáramco induzido, estando presente em 95% desses casos",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-25T14:41:56.000Z",
+                    "updated_at": "2022-05-17T14:17:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42811,
+                    "question_id": 10474,
+                    "description": "Anti-La",
+                    "explanation": "Falso, Doc! \n- O anti-La não é específico para LES. Na verdade, ele é mais característico de Síndrome de Sjögren (SS) (40% dos pacientes)\n- Também não é sensível para LES, visto que está presente em apenas 10% dos pacientes\n\n💡 Doc, falou em SS, lembra que é a doença da RoLa 🕊️ (anti-Ro e anti-La)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-25T14:41:56.000Z",
+                    "updated_at": "2022-05-17T14:17:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42812,
+                    "question_id": 10474,
+                    "description": "Anti-Sm",
+                    "explanation": "Falso, Doc! \n- O anti-Sm é pouco sensível, estando presente em apenas 25% dos casos\n- Apesar disso, é **o mais** **específico para diagnóstico de LES**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-25T14:41:56.000Z",
+                    "updated_at": "2022-05-17T14:17:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42813,
+                    "question_id": 10474,
+                    "description": "Antinucleossomo",
+                    "explanation": "Show, Doc! 😁 Isso mesmo! \n- Esse é o anticorpo mais sensível e específico para lupus\n- O exame fica reservado para casos de dúvida diagnóstica\n\nFique ligado, Doc! Se considerarmos apenas a especificidade, o melhor exmae é o anti-Sm\n\n\nFonte do conteúdo: \nJ. A. Simón, J. Cabiedes, E. Ortiz, J. Alcocer-Varela, J. Sánchez-Guerrero, Anti-nucleosome antibodies in patients with systemic lupus erythematosus of recent onset. Potential utility as a diagnostic tool and disease activity marker, *Rheumatology*, Volume 43, Issue 2, February 2004, Pages 220–224, [https://doi.org/10.1093/rheumatology/keh024](https://doi.org/10.1093/rheumatology/keh024)\n\n ",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2021-08-25T14:41:56.000Z",
+                    "updated_at": "2022-05-17T14:17:44.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10474,
+                "questionary_id": 268290,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10476,
+            "institution_id": 4,
+            "description": "Sobre os anticorpos presentes em casos de artrite reumatoide, assinale a alternativa CORRETA:",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-25T15:16:23.000Z",
+            "updated_at": "2021-08-27T23:08:31.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 938,
+                    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2021-08-25T15:33:43.000Z",
+                    "updated_at": "2021-08-25T15:33:43.000Z",
+                    "pivot": {
+                        "discipline_id": 938,
+                        "question_id": 10476
+                    }
+                },
+                {
+                    "id": 45,
+                    "title": "Artrite Reumatoide\t\t",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2020-05-22T21:33:15.000Z",
+                    "updated_at": "2020-05-22T21:33:15.000Z",
+                    "pivot": {
+                        "discipline_id": 45,
+                        "question_id": 10476
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42818,
+                    "question_id": 10476,
+                    "description": "O fator reumatoide, como o nome já diz, é o mais específico para a artrite reumatoide",
+                    "explanation": "Falso, Doc! \n- A sua especificidade é de 85-90%, mas é menos específico do que o anti-CCP\n- Títulos elevados de **FR** estão associados com **doença articular mais grave**, sintomas extra-articulares, entre outros\n- O fator reumatoide pode estar bastante presente na síndrome de Sjögren (90% dos casos de SS)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-25T15:16:23.000Z",
+                    "updated_at": "2021-08-27T23:08:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42819,
+                    "question_id": 10476,
+                    "description": "O anti-CCP não deve ser solicitados para pacientes com FR negativo",
+                    "explanation": "Falso, Doc! É justamente nessas situações que ele é bastante útil, pois, se a suspeita de AR é forte, pode identificar a doença em pacientes FR(-)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-25T15:16:23.000Z",
+                    "updated_at": "2021-08-27T23:08:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42820,
+                    "question_id": 10476,
+                    "description": "o anti-CCP presente no início da AR está relacionado a pior prognóstico do paciente",
+                    "explanation": "Boa, Doc! 👊 É um anticorpo altamente específico (>95% de especificidade), com sensibilidade moderada (70-75%) e relacionado com o prognóstico da doença",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-08-25T15:16:23.000Z",
+                    "updated_at": "2021-08-27T23:08:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42821,
+                    "question_id": 10476,
+                    "description": "Se um paciente tiver elevação de fator reumatoide ele, necessariamente, possui alguma doença",
+                    "explanation": "Falso, Doc! Está elevado em cerca de 5% dos pacientes saudáveis e aumenta com a idade (10-20% em idades mais avançadas)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-25T15:16:23.000Z",
+                    "updated_at": "2021-08-27T23:08:31.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10476,
+                "questionary_id": 268290,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10481,
+            "institution_id": 4,
+            "description": "Se um paciente trouxer exames com anticentrômero positivo, em qual doença devemos pensar?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-25T19:11:55.000Z",
+            "updated_at": "2021-08-28T01:45:32.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 938,
+                    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2021-08-25T15:33:43.000Z",
+                    "updated_at": "2021-08-25T15:33:43.000Z",
+                    "pivot": {
+                        "discipline_id": 938,
+                        "question_id": 10481
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42839,
+                    "question_id": 10481,
+                    "description": "Lupus eritematoso sistêmico",
+                    "explanation": "Falso, Doc! O anticentrômero possui **especificidade de 97%** para esclerose sistêmica",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-25T16:11:55.000Z",
+                    "updated_at": "2021-08-27T22:45:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42840,
+                    "question_id": 10481,
+                    "description": "Síndrome de Sjôgren",
+                    "explanation": "Falso, Doc! O anticentrômero possui **especificidade de 97%** para esclerose sistêmica ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-25T16:11:55.000Z",
+                    "updated_at": "2021-08-27T22:45:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42841,
+                    "question_id": 10481,
+                    "description": "Polimiosite",
+                    "explanation": "Falso, Doc! O anticentrômero possui **especificidade de 97%** para esclerose sistêmica ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-25T16:11:55.000Z",
+                    "updated_at": "2021-08-27T22:45:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42842,
+                    "question_id": 10481,
+                    "description": "Esclerodermia",
+                    "explanation": "Boa, Doc! 🤓\n- O anticentrômero possui **especificidade de 97%** para esclerose sistêmica \n- outro autoanticorpo é  **antitopoisomerase I**, com especificidade de **98-99,6%** para a doença\n- O anticentrômero nem sempre está presente em pacientes com esclerodermia, estando em 50-90% dos casos com forma limitada e menos de 10% na difusa",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-08-25T16:11:55.000Z",
+                    "updated_at": "2021-08-27T22:45:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42843,
+                    "question_id": 10481,
+                    "description": "Vasculites",
+                    "explanation": "Falso, Doc! O anticentrômero possui **especificidade de 97%** para esclerose sistêmica ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-08-25T16:11:55.000Z",
+                    "updated_at": "2021-08-27T22:45:32.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10481,
+                "questionary_id": 268290,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10506,
+            "institution_id": 209,
+            "description": "Em relação aos marcadores de Artrite Reumatóide, assinale a alternativa correta:\n",
+            "difficulty": "easy",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-27T22:50:01.000Z",
+            "updated_at": "2021-08-27T22:50:01.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 209,
+                "title": "EBSERH",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-01-03T20:45:49.000Z",
+                "updated_at": "2021-01-03T20:45:49.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 938,
+                    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2021-08-25T15:33:43.000Z",
+                    "updated_at": "2021-08-25T15:33:43.000Z",
+                    "pivot": {
+                        "discipline_id": 938,
+                        "question_id": 10506
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42943,
+                    "question_id": 10506,
+                    "description": "O anti-CCP (anticorpo antipeptídeo citrulinado cítrico) é um marcador com especificidade semelhante ao Fator Reumatóide. ",
+                    "explanation": "Falso, Doc! O anti-CCP é mais específico, tendo especificidade >95% para a doença",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-27T22:50:01.000Z",
+                    "updated_at": "2021-08-27T22:50:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42944,
+                    "question_id": 10506,
+                    "description": "O anti-CCP (anticorpo antipeptídeo citrulinado cítrico) é um marcador com sensibilidade e especificidade superior ao Fator Reumatóide. ",
+                    "explanation": "Falso, Doc! O anti-CCP é mais específico, tendo especificidade >95% para a doença ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-27T22:50:01.000Z",
+                    "updated_at": "2021-08-27T22:50:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42945,
+                    "question_id": 10506,
+                    "description": "O anti-CCP (anticorpo antipeptídeo citrulinado cítrico) é um marcador com sensibilidade superior ao Fator Reumatóide. ",
+                    "explanation": "Falso, Doc! Em termos de sensibilidade os exames são parecidos, entre 75-90% de especificidade",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-27T22:50:01.000Z",
+                    "updated_at": "2021-08-27T22:50:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42946,
+                    "question_id": 10506,
+                    "description": "O anti-CCP (anticorpo antipeptídeo citrulinado cítrico) é um marcador com sensibilidade semelhante ao Fator Reumatóide. ",
+                    "explanation": "Certinho, Doc! 👏 Em termos de sensibilidade os exames são parecidos, entre 75-90% de especificidade ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-08-27T22:50:01.000Z",
+                    "updated_at": "2021-08-27T22:50:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42947,
+                    "question_id": 10506,
+                    "description": "O anti-CCP (anticorpo antipeptídeo citrulinado cítrico) é um marcador com sensibilidade e especificidade inferior ao fator reumatoide. ",
+                    "explanation": "Falso, Doc! \n- O anti-CCP é mais específico, tendo especificidade >95% para a doença  \n- Em termos de sensibilidade os exames são parecidos, entre 75-90% de especificidade  ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-08-27T22:50:01.000Z",
+                    "updated_at": "2021-08-27T22:50:01.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10506,
+                "questionary_id": 268290,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10507,
+            "institution_id": 209,
+            "description": "Uma mulher de 52 anos apresenta dor difusa nas coxas e nos ombros, dificuldade em levantar-se de uma cadeira e subir escadas. O reumatologista suspeita de uma dermatomiosite e solicita uma dosagem de FAN (anticorpos antinucleares) cujo resultado é positivo 1:160. Os exames mais específicos para confirmar a suspeita do reumatologista são:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-27T22:55:35.000Z",
+            "updated_at": "2021-08-28T14:48:20.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 209,
+                "title": "EBSERH",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-01-03T20:45:49.000Z",
+                "updated_at": "2021-01-03T20:45:49.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 938,
+                    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2021-08-25T15:33:43.000Z",
+                    "updated_at": "2021-08-25T15:33:43.000Z",
+                    "pivot": {
+                        "discipline_id": 938,
+                        "question_id": 10507
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42948,
+                    "question_id": 10507,
+                    "description": "anticorpos anti-DNA de duplo filamento e Teste do látex. ",
+                    "explanation": "Falso, Doc! Os principais anticorpos das miopatias inflamatórias são os do **miojo SeRelePe �**�:\n- anti-**Mi**\n- anti-**Jo**\n- anti-**SRP**  (praticamente exclusivo da polimiosite) ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-27T22:55:35.000Z",
+                    "updated_at": "2021-08-28T14:48:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42949,
+                    "question_id": 10507,
+                    "description": "anticorpos anti-Jo-1 e anti-Mi-2. ",
+                    "explanation": "Arrasou, Doc! 😍 Os principais anticorpos das miopatias inflamatórias são os do **miojo SeRelePe** 🍝:\n- anti-**Mi**\n- anti-**Jo**\n- anti-**SRP**  (praticamente exclusivo da polimiosite)",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-08-27T22:55:35.000Z",
+                    "updated_at": "2021-08-28T14:48:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42950,
+                    "question_id": 10507,
+                    "description": "teste do látex para fator reumatoide e anticorpos anti Jo-1. ",
+                    "explanation": "Falso, Doc! Os principais anticorpos das miopatias inflamatórias são os do **miojo SeRelePe �**�:\n- anti-**Mi**\n- anti-**Jo**\n- anti-**SRP**  (praticamente exclusivo da polimiosite)  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-27T22:55:35.000Z",
+                    "updated_at": "2021-08-28T14:48:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42951,
+                    "question_id": 10507,
+                    "description": "teste de ASLO e anticorpos anti-histona",
+                    "explanation": "Falso, Doc! Os principais anticorpos das miopatias inflamatórias são os do **miojo SeRelePe �**�:\n- anti-**Mi**\n- anti-**Jo**\n- anti-**SRP**  (praticamente exclusivo da polimiosite)  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-27T22:55:35.000Z",
+                    "updated_at": "2021-08-28T14:48:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42952,
+                    "question_id": 10507,
+                    "description": "anticorpos anti-histona e anti-Mi-2. ",
+                    "explanation": "Falso, Doc! Os principais anticorpos das miopatias inflamatórias são os do **miojo SeRelePe �**�:\n- anti-**Mi**\n- anti-**Jo**\n- anti-**SRP**  (praticamente exclusivo da polimiosite)  ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-08-27T22:55:35.000Z",
+                    "updated_at": "2021-08-28T14:48:20.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10507,
+                "questionary_id": 268290,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10510,
+            "institution_id": 412,
+            "description": "Em relação aos Fatores Antinúcleo (FAN),\n\n",
+            "difficulty": "easy",
+            "year": "2013-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-28T17:58:04.000Z",
+            "updated_at": "2021-08-28T20:36:22.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 412,
+                "title": "TRT - 9a região (PR)",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-08-28T17:36:22.000Z",
+                "updated_at": "2021-08-28T17:36:22.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 938,
+                    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2021-08-25T15:33:43.000Z",
+                    "updated_at": "2021-08-25T15:33:43.000Z",
+                    "pivot": {
+                        "discipline_id": 938,
+                        "question_id": 10510
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42963,
+                    "question_id": 10510,
+                    "description": "anticorpos anti-Jo-1 têm sensibilidade para dermatopolimiosite de cerca de 80 a 90%. ",
+                    "explanation": "Falso, Doc! O Anti-Jo está presente em apenas 20% dos pacientes com miopatias inflamatórias ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-28T14:58:04.000Z",
+                    "updated_at": "2021-08-28T17:36:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42964,
+                    "question_id": 10510,
+                    "description": "os testes que utilizam tecidos de rato são superiores aos que usam células HEp2. ",
+                    "explanation": "Falso, Doc! O Hep-2 é o meio de escolha para avaliação do FAN. Possui muitas vantagens, como  possuir antígenos humanos não-encontrados em tecidos de roedores e os antígenos semelhantes estarem em maior concentração",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-28T14:58:04.000Z",
+                    "updated_at": "2021-08-28T17:36:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42965,
+                    "question_id": 10510,
+                    "description": "podem ser detectados em indivíduos saudáveis. ",
+                    "explanation": "Muito bem, Doc! 🤗 \n- Cerca de 5% dos indivíduos saudáveis possuem FAN positivo (e isso aumenta com a idade, podendo chegar a 10-20%)\n- O padrão mais comum em saudáveis é o nuclear pontilhado fino denso\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-08-28T14:58:04.000Z",
+                    "updated_at": "2021-08-28T17:36:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42966,
+                    "question_id": 10510,
+                    "description": "embora pouco específicos, só são encontrados em casos de doença do colágeno. ",
+                    "explanation": "Falso, Doc! Os FAN podem ser encontrados em pessoas saudáveis, principalmente o padrão nuclear pontilhado fino denso",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-28T14:58:04.000Z",
+                    "updated_at": "2021-08-28T17:36:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42967,
+                    "question_id": 10510,
+                    "description": "anticorpos anti-Sm são muito frequentes em Lúpus induzido por drogas. ",
+                    "explanation": "Falso, Doc! Os anticorpos **anti-histona** é que são muito frequente em lupus induzido por fármacos (95% dos casos)",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-08-28T14:58:04.000Z",
+                    "updated_at": "2021-08-28T17:36:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10510,
+                "questionary_id": 268290,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10511,
+            "institution_id": 264,
+            "description": "Mulher, 52 anos, apresentando febre, poliartrite de mãos e pés com fator reumatoide látex 1:20 e anticorpo anticitrulinato positivo. Assinale a hipótese diagnóstica mais provável.\n",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-28T19:57:37.000Z",
+            "updated_at": "2021-08-28T19:57:47.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 264,
+                "title": "IBADE",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-03-23T14:47:02.000Z",
+                "updated_at": "2021-03-23T14:47:02.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 938,
+                    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2021-08-25T15:33:43.000Z",
+                    "updated_at": "2021-08-25T15:33:43.000Z",
+                    "pivot": {
+                        "discipline_id": 938,
+                        "question_id": 10511
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42968,
+                    "question_id": 10511,
+                    "description": "Gota ",
+                    "explanation": "Falso, DOc! A paciente possui poliartrite de pequenas articulações com FR aumentado e, principalmente, anti-CCP positivo, que é um exame bastante específico para artrite reumatoide",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-28T19:57:37.000Z",
+                    "updated_at": "2021-08-28T19:57:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42969,
+                    "question_id": 10511,
+                    "description": "Hepatite C ",
+                    "explanation": "Falso, Doc! A paciente possui poliartrite de pequenas articulações com FR aumentado e, principalmente, anti-CCP positivo, que é um exame bastante específico para artrite reumatoide ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-28T19:57:37.000Z",
+                    "updated_at": "2021-08-28T19:57:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42970,
+                    "question_id": 10511,
+                    "description": "Mieloma múltiplo ",
+                    "explanation": "Falso, Doc! A paciente possui poliartrite de pequenas articulações com FR aumentado e, principalmente, anti-CCP positivo, que é um exame bastante específico para artrite reumatoide  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-28T19:57:37.000Z",
+                    "updated_at": "2021-08-28T19:57:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42971,
+                    "question_id": 10511,
+                    "description": "Febre reumática ",
+                    "explanation": "Falso, Doc! A paciente possui poliartrite de pequenas articulações com FR aumentado e, principalmente, anti-CCP positivo, que é um exame bastante específico para artrite reumatoide  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-28T19:57:37.000Z",
+                    "updated_at": "2021-08-28T19:57:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42972,
+                    "question_id": 10511,
+                    "description": "Artrite reumatoide ",
+                    "explanation": "Boa, Doc! 🤗 A paciente possui poliartrite de pequenas articulações com FR aumentado e, principalmente, anti-CCP positivo, que é um exame bastante específico para artrite reumatoide  ",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2021-08-28T19:57:37.000Z",
+                    "updated_at": "2021-08-28T19:57:47.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10511,
+                "questionary_id": 268290,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10473,
+            "institution_id": 4,
+            "description": "Qual destes **NÃO** é um dos anticorpos nem da dermatomiosite nem da polimiosite?",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-25T13:25:42.000Z",
+            "updated_at": "2022-02-23T19:07:05.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 938,
+                    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2021-08-25T15:33:43.000Z",
+                    "updated_at": "2021-08-25T15:33:43.000Z",
+                    "pivot": {
+                        "discipline_id": 938,
+                        "question_id": 10473
+                    }
+                },
+                {
+                    "id": 479,
+                    "title": "Polimiosite e Dermatomiosite",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2020-09-21T18:53:26.000Z",
+                    "updated_at": "2020-09-21T18:53:26.000Z",
+                    "pivot": {
+                        "discipline_id": 479,
+                        "question_id": 10473
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42805,
+                    "question_id": 10473,
+                    "description": "Anti-Jo-1",
+                    "explanation": "Esse é, sim, um dos anticorpos, Doc! 😇 \n- Está presente em 20% dos pacientes com miopatias inflamatórias\n- Associação forte com a **síndrome antissintestase** (miosite + doença pulmonar intersticial + fenômeno de Raynaud + artrite + mãos de mecânico)\n\nDoc, olha como fica a mão de um paciente com síndrome antissintetase 👇:\n\nFonte da imagem: https://www.saberatualizado.com.br/2021/03/homem-de-37-anos-com-sindrome.html",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-25T13:25:42.000Z",
+                    "updated_at": "2022-02-23T19:07:05.000Z",
+                    "files": [
+                        {
+                            "id": 28618,
+                            "file": "9fad2054-7748-4cb0-b140-913783491ede.jpeg",
+                            "name": "nejmicm2026773_f1.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-02-23T19:05:58.000Z",
+                            "updated_at": "2022-02-23T19:05:58.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9fad2054-7748-4cb0-b140-913783491ede.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 28618,
+                                "alternative_id": 42805
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 42806,
+                    "question_id": 10473,
+                    "description": "Anti-U1-RNP",
+                    "explanation": "Boa, Doc, essa é a errada! 😁 \n- O Anti-U1-RNP é um anticorpo da **Doença Mista do Tecido Conjuntivo (DMTC)** (combina com a doença, né? Os dois com nomes longos e sigla difícil 😜)\n- É indispensável para o diagnóstico de DMTC\n- Pode estar presente em baixos títulos no Lupus Eritematoso Sistêmico.\n\n\n\n💡 Doc, os principais anticorpos das miopatias inflamatórias são os do **miojo SeRelePe 🍝**🐿️:\n- anti-**Mi**\n- anti-**Jo**\n- anti-**SRP**  (exclusivo da polimiosite)    ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-08-25T13:25:42.000Z",
+                    "updated_at": "2022-02-23T19:07:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42807,
+                    "question_id": 10473,
+                    "description": "Anti-Mi-2",
+                    "explanation": "Esse é, sim, um dos anticorpos, Doc! 😇  \n- Está presente em casos de **dermatomiosite** e dermatomiosite juvenil com \"sinal do xale\" e rash do tronco\n- Indica **bom prognóstico!**\n\nDoc, você já viu o \"sinal do xale\"? Saca só 👇:\n\nFonte da imagem: [https://www.medicinanet.com.br/conteudos/casos/6758/sinal_do_xale.htm](https://www.medicinanet.com.br/conteudos/casos/6758/sinal_do_xale.htm)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-25T13:25:42.000Z",
+                    "updated_at": "2022-02-23T19:07:05.000Z",
+                    "files": [
+                        {
+                            "id": 28616,
+                            "file": "25adccc9-3a16-49fc-8a9b-6fc5894a6343.png",
+                            "name": "Captura de tela 2022-02-23 142256.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-02-23T17:24:58.000Z",
+                            "updated_at": "2022-02-23T17:24:58.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/25adccc9-3a16-49fc-8a9b-6fc5894a6343.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 28616,
+                                "alternative_id": 42807
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 42808,
+                    "question_id": 10473,
+                    "description": "Anti-SRP",
+                    "explanation": "Esse é, sim, um dos anticorpos, Doc! 😇  \n- Está presente em 5% dos pacientes com miopatias inflamatórias\n- é praticamente **exclusivo da polimiosite**\n- Associado a mau prognóstico e pouca resposta ao tratamento\n\nDoc, você lembra quais os grupos musculares mais afetados na polimiosite? Dá uma olhada 👇:\n\nFonte da imagem: https://www.mda.org/disease/polymyositis",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-25T13:25:42.000Z",
+                    "updated_at": "2022-02-23T19:07:05.000Z",
+                    "files": [
+                        {
+                            "id": 28617,
+                            "file": "1c509587-d420-4353-b9f3-2082766a4774.jpeg",
+                            "name": "Overview-body_PM-DM-front.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-02-23T19:04:25.000Z",
+                            "updated_at": "2022-02-23T19:04:25.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1c509587-d420-4353-b9f3-2082766a4774.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 28617,
+                                "alternative_id": 42808
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10473,
+                "questionary_id": 268290,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10475,
+            "institution_id": 4,
+            "description": "Em relação aos anticorpos que podem estar presentes no lupus eritematoso sistêmico, assinale a associação correta:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-25T18:06:36.000Z",
+            "updated_at": "2021-08-25T18:32:08.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 938,
+                    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2021-08-25T15:33:43.000Z",
+                    "updated_at": "2021-08-25T15:33:43.000Z",
+                    "pivot": {
+                        "discipline_id": 938,
+                        "question_id": 10475
+                    }
+                },
+                {
+                    "id": 213,
+                    "title": "Lúpus Eritematoso Sistêmico\t\t",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2020-06-15T13:16:48.000Z",
+                    "updated_at": "2020-06-15T13:16:48.000Z",
+                    "pivot": {
+                        "discipline_id": 213,
+                        "question_id": 10475
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42814,
+                    "question_id": 10475,
+                    "description": "anti-dsDNA - melhor prognóstico",
+                    "explanation": "FAlso, Doc! \n- O anti-ds**D**NA (D de **D**oença renal) é um exame específico para lupus e está associado a glomerulonefrite proliferativa (mau prognóstico)\n- A elevação de suas taxas podem preceder a doença renal",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-25T15:06:36.000Z",
+                    "updated_at": "2021-08-25T15:32:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42815,
+                    "question_id": 10475,
+                    "description": "anti-Ro - lupus neonatal",
+                    "explanation": "Parabéns, Doc! 👏\n- O anti-**Ro** pode atravessar a barreira placentária, causando lupus neonatal (lembre-se que o RN muitas vezes tem a pele **Ro**xinha 👶)\n- Não é específico para LES (30%), estando mais associado com SS (60%) (anti-Ro e anti-La - RoLa 🕊️)\n- Também está relacionado a fotossensibilidade, lupus no idoso e lupus com FAN negativo\n\n\n💡 Resuminho dos anticorpos do LES:\n- anti-**S**m = o mais e**s**pecífico (S de Specífico 😜)\n- anti-dsDNA = glomerulonefrite (D de doença renal 😇)\n- anti-**P** ribossomal = **p**sicose lúpica (P de psicose 😋)\n- anti-Ro e anti-La (RoLa 🕊️) = associados também à SS\n- anti-**Ro** = lupus neonatal e outros (pense que o RN muitas vezes é **Ro**xinho 👶)\n- antinucleossomos = mais sensível e específico\n- anti-histona = LES fármaco induzido\n\nOutros: anticardiolipina (presente também na SAF), anti-U1-RNP (presente também na DMTC)  \n\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-08-25T15:06:36.000Z",
+                    "updated_at": "2021-08-25T15:32:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42816,
+                    "question_id": 10475,
+                    "description": "anti-Sm - psicose lúpica",
+                    "explanation": "Falso, Doc! \n- O anti-**S**m é um anticorpo direcionado contra antígenos nucleares considerado o mais e**s**pecífico para LES, porém pouco sensível (S de Specífico 😜)\n- O anticorpo relacionado com psicose lúpica é o anti-P (P de psicose 😋)\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-25T15:06:36.000Z",
+                    "updated_at": "2021-08-25T15:32:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42817,
+                    "question_id": 10475,
+                    "description": "anti-P - glomerulonefrite",
+                    "explanation": "Falso, Doc! O anti-**P** é associado a **p**sicose lúpica. É o anti-dsDNA que está mais associado com glomerulonefrite proliferativa (**D** de **D**oença renal)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-25T15:06:36.000Z",
+                    "updated_at": "2021-08-25T15:32:08.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10475,
+                "questionary_id": 268290,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10477,
+            "institution_id": 4,
+            "description": "Qual dos exames abaixo é mais específico para granulomatose com poliangite (granulomatose de Wegener)?",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-25T15:31:07.000Z",
+            "updated_at": "2021-08-27T22:11:15.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 938,
+                    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2021-08-25T15:33:43.000Z",
+                    "updated_at": "2021-08-25T15:33:43.000Z",
+                    "pivot": {
+                        "discipline_id": 938,
+                        "question_id": 10477
+                    }
+                },
+                {
+                    "id": 427,
+                    "title": "Vasculites",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2020-08-12T15:51:27.000Z",
+                    "updated_at": "2020-08-12T15:51:27.000Z",
+                    "pivot": {
+                        "discipline_id": 427,
+                        "question_id": 10477
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42822,
+                    "question_id": 10477,
+                    "description": "c-ANCA",
+                    "explanation": "Boa, Doc! 🤗 \n- O c-ANCA é bastante específico para granulomatose com poliangiíte (granulomatose de Wegener)\n- Já o p-ANCA é pouco específico, podendo estar aumentado em poliangiíte microscópica, granulomatose com poliangiíte e eosinofilia (síndrome de Churg-Strauss), hepatite autoimune e doença inflamatória intestinal (DII)",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-08-25T15:31:07.000Z",
+                    "updated_at": "2021-08-27T22:11:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42823,
+                    "question_id": 10477,
+                    "description": "p-ANCA",
+                    "explanation": "Falso, Doc! \n- O c-ANCA é bastante específico para granulomatose com poliangiíte (granulomatose de Wegener)\n- Já o p-ANCA é pouco específico, podendo estar aumentado em poliangiíte microscópica, granulomatose com poliangiíte e eosinofilia (síndrome de Churg-Strauss), hepatite autoimune e doença inflamatória intestinal (DII ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-25T15:31:07.000Z",
+                    "updated_at": "2021-08-27T22:11:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42824,
+                    "question_id": 10477,
+                    "description": "Fator antinúcleo",
+                    "explanation": "Falso, Doc! Nas vasculites de pequenos vasos devemos lembrar do c-ANCA e p-ANCA",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-25T15:31:07.000Z",
+                    "updated_at": "2021-08-27T22:11:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42825,
+                    "question_id": 10477,
+                    "description": "Fator reumatoide",
+                    "explanation": "Falso, Doc! Nas vasculites de pequenos vasos devemos lembrar do c-ANCA e p-ANCA ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-25T15:31:07.000Z",
+                    "updated_at": "2021-08-27T22:11:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42826,
+                    "question_id": 10477,
+                    "description": "antitopoisomerase 1",
+                    "explanation": "Falso, Doc! Esse é um anticorpo com 98 a 99,6% de especificidade para **esclerodermia**\n\n💡  Doc, esclerodermia tem 2 autoanticorpos muito característicos = **anticentrômero e antitopoisomerase** 1",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-08-25T15:31:07.000Z",
+                    "updated_at": "2021-08-27T22:11:15.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10477,
+                "questionary_id": 268290,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10478,
+            "institution_id": 4,
+            "description": "Qual destes padrões de fator antinúcleo (FAN) fasta o diagnóstico de lúpus eritematoso sistêmico (LES):",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-25T15:47:41.000Z",
+            "updated_at": "2021-08-28T14:49:23.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 938,
+                    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2021-08-25T15:33:43.000Z",
+                    "updated_at": "2021-08-25T15:33:43.000Z",
+                    "pivot": {
+                        "discipline_id": 938,
+                        "question_id": 10478
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42827,
+                    "question_id": 10478,
+                    "description": "homogêneo",
+                    "explanation": "Falso, Doc! \n- Esse padrão é um dos mais encontrados no LES, estando associado ao anti-dsDNA\n- Envolve DNA nativo, podendo estar associado a LES, artrite idiopática juvenil, esclerose sistêmica, cirrose biliar primária e hepatite autoimune\n\nVeja na tabela os diferentes padrões de FAN e suas associações clínicas 😉:\n\nFonte da imagem: DELLAVANCE, et. al. Análise crítica do teste de anticorpos antinúcleo (FAn) na prática clínica Rev. Bras. Reumatol. 47 (4). Ago 2007 [https://doi.org/10.1590/S0482-50042007000400005](https://doi.org/10.1590/S0482-50042007000400005)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-25T15:47:41.000Z",
+                    "updated_at": "2021-08-28T14:49:23.000Z",
+                    "files": [
+                        {
+                            "id": 18048,
+                            "file": "f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "name": "d7fa5f77a57f31c9db5f88edc7423d4344b40ec9.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2021-08-25T15:41:30.000Z",
+                            "updated_at": "2021-08-25T15:41:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18048,
+                                "alternative_id": 42827
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 42828,
+                    "question_id": 10478,
+                    "description": "Pontilhado fino",
+                    "explanation": "Falso, Doc! \n- Esse padrão está ligado ao anti-La ou anti-Ro, e pode estar presente no LES (inclusive LES neonatal)\n- Pode estar presente também na síndrome de Sjögren, AR, esclerose sistêmica e polimiosite\n\nVeja na tabela os diferentes padrões de FAN e suas associações clínicas 😉:\n\nFonte da imagem: DELLAVANCE, et. al. Análise crítica do teste de anticorpos antinúcleo (FAn) na prática clínica Rev. Bras. Reumatol. 47 (4). Ago 2007 [https://doi.org/10.1590/S0482-50042007000400005](https://doi.org/10.1590/S0482-50042007000400005) ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-25T15:47:41.000Z",
+                    "updated_at": "2021-08-28T14:49:23.000Z",
+                    "files": [
+                        {
+                            "id": 18048,
+                            "file": "f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "name": "d7fa5f77a57f31c9db5f88edc7423d4344b40ec9.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2021-08-25T15:41:30.000Z",
+                            "updated_at": "2021-08-25T15:41:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18048,
+                                "alternative_id": 42828
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 42829,
+                    "question_id": 10478,
+                    "description": "Pontilhado grosso",
+                    "explanation": "Falso, Doc! \n- Esse padrão está ligado a anti-Sm (ou RNP), possuindo maior especificiada para o LES\n- Pode estar presente também na DMCT e esclerose sistêmica\n\nVeja na tabela os diferentes padrões de FAN e suas associações clínicas 😉:\n\nFonte da imagem: DELLAVANCE, et. al. Análise crítica do teste de anticorpos antinúcleo (FAn) na prática clínica Rev. Bras. Reumatol. 47 (4). Ago 2007 [https://doi.org/10.1590/S0482-50042007000400005](https://doi.org/10.1590/S0482-50042007000400005)  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-25T15:47:41.000Z",
+                    "updated_at": "2021-08-28T14:49:23.000Z",
+                    "files": [
+                        {
+                            "id": 18048,
+                            "file": "f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "name": "d7fa5f77a57f31c9db5f88edc7423d4344b40ec9.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2021-08-25T15:41:30.000Z",
+                            "updated_at": "2021-08-25T15:41:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18048,
+                                "alternative_id": 42829
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 42830,
+                    "question_id": 10478,
+                    "description": "Nucleolar",
+                    "explanation": "Boa, Doc! 😁 Esse é um padrão mais relacionado com:\n- esclerose sistêmica\n- miopatias inflamatórias\n\nVeja na tabela os diferentes padrões de FAN e suas associações clínicas 😉:\n\nFonte da imagem: DELLAVANCE, et. al. Análise crítica do teste de anticorpos antinúcleo (FAn) na prática clínica Rev. Bras. Reumatol. 47 (4). Ago 2007 [https://doi.org/10.1590/S0482-50042007000400005](https://doi.org/10.1590/S0482-50042007000400005)  ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-08-25T15:47:41.000Z",
+                    "updated_at": "2021-08-28T14:49:23.000Z",
+                    "files": [
+                        {
+                            "id": 18048,
+                            "file": "f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "name": "d7fa5f77a57f31c9db5f88edc7423d4344b40ec9.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2021-08-25T15:41:30.000Z",
+                            "updated_at": "2021-08-25T15:41:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18048,
+                                "alternative_id": 42830
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10478,
+                "questionary_id": 268290,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10480,
+            "institution_id": 4,
+            "description": "Qual dessas não é uma doença provável em caso de FAN positivo com padrão nucleolar?",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-25T15:59:17.000Z",
+            "updated_at": "2021-08-28T14:49:38.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 938,
+                    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2021-08-25T15:33:43.000Z",
+                    "updated_at": "2021-08-25T15:33:43.000Z",
+                    "pivot": {
+                        "discipline_id": 938,
+                        "question_id": 10480
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42835,
+                    "question_id": 10480,
+                    "description": "Esclerose sistêmica",
+                    "explanation": "Essa pode ser, Doc! Esse é um padrão mais relacionado com:\n- esclerose sistêmica\n- miopatias inflamatórias\n\nVeja na tabela os diferentes padrões de FAN e suas associações clínicas 😉:\n\nFonte da imagem: DELLAVANCE, et. al. Análise crítica do teste de anticorpos antinúcleo (FAn) na prática clínica Rev. Bras. Reumatol. 47 (4). Ago 2007 [https://doi.org/10.1590/S0482-50042007000400005](https://doi.org/10.1590/S0482-50042007000400005)  ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-25T15:59:17.000Z",
+                    "updated_at": "2021-08-28T14:49:38.000Z",
+                    "files": [
+                        {
+                            "id": 18048,
+                            "file": "f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "name": "d7fa5f77a57f31c9db5f88edc7423d4344b40ec9.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2021-08-25T15:41:30.000Z",
+                            "updated_at": "2021-08-25T15:41:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18048,
+                                "alternative_id": 42835
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 42836,
+                    "question_id": 10480,
+                    "description": "artrite reumatoide",
+                    "explanation": "Boa, Doc, essa é a incorreta! Esse é um padrão mais relacionado com:\n- esclerose sistêmica\n- miopatias inflamatórias\n\nVeja na tabela os diferentes padrões de FAN e suas associações clínicas 😉:\n\nFonte da imagem: DELLAVANCE, et. al. Análise crítica do teste de anticorpos antinúcleo (FAn) na prática clínica Rev. Bras. Reumatol. 47 (4). Ago 2007 [https://doi.org/10.1590/S0482-50042007000400005](https://doi.org/10.1590/S0482-50042007000400005)  ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-08-25T15:59:17.000Z",
+                    "updated_at": "2021-08-28T14:49:38.000Z",
+                    "files": [
+                        {
+                            "id": 18048,
+                            "file": "f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "name": "d7fa5f77a57f31c9db5f88edc7423d4344b40ec9.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2021-08-25T15:41:30.000Z",
+                            "updated_at": "2021-08-25T15:41:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18048,
+                                "alternative_id": 42836
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 42837,
+                    "question_id": 10480,
+                    "description": "polimiosite",
+                    "explanation": "Essa pode ser, Doc! Esse é um padrão mais relacionado com:\n- esclerose sistêmica\n- miopatias inflamatórias\n\nVeja na tabela os diferentes padrões de FAN e suas associações clínicas 😉:\n\nFonte da imagem: DELLAVANCE, et. al. Análise crítica do teste de anticorpos antinúcleo (FAn) na prática clínica Rev. Bras. Reumatol. 47 (4). Ago 2007 [https://doi.org/10.1590/S0482-50042007000400005](https://doi.org/10.1590/S0482-50042007000400005)  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-25T15:59:17.000Z",
+                    "updated_at": "2021-08-28T14:49:38.000Z",
+                    "files": [
+                        {
+                            "id": 18048,
+                            "file": "f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "name": "d7fa5f77a57f31c9db5f88edc7423d4344b40ec9.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2021-08-25T15:41:30.000Z",
+                            "updated_at": "2021-08-25T15:41:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18048,
+                                "alternative_id": 42837
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 42838,
+                    "question_id": 10480,
+                    "description": "dermatomiosite",
+                    "explanation": "Essa pode ser, Doc! Esse é um padrão mais relacionado com:\n- esclerose sistêmica\n- miopatias inflamatórias\n\nVeja na tabela os diferentes padrões de FAN e suas associações clínicas 😉:\n\nFonte da imagem: DELLAVANCE, et. al. Análise crítica do teste de anticorpos antinúcleo (FAn) na prática clínica Rev. Bras. Reumatol. 47 (4). Ago 2007 [https://doi.org/10.1590/S0482-50042007000400005](https://doi.org/10.1590/S0482-50042007000400005)  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-25T15:59:17.000Z",
+                    "updated_at": "2021-08-28T14:49:38.000Z",
+                    "files": [
+                        {
+                            "id": 18048,
+                            "file": "f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "name": "d7fa5f77a57f31c9db5f88edc7423d4344b40ec9.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2021-08-25T15:41:30.000Z",
+                            "updated_at": "2021-08-25T15:41:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18048,
+                                "alternative_id": 42838
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10480,
+                "questionary_id": 268290,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10503,
+            "institution_id": 149,
+            "description": "Uma mulher de 25 anos queixa-se de dor nas mãos e mudança de coloração delas com o frio. Fuma 20 anos/maço e toma de 8 a 10 copos de café por dia. O fator antinúcleo revela padrão pontilhado fino, e o autoanticorpo antirribonucleoproteína foi positivo. Qual das al ternativas a seguir é de maior probabilidade quanto ao diagnóstico dessa paciente?\n",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-27T21:59:09.000Z",
+            "updated_at": "2021-08-27T21:59:09.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 149,
+                "title": "PUC-SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-07-05T22:16:24.000Z",
+                "updated_at": "2020-07-05T22:16:24.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 938,
+                    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2021-08-25T15:33:43.000Z",
+                    "updated_at": "2021-08-25T15:33:43.000Z",
+                    "pivot": {
+                        "discipline_id": 938,
+                        "question_id": 10503
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42930,
+                    "question_id": 10503,
+                    "description": "esclerose sistêmica ",
+                    "explanation": "Falso, Doc! \n- A presença de anticorpo antirribonucleoproteína (anti-RNP/anti-U1-RNP) e fenômeno de Raynaud e sinovite é altamente sugestiva de DMCT faltando apenas um critério para fechar o diagnóstico\n- Doc, lembrando que a presença do anti-RNP é **indispensável** para o diagnóstico de DMCT 😉",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-27T21:59:09.000Z",
+                    "updated_at": "2021-08-27T21:59:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42931,
+                    "question_id": 10503,
+                    "description": "lúpus eritematoso sistêmico ",
+                    "explanation": "Falso, Doc! \n- A presença de anticorpo antirribonucleoproteína (anti-RNP/anti-U1-RNP) e fenômeno de Raynaud e sinovite é altamente sugestiva de DMCT faltando apenas um critério para fechar o diagnóstico\n- Doc, lembrando que a presença do anti-RNP é **indispensável** para o diagnóstico de DMCT 😉 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-27T21:59:09.000Z",
+                    "updated_at": "2021-08-27T21:59:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42932,
+                    "question_id": 10503,
+                    "description": "tromboangiite obliterante ",
+                    "explanation": "Falso, Doc! \n- A presença de anticorpo antirribonucleoproteína (anti-RNP/anti-U1-RNP) e fenômeno de Raynaud e sinovite é altamente sugestiva de DMCT faltando apenas um critério para fechar o diagnóstico\n- Doc, lembrando que a presença do anti-RNP é **indispensável** para o diagnóstico de DMCT 😉 ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-27T21:59:09.000Z",
+                    "updated_at": "2021-08-27T21:59:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42933,
+                    "question_id": 10503,
+                    "description": " doença mista do tecido conectivo",
+                    "explanation": "Muito bem, Doc! 😁\n- A presença de anticorpo antirribonucleoproteína (anti-RNP/anti-U1-RNP) e fenômeno de Raynaud e sinovite é altamente sugestiva de DMCT faltando apenas um critério para fechar o diagnóstico\n- Doc, lembrando que a presença do anti-RNP é **indispensável** para o diagnóstico de DMCT 😉 ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-08-27T21:59:09.000Z",
+                    "updated_at": "2021-08-27T21:59:09.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10503,
+                "questionary_id": 268290,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10504,
+            "institution_id": 256,
+            "description": "Correlacione:\n- I - Granulomatose de Wegener\n- II - Poliangiite microscópica\n- III - Lúpus eritematoso sistêmico\n- IV - Artrite reumatoide\n- V- Espondilite anquilosante\n- ( ) HLA-B27\n- ( ) Anti-CCP\n- ( ) Anti-DNA\n- ( ) p-ANCA\n- ( ) c-ANCA\nA sequência correta é encontrada em:",
+            "difficulty": "medium",
+            "year": "2009-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-27T22:07:52.000Z",
+            "updated_at": "2021-10-04T14:32:17.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 256,
+                "title": "UFPEL",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-03-13T14:34:54.000Z",
+                "updated_at": "2021-03-13T14:34:54.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 938,
+                    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2021-08-25T15:33:43.000Z",
+                    "updated_at": "2021-08-25T15:33:43.000Z",
+                    "pivot": {
+                        "discipline_id": 938,
+                        "question_id": 10504
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42934,
+                    "question_id": 10504,
+                    "description": "V, IV, III, I, II ",
+                    "explanation": "Falso, Doc! Confira o comentário completo na alternativa correta 😉 ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-27T22:07:52.000Z",
+                    "updated_at": "2021-10-04T14:32:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42935,
+                    "question_id": 10504,
+                    "description": "IV, III, V, I, II ",
+                    "explanation": "Falso, Doc! Confira o comentário completo na alternativa correta 😉 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-27T22:07:52.000Z",
+                    "updated_at": "2021-10-04T14:32:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42936,
+                    "question_id": 10504,
+                    "description": "I, III, IV, II, V ",
+                    "explanation": "Falso, Doc! Confira o comentário completo na alternativa correta 😉",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-27T22:07:52.000Z",
+                    "updated_at": "2021-10-04T14:32:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42937,
+                    "question_id": 10504,
+                    "description": "V, IV, III, II, I",
+                    "explanation": "Você é fera, Doc! 👊 \n- 90% dos pacientes com **espondilite anquilosante** possuem **HLA-B27**\n- O **anti-CCP** é um anticorpo altamente específico (>95% de especificidade), com sensibilidade moderada (70-75%) para **artrite reumatoide**\n- **O anticorpo anti-dsDNA é** considerado específico para **LES** (juntamente com o anti-Sm e o anti-P), está presente em 70% dos casos \n- A **poliangiite microscópica** está mais associada com o **p-ANCA**, embora não seja um anticorpo muito específico\n- O **c-ANCA** é bastante específico para granulomatose com poliangiíte (**granulomatose de Wegener**)",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-08-27T22:07:53.000Z",
+                    "updated_at": "2021-10-04T14:32:17.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10504,
+                "questionary_id": 268290,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10505,
+            "institution_id": 409,
+            "description": "Uma mulher de 28 anos, previamente hígida, vem apresentando astenia, queda de cabelo e dores articulares, às vezes com sinais inflamatórios, em grandes e pequenas articulações, de forma recorrente, há 4 meses. Foram solicitados exames laboratoriais que revelaram discreta leucopenia, aumento da velocidade de hemossedimentação e FAN positivo. O médico decide solicitar a dosagem de outros autoanticorpos diante da suspeita de lúpus eritematoso sistêmico. São mais específicos para o diagnóstico dessa afecção os anticorpos:\n",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-27T22:16:20.000Z",
+            "updated_at": "2021-08-27T22:16:20.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 409,
+                "title": "TRF - 3a região",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-08-27T22:16:20.000Z",
+                "updated_at": "2021-08-27T22:16:20.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 938,
+                    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2021-08-25T15:33:43.000Z",
+                    "updated_at": "2021-08-25T15:33:43.000Z",
+                    "pivot": {
+                        "discipline_id": 938,
+                        "question_id": 10505
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42938,
+                    "question_id": 10505,
+                    "description": "anti-DNA nativo e anti-peptídeo citrulinado cíclico. ",
+                    "explanation": "Falso, Doc! O anti-CCP é mais específico para artrite reumatoide, e não para lupus eritematoso sistêmica",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-27T22:16:20.000Z",
+                    "updated_at": "2021-08-27T22:16:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42939,
+                    "question_id": 10505,
+                    "description": "anti-RNP e anti-La/SSB.",
+                    "explanation": "Falso, Doc!  \n- O anti-RNP é mais específico para DMTC, e não para LES\n- Além disso, os anticorpos RoLA (anti-Ro e anti-La) lembram a síndrome de Sjögren, não sendo tão específicos para LES",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-27T22:16:20.000Z",
+                    "updated_at": "2021-08-27T22:16:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42940,
+                    "question_id": 10505,
+                    "description": "anti-Ro/SSA e anti La/SSB. ",
+                    "explanation": "FAlso, Doc! Os anticorpos RoLa (🕊️) estão presentes também na síndrome de Sjögren, não sendo tão específicos para LES",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-27T22:16:20.000Z",
+                    "updated_at": "2021-08-27T22:16:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42941,
+                    "question_id": 10505,
+                    "description": "anti-Sm e anti-fosfolípide.",
+                    "explanation": "Falso, Doc! O anti-fosfolípide são os anticorpos da Síndrome Antifosfolípide (SAF): anti-cardiolipina, anticoagulante lúpico e antibeta-2glicoproteína, não sendo específicos para LES",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-27T22:16:20.000Z",
+                    "updated_at": "2021-08-27T22:16:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42942,
+                    "question_id": 10505,
+                    "description": "anti-DNA dupla hélice e anti-Sm. ",
+                    "explanation": "Boa, Doc! 🤗 Os anticorpos específicos para LES são **anti-S**m (o mais específico), **anti-dsDN**A e **anti-**P",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2021-08-27T22:16:20.000Z",
+                    "updated_at": "2021-08-27T22:16:20.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10505,
+                "questionary_id": 268290,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10508,
+            "institution_id": 410,
+            "description": "Sobre os anticorpos presentes nas Colagenoses, associe as colunas a seguir.\n\n( 1 ) Anti-DNA\n\n( 2 ) Anti-SM\n\n( 3 ) Anti-histona\n\n( 4 ) Anti-RNP\n\n( 5 ) Anti-Ro\n\n\n( ) É o anticorpo mais específico para o diagnóstico de Lúpus Eritematoso Sistêmico.\n\n( ) Está relacionado à Doença Mista do Tecido Conjuntivo.\n\n( ) Geralmente presente em quadros de Lúpus fármaco induzido.\n\n( ) É o segundo mais específico do Lúpus, estando relacionado à atividade de doença.\n\n( ) É associado a um maior risco de Bloqueio Atrioventricular total, no contexto de Lúpus Neonatal.\n\n  A sequência correta obtida, no sentido de cima para baixo, é :",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-27T23:06:52.000Z",
+            "updated_at": "2021-08-27T23:06:52.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 410,
+                "title": "IF-PB",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-08-27T23:06:52.000Z",
+                "updated_at": "2021-08-27T23:06:52.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 938,
+                    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2021-08-25T15:33:43.000Z",
+                    "updated_at": "2021-08-25T15:33:43.000Z",
+                    "pivot": {
+                        "discipline_id": 938,
+                        "question_id": 10508
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42953,
+                    "question_id": 10508,
+                    "description": "2 – 4 – 5 – 1 – 3 ",
+                    "explanation": "Falso, Doc! Questão conceitual autoexplicativa:\n- **2 - Anti-Sm é o anticorpo mais específico para o diagnóstico de Lúpus Eritematoso Sistêmico** (outros específicos são o anti-dsDNA e o anti-P)\n- **4 - anti-RNP está relacionado à Doença Mista do Tecido Conjuntivo** (embora possa também estar presente no LES, por exemplo)\n- **3 - anti-histona geralmente está presente em quadros de Lúpus fármaco induzido** (em 95% dos casos)\n- **1 -** **Anti-DNA é o segundo mais específico do Lúpus, estando relacionado à atividade de doença**. (anti-**D**NA indica atividade de **D**oença, especialmente doença renal)\n- **5 - anti-Ro é associado a um maior risco de Bloqueio Atrioventricular total, no contexto de Lúpus Neonatal.**  (lembre-se que o RN muitas vezes nasce **Ro**xinho - anti-**Ro �**�)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-27T23:06:52.000Z",
+                    "updated_at": "2021-08-27T23:06:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42954,
+                    "question_id": 10508,
+                    "description": "1 – 3 – 4 – 2 – 5 ",
+                    "explanation": "Falso, Doc! Questão conceitual autoexplicativa:\n- **2 - Anti-Sm é o anticorpo mais específico para o diagnóstico de Lúpus Eritematoso Sistêmico** (outros específicos são o anti-dsDNA e o anti-P)\n- **4 - anti-RNP está relacionado à Doença Mista do Tecido Conjuntivo** (embora possa também estar presente no LES, por exemplo)\n- **3 - anti-histona geralmente está presente em quadros de Lúpus fármaco induzido** (em 95% dos casos)\n- **1 -** **Anti-DNA é o segundo mais específico do Lúpus, estando relacionado à atividade de doença**. (anti-**D**NA indica atividade de **D**oença, especialmente doença renal)\n- **5 - anti-Ro é associado a um maior risco de Bloqueio Atrioventricular total, no contexto de Lúpus Neonatal.**  (lembre-se que o RN muitas vezes nasce **Ro**xinho - anti-**Ro �**�) ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-27T23:06:52.000Z",
+                    "updated_at": "2021-08-27T23:06:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42955,
+                    "question_id": 10508,
+                    "description": "2 – 4 – 3 – 1 – 5 ",
+                    "explanation": "Parabéns, Doc, mandou bem! 😎 Questão conceitual autoexplicativa:\n- **2 - Anti-Sm é o anticorpo mais específico para o diagnóstico de Lúpus Eritematoso Sistêmico** (outros específicos são o anti-dsDNA e o anti-P)\n- **4 - anti-RNP está relacionado à Doença Mista do Tecido Conjuntivo** (embora possa também estar presente no LES, por exemplo)\n- **3 - anti-histona geralmente está presente em quadros de Lúpus fármaco induzido** (em 95% dos casos)\n- **1 -** **Anti-DNA é o segundo mais específico do Lúpus, estando relacionado à atividade de doença**. (anti-**D**NA indica atividade de **D**oença, especialmente doença renal)\n- **5 - anti-Ro é associado a um maior risco de Bloqueio Atrioventricular total, no contexto de Lúpus Neonatal.**  (lembre-se que o RN muitas vezes nasce **Ro**xinho - anti-**Ro �**�) ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-08-27T23:06:52.000Z",
+                    "updated_at": "2021-08-27T23:06:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42956,
+                    "question_id": 10508,
+                    "description": "1 – 5 – 3 – 2 – 4 ",
+                    "explanation": "Falso, Doc! Questão conceitual autoexplicativa:\n- **2 - Anti-Sm é o anticorpo mais específico para o diagnóstico de Lúpus Eritematoso Sistêmico** (outros específicos são o anti-dsDNA e o anti-P)\n- **4 - anti-RNP está relacionado à Doença Mista do Tecido Conjuntivo** (embora possa também estar presente no LES, por exemplo)\n- **3 - anti-histona geralmente está presente em quadros de Lúpus fármaco induzido** (em 95% dos casos)\n- **1 -** **Anti-DNA é o segundo mais específico do Lúpus, estando relacionado à atividade de doença**. (anti-**D**NA indica atividade de **D**oença, especialmente doença renal)\n- **5 - anti-Ro é associado a um maior risco de Bloqueio Atrioventricular total, no contexto de Lúpus Neonatal.**  (lembre-se que o RN muitas vezes nasce **Ro**xinho - anti-**Ro �**�) ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-27T23:06:52.000Z",
+                    "updated_at": "2021-08-27T23:06:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42957,
+                    "question_id": 10508,
+                    "description": "2 – 3 – 4 – 1 – 5 ",
+                    "explanation": "Falso, Doc! Questão conceitual autoexplicativa:\n- **2 - Anti-Sm é o anticorpo mais específico para o diagnóstico de Lúpus Eritematoso Sistêmico** (outros específicos são o anti-dsDNA e o anti-P)\n- **4 - anti-RNP está relacionado à Doença Mista do Tecido Conjuntivo** (embora possa também estar presente no LES, por exemplo)\n- **3 - anti-histona geralmente está presente em quadros de Lúpus fármaco induzido** (em 95% dos casos)\n- **1 -** **Anti-DNA é o segundo mais específico do Lúpus, estando relacionado à atividade de doença**. (anti-**D**NA indica atividade de **D**oença, especialmente doença renal)\n- **5 - anti-Ro é associado a um maior risco de Bloqueio Atrioventricular total, no contexto de Lúpus Neonatal.**  (lembre-se que o RN muitas vezes nasce **Ro**xinho - anti-**Ro �**�) ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-08-27T23:06:52.000Z",
+                    "updated_at": "2021-08-27T23:06:52.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10508,
+                "questionary_id": 268290,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10479,
+            "institution_id": 4,
+            "description": "Qual padrão de FAN mais corrobora com a possibilidade de Síndrome de Sjögren?",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-25T15:54:46.000Z",
+            "updated_at": "2021-08-28T14:49:30.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 938,
+                    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2021-08-25T15:33:43.000Z",
+                    "updated_at": "2021-08-25T15:33:43.000Z",
+                    "pivot": {
+                        "discipline_id": 938,
+                        "question_id": 10479
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42831,
+                    "question_id": 10479,
+                    "description": "Homogêneo",
+                    "explanation": "Falso, Doc! Esse padrão está associado ao anti-dsDNA e ao anti-histona, sendo bastante frequente no LES\n- Mas não é muito específico, pois pode também estar associado, artrite idiopática juvenil, esclerose sistêmica, cirrose biliar primária e hepatite autoimune \n\nVeja na tabela os diferentes padrões de FAN e suas associações clínicas 😉:\n\nFonte da imagem: DELLAVANCE, et. al. Análise crítica do teste de anticorpos antinúcleo (FAn) na prática clínica Rev. Bras. Reumatol. 47 (4). Ago 2007 [https://doi.org/10.1590/S0482-50042007000400005](https://doi.org/10.1590/S0482-50042007000400005)  \n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-25T15:54:46.000Z",
+                    "updated_at": "2021-08-28T14:49:30.000Z",
+                    "files": [
+                        {
+                            "id": 18048,
+                            "file": "f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "name": "d7fa5f77a57f31c9db5f88edc7423d4344b40ec9.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2021-08-25T15:41:30.000Z",
+                            "updated_at": "2021-08-25T15:41:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18048,
+                                "alternative_id": 42831
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 42832,
+                    "question_id": 10479,
+                    "description": "Pontilhado fino",
+                    "explanation": "Muito bem, Doc! 👏 Esse padrão está ligado ao **anti-La ou anti-Ro** (RoLa 🕊️), podendo estar presente também na síndrome de Sjögren, LES, AR, esclerose sistêmica e polimiosite\n\nVeja na tabela os diferentes padrões de FAN e suas associações clínicas 😉:\n\nFonte da imagem: DELLAVANCE, et. al. Análise crítica do teste de anticorpos antinúcleo (FAn) na prática clínica Rev. Bras. Reumatol. 47 (4). Ago 2007 [https://doi.org/10.1590/S0482-50042007000400005](https://doi.org/10.1590/S0482-50042007000400005)  ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-08-25T15:54:46.000Z",
+                    "updated_at": "2021-08-28T14:49:30.000Z",
+                    "files": [
+                        {
+                            "id": 18048,
+                            "file": "f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "name": "d7fa5f77a57f31c9db5f88edc7423d4344b40ec9.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2021-08-25T15:41:30.000Z",
+                            "updated_at": "2021-08-25T15:41:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18048,
+                                "alternative_id": 42832
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 42833,
+                    "question_id": 10479,
+                    "description": "Pontilhado grosso",
+                    "explanation": "Falso, Doc! \n- Esse padrão está ligado a anti-Sm ou anti-RNP\n- Pode estar presente no LES (boa especificidade), DMCT e esclerose sistêmica\n\nVeja na tabela os diferentes padrões de FAN e suas associações clínicas 😉:\n\nFonte da imagem: DELLAVANCE, et. al. Análise crítica do teste de anticorpos antinúcleo (FAn) na prática clínica Rev. Bras. Reumatol. 47 (4). Ago 2007 [https://doi.org/10.1590/S0482-50042007000400005](https://doi.org/10.1590/S0482-50042007000400005)  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-25T15:54:46.000Z",
+                    "updated_at": "2021-08-28T14:49:30.000Z",
+                    "files": [
+                        {
+                            "id": 18048,
+                            "file": "f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "name": "d7fa5f77a57f31c9db5f88edc7423d4344b40ec9.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2021-08-25T15:41:30.000Z",
+                            "updated_at": "2021-08-25T15:41:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18048,
+                                "alternative_id": 42833
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 42834,
+                    "question_id": 10479,
+                    "description": "Nucleolar",
+                    "explanation": "Falso, Doc! Esse é um padrão mais relacionado com:\n- esclerose sistêmica\n- miopatias inflamatórias\n\nVeja na tabela os diferentes padrões de FAN e suas associações clínicas 😉:\n\nFonte da imagem: DELLAVANCE, et. al. Análise crítica do teste de anticorpos antinúcleo (FAn) na prática clínica Rev. Bras. Reumatol. 47 (4). Ago 2007 [https://doi.org/10.1590/S0482-50042007000400005](https://doi.org/10.1590/S0482-50042007000400005)  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-25T15:54:46.000Z",
+                    "updated_at": "2021-08-28T14:49:30.000Z",
+                    "files": [
+                        {
+                            "id": 18048,
+                            "file": "f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "name": "d7fa5f77a57f31c9db5f88edc7423d4344b40ec9.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2021-08-25T15:41:30.000Z",
+                            "updated_at": "2021-08-25T15:41:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f75af513-7c24-41da-8b4e-121612fe5024.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18048,
+                                "alternative_id": 42834
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10479,
+                "questionary_id": 268290,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10482,
+            "institution_id": 55,
+            "description": "Qual é o padrão de FAN mais frequente, inespecífico e que pode estar presente em pessoas sem doença autoimune?\n",
+            "difficulty": "hard",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-25T16:18:52.000Z",
+            "updated_at": "2021-08-25T16:18:52.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 55,
+                "title": "UFS",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-21T22:29:44.000Z",
+                "updated_at": "2020-05-21T22:29:44.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 938,
+                    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2021-08-25T15:33:43.000Z",
+                    "updated_at": "2021-08-25T15:33:43.000Z",
+                    "pivot": {
+                        "discipline_id": 938,
+                        "question_id": 10482
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42844,
+                    "question_id": 10482,
+                    "description": " nuclear pontilhado fino denso  ",
+                    "explanation": "Perfeito, Doc! 😁 Presença de FAN em padrão nuclear pontilhado fino denso é vista em até 20% das pessoas saudáveis (mais comum em idosos)",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-08-25T16:18:52.000Z",
+                    "updated_at": "2021-08-25T16:18:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42845,
+                    "question_id": 10482,
+                    "description": "nuclear pontilhado grosso  ",
+                    "explanation": "Falso, Doc! O FAN pontilhado grosso pode estar associado com LES, DMTC e esclerose sistêmica",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-25T16:18:52.000Z",
+                    "updated_at": "2021-08-25T16:18:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42846,
+                    "question_id": 10482,
+                    "description": "nuclear pontilhado fino ",
+                    "explanation": "Falso, Doc! O padrão nuclear pontilhado fino está presente normalmente em indivíduos com anti-Ro ou anti-La (RoLa 🕊️) (pode ser LES ou SS, principalmente)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-25T16:18:52.000Z",
+                    "updated_at": "2021-08-25T16:18:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42847,
+                    "question_id": 10482,
+                    "description": "nuclear homogêneo",
+                    "explanation": "Falso, Doc! O padrão nuclear homogêneo está relacionado com anti-DNA, e é sugestivo de LES (pode ser encontrado trambém na esclerodermia e cirrose biliar primária)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-25T16:18:52.000Z",
+                    "updated_at": "2021-08-25T16:18:52.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10482,
+                "questionary_id": 268290,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10509,
+            "institution_id": 411,
+            "description": "Em relação aos exames laboratoriais para o diagnóstico das principais doenças reumáticas autoimunes, é correto afirmar que\n",
+            "difficulty": "hard",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-08-27T23:13:46.000Z",
+            "updated_at": "2021-08-28T17:40:53.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 411,
+                "title": "BANPARÁ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-08-27T23:13:46.000Z",
+                "updated_at": "2021-08-27T23:13:46.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 938,
+                    "title": "Exames Laboratoriais e Autoanticorpos em Reumatologia",
+                    "description": null,
+                    "parent_id": 44,
+                    "is_enabled": true,
+                    "created_at": "2021-08-25T15:33:43.000Z",
+                    "updated_at": "2021-08-25T15:33:43.000Z",
+                    "pivot": {
+                        "discipline_id": 938,
+                        "question_id": 10509
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 42958,
+                    "question_id": 10509,
+                    "description": "a positividade do fator antinúcleo determina a presença de doença reumática autoimune, especialmente o padrão pontilhado fino denso. ",
+                    "explanation": "Falso, Doc! \n- Esse padrão é o mais comum em pessoas saudáveis\n- Presença de FAN em padrão nuclear pontilhado fino denso é vista em até 20% das pessoas saudáveis (mais comum em idosos) ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-08-27T23:13:46.000Z",
+                    "updated_at": "2021-08-28T17:40:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42959,
+                    "question_id": 10509,
+                    "description": "o Anti-Sm encontra-se em cerca de 80% dos pacientes com Síndrome de Sjögren, sendo altamente específico para diagnosticar essa afecção. ",
+                    "explanation": "Falso, Doc! Esse é o anticorpo mais específico para o lupus eritematoso sistêmico (LES)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-08-27T23:13:46.000Z",
+                    "updated_at": "2021-08-28T17:40:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42960,
+                    "question_id": 10509,
+                    "description": "a presença de anti-RNP em altos títulos (>1/1.600), na ausência de outros autoanticorpos, está particularmente associada à Polimiosite e à Dermatomiosite. ",
+                    "explanation": "Falso, Doc! É fortemente sugestivo de doença mista do tecido conjuntivo (DMTC)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-08-27T23:13:46.000Z",
+                    "updated_at": "2021-08-28T17:40:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42961,
+                    "question_id": 10509,
+                    "description": "o encontro do anti-Scl-70 está presente nos pacientes com esclerodermia, sobretudo nos que apresentam a forma localizada da doença. ",
+                    "explanation": "Falso, Doc! Pegadinha 😜\n- Esse é o anti-topoisomerase, um dos anticorpos de esclerodermia (juntamente com o anticentrômero)\n- Possui especificidade de >**99,6%** para esclerodermia\n- Está associado mais a doença **difusa** (comprometimento visceral, fibrose pulmonar e pior prognóstico)\n- É o anticentrômero que se relaciona mais com doença localizada",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-08-27T23:13:46.000Z",
+                    "updated_at": "2021-08-28T17:40:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 42962,
+                    "question_id": 10509,
+                    "description": "a positividade para anticorpos anti-DNA ou antinucleossomo é fortemente sugestiva para o diagnóstico do Lupus Eritematoso Sistêmico ",
+                    "explanation": "Boa, Doc! 😁\n- O anti-DNA é um anticorpo específico para o lupus e com razoável sensibilidade (70% dos pacientes)\n- Já o antinucleossomo é o **mais sensível e específico** para LES, quando considerados os dois parâmetros",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2021-08-27T23:13:46.000Z",
+                    "updated_at": "2021-08-28T17:40:53.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10509,
+                "questionary_id": 268290,
+                "timer": 0
+            }
+        }
+    ]
+}

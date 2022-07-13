@@ -1,0 +1,1453 @@
+{
+    "id": 268332,
+    "user_id": 1699,
+    "title": "Meningite ",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-12T00:07:21.000Z",
+    "updated_at": "2022-07-12T00:07:21.000Z",
+    "study_plan_id": 444,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 5295,
+            "institution_id": 4,
+            "description": "Qual é o principal agente etiológico de meningite durante o período neonatal?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-11-19T01:36:24.000Z",
+            "updated_at": "2020-11-19T01:40:25.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 533,
+                    "title": "Neuropediatria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2020-11-19T01:30:57.000Z",
+                    "updated_at": "2020-11-19T01:30:57.000Z",
+                    "pivot": {
+                        "discipline_id": 533,
+                        "question_id": 5295
+                    }
+                },
+                {
+                    "id": 534,
+                    "title": "Meningite (Pediatria)",
+                    "description": null,
+                    "parent_id": 533,
+                    "is_enabled": true,
+                    "created_at": "2020-11-19T01:31:42.000Z",
+                    "updated_at": "2020-11-19T01:31:42.000Z",
+                    "pivot": {
+                        "discipline_id": 534,
+                        "question_id": 5295
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 21871,
+                    "question_id": 5295,
+                    "description": "Neisseria meningitidis",
+                    "explanation": "É comum de um mês de vida até completar 12 anos de idade,",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-11-18T22:36:24.000Z",
+                    "updated_at": "2020-11-18T22:40:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21872,
+                    "question_id": 5295,
+                    "description": "Streptococcus agalactiae",
+                    "explanation": "Perfeito, Doc! É o principal agente de meningite do período neonatal.\n- É seguido pela E. coli, um gram-negativo entérico. ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-11-18T22:36:24.000Z",
+                    "updated_at": "2020-11-18T22:40:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21873,
+                    "question_id": 5295,
+                    "description": "Listeria monocytogenes.",
+                    "explanation": "É comum no período neonatal, contudo, não é o mais prevalente.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-11-18T22:36:24.000Z",
+                    "updated_at": "2020-11-18T22:40:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21874,
+                    "question_id": 5295,
+                    "description": "S. pneumoniae (pneumococo)",
+                    "explanation": "Segundo Harrison, é o mais prevalente após os 20 anos.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-11-18T22:36:24.000Z",
+                    "updated_at": "2020-11-18T22:40:25.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5295,
+                "questionary_id": 268332,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5296,
+            "institution_id": 4,
+            "description": "No Brasil, o principal agente etiológico das meningites bacterianas fora do período neonatal é:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-11-19T01:52:41.000Z",
+            "updated_at": "2020-11-19T01:52:41.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 534,
+                    "title": "Meningite (Pediatria)",
+                    "description": null,
+                    "parent_id": 533,
+                    "is_enabled": true,
+                    "created_at": "2020-11-19T01:31:42.000Z",
+                    "updated_at": "2020-11-19T01:31:42.000Z",
+                    "pivot": {
+                        "discipline_id": 534,
+                        "question_id": 5296
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 21875,
+                    "question_id": 5296,
+                    "description": "Neisseria meningitidis.",
+                    "explanation": "Perfeito, Doc. A Neisseria meningitidis (meningococo) acomete principalmente indivíduos com menos de 20 anos de idade.\n- Contudo, segundo o Ministério da Saúde (MS), o meningococo é a principal bactéria causadora de meningite, com o pneumococo em segundo lugar.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-11-18T22:52:41.000Z",
+                    "updated_at": "2020-11-18T22:52:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21876,
+                    "question_id": 5296,
+                    "description": "Streptococcus pneumoniae.",
+                    "explanation": "Calma, Doc. Você está quase certo, Na realidade, segundo o Harrison, o pneumococo é sim o mais comum. Contudo, segundo o Ministério da Saúde, o meningococo possui vantagem na prevalência.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-11-18T22:52:41.000Z",
+                    "updated_at": "2020-11-18T22:52:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21877,
+                    "question_id": 5296,
+                    "description": "Haemophilus influenza.",
+                    "explanation": "Devido à vacinação contra o Haemophilus influenzae tipo B, que era um dos principais agentes etiológicos, reduziu-se drasticamente a incidência da doença, principalmente em crianças. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-11-18T22:52:41.000Z",
+                    "updated_at": "2020-11-18T22:52:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21878,
+                    "question_id": 5296,
+                    "description": "Streptococcus pyogenes.",
+                    "explanation": "Questão mais conceitual, Doc. O Streptococcus pyogenes não é um agente comum de meningites.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-11-18T22:52:41.000Z",
+                    "updated_at": "2020-11-18T22:52:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21879,
+                    "question_id": 5296,
+                    "description": "Staphilococcus aureus.",
+                    "explanation": "Está relacionado a casos de meningite mais graves. Não sendo um patógeno comum.",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-11-18T22:52:41.000Z",
+                    "updated_at": "2020-11-18T22:52:41.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5296,
+                "questionary_id": 268332,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5308,
+            "institution_id": 4,
+            "description": "A quimioprofilaxia com rifampicina é indicada para os contatos íntimos de pacientes com diagnóstico de meningite por:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-11-22T00:46:49.000Z",
+            "updated_at": "2020-11-22T00:46:49.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 534,
+                    "title": "Meningite (Pediatria)",
+                    "description": null,
+                    "parent_id": 533,
+                    "is_enabled": true,
+                    "created_at": "2020-11-19T01:31:42.000Z",
+                    "updated_at": "2020-11-19T01:31:42.000Z",
+                    "pivot": {
+                        "discipline_id": 534,
+                        "question_id": 5308
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 21926,
+                    "question_id": 5308,
+                    "description": "Streptococcus pneumoniae e Neisseria meningitidis.",
+                    "explanation": "Questão conceitual. Não realizamos antibioticoprofilaxia para contactantes de meningite pneumocócica.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:46:49.000Z",
+                    "updated_at": "2020-11-21T21:46:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21927,
+                    "question_id": 5308,
+                    "description": "Streptococcus pneumoniae e Mycobacterium turberculosis.",
+                    "explanation": "Questão conceitual. Não realizamos antibioticoprofilaxia para contactantes de meningite pneumocócica e Mycobacterium turberculosis.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:46:49.000Z",
+                    "updated_at": "2020-11-21T21:46:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21928,
+                    "question_id": 5308,
+                    "description": "Mycobacterium tuberculosis e Haemophilus influenzae tipo B.",
+                    "explanation": "Questão conceitual. Não realizamos antibioticoprofilaxia para contactantes de Mycobacterium turberculosis. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:46:49.000Z",
+                    "updated_at": "2020-11-21T21:46:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21929,
+                    "question_id": 5308,
+                    "description": "Neisseria meningitidis e Haemophilus influenzae tipo B.",
+                    "explanation": "Perfeito, Doc. \n- A droga de escolha é a rifampicina. \n- Meningococo ➡ 4 doses durante 2 dias (12/12h\n- Hemófilo do Tipo B ➡ 4 doses durantes 4 dias (uma por dia)\n- MACETE ➡ **ME HE**sconde",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-11-21T21:46:49.000Z",
+                    "updated_at": "2020-11-21T21:46:49.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5308,
+                "questionary_id": 268332,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5297,
+            "institution_id": 4,
+            "description": "O Sinal de Brudzinski  é caracterizado da seguinte forma:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-11-19T02:14:03.000Z",
+            "updated_at": "2020-11-19T02:14:03.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 534,
+                    "title": "Meningite (Pediatria)",
+                    "description": null,
+                    "parent_id": 533,
+                    "is_enabled": true,
+                    "created_at": "2020-11-19T01:31:42.000Z",
+                    "updated_at": "2020-11-19T01:31:42.000Z",
+                    "pivot": {
+                        "discipline_id": 534,
+                        "question_id": 5297
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 21880,
+                    "question_id": 5297,
+                    "description": "Eleva-se o tronco, fletindo-o sobre a bacia; há flexão da perna sobre a coxa e desta sobre a bacia.",
+                    "explanation": "Na realidade, nessa manobra você tenta fletir **a cabeça do paciente.** ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-11-18T23:14:03.000Z",
+                    "updated_at": "2020-11-18T23:14:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21881,
+                    "question_id": 5297,
+                    "description": "Eleva-se o membro inferior em extensão, fletindo-o sobre a bacia; após pequena angulação, há flexão da perna sobre a coxa.",
+                    "explanation": "Na realidade, nessa manobra você tenta fletir **a cabeça do paciente.**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-11-18T23:14:03.000Z",
+                    "updated_at": "2020-11-18T23:14:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21882,
+                    "question_id": 5297,
+                    "description": "Flexão involuntária da perna sobre a coxa e desta sobre a bacia, ao se tentar fletir a cabeça do paciente.",
+                    "explanation": "Perfeito, é a descrição completa do sinal de Brudzinski, que representa uma irritação meníngea em proporções variáveis nos pacientes com meningoencefalite.\n\n\n\nFonte: A.D.A.M.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-11-18T23:14:03.000Z",
+                    "updated_at": "2021-03-11T01:58:34.000Z",
+                    "files": [
+                        {
+                            "id": 1291,
+                            "file": "1605741119242.jpeg",
+                            "name": "sinais-meningorradiculares-20-638.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-11-19T02:12:00.000Z",
+                            "updated_at": "2020-11-19T02:12:00.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1605741119242.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1291,
+                                "alternative_id": 21882
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 21883,
+                    "question_id": 5297,
+                    "description": "Eleva-se a cabeça, fletindo-a sobre o tronco; há hiperextensão do joelho com rigidez até os pés.",
+                    "explanation": "Na realidade, há uma flexão involuntária da perna sobre a coxa.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-11-18T23:14:03.000Z",
+                    "updated_at": "2020-11-18T23:14:03.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5297,
+                "questionary_id": 268332,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5301,
+            "institution_id": 4,
+            "description": "Escolar de 7 anos de idade é levado ao pronto-socorro com queixa de febre, cefaleia e vômitos há um dia. Ao exame físico observa-se sonolência e presença de rigidez de nuca. Liquor evidenciando 480 leucócitos, com 70% de polimorfonucleares, glicose de 20 mg/dl e proteínas de 65 mg/dl. Quais os agentes etiológicos PROVÁVEIS para o caso?",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-11-21T00:38:57.000Z",
+            "updated_at": "2020-11-21T00:38:57.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 534,
+                    "title": "Meningite (Pediatria)",
+                    "description": null,
+                    "parent_id": 533,
+                    "is_enabled": true,
+                    "created_at": "2020-11-19T01:31:42.000Z",
+                    "updated_at": "2020-11-19T01:31:42.000Z",
+                    "pivot": {
+                        "discipline_id": 534,
+                        "question_id": 5301
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 21897,
+                    "question_id": 5301,
+                    "description": "Staphylococcus aureus e Neisseria meningitidis.",
+                    "explanation": "O Staphylococcus aureus pode causar um quadro de meningite grave, contudo, é um patógeno menos comum.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-11-20T21:38:57.000Z",
+                    "updated_at": "2020-11-20T21:38:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21898,
+                    "question_id": 5301,
+                    "description": "Streptococcus agalactiae e Haemophilus influenzae B.",
+                    "explanation": "O Streptococcus agalactiae é mais comum nos neonatos, já que é um germe presente na pelve materna.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-11-20T21:38:57.000Z",
+                    "updated_at": "2020-11-20T21:38:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21899,
+                    "question_id": 5301,
+                    "description": "Neisseria meningitidis e Haemophilus influenzae B.",
+                    "explanation": "O Haemophilus influenzae B deixou de ser um patógeno comum de meningite após a instituição da vacinação.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-11-20T21:38:57.000Z",
+                    "updated_at": "2020-11-20T21:38:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21900,
+                    "question_id": 5301,
+                    "description": "Neisseria meningitidis e Streptococcus pneumoniae.",
+                    "explanation": "Perfeito, levando em conta a faixa etária encontrada, temos que os dois citados são os patógenos mais comuns.\n- O agente etiológico mais comum é o meningococo, seguido pelo pneumococo.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-11-20T21:38:57.000Z",
+                    "updated_at": "2020-11-20T21:38:57.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5301,
+                "questionary_id": 268332,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5302,
+            "institution_id": 4,
+            "description": "Assinale a alternativa **incorreta** sobre meningite em crianças:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-11-21T00:47:02.000Z",
+            "updated_at": "2020-11-21T00:47:02.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 534,
+                    "title": "Meningite (Pediatria)",
+                    "description": null,
+                    "parent_id": 533,
+                    "is_enabled": true,
+                    "created_at": "2020-11-19T01:31:42.000Z",
+                    "updated_at": "2020-11-19T01:31:42.000Z",
+                    "pivot": {
+                        "discipline_id": 534,
+                        "question_id": 5302
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 21901,
+                    "question_id": 5302,
+                    "description": "A meningite em menores de dois anos, principalmente os menores de nove meses, geralmente apresenta sinais de irritação meníngea.",
+                    "explanation": "Geralmente **NÃO** apresenta sinais de irritação meníngea.\n- Os sinais que costumam aumentar a suspeita diagnóstica são: febre, irritabilidade, choro persistente, recusa alimentar, vômitos.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-11-20T21:47:02.000Z",
+                    "updated_at": "2020-11-20T21:47:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21902,
+                    "question_id": 5302,
+                    "description": "O exame diagnóstico para a meningite é a análise do liquor obtido por Punção Lombar",
+                    "explanation": "Perfeito, é o exame ideal para realizar o diagnóstico.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-11-20T21:47:02.000Z",
+                    "updated_at": "2020-11-20T21:47:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21903,
+                    "question_id": 5302,
+                    "description": "Deve ser iniciado o antibiótico empírico, mesmo antes do resultado da cultura",
+                    "explanation": "Perfeito. Como sabemos os agentes etiológicos mais comuns, podemos começar empiricamente e, após resultado da cultura, ajustar a medicação.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-11-20T21:47:02.000Z",
+                    "updated_at": "2020-11-20T21:47:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21904,
+                    "question_id": 5302,
+                    "description": "Petéquias e púrpuras podem ocorrer nos casos de meningite meningocócica",
+                    "explanation": "Perfeito, Podemos ocorrer em até 40% dos casos de meningite meningicócica.\n- Caracterizam meningococcemia (sepse por meningococo).\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-11-20T21:47:02.000Z",
+                    "updated_at": "2021-03-11T01:58:34.000Z",
+                    "files": [
+                        {
+                            "id": 1292,
+                            "file": "1605908806042.jpeg",
+                            "name": "1-s2.0-S2214250918301963-gr1.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-11-21T00:46:47.000Z",
+                            "updated_at": "2020-11-21T00:46:47.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1605908806042.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1292,
+                                "alternative_id": 21904
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5302,
+                "questionary_id": 268332,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5303,
+            "institution_id": 4,
+            "description": "São sinais clínicos de meningite bacteriana no período neonatal, EXCETO:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-11-21T00:49:23.000Z",
+            "updated_at": "2020-11-21T00:49:23.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 534,
+                    "title": "Meningite (Pediatria)",
+                    "description": null,
+                    "parent_id": 533,
+                    "is_enabled": true,
+                    "created_at": "2020-11-19T01:31:42.000Z",
+                    "updated_at": "2020-11-19T01:31:42.000Z",
+                    "pivot": {
+                        "discipline_id": 534,
+                        "question_id": 5303
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 21905,
+                    "question_id": 5303,
+                    "description": "Abaulamento de fontanela",
+                    "explanation": "Perfeito. Geralmente neonatos apresentam sintomas inespecíficos de meningite. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-11-20T21:49:23.000Z",
+                    "updated_at": "2020-11-20T21:49:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21906,
+                    "question_id": 5303,
+                    "description": "Febre ou hipotermia",
+                    "explanation": "Perfeito. Geralmente neonatos apresentam sintomas inespecíficos de meningite. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-11-20T21:49:23.000Z",
+                    "updated_at": "2020-11-20T21:49:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21907,
+                    "question_id": 5303,
+                    "description": "Rigidez de nuca",
+                    "explanation": "A meningite em menores de dois anos **geralmente não apresenta sinais de irritação meníngea.**",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-11-20T21:49:23.000Z",
+                    "updated_at": "2020-11-20T21:49:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21908,
+                    "question_id": 5303,
+                    "description": "Sucção débil e irritabilidade",
+                    "explanation": "Perfeito. Geralmente neonatos apresentam sintomas inespecíficos de meningite.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-11-20T21:49:24.000Z",
+                    "updated_at": "2020-11-20T21:49:24.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5303,
+                "questionary_id": 268332,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5304,
+            "institution_id": 4,
+            "description": "Assinale a correção correta:\n- (   )  Cocos ou diplococos Gram-negativos\n- (   ) Diplococos Gram-positivos\n- (   ) Pequenos cocobacilos Gram-negativos pleomórficos capsulados\n- (   ) Bacilos ou bastoneres Gram-positivos\n- I - Meningococos\n- II - Pneumococos\n- III - Hemófilos\n- IV - Listeria",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-11-22T00:28:15.000Z",
+            "updated_at": "2020-11-22T00:28:15.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 534,
+                    "title": "Meningite (Pediatria)",
+                    "description": null,
+                    "parent_id": 533,
+                    "is_enabled": true,
+                    "created_at": "2020-11-19T01:31:42.000Z",
+                    "updated_at": "2020-11-19T01:31:42.000Z",
+                    "pivot": {
+                        "discipline_id": 534,
+                        "question_id": 5304
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 21909,
+                    "question_id": 5304,
+                    "description": "I, IV, III, II",
+                    "explanation": "Questão conceitual. Confira o comentário completo na alternativa certa. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:28:15.000Z",
+                    "updated_at": "2020-11-21T21:28:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21910,
+                    "question_id": 5304,
+                    "description": "II, I, III, IV",
+                    "explanation": "Questão conceitual. Confira o comentário completo na alternativa certa. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:28:15.000Z",
+                    "updated_at": "2020-11-21T21:28:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21911,
+                    "question_id": 5304,
+                    "description": "I, II, III, IV",
+                    "explanation": "Perfeito, Doc. \n- Cocos ou diplococos Gram-negativos -  Meningococos \n- Diplococos Gram-positivos - Pneumococos \n- Pequenos cocobacilos Gram-negativos pleomórficos capsulados - Hemófilos \n- Bacilos ou bastoneres Gram-positivos -  Listeria ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-11-21T21:28:15.000Z",
+                    "updated_at": "2020-11-21T21:28:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21912,
+                    "question_id": 5304,
+                    "description": "IV, II, III, I",
+                    "explanation": "Questão conceitual. Confira o comentário completo na alternativa certa. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:28:15.000Z",
+                    "updated_at": "2020-11-21T21:28:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21913,
+                    "question_id": 5304,
+                    "description": "III, I, II, IV",
+                    "explanation": "Questão conceitual. Confira o comentário completo na alternativa certa.",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:28:15.000Z",
+                    "updated_at": "2020-11-21T21:28:15.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5304,
+                "questionary_id": 268332,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5305,
+            "institution_id": 4,
+            "description": "Menino de 7 anos tem diagnóstico de meningite bacteriana aguda. O liquor mais compatível com o diagnóstico apresenta\nglicorraquia _________________, proteinorraquia _________________, leucócitos _______________ com predomínio de _____________________.",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-11-22T00:32:29.000Z",
+            "updated_at": "2020-11-22T00:32:29.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 534,
+                    "title": "Meningite (Pediatria)",
+                    "description": null,
+                    "parent_id": 533,
+                    "is_enabled": true,
+                    "created_at": "2020-11-19T01:31:42.000Z",
+                    "updated_at": "2020-11-19T01:31:42.000Z",
+                    "pivot": {
+                        "discipline_id": 534,
+                        "question_id": 5305
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 21914,
+                    "question_id": 5305,
+                    "description": "Aumentada – aumentada – normais – polimorfonucleares.",
+                    "explanation": "Como temos o consumo de glicose, a glicorraquia costuma ser **baixa.** ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:32:29.000Z",
+                    "updated_at": "2020-11-21T21:32:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21915,
+                    "question_id": 5305,
+                    "description": "Baixa – aumentada – aumentados – polimorfonucleares.",
+                    "explanation": "Perfeito.\n- Temos um consumo de glicose tanto pelo patógeno como pelas células de defesa ➡ Glicorraquia baixa\n- Temos um aumento das proteínas da região (ex:citocinas) ➡ Aumento da proteinorraquia\n- Os leucócitos aumentam com predomínio do PMN (infecção bacteriana)",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-11-21T21:32:29.000Z",
+                    "updated_at": "2020-11-21T21:32:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21916,
+                    "question_id": 5305,
+                    "description": "Baixa – normal ou baixa – aumentados – linfomonócitos.",
+                    "explanation": "Em infecções virais ou por bactérias específicas (M.tuberculosis), existe a prevalência linfomonocitária. Entretanto, na maioria das infeçções bacterianas, teremos um predomínio de polimorfonucleares.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:32:29.000Z",
+                    "updated_at": "2020-11-21T21:32:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21917,
+                    "question_id": 5305,
+                    "description": "Aumentada – aumentada – normais – polimorfonucleares.",
+                    "explanation": "Como temos o consumo de glicose, a glicorraquia costuma ser **baixa.**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:32:29.000Z",
+                    "updated_at": "2020-11-21T21:32:29.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5305,
+                "questionary_id": 268332,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5306,
+            "institution_id": 4,
+            "description": "Menina de 2 anos de idade está internada em enfermaria de pediatria por quadro de febre a esclarecer, há 2 dias. O exame de Hemocultura apresenta diplococos gram negativos em identificação. Qual é a principal suspeita etiológica?",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-11-22T00:35:49.000Z",
+            "updated_at": "2020-11-22T00:35:49.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 534,
+                    "title": "Meningite (Pediatria)",
+                    "description": null,
+                    "parent_id": 533,
+                    "is_enabled": true,
+                    "created_at": "2020-11-19T01:31:42.000Z",
+                    "updated_at": "2020-11-19T01:31:42.000Z",
+                    "pivot": {
+                        "discipline_id": 534,
+                        "question_id": 5306
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 21918,
+                    "question_id": 5306,
+                    "description": "Streptococcus pneumoniae.",
+                    "explanation": "São diplococos **gram positivos.**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:35:49.000Z",
+                    "updated_at": "2020-11-21T21:35:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21919,
+                    "question_id": 5306,
+                    "description": "Staphylococcus aureus.",
+                    "explanation": "**São Cocos Gram-positivos.**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:35:49.000Z",
+                    "updated_at": "2020-11-21T21:35:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21920,
+                    "question_id": 5306,
+                    "description": "Escherichia coli.",
+                    "explanation": "É um bacilo **Gram-negativo.**",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:35:49.000Z",
+                    "updated_at": "2020-11-21T21:35:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21921,
+                    "question_id": 5306,
+                    "description": "Neisseria meningitidis.",
+                    "explanation": "Perfeito, Doc. É um diplococo gram-negativo.\n\n\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-11-21T21:35:49.000Z",
+                    "updated_at": "2021-03-11T01:58:34.000Z",
+                    "files": [
+                        {
+                            "id": 1293,
+                            "file": "1605994541722.jpeg",
+                            "name": "images (1).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-11-22T00:35:42.000Z",
+                            "updated_at": "2020-11-22T00:35:42.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1605994541722.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1293,
+                                "alternative_id": 21921
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5306,
+                "questionary_id": 268332,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5307,
+            "institution_id": 88,
+            "description": "Diante de um paciente de 3 meses de idade com meningite bacteriana, é ERRADO afirmar:",
+            "difficulty": "medium",
+            "year": "2013-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-11-22T00:42:56.000Z",
+            "updated_at": "2021-11-11T01:47:52.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 88,
+                "title": "PSU-MG",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-28T16:33:18.000Z",
+                "updated_at": "2020-05-28T16:33:18.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 534,
+                    "title": "Meningite (Pediatria)",
+                    "description": null,
+                    "parent_id": 533,
+                    "is_enabled": true,
+                    "created_at": "2020-11-19T01:31:42.000Z",
+                    "updated_at": "2020-11-19T01:31:42.000Z",
+                    "pivot": {
+                        "discipline_id": 534,
+                        "question_id": 5307
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 21922,
+                    "question_id": 5307,
+                    "description": "A ausência de sinais de irritação meníngea afasta o diagnóstico.",
+                    "explanation": "**Não afasta.** Geralmente as manifestações nessa faixa etária são específicas. Febre costuma ser um achado comum, estando presente em cerca de 50% das crianças. ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-11-21T21:42:56.000Z",
+                    "updated_at": "2021-11-10T22:47:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21923,
+                    "question_id": 5307,
+                    "description": "As convulsões que surgem durante o tratamento podem ser sinal de uma complicação como o empiema subdural ou mesmo de resistência bacteriana.",
+                    "explanation": "Perfeito. Podem ser um sinal de **complicação do SNC.**\n- Um processo purulento no SNC pode levar a manifestações como convulsões e hemiparesia.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:42:56.000Z",
+                    "updated_at": "2021-11-10T22:47:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21924,
+                    "question_id": 5307,
+                    "description": "O tratamento pode ser alterado após a identificação do agente pelo teste do látex ou cultura de liquor.",
+                    "explanation": "Boa alternativa. O tratamento a princípio é empírico, contudo, pode ser ajustado após o resultado da cultura.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:42:56.000Z",
+                    "updated_at": "2021-11-10T22:47:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21925,
+                    "question_id": 5307,
+                    "description": "O tratamento pode ser realizado com ceftriaxona durante dez dias caso a etiologia não seja definida.",
+                    "explanation": "Exatamente, já que os principais germes em pacientes de três meses são o meningococo, pneumococo e hemófilo tipo B, os quais são sensíveis a ceftriaxona.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:42:56.000Z",
+                    "updated_at": "2021-11-10T22:47:52.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5307,
+                "questionary_id": 268332,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5309,
+            "institution_id": 60,
+            "description": "Nos casos de meningite bacteriana em algumas situações indica-se quimioprofilaxia para os contatos íntimos. Nas meningites por hemófilo e meningococo a profilaxia com rifampicina deve ser usada, respectivamente por:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-11-22T00:49:56.000Z",
+            "updated_at": "2020-11-22T00:49:56.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 60,
+                "title": "AMP-PR",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-23T18:08:25.000Z",
+                "updated_at": "2020-05-23T18:08:25.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 534,
+                    "title": "Meningite (Pediatria)",
+                    "description": null,
+                    "parent_id": 533,
+                    "is_enabled": true,
+                    "created_at": "2020-11-19T01:31:42.000Z",
+                    "updated_at": "2020-11-19T01:31:42.000Z",
+                    "pivot": {
+                        "discipline_id": 534,
+                        "question_id": 5309
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 21930,
+                    "question_id": 5309,
+                    "description": "2 e 3 dias.",
+                    "explanation": "Questão conceitual. Não são esses os tempos de tratamento. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:49:56.000Z",
+                    "updated_at": "2020-11-21T21:49:56.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21931,
+                    "question_id": 5309,
+                    "description": "2 e 4 dias.",
+                    "explanation": "Questão conceitual. Não são esses os tempos de tratamento. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:49:56.000Z",
+                    "updated_at": "2020-11-21T21:49:56.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21932,
+                    "question_id": 5309,
+                    "description": "2 dias em ambas situações.",
+                    "explanation": "Questão conceitual. Não são esses os tempos de tratamento. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:49:56.000Z",
+                    "updated_at": "2020-11-21T21:49:56.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21933,
+                    "question_id": 5309,
+                    "description": "3 e 2 dias.",
+                    "explanation": "Questão conceitual. Não são esses os tempos de tratamento.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:49:56.000Z",
+                    "updated_at": "2020-11-21T21:49:56.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21934,
+                    "question_id": 5309,
+                    "description": "4 e 2 dias.",
+                    "explanation": "Perfeito. A antibioticoprofilaxia é indicada para casos de meningite meningocócica e meningite por hemófilo tipo B (contatos íntimos)\n- A droga de escolha é a rifampicina\n- Hemófilo B ➡ 1x ao dia por 4 dias\n- Meningococo ➡ 12/12h por 2 dias.",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-11-21T21:49:56.000Z",
+                    "updated_at": "2020-11-21T21:49:56.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5309,
+                "questionary_id": 268332,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5311,
+            "institution_id": 70,
+            "description": "Assinale a assertiva **incorreta** levando-se em consideração um quadro de meningite em paciente pediátrico.",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-11-22T01:05:03.000Z",
+            "updated_at": "2020-11-22T01:05:03.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 70,
+                "title": "HCPA",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-25T13:31:28.000Z",
+                "updated_at": "2020-05-25T13:31:28.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 534,
+                    "title": "Meningite (Pediatria)",
+                    "description": null,
+                    "parent_id": 533,
+                    "is_enabled": true,
+                    "created_at": "2020-11-19T01:31:42.000Z",
+                    "updated_at": "2020-11-19T01:31:42.000Z",
+                    "pivot": {
+                        "discipline_id": 534,
+                        "question_id": 5311
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 21939,
+                    "question_id": 5311,
+                    "description": "Rigidez nucal e sinais de Kernig e Brudzinski estão presentes na maioria dos casos em todas as faixas etárias.",
+                    "explanation": "Nem todos! Em pacientes pediátricos os sintomas costumam ser **inespecíficos**. Uma grande parte não apresenta sinais de irritação meníngea. ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-11-21T22:05:03.000Z",
+                    "updated_at": "2020-11-21T22:05:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21940,
+                    "question_id": 5311,
+                    "description": "Escherichia coli é o principal agente etiológico Gram-negativo envolvido nas meningites bacterianas de recém-nascidos.",
+                    "explanation": "Exatamente, na faixa pediátrica a Escherichia coli é o agente Gram-negativo mais frequente.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-11-21T22:05:03.000Z",
+                    "updated_at": "2020-11-21T22:05:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21941,
+                    "question_id": 5311,
+                    "description": "Hipoglicorraquia é uma característica mais frequente nas meningites tuberculosas do que nas virais.",
+                    "explanation": "Exatamente, a hipoglicorraquia é evindeciado na meningite tuberculosa.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-11-21T22:05:03.000Z",
+                    "updated_at": "2020-11-21T22:05:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21942,
+                    "question_id": 5311,
+                    "description": "Presença simultânea de petéquias e sufusões hemorrágicas é sugestiva do envolvimento de etiologia meningocócica.",
+                    "explanation": "Exatamente, o acometimento cutâneo-mucoso sugere etiologia meningocócica.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-11-21T22:05:03.000Z",
+                    "updated_at": "2020-11-21T22:05:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21943,
+                    "question_id": 5311,
+                    "description": "Nos contatos dos pacientes com meningite meningocócica, pode ser realizada quimioprofilaxia com rifampicina ou ceftriaxona.",
+                    "explanation": "Perfeito, Lembrando que a rifampicina é a droga de escolha.\n- Também é feito na meningite por hemófilo.",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-11-21T22:05:03.000Z",
+                    "updated_at": "2020-11-21T22:05:03.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5311,
+                "questionary_id": 268332,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5312,
+            "institution_id": 97,
+            "description": "Criança de cinco anos dá entrada no pronto atendimento com queixa de cefaleia há dois dias, associada à febre e rigidez de nuca,\ncom histórico de rinorreia há cerca de uma semana. O pediatra suspeita de meningoencefalite bacteriana e opta por realizar exames\nlaboratoriais, incluindo líquor. Diante dos resultados, o pediatra conclui que se trata de uma meningite causada por Streptococcus\npneumoniae. Com base neste enunciado, marque a afirmativa correta.",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-11-22T01:08:51.000Z",
+            "updated_at": "2020-11-22T01:08:51.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 97,
+                "title": "UFMT",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-31T21:31:04.000Z",
+                "updated_at": "2020-05-31T21:31:04.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 534,
+                    "title": "Meningite (Pediatria)",
+                    "description": null,
+                    "parent_id": 533,
+                    "is_enabled": true,
+                    "created_at": "2020-11-19T01:31:42.000Z",
+                    "updated_at": "2020-11-19T01:31:42.000Z",
+                    "pivot": {
+                        "discipline_id": 534,
+                        "question_id": 5312
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 21944,
+                    "question_id": 5312,
+                    "description": "Trata-se de doença de notificação compulsória, devendo ser tratada com internação, antibioticoterapia venosa e isolamento protetor.",
+                    "explanation": "Não há necessidade de isolamento na meningite por pneumococo, como indicado nas meningites por hemófilo e meningococo.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-11-21T22:08:51.000Z",
+                    "updated_at": "2020-11-21T22:08:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21945,
+                    "question_id": 5312,
+                    "description": "A doença em questão é de alta transmissibilidade e deve ser instituída quimioprofilaxia para os contactantes mais íntimos imediatamente.",
+                    "explanation": "Não é indicada quimioprofilaxia para meningite por pneumococo.\n- A profilaxia antimicrobiana para casos de meningite é feita quando a doença é por hemófilo ou meningococo.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-11-21T22:08:51.000Z",
+                    "updated_at": "2020-11-21T22:08:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21946,
+                    "question_id": 5312,
+                    "description": "O líquor se apresenta com bacterioscopia positiva às custas de diplococos gram negativos, celularidade aumentada às custas de polimorfonucleares, glicose reduzida e hiperproteinorraquia.",
+                    "explanation": "O pneumococo se apresenta como **diplococos gram-positivos.**",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-11-21T22:08:51.000Z",
+                    "updated_at": "2020-11-21T22:08:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21947,
+                    "question_id": 5312,
+                    "description": "O líquor se apresenta com bacterioscopia positiva às custas de diplococos gram positivos, com celularidade aumentada às custas de polimorfonucleares, glicose baixa e hiperproteinorraquia.",
+                    "explanation": "Perfeito. Em meningites bacterianas. temos geralmente:\n- **Aumento de celularidade à custa de polimorfonucleares.**\n- **Hipoglicorraquia (glicose do líquor < 2/3 da glicemia)**\n- **Hiperproteinorraquia.**",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-11-21T22:08:51.000Z",
+                    "updated_at": "2020-11-21T22:08:51.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5312,
+                "questionary_id": 268332,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5310,
+            "institution_id": 60,
+            "description": "Menina de 6 anos, hígida, vacinas em dia. Veio por prostração e febre (39oC) há 12 horas. Dor nas pernas há 48 horas e um episódio\nde vômito. Ao exame hipoativa mas responsiva, hipocorada, FC 178 e FR 45. Na pele lesões escuras, vários tamanhos, não\ndesaparecem à digitopressão. Tempo de enchimento capilar de 4 segundos, saturando 90% em ar ambiente. Mãe notou as lesões há\numa hora e estão aumentando em número. Frequenta escola em meio período. Analise as alternativas abaixo sobre este caso. \n- I - É fundamental colher o líquor para confirmação diagnóstica. \n- II - O uso de corticosteroides não está indicado. \n- III - Há necessidade de profilaxia para os contactantes da escola.\n- IV - A paciente deve ser imediatamente intubada e colocada em ventilação mecânica.\nEstão corretas apenas as alternativas\n\n*adaptada*",
+            "difficulty": "hard",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-11-22T00:57:22.000Z",
+            "updated_at": "2020-11-22T00:57:22.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 60,
+                "title": "AMP-PR",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-23T18:08:25.000Z",
+                "updated_at": "2020-05-23T18:08:25.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 534,
+                    "title": "Meningite (Pediatria)",
+                    "description": null,
+                    "parent_id": 533,
+                    "is_enabled": true,
+                    "created_at": "2020-11-19T01:31:42.000Z",
+                    "updated_at": "2020-11-19T01:31:42.000Z",
+                    "pivot": {
+                        "discipline_id": 534,
+                        "question_id": 5310
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 21935,
+                    "question_id": 5310,
+                    "description": "I e II.",
+                    "explanation": "I - Questão pegadinha. O LCR não é fundamental porque podemos nesse caso colher a **hemocultura para a mesma finalidade.**\n- **Não quer dizer que ele não é importante, mas sim que ele não é fundamental.**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:57:22.000Z",
+                    "updated_at": "2020-11-21T21:57:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21936,
+                    "question_id": 5310,
+                    "description": "II e III.",
+                    "explanation": "Perfeito, Possui as melhores respostas.\n- II- O tratamento empírico da meningococemia é feito com **ceftriaxona.** Corticoides não estão indicados.\n- III- A profilaxia com antibióticos é indicada para contatos domésticos, na creche e jardim de infância, e para quem teve contato com as secreções orais do paciente durante os 7 dias antes do início da enfermidade. Por isso, é indicado quimioprofilaxia para os seus contatos próximos na escola. ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-11-21T21:57:22.000Z",
+                    "updated_at": "2020-11-21T21:57:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21937,
+                    "question_id": 5310,
+                    "description": "II e IV.",
+                    "explanation": "IV - Não necessariamente. Está indicado intubação caso a paciente tenha uma glasgow menor que 8 ou persistente hipoxemia.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:57:22.000Z",
+                    "updated_at": "2020-11-21T21:57:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 21938,
+                    "question_id": 5310,
+                    "description": "I, II e IV.",
+                    "explanation": "I - Questão pegadinha. O LCR não é fundamental porque podemos nesse caso colher a **hemocultura para a mesma finalidade.**\n- **Não quer dizer que ele não é importante, mas sim que ele não é fundamental.** ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-11-21T21:57:22.000Z",
+                    "updated_at": "2020-11-21T21:57:22.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5310,
+                "questionary_id": 268332,
+                "timer": 0
+            }
+        }
+    ]
+}

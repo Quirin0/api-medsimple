@@ -1,0 +1,1384 @@
+{
+    "id": 268382,
+    "user_id": 1699,
+    "title": "Cardiopatias congênitas",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-12T00:25:58.000Z",
+    "updated_at": "2022-07-12T00:25:58.000Z",
+    "study_plan_id": 311,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 3832,
+            "institution_id": 4,
+            "description": "Qual é a cardiopatia congênita mais comum?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-01T14:17:33.000Z",
+            "updated_at": "2020-08-01T14:17:33.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 402,
+                    "title": "Cardiopediatria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2020-08-01T14:15:17.000Z",
+                    "updated_at": "2020-08-01T14:15:17.000Z",
+                    "pivot": {
+                        "discipline_id": 402,
+                        "question_id": 3832
+                    }
+                },
+                {
+                    "id": 403,
+                    "title": "Cardiopatias congênitas",
+                    "description": null,
+                    "parent_id": 402,
+                    "is_enabled": true,
+                    "created_at": "2020-08-01T14:15:31.000Z",
+                    "updated_at": "2020-08-01T14:15:31.000Z",
+                    "pivot": {
+                        "discipline_id": 403,
+                        "question_id": 3832
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15791,
+                    "question_id": 3832,
+                    "description": "Tetralogia de Fallot",
+                    "explanation": "Representa cerca de 5% de todas as cardiopatias congênitas.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-01T11:17:33.000Z",
+                    "updated_at": "2020-08-01T11:17:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15792,
+                    "question_id": 3832,
+                    "description": "Persistência do canal arterial",
+                    "explanation": "Representa cerca de 8% de todas as cardiopatias congênitas. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-01T11:17:33.000Z",
+                    "updated_at": "2020-08-01T11:17:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15793,
+                    "question_id": 3832,
+                    "description": "Comunicação interventricular",
+                    "explanation": "Perfeito.\n- Representa cerca de **30-35%** de todas as cardiopatias congênitas.  ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-08-01T11:17:33.000Z",
+                    "updated_at": "2020-08-01T11:17:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15794,
+                    "question_id": 3832,
+                    "description": "Estenose pulmonar",
+                    "explanation": "Representa cerca de 5% de todas as cardiopatias congênitas.  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-01T11:17:33.000Z",
+                    "updated_at": "2020-08-01T11:17:33.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3832,
+                "questionary_id": 268382,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3833,
+            "institution_id": 4,
+            "description": "A combinação de dextroposição da aorta, estenose de artéria pulmonar, CIV e hipertrofia de VD configura a seguinte malformação cardíaca cianótica:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-01T14:31:19.000Z",
+            "updated_at": "2020-08-01T14:31:19.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 403,
+                    "title": "Cardiopatias congênitas",
+                    "description": null,
+                    "parent_id": 402,
+                    "is_enabled": true,
+                    "created_at": "2020-08-01T14:15:31.000Z",
+                    "updated_at": "2020-08-01T14:15:31.000Z",
+                    "pivot": {
+                        "discipline_id": 403,
+                        "question_id": 3833
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15795,
+                    "question_id": 3833,
+                    "description": "Comunicação interventricular",
+                    "explanation": "É a cardiopatia congênita mais frequente. \n- O tipo mais comum de CIV é o tipo perimembranoso.\n- Vamos ter um desvio de sangue das cavidades esquerdas ➡ cavidades direitas\n- Ou seja Maior pressão ➡ Menor pressão.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-01T11:31:19.000Z",
+                    "updated_at": "2020-08-01T11:31:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15796,
+                    "question_id": 3833,
+                    "description": "Tetralogia de Fallot",
+                    "explanation": "Perfeito, temos quatro alterações na tetralogia de Fallot:\n- Estenose pulmonar\n- CIV perimembranoso; \n- Dextroposição da aorta; \n- Hipertrofia ventricular direita.\n- **Causa um hipofluxo pulmonar ➡ Cianose**",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-08-01T11:31:19.000Z",
+                    "updated_at": "2020-08-01T11:31:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15797,
+                    "question_id": 3833,
+                    "description": "Transposição dos grandes vasos.",
+                    "explanation": "É uma relação anormal entre as grandes artérias e os ventrículos.\n- Átrio direito ➡ Ventrículo Direito ➡ Aorta\n- Átrio Esquerdo ➡ Ventrículo Esquerdo ➡ Artérias pulmonares\n- Isso é incompatível com a vida no período pós-natal.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-01T11:31:19.000Z",
+                    "updated_at": "2020-08-01T11:31:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15798,
+                    "question_id": 3833,
+                    "description": "Comunicação interatrial",
+                    "explanation": "Falso. É uma cardiopatia congênita não cianótica.\n- Os defeitos no fechamento no septo atrial podem estar presentes em qualquer ponto do septo,\n- A CIA tipo ostium secundum é a mais comum.\n- Acontece que o sangue volta para o átrio direito ➡ ventrículo direito ➡ pulmões ➡ sangue novamente oxigenado.\n- Por isso não é uma cardiopatia cianótica.\n- O problema é que temos o aumento de pressão da circulação pulmonar.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-01T11:31:19.000Z",
+                    "updated_at": "2020-08-01T11:31:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3833,
+                "questionary_id": 268382,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3834,
+            "institution_id": 4,
+            "description": "São cardiopatias congênitas acianóticas, **exceto:**",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-01T14:38:19.000Z",
+            "updated_at": "2020-08-01T14:38:19.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 403,
+                    "title": "Cardiopatias congênitas",
+                    "description": null,
+                    "parent_id": 402,
+                    "is_enabled": true,
+                    "created_at": "2020-08-01T14:15:31.000Z",
+                    "updated_at": "2020-08-01T14:15:31.000Z",
+                    "pivot": {
+                        "discipline_id": 403,
+                        "question_id": 3834
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15799,
+                    "question_id": 3834,
+                    "description": "Comunicação interventricular",
+                    "explanation": "É a cardiopatia congênita mais frequente. \n- O tipo mais comum de CIV é o tipo perimembranoso.\n- Vamos ter um desvio de sangue das cavidades esquerdas ➡ cavidades direitas\n- Ou seja Maior pressão ➡ Menor pressão. \n- **Sobrecarga de volume e sobrecarga de pressão ➡ Acianótica**\n- **Sangue passa \"2x\" pelo pulmão.**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-01T11:38:19.000Z",
+                    "updated_at": "2020-08-01T11:38:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15800,
+                    "question_id": 3834,
+                    "description": "Comunicação interatrial",
+                    "explanation": "**É uma cardiopatia congênita não cianótica.**\n- Os defeitos no fechamento no septo atrial podem estar presentes em qualquer ponto do septo,\n- A CIA tipo ostium secundum é a mais comum.\n- Acontece que o sangue volta para o átrio direito ➡ ventrículo direito ➡ pulmões ➡ sangue novamente oxigenado.\n- **Por isso não é uma cardiopatia cianótica.**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-01T11:38:19.000Z",
+                    "updated_at": "2020-08-01T11:38:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15801,
+                    "question_id": 3834,
+                    "description": "Persistência do canal arterial",
+                    "explanation": "É uma cardiopatia congênita acianótica. \n- Surge logo após a emergência da artéria subclávia esquerda\n- É mais comum no sexo feminino\n- Está associada a síndrome da rubéola congênita.\n- **Existe um desvio do débito cardíaco de VE para a circulação pulmonar.**",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-01T11:38:19.000Z",
+                    "updated_at": "2020-08-01T11:38:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15802,
+                    "question_id": 3834,
+                    "description": "Transposição dos grandes vasos.",
+                    "explanation": "É uma relação anormal entre as grandes artérias e os ventrículos.\n- Átrio direito ➡ Ventrículo Direito ➡ Aorta\n- Átrio Esquerdo ➡ Ventrículo Esquerdo ➡ Artérias pulmonares\n- Isso é incompatível com a vida no período pós-natal. \n- A presença do forame oval patente e da persistência do canal arterial logo após o nascimento permite a mistura do sangue oxigenado ➡ garantindo a sobrevida inicial destes pacientes.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-08-01T11:38:19.000Z",
+                    "updated_at": "2020-08-01T11:38:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3834,
+                "questionary_id": 268382,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3835,
+            "institution_id": 4,
+            "description": "Assinale a correlação **INCORRETA** sobre o tipo de sopro e cardiopatia congênita:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-01T15:06:41.000Z",
+            "updated_at": "2022-07-02T16:19:30.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 403,
+                    "title": "Cardiopatias congênitas",
+                    "description": null,
+                    "parent_id": 402,
+                    "is_enabled": true,
+                    "created_at": "2020-08-01T14:15:31.000Z",
+                    "updated_at": "2020-08-01T14:15:31.000Z",
+                    "pivot": {
+                        "discipline_id": 403,
+                        "question_id": 3835
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15803,
+                    "question_id": 3835,
+                    "description": "Persistência do canal arterial → Sopro em maquinário.",
+                    "explanation": "- Essa está correta, Doc! 🤔\n- É um **sopro sistólico,** principalmente em região infraclavicular esquerda com irradiação para o dorso. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-01T12:06:41.000Z",
+                    "updated_at": "2022-07-02T16:19:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15804,
+                    "question_id": 3835,
+                    "description": "Grande comunicação interventricular → Sopro holossistólico rude e alto em borda esternal esquerda inferior.",
+                    "explanation": "- Acertou, Doc! Essa é a alternativa **incorreta**! 😍 \n- Comunicação interventricular:\n- **Grande ➡ Sopro sistólico pequeno e menos rude.**\n- Pequena ➡ Sopro holossistólico grande e rude.\n- Lembre que a gênese do sopro é o **turbilhonamento do sangue.**",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-08-01T12:06:41.000Z",
+                    "updated_at": "2022-07-02T16:19:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15805,
+                    "question_id": 3835,
+                    "description": "Pequena comunicação interventricular → Sopro holossistólico rude e alto em borda esternal esquerda inferior.",
+                    "explanation": "- Essa está correta, Doc! 🤔\n- Comunicação interventricular:\n- Grande ➡ Sopro sistólico pequeno e menos rude.\n- **Pequena ➡ Sopro holossistólico grande e rude.**\n- Lembre que a gênese do sopro é o **turbilhonamento do sangue.**",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-01T12:06:41.000Z",
+                    "updated_at": "2022-07-02T16:19:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15806,
+                    "question_id": 3835,
+                    "description": "Comunicação interatrial → Sopro sistólico mais audível em borda esternal esquerda.",
+                    "explanation": "- Essa está correta, Doc! 🤔\n- O hiperfluxo de sangue nas câmaras direitas pode causar sopro sistólico em foco pulmonar, devido ao excesso de sangue que passa pela valva pulmonar na sístole.\n- É resultado de um aumento do fluxo pelo trato de saída do VD.\n- Quando a comunicação interatrial aumenta ➡ Sopro diástolico em ruflar.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-01T12:06:41.000Z",
+                    "updated_at": "2022-07-02T16:19:30.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3835,
+                "questionary_id": 268382,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3850,
+            "institution_id": 159,
+            "description": "É exemplo de cardiopatia congênita acianótica:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-02T23:10:22.000Z",
+            "updated_at": "2020-08-02T23:10:22.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 159,
+                "title": "HAC-PR",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-08-02T20:10:22.000Z",
+                "updated_at": "2020-08-02T20:10:22.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 403,
+                    "title": "Cardiopatias congênitas",
+                    "description": null,
+                    "parent_id": 402,
+                    "is_enabled": true,
+                    "created_at": "2020-08-01T14:15:31.000Z",
+                    "updated_at": "2020-08-01T14:15:31.000Z",
+                    "pivot": {
+                        "discipline_id": 403,
+                        "question_id": 3850
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15863,
+                    "question_id": 3850,
+                    "description": "Atresia de tricúspide",
+                    "explanation": "É uma forma de cardiopatia congênita na qual existe, ou a total **ausência da válvula tricúspide** ou a **fusão das comissuras dos três folhetos valvulares.**\n- **Não existindo a conexão atrio-ventricular direita, o retorno venoso passa da aurícula direita ➡  esquerda através do forame oval.** \n- O sangue não é oxigenado como deveria ➡ Cianose.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-02T20:10:22.000Z",
+                    "updated_at": "2020-08-02T20:10:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15864,
+                    "question_id": 3850,
+                    "description": "Transposição de grandes vasos da base",
+                    "explanation": "É uma relação anormal entre as grandes artérias e os ventrículos.\n- Átrio direito ➡ Ventrículo Direito ➡ Aorta\n- Átrio Esquerdo ➡ Ventrículo Esquerdo ➡ Artérias pulmonares\n- Isso é incompatível com a vida no período pós-natal. \n- A presença do forame oval patente e da persistência do canal arterial logo após o nascimento permite a mistura do sangue oxigenado ➡ garantindo a sobrevida inicial destes pacientes. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-02T20:10:22.000Z",
+                    "updated_at": "2020-08-02T20:10:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15865,
+                    "question_id": 3850,
+                    "description": "Síndrome do coração esquerdo hipoplásico",
+                    "explanation": "A forma mais frequente de apresentação da SHCE é a presença de **estenose mitral e atresia aórtica**\n- **A síndrome apresenta a maioria das estruturas do lado esquerdo do coração pequenas e pouco desenvolvidas.**\n- O VE passa a ser uma região de baixa pressão ➡ Sangue passa para essa câmara.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-02T20:10:22.000Z",
+                    "updated_at": "2020-08-02T20:10:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15866,
+                    "question_id": 3850,
+                    "description": "Coarctação de aorta",
+                    "explanation": "Perfeito. Não temos cianose.\n- É um estreitamento de qualquer ponto da aorta.\n- A maioria dos casos de localiza abaixo da emergência da artéria subclávia esqueda, na origem do ductus arteriosus.\n- A pressão arterial dos membros inferiores é menor que a dos membros superiores.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-08-02T20:10:22.000Z",
+                    "updated_at": "2020-08-02T20:10:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15867,
+                    "question_id": 3850,
+                    "description": "Ventrículo único",
+                    "explanation": "Caracterizada pela presença de um único ventrículo e dois átrios.\n- Esta anomalia anatômica leva a um importante shunt esquerdo-direito com hipertensão arterial pulmonar de evolução rápida. ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-08-02T20:10:22.000Z",
+                    "updated_at": "2020-08-02T20:10:22.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3850,
+                "questionary_id": 268382,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3852,
+            "institution_id": 4,
+            "description": "Lactente com 40 dias de vida, com relato de cianose as mamadas, taquipneia desde o nascimento e ganho ponderal insuficiente. Solicitado ecocardiograma que evidenciou: estenose pulmonar infundibulovalvar, CIV e cavalgamento de aorta. O melhor diagnóstico para o caso acima é:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-03T14:34:08.000Z",
+            "updated_at": "2021-11-29T15:49:25.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 403,
+                    "title": "Cardiopatias congênitas",
+                    "description": null,
+                    "parent_id": 402,
+                    "is_enabled": true,
+                    "created_at": "2020-08-01T14:15:31.000Z",
+                    "updated_at": "2020-08-01T14:15:31.000Z",
+                    "pivot": {
+                        "discipline_id": 403,
+                        "question_id": 3852
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15872,
+                    "question_id": 3852,
+                    "description": "transposição das grandes artérias",
+                    "explanation": "É uma relação anormal entre as grandes artérias e os ventrículos.\n- Átrio direito ➡ Ventrículo Direito ➡ Aorta\n- Átrio Esquerdo ➡ Ventrículo Esquerdo ➡ Artérias pulmonares\n- Isso é incompatível com a vida no período pós-natal. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-03T11:34:08.000Z",
+                    "updated_at": "2021-11-29T12:49:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15873,
+                    "question_id": 3852,
+                    "description": "tetralogia de Fallot",
+                    "explanation": "Perfeito, temos quatro alterações na tetralogia de Fallot:\n- **Estenose pulmonar**\n- **CIV perimembranoso;** \n- **Dextroposição da aorta;** \n- Hipertrofia ventricular direita.\n- Causa um hipofluxo pulmonar ➡ Cianose",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-08-03T11:34:08.000Z",
+                    "updated_at": "2021-11-29T12:49:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15874,
+                    "question_id": 3852,
+                    "description": "Comunicação Interventricular (CIV)",
+                    "explanation": "É a cardiopatia congênita mais frequente. \n- O tipo mais comum de CIV é o tipo perimembranoso.\n- Vamos ter um desvio de sangue das cavidades esquerdas ➡ cavidades direitas\n- **Ou seja Maior pressão ➡ Menor pressão.**",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-03T11:34:08.000Z",
+                    "updated_at": "2021-11-29T12:49:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15875,
+                    "question_id": 3852,
+                    "description": "PCA",
+                    "explanation": "Falso. É a persistencia de um canal de comunicação entre a aorta e a artéria pulmonar.\n- Causa o clássico sopro **em maquinária**\n- Está associada a síndrome da rubéola congênita.\n- **Existe um desvio do débito cardíaco de VE para a circulação pulmonar.** ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-03T11:34:08.000Z",
+                    "updated_at": "2021-11-29T12:49:25.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3852,
+                "questionary_id": 268382,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3853,
+            "institution_id": 157,
+            "description": "Recém-nascido a termo, de parto normal sem intercorrências, pesando 31 20 g, APGAR 9/1 0, começa a apresentar labilidade de oxigenação e cianose progressiva nas primeiras horas de vida. Você solicita um ecocardiograma que revela aumento da resistência vascular pulmonar e shunt direito-esquerdo no nível do canal arterial, sem outras anomalias congênitas cardíacas. Dentre as drogas ou grupo de drogas abaixo, qual (is) não está (ão) indicada (s) para o tratamento da patologia descrita?",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-03T14:46:15.000Z",
+            "updated_at": "2020-08-03T14:46:15.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 157,
+                "title": "SCMSP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-07-30T00:47:47.000Z",
+                "updated_at": "2020-07-30T00:47:47.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 403,
+                    "title": "Cardiopatias congênitas",
+                    "description": null,
+                    "parent_id": 402,
+                    "is_enabled": true,
+                    "created_at": "2020-08-01T14:15:31.000Z",
+                    "updated_at": "2020-08-01T14:15:31.000Z",
+                    "pivot": {
+                        "discipline_id": 403,
+                        "question_id": 3853
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15876,
+                    "question_id": 3853,
+                    "description": "Indometacina.",
+                    "explanation": "Uma das opções para aliviar a hipertensão pulmonar é manter o **ducto arterioso aberto.**\n- O **fechamento** do ducto arterioso depende do **⬆Aumento do teor de oxigênio no sangue arterial** e uma queda na resistência vascular pulmonar.\n- Outra causa do fechamento do ducto arterioso é a **⬇Queda das prostaglandinas(vasodilatadoras).**\n- Por isso, ao usar um AINE(indometacina), estamos **⬇Diminuindo os níveis de prostaglandinas** ➡ **Promovendo o fechamento do ducto arterioso.**",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-08-03T11:46:15.000Z",
+                    "updated_at": "2020-08-03T11:46:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15877,
+                    "question_id": 3853,
+                    "description": "Bloqueadores de endotelina",
+                    "explanation": "Perfeito.\n- É uma das opções terapêuticas para manter o canal arterial aberto.\n- Bloqueadores de endotelina ➡ Vasodilatadores",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-03T11:46:15.000Z",
+                    "updated_at": "2020-08-03T11:46:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15878,
+                    "question_id": 3853,
+                    "description": "Óxido nítrico",
+                    "explanation": "Perfeito.\n- É uma das opções terapêuticas para manter o canal arterial aberto. \n- Óxido nítrico é um vasodilatador tanto arterial quanto venoso.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-03T11:46:15.000Z",
+                    "updated_at": "2020-08-03T11:46:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15879,
+                    "question_id": 3853,
+                    "description": "Prostaglandinas.",
+                    "explanation": "Perfeito.\n- É uma das opções terapêuticas para manter o canal arterial aberto. \n- Uma causa do fechamento do ducto arterioso é a ⬇Queda das prostaglandinas(vasodilatadoras). ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-03T11:46:15.000Z",
+                    "updated_at": "2020-08-03T11:46:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15880,
+                    "question_id": 3853,
+                    "description": "Milrinone",
+                    "explanation": "Perfeito.\n- É um inotrópico positivo que provoca menos taquicardia que a dobutamina, com **efeito vasodilatador.**\n- Mantém o canal arterial aberto ➡ Alivia a hipertensão pulmonar.",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-08-03T11:46:15.000Z",
+                    "updated_at": "2020-08-03T11:46:15.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3853,
+                "questionary_id": 268382,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3854,
+            "institution_id": 4,
+            "description": "Ao exame físico, a detecção de sopro sistólico suave em foco pulmonar e desdobramento fixo da segunda bulha são achados importantes para o diagnóstico de",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-03T14:56:18.000Z",
+            "updated_at": "2020-08-03T14:56:18.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 403,
+                    "title": "Cardiopatias congênitas",
+                    "description": null,
+                    "parent_id": 402,
+                    "is_enabled": true,
+                    "created_at": "2020-08-01T14:15:31.000Z",
+                    "updated_at": "2020-08-01T14:15:31.000Z",
+                    "pivot": {
+                        "discipline_id": 403,
+                        "question_id": 3854
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15881,
+                    "question_id": 3854,
+                    "description": "comunicação interatrial.",
+                    "explanation": "**É uma cardiopatia congênita não cianótica.**\n- Possui como característica o **desdobramento fixo da segunda bulha** \n- Acontece que o sangue volta para o átrio direito ➡ ventrículo direito ➡ ⬆⬆⬆ Volume de sangue no ventrículo direito ➡ Válvula pulmonar fecha depois\n- Os defeitos no fechamento no septo atrial podem estar presentes em qualquer ponto do septo,\n- A CIA tipo ostium secundum é a mais comum.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-08-03T11:56:18.000Z",
+                    "updated_at": "2020-08-03T11:56:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15882,
+                    "question_id": 3854,
+                    "description": "persistência do canal arterial",
+                    "explanation": "É uma cardiopatia congênita acianótica. \n- Surge logo após a emergência da artéria subclávia esquerda \n- Possui como característica sopro sistólico principalmente em região infraclavicular esquerda com irradiação para o dorso\n- Também chamado de sopro em maquinária",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-03T11:56:18.000Z",
+                    "updated_at": "2020-08-03T11:56:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15883,
+                    "question_id": 3854,
+                    "description": "estenose valvar pulmonar.",
+                    "explanation": "Pode apresentar um sopro sistólico e desdobramento da segunda bulha cardíaca, porém não costuma ser fixo como numa CIA.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-03T11:56:18.000Z",
+                    "updated_at": "2020-08-03T11:56:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15884,
+                    "question_id": 3854,
+                    "description": "tetralogia de Fallot.",
+                    "explanation": "Um dos determinantes para o diagnóstico é a cianose. Não apresenta desdobramento de B2 fixa.\n- Temos quatro alterações na tetralogia de Fallot:\n- Estenose pulmonar\n- CIV perimembranoso; \n- Dextroposição da aorta; \n- Hipertrofia ventricular direita.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-03T11:56:18.000Z",
+                    "updated_at": "2020-08-03T11:56:18.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3854,
+                "questionary_id": 268382,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3865,
+            "institution_id": 44,
+            "description": "Menino, 6 anos, comparece para consulta de rotina. Mãe refere que criança é preguiçosa e gosta muito de televisão e vídeo game. Nega outras queixas ou antecedentes mórbidos. Ao exame apresenta-se em sobrepeso e pressão arterial normal. Na ausculta cardíaca você encontra bulhas rítmicas com presença de sopro sistólico de ejeção, relativamente curto, vibratório e mais bem audível no bordo esternal esquerdo, ausência de frêmito, sem irradiação para dorso e que diminui na posição sentada. Qual a provável hipótese diagnóstica?",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-03T22:18:00.000Z",
+            "updated_at": "2020-08-03T22:18:00.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 44,
+                "title": "FAMERP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-20T19:50:31.000Z",
+                "updated_at": "2020-05-20T19:50:31.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 403,
+                    "title": "Cardiopatias congênitas",
+                    "description": null,
+                    "parent_id": 402,
+                    "is_enabled": true,
+                    "created_at": "2020-08-01T14:15:31.000Z",
+                    "updated_at": "2020-08-01T14:15:31.000Z",
+                    "pivot": {
+                        "discipline_id": 403,
+                        "question_id": 3865
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15925,
+                    "question_id": 3865,
+                    "description": "Sopro funcional",
+                    "explanation": "Perfeito, é a hipótese mais provável.\n- São mais facilmente audíveis nos estados circulatórios hipercinéticos; \n- São **sistólicos** ou contínuos; \n- Nunca ocorrem isoladamente na diástole; \n- Têm **curta duração** e baixa intensidade (1+/4+); \n- **Não se associam a frêmito** ou a ruídos acessórios (estalidos, cliques); \n- Localizam-se em uma área pequena e bem definida e não se associam a alterações de bulhas.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-08-03T19:18:00.000Z",
+                    "updated_at": "2020-08-03T19:18:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15926,
+                    "question_id": 3865,
+                    "description": "CIA",
+                    "explanation": "É um ótimo diagnóstico diferentical\n- É uma cardiopatia congênita não cianótica.\n- Possui como característica o **desdobramento fixo da segunda bulha** e um **sopro sistólico leve**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-03T19:18:00.000Z",
+                    "updated_at": "2020-08-03T19:18:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15927,
+                    "question_id": 3865,
+                    "description": "Prolapso de valva mitral",
+                    "explanation": "Pode causar um sopro sistólico de **regurgitação** e não de ejeção.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-03T19:18:00.000Z",
+                    "updated_at": "2020-08-03T19:18:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15928,
+                    "question_id": 3865,
+                    "description": "Persistência do canal arterial",
+                    "explanation": "Possui como característica **sopro sistólico** principalmente em região infraclavicular esquerda com **irradiação para o dorso**\n- Também chamado de sopro em maquinária",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-03T19:18:00.000Z",
+                    "updated_at": "2020-08-03T19:18:00.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3865,
+                "questionary_id": 268382,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3866,
+            "institution_id": 88,
+            "description": "Recém-nascido, sexo feminino, com 23 dias de vida, em aleitamento materno exclusivo. História de parto cesáreo, a termo, peso ao nascimento 3.200 gramas. Consulta na Unidade Básica de Saúde com relato de que, há uma semana, começou a apresentar cansaço às mamadas e suando muito. Ao exame físico, observa-se bom estado geral com taquipneia, pressão arterial divergente, pulsos com amplitude aumentada, precórdio hiperdinâmico e sopro contínuo com irradiação e audível também no dorso. Assinale o diagnóstico MAIS PROVÁVEL para esse caso:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-03T22:31:54.000Z",
+            "updated_at": "2020-08-03T22:31:54.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 88,
+                "title": "PSU-MG",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-28T16:33:18.000Z",
+                "updated_at": "2020-05-28T16:33:18.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 403,
+                    "title": "Cardiopatias congênitas",
+                    "description": null,
+                    "parent_id": 402,
+                    "is_enabled": true,
+                    "created_at": "2020-08-01T14:15:31.000Z",
+                    "updated_at": "2020-08-01T14:15:31.000Z",
+                    "pivot": {
+                        "discipline_id": 403,
+                        "question_id": 3866
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15929,
+                    "question_id": 3866,
+                    "description": "Coarctação de aorta",
+                    "explanation": "É um ótimo diagnóstico diferencial.\n- Na presença de válvula bicúspide, é comum um sopro ou um estalido de ejeção na área aórtica irradiando-se para a **região cervical**. \n- Na região da coarctação pode ser ouvido um **sopro sistólico.** \n- **Encontramos diferenças entre amplitude de pulso e pressão sanguínea entre os membros superiores e inferiores.**\n- Achei um pouco de maldade, mas não é a opção mais provável entre as alternativas.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-03T19:31:54.000Z",
+                    "updated_at": "2020-08-03T19:31:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15930,
+                    "question_id": 3866,
+                    "description": "Comunicação interatrial",
+                    "explanation": "Sopro sistólico leve com desdobramento fixo da **segunda bulha.**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-03T19:31:54.000Z",
+                    "updated_at": "2020-08-03T19:31:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15931,
+                    "question_id": 3866,
+                    "description": "Estenose aórtica valvar",
+                    "explanation": "Pode apresentar um sopro sistólico ejetivo.\n- Contudo, os pulsos apresentam-se com uma **amplitude diminuida**\n- **Estenose ➡ É mais difícil para o sangue passar para a aorta.**",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-03T19:31:54.000Z",
+                    "updated_at": "2020-08-03T19:31:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15932,
+                    "question_id": 3866,
+                    "description": "Persistência do canal arterial",
+                    "explanation": "Perfeito, bate perfeitamente com a descrição do caso.\n- É uma cardiopatia congênita acianótica. \n- Surge logo após a emergência da artéria subclávia esquerda \n- Possui como característica **sopro sistólico principalmente em região infraclavicular esquerda com irradiação para o dorso**\n- Também chamado de sopro em maquinária ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-08-03T19:31:54.000Z",
+                    "updated_at": "2020-08-03T19:31:54.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3866,
+                "questionary_id": 268382,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3868,
+            "institution_id": 22,
+            "description": "Criança, 5a, em consulta de puericultura, foi auscultado sopro sistólico em foco pulmonar e desdobramento fixo da segunda bulha. Segundo a mãe, a criança é ativa, alimenta-se bem, não tendo notado nada de errado com o filho. A HIPÓTESE DIAGNÓSTICA E A JUSTIFICATIVA PARA OS ACHADOS SEMIOLÓGICOS SÃO:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-03T22:43:42.000Z",
+            "updated_at": "2020-08-03T22:43:42.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 22,
+                "title": "UNICAMP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:12:16.000Z",
+                "updated_at": "2020-05-18T19:12:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 403,
+                    "title": "Cardiopatias congênitas",
+                    "description": null,
+                    "parent_id": 402,
+                    "is_enabled": true,
+                    "created_at": "2020-08-01T14:15:31.000Z",
+                    "updated_at": "2020-08-01T14:15:31.000Z",
+                    "pivot": {
+                        "discipline_id": 403,
+                        "question_id": 3868
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15937,
+                    "question_id": 3868,
+                    "description": "Persistência do canal arterial, o desdobramento fixo é devido à hipertensão pulmonar.",
+                    "explanation": "Possui como característica **sopro sistólico** principalmente em região infraclavicular esquerda com **irradiação para o dorso**\n- Também chamado de sopro em maquinária ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-03T19:43:42.000Z",
+                    "updated_at": "2020-08-03T19:43:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15938,
+                    "question_id": 3868,
+                    "description": "Tetralogia de Fallot, o desdobramento fixo é devido à malformação da valva pulmonar.",
+                    "explanation": "Um dos determinantes para o diagnóstico é a cianose. Não apresenta desdobramento de B2 fixa, já que temos um CIV associado.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-03T19:43:42.000Z",
+                    "updated_at": "2020-08-03T19:43:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15939,
+                    "question_id": 3868,
+                    "description": "Comunicação interventricular, o sopro é devido ao fluxo pela CIV da direita para a esquerda.",
+                    "explanation": "Na realidade, é da esquerda ➡ direita, já que o ventrículo esquerdo acaba tendo uma maior pressão.\n- Se a CIV for:\n- Grande ➡ Sopro sistólico pequeno e menos rude\n- Pequeno ➡ Holossistólico grande e rude\n- Lembre que a gênese do sopro é o turbilhonamento do sangue. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-03T19:43:42.000Z",
+                    "updated_at": "2020-08-03T19:43:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15940,
+                    "question_id": 3868,
+                    "description": "Comunicação interatrial, o sopro é devido ao hiperfluxo pulmonar.",
+                    "explanation": "Perfeito.\n- É uma cardiopatia congênita não cianótica.\n- Possui como característica o **desdobramento fixo da segunda bulha** e um **sopro sistólico leve** ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-08-03T19:43:42.000Z",
+                    "updated_at": "2020-08-03T19:43:42.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3868,
+                "questionary_id": 268382,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3869,
+            "institution_id": 22,
+            "description": "Menina, 5a, encaminhada ao ambulatório de cirurgia cardíaca com diagnóstico de comunicação interatrial tipo ostium secundum confirmada por ecocardiografia. QUAIS ACHADOS SEMIOLÓGICOS E DE EXAMES LEVARAM O PEDIATRA A ESTE DIAGNÓSTICO?",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-03T22:51:20.000Z",
+            "updated_at": "2020-08-03T22:51:20.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 22,
+                "title": "UNICAMP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:12:16.000Z",
+                "updated_at": "2020-05-18T19:12:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 403,
+                    "title": "Cardiopatias congênitas",
+                    "description": null,
+                    "parent_id": 402,
+                    "is_enabled": true,
+                    "created_at": "2020-08-01T14:15:31.000Z",
+                    "updated_at": "2020-08-01T14:15:31.000Z",
+                    "pivot": {
+                        "discipline_id": 403,
+                        "question_id": 3869
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15941,
+                    "question_id": 3869,
+                    "description": "Cianose, sopro diastólico em foco pulmonar e radiograma de tórax mostrando cardiomegalia global.",
+                    "explanation": "A CIA é uma cardiopatia congênita **acianótica.**\n- **Acianóticas: CIV, CIA, persistência do canal arterial**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-03T19:51:20.000Z",
+                    "updated_at": "2020-08-03T19:51:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15942,
+                    "question_id": 3869,
+                    "description": "Sopro sistólico em borda esternal superior, desdobramento fixo de segunda bulha, ECG com bloqueio de ramo direito.",
+                    "explanation": "Perfeito, temos a caracterização de uma CIA.\n- **Desdobramento fixo de segunda bulha**\n- **Sopro sistólico em borda esternal superior,**",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-08-03T19:51:20.000Z",
+                    "updated_at": "2020-08-03T19:51:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15943,
+                    "question_id": 3869,
+                    "description": "Hiperfonese de segunda bulha, sopro em maquinaria em região infraclavicular esquerda, ECG com sobrecarga esquerda",
+                    "explanation": "Compatível com a **persistência do canal arterial.**",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-03T19:51:20.000Z",
+                    "updated_at": "2020-08-03T19:51:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15944,
+                    "question_id": 3869,
+                    "description": "Ictus cordis deslocado para direita, sopro em foco tricúspide à manobra de Valsalva e radiograma do tórax com retificação do arco pulmonar.",
+                    "explanation": "O CIA apresenta um sopro sistólico mais audível em **borda esternal esquerda média e alta**. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-03T19:51:20.000Z",
+                    "updated_at": "2020-08-03T19:51:20.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3869,
+                "questionary_id": 268382,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3851,
+            "institution_id": 4,
+            "description": "Recém-nascido de três dias de vida apresenta cianose acentuada que melhora com uso de prostaglandina E1 . O exame físico revela sopro contínuo em região infraclavicular esquerda, sopro sistólico de regurgitação em área tricúspide e B2 hipofonética em área pulmonar. O ECG mostra um eixo de QRS em -30º além de sobrecarga atrial direita e ventricular esquerda. O diagnóstico mais provável é:",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-02T20:23:33.000Z",
+            "updated_at": "2022-01-12T17:04:59.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 403,
+                    "title": "Cardiopatias congênitas",
+                    "description": null,
+                    "parent_id": 402,
+                    "is_enabled": true,
+                    "created_at": "2020-08-01T14:15:31.000Z",
+                    "updated_at": "2020-08-01T14:15:31.000Z",
+                    "pivot": {
+                        "discipline_id": 403,
+                        "question_id": 3851
+                    }
+                },
+                {
+                    "id": 1070,
+                    "title": "Casos Clínicos com Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:02:01.000Z",
+                    "updated_at": "2022-01-15T20:21:49.000Z",
+                    "pivot": {
+                        "discipline_id": 1070,
+                        "question_id": 3851
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15868,
+                    "question_id": 3851,
+                    "description": "Atresia tricúspide com CIV restritiva.",
+                    "explanation": "Perfeito, é a melhor opção, pois explica todos os achados.\n- Atresia tricúspede ➡ Maior retorno de sangue para o átrio direito ➡ **Sobrecarga direita**\n- CIV restritiva ➡ **Sopro sistólico**\n- **B2 hipofonética em área pulmonar** ➡ Menor volume de sangue no ventrículo direito.\n- Sangue do átrio direito ➡ Forame oval ➡ Átrio esquerdo ➡ Ventrículo esquerdo ➡ **Sobrecarga ventricular esquerda.**\n- Sangue não é perfeitamente oxigenado ➡ **Cianose.** ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-08-02T20:23:33.000Z",
+                    "updated_at": "2022-01-12T17:04:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15869,
+                    "question_id": 3851,
+                    "description": "Atresia pulmonar com CIV.",
+                    "explanation": "Quase certa, mas não explica todos os achados.\n- Pode causar cianose, já que temos um sangue não perfeitamente oxigenado.\n- Não explica a **sobrecarga atrial direita,** já que o sangue que está no **ventrículo direito pode passar para o esquerdo**(CIV)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-02T20:23:33.000Z",
+                    "updated_at": "2022-01-12T17:04:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15870,
+                    "question_id": 3851,
+                    "description": "Ventrículo único esquerdo com estenose pulmonar. ",
+                    "explanation": "Realmente é uma causa de cianose.\n- Não explica a sobrecarga atrial direita\n- A estenose pulmonar poderia causar um sopro sistólico.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-02T20:23:33.000Z",
+                    "updated_at": "2022-01-12T17:04:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15871,
+                    "question_id": 3851,
+                    "description": "Transposição das grandes artérias.",
+                    "explanation": "Pode causar cianose, **mas não costuma haver sopro ao exame.**\n- **Em geral a segunda bulha (B2) é alta e única**\n- Átrio direito ➡ Ventrículo Direito ➡ Aorta\n- Átrio Esquerdo ➡ Ventrículo Esquerdo ➡ Artérias pulmonares\n- Isso é incompatível com a vida no período pós-natal. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-02T20:23:33.000Z",
+                    "updated_at": "2022-01-12T17:04:59.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3851,
+                "questionary_id": 268382,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3860,
+            "institution_id": 4,
+            "description": "Crianças portadoras de tetralogia de Fallot podem apresentar crises hipoxêmicas. As medidas mais indicadas nesses momentos são:",
+            "difficulty": "hard",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-03T18:22:43.000Z",
+            "updated_at": "2020-08-03T18:22:43.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 403,
+                    "title": "Cardiopatias congênitas",
+                    "description": null,
+                    "parent_id": 402,
+                    "is_enabled": true,
+                    "created_at": "2020-08-01T14:15:31.000Z",
+                    "updated_at": "2020-08-01T14:15:31.000Z",
+                    "pivot": {
+                        "discipline_id": 403,
+                        "question_id": 3860
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15905,
+                    "question_id": 3860,
+                    "description": "oxigenoterapia, beta-bloqueador e sedação.",
+                    "explanation": "Algumas intervenções são importante nas crises hipercianóticas como:\n- Manter a criança em posição genupeitoral ➡ ⬆ Resistência periférica ➡ Diminui o shunt direita-esquerda\n- **Oxigênio**\n- **Morfina(Sedação)**\n- **Betabloqueadores** ➡ Relaxamente infundibular\n- Bicarbonato de sódio ➡ Corração da acidose em casos graves, ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-08-03T15:22:43.000Z",
+                    "updated_at": "2020-08-03T15:22:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15906,
+                    "question_id": 3860,
+                    "description": "oxigenoterapia, diurético e digitálico.",
+                    "explanation": "Não usamos nem diuréticos, nem digitálicos no quadro de tetralogia de Fallot",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-03T15:22:43.000Z",
+                    "updated_at": "2020-08-03T15:22:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15907,
+                    "question_id": 3860,
+                    "description": "sedação, oxigenoterapia e diurético.",
+                    "explanation": "Não usamos diuréticos no quadro de tetralogia de Fallot.\n- Não apresenta benefício, já que não altera o shunt D ➡ E",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-03T15:22:43.000Z",
+                    "updated_at": "2020-08-03T15:22:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15908,
+                    "question_id": 3860,
+                    "description": "digitálico, oxigenoterapia e inibidor da ECA.",
+                    "explanation": "Não usamos nem IECAs, nem digitálicos no quadro de tetralogia de Fallot ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-03T15:22:43.000Z",
+                    "updated_at": "2020-08-03T15:22:43.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3860,
+                "questionary_id": 268382,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3870,
+            "institution_id": 4,
+            "description": "São cardiopatias congênitas que podem causar Síndrome de Eisenmenger, **exceto:**",
+            "difficulty": "hard",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-03T22:57:35.000Z",
+            "updated_at": "2020-08-03T22:57:35.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 403,
+                    "title": "Cardiopatias congênitas",
+                    "description": null,
+                    "parent_id": 402,
+                    "is_enabled": true,
+                    "created_at": "2020-08-01T14:15:31.000Z",
+                    "updated_at": "2020-08-01T14:15:31.000Z",
+                    "pivot": {
+                        "discipline_id": 403,
+                        "question_id": 3870
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15945,
+                    "question_id": 3870,
+                    "description": "CIA",
+                    "explanation": "Causa hiperfluxo e congestão pulmonar prolongada ➡ Pode causar a **Síndrome de Eisenmenger**\n- **Shunt E➡D**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-03T19:57:35.000Z",
+                    "updated_at": "2020-08-03T19:57:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15946,
+                    "question_id": 3870,
+                    "description": "CIV",
+                    "explanation": "Causa hiperfluxo e congestão pulmonar prolongada ➡ Pode causar a **Síndrome de Eisenmenger** \n- **Shunt E ➡D** ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-03T19:57:35.000Z",
+                    "updated_at": "2020-08-03T19:57:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15947,
+                    "question_id": 3870,
+                    "description": "PCA",
+                    "explanation": "Causa hiperfluxo e congestão pulmonar prolongada ➡ Pode causar a **Síndrome de Eisenmenger** \n- Shunt artério aorta ➡ artéria pulmonar",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-03T19:57:35.000Z",
+                    "updated_at": "2020-08-03T19:57:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15948,
+                    "question_id": 3870,
+                    "description": "Tetralogia de Fallot",
+                    "explanation": "Temos um hipofluxo pulmonar ➡ Não causa a **Síndrome de Eisenmenger** \n- **Síndrome de Einsenmenger ➡ É a hipertensão vascular pulmonar** desenvolvida por cardiopatias que cursam com **hiperfluxo e congestão pulmonar.**",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-08-03T19:57:35.000Z",
+                    "updated_at": "2020-08-03T19:57:35.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3870,
+                "questionary_id": 268382,
+                "timer": 0
+            }
+        }
+    ]
+}

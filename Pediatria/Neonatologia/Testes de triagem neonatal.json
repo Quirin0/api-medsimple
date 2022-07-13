@@ -1,0 +1,1389 @@
+{
+    "id": 268344,
+    "user_id": 1699,
+    "title": "Testes de triagem neonatal",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-12T00:15:08.000Z",
+    "updated_at": "2022-07-12T00:15:08.000Z",
+    "study_plan_id": 134,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 1003,
+            "institution_id": 4,
+            "description": "Quais dos seguintes testes de triagem neonatal não é obrigatório pelo Ministério da Saúde?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T03:41:09.000Z",
+            "updated_at": "2020-06-01T03:41:09.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 125,
+                    "title": "Testes de Triagem Neonatal",
+                    "description": null,
+                    "parent_id": 29,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T03:13:52.000Z",
+                    "updated_at": "2020-06-01T03:13:52.000Z",
+                    "pivot": {
+                        "discipline_id": 125,
+                        "question_id": 1003
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4118,
+                    "question_id": 1003,
+                    "description": "Teste do Pezinho",
+                    "explanation": "O teste do pezinho (Programa Nacional de Triagem Neonatal) deve ser realizado entre o 3º e 5º dia de vida",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T00:41:10.000Z",
+                    "updated_at": "2020-06-01T00:41:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4119,
+                    "question_id": 1003,
+                    "description": "Teste do Olhinho",
+                    "explanation": "O teste do olhinho deve ser realizado antes da alta, pelo teste do reflexo vermelho",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T00:41:10.000Z",
+                    "updated_at": "2020-06-01T00:41:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4120,
+                    "question_id": 1003,
+                    "description": "Teste da linguinha",
+                    "explanation": "Este teste não é obrigatório. Consiste na avaliação do frênulo lingual",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-01T00:41:10.000Z",
+                    "updated_at": "2020-06-01T00:41:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4121,
+                    "question_id": 1003,
+                    "description": "Teste do coraçãozinho",
+                    "explanation": "Este teste deve ser realizado entre 24 e 48h de vida, pela saturação de O2 no membro superior direito e qualquer membro inferior",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T00:41:10.000Z",
+                    "updated_at": "2020-06-01T00:41:10.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1003,
+                "questionary_id": 268344,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1005,
+            "institution_id": 4,
+            "description": "Sobre o teste do Olhinho, assinale a alternativa incorreta:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T05:10:50.000Z",
+            "updated_at": "2020-06-01T05:10:50.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 125,
+                    "title": "Testes de Triagem Neonatal",
+                    "description": null,
+                    "parent_id": 29,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T03:13:52.000Z",
+                    "updated_at": "2020-06-01T03:13:52.000Z",
+                    "pivot": {
+                        "discipline_id": 125,
+                        "question_id": 1005
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4126,
+                    "question_id": 1005,
+                    "description": "O reflexo vermelho não precisa ser simétrico em ambos os olhos, desde que haja a presença de reflexo vermelho já consideramos como normal",
+                    "explanation": "Falso. O reflexo vermelho deve ser simétrico em ambos os olhos, pois se houver uma assimetria pode significar que há algo dificultando a chegada da luz na retina em um dos olhos.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-01T02:10:50.000Z",
+                    "updated_at": "2020-06-01T02:10:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4127,
+                    "question_id": 1005,
+                    "description": "Deve ser realizado antes da alta",
+                    "explanation": "Verdadeiro. Além disso, deve ser realizado nas consultas de rotina durante o crescimento da criança",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T02:10:50.000Z",
+                    "updated_at": "2020-06-01T02:10:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4128,
+                    "question_id": 1005,
+                    "description": "O principal problema que o teste visa encontrar é a catarata congênita",
+                    "explanation": "Verdadeiro, é a principal patologia que este teste busca",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T02:10:50.000Z",
+                    "updated_at": "2020-06-01T02:10:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4129,
+                    "question_id": 1005,
+                    "description": "Glaucoma congênito e retinoblastoma são causas de teste alterado",
+                    "explanation": "Veradeiro. Qualquer patologia que possa dificultar que a luz chegue e se reflita na retina cursam com teste do reflexo vermelho alterado",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T02:10:50.000Z",
+                    "updated_at": "2020-06-01T02:10:50.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1005,
+                "questionary_id": 268344,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1007,
+            "institution_id": 4,
+            "description": "Sobre o teste da orelhinha, assinale a alternativa correta:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T05:34:01.000Z",
+            "updated_at": "2020-12-26T03:22:00.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 125,
+                    "title": "Testes de Triagem Neonatal",
+                    "description": null,
+                    "parent_id": 29,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T03:13:52.000Z",
+                    "updated_at": "2020-06-01T03:13:52.000Z",
+                    "pivot": {
+                        "discipline_id": 125,
+                        "question_id": 1007
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4134,
+                    "question_id": 1007,
+                    "description": "Apenas o fonoaudiólogo pode fazer esse teste",
+                    "explanation": "O fonoaudiólogo ou o médico, de preferência pediatria, podem fazer o teste",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T02:34:01.000Z",
+                    "updated_at": "2020-12-26T00:22:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4135,
+                    "question_id": 1007,
+                    "description": "Mesmo que a criança possua defeitos na orelha externa ela pode fazer o teste",
+                    "explanation": "Uma condição para que o teste possa ter um resultado fidedigno é a ausência de defeitos na orelha externa. Se tiver algum defeito, deve ser encaminhada para avaliação otorrinolaringológica",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T02:34:02.000Z",
+                    "updated_at": "2020-12-26T00:22:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4136,
+                    "question_id": 1007,
+                    "description": "O teste da orelhinha inicia com o teste de potencial evocado do tronco encefálico",
+                    "explanation": "Falso. O teste inicial é o teste de emissões otoacústicas. Em caso de alteração, deve ser repetido. Se persistir a alteração, realiza-se aí sim o teste PEATE: Potencial Evocado do Tronco Encefálico",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T02:34:02.000Z",
+                    "updated_at": "2020-12-26T00:22:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4137,
+                    "question_id": 1007,
+                    "description": "O teste deve ser realizado antes da alta",
+                    "explanation": "Verdadeiro. Deve ser realizado antes de alta. Caso, por algum motivo não consiga ser realizado antes da alta, pode ser realizado em, no máximo, até 3 meses de vida",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-01T02:34:02.000Z",
+                    "updated_at": "2020-12-26T00:22:00.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1007,
+                "questionary_id": 268344,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1043,
+            "institution_id": 4,
+            "description": "A fenilcetonúria (PKU) é uma das doenças identificadas no teste do pezinho (Programa Nacional de Triagem Neonatal). Sobre a detecção dessa doença, assinale a alternativa incorreta:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T00:09:01.000Z",
+            "updated_at": "2020-06-02T00:09:01.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 125,
+                    "title": "Testes de Triagem Neonatal",
+                    "description": null,
+                    "parent_id": 29,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T03:13:52.000Z",
+                    "updated_at": "2020-06-01T03:13:52.000Z",
+                    "pivot": {
+                        "discipline_id": 125,
+                        "question_id": 1043
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4280,
+                    "question_id": 1043,
+                    "description": "Ocorre pela deficiência da enzima fenilalanina hidroxilase",
+                    "explanation": "Perfeito, essa enzima converte fenilalanina e tirosina",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:09:01.000Z",
+                    "updated_at": "2020-06-01T21:09:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4281,
+                    "question_id": 1043,
+                    "description": "O aleitamento materno diminui os níveis de fenilcetonúria, beneficiando o bebê",
+                    "explanation": "Falso! As proteínas presentes no leite materno aumentam os níveis de fenilcetonúria, piorando a doença. Por isso, uma das contraindicações do aleitamento materno é **a fenilcetonúria!**",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-01T21:09:01.000Z",
+                    "updated_at": "2020-06-01T21:09:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4282,
+                    "question_id": 1043,
+                    "description": "O tratamento consiste em dieta sem fenilalanina",
+                    "explanation": "Perfeito. Como não temos como repor a enzima deficiente, a solução é a não ingestão de alimentos que contenham fenilalanina",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:09:01.000Z",
+                    "updated_at": "2020-06-01T21:09:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4283,
+                    "question_id": 1043,
+                    "description": "A coleta do teste do pezinho é feita entre o 3º e 5º dia de vida",
+                    "explanation": "Perfeito. Um dos motivos de ser indicado a partir do 3º dia é justamente porque precisamos que a criança amamente por pelo menos 48h para elevar os níveis de fenilalanina no sangue para ser de mais fácil detecção na triagem",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:09:01.000Z",
+                    "updated_at": "2020-06-01T21:09:01.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1043,
+                "questionary_id": 268344,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1044,
+            "institution_id": 4,
+            "description": "Uma das doenças identificadas no teste do pezinho é o hipotireoidismo congênito. Sobre essa doença, assinale a alternativa incorreta:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T00:13:01.000Z",
+            "updated_at": "2020-06-02T00:13:01.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 125,
+                    "title": "Testes de Triagem Neonatal",
+                    "description": null,
+                    "parent_id": 29,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T03:13:52.000Z",
+                    "updated_at": "2020-06-01T03:13:52.000Z",
+                    "pivot": {
+                        "discipline_id": 125,
+                        "question_id": 1044
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4284,
+                    "question_id": 1044,
+                    "description": "A triagem é feita pela dosagem de TSH no teste do pezinho",
+                    "explanation": "Perfeito, é feito pela dosagem do TSH no papel filtro do teste do pezinho",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:13:01.000Z",
+                    "updated_at": "2020-06-01T21:13:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4285,
+                    "question_id": 1044,
+                    "description": "Valores de TSH entre 10-20 no teste do pezinho indicam a repetição do teste",
+                    "explanation": "Perfeito. Se encontrado um TSH entre 10-20 deve-se repetir o teste",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:13:01.000Z",
+                    "updated_at": "2020-06-01T21:13:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4286,
+                    "question_id": 1044,
+                    "description": "Valores de TSH acima de 20 já firma o diagnóstico, não necessitando de exames adicionais",
+                    "explanation": "Falso. Após a identificação de um TSH acima de 20 no papel filtro do teste do pezinho, solicita-se de urgência a dosagem de TSH e T4 sanguíneos",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-01T21:13:01.000Z",
+                    "updated_at": "2020-06-01T21:13:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4287,
+                    "question_id": 1044,
+                    "description": "O tratamento consiste em iniciar levotiroxina antes dos 14 dias de vida",
+                    "explanation": "Perfeito. Para evitar complicações da doença, essa reposição tem que ser iniciada antes dos 14 dias de vida",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:13:01.000Z",
+                    "updated_at": "2020-06-01T21:13:01.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1044,
+                "questionary_id": 268344,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1046,
+            "institution_id": 4,
+            "description": "Uma das doenças identificadas no teste do pezinho é a Fibrose Cística. Sobre a triagem dessa doença, assinale a alternativa correta:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T00:22:01.000Z",
+            "updated_at": "2020-06-02T00:22:01.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 125,
+                    "title": "Testes de Triagem Neonatal",
+                    "description": null,
+                    "parent_id": 29,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T03:13:52.000Z",
+                    "updated_at": "2020-06-01T03:13:52.000Z",
+                    "pivot": {
+                        "discipline_id": 125,
+                        "question_id": 1046
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4292,
+                    "question_id": 1046,
+                    "description": "A triagem é feita pelo teste de cloro no suor",
+                    "explanation": "Falso, é feito pela dosagem da imunotripsina reativa (IR). Obtendo 2 valores elevados dessa substância é que realizamos o teste de cloro no suor, que será positivo com valores acima de 60.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:22:01.000Z",
+                    "updated_at": "2020-06-01T21:22:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4293,
+                    "question_id": 1046,
+                    "description": "Após 30 dias, os valores de imunotripsina reativa estão normais",
+                    "explanation": "Perfeito. mesmo em indivíduos com fibrose cística, essa substância normaliza seus valores após 30 dias. Por isso o teste do pezinho não pode ser realizado após 30 dias de vida",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-01T21:22:01.000Z",
+                    "updated_at": "2020-06-01T21:22:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4294,
+                    "question_id": 1046,
+                    "description": "A Fibrose cística está presente na fase II do Programa Nacional de Triagem Neonatal",
+                    "explanation": "Falso. Ela entra na fase III do programa nacional de triagem neonatal",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:22:01.000Z",
+                    "updated_at": "2020-06-01T21:22:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4295,
+                    "question_id": 1046,
+                    "description": "Nenhuma das alternativas está correta",
+                    "explanation": "Existe uma alternativa correta😉",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:22:01.000Z",
+                    "updated_at": "2020-06-01T21:22:01.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1046,
+                "questionary_id": 268344,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1047,
+            "institution_id": 25,
+            "description": "Um recém-nascido de termo, adequado para a idade gestacional, com Apgar de 5, 8 e 9 no primeiro, quinto e décimo minutos de vida, é submetido, com 30 horas de vida, ao Teste de triagem cardiológica. A Saturação de oxigênio do membro superior direito e do membro inferior esquerdo foram de 94% e 96%, respectivamente. Sobre este resultado, podemos afirmar que:\n ",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T00:24:34.000Z",
+            "updated_at": "2020-06-02T00:24:34.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 25,
+                "title": "USP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:55:52.000Z",
+                "updated_at": "2020-05-18T19:55:52.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 125,
+                    "title": "Testes de Triagem Neonatal",
+                    "description": null,
+                    "parent_id": 29,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T03:13:52.000Z",
+                    "updated_at": "2020-06-01T03:13:52.000Z",
+                    "pivot": {
+                        "discipline_id": 125,
+                        "question_id": 1047
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4296,
+                    "question_id": 1047,
+                    "description": "O teste está alterado, devendo ser repetido em 1 hora e, se permanecer alterado, indicar ecocardiograma.",
+                    "explanation": "O teste do coraçãozinho é alterado quando a saturação em algum dos membros é inferior a 95% ou diferença  ≥ a 3% entre os membros. Nestes casos, o exame deve ser repetido após 1 hora, e se mantiver alterado está indicada a realização de ecocardiograma nas próximas 24h.\n ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-01T21:24:34.000Z",
+                    "updated_at": "2020-06-01T21:24:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4297,
+                    "question_id": 1047,
+                    "description": "O teste está normal, sem necessidade de repetir o exame ou fazer qualquer investigação complementar.",
+                    "explanation": " O teste está alterado, já que em um dos membros a saturação foi inferior a 95%. Deve-se repetir o exame em 1 hora e se mantiver alterado realizar ecocardiograma nas próximas 24h.\n ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:24:34.000Z",
+                    "updated_at": "2020-06-01T21:24:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4298,
+                    "question_id": 1047,
+                    "description": " O resultado do teste não pode ser levado em consideração, pois foi realizado antes de 48 horas de vida.",
+                    "explanation": " O teste do coraçãozinho deve ser realizado entre 24 e 48h de vida, antes da alta hospitalar.\n ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:24:34.000Z",
+                    "updated_at": "2020-06-01T21:24:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4299,
+                    "question_id": 1047,
+                    "description": " O resultado deve ser desconsiderado, pois foi utilizado o membro inferior contralateral em relação ao membro superior.",
+                    "explanation": "O teste é realizado no membro superior direito e qualquer um dos membros inferiores.\n ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:24:34.000Z",
+                    "updated_at": "2020-06-01T21:24:34.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1047,
+                "questionary_id": 268344,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1004,
+            "institution_id": 4,
+            "description": "O teste do pezinho, como carinhosamente chamam o PROGRAMA NACIONAL DE TRIAGEM NEONATAL (PNTN), possui fases de implantação. Cada fase corresponde a triagem para identificação de determinadas doenças. Em qual fase de implantação desse programa o Brasil se encontra?",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T05:06:08.000Z",
+            "updated_at": "2022-04-11T13:39:23.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 125,
+                    "title": "Testes de Triagem Neonatal",
+                    "description": null,
+                    "parent_id": 29,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T03:13:52.000Z",
+                    "updated_at": "2020-06-01T03:13:52.000Z",
+                    "pivot": {
+                        "discipline_id": 125,
+                        "question_id": 1004
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4122,
+                    "question_id": 1004,
+                    "description": "I",
+                    "explanation": "A fase I corresponde à triagem para fenilcetonúria e Hipotireoidismo Congênito. Brasil já passou dessa fase",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T02:06:08.000Z",
+                    "updated_at": "2022-04-11T13:39:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4123,
+                    "question_id": 1004,
+                    "description": "II",
+                    "explanation": "A fase II corresponde à triagem para todas as doenças da fase I + a Doença falciforme e Hemoglobinopatias. O Brasil já passou dessa fase",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T02:06:09.000Z",
+                    "updated_at": "2022-04-11T13:39:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4124,
+                    "question_id": 1004,
+                    "description": "III",
+                    "explanation": "A fase 3 corresponde à triagem de todas as doenças da fase 2 + triagem para Fibrose Cística. O Brasil já passou dessa fase",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T02:06:09.000Z",
+                    "updated_at": "2022-04-11T13:39:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4125,
+                    "question_id": 1004,
+                    "description": "IV",
+                    "explanation": "Perfeito. O Brasil está em fase de implantação dessa fase por todo o Brasil. Corresponde à todas as doenças da fase III + Deficiência de Biotinidase e Hiperplasia Adrenal Congênita",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-01T02:06:09.000Z",
+                    "updated_at": "2022-04-11T13:39:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1004,
+                "questionary_id": 268344,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1006,
+            "institution_id": 4,
+            "description": "Sobre o teste do coraçãozinho, assinale a alternativa incorreta:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-01T05:29:53.000Z",
+            "updated_at": "2021-11-26T02:19:13.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 125,
+                    "title": "Testes de Triagem Neonatal",
+                    "description": null,
+                    "parent_id": 29,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T03:13:52.000Z",
+                    "updated_at": "2020-06-01T03:13:52.000Z",
+                    "pivot": {
+                        "discipline_id": 125,
+                        "question_id": 1006
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4130,
+                    "question_id": 1006,
+                    "description": "O valor ideal é uma saturação ≥95% no membro superior direito e no membro inferior",
+                    "explanation": "Perfeito. É medida a saturação pré-ductal (membro superior direito) e pós-ductal (qualquer um dos membros inferiores). Ambas as saturações devem ser ≥ 95% e não pode haver diferença de 3% ou mais entre os membros.\nEm caso de teste alterado, repete-se em uma hora. Se a alteração persistir, solicita-se um Ecocardiograma para a investigação de cardiopatias",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T02:29:53.000Z",
+                    "updated_at": "2021-11-25T23:19:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4131,
+                    "question_id": 1006,
+                    "description": "O objetivo do teste é identificar cardiopatias congênitas críticas",
+                    "explanation": "Verdadeiro. Visa identificar cardiopatias congênitas críticas pela comparação da saturação pré-ductal e pós-ductal",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T02:29:53.000Z",
+                    "updated_at": "2021-11-25T23:19:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4132,
+                    "question_id": 1006,
+                    "description": "O teste também está indicado em crianças que nascem com menos de 34 semanas de idade gestacional",
+                    "explanation": "Falso. O teste está indicado para crianças **com mais** de 34 semanas de idade gestacional aparentemente saudáveis.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-01T02:29:53.000Z",
+                    "updated_at": "2021-11-25T23:19:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4133,
+                    "question_id": 1006,
+                    "description": "Deve ser realizado entre 24 e 48h de vida",
+                    "explanation": "Perfeito. Antes disso, o ducto arterial pode estar aberto ainda, e após esse período já podemos pegar uma cardiopatia crítica causando danos graves ao bebê",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T02:29:53.000Z",
+                    "updated_at": "2021-11-25T23:19:13.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1006,
+                "questionary_id": 268344,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1042,
+            "institution_id": 4,
+            "description": "Os diferentes testes de triagem neonatal possuem períodos determinados para serem realizados em que sua chance de detectar corretamente determinada doença é maior. Quanto ao teste do pezinho, qual é o período preconizado pelo Ministério da Saúde para a realização deste teste?",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T00:01:59.000Z",
+            "updated_at": "2021-04-01T02:38:21.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 125,
+                    "title": "Testes de Triagem Neonatal",
+                    "description": null,
+                    "parent_id": 29,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T03:13:52.000Z",
+                    "updated_at": "2020-06-01T03:13:52.000Z",
+                    "pivot": {
+                        "discipline_id": 125,
+                        "question_id": 1042
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4276,
+                    "question_id": 1042,
+                    "description": "Após 30 dias de vida",
+                    "explanation": "Existe a orientação de, inclusive, não realizar após 30 dias de vida, já que a imunotripsina reativa, marcador de Fibrose Cística, estará em níveis normais, mesmo em indivíduos doentes",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:01:59.000Z",
+                    "updated_at": "2021-03-31T23:38:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4277,
+                    "question_id": 1042,
+                    "description": "Antes de 48h do início do Aleitamento Materno",
+                    "explanation": "Se realizado antes de 48h do início do Aleitamento Materno o organismo ainda não terá aumentado seus níveis de fenilalanina devido à proteína presente no leite materno, dificultando a detecção no teste de triagem para fenilcetonúria",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:01:59.000Z",
+                    "updated_at": "2021-03-31T23:38:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4278,
+                    "question_id": 1042,
+                    "description": "Entre o 3º e 5º dia de vida",
+                    "explanation": "Perfeito! O teste deve ser realizado entre o terceiro e quinto dia de vida e nunca antes de 38h do início do aleitamento materno e nem após 30 dias de vida",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-01T21:01:59.000Z",
+                    "updated_at": "2021-03-31T23:38:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4279,
+                    "question_id": 1042,
+                    "description": "Logo após o parto, após o bebê ser colocado junto ao colo materno",
+                    "explanation": "Falso, ele deve ser realizado entre o terceiro e o quinto dia de vida",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:02:00.000Z",
+                    "updated_at": "2021-03-31T23:38:21.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1042,
+                "questionary_id": 268344,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1045,
+            "institution_id": 4,
+            "description": "A fase II do Programa Nacional de Triagem Neonatal (teste do pezinho) acrescenta a identificação de hemoglobinopatias e doença falciforme. Sobre esse assunto, julgue as afirmativas:\nI.Hemoglobina HbFA corresponde ao padrão de hemoglobina normal do recém-nascido\nII.Hemoglobina HbFAS indica traço falcêmico\nIII.Hemoglobina HbFS indica doença falciforme",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T00:17:20.000Z",
+            "updated_at": "2020-06-02T00:17:20.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 125,
+                    "title": "Testes de Triagem Neonatal",
+                    "description": null,
+                    "parent_id": 29,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T03:13:52.000Z",
+                    "updated_at": "2020-06-01T03:13:52.000Z",
+                    "pivot": {
+                        "discipline_id": 125,
+                        "question_id": 1045
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4288,
+                    "question_id": 1045,
+                    "description": "Apenas I está correta",
+                    "explanation": "Confira o comentário completo na alternativa correta ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:17:20.000Z",
+                    "updated_at": "2020-06-01T21:17:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4289,
+                    "question_id": 1045,
+                    "description": "Apenas I e II estão corretas",
+                    "explanation": "Confira o comentário completo na alternativa correta ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:17:20.000Z",
+                    "updated_at": "2020-06-01T21:17:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4290,
+                    "question_id": 1045,
+                    "description": "Apenas I e III estão corretas",
+                    "explanation": "Confira o comentário completo na alternativa correta",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:17:20.000Z",
+                    "updated_at": "2020-06-01T21:17:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4291,
+                    "question_id": 1045,
+                    "description": "Todas as alternativas estão corretas",
+                    "explanation": "Para entender o padrão de hemoglobina identificado na eletroforese temos que entender que a primeira letra é o padrão pedrominante, que é o F, de Fetal. A segunda letra é o segundo padrão predominante, que é o A, de Adulto\nHbFAS significa traço falciforme (heterozigoto), pois possui o hemoglobina S em menor quantidade que a adulta \nHbFS: Dça falciforme, pois possui mais hemobglobina S do que a forma adulta (que acaba nem aparecendo no nome)\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-01T21:17:20.000Z",
+                    "updated_at": "2020-06-01T21:17:20.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1045,
+                "questionary_id": 268344,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1048,
+            "institution_id": 1,
+            "description": "Qual a idade ideal para coleta de sangue para a triagem neonatal do hipotireoidismo congênito?",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T00:30:09.000Z",
+            "updated_at": "2020-06-02T00:30:09.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 1,
+                "title": "UFSC",
+                "state": "Santa Catarina",
+                "is_enabled": true,
+                "created_at": "2020-05-16T20:39:39.000Z",
+                "updated_at": "2020-05-16T20:39:39.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 125,
+                    "title": "Testes de Triagem Neonatal",
+                    "description": null,
+                    "parent_id": 29,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T03:13:52.000Z",
+                    "updated_at": "2020-06-01T03:13:52.000Z",
+                    "pivot": {
+                        "discipline_id": 125,
+                        "question_id": 1048
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4300,
+                    "question_id": 1048,
+                    "description": "nas primeiras 24 horas de vida",
+                    "explanation": "Antes de 48h de vida a coleta de TSH pode estar comprometida, já que os níveis podem estar fisiologicamente elevados, obtendo mais falso-positivos",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:30:09.000Z",
+                    "updated_at": "2020-06-01T21:30:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4301,
+                    "question_id": 1048,
+                    "description": "entre o 3º e o 5º dia de vida",
+                    "explanation": "Perfeito, já que entre o 3º e 5º dia já ocorreu a diminuição do pico de elevação fisiológica do TSH no bebê a termo",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-01T21:30:09.000Z",
+                    "updated_at": "2020-06-01T21:30:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4302,
+                    "question_id": 1048,
+                    "description": "após a primeira semana de vida",
+                    "explanation": "O atraso no diagnóstico implica em atraso no tratamento, que deve iniciar até no máximo o 14º dia de vida",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:30:09.000Z",
+                    "updated_at": "2020-06-01T21:30:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4303,
+                    "question_id": 1048,
+                    "description": "após o primeiro mês de vida",
+                    "explanation": "O atraso no diagnóstico implica em atraso no tratamento, que deve iniciar até no máximo o 14º dia de vida para evitar sequelas do sistema nervoso central",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:30:09.000Z",
+                    "updated_at": "2020-06-01T21:30:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4304,
+                    "question_id": 1048,
+                    "description": "após 14º dia de vida",
+                    "explanation": "O atraso no diagnóstico implica em atraso no tratamento, que deve iniciar até no máximo o 14º dia de vida para evitar sequelas do sistema nervoso central ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:30:09.000Z",
+                    "updated_at": "2020-06-01T21:30:09.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1048,
+                "questionary_id": 268344,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1049,
+            "institution_id": 5,
+            "description": "Um recém-nascido apresentou o seguinte resultado do “teste do coraçãozinho”, realizado com 24 horas de vida: Membro superior direito: saturação de oxigênio de 98%. Membro inferior direito: saturação de oxigênio de 94%. O exame repetido uma hora após mostrou o mesmo resultado. Qual a conduta correta a partir desses resultados?",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T00:33:44.000Z",
+            "updated_at": "2020-06-02T00:33:44.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 5,
+                "title": "AMRIGS",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T13:59:53.000Z",
+                "updated_at": "2020-05-17T13:59:53.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 125,
+                    "title": "Testes de Triagem Neonatal",
+                    "description": null,
+                    "parent_id": 29,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T03:13:52.000Z",
+                    "updated_at": "2020-06-01T03:13:52.000Z",
+                    "pivot": {
+                        "discipline_id": 125,
+                        "question_id": 1049
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4305,
+                    "question_id": 1049,
+                    "description": "Alta Hospitalar de rotina.",
+                    "explanation": "Confira o comentário completo na alternativa correta",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:33:44.000Z",
+                    "updated_at": "2020-06-01T21:33:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4306,
+                    "question_id": 1049,
+                    "description": "Repetir o exame com 7 dias de vida.",
+                    "explanation": "Confira o comentário completo na alternativa correta ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:33:44.000Z",
+                    "updated_at": "2020-06-01T21:33:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4307,
+                    "question_id": 1049,
+                    "description": "Solicitar Raio-X de tórax e ECG.",
+                    "explanation": "Confira o comentário completo na alternativa correta ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:33:44.000Z",
+                    "updated_at": "2020-06-01T21:33:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4308,
+                    "question_id": 1049,
+                    "description": "Solicitar Ecodoppler do coração.",
+                    "explanation": "A meta é que encontremos saturação acima de 95% nos membros medidos e uma diferença não maior que 3% entre os membros. Aqui tivemos tanto saturação abaixo de 95% em um membro e uma diferença maior que 3% entre os membros. Em caso de alteração, repete-se o exame, como foi feito no caso. Se persistir alterado, a conduta é a realização de ecocardiograma",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-01T21:33:44.000Z",
+                    "updated_at": "2020-06-01T21:33:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4309,
+                    "question_id": 1049,
+                    "description": "Solicitar avaliação do cardiologista.",
+                    "explanation": "Confira o comentário completo na alternativa correta ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:33:44.000Z",
+                    "updated_at": "2020-06-01T21:33:44.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1049,
+                "questionary_id": 268344,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1050,
+            "institution_id": 61,
+            "description": "Paciente vem a Unidade de Saúde para consulta de 1 mês de vida com pediatra. É realizado o teste do reflexo vermelho (TRV). Baseado na foto abaixo, qual o resultado da avaliação e conduta imediata?\n\n\n",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T00:39:46.000Z",
+            "updated_at": "2021-03-11T04:57:54.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 61,
+                "title": "USP-RP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-23T20:44:31.000Z",
+                "updated_at": "2020-05-23T20:44:31.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 125,
+                    "title": "Testes de Triagem Neonatal",
+                    "description": null,
+                    "parent_id": 29,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T03:13:52.000Z",
+                    "updated_at": "2020-06-01T03:13:52.000Z",
+                    "pivot": {
+                        "discipline_id": 125,
+                        "question_id": 1050
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4310,
+                    "question_id": 1050,
+                    "description": "Reflexo vermelho duvidoso; seguimento na puericultura em um mês.",
+                    "explanation": "O reflexo é duvidoso, logo deve ser encaminhado imediatamente para avaliação oftalmológica",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:39:46.000Z",
+                    "updated_at": "2020-06-01T21:39:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4311,
+                    "question_id": 1050,
+                    "description": "Reflexo vermelho normal; seguimento na puericultura em um mês.",
+                    "explanation": "O reflexo apresenta assimetria, logo não é normal, devendo ser encaminhado para avaliação oftalmológica",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:39:46.000Z",
+                    "updated_at": "2020-06-01T21:39:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4312,
+                    "question_id": 1050,
+                    "description": "Reflexo vermelho normal; encaminhar para oftalmologista.",
+                    "explanation": "O reflexo apresenta assimetria, logo não é normal, devendo ser encaminhado para avaliação oftalmológica ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:39:46.000Z",
+                    "updated_at": "2020-06-01T21:39:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4313,
+                    "question_id": 1050,
+                    "description": "Reflexo vermelho duvidoso; encaminhar para oftalmologista.",
+                    "explanation": "Perfeito. O reflexo é duvidoso pois apresenta assimetria comparando os dois olhos. A presença de estrabismo acarreta reflexo brilhante e mais claro no olho esquerdo estrábico. Sempre que o reflexo for ausente ou duvidoso, a criança deve ser encaminhada imediatamente ao oftalmologista",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-01T21:39:46.000Z",
+                    "updated_at": "2020-06-01T21:39:46.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 262,
+                    "file": "1591047353574.png",
+                    "name": "Sem título.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-06-02T00:35:54.000Z",
+                    "updated_at": "2020-06-02T00:35:54.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591047353574.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 262,
+                        "question_id": 1050
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 1050,
+                "questionary_id": 268344,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1051,
+            "institution_id": 58,
+            "description": "Durante o exame de triagem ocular de um RN (reflexo do olho vermelho), o médico percebeu a presença de um reflexo branco-amarelado ou leucocoria. Considerando essa situação hipotética, assinale a alternativa que apresenta a patologia que esse achado não pode representar.",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-02T00:45:20.000Z",
+            "updated_at": "2020-06-02T00:45:20.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 58,
+                "title": "SANTA CASA DE MISERICÓRDIA DE SÃO PAULO – SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-22T17:02:45.000Z",
+                "updated_at": "2020-05-22T17:02:45.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 125,
+                    "title": "Testes de Triagem Neonatal",
+                    "description": null,
+                    "parent_id": 29,
+                    "is_enabled": true,
+                    "created_at": "2020-06-01T03:13:52.000Z",
+                    "updated_at": "2020-06-01T03:13:52.000Z",
+                    "pivot": {
+                        "discipline_id": 125,
+                        "question_id": 1051
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4314,
+                    "question_id": 1051,
+                    "description": "infecção congênita",
+                    "explanation": "Doenças congênitas como rubéola, toxoplasmose e citomegalovírus podem cursar com catarata congênita, que se apresenta com leucocoria",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:45:20.000Z",
+                    "updated_at": "2020-06-01T21:45:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4315,
+                    "question_id": 1051,
+                    "description": "retinoblastoma",
+                    "explanation": "O retinoblastoma é um tumor maligno da retina que é causa frequente de leucocoria",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:45:20.000Z",
+                    "updated_at": "2020-06-01T21:45:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4316,
+                    "question_id": 1051,
+                    "description": "glaucoma congênito",
+                    "explanation": "O glaucoma congênito cursa com aumento da pressão intraocular que pode cursar com diminuição do reflexo vermelho",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:45:20.000Z",
+                    "updated_at": "2020-06-01T21:45:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4317,
+                    "question_id": 1051,
+                    "description": "retinopatia da prematuridade",
+                    "explanation": "A retinopatia da prematuridade está associado ao uso excessivo de Oxigênio em recém nascidos de baixo peso e prematuros, sendo uma causa prevenível e tratável de cegueira infantil",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-01T21:45:20.000Z",
+                    "updated_at": "2020-06-01T21:45:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4318,
+                    "question_id": 1051,
+                    "description": "dacriocistite",
+                    "explanation": "Dacriocistite é a inflamação do canal lacrimal, o que não tem relação nenhuma com alteração do reflexo vermelho, já que não causa nenhuma alteração intraocular entre a córnea e a retina",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-06-01T21:45:20.000Z",
+                    "updated_at": "2020-06-01T21:45:20.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1051,
+                "questionary_id": 268344,
+                "timer": 0
+            }
+        }
+    ]
+}

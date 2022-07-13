@@ -1,0 +1,1322 @@
+{
+    "id": 268295,
+    "user_id": 1699,
+    "title": "Medidas de Associação/Efeito",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T23:55:34.000Z",
+    "updated_at": "2022-07-11T23:55:34.000Z",
+    "study_plan_id": 752,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 8784,
+            "institution_id": 4,
+            "description": "Sobre as medidas de associação/efeito em epidemiologia assinale a alternativa **INCORRETA:**",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-04T22:11:05.000Z",
+            "updated_at": "2021-10-23T19:23:41.000Z",
+            "user_id": 1482,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 781,
+                    "title": "Medidas de associação/efeito",
+                    "description": "Questões sobre as principais medidas de associação/efeito: Risco Absoluto, Risco relativo, Odds Ratio",
+                    "parent_id": 59,
+                    "is_enabled": true,
+                    "created_at": "2021-06-04T20:38:35.000Z",
+                    "updated_at": "2021-06-04T20:38:35.000Z",
+                    "pivot": {
+                        "discipline_id": 781,
+                        "question_id": 8784
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36027,
+                    "question_id": 8784,
+                    "description": "Ao tratarmos do conceito \"risco\", em epidemiologia, a medida de frequência associada é a incidência.",
+                    "explanation": "Perfeito, Doc!!\nO risco é a probabilidade de desenvolvermos um NOVO desfecho que outrora não possuíamos. Assim,  em termos epidemiológicos, a incidência nos quantifica o risco, pois ela é definida como a proporção de novos casos em relação ao total.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-04T19:11:05.000Z",
+                    "updated_at": "2021-10-23T16:23:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36028,
+                    "question_id": 8784,
+                    "description": "Podemos ter medidas de associação do tipo razão ou do tipo subtração.",
+                    "explanation": "Correto, Doc!!\nAs medidas de efeito podem ser do tipo razão (divisão), como Risco Relativo e Odds Ratio, ou podem ser do tipo subtração (como o risco absoluto).",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-04T19:11:05.000Z",
+                    "updated_at": "2021-10-23T16:23:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36029,
+                    "question_id": 8784,
+                    "description": "A chance e o risco são sinônimos epidemiológicos e ambas podem ser usadas para calcular medidas de associação nos modelos de estudo.",
+                    "explanation": "Falso, Doc!!\nAqui temos uma confusão bem comum dos termos na epidemiologia, Doc.\nA CHANCE, ou Odds, é uma comparação entre os casos com desfecho positivo e os casos com desfecho negativo. Ou seja, os acasos que aconteceram, em relação aos casos que não aconteceram.\n\nJá a RISCO é uma comparação dos casos com desfecho positivo com TODOS os casos possíveis. Nesse caso, devemos comparar os casos que aconteceram com todo o nosso grupo estudado, não somente com os casos que não aconteceram. \nOlha essa foto aqui, Doc:",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-06-04T19:11:05.000Z",
+                    "updated_at": "2021-10-23T16:23:41.000Z",
+                    "files": [
+                        {
+                            "id": 10034,
+                            "file": "d3a6fdc3-67be-408e-ac75-2aaf7fc80b4a.png",
+                            "name": "Risco e Odds.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-04T21:08:51.000Z",
+                            "updated_at": "2021-06-04T21:08:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d3a6fdc3-67be-408e-ac75-2aaf7fc80b4a.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10034,
+                                "alternative_id": 36029
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36030,
+                    "question_id": 8784,
+                    "description": "As medidas de associação em desfechos contínuos podem ser calculadas com o uso de técnicas de regressão e correlação.",
+                    "explanation": "Correto, Doc!\nPara os desfechos categóricos (doente, não doente) usamos as medidas de associação comuns (risco relativo, odds ratio, risco absoluto), sempre dependendo do tipo de estudo.\nJá nos desfechos contínuos (medidas de PA, glicemia) podemos usar técnicas matemáticas como a regressão e a correlação que podem nos fornecer.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-04T19:11:05.000Z",
+                    "updated_at": "2021-10-23T16:23:41.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8784,
+                "questionary_id": 268295,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8787,
+            "institution_id": 4,
+            "description": "O Risco Atribuível (RA), ou redução absoluta do risco, é uma medida de associação muito útil na prática clínica. Sobre ela é **INCORRETO,** afirmar:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-04T22:29:55.000Z",
+            "updated_at": "2021-10-23T19:24:37.000Z",
+            "user_id": 1482,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 781,
+                    "title": "Medidas de associação/efeito",
+                    "description": "Questões sobre as principais medidas de associação/efeito: Risco Absoluto, Risco relativo, Odds Ratio",
+                    "parent_id": 59,
+                    "is_enabled": true,
+                    "created_at": "2021-06-04T20:38:35.000Z",
+                    "updated_at": "2021-06-04T20:38:35.000Z",
+                    "pivot": {
+                        "discipline_id": 781,
+                        "question_id": 8787
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36039,
+                    "question_id": 8787,
+                    "description": "É calculada pela subtração entre o risco do grupo intervenção e o risco do grupo controle.",
+                    "explanation": "Correto, Doc !\nO Risco Atribuível (também conhecido como redução do risco absoluto ou redução absoluta do risco) é a subtração entre o risco, ou incidência, entre o risco do grupo intervenção ou do grupo controle.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-04T19:29:55.000Z",
+                    "updated_at": "2021-10-23T16:24:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36040,
+                    "question_id": 8787,
+                    "description": "Somente nos estudos que permitem o cálculo da incidência podemos calcular o RA",
+                    "explanation": "Correto, Doc!!\nComo o risco atribuível é uma medida calculada pela subtração das incidências entre expostos e controles, respectivamente, só podemos usá-la em estudos que nos permitam estimar a incidência, como ensaios clínicos randomizados ou coortes.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-04T19:29:55.000Z",
+                    "updated_at": "2021-10-23T16:24:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36041,
+                    "question_id": 8787,
+                    "description": "O risco atribuível permite estimar a proporção da doença que pode ser evitada ao se implementar ou retirar determinado fator.",
+                    "explanation": "Isso mesmo, Doc!!\nComo o risco atribuível é uma subtração entre a incidência entre os expostos e os controles, o resultado, o RA, mostra o excesso, ou falta, da doença que é causado pela presença ou ausência do fator estudado.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-04T19:29:55.000Z",
+                    "updated_at": "2021-10-23T16:24:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36042,
+                    "question_id": 8787,
+                    "description": "O RA é usada para mensurar a magnitude, ou força, da associação entre um fator de exposição e a doença.",
+                    "explanation": "Falso, Doc !!\nA magnitude, ou força, da associação é estimada pelas medidas de associação RELATIVAS (do tipo divisão), como o Risco Relativo ou o Odds Ratio.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-06-04T19:29:55.000Z",
+                    "updated_at": "2021-10-23T16:24:37.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8787,
+                "questionary_id": 268295,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8795,
+            "institution_id": 4,
+            "description": "Qual dos tipos de estudo abaixo devemos calcular o Odds Ratio como PRINCIPAL medida de associação?",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-05T01:04:26.000Z",
+            "updated_at": "2021-06-05T01:04:26.000Z",
+            "user_id": 1482,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 781,
+                    "title": "Medidas de associação/efeito",
+                    "description": "Questões sobre as principais medidas de associação/efeito: Risco Absoluto, Risco relativo, Odds Ratio",
+                    "parent_id": 59,
+                    "is_enabled": true,
+                    "created_at": "2021-06-04T20:38:35.000Z",
+                    "updated_at": "2021-06-04T20:38:35.000Z",
+                    "pivot": {
+                        "discipline_id": 781,
+                        "question_id": 8795
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36071,
+                    "question_id": 8795,
+                    "description": "Caso-controle",
+                    "explanation": "Boa, Doc!\nNo estudo de caso-controle não podemos calcular a incidência, por isso não conseguimos obter o risco relativo nem o risco atibuível. Desta forma, a medida de associação que usamos é o Odds Ratio nesses estudos.\nLembre-se, Doc, os estudos casos controle são estudos observacionais e, em geral, retrospectivos. Lembre um pouco deles com a imagem abaixo:\nFonte: https://pt.slideshare.net/SandraLagoMoraes/estudos-observacionais-aula-7",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-06-04T22:04:26.000Z",
+                    "updated_at": "2021-06-04T22:04:26.000Z",
+                    "files": [
+                        {
+                            "id": 10050,
+                            "file": "20b35205-1078-4f60-ad58-978a037c9147.jpeg",
+                            "name": "caso controle.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T00:56:10.000Z",
+                            "updated_at": "2021-06-05T00:56:10.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/20b35205-1078-4f60-ad58-978a037c9147.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10050,
+                                "alternative_id": 36071
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36072,
+                    "question_id": 8795,
+                    "description": "Ensaio Clínico ",
+                    "explanation": "Falso, Doc!\nAs medidas de associação principalmente usadas nos Ensaios Clínicos são Risco relativo e Risco Atribuível.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-04T22:04:26.000Z",
+                    "updated_at": "2021-06-04T22:04:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36073,
+                    "question_id": 8795,
+                    "description": "Coorte",
+                    "explanation": "Falso, Doc!\nAs medidas mais usadas nos estudos de Coorte são as associadas à incidência, como o Risco Relativo e o Risco Atribuível.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-04T22:04:26.000Z",
+                    "updated_at": "2021-06-04T22:04:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36074,
+                    "question_id": 8795,
+                    "description": "Transversal (seccional)",
+                    "explanation": "Falso, Doc!\nNos estudos transversais, não podemos calcular as medidas associadas a incidência (risco relativo e risco atribuível), mas nesse tipo de estudo as principais medidas usadas são a Razão de Prevalências. Doc, cuidado podemos calcular a Odds Ratio para esse desenho, todavia, não é a principal.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-04T22:04:26.000Z",
+                    "updated_at": "2021-06-04T22:04:26.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8795,
+                "questionary_id": 268295,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8804,
+            "institution_id": 298,
+            "description": "O primeiro resultado do estudo RECOVERY foi publicado durante a pandemia na revista New England Journal of Medicine. Os autores incluíram pacientes hospitalizados com COVID-19 suspeita ou confirmada e os pacientes foram alocados a diversos grupos. Uma das análises comparou o uso de dexametasona 6 mg/dia por 10 dias contra o grupo controle. O desfecho primário foi a mortalidade em 28 dias. \nA medida de efeito que pode ser utilizada para apresentar este resultado é: ",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-05T04:23:20.000Z",
+            "updated_at": "2021-06-05T04:23:20.000Z",
+            "user_id": 1482,
+            "is_residency": false,
+            "institution": {
+                "id": 298,
+                "title": "FMUSP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-05-03T18:48:26.000Z",
+                "updated_at": "2021-05-03T18:48:26.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 781,
+                    "title": "Medidas de associação/efeito",
+                    "description": "Questões sobre as principais medidas de associação/efeito: Risco Absoluto, Risco relativo, Odds Ratio",
+                    "parent_id": 59,
+                    "is_enabled": true,
+                    "created_at": "2021-06-04T20:38:35.000Z",
+                    "updated_at": "2021-06-04T20:38:35.000Z",
+                    "pivot": {
+                        "discipline_id": 781,
+                        "question_id": 8804
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36107,
+                    "question_id": 8804,
+                    "description": "Risco relativo.",
+                    "explanation": "Perfeito, Doc!\nTemos aqui um ensaio clínico randomizado, que por sinal foi muito importante no meio da pandemia do COVID-19. Nesse tipo de estudo devemos usar a medida de associação/efeito relacionada à incidência, o risco relativo ou risco atribuível.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-06-05T01:23:20.000Z",
+                    "updated_at": "2021-06-05T01:23:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36108,
+                    "question_id": 8804,
+                    "description": "Diferença entre medianas.",
+                    "explanation": "Falso, Doc!\nA diferença de médias é uma medida de efeito usado para variável contínuas (como medidas de PA). No caso temos uma variável categórica (mortes) então devemos usar outras medidas de associação, como o Risco relativo.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-05T01:23:20.000Z",
+                    "updated_at": "2021-06-05T01:23:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36109,
+                    "question_id": 8804,
+                    "description": "Chances",
+                    "explanation": "Falso, Doc!\nUsamos a razão de chances (e não a chance apenas) principalmente em estudos caso-controle, nos quais não conseguimos calcular a incidência e as medidas associadas a ela.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-05T01:23:20.000Z",
+                    "updated_at": "2021-06-05T01:23:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36110,
+                    "question_id": 8804,
+                    "description": "Média.",
+                    "explanation": "Falso, Doc!\nA média, mediana e moda são medidas de tendência central e não medidas de efeito ou associação.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-05T01:23:20.000Z",
+                    "updated_at": "2021-06-05T01:23:20.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8804,
+                "questionary_id": 268295,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8814,
+            "institution_id": 13,
+            "description": "O IBGE e o Ministério da Saúde iniciaram em maio de 2020 a PNAD COVID-19 (pesquisanacional   por   amostra   de   domicílios),   visando   quantificar   as   pessoas   com   sintomas   deCOVID-19, sua relação com os serviços de saúde e os impactos da pandemia no mercado detrabalho. Por telefone, foram contatados cerca de 194 mil domicílios em 3.364 municípios detodos os estados do país. O delineamento e as medidas de frequência dessa pesquisa são,respectivamente: ",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-05T20:20:08.000Z",
+            "updated_at": "2021-06-05T20:20:08.000Z",
+            "user_id": 1482,
+            "is_residency": false,
+            "institution": {
+                "id": 13,
+                "title": "UNIFESP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T18:27:33.000Z",
+                "updated_at": "2020-05-17T18:27:33.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 781,
+                    "title": "Medidas de associação/efeito",
+                    "description": "Questões sobre as principais medidas de associação/efeito: Risco Absoluto, Risco relativo, Odds Ratio",
+                    "parent_id": 59,
+                    "is_enabled": true,
+                    "created_at": "2021-06-04T20:38:35.000Z",
+                    "updated_at": "2021-06-04T20:38:35.000Z",
+                    "pivot": {
+                        "discipline_id": 781,
+                        "question_id": 8814
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36148,
+                    "question_id": 8814,
+                    "description": "Estudo transversal e prevalências.",
+                    "explanation": "Perfeito, Doc.\nTemos um estudo observacional do tipo Transversal. Repare que pegamos um período específico no tempo, Maio de 2020, e entrevistamos pessoas sobre determinada condição. Assim, temos \"foto\" da população estudada nesse período e podemos usar como principal medida de associação as prevalências, bem como a razão de prevalências.\nVeja a comparação entre os estudos observacionais na imagem abaixo, e repare que o TRANSVERSAL envolve apenas, ou em geral, um momento específico no tempo:\nFonte: https://pt.slideshare.net/rilvalopes/modelos-de-pesquisaprofarilva",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-06-05T17:20:08.000Z",
+                    "updated_at": "2021-06-05T17:20:08.000Z",
+                    "files": [
+                        {
+                            "id": 10094,
+                            "file": "dccb40ef-57a0-48fa-b150-7583aa301e88.jpeg",
+                            "name": "tipos estudo.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T20:19:58.000Z",
+                            "updated_at": "2021-06-05T20:19:58.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/dccb40ef-57a0-48fa-b150-7583aa301e88.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10094,
+                                "alternative_id": 36148
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36149,
+                    "question_id": 8814,
+                    "description": " Estudo caso-controle e odds ratios.",
+                    "explanation": "Falso, Doc!\nTemos um estudo TRANSVERSAL na questão. Caso fosse um estudo caso-controle deveríamos estudar uma população específica, buscar controles com características similares e olhar para o PASSADO, visando buscar a presença ou ausência de determinada característica.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-05T17:20:08.000Z",
+                    "updated_at": "2021-06-05T17:20:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36150,
+                    "question_id": 8814,
+                    "description": "Estudo de coorte e incidências.",
+                    "explanation": "Falso, Doc! \nUm estudo de coorte é aquele em que acompanhamos nossa população durante um período de tempo, como se fizessemos um filme. No caso da questão, temos o acompanhamento em apenas um momento do tempo, ou seja, uma foto, então tratamos de um estudo TRANSVERSAL.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-05T17:20:08.000Z",
+                    "updated_at": "2021-06-05T17:20:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36151,
+                    "question_id": 8814,
+                    "description": "Estudo ecológico e correlações.",
+                    "explanation": "Falso, Doc! \nNos estudos ecológicos comparamos populações agrupadas (como municípios, cidades, regiões censitárias, entre outros). Assim, analisamos diferenças entre esses agregados. Na questão, os dados, por mais que envolvam municípios distintos, possuem como foco o indivíduo, ou seja, vamos comparar as pessoas entrevistadas e não os dados por município entrevistado.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-05T17:20:08.000Z",
+                    "updated_at": "2021-06-05T17:20:08.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8814,
+                "questionary_id": 268295,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8789,
+            "institution_id": 4,
+            "description": "Dentre as medidas de associação, o risco relativo (RR) é uma das mais usadas para a divulgação dos resultados dos estudos, sobre ele, assinale a assertiva CORRETA:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-04T22:46:39.000Z",
+            "updated_at": "2021-06-04T23:14:39.000Z",
+            "user_id": 1482,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 781,
+                    "title": "Medidas de associação/efeito",
+                    "description": "Questões sobre as principais medidas de associação/efeito: Risco Absoluto, Risco relativo, Odds Ratio",
+                    "parent_id": 59,
+                    "is_enabled": true,
+                    "created_at": "2021-06-04T20:38:35.000Z",
+                    "updated_at": "2021-06-04T20:38:35.000Z",
+                    "pivot": {
+                        "discipline_id": 781,
+                        "question_id": 8789
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36047,
+                    "question_id": 8789,
+                    "description": "É calculado pela diferença entre a incidência nos controles e a incidência na intervenção, respectivamente.",
+                    "explanation": "Falso, Doc!! \nO RR é uma medida do tipo RAZÃO. No seu cálculo devemos fazer a razão entre a incidência na intervenção e nos controles.\nPara facilitar, doc, a figura abaixo nos exemplifica o cálculo dessa medida:\nFonte: MEDRONHO R.A et al. Epidemiologia. 2ª ed. São Paulo, Atheneu, 2009.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-04T19:46:39.000Z",
+                    "updated_at": "2021-06-04T20:14:39.000Z",
+                    "files": [
+                        {
+                            "id": 10047,
+                            "file": "7bb3b758-388b-4241-a518-be1aa3f3b164.png",
+                            "name": "RR.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-04T22:44:29.000Z",
+                            "updated_at": "2021-06-04T22:44:29.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7bb3b758-388b-4241-a518-be1aa3f3b164.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10047,
+                                "alternative_id": 36047
+                            }
+                        },
+                        {
+                            "id": 10046,
+                            "file": "f2716536-2e14-4452-994f-7e7c743fbab5.png",
+                            "name": "Anotação 2021-06-04 164400.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-04T22:44:17.000Z",
+                            "updated_at": "2021-06-04T22:44:17.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f2716536-2e14-4452-994f-7e7c743fbab5.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10046,
+                                "alternative_id": 36047
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36056,
+                    "question_id": 8789,
+                    "description": "O risco relativo pode ser usado como medida de associação em todos os desenhos epidemiológicos, sendo ela uma das medidas mais comumente usadas.",
+                    "explanation": "Falso, Doc!\nO RR, assim como outras medidas que usem a incidência, só podem ser usados em estudos que nos permitam calculá-la, como coortes e ensaios clínicos randomizados. \nEstudos como caso-controle, em que não podemos calcular incidência não usamos o RR, mas o Odds ratio, doc.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-04T20:14:39.000Z",
+                    "updated_at": "2021-06-04T20:14:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36057,
+                    "question_id": 8789,
+                    "description": "Na interpretação do risco relativo a análise do seu valor (acima, igual ou abaixo de 1) é suficiente para que consigamos inferir se temos fatores de risco ou proteção.",
+                    "explanation": "Falso, Doc !\nO risco relativo deve ser interpretado, além do seu valor, junto com o intervalo de confiança referido. \nDoc, se temos um intervalo de confiança muito grande, que ultrapasse o valor 1, podemos inferir que aquele resultado não é confiável ou, no mínimo, precisa de mais estudo.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-04T20:14:39.000Z",
+                    "updated_at": "2021-06-04T20:14:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36058,
+                    "question_id": 8789,
+                    "description": "O risco relativo pode superestimar o efeito de uma intervenção.",
+                    "explanation": "Perfeito, Doc!!\nO RR, se analisado sozinho, pode superestimar o efeito de uma intervenção. \nImagine que temos dois estudos, Doc, ambos com o mesmo RR. Em um deles as incidências no grupo intervenção e no controle, respectivamente, são 2% e 1%, o RR é 50%. No outro estudo, as incidências na intervenção e no controle são, respectivamente, 40% e 20%, com um RR também de 50%. \nRepare que os valores são bem diferentes individualemente, mas o RR é igual e se analisado sozinho podemos entender que os efeitos são iguais. Dessa forma, devemos nos atentar para além do RR e olhar outros fatores do estudo.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-06-04T20:14:39.000Z",
+                    "updated_at": "2021-06-04T20:14:39.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8789,
+                "questionary_id": 268295,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8796,
+            "institution_id": 4,
+            "description": "Sobre a Odds Ratio (OR), ou razão de chances, assinale a alternativa INCORRETA:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-05T01:36:03.000Z",
+            "updated_at": "2021-06-05T01:36:03.000Z",
+            "user_id": 1482,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 781,
+                    "title": "Medidas de associação/efeito",
+                    "description": "Questões sobre as principais medidas de associação/efeito: Risco Absoluto, Risco relativo, Odds Ratio",
+                    "parent_id": 59,
+                    "is_enabled": true,
+                    "created_at": "2021-06-04T20:38:35.000Z",
+                    "updated_at": "2021-06-04T20:38:35.000Z",
+                    "pivot": {
+                        "discipline_id": 781,
+                        "question_id": 8796
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36075,
+                    "question_id": 8796,
+                    "description": "Podemos calcular a Odds Ratio para todos os desenhos de estudo epidemiológicos.",
+                    "explanation": "Correto, Doc!\nA OR pode ser calculada para qualquer desenho de estudo, pois depende apenas dos dados do estudo, mas isso não significa que ela é a medida mais adequada para todos eles !\nLembre-se, a OR é muito mais útil em estudos caso-controle, ou em estudos prospectivos que utilizem técnicas de regressão logística.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-04T22:36:04.000Z",
+                    "updated_at": "2021-06-04T22:36:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36076,
+                    "question_id": 8796,
+                    "description": "Em estudos de doenças raras a Odds Ratio pode ser similar ao Risco Relativo.",
+                    "explanation": "Perfeito, Doc!\nEm doenças raras temos poucos casos de interesse, pois a prevalência da doença é baixa, o que torna, nosso denominador pouco dependente do valor dos doentes. \nAssim, caso fossemos calcular o Risco relativo, poderíamos excluir, dessa forma, o valor dos doentes, tornando o denominador apenas os não doentes e, portanto, a fórmula do RR ficaria igual a fórmula do OR, como nas imagens:\nFonte: https://www.youtube.com/watch?v=tAvusRSPs6A&t=3071s\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-04T22:36:04.000Z",
+                    "updated_at": "2021-06-04T22:36:04.000Z",
+                    "files": [
+                        {
+                            "id": 10057,
+                            "file": "8bcf48ac-6a88-492d-b5fe-cbdb325cc368.png",
+                            "name": "OR e RR.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-05T01:21:29.000Z",
+                            "updated_at": "2021-06-05T01:21:29.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8bcf48ac-6a88-492d-b5fe-cbdb325cc368.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10057,
+                                "alternative_id": 36076
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36077,
+                    "question_id": 8796,
+                    "description": "A OR subestima o Risco Relativo em doenças com prevalência elevada.",
+                    "explanation": "Falso, Doc!\nA OR superestima o RR em doenças que possuem prevalência elevada. \nIsso ocorre, pois quando fazemos o Odds Ratio nós tiramos a parte do denominador que seria dos casos da doença (os quais, em uma incidência elevada estariam altos) em ambos os grupos, dessa forma, reduzimos, portanto, o\ndenominador e AUMENTAMOS, assim, o resultado. \nCompare na foto a OR com o RR e repare a exclusão dos casos na primeira medida, Doc:\nFonte: *MEDRONHO*, R. de A. et al. *Epidemiologia*. Rio de Janeiro: Atheneu, 2009 ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-06-04T22:36:04.000Z",
+                    "updated_at": "2021-06-04T22:36:04.000Z",
+                    "files": [
+                        {
+                            "id": 10061,
+                            "file": "4dac5ce0-ebc6-490c-be0b-89040f0e1e61.png",
+                            "name": "OR e RR.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-05T01:30:55.000Z",
+                            "updated_at": "2021-06-05T01:30:55.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4dac5ce0-ebc6-490c-be0b-89040f0e1e61.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10061,
+                                "alternative_id": 36077
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36078,
+                    "question_id": 8796,
+                    "description": "O OR pode ser usado, preferencialmente, em estudos em que não podemos calcular o Risco Relativo.",
+                    "explanation": "Correto, Doc !\nMesmo que possamos calcular o OR para qualquer desenho epidemiológico o uso dessa medida é preferencial em situação em que não podemos fazer o cálculo do Risco Relativo, como estudos caso-controle.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-04T22:36:04.000Z",
+                    "updated_at": "2021-06-04T22:36:04.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8796,
+                "questionary_id": 268295,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8806,
+            "institution_id": 200,
+            "description": "Em estudos epidemiológicos analíticos, as informações são úteis para avaliar associações de exposições e doenças \nou agravos, ou intervenções e desfechos clínicos. Sobre a interpretação das medidas utilizadas para avaliar os efeitos \nnos desenhos de estudo, é correto afirmar ",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-05T04:44:00.000Z",
+            "updated_at": "2021-06-05T04:44:00.000Z",
+            "user_id": 1482,
+            "is_residency": false,
+            "institution": {
+                "id": 200,
+                "title": "HC- UFPR",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-12-09T17:56:24.000Z",
+                "updated_at": "2020-12-09T17:56:24.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 781,
+                    "title": "Medidas de associação/efeito",
+                    "description": "Questões sobre as principais medidas de associação/efeito: Risco Absoluto, Risco relativo, Odds Ratio",
+                    "parent_id": 59,
+                    "is_enabled": true,
+                    "created_at": "2021-06-04T20:38:35.000Z",
+                    "updated_at": "2021-06-04T20:38:35.000Z",
+                    "pivot": {
+                        "discipline_id": 781,
+                        "question_id": 8806
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36115,
+                    "question_id": 8806,
+                    "description": "Para o cálculo do Número Necessário para Tratar (NNT) nos ensaios clínicos, não se utiliza o Risco Relativo.",
+                    "explanation": "Perfeito, Doc !\nO NNT é calculado com a Redução atribuível (ou absoluta) do risco. Esse indicador nos mostra o número de pacientes que precisamos tratar para que um deles seja beneficiado. Assim, quanto MENOR o NNT, MAIOR o benefício, pois precisamos tratar menos paciente para beneficiar um indivíduo.\nO cálculo do NNT é feito pela equação:\nNNT = 1/Redução de Risco Atribuível",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-06-05T01:44:00.000Z",
+                    "updated_at": "2021-06-05T01:44:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36116,
+                    "question_id": 8806,
+                    "description": "O  Risco Relativo (RR) é uma medida de efeito que em estudos de coorte permite concluir sobre a causalidade dos fatores  e/ou exposições associados, quando o intervalo de 95% de confiança não inclui o valor 1 (um).",
+                    "explanation": "Falso, Doc!!\nPreste atenção nisso, Doc, associação não significa, necessariamente, causalidade. Associações, dependendo do desenho do estudo e da qualidade metodológica dele podem nos sugerir causalidade dos fenômenos, mas uma associação isoladamente constatada não é um indicativo único de causa e consequência.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-05T01:44:00.000Z",
+                    "updated_at": "2021-06-05T01:44:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36117,
+                    "question_id": 8806,
+                    "description": "Quando se obtêm valores de Risco Relativo (RR) ou de Razão de Chances (RC) menores que 1 (um), pode-se excluir  associação estatística",
+                    "explanation": "Falso, Doc!\nUm RR ou um OR menores que 1 (um) podem nos indicar que o fator estudado é um fator de PROTEÇÃO para aquela condição, mas não exclusão de associação entre os fatores. Isso se deve ao fato de que, quando temos essas medidas menores que 1, a incidência nos expostos é MENOR que a incidência no controle.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-05T01:44:00.000Z",
+                    "updated_at": "2021-06-05T01:44:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36118,
+                    "question_id": 8806,
+                    "description": "A obtenção de um valor de p (probabilidade) menor de 0,05, com a aplicação de testes estatísticos, permite concluir pela existência de força da associação",
+                    "explanation": "Falso, Doc!!\nO valor de p mede o grau de incerteza sobre aquela associação. Assim, valores de p<0,05 nos permitem inferir que aquela determinada associação não é, a princípio, fruto do acaso. A força da associação, entretanto, Doc, é medida pelas medidas de efeito/associação (risco relativo, risco absoluto, Odds ratio, entre outras).",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-05T01:44:00.000Z",
+                    "updated_at": "2021-06-05T01:44:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36119,
+                    "question_id": 8806,
+                    "description": "A Redução Absoluta do Risco (RAR) ou o Excesso Absoluto do Risco (EAR) nos ensaios clínicos dão resultados da eficácia  da intervenção.",
+                    "explanation": "Falso, Doc!\nA Eficácia é medida pela Redução do Risco Relativo, sendo ela o resultado do nosso estudo em condições ideais. Seu cálculo é feito segundo a equação:\n- Eficária ou Redução do Risco Relativo = (1 - RR) x 100\nApós o estudo, em condições reais, Doc, não medimos mais a eficácia e sim a efetividade de uma determinada intervenção.\nA Redução Absoluta do Risco (RAR) ou o Excesso Absoluto do Risco (EAR) são medidas de efeito/associação usadas para analisar o quanto daquele desfecho é devido a intervenção ou ao fator de risco",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-06-05T01:44:00.000Z",
+                    "updated_at": "2021-06-05T01:44:00.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8806,
+                "questionary_id": 268295,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8810,
+            "institution_id": 284,
+            "description": "Um  estudo  estimou  o  impacto  do  tratamento  com  trombolítico  (StrepKin®)  em  pacientes  com  infarto  agudo  do  miocárdio,  elegíveis  para  receber  a  medicação.  O  grupo  que  recebeu  a  medicação  foi  comparado  com  controles  (sem  medicação)  em  relação à mortalidade hospitalar, considerando o intervalo entre o início dos sintomas e a administração da medicação (em horas). ASSINALE A CORRETA :",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-05T17:07:35.000Z",
+            "updated_at": "2021-06-05T17:25:31.000Z",
+            "user_id": 1482,
+            "is_residency": false,
+            "institution": {
+                "id": 284,
+                "title": "FACULDADE DE CIÊNCIAS MÉDICAS DA UNICAMP-SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-04-27T13:24:30.000Z",
+                "updated_at": "2021-04-27T13:24:30.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 781,
+                    "title": "Medidas de associação/efeito",
+                    "description": "Questões sobre as principais medidas de associação/efeito: Risco Absoluto, Risco relativo, Odds Ratio",
+                    "parent_id": 59,
+                    "is_enabled": true,
+                    "created_at": "2021-06-04T20:38:35.000Z",
+                    "updated_at": "2021-06-04T20:38:35.000Z",
+                    "pivot": {
+                        "discipline_id": 781,
+                        "question_id": 8810
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36132,
+                    "question_id": 8810,
+                    "description": "  O uso do trombolítico teve efeito relevante na mortalidade até 9 horas após o início dos sintomas.",
+                    "explanation": "Falso, Doc! \nVamos analisar todos os intervalos até 9 horas após o início dos sintomas:\n- < ou = 3 horas\n- Nesse intervalo temos um RR = 0,74, o que nos indica que a nossa intervenção é um fator de PROTEÇÃO, afinal a indicidência nos expostos é menor que nos controles. Além disso, nosso IC 95% (0,63-0,87) NÃO ultrapassa o valor 1, ou seja, na pior das hipóteses, nosso RR poderia atingir o valor de 0,87, sendo ainda um fator de PROTEÇÃO.\n- 3-6 horas \n- Nesse intervalo temos um RR = 0,80, o que nos indica que a nossa intervenção ainda é um fator de PROTEÇÃO, de forma que a indicidência nos expostos é menor que nos controles. Junto a isso, Doc, nosso IC 95% (0,66-0,98) NÃO ultrapassa o valor 1, ou seja, na pior das hipóteses, nosso RR poderia atingir o valor de 0,98, sendo ainda um fator de PROTEÇÃO. \n- 6-9 horas\n- Aqui, Doc, temos um RR, ainda menor que 1, valendo 0,87. Isso, a princípio, nos diz que a noss intervenção, nesse intervalo de tempo, seria um fator de PROTEÇÃO. Entretando, repare no IC 95%, ele vai de 0,64-1,19, ou seja, ULTRAPASSA O 1, Doc. Dessa forma, não podemos confiar que, entre 6-9 horas nossa intervenção será um fator de proteção, pois ela pode ter um RR > 1 e apresentar-se como um fator de risco.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-05T14:07:35.000Z",
+                    "updated_at": "2021-06-05T14:25:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36133,
+                    "question_id": 8810,
+                    "description": "O risco relativo de infarto no grupo com uso da medicação em relação aos controles representa a incidência de morte que conseguiu ser evitada.",
+                    "explanation": "Falso, Doc!\nO Risco Relativo nos dá a força da associação, ou seja, a quantidade de vezes que a nossa intervenção confere de proteção ou risco para o desfecho escolhido.\nDoc, quem nos quantifica os eventos que poderiam ser evitados, ou protegidos, caso não tivessemos a intervenção do estudo é o Risco Atribuível, uma medida do tipo subtração.\nOlhe na figura abaixo, essa relação do RA:\nFonte: http://cc04-10.med.up.pt/Epidemiologiapraticas/Aula5_Nova.pdf",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-05T14:24:53.000Z",
+                    "updated_at": "2021-06-05T14:25:31.000Z",
+                    "files": [
+                        {
+                            "id": 10091,
+                            "file": "649800fb-da6e-49cf-a17b-01a0539355d7.png",
+                            "name": "RA.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-05T17:17:30.000Z",
+                            "updated_at": "2021-06-05T17:17:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/649800fb-da6e-49cf-a17b-01a0539355d7.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10091,
+                                "alternative_id": 36133
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36134,
+                    "question_id": 8810,
+                    "description": " O risco de morrer após 9 horas do início dos sintomas é significativamente maior entre os controles.",
+                    "explanation": "Falso, Doc!!\nNo intervalo de 9-12 horas temos um RR = 1,19, com IC95% de 0,75-1,87. O RR, por si, nos mostra que a intervenção seria, nesse intervalo, um fator de RISCO, ou seja, o risco (ou incidência) de morte no grupo intervenção seria MAIOR que nos controles. Além disso, Doc, como o IC ultrapassa o valor de 1, o valor do RR não é significativo.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-05T14:24:53.000Z",
+                    "updated_at": "2021-06-05T14:25:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36135,
+                    "question_id": 8810,
+                    "description": "É possível obter efeitos benéficos da StrepKin® se administrada até 6 horas do início dos sintomas.",
+                    "explanation": "Perfeito, Doc!!\nAté 6 horas temos RR, com seus respectivos intervalos de confiança, sempre abaixo de 1, indicando, portanto, que a intervenção é um fator de PROTEÇÃO, neste estudo.\n- < ou = 3 horas\n- Nesse intervalo temos um RR = 0,74, o que nos indica que a nossa intervenção é um fator de PROTEÇÃO, afinal a indicidência nos expostos é menor que nos controles. Além disso, nosso IC 95% (0,63-0,87) NÃO ultrapassa o valor 1, ou seja, na pior das hipóteses, nosso RR poderia atingir o valor de 0,87, sendo ainda um fator de PROTEÇÃO.\n- 3-6 horas \n- Nesse intervalo temos um RR = 0,80, o que nos indica que a nossa intervenção ainda é um fator de PROTEÇÃO, de forma que a indicidência nos expostos é menor que nos controles. Junto a isso, Doc, nosso IC 95% (0,66-0,98) NÃO ultrapassa o valor 1, ou seja, na pior das hipóteses, nosso RR poderia atingir o valor de 0,98, sendo ainda um fator de PROTEÇÃO.  ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-06-05T14:24:53.000Z",
+                    "updated_at": "2021-06-05T14:25:31.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 10088,
+                    "file": "8d5dd236-67f5-4468-897f-72e4ad1ef7a2.png",
+                    "name": "rr UNICAMP.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2021-06-05T16:42:31.000Z",
+                    "updated_at": "2021-06-05T16:42:31.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8d5dd236-67f5-4468-897f-72e4ad1ef7a2.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 10088,
+                        "question_id": 8810
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 8810,
+                "questionary_id": 268295,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8794,
+            "institution_id": 4,
+            "description": "Sobre a interpretação do Risco Relativo, em um estudo com o desfecho principal sendo morte, assinale a alternativa CORRETA:",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-05T00:47:07.000Z",
+            "updated_at": "2021-06-05T00:47:07.000Z",
+            "user_id": 1482,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 781,
+                    "title": "Medidas de associação/efeito",
+                    "description": "Questões sobre as principais medidas de associação/efeito: Risco Absoluto, Risco relativo, Odds Ratio",
+                    "parent_id": 59,
+                    "is_enabled": true,
+                    "created_at": "2021-06-04T20:38:35.000Z",
+                    "updated_at": "2021-06-04T20:38:35.000Z",
+                    "pivot": {
+                        "discipline_id": 781,
+                        "question_id": 8794
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36067,
+                    "question_id": 8794,
+                    "description": "Um RR = 1 significa que a intervenção possui efeito ótimo em relação ao placebo.",
+                    "explanation": "Falso, Doc!\nTendo um RR = 1, concluímos que, no estudo determinado, não temos diferença entre intervenção e controle.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-04T21:47:07.000Z",
+                    "updated_at": "2021-06-04T21:47:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36068,
+                    "question_id": 8794,
+                    "description": "Um RR > 1, neste caso, sugere que temos uma intervenção com fator protetivo.",
+                    "explanation": "Falso, Doc!\nUm RR > 1 nos mostra que temos uma intervenção que possui uma incidência maior de desfechos que o grupo placebo, desta forma, nossa intervenção seria um FATOR DE RISCO, não protetivo, para o desfecho morte, ou seja, no grupo exposição, temos mais mortes que no grupo placebo.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-04T21:47:07.000Z",
+                    "updated_at": "2021-06-04T21:47:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36069,
+                    "question_id": 8794,
+                    "description": "Um RR < 1 sugere que temos uma intervenção como fator de risco.",
+                    "explanation": "Falso, Doc!\nComo o RR é < 1, temos que a incidência no nosso grupo controle é maior que a incidência no grupo exposição. Dessa forma, uma menor incidência de mortes no grupo intervenção, torna ela um fator de PROTEÇÃO, não de risco.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-04T21:47:07.000Z",
+                    "updated_at": "2021-06-04T21:47:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36070,
+                    "question_id": 8794,
+                    "description": "Um RR = 1,2 com que possui intervalo de confiança (95%) de 0,8-1,6, nos mostra que a nossa exposição é um fator de risco, mas sem significância ",
+                    "explanation": "Perfeito, Doc!\nTemos um RR > 1, o que nos indica que temos a incidência no grupo exposição maior que a incidência no grupo controle, sendo, dessa forma, apenas pelo valor do RR, um fator de RISCO. Mas, Doc, o intervalo de confiança dado na alternativa vai de 0,8 até 1,6, ou seja, temos valores tanto menores que 1 como maiores que 1. Isso NÃO nos da uma significância estatística, pois podemos ter um RR valendo qualquer valor dentro desse intervalo, que hora pode ser valor de proteção (quando <1 e > 0,8) ou de risco (>1 e < 1,6).",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-06-04T21:47:07.000Z",
+                    "updated_at": "2021-06-04T21:47:07.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8794,
+                "questionary_id": 268295,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8801,
+            "institution_id": 4,
+            "description": "Sobre as medidas de associação e de impacto, assinale a CORRETA:",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-05T03:58:19.000Z",
+            "updated_at": "2021-06-05T03:58:19.000Z",
+            "user_id": 1482,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 781,
+                    "title": "Medidas de associação/efeito",
+                    "description": "Questões sobre as principais medidas de associação/efeito: Risco Absoluto, Risco relativo, Odds Ratio",
+                    "parent_id": 59,
+                    "is_enabled": true,
+                    "created_at": "2021-06-04T20:38:35.000Z",
+                    "updated_at": "2021-06-04T20:38:35.000Z",
+                    "pivot": {
+                        "discipline_id": 781,
+                        "question_id": 8801
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36095,
+                    "question_id": 8801,
+                    "description": "A Razão de Prevalências, a medida preferencial em estudos caso-controle.",
+                    "explanation": "Falso, Doc!\nA Razão de Prevalência é uma medida de associação do tipo divisão e é usada, principalmente, em estudos transversais.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-05T00:58:19.000Z",
+                    "updated_at": "2021-06-05T00:58:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36096,
+                    "question_id": 8801,
+                    "description": "O Risco atribuível proporcional(RAP), ou fração etiológica nos expostos (FEE) expressa em percentual, a quantidade da doença que é atribuível à exposição, sendo calculado, portanto, quando o risco relativo é maior que 1.",
+                    "explanation": "Correto, Doc!\nO Risco Risco atribuível proporcional (RAP), ou fração etiológica nos expostos (FEE) expressa qual é a proporção de doença entre os expostos que poderia ter sido prevenida se a exposição fosse eliminada. Ou seja, Doc, se temos a nossa exposição como um fator de RISCO, calculando o RAP (ou o FEE) saberíamos o quanto podemos prevenir ao eliminar o fator de risco.\nSeu cálculo é feito com a relação abaixo:\nFonte: *MEDRONHO*, R. de A. et al. *Epidemiologia*. Rio de Janeiro: Atheneu, 2009  ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-06-05T00:58:19.000Z",
+                    "updated_at": "2021-06-05T00:58:19.000Z",
+                    "files": [
+                        {
+                            "id": 10070,
+                            "file": "c2533af0-f01a-4ad6-9cd0-0fe1a6ab7d65.png",
+                            "name": "RAP.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-05T03:46:34.000Z",
+                            "updated_at": "2021-06-05T03:46:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c2533af0-f01a-4ad6-9cd0-0fe1a6ab7d65.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10070,
+                                "alternative_id": 36096
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36097,
+                    "question_id": 8801,
+                    "description": "A eficácia, ou redução do risco relativo, é, em termos percentuais, a determinação do quando o tratamento provoca de redução do desfecho do grupo intervenção em relação ao grupo controle, sendo útil quando o Risco Relativo é maior que 1.",
+                    "explanation": "Falso, Doc!\nA eficácia, ou redução do risco relativo (RRR), é o resultado de uma intervenção sob condições ideais, com mínimos fatores confundidores. Ela é calculada para nos mostrar a percentagem de redução de desfecho causada por uma intervenção. Dessa forma, a RRR deve ser usada quando nossa intervenção possui efeito PROTETOR, ou seja, o Risco Relativo é < 1.\nO cálculo da RRR é feito pela fórmula:\nFonte: *MEDRONHO*, R. de A. et al. *Epidemiologia*. Rio de Janeiro: Atheneu, 2009 ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-05T00:58:19.000Z",
+                    "updated_at": "2021-06-05T00:58:19.000Z",
+                    "files": [
+                        {
+                            "id": 10073,
+                            "file": "774d7256-1197-457e-9604-94454db12ac0.png",
+                            "name": "rrr.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-05T03:51:58.000Z",
+                            "updated_at": "2021-06-05T03:51:58.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/774d7256-1197-457e-9604-94454db12ac0.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10073,
+                                "alternative_id": 36097
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36098,
+                    "question_id": 8801,
+                    "description": "O Número Necessário para Tratar (NNT) é o número de pessoas que devem receber a intervenção para que 1 desfecho indesejado seja evitado, sendo ele calculado pelo inverso da redução do risco relativo.",
+                    "explanation": "Falso, Doc!!\nO NNT é a medida usada para nos informar quantos indivíduos devem ser tratados para que se possa evitar a ocorrência de um evento. Seu cálculo é feito pelo inverso do Risco Atribuível, como abaixo;\nNNT = 1 / RA ou NNT = 1/(Incidência controle - Incidência intervenção)\nDessa forma, quanto MENOR o NNT, MELHOR o tratamento, afinal, menos pessoas precisamos tratar para beneficiar 1 indivíduo.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-05T00:58:19.000Z",
+                    "updated_at": "2021-06-05T00:58:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8801,
+                "questionary_id": 268295,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8803,
+            "institution_id": 298,
+            "description": "A tabela a seguir apresenta os resultados de um estudo caso-controle que tevecomo objetivoavaliar a associação entre tuberculose e diabetes. Os casos incidentes de tuberculose pulmonar foram selecionados em serviços públicos da cidade de Salvador, assim como seus controles, sem tuberculose pulmonar. A variável “tem diagnóstico de diabetes” foicategorizada em sim e nãocom base no valor de corte da glicemia capilar proposto pela American Diabetes Association.\n\nAssinale a alternativa que apresenta o valor damedida de associaçãoadequada para o desenho do estudorelacionada ao risco de indivíduos com diabetes apresentarem tuberculose, em relação aos não diabéticos. ",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-05T04:15:19.000Z",
+            "updated_at": "2021-06-05T04:15:19.000Z",
+            "user_id": 1482,
+            "is_residency": false,
+            "institution": {
+                "id": 298,
+                "title": "FMUSP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-05-03T18:48:26.000Z",
+                "updated_at": "2021-05-03T18:48:26.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 781,
+                    "title": "Medidas de associação/efeito",
+                    "description": "Questões sobre as principais medidas de associação/efeito: Risco Absoluto, Risco relativo, Odds Ratio",
+                    "parent_id": 59,
+                    "is_enabled": true,
+                    "created_at": "2021-06-04T20:38:35.000Z",
+                    "updated_at": "2021-06-04T20:38:35.000Z",
+                    "pivot": {
+                        "discipline_id": 781,
+                        "question_id": 8803
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36103,
+                    "question_id": 8803,
+                    "description": "0,37",
+                    "explanation": "\nFalso, Doc!!\nA primeira etapa é entender qual tipo de estudo temos. Nesta questão trabalhamos com um estudo caso-controle, Doc.\nNesse tipo de desenho a nossa medida de associação é o Odds Ratio. Que é calculado pela DIVISÃO da chance nos expostos pela chance nos não expostos, sendo que as chances estão definidas abaixo.\n- Chance dos expostos: Casos nos esxpostos/Controle nos expostos\n- Chance dos não expostos: Casos nos não expostos/Controle nos não expostos.\nNo caso da questão, Doc, temos:\n- Chance dos expostos: 44 / 18 = 2,44\n- Chance dos não expostos: 279/305 = 0,914\n- Odds Ratio = chance expostos/chance não expostos: 2,44/0,914 = **2,67**\nRepare que na questão a tabela está invertida, Doc, então temos que nos atentar para as definições do Odds Ratio  ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-05T01:15:19.000Z",
+                    "updated_at": "2021-06-05T01:15:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36104,
+                    "question_id": 8803,
+                    "description": "0,41",
+                    "explanation": "\nFalso, Doc!!\nA primeira etapa é entender qual tipo de estudo temos. Nesta questão trabalhamos com um estudo caso-controle, Doc.\nNesse tipo de desenho a nossa medida de associação é o Odds Ratio. Que é calculado pela DIVISÃO da chance nos expostos pela chance nos não expostos, sendo que as chances estão definidas abaixo.\n- Chance dos expostos: Casos nos esxpostos/Controle nos expostos\n- Chance dos não expostos: Casos nos não expostos/Controle nos não expostos.\nNo caso da questão, Doc, temos:\n- Chance dos expostos: 44 / 18 = 2,44\n- Chance dos não expostos: 279/305 = 0,914\n- Odds Ratio = chance expostos/chance não expostos: 2,44/0,914 = **2,67**\nRepare que na questão a tabela está invertida, Doc, então temos que nos atentar para as definições do Odds Ratio  ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-05T01:15:19.000Z",
+                    "updated_at": "2021-06-05T01:15:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36105,
+                    "question_id": 8803,
+                    "description": "2,44",
+                    "explanation": "Falso, Doc!!\nA primeira etapa é entender qual tipo de estudo temos. Nesta questão trabalhamos com um estudo caso-controle, Doc.\nNesse tipo de desenho a nossa medida de associação é o Odds Ratio. Que é calculado pela DIVISÃO da chance nos expostos pela chance nos não expostos, sendo que as chances estão definidas abaixo.\n- Chance dos expostos: Casos nos esxpostos/Controle nos expostos\n- Chance dos não expostos: Casos nos não expostos/Controle nos não expostos.\nNo caso da questão, Doc, temos:\n- Chance dos expostos: 44 / 18 = 2,44\n- Chance dos não expostos: 279/305 = 0,914\n- Odds Ratio = chance expostos/chance não expostos: 2,44/0,914 = **2,67**\n\nRepare que na questão a tabela está invertida, Doc, então temos que nos atentar para as definições do Odds Ratio ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-05T01:15:19.000Z",
+                    "updated_at": "2021-06-05T01:15:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36106,
+                    "question_id": 8803,
+                    "description": "2,67",
+                    "explanation": "Perfeito, Doc !!!!!\nA primeira etapa é entender qual tipo de estudo temos. Nesta questão trabalhamos com um estudo caso-controle, Doc.\nNesse tipo de desenho a nossa medida de associação é o Odds Ratio. Que é calculado pela DIVISÃO da chance nos expostos pela chance nos não expostos, sendo que as chances estão definidas abaixo.\n- Chance dos expostos: Casos nos esxpostos/Controle nos expostos\n- Chance dos não expostos: Casos nos não expostos/Controle nos não expostos.\nNo caso da questão, Doc, temos:\n- Chance dos expostos: 44 / 18 = 2,44\n- Chance dos não expostos: 279/305 = 0,914\n- Odds Ratio = chance expostos/chance não expostos: 2,44/0,914 = **2,67**\nRepare que na questão a tabela está invertida, Doc, então temos que nos atentar para as definições do Odds Ratio",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-06-05T01:15:19.000Z",
+                    "updated_at": "2021-06-05T01:15:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 10074,
+                    "file": "05aae59c-2ef9-4ab0-98f4-361fab3d0667.png",
+                    "name": "USP - OR.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2021-06-05T04:04:30.000Z",
+                    "updated_at": "2021-06-05T04:04:30.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/05aae59c-2ef9-4ab0-98f4-361fab3d0667.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 10074,
+                        "question_id": 8803
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 8803,
+                "questionary_id": 268295,
+                "timer": 0
+            }
+        }
+    ]
+}

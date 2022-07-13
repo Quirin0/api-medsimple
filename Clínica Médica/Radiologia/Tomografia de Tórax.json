@@ -1,0 +1,1314 @@
+{
+    "id": 268200,
+    "user_id": 1699,
+    "title": "Tomografia de Tórax",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T22:55:14.000Z",
+    "updated_at": "2022-07-11T22:55:14.000Z",
+    "study_plan_id": 1223,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 13453,
+            "institution_id": 4,
+            "description": "Complete:\n\n- A densidade na tomografia é expressa em ____________ ",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-03T13:29:45.000Z",
+            "updated_at": "2022-04-03T13:29:45.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1156,
+                    "title": "TC de tórax.",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2022-04-03T13:19:01.000Z",
+                    "updated_at": "2022-04-03T13:19:01.000Z",
+                    "pivot": {
+                        "discipline_id": 1156,
+                        "question_id": 13453
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 55123,
+                    "question_id": 13453,
+                    "description": "Unidades de Hounsfield",
+                    "explanation": "Perfeito, Doc 🤩.\n\n- Assim chamada em homenagem a **Godfrey Hounsfield**, é uma escala quantitativa que descreve a radiodensidade\n- Os valores típicos são:\n- Pulmão – 800 U.H. ; Gordura – 120 U.H.; Líquido 0 U.H.; Músculo 40 U.H. e Osso 350 - 1000 U.H",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-04-03T13:29:45.000Z",
+                    "updated_at": "2022-04-03T13:29:45.000Z",
+                    "files": [
+                        {
+                            "id": 32392,
+                            "file": "648c37a4-1100-48fd-be61-f526436dd877.png",
+                            "name": "Screenshot 2022-04-03 102625.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-04-03T13:26:50.000Z",
+                            "updated_at": "2022-04-03T13:26:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/648c37a4-1100-48fd-be61-f526436dd877.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 32392,
+                                "alternative_id": 55123
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 55124,
+                    "question_id": 13453,
+                    "description": "Unidades de Roentgen",
+                    "explanation": "Quase, doc 😢.\n\n- É uma unidade de medida de radiação ionizante (como os raios X e raios gama)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-04-03T13:29:45.000Z",
+                    "updated_at": "2022-04-03T13:29:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55125,
+                    "question_id": 13453,
+                    "description": "Unidade de Gray",
+                    "explanation": "Quase, doc 😢.\n\n- Ele representa a quantidade de energia de radiação ionizante absorvida por unidade de massa",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-03T13:29:45.000Z",
+                    "updated_at": "2022-04-03T13:29:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55126,
+                    "question_id": 13453,
+                    "description": "Unidade de Jobs",
+                    "explanation": "Falso Doc,\n\n- Não existe essa unidade 😂",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-03T13:29:45.000Z",
+                    "updated_at": "2022-04-03T13:29:45.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13453,
+                "questionary_id": 268200,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13454,
+            "institution_id": 4,
+            "description": "Qual é a sequência correta dos cortes das imagens: ",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-03T13:36:41.000Z",
+            "updated_at": "2022-04-03T13:36:41.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1156,
+                    "title": "TC de tórax.",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2022-04-03T13:19:01.000Z",
+                    "updated_at": "2022-04-03T13:19:01.000Z",
+                    "pivot": {
+                        "discipline_id": 1156,
+                        "question_id": 13454
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 55127,
+                    "question_id": 13454,
+                    "description": "Coronal - Sagital - Axial",
+                    "explanation": "Perfeito, Doc 🤩 \n\n- Confira na imagem os planos anatômicos para se familiar com os termos usados.\n[Fonte da imagem.](https://upload.wikimedia.org/wikipedia/commons/d/d8/Human_anatomy_planes-ES.png) ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-04-03T13:36:41.000Z",
+                    "updated_at": "2022-04-03T13:36:41.000Z",
+                    "files": [
+                        {
+                            "id": 32397,
+                            "file": "47be8a53-1251-4324-b62e-291e308aeef2.png",
+                            "name": "Human_anatomy_planes-ES (1).png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-04-03T13:35:05.000Z",
+                            "updated_at": "2022-04-03T13:35:05.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/47be8a53-1251-4324-b62e-291e308aeef2.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 32397,
+                                "alternative_id": 55127
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 55128,
+                    "question_id": 13454,
+                    "description": "Sagital - Coronal  - Axial",
+                    "explanation": "Quase, doc 😢.\n\n Confira o comentário completo na alternativa certa.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-04-03T13:36:41.000Z",
+                    "updated_at": "2022-04-03T13:36:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55129,
+                    "question_id": 13454,
+                    "description": "Axial- Sagital - Coronal",
+                    "explanation": "Quase, doc 😢.\n\n\n Confira o comentário completo na alternativa certa. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-03T13:36:41.000Z",
+                    "updated_at": "2022-04-03T13:36:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55130,
+                    "question_id": 13454,
+                    "description": "Coronal - Axial - Sagital",
+                    "explanation": "Quase, doc 😢.\n\n\nConfira o comentário completo na alternativa certa. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-03T13:36:41.000Z",
+                    "updated_at": "2022-04-03T13:36:41.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 32396,
+                    "file": "9d1b0423-df51-47f4-8081-9da2ad6de84a.png",
+                    "name": "Figura-3-Caso-n-2-Corte-coronal-de-TC-de-Torax-Se-reconoce-una-lesion-quistica-en-la.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2022-04-03T13:32:46.000Z",
+                    "updated_at": "2022-04-03T13:32:46.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9d1b0423-df51-47f4-8081-9da2ad6de84a.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 32396,
+                        "question_id": 13454
+                    }
+                },
+                {
+                    "id": 32395,
+                    "file": "b064801d-eaa1-4cd4-adc3-67ad7f71a199.png",
+                    "name": "Figura-2-Tomografia-de-torax-corte-sagital-evidenciando-fistula-traqueo-esofagica-acima.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2022-04-03T13:32:46.000Z",
+                    "updated_at": "2022-04-03T13:32:46.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b064801d-eaa1-4cd4-adc3-67ad7f71a199.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 32395,
+                        "question_id": 13454
+                    }
+                },
+                {
+                    "id": 32393,
+                    "file": "ae347ff9-78c7-45dd-b5f2-bcfad51e6c6a.jpeg",
+                    "name": "maxresdefault (1).jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2022-04-03T13:32:45.000Z",
+                    "updated_at": "2022-04-03T13:32:45.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ae347ff9-78c7-45dd-b5f2-bcfad51e6c6a.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 32393,
+                        "question_id": 13454
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 13454,
+                "questionary_id": 268200,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13457,
+            "institution_id": 4,
+            "description": "Por que é usado contraste na TC de tórax?",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-03T22:08:26.000Z",
+            "updated_at": "2022-04-03T22:08:26.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1156,
+                    "title": "TC de tórax.",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2022-04-03T13:19:01.000Z",
+                    "updated_at": "2022-04-03T13:19:01.000Z",
+                    "pivot": {
+                        "discipline_id": 1156,
+                        "question_id": 13457
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 55139,
+                    "question_id": 13457,
+                    "description": "Para suprimir determinados tecidos",
+                    "explanation": "Quase, doc 😢.\n\n- Confira o comentário completo na alternativa certa. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-04-03T22:08:26.000Z",
+                    "updated_at": "2022-04-03T22:08:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55140,
+                    "question_id": 13457,
+                    "description": "Para realçar determinados tecidos",
+                    "explanation": "Perfeito, Doc 🤩 \n- Os contrastes são geralmente à base de iodo e são absorvidos pelo organismo. \n- Eles enfraquecem a radiação que passa pela área de interesse, fazendo com que **manchas brancas apareçam.** \n- Essas manchas brancas na verdade representam um tumor que não foi visto anteriormente ou um pedaço de células doentes. \n- **Basicamente, eles melhoram a imagem enfraquecendo a quantidade de radiação que passa.**",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-04-03T22:08:26.000Z",
+                    "updated_at": "2022-04-03T22:08:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55141,
+                    "question_id": 13457,
+                    "description": "Para assegurar que a melhor imagem está sendo feita",
+                    "explanation": "Quase, doc 😢.\n\n- Confira o comentário completo na alternativa certa.  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-03T22:08:26.000Z",
+                    "updated_at": "2022-04-03T22:08:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55142,
+                    "question_id": 13457,
+                    "description": "Para reduzir a interferência óssea",
+                    "explanation": "Quase, doc 😢.\n\n- Confira o comentário completo na alternativa certa.  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-03T22:08:26.000Z",
+                    "updated_at": "2022-04-03T22:08:26.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13457,
+                "questionary_id": 268200,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13455,
+            "institution_id": 4,
+            "description": "Qual é o diagnóstico principal da imagem?",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-03T13:47:14.000Z",
+            "updated_at": "2022-04-03T20:13:31.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1156,
+                    "title": "TC de tórax.",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2022-04-03T13:19:01.000Z",
+                    "updated_at": "2022-04-03T13:19:01.000Z",
+                    "pivot": {
+                        "discipline_id": 1156,
+                        "question_id": 13455
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 55131,
+                    "question_id": 13455,
+                    "description": "Pneumotórax",
+                    "explanation": "\nQuase, doc 😢.\n- Ao contrário do derrame, o ar tende a subir. Por isso, iremos obervar acumulo de ar nas partes anteriores do tórax em casos de pneumotórax\n- Confira um exemplo na imagem.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-04-03T13:47:14.000Z",
+                    "updated_at": "2022-04-03T20:13:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55132,
+                    "question_id": 13455,
+                    "description": "Derrame pleural",
+                    "explanation": "Perfeito, Doc 🤩 . Simplesmente espetacular 😍.]\n\n- Podemos perceber uma lâmina de líquido à direita do paciente. \n- Lembre-se: como o paciente está deitado, o líquido tende a se acumular nas partes posteriores.\n- Confira essa imagem de um derrame bilateral.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-04-03T13:47:14.000Z",
+                    "updated_at": "2022-04-03T20:13:31.000Z",
+                    "files": [
+                        {
+                            "id": 32400,
+                            "file": "05ab8f3a-b4c2-4a2e-a8d7-7491ccc7160a.jpeg",
+                            "name": "20170317084855.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-04-03T13:45:41.000Z",
+                            "updated_at": "2022-04-03T13:45:41.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/05ab8f3a-b4c2-4a2e-a8d7-7491ccc7160a.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 32400,
+                                "alternative_id": 55132
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 55133,
+                    "question_id": 13455,
+                    "description": "Está normal",
+                    "explanation": "Quase, doc 😢.\n\n- Temos uma alteração na tomografia. Confirma na resposta completa.\n ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-03T13:47:14.000Z",
+                    "updated_at": "2022-04-03T20:13:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55134,
+                    "question_id": 13455,
+                    "description": "Bronquiectasia",
+                    "explanation": "Quase, doc 😢.\n- \nBronquiectasias são dilatações dos brônquios que se apresentam em formato de \"aneis\" na tomografia.\n- Confira o padrão na imagem ao lado.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-03T13:47:14.000Z",
+                    "updated_at": "2022-04-03T20:13:31.000Z",
+                    "files": [
+                        {
+                            "id": 32399,
+                            "file": "220e08eb-7838-4c50-bcef-852cc55a5675.gif",
+                            "name": "2c52bd9844d5e3af46ec0cae804ac6416b640b74.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-04-03T13:40:16.000Z",
+                            "updated_at": "2022-04-03T13:40:16.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/220e08eb-7838-4c50-bcef-852cc55a5675.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 32399,
+                                "alternative_id": 55134
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 32398,
+                    "file": "c4d84833-ae08-4fc4-8774-44f6b67be719.jpeg",
+                    "name": "chestquiz1.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2022-04-03T13:37:13.000Z",
+                    "updated_at": "2022-04-03T13:37:13.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c4d84833-ae08-4fc4-8774-44f6b67be719.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 32398,
+                        "question_id": 13455
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 13455,
+                "questionary_id": 268200,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13456,
+            "institution_id": 4,
+            "description": "Qual é o diagnóstico mais provável para a imagem?",
+            "difficulty": "medium",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-03T22:01:32.000Z",
+            "updated_at": "2022-04-03T22:01:32.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1156,
+                    "title": "TC de tórax.",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2022-04-03T13:19:01.000Z",
+                    "updated_at": "2022-04-03T13:19:01.000Z",
+                    "pivot": {
+                        "discipline_id": 1156,
+                        "question_id": 13456
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 55135,
+                    "question_id": 13456,
+                    "description": "Pneumonia",
+                    "explanation": "Quase, doc 😢.\n\n- \nNão encontramos sinais de consolidação na imagem da questão\n-  Confira o comentário completo na alternativa certa. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-04-03T22:01:32.000Z",
+                    "updated_at": "2022-04-03T22:01:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55136,
+                    "question_id": 13456,
+                    "description": "Embolismo Pulmonar",
+                    "explanation": "Perfeito, Doc 🤩 .\n- Existem êmbolos pulmonares bilaterais, vistos como defeitos de enchimento nas artérias pulmonares distais esquerda e direita à medida que se ramificam.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-04-03T22:01:32.000Z",
+                    "updated_at": "2022-04-03T22:01:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55137,
+                    "question_id": 13456,
+                    "description": "Metástases pulmonares",
+                    "explanation": "Quase, doc 😢.\n- As metástases geralmente apresentam-se como nódulos difusos.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-03T22:01:32.000Z",
+                    "updated_at": "2022-04-03T22:01:32.000Z",
+                    "files": [
+                        {
+                            "id": 32458,
+                            "file": "72a57737-32d7-44b6-b9bd-0bb93427d9bd.jpeg",
+                            "name": "Dsch62796+.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-04-03T22:01:14.000Z",
+                            "updated_at": "2022-04-03T22:01:14.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/72a57737-32d7-44b6-b9bd-0bb93427d9bd.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 32458,
+                                "alternative_id": 55137
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 55138,
+                    "question_id": 13456,
+                    "description": "Dissecção de aorta",
+                    "explanation": "Quase, doc 😢.\n- Temos uma aorta normal na questão.\n- Confira como seria uma aorta dissecada na imagem ao lado.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-03T22:01:32.000Z",
+                    "updated_at": "2022-04-03T22:01:32.000Z",
+                    "files": [
+                        {
+                            "id": 32457,
+                            "file": "4f5c57b3-e4d4-41ee-b864-0874a35381df.jpeg",
+                            "name": "26-thoracic-aortic-dissection-stanford-type-b-ctisus_pt.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-04-03T22:01:01.000Z",
+                            "updated_at": "2022-04-03T22:01:01.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4f5c57b3-e4d4-41ee-b864-0874a35381df.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 32457,
+                                "alternative_id": 55138
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 32456,
+                    "file": "625d73a5-1afc-48b7-b54b-539e6d6e55a3.jpeg",
+                    "name": "chestquiz5.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2022-04-03T21:56:35.000Z",
+                    "updated_at": "2022-04-03T21:56:35.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/625d73a5-1afc-48b7-b54b-539e6d6e55a3.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 32456,
+                        "question_id": 13456
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 13456,
+                "questionary_id": 268200,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13459,
+            "institution_id": 4,
+            "description": "As janelas são recursos computacionais que permitem que após a obtenção das imagens a escala de cinzas possa ser estreitada facilitando a diferenciação entre certas estruturas conforme a necessidade.\n\n- Qual janela corresponde a imagem?\n\n\n\n\n\n ",
+            "difficulty": "medium",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-03T22:19:48.000Z",
+            "updated_at": "2022-04-03T22:19:48.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1156,
+                    "title": "TC de tórax.",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2022-04-03T13:19:01.000Z",
+                    "updated_at": "2022-04-03T13:19:01.000Z",
+                    "pivot": {
+                        "discipline_id": 1156,
+                        "question_id": 13459
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 55147,
+                    "question_id": 13459,
+                    "description": "Janela Óssea",
+                    "explanation": "Quase, doc 😢.\n- Confira o comentário completo na alternativa certa. \n- É um conceito importante a ser dominado. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-04-03T22:19:48.000Z",
+                    "updated_at": "2022-04-03T22:19:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55148,
+                    "question_id": 13459,
+                    "description": "Janela Pulmonar",
+                    "explanation": "Quase, doc 😢.\n- Confira o comentário completo na alternativa certa.  \n- É um conceito importante a ser dominado.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-04-03T22:19:48.000Z",
+                    "updated_at": "2022-04-03T22:19:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55149,
+                    "question_id": 13459,
+                    "description": "Janela de Mediastino",
+                    "explanation": "Perfeito, Doc 🤩 \n- No tórax, para detalhes do parênquima pulmonar, são criadas “janelas de pulmão” e detalhes de partes moles podem ser identificadas na\n“janela de mediastino”. Além disso são possíveis reformatações para “janela óssea”. \n- As janelas são costumizações do aparelho para filtrar as partes em relação as UH.\n- Como podemos ver os diferentes tipos de janela na imagem (pulmonar, mediastinal e óssea)",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2022-04-03T22:19:48.000Z",
+                    "updated_at": "2022-04-03T22:19:48.000Z",
+                    "files": [
+                        {
+                            "id": 32463,
+                            "file": "869149cd-43a5-4044-9153-a2b62200f987.png",
+                            "name": "Screenshot 2022-04-03 191755.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-04-03T22:18:41.000Z",
+                            "updated_at": "2022-04-03T22:18:41.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/869149cd-43a5-4044-9153-a2b62200f987.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 32463,
+                                "alternative_id": 55149
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 55150,
+                    "question_id": 13459,
+                    "description": "Nenhuma das alternativas",
+                    "explanation": "Quase, doc 😢.\n- Confira o comentário completo na alternativa certa.  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-03T22:19:48.000Z",
+                    "updated_at": "2022-04-03T22:19:48.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 32461,
+                    "file": "ad15df47-7cde-4b2e-a01a-ef806e6ad4c7.jpeg",
+                    "name": "Figura-4-Tomografia-de-torax-corte-axial-janela-para-mediastino-revelando-a-presenca_Q320.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2022-04-03T22:16:27.000Z",
+                    "updated_at": "2022-04-03T22:16:27.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ad15df47-7cde-4b2e-a01a-ef806e6ad4c7.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 32461,
+                        "question_id": 13459
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 13459,
+                "questionary_id": 268200,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13497,
+            "institution_id": 4,
+            "description": "Qual é o diagnóstico da imagem?",
+            "difficulty": "medium",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-04T23:43:16.000Z",
+            "updated_at": "2022-04-04T23:43:16.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1156,
+                    "title": "TC de tórax.",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2022-04-03T13:19:01.000Z",
+                    "updated_at": "2022-04-03T13:19:01.000Z",
+                    "pivot": {
+                        "discipline_id": 1156,
+                        "question_id": 13497
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 55299,
+                    "question_id": 13497,
+                    "description": "Pneumonia",
+                    "explanation": "Doc, em casos de pneumonia, temos uma consolidação do parênquima pulmonar, isto é, preservamos o volume pulmonar. \n- No caso apresentado, temos uma redução do lobo pulmonar, o que condiz com uma atelectasia 😊.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-04-04T23:43:16.000Z",
+                    "updated_at": "2022-04-04T23:43:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55300,
+                    "question_id": 13497,
+                    "description": "Atelectasia",
+                    "explanation": "Perfeito, Doc. Incrível!\n- No caso apresentado, temos uma redução do volume do lobo pulmonar, o que condiz com uma atelectasia 😊. \n- São muitas causas de atelectasia, contudo destacamos um plug mucoso e neoplasias\n- Doc, é como se o pulmão tivesse entrado em colapso, perdendo seu ar.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-04-04T23:43:16.000Z",
+                    "updated_at": "2022-04-04T23:43:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55301,
+                    "question_id": 13497,
+                    "description": "Derrame pleural",
+                    "explanation": "Doc, essa foi quase. O derrame costuma se acumular nas partes posteriores do tórax, como na imagem.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-04T23:43:16.000Z",
+                    "updated_at": "2022-04-04T23:43:16.000Z",
+                    "files": [
+                        {
+                            "id": 32566,
+                            "file": "46877fbe-df53-4071-abec-bb3e3146090e.jpeg",
+                            "name": "20170317084855.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-04-04T23:42:03.000Z",
+                            "updated_at": "2022-04-04T23:42:03.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/46877fbe-df53-4071-abec-bb3e3146090e.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 32566,
+                                "alternative_id": 55301
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 55302,
+                    "question_id": 13497,
+                    "description": "Derrame pericárdico",
+                    "explanation": "Doc, temos uma patologia acometendo o parênquima pulmonar e diminuindo seu volume, ou seja, é mais condizente com uma atelectasia.\n\n- Noa casos de derrame pericárdico, poderiamos ver uma fina camada de líquido dentro do saco pericárdico.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-04T23:43:16.000Z",
+                    "updated_at": "2022-04-04T23:43:16.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 32552,
+                    "file": "97711ed9-47d3-481f-bc25-a6b3dff34682.png",
+                    "name": "Screenshot 2022-04-04 203829.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2022-04-04T23:38:46.000Z",
+                    "updated_at": "2022-04-04T23:38:46.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/97711ed9-47d3-481f-bc25-a6b3dff34682.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 32552,
+                        "question_id": 13497
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 13497,
+                "questionary_id": 268200,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13499,
+            "institution_id": 4,
+            "description": "Nódulo pulmonar é um termo amplo que designa alterações radiológicas detectadas em exames de imagem do pulmão. \n\n- Até qual tamanho consideramos um nódulo pulmonar?\n- Exemplo: A partir de qual medida consideramos uma massa pulmonar.",
+            "difficulty": "medium",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-04T23:49:21.000Z",
+            "updated_at": "2022-04-04T23:49:21.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1156,
+                    "title": "TC de tórax.",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2022-04-03T13:19:01.000Z",
+                    "updated_at": "2022-04-03T13:19:01.000Z",
+                    "pivot": {
+                        "discipline_id": 1156,
+                        "question_id": 13499
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 55308,
+                    "question_id": 13499,
+                    "description": "1 cm",
+                    "explanation": "Doc, essa foi quase 😢.\n- Questão conceitual, mas que faz total diferença no dia-a-dia.\n- Confira o gabarito para aprender com a questão.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-04-04T23:49:21.000Z",
+                    "updated_at": "2022-04-04T23:49:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55309,
+                    "question_id": 13499,
+                    "description": "2 cm",
+                    "explanation": "Doc, essa foi quase 😢.\n- Questão conceitual, mas que faz total diferença no dia-a-dia.\n- Confira o gabarito para aprender com a questão.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-04-04T23:49:21.000Z",
+                    "updated_at": "2022-04-04T23:49:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55310,
+                    "question_id": 13499,
+                    "description": "3 cm",
+                    "explanation": "Perfeito, Doc 😍. Simplesmente demais! Show de bola!\n- É uma lesão sólida ou em vidro fosco, normalmente arredondada e com menos de **3 centímetros de diâmetro.**\n- **Lembrando que mesmo sendo suspeitos, nódulos pulmonares têm baixa incidência de malignidade, sendo em 90% dos casos benignos.**",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2022-04-04T23:49:21.000Z",
+                    "updated_at": "2022-04-04T23:49:21.000Z",
+                    "files": [
+                        {
+                            "id": 32573,
+                            "file": "f175a228-2feb-4856-acdf-901bacfdebb4.jpeg",
+                            "name": "n8a03-fig01.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-04-04T23:49:10.000Z",
+                            "updated_at": "2022-04-04T23:49:10.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f175a228-2feb-4856-acdf-901bacfdebb4.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 32573,
+                                "alternative_id": 55310
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 55311,
+                    "question_id": 13499,
+                    "description": "4 cm",
+                    "explanation": "Doc, essa foi quase 😢.\n- Questão conceitual, mas que faz total diferença no dia-a-dia.\n- Confira o gabarito para aprender com a questão. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-04T23:49:21.000Z",
+                    "updated_at": "2022-04-04T23:49:21.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13499,
+                "questionary_id": 268200,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13501,
+            "institution_id": 4,
+            "description": "Existem alguns padrões básicos de tomografia de tórax. Qual deles está presente na imagem?",
+            "difficulty": "medium",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-05T00:03:35.000Z",
+            "updated_at": "2022-04-05T00:03:35.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1156,
+                    "title": "TC de tórax.",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2022-04-03T13:19:01.000Z",
+                    "updated_at": "2022-04-03T13:19:01.000Z",
+                    "pivot": {
+                        "discipline_id": 1156,
+                        "question_id": 13501
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 55316,
+                    "question_id": 13501,
+                    "description": "Consolidação do espaço aéreo",
+                    "explanation": "Perfeito, Doc. Simplesmente brilhante!\n\nTemos os seguintes achados na tomografia:\n1. Aumento da atenuação pulmonar que obscurece o contorno das estruturas vasculares e paredes das vias aéreas - Broncograma\n2.  Preenchimento do espaço alveolar \n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-04-05T00:03:35.000Z",
+                    "updated_at": "2022-04-05T00:03:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55317,
+                    "question_id": 13501,
+                    "description": "Opacidade em vidro fosco",
+                    "explanation": "Quase, Doc 😢\n- Esse patologia significa aumento da atenuação pulmonar sem, no entanto, obscurecer o contorno de estruturas vasculares e paredes brônquicas.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-04-05T00:03:35.000Z",
+                    "updated_at": "2022-04-05T00:03:35.000Z",
+                    "files": [
+                        {
+                            "id": 32585,
+                            "file": "f264379d-6b14-4ae2-abbf-cadb8e10f70d.png",
+                            "name": "Screenshot 2022-04-04 205538.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-04-04T23:57:07.000Z",
+                            "updated_at": "2022-04-04T23:57:07.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f264379d-6b14-4ae2-abbf-cadb8e10f70d.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 32585,
+                                "alternative_id": 55317
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 55318,
+                    "question_id": 13501,
+                    "description": "Padrão septal",
+                    "explanation": "Quase, Doc;.\n- Essa patologia resulta do espessamento de septos interlobulares, que aparecem como opacidades lineares.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-05T00:03:35.000Z",
+                    "updated_at": "2022-04-05T00:03:35.000Z",
+                    "files": [
+                        {
+                            "id": 32586,
+                            "file": "dc1f0383-1820-4b76-822e-efcfd44d8b9f.png",
+                            "name": "Screenshot 2022-04-04 210127.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-04-05T00:02:06.000Z",
+                            "updated_at": "2022-04-05T00:02:06.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/dc1f0383-1820-4b76-822e-efcfd44d8b9f.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 32586,
+                                "alternative_id": 55318
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 55319,
+                    "question_id": 13501,
+                    "description": "Padrão cístico",
+                    "explanation": "Quase, Doc. Essa patologia se consiste em vários cistos no tórax.\n\n- Cistos são espaços arredondados e com paredes definidas",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-05T00:03:35.000Z",
+                    "updated_at": "2022-04-05T00:03:35.000Z",
+                    "files": [
+                        {
+                            "id": 32587,
+                            "file": "e4ed71fe-c5ad-4a93-bd2b-d50b632f2415.png",
+                            "name": "Screenshot 2022-04-04 210303.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-04-05T00:03:20.000Z",
+                            "updated_at": "2022-04-05T00:03:20.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e4ed71fe-c5ad-4a93-bd2b-d50b632f2415.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 32587,
+                                "alternative_id": 55319
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 32583,
+                    "file": "b650d0ee-dd93-449a-ad2b-bb61659fe964.png",
+                    "name": "Screenshot 2022-04-04 205333.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2022-04-04T23:53:52.000Z",
+                    "updated_at": "2022-04-04T23:53:52.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b650d0ee-dd93-449a-ad2b-bb61659fe964.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 32583,
+                        "question_id": 13501
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 13501,
+                "questionary_id": 268200,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13496,
+            "institution_id": 4,
+            "description": "Na tomografia de tórax de alta resolução, o padrão tomográfico de pavimentação em mosaico é caracterizado por: ",
+            "difficulty": "hard",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-04T23:33:26.000Z",
+            "updated_at": "2022-04-04T23:33:26.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1156,
+                    "title": "TC de tórax.",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2022-04-03T13:19:01.000Z",
+                    "updated_at": "2022-04-03T13:19:01.000Z",
+                    "pivot": {
+                        "discipline_id": 1156,
+                        "question_id": 13496
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 55295,
+                    "question_id": 13496,
+                    "description": "aprisionamento aéreo",
+                    "explanation": "Acabou sendo uma pergunta direta, Doc. Não decepcione de não saber, é uma pergunta difícil e pode ser considerada até de especialista. Colocamos como um desafio. **Essa descrição não é compatível com pavimentação em mosaico.** \n- Para curiosidade, podemos ver o aprisionamento aéreo em casos de doença pulmonar obstrutiva crônica (DPOC)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-04-04T23:33:26.000Z",
+                    "updated_at": "2022-04-04T23:33:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55296,
+                    "question_id": 13496,
+                    "description": "escavação de permeio à consolidação",
+                    "explanation": "Acabou sendo uma pergunta direta, Doc. Não decepcione de não saber, é uma pergunta difícil e pode ser considerada até de especialista. Colocamos como um desafio. **Essa descrição não é compatível com pavimentação em mosaico.** \n- Para curiosidade, esse padrão está presente na tuberculose, uma das doenças pulmonares mais presentes no Brasil.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-04-04T23:33:26.000Z",
+                    "updated_at": "2022-04-04T23:33:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55297,
+                    "question_id": 13496,
+                    "description": "nódulo sólido circundado por vidro fosco",
+                    "explanation": "Acabou sendo uma pergunta direta, Doc. Não decepcione de não saber, é uma pergunta difícil e pode ser considerada até de especialista. Colocamos como um desafio. **Essa descrição não é compatível com pavimentação em mosaico.**",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-04T23:33:26.000Z",
+                    "updated_at": "2022-04-04T23:33:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55298,
+                    "question_id": 13496,
+                    "description": "vidro fosco associado a espessamento septal",
+                    "explanation": "Perfeito, Doc.\n- Pavimentação em mosaico é um padrão radiológico observado na tomografia computadorizada de alta resolução do tórax, que consiste na presença de áreas de opacidade em vidro fosco, com septos interlobulares espessados de permeio. \n- Uma doença clássica com esse padrão são as **pneumoconioses.**",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2022-04-04T23:33:26.000Z",
+                    "updated_at": "2022-04-04T23:33:26.000Z",
+                    "files": [
+                        {
+                            "id": 32547,
+                            "file": "3651140a-9081-43a6-91ef-aadf765825ae.jpeg",
+                            "name": "20140512164020.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-04-04T23:30:16.000Z",
+                            "updated_at": "2022-04-04T23:30:16.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3651140a-9081-43a6-91ef-aadf765825ae.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 32547,
+                                "alternative_id": 55298
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13496,
+                "questionary_id": 268200,
+                "timer": 0
+            }
+        }
+    ]
+}

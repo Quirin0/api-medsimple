@@ -1,0 +1,2349 @@
+{
+    "id": 267546,
+    "user_id": 1699,
+    "title": "Parada Cardiorrespiratória",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T02:17:28.000Z",
+    "updated_at": "2022-07-11T02:17:28.000Z",
+    "study_plan_id": 1090,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 494,
+            "institution_id": 4,
+            "description": "Frente a um paciente necessitando de Suporte Básico de Vida (SBV), sua primeira conduta deve ser:",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-25T22:14:40.000Z",
+            "updated_at": "2021-11-29T15:56:48.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 63,
+                    "title": "Parada Cardiorrespiratória",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-25T22:11:03.000Z",
+                    "updated_at": "2020-05-25T22:11:03.000Z",
+                    "pivot": {
+                        "discipline_id": 63,
+                        "question_id": 494
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 2034,
+                    "question_id": 494,
+                    "description": "Chamar ajuda",
+                    "explanation": "Falso doc! Você irá chamar ajuda, ou pedir para alguém chamar ajuda, depois que certifica-se que o local que você está é seguro!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:14:40.000Z",
+                    "updated_at": "2021-11-29T12:56:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2035,
+                    "question_id": 494,
+                    "description": "Checar Pulso",
+                    "explanation": "Falso doc! Você irá checar pulso depois de verificar segurança da cena e chamar ajuda/pedir para alguém chamar ajuda.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:14:40.000Z",
+                    "updated_at": "2021-11-29T12:56:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2036,
+                    "question_id": 494,
+                    "description": "Iniciar compressões torácicas",
+                    "explanation": "Falso doc! Você irá iniciar as compressões após verificar a segurança da cena, chamar ajuda e checar pulso e respiração.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:14:40.000Z",
+                    "updated_at": "2021-11-29T12:56:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2037,
+                    "question_id": 494,
+                    "description": "Verificar a segurança da cena",
+                    "explanation": "Perfeito doc! Mandou bem!😎 O primeiro de tudo é certificar-se de que o local é seguro, para evitar que você também seja uma vítima!",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-25T19:14:40.000Z",
+                    "updated_at": "2021-11-29T12:56:48.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 494,
+                "questionary_id": 267546,
+                "timer": 27
+            }
+        },
+        {
+            "id": 495,
+            "institution_id": 4,
+            "description": "Frente a um paciente inconsciente sem pulso e sem movimentos respiratórios, você deve:",
+            "difficulty": "easy",
+            "year": "2010-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-25T22:21:58.000Z",
+            "updated_at": "2022-03-26T14:03:16.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 63,
+                    "title": "Parada Cardiorrespiratória",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-25T22:11:03.000Z",
+                    "updated_at": "2020-05-25T22:11:03.000Z",
+                    "pivot": {
+                        "discipline_id": 63,
+                        "question_id": 495
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 2038,
+                    "question_id": 495,
+                    "description": "Iniciar ventilação boca-a-boca",
+                    "explanation": "Falso doc! Apenas se o mecanismo da parada foi asfixia, iniciamos primeiro com a ventilação boca a boca (desuso) ou máscara (ex: afogamento, sufocamento)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:21:59.000Z",
+                    "updated_at": "2022-03-26T14:03:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2039,
+                    "question_id": 495,
+                    "description": "Iniciar compressões torácicas obrigatoriamente",
+                    "explanation": "Falso doc! Quase sempre é sempre, com exceção de mecanismos de parada por asfixia, em que a conduta seria iniciar compressões torácicas!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:21:59.000Z",
+                    "updated_at": "2022-03-26T14:03:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2040,
+                    "question_id": 495,
+                    "description": "Iniciar ventilação ou compressões torácicas, dependendo do mecanismo provável da parada",
+                    "explanation": "Perfeito doc! Arrasou!😎 Me acompanha aqui👇\n- Na maioria das paradas cardiorrespiratórias iniciamos o suporte básico de vida com as compressões torácicas. \n- **C➡️ A ➡️ B**\n- **C** de Compressão torácica, **A** de posicionar via aérea e **B** de Boca-a-boca\n- Porém, nas vezes em que o mecanismo da parada é asfixia, como no afogamento, devemos iniciar com ventilação\n- **A➡️B➡️C**\n- Doc, uma ressalva importante é que, com a pandemia, a ventilação boca-a-boca tem sido proscrita. Ou seja, se você tiver um ambu com máscara, ventila, se não tiver pode ir direto para as compressões\n- Outro ponto importante é que se a RCP for feita por leigos, preconiza-se o \"Hands Only\". Ou seja, apenas compressões!\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-25T19:21:59.000Z",
+                    "updated_at": "2022-03-26T14:03:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2041,
+                    "question_id": 495,
+                    "description": "Desfibrilar",
+                    "explanation": "Falso doc! Antes de desfibrilar temos que saber se o ritmo é chocável ou não chocável. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:21:59.000Z",
+                    "updated_at": "2022-03-26T14:03:16.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 495,
+                "questionary_id": 267546,
+                "timer": 0
+            }
+        },
+        {
+            "id": 497,
+            "institution_id": 4,
+            "description": "Julgue as afirmativas a seguir sobre compressões torácicas efetivas:\n- I- A profundidade deve ser 5-6 cm\n- II- A frequência deve ser de, no mínimo, 60-100 por minuto\n- III- Deve-se fazer o mínimo possível de interrupções",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-25T22:31:33.000Z",
+            "updated_at": "2021-11-13T23:24:33.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 63,
+                    "title": "Parada Cardiorrespiratória",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-25T22:11:03.000Z",
+                    "updated_at": "2020-05-25T22:11:03.000Z",
+                    "pivot": {
+                        "discipline_id": 63,
+                        "question_id": 497
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 2046,
+                    "question_id": 497,
+                    "description": "Apenas I está correta",
+                    "explanation": "Falso doc! O ítem III também está correto!😴 As compressões devem ter o minimo possível de interrupções, nunca ultrapassando 10 segundos!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:31:33.000Z",
+                    "updated_at": "2021-11-13T20:24:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2047,
+                    "question_id": 497,
+                    "description": "Apenas II está correta",
+                    "explanation": "Falso doc, o ítem II está incorreto!😴 A frequência mínima de compressões é de 100-120 por minuto. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:31:33.000Z",
+                    "updated_at": "2021-11-13T20:24:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2048,
+                    "question_id": 497,
+                    "description": "Todas estão corretas",
+                    "explanation": "Falso doc, o ítem II está incorreto!😴 A frequência mínima de compressões é de 100-120 por minuto.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:31:33.000Z",
+                    "updated_at": "2021-11-13T20:24:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2049,
+                    "question_id": 497,
+                    "description": "I e III estão corretas",
+                    "explanation": "Perfeito doc, e bota perfeição nisso! Acompanha o meu raciocínio aqui👇\n- I- Correta. Deve-se comprimir no terço inferior do esterno, com a região tenar das mãos, sobrepostas, em uma profundidade de 5-6cm (~1/3 do diâmetro AP do tórax)\n- II-Incorreta. A frequência efetiva é de 100 a 120 compressões por minuto.\n- III-Correta. Deve-se minimizar o número de interrupções. No máximo 10 segundos de interrupção caso necessário, como, por exemplo, quando se faz tentativas de IOT.\n- Doc, se liga nessa tabelinha que o AHA nos trás resumindo os principais pontos da compressão torácica na RCP👇\n- Fonte: https://22brasil.com/american-heart-association-2020-portugues-pdf/",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-25T19:31:33.000Z",
+                    "updated_at": "2021-11-13T20:24:33.000Z",
+                    "files": [
+                        {
+                            "id": 23283,
+                            "file": "e61c54bf-4f0c-4a24-a832-2efca9aa1a82.jpeg",
+                            "name": "00000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-13T20:23:02.000Z",
+                            "updated_at": "2021-11-13T20:23:02.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e61c54bf-4f0c-4a24-a832-2efca9aa1a82.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23283,
+                                "alternative_id": 2049
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 497,
+                "questionary_id": 267546,
+                "timer": 0
+            }
+        },
+        {
+            "id": 498,
+            "institution_id": 4,
+            "description": "A correta relação entre Compressões/Ventilações de acordo com a American Heart Association durante o Suporte Básico de vida é:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-25T22:38:40.000Z",
+            "updated_at": "2021-11-13T23:28:56.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 63,
+                    "title": "Parada Cardiorrespiratória",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-25T22:11:03.000Z",
+                    "updated_at": "2020-05-25T22:11:03.000Z",
+                    "pivot": {
+                        "discipline_id": 63,
+                        "question_id": 498
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 2050,
+                    "question_id": 498,
+                    "description": "100:1",
+                    "explanation": "Falso doc!😋 A relação é 30:2!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:38:41.000Z",
+                    "updated_at": "2021-11-13T20:28:56.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2051,
+                    "question_id": 498,
+                    "description": "10:1",
+                    "explanation": "Falso doc!😋 A relação é 30:2! ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:38:41.000Z",
+                    "updated_at": "2021-11-13T20:28:56.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2052,
+                    "question_id": 498,
+                    "description": "30:2",
+                    "explanation": "Perfeito doc! Mandou bem!😎 Essa relação já mudou muito ao longo do tempo mas, hoje, os estudos mostraram que essa é a mais efetiva. \nPara leigos que não se sentem confiantes em fazer ventilação ou, até mesmo, se um profissional da saúde não se sentir seguro em fazer ventilação boca a boca, a opção de realizar apenas compressões torácicas é válida (Hands Only). Doc, se liga nesse quadrinho do AHA 2020👇\n- Fonte: https://22brasil.com/american-heart-association-2020-portugues-pdf/",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-25T19:38:41.000Z",
+                    "updated_at": "2021-11-13T20:28:56.000Z",
+                    "files": [
+                        {
+                            "id": 23283,
+                            "file": "e61c54bf-4f0c-4a24-a832-2efca9aa1a82.jpeg",
+                            "name": "00000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-13T20:23:02.000Z",
+                            "updated_at": "2021-11-13T20:23:02.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e61c54bf-4f0c-4a24-a832-2efca9aa1a82.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23283,
+                                "alternative_id": 2052
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 2053,
+                    "question_id": 498,
+                    "description": "15:1",
+                    "explanation": "Falso doc!😋 A relação é 30:2!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:38:41.000Z",
+                    "updated_at": "2021-11-13T20:28:56.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 498,
+                "questionary_id": 267546,
+                "timer": 0
+            }
+        },
+        {
+            "id": 504,
+            "institution_id": 5,
+            "description": "Você foi fazer a matrícula da residência, mas chega antes e vai na cafeteira. Enquanto fazia seu pedido o atendente se queixou de dor precordial e caiu desacordado na sua frente. O que você deve fazer na sequência? ",
+            "difficulty": "easy",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-25T23:20:59.000Z",
+            "updated_at": "2022-03-26T12:16:24.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 5,
+                "title": "AMRIGS",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T13:59:53.000Z",
+                "updated_at": "2020-05-17T13:59:53.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 63,
+                    "title": "Parada Cardiorrespiratória",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-25T22:11:03.000Z",
+                    "updated_at": "2020-05-25T22:11:03.000Z",
+                    "pivot": {
+                        "discipline_id": 63,
+                        "question_id": 504
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 2074,
+                    "question_id": 504,
+                    "description": "Verificar se a vítima está inconsciente, verificar ausência de pulso e ventilação, iniciar compressões torácicas - ventilação na frequência 30 compressões para 2 ventilações (30:2).",
+                    "explanation": "Falso doc!😋 Deve-se primeiro verificar a segurança da cena e chamar ajuda!\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:20:59.000Z",
+                    "updated_at": "2022-03-26T12:16:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2075,
+                    "question_id": 504,
+                    "description": "Iniciar compressões torácicas - ventilação 30:2 - e solicitar ajuda e um Desfibrilador Externo Automático (DEA).",
+                    "explanation": "Falso doc!😋 A primeira conduta é verificar inconsciência da vítima antes de iniciar as compressões!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:20:59.000Z",
+                    "updated_at": "2022-03-26T12:16:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2076,
+                    "question_id": 504,
+                    "description": "Solicitar para que alguém chame ajuda, questionar se há um DEA e verificar se o local é seguro para o socorrista, verificar se a vítima responde, verificar ausência de respiração ou gasping, ausência de pulso, iniciar compressões torácicas - ventilação 30:2",
+                    "explanation": "Perfeito doc! Mandou bem demais!😎 É de suma importância a análise da segurança do socorrista para não gerar mais vítimas, além de chamar por ajuda, verificar pulso e respiração e iniciar compressões. A desfibrilação deve ser aplicada assim que possível em caso de ritmo chocável.\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-25T20:20:59.000Z",
+                    "updated_at": "2022-03-26T12:16:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2077,
+                    "question_id": 504,
+                    "description": " Chamar ajuda, verificar se o local é seguro para o socorrista, verificar se a vítima responde, verificar pulso, iniciar compressões - ventilação 30:2.",
+                    "explanation": "Falso doc!😋 Não foi verificada a ventilação!\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:20:59.000Z",
+                    "updated_at": "2022-03-26T12:16:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2078,
+                    "question_id": 504,
+                    "description": "Chamar ajuda, verificar se o local é seguro para o socorrista, verificar se a vítima responde, verificar ausência de respiração e pulso, iniciar massagem torácica na frequência 100-120 compressões por minuto e ventilação 10 por minuto.",
+                    "explanation": "Falso doc!😋 Não são 10 ventilações por minuto, mas 2 ventilações a cada 30 compressões!\n",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:20:59.000Z",
+                    "updated_at": "2022-03-26T12:16:24.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 504,
+                "questionary_id": 267546,
+                "timer": 0
+            }
+        },
+        {
+            "id": 496,
+            "institution_id": 4,
+            "description": "Frente a um paciente inconsciente, você checa o pulso, que está presente, mas **NÃO** dentifica presença de movimentos respiratórios. Qual é a sua conduta?",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-25T22:26:41.000Z",
+            "updated_at": "2021-11-13T23:18:38.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 63,
+                    "title": "Parada Cardiorrespiratória",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-25T22:11:03.000Z",
+                    "updated_at": "2020-05-25T22:11:03.000Z",
+                    "pivot": {
+                        "discipline_id": 63,
+                        "question_id": 496
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 2042,
+                    "question_id": 496,
+                    "description": "Realizar 6 ventilações boca a boca por minuto",
+                    "explanation": "Falso doc! Pegadinha do malandro!😴 É uma ventilação a cada 6 segundos, o que dá 10 ventilações por minuto!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:26:41.000Z",
+                    "updated_at": "2021-11-13T20:18:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2043,
+                    "question_id": 496,
+                    "description": "Realizar uma ventilação boca a boca (se possível, com auxílio de máscara) a cada 6 segundos",
+                    "explanation": "Perfeito doc! Mandou bem demais! 😎 Como o problema é só a ventilação, ofereça ventilação boca a boca, 1 a cada 6 segundos, ou seja, 10 por minuto.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-25T19:26:41.000Z",
+                    "updated_at": "2021-11-13T20:18:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2044,
+                    "question_id": 496,
+                    "description": "Iniciar compressões torácicas",
+                    "explanation": "Falso doc!😋 Há pulso, o que significa que o coração está bombeando o sangue de forma eficiente ainda.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:26:41.000Z",
+                    "updated_at": "2021-11-13T20:18:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2045,
+                    "question_id": 496,
+                    "description": "Não precisa fazer nada, pois se há pulso a ventilação irá voltar.",
+                    "explanation": "Falso doc! Se você não fizer nada o miocárdio sofrerá hipóxia e o coração vai parar também.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:26:41.000Z",
+                    "updated_at": "2021-11-13T20:18:39.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 496,
+                "questionary_id": 267546,
+                "timer": 0
+            }
+        },
+        {
+            "id": 499,
+            "institution_id": 4,
+            "description": "Observe as duas imagem abaixo e responda as seguintes perguntas:\n- Esses são considerados ritmos chocáveis ou não chocáveis?\n- Qual é o ritmo do primeiro traçado?\n- Qual é o ritmo do segundo traçado?",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-25T22:44:18.000Z",
+            "updated_at": "2021-11-13T23:46:28.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 63,
+                    "title": "Parada Cardiorrespiratória",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-25T22:11:03.000Z",
+                    "updated_at": "2020-05-25T22:11:03.000Z",
+                    "pivot": {
+                        "discipline_id": 63,
+                        "question_id": 499
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 2054,
+                    "question_id": 499,
+                    "description": "Não chocáveis, Fibrilação ventricular e taquicardia ventricular sem pulso",
+                    "explanation": "Falso doc!😴 Estamos diante de uma FV e de uma TVSP, que são ritmos CHOCÁVEIS!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:44:18.000Z",
+                    "updated_at": "2021-11-13T20:46:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2055,
+                    "question_id": 499,
+                    "description": "Não chocáveis, assistolia e atividade elétrica sem pulso",
+                    "explanation": "Falso doc!😋 Esses são os ritmos não chocáveis. A imagem mostra 2 ritmos chocáveis (FV/TVSP)!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:44:18.000Z",
+                    "updated_at": "2021-11-13T20:46:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2056,
+                    "question_id": 499,
+                    "description": "Chocáveis; Fibrilação Ventricular e Taquicardia Ventricular Sem Pulso",
+                    "explanation": "Perfeito doc! Arrasou!😎 Saca só👇\n- os ritmos apresentados são SIM chocáveis!\n- o primeiro é a fibrilação ventricular (um ritmo totalmente desorganizado) e o segundo é a taquicardia ventricular (complexo QRS alargado) sem pulso. \n- lembrando que se tiver pulso NÃO é chocável!\n- e o que significa ser chocável?\n- significa que são ritmos que vale a pena aplicar o choque, ou seja, desfibrilar, para se tentar obter um ritmo sinusal novamente.\n- Doc, se liga nessa porção inicial do fluxograma de RCP da AHA 2020👇\n- Fonte: https://22brasil.com/american-heart-association-2020-portugues-pdf/",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-25T19:44:18.000Z",
+                    "updated_at": "2021-11-13T20:46:28.000Z",
+                    "files": [
+                        {
+                            "id": 23284,
+                            "file": "2ce4ea85-3224-4a66-b3ac-909726b03b42.jpeg",
+                            "name": "00000000000000000000000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-13T20:34:59.000Z",
+                            "updated_at": "2021-11-13T20:34:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2ce4ea85-3224-4a66-b3ac-909726b03b42.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23284,
+                                "alternative_id": 2056
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 2057,
+                    "question_id": 499,
+                    "description": "Chocáveis, Taquicardia ventricular sem pulso e Fibrilação ventricular",
+                    "explanation": "Falso doc!😋 São chocáveis, mas o primeiro é a fibrilação ventricular (um ritmo totalmente desorganizado) e o segundo é a taquicardia ventricular (complexo QRS alargado) sem pulso!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:44:18.000Z",
+                    "updated_at": "2021-11-13T20:46:28.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 23285,
+                    "file": "224eccfa-a66f-4ca9-9e73-a631dbb008d6.jpeg",
+                    "name": "000000000000000000000000000000000000000000000000.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2021-11-13T20:39:53.000Z",
+                    "updated_at": "2021-11-13T20:39:53.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/224eccfa-a66f-4ca9-9e73-a631dbb008d6.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 23285,
+                        "question_id": 499
+                    }
+                },
+                {
+                    "id": 23286,
+                    "file": "41911d50-c7c6-470d-aa3f-9772f0ac4ecb.jpeg",
+                    "name": "0wJNP8fG-gQOqnWxuU6V3g_b.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2021-11-13T20:40:03.000Z",
+                    "updated_at": "2021-11-13T20:40:03.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/41911d50-c7c6-470d-aa3f-9772f0ac4ecb.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 23286,
+                        "question_id": 499
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 499,
+                "questionary_id": 267546,
+                "timer": 0
+            }
+        },
+        {
+            "id": 500,
+            "institution_id": 4,
+            "description": "Observe as duas imagem abaixo e responda as seguintes perguntas:\n- Esses são considerados ritmos chocáveis ou não chocáveis?\n- Qual é o ritmo do primeiro traçado?\n- Qual é o ritmo do segundo traçado? ",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-25T22:49:13.000Z",
+            "updated_at": "2021-11-13T23:46:56.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 63,
+                    "title": "Parada Cardiorrespiratória",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-25T22:11:03.000Z",
+                    "updated_at": "2020-05-25T22:11:03.000Z",
+                    "pivot": {
+                        "discipline_id": 63,
+                        "question_id": 500
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 2058,
+                    "question_id": 500,
+                    "description": "Não chocáveis, assistolia e AESP",
+                    "explanation": "Perfeito doc! Me acompanha👇\n- esses ritmos não devem receber choque, ou seja, desfibrilação. \n- nesses ritmos, a conduta é continuar as compressões torácicas e administrar adrenalina IV assim que possível\n- lembrando que AESP significa Atividade Elétrica Sem Pulso. O desenho elétrico é igual ao de um ritmo sinusal, mas não é capaz de gerar contrações efetivas para bombear o sangue.\n- Doc, para nunca mais esquecer, se liga nessa parte inicial do fluxogram de RCP da AHA 2020👇\n- Fonte: https://22brasil.com/american-heart-association-2020-portugues-pdf/",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-25T19:49:13.000Z",
+                    "updated_at": "2021-11-13T20:46:56.000Z",
+                    "files": [
+                        {
+                            "id": 23284,
+                            "file": "2ce4ea85-3224-4a66-b3ac-909726b03b42.jpeg",
+                            "name": "00000000000000000000000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-13T20:34:59.000Z",
+                            "updated_at": "2021-11-13T20:34:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2ce4ea85-3224-4a66-b3ac-909726b03b42.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23284,
+                                "alternative_id": 2058
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 2059,
+                    "question_id": 500,
+                    "description": "Não chocáveis, AESP e assitolia",
+                    "explanation": "Falso doc!😋 De fato não não chocáveis, mas o primeiro é assistolia e o segundo AESP!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:49:13.000Z",
+                    "updated_at": "2021-11-13T20:46:56.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2060,
+                    "question_id": 500,
+                    "description": "Chocáveis, Assistolia e Fibrilação Ventricular",
+                    "explanation": "Falso doc!😋 São não chocáveis, e o segundo é AESP.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:49:13.000Z",
+                    "updated_at": "2021-11-13T20:46:56.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2061,
+                    "question_id": 500,
+                    "description": "Chocáveis, assistolia e taquicardia ventricular sem pulso",
+                    "explanation": "Falso doc!😋 Não sãochocáveis, e o segundo é AESP!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-25T19:49:13.000Z",
+                    "updated_at": "2021-11-13T20:46:56.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 118,
+                    "file": "1590435953461.png",
+                    "name": "TABELA 1.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-05-25T22:45:53.000Z",
+                    "updated_at": "2020-05-25T22:45:53.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590435953461.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 118,
+                        "question_id": 500
+                    }
+                },
+                {
+                    "id": 119,
+                    "file": "1590435998290.png",
+                    "name": "TABELA 1.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-05-25T22:46:38.000Z",
+                    "updated_at": "2020-05-25T22:46:38.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590435998290.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 119,
+                        "question_id": 500
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 500,
+                "questionary_id": 267546,
+                "timer": 0
+            }
+        },
+        {
+            "id": 501,
+            "institution_id": 4,
+            "description": "Sobre a conduta em ritmos chocáveis, julgue as afirmativas a seguir:\n- I. Deve-se aguardar o final do ciclo de compressões para administrar o primeiro choque\n- II. Após o segundo choque, deve-se administrar adrenalina\n- III. Após o terceiro choque, deve-se reiniciar imediatamente as compressões",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-25T23:01:13.000Z",
+            "updated_at": "2021-11-13T23:59:52.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 63,
+                    "title": "Parada Cardiorrespiratória",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-25T22:11:03.000Z",
+                    "updated_at": "2020-05-25T22:11:03.000Z",
+                    "pivot": {
+                        "discipline_id": 63,
+                        "question_id": 501
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 2062,
+                    "question_id": 501,
+                    "description": "Apenas I está correta",
+                    "explanation": "Falso doc!😋 Comentário completo na alternativa correta. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:01:13.000Z",
+                    "updated_at": "2021-11-13T20:59:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2063,
+                    "question_id": 501,
+                    "description": "I e II estão corretas",
+                    "explanation": "Falso doc!😋 Comentário completo na alternativa correta. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:01:13.000Z",
+                    "updated_at": "2021-11-13T20:59:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2064,
+                    "question_id": 501,
+                    "description": "I e III estão corretas",
+                    "explanation": "Falso doc!😋 Comentário completo na alternativa correta.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:01:13.000Z",
+                    "updated_at": "2021-11-13T20:59:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2065,
+                    "question_id": 501,
+                    "description": "II e III estão corretas",
+                    "explanation": "Perfeito doc, parabéns!😍 Agora, acompanha o meu raciocínio👇\n- I- Falso. Nos ritmos chocáveis, a prioridade é a desfibrilação\n- II-Verdadeiro. Após o segundo choque é que fazemos pela primeira vez a administração de adrenalina. \n- III-Verdadeiro. Sempre após cada choque deve-se retomar imediatamente as compressões por 2 minutos. Após o segundo choque, junto com a retomada das compressões administramos adrenalina. Após o terceiro choque, junto com a retomada das compressões administramos amiodarona (300mg = 2 ampolas).Após o quarto choque, junto com a retomada das compressões administramos adrenalina novamente. Após o quinto choque, junto com a retomada das compressões administramos amiodarona (mas agora 150 mg = 1 ampola). Após o sexto choque, alterna-se um ciclo só com compressões e um ciclo com compressões e adrenalina após cada choque. \n- Doc, para nunca mais esquecer, se liga nesse fluxograma top da AHA 2020👇\n- Fonte: https://22brasil.com/american-heart-association-2020-portugues-pdf/ ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-25T20:01:13.000Z",
+                    "updated_at": "2021-11-13T20:59:52.000Z",
+                    "files": [
+                        {
+                            "id": 23288,
+                            "file": "3a7f490c-8bf1-4f2a-acaa-d289ca40c96e.jpeg",
+                            "name": "RCP.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-13T20:58:28.000Z",
+                            "updated_at": "2021-11-13T20:58:28.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3a7f490c-8bf1-4f2a-acaa-d289ca40c96e.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23288,
+                                "alternative_id": 2065
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 501,
+                "questionary_id": 267546,
+                "timer": 0
+            }
+        },
+        {
+            "id": 502,
+            "institution_id": 4,
+            "description": "Sobre a conduta em ritmos não chocáveis, julgue as afirmativas a seguir:\n- I.Deve-se administrar adrenalina assim que possível\n- II.Deve-se procurar tratar as causas reversíveis de PCR\n- III.A adrenalina deve ser repetida a cada 3-5 minutos",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-25T23:09:46.000Z",
+            "updated_at": "2021-11-14T00:04:23.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 63,
+                    "title": "Parada Cardiorrespiratória",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-25T22:11:03.000Z",
+                    "updated_at": "2020-05-25T22:11:03.000Z",
+                    "pivot": {
+                        "discipline_id": 63,
+                        "question_id": 502
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 2066,
+                    "question_id": 502,
+                    "description": "Apenas II",
+                    "explanation": "Falso doc!😋 Confira o comentário completo na resposta correta.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:09:46.000Z",
+                    "updated_at": "2021-11-13T21:04:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2067,
+                    "question_id": 502,
+                    "description": "Apenas III",
+                    "explanation": "Falso doc!😋 Confira o comentário completo na resposta correta.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:09:47.000Z",
+                    "updated_at": "2021-11-13T21:04:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2068,
+                    "question_id": 502,
+                    "description": "II e III",
+                    "explanation": "Falso doc!😋 Confira o comentário completo na resposta correta.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:09:47.000Z",
+                    "updated_at": "2021-11-13T21:04:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2069,
+                    "question_id": 502,
+                    "description": "Todas estão corretas",
+                    "explanation": "Perfeito doc! Mandou bem demais!😎 Acompanha o meu raciocínio👇\n- I- Correta. Nos ritmos não chocáveis, a prioridade é a administração de adrenalina assim que possível\n- II- Correta. Nos ritmos não chocáveis devemos lembrar das causas reversíveis de PCR, para pensarmos nelas e instituirmos o tratamento assim que possível juntamente com o fluxo da  PCR. Essas causas são representadas pelo mneumônico 5T e 5H\n- III-Correta. A administração de epinefrina deve ser repetida a cada 3-5 minutos\n- Se liga nesse fluxograma doc👇\n- Fonte: https://22brasil.com/american-heart-association-2020-portugues-pdf/",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-25T20:09:47.000Z",
+                    "updated_at": "2021-11-13T21:04:23.000Z",
+                    "files": [
+                        {
+                            "id": 23288,
+                            "file": "3a7f490c-8bf1-4f2a-acaa-d289ca40c96e.jpeg",
+                            "name": "RCP.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-13T20:58:28.000Z",
+                            "updated_at": "2021-11-13T20:58:28.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3a7f490c-8bf1-4f2a-acaa-d289ca40c96e.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23288,
+                                "alternative_id": 2069
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 502,
+                "questionary_id": 267546,
+                "timer": 0
+            }
+        },
+        {
+            "id": 503,
+            "institution_id": 4,
+            "description": "Sobre parada cardiorrespiratória, assinale a alternativa **INCORRETA:**",
+            "difficulty": "medium",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-25T23:16:31.000Z",
+            "updated_at": "2022-06-27T18:52:13.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 63,
+                    "title": "Parada Cardiorrespiratória",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-25T22:11:03.000Z",
+                    "updated_at": "2020-05-25T22:11:03.000Z",
+                    "pivot": {
+                        "discipline_id": 63,
+                        "question_id": 503
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 2070,
+                    "question_id": 503,
+                    "description": "Nos cuidados pós-PCR, a saturação de oxigênio deve ser mantida maior ou igual a  94%",
+                    "explanation": "Perfeito doc! Essa é a meta de SatO2 no pós-PCR!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:16:31.000Z",
+                    "updated_at": "2022-06-27T18:52:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2071,
+                    "question_id": 503,
+                    "description": "Todos os pacientes após a PCR devem, idealmente, ser mantidos a uma temperatura entre 32-36ºC",
+                    "explanation": "Perfeito doc, essa é a alternativa errada! Isso se chama modulação terapêutica da temperatura, mas apenas os pacientes **COMATOSOS** tem indicação de serem submetidos a essa modulação!",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-25T20:16:31.000Z",
+                    "updated_at": "2022-06-27T18:52:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2072,
+                    "question_id": 503,
+                    "description": "A capnografia é um aliado para avaliar a qualidade da RCP",
+                    "explanation": "Perfeito doc! Uma PETCO2 <10 indica uma PCR ruim!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:16:31.000Z",
+                    "updated_at": "2022-06-27T18:52:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2073,
+                    "question_id": 503,
+                    "description": "Podemos considerar retorno à circulação espontânea quando há elevação abrupta da PETCO2, a valores acima de 35",
+                    "explanation": "Perfeito doc! Quando estamos realizando a ressucitação de alguém em parada cardiorrespiratória, um dos parâmetros que podemos usar para saber se o paciente está conseguindo bombear o sangue sozinho, ou seja, retornou à circulação espontânea, é se a PETCO2 sofrer uma subida abrupta maior que 35 mmHg (35-45 mmHg).",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:16:31.000Z",
+                    "updated_at": "2022-06-27T18:52:13.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 503,
+                "questionary_id": 267546,
+                "timer": 0
+            }
+        },
+        {
+            "id": 505,
+            "institution_id": 1,
+            "description": "Em relação ao atendimento da parada cardiorrespiratória em adulto, de acordo com a Associação Americana do Coração, é **CORRETO** afirmar que:\n- *(questão modificada)*\n",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-25T23:22:31.000Z",
+            "updated_at": "2021-11-14T00:10:34.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 1,
+                "title": "UFSC",
+                "state": "Santa Catarina",
+                "is_enabled": true,
+                "created_at": "2020-05-16T20:39:39.000Z",
+                "updated_at": "2020-05-16T20:39:39.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 63,
+                    "title": "Parada Cardiorrespiratória",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-25T22:11:03.000Z",
+                    "updated_at": "2020-05-25T22:11:03.000Z",
+                    "pivot": {
+                        "discipline_id": 63,
+                        "question_id": 505
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 2079,
+                    "question_id": 505,
+                    "description": "Apenas nos casos de assistolia devemos iniciar o atendimento com ventilações.",
+                    "explanation": "Falso doc!😋 Devemos começar com ventilações nos casos em que a causa da PCR foi asfixia.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:22:31.000Z",
+                    "updated_at": "2021-11-13T21:10:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2080,
+                    "question_id": 505,
+                    "description": "A correta relação entre compressões torácicas e ventilações é 30:2.",
+                    "explanation": "Perfeito doc! A correta relação entre compressões-ventilações é 30:2. Caso o paciente tenha sido submetido à IOT, ai podemos fazer ventilação dessincronizada, com uma ventilação a cada 6 segundos (~10 ventilações por minuto)! Se liga nesse fluxograma doc👇\n- Fonte: https://22brasil.com/american-heart-association-2020-portugues-pdf/\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-25T20:22:31.000Z",
+                    "updated_at": "2021-11-13T21:10:34.000Z",
+                    "files": [
+                        {
+                            "id": 23288,
+                            "file": "3a7f490c-8bf1-4f2a-acaa-d289ca40c96e.jpeg",
+                            "name": "RCP.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-13T20:58:28.000Z",
+                            "updated_at": "2021-11-13T20:58:28.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3a7f490c-8bf1-4f2a-acaa-d289ca40c96e.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23288,
+                                "alternative_id": 2080
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 2081,
+                    "question_id": 505,
+                    "description": "A frequência das compressões torácicas deve ser de pelo menos 120 por minuto.",
+                    "explanation": "Falso doc! Essa alternativa é pegadinha mesmo🙈. As compressões devem ser de pelo menos 100 por minuto, porém não devem ultrapassar o limite de 120 por minuto!\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:22:31.000Z",
+                    "updated_at": "2021-11-13T21:10:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2082,
+                    "question_id": 505,
+                    "description": "A manobra de Heimlich deve ser realizada em todas as vítimas de afogamento.",
+                    "explanation": "Falso doc!😋 A manobra de Heimlich não tem indicação no afogamento, mas sim nos casos de engasgamento, uma vez que pode levar a regurgitação e broncoaspiração!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:22:31.000Z",
+                    "updated_at": "2021-11-13T21:10:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2083,
+                    "question_id": 505,
+                    "description": "Mesmo quando o paciente já estiver com via aérea definitiva, é necessário interromper as compressões torácicas para realizar as ventilações.",
+                    "explanation": "Falso doc!😋 Quando o paciente está com via aérea definitiva estabelecida, não há mais necessidade de sincronizar ventilação/compressão.\n",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:22:31.000Z",
+                    "updated_at": "2021-11-13T21:10:34.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 505,
+                "questionary_id": 267546,
+                "timer": 0
+            }
+        },
+        {
+            "id": 506,
+            "institution_id": 72,
+            "description": "Paciente chega ao pronto-socorro com parada cardíaca em Fibrilação Ventricular (FV). Após o choque, o médico se antecipa e pede à enfermeira para preparar 300 mg de amiodarona. Ela informa que a medicação está em falta no hospital. Segundo o protocolo do ACLS, assinale a alternativa que apresenta, corretamente, a melhor conduta em substituição à amiodarona na parada cardíaca em FV sem pulso.",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-25T23:28:55.000Z",
+            "updated_at": "2022-03-26T12:30:39.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 72,
+                "title": "UEL",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-25T20:28:55.000Z",
+                "updated_at": "2020-05-25T20:28:55.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 63,
+                    "title": "Parada Cardiorrespiratória",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-25T22:11:03.000Z",
+                    "updated_at": "2020-05-25T22:11:03.000Z",
+                    "pivot": {
+                        "discipline_id": 63,
+                        "question_id": 506
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 2084,
+                    "question_id": 506,
+                    "description": "Indicar atropina na dose de 0,5 mg EV em bolus, substituindo a primeira dose de amiodarona",
+                    "explanation": "Falso doc! A atropina não é utilizada no protocolo do ACLS!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:28:55.000Z",
+                    "updated_at": "2022-03-26T12:30:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2085,
+                    "question_id": 506,
+                    "description": "Indicar lidocaína na dose de 1 a 1,5 mg/kg EV em intervalo de 5 a 10 minutos até 1 dose máxima de 3 mg/kg",
+                    "explanation": "Perfeito doc, mandou bem!😁 A medicação que substitui a amiodarona é a lidocaína. É bom lembrar que os estudos mostram que elas não aumentam a sobrevida nem melhoram o prognóstico!",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-25T20:28:55.000Z",
+                    "updated_at": "2022-03-26T12:30:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2086,
+                    "question_id": 506,
+                    "description": "Indicar vasopressina na dose de 40,0 mg EV em bolus, substituindo a primeira dose de amiodarona.",
+                    "explanation": "Falso doc! A vasopressina não deve mais ser utilizada na PCR!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:28:55.000Z",
+                    "updated_at": "2022-03-26T12:30:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2087,
+                    "question_id": 506,
+                    "description": "Indicar epinefrina na dose de 1,0 mg a cada 3 a 5 minutos e não intercalar dose com outros fármacos antiarrítmicos.",
+                    "explanation": "Falso doc! Epinefrina e amiodarona são as principais drogas utilizadas no ACLS, mas uma não substitui a outra!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:28:55.000Z",
+                    "updated_at": "2022-03-26T12:30:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2088,
+                    "question_id": 506,
+                    "description": "Indicar sulfato de magnésio na dose de 1 a 2 g EV diluídos em 10 ml e fazer em 5 a 20 minutos.",
+                    "explanation": "Falso doc! Sulfato de magnésio é usado em caso de Torsades de Pointes, mas não é um substituto à amiodarona!",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:28:55.000Z",
+                    "updated_at": "2022-03-26T12:30:39.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 506,
+                "questionary_id": 267546,
+                "timer": 0
+            }
+        },
+        {
+            "id": 507,
+            "institution_id": 16,
+            "description": "Paciente de 55 anos é encontrado desacordado. Ele não respira e não tem pulso. Prontamente iniciadas as manobras de ressuscitação cardiopulmonar e, ao monitorizar o paciente, encontra-se uma fibrilação ventricular. A prioridade, nesse instante, deve ser:",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-25T23:33:26.000Z",
+            "updated_at": "2021-11-14T00:14:49.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 16,
+                "title": "IAMSPE",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T22:45:13.000Z",
+                "updated_at": "2020-05-17T22:45:13.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 63,
+                    "title": "Parada Cardiorrespiratória",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-25T22:11:03.000Z",
+                    "updated_at": "2020-05-25T22:11:03.000Z",
+                    "pivot": {
+                        "discipline_id": 63,
+                        "question_id": 507
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 2089,
+                    "question_id": 507,
+                    "description": "submeter o paciente à intubação orotraqueal",
+                    "explanation": "Falso doc!😋 A intubação deve ser considerada após o 2º choque apenas!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:33:26.000Z",
+                    "updated_at": "2021-11-13T21:14:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2090,
+                    "question_id": 507,
+                    "description": "cardioverter o paciente com 200J",
+                    "explanation": "Falso doc!😋 Cardioversão é realizada em arritmias instáveis, não na parada cardiorrespiratória!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:33:26.000Z",
+                    "updated_at": "2021-11-13T21:14:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2091,
+                    "question_id": 507,
+                    "description": "desfibrilar o paciente com 200J",
+                    "explanation": "Perfeito doc, que orgulho!😁 Em ritmos chocáveis como a fibrilação ventricular, a prioridade é o choque com desfibrilador. Lembrando que em desfibriladores monofásicos, o choque deve ser de 360 J, enquanto em desfibriladores bifásicos, o choque deve ser de 120-200 J! Se liga nesse fluxograma doc👇\n- Fonte: https://22brasil.com/american-heart-association-2020-portugues-pdf/",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-25T20:33:26.000Z",
+                    "updated_at": "2021-11-13T21:14:49.000Z",
+                    "files": [
+                        {
+                            "id": 23288,
+                            "file": "3a7f490c-8bf1-4f2a-acaa-d289ca40c96e.jpeg",
+                            "name": "RCP.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-13T20:58:28.000Z",
+                            "updated_at": "2021-11-13T20:58:28.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3a7f490c-8bf1-4f2a-acaa-d289ca40c96e.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23288,
+                                "alternative_id": 2091
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 2092,
+                    "question_id": 507,
+                    "description": "providenciar acesso venoso e prescrever amiodarona 300mg",
+                    "explanation": "Falso doc!😋 A amiodarona só deve ser aplicada após o terceiro choque!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:33:26.000Z",
+                    "updated_at": "2021-11-13T21:14:49.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 507,
+                "questionary_id": 267546,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11996,
+            "institution_id": 166,
+            "description": "Quando a técnica de ventilação não está correta, O PROBLEMA MAIS FREQUENTE é:",
+            "difficulty": "medium",
+            "year": "2006-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-11-13T22:14:17.000Z",
+            "updated_at": "2021-11-13T22:26:17.000Z",
+            "user_id": 345,
+            "is_residency": false,
+            "institution": {
+                "id": 166,
+                "title": "ASSOCIAÇÃO MÉDICA DO PARANÁ – PR",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-08-19T16:19:11.000Z",
+                "updated_at": "2020-08-19T16:19:11.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 63,
+                    "title": "Parada Cardiorrespiratória",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-25T22:11:03.000Z",
+                    "updated_at": "2020-05-25T22:11:03.000Z",
+                    "pivot": {
+                        "discipline_id": 63,
+                        "question_id": 11996
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 49111,
+                    "question_id": 11996,
+                    "description": "Má adaptação da máscara à face",
+                    "explanation": "Correto, Doc! Mandou bem! 😎 É uma situação muito comum nas emergências, tanto pela técnica quanto pela falta de máscaras ideais. Vamos revisar o posicionamento da máscara no rosto do paciente e ver uma imagem sobre isso?\n- 1) Colocar-se atrás do paciente\n- 2) Selar a máscara englobando nariz e boca\n- 3) Formar um C sob a máscara com os dedos polegar e indicador + Formar um E com o restante dos dedos na mandíbula (isso serve para acoplar a máscara no rosto)\n- 4) Ventilar 2 vezes com um sopro de 1s \n- Fonte: VELASCO, Irineu Tadeu; BRANDãO NETO, Rodrigo Antonio; SOUZA, Heraldo Possolo de; MARINO, Lucas Oliveira; MARCHINI, Julio Flávio Meirelles; ALENCAR, Júlio César Garcia de. **Medicina de Emergência: Abordagem prática**. USP. 15ª Ed, 2021",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-11-13T19:14:17.000Z",
+                    "updated_at": "2021-11-13T19:26:17.000Z",
+                    "files": [
+                        {
+                            "id": 23280,
+                            "file": "b68a9c35-df88-40ac-86b3-9f57adb706d1.png",
+                            "name": "4. PCR 1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-13T19:09:32.000Z",
+                            "updated_at": "2021-11-13T19:09:32.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b68a9c35-df88-40ac-86b3-9f57adb706d1.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23280,
+                                "alternative_id": 49111
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 49112,
+                    "question_id": 11996,
+                    "description": "Uso de balão com válvula de escape mal ajustada",
+                    "explanation": "Não, Doc! 🙊 Pode até ocorrer, mas é menos comum que a adaptação da máscara à face, tanto pela técnica quanto pela falta de máscaras ideais. Vamos revisar o posicionamento da máscara no rosto do paciente e ver uma imagem sobre isso ?\n- 1) Colocar-se atrás do paciente\n- 2) Selar a máscara englobando nariz e boca\n- 3) Formar um C sob a máscara com os dedos polegar e indicador + Formar um E com o restante dos dedos na mandíbula (isso serve para acoplar a máscara no rosto)\n- 4) Ventilar 2 vezes com um sopro de 1s \n- Fonte: VELASCO, Irineu Tadeu; BRANDãO NETO, Rodrigo Antonio; SOUZA, Heraldo Possolo de; MARINO, Lucas Oliveira; MARCHINI, Julio Flávio Meirelles; ALENCAR, Júlio César Garcia de. **Medicina de Emergência: Abordagem prática**. USP. 15ª Ed, 2021 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-11-13T19:14:17.000Z",
+                    "updated_at": "2021-11-13T19:26:17.000Z",
+                    "files": [
+                        {
+                            "id": 23280,
+                            "file": "b68a9c35-df88-40ac-86b3-9f57adb706d1.png",
+                            "name": "4. PCR 1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-13T19:09:32.000Z",
+                            "updated_at": "2021-11-13T19:09:32.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b68a9c35-df88-40ac-86b3-9f57adb706d1.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23280,
+                                "alternative_id": 49112
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 49113,
+                    "question_id": 11996,
+                    "description": "Uso de volume corrente excessivo",
+                    "explanation": "Não, Doc! 🙊 Pode até ocorrer, mas é menos comum que a adaptação da máscara à face, tanto pela técnica quanto pela falta de máscaras ideais. Vamos revisar o posicionamento da máscara no rosto do paciente e ver uma imagem sobre isso ?\n- 1) Colocar-se atrás do paciente\n- 2) Selar a máscara englobando nariz e boca\n- 3) Formar um C sob a máscara com os dedos polegar e indicador + Formar um E com o restante dos dedos na mandíbula (isso serve para acoplar a máscara no rosto)\n- 4) Ventilar 2 vezes com um sopro de 1s \n- Fonte: VELASCO, Irineu Tadeu; BRANDãO NETO, Rodrigo Antonio; SOUZA, Heraldo Possolo de; MARINO, Lucas Oliveira; MARCHINI, Julio Flávio Meirelles; ALENCAR, Júlio César Garcia de. **Medicina de Emergência: Abordagem prática**. USP. 15ª Ed, 2021  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-11-13T19:14:17.000Z",
+                    "updated_at": "2021-11-13T19:26:17.000Z",
+                    "files": [
+                        {
+                            "id": 23280,
+                            "file": "b68a9c35-df88-40ac-86b3-9f57adb706d1.png",
+                            "name": "4. PCR 1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-13T19:09:32.000Z",
+                            "updated_at": "2021-11-13T19:09:32.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b68a9c35-df88-40ac-86b3-9f57adb706d1.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23280,
+                                "alternative_id": 49113
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 49114,
+                    "question_id": 11996,
+                    "description": "Uso de concentração baixa de oxigênio",
+                    "explanation": "Não, Doc! 🙊 Pode até ocorrer, mas é menos comum que a adaptação da máscara à face, tanto pela técnica quanto pela falta de máscaras ideais. Vamos revisar o posicionamento da máscara no rosto do paciente e ver uma imagem sobre isso ?\n- 1) Colocar-se atrás do paciente\n- 2) Selar a máscara englobando nariz e boca\n- 3) Formar um C sob a máscara com os dedos polegar e indicador + Formar um E com o restante dos dedos na mandíbula (isso serve para acoplar a máscara no rosto)\n- 4) Ventilar 2 vezes com um sopro de 1s \n- Fonte: VELASCO, Irineu Tadeu; BRANDãO NETO, Rodrigo Antonio; SOUZA, Heraldo Possolo de; MARINO, Lucas Oliveira; MARCHINI, Julio Flávio Meirelles; ALENCAR, Júlio César Garcia de. **Medicina de Emergência: Abordagem prática**. USP. 15ª Ed, 2021  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-11-13T19:14:17.000Z",
+                    "updated_at": "2021-11-13T19:26:17.000Z",
+                    "files": [
+                        {
+                            "id": 23280,
+                            "file": "b68a9c35-df88-40ac-86b3-9f57adb706d1.png",
+                            "name": "4. PCR 1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-13T19:09:32.000Z",
+                            "updated_at": "2021-11-13T19:09:32.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b68a9c35-df88-40ac-86b3-9f57adb706d1.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23280,
+                                "alternative_id": 49114
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11996,
+                "questionary_id": 267546,
+                "timer": 0
+            }
+        },
+        {
+            "id": 508,
+            "institution_id": 58,
+            "description": "Um paciente de 54 anos de idade foi levado pelo SAMU ao serviço de emergência sem pulso central. Quando monitorizado pelas pás do desfibrilador, apresentou o ritmo mostrado a seguir. Com base nessa situação hipotética, assinale a alternativa que apresenta a sequência **CORRETA** de ações a serem realizadas:\n\n",
+            "difficulty": "hard",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-25T20:43:52.000Z",
+            "updated_at": "2022-03-26T14:16:14.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 58,
+                "title": "SANTA CASA DE MISERICÓRDIA DE SÃO PAULO – SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-22T17:02:45.000Z",
+                "updated_at": "2020-05-22T17:02:45.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 63,
+                    "title": "Parada Cardiorrespiratória",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-25T22:11:03.000Z",
+                    "updated_at": "2020-05-25T22:11:03.000Z",
+                    "pivot": {
+                        "discipline_id": 63,
+                        "question_id": 508
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 2093,
+                    "question_id": 508,
+                    "description": "Adrenalina 1 mg IV, compressões cardíacas alternadas com ventilações (bolsa-válvula máscara) na frequência 30:2 e desfibrilação.",
+                    "explanation": "Falso doc!😋 Comentário completo na alternativa correta.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:43:52.000Z",
+                    "updated_at": "2022-03-26T14:16:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2094,
+                    "question_id": 508,
+                    "description": "Sulfato de magnésio 2 g IV, compressões cardíacas 100 a 120 por minuto, uma ventilação a cada seis segundos (bolsa-válvula-máscara) e desfibrilação.",
+                    "explanation": "Falso doc!😋 Comentário completo na alternativa correta.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:43:52.000Z",
+                    "updated_at": "2022-03-26T14:16:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2095,
+                    "question_id": 508,
+                    "description": "Desfibrilação imediata, compressões cardíacas 100 a 120 por minuto e uma ventilação a cada seis segundos (bolsa-válvula-máscara)",
+                    "explanation": "Falso doc!😋 Comentário completo na alternativa correta.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:43:52.000Z",
+                    "updated_at": "2022-03-26T14:16:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2096,
+                    "question_id": 508,
+                    "description": "Desfibrilação imediata e, mantendo o ritmo mostrado, após dois minutos de compressões torácicas, checar pulso central.",
+                    "explanation": "Falso doc!😋 Comentário completo na alternativa correta.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-25T20:43:52.000Z",
+                    "updated_at": "2022-03-26T14:16:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2097,
+                    "question_id": 508,
+                    "description": "Desfibrilação imediata, compressões cardíacas alternadas com ventilações (bolsaválvula- máscara) na frequência 30:2 e adrenalina 1 mg IV a cada 3-5 minutos assim que o acesso venoso periférico estiver disponível.",
+                    "explanation": "Perfeito doc! Mandou bem!😎 Saca só👇\n- Temos um ritmo chocável no monitor, logo a prioridade é o choque. \n- Sempre após o choque deve-se inicar as compressões e ventilações alternadas na relação 30:2 (só quando tiver uma via aérea avançada estabelecida é que não precisamos sincronizar ventilação com compressão).\n- Se o ritmo chocável persistir após 2 minutos de ventilação/compressão, aí choca-se novamente, reiniciam-se as compressões/ventilações e simultaneamente se aplica adrenalina 1mg a cada 3-5 minutos\n- Se liga nesse fluxograma para nunca mais esquecer👇\n- Fonte: [https://22brasil.com/american-heart-association-2020-portugues-pdf/](https://22brasil.com/american-heart-association-2020-portugues-pdf/)",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-05-25T20:43:52.000Z",
+                    "updated_at": "2022-03-26T14:16:14.000Z",
+                    "files": [
+                        {
+                            "id": 23288,
+                            "file": "3a7f490c-8bf1-4f2a-acaa-d289ca40c96e.jpeg",
+                            "name": "RCP.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-13T20:58:28.000Z",
+                            "updated_at": "2021-11-13T20:58:28.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3a7f490c-8bf1-4f2a-acaa-d289ca40c96e.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23288,
+                                "alternative_id": 2097
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 120,
+                    "file": "1590438913512.png",
+                    "name": "TABELA 1.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-05-25T23:35:13.000Z",
+                    "updated_at": "2020-05-25T23:35:13.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590438913512.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 120,
+                        "question_id": 508
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 508,
+                "questionary_id": 267546,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11997,
+            "institution_id": 196,
+            "description": "Assinale a alternativa que corresponde às posições mais ideais dos eletrodos para desfibrilação durante manobras de reanimação cardiorrespiratória:",
+            "difficulty": "hard",
+            "year": "2011-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-11-13T22:24:43.000Z",
+            "updated_at": "2021-11-13T22:24:43.000Z",
+            "user_id": 345,
+            "is_residency": false,
+            "institution": {
+                "id": 196,
+                "title": "UFF-RJ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-11-24T00:36:59.000Z",
+                "updated_at": "2020-11-24T00:36:59.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 63,
+                    "title": "Parada Cardiorrespiratória",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-25T22:11:03.000Z",
+                    "updated_at": "2020-05-25T22:11:03.000Z",
+                    "pivot": {
+                        "discipline_id": 63,
+                        "question_id": 11997
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 49115,
+                    "question_id": 11997,
+                    "description": "Infraclavicular direita e infraclavicular esquerda",
+                    "explanation": "Falso, Doc! 🙊 Vamos revisar o posicionamento das pás ou adesivos da desfibrilação com um resumo e uma imagem?\n- **Posicionamento anteroapical**: É O MAIS UTILIZADO. Uma pá na região inframamária esquerda (ápice do coração) e outra na região infraclavicular direita. **Está representado na imagem a seguir**\n- **Posicionamento anteroposterior**: Uma pá na região paraesternal esquerda e outra na região infraescapular esquerda\n- **Posicionamento posteroapical**: Uma pá na reogião precordial e outra na região infraescapular esquerda\n- Fonte: VELASCO, Irineu Tadeu; BRANDãO NETO, Rodrigo Antonio; SOUZA, Heraldo Possolo de; MARINO, Lucas Oliveira; MARCHINI, Julio Flávio Meirelles; ALENCAR, Júlio César Garcia de. **Medicina de Emergência: Abordagem prática**. USP. 15ª Ed, 2021 ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-11-13T19:24:43.000Z",
+                    "updated_at": "2021-11-13T19:24:43.000Z",
+                    "files": [
+                        {
+                            "id": 23281,
+                            "file": "e5902be9-a2a4-4da6-8eb1-e20d7d0d2c6f.png",
+                            "name": "4. PCR 2.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-13T19:22:21.000Z",
+                            "updated_at": "2021-11-13T19:22:21.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e5902be9-a2a4-4da6-8eb1-e20d7d0d2c6f.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23281,
+                                "alternative_id": 49115
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 49116,
+                    "question_id": 11997,
+                    "description": "Infraclavicular direita e inframamária esquerda",
+                    "explanation": "Correto, Doc! 😍 Mandou bem! Vamos revisar o posicionamento das pás ou adesivos da desfibrilação com um resumo e uma imagem?\n- **Posicionamento anteroapical**: É O MAIS UTILIZADO. Uma pá na região inframamária esquerda (ápice do coração) e outra na região infraclavicular direita. **Está representado na imagem a seguir**\n- **Posicionamento anteroposterior**: Uma pá na região paraesternal esquerda e outra na região infraescapular esquerda\n- **Posicionamento posteroapical**: Uma pá na reogião precordial e outra na região infraescapular esquerda\n- Fonte: VELASCO, Irineu Tadeu; BRANDãO NETO, Rodrigo Antonio; SOUZA, Heraldo Possolo de; MARINO, Lucas Oliveira; MARCHINI, Julio Flávio Meirelles; ALENCAR, Júlio César Garcia de. **Medicina de Emergência: Abordagem prática**. USP. 15ª Ed, 2021 ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-11-13T19:24:43.000Z",
+                    "updated_at": "2021-11-13T19:24:43.000Z",
+                    "files": [
+                        {
+                            "id": 23281,
+                            "file": "e5902be9-a2a4-4da6-8eb1-e20d7d0d2c6f.png",
+                            "name": "4. PCR 2.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-13T19:22:21.000Z",
+                            "updated_at": "2021-11-13T19:22:21.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e5902be9-a2a4-4da6-8eb1-e20d7d0d2c6f.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23281,
+                                "alternative_id": 49116
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 49117,
+                    "question_id": 11997,
+                    "description": "Supraesternal e inframamária esquerda",
+                    "explanation": "Falso, Doc! 🙊 Vamos revisar o posicionamento das pás ou adesivos da desfibrilação com um resumo e uma imagem?\n- **Posicionamento anteroapical**: É O MAIS UTILIZADO. Uma pá na região inframamária esquerda (ápice do coração) e outra na região infraclavicular direita. **Está representado na imagem a seguir**\n- **Posicionamento anteroposterior**: Uma pá na região paraesternal esquerda e outra na região infraescapular esquerda\n- **Posicionamento posteroapical**: Uma pá na reogião precordial e outra na região infraescapular esquerda\n- Fonte: VELASCO, Irineu Tadeu; BRANDãO NETO, Rodrigo Antonio; SOUZA, Heraldo Possolo de; MARINO, Lucas Oliveira; MARCHINI, Julio Flávio Meirelles; ALENCAR, Júlio César Garcia de. **Medicina de Emergência: Abordagem prática**. USP. 15ª Ed, 2021  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-11-13T19:24:43.000Z",
+                    "updated_at": "2021-11-13T19:24:43.000Z",
+                    "files": [
+                        {
+                            "id": 23281,
+                            "file": "e5902be9-a2a4-4da6-8eb1-e20d7d0d2c6f.png",
+                            "name": "4. PCR 2.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-13T19:22:21.000Z",
+                            "updated_at": "2021-11-13T19:22:21.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e5902be9-a2a4-4da6-8eb1-e20d7d0d2c6f.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23281,
+                                "alternative_id": 49117
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 49118,
+                    "question_id": 11997,
+                    "description": "Supraesternal e infraescapular esquerda",
+                    "explanation": "Falso, Doc! 🙊 Vamos revisar o posicionamento das pás ou adesivos da desfibrilação com um resumo e uma imagem?\n- **Posicionamento anteroapical**: É O MAIS UTILIZADO. Uma pá na região inframamária esquerda (ápice do coração) e outra na região infraclavicular direita. **Está representado na imagem a seguir**\n- **Posicionamento anteroposterior**: Uma pá na região paraesternal esquerda e outra na região infraescapular esquerda\n- **Posicionamento posteroapical**: Uma pá na reogião precordial e outra na região infraescapular esquerda\n- Fonte: VELASCO, Irineu Tadeu; BRANDãO NETO, Rodrigo Antonio; SOUZA, Heraldo Possolo de; MARINO, Lucas Oliveira; MARCHINI, Julio Flávio Meirelles; ALENCAR, Júlio César Garcia de. **Medicina de Emergência: Abordagem prática**. USP. 15ª Ed, 2021  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-11-13T19:24:43.000Z",
+                    "updated_at": "2021-11-13T19:24:43.000Z",
+                    "files": [
+                        {
+                            "id": 23281,
+                            "file": "e5902be9-a2a4-4da6-8eb1-e20d7d0d2c6f.png",
+                            "name": "4. PCR 2.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-13T19:22:21.000Z",
+                            "updated_at": "2021-11-13T19:22:21.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e5902be9-a2a4-4da6-8eb1-e20d7d0d2c6f.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23281,
+                                "alternative_id": 49118
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11997,
+                "questionary_id": 267546,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11998,
+            "institution_id": 521,
+            "description": "Conforme os últimos guidelines do atendimento da parada cardiorrespiratória da American Heart Association (AHA), em que momento do protocolo de atendimento da assistolia a atropina deve ser utilizada?",
+            "difficulty": "hard",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-11-13T22:32:10.000Z",
+            "updated_at": "2021-11-13T22:32:10.000Z",
+            "user_id": 345,
+            "is_residency": false,
+            "institution": {
+                "id": 521,
+                "title": "HOSPITAL EVANGÉLICO DE CACHOEIRO DE ITAPEMIRIM - ES",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-11-13T19:32:10.000Z",
+                "updated_at": "2021-11-13T19:32:10.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 63,
+                    "title": "Parada Cardiorrespiratória",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-25T22:11:03.000Z",
+                    "updated_at": "2020-05-25T22:11:03.000Z",
+                    "pivot": {
+                        "discipline_id": 63,
+                        "question_id": 11998
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 49119,
+                    "question_id": 11998,
+                    "description": "Assim que identificada no monitor",
+                    "explanation": "Falso, Doc! 😣 Era uma pegadinha! 🙉 Doc, a atropina foi retirada do protocolo ACLS em 2015 por não apresentar benefício terapêutico em Assistolias ou em Atividades Elétricas Sem Pulso (AESP) 😉 \n\n- 🔔: Outra droga que também foi retirada pelo ACLS 2015 foi a vasopressina, por não apresentar vantagens combina ou em substituição a dose de epinefrina! ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-11-13T19:32:10.000Z",
+                    "updated_at": "2021-11-13T19:32:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 49120,
+                    "question_id": 11998,
+                    "description": "Não deve ser usada rotineiramente neste protocolo",
+                    "explanation": "Está correto, Doc! Arrasou! Era uma pegadinha! 😁 Doc, a atropina foi retirada do protocolo ACLS em 2015 por não apresentar benefício terapêutico em Assistolias ou em Atividades Elétricas Sem Pulso (AESP) 😉\n\n- 🔔: Outra droga que também foi retirada pelo ACLS 2015 foi a vasopressina, por não apresentar vantagens combina ou em substituição a dose de epinefrina! ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-11-13T19:32:10.000Z",
+                    "updated_at": "2021-11-13T19:32:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 49121,
+                    "question_id": 11998,
+                    "description": "Após a passagem do ritmo não chocável para o ritmo chocável",
+                    "explanation": "Falso, Doc! 😣 Era uma pegadinha! 🙉 Doc, a atropina foi retirada do protocolo ACLS em 2015 por não apresentar benefício terapêutico em Assistolias ou em Atividades Elétricas Sem Pulso (AESP) 😉 \n\n- 🔔: Outra droga que também foi retirada pelo ACLS 2015 foi a vasopressina, por não apresentar vantagens combina ou em substituição a dose de epinefrina! ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-11-13T19:32:10.000Z",
+                    "updated_at": "2021-11-13T19:32:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 49122,
+                    "question_id": 11998,
+                    "description": "Após o segundo ciclo de ressuscitação cardiopulmonar",
+                    "explanation": "Falso, Doc! 😣 Era uma pegadinha! 🙉 Doc, a atropina foi retirada do protocolo ACLS em 2015 por não apresentar benefício terapêutico em Assistolias ou em Atividades Elétricas Sem Pulso (AESP) 😉 \n\n- 🔔: Outra droga que também foi retirada pelo ACLS 2015 foi a vasopressina, por não apresentar vantagens combina ou em substituição a dose de epinefrina! ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-11-13T19:32:10.000Z",
+                    "updated_at": "2021-11-13T19:32:10.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11998,
+                "questionary_id": 267546,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11999,
+            "institution_id": 522,
+            "description": "São medicações que podem ser utilizadas via endotraqueal, EXCETO:",
+            "difficulty": "hard",
+            "year": "2007-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-11-13T19:37:42.000Z",
+            "updated_at": "2021-11-13T19:37:42.000Z",
+            "user_id": 345,
+            "is_residency": false,
+            "institution": {
+                "id": 522,
+                "title": "HOSPITAL SÍRIO LIBANÊS - HSL",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-11-13T19:37:42.000Z",
+                "updated_at": "2021-11-13T19:37:42.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 63,
+                    "title": "Parada Cardiorrespiratória",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-25T22:11:03.000Z",
+                    "updated_at": "2020-05-25T22:11:03.000Z",
+                    "pivot": {
+                        "discipline_id": 63,
+                        "question_id": 11999
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 49123,
+                    "question_id": 11999,
+                    "description": "Adrenalina",
+                    "explanation": "Falso, Doc! 🙉Essa é uma questão clássica, então, lembre-se que pela via endotraqueal pode ser utilizado as drogas do mnemônico VANEL: Vasopressina, Atropina, Naloxona, Epinefrina e Lidocaína. 😉 Lembre-se, também, que desde o protocolo ACLS 2015 a vasopressina e a atropina não são utilizadas em nenhuma situação do PCR! 😍  ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-11-13T19:37:42.000Z",
+                    "updated_at": "2021-11-13T19:37:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 49124,
+                    "question_id": 11999,
+                    "description": "Lidocaína",
+                    "explanation": "Falso, Doc! 🙉Essa é uma questão clássica, então, lembre-se que pela via endotraqueal pode ser utilizado as drogas do mnemônico VANEL: Vasopressina, Atropina, Naloxona, Epinefrina e Lidocaína. 😉 Lembre-se, também, que desde o protocolo ACLS 2015 a vasopressina e a atropina não são utilizadas em nenhuma situação do PCR! 😍 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-11-13T19:37:42.000Z",
+                    "updated_at": "2021-11-13T19:37:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 49125,
+                    "question_id": 11999,
+                    "description": "Amiodarona",
+                    "explanation": "Correto, Doc! Mandou bem! 😁 Essa é uma questão clássica, então, lembre-se que pela via endotraqueal pode ser utilizado as drogas do mnemônico VANEL: Vasopressina, Atropina, Naloxona, Epinefrina e Lidocaína. 😉 Lembre-se, também, que desde o protocolo ACLS 2015 a vasopressina e a atropina não são utilizadas em nenhuma situação do PCR! 😍",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-11-13T19:37:42.000Z",
+                    "updated_at": "2021-11-13T19:37:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 49126,
+                    "question_id": 11999,
+                    "description": "Atropina",
+                    "explanation": "Falso, Doc! 🙉Essa é uma questão clássica, então, lembre-se que pela via endotraqueal pode ser utilizado as drogas do mnemônico VANEL: Vasopressina, Atropina, Naloxona, Epinefrina e Lidocaína. 😉 Lembre-se, também, que desde o protocolo ACLS 2015 a vasopressina e a atropina não são utilizadas em nenhuma situação do PCR! 😍  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-11-13T19:37:42.000Z",
+                    "updated_at": "2021-11-13T19:37:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 49127,
+                    "question_id": 11999,
+                    "description": "Vasopressina",
+                    "explanation": "Falso, Doc! 🙉Essa é uma questão clássica, então, lembre-se que pela via endotraqueal pode ser utilizado as drogas do mnemônico VANEL: Vasopressina, Atropina, Naloxona, Epinefrina e Lidocaína. 😉 Lembre-se, também, que desde o protocolo ACLS 2015 a vasopressina e a atropina não são utilizadas em nenhuma situação do PCR! 😍  ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-11-13T19:37:42.000Z",
+                    "updated_at": "2021-11-13T19:37:42.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11999,
+                "questionary_id": 267546,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12000,
+            "institution_id": 394,
+            "description": "Na parada cardiorrespiratória por taquicardia ventricular polimórfica, com intervalo QT prolongado, o tratamento preconizado é:",
+            "difficulty": "hard",
+            "year": "2007-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-11-13T23:08:49.000Z",
+            "updated_at": "2021-11-13T23:08:49.000Z",
+            "user_id": 345,
+            "is_residency": false,
+            "institution": {
+                "id": 394,
+                "title": "FUNDAÇÃO JOÃO GOULART – HOSPITAIS  MUNICIPAIS – RJ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-07-04T20:59:05.000Z",
+                "updated_at": "2021-07-04T20:59:05.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 63,
+                    "title": "Parada Cardiorrespiratória",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-25T22:11:03.000Z",
+                    "updated_at": "2020-05-25T22:11:03.000Z",
+                    "pivot": {
+                        "discipline_id": 63,
+                        "question_id": 12000
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 49128,
+                    "question_id": 12000,
+                    "description": "Sotalol",
+                    "explanation": "Falso, Doc! 🙊 Questão direta e que se trata de uma situação específica. Em caso de Torsades de Pointes em ECG (é definida como um tipo especial de taquicardia ventricular (TV) polimórfica, de natureza paroxística, em que os complexos QRS invertem sua polaridade de tal forma que parecem estar girando em torno do seu eixo), como no traçado da imagem a seguir, deve-se administrar 1 a 2g de sulfato de magnésio! 😁 \n\n- Fonte da imagem: https://cardiopapers.com.br/desafio-ecg-2/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-11-13T20:08:49.000Z",
+                    "updated_at": "2021-11-13T20:08:49.000Z",
+                    "files": [
+                        {
+                            "id": 23282,
+                            "file": "dc7129f9-75ca-4e0d-ae69-f50bb041c0b0.jpeg",
+                            "name": "4. PCR 3.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-13T20:08:07.000Z",
+                            "updated_at": "2021-11-13T20:08:07.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/dc7129f9-75ca-4e0d-ae69-f50bb041c0b0.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23282,
+                                "alternative_id": 49128
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 49129,
+                    "question_id": 12000,
+                    "description": "Magnésio",
+                    "explanation": "Correto, Doc! Arrasou! 😍 Questão direta e que se trata de uma situação específica. Em caso de Torsades de Pointes em ECG (é definida como um tipo especial de taquicardia ventricular (TV) polimórfica, de natureza paroxística, em que os complexos QRS invertem sua polaridade de tal forma que parecem estar girando em torno do seu eixo), como no traçado da imagem a seguir, deve-se administrar 1 a 2g de sulfato de magnésio! 😁\n\n- Fonte da imagem: https://cardiopapers.com.br/desafio-ecg-2/ ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-11-13T20:08:49.000Z",
+                    "updated_at": "2021-11-13T20:08:49.000Z",
+                    "files": [
+                        {
+                            "id": 23282,
+                            "file": "dc7129f9-75ca-4e0d-ae69-f50bb041c0b0.jpeg",
+                            "name": "4. PCR 3.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-13T20:08:07.000Z",
+                            "updated_at": "2021-11-13T20:08:07.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/dc7129f9-75ca-4e0d-ae69-f50bb041c0b0.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23282,
+                                "alternative_id": 49129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 49130,
+                    "question_id": 12000,
+                    "description": "Amiodarona",
+                    "explanation": "Falso, Doc! 🙊 Questão direta e que se trata de uma situação específica. Em caso de Torsades de Pointes em ECG (é definida como um tipo especial de taquicardia ventricular (TV) polimórfica, de natureza paroxística, em que os complexos QRS invertem sua polaridade de tal forma que parecem estar girando em torno do seu eixo), como no traçado da imagem a seguir, deve-se administrar 1 a 2g de sulfato de magnésio! 😁  \n\n- Fonte da imagem: https://cardiopapers.com.br/desafio-ecg-2/ ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-11-13T20:08:49.000Z",
+                    "updated_at": "2021-11-13T20:08:49.000Z",
+                    "files": [
+                        {
+                            "id": 23282,
+                            "file": "dc7129f9-75ca-4e0d-ae69-f50bb041c0b0.jpeg",
+                            "name": "4. PCR 3.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-13T20:08:07.000Z",
+                            "updated_at": "2021-11-13T20:08:07.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/dc7129f9-75ca-4e0d-ae69-f50bb041c0b0.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23282,
+                                "alternative_id": 49130
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 49131,
+                    "question_id": 12000,
+                    "description": "Procainamida",
+                    "explanation": "Falso, Doc! 🙊 Questão direta e que se trata de uma situação específica. Em caso de Torsades de Pointes em ECG (é definida como um tipo especial de taquicardia ventricular (TV) polimórfica, de natureza paroxística, em que os complexos QRS invertem sua polaridade de tal forma que parecem estar girando em torno do seu eixo), como no traçado da imagem a seguir, deve-se administrar 1 a 2g de sulfato de magnésio! 😁  \n\n- Fonte da imagem: https://cardiopapers.com.br/desafio-ecg-2/ ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-11-13T20:08:49.000Z",
+                    "updated_at": "2021-11-13T20:08:49.000Z",
+                    "files": [
+                        {
+                            "id": 23282,
+                            "file": "dc7129f9-75ca-4e0d-ae69-f50bb041c0b0.jpeg",
+                            "name": "4. PCR 3.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-13T20:08:07.000Z",
+                            "updated_at": "2021-11-13T20:08:07.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/dc7129f9-75ca-4e0d-ae69-f50bb041c0b0.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23282,
+                                "alternative_id": 49131
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12000,
+                "questionary_id": 267546,
+                "timer": 0
+            }
+        }
+    ]
+}

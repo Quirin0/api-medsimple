@@ -1,0 +1,3274 @@
+{
+    "id": 267563,
+    "user_id": 1699,
+    "title": "Fibrilação Atrial",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T02:30:32.000Z",
+    "updated_at": "2022-07-11T02:30:32.000Z",
+    "study_plan_id": 677,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 1508,
+            "institution_id": 4,
+            "description": "Quais dos seguintes escores é utilizado para estimar o risco de um paciente com arritmia cardíaca ter um evento tromboembólico?",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-09T06:50:16.000Z",
+            "updated_at": "2022-01-12T20:40:33.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 1508
+                    }
+                },
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 1508
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6197,
+                    "question_id": 1508,
+                    "description": "HASBLED",
+                    "explanation": "Falso doc! Quase! O HASBLED é um escore que indica o risco de sangramento em pacientes que fazem uso de anticoagulantes para FA. Você conhece esse escore? Se liga nisso👇\n- Fonte: [https://www.researchgate.net/figure/The-HAS-BLeD-score-for-bleeding-risk_tbl1_221694340](https://www.researchgate.net/figure/The-HAS-BLeD-score-for-bleeding-risk_tbl1_221694340)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:50:16.000Z",
+                    "updated_at": "2022-01-12T17:40:33.000Z",
+                    "files": [
+                        {
+                            "id": 10035,
+                            "file": "bff5a2fd-731d-4a24-8b22-592f92b0773d.png",
+                            "name": "The-HAS-BLeD-score-for-bleeding-risk.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-04T21:39:03.000Z",
+                            "updated_at": "2021-06-04T21:39:03.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/bff5a2fd-731d-4a24-8b22-592f92b0773d.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10035,
+                                "alternative_id": 6197
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6198,
+                    "question_id": 1508,
+                    "description": "CHA2DS2VASc",
+                    "explanation": "Perfeito doc! Arrasou! 😁 Saca só👇\n- 0 pontos=>  não há necessidade de uso de medicação anticoagulante\n- 1 ponto=> a critério médico, pode-se prescrever anticoagulante ou antiagregante plaquetário.\n- 2 pontos ou mais =>  indica a anticoagulação.\n- Doc, se liga nessa tabelinha resumindo esse escore👇\n\n\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-09T03:50:16.000Z",
+                    "updated_at": "2022-01-12T17:40:33.000Z",
+                    "files": [
+                        {
+                            "id": 376,
+                            "file": "1591674610033.jpeg",
+                            "name": "773e1e6cc68c32da070e2aaf97a9eadc.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-09T06:50:11.000Z",
+                            "updated_at": "2020-06-09T06:50:11.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591674610033.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 376,
+                                "alternative_id": 6198
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6199,
+                    "question_id": 1508,
+                    "description": "TIMI ",
+                    "explanation": "Falso doc! O TIMI é um escore de gravidade de síndrome coronariana aguda! Você conhece esse escore doc? Se liga nisso👇\n- Fonte: https://cardiopapers.com.br/escore-timi-para-avaliacao-de-risco-de-sindromes-coronarianas-agudas-sem-supra-de-st/",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:50:16.000Z",
+                    "updated_at": "2022-01-12T17:40:33.000Z",
+                    "files": [
+                        {
+                            "id": 10036,
+                            "file": "213761a0-7695-4731-b68f-8ff4cdb7c426.png",
+                            "name": "timi.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-04T21:43:25.000Z",
+                            "updated_at": "2021-06-04T21:43:25.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/213761a0-7695-4731-b68f-8ff4cdb7c426.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10036,
+                                "alternative_id": 6199
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6200,
+                    "question_id": 1508,
+                    "description": "Ranson",
+                    "explanation": "Falso doc! Pegadinha do malandro! 😋Ranson é um escore de gravidade da pancreatite aguda! Mas já que falamos nele, se liga nesse escore👇",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:50:16.000Z",
+                    "updated_at": "2022-01-12T17:40:33.000Z",
+                    "files": [
+                        {
+                            "id": 10037,
+                            "file": "9a6c3631-5bcf-4d36-aaf4-467754f3a663.jpeg",
+                            "name": "sanar-1-6.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T21:45:05.000Z",
+                            "updated_at": "2021-06-04T21:45:05.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9a6c3631-5bcf-4d36-aaf4-467754f3a663.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10037,
+                                "alternative_id": 6200
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1508,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1674,
+            "institution_id": 4,
+            "description": "Sobre a classificação da Fibrilação atrial (FA), assinale a alternativa INCORRETA:",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-12T04:27:54.000Z",
+            "updated_at": "2022-01-12T20:31:40.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 1674
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6880,
+                    "question_id": 1674,
+                    "description": "FA não valvar é quando há fibrilação atrial na ausência de doenças valvares",
+                    "explanation": "Perfeito doc! 😁 O nome já é auto-explicativo, pois é quando temos FA sem prótese valvar ou qualquer doença valvar!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:27:54.000Z",
+                    "updated_at": "2022-01-12T17:31:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6881,
+                    "question_id": 1674,
+                    "description": "FA paroxística é quando temos um episódio de fibrilação atrial com duração menor que 7 dias",
+                    "explanation": "Perfeito doc! 😁A FA paroxística também é dita \"autolimitada\", já que se resolve espontaneamente em um período menor que 7 dias!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:27:54.000Z",
+                    "updated_at": "2022-01-12T17:31:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6882,
+                    "question_id": 1674,
+                    "description": "FA persistente é quando temos um episódio de FA com duração maior que 7 dias",
+                    "explanation": "Perfeito doc! 😁 Como o nome já diz, a FA persistente é quando \"persiste\" por mais de 7 dias!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:27:54.000Z",
+                    "updated_at": "2022-01-12T17:31:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6883,
+                    "question_id": 1674,
+                    "description": "FA permanente é quando a fibrilação atrial permanece por mais de 1 ano",
+                    "explanation": "Falso doc! Pegadinha😋 Vimos na alternativa \"c\" que a FA persistente é aquela que dura mais de 7 dias. Quando a FA durar mais do que 1 ano, chamamos de **FA PERSISTENTE DE LONGA DURAÇÃO**. A FA **permanent**e é aquela que permanece após tentativa de cardioversão ou, ainda, quando o médico e o paciente optaram por não realizar cardioversão! Doc, você já viu uma FA em um ECG? Se liga nisso (note na seta azul a presença de onda P, em um ECG normal, e na seta vermelha a ausência de onda P, característico de FA)👇\n- Fonte: https://cardiopapers.com.br/novo-guideline-de-f-aha-2014/",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-12T01:27:54.000Z",
+                    "updated_at": "2022-01-12T17:31:40.000Z",
+                    "files": [
+                        {
+                            "id": 10040,
+                            "file": "a775919f-bc62-4138-8bec-7ea99ef1046f.jpeg",
+                            "name": "Afib_ecg.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T22:17:40.000Z",
+                            "updated_at": "2021-06-04T22:17:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a775919f-bc62-4138-8bec-7ea99ef1046f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10040,
+                                "alternative_id": 6883
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1674,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7816,
+            "institution_id": 4,
+            "description": "No eletrocardiograma, qual um achado característico de fibrilação atrial?",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-06T00:14:34.000Z",
+            "updated_at": "2021-05-06T00:14:34.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 7816
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 32097,
+                    "question_id": 7816,
+                    "description": "Ondas f",
+                    "explanation": "Certinho, Doc! 😉 As ondas f (minúsculo, Doc! Dá uma olhada no comentário da outra alternativa pra aprender a diferenciar das F maiúsculas) são características da fibrilação atrial, e porque a despolarização atrial acontece de forma caótica, com inúmeros focos diferentes de **microreentrad**a, geralmente no **átrio esquerd**o. \n- Você pode identificar que um **serrilhado** substitui a linha de base isoelétrica. \n- As ondas f que possuem **morfologias diferentes** (afinal, cada uma surge de locais distintos) e com **intervalo irregular**\n- Às vezes é difícil ver o serrilhado, mas fique atento à **ausência de onda P,** que vai te ajudar a suspeitar de FA\nDá uma olhada nessa imagem mostrando um ECG de FA com ondas f e a diferença entre ondas f e F, Doc 👇:\n\nFonte das imagens: [http://www.mairimed.com/artigos/fibrilacao-atrial/](http://www.mairimed.com/artigos/fibrilacao-atrial/)  e [https://cardiopapers.com.br/qual-a-diferenca-das-ondas-f-do-flutter-para-as-ondas-f-da-fa/](https://cardiopapers.com.br/qual-a-diferenca-das-ondas-f-do-flutter-para-as-ondas-f-da-fa/)",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-05-05T21:14:34.000Z",
+                    "updated_at": "2021-05-05T21:14:34.000Z",
+                    "files": [
+                        {
+                            "id": 8254,
+                            "file": "2d0fd269-b0b0-4c02-9ca0-d7ff8e7ab0f7.png",
+                            "name": "ondas-F.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-06T00:00:16.000Z",
+                            "updated_at": "2021-05-06T00:00:16.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2d0fd269-b0b0-4c02-9ca0-d7ff8e7ab0f7.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8254,
+                                "alternative_id": 32097
+                            }
+                        },
+                        {
+                            "id": 8253,
+                            "file": "6c2a8203-405c-48db-87f2-22682cce63ef.png",
+                            "name": "FA1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-06T00:00:15.000Z",
+                            "updated_at": "2021-05-06T00:00:15.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/6c2a8203-405c-48db-87f2-22682cce63ef.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8253,
+                                "alternative_id": 32097
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 32098,
+                    "question_id": 7816,
+                    "description": "Ondas F",
+                    "explanation": "Falso, Doc! As ondas F (maiúsculo!) aparecem no flutter atrial, e não na fibrilação. \n- normalmente o problema está no átrio **direito**, por um mecanismo de **macroreentrada**. \n- os átrios acabam sendo despolarizados com a mesma frequência e pela mesma via. Com isso, as ondas F sempre têm a **mesma morfologia** e com **intervalo regular** entre elas, além de serem maiores que as ondas f.\nDoc, se liga nessas imagens para entender como são as ondas F e qual a diferença delas para as ondas f! 👇\n\nFonte das imagens: https://www.msdmanuals.com/pt/profissional/multimedia/image/CVS_atrial_flutter_pt e https://cardiopapers.com.br/qual-a-diferenca-das-ondas-f-do-flutter-para-as-ondas-f-da-fa/",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-05T21:14:34.000Z",
+                    "updated_at": "2021-05-05T21:14:34.000Z",
+                    "files": [
+                        {
+                            "id": 8255,
+                            "file": "2ded4d16-3cd5-42ac-baac-5981281aaeb1.png",
+                            "name": "flutter.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-06T00:09:55.000Z",
+                            "updated_at": "2021-05-06T00:09:55.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2ded4d16-3cd5-42ac-baac-5981281aaeb1.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8255,
+                                "alternative_id": 32098
+                            }
+                        },
+                        {
+                            "id": 8254,
+                            "file": "2d0fd269-b0b0-4c02-9ca0-d7ff8e7ab0f7.png",
+                            "name": "ondas-F.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-06T00:00:16.000Z",
+                            "updated_at": "2021-05-06T00:00:16.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2d0fd269-b0b0-4c02-9ca0-d7ff8e7ab0f7.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8254,
+                                "alternative_id": 32098
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 32099,
+                    "question_id": 7816,
+                    "description": "Taquicardia com QRS estreito e ausência de ondas P",
+                    "explanation": "Falso, Doc! A causa mais comum da alteração descrita é a taquicardia por dupla via nodal (DVN)/reentrante juncional, também chamada de taquicardia por reentrada nodal. Ela é a causa mais frequente de taquicardia supraventricular paroxística (70%)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-05T21:14:34.000Z",
+                    "updated_at": "2021-05-05T21:14:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32100,
+                    "question_id": 7816,
+                    "description": "Onda P com duração maior que 0,11 segundos",
+                    "explanation": "Falso, Doc! \n- Onda P com duração aumentada e bífida  ➞   sobrecarda do átrio esquerdo\n- Onda P com amplitude aumentada e apiculada  ➞  sobrecarga do átrio direito\nSe liga nessa imagem pra relembrar as sobrecargas! 👇\n\nFonte da imagem: https://cardiopapers.com.br/curso-basico-de-eletrocardiograma-parte-08-sobrecargas-atrias/",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-05T21:14:34.000Z",
+                    "updated_at": "2021-05-05T21:14:34.000Z",
+                    "files": [
+                        {
+                            "id": 8257,
+                            "file": "83785000-70b2-49c7-ab94-a1b545553e3a.jpeg",
+                            "name": "onda P.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-06T00:14:13.000Z",
+                            "updated_at": "2021-05-06T00:14:13.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/83785000-70b2-49c7-ab94-a1b545553e3a.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8257,
+                                "alternative_id": 32100
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7816,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7817,
+            "institution_id": 4,
+            "description": "Sobre a fibrilação atrial, assinale a alternativa **INCORRETA:**",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-06T00:21:30.000Z",
+            "updated_at": "2022-04-11T23:37:31.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 7817
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 32101,
+                    "question_id": 7817,
+                    "description": "É a arritmia mais comum em idosos",
+                    "explanation": "Certo, Doc! Inclusive a prevalência aumenta com a idade e em indivíduos com mais de 80 anos, chega a 8%.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-05T21:21:30.000Z",
+                    "updated_at": "2022-04-11T23:37:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32102,
+                    "question_id": 7817,
+                    "description": "É a alteração presente na chamada holyday syndrome",
+                    "explanation": "Isso mesmo, Doc! O que acontece é que abuso de álcool pode desencadear fibrilação atrial e, como no feriado é comum o pessoal exagerar na bebida, chegam muitos pacientes com fibrilação atrial, daí o nome holyday syndrome (síndrome do feriado)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-05T21:21:30.000Z",
+                    "updated_at": "2022-04-11T23:37:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32103,
+                    "question_id": 7817,
+                    "description": "Pode ocorrer em pacientes com estenose mitral, embora seja rara nesses casos",
+                    "explanation": "Falso, Doc! A FA é a arritmia mais comum em pacientes com EM",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-05-05T21:21:30.000Z",
+                    "updated_at": "2022-04-11T23:37:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32104,
+                    "question_id": 7817,
+                    "description": "É a arritmia cardíaca mais frequente de todas",
+                    "explanation": "Exatamente, Doc! E corresponde a 30% das internações por alterações do ritmo cardíaco.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-05T21:21:30.000Z",
+                    "updated_at": "2022-04-11T23:37:31.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7817,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1505,
+            "institution_id": 4,
+            "description": "Qual é a arritmia sustentada mais comum na população?",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-09T03:32:41.000Z",
+            "updated_at": "2022-01-12T17:29:16.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 1505
+                    }
+                },
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 1505
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6185,
+                    "question_id": 1505,
+                    "description": "Flutter atrial",
+                    "explanation": "Falso doc! 😋Apesar de não ser incomum e ter o mecanismo de reentrada semelhante ao da fibrilação atrial, a fibrilação atrial é uma arritmia mais comum do que o flutter! Doc, mas falando nisso, você já viu um flutter atrial? Se liga nesse ECG mostrando as famosas \"ondas F\" do flutter👇\n- Fonte: https://breakem.org/2019/08/01/taquicardias/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:32:42.000Z",
+                    "updated_at": "2022-01-12T17:29:16.000Z",
+                    "files": [
+                        {
+                            "id": 10042,
+                            "file": "bddc55ad-5d3c-4b47-a2e5-57bc856e9395.png",
+                            "name": "6-flutter.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-04T22:26:22.000Z",
+                            "updated_at": "2021-06-04T22:26:22.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/bddc55ad-5d3c-4b47-a2e5-57bc856e9395.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10042,
+                                "alternative_id": 6185
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6186,
+                    "question_id": 1505,
+                    "description": "Síndrome de Brugada",
+                    "explanation": "Falso doc! 😋 A síndrome de Brugada é uma causa importante de morte súbita, mas é rara! ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:32:42.000Z",
+                    "updated_at": "2022-01-12T17:29:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6187,
+                    "question_id": 1505,
+                    "description": "Wolff Parkinson White (WPW)",
+                    "explanation": "Falso doc! 😋A síndrome de WPW **não** é a arritmia mais comum. Ela caracteriza-se pela presença de uma via acessória, causando episódios de palpitação, normalmente em indivíduos jovens. Ao ECG, observamos intervalo PR curto e a presença de onda delta. Se liga nessa imagem caracterizando esses achados em um ECG (a setinha está mostrando a famosa onda delta)👇\n- Fonte: https://pt.wikipedia.org/wiki/S%C3%ADndrome_de_Wolff-Parkinson-White",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:32:42.000Z",
+                    "updated_at": "2022-01-12T17:29:16.000Z",
+                    "files": [
+                        {
+                            "id": 10041,
+                            "file": "4da1d33c-2cc7-45d0-a24d-b72a641555ce.jpeg",
+                            "name": "0000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T22:24:06.000Z",
+                            "updated_at": "2021-06-04T22:24:06.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4da1d33c-2cc7-45d0-a24d-b72a641555ce.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10041,
+                                "alternative_id": 6187
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6188,
+                    "question_id": 1505,
+                    "description": "Fibrilação atrial",
+                    "explanation": "Perfeito doc! Arrasou!😁 A Fibrilação Atrial é a taquicardia sustentada mais comum na população, sendo mais prevalente em indivíduos do sexo masculinos e de idade avançada. A principal causa de fibrilação atrial é o remodelamento cardíaco devido a hipertensão arterial, seguido pelas valvopatias! Doc, mas falando nisso, você já viu uma FA em um ECG? Saca só essa imagem abaixo (setinha vermelha mostra ausência de onda P, característico da FA)👇\n- Fonte: https://cardiopapers.com.br/novo-guideline-de-f-aha-2014/",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-09T03:32:42.000Z",
+                    "updated_at": "2022-01-12T17:29:16.000Z",
+                    "files": [
+                        {
+                            "id": 10040,
+                            "file": "a775919f-bc62-4138-8bec-7ea99ef1046f.jpeg",
+                            "name": "Afib_ecg.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T22:17:40.000Z",
+                            "updated_at": "2021-06-04T22:17:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a775919f-bc62-4138-8bec-7ea99ef1046f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10040,
+                                "alternative_id": 6188
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1505,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1507,
+            "institution_id": 4,
+            "description": "Um quadro clínico de um paciente jovem que, após episódio de libação alcoólica, apresenta taquiarritmia de curso benigno, que melhora em 24 horas, é a descrição da seguinte condição:",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-09T03:45:21.000Z",
+            "updated_at": "2022-05-17T10:46:33.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 1507
+                    }
+                },
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 1507
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6193,
+                    "question_id": 1507,
+                    "description": "Fibrilação atrial.",
+                    "explanation": "- Falso, Doc! 🤔\n- A fibrilação atrial é a taquiarritmia mais comum nesse quadro, mas podem ocorrer outras!\n- Doc, você já viu uma FA em um ECG? Saca só (se liga na setinha vermelha mostrando a ausência de onda P, típica da FA)👇\n- Fonte: [https://cardiopapers.com.br/novo-guideline-de-f-aha-2014/](https://cardiopapers.com.br/novo-guideline-de-f-aha-2014/)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:45:21.000Z",
+                    "updated_at": "2022-05-17T10:46:33.000Z",
+                    "files": [
+                        {
+                            "id": 10040,
+                            "file": "a775919f-bc62-4138-8bec-7ea99ef1046f.jpeg",
+                            "name": "Afib_ecg.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T22:17:40.000Z",
+                            "updated_at": "2021-06-04T22:17:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a775919f-bc62-4138-8bec-7ea99ef1046f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10040,
+                                "alternative_id": 6193
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6194,
+                    "question_id": 1507,
+                    "description": "Taquicardia por reentrada nodal.",
+                    "explanation": "- Falso, Doc! 🤔\n- Apesar de poder ser uma das taquiarritmias nesse quadro, podem ocorrer outras, não sendo esse o nome da síndrome! \n- Doc, só para ilustrar, se liga nesse ECG mostrando uma taquicardia por reentrada nodal (preste atenção no pseudo S e pseudo R, que representam a despolarização atrial precoce pela reentrada)👇\n- Fonte: [http://www.mairimed.com/artigos/taquicardias/](http://www.mairimed.com/artigos/taquicardias/)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:45:21.000Z",
+                    "updated_at": "2022-05-17T10:46:33.000Z",
+                    "files": [
+                        {
+                            "id": 10044,
+                            "file": "1ca783ab-eec1-48dd-b6e9-e47ef5b50cf5.jpeg",
+                            "name": "000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T22:34:29.000Z",
+                            "updated_at": "2021-06-04T22:34:29.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1ca783ab-eec1-48dd-b6e9-e47ef5b50cf5.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10044,
+                                "alternative_id": 6194
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6195,
+                    "question_id": 1507,
+                    "description": "Flutter atrial.",
+                    "explanation": "- Falso, Doc! 🤔\n- Apesar de poder ser uma das taquiarritmias nesse quadro, podem ocorrer outras, não sendo esse o nome da síndrome descrita acima! \n- Doc, mas falando nisso, se liga nesse EGC de um paciente com flutter atrial (preste a atenção nas famosas \"ondas F\" do flutter)👇\n- Fonte: [https://breakem.org/2019/08/01/taquicardias/](https://breakem.org/2019/08/01/taquicardias/)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:45:21.000Z",
+                    "updated_at": "2022-05-17T10:46:33.000Z",
+                    "files": [
+                        {
+                            "id": 10042,
+                            "file": "bddc55ad-5d3c-4b47-a2e5-57bc856e9395.png",
+                            "name": "6-flutter.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-04T22:26:22.000Z",
+                            "updated_at": "2021-06-04T22:26:22.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/bddc55ad-5d3c-4b47-a2e5-57bc856e9395.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10042,
+                                "alternative_id": 6195
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6196,
+                    "question_id": 1507,
+                    "description": "Holiday Syndrome.",
+                    "explanation": "- Perfeito, Doc! Mandou bem demais! 😁 \n- Também chamada de Síndrome Pós-feriado, é caracterizada pela ocorrência de uma taquiarritmia, principalmente fibrilação atrial, após episódio de libação alcoólica, especialmente em indivíduos jovens.\n- O curso é benigno, resolvendo em até 24 horas espontaneamente. A explicação para esse fenômeno hipotetiza que o acetaldeído proveniente do álcool ativa o sistema nervoso simpático, que causa alterações na condução cardíaca, gerando taquiarritmias.\n- Doc, se liga nessa imagem esquematizando a fisiopatologia dessa síndrome👇\n- Fonte: [https://www.semanticscholar.org/paper/Holiday-Heart-Syndrome-Revisited-after-34-Years-Tonelo-Provid%C3%AAncia/468d76dec0e0d18fe0de3e541c67d848736e784d](https://www.semanticscholar.org/paper/Holiday-Heart-Syndrome-Revisited-after-34-Years-Tonelo-Provid%C3%AAncia/468d76dec0e0d18fe0de3e541c67d848736e784d)",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-09T03:45:21.000Z",
+                    "updated_at": "2022-05-17T10:46:33.000Z",
+                    "files": [
+                        {
+                            "id": 10043,
+                            "file": "da9bbd69-68e2-4765-8ecb-cacfc4e59b3e.png",
+                            "name": "3-Figure2-1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-04T22:30:55.000Z",
+                            "updated_at": "2021-06-04T22:30:55.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/da9bbd69-68e2-4765-8ecb-cacfc4e59b3e.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10043,
+                                "alternative_id": 6196
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1507,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1509,
+            "institution_id": 4,
+            "description": "Sobre o escore HASBLED, assinale a alternativa **INCORRETA:**",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-09T03:58:31.000Z",
+            "updated_at": "2022-06-27T19:39:29.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 1509
+                    }
+                },
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 1509
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6201,
+                    "question_id": 1509,
+                    "description": "Hipertensão e idade acima de 65 anos contam pontos no escore",
+                    "explanation": "Perfeito doc! 😁 A letra H representa Hypertension e a letra E representa Elderly (idade > 65 anos). Se liga nessa tabelinha doc👇\n- Fonte: [https://cardiopapers.com.br/qual-principal-funcao-do-escore-hasbled-na-fibrilacao-atrial/](https://cardiopapers.com.br/qual-principal-funcao-do-escore-hasbled-na-fibrilacao-atrial/)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:58:32.000Z",
+                    "updated_at": "2022-06-27T19:39:29.000Z",
+                    "files": [
+                        {
+                            "id": 10045,
+                            "file": "6ee8cf0d-0abe-4912-969d-401ac15c8366.png",
+                            "name": "hasbled.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-04T22:39:35.000Z",
+                            "updated_at": "2021-06-04T22:39:35.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/6ee8cf0d-0abe-4912-969d-401ac15c8366.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10045,
+                                "alternative_id": 6201
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6202,
+                    "question_id": 1509,
+                    "description": "Alteração em enzimas hepáticas e Sangramento prévio contam pontos no escore",
+                    "explanation": "Perfeito doc! 😁 A letra \"A\" representa \"Anormalidades hepáticas ou renais\" e a letra \"B\" representa \"Bleeding\" (sangramento prévio)! Se liga nessa tabelinha doc👇\n- Fonte: [https://cardiopapers.com.br/qual-principal-funcao-do-escore-hasbled-na-fibrilacao-atrial/](https://cardiopapers.com.br/qual-principal-funcao-do-escore-hasbled-na-fibrilacao-atrial/)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:58:32.000Z",
+                    "updated_at": "2022-06-27T19:39:29.000Z",
+                    "files": [
+                        {
+                            "id": 10045,
+                            "file": "6ee8cf0d-0abe-4912-969d-401ac15c8366.png",
+                            "name": "hasbled.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-04T22:39:35.000Z",
+                            "updated_at": "2021-06-04T22:39:35.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/6ee8cf0d-0abe-4912-969d-401ac15c8366.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10045,
+                                "alternative_id": 6202
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6203,
+                    "question_id": 1509,
+                    "description": "Um escore com pontuação maior que 3 contra-indica o uso de anticoagulantes",
+                    "explanation": "Falso doc!😋 Apesar de indicar um maior risco de sangramento, o médico pode prescrever anticoagulantes, avaliando a individualidade de cada paciente! Doc, falando nisso, você conhece esse escore? Se liga nisso👇\n- Fonte: [https://cardiopapers.com.br/qual-principal-funcao-do-escore-hasbled-na-fibrilacao-atrial/](https://cardiopapers.com.br/qual-principal-funcao-do-escore-hasbled-na-fibrilacao-atrial/)",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-09T03:58:32.000Z",
+                    "updated_at": "2022-06-27T19:39:29.000Z",
+                    "files": [
+                        {
+                            "id": 10045,
+                            "file": "6ee8cf0d-0abe-4912-969d-401ac15c8366.png",
+                            "name": "hasbled.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-04T22:39:35.000Z",
+                            "updated_at": "2021-06-04T22:39:35.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/6ee8cf0d-0abe-4912-969d-401ac15c8366.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10045,
+                                "alternative_id": 6203
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6204,
+                    "question_id": 1509,
+                    "description": "Uma pontuação no escore maior que 3 indica alto risco de sangramento",
+                    "explanation": "Perfeito doc!😁 Maior que 3 pontos na pontuação indica maior risco de sangramento, apesar de não contra-indicar o uso de anticoagulantes!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:58:32.000Z",
+                    "updated_at": "2022-06-27T19:39:29.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1509,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1677,
+            "institution_id": 4,
+            "description": "Frente a um paciente com Fibrilação Atrial (FA), estável hemodinamicamente, qual é a primeira conduta?",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-12T04:46:26.000Z",
+            "updated_at": "2022-01-12T20:32:21.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 1677
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6892,
+                    "question_id": 1677,
+                    "description": "Cardioversão elétrica",
+                    "explanation": "Falso doc! 😋A cardioversão elétrica é a conduta de escolha em pacientes com FA instáveis hemodinamicamente.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:46:26.000Z",
+                    "updated_at": "2022-01-12T17:32:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6893,
+                    "question_id": 1677,
+                    "description": "Anticoagulação com novos anticoagulantes orais",
+                    "explanation": "Falso doc! 😋 Apenas iremos prescever anticoagulação se o paciente atingir um escore maior ou igual a 2 pontos no CHA2DS2VASc. Lembrando que não podemos usar os novos anticoagulantes orais em pacientes em uso de prótese valvar ou estenose mitral grave. Nestes pacientes, a anticoagulação é feita com varfarina!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:46:26.000Z",
+                    "updated_at": "2022-01-12T17:32:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6894,
+                    "question_id": 1677,
+                    "description": "Controle da frequência cardíaca com inibidores do nó AV",
+                    "explanation": "Perfeito doc! 😁 A primeira conduta em pacientes com FA estável hemodinamicamente é o controle da frequência cardíaca, de preferência a uma frequência menor que 110 bpm. Para isso, usamos medicações com ação de inibição do nó AV, sendo as principais:\n- Beta-bloqueadores\n- Bloqueadores de Canal de Cálcio Cardiosseletivos (Verapamil ou Diltiazem)\n- Digitálicos (digoxina)\n- Doc, só para ilustrar, você já viu um ECG com FA? Se liga nisso (saca só a setinha vermelha mostrando a falta de onda P no traçado, típico de FA)👇\n- Fonte: https://cardiopapers.com.br/novo-guideline-de-f-aha-2014/",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-12T01:46:26.000Z",
+                    "updated_at": "2022-01-12T17:32:21.000Z",
+                    "files": [
+                        {
+                            "id": 10040,
+                            "file": "a775919f-bc62-4138-8bec-7ea99ef1046f.jpeg",
+                            "name": "Afib_ecg.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T22:17:40.000Z",
+                            "updated_at": "2021-06-04T22:17:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a775919f-bc62-4138-8bec-7ea99ef1046f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10040,
+                                "alternative_id": 6894
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6895,
+                    "question_id": 1677,
+                    "description": "Ecocardiografia transesofágica (ECOTE)",
+                    "explanation": "Falso doc! 😋 Utilizamos o ECOTE para verificar se há ou não a presença de trombo no átrio esquerdo antes de realizar uma cardioversão elétrica. Se há trombo, não podemos cardioverter o paciente pelo risco de fragmentação do trombo e embolia cerebral. Logo, procedemos para anticoagulação oral por 3-4 semanas para desfazer o trombo e, só então,cardioverter.  Mas a questão pede a primeira conduta em um paciente estável hemodinamicamente. Como ele está estável, a prioridade não é o choque de cardioversão, logo a prioridade também não é a realização do ECOTE também!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:46:26.000Z",
+                    "updated_at": "2022-01-12T17:32:21.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1677,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1679,
+            "institution_id": 22,
+            "description": "Homem, 71a, relata emagrecimento de 8 kg nos últimos 2 meses, associado a fraqueza para subir escadas e pentear o cabelo. Há 2 semanas com aumento da frequência das evacuações, cefaleia e palpitações. Antecedentes pessoais: diabetes mellitus em uso de insulina e metformina, além de tabagismo 80 maços/ano. Exame físico: PA = 162 x 104 mmHg; FC = 108bpm; FR = 21 irpm; T= 37,3°C; oximetria de pulso (ar ambiente) = 96%; neurológico: hiperreflexia global e fraqueza muscular proximal em membros superiores e inferiores grau IV. Eletrocardiograma: A conduta é:\n\n\n",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-12T02:01:20.000Z",
+            "updated_at": "2022-01-12T17:33:44.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 22,
+                "title": "UNICAMP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:12:16.000Z",
+                "updated_at": "2020-05-18T19:12:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1070,
+                    "title": "Casos Clínicos com Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:02:01.000Z",
+                    "updated_at": "2022-01-15T20:21:49.000Z",
+                    "pivot": {
+                        "discipline_id": 1070,
+                        "question_id": 1679
+                    }
+                },
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 1679
+                    }
+                },
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 1679
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6900,
+                    "question_id": 1679,
+                    "description": "Eletroneuromiografia e hemoglobina glicada",
+                    "explanation": "Falso doc! 😋 Paciente apresentando sinais compatíveis com hipertireoidismo como cefaleia, aumento do ritmo intestinal, perda de peso, associado ao desenvolvimento de uma fibrilação atrial. Esses exames não seriam a melhor escolha no momento!\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:01:20.000Z",
+                    "updated_at": "2022-01-12T17:33:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6901,
+                    "question_id": 1679,
+                    "description": "TSH, T4 livre, metoprolol e rivaroxabana.",
+                    "explanation": "Perfeito doc! Arrasou! 😁 Paciente apresentando sinais compatíveis com **hipertireoidism**o como cefaleia, aumento do ritmo intestinal, perda de peso, associado ao desenvolvimento de um**a fibrilação atrial**. Esses exames são essenciais no momento. Paciente deve receber um bloqueador de nódulo AV e uma anticoagulação pelo CHADVASC2 elevado! Doc, você lembra desse escore? Se liga nisso👇\n- Fonte: [https://cardiopapers.com.br/chads-vasc-um-melhor-escore-para-avaliar-risco-de-eventos-tromboembolicos/](https://cardiopapers.com.br/chads-vasc-um-melhor-escore-para-avaliar-risco-de-eventos-tromboembolicos/)\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-12T02:01:20.000Z",
+                    "updated_at": "2022-01-12T17:33:44.000Z",
+                    "files": [
+                        {
+                            "id": 10049,
+                            "file": "ff664d1a-7b1b-40b9-9d7e-5987d90d54d3.jpeg",
+                            "name": "chadsvasc.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T00:35:20.000Z",
+                            "updated_at": "2021-06-05T00:35:20.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ff664d1a-7b1b-40b9-9d7e-5987d90d54d3.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10049,
+                                "alternative_id": 6901
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6902,
+                    "question_id": 1679,
+                    "description": "Coprocultura e ciprofloxacino.",
+                    "explanation": "Falso doc! 😋 Paciente apresentando sinais compatíveis com hipertireoidismo como cefaleia, aumento do ritmo intestinal, perda de peso, associado ao desenvolvimento de uma fibrilação atrial. Esses exames não seriam a melhor escolha no momento.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:01:20.000Z",
+                    "updated_at": "2022-01-12T17:33:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6903,
+                    "question_id": 1679,
+                    "description": "Tomografia de crânio e coletar liquor.",
+                    "explanation": "Falso doc! 😋 Paciente apresentando sinais compatíveis com hipertireoidismo como cefaleia, aumento do ritmo intestinal, perda de peso, associado ao desenvolvimento de uma fibrilação atrial. A principal complicação da FA é o AVEi cardioembólico, todavia o melhor exame seria a RM e não a TC!\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:01:20.000Z",
+                    "updated_at": "2022-01-12T17:33:44.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 388,
+                    "file": "1591927222759.png",
+                    "name": "Sem título.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-06-12T05:00:22.000Z",
+                    "updated_at": "2020-06-12T05:00:22.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591927222759.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 388,
+                        "question_id": 1679
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 1679,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1680,
+            "institution_id": 22,
+            "description": "Homem, 72a, é admitido no pronto-socorro com história de palpitações de início súbito há 1 hora. Nega dispneia, síncope ou queixas prévias de palpitações. Antecedentes pessoais: hipertensão arterial sistêmica em uso de hidroclorotiazida e amlodipina. Exame físico: bom estado geral; FR = 24 irpm; PA = 112 x 68 mmHg, consiente, orientado; pulmões: ausculta: sem alterações; Coração: bulhas rítmicas sem sopros, eletrocardiograma: A conduta é:\n\n\n\n![](https://qbank.s3.sa-east-1.amazonaws.com/uploads/1616524588947.jpeg)\n\n",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-12T05:04:13.000Z",
+            "updated_at": "2022-01-12T20:34:11.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 22,
+                "title": "UNICAMP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:12:16.000Z",
+                "updated_at": "2020-05-18T19:12:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 1680
+                    }
+                },
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 1680
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6904,
+                    "question_id": 1680,
+                    "description": "Cardioversão elétrica.",
+                    "explanation": "Falso doc! 😋 Paciente estável com uma FA com menos de 48h, pode-se optar pelo controle da frequência cardíaca ou reversão do ritmo. Não temos indicação para cardioversão elétrica!\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:04:14.000Z",
+                    "updated_at": "2022-01-12T17:34:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6905,
+                    "question_id": 1680,
+                    "description": "Adenosina intravenosa.",
+                    "explanation": "Falso doc! 😋 Paciente estável com uma FA com menos de 48h, pode-se optar pelo controle da frequência cardíaca ou reversão do ritmo. A adenosina é usado para casos de taquicardia supraventriculares com RR regular!\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:04:14.000Z",
+                    "updated_at": "2022-01-12T17:34:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6906,
+                    "question_id": 1680,
+                    "description": "Amiodarona intravenosa.",
+                    "explanation": "Perfeito doc! Arrasou! 😁 Paciente estável com uma FA com menos de 48h, pode-se optar pelo controle da frequência cardíaca ou reversão do ritmo. A amiodarona pode fazer as duas coisas, sendo uma reversão química!\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-12T02:04:14.000Z",
+                    "updated_at": "2022-01-12T17:34:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6907,
+                    "question_id": 1680,
+                    "description": " Heparina subcutânea.",
+                    "explanation": "Falso doc! 😋Paciente estável com uma FA com menos de 48h, pode-se optar pelo controle da frequência cardíaca ou reversão do ritmo. Não precisa heparinizar porque tem menos de 48h!\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:04:14.000Z",
+                    "updated_at": "2022-01-12T17:34:11.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 389,
+                    "file": "1591927360831.png",
+                    "name": "Sem título.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-06-12T05:02:41.000Z",
+                    "updated_at": "2020-06-12T05:02:41.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591927360831.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 389,
+                        "question_id": 1680
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 1680,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1683,
+            "institution_id": 25,
+            "description": "Mulher de 68 anos de idade é hipertensa em uso de losartana 50 mg ao dia e diabética em uso de metformina 1000 mg ao dia. Apresentou subitamente, há 5 horas, cefaleia holocraniana de moderada intensidade, latejante, além de dificuldade para mover o membro superior e inferior direitos e desvio de rima labial para a esquerda. No exame clínico: bom estado geral, consciente, orientada temporal e espacialmente, afebril, acianótica e anictérica. Pressão arterial = 150 x 102 mmHg, pulso = 72 bpm, irregular. Ausculta cardíaca com bulhas arrítmicas e normofonéticas em dois tempos, sem sopros. Apresenta hemiparesia completa e proporcionada grau 3 à direita, disartria, anomia e hemi-hipoestesia completa à direita. O restante do exame clínico está sem alterações. Foram realizados os exames a seguir. Tomografia de crânio. Eletrocardiograma (12 derivações). (Conforme imagem do caderno de questões). A profilaxia secundária em nível ambulatorial deve ser realizada preferencialmente com:",
+            "difficulty": "medium",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-12T02:33:24.000Z",
+            "updated_at": "2022-01-12T17:35:19.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 25,
+                "title": "USP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:55:52.000Z",
+                "updated_at": "2020-05-18T19:55:52.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1070,
+                    "title": "Casos Clínicos com Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:02:01.000Z",
+                    "updated_at": "2022-01-15T20:21:49.000Z",
+                    "pivot": {
+                        "discipline_id": 1070,
+                        "question_id": 1683
+                    }
+                },
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 1683
+                    }
+                },
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 1683
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6916,
+                    "question_id": 1683,
+                    "description": "Varfarina",
+                    "explanation": "Acertou, Doc! 😍 Quadro sugestivo de AVC isquêmico, com ausculta típica de fibrilação atrial. Após a alta hospitalar, como ela tem um CHA2DS2VASc maior que 2, deve realizar anticoagulação com novos anticoagulantes orais ou com a varfarina. Doc, bora relembrar esse escore?👇\n- Fonte: [https://cardiopapers.com.br/chads-vasc-um-melhor-escore-para-avaliar-risco-de-eventos-tromboembolicos/](https://cardiopapers.com.br/chads-vasc-um-melhor-escore-para-avaliar-risco-de-eventos-tromboembolicos/)",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-12T02:33:24.000Z",
+                    "updated_at": "2022-01-12T17:35:19.000Z",
+                    "files": [
+                        {
+                            "id": 10049,
+                            "file": "ff664d1a-7b1b-40b9-9d7e-5987d90d54d3.jpeg",
+                            "name": "chadsvasc.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T00:35:20.000Z",
+                            "updated_at": "2021-06-05T00:35:20.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ff664d1a-7b1b-40b9-9d7e-5987d90d54d3.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10049,
+                                "alternative_id": 6916
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6917,
+                    "question_id": 1683,
+                    "description": "Aspirina",
+                    "explanation": "Falso doc! 😋 A escolha para anticoagulação de pacientes com Fibrilação Atrial são a varfarina ou os novos anticoagulantes orais. Apenas na contra-indicação destes, partirmos para apenas antiagregação plaquetária com AAS e clopidogrel!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:33:24.000Z",
+                    "updated_at": "2022-01-12T17:35:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6918,
+                    "question_id": 1683,
+                    "description": "Clopídogrel",
+                    "explanation": "Falso doc! 😋 A escolha para anticoagulação de pacientes com Fibrilação Atrial são a varfarina ou os novos anticoagulantes orais. Apenas na contra-indicação destes, partirmos para apenas antiagregação plaquetária com AAS e clopidogrel!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:33:24.000Z",
+                    "updated_at": "2022-01-12T17:35:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6919,
+                    "question_id": 1683,
+                    "description": "Heparina",
+                    "explanation": "Falso doc! 😋 A escolha para anticoagulação de pacientes com Fibrilação Atrial são a varfarina ou os novos anticoagulantes orais. A heparina pode ser feita durante a internação para o ajuste do RNI para uso da varfarina, mas não usada ambulatorialmente!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:33:24.000Z",
+                    "updated_at": "2022-01-12T17:35:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 393,
+                    "file": "1591928336261.png",
+                    "name": "Sem título.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-06-12T05:18:56.000Z",
+                    "updated_at": "2020-06-12T05:18:56.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591928336261.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 393,
+                        "question_id": 1683
+                    }
+                },
+                {
+                    "id": 394,
+                    "file": "1591928374831.png",
+                    "name": "Sem título.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-06-12T05:19:35.000Z",
+                    "updated_at": "2020-06-12T05:19:35.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591928374831.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 394,
+                        "question_id": 1683
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 1683,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7818,
+            "institution_id": 4,
+            "description": "Sobre a fibrilação atrial, assinale a alternativa CORRETA:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-06T00:44:55.000Z",
+            "updated_at": "2021-05-06T00:44:55.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 7818
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 32105,
+                    "question_id": 7818,
+                    "description": "Ocorrem de 400 a 700 despolarizações por minuto em um mesmo foco, geralmente no átrio esquerdo",
+                    "explanation": "Falso, Doc! \n- As despolarizações vem de vários focos diferentes de microreentrada\n- Por isso que as ondas f possuem morfologia e intervalos variados, como você pode ver na imagem, Doc 👇\nFonte: http://www.mairimed.com/artigos/fibrilacao-atrial/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-05T21:44:55.000Z",
+                    "updated_at": "2021-05-05T21:44:55.000Z",
+                    "files": [
+                        {
+                            "id": 8253,
+                            "file": "6c2a8203-405c-48db-87f2-22682cce63ef.png",
+                            "name": "FA1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-06T00:00:15.000Z",
+                            "updated_at": "2021-05-06T00:00:15.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/6c2a8203-405c-48db-87f2-22682cce63ef.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8253,
+                                "alternative_id": 32105
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 32106,
+                    "question_id": 7818,
+                    "description": "A onda C do pulso venoso da jugular interna desaparece nos casos de fibrilação atrial",
+                    "explanation": "Falso, Doc! Vamos relembrar as ondas do pulso venoso:\n- Onda A  ➞  refernete à contração atrial, é ela que estará **ausente na fibrilação atrial,** pois o átrio não está contraindo direito\n- Onda C  ➞ carotídea, pulso carotídeo adjacente à jugular pode ser visto na veia\n- Onda V  ➞  contração ventricular\nLembre-se que após a onda A temos a deflexão X e, após a onda V, a deflexão Y\n\nOlhando a imagem vai ficar mais claro, Doc! 👇\n\nFonte da imagem: http://www2.ebserh.gov.br/documents/147715/395574/semiologia_cardivascularSEENF_19012015.pdf",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-05T21:44:55.000Z",
+                    "updated_at": "2021-05-05T21:44:55.000Z",
+                    "files": [
+                        {
+                            "id": 8259,
+                            "file": "d41e811c-9ca7-453d-9382-d8f6df3a215f.png",
+                            "name": "Captura de tela 2021-05-05 183235.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-06T00:33:11.000Z",
+                            "updated_at": "2021-05-06T00:33:11.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d41e811c-9ca7-453d-9382-d8f6df3a215f.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8259,
+                                "alternative_id": 32106
+                            }
+                        },
+                        {
+                            "id": 8258,
+                            "file": "fa0a2bf8-7024-4b24-aff8-6a9983102479.png",
+                            "name": "Captura de tela 2021-05-05 183235.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-06T00:33:10.000Z",
+                            "updated_at": "2021-05-06T00:33:10.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/fa0a2bf8-7024-4b24-aff8-6a9983102479.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8258,
+                                "alternative_id": 32106
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 32107,
+                    "question_id": 7818,
+                    "description": "O ritmo na fibrilação atrial é sinusal",
+                    "explanation": "Falso, Doc! Como as despolarizações atriais estão anormais, o ritmo acaba sendo **ventricular irregular** (com FC entre 160 e 180 bpm)\n\nLembre-se dos critérios para caracterizar um ritmo sinusal no ECG (você pode usar um maceta gravando o acróstico **ECF -** que lembra ECG �**�**):\n- **E**ixo normal  - entre 0° e 90° (onda P positiva em DI e DII)\n- **C**ada complexo QRS tem uma onda P\n- **F**orma das ondas P normal e todas elas com mesma morfologia\nNa fibrilação atrial nem temos onda P, então o ritmo não é sinusal. Faz sentido, né, Doc? ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-05T21:44:55.000Z",
+                    "updated_at": "2021-05-05T21:44:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32108,
+                    "question_id": 7818,
+                    "description": "Pericardites podem causar fibrilação atrial",
+                    "explanation": "Certo, Doc! Outras causas de fibrilação atrial são síndrome do nó sinusal, hipóxia, pressão atrial aumentada (como na estenose mitral, por exemplo) e ingestão de álcool",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-05-05T21:44:55.000Z",
+                    "updated_at": "2021-05-05T21:44:55.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7818,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7819,
+            "institution_id": 4,
+            "description": "Qual a classificação da fibrilação atrial em um paciente que já dura 7 meses?",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-06T01:00:20.000Z",
+            "updated_at": "2021-05-06T01:04:34.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 7819
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 32109,
+                    "question_id": 7819,
+                    "description": "Persistente de longa duração",
+                    "explanation": "Falso, Doc! \nA fibrilação atrial persistente  de longa duração é aquela que já dura **mais de um ano,** mas ainda com possibilidade de cardioversão\n\nDoc, se liga nesse esquema pra você não se confundir mais! 😉👇\nFonte da imagem: LORGA FILHO, Adalberto et al. Diretriz de fibrilação atrial. Arq. Bras. Cardiol. [online]. 2003\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-05T22:00:20.000Z",
+                    "updated_at": "2021-05-05T22:04:34.000Z",
+                    "files": [
+                        {
+                            "id": 8260,
+                            "file": "4932ecad-3380-41ea-9334-baa5144f41d3.png",
+                            "name": "Captura de tela 2021-05-05 190147.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-06T01:03:37.000Z",
+                            "updated_at": "2021-05-06T01:03:37.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4932ecad-3380-41ea-9334-baa5144f41d3.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8260,
+                                "alternative_id": 32109
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 32110,
+                    "question_id": 7819,
+                    "description": "Permanente",
+                    "explanation": "Falso, Doc!\nA fibrilação atrial permanente é aquela em que houve falha na cardioversão elétrica ou química, decidindo-se não tentar mais, ou em que se optou por não tentar reversão da arritmia\n\nDoc, se liga nesse esquema pra você não se confundir mais! 😉👇\n\nFonte da imagem: LORGA FILHO, Adalberto et al. Diretriz de fibrilação atrial. Arq. Bras. Cardiol. [online]. 2003\n\n ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-05T22:00:20.000Z",
+                    "updated_at": "2021-05-05T22:04:34.000Z",
+                    "files": [
+                        {
+                            "id": 8260,
+                            "file": "4932ecad-3380-41ea-9334-baa5144f41d3.png",
+                            "name": "Captura de tela 2021-05-05 190147.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-06T01:03:37.000Z",
+                            "updated_at": "2021-05-06T01:03:37.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4932ecad-3380-41ea-9334-baa5144f41d3.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8260,
+                                "alternative_id": 32110
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 32111,
+                    "question_id": 7819,
+                    "description": "Persistente",
+                    "explanation": "Isso mesmo, Doc!\n- Fibrilação atrial persistente é aquela com duração de **mais de 7 dias.** \n- Se durar mais de um ano, chamamos de persistente de longa duração\n\nDoc, se liga nesse esquema pra você não ter mais dúvidas! 😉👇\n\nFonte da imagem: LORGA FILHO, Adalberto et al. Diretriz de fibrilação atrial. Arq. Bras. Cardiol. [online]. 2003\n\n ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-05-05T22:00:20.000Z",
+                    "updated_at": "2021-05-05T22:04:34.000Z",
+                    "files": [
+                        {
+                            "id": 8260,
+                            "file": "4932ecad-3380-41ea-9334-baa5144f41d3.png",
+                            "name": "Captura de tela 2021-05-05 190147.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-06T01:03:37.000Z",
+                            "updated_at": "2021-05-06T01:03:37.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4932ecad-3380-41ea-9334-baa5144f41d3.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8260,
+                                "alternative_id": 32111
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 32112,
+                    "question_id": 7819,
+                    "description": "Paroxística",
+                    "explanation": "Falso, Doc! Fibrilação atrial paroxística é aquela autolimitada, em que os sintomas se resolvem espontaneamente em menos de 7 dias\n\n\nDoc, se liga nesse esquema pra você não se confundir mais! 😉👇\n\nFonte da imagem: LORGA FILHO, Adalberto et al. Diretriz de fibrilação atrial. Arq. Bras. Cardiol. [online]. 2003\n\n ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-05T22:00:20.000Z",
+                    "updated_at": "2021-05-05T22:04:34.000Z",
+                    "files": [
+                        {
+                            "id": 8260,
+                            "file": "4932ecad-3380-41ea-9334-baa5144f41d3.png",
+                            "name": "Captura de tela 2021-05-05 190147.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-06T01:03:37.000Z",
+                            "updated_at": "2021-05-06T01:03:37.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4932ecad-3380-41ea-9334-baa5144f41d3.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8260,
+                                "alternative_id": 32112
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7819,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7820,
+            "institution_id": 4,
+            "description": "Sobre a classificação da fibrilação atrial, assinale a alternativa **INCORRETA:**",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-06T01:16:42.000Z",
+            "updated_at": "2021-06-02T02:15:42.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 7820
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 32113,
+                    "question_id": 7820,
+                    "description": "A fibrilação atrial é considerada aguda apenas quando o paciente está tendo o primeiro episódio de FA",
+                    "explanation": "Correto, Doc! A recorrência a partir do primeiro já é considerada fibrilação atrial crônica",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-05T22:16:42.000Z",
+                    "updated_at": "2021-06-01T23:15:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32114,
+                    "question_id": 7820,
+                    "description": "A maioria das fibrilações atriais no ambulatório é do tipo permanente",
+                    "explanation": "Verdadeiro, Doc! Geralmente com duração de mais de 1 ano. Para lembrar:\n- Fibrilação atrial permanetne  ➞ aquela em que já foi tentada a cardioversão elétrica ou química, mas sem sucesso, ou em que se optou por não reverter a arritmia",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-05T22:16:42.000Z",
+                    "updated_at": "2021-06-01T23:15:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32115,
+                    "question_id": 7820,
+                    "description": "Uma fibrilação atrial paroxística pode se tornar permanente, sem que tenha sido antes persistente",
+                    "explanation": "Verdade, Doc! Se o paciente tem o episódio autolimitada e, na recorrência, optamos por não fazer cardioversão, o caso torna-se uma FA permanente\n\nDá uma olhada na imagem para lembrar as classificações de FA 👇:\n\nFonte da imagem:  LORGA FILHO, Adalberto et al. Diretriz de fibrilação atrial. Arq. Bras. Cardiol. online. 2003",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-05T22:16:42.000Z",
+                    "updated_at": "2021-06-01T23:15:42.000Z",
+                    "files": [
+                        {
+                            "id": 8260,
+                            "file": "4932ecad-3380-41ea-9334-baa5144f41d3.png",
+                            "name": "Captura de tela 2021-05-05 190147.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-06T01:03:37.000Z",
+                            "updated_at": "2021-05-06T01:03:37.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4932ecad-3380-41ea-9334-baa5144f41d3.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8260,
+                                "alternative_id": 32115
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 32116,
+                    "question_id": 7820,
+                    "description": "No caso de idosos, sempre devemos tentar fazer reversão do ritmo sinusal devido aos riscos aumentados da fibrilação atrial nessa população",
+                    "explanation": "Muito bem, Doc! Essa é a alternativa incorreta! 😉\n- Embora em relação à doença seja melhor cardioverter, as drogas usadas podem ter efeitos colaterais indesejáveis\n- Por isso, às vezes em pacientes idosos e assintomáticos opta-se apenas por **controlar a FC** com medicamentos",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-05-05T22:16:42.000Z",
+                    "updated_at": "2021-06-01T23:15:42.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7820,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7824,
+            "institution_id": 4,
+            "description": "Sobre o escore HAS-BLED, assinale a alternativa correta:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-06T14:05:33.000Z",
+            "updated_at": "2021-05-06T14:05:33.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 7824
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 32129,
+                    "question_id": 7824,
+                    "description": "Hipertensão, mesmo que controlada, vale 1 ponto no escore",
+                    "explanation": "Falso, Doc! A Hipertensão **não controlada** conta 1 ponto no escore HAS-BLED.\n\nDoc, se liga nesse quadro explicando direitinho os itens do escsore HAS-BLED:\n\nFonte: https://cardiopapers.com.br/qual-principal-funcao-do-escore-hasbled-na-fibrilacao-atrial/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-06T11:05:33.000Z",
+                    "updated_at": "2021-05-06T11:05:33.000Z",
+                    "files": [
+                        {
+                            "id": 8272,
+                            "file": "f24deeb7-27d7-4ea3-8922-bc508c6190b5.png",
+                            "name": "Captura de tela 2021-05-06 073355.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-06T13:34:49.000Z",
+                            "updated_at": "2021-05-06T13:34:49.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f24deeb7-27d7-4ea3-8922-bc508c6190b5.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8272,
+                                "alternative_id": 32129
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 32130,
+                    "question_id": 7824,
+                    "description": "O \"D\" do HAS-BLED significa \"Drogas e Álcool\", portanto, se o paciente tem história de abuso de álcool e utiliza AINEs, devo contar 1 ponto para cada no HAS-BLED",
+                    "explanation": "Arrasou, Doc! 😍 Dois itens do HAS-BLED se referem a duas condições diferentes (e contam **1 ponto para cad**a se o paciente tiver as duas):\n-  \"A\" de \"**Anormal função renal e do fígado**\" (por exemplo, se o paciente tem cirrose e creatinina elevada)\n- . \"D\" de **Drogas e álcool.** Doc, \"drogas\" aqui não está falando de drogas recreativas 😅. Alguns fármacos que entram nesse item são os antiagregantes plaquetários (claro, porque já são anticoagulantes, aumentando o risco de sangramento) e os AINEs (porque inibem a COX, inibindo, assim, a via do TXA2, principal agregante plaquetário) \nDoc, dá uma olhada nas outras afirmativa para aprofundar os seus conhecimentos 😉",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-05-06T11:05:33.000Z",
+                    "updated_at": "2021-05-06T11:05:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32131,
+                    "question_id": 7824,
+                    "description": "Pontuação de 3 ou mais no escore contraindica a anticoagulação em paciente com fibrilação atrial",
+                    "explanation": "Falso, Doc!\n- O escore não contraindica, so alerta para os riscos. Muitos pacientes com esses fatores de risco para sangramento são justamente os mesmos que precisam de anticoagulação, já que vários itens do HAS-BLED são os mesmos do CHA2DS2-VASC, já tinha reparado, Doc? Hipertensão, AVC e idade acima de 65 anos estão nos dois escores!\n- Uma pontuação de **3 ou mais** realmente indica **alto risco de sangramento** e, nesses casos, além de ter cuidado redobrado, é preferível não usarmos antagonistas da vitamina K (como a Varfarina), e sim alguns novos antigocagulantes orais (NOAC), como **rivaroxabana e dabigratana**",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-06T11:05:33.000Z",
+                    "updated_at": "2021-05-06T11:05:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32132,
+                    "question_id": 7824,
+                    "description": "O INR instável (lábil), presente no escore HAS-BLED é o tempo de protrombina (TP) do paciente",
+                    "explanation": "FAlso, Doc!\n\nO INR (índice normalizado internacional) = **INR = [TAP do paciente em segundos / TAP médio normal em segundos].ISI** (sendo o ISI um valor determinado pelos fabricantes dos reagentes)\n\n- Doc, o que é importante mesmo saber é que um paciente com **INR elevado** tem um TAP mais longo, concorda? Isso quer dizer que, pra esse paciente, a coagulação demora mais, o que pode aumentar o **risco de sangramento**. Se o INR for muito pequeno, por outro lado, o paciente pode ter risco de trombose.\n- O valor de referência do INR de uma pessoa saudável, varia de 0,8 a 1. Mas, se demos anticoagulantes para um paciente, nós queremos justamente que a coagulação dele demore mais para acontecer, né? Por isso, nesses casos, o valor desejável do TAP fica entre **2 e 3**\n\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-06T11:05:33.000Z",
+                    "updated_at": "2021-05-06T11:05:33.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7824,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7848,
+            "institution_id": 57,
+            "description": "Uma paciente de 47 anos, hipertensa, portadora de hipotireoidismo em uso de levotiroxina, deu entrada na UTI do HUOL, com história de palpitações de início súbito, acompanhadas de mal estar retroesternal. Ao exame físico, apresentava ritmo cardíaco irregular, FC = 198 bpm e PA = 110 x 70 mmHg, sem sopros cardíacos. A ausculta pulmonar não revela anormalidades. O eletrocardiograma mostra uma taquiarritmia irregular, com complexos estreitos sem onda P. Apresentou ainda um ecocardiograma recente com relaxamento anormal do ventrículo esquerdo, sem outras anormalidades. O medicamento que apresenta melhor reversão dessa arritmia é: \n",
+            "difficulty": "medium",
+            "year": "2011-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-06T20:17:27.000Z",
+            "updated_at": "2022-05-17T10:55:19.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 57,
+                "title": "UFRN",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-22T16:18:23.000Z",
+                "updated_at": "2020-05-22T16:18:23.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 7848
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 32230,
+                    "question_id": 7848,
+                    "description": "Procainamida.",
+                    "explanation": "- Falso, Doc! 🤔\n- A procainamida não é a primeira opção para a reversão do ritmo em pacientes com FA.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-06T17:17:27.000Z",
+                    "updated_at": "2022-05-17T10:55:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32231,
+                    "question_id": 7848,
+                    "description": "Sotalol.",
+                    "explanation": "- Falso, Doc! 🤔\n- O sotalol não se mostra útil na reversão da FA, não havendo evidências científicas para recomendá-lo nesse caso.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-06T17:17:27.000Z",
+                    "updated_at": "2022-05-17T10:55:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32232,
+                    "question_id": 7848,
+                    "description": "Amiodarona.",
+                    "explanation": "- Acertou, Doc! 😻\n- A amiodarona é a droga de escolha para cardioversão farmacológica em pacientes sem alteração cardíaca estrutural.\n- Doc, dá uma olhada nesse esquema para relembrar a conduta para o tratamento da FA 👇:\n- Fonte da imagem: [https://www.slideserve.com/chad/esc-guidelines-2010-on-the-management-of-atrial-fibrillation](https://www.slideserve.com/chad/esc-guidelines-2010-on-the-management-of-atrial-fibrillation) ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-05-06T17:17:27.000Z",
+                    "updated_at": "2022-05-17T10:55:19.000Z",
+                    "files": [
+                        {
+                            "id": 8280,
+                            "file": "56fa821b-a3d2-4547-85a1-4e297705edff.png",
+                            "name": "Captura de tela 2021-05-05 200310.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-06T15:22:29.000Z",
+                            "updated_at": "2021-05-06T15:22:29.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/56fa821b-a3d2-4547-85a1-4e297705edff.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8280,
+                                "alternative_id": 32232
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 32233,
+                    "question_id": 7848,
+                    "description": "Adenosina.",
+                    "explanation": "- Falso, Doc! 🤔\n- Nenhum estudo comprova o uso de adenosina para reversão da FA.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-06T17:17:27.000Z",
+                    "updated_at": "2022-05-17T10:55:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7848,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1506,
+            "institution_id": 4,
+            "description": "Dos novos anticoagulantes orais utilizados no manejo da Fibrilação Atrial com alto risco de evento tromboembólico, qual deles possui antídoto autorizado pela FDA?",
+            "difficulty": "hard",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-09T03:36:40.000Z",
+            "updated_at": "2022-01-12T17:29:32.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 1506
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6189,
+                    "question_id": 1506,
+                    "description": "Dabigatrana",
+                    "explanation": "Perfeito doc!. Questão conceitual 😎 A dabigatrana, que é um inibidor direto da trombina, possui um antídoto, o **Idarucizuma**b, o que torna mais seguro o seu uso em caso de efeitos colaterais ou sinais de sangramento decorrentes do seu uso inadequado!",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-09T03:36:40.000Z",
+                    "updated_at": "2022-01-12T17:29:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6190,
+                    "question_id": 1506,
+                    "description": "Rivaroxabana",
+                    "explanation": "Falso doc! 😋 Apesar de ser um anticoagulante oral utilizado no manejo da FA em pacientes com alto risco tromboembólico, é um inibidor do fator X ativado, **mas não possui antídot**o autorizado pela FDA ainda!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:36:40.000Z",
+                    "updated_at": "2022-01-12T17:29:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6191,
+                    "question_id": 1506,
+                    "description": "Apixabana",
+                    "explanation": "Falso doc! 😋 Apesar de ser um anticoagulante oral utilizado no manejo da FA em pacientes com alto risco tromboembólico, é um inibidor do fator X ativado, **mas não possui antídot**o autorizado pela FDA ainda!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:36:40.000Z",
+                    "updated_at": "2022-01-12T17:29:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6192,
+                    "question_id": 1506,
+                    "description": "Edoxabana",
+                    "explanation": "Falso doc! 😋 Apesar de ser um anticoagulante oral utilizado no manejo da FA em pacientes com alto risco tromboembólico, é um inibidor do fator X ativado, **mas não possui antídot**o autorizado pela FDA ainda! ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:36:40.000Z",
+                    "updated_at": "2022-01-12T17:29:32.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1506,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7821,
+            "institution_id": 4,
+            "description": "A.B.H, 25 anos, masculino, é encaminhado ao ambulatório de cardiologia com queixa de dispneia aos médios esforços. Relata abuso de álcool e que começou a sentir palpitações há cerca de 18h. Não há sinais de instabilidade hemodinâmica. A imagem abaixo mostra o ECG do paciente.\n\nQual a conduta?\n\nFonte da imagem: Sanar Medicina",
+            "difficulty": "hard",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-06T01:31:09.000Z",
+            "updated_at": "2022-01-12T20:03:41.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 7821
+                    }
+                },
+                {
+                    "id": 1070,
+                    "title": "Casos Clínicos com Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:02:01.000Z",
+                    "updated_at": "2022-01-15T20:21:49.000Z",
+                    "pivot": {
+                        "discipline_id": 1070,
+                        "question_id": 7821
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 32117,
+                    "question_id": 7821,
+                    "description": "Cardioversão química",
+                    "explanation": "Perfeito, Doc! \n- FA <48h  ➞  cardioversão\n- FA > 48h  ➞ deve-se primeiro anticoagular o paciente, pois já houve tempo para a formação de um trombo no coração\n- FA de tempo indeterminado ➞  considere >48h para prevenir \nComo não há instabilidade hemodinâmica, a cardioversão deve ser química, provavelmente ocm propafenona intravenosa, porque o paciente não tem história de doença cardíaca estrutural.\n\nDoc, se liga nese esquema do tratamento da fibrilação atrial com duração menor de 48h 👇:\n\nFonte da imagem: [https://www.slideserve.com/chad/esc-guidelines-2010-on-the-management-of-atrial-fibrillation](https://www.slideserve.com/chad/esc-guidelines-2010-on-the-management-of-atrial-fibrillation) ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-05-05T22:31:09.000Z",
+                    "updated_at": "2022-01-12T17:03:41.000Z",
+                    "files": [
+                        {
+                            "id": 8280,
+                            "file": "56fa821b-a3d2-4547-85a1-4e297705edff.png",
+                            "name": "Captura de tela 2021-05-05 200310.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-06T15:22:29.000Z",
+                            "updated_at": "2021-05-06T15:22:29.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/56fa821b-a3d2-4547-85a1-4e297705edff.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8280,
+                                "alternative_id": 32117
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 32118,
+                    "question_id": 7821,
+                    "description": "Controle da FC e anticoagulação durante 3 a 4 semanas e, depois, cardioversão",
+                    "explanation": "Falso, Doc! Isso seria se já tivesse  passado mais de 48h de FA\n\n- FA <48h  ➞  cardioversão\n- FA > 48h  ➞ deve-se primeiro anticoagular o paciente, pois já houve tempo para a formação de um trombo no coração\n- FA de tempo indeterminado ➞  considere >48h para prevenir  ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-05T22:31:09.000Z",
+                    "updated_at": "2022-01-12T17:03:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32119,
+                    "question_id": 7821,
+                    "description": "Apenas controle da FC com carvedilol",
+                    "explanation": "Falso, Doc! A opção de apenas fazer o controle da FC é feita apenas em alguns casos específicos para prevenir efeitos adversos dos medicamentos, e geralmente os pacientes são idosos ou assintomáticos. \n\nVia de regra você deve procurar cardioverter o paciente para o ritmo sinusal novamente 😉",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-05T22:31:09.000Z",
+                    "updated_at": "2022-01-12T17:03:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32120,
+                    "question_id": 7821,
+                    "description": "Conduta expectante, pois deve tratar-se de uma FA paroxística, com resolução espontânea em 7 dias",
+                    "explanation": "Falso, Doc! Devemos cardioverter o paciente para prevenir complicações.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-05T22:31:09.000Z",
+                    "updated_at": "2022-01-12T17:03:41.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 8261,
+                    "file": "f25f2050-577e-481c-a5ba-c0fe8203b834.jpeg",
+                    "name": "Imagem1.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2021-05-06T01:19:45.000Z",
+                    "updated_at": "2021-05-06T01:19:45.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f25f2050-577e-481c-a5ba-c0fe8203b834.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 8261,
+                        "question_id": 7821
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 7821,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7822,
+            "institution_id": 4,
+            "description": "N.F.B, 75 anos, com história prévia de insuficiência cardíaca e hipertensão arterial sistêmica, chega ao seu consultório com queixa de desconforto no peito e palpitações há cerca de 24h. Na imagem abaixo está o ECG do paciente. Ao exame físico, PA de 130/70 mmHg. Fc 140 bpm.\n\nQual a melhor conduta?\n\nFonte da imagem: ECG Now",
+            "difficulty": "hard",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-05T23:10:02.000Z",
+            "updated_at": "2022-02-19T18:46:28.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 7822
+                    }
+                },
+                {
+                    "id": 1070,
+                    "title": "Casos Clínicos com Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:02:01.000Z",
+                    "updated_at": "2022-01-15T20:21:49.000Z",
+                    "pivot": {
+                        "discipline_id": 1070,
+                        "question_id": 7822
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 32121,
+                    "question_id": 7822,
+                    "description": "Flecainamída intravenosa",
+                    "explanation": "Falso, Doc! A flecainamida é um antiarrítimico do tipo I (bloqueador de canal de sódio) e não deve ser usada para pacientes com doença cardíaca estrutural. \n\nDoc, dá uma olhada no comentário das outras alternativas para aprofundar seus conhecimentos 😉",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-05T23:10:02.000Z",
+                    "updated_at": "2022-02-19T18:46:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32122,
+                    "question_id": 7822,
+                    "description": "Propafenona intravenosa",
+                    "explanation": "Falso, Doc!\nA propafenona é um antiarrítimico do tipo I (bloqueador de canal de sódio) e não deve ser usada para pacientes com doença cardíaca estrutural.  QUando não há doença cardíaca estrutural nem sinais de instabilidade hemodinâmica, é a melhor opção a ser usada. \n\nDoc, dá uma olhada no comentário das outras alternativas para aprofundar seus conhecimentos 😉 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-05T23:10:02.000Z",
+                    "updated_at": "2022-02-19T18:46:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32123,
+                    "question_id": 7822,
+                    "description": "Amiodarona intravenosa",
+                    "explanation": "Perfeito, Doc! 😍 \n- O paciente tem doença cardíaca estrutural e, portanto, não devemos usar antiarrítmicos de classe I, como a propafenona, pois nesses pacientes pode desencadear arritmias, ao invés de resolvê-las. \n- O ideal é utilizar amiodarona intravenosa, o antiarrítimico mais potente. A amiodarona pertence à classe III, sendo um bloqueador de canais de K+\nDoc, para saber como tratar o paciente com fibrilação atrial, você pode seguir esse esqueminha simples aqui 👇:\nFonte da imagem: [https://www.slideserve.com/chad/esc-guidelines-2010-on-the-management-of-atrial-fibrillation](https://www.slideserve.com/chad/esc-guidelines-2010-on-the-management-of-atrial-fibrillation)",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-05-05T23:10:02.000Z",
+                    "updated_at": "2022-02-19T18:46:28.000Z",
+                    "files": [
+                        {
+                            "id": 8265,
+                            "file": "3f5645f8-3da0-4c31-99bd-e10e07d7ccde.png",
+                            "name": "Captura de tela 2021-05-05 200310.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-06T02:06:46.000Z",
+                            "updated_at": "2021-05-06T02:06:46.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3f5645f8-3da0-4c31-99bd-e10e07d7ccde.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8265,
+                                "alternative_id": 32123
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 32124,
+                    "question_id": 7822,
+                    "description": "Cardioversão elétrica",
+                    "explanation": "Falso, Doc! A cardioversão elétrica é indicada para pacientes com instabilidade hemodinâmica, o que não é o caso, pois o paciente não está hipotenso e não há outros sintomas de indiquem instabilidade]\nDoc, dá uma olhada no comentário das outras alternativas para aprofundar seus conhecimentos 😉  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-05T23:10:02.000Z",
+                    "updated_at": "2022-02-19T18:46:28.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 8262,
+                    "file": "4f14d3f1-94f8-40f8-b238-406965e90758.jpeg",
+                    "name": "meu-paciente-tem-arritmia-sera-fibrilacao-atrial.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2021-05-06T01:36:23.000Z",
+                    "updated_at": "2021-05-06T01:36:23.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4f14d3f1-94f8-40f8-b238-406965e90758.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 8262,
+                        "question_id": 7822
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 7822,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7823,
+            "institution_id": 4,
+            "description": "Assinale a alternativa **CORRETA** sobre o principal escore para avaliação de risco de fenômenos tromboembólicos em pacientes com fibrilação atrial:",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-05T23:32:10.000Z",
+            "updated_at": "2021-08-20T14:29:53.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 7823
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 32125,
+                    "question_id": 7823,
+                    "description": "Diabetes Mellitus é critério que soma 2 pontos ao escore",
+                    "explanation": "Falso, Doc!\nOs critérios que valem 2 pontos no CHA2DS2-VASC são aqueles que vêm antes do 2, isto é, idade de 75 anos ou mais e histórico de AVC. Os demais critérios valem apenas 1 ponto. \n\nPara lembrar, Doc, anota aí! 🤓🖊:\n- **C =** Congestiva (ICC) \n- **H =** hipertensão\n- **A** = Age (idade acima de 75 anos - vale 2 pontos)\n- **D =** Diabetes Mellitus\n- **S =** Stroke (AVC) - vale 2 pontos\n- **V =** doença vascular\n- **A =** Age (de 65 a 74 anos - vale só 1 ponto)\n- **SC =** Sex category (sexo feminino) ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-05T23:32:10.000Z",
+                    "updated_at": "2021-08-20T14:29:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32126,
+                    "question_id": 7823,
+                    "description": "Ser do sexo masculino vale 1 ponto no escore (SC do VASC = Sex Category)",
+                    "explanation": "Falso, Doc! É o sexo feminino , e não masculino\n\nPara lembrar, Doc, anota aí! 🤓🖊:\n- **C =** Congestiva (ICC) \n- **H =** hipertensão\n- **A** = Age (idade acima de 75 anos - vale 2 pontos)\n- **D =** Diabetes Mellitus\n- **S =** Stroke (AVC) - vale 2 pontos\n- **V =** doença vascular\n- **A =** Age (de 65 a 74 anos - vale só 1 ponto)\n- **SC =** Sex category (sexo feminino)  \n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-05T23:32:10.000Z",
+                    "updated_at": "2021-08-20T14:29:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32127,
+                    "question_id": 7823,
+                    "description": "O critério para o paciente do sexo masculino receber anticoagulação é possuir fibrilação atrial e 3 pontos ou mais no escore CHA2DS2-VASC",
+                    "explanation": "Falso, Doc! Para homens, basta somar 2 pontos no escore, que já temos indicação de anticoagulação! Doc, fique ligado! 🤓 Isso significa que se o paciente com fibrilação atrial tiver um dos critérios que pontuam dois pontos no escore (histórico de AVC ou 75 anos ou mais) ele já preenche os critérios para receber anticoagulação. Por outro lado, se a paciente for do sexo feminino, são necessários 3 pontos para indicação de anticoagulação!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-05T23:32:10.000Z",
+                    "updated_at": "2021-08-20T14:29:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32128,
+                    "question_id": 7823,
+                    "description": "Infarto do miocárdio prévio aumenta 1 ponto no escore",
+                    "explanation": "Isso mesmo, Doc! 😁\n\nO infarto do miocárdio é uma cardiopatia isquêmica, denotando doença vascular, o que conta como um ponto no escore CHA2DS2-VASC.\n\nPara lembrar, Doc, anota aí! 🤓🖊:\n- **C =** Congestiva (ICC) \n- **H =** hipertensão\n- **A** = Age (idade acima de 75 anos - vale 2 pontos)\n- **D =** Diabetes Mellitus\n- **S =** Stroke (AVC) - vale 2 pontos\n- **V =** doença vascular\n- **A =** Age (de 65 a 74 anos - vale só 1 ponto)\n- **SC =** Sex category (sexo feminino)   \n\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-05-05T23:32:10.000Z",
+                    "updated_at": "2021-08-20T14:29:53.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7823,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7825,
+            "institution_id": 4,
+            "description": "Paciente J.J.C, feminina, 72 anos, portadora de hipertensão arterial sistêmica controlada por medicamentos. Possui também Diabetes Mellitus bem controlado, lupus eritematoso sistêmico e insuficiência cardíaca. Relata ter tido um AVC há 2 anos e um IAM há 1 ano. Em uso de captopril, carvedilol, furosemida, espironolactona e prednisona. Nega outras comorbidades. Nega abuso de álcool e uso de drogas ou história de sangramento. Chega ao ambulatório referindo palpitações há cerca de 18h e dispneia aos médios esforços. Ao exame físico o paciente apresenta FC de 160 bpm e PA 80/55 mmHg. Você escuta estertores bilaterais nas bases pulmonares. Paciente traz exames laboratoriais recentes que mostram creatinina de 2,5. Seu ECG mostra ondas f, com substituição da linha de base por um serrilhado. Sobre o quadro dessa paciente, assinale a alternativa INCORRETA:\n\nObs.: considere o INR da paciente como sendo normal",
+            "difficulty": "hard",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-06T12:22:41.000Z",
+            "updated_at": "2022-04-12T02:21:46.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 7825
+                    }
+                },
+                {
+                    "id": 1070,
+                    "title": "Casos Clínicos com Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:02:01.000Z",
+                    "updated_at": "2022-01-15T20:21:49.000Z",
+                    "pivot": {
+                        "discipline_id": 1070,
+                        "question_id": 7825
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 32133,
+                    "question_id": 7825,
+                    "description": "A paciente tem indicação para usar anticoagulantes, pois sua no CHA2DS2-VASC é 8",
+                    "explanation": "Essa está certa, Doc! 🤔 A pontuação da paciente no CHA2DS2-VASC é:\n- **C =** Congestiva (ICC) = **1 ponto!**\n- **H =** hipertensão = **1 ponto!**\n- **A** = Age (idade acima de 75 anos - vale 2 pontos) \n- **D =** Diabetes Mellitus = **1 ponto**\n- **S =** Stroke (AVC) - vale 2 pontos = **2 pontos**\n- **V =** doença vascular = IAM prévio **1 ponto**\n- **A =** Age (de 65 a 74 anos - vale só 1 ponto) = **1 ponto**\n- **SC =** Sex category (sexo feminino)  = **1 ponto**\nPortanto, a pontuação da paciente nesse escore é 8! Como é maior que 2, a paciente deverá receber anticoagulação.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-06T12:22:41.000Z",
+                    "updated_at": "2022-04-12T02:21:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32134,
+                    "question_id": 7825,
+                    "description": "A paciente tem alto risco de sangramento, pois sua pontuação no escore HAS-BLED é 3",
+                    "explanation": "Arrasou, Doc! 😍 Essa é a incorreta! Vamos calcular a pontuação da paciente no escore HAS-BLED:\n- **H**ipertensão não controlada (a da paciente está controlada)\n- **A**normal função renal e hepática (1 ponto casa) = paciente tem creatinina elevada = **1 ponto**\n- **S**troke (AVC) = **1 ponto**\n- **B**leeding\n- **L**ábil INR\n- **E**lderly (mais velha), idade >65 anos = **1 ponto**\n- **D**rogas e álcool = paciente em uso de corticoide (entram aqui corticoides, AINES e antiiplaquetários) = **1 ponto**\nPortanto, a pontuação nesse escore para essa paciente é **4 pontos** ( já que é maior que 3, Doc, ela tem alto risco de sangramento) (o critério é 3 ou mais)\n\nDoc, vale a pena olhar o comentário das outras alternativas para ficar mais fera ainda no conteúdo 🤓😎",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-05-06T12:22:41.000Z",
+                    "updated_at": "2022-04-12T02:21:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32135,
+                    "question_id": 7825,
+                    "description": "A melhor conduta a ser tomada é a cardioversão elétrica",
+                    "explanation": "Certo, Doc! A paciente está hipotensa, o que indica instabilidade hemodinâmica e, portanto, cardioversão elétrica! \n- Doc, só não esquece que se ela estivesse há mais de 48h com fibrilação atrial não poderíamos fazer a cardioversão sem antes anticoagular por 3 a 4 semanas 😉\n- Às vezes< para evitar ter que esperar tanto tempo, podemos fazer um **ecocardiograma transesofágico** para descartar trombos atriais (sensibiliddade de 90%). Se não houver trombos pode-se começar heparinização plena e proceder a cardioversão sem ter que esperar, mantendo heparinizaçao por 4 semanas",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-06T12:22:41.000Z",
+                    "updated_at": "2022-04-12T02:21:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32136,
+                    "question_id": 7825,
+                    "description": "Se o quadro da paciente indicasse cardioversão química, o fármaco de escolha seria amiodarona intravenosa",
+                    "explanation": "Exatamente, Doc! COmo a paciente tem doença cardíaca estrutural (insuficiência cardíaca) não devemos usar propafenona, por risco de causar arritmias. O fármaco de escolha seria a amiodarona\n- Entretanto, isso só seria indicação se a paciente não tivesse sinais de instabilidade hemodinâmica. Já que ela tem (está hipotensa) e o quadro dura menos de 48h, o tratamento é a cardioversão elétrica\nDoc, se liga nesse esquema do tratamento de paciente com fibrilação atrial há menos de 48h 👇:\n\nFonte da imagem: [https://www.slideserve.com/chad/esc-guidelines-2010-on-the-management-of-atrial-fibrillation](https://www.slideserve.com/chad/esc-guidelines-2010-on-the-management-of-atrial-fibrillation) ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-06T12:22:41.000Z",
+                    "updated_at": "2022-04-12T02:21:46.000Z",
+                    "files": [
+                        {
+                            "id": 8280,
+                            "file": "56fa821b-a3d2-4547-85a1-4e297705edff.png",
+                            "name": "Captura de tela 2021-05-05 200310.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-06T15:22:29.000Z",
+                            "updated_at": "2021-05-06T15:22:29.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/56fa821b-a3d2-4547-85a1-4e297705edff.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8280,
+                                "alternative_id": 32136
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7825,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7844,
+            "institution_id": 1,
+            "description": "Um paciente de 85 anos, diabético, hipertenso, começou a apresentar, há 3 dias, palpitações e tontura. Procura o serviço de emergência, onde dá entrada acor dado e contactante; ao exame, apresenta FC = 145bpm, PA = 110x60mmHg, ritmo cardíaco irregular e alguns es tertores crepitantes nas bases pulmonares. É realizado ECG, que evidencia ausência de ondas P, irregularidade da linha de base (ondas F) e distância R-R irregular. As sinale a alternativa que apresenta a conduta mais adequada na Emergência:",
+            "difficulty": "hard",
+            "year": "2013-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-06T15:32:52.000Z",
+            "updated_at": "2022-01-12T17:02:51.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 1,
+                "title": "UFSC",
+                "state": "Santa Catarina",
+                "is_enabled": true,
+                "created_at": "2020-05-16T20:39:39.000Z",
+                "updated_at": "2020-05-16T20:39:39.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 7844
+                    }
+                },
+                {
+                    "id": 1070,
+                    "title": "Casos Clínicos com Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:02:01.000Z",
+                    "updated_at": "2022-01-15T20:21:49.000Z",
+                    "pivot": {
+                        "discipline_id": 1070,
+                        "question_id": 7844
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 32209,
+                    "question_id": 7844,
+                    "description": "iniciar anticoagulação + cardioversão com antiarrítmico intravenoso",
+                    "explanation": "Falso, Doc! Não está indicada a cardioversão agora, já que o paciente já está **há mais de 48h** com FA, havendo risco de eventos tromboembólicos\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-06T15:32:52.000Z",
+                    "updated_at": "2022-01-12T17:02:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32210,
+                    "question_id": 7844,
+                    "description": "iniciar anticoagulação + controle de frequência cardíaca",
+                    "explanation": "Parabéns, Doc! 🤗 \n- O paciente já está há mais de 48h com FA e, portanto, não podemos fazer cardioversão, por risco de eventos embólicos\n- Precisamos controlar a frequência cardíaca (mater próxima a 80 bpm) \n- Independentemente se o paciente será mantido em fibrilação permanente ou se depois haverá tentativa de cardioversão, a anticoagulação está indicada",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-05-06T15:32:52.000Z",
+                    "updated_at": "2022-01-12T17:02:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32211,
+                    "question_id": 7844,
+                    "description": "controle da frequência cardíaca + cardioversão com antiarrítmico intravenoso",
+                    "explanation": "Falso, Doc! Não está indicada a cardioversão agora, já que o paciente já está **há mais de 48h** com FA, havendo risco de eventos tromboembólicos ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-06T15:32:52.000Z",
+                    "updated_at": "2022-01-12T17:02:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32212,
+                    "question_id": 7844,
+                    "description": " iniciar anticoagulação + cardioversão elétrica",
+                    "explanation": "Falso, Doc! Não está indicada a cardioversão agora, já que o paciente já está **há mais de 48h** com FA, havendo risco de eventos tromboembólicos \n ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-06T15:32:52.000Z",
+                    "updated_at": "2022-01-12T17:02:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32213,
+                    "question_id": 7844,
+                    "description": "controle da frequência cardíaca",
+                    "explanation": "Falso, Doc! Precisamos controlar, sim a FC, mas além disso está indicada a anticoagulação.  ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-05-06T15:32:52.000Z",
+                    "updated_at": "2022-01-12T17:02:51.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7844,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7845,
+            "institution_id": 40,
+            "description": "Um paciente de 76 anos, hipertenso e diabético, chega à unidade de pronto atendimento com palpitações e cansaço que têm ocorrido de modo intermitente nas últimas 3 semanas. Ao exame, está lúcido, com FC = 140bpm, em ritmo cardíaco irregular, PA = 124x62mmHg, Sat0 = 92% e FR = 20irpm. A equipe de saúde instala oxigênio suplementar e monitorização cardíaca e obtém um acesso venoso periférico. Um eletrocardiograma é realizado e mostra ritmo de FA. A 1ª conduta a ser adotada pelo médico deve ser:",
+            "difficulty": "hard",
+            "year": "2011-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-06T18:42:16.000Z",
+            "updated_at": "2022-03-20T21:14:24.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 40,
+                "title": "UFF",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-19T23:40:48.000Z",
+                "updated_at": "2020-05-19T23:40:48.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 7845
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 32214,
+                    "question_id": 7845,
+                    "description": "digoxina intravenosa para o controle da FC",
+                    "explanation": "Falso, Doc! Apesar de ter sido utilizada durante muito tempo como controlador da FC na FA, atualmente, sabe-se que é menos eficaz do que BB e BCC, ficando reservada para pacientes com FA e ICFEr.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-06T15:42:16.000Z",
+                    "updated_at": "2022-03-20T21:14:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32215,
+                    "question_id": 7845,
+                    "description": "sedação e cardioversão elétrica sincronizada com 120J bifásicos de amiodarona",
+                    "explanation": "Falso, Doc! \n- O paciente já está **há mais de 48h** com o quadro, de forma que não devemos fazer cardioversão, pelo risco de fenômenos tromboembólicos\nQuando há indicação para cardioversão:\n- A **amiodarona** está indicada para pacientes com **doença cardíaca estrutural** e que não estejam hemodinamicamente instáveis\n- A **cardioversão elétrica** é indicada para pacientes **hemodinamicamente instáveis** e deve ser feita com **200 J** na fibrilação atrial",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-06T15:42:16.000Z",
+                    "updated_at": "2022-03-20T21:14:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32216,
+                    "question_id": 7845,
+                    "description": "infusão imediata para a cardioversão química",
+                    "explanation": "Falso, Doc! O paciente já está **há mais de 48h** com o quadro, de forma que não devemos fazer cardioversão, pelo risco de fenômenos tromboembólicos",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-06T15:42:16.000Z",
+                    "updated_at": "2022-03-20T21:14:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32217,
+                    "question_id": 7845,
+                    "description": "desfibrilação cardíaca imediata com 200J bifásicos",
+                    "explanation": "O paciente já está **há mais de 48h** com o quadro, de forma que não devemos fazer cardioversão, pelo risco de fenômenos tromboembólicos,\nQuando o período do evento é de menos de 48h:\n- A **cardioversão elétrica** é indicada para pacientes **hemodinamicamente instáveis** e deve ser feita com **200 J** na fibrilação atrial ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-06T15:42:16.000Z",
+                    "updated_at": "2022-03-20T21:14:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32218,
+                    "question_id": 7845,
+                    "description": "metoprolol intravenoso para o controle da FC",
+                    "explanation": "Certinho, Doc! 😁 O controle da FC deve ser feito com betabloqueador ou bloqueador de canal de cálcio. \n\n",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2021-05-06T15:42:16.000Z",
+                    "updated_at": "2022-03-20T21:14:24.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7845,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7846,
+            "institution_id": 236,
+            "description": "Uma agente comunitária de saúde lhe pediu que visitasse uma paciente diabética, de 68 anos, em do micílio. Ela viera do hospital, onde se internara por Acidente Vascular Encefálico (AVE) havia 3 meses. Sua glicemia estava ajustada, com 132mg/dL ao acaso, e PA = 140x80mmHg, mas \"seu coração estava muito irregu lar\". O exame revelou um ritmo cardíaco caótico, com alteração contínua da fonese da 1ª bulha e FR = 92bpm, aproximadamente. Suas medicações eram insulina, metformina, enalapril e furosemida. A conduta mais adequada à situação clínica e sua base racional são:",
+            "difficulty": "hard",
+            "year": "2012-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-06T18:58:40.000Z",
+            "updated_at": "2021-05-06T18:58:40.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 236,
+                "title": "FHEMIG",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-02-09T01:58:04.000Z",
+                "updated_at": "2021-02-09T01:58:04.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 7846
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 32219,
+                    "question_id": 7846,
+                    "description": "reajustar as doses de insulina para obter um estrito controle glicêmico e reduzir seu risco cardiovascular, e introduzir ácido acetilsalicílico e estatinas para reduzir o risco de um novo AVE",
+                    "explanation": "Falso, Doc! O caso sugere diagnóstico de fibrilação atrial com embolização sistêmica prévia. A paciente não deve receber apenas um antiplaquetária (AAS), mas um anticoagulante. \nVocê podia concluir isso utilizando o escore **CHA2DS2-VASC**. Lembre-se que são necessários apenas 2 pontos para ser recomendada a anticoagulação, então bastava saber que ela tem história de AVE (vale 2 pontos), que já preenche os critérios. Ou que ela é diabética e tem mais de 65 anos. Enfim, Doc, você não precisa sempre calcular o CHA2DS2-VASC inteiro, percebe? 😁\n\nMas, para praticar, vamos fazer o cálculo certinho:\n- **C =** Congestiva (ICC) \n- **H =** hipertensão = **1 ponto**\n- **A** = Age (idade acima de 75 anos - vale 2 pontos)\n- **D =** Diabetes Mellitus = **1 ponto**\n- **S =** Stroke (AVC) - vale 2 pontos = **2 pontos**\n- **V =** doença vascular\n- **A =** Age (de 65 a 74 anos - vale só 1 ponto) = **1 ponto**\n- **SC =** Sex category (sexo feminino)   \nPortanto, a paciente tem uma pontuação de 5 no escore, devendo ser feita a anticoagulação",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-06T15:58:40.000Z",
+                    "updated_at": "2021-05-06T15:58:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32220,
+                    "question_id": 7846,
+                    "description": " realizar eletrocardiograma para diagnosticar a taquiarritmia atrial paroxística pós-AVE, sugerida pela ausculta, e iniciar amiodarona para convertê-la ao ritmo sinusal",
+                    "explanation": "Falso, Doc!\n- Não está claro se a FA da paciente está presente há mais ou menos de 48h. Nesses casos, por precaução, consideramos que o caso seja de mais de 48h e não deve ser feita a cardioversão, prevenindo eventos tromboembólicos. \n- Além disso, a paciente tem história de eventos desse tipo, o que faz com que haja elevado risco de se repetir. Não podemos arriscar, concorda? ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-06T15:58:40.000Z",
+                    "updated_at": "2021-05-06T15:58:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32221,
+                    "question_id": 7846,
+                    "description": "realizar eletrocardiograma para diagnosticar possível FA e considerar a anticoagulação crônica para reduzir o risco de um novo evento tromboembólico ",
+                    "explanation": "Perfeito, Doc! 👏 Para ter certeza de que a paciente precisa de anticoagulação, você poderia utilizar o escore **CHA2DS2-VAS**C. \n- Lembre-se que são necessários apenas 2 pontos para ser recomendada a anticoagulação, então bastava saber que ela tem história de AVE (vale 2 pontos), que já preenche os critérios. Ou que ela é diabética e tem mais de 65 anos. Enfim, Doc, você não precisa sempre calcular o CHA2DS2-VASC inteiro, percebe? 😁\n\nMas, para praticar, vamos fazer o cálculo certinho:\n- **C =** Congestiva (ICC) \n- **H =** hipertensão = **1 ponto**\n- **A** = Age (idade acima de 75 anos - vale 2 pontos)\n- **D =** Diabetes Mellitus = **1 ponto**\n- **S =** Stroke (AVC) - vale 2 pontos = **2 pontos**\n- **V =** doença vascular\n- **A =** Age (de 65 a 74 anos - vale só 1 ponto) = **1 ponto**\n- **SC =** Sex category (sexo feminino)   \n\nPortanto, a paciente tem uma pontuação de 5 no escore, devendo ser feita a anticoagulação.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-05-06T15:58:40.000Z",
+                    "updated_at": "2021-05-06T15:58:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32222,
+                    "question_id": 7846,
+                    "description": "reinternar a paciente para fazer a conversão da arritmia para ritmo sinusal",
+                    "explanation": "Falso, Doc! \n- Não está claro se a FA da paciente está presente há mais ou menos de 48h. Nesses casos, por precaução, consideramos que o caso seja de mais de 48h e não deve ser feita a cardioversão, prevenindo eventos tromboembólicos. \n- Além disso, a paciente tem história de eventos desse tipo, o que faz com que haja elevado risco de se repetir. Não podemos arriscar, concorda?",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-06T15:58:40.000Z",
+                    "updated_at": "2021-05-06T15:58:40.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7846,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7847,
+            "institution_id": 217,
+            "description": "Um paciente de 62 anos vem à Emergência com quei xa de dispneia e de dor torácica em aperto há cerca de 1 hora. Ao exame físico, apresenta FC = 170bpm, pulso ra dial irregular e hipotensão arterial. O eletrocardiograma da chegada mostra uma FA. A filha refere que o paciente é hipertenso e realizou exames de revisão recentemente, sem alterações. Assinale a conduta a ser tomada para o tratamento da taquiarritmia deste paciente:",
+            "difficulty": "hard",
+            "year": "2012-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-06T19:18:20.000Z",
+            "updated_at": "2021-05-06T19:18:20.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 217,
+                "title": "SES-SC",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-01-07T21:05:31.000Z",
+                "updated_at": "2021-01-07T21:05:31.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 7847
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 32223,
+                    "question_id": 7847,
+                    "description": "realizar cardioversão elétrica",
+                    "explanation": "Isso mesmo, Doc! 👏 Não só em casos de FA da <48h, mas em qualquer taquiarritmia, se encontramos sinais de instabilidade hemodinâmica **(hipotensão arterial, alteração do nível de consciência, dor torácica e congestão pulmona**r) deve ser realizada a cardioversão elétrica imediata.\n- No caso da FA a cardioversão (elétrica ou química) **não deve ser realizada** se o paciente está há mais de 48h com o fenômeno, por risco de eventos tromboembólicos. Entretanto, não é o caso da paciente, que começou só há 1h com os sintomas\n- No caso da fibrilação atrial, a cardioversão deve ser feita com **200J.** \nDoc, dá uma olhada nas outras alternativas para aprofundar seus conhecimentos 😉",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-05-06T16:18:20.000Z",
+                    "updated_at": "2021-05-06T16:18:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32224,
+                    "question_id": 7847,
+                    "description": "administrar betabloqueadores",
+                    "explanation": "Falso, Doc! Não só em casos de FA da <48h, mas em qualquer taquiarritmia, se encontramos sinais de instabilidade hemodinâmica (hipotensão arterial, alteração do nível de consciência, dor torácica e congestão pulmonar) deve ser realizada a **cardioversão elétrica imediata**\n- Se a paciente estivesse estável, ou se o episódio já durasse >48h, poderia ser feito o uso de por betabloqueadores para controle da frequência e programar cardioversão posterior. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-06T16:18:20.000Z",
+                    "updated_at": "2021-05-06T16:18:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32225,
+                    "question_id": 7847,
+                    "description": "administrar amiodarona ",
+                    "explanation": "Falso, Doc! Não só em casos de FA da <48h, mas em qualquer taquiarritmia, se encontramos sinais de instabilidade hemodinâmica (hipotensão arterial, alteração do nível de consciência, dor torácica e congestão pulmonar) deve ser realizada a **cardioversão elétrica imediata** \n- A amiodarona pode ser usada para pacientes com FA há <48h, **estáveis** e que tenham **cardiopatia estrutural**\nDoc, pra não se confundir mais, se liga nesse esquema mostrando a conduta para um paciente com FA há menos de 48h 👇:\n\nFonte da imagem: [https://www.slideserve.com/chad/esc-guidelines-2010-on-the-management-of-atrial-fibrillation](https://www.slideserve.com/chad/esc-guidelines-2010-on-the-management-of-atrial-fibrillation) \n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-06T16:18:20.000Z",
+                    "updated_at": "2021-05-06T16:18:20.000Z",
+                    "files": [
+                        {
+                            "id": 8280,
+                            "file": "56fa821b-a3d2-4547-85a1-4e297705edff.png",
+                            "name": "Captura de tela 2021-05-05 200310.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-06T15:22:29.000Z",
+                            "updated_at": "2021-05-06T15:22:29.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/56fa821b-a3d2-4547-85a1-4e297705edff.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8280,
+                                "alternative_id": 32225
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 32226,
+                    "question_id": 7847,
+                    "description": " administrar adenosina",
+                    "explanation": "Falso, Doc! Não só em casos de FA da <48h, mas em qualquer taquiarritmia, se encontramos sinais de instabilidade hemodinâmica (hipotensão arterial, alteração do nível de consciência, dor torácica e congestão pulmonar) deve ser realizada a **cardioversão elétrica imediata** \n- A adenosina **não reverte** a fibrilação atrial, não estando indicada para esses casos ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-06T16:18:20.000Z",
+                    "updated_at": "2021-05-06T16:18:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32227,
+                    "question_id": 7847,
+                    "description": " iniciar heparinização",
+                    "explanation": "\nalso, Doc! Não só em casos de FA da <48h, mas em qualquer taquiarritmia, se encontramos sinais de instabilidade hemodinâmica (hipotensão arterial, alteração do nível de consciência, dor torácica e congestão pulmonar) deve ser realizada a **cardioversão elétrica imediata** \n- A heparinização deve ser feita associada à cardioversão, porém não devemos aguardar que ela tenha os efeitos ddesejados para fazer a cardioversão nessa paciente instável e com menos de 48h de FA",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-05-06T16:18:20.000Z",
+                    "updated_at": "2021-05-06T16:18:20.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7847,
+                "questionary_id": 267563,
+                "timer": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,781 @@
+{
+    "id": 267573,
+    "user_id": 1699,
+    "title": "Curso de Valvopatias - Aula 1 - Princípios gerais",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T02:35:00.000Z",
+    "updated_at": "2022-07-11T02:35:00.000Z",
+    "study_plan_id": 446,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 75,
+            "institution_id": 4,
+            "description": "Como é o sopro característico na estenose aórtica?\n",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T21:51:12.000Z",
+            "updated_at": "2021-10-16T02:02:48.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 75
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 75
+                    }
+                },
+                {
+                    "id": 7,
+                    "title": "Valvopatias",
+                    "description": "Estenoses e Insuficiências das valvas cardíacas",
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:24.000Z",
+                    "updated_at": "2020-05-16T23:45:24.000Z",
+                    "pivot": {
+                        "discipline_id": 7,
+                        "question_id": 75
+                    }
+                },
+                {
+                    "id": 535,
+                    "title": "Curso de Valvopatias (Intensivo de ECG e TáDeClinicagem)",
+                    "description": null,
+                    "parent_id": 7,
+                    "is_enabled": true,
+                    "created_at": "2020-11-22T23:27:43.000Z",
+                    "updated_at": "2020-11-22T23:27:43.000Z",
+                    "pivot": {
+                        "discipline_id": 535,
+                        "question_id": 75
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 307,
+                    "question_id": 75,
+                    "description": "Diastólico, em diamante, que irradia para as carótidas",
+                    "explanation": "Falso doc! 😋 O sopro é Sistólico.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T18:51:12.000Z",
+                    "updated_at": "2021-10-15T23:02:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 308,
+                    "question_id": 75,
+                    "description": "Sistólico, em diamante, que irradia para as carótidas",
+                    "explanation": "Perfeito doc!😁 Acompanha meu raciocínio👇\n- Durante a sístole, o sangue que o VE bombeia passa pela valva aórtica para chegar na circulação sistêmica. Na EAo, há resistência a essa passagem. \n- Sabe aquelas portas enferrujadas de bar dos filmes de Velho-Oeste? Imagine uma multidão tentando passar por ela de uma vez só. No comecinho todo mundo se bate e quase ninguém passa, depois o pessoal consegue se organizar e passar em maior quantidade até que os últimos que querem passar não conseguem, pois não tem força para abrir a porta.\n- A válvula estenosada é como se fosse a porta enferrujada, de difícil abertura, e as pessoas são como se fossem o sangue. \n- Essas fases: no início passa pouco, depois mais quantidade e a quantidade final tem dificuldade de passar é o que chamamos de forma “DIAMANTE”.\n- Além disso, por uma questão acústica, o sopro pode ser ouvido nas carótidas, já que estão entre os primeiros ramos da aorta.\n- Doc, se liga nessa imagem👇\n- Fonte: https://cardiopapers.com.br/conceitos-basicos-quais-os-tipos-de-sopro/\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-18T18:51:12.000Z",
+                    "updated_at": "2021-10-15T23:02:48.000Z",
+                    "files": [
+                        {
+                            "id": 21772,
+                            "file": "a222bc09-a4ce-4bac-9e89-fc6c7126bf6a.png",
+                            "name": "sopros.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-10-15T23:01:08.000Z",
+                            "updated_at": "2021-10-15T23:01:08.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a222bc09-a4ce-4bac-9e89-fc6c7126bf6a.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 21772,
+                                "alternative_id": 308
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 309,
+                    "question_id": 75,
+                    "description": "Diastólico, em ruflar",
+                    "explanation": "Falso doc!😋 Este sopro diastólico em ruflar é o sopro da ESTENOSE MITRAL. Para não esquecer mais, lembre que os sopros das Estenoses tem essas descrições “artísticas”: Diamante na estenose aórtica e “Ruflar”, como o som do bater das asas de um pássaro, na estenose mitral!\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T18:51:12.000Z",
+                    "updated_at": "2021-10-15T23:02:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 310,
+                    "question_id": 75,
+                    "description": "Sistólico, em ruflar, com irradiação para a axila",
+                    "explanation": "Falso doc! 😋 A descrição do sopro é em DIAMANTE, com irradiação para as CARÓTIDAS.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T18:51:12.000Z",
+                    "updated_at": "2021-10-15T23:02:48.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 75,
+                "questionary_id": 267573,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5330,
+            "institution_id": 194,
+            "description": "Uma senhora de 68 anos, com marcapasso dupla-câmara, vem ao ambulatório com queixa de palpitações. Na ausculta cardíaca, a médica nota um sopro no 5º espaço intercostal esquerdo, na linha para-esternal esquerda, que coincide no mesmo momento do pulso carotídeo. Qual o diagnóstico mais provável? \n",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-11-22T23:28:52.000Z",
+            "updated_at": "2020-11-23T15:46:25.000Z",
+            "user_id": 33,
+            "is_residency": false,
+            "institution": {
+                "id": 194,
+                "title": "Intensivo de ECG",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-11-22T20:28:52.000Z",
+                "updated_at": "2020-11-22T20:28:52.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 535,
+                    "title": "Curso de Valvopatias (Intensivo de ECG e TáDeClinicagem)",
+                    "description": null,
+                    "parent_id": 7,
+                    "is_enabled": true,
+                    "created_at": "2020-11-22T23:27:43.000Z",
+                    "updated_at": "2020-11-22T23:27:43.000Z",
+                    "pivot": {
+                        "discipline_id": 535,
+                        "question_id": 5330
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 22021,
+                    "question_id": 5330,
+                    "description": "Estenose de valva tricúspide",
+                    "explanation": "Embora o local de ausculta da estenose tricúspide seja justamente na linha paraesternal, entre o 4º e o 5º EIC à esquerda, nós temos que lembrar que a estenose tricúspide é a dificuldade para ABRIR a valva tricúspide durante a DIÁSTOLE, para permitir a passagem de sangue do AD para o VD. Nesse sentido, o sopro da estenose tricúspide é diastólico e não sistólico. \n\nPodemos concluir que o sopro dessa paciente é um sopro sistólico porque o enunciado fala que o sopro \"coincide no mesmo momento do pulso carotídeo\".",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-11-22T20:28:52.000Z",
+                    "updated_at": "2020-11-23T12:46:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 22022,
+                    "question_id": 5330,
+                    "description": "Insuficiência de valva tricúspide",
+                    "explanation": "Doc, se é um sopro que coincide com o pulso carotídeo nós já temos a primeira dica pra responder essa questão: estamos falando de um sopro sistólico. A grande chave aqui está na localização que o enunciado nos deu: 5º espaço intercostal esquerdo, na linha paraesternal. Esse é o local característico do foco tricúspide. Lembra do nosso macete?\n\n\n\n\n\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-11-22T20:28:52.000Z",
+                    "updated_at": "2021-03-11T01:58:34.000Z",
+                    "files": [
+                        {
+                            "id": 1302,
+                            "file": "1606135307276.png",
+                            "name": "macete focos.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-11-23T15:41:48.000Z",
+                            "updated_at": "2020-11-23T15:41:48.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1606135307276.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1302,
+                                "alternative_id": 22022
+                            }
+                        },
+                        {
+                            "id": 1303,
+                            "file": "1606135573721.png",
+                            "name": "focos.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-11-23T15:46:14.000Z",
+                            "updated_at": "2020-11-23T15:46:14.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1606135573721.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1303,
+                                "alternative_id": 22022
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 22023,
+                    "question_id": 5330,
+                    "description": "Estenose de valva mitral",
+                    "explanation": "Estenose mitral é a dificuldade para abrir a valva mitral. A valva mitral abre durante a diástole para permitir a passagem de sangue do AE para o VE. Nesse sentido, o sopro da estenose mitral seria diastólico e não sistólico; além disso, embora o local de ausculta do foco mitral possa também ser o 5º espaço intercostal (EIC) esquerdo, ele se localiza na linha hemiclavicular e corresponde ao ictus cordis, e não na linha paraesternal, como diz o enunciado da questão.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-11-22T20:28:52.000Z",
+                    "updated_at": "2020-11-23T12:46:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 22024,
+                    "question_id": 5330,
+                    "description": "Estenose de valva aórtica",
+                    "explanation": "Embora o sopro da estenose aórtica seja um sopro sistólico, o achado característico é o sopro em crescendo-decrescendo (também chamado de diamond-shape), que se ausculta melhor com o diafragma do estetoscópio na borda esternal superior esquerda, e não na região paraesternal ou 5ºEIC, como diz o enunciado da questão. Classicamente, o sopro irradia-se para a clavícula direita e para ambas as artérias carótidas (à esquerda, é geralmente mais intenso que à direita).",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-11-22T20:28:52.000Z",
+                    "updated_at": "2020-11-23T12:46:25.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5330,
+                "questionary_id": 267573,
+                "timer": 0
+            }
+        },
+        {
+            "id": 81,
+            "institution_id": 4,
+            "description": "Assinale a alternativa **CORRETA** sobre a Estenose Mitral (EMi):\n",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T22:01:05.000Z",
+            "updated_at": "2021-10-17T01:30:32.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 81
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 81
+                    }
+                },
+                {
+                    "id": 7,
+                    "title": "Valvopatias",
+                    "description": "Estenoses e Insuficiências das valvas cardíacas",
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:24.000Z",
+                    "updated_at": "2020-05-16T23:45:24.000Z",
+                    "pivot": {
+                        "discipline_id": 7,
+                        "question_id": 81
+                    }
+                },
+                {
+                    "id": 535,
+                    "title": "Curso de Valvopatias (Intensivo de ECG e TáDeClinicagem)",
+                    "description": null,
+                    "parent_id": 7,
+                    "is_enabled": true,
+                    "created_at": "2020-11-22T23:27:43.000Z",
+                    "updated_at": "2020-11-22T23:27:43.000Z",
+                    "pivot": {
+                        "discipline_id": 535,
+                        "question_id": 81
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 332,
+                    "question_id": 81,
+                    "description": "Febre Reumática é uma das causas, mas não é a principal.",
+                    "explanation": "Falso doc!😋 Febre Reumática é sim a principal causa de estenose mitral em cerca de 90% das vezes. Lembre ainda que a febre reumática é uma complicação inflamatória aguda da infecção faríngea por estreptococos do grupo A (GAS), o famoso Streptococcus pyogenes! Cuidado para não confundir o Staphylococcus aureus, que pode causar endocardite, com o Strep pyogenes. A febre reumática causa artrites, cardites, nódulos subcutâneos, eritema marginado e coreia. O diagnóstico baseia-se na aplicação dos critérios de Jones relacionados com dados de história, exame e testes laboratoriais. O tratamento inclui ácido acetilsalicílico ou outros anti-inflamatórios não esteroides (AINEs), corticoides durante cardites graves e antimicrobianos para erradicar infecção estreptocócica residual e prevenir a reinfecção. \n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:01:05.000Z",
+                    "updated_at": "2021-10-16T22:30:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 333,
+                    "question_id": 81,
+                    "description": "O sopro típico da estenose mitral é Mesodiastólico, em ruflar, com B1 Hiperfonética e estalido de abertura mitral.",
+                    "explanation": "Perfeito doc! Arrasou! 😍 Esse é o sopro típico da estenose mitral. Lembre da dica das estenoses, elas tem uma descrição “artística”: Estenose aórtica tem sopro “em diamante” e estenose mitral tem sopro “em ruflar”, como o som das asas de um pássaro. Doc, se liga nesse esquema👇\n- Fonte: https://pt.wikipedia.org/wiki/Sopro_diast%C3%B3lico\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:01:05.000Z",
+                    "updated_at": "2021-10-16T22:30:32.000Z",
+                    "files": [
+                        {
+                            "id": 21773,
+                            "file": "2f9fa729-a0e5-4e7f-b4d4-94a6eaa835ab.png",
+                            "name": "Phonocardiograms_from_normal_and_abnormal_heart_sounds.svg.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-10-15T23:08:27.000Z",
+                            "updated_at": "2021-10-15T23:08:27.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2f9fa729-a0e5-4e7f-b4d4-94a6eaa835ab.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 21773,
+                                "alternative_id": 333
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 334,
+                    "question_id": 81,
+                    "description": "Uma área de valva mitral menor que 2cm² caracteriza uma estenose grave.",
+                    "explanation": "Falso doc!😋 Para ser caracterizado como grave, a área deve ser menor que 1,5cm².\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:01:05.000Z",
+                    "updated_at": "2021-10-16T22:30:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 335,
+                    "question_id": 81,
+                    "description": "Na decisão do tratamento percutâneo, um score de Block-Wilkins ≤ 15 define a anatomia valvar como favorável para esse procedimento.",
+                    "explanation": "Falso doc!😁 Um score Block-Wilkins ≤ 8 é que define uma anatomia valvar favorável ao tratamento percutâneo. As características valvares avaliadas nesses score são: Mobilidade, Acometimento subvalvar, Espessura dos Folhetos e Calcificação Mitral. Macete para decorar esses itens do score de Block Wilkins: MedSimple Em Casa (Mobilidade, Subvalvar, Espessura e Calcificação)\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:01:05.000Z",
+                    "updated_at": "2021-10-16T22:30:32.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 81,
+                "questionary_id": 267573,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5331,
+            "institution_id": 194,
+            "description": "Qual manobra abaixo aumenta a intensidade do sopro da valvopatia mais prevalente nos idosos no Brasil e no mundo?",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-11-23T02:02:55.000Z",
+            "updated_at": "2020-11-23T02:02:55.000Z",
+            "user_id": 33,
+            "is_residency": false,
+            "institution": {
+                "id": 194,
+                "title": "Intensivo de ECG",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-11-22T20:28:52.000Z",
+                "updated_at": "2020-11-22T20:28:52.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 535,
+                    "title": "Curso de Valvopatias (Intensivo de ECG e TáDeClinicagem)",
+                    "description": null,
+                    "parent_id": 7,
+                    "is_enabled": true,
+                    "created_at": "2020-11-22T23:27:43.000Z",
+                    "updated_at": "2020-11-22T23:27:43.000Z",
+                    "pivot": {
+                        "discipline_id": 535,
+                        "question_id": 5331
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 22025,
+                    "question_id": 5331,
+                    "description": "Manobra de Valsalva",
+                    "explanation": "A estenose aórtica é uma valvopatia prevalente, ocorrendo em 3% da população acima de 65 anos. A manobra de Valvalsa DIMINUI a pré-carga, isto é: diminui a quantidade de sangue que entra no VE e consequentemente o débito cardíaco. Nesse sentido, a manobra de Valvalva vai diminuir o sopro da estenose aórtica e não aumentá-lo.\n\n\n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-11-22T23:02:55.000Z",
+                    "updated_at": "2021-03-11T01:58:34.000Z",
+                    "files": [
+                        {
+                            "id": 1297,
+                            "file": "1606084121988.jpeg",
+                            "name": "manobras.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-11-23T01:28:42.000Z",
+                            "updated_at": "2020-11-23T01:28:42.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1606084121988.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1297,
+                                "alternative_id": 22025
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 22026,
+                    "question_id": 5331,
+                    "description": "Handgrip (força isométrica)",
+                    "explanation": "A estenose aórtica é uma valvopatia prevalente, ocorrendo em 3% da população acima de 65 anos. A manobra Handgrip é o aperto das mãos do paciente, literalmente como se fosse cumprimentá-lo. Essa manobra aumenta a RVP e, portanto, aumenta a pós-carga, ou seja: dificulta o bombeamento de sangue do VE para a circulação sistêmica e, consequentemente, diminui o sopro da estenose aórtica, uma vez que menos sangue tende a passar pela valva.\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-11-22T23:02:55.000Z",
+                    "updated_at": "2021-03-11T01:58:34.000Z",
+                    "files": [
+                        {
+                            "id": 1298,
+                            "file": "1606084359476.jpeg",
+                            "name": "manobras.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-11-23T01:32:40.000Z",
+                            "updated_at": "2020-11-23T01:32:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1606084359476.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1298,
+                                "alternative_id": 22026
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 22027,
+                    "question_id": 5331,
+                    "description": "Inspiração profunda",
+                    "explanation": "A estenose aórtica é uma valvopatia prevalente, ocorrendo em 3% da população acima de 65 anos. Doc, dê uma olhadinha na imagem abaixo pra entender! Em resumo, a inspiração aumenta o retorno sanguíneo para o lado direito e, portanto, aumenta a intensidade dos sopros do lado direito, e não da estenose aórtica.\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-11-22T23:02:55.000Z",
+                    "updated_at": "2021-03-11T01:58:34.000Z",
+                    "files": [
+                        {
+                            "id": 1300,
+                            "file": "1606085061684.jpeg",
+                            "name": "manobras do exame físico.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-11-23T01:44:22.000Z",
+                            "updated_at": "2020-11-23T01:44:22.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1606085061684.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1300,
+                                "alternative_id": 22027
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 22028,
+                    "question_id": 5331,
+                    "description": "Posição de cócoras do paciente",
+                    "explanation": "Perfeito, doc! A estenose aórtica é uma valvopatia prevalente, ocorrendo em 3% da população acima de 65 anos. Ao ficar de cócoras, o paciente joga grande parte do sangue dos membros e da periferia para o coração, o que aumenta a pré-carga, e, portanto, aumenta o sopro da estenose aórtica!\n\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-11-22T23:02:55.000Z",
+                    "updated_at": "2021-03-11T01:58:34.000Z",
+                    "files": [
+                        {
+                            "id": 1301,
+                            "file": "1606085201048.jpeg",
+                            "name": "manobras.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-11-23T01:46:41.000Z",
+                            "updated_at": "2020-11-23T01:46:41.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1606085201048.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1301,
+                                "alternative_id": 22028
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5331,
+                "questionary_id": 267573,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5332,
+            "institution_id": 61,
+            "description": "Mulher, 35 anos, queixa-se de dispneia aos esforços há 3 meses. Exame físico: FC = 92 bpm, PA = 120 x 82 mmHg, ritmo cardíaco regular, com hiperfonese da primeira bulha cardíaca, sopro mesotelediastólico 2+/4+, de baixa frequência, mais intenso em região apical com paciente em decúbito lateral esquerdo, iniciado logo após som de estalio mesodiastólico. Qual é o diagnóstico mais provável?\n",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-11-23T02:34:57.000Z",
+            "updated_at": "2020-11-23T02:34:57.000Z",
+            "user_id": 33,
+            "is_residency": false,
+            "institution": {
+                "id": 61,
+                "title": "USP-RP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-23T20:44:31.000Z",
+                "updated_at": "2020-05-23T20:44:31.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 535,
+                    "title": "Curso de Valvopatias (Intensivo de ECG e TáDeClinicagem)",
+                    "description": null,
+                    "parent_id": 7,
+                    "is_enabled": true,
+                    "created_at": "2020-11-22T23:27:43.000Z",
+                    "updated_at": "2020-11-22T23:27:43.000Z",
+                    "pivot": {
+                        "discipline_id": 535,
+                        "question_id": 5332
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 22029,
+                    "question_id": 5332,
+                    "description": "Estenose mitral",
+                    "explanation": "Sopro mesotelediastólico, de baixa frequência, mais intenso em região apical (ou seja, na região do ictus cordis) e com estalido de abertura é característico da ESTENOSE MITRAL. A valva mitral é uma valva bicúspide que separa o AE do VE e abre durante a diástole do VE para permitir a entrada de sangue no mesmo. Em caso de estenose, essa valva tem dificuldade para abrir e só consegue abrir depois de um tempo, o que gera o estalido de abertura no meio/final da diástole\n\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-11-22T23:34:57.000Z",
+                    "updated_at": "2020-11-22T23:34:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 22030,
+                    "question_id": 5332,
+                    "description": "Prolapso valvar mitral",
+                    "explanation": "Um prolapso de valva mitral é um som que ocorre na SÍSTOLE e não na diástole. Lembre-se que o prolapso é como se a valva mitral se armasse feito um paraquedas quando o sangue bate nela durante a sístole.\n\n\n\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-11-22T23:34:57.000Z",
+                    "updated_at": "2021-03-11T01:58:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 22031,
+                    "question_id": 5332,
+                    "description": "Insuficiência tricúspide",
+                    "explanation": "A insuficiência ou regurgitação tricúspide acontece quando a valva tricúspide não consegue fechar direito durante a sístole do VD, possibilitando o retorno de sangue na direção do VD para o AD. Portanto é um sopro SISTÓLICO e não diastólico, como diz o enunciado da questão. Além disso, o principal local de ausculta da insuficiência tricúspide seria o foco tricúspide, ou seja: entre o 4º e 5º EIC à esquerda, na borda paraesternal.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-11-22T23:34:57.000Z",
+                    "updated_at": "2020-11-22T23:34:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 22032,
+                    "question_id": 5332,
+                    "description": "Comunicação interventricular",
+                    "explanation": "O sopro caracaterístico da CIV é um sopro sistólico auscultado em região paraesternal esquerda, com frêmito.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-11-22T23:34:57.000Z",
+                    "updated_at": "2020-11-22T23:34:57.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5332,
+                "questionary_id": 267573,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5333,
+            "institution_id": 98,
+            "description": "Paciente de 76 anos relata que há 2 anos iniciou dispneia inicialmente aos grandes esforços, progredindo para pequenos esforços. Nos últimos 6 meses, apresentou 2 episódios de síncope precipitada por um pequeno esforço. Ao exame físico: ritmo cardíaco regular em 3T (B4) e sopro sistólico ejetivo (4+/6+) no 2o espaço intercostal direito com irradiação para carótida e ápices, frêmito palpável. Qual o diagnóstico? ",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-11-23T02:57:37.000Z",
+            "updated_at": "2020-11-23T02:57:37.000Z",
+            "user_id": 33,
+            "is_residency": false,
+            "institution": {
+                "id": 98,
+                "title": "UNAERP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-31T21:34:51.000Z",
+                "updated_at": "2020-05-31T21:34:51.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 535,
+                    "title": "Curso de Valvopatias (Intensivo de ECG e TáDeClinicagem)",
+                    "description": null,
+                    "parent_id": 7,
+                    "is_enabled": true,
+                    "created_at": "2020-11-22T23:27:43.000Z",
+                    "updated_at": "2020-11-22T23:27:43.000Z",
+                    "pivot": {
+                        "discipline_id": 535,
+                        "question_id": 5333
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 22033,
+                    "question_id": 5333,
+                    "description": "Estenose mitral",
+                    "explanation": "O sopro característico da estenose mitral é o ruflar diastólico, no ápice, em decúbito lateral esquerdo, pode irradiar-se para a axila e para foco tricúspide. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-11-22T23:57:37.000Z",
+                    "updated_at": "2020-11-22T23:57:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 22034,
+                    "question_id": 5333,
+                    "description": "Insuficiência aórtica",
+                    "explanation": "A insuficiência ou regurgitação aórtica apresenta um sopro diastólico mais intenso em foco aórtico acessório que possui irradiação para região do foco tricúspide ou até mesmo mitral. O sopro gera um som de alta frequência, de caráter decrescente e aspirativo. \n\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-11-22T23:57:37.000Z",
+                    "updated_at": "2021-03-11T01:58:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 22035,
+                    "question_id": 5333,
+                    "description": "Insuficiência mitral",
+                    "explanation": "O exame físico da Insuficiência Mitral apresenta um sopro sistólico em foco mitral que podem irradiar para axila, pescoço, e bordas esternais direita e esquerda. Nesse sopro, não há correspondência entre gravidade do sopro e gravidade da insuficiência. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-11-22T23:57:37.000Z",
+                    "updated_at": "2020-11-22T23:57:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 22036,
+                    "question_id": 5333,
+                    "description": "Estenose aórtica",
+                    "explanation": "Perfeito! A sintomatologia aliada ao exame físico desse paciente nos faz concluir que ele tem uma valvopatia. Um sopro sistólico de ejeção rude, mais intenso na borda esternal superior direita, que irradia-se para fúrcula e carótidas e com uma B4 é característico da estenose aórtica. B4 pode ocorrer devido à contração atrial vigorosa. \n\nOutras possíveis características do sopro da estenose aórtica no exame físico seriam: abafamento de B2 ou desdobramento paradoxal de P2 devido ao retardo do fechamento da válvula aórtica, um click junto com B1.  Algumas vezes o sopro pode irradiar-se para o ápice (ictus cordis) e aparecer com uma qualidade musical, lembrando o som da regurgitação mitral, este é o chamado fenômeno de Gallavardin. ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-11-22T23:57:37.000Z",
+                    "updated_at": "2020-11-22T23:57:37.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5333,
+                "questionary_id": 267573,
+                "timer": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,2731 @@
+{
+    "id": 268198,
+    "user_id": 1699,
+    "title": "Radiografia de Tórax",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T22:54:25.000Z",
+    "updated_at": "2022-07-11T22:54:25.000Z",
+    "study_plan_id": 486,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 5635,
+            "institution_id": 4,
+            "description": "Em relação à anatomia normal de uma radiografia de tórax, assinale a alternativa CORRETA:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-12-19T18:19:43.000Z",
+            "updated_at": "2020-12-19T18:19:43.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 563,
+                    "title": "Radiologia de Tórax",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-12-19T17:42:57.000Z",
+                    "updated_at": "2020-12-19T17:42:57.000Z",
+                    "pivot": {
+                        "discipline_id": 563,
+                        "question_id": 5635
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23262,
+                    "question_id": 5635,
+                    "description": "O lado direito da imagem sempre corresponde ao lado direito do paciente e vice-versa",
+                    "explanation": "Falso doc! É o contrário. Na incidência padrão em PA, devemos imaginar que o paciente encontra-se de frente para nós, sendo o lado direito da imagem correspondente ao lado esquerdo do paciente e vice-versa.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-12-19T15:19:43.000Z",
+                    "updated_at": "2020-12-19T15:19:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23263,
+                    "question_id": 5635,
+                    "description": "Os vasos dos lobos superiores tem um diâmetro menor do que os dos lobos inferiores em posição ereta",
+                    "explanation": "Perfeito doc! O padrão vascular normal de uma radiografia de tórax tem duas características muito básicas e que você não deve esquecer: \n- artérias e veias partem do hilo e ramificam-se verticalmente para os lobos superiores e inferiores\n- os vasos dos lobos superiores possuem menor calibre do que os dos lobos inferiores. Isso ocorre por conta da própria gravidade, o que faz com que o sangue se acumule inferiormente. O contrário pode ocorrer em condições de hipertensão venosa pulmonar.\n\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-12-19T15:19:43.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2457,
+                            "file": "1608389913045.png",
+                            "name": "Slide01.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-12-19T17:58:34.000Z",
+                            "updated_at": "2020-12-19T17:58:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1608389913045.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2457,
+                                "alternative_id": 23263
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 23264,
+                    "question_id": 5635,
+                    "description": "As chamadas \"marcas pulmonares\" referem-se às gerações de brônquios e são mais visíveis na periferia",
+                    "explanation": "Falso doc! As marcas pulmonares nada mais são que vasos pulmonares. Eles são visíveis na radiografia de tórax pois o ferro do sangue absorve os raios-x. Podemos dividir o pulmão em terços do centro para a periferia, de modo que no centro essas marcas são mais claras e muito visíveis, enquanto vao se tornando escassas ao chegar na periferia.\n\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-12-19T15:19:43.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2480,
+                            "file": "1608390897983.png",
+                            "name": "Slide01.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-12-19T18:14:59.000Z",
+                            "updated_at": "2020-12-19T18:14:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1608390897983.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2480,
+                                "alternative_id": 23264
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 23265,
+                    "question_id": 5635,
+                    "description": "O ventrículo esquerdo forma o bordo cardíaco esquerdo e o ventrículo direito forma o bordo cardíaco direito",
+                    "explanation": "Falso doc! É o átrio direito que forma o bordo cardíaco direito. Nem o átrio esquerdo e nem o ventrículo direito são visíveis na radiografia de tórax normal, uma vez que o VD situa-se anteriormente e o AE posteriormente, não tendo nenhum bordo definível ao rx.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-12-19T15:19:43.000Z",
+                    "updated_at": "2020-12-19T15:19:43.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5635,
+                "questionary_id": 268198,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5636,
+            "institution_id": 4,
+            "description": "O primeiro passo na avaliação de uma radiografia de tórax é a avaliação da qualidade do filme. Em relação a essa avaliação, assinale a alternativa CORRETA:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-12-19T18:45:22.000Z",
+            "updated_at": "2020-12-19T18:46:34.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 563,
+                    "title": "Radiologia de Tórax",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-12-19T17:42:57.000Z",
+                    "updated_at": "2020-12-19T17:42:57.000Z",
+                    "pivot": {
+                        "discipline_id": 563,
+                        "question_id": 5636
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23266,
+                    "question_id": 5636,
+                    "description": "As incidências consideradas padrão da radiografia de tórax são ântero-posterior (AP) e perfil (P)",
+                    "explanation": "Falso doc! São póstero-anterior (PA) e perfil (P). A incidência em PA torna o contorno cardíaco mais claro, além de dar uma proporção melhor do tamanho correto do coração. A incidência em AP é mais utilizada em pacientes acamados.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-12-19T15:45:22.000Z",
+                    "updated_at": "2020-12-19T15:46:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23267,
+                    "question_id": 5636,
+                    "description": "Para que seja considerada uma boa imagem, o paciente deve estar em expiração forçada",
+                    "explanation": "Falso doc! O paciente deve estar em inspiração profunda, uma vez que quando não há inspiração adequada, o coração pode parecer maior, simulando uma cardiomegalia. Além disso, se os pulmões não estiverem adequadamente insuflados, os vasos pulmonares podem parecer mais proeminentes e dar a falsa aparência de consolidação ou atelectasia.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-12-19T15:45:22.000Z",
+                    "updated_at": "2020-12-19T15:46:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23268,
+                    "question_id": 5636,
+                    "description": "As extremidades mediais das clavículas devem estar afastadas da linha mediana e o paciente levemente rodado",
+                    "explanation": "Falso doc! A radiografia não pode estar rodada! Podemos avaliar isso pelo alinhamento das extremidades mediais das clavículas, as quais devem estar simetricamente próximas à linha mediana e aos corpos vertebrais.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-12-19T15:45:22.000Z",
+                    "updated_at": "2020-12-19T15:46:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23269,
+                    "question_id": 5636,
+                    "description": "Em uma imagem adequada, o hemidiafragma deve estar situado ao nível da sexta costela anterior ou abaixo",
+                    "explanation": "Perfeito doc! Podemos contar as costelas e ver a relação delas com o diafragma para avaliar a inspiração e a penetração da imagem. De modo geral, uma imagem pode ser considerada de boa qualidade quando o hemidiafragma encontra-se ao nível da sexta costela anterior ou abaixo desta ou, ainda, quando é possível contar 8 ou 9 costelas visíveis posteriores nos campos pulmonares.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-12-19T15:45:22.000Z",
+                    "updated_at": "2020-12-19T15:46:35.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5636,
+                "questionary_id": 268198,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5637,
+            "institution_id": 4,
+            "description": "A avaliação sistemática de uma radiografia de tórax é importante para que não se deixe passar nada que possa indicar alguma condição ou doença. No que tange a essa investigação, assinale a alternativa **INCORRETA:**",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-12-19T19:13:19.000Z",
+            "updated_at": "2022-03-13T20:05:16.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 563,
+                    "title": "Radiologia de Tórax",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-12-19T17:42:57.000Z",
+                    "updated_at": "2020-12-19T17:42:57.000Z",
+                    "pivot": {
+                        "discipline_id": 563,
+                        "question_id": 5637
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23270,
+                    "question_id": 5637,
+                    "description": "Em relação à via aérea, deve-se atentar para alterações no ângulo da carina e para possível desvio traqueal",
+                    "explanation": "Perfeito doc! Pode-se iniciar a avaliação de uma radiografia de tórax pelo mais básico: a via aérea, acompanhando a traqueia de cima a baixo até sua bifurcação na carina em brônquio principal direito e brônquio principal esquerdo. Nesse primeiro passo, o mais importante é avaliar a localização mediana da traqueia, procurando-se por algum desvio que possa indicar pneumotórax, derrame de grande monta ou alguma massa compressiva. Outras alterações importantes de se avaliar incluem a presença de obstruções ou ainda alterações no ângulo carinal.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-12-19T16:13:19.000Z",
+                    "updated_at": "2022-03-13T20:05:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23271,
+                    "question_id": 5637,
+                    "description": "A avaliação dos pulmões deve ser feita comparando-se os campos pulmonares de um lado com os campos correspondentes do lado contralateral",
+                    "explanation": "Perfeito doc! A avaliação dos pulmões segue uma regra muito simples: preto é ar e branco é sólido. Sabendo disso você vai conseguir resolver a maior parte dos problemas durante a sua avaliação dos pulmões ao rx. Essa avaliação deve ser feita de modo simétrico, afinal temos dois pulmões! Então, sempre deve-se comparar um lado com o outro, sempre comparando com a zona correspondendo do outro lado. Por exemplo: zona apical do lado direito com zona apical do lado esquerdo, zona superior direita com zona superior esquerda, e assim por diante.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-12-19T16:13:19.000Z",
+                    "updated_at": "2022-03-13T20:05:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23272,
+                    "question_id": 5637,
+                    "description": "O índice cardiotorácico é utilizado para a avaliação da área cardíaca a partir da incidência em perfil",
+                    "explanation": "Falso doc! O índice cardiotorácico, que avalia a área do coração, é feito a partir da incidência em PA e diz respeito à razão entre o diâmetro cardíaco máximo transversal e o diâmetro da caixa torácica em inspiração profunda. Quando > 0,5 indica aumento da área cardíaca.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-12-19T16:13:19.000Z",
+                    "updated_at": "2022-03-13T20:05:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23273,
+                    "question_id": 5637,
+                    "description": "A avaliação dos hemidiafragmas é importante para investigação de derrame pleural e pneumoperitôneo",
+                    "explanation": "Perfeito doc! Os hemidiafragmas possuem localização típica, sendo o hemidiafragma direito mais alto do que o esquerdo. A avaliação dos seios costofrênicos é importante para afastar derrame pleural, enquanto a alterações na posição anatômica dos hemidiafragmas podem indicar acúmulo de ar no espaço subdiafragmático, como ocorre em casos de pneumoperitôneo.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-12-19T16:13:19.000Z",
+                    "updated_at": "2022-03-13T20:05:16.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5637,
+                "questionary_id": 268198,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5641,
+            "institution_id": 4,
+            "description": "Em relação aos padrões radiológicos básicos da radiografia de tórax, assinale a associação INCORRETA:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-12-19T23:38:09.000Z",
+            "updated_at": "2020-12-19T23:38:09.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 563,
+                    "title": "Radiologia de Tórax",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-12-19T17:42:57.000Z",
+                    "updated_at": "2020-12-19T17:42:57.000Z",
+                    "pivot": {
+                        "discipline_id": 563,
+                        "question_id": 5641
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23286,
+                    "question_id": 5641,
+                    "description": "Padrão alveolar= opacidade homogênea que pode ser pequena, segmentar ou ocupar todo espaço aéreo",
+                    "explanation": "Perfeito doc! O padrão alveolar é o padrão típico de acometimento das pneumonias que cursam com consolidação, como a pneumonia adquirida na comunidade. Esse padrão é caracterizado por preenchimento total do alvéolo, seja por líquido, célula ou a combinação desses dois, gerando uma opacidade homogênea e localizada, que pode variar de acordo com a extensão, podendo ser pequena, segmentar ou até mesmo ocupar todo o espaço aéreo. Doc, vide na imagem uma consolidação em lobo superior direito.\n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-12-19T20:38:09.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2575,
+                            "file": "1608408918698.jpeg",
+                            "name": "CONSOLIDAÇÃO EM LOBO SUPERIOR DIREITO.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-12-19T23:15:19.000Z",
+                            "updated_at": "2020-12-19T23:15:19.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1608408918698.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2575,
+                                "alternative_id": 23286
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 23287,
+                    "question_id": 5641,
+                    "description": "Padrão hilar= aumento dos linfonodos no hilo pulmonar",
+                    "explanation": "Perfeito doc! Essa é fácil e autointuitiva. O aumento dos linfonodos na região hilar gera uma opacidade nessa região, chamada de padrão hilar ou, ainda, adenopatia hilar. Diferentes etiologias podem estar por trás desse tipo de padrão, como por exemplo, inflamações (sarcoidose, silicose), neoplasias (linfomas, metástases, carcinonas), infecções (tuberculose, histoplasmose), etc. Sempre que esse padrão aparecer, deve-se fazer um dx diferencial com hipertensão pulmonar, em que há aumento do diâmetro vascular no hilo, podendo mimetizar um padrão hilar. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-12-19T20:38:09.000Z",
+                    "updated_at": "2020-12-19T20:38:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23288,
+                    "question_id": 5641,
+                    "description": "Padrão intersticial reticular= substituição localizada do ar alveolar por líquido ou células, formando redes",
+                    "explanation": "Falso doc! Essa alternativa está uma confusão. Acompanha o raciocínio!\n- padrão intersticial= acometimento do interstício, tecido de sustentação dos pulmões.\n- padrão intersticial reticular= sim, forma redes, porém isso ocorre no interstício, de modo difuso e não localizado.\n- substituição localizada do ar alveolar= consolidação, que seria o padrão alveolar e não intersticial e muito menos reticular.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-12-19T20:38:09.000Z",
+                    "updated_at": "2020-12-19T20:38:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23289,
+                    "question_id": 5641,
+                    "description": "Padrão intersticial micronodular= infiltração intersticial com formação de micronódulos dispersos pelo pulmão",
+                    "explanation": "Perfeito doc! O padrão intersticial costuma se apresentar sob a forma reticular (em forma de rede), micronodular (em forma de micronódulos) ou reticulonodular (rede + micronódulos). A forma micronodular está diretamente relacionada a doenças como a TB miliar e pneumonias por agentes atípicos, enquanto a forma reticular geralmente aparece em doenças como colagenoses e na sarcoidose. Doc, vide abaixo um padrão de acometimento tipicamente micronodular:\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-12-19T20:38:09.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2576,
+                            "file": "1608410248128.jpeg",
+                            "name": "PADRÃO MICRONODULAR, TÍPICO DE TB MILIAR E PNEUMONIAS ATÍPICAS.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-12-19T23:37:28.000Z",
+                            "updated_at": "2020-12-19T23:37:28.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1608410248128.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2576,
+                                "alternative_id": 23289
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5641,
+                "questionary_id": 268198,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5642,
+            "institution_id": 4,
+            "description": "Paciente mulher 40 anos começou com febre alta e tosse seca há 5 dias, que tornou-se mucopurulenta nos últimos 2 dias, além de associar-se à dor torácica ventilatório dependente e dispneia aos moderados esforços. Na emergência foi feito um rx de tórax que mostrou o seguinte:\n\nQual a alteração vista na radiografia dessa paciente e qual o provável diagnóstico, respectivamente?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-12-20T00:23:47.000Z",
+            "updated_at": "2021-03-11T04:57:58.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 563,
+                    "title": "Radiologia de Tórax",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-12-19T17:42:57.000Z",
+                    "updated_at": "2020-12-19T17:42:57.000Z",
+                    "pivot": {
+                        "discipline_id": 563,
+                        "question_id": 5642
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23290,
+                    "question_id": 5642,
+                    "description": "Infiltrado intersticial bilateral; pneumonia atípica",
+                    "explanation": "Falso doc, na imagem temos uma clara consolidação no lobo direito, que se associada à história clínica do paciente, nos leva a pensar imediatamente em PAC.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-12-19T21:23:47.000Z",
+                    "updated_at": "2020-12-19T21:23:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23291,
+                    "question_id": 5642,
+                    "description": "Adenopatia hilar; tuberculose",
+                    "explanation": "Falso doc! Embora o hilo parece um pouco aumentado, não podemos classificar esse padrão como hilar e muito menos sugestivo de tuberculose em um primeiro momento. O que nos deve chamar mais a atenção no momento é a grande consolidação no lobo superior direito, sugerindo uma pneumonia lobar, sobretudo dada a história clássica da nossa paciente.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-12-19T21:23:47.000Z",
+                    "updated_at": "2020-12-19T21:23:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23292,
+                    "question_id": 5642,
+                    "description": "Opacidades multifocais; broncopneumonia por S.aureus",
+                    "explanation": "Falso doc! Em um quadro de broncopneumonia esperaríamos áreas focais de consolidação peri-bronquiolar e lobular, acometendo um ou mais lobos. No rx acima temos apenas uma consolidação localizada, sugerindo uma pneumonia lobar, provavelmente por S. pneumoniae.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-12-19T21:23:47.000Z",
+                    "updated_at": "2020-12-19T21:23:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23293,
+                    "question_id": 5642,
+                    "description": "Consolidação homogênea e delimitada; pneumonia adquirida na comunidade",
+                    "explanation": "Perfeito doc! Na imagem acima temos uma consolidação pulmonar homogênea e bem delimitada, localizada no lobo superior direito, sugerindo uma pneumonia lobar. O principal agente das pneumonias lobares é o S. pneumoniae, principal agente da PAC. A história clínica da paciente com febre alta e evolução para tosse produtiva mucopurulenta corrobora a nossa hipótese diagnóstica. Doc, na imagem é possível ver também a presença de broncogramas aéreos, que nada mais são que brônquios ou bronquíolos cheios de ar em meio a alvéolos repletos de líquido, células ou ambos, o que também vai de encontro ao nosso achado de consolidação pulmonar, sugerindo pneumonia lobar.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-12-19T21:23:47.000Z",
+                    "updated_at": "2020-12-19T21:23:57.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 2578,
+                    "file": "1608412695226.jpeg",
+                    "name": "CONSOLIDAÇÃO EM LOBO SUPERIOR DIREITO.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-12-20T00:18:15.000Z",
+                    "updated_at": "2020-12-20T00:18:15.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1608412695226.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 2578,
+                        "question_id": 5642
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 5642,
+                "questionary_id": 268198,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5674,
+            "institution_id": 4,
+            "description": "São características do padrão de consolidação alveolar, EXCETO:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-12-23T17:26:34.000Z",
+            "updated_at": "2020-12-23T17:26:34.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 563,
+                    "title": "Radiologia de Tórax",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-12-19T17:42:57.000Z",
+                    "updated_at": "2020-12-19T17:42:57.000Z",
+                    "pivot": {
+                        "discipline_id": 563,
+                        "question_id": 5674
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23422,
+                    "question_id": 5674,
+                    "description": "Redução da densidade pulmonar",
+                    "explanation": "Falso doc! A famosa \"consolidação pulmonar\" nada mais é que um **aumento** da densidade pulmonar, que ocorre por conta de ocupação do espaço aéreo, seja por células, líquido ou ambos. Esse é o padrão típico da pneumonia adquirida na comunidade.\n\n\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-12-23T14:26:34.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2581,
+                            "file": "1608733231493.jpeg",
+                            "name": "consolidação pulmonar em lobo médio.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-12-23T17:20:32.000Z",
+                            "updated_at": "2020-12-23T17:20:32.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1608733231493.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2581,
+                                "alternative_id": 23422
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 23423,
+                    "question_id": 5674,
+                    "description": "Limites mal definidos",
+                    "explanation": "Perfeito doc! Essa é uma das principais características do padrão de consolidação alveolar. Podemos chamar essa perda de contorno de \"sinal da silhueta\", muito comum em quadros de pneumonia lobar.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-12-23T14:26:34.000Z",
+                    "updated_at": "2020-12-23T14:26:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23424,
+                    "question_id": 5674,
+                    "description": "Formação de broncogramas aéreos",
+                    "explanation": "Perfeito doc! Essa é uma característica muito típica do padrão de consolidação alveolar. Os broncogramas aéreos nada mais são que brônquios e bronquíolos repletos de ar em meio a um parênquima consolidado.\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-12-23T14:26:34.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2582,
+                            "file": "1608733430214.jpeg",
+                            "name": "Broncograma-aéreo.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-12-23T17:23:50.000Z",
+                            "updated_at": "2020-12-23T17:23:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1608733430214.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2582,
+                                "alternative_id": 23424
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 23425,
+                    "question_id": 5674,
+                    "description": "Confluência das lesões",
+                    "explanation": "Perfeito doc! A consolidação tende a atingir um segmento ou lobo pulmonar e tendem a confluir disseminando-se pelas comunicações intra-acinares, como os poros de Kohn.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-12-23T14:26:34.000Z",
+                    "updated_at": "2020-12-23T14:26:34.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5674,
+                "questionary_id": 268198,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5676,
+            "institution_id": 4,
+            "description": "Em relação à imagem abaixo, assinale a alternativa CORRETA:\n\n",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-12-23T17:45:18.000Z",
+            "updated_at": "2021-03-11T04:57:58.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 563,
+                    "title": "Radiologia de Tórax",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-12-19T17:42:57.000Z",
+                    "updated_at": "2020-12-19T17:42:57.000Z",
+                    "pivot": {
+                        "discipline_id": 563,
+                        "question_id": 5676
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23430,
+                    "question_id": 5676,
+                    "description": "Trata-se de uma broncopneumonia, provavelmente por S.aureus",
+                    "explanation": "Perfeito doc! Na imagem, podemos perceber múltiplos focos de condensações não homogêneas e com limites mal definidos, o que é muito característico de quadros de broncopneumonia. Esse padrão segue uma distribuição da via aérea superior para a via aérea inferior e tem como protótipo a infecção pelo S.aureus. Outros agentes causadores de broncopneumonia incluem o H. influenzae e a P.aeruginosa.\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-12-23T14:45:18.000Z",
+                    "updated_at": "2020-12-23T14:45:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23431,
+                    "question_id": 5676,
+                    "description": "O padrão de consolidação é lobar e a principal hipótese diagnóstica é de PAC por S.pneumoniae",
+                    "explanation": "Falso doc, o padrão de consolidação é broncopulmonar e a principal hipótese é de pneumonia por S.aureus. O S.pneumoniae costuma evoluir com um quadro típico de pneumonia lobar, com consolidação bem localizada e limites mais ou menos bem definidos.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-12-23T14:45:18.000Z",
+                    "updated_at": "2020-12-23T14:45:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23432,
+                    "question_id": 5676,
+                    "description": "Percebe-se um extenso infiltrado intersticial bilateral e a principais hipótese é pneumonia por Micoplasma",
+                    "explanation": "Falso doc, a imagem nos mostra um padrão de múltiplas consolidações difusas, padrão esse conhecido como broncopneumonia, que tem como agente prototípico o S.aureus.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-12-23T14:45:18.000Z",
+                    "updated_at": "2020-12-23T14:45:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23433,
+                    "question_id": 5676,
+                    "description": "Na imagem, é possível visualizar cavitações bilaterais, provavelmente por Tuberculose.",
+                    "explanation": "Falso doc, na imagem não visualizamos cavitações e sim consolidações difusas, o que nos leva a pensar em broncopneumonia, provavelmente por S. aureus.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-12-23T14:45:18.000Z",
+                    "updated_at": "2020-12-23T14:45:18.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 2583,
+                    "file": "1608734070138.jpeg",
+                    "name": "BRONCOPNEUMONIA.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-12-23T17:34:30.000Z",
+                    "updated_at": "2020-12-23T17:34:30.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1608734070138.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 2583,
+                        "question_id": 5676
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 5676,
+                "questionary_id": 268198,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5681,
+            "institution_id": 4,
+            "description": "Paciente homem, 50 anos, com histórico de exposição prolongada ao asbesto, apresenta-se com dispneia progressiva aos leves esforços há 1 ano. Com base na Tomografia Computadorizada de Alta Resolução (TCAR) do paciente, qual o diagnóstico radiológico?\n\n\n",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-12-23T19:01:18.000Z",
+            "updated_at": "2022-05-03T14:38:09.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 563,
+                    "title": "Radiologia de Tórax",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-12-19T17:42:57.000Z",
+                    "updated_at": "2020-12-19T17:42:57.000Z",
+                    "pivot": {
+                        "discipline_id": 563,
+                        "question_id": 5681
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23450,
+                    "question_id": 5681,
+                    "description": "Derrame pleural",
+                    "explanation": "Falso doc! Não vemos evidência de derrame pleural na TCAR do paciente. Vide um derrame pleural abaixo:\n\n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-12-23T16:01:18.000Z",
+                    "updated_at": "2022-05-03T14:38:09.000Z",
+                    "files": [
+                        {
+                            "id": 2590,
+                            "file": "1608738910514.jpeg",
+                            "name": "DERRAME PLEURAL TCAR.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-12-23T18:55:11.000Z",
+                            "updated_at": "2020-12-23T18:55:11.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1608738910514.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2590,
+                                "alternative_id": 23450
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 23451,
+                    "question_id": 5681,
+                    "description": "Pneumotórax",
+                    "explanation": "Falso doc! Não há evidência de pneumotórax na TCAR do paciente. Um pneumotórax apresentaria-se com evidência de ar entre a pleura parietal e a visceral na TCAR, como na imagem abaixo:\n\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-12-23T16:01:18.000Z",
+                    "updated_at": "2022-05-03T14:38:09.000Z",
+                    "files": [
+                        {
+                            "id": 2589,
+                            "file": "1608738856596.jpeg",
+                            "name": "PNEUMOTÓRAX TCAR.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-12-23T18:54:17.000Z",
+                            "updated_at": "2020-12-23T18:54:17.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1608738856596.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2589,
+                                "alternative_id": 23451
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 23452,
+                    "question_id": 5681,
+                    "description": "Atelectasia pulmonar",
+                    "explanation": "Perfeito doc! A imagem acima é característica da chamada atelectasia redonda, que se apresenta como uma massa subpleural, da qual emanam vasos e brônquios, formando um aspecto de cauda de cometa, que liga a atelectasia ao hilo pulmonar. Essa condição é muito comum em paciente com história prévia de exposição ao asbesto, o que corrobora a nossa hipótese diagnóstica. ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-12-23T16:01:18.000Z",
+                    "updated_at": "2022-05-03T14:38:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23453,
+                    "question_id": 5681,
+                    "description": "Consolidação lobar",
+                    "explanation": "Falso doc! A TCAR não evidencia consolidação lobar. Vide uma consolidação abaixo:\n\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-12-23T16:01:18.000Z",
+                    "updated_at": "2022-05-03T14:38:09.000Z",
+                    "files": [
+                        {
+                            "id": 2591,
+                            "file": "1608739270457.jpeg",
+                            "name": "CONSOLIDAÇÃO TCARR.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-12-23T19:01:11.000Z",
+                            "updated_at": "2020-12-23T19:01:11.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1608739270457.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2591,
+                                "alternative_id": 23453
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 2588,
+                    "file": "1608738605271.jpeg",
+                    "name": "ATELECTASIA PULMONAR TCAR.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-12-23T18:50:05.000Z",
+                    "updated_at": "2020-12-23T18:50:05.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1608738605271.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 2588,
+                        "question_id": 5681
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 5681,
+                "questionary_id": 268198,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5701,
+            "institution_id": 4,
+            "description": "Qual o nome do sinal radiográfico indicado abaixo pela seta e qual a principal hipótese diagnóstica?\n\n\n",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-12-28T17:55:00.000Z",
+            "updated_at": "2021-03-11T04:57:58.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 563,
+                    "title": "Radiologia de Tórax",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-12-19T17:42:57.000Z",
+                    "updated_at": "2020-12-19T17:42:57.000Z",
+                    "pivot": {
+                        "discipline_id": 563,
+                        "question_id": 5701
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23530,
+                    "question_id": 5701,
+                    "description": "Sinal da silhueta; pneumonia lobar",
+                    "explanation": "Falso doc! O sinal da sulhueta diz respeito a perda de contorno de uma estrutura que deixou de estar em contato com outra densidade diferente, como, por exemplo, o coração em relação aos lobos pulmonares. Se liga nessa imagem abaixo:\n\n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-12-28T14:55:00.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2598,
+                            "file": "1609166690822.jpeg",
+                            "name": "SINAL DA SILHUETA-CONSOLIDAÇÃO.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-12-28T17:44:51.000Z",
+                            "updated_at": "2020-12-28T17:44:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609166690822.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2598,
+                                "alternative_id": 23530
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 23531,
+                    "question_id": 5701,
+                    "description": "Sinal de palla; tromboembolismo pulmonar",
+                    "explanation": "Falso doc! O sinal de palla é caracterizado por aumento do ramo interlobar descendente da artéria pulmonar direita, como na imagem abaixo:\n\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-12-28T14:55:00.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2599,
+                            "file": "1609166936258.jpeg",
+                            "name": "SINAL DE PALLA.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-12-28T17:48:57.000Z",
+                            "updated_at": "2020-12-28T17:48:57.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609166936258.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2599,
+                                "alternative_id": 23531
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 23532,
+                    "question_id": 5701,
+                    "description": "Sinal do menisco; derrame pleural",
+                    "explanation": "Perfeito doc! Estamos diante de um grande derrame pleural, velando boa parte do hemitórax esquerdo do paciente. A seta da imagem está apontando uma curvatura que delimita internamente a opacidade sobreposta ao hemitórax em questão. A essa curvatura damos o nome de sinal do menisco, por conta do seu próprio formato de menisco. Além desse sinal, podemos observar na imagem acima o velamento do seio costofrênico esquerdo, corroborando a nossa hipótese diagnóstica.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-12-28T14:55:00.000Z",
+                    "updated_at": "2020-12-28T14:55:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23533,
+                    "question_id": 5701,
+                    "description": "Corcova de Hampton; tuberculose",
+                    "explanation": "Falso doc! A corcova de Hampton diz respeito a formação de uma imagem em cunha no parênquima do pulmão, cuja a base está voltada para a parte periférica do mesmo, indicando uma área isquêmica secundária a um TEP.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-12-28T14:55:00.000Z",
+                    "updated_at": "2020-12-28T14:55:00.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 2597,
+                    "file": "1609166478546.jpeg",
+                    "name": "SINAL DO MENISCO DP.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-12-28T17:41:19.000Z",
+                    "updated_at": "2020-12-28T17:41:19.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609166478546.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 2597,
+                        "question_id": 5701
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 5701,
+                "questionary_id": 268198,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5702,
+            "institution_id": 4,
+            "description": "Paciente homem, 55 anos, tabagista pesado e de longa data (60 maços-ano) refere dispneia progressiva há 2 anos relacionada aos mínimos esforços e associada a tosse produtiva há mais de 3 anos. A radiografia de tórax do paciente encontra-se abaixo. Com base na história clínica e no exame de imagem do paciente, qual o achado radiológico e a principal hipótese diagnóstica?\n\n\n",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-12-28T18:20:44.000Z",
+            "updated_at": "2021-03-11T04:57:58.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 563,
+                    "title": "Radiologia de Tórax",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-12-19T17:42:57.000Z",
+                    "updated_at": "2020-12-19T17:42:57.000Z",
+                    "pivot": {
+                        "discipline_id": 563,
+                        "question_id": 5702
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23534,
+                    "question_id": 5702,
+                    "description": "Consolidação lobar; pneumonia adquirida na comunidade",
+                    "explanation": "Falso doc! Não há evidência de consolidação pulmonar nem de história sugestiva de PAC.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-12-28T15:20:44.000Z",
+                    "updated_at": "2020-12-28T15:43:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23535,
+                    "question_id": 5702,
+                    "description": "Infiltrado intersticial retículo-nodular; covid",
+                    "explanation": "Falso doc! Não há infiltrado intersticial no raio x do paciente, além de que o paciente apresenta uma história de dispneia e tosse crônica, o que nos leva a pensar em um processo patológico crônico e não infeccioso ou agudo.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-12-28T15:20:44.000Z",
+                    "updated_at": "2020-12-28T15:43:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23536,
+                    "question_id": 5702,
+                    "description": "Atelectasia segmentar; TEP",
+                    "explanation": "Falso doc! Na imagem acima não há evidência de atelectasia, uma vez que ambos os pulmões estão repletos de ar (até demais doc, repare no comentário da alternativa correta). ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-12-28T15:20:44.000Z",
+                    "updated_at": "2020-12-28T15:43:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23537,
+                    "question_id": 5702,
+                    "description": "Enfisema pulmonar; DPOC",
+                    "explanation": "Perfeito doc! Estamos diante de um rx de tórax com ambos os pulmões extremamente aerados (vide a hipertransparência bilaretalmente), além de que há pobreza vascular na periferia e nos lobos superiores coração em gota e visível retificação diafragmática, corroborando a nossa hipótese de enfisema pulmonar. O diagnóstico de DPOC deve ser imediatamente suspeitado, uma vez que estamos diante de um tabagista pesado com dispneia e tosse crônica, além do achado de enfisema pulmonar. Lembrando que para confirmar DPOC devemos solicitar uma espirometria ao nosso paciente. Se VEF1/CVF < 0,7 pós-BD, já sabe ne? confirma DPOC.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-12-28T15:20:44.000Z",
+                    "updated_at": "2020-12-28T15:43:27.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 2600,
+                    "file": "1609168358331.jpeg",
+                    "name": "ENFISEMA PULMONAR (POBREZA VASCULAR, PRINCIPALMENTE EM LOBOS SUPERIORES, RETIFICAÇÃO DO DIAFRAGMA).jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-12-28T18:12:39.000Z",
+                    "updated_at": "2020-12-28T18:12:39.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609168358331.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 2600,
+                        "question_id": 5702
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 5702,
+                "questionary_id": 268198,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5704,
+            "institution_id": 4,
+            "description": "Paciente homem 60 anos, doente renal crônico, após ser submetido a um procedimento de acesso venoso central para introdução de cateter para hemodiálise, evoluiu com dispneia súbita, dor torácica ventilatório-dependente em hemitórax esquerdo e queda da saturação de oxigênio. Com base na história clínica do paciente e na TC abaixo, qual o provável diagnóstico?\n\n\n",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-12-28T18:57:41.000Z",
+            "updated_at": "2021-03-11T04:57:58.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 563,
+                    "title": "Radiologia de Tórax",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-12-19T17:42:57.000Z",
+                    "updated_at": "2020-12-19T17:42:57.000Z",
+                    "pivot": {
+                        "discipline_id": 563,
+                        "question_id": 5704
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23542,
+                    "question_id": 5704,
+                    "description": "Derrame pleural paraneoplásico",
+                    "explanation": "Falso doc! Embora o quadro clínico do pneumotórax e do derrame pleural sejam muito semelhantes à apresentação, não há evidência de derrame pleural na imagem e nem história prévia de neoplasia nesse paciente.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-12-28T15:57:41.000Z",
+                    "updated_at": "2020-12-28T15:57:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23543,
+                    "question_id": 5704,
+                    "description": "Edema agudo de pulmão",
+                    "explanation": "Falso doc! Embora esse possa ser um diagnóstico diferencial da dispneia súbita em um paciente renal crônico, a TC não trás evidências de edema pulmonar.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-12-28T15:57:41.000Z",
+                    "updated_at": "2020-12-28T15:57:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23544,
+                    "question_id": 5704,
+                    "description": "Atelectasia redonda",
+                    "explanation": "Falso doc! Existe sim uma alteração de densidade na TC do paciente, no entanto, o que temos é uma redução da densidade e não um aumento, além da localização periférica entre a pleura visceral e parietal, sugerindo um pneumotórax e não uma atelectasia redonda. Vide abaixo um exemplo de atelectasia redonda:\n\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-12-28T15:57:41.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2602,
+                            "file": "1609170847237.jpeg",
+                            "name": "ATELECTASIA PULMONAR TCAR.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-12-28T18:54:07.000Z",
+                            "updated_at": "2020-12-28T18:54:07.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609170847237.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2602,
+                                "alternative_id": 23544
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 23545,
+                    "question_id": 5704,
+                    "description": "Pneumotórax",
+                    "explanation": "Perfeito doc! Aqui temos uma história clássica de um paciente submetido a uma intervenção invasiva que levou a perfuração da pleura parietal, resultando na entrada de ar entre os dois folhetos (parietal e visceral), o que chamamos de pneumotórax. A clínica do paciente, com dispneia súbita, dor torácica e queda da saturação, associada a um achado clássico de pneumotórax na TCAR confirma o diagnóstico. Doc, é importante lembrar que não necessitamos de exames de imagem para confirmação de pneumotórax! Deve-se tratar o paciente imediatamente.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-12-28T15:57:41.000Z",
+                    "updated_at": "2020-12-28T15:57:41.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 2601,
+                    "file": "1609170697873.jpeg",
+                    "name": "PNEUMOTÓRAX TCARR.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-12-28T18:51:38.000Z",
+                    "updated_at": "2020-12-28T18:51:38.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609170697873.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 2601,
+                        "question_id": 5704
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 5704,
+                "questionary_id": 268198,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5712,
+            "institution_id": 4,
+            "description": "Paciente homem, 75 anos, tabagista pesado (60 maços-ano), com história prévia de DPOC, apresenta-se com dispneia progressiva aos mínimos esforços há 2 anos. Refere, ainda, uma perda de peso inexplicada nos últimos 6 meses (~10 kg) Com base na TC do paciente, qual a principal hipótese diagnóstica?\n\n\n\n\n",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-12-29T16:35:04.000Z",
+            "updated_at": "2021-03-11T04:57:58.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 563,
+                    "title": "Radiologia de Tórax",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-12-19T17:42:57.000Z",
+                    "updated_at": "2020-12-19T17:42:57.000Z",
+                    "pivot": {
+                        "discipline_id": 563,
+                        "question_id": 5712
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23574,
+                    "question_id": 5712,
+                    "description": "Pneumonia adquirida na comunidade",
+                    "explanation": "Falso doc! Podemos diferenciar uma consolidação de uma massa pulmonar com base nas suas características, como ausência de broncograma aéreo, contornos bocejados e espiculados, tamanho, irregularidades, cavitação com parede espessa e irregular, tempo de duplicação mais curto, entre outras características. Doc, vide abaixo um exemplo de consolidação em uma TC:\n\n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-12-29T13:35:04.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2605,
+                            "file": "1609248371437.jpeg",
+                            "name": "CONSOLIDAÇÃO TCARR.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-12-29T16:26:12.000Z",
+                            "updated_at": "2020-12-29T16:26:12.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609248371437.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2605,
+                                "alternative_id": 23574
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 23575,
+                    "question_id": 5712,
+                    "description": "Atelectasia pulmonar",
+                    "explanation": "Falso doc, não há evidência de atelectasia pulmonar na TC desse paciente. Doc, vide abaixo um exemplo de atelectasia em uma TC:\n\n\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-12-29T13:35:04.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2606,
+                            "file": "1609248471330.jpeg",
+                            "name": "ATELECTASIA PULMONAR TCAR.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-12-29T16:27:52.000Z",
+                            "updated_at": "2020-12-29T16:27:52.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609248471330.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2606,
+                                "alternative_id": 23575
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 23576,
+                    "question_id": 5712,
+                    "description": "Carcinoma broncogênico",
+                    "explanation": "Perfeito doc! Estamos diante de um paciente do sexo masculino, de idade avançada, tabagista de longa data e com história prévia de DPOC, fatores de risco importantes para CA de pulmão. Além disso, nosso paciente chega com uma queixa de dispneia crônica e progressiva, já aos mínimos esforços, o que deve desviar nossa atenção imediatamente a possibilidade de um carcinoma broncogênico. A perda de peso inexplicada corrobora a nossa hipótese diagnóstica. No que tange à TC, devemos nos atentar a presença de uma massa de contornos espiculados, em contato com a parede torácica do lado esquerdo, associada a uma linfonodomegalia hilar homóloga, o que contribui para o nosso raciocínio diagnóstico no sentido do carcinoma broncogênico.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-12-29T13:35:04.000Z",
+                    "updated_at": "2020-12-29T13:35:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23577,
+                    "question_id": 5712,
+                    "description": "Derrame pleural paraneoplásico",
+                    "explanation": "Falso doc! Embora o CA de pulmão possa evoluir com derrame pleural paraneoplásico, não há evidência disso na TC do paciente. Doc, vide abaixo um exemplo de derrame pleural em uma TC:\n\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-12-29T13:35:04.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2607,
+                            "file": "1609248894229.jpeg",
+                            "name": "DERRAME PLEURAL TCAR.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-12-29T16:34:54.000Z",
+                            "updated_at": "2020-12-29T16:34:54.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609248894229.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2607,
+                                "alternative_id": 23577
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 2603,
+                    "file": "1609247945469.jpeg",
+                    "name": "TCAR CARCINOMA BRONCOGÊNICO.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-12-29T16:19:06.000Z",
+                    "updated_at": "2020-12-29T16:19:06.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609247945469.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 2603,
+                        "question_id": 5712
+                    }
+                },
+                {
+                    "id": 2604,
+                    "file": "1609248055699.jpeg",
+                    "name": "TCAR CARCINOMA BRONCOGÊNICO (janela parênquima).jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-12-29T16:20:56.000Z",
+                    "updated_at": "2020-12-29T16:20:56.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609248055699.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 2604,
+                        "question_id": 5712
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 5712,
+                "questionary_id": 268198,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13290,
+            "institution_id": 4,
+            "description": "O índice cardiotorácico é um exame radiológico para avaliação aproximada do aumento da silhueta cardíaca. É a razão entre o diâmetro cardíaco máximo transversal e o diâmetro da caixa torácica em inspiração profunda. Qual a razão considerada anormal **nos adultos**?",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-03-20T22:52:23.000Z",
+            "updated_at": "2022-03-20T22:52:23.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 563,
+                    "title": "Radiologia de Tórax",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-12-19T17:42:57.000Z",
+                    "updated_at": "2020-12-19T17:42:57.000Z",
+                    "pivot": {
+                        "discipline_id": 563,
+                        "question_id": 13290
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 54448,
+                    "question_id": 13290,
+                    "description": "> 0.65",
+                    "explanation": "Quase, Doc. Acaba sendo um questão conceitual. Confira o comentário completo na resposta correta.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-03-20T22:52:23.000Z",
+                    "updated_at": "2022-03-20T22:52:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 54449,
+                    "question_id": 13290,
+                    "description": "> 0.50",
+                    "explanation": "Excelente Doc,\nUsualmente corresponde a **0,5 no adulto**, devendo ser menor que 0**,65 nos recém-nascidos** e menor que **0,55 em lactentes.**\n\n- Lembrando que só é válida nos indivíduos normolíneos.\n- Nos pacientes brevilíneos ou na obesidade, a subida do diafragma provoca uma horizontalização cardíaca \"coração deitado\", com falso alargamento da silhueta cardíaca.\n- Nos pacientes longilíneos, por sua vez, o coração está em posição vertical com uma redução deste índice.\n- [Fonte](https://files.passeidireto.com/f5d6b6bc-f09f-4f84-a9f3-a3f0983a246d/f5d6b6bc-f09f-4f84-a9f3-a3f0983a246d.png) ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-03-20T22:52:23.000Z",
+                    "updated_at": "2022-03-20T22:52:23.000Z",
+                    "files": [
+                        {
+                            "id": 31299,
+                            "file": "b6bd3afd-cb50-4110-b671-630b6c622cb8.png",
+                            "name": "f5d6b6bc-f09f-4f84-a9f3-a3f0983a246d.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-20T22:51:51.000Z",
+                            "updated_at": "2022-03-20T22:51:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b6bd3afd-cb50-4110-b671-630b6c622cb8.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 31299,
+                                "alternative_id": 54449
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 54450,
+                    "question_id": 13290,
+                    "description": "> 0.45",
+                    "explanation": "Quase, Doc. Acaba sendo um questão conceitual. Confira o comentário completo na resposta correta. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-03-20T22:52:23.000Z",
+                    "updated_at": "2022-03-20T22:52:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 54451,
+                    "question_id": 13290,
+                    "description": "0.4",
+                    "explanation": "Quase, Doc. Acaba sendo um questão conceitual. Confira o comentário completo na resposta correta. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-03-20T22:52:23.000Z",
+                    "updated_at": "2022-03-20T22:52:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13290,
+                "questionary_id": 268198,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5680,
+            "institution_id": 4,
+            "description": "Paciente homem, 40 anos, portador de HIV/AIDS, com CD4+ < 200/uL, apresenta-se ao PS com tosse seca e febre há 3 semanas, associada a leve dispneia e piora progressiva do quadro. Ao exame físico, o paciente apresenta-se REG, emagrecido e levemente taquidispneico. Após o atendimento inicial, foram-solicitados um raio x de tórax e, em seguida, uma TCAR. Tendo em vista essas imagens e a história clínica do paciente, qual a principal hipótese diagnóstica?\n\n\n\n\n",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-12-23T18:32:37.000Z",
+            "updated_at": "2021-03-11T04:57:58.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 563,
+                    "title": "Radiologia de Tórax",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-12-19T17:42:57.000Z",
+                    "updated_at": "2020-12-19T17:42:57.000Z",
+                    "pivot": {
+                        "discipline_id": 563,
+                        "question_id": 5680
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23446,
+                    "question_id": 5680,
+                    "description": "Pneumonia adquirida na comunidade",
+                    "explanation": "Falso doc! O paciente em questão não apresenta um quadro típico de PAC, bem como sua radiografia não mostra consolidação ou infiltrado característico de pneumonias adquiridas na comunidade.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-12-23T15:32:37.000Z",
+                    "updated_at": "2020-12-23T15:32:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23447,
+                    "question_id": 5680,
+                    "description": "Tuberculose primária",
+                    "explanation": "Falso doc, na TB primária o achado típico é o do clássico complexo primário: condensação alveolar circunscrita (foco pulmonar) associada à linfonodomegalia hilar e/ou mediastinal (foco ganglionar).\n\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-12-23T15:32:37.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2587,
+                            "file": "1608737144556.jpeg",
+                            "name": "TB PRIMÁRIA.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-12-23T18:25:45.000Z",
+                            "updated_at": "2020-12-23T18:25:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1608737144556.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2587,
+                                "alternative_id": 23447
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 23448,
+                    "question_id": 5680,
+                    "description": "Derrame pleural paraneoplásico",
+                    "explanation": "Falso doc! Não há evidência de derrame pleural na radiografia nem na TCAR do paciente.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-12-23T15:32:37.000Z",
+                    "updated_at": "2020-12-23T15:32:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23449,
+                    "question_id": 5680,
+                    "description": "Tuberculose miliar",
+                    "explanation": "Perfeito doc! A tuberculose miliar é uma forma de tuberculose secundária (pós-primária) que ocorre por conta de disseminação hematogênica da doença. É mais comum em crianças < 4 anos, idosos e pacientes imunocomprometidos. Em pacientes com AIDS, a Tuberculose é uma das complicações mais comuns, sendo, inclusive, a principal causa de morte nesses pacientes. Por conta disso, um quadro de dispneia, febre e tosse persistente em um paciente com AIDS deve nos chamar a atenção imediatamente para a possibilidade de Tuberculose. Com o raio x que temos acima, mostrando um infiltrado micronodular difuso e bilateral, típico de tuberculose miliar, devemos aventar essa hipótese diagnóstica. A TCAR mostra micronódulos difusos pelo parênquima, corroborando a nossa hipótese.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-12-23T15:32:37.000Z",
+                    "updated_at": "2020-12-23T15:32:37.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 2585,
+                    "file": "1608736802896.jpeg",
+                    "name": "TB MILIAR.JPG",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-12-23T18:20:03.000Z",
+                    "updated_at": "2020-12-23T18:20:03.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1608736802896.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 2585,
+                        "question_id": 5680
+                    }
+                },
+                {
+                    "id": 2586,
+                    "file": "1608736861014.jpeg",
+                    "name": "TB MILIAR TCAR.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-12-23T18:21:01.000Z",
+                    "updated_at": "2020-12-23T18:21:01.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1608736861014.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 2586,
+                        "question_id": 5680
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 5680,
+                "questionary_id": 268198,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13291,
+            "institution_id": 4,
+            "description": "São causa de aumento do átrio esquerdo, **EXCETO:**",
+            "difficulty": "medium",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-03-20T23:12:18.000Z",
+            "updated_at": "2022-03-20T23:12:18.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 563,
+                    "title": "Radiologia de Tórax",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-12-19T17:42:57.000Z",
+                    "updated_at": "2020-12-19T17:42:57.000Z",
+                    "pivot": {
+                        "discipline_id": 563,
+                        "question_id": 13291
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 54452,
+                    "question_id": 13291,
+                    "description": "Estenose mitral",
+                    "explanation": "Não é a alternativa falsa, Doc.\n\n- É um das principais causas de aumento do átrio esquerdo a radiografia.\n- A estenose da válvula mitral é uma valvulopatia que descreve o estreitamento da abertura da válvula mitral entre o ventrículo esquerdo e o átrio esquerdo.\n- A estenose mitral é geralmente adquirida por doença cardíaca reumática, onde há inflamação crônica dos folhetos da válvula mitral (valvulite mitral)\n- [Fonte da imagem](https://radiopaedia.org/?lang=us) ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-03-20T23:12:18.000Z",
+                    "updated_at": "2022-03-20T23:12:18.000Z",
+                    "files": [
+                        {
+                            "id": 31300,
+                            "file": "cc2b2ae8-af98-4d48-a77c-2afe7309e684.png",
+                            "name": "left-atrial-enlargement-5.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-20T23:01:50.000Z",
+                            "updated_at": "2022-03-20T23:01:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/cc2b2ae8-af98-4d48-a77c-2afe7309e684.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 31300,
+                                "alternative_id": 54452
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 54453,
+                    "question_id": 13291,
+                    "description": "Insuficiência Mitral",
+                    "explanation": "Não é a alternativa falsa, Doc. \n- A regurgitação da válvula mitral, também conhecida como insuficiência da válvula mitral ou incompetência da válvula mitral, é uma valvulopatia que descreve o vazamento da válvula mitral durante a sístole que faz com que o sangue flua na direção inversa do ventrículo esquerdo para o átrio esquerdo.\n- **Esse sangue que flutua na direção reversa pode proporcionar um aumento compensatório do átrio esquerdo.**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-03-20T23:12:18.000Z",
+                    "updated_at": "2022-03-20T23:12:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 54454,
+                    "question_id": 13291,
+                    "description": "Estenose tricúspide",
+                    "explanation": "Excelente, Doc. Essa é a alternativa falsa.\n- A estenose da valva tricúspide é uma valvulopatia que descreve o estreitamento da abertura da valva tricúspide entre o ventrículo direito e o átrio direito.\n- Os pacientes com estenose tricúspide apresentam características clínicas **predominantemente direita de insuficiência cardíaca, como hepatomegalia, ascite e anasarca.**",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2022-03-20T23:12:18.000Z",
+                    "updated_at": "2022-03-20T23:12:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 54455,
+                    "question_id": 13291,
+                    "description": "Persistência do Ducto Arterioso",
+                    "explanation": "Não é a alternativa falsa, Doc. \n- A persistência do canal arterial ou arterioso (PCA) é uma anomalia cardíaca congênita onde há perviedade persistente do canal arterial, uma conexão normal da circulação fetal entre a aorta e o sistema arterial pulmonar que se desenvolve a partir do 6º arco aórtico.\n- Pode ter cardiomegalia (aumento predominante do átrio esquerdo e do ventrículo esquerdo, se não for complicado).",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-03-20T23:12:18.000Z",
+                    "updated_at": "2022-03-20T23:12:18.000Z",
+                    "files": [
+                        {
+                            "id": 31302,
+                            "file": "41ef3144-b8c0-4337-b39b-5c7498b0d2e5.jpeg",
+                            "name": "patent-ductus-arteriosus-2.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-03-20T23:08:31.000Z",
+                            "updated_at": "2022-03-20T23:08:31.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/41ef3144-b8c0-4337-b39b-5c7498b0d2e5.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 31302,
+                                "alternative_id": 54455
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13291,
+                "questionary_id": 268198,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13292,
+            "institution_id": 4,
+            "description": "O sinal do **duplo contorno** Indica aumento do átrio esquerdo na radiografia em PA, aparecendo como opacidade curvilínea na silhueta cardíaca direita medialmente ao contorno normal do átrio direito. Qual das imagens abaixo representa esse **sinal?** ",
+            "difficulty": "medium",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-03-20T23:29:16.000Z",
+            "updated_at": "2022-03-20T23:29:16.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 563,
+                    "title": "Radiologia de Tórax",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-12-19T17:42:57.000Z",
+                    "updated_at": "2020-12-19T17:42:57.000Z",
+                    "pivot": {
+                        "discipline_id": 563,
+                        "question_id": 13292
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 54456,
+                    "question_id": 13292,
+                    "description": "a",
+                    "explanation": "Perfeito, Doc. Esse é sinal do duplo contorno.\n- Também são sinais de aumento desta câmara cardíaca o deslocamento superior do brônquio fonte esquerdo e o surgimento do quarto arco cardíaco a esquerda. ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-03-20T23:29:16.000Z",
+                    "updated_at": "2022-03-20T23:29:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 54457,
+                    "question_id": 13292,
+                    "description": "b",
+                    "explanation": "Quase Doc, esse é o sinal da **Cimitarra.**\n- A cimitarra é uma espada árabe grande e curvada. O sinal da cimitarra aparece como uma opacidade pulmonar alongada, curva e verticalizada, lembrando esta espada, nos pacientes com retorno\nvenoso parcial anômalo a direita \n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-03-20T23:29:16.000Z",
+                    "updated_at": "2022-03-20T23:29:16.000Z",
+                    "files": [
+                        {
+                            "id": 31307,
+                            "file": "66b541ef-e4c5-4158-aab7-146278285510.jpeg",
+                            "name": "scimitar.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-03-20T23:26:55.000Z",
+                            "updated_at": "2022-03-20T23:26:55.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/66b541ef-e4c5-4158-aab7-146278285510.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 31307,
+                                "alternative_id": 54457
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 54458,
+                    "question_id": 13292,
+                    "description": "c",
+                    "explanation": "Quase, Doc. Esse é o sinal da borda incompleta.\n- Sinal que indica no RX que a opacidade mais provavelmente é extrapulmonar. Este sinal é identificado quando a margem da opacidade voltada para o pulmão é bem delimitada, enquanto\na margem voltada para a parede torácica ou mediastino tem limites imprecisos ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-03-20T23:29:16.000Z",
+                    "updated_at": "2022-03-20T23:29:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 54459,
+                    "question_id": 13292,
+                    "description": "d",
+                    "explanation": "Quase Doc. Esse é o sinal de **S de Golden,**\n- O sinal do S de Golden, descrito por R. Golden em 1925, está relacionado a uma neoplasia central obstrutiva levando a atelectasia distal, mais comumente representando um carcinoma\nbroncogênico. \n- A porção côncava da opacidade (aspecto de S invertido) representa o contorno da massa e a porção convexa representa a atelectasia pós obstrutiva. Mais tipicamente é visto nos tumores do lobo superior do pulmão direito \n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-03-20T23:29:16.000Z",
+                    "updated_at": "2022-03-20T23:29:16.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 31306,
+                    "file": "bd070a1b-5134-4f96-a0b8-b38627abfee0.jpeg",
+                    "name": "Duplo contorno.JPG",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2022-03-20T23:24:24.000Z",
+                    "updated_at": "2022-03-20T23:24:24.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/bd070a1b-5134-4f96-a0b8-b38627abfee0.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 31306,
+                        "question_id": 13292
+                    }
+                },
+                {
+                    "id": 31305,
+                    "file": "9854fd7e-709b-4d4a-8d1e-828abbe8d453.jpeg",
+                    "name": "cimitarra.JPG",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2022-03-20T23:24:24.000Z",
+                    "updated_at": "2022-03-20T23:24:24.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9854fd7e-709b-4d4a-8d1e-828abbe8d453.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 31305,
+                        "question_id": 13292
+                    }
+                },
+                {
+                    "id": 31304,
+                    "file": "b3803d2e-dc97-42c7-864a-37f28803485f.jpeg",
+                    "name": "bócio mergulhante.JPG",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2022-03-20T23:24:24.000Z",
+                    "updated_at": "2022-03-20T23:24:24.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b3803d2e-dc97-42c7-864a-37f28803485f.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 31304,
+                        "question_id": 13292
+                    }
+                },
+                {
+                    "id": 31303,
+                    "file": "7308552b-5a8f-4049-9262-f8178a4e551d.jpeg",
+                    "name": "Golstein.JPG",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2022-03-20T23:24:24.000Z",
+                    "updated_at": "2022-03-20T23:24:24.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7308552b-5a8f-4049-9262-f8178a4e551d.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 31303,
+                        "question_id": 13292
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 13292,
+                "questionary_id": 268198,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13295,
+            "institution_id": 4,
+            "description": "Representam variantes anatômicas identificadas no RX de tórax, **exceto:** ",
+            "difficulty": "medium",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-03-20T23:52:18.000Z",
+            "updated_at": "2022-03-20T23:52:18.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 563,
+                    "title": "Radiologia de Tórax",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-12-19T17:42:57.000Z",
+                    "updated_at": "2020-12-19T17:42:57.000Z",
+                    "pivot": {
+                        "discipline_id": 563,
+                        "question_id": 13295
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 54468,
+                    "question_id": 13295,
+                    "description": "Lobo acessório da veia ázigos",
+                    "explanation": "Quase, Doc. \n\n- O lobo acessório da veia ázigos é uma variante do normal ocorrendo em menos de **5% da população**. Resulta de uma migração anormal da veia ázigos durante a vida fetal, arrastando a pleura parietal e visceral.\n- [Fonte da imagem](http://pneumoimagem.com.br/admin/exames/LOBOAZIGOSPA.jpg) ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-03-20T23:52:18.000Z",
+                    "updated_at": "2022-03-20T23:52:18.000Z",
+                    "files": [
+                        {
+                            "id": 31315,
+                            "file": "604d4042-a2f6-4665-ab6a-aed1be165a15.jpeg",
+                            "name": "veia azigo.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-03-20T23:50:21.000Z",
+                            "updated_at": "2022-03-20T23:50:21.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/604d4042-a2f6-4665-ab6a-aed1be165a15.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 31315,
+                                "alternative_id": 54468
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 54469,
+                    "question_id": 13295,
+                    "description": "Arco aórtico a direita",
+                    "explanation": "O arco aórtico à direita é resultado da dissolução da raiz da aorta dorsal esquerda, ao invés da direita.\n- É determinada por defeito no mecanismo de regressão dos arcos branquiais durante a embriogênese.\n- Sendo uma variação da normalidade e, na maioria das vezes sem sintomas.\n- [Fonte da imagem](https://www.brad.org.br/Files/Cases/0706200532-5317c396b506.jpeg) ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-03-20T23:52:18.000Z",
+                    "updated_at": "2022-03-20T23:52:18.000Z",
+                    "files": [
+                        {
+                            "id": 31317,
+                            "file": "52b8c2ea-d854-4f92-8fe8-217ebb656178.jpeg",
+                            "name": "0706200532-5317c396b506.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-03-20T23:51:39.000Z",
+                            "updated_at": "2022-03-20T23:51:39.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/52b8c2ea-d854-4f92-8fe8-217ebb656178.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 31317,
+                                "alternative_id": 54469
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 54470,
+                    "question_id": 13295,
+                    "description": "Cifoescoliose torácica",
+                    "explanation": "Boa, Doc. A **escoliose** é uma curvatura anormal da coluna vertebral que não existe numa coluna vertebral normal.\n- A curvatura anormal pode ocorrer na região lombar, torácica ou cervical. Pode ser observada pela frente ou pelas costas do paciente (plano coronal), num ângulo maior que 10 graus.\n- [Fonte da imagem](https://drricardoteixeira.com.br/wp-content/uploads/2021/04/principais-sinais-clinicos-da-escoliose-dr-ricardo-teixeira.jpg) ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2022-03-20T23:52:18.000Z",
+                    "updated_at": "2022-03-20T23:52:18.000Z",
+                    "files": [
+                        {
+                            "id": 31313,
+                            "file": "5625c081-d489-4dea-a204-a6f73aa63ce6.jpeg",
+                            "name": "principais-sinais-clinicos-da-escoliose-dr-ricardo-teixeira.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-03-20T23:46:30.000Z",
+                            "updated_at": "2022-03-20T23:46:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/5625c081-d489-4dea-a204-a6f73aa63ce6.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 31313,
+                                "alternative_id": 54470
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 54471,
+                    "question_id": 13295,
+                    "description": "Costela cervical",
+                    "explanation": "É uma variação anatômica, Doc.\n- A costela cervical é uma costela anômala que tem origem no processo transverso de C7 ou uma primeira costela extranumerária que tem origem no processo transverso de T1.\n- [Fonte da imagem](http://pneumoimagem.com.br/admin/exames/ok-costela-cervical.jpg) ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-03-20T23:52:18.000Z",
+                    "updated_at": "2022-03-20T23:52:18.000Z",
+                    "files": [
+                        {
+                            "id": 31312,
+                            "file": "91b49b36-b7c2-42a5-b290-eb7fb3cb1fdf.jpeg",
+                            "name": "ok-costela-cervical.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-03-20T23:44:50.000Z",
+                            "updated_at": "2022-03-20T23:44:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/91b49b36-b7c2-42a5-b290-eb7fb3cb1fdf.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 31312,
+                                "alternative_id": 54471
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13295,
+                "questionary_id": 268198,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5679,
+            "institution_id": 4,
+            "description": "No que tange às características do padrão de acometimento mostrado na imagem abaixo, assinale a alternativa INCORRETA:\n\n\n",
+            "difficulty": "hard",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-12-23T18:00:38.000Z",
+            "updated_at": "2021-03-11T04:57:58.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 563,
+                    "title": "Radiologia de Tórax",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-12-19T17:42:57.000Z",
+                    "updated_at": "2020-12-19T17:42:57.000Z",
+                    "pivot": {
+                        "discipline_id": 563,
+                        "question_id": 5679
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23442,
+                    "question_id": 5679,
+                    "description": "As opacidades acompanham o trajeto dos vasos e brônquios",
+                    "explanation": "Perfeito doc! Esse é um padrão de infiltração intersticial bilateral difuso, que tem como uma de suas principais caracteristicas a formação de opacidades que acompanham o trajeto dos vasos e brônquios. O que ocorre nesse padrão, basicamente, é uma reação inflamatória na parede brônquica que se extende ao tecido conjuntivo peribrônquico e perivascular, o que explica essa distribuição típica das opacidades.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-12-23T15:00:38.000Z",
+                    "updated_at": "2020-12-23T15:00:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23443,
+                    "question_id": 5679,
+                    "description": "Esse padrão frequentemente relaciona-se à infecção por Micoplasma e por vírus",
+                    "explanation": "Perfeito doc! Estamos diante de um infiltrado intersticial difuso e bilateral, muito característico de pneumonias por Micoplasma e por vírus, como Influenza, VSR e parainfluenza, acometendo principalmente as crianças.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-12-23T15:00:38.000Z",
+                    "updated_at": "2020-12-23T15:00:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23444,
+                    "question_id": 5679,
+                    "description": "Pode cursar com confluências focais devido ao exsudato nos alvéolos peribronquiolares",
+                    "explanation": "Perfeito doc! O infiltrado intersticial geralmente decorre de uma reação inflamatória na parede brônquica que se extende ao tecido conjuntivo peribrônquico e perivascular e também, em menor extensão, para os alvéolos peribrônquicos, gerando exsudato com confluências focais.\n ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-12-23T15:00:38.000Z",
+                    "updated_at": "2020-12-23T15:00:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23445,
+                    "question_id": 5679,
+                    "description": "Broncogramas aéreos e o sinal da silhueta são achados típicos desse padrão",
+                    "explanation": "Falso doc! Broncogramas aéreos são imagens de brônquios e bronquíolos repletos de ar em meio a um parênquima consolidado, achado típico do padrão de consolidação lobar, enquanto o sinal da silhueta traduz a perda do contorno de um órgão ou estrutura pelo aumento da densidade de uma estrutura vizinha ou contígua, o que também é muito característico do padrão de pneumonia lobar. Nos acometimentos intersticiais, geralmente não encontramos esses achados.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-12-23T15:00:38.000Z",
+                    "updated_at": "2020-12-23T15:00:38.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 2584,
+                    "file": "1608734871822.jpeg",
+                    "name": "PNEUMONIA INTERSTICIAL.jpeg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-12-23T17:47:52.000Z",
+                    "updated_at": "2020-12-23T17:47:52.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1608734871822.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 2584,
+                        "question_id": 5679
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 5679,
+                "questionary_id": 268198,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5713,
+            "institution_id": 4,
+            "description": "Paciente mulher, 60 anos, com história prévia de febre reumática quando tinha 20 anos, e histórico de estenose mitral tratada com beta-bloqueador. A radiografia de tórax da paciente evidenciou sinais de aumento do átrio esquerdo, os quais podem ser observados abaixo. Qual dos seguintes achados **não** está presente na radiografia abaixo e **não** tem relação com o aumento atrial apresentado pela paciente?\n\n\n",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-12-29T17:28:21.000Z",
+            "updated_at": "2021-03-11T04:57:58.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 563,
+                    "title": "Radiologia de Tórax",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-12-19T17:42:57.000Z",
+                    "updated_at": "2020-12-19T17:42:57.000Z",
+                    "pivot": {
+                        "discipline_id": 563,
+                        "question_id": 5713
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23578,
+                    "question_id": 5713,
+                    "description": "Sinal da bailarina",
+                    "explanation": "Perfeito doc! Esse sinal está sim presente e é indicativo de aumento do átrio esquerdo, comum na estenose mitral. Esse sinal nada mais é que o aumento do ângulo carinal > 90º.\n\n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-12-29T14:28:21.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2609,
+                            "file": "1609251094853.jpeg",
+                            "name": "SINAL DA BAILARINA.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-12-29T17:11:35.000Z",
+                            "updated_at": "2020-12-29T17:11:35.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609251094853.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2609,
+                                "alternative_id": 23578
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 23579,
+                    "question_id": 5713,
+                    "description": "Sinal do duplo contorno",
+                    "explanation": "Perfeito doc, esse sinal está sim presente na radiografia da paciente e indica aumento atrial esquerdo para o lado direito como consequência da estenose mitral, criando um duplo contorno do coração no lado direito formado por ambos os átrios.\n\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-12-29T14:28:21.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2610,
+                            "file": "1609251246578.jpeg",
+                            "name": "SINAL DO DUPLO CONTORNO.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-12-29T17:14:07.000Z",
+                            "updated_at": "2020-12-29T17:14:07.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609251246578.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2610,
+                                "alternative_id": 23579
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 23580,
+                    "question_id": 5713,
+                    "description": "Protrusão auricular esquerda",
+                    "explanation": "Perfeito doc, na imagem é possível ver sim a protrusão da aurícula esquerda por conta do próprio aumento do átrio esquerdo para o lado homônimo, secundariamente a sobrecarga atrial imposta pelo quadro de estenose mitral apresentado pela paciente.\n\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-12-29T14:28:21.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2611,
+                            "file": "1609251482263.jpeg",
+                            "name": "PROTRUSÃO AURICULAR ESQUERDA.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-12-29T17:18:03.000Z",
+                            "updated_at": "2020-12-29T17:18:03.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609251482263.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2611,
+                                "alternative_id": 23580
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 23581,
+                    "question_id": 5713,
+                    "description": "Sinal do broncograma aéreo",
+                    "explanation": "Falso doc! O broncograma aéreo diz respeito à presença de brônquios repletos de ar em meio a um parênquima consolidado, achado extremamente comum e significativo em quadros de pneumonia lobar. Esse sinal não é indicativo de aumento atrial, além de que não há evidência de sua presença na radiografia da paciente. Doc, vide abaixo um exemplo de consolidação com broncograma aéreo:\n\n\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-12-29T14:28:21.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2612,
+                            "file": "1609252078679.jpeg",
+                            "name": "BRONCOGRAMA AÉREO CONSOLIDAÇÃO LOBAR LOBO MÉDIO DIREITO.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-12-29T17:27:59.000Z",
+                            "updated_at": "2020-12-29T17:27:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609252078679.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2612,
+                                "alternative_id": 23581
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 2608,
+                    "file": "1609250894936.jpeg",
+                    "name": "AUMENTO DO AE (SINAL DA BAILARINA E DUPLO CONTORNO).jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-12-29T17:08:15.000Z",
+                    "updated_at": "2020-12-29T17:08:15.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609250894936.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 2608,
+                        "question_id": 5713
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 5713,
+                "questionary_id": 268198,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13293,
+            "institution_id": 4,
+            "description": "Na radiografia de tórax, o sinal do diafragma contínuo é compatível com:\n",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-03-20T23:40:35.000Z",
+            "updated_at": "2022-04-28T16:49:25.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 563,
+                    "title": "Radiologia de Tórax",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-12-19T17:42:57.000Z",
+                    "updated_at": "2020-12-19T17:42:57.000Z",
+                    "pivot": {
+                        "discipline_id": 563,
+                        "question_id": 13293
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 54460,
+                    "question_id": 13293,
+                    "description": "pneumomediastino",
+                    "explanation": "Impressionante, Doc. Show de bola! \n- Auxilia a identificação de pneumomediastino na radiografia em AP (anteroposterior) com o paciente deitado ou sentado, sendo sinal caracterizado por uma linha horizontal radiotransparente que atravessa a linha média superiormente ao diafragma, abaixo do coração  ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-03-20T23:40:35.000Z",
+                    "updated_at": "2022-04-28T16:49:25.000Z",
+                    "files": [
+                        {
+                            "id": 31308,
+                            "file": "99b5bf9a-487b-4aa0-bfe1-3eb536eea4f0.jpeg",
+                            "name": "diafragma continuo.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-03-20T23:34:00.000Z",
+                            "updated_at": "2022-03-20T23:34:00.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/99b5bf9a-487b-4aa0-bfe1-3eb536eea4f0.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 31308,
+                                "alternative_id": 54460
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 54461,
+                    "question_id": 13293,
+                    "description": "aumento do volume cardíaco.",
+                    "explanation": "Quase Doc. Seria melhor representando pelo índice cardiotóracico.\n- É a razão entre o diâmetro cardíaco máximo transversal e o diâmetro da caixa torácica em inspiração profunda. \n- Usualmente corresponde a 0,5 no adulto\n- [Fonte da imagem](data:image/jpeg;base64,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) ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-03-20T23:40:35.000Z",
+                    "updated_at": "2022-04-28T16:49:25.000Z",
+                    "files": [
+                        {
+                            "id": 31299,
+                            "file": "b6bd3afd-cb50-4110-b671-630b6c622cb8.png",
+                            "name": "f5d6b6bc-f09f-4f84-a9f3-a3f0983a246d.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-20T22:51:51.000Z",
+                            "updated_at": "2022-03-20T22:51:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b6bd3afd-cb50-4110-b671-630b6c622cb8.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 31299,
+                                "alternative_id": 54461
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 54462,
+                    "question_id": 13293,
+                    "description": "Carcinoma broncogênico",
+                    "explanation": "Não seria o melhor sinal para indicar essa patologia, Doc.\n- Um com sinal para isso é o S de Golden. Está relacionado a uma neoplasia central obstrutiva levando a atelectasia distal,\nmais comumente representando um carcinoma\nbroncogênico.  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-03-20T23:40:35.000Z",
+                    "updated_at": "2022-04-28T16:49:25.000Z",
+                    "files": [
+                        {
+                            "id": 31303,
+                            "file": "7308552b-5a8f-4049-9262-f8178a4e551d.jpeg",
+                            "name": "Golstein.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-03-20T23:24:24.000Z",
+                            "updated_at": "2022-03-20T23:24:24.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7308552b-5a8f-4049-9262-f8178a4e551d.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 31303,
+                                "alternative_id": 54462
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 54463,
+                    "question_id": 13293,
+                    "description": "hérnia gástrica hiatal.",
+                    "explanation": "Não seria o melhor sinal para indicar essa patologia, Doc. \n- Veja como é a imagem típica de uma hérnia hiatal no raio-x..",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-03-20T23:40:35.000Z",
+                    "updated_at": "2022-04-28T16:49:25.000Z",
+                    "files": [
+                        {
+                            "id": 31310,
+                            "file": "9215a5fd-3f3e-491b-9c07-0f9adede3d30.jpeg",
+                            "name": "hernia-hiato.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-03-20T23:40:16.000Z",
+                            "updated_at": "2022-03-20T23:40:16.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9215a5fd-3f3e-491b-9c07-0f9adede3d30.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 31310,
+                                "alternative_id": 54463
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13293,
+                "questionary_id": 268198,
+                "timer": 0
+            }
+        }
+    ]
+}

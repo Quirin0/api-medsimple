@@ -1,0 +1,2462 @@
+{
+    "id": 267552,
+    "user_id": 1699,
+    "title": "Insuficiência Cardíaca",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T02:21:38.000Z",
+    "updated_at": "2022-07-11T02:21:38.000Z",
+    "study_plan_id": 594,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 290,
+            "institution_id": 4,
+            "description": "**Sobre Insuficiência Cardíaca (IC), assinale a alternativa correta:**",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-21T23:25:08.000Z",
+            "updated_at": "2020-05-23T02:07:20.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 290
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 290
+                    }
+                },
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 290
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1193,
+                    "question_id": 290,
+                    "description": "Ortopneia e Dispneia Paroxística Noturna fazem parte do quadro clássico",
+                    "explanation": "Quando o paciente está deitado, há menor ação da gravidade e, logo, mais fácil é o retorno venoso. Como a bomba cardíaca está disfuncional na IC, o paciente precisa ficar na posição ortostática (90º) para diminuir o retorno venoso e o coração conseguir dar conta de bombear o sangue, o que caracteriza a Ortopneia.\nFrequentemente, por esse motivo de na posição deitado o coração não dar conta do aumento do retorno venoso, ocorre acúmulo de líquido em direção aos pulmões, fazendo o paciente despertar de noite com falta de ar, o que caracteriza a dispneia paroxística noturna.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-21T20:25:09.000Z",
+                    "updated_at": "2020-05-22T23:07:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1194,
+                    "question_id": 290,
+                    "description": "O diagnóstico de insuficiência cardíaca pode ser estabelecido pelo critérios de Duke",
+                    "explanation": "O diagnóstico de insuficiência cardíaca pode ser estabelecido pelo critérios de Framingham (Duke é Endocardite). É preciso haver 2 critérios maiores ou 1 maior e 2 menores de Frahmingam, que são os seguintes:\n\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T20:25:09.000Z",
+                    "updated_at": "2021-03-11T01:58:17.000Z",
+                    "files": [
+                        {
+                            "id": 44,
+                            "file": "1590188761459.png",
+                            "name": "tab1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-05-23T02:06:01.000Z",
+                            "updated_at": "2020-05-23T02:06:01.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590188761459.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 44,
+                                "alternative_id": 1194
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1195,
+                    "question_id": 290,
+                    "description": "Para o diagnóstico de IC, é necessário 2 critérios maiores de Framingham, ou 1 maior e 1 menor",
+                    "explanation": "É preciso 2 maiores ou 1 maior e 2 menores",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T20:25:09.000Z",
+                    "updated_at": "2020-05-22T23:07:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1196,
+                    "question_id": 290,
+                    "description": "A respiração do padrão Cheynes-Stokes (apneias seguidas de hiperpneias) é extremamente rara nessa condição",
+                    "explanation": "\n\n\nA respiração do padrão Cheynes-Stokes (apneias seguidas de hiperpneias) é encontrada em cerca de 30% dos pacientes",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T20:25:09.000Z",
+                    "updated_at": "2021-03-11T01:58:17.000Z",
+                    "files": [
+                        {
+                            "id": 45,
+                            "file": "1590188821666.jpeg",
+                            "name": "download (6).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-05-23T02:07:01.000Z",
+                            "updated_at": "2020-05-23T02:07:01.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1590188821666.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 45,
+                                "alternative_id": 1196
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 290,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 291,
+            "institution_id": 4,
+            "description": "Quanto à classificação da Insuficiência Cardíaca, é **INCORRETO** afirmar:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-21T23:31:25.000Z",
+            "updated_at": "2021-12-14T15:22:19.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 291
+                    }
+                },
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 291
+                    }
+                },
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 291
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1197,
+                    "question_id": 291,
+                    "description": "A IC com Fração de Ejeção do VE (FEVE) reduzida é aquela com FEVE<40%",
+                    "explanation": "Correto! É uma forma de IC sistólica, já que a função sistólica está comprometida",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T20:31:26.000Z",
+                    "updated_at": "2021-12-14T12:22:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1198,
+                    "question_id": 291,
+                    "description": "A IC com Fração de Ejeção do VE (FEVE) intermediária é aquela com FEVE entre 40 e 49%",
+                    "explanation": "Correta! Junto com a IC de Fração Reduzida (FEVE<40%) elas constituem as IC sistólicas (FEVE<50%), que são o principal tipo de IC, possuindo comprometimento da função sistólica (bombeamento)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T20:31:26.000Z",
+                    "updated_at": "2021-12-14T12:22:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1199,
+                    "question_id": 291,
+                    "description": "A IC com Fração de Ejeção do VE (FEVE) preservada é aquela com FEVE ≥50%",
+                    "explanation": "Correta! A função sistólica nesse tipo de IC está preservada. O problema é a capacidade de enchimento do VE, sendo considerada uma \"IC diastólica\"",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T20:31:26.000Z",
+                    "updated_at": "2021-12-14T12:22:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1200,
+                    "question_id": 291,
+                    "description": "A maioria dos casos de IC é do tipo diastólica",
+                    "explanation": "Incorreta. A maioria dos casos de IC é do tipo **sistólica** (Fração de Ejeção do VE reduzida ou intermediária).\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-21T20:31:26.000Z",
+                    "updated_at": "2021-12-14T12:22:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 291,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7033,
+            "institution_id": 4,
+            "description": "É fator de risco relacionado ao desenvolvimento de Insuficiência Cardíaca:",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-04-01T16:01:58.000Z",
+            "updated_at": "2021-04-01T16:01:58.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 7033
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 28929,
+                    "question_id": 7033,
+                    "description": "Tabagismo",
+                    "explanation": "Perfeito doc! O tabagismo é considerado um fator de risco importante, porém as outras alternativas também estão corretas. Vide comentário completo na alternativa correta!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-04-01T13:01:58.000Z",
+                    "updated_at": "2021-04-01T13:01:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28930,
+                    "question_id": 7033,
+                    "description": "HAS",
+                    "explanation": "Perfeito doc! A hipertensão arterial está diretamente relacionada ao desenvolvimetno de insuficiência cardíaca, sendo, inclusive, uma das principais causas. No entanto, as outras alternativas também estão corretas. Doc, vide comentário completo na alternativa correta.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-04-01T13:01:58.000Z",
+                    "updated_at": "2021-04-01T13:01:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28931,
+                    "question_id": 7033,
+                    "description": "Diabetes Mellitus",
+                    "explanation": "Perfeito doc! A DM é considerada um fator de risco importantíssimo de IC. Estima-se que pacientes com HAS e DM, mesmo que tratados, apresentam alto risco de desenvolver IC quando associado a outras condições, como dislipidemias, tabagismo e obesidade. No entanto, as outras alternativas também estão corretas. Doc, vide comentário completo na alternativa correta.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-04-01T13:01:58.000Z",
+                    "updated_at": "2021-04-01T13:01:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28932,
+                    "question_id": 7033,
+                    "description": "Todas alternativas estão corretas",
+                    "explanation": "Perfeito doc! Cerca de 2/3 das insuficiências cardíacas decorrem de cardiopatia isquêmica. Logo, não é de se espantar que os fatores de risco sejam os clássicos de toda doença cardiovascular:\n- HAS\n- DM\n- tabagismo\n- etilismo\n- obesidade\n- DAC\n- aterosclerose\n- dislipidemias\n- entre outros",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-04-01T13:01:58.000Z",
+                    "updated_at": "2021-04-01T13:01:58.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7033,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7034,
+            "institution_id": 4,
+            "description": "Em relação à Insuficiência Cardíaca, assinale a alternativa **INCORRETA:**",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-04-01T16:37:29.000Z",
+            "updated_at": "2022-04-24T16:15:35.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 7034
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 28933,
+                    "question_id": 7034,
+                    "description": "A prevalência aumenta com a idade",
+                    "explanation": "Perfeito doc! A idade avançada é um dos principais fatores de risco relacionados à insuficiência cardíaca. Estima-se que cerca de 20% dos indivíduos com > 40 anos vão desenvolver algum grau de IC até o final da vida.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-04-01T13:37:29.000Z",
+                    "updated_at": "2022-04-24T16:15:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28934,
+                    "question_id": 7034,
+                    "description": "A principal causa de IC são as cardiopatias isquêmicas",
+                    "explanation": "Perfeito doc! As cardiopatias isquêmicas, com ou sem aterosclerose, respondem por cerca de 2/3 dos casos de insuficiência cardíaca. O que ocorre aqui é o próprio processo de lesão isquêmica do miocárdio que resulta em necrose e apoptose das células, com regeneração fibrosa, culminando em redução inicial do débito cardíaco e desencadeamento da falência ventricular.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-04-01T13:37:29.000Z",
+                    "updated_at": "2022-04-24T16:15:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28935,
+                    "question_id": 7034,
+                    "description": "O IAM prévio é o principal fator de risco direto para o desenvolvimento de IC",
+                    "explanation": "Perfeito doc! Estima-se que um IAM aumente em cerca de 15 vezes o risco de desenvolvimento de IC, uma vez que leva a morte celular miocárdica, com regeneração e fibrose, resultando em redução do débito cardíaco e consequente falência ventricular.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-04-01T13:37:29.000Z",
+                    "updated_at": "2022-04-24T16:15:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28936,
+                    "question_id": 7034,
+                    "description": "A insuficiência cardíaca é uma doença 100% ambiental, sem fator genético",
+                    "explanation": "Falso doc! Assim como a maior parte das doenças cardiovasculares, a IC é uma doença de etiologia multifatorial, com um componente genético muito importante e, claro, um componente ambiental imprecindível, que serve de gatilho para a redução do débito cardíaco e desenvolvimento da doença.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-04-01T13:37:29.000Z",
+                    "updated_at": "2022-04-24T16:15:35.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7034,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7035,
+            "institution_id": 4,
+            "description": "Qual é o principal fator relacionado ao desenvolvimento de insuficiência cardíaca?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-04-01T16:51:20.000Z",
+            "updated_at": "2022-04-11T23:48:20.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 7035
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 28937,
+                    "question_id": 7035,
+                    "description": "Tabagismo",
+                    "explanation": "Falso doc! Embora seja considerado um fator de risco, estudos mostraram uma baixa associação entre tabagismo e IC, sendo essa associação maior apenas em indivíduos com mais de 64 anos.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-04-01T13:51:20.000Z",
+                    "updated_at": "2022-04-11T23:48:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28938,
+                    "question_id": 7035,
+                    "description": "Diabetes Mellitus",
+                    "explanation": "Falso doc! A DM de fato é um fator de risco importantíssimo para o desenvolvimento de IC, aumentando o risco em 3-5 vezes, quando comparado a pacientes sem DM. No entanto, não é o principal fator de risco! O principal é o IAM.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-04-01T13:51:20.000Z",
+                    "updated_at": "2022-04-11T23:48:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28939,
+                    "question_id": 7035,
+                    "description": "Infarto agudo do miocárdio prévio",
+                    "explanation": "Perfeito doc! O IAM aumenta o risco de IC em cerca de 15 vezes, isso mesmo doc, 15 VEZES. Mas porque isso ocorre? Doc, tenha em mente o seguinte:\n- IAM= lesão e necrose miocárdica\n- lesão e necrose miocárdica= regeneração fibrosa\n- regeneração fibrosa= remodelamento cardíaco\n- remodelamento cardíaco= redução do débito cardíaco\n- redução do débito cardíaco= falência ventricular",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-04-01T13:51:20.000Z",
+                    "updated_at": "2022-04-11T23:48:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28940,
+                    "question_id": 7035,
+                    "description": "Hipertensão arterial sistêmica",
+                    "explanation": "Falso doc! Embora configure um dos principais fatores de risco e uma das principais causas de IC, a hipertensão não é considerada a principal, e sim o IAM prévio!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-04-01T13:51:20.000Z",
+                    "updated_at": "2022-04-11T23:48:20.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7035,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 292,
+            "institution_id": 4,
+            "description": "**Sobre os marcadores laboratorias de IC em nível ambulatorial e na emergência, assinale o que for incorreto:**",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-21T23:46:37.000Z",
+            "updated_at": "2020-05-21T23:46:37.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 292
+                    }
+                },
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 292
+                    }
+                },
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 292
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1201,
+                    "question_id": 292,
+                    "description": "Os principais marcadores são o peptídeo natriurético tipo B (BNP) e a do fragmento N-terminal do peptídeo natriurético tipo B (NT-ProBNP)",
+                    "explanation": "Correto. Esses são os dois principais marcadores de Insuficiência Cardíaca a nível laboratorial, já que são liberados pelos ventrículos em resposta à dilatação ventricular (sobrecarga).\nSão muito úteis, por exemplo, se você quer diferenciar uma dispneia de origem pulmonar ou cardíaca. Na cardíaca, esses marcadores estarão aumentados.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T20:46:38.000Z",
+                    "updated_at": "2020-05-21T20:46:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1202,
+                    "question_id": 292,
+                    "description": "Alguns fatores podem elevar os níveis desses marcadores, como a idade avançada",
+                    "explanation": "Correto. Anemia, Insuficiêncai renal crônica e idade avançada são fatores que levam ao aumento desses biomarcadores, podendo estar aumentados mesmo em uma situação clínica de normalidade.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T20:46:38.000Z",
+                    "updated_at": "2020-05-21T20:46:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1203,
+                    "question_id": 292,
+                    "description": "Obesidade é um fator que diminui os níveis desses marcadores",
+                    "explanation": "Correto. Em obesos, mesmo em situação de alterações clínicas de IC, esses marcadores podem estar em níveis de referência \"normais\".",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T20:46:38.000Z",
+                    "updated_at": "2020-05-21T20:46:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1204,
+                    "question_id": 292,
+                    "description": "BNP acima de 400pg/mL na emergência torna o diagnóstico de IC ainda improvável",
+                    "explanation": "BNP acima de 400pg/mL torna o diagnóstico de IC muito provável, assim como níveis menores que 100pg/mL sugerem o afastamento do diagnóstico.\nQuanto ao NT-proBNP, esses valores dependem da idade, sendo sugestivos de IC quando maiores que 450 em menores de 50 anos, maiores que 900 em pessoas entre 50 e 75 anos, e maiores que 1800 em pessoas maiores que 75 anos (é uma progressão geométrica de razão 2🤓  450-900-1800",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-21T20:46:38.000Z",
+                    "updated_at": "2020-05-21T20:46:38.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 292,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 293,
+            "institution_id": 4,
+            "description": "Existe um perfil típico de paciente que há alto risco de desenvolver IC em 10 anos. Quanto a esse perfil de paciente , assinale a alternativa **CORRETA:**",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-21T23:53:29.000Z",
+            "updated_at": "2021-12-14T22:02:19.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 293
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 293
+                    }
+                },
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 293
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1205,
+                    "question_id": 293,
+                    "description": "Diabéticos e Hipertensos em tratamento fazem parte desse grupo",
+                    "explanation": "Perfeito doc! 😁Diabéticos e Hipertensos **em tratament**o fazem parte desse grupo. Se eles não estiverem em tratamento, podem desenvolver IC muito antes de 10 anos!",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-21T20:53:29.000Z",
+                    "updated_at": "2021-12-14T19:02:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1206,
+                    "question_id": 293,
+                    "description": "Tabagistas não fazem parte desse grupo",
+                    "explanation": "Tabagistas estão inclusos nesse perfil de risco.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T20:53:29.000Z",
+                    "updated_at": "2021-12-14T19:02:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1207,
+                    "question_id": 293,
+                    "description": "Pacientes com IMC>25 fazem parte desse grupo",
+                    "explanation": "Obesos com **IMC>35** estão inclusos nesse perfil de risco, pois muito provavelmente possuem Síndrome Metabólica.\nO grupo possui as seguintes características:\n-Estar em tratamento para HAS e DM\n-Tabagistas\n-HDL<30\n-Glicose ≥ 126\n-IMC>35\n-Pressão sistólica >150\n-Complexo QRS >120ms no ECG\n-Colesterol total>250",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T20:53:29.000Z",
+                    "updated_at": "2021-12-14T19:02:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1208,
+                    "question_id": 293,
+                    "description": "Parâmetros laboratoriais não caracterizam os participantes desse grupo de risco, apenas características clínicas",
+                    "explanation": "Falso doc! HDL baixo, bem como Glicose e Colesterol total elevados são critérios para risco de IC em 10 anos.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T20:53:29.000Z",
+                    "updated_at": "2021-12-14T19:02:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 293,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 294,
+            "institution_id": 4,
+            "description": "**Quanto ao tratamento da IC, assinale a alternativa correta:**",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T00:00:23.000Z",
+            "updated_at": "2021-05-15T02:01:08.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 294
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 294
+                    }
+                },
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 294
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1209,
+                    "question_id": 294,
+                    "description": "O uso de propranolol faz parte da terapia ideal para pacientes com IC",
+                    "explanation": "A terapia ideal é a terapia tripla: iECA, Beta bloqueador e Espironolactona. Toda via, os beta bloqueadores ideais, que demonstraram redução de mortalidade, são os **B,C,D:**\n**B**isoproll\n**C**arvedilol\nSuccinato **D**e Metropolol (tem que ser o Succinato!!!)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T21:00:24.000Z",
+                    "updated_at": "2021-05-14T23:01:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1210,
+                    "question_id": 294,
+                    "description": "O uso de diuréticos é feito tanto em pacientes sintomáticos quanto assintomáticos",
+                    "explanation": "Na IC, o uso de diuréticos é reservado para pacientes sintomáticos, apenas.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T21:00:24.000Z",
+                    "updated_at": "2021-05-14T23:01:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1211,
+                    "question_id": 294,
+                    "description": "A terapia tripla: iECA, Beta bloqueador e Espironolactona demonstraram diminuir a mortalidade em paciente portadores de IC",
+                    "explanation": "Perfeito. Essas 3 medicações demonstraram diminuir a mortalidade em paciente portadores de IC, não só pelos seus efeitos hemodinâmicos que facilitam o coração conseguir manejar melhor o sangue, mas pelos seus efeitos neuroendócrinos, de diminuição dos efeitos deletérios da aldosterona no miocárdio.\n\nFonte: Diretriz Brasileira de Insuficiência Cardíaca Crônica e Aguda\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-21T21:00:24.000Z",
+                    "updated_at": "2021-05-14T23:01:08.000Z",
+                    "files": [
+                        {
+                            "id": 7385,
+                            "file": "4947139b-9af7-4763-b22b-d4b27798e42f.jpeg",
+                            "name": "Terapia tripla.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-04-17T16:21:09.000Z",
+                            "updated_at": "2021-04-17T16:21:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4947139b-9af7-4763-b22b-d4b27798e42f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 7385,
+                                "alternative_id": 1211
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1212,
+                    "question_id": 294,
+                    "description": "O uso de AAS e bloqueador de canal de cálcio fazem parte da base do tratamento da IC",
+                    "explanation": "Não tem relação alguma. A terapia base da IC é a terapia tripla: iECA, Betabloqueador e Espironolactona",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T21:00:24.000Z",
+                    "updated_at": "2021-05-14T23:01:08.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 294,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 295,
+            "institution_id": 4,
+            "description": "**Quanto às classificações de Insuficiência Cardíaca (IC) pela New York Heart Association (NYHA) e American Heart Association (AHA), assinale o que for correto:**",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T00:14:53.000Z",
+            "updated_at": "2021-04-01T04:03:50.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 295
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 295
+                    }
+                },
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 295
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1213,
+                    "question_id": 295,
+                    "description": "A NYHA divide sua classificação em A, B, C e D",
+                    "explanation": "Incorreto! A classificação da NYHA é em graus I, II, III e IV, e só leva em consideração os SINTOMAS:\nI-Sintomas leves, apenas a grandes esforços, sem limitação de atividade cotidianas.\nII-Cansaço aos moderados esforços, limitação leve de atividades cotidianas.\nIII-Cansaço aos pequenos esforços (atividades da vida diária, se vestir, etc), limitação acentuada.\nIV-Cansaço mesmo ao repouso, incapacidade física.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T21:14:53.000Z",
+                    "updated_at": "2021-04-01T01:03:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1214,
+                    "question_id": 295,
+                    "description": "Pela classificação da AHA, o nível A possui sintomas aos pequenos esforços",
+                    "explanation": "A classificação da AHA leva em conta Alteração estruturais do coração e sintomas:\nA-Sem alteração estrutural e sem sintoma\nB-Com alteração estrutural e sem sintomas\nC-Com alteração estrutural e com sintomas de IC\nD-Com alteração estrutural e com sintomas mesmo com tentativa de tratamento clínico",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T21:14:53.000Z",
+                    "updated_at": "2021-04-01T01:03:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1215,
+                    "question_id": 295,
+                    "description": "Pela NYHA, a classe IV possui sintomas leves",
+                    "explanation": "Tanto pela NYHA quanto pela AHA, a última classe (IV e D) correspondem ao pior estágio, ocorrendo sintomas mesmo em repouso",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T21:14:53.000Z",
+                    "updated_at": "2021-04-01T01:03:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1216,
+                    "question_id": 295,
+                    "description": "Pela classificação da AHA, o nível B possui alterações estruturais cardíacas, mas sem sintomas",
+                    "explanation": "Correta. Para não confundir NYHA com AHA, ou não confundir ABCD com I,II,III e IV, lembre que:\n❤️A **A-H-A** fala das **A**lterações do **H**eart, e a classificação começa com **A.** Aí fica fácil lembrar que:\nA-Sem alterações e sem sintomas\nB-Com alteração estrutural e sem sintoma\nC-Com alteração estrutural e com sintoma\nD-Com alteração estrutural e com sintoma, mesmo com tratamento clínico. É a IC terminal.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-21T21:14:53.000Z",
+                    "updated_at": "2021-04-01T01:03:50.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 295,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 296,
+            "institution_id": 4,
+            "description": "Sobre o tratamento da Insuficiência Cardíaca conforme a classificação da American Heart Association (AHA), assinale a alternativa **CORRETA:**",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T00:21:42.000Z",
+            "updated_at": "2022-06-27T18:21:20.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 296
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 296
+                    }
+                },
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 296
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1217,
+                    "question_id": 296,
+                    "description": "Pacientes classe A não precisam de nenhuma intervenção, não necessitando de orientação médica",
+                    "explanation": "Pacientes classe A ainda não tem alterações cardíacas estruturais ou sintomas, mas precisam **controlar os fatores de risco**, para que evitar fatores de risco para IC como HAS, DM, tabagismo e obesidade.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T21:21:43.000Z",
+                    "updated_at": "2022-06-27T18:21:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1218,
+                    "question_id": 296,
+                    "description": "Pacientes classe C devem realizar a terapia tripla, mas considerar a possibilidade de Terapia de Ressincornização Cardíaca ou Cardiodesfibrilador Implantável",
+                    "explanation": "Pacientes classe C são aqueles com alterações estruturais e com sintomas. Devem estar em tratamento clínico com iECA, Beta-bloqueador e Espironolactona e, dependendo do comprometimento cardíaco, considerar TRC ou CDI.\n\n\n\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-21T21:21:43.000Z",
+                    "updated_at": "2022-06-27T18:21:20.000Z",
+                    "files": [
+                        {
+                            "id": 6524,
+                            "file": "1617239146573.png",
+                            "name": "manejo IC.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-04-01T04:05:47.000Z",
+                            "updated_at": "2021-04-01T04:05:47.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1617239146573.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 6524,
+                                "alternative_id": 1218
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 1219,
+                    "question_id": 296,
+                    "description": "Pacientes classe B precisam apenas realizar o controle dos fatores de risco, sem necessidade de medicação",
+                    "explanation": "Classe B já possui alteração estrutural cardíaca, mesmo que ainda não apresente sintomas. Logo, para retardar a progressão do dano ao miocárdio, recomenda-se a terapia tripla: iECA, betabloqueador e espironolactona",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T21:21:43.000Z",
+                    "updated_at": "2022-06-27T18:21:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1220,
+                    "question_id": 296,
+                    "description": "Pacientes classe D têm bom prognóstico se permanecerem com o tratamento clínico",
+                    "explanation": "Pacientes classe D têm alterações estruturais importantes e sintomas que não melhoram nem mesmo com o tratamento clínico. Estes pacientes devem considerar transpante ou dispositivo de assistência ventricular.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T21:21:43.000Z",
+                    "updated_at": "2022-06-27T18:21:20.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 296,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 297,
+            "institution_id": 4,
+            "description": "**Sobre a droga sacubitril/valsartana e suas implicações no tratamento de insufciência cardíaca (IC), assinale o que for correto:**",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T00:32:48.000Z",
+            "updated_at": "2020-05-22T00:32:48.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 297
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 297
+                    }
+                },
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 297
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1221,
+                    "question_id": 297,
+                    "description": "A valsartana inibe a neprisilina, que degrada os peptídeos natriuréticos",
+                    "explanation": "O componente que inibe a neprisilina é o Sacubitril. Como a neprisilina degrada os peptídeos natriuréticos, se ela for inibida ocorre menos degradação de peptídeos natriuréticos, assim eles podem exercer seus efeitos de vasodilatação e natriurese",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T21:32:48.000Z",
+                    "updated_at": "2020-05-21T21:32:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1222,
+                    "question_id": 297,
+                    "description": "Em caso de troca de medicação de iECA por sacubitril/valsartana, deve-se esperar 36 horas na troca",
+                    "explanation": "Tanto na troca de iECA por sacubitril/valsartana quanto na troca de sacubitril/valsartana por iECA deve-se esperar 36h pelo risco de angioedema.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-21T21:32:48.000Z",
+                    "updated_at": "2020-05-21T21:32:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1223,
+                    "question_id": 297,
+                    "description": "Essa medicação é muito bem indicada para portadores de IC diastólica",
+                    "explanation": "A luz da melhor evidência, só há indicação de nível IA para pacientes portadores de insuficiência cardíaca com FE reduzida de 40% ou menos que permaneçam sintomáticos mesmo já estando em uso de IECA. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T21:32:48.000Z",
+                    "updated_at": "2020-05-21T21:32:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1224,
+                    "question_id": 297,
+                    "description": "Pacientes classe B pela American Heart Association já tem indicação de utilizar essa medicação, tal é a sua eficácia",
+                    "explanation": "Essa medicação é indicada para pacientes com fração de ejeção reduzida, ou seja, no mínimo classe II da NYHA (cansaço ao moderados esforços). Na classe B da AHA o paciente ainda não tem sintomas.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T21:32:49.000Z",
+                    "updated_at": "2020-05-21T21:32:49.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 297,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 298,
+            "institution_id": 4,
+            "description": "Sobre os perfis de paciente com Insuficiência Cardíaca (IC) descompensada na emergência, assinale a alternativa **correta:**",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T00:40:32.000Z",
+            "updated_at": "2021-05-19T22:04:40.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 298
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 298
+                    }
+                },
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 298
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1225,
+                    "question_id": 298,
+                    "description": "O perfil de paciente mais comum é o perfil B",
+                    "explanation": "O perfil de paciente mais comum é o paciente B (bem perfundido e congesto). \nOs perfis são de acordo com a perfusão (frio ou quente) ou pela congestão (seco ou úmido)\n- Os dois primeiros são bem perfundidos (quentes):\n- **A- Quente** e seco\n- **B- Quente** e úmido\n- Os dois últimos são mal perfundidos (frios)\n- **C-Frio** e úmido\n- **D-Frio** e seco",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-21T21:40:32.000Z",
+                    "updated_at": "2021-05-19T19:04:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1226,
+                    "question_id": 298,
+                    "description": "O perfil mais comum de paciente é o L",
+                    "explanation": "O perfil \"L\" ou 'D\" é o menos comum, que é aquele mal perfundido e não congesto (frio e seco)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T21:40:33.000Z",
+                    "updated_at": "2021-05-19T19:04:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1227,
+                    "question_id": 298,
+                    "description": "O perfil A é aquele quente e úmido",
+                    "explanation": "O perfil A é quente (bem perfundido) e seco (não congesto)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T21:40:33.000Z",
+                    "updated_at": "2021-05-19T19:04:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1228,
+                    "question_id": 298,
+                    "description": "O perfil D é aquele quente e seco",
+                    "explanation": "O perfil D, o menos comum na emergência, também chamado de \"L\", é Frio (mal perfundido) e seco (não congesto)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T21:40:33.000Z",
+                    "updated_at": "2021-05-19T19:04:40.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 298,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 300,
+            "institution_id": 1,
+            "description": "**Considere uma paciente feminina, 55 anos, atendida no pronto-socorro com história de dispneia aos moderados esforços há 45 dias, com piora progressiva, associada a ortopneia, dispneia paroxística noturna e edema progressivo de membros inferiores. Ao exame, em repouso, a paciente apresenta frequência respiratória de 26 irpm, saturação de oxigênio de 92% em ar ambiente, pressão arterial de 161/91 mmHg; frequência cardíaca de 89 bpm, edema de membros inferiores ++/4 e presença de turgência jugular. A ausculta cardíaca não apresenta alterações. Na ausculta pulmonar apresentava estertores finos discretos em ambos as extremidades inferiores dos campos pulmonares posteriores. A paciente foi internada e submetida a ecodopplercardiografia, que mostrou uma fração de ejeção do ventrículo esquerdo de 66% pelo método biplanar de Simpson. Assinale a alternativa correta em relação ao caso:**\n",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-21T22:01:09.000Z",
+            "updated_at": "2021-04-01T01:06:39.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 1,
+                "title": "UFSC",
+                "state": "Santa Catarina",
+                "is_enabled": true,
+                "created_at": "2020-05-16T20:39:39.000Z",
+                "updated_at": "2020-05-16T20:39:39.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 300
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 300
+                    }
+                },
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 300
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1233,
+                    "question_id": 300,
+                    "description": "A paciente apresenta uma dispneia de causa pulmonar já que a função contrátil do ventrículo esquerdo é normal",
+                    "explanation": "A paciente possui IC com FEVE preservada e, pelos critérios de Framingham, podemos diagnosticar IC",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T22:01:09.000Z",
+                    "updated_at": "2021-04-01T01:06:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1234,
+                    "question_id": 300,
+                    "description": "Os sinais e sintomas apresentados pelo paciente são compatíveis com o diagnóstico de cor pulmonale",
+                    "explanation": "Cor pulmonale pode cursar com dor torácica, síncope aos esforços, edema, anorexia, fadiga e letargia",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T22:01:09.000Z",
+                    "updated_at": "2021-04-01T01:06:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1235,
+                    "question_id": 300,
+                    "description": "Um resultado negativo na dosagem do peptídeo natriurético atrial é suficiente para descartar insuficiência cardíaca nessa paciente",
+                    "explanation": "Peptídeos natriuréticos podem ter seus valores reduzidos por algumas condições como a obesidade, por exemplo.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T22:01:09.000Z",
+                    "updated_at": "2021-04-01T01:06:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1236,
+                    "question_id": 300,
+                    "description": "O paciente apresenta insuficiência cardíaca congestiva com fração de ejeção preservada do ventrículo esquerdo",
+                    "explanation": "Paciente com sinais clássicos de IC e ecocardiograma com FEVE maior ou igual a 50% (IC diastólica ou de fração de ejeção preservada).\n\n\n\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-21T22:01:09.000Z",
+                    "updated_at": "2021-04-05T19:31:48.000Z",
+                    "files": [
+                        {
+                            "id": 6525,
+                            "file": "1617239193076.png",
+                            "name": "critérios de framingham.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-04-01T04:06:33.000Z",
+                            "updated_at": "2021-04-01T04:06:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1617239193076.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 6525,
+                                "alternative_id": 1236
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 300,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 301,
+            "institution_id": 5,
+            "description": "**O Peptídeo Natriurético tipo B (BNP) é um biomarcador utilizado em conjunto com anamnese e exame físico no diagnóstico de insuficiência cardíaca. Em relação ao BNP, analise as assertivas abaixo:** \n**I. É um hormônio secretado pelos ventrículos em resposta ao aumento de volume e estiramento das paredes.** \n**II. Sua dosagem não é útil para definir a gravidade da doença em caso de insuficiência cardíaca crônica.** \n**III. Seus níveis podem estar aumentados em insuficiência cardíaca de qualquer etiologia.** \n**Quais estão corretas?**",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T01:05:50.000Z",
+            "updated_at": "2020-05-22T01:05:50.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 5,
+                "title": "AMRIGS",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T13:59:53.000Z",
+                "updated_at": "2020-05-17T13:59:53.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 301
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 301
+                    }
+                },
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 301
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1237,
+                    "question_id": 301,
+                    "description": "Apenas I.",
+                    "explanation": "Comentário completo na alternativa correta.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T22:05:50.000Z",
+                    "updated_at": "2020-05-21T22:05:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1238,
+                    "question_id": 301,
+                    "description": "Apenas I e II.",
+                    "explanation": "Comentário completo na alternativa correta. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T22:05:50.000Z",
+                    "updated_at": "2020-05-21T22:05:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1239,
+                    "question_id": 301,
+                    "description": "Apenas I e III.",
+                    "explanation": "I - correto. É um marcador hormonal para verificar se o paciente portador de IC está compensado, associado também ao estado clínico. Ele é secretado em resposta ao aumento do volume dos ventrículos e estiramento das paredes.\nII-Incorreto. Ele é sim utilizado para definir a gravidade da doença. É um marcador prognóstico.\nIII-Correto. Seus níveis podem sim estar elevados em IC de qualquer etiologia",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-21T22:05:51.000Z",
+                    "updated_at": "2020-05-21T22:05:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1240,
+                    "question_id": 301,
+                    "description": "Apenas II e III.",
+                    "explanation": "Comentário completo na alternativa correta. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T22:05:51.000Z",
+                    "updated_at": "2020-05-21T22:05:51.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 301,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 302,
+            "institution_id": 53,
+            "description": "Considere um paciente com Insuficiência Cardíaca (IC) que resulta em ligeira limitação da atividade física. Ele fica confortável em repouso. A atividade física ordinária resulta em fadiga, palpitações, dispneia ou dor anginosa. Esse paciente deve ser classificado funcionalmente, conforme a New York Heart Association (NYHA), em:",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T01:15:32.000Z",
+            "updated_at": "2022-05-17T10:50:48.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 53,
+                "title": "FUNDHACRE",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-21T22:15:32.000Z",
+                "updated_at": "2020-05-21T22:15:32.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 302
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 302
+                    }
+                },
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 302
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1241,
+                    "question_id": 302,
+                    "description": "I.",
+                    "explanation": "- Falso, Doc! 😣\n- A classe I engloba apenas pacientes que têm sintomas a grandes esforços.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T22:15:32.000Z",
+                    "updated_at": "2022-05-17T10:50:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1242,
+                    "question_id": 302,
+                    "description": "II.",
+                    "explanation": "- Perfeito! Acertou! 😍\n- A classe II tem limitação leve/moderada, como cansaço a caminhadas, limpeza pesada ou vigorosa, relações sexuais ou jardinagem.\n- I - Sem limitação das atividades cotidianas.\n- II - Limitação leve, sem sintomas durante atividades cotidianas.\n- III - Limitação acentuada, com sintomas durante atividades cotidianas.\n- IV - Incapacidade física, sintomas em repouso.\n\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-21T22:15:32.000Z",
+                    "updated_at": "2022-05-17T10:50:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1243,
+                    "question_id": 302,
+                    "description": "III.",
+                    "explanation": "- Falso, Doc! 😣\n- A classe III tem acentuada limitação das atividades físicas, como para tomar banho, se vestir, passar roupa, etc..",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T22:15:32.000Z",
+                    "updated_at": "2022-05-17T10:50:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1244,
+                    "question_id": 302,
+                    "description": "IV.",
+                    "explanation": "- Falso, Doc! 😣\n- A classe IV tem sintomas até mesmo em repouso.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T22:15:32.000Z",
+                    "updated_at": "2022-05-17T10:50:48.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 302,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 303,
+            "institution_id": 54,
+            "description": "Com relação à Insuficiência Cardíaca Congestiva (ICC), assinale a alternativa **INCORRETA**:",
+            "difficulty": "medium",
+            "year": "2011-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-21T22:21:48.000Z",
+            "updated_at": "2022-04-06T19:08:42.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 54,
+                "title": "IOG",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-21T22:21:47.000Z",
+                "updated_at": "2020-05-21T22:21:47.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 303
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 303
+                    }
+                },
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 303
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1245,
+                    "question_id": 303,
+                    "description": "O peptídeo natriurético cerebral é um importante marcador no diagnóstico diferencial de dispneia e encontra-se reduzido na ICC",
+                    "explanation": "Acertou, Doc! Essa é a alternativa **incorreta**! 😍Encontra-se aumentado na ICC pois é produzido pela dilatação das paredes dos ventrículos",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-21T22:21:48.000Z",
+                    "updated_at": "2022-04-06T19:08:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1246,
+                    "question_id": 303,
+                    "description": "O enchimento mitral reduzido é um achado de disfunção cardíaca diastólica ao ecocardiograma",
+                    "explanation": "Essa está correta, Doc! 😉 Na IC diastólica do ventrículo esquerdo, o fluxo mitral fica realmente reduzido",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T22:21:48.000Z",
+                    "updated_at": "2022-04-06T19:08:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1247,
+                    "question_id": 303,
+                    "description": "A doença de Chagas é uma das causas de insuficiência do ventrículo esquerdo",
+                    "explanation": "Essa está correta, Doc! 😉 Essa doença acomete preferencialmente o ventrículo esquerdo",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T22:21:48.000Z",
+                    "updated_at": "2022-04-06T19:08:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1248,
+                    "question_id": 303,
+                    "description": "Linhas B de Kerley podem ser identificadas na radiografia de tórax",
+                    "explanation": "Essa está correta, Doc! 😉 É um sinal de congestão pulmonar\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T22:21:48.000Z",
+                    "updated_at": "2022-04-06T19:08:42.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 303,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 304,
+            "institution_id": 55,
+            "description": "Assinale a afirmativa **INCORRETA:**",
+            "difficulty": "medium",
+            "year": "2013-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T01:29:44.000Z",
+            "updated_at": "2022-03-12T12:52:03.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 55,
+                "title": "UFS",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-21T22:29:44.000Z",
+                "updated_at": "2020-05-21T22:29:44.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 304
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 304
+                    }
+                },
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 304
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1249,
+                    "question_id": 304,
+                    "description": "A medida do volume do ventrículo esquerdo pode ser útil no diagnóstico de Insuficiência Cardíaca Congestiva com função sistólica preservada (diastólica)",
+                    "explanation": "Com certeza, já que essa é a principal câmara que se modifica na ICC.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T22:29:44.000Z",
+                    "updated_at": "2022-03-12T12:52:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1250,
+                    "question_id": 304,
+                    "description": "O ponto de corte da fração de ejeção do ventrículo esquerdo para o diagnóstico de ICC diastólica é de 0,35",
+                    "explanation": "- Essa é a incorreta. \n- O ponto de corte é 0,5 (50%)\n- Não confunda IC sistólica e diastólica com IC de FE preservada, intermediária e reduzida:\n- Preservada: >50%/ Intermediária: 40-50%/ Reduzida: <40%\n- Sistólica: <40%, logo engloba a Intermediária e a Reduzida\n- Diastólica:>50%, logo engloba apenas a preservada",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-21T22:29:45.000Z",
+                    "updated_at": "2022-03-12T12:52:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1251,
+                    "question_id": 304,
+                    "description": "Anemia e tireotoxicose são fatores precipitantes de ICC",
+                    "explanation": "Correto. Além deles, beribéri e doença de Paget são causas de ICC de alto débito cardíaco.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T22:29:45.000Z",
+                    "updated_at": "2022-03-12T12:52:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1252,
+                    "question_id": 304,
+                    "description": "ICC diastólica é comum em idosos",
+                    "explanation": "Isso mesmo. ICC diastólica tem em sua maioria dos pacientes IDOSOS DO SEXO FEMININO👵🏻, apresentando hipertrofia concêntrica do VE.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-21T22:29:45.000Z",
+                    "updated_at": "2022-03-12T12:52:03.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 304,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7031,
+            "institution_id": 4,
+            "description": "Paciente homem, 68 anos, tabagista, com história prévia de HAS e DM em tratamento, chega ao consultório queixando-se de dispneia aos esforços moderados, que piora em decúbito dorsal e chega a acordar o paciente durante a noite subitamente. O paciente afirma que o quadro iniciou-se insidiosamente há mais de 6 meses e vem piorando progressivamente. Associado à dispneia, o paciente refere tosse seca que iniciou junto com o quadro. Com base na história e no exame físico do paciente abaixo, assinale a alternativa INCORRETA:\n- Geral= REG, MUC, taquipneico, afebril, anictérico e acianótico, pulsos periféricos de baixa amplitude\n- AP= MV + bilateral e simétrico, com estertores crepitantes em ambas as bases pulmonares.\n- AC= RCR, 3T, B1 hipofonética, presença de B3 (galope ventricular)\n",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-04-01T04:47:22.000Z",
+            "updated_at": "2021-04-01T04:47:22.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 7031
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 28921,
+                    "question_id": 7031,
+                    "description": "HAS, DM e tabagismo são considerados fatores de risco para a provável doença do paciente",
+                    "explanation": "Perfeito doc! Estamos diante de um paciente com insuficiência cardíaca. Como cerca de 2/3 das insuficiências cardíacas decorrem de causas isquêmicas, logo, é de se esperar que os fatores de risco sejam aqueles clássicos de toda doença cardiovascular:\n- tabagismo\n- DM\n- HAS\n- obesidade\n- história familiar positiva\n- IAM prévio\n- etilismo\n- dislipidemia\n- aterosclerose\n- doença arterial coronariana\n- entre outros.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-04-01T01:47:22.000Z",
+                    "updated_at": "2021-04-01T01:47:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28922,
+                    "question_id": 7031,
+                    "description": "A presença de B3 indica provável disfunção do ventrículo esquerdo",
+                    "explanation": "Perfeito doc! A presença de B3, e o ritmo de galope, ocorrem por conta do choque da massa de sangue contra a parede ventricular durante o enchimento ventricular rápido, sendo muito característico da insuficiência cardíaca!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-04-01T01:47:22.000Z",
+                    "updated_at": "2021-04-01T01:47:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28923,
+                    "question_id": 7031,
+                    "description": "A presença de dispneia, ortopneia, dispneia paroxística noturna e tosse indica a presença de uma IC direita",
+                    "explanation": "Falso doc! Provavelmente estamos diante de uma IC esquerda, uma vez que os sintomas congestivos ocorreram principalmente no sistema pulmonar. Se liga nisso doc:\n- IC esquerda= dispneia, ortopneia, dispneia paroxística noturna, tosse, estertores, etc.\n- IC direita= turgência jugular, hepatoesplenomegalia, edema de MMII, ascite, dor abdominal, etc.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-04-01T01:47:22.000Z",
+                    "updated_at": "2021-04-01T01:47:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28924,
+                    "question_id": 7031,
+                    "description": "A fisiopatologia da síndrome apresentada pelo paciente envolve a hiperativação do sistema renina-angiotensina-aldosterona",
+                    "explanation": "Perfeito doc! Provavelmente, estamos diante de um paciente com insuficiência cardíaca. Nessa doença, temos como principal fator fisiopatológico a hiperativação do SRAA. Basicamente, o que ocorre é uma redução inicial do DC, que pode ser desencadeada por diferentes mecanismos, como doenças valvares ou até mesmo um IAM prévio, o que leva a uma ativação do SRAA de forma a compensar essa redução do débito, levando a vasocontrição periférica, retenção hídrica e aumento da FC. No entanto, esse sistema possui efeitos deletérios no coração, gerando hipertrofia e remodelagem constante do coração, com necrose e apoptose de miócitos. Como consequência, há ainda mais redução do DC, reiniciando o ciclo.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-04-01T01:47:22.000Z",
+                    "updated_at": "2021-04-01T01:47:22.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7031,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7032,
+            "institution_id": 4,
+            "description": "Fazem parte da terapia tripla inicial para tratamento da IC com fração de ejeção reduzida, EXCETO:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-04-01T15:25:16.000Z",
+            "updated_at": "2021-04-01T15:25:16.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 7032
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 28925,
+                    "question_id": 7032,
+                    "description": "IECA",
+                    "explanation": "Perfeito doc! O IECA faz parte da terapia tripla e tem alto impacto na redução da mormibortalidade em longo prazo do paciente com insuficiência cardíaca com FEVE reduzida. Exemplos de IECA incluem enalapril e captopril, entre outros.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-04-01T12:25:16.000Z",
+                    "updated_at": "2021-04-01T12:25:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28926,
+                    "question_id": 7032,
+                    "description": "Betabloqueador",
+                    "explanation": "Perfeito doc! Os betabloqueadores, sobretudo, os de 2ª e 3ª geração, como succinato de metoprolol, bisoprolol e carvedilol, são fármacos modificadores de doença na insuficiência cardíaca, capazes de aumentar a sobrevida do paciente com IC com feve reduzida. São instituídos na terapia tripla inicial em pacientes sintomáticos (NYHA II-IV).\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-04-01T12:25:16.000Z",
+                    "updated_at": "2021-04-01T12:25:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28927,
+                    "question_id": 7032,
+                    "description": "Antagonista dos receptores de mineralocorticoides",
+                    "explanation": "Perfeito doc! Aqui temos a espironolactona e a eplerona, antagonistas de mineralocorticoides, utilizados na terapia tripla inicial do paciente com IC com feve reduzida e sintomático.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-04-01T12:25:16.000Z",
+                    "updated_at": "2021-04-01T12:25:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28928,
+                    "question_id": 7032,
+                    "description": "Ivabradina",
+                    "explanation": "Falso doc! A ivabradina NÃO faz parte da terapia tripla de tratamento inicial da insuficiência cardíaca. A ivabradina inibe seletivamente a corrente If no tecido do nó sinoatrial, reduzindo a FC, que, quando elevada, é um marcador de eventos em IC, podendo ser considerada um alvo terapêutico. Sendo assim, reservamos essa droga para pacientes com IC sintomática apesar da terapêutica otimizada, em ritmo sinusal e FC>= 70bpm.\n\n\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-04-01T12:25:16.000Z",
+                    "updated_at": "2021-04-05T19:31:48.000Z",
+                    "files": [
+                        {
+                            "id": 6527,
+                            "file": "1617279483980.png",
+                            "name": "manejo IC.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-04-01T15:18:05.000Z",
+                            "updated_at": "2021-04-01T15:18:05.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1617279483980.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 6527,
+                                "alternative_id": 28928
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7032,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7037,
+            "institution_id": 4,
+            "description": "Qual é o exame de escolha para diagnóstico e acompanhamento de pacientes com insuficiência cardíaca?",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-04-01T17:20:38.000Z",
+            "updated_at": "2021-04-01T17:20:38.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 7037
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 28945,
+                    "question_id": 7037,
+                    "description": "Eletrocardiograma",
+                    "explanation": "Falso doc! O ECG de 12 derivações é recomendados para todos pacientes com suspeita de IC para avaliar sinais de cardiopatia estrutural como hipertrofia ventricular esquerda, isquemia miocárdica, áreas de fibrose, distúrbios da condução atrioventricular, bradicardia ou taquiarritmias, que podem demandar cuidados e tratamentos específicos. No entanto, não é o exame de escolha para diagnóstico e acompanhamento desses pacientes!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-04-01T14:20:38.000Z",
+                    "updated_at": "2021-04-01T14:20:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28946,
+                    "question_id": 7037,
+                    "description": "Ecocardiograma",
+                    "explanation": "Perfeito doc! O Ecocardiograma Transtorácio é o teste diagnóstico por imagem preferencial para avaliação inicial dos pacientes com suspeita de IC e para seguimento, não só por sua ampla disponibilidade, como também por prescindir do uso de radiação ionizante. Esse exame permite a avaliação da função ventricular sistólica esquerda e direita, da função diastólica, das espessuras parietais, do tamanho das cavidades, da função valvar, da estimativa hemodinâmica não invasiva e das doenças do pericárdio!",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-04-01T14:20:38.000Z",
+                    "updated_at": "2021-04-01T14:20:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28947,
+                    "question_id": 7037,
+                    "description": "Peptídeos natriuréticos",
+                    "explanation": "Falso doc! Embora sejam exames bem estabelecidos tanto no contexto de emergência quanto na insuficiência cardíaca crônica, os peptídeos natriuréticos podem se elevar em algumas condições, como anemia, insuficiência renal crônica e idade avançada, e podem apresentar-se reduzidos na obesidade, dificultanto o diagnótico!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-04-01T14:20:38.000Z",
+                    "updated_at": "2021-04-01T14:20:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28948,
+                    "question_id": 7037,
+                    "description": "Radiografia de tórax",
+                    "explanation": "Falso doc! Por ser um método simples e rápido de fazer, está recomendado para todo paciente na avaliação inicial, para avaliar a presença de cardiomegalia e congestão pulmonar, sobretudo, no contexto de IC aguda. No entanto, esse exame apresenta uma sensibilidade limitada, não sendo utilizado para diagnóstico e acompanhamento do paciente com insuficiência cardíaca!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-04-01T14:20:38.000Z",
+                    "updated_at": "2021-04-01T14:20:38.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7037,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 299,
+            "institution_id": 4,
+            "description": "Sobre o tratamento de pacientes com Insuficiência Cardíaca (IC) descompensada na emergência, assinale a alternativa **CORRETA:**",
+            "difficulty": "hard",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-22T00:51:58.000Z",
+            "updated_at": "2022-03-19T20:47:17.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 299
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 299
+                    }
+                },
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 299
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 1229,
+                    "question_id": 299,
+                    "description": "Para um  paciente perfil A devo dar vasodilatador e diuréticos",
+                    "explanation": "O paciente perfil A é aqule quente (bem perfundido) e seco (não congesto). Logo, não tem grandes problemas. Devo me certificar que o paciente está fazeno o uso correto da terapia tripla (iECA, betabloqueador e espironolactona) e investigar outras possíveis causas para sua sintomatologia caso a medicação esteja corretamente ajustada.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-21T21:51:58.000Z",
+                    "updated_at": "2022-03-19T20:47:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1230,
+                    "question_id": 299,
+                    "description": "Para pacientes perfil B devo considerar o uso de inotrópicos",
+                    "explanation": "Paciente perfil B é Quente (bem perfundido) e congesto (úmido). Como ele é bem perfundido, não preciso utilizar inotrópicos, só preciso tratar a congestão, com o uso de vasodilatador e furosemida.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-21T21:51:58.000Z",
+                    "updated_at": "2022-03-19T20:47:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1231,
+                    "question_id": 299,
+                    "description": "Paciente perfil C é manejado apenas com o uso de furosemida e vasodilatador",
+                    "explanation": "Paciente perfil C é aquele frio e úmido, ou seja, mal perfundido e congesto. Ao mesmo tempo que tenho que tratar a congestão dele com diurético e vasodilatador, tenho que tratar a má perfusão dele, utilizando um inotrópico (dobutamina). Adicionalmente, se a pressão sístólica dele for maior que 85mmHg posso lançar mão do uso de beta bloqueador em dose reduzida e iECA",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-21T21:51:58.000Z",
+                    "updated_at": "2022-03-19T20:47:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 1232,
+                    "question_id": 299,
+                    "description": "Pacientes perfil D ou L são manejados com reposição moderada de volume",
+                    "explanation": "Vamos relembrar os perfis, que são classificados de acordo com a perfusão (frio ou quente) e congestão (seco e úmido):\n- A: Quente e seco\n- B: Quente e úmido\n- C: Frio e úmido\n- D(L): Frio e seco\n\nO paciente D está mal perfundido e não está congesto. Devo administrar volume para melhorar a perfusão, mas de forma moderada, para não causar uma congestão que ele não tinha.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-21T21:51:58.000Z",
+                    "updated_at": "2022-03-19T20:47:17.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 299,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7036,
+            "institution_id": 4,
+            "description": "Em relação aos critérios de classificação NYHA e AHA, assinale a alternativa CORRETA:",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-04-01T17:00:40.000Z",
+            "updated_at": "2021-04-01T17:00:40.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 41,
+                    "title": "Insuficiência Cardíaca",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-21T22:52:13.000Z",
+                    "updated_at": "2020-05-21T22:52:13.000Z",
+                    "pivot": {
+                        "discipline_id": 41,
+                        "question_id": 7036
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 28941,
+                    "question_id": 7036,
+                    "description": "Paciente com limitação leve, sem sintomas em atividades cotidianas é classificado como NYHA I",
+                    "explanation": "Falso doc!\n- NYHA I = sem limitação\n- NYHA II= limitação leve\n- NYHA III= limitação acentuada\n- NYHA IV= incapacidade física",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-04-01T14:00:40.000Z",
+                    "updated_at": "2021-04-01T14:00:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28942,
+                    "question_id": 7036,
+                    "description": "AHA A traduz um paciente com doença estrutural porém sem sintomas",
+                    "explanation": "Falso doc!\n- AHA A= paciente sem doença estrutural, apenas fatores de risco para IC (HAS, DM, dislipidemia, aterosclerose, tabagismo e obesidade).\n- AHA B= doença estrutural sem sintomas.\n- AHA C= doença estrutural com sintomas.\n- AHA D= IC terminal, refratária ao tratamento clínico otimizado.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-04-01T14:00:40.000Z",
+                    "updated_at": "2021-04-01T14:00:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28943,
+                    "question_id": 7036,
+                    "description": "Paciente classe NYHA IV apresenta IC com incapacidade física e sintomas em repouso",
+                    "explanation": "Perfeito doc! A NYHA é uma classificação funcional.\n- NYHA I = sem limitação\n- NYHA II= limitação leve\n- NYHA III= limitação acentuada\n- NYHA IV= incapacidade física, com sintomas em repouso\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-04-01T14:00:40.000Z",
+                    "updated_at": "2021-04-01T14:00:40.000Z",
+                    "files": []
+                },
+                {
+                    "id": 28944,
+                    "question_id": 7036,
+                    "description": "AHA C reflete um paciente com IC refratária ao tratamento clínico",
+                    "explanation": "Falso doc!\n- AHA A= paciente sem doença estrutural, apenas fatores de risco para IC (HAS, DM, dislipidemia, aterosclerose, tabagismo e obesidade).\n- AHA B= doença estrutural sem sintomas.\n- AHA C= doença estrutural com sintomas.\n- AHA D= IC terminal, refratária ao tratamento clínico otimizado. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-04-01T14:00:40.000Z",
+                    "updated_at": "2021-04-01T14:00:40.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7036,
+                "questionary_id": 267552,
+                "timer": 0
+            }
+        }
+    ]
+}

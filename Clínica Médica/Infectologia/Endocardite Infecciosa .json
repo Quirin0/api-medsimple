@@ -1,0 +1,1814 @@
+{
+    "id": 268232,
+    "user_id": 1699,
+    "title": "Endocardite Infecciosa\t\t",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T23:10:07.000Z",
+    "updated_at": "2022-07-11T23:10:07.000Z",
+    "study_plan_id": 197,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 123,
+            "institution_id": 4,
+            "description": "**Quanto à temporalidade da endocardite infecciosa (EI), assinale a alternativa correta:** ",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:33:14.000Z",
+            "updated_at": "2020-05-18T23:33:14.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 123
+                    }
+                },
+                {
+                    "id": 21,
+                    "title": "Infectologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:15.000Z",
+                    "updated_at": "2020-05-18T23:32:15.000Z",
+                    "pivot": {
+                        "discipline_id": 21,
+                        "question_id": 123
+                    }
+                },
+                {
+                    "id": 22,
+                    "title": "Endocardite Infecciosa",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:26.000Z",
+                    "updated_at": "2020-05-18T23:32:26.000Z",
+                    "pivot": {
+                        "discipline_id": 22,
+                        "question_id": 123
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 503,
+                    "question_id": 123,
+                    "description": "A EI aguda é aquela de instalação súbita, com tempo de doença de no máximo 2 semanas",
+                    "explanation": "A definição de “aguda” em EI é de duração de no máximo 6 semanas\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:33:14.000Z",
+                    "updated_at": "2020-05-18T20:33:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 504,
+                    "question_id": 123,
+                    "description": "A EI aguda é aquela de instalação súbita, com tempo de doença de no máximo 6 semanas",
+                    "explanation": "O tempo chave é 6 semanas. Abaixo disso é aguda e acima disso é subaguda\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:33:14.000Z",
+                    "updated_at": "2020-05-18T20:33:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 505,
+                    "question_id": 123,
+                    "description": "A EI subaguda é aquela de instalação súbita, com tempo de doença de no máximo 6 semanas",
+                    "explanation": " Essa é a definição de EI aguda",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:33:14.000Z",
+                    "updated_at": "2020-05-18T20:33:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 506,
+                    "question_id": 123,
+                    "description": "A EI subaguda é aquela de instalação insidiosa, com tempo de duração de doença maior que 2 semanas",
+                    "explanation": "A instalação é insidiosa, mas o tempo de doença é maior que 6 semanas para ser considerada subaguda.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:33:14.000Z",
+                    "updated_at": "2020-05-18T20:33:14.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 123,
+                "questionary_id": 268232,
+                "timer": 0
+            }
+        },
+        {
+            "id": 128,
+            "institution_id": 4,
+            "description": " **A endocardite infecciosa também pode gerar fenômenos imunológicos por deposição de imunocomplexos, causando inflamação. Quais dos abaixo NÃO SÃO fenômenos IMUNOLÓGICOS da EI?**\n ",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:38:49.000Z",
+            "updated_at": "2020-05-18T23:38:49.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 128
+                    }
+                },
+                {
+                    "id": 21,
+                    "title": "Infectologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:15.000Z",
+                    "updated_at": "2020-05-18T23:32:15.000Z",
+                    "pivot": {
+                        "discipline_id": 21,
+                        "question_id": 128
+                    }
+                },
+                {
+                    "id": 22,
+                    "title": "Endocardite Infecciosa",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:26.000Z",
+                    "updated_at": "2020-05-18T23:32:26.000Z",
+                    "pivot": {
+                        "discipline_id": 22,
+                        "question_id": 128
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 523,
+                    "question_id": 128,
+                    "description": "Nódulos de Osler",
+                    "explanation": "Correta. São nódulos dolorosos, por conta da inflamação. O fato de serem DOLOROSOS é o que faz a diferença na maioria das vezes entre eles a as lesões de Janeway, que são indolores.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:38:49.000Z",
+                    "updated_at": "2020-05-18T20:38:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 524,
+                    "question_id": 128,
+                    "description": "Glomerulonefrite difusa aguda",
+                    "explanation": "CORRETA. Por deposição de imunocomplexos essa é uma consequência possível\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:38:49.000Z",
+                    "updated_at": "2020-05-18T20:38:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 525,
+                    "question_id": 128,
+                    "description": "Artrite, com fator reumatoide positivo",
+                    "explanation": "É uma manifestação imunológica possível\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:38:49.000Z",
+                    "updated_at": "2020-05-18T20:38:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 526,
+                    "question_id": 128,
+                    "description": "Espondilodiscite",
+                    "explanation": "Essa é uma manifestação EMBÓLICA\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:38:49.000Z",
+                    "updated_at": "2020-05-18T20:38:49.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 128,
+                "questionary_id": 268232,
+                "timer": 0
+            }
+        },
+        {
+            "id": 131,
+            "institution_id": 4,
+            "description": "**Sobre a profilaxia para endocardite, assinale a alternativa correta**\n ",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:44:06.000Z",
+            "updated_at": "2020-05-18T23:44:06.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 131
+                    }
+                },
+                {
+                    "id": 21,
+                    "title": "Infectologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:15.000Z",
+                    "updated_at": "2020-05-18T23:32:15.000Z",
+                    "pivot": {
+                        "discipline_id": 21,
+                        "question_id": 131
+                    }
+                },
+                {
+                    "id": 22,
+                    "title": "Endocardite Infecciosa",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:26.000Z",
+                    "updated_at": "2020-05-18T23:32:26.000Z",
+                    "pivot": {
+                        "discipline_id": 22,
+                        "question_id": 131
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 535,
+                    "question_id": 131,
+                    "description": "Em procedimentos que causem sangramento de mucosa oral ou gengival, deve-se fazer profilaxia de endocardite em todos os pacientes",
+                    "explanation": "Apenas os pacientes com as características a seguir devem fazer profilaxia: Portadores de PRÓTESE VALVAR, CARDIOPATIAS CIANÓTICAS NÃO REPARADAS, ENDOCARDITE PRÉVIA ou TRANSPLANTE CARDÍACO COM REGURGITAÇÃO.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:44:06.000Z",
+                    "updated_at": "2020-05-18T20:44:06.000Z",
+                    "files": []
+                },
+                {
+                    "id": 536,
+                    "question_id": 131,
+                    "description": "A profilaxia para endocardite infecciosa consiste em 2g de Amoxicilina 1 hora antes do procedimento",
+                    "explanation": " Correta! Uma outra opção seria Amplicilina IM e, se alergia, Clindamicina 600mg.\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:44:06.000Z",
+                    "updated_at": "2020-05-18T20:44:06.000Z",
+                    "files": []
+                },
+                {
+                    "id": 537,
+                    "question_id": 131,
+                    "description": "A profilaxia deve ser feita em pacientes com fatores de risco específicos que sejam predisponentes para o estabelecimento de endocardite, em procedimentos que penetrem a mucosa urinária ou gastrointestinal",
+                    "explanation": "Apenas em procedimentos que lesem a mucosa oral ou gengival.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:44:06.000Z",
+                    "updated_at": "2020-05-18T20:44:06.000Z",
+                    "files": []
+                },
+                {
+                    "id": 538,
+                    "question_id": 131,
+                    "description": "Pacientes com endocardite prévia, se já tratadas corretamente, não precisam fazer profilaxia em procedimentos que lesam a mucosa oral ou gengival.",
+                    "explanation": "os pacientes com as características a seguir devem fazer profilaxia: Portadores de PRÓTESE VALVAR, CARDIOPATIAS CIANÓTICAS NÃO REPARADAS, ENDOCARDITE PRÉVIA ou TRANSPLANTE CARDÍACO COM REGURGITAÇÃO.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:44:06.000Z",
+                    "updated_at": "2020-05-18T20:44:06.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 131,
+                "questionary_id": 268232,
+                "timer": 0
+            }
+        },
+        {
+            "id": 492,
+            "institution_id": 4,
+            "description": "Qual é o sintoma mais comum da endocardite bacteriana?",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-25T21:45:02.000Z",
+            "updated_at": "2021-11-22T17:16:42.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 22,
+                    "title": "Endocardite Infecciosa",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:26.000Z",
+                    "updated_at": "2020-05-18T23:32:26.000Z",
+                    "pivot": {
+                        "discipline_id": 22,
+                        "question_id": 492
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 2025,
+                    "question_id": 492,
+                    "description": "Febre",
+                    "explanation": "Perfeito! Doc, a febre é o sintoma mais comum da endocardite bacteriana!",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-25T18:45:03.000Z",
+                    "updated_at": "2021-11-22T14:16:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2026,
+                    "question_id": 492,
+                    "description": "Rash",
+                    "explanation": "Falso doc, não é o mais comum e nem sempre está presente!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-25T18:45:03.000Z",
+                    "updated_at": "2021-11-22T14:16:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2027,
+                    "question_id": 492,
+                    "description": "Sopros",
+                    "explanation": "Não é o mais comum e nem sempre está presente.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-25T18:45:03.000Z",
+                    "updated_at": "2021-11-22T14:16:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2028,
+                    "question_id": 492,
+                    "description": "Dor torácica",
+                    "explanation": "Não é o mais comum e nem sempre está presente.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-25T18:45:03.000Z",
+                    "updated_at": "2021-11-22T14:16:42.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 492,
+                "questionary_id": 268232,
+                "timer": 0
+            }
+        },
+        {
+            "id": 124,
+            "institution_id": 4,
+            "description": "Quanto aos agentes etiológicos da Endocardite Infecciosa (EI), assinale a alternativa **INCORRETA**:\n",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:34:55.000Z",
+            "updated_at": "2022-05-14T19:24:19.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 124
+                    }
+                },
+                {
+                    "id": 21,
+                    "title": "Infectologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:15.000Z",
+                    "updated_at": "2020-05-18T23:32:15.000Z",
+                    "pivot": {
+                        "discipline_id": 21,
+                        "question_id": 124
+                    }
+                },
+                {
+                    "id": 22,
+                    "title": "Endocardite Infecciosa",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:26.000Z",
+                    "updated_at": "2020-05-18T23:32:26.000Z",
+                    "pivot": {
+                        "discipline_id": 22,
+                        "question_id": 124
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 507,
+                    "question_id": 124,
+                    "description": "O agente etiológico mais comum da EI aguda é o S. aureus.",
+                    "explanation": "Essa está correta, Doc! 🤗 \n\nTambém podemos incluir os stafilo coagulase negativos, como o *S. epidermidis.*\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:34:55.000Z",
+                    "updated_at": "2022-05-14T19:24:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 508,
+                    "question_id": 124,
+                    "description": "Entre os agentes etiológicos da EI subaguda, podemos destacar o Streptococcus viridans, Enterococus e Streptococcus bovis.",
+                    "explanation": "Essa está correta, Doc! 🤗 \n\nEsses são os agente mais comuns da EI subaguda. Facilita associar EI aguda com Stafilo e EI subaguda com Strepto.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:34:55.000Z",
+                    "updated_at": "2022-05-14T19:24:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 509,
+                    "question_id": 124,
+                    "description": "Dentre os causadores de EI subaguda, mais raramente, temos os fungos (ex: Candida albicans) e o grupo HACEK, que são gram negativos de crescimento lento.",
+                    "explanation": "Essa está correta, Doc! 🤗 \n\nA Candida e o Grupo HACEK (*Haemophilus spp*, *Agregatibacter spp*, *Cardiobacterium hominis*, *Eikenella corrodens* e *Kingella kingae* -por isso é melhor gravar HACEK mesmo) podem causar EI subaguda mais raramente.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:34:55.000Z",
+                    "updated_at": "2022-05-14T19:24:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 510,
+                    "question_id": 124,
+                    "description": "A principal causa de EI, no geral, é por Stafilococcus aureus.",
+                    "explanation": "Boa, Doc! Essa é a alternativa INCORRETA 😎  \n\nO agente mais comum de EI no geral é o *Streptococcus viridans*. Um macete que usamos na MEDsimple é: “se eu vi, então é o mais comum”. Para você lembrar de viridans como o mais comum.\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:34:55.000Z",
+                    "updated_at": "2022-05-14T19:24:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 124,
+                "questionary_id": 268232,
+                "timer": 0
+            }
+        },
+        {
+            "id": 126,
+            "institution_id": 4,
+            "description": "**Quais dos abaixo não é considerado um fenômeno EMBÓLICO da Endocardite Infecciosa?**\n ",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:36:20.000Z",
+            "updated_at": "2020-05-18T23:36:20.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 126
+                    }
+                },
+                {
+                    "id": 21,
+                    "title": "Infectologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:15.000Z",
+                    "updated_at": "2020-05-18T23:32:15.000Z",
+                    "pivot": {
+                        "discipline_id": 21,
+                        "question_id": 126
+                    }
+                },
+                {
+                    "id": 22,
+                    "title": "Endocardite Infecciosa",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:26.000Z",
+                    "updated_at": "2020-05-18T23:32:26.000Z",
+                    "pivot": {
+                        "discipline_id": 22,
+                        "question_id": 126
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 515,
+                    "question_id": 126,
+                    "description": "Aneurisma micótico",
+                    "explanation": "O aneurisma micótico, apesar do nome não tem nada a ver com fungo. Ele é causado pela disseminação à distância da BACTÉRIA, causando um ANEURISMA SACULAR à distância\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:36:20.000Z",
+                    "updated_at": "2020-05-18T20:36:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 516,
+                    "question_id": 126,
+                    "description": "Espondilodiscite",
+                    "explanation": "Correto. A espondilodiscite pode ser uma manifestação de inflamação na  vértebra e disco vertebral, consequência da embolia a distância da bactéria.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:36:20.000Z",
+                    "updated_at": "2020-05-18T20:36:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 517,
+                    "question_id": 126,
+                    "description": "Embolias",
+                    "explanation": "Correta. Um êmbolo, literalmente, originado de um trombo na válvula por conta da infecção bacteriana, pode migrar e causar oclusões arteriais a distância (ex: AVC isquêmico)\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:36:20.000Z",
+                    "updated_at": "2020-05-18T20:36:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 518,
+                    "question_id": 126,
+                    "description": "Glomerulonefrite Difusa Aguda",
+                    "explanation": "Essa é uma manifestação IMUNOLÓGICA da EI.\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:36:20.000Z",
+                    "updated_at": "2020-05-18T20:36:20.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 126,
+                "questionary_id": 268232,
+                "timer": 0
+            }
+        },
+        {
+            "id": 127,
+            "institution_id": 4,
+            "description": "**Quais dos abaixo não é considerado um fenômeno HEMORRÁGICO da Endocardite Infecciosa?** ",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:37:30.000Z",
+            "updated_at": "2020-05-18T23:37:30.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 127
+                    }
+                },
+                {
+                    "id": 21,
+                    "title": "Infectologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:15.000Z",
+                    "updated_at": "2020-05-18T23:32:15.000Z",
+                    "pivot": {
+                        "discipline_id": 21,
+                        "question_id": 127
+                    }
+                },
+                {
+                    "id": 22,
+                    "title": "Endocardite Infecciosa",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:26.000Z",
+                    "updated_at": "2020-05-18T23:32:26.000Z",
+                    "pivot": {
+                        "discipline_id": 22,
+                        "question_id": 127
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 519,
+                    "question_id": 127,
+                    "description": "Petéquias",
+                    "explanation": " É a manifestação hemorrágica mais comum na EI, ocorrendo em 40% dos casos.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:37:30.000Z",
+                    "updated_at": "2020-05-18T20:37:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 520,
+                    "question_id": 127,
+                    "description": "Hemorragia conjuntival",
+                    "explanation": "Pode ocorrer hemorragia conjuntival\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:37:30.000Z",
+                    "updated_at": "2020-05-18T20:37:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 521,
+                    "question_id": 127,
+                    "description": "Hemorragia da retina (Mancha de Roth)",
+                    "explanation": "Essa é a INCORRETA. Pois é considerado um fenômeno IMUNOLÓGICO\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:37:30.000Z",
+                    "updated_at": "2020-05-18T20:37:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 522,
+                    "question_id": 127,
+                    "description": "Lesões de Janeway",
+                    "explanation": "A lesão de Janeway, é uma mancha INDOLOR que ocorre geralmente em extremidades.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:37:30.000Z",
+                    "updated_at": "2020-05-18T20:37:30.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 127,
+                "questionary_id": 268232,
+                "timer": 0
+            }
+        },
+        {
+            "id": 129,
+            "institution_id": 4,
+            "description": " **Faça a associação correta entre o perfil de paciente típico e a etiologia da EI:**\n1- Stafilococcus aureus 2-Stafilococcus epidermidis 3- Streptococcus viridans 4- Streptococcus bovis;\n A- Neoplasia gastrointestinal B-Procedimentos dentários C-Hemodiálise D-Usuários de drogas injetáveis\n ",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:41:36.000Z",
+            "updated_at": "2020-05-18T23:41:36.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 129
+                    }
+                },
+                {
+                    "id": 21,
+                    "title": "Infectologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:15.000Z",
+                    "updated_at": "2020-05-18T23:32:15.000Z",
+                    "pivot": {
+                        "discipline_id": 21,
+                        "question_id": 129
+                    }
+                },
+                {
+                    "id": 22,
+                    "title": "Endocardite Infecciosa",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:26.000Z",
+                    "updated_at": "2020-05-18T23:32:26.000Z",
+                    "pivot": {
+                        "discipline_id": 22,
+                        "question_id": 129
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 527,
+                    "question_id": 129,
+                    "description": "1-D, 2-C, 3-B, 4-A",
+                    "explanation": "Stafilococcus aureus é o germe mais relacionado a usuários de drogas injetáveis. Stafilococcus epidermidis e os demais stafilo coagulase negativos estão relacionados à hemodiálise, já que são germes que habitam a pele. Esses dois primeiros também estão relacionados a etiologia de endocardite no 1º ano após troca valvar. Streptococcus viridans está relacionado a procedimentos dentários (MACETE: lembre do sorriso de quem faz procedimento dentário, essa pessoa RI, para você lembrar de Strepto viRIdans); E Strepto bovis, que possui uma variante chamada Strepto gallolyticus, está muito relacionado a neoplasia do trato gastrointestinal. Para lembrar, lembra de bucho de boi (bovis) para associar com o TGI.\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:41:36.000Z",
+                    "updated_at": "2020-05-18T20:41:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 528,
+                    "question_id": 129,
+                    "description": "1-A,2-B,3-C,4-D",
+                    "explanation": "Vide comentário completo na alternativa correta",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:41:36.000Z",
+                    "updated_at": "2020-05-18T20:41:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 529,
+                    "question_id": 129,
+                    "description": "4-A,3-B,2-C,1-A",
+                    "explanation": "Vide comentário completo na alternativa correta",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:41:36.000Z",
+                    "updated_at": "2020-05-18T20:41:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 530,
+                    "question_id": 129,
+                    "description": "1-A,2-C,3-B,4-D",
+                    "explanation": "Vide comentário completo na alternativa correta",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:41:36.000Z",
+                    "updated_at": "2020-05-18T20:41:36.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 129,
+                "questionary_id": 268232,
+                "timer": 0
+            }
+        },
+        {
+            "id": 130,
+            "institution_id": 4,
+            "description": "**Para o diagnóstico de endocardite utilizamos os critérios de DUKE, que podem ser divididos em maiores e menores. Sobre esses critérios, assinale a alternativa incorreta:**\n ",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:42:53.000Z",
+            "updated_at": "2020-05-18T23:42:53.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 130
+                    }
+                },
+                {
+                    "id": 21,
+                    "title": "Infectologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:15.000Z",
+                    "updated_at": "2020-05-18T23:32:15.000Z",
+                    "pivot": {
+                        "discipline_id": 21,
+                        "question_id": 130
+                    }
+                },
+                {
+                    "id": 22,
+                    "title": "Endocardite Infecciosa",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:26.000Z",
+                    "updated_at": "2020-05-18T23:32:26.000Z",
+                    "pivot": {
+                        "discipline_id": 22,
+                        "question_id": 130
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 531,
+                    "question_id": 130,
+                    "description": "Os critérios maiores são: Microbiológico e evidência de endocardite ao Ecocardiograma",
+                    "explanation": "CORRETO. O critério microbiológico consiste em encontrar na hemocultura algum dos agentes mais frequentes, ou menos frequentes mas de forma persistente. Uma exceção à hemocultura, é a sorologia positiva para Coxiella. Já o ecocardiograma é usado para encontrar vegetações ou massas que sugiram endocardite nas válvulas, ou a presença de uma nova regurgitação, que representa lesão valvar.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:42:53.000Z",
+                    "updated_at": "2020-05-18T20:42:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 532,
+                    "question_id": 130,
+                    "description": "A presença de fenômenos imunológicos constituem um critério menor",
+                    "explanation": "CORRETO: Para lembrar dos critérios menores lembre dos 5 Fs: Febre≥38ºC, Fenômenos Vasculares, Fenômenos Imunológicos, Fatores de risco: lesão cardíaca ou usuário de drogas EV, e “Forçar a barra” com um germe incomum encontrado na hemocultura",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:42:53.000Z",
+                    "updated_at": "2020-05-18T20:42:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 533,
+                    "question_id": 130,
+                    "description": "A presença de fenômenos vasculares constituem um critério menor",
+                    "explanation": "Para lembrar dos critérios menores lembre dos 5 Fs: Febre≥38ºC, Fenômenos Vasculares, Fenômenos Imunológicos, Fatores de risco: lesão cardíaca ou usuário de drogas EV, e “Forçar a barra” com um germe incomum encontrado na hemocultura\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:42:53.000Z",
+                    "updated_at": "2020-05-18T20:42:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 534,
+                    "question_id": 130,
+                    "description": "Febre maior ou igual a 37,5ºC consiste em um critério menor",
+                    "explanation": "A febre é considerada um critério menor, mas deve ser de pelo menos 38ºC\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:42:53.000Z",
+                    "updated_at": "2020-05-18T20:42:53.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 130,
+                "questionary_id": 268232,
+                "timer": 0
+            }
+        },
+        {
+            "id": 132,
+            "institution_id": 4,
+            "description": "**Para um melhor uso dos critérios de Duke no diagnóstico da Endocardite Infecciosa, surgiram os critérios de Duke modificados, que usam os critérios de Duke Maiores e Menores para classificar o diagnóstico em: Definitivo, Provável ou Rejeitado. Assinale a opção que conceitue corretamente o diagnóstico de Endocardite Infecciosa de acordo com os critérios de Duke Modificados:**\n ",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:45:18.000Z",
+            "updated_at": "2020-05-18T23:45:18.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 132
+                    }
+                },
+                {
+                    "id": 21,
+                    "title": "Infectologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:15.000Z",
+                    "updated_at": "2020-05-18T23:32:15.000Z",
+                    "pivot": {
+                        "discipline_id": 21,
+                        "question_id": 132
+                    }
+                },
+                {
+                    "id": 22,
+                    "title": "Endocardite Infecciosa",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:26.000Z",
+                    "updated_at": "2020-05-18T23:32:26.000Z",
+                    "pivot": {
+                        "discipline_id": 22,
+                        "question_id": 132
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 539,
+                    "question_id": 132,
+                    "description": "O diagnóstico definitivo é estabelecido na presença de 2 critérios maiores, ou 1 critério maior e 3 menores ou até de apenas 5 critérios menores.",
+                    "explanation": "CORRETA. E além disso, se for colhida cultura da VÁLVULA e vier positiva, também o diagnóstico é definitivo.\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-18T23:45:18.000Z",
+                    "updated_at": "2020-05-18T23:45:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 540,
+                    "question_id": 132,
+                    "description": "Cultura da válvula positiva não é um critério diagnóstico definitivo.",
+                    "explanation": " O diagnóstico definitivo é estabelecido na presença de 2 critérios maiores, ou 1 critério maior e 3 menores ou até de apenas 5 critérios menores, ou apenas pela cultura da válvula positiva.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T23:45:18.000Z",
+                    "updated_at": "2020-05-18T23:45:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 541,
+                    "question_id": 132,
+                    "description": "O diagnóstico é dito PROVÁVEL quando há 1 critério maior e 1 menor ou 2 critérios menores.",
+                    "explanation": " É dito PROVÁVEL quando há 1 critério maior e 1 menor ou pelo menos 3 critérios menores.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:45:18.000Z",
+                    "updated_at": "2020-05-18T20:45:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 542,
+                    "question_id": 132,
+                    "description": "Mesmo que na necropsia não se encontre endocardite, não podemos rejeitar o diagnóstico se já feito durante a vida.",
+                    "explanation": "Pelos critérios de Duke Modificado, o diagnóstico é dito REJEITADO QUANDO: Na cirurgia ou na necropsia não se encontra endocardite ou quando o quadro se resolve com menos de 4 semanas de antibioticoterapia.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:45:18.000Z",
+                    "updated_at": "2020-05-18T20:45:18.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 132,
+                "questionary_id": 268232,
+                "timer": 0
+            }
+        },
+        {
+            "id": 134,
+            "institution_id": 30,
+            "description": "**Os principais agentes etiológicos da endocardite bacteriana em pacientes pediátricos são:**\n ",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:47:50.000Z",
+            "updated_at": "2020-05-18T23:47:50.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 30,
+                "title": "HNMD",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T20:47:50.000Z",
+                "updated_at": "2020-05-18T20:47:50.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 134
+                    }
+                },
+                {
+                    "id": 21,
+                    "title": "Infectologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:15.000Z",
+                    "updated_at": "2020-05-18T23:32:15.000Z",
+                    "pivot": {
+                        "discipline_id": 21,
+                        "question_id": 134
+                    }
+                },
+                {
+                    "id": 22,
+                    "title": "Endocardite Infecciosa",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:26.000Z",
+                    "updated_at": "2020-05-18T23:32:26.000Z",
+                    "pivot": {
+                        "discipline_id": 22,
+                        "question_id": 134
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 547,
+                    "question_id": 134,
+                    "description": "Haemophilus influenzae e Streptococcus",
+                    "explanation": "O Haemophilus faz parte do grupo HACEK, raramente encontrados na endocardite ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:47:50.000Z",
+                    "updated_at": "2020-05-18T20:47:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 548,
+                    "question_id": 134,
+                    "description": "Pseudomonas aeuriginosa e Serratia marscescens",
+                    "explanation": "Não são causas comuns de endocardite\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:47:50.000Z",
+                    "updated_at": "2020-05-18T20:47:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 549,
+                    "question_id": 134,
+                    "description": "Streptococcus viridans e Staphylococus aureus",
+                    "explanation": "O Streptococcus viridans é o agente mais comum de endocardite (lembre do viridans, que eu vi é o mais comum)\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:47:50.000Z",
+                    "updated_at": "2020-05-18T20:47:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 550,
+                    "question_id": 134,
+                    "description": "Streptococcus pneumoniae e Staphylococcus aureus",
+                    "explanation": "O Strepto pneumoniae pode até causar endocardite, mas é mais comum em idosos, além de ser responsável por causar a Síndrome de Austrian, caracterizada pela tríade: Meningite, Pneumonia e Endocardite.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:47:50.000Z",
+                    "updated_at": "2020-05-18T20:47:50.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 134,
+                "questionary_id": 268232,
+                "timer": 0
+            }
+        },
+        {
+            "id": 135,
+            "institution_id": 31,
+            "description": "**São fatores relacionados à patogênese de endocardite infecciosa, exceto:**\n ",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:49:28.000Z",
+            "updated_at": "2020-05-18T23:49:28.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 31,
+                "title": "Santa Casa-BH",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T20:49:28.000Z",
+                "updated_at": "2020-05-18T20:49:28.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 135
+                    }
+                },
+                {
+                    "id": 21,
+                    "title": "Infectologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:15.000Z",
+                    "updated_at": "2020-05-18T23:32:15.000Z",
+                    "pivot": {
+                        "discipline_id": 21,
+                        "question_id": 135
+                    }
+                },
+                {
+                    "id": 22,
+                    "title": "Endocardite Infecciosa",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:26.000Z",
+                    "updated_at": "2020-05-18T23:32:26.000Z",
+                    "pivot": {
+                        "discipline_id": 22,
+                        "question_id": 135
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 551,
+                    "question_id": 135,
+                    "description": ")A presença de anomalias estruturais do coração e das grandes artérias",
+                    "explanation": "Correto. Ter uma anomalia/lesão valvar é pré-requisito para a instalação da endocardite\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:49:28.000Z",
+                    "updated_at": "2020-05-18T20:49:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 552,
+                    "question_id": 135,
+                    "description": "A lesão endotelial que induz à formação de trombos com a deposição de agregados de plaquetas e fibrina, oferecendo uma base para a adesão bacteriana",
+                    "explanation": "Uma descrição perfeita de como ocorre a adesão bacteriana na válvula.\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:49:28.000Z",
+                    "updated_at": "2020-05-18T20:49:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 553,
+                    "question_id": 135,
+                    "description": "O histórico de doença cardíaca congênita ou adquirida que ocorre na totalidade dos casos de endocardite infecciosa",
+                    "explanation": " Nem sempre encontramos um histórico de anomalia cardíaca nos pacientes com endocardite infecciosa.\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:49:28.000Z",
+                    "updated_at": "2020-05-18T20:49:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 554,
+                    "question_id": 135,
+                    "description": "Os defeitos cardíacos mais frequentes causadores da endocardite infecciosa são: tetralogia de Fallot, Comunicação interventricular, doença valvar aórtica e próteses valvares",
+                    "explanation": "As grandes síndromes congênitas cardíacas com cianose são os principais predisponentes de endocardite.\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:49:28.000Z",
+                    "updated_at": "2020-05-18T20:49:28.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 135,
+                "questionary_id": 268232,
+                "timer": 0
+            }
+        },
+        {
+            "id": 136,
+            "institution_id": 32,
+            "description": " **As endocardites bacterianas em prótese valvar que ocorrem entre 2 e 12 meses após a cirurgia de troca valvar tem como principais agentes etiológicos:**\n ",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:50:43.000Z",
+            "updated_at": "2020-05-18T23:50:43.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 32,
+                "title": "HEVV",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T20:50:43.000Z",
+                "updated_at": "2020-05-18T20:50:43.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 136
+                    }
+                },
+                {
+                    "id": 21,
+                    "title": "Infectologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:15.000Z",
+                    "updated_at": "2020-05-18T23:32:15.000Z",
+                    "pivot": {
+                        "discipline_id": 21,
+                        "question_id": 136
+                    }
+                },
+                {
+                    "id": 22,
+                    "title": "Endocardite Infecciosa",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:26.000Z",
+                    "updated_at": "2020-05-18T23:32:26.000Z",
+                    "pivot": {
+                        "discipline_id": 22,
+                        "question_id": 136
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 555,
+                    "question_id": 136,
+                    "description": "Enterococos",
+                    "explanation": "Esse grupo é mais comum na endocardite subaguda, e volta a ser comum após 1 ano da troca valvar.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:50:43.000Z",
+                    "updated_at": "2020-05-18T20:50:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 556,
+                    "question_id": 136,
+                    "description": "Bactérias do grupo HACEK",
+                    "explanation": "O grupo HACEK, um grupo de gram negativos de crescimento lento, é uma etiológia possível, mas rara na endocardite.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:50:43.000Z",
+                    "updated_at": "2020-05-18T20:50:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 557,
+                    "question_id": 136,
+                    "description": "Estafilococos coagulase negativos",
+                    "explanation": "Perfeito. Os Stafilo coagulase negativos, representados principalmente pelo Stafilo epidermidis, são uns dos grandes responsáveis de endocardite até 1 anos após a troca valvar.\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:50:43.000Z",
+                    "updated_at": "2020-05-18T20:50:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 558,
+                    "question_id": 136,
+                    "description": "Streptococcus do grupo A",
+                    "explanation": "O Strepto do grupo A tem como representante o Strepto pyogenes, grande causador de faringite, e não endocardite.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:50:43.000Z",
+                    "updated_at": "2020-05-18T20:50:43.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 136,
+                "questionary_id": 268232,
+                "timer": 0
+            }
+        },
+        {
+            "id": 137,
+            "institution_id": 4,
+            "description": "**Assinale a assertiva incorreta sobre endocardite infecciosa (EI)**\n ",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:51:57.000Z",
+            "updated_at": "2020-05-18T23:51:57.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 137
+                    }
+                },
+                {
+                    "id": 21,
+                    "title": "Infectologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:15.000Z",
+                    "updated_at": "2020-05-18T23:32:15.000Z",
+                    "pivot": {
+                        "discipline_id": 21,
+                        "question_id": 137
+                    }
+                },
+                {
+                    "id": 22,
+                    "title": "Endocardite Infecciosa",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:26.000Z",
+                    "updated_at": "2020-05-18T23:32:26.000Z",
+                    "pivot": {
+                        "discipline_id": 22,
+                        "question_id": 137
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 559,
+                    "question_id": 137,
+                    "description": "Streptococcus galollyticus é uma bactéria frequente nos casos de válula nativa",
+                    "explanation": "CORRETA. É uma variante do Strepto bovis, extremamente relacionado a neoplasia do trato gastrointestinal\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:51:57.000Z",
+                    "updated_at": "2020-05-18T20:51:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 560,
+                    "question_id": 137,
+                    "description": "Glomerulonefrite causada por EI é relacionada ao depósito de imunocomplexos na membrana basal dos glomérulos, tendo boa resposta a tratamento antimicrobiano",
+                    "explanation": "CORRETA: A GNDA é uma das possíveis manifestações IMUNOLÓGICAS da endocardite\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:51:57.000Z",
+                    "updated_at": "2020-05-18T20:51:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 561,
+                    "question_id": 137,
+                    "description": "O aneurisma micótico é formado por êmbolos decorrentes de infecções fúngicas, principalmente candidemia",
+                    "explanation": "ESSA É A INCORRETA. É uma grande pegadinha, pois o nome micótico aqui não se refere a fungo, mas ao fenômeno EMBÓLICO de infecção BACTERIANA que causa aneurismas SACULARES.\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:51:57.000Z",
+                    "updated_at": "2020-05-18T20:51:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 562,
+                    "question_id": 137,
+                    "description": "Febre de 38ºC, fenômenos imunológicos e fenômenos vasculares são exemplos de critérios menores para o diagnóstico de EI",
+                    "explanation": "Para lembrar dos critérios menores lembre dos 5 Fs: Febre≥38ºC, Fenômenos Vasculares, Fenômenos Imunológicos, Fatores de risco: lesão cardíaca ou usuário de drogas EV, e “Forçar a barra” com um germe incomum encontrado na hemocultura\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:51:57.000Z",
+                    "updated_at": "2020-05-18T20:51:57.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 137,
+                "questionary_id": 268232,
+                "timer": 0
+            }
+        },
+        {
+            "id": 133,
+            "institution_id": 4,
+            "description": "**Quanto ao tratamento da endocardite, assinale a alternativa incorreta:**\n ",
+            "difficulty": "hard",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:46:36.000Z",
+            "updated_at": "2020-05-18T23:46:36.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 133
+                    }
+                },
+                {
+                    "id": 21,
+                    "title": "Infectologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:15.000Z",
+                    "updated_at": "2020-05-18T23:32:15.000Z",
+                    "pivot": {
+                        "discipline_id": 21,
+                        "question_id": 133
+                    }
+                },
+                {
+                    "id": 22,
+                    "title": "Endocardite Infecciosa",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:26.000Z",
+                    "updated_at": "2020-05-18T23:32:26.000Z",
+                    "pivot": {
+                        "discipline_id": 22,
+                        "question_id": 133
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 543,
+                    "question_id": 133,
+                    "description": "No tratamento para EI pensando em Stafilococcus aureus como causa, o esquema mais usado é Oxacilina + Gentamicina",
+                    "explanation": "CORRETA. A oxacilina é na essência um antibiótico anti-estafilococos e a gentamicina auxilia na diminuição do tempo de bacteremia.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T23:46:36.000Z",
+                    "updated_at": "2020-05-18T23:46:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 544,
+                    "question_id": 133,
+                    "description": "No tratamento da EI pensando em Streptococcus viridans como causa, o esquema mais usado é a Penicilina G Cristalina + Gentamicina",
+                    "explanation": "Correta. Observe que a gentamicina é uma ótima aliada em basicamente todas as etiologias de endocardite para reduzir o tempo de bacteremia\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T23:46:36.000Z",
+                    "updated_at": "2020-05-18T23:46:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 545,
+                    "question_id": 133,
+                    "description": "No tratamento para EI que ocorre em até um ano após troca valvar, o esquema preconizado é Vancomicina + Rifampicina + Gentamicina",
+                    "explanation": "Correta. Essas medicações têm maior ação em prótese valvar.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:46:36.000Z",
+                    "updated_at": "2020-05-18T20:46:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 546,
+                    "question_id": 133,
+                    "description": "No tratamento para EI tendo Enterococcus como causa na hemocultura, o esquema mais usado é Oxacilina + Gentamicina",
+                    "explanation": "O esquema citado é para Staphylococcus aureus. Para Enterococcus podemos usar Ampicilina e Gentamicina, por exemplo.\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-18T23:46:36.000Z",
+                    "updated_at": "2020-05-18T23:46:36.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 133,
+                "questionary_id": 268232,
+                "timer": 0
+            }
+        },
+        {
+            "id": 138,
+            "institution_id": 12,
+            "description": "**A profilaxia para endocardite infecciosa está indicada em procedimentos cirúrgicos contaminados, potencialmente contaminados ou infectados, o que eventualmente pode ocorrer em cirurgias obstétricas. Entre as cardiopatias com indicação de profilaxia para endocardite infecciosa, é correto citar:**\n ",
+            "difficulty": "hard",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T23:53:15.000Z",
+            "updated_at": "2020-05-18T23:53:15.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 12,
+                "title": "SES-RJ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T18:11:22.000Z",
+                "updated_at": "2020-05-17T18:11:22.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 138
+                    }
+                },
+                {
+                    "id": 21,
+                    "title": "Infectologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:15.000Z",
+                    "updated_at": "2020-05-18T23:32:15.000Z",
+                    "pivot": {
+                        "discipline_id": 21,
+                        "question_id": 138
+                    }
+                },
+                {
+                    "id": 22,
+                    "title": "Endocardite Infecciosa",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-05-18T23:32:26.000Z",
+                    "updated_at": "2020-05-18T23:32:26.000Z",
+                    "pivot": {
+                        "discipline_id": 22,
+                        "question_id": 138
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 563,
+                    "question_id": 138,
+                    "description": "Coarctação da aorta",
+                    "explanation": "Falso. É uma cardiopatia ACIANÓTICA, logo não é indicativo de profilaxia\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T23:53:15.000Z",
+                    "updated_at": "2020-05-18T23:53:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 564,
+                    "question_id": 138,
+                    "description": "Lesão valvar reumática",
+                    "explanation": "Falso. Não está entre as 4 características que indicariam profilaxia: Portadores de PRÓTESE VALVAR, CARDIOPATIAS CIANÓTICAS NÃO REPARADAS, ENDOCARDITE PRÉVIA ou TRANSPLANTE CARDÍACO COM REGURGITAÇÃO.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:53:15.000Z",
+                    "updated_at": "2020-05-18T20:53:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 565,
+                    "question_id": 138,
+                    "description": "Prótese metálica valvar",
+                    "explanation": " Prótese valvar está entre um dos 4 critérios que indicam profilaxia:\nPortadores de PRÓTESE VALVAR, CARDIOPATIAS CIANÓTICAS NÃO REPARADAS, ENDOCARDITE PRÉVIA ou TRANSPLANTE CARDÍACO COM REGURGITAÇÃO.\n\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-18T20:53:15.000Z",
+                    "updated_at": "2020-05-18T20:53:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 566,
+                    "question_id": 138,
+                    "description": "Comunicação interventricular",
+                    "explanation": "Falso. É uma cardiopatia ACIANÓTICA, logo não é indicativo de profilaxia\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T20:53:15.000Z",
+                    "updated_at": "2020-05-18T20:53:15.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 138,
+                "questionary_id": 268232,
+                "timer": 0
+            }
+        }
+    ]
+}

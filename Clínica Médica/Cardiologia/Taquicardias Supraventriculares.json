@@ -1,0 +1,2477 @@
+{
+    "id": 267554,
+    "user_id": 1699,
+    "title": "Taquicardias Supraventriculares",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T02:23:16.000Z",
+    "updated_at": "2022-07-11T02:23:16.000Z",
+    "study_plan_id": 749,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 1508,
+            "institution_id": 4,
+            "description": "Quais dos seguintes escores é utilizado para estimar o risco de um paciente com arritmia cardíaca ter um evento tromboembólico?",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-09T06:50:16.000Z",
+            "updated_at": "2022-01-12T20:40:33.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 1508
+                    }
+                },
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 1508
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6197,
+                    "question_id": 1508,
+                    "description": "HASBLED",
+                    "explanation": "Falso doc! Quase! O HASBLED é um escore que indica o risco de sangramento em pacientes que fazem uso de anticoagulantes para FA. Você conhece esse escore? Se liga nisso👇\n- Fonte: [https://www.researchgate.net/figure/The-HAS-BLeD-score-for-bleeding-risk_tbl1_221694340](https://www.researchgate.net/figure/The-HAS-BLeD-score-for-bleeding-risk_tbl1_221694340)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:50:16.000Z",
+                    "updated_at": "2022-01-12T17:40:33.000Z",
+                    "files": [
+                        {
+                            "id": 10035,
+                            "file": "bff5a2fd-731d-4a24-8b22-592f92b0773d.png",
+                            "name": "The-HAS-BLeD-score-for-bleeding-risk.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-04T21:39:03.000Z",
+                            "updated_at": "2021-06-04T21:39:03.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/bff5a2fd-731d-4a24-8b22-592f92b0773d.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10035,
+                                "alternative_id": 6197
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6198,
+                    "question_id": 1508,
+                    "description": "CHA2DS2VASc",
+                    "explanation": "Perfeito doc! Arrasou! 😁 Saca só👇\n- 0 pontos=>  não há necessidade de uso de medicação anticoagulante\n- 1 ponto=> a critério médico, pode-se prescrever anticoagulante ou antiagregante plaquetário.\n- 2 pontos ou mais =>  indica a anticoagulação.\n- Doc, se liga nessa tabelinha resumindo esse escore👇\n\n\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-09T03:50:16.000Z",
+                    "updated_at": "2022-01-12T17:40:33.000Z",
+                    "files": [
+                        {
+                            "id": 376,
+                            "file": "1591674610033.jpeg",
+                            "name": "773e1e6cc68c32da070e2aaf97a9eadc.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-09T06:50:11.000Z",
+                            "updated_at": "2020-06-09T06:50:11.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591674610033.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 376,
+                                "alternative_id": 6198
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6199,
+                    "question_id": 1508,
+                    "description": "TIMI ",
+                    "explanation": "Falso doc! O TIMI é um escore de gravidade de síndrome coronariana aguda! Você conhece esse escore doc? Se liga nisso👇\n- Fonte: https://cardiopapers.com.br/escore-timi-para-avaliacao-de-risco-de-sindromes-coronarianas-agudas-sem-supra-de-st/",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:50:16.000Z",
+                    "updated_at": "2022-01-12T17:40:33.000Z",
+                    "files": [
+                        {
+                            "id": 10036,
+                            "file": "213761a0-7695-4731-b68f-8ff4cdb7c426.png",
+                            "name": "timi.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-04T21:43:25.000Z",
+                            "updated_at": "2021-06-04T21:43:25.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/213761a0-7695-4731-b68f-8ff4cdb7c426.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10036,
+                                "alternative_id": 6199
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6200,
+                    "question_id": 1508,
+                    "description": "Ranson",
+                    "explanation": "Falso doc! Pegadinha do malandro! 😋Ranson é um escore de gravidade da pancreatite aguda! Mas já que falamos nele, se liga nesse escore👇",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:50:16.000Z",
+                    "updated_at": "2022-01-12T17:40:33.000Z",
+                    "files": [
+                        {
+                            "id": 10037,
+                            "file": "9a6c3631-5bcf-4d36-aaf4-467754f3a663.jpeg",
+                            "name": "sanar-1-6.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T21:45:05.000Z",
+                            "updated_at": "2021-06-04T21:45:05.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9a6c3631-5bcf-4d36-aaf4-467754f3a663.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10037,
+                                "alternative_id": 6200
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1508,
+                "questionary_id": 267554,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1673,
+            "institution_id": 4,
+            "description": "Definimos taquiarritmia e bradiarritmia, respectivamente, pela frequência cardíaca de:",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-12T04:23:03.000Z",
+            "updated_at": "2022-01-18T00:48:55.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 1673
+                    }
+                },
+                {
+                    "id": 793,
+                    "title": "Taquicardias Ventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-06-05T02:34:23.000Z",
+                    "updated_at": "2021-06-05T02:34:23.000Z",
+                    "pivot": {
+                        "discipline_id": 793,
+                        "question_id": 1673
+                    }
+                },
+                {
+                    "id": 418,
+                    "title": "Bradiarritmias",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-08-10T17:07:33.000Z",
+                    "updated_at": "2020-08-10T17:07:33.000Z",
+                    "pivot": {
+                        "discipline_id": 418,
+                        "question_id": 1673
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6876,
+                    "question_id": 1673,
+                    "description": "Maior que 100 bpm e menor que 50 bpm",
+                    "explanation": "Perfeito doc! Mandou bem demais! 😁 \n- Se, ao ECG, a distância entre os QRS corresponder a uma frequência cardíaca **menor que 50 bpm**, temos uma bradiarritmia, e se for **maior do que 100 bpm** temos taquiarritmias. \n- Muita gente pensa que para ser uma arritmia deve ser algo patológico ou ter ritmo alterado. Isso não é verdade, inclusive a taquiarritmia mais comum é a taquicardia sinusal, que é apenas uma frequência cardíaca maior que 100, que podemos ter em qualquer situação de exercício físico do dia a dia ou situações de estresse ou nervosismo. \n- Doc, se liga no exemplo abaixo, mostrando uma bradi e uma taquiarritmia no ECG👇\n- Fonte imagem 1 (bradiarritmia): [https://www.medicinanet.com.br/conteudos/revisoes/2295/bradiarritmias.htm](https://www.medicinanet.com.br/conteudos/revisoes/2295/bradiarritmias.htm)\n- Fonte imagem 2 (taquiarritmia): [https://cardiodf.com.br/saude/taquicardia-sinusal-grave-normal-o-que-taquicardia-sinusal](https://cardiodf.com.br/saude/taquicardia-sinusal-grave-normal-o-que-taquicardia-sinusal)  ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-12T01:23:03.000Z",
+                    "updated_at": "2022-01-17T21:48:55.000Z",
+                    "files": [
+                        {
+                            "id": 10038,
+                            "file": "fe980c03-ed9f-4cbd-a079-b3e87531be05.jpeg",
+                            "name": "20090910115925.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T21:57:45.000Z",
+                            "updated_at": "2021-06-04T21:57:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/fe980c03-ed9f-4cbd-a079-b3e87531be05.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10038,
+                                "alternative_id": 6876
+                            }
+                        },
+                        {
+                            "id": 10039,
+                            "file": "d385284c-7f62-438b-9678-d8e4f059e5c3.jpeg",
+                            "name": "df5b4400-2b95-4830-b98c-e333fe510ef3.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T22:01:06.000Z",
+                            "updated_at": "2021-06-04T22:01:06.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d385284c-7f62-438b-9678-d8e4f059e5c3.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10039,
+                                "alternative_id": 6876
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6877,
+                    "question_id": 1673,
+                    "description": "Maior que 110 bpm, com ritmo irregular, e menor que 60 bpm",
+                    "explanation": "Falso doc! 😋 \n- Apesar do nome, o ritmo não precisa ser irregular para se considerar uma taquiarritmia\n- Além disso, consideramos bradiarritmia em batimentos abaixo de 50 bpm!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:23:03.000Z",
+                    "updated_at": "2022-01-17T21:48:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6878,
+                    "question_id": 1673,
+                    "description": "Maior que 100 bpm, com ritmo irregular, e menor que 50 bpm",
+                    "explanation": "Falso doc! 😋 \n- Apesar do nome, o ritmo não precisa ser irregular para se considerar uma taquiarritmia! Doc, lembre-se que a taquicardia mais comum é a taquicardia sinusal, cujo ritmo é **regular**!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:23:03.000Z",
+                    "updated_at": "2022-01-17T21:48:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6879,
+                    "question_id": 1673,
+                    "description": "Maior que 120 bpm e menor que 60 bpm",
+                    "explanation": "Falso doc! 😋 Os valores estão errados! Considerados taquiarritmia quando **> 100 bpm** e bradiarritmia quando **< 50 bp**m!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:23:03.000Z",
+                    "updated_at": "2022-01-17T21:48:55.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1673,
+                "questionary_id": 267554,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8844,
+            "institution_id": 4,
+            "description": "Para a distinção de uma taquicardia com QRS largo entre supraventricular e ventricular podemos usar alguns métodos. Dentre os abaixo, qual deles **NÃO** pode ser usado para tal fim?",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-06T18:02:30.000Z",
+            "updated_at": "2022-01-18T01:08:29.000Z",
+            "user_id": 1482,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 8844
+                    }
+                },
+                {
+                    "id": 793,
+                    "title": "Taquicardias Ventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-06-05T02:34:23.000Z",
+                    "updated_at": "2021-06-05T02:34:23.000Z",
+                    "pivot": {
+                        "discipline_id": 793,
+                        "question_id": 8844
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36268,
+                    "question_id": 8844,
+                    "description": "Algoritmo de Brugada.",
+                    "explanation": "Esse pode ser usado sim, Doc! 🤔\n- O algoritmo de Brugada é **um dos mais conhecidos** para a distinçaõ entre taquicadia ventricular e supraventricular com QRS largo.\n\nOlhe a sequência na foto abaixo 👇:\nFonte: [https://cardiopapers.com.br/qual-o-diagnostico-4/](https://cardiopapers.com.br/qual-o-diagnostico-4/)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-06T15:02:30.000Z",
+                    "updated_at": "2022-01-17T22:08:29.000Z",
+                    "files": [
+                        {
+                            "id": 10150,
+                            "file": "2a8cacb2-88dd-4dfc-acbd-f4d4d9b8471d.png",
+                            "name": "brugada.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-06T17:40:58.000Z",
+                            "updated_at": "2021-06-06T17:40:58.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2a8cacb2-88dd-4dfc-acbd-f4d4d9b8471d.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10150,
+                                "alternative_id": 36268
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36269,
+                    "question_id": 8844,
+                    "description": "Algoritmo de Santos.",
+                    "explanation": "Esse pode ser usado sim, Doc! 🤔\n- O algoritmo de Santos, descrito por um brasileiro, é uma das formas de diferenciarmos taquicardia ventricular de supreventricular olhando para as derivações DI, DII, V1 e V6.\n\n\nVeja a sequência do algoritmo, Doc 👇:\nFonte: [https://cardiopapers.com.br/taquicardia-de-qrs-largo/](https://cardiopapers.com.br/taquicardia-de-qrs-largo/)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-06T15:02:30.000Z",
+                    "updated_at": "2022-01-17T22:08:29.000Z",
+                    "files": [
+                        {
+                            "id": 10152,
+                            "file": "43ea7307-c3f4-4fc0-bb00-e6a9b9971460.png",
+                            "name": "santos.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-06T17:43:59.000Z",
+                            "updated_at": "2021-06-06T17:43:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/43ea7307-c3f4-4fc0-bb00-e6a9b9971460.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10152,
+                                "alternative_id": 36269
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36270,
+                    "question_id": 8844,
+                    "description": "Critérios de Romhilt-Estes.",
+                    "explanation": "Boa, Doc, essa é a incorreta! 👊 \n- Os Critérios de Romhilt-Estes foram desenvolvidos para para o **diagnóstico de sobrecarga ventricular esquerda**, não sendo úteis para o diagnóstico diferencial de arritmias.\n\nVamos lembrar dos critérios com a tabela abaixo 👇:\nFonte:[https://www.sanarmed.com/ecg-sobrecargas-ventriculares](https://www.sanarmed.com/ecg-sobrecargas-ventriculares)",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-06-06T15:12:41.000Z",
+                    "updated_at": "2022-01-17T22:08:29.000Z",
+                    "files": [
+                        {
+                            "id": 10163,
+                            "file": "a8422d49-eb6c-473c-b545-6c2231554004.png",
+                            "name": "Rhomilt.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-06T18:12:28.000Z",
+                            "updated_at": "2021-06-06T18:12:28.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a8422d49-eb6c-473c-b545-6c2231554004.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10163,
+                                "alternative_id": 36270
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36271,
+                    "question_id": 8844,
+                    "description": "Algoritmo de Vereckey.",
+                    "explanation": "Esse pode ser usado sim, Doc! 🤔\n- O algoritmo de Vereckey se baseia na diferença entre direção e velocidade da ativação ventricular durante a arritmia de QRS largo, sendo uma ferramenta para diferenciar a origem, ventricular ou supraventricular. \n- Nele olhamos apenas a derivação aVR (lembre-se, a**V**e**R**ekey 💡).\n\nOlhe o algoritmo abaixo, Doc 👇:\nFonte: [https://cardiopapers.com.br/qual-o-diagnostico-4/](https://cardiopapers.com.br/qual-o-diagnostico-4/)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-06T15:12:41.000Z",
+                    "updated_at": "2022-01-17T22:08:29.000Z",
+                    "files": [
+                        {
+                            "id": 10161,
+                            "file": "dc1bfe34-3f2a-4759-a138-f21b1fa0ccf5.png",
+                            "name": "vereckeyyy.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-06T18:07:34.000Z",
+                            "updated_at": "2021-06-06T18:07:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/dc1bfe34-3f2a-4759-a138-f21b1fa0ccf5.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10161,
+                                "alternative_id": 36271
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8844,
+                "questionary_id": 267554,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1505,
+            "institution_id": 4,
+            "description": "Qual é a arritmia sustentada mais comum na população?",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-09T03:32:41.000Z",
+            "updated_at": "2022-01-12T17:29:16.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 1505
+                    }
+                },
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 1505
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6185,
+                    "question_id": 1505,
+                    "description": "Flutter atrial",
+                    "explanation": "Falso doc! 😋Apesar de não ser incomum e ter o mecanismo de reentrada semelhante ao da fibrilação atrial, a fibrilação atrial é uma arritmia mais comum do que o flutter! Doc, mas falando nisso, você já viu um flutter atrial? Se liga nesse ECG mostrando as famosas \"ondas F\" do flutter👇\n- Fonte: https://breakem.org/2019/08/01/taquicardias/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:32:42.000Z",
+                    "updated_at": "2022-01-12T17:29:16.000Z",
+                    "files": [
+                        {
+                            "id": 10042,
+                            "file": "bddc55ad-5d3c-4b47-a2e5-57bc856e9395.png",
+                            "name": "6-flutter.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-04T22:26:22.000Z",
+                            "updated_at": "2021-06-04T22:26:22.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/bddc55ad-5d3c-4b47-a2e5-57bc856e9395.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10042,
+                                "alternative_id": 6185
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6186,
+                    "question_id": 1505,
+                    "description": "Síndrome de Brugada",
+                    "explanation": "Falso doc! 😋 A síndrome de Brugada é uma causa importante de morte súbita, mas é rara! ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:32:42.000Z",
+                    "updated_at": "2022-01-12T17:29:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6187,
+                    "question_id": 1505,
+                    "description": "Wolff Parkinson White (WPW)",
+                    "explanation": "Falso doc! 😋A síndrome de WPW **não** é a arritmia mais comum. Ela caracteriza-se pela presença de uma via acessória, causando episódios de palpitação, normalmente em indivíduos jovens. Ao ECG, observamos intervalo PR curto e a presença de onda delta. Se liga nessa imagem caracterizando esses achados em um ECG (a setinha está mostrando a famosa onda delta)👇\n- Fonte: https://pt.wikipedia.org/wiki/S%C3%ADndrome_de_Wolff-Parkinson-White",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:32:42.000Z",
+                    "updated_at": "2022-01-12T17:29:16.000Z",
+                    "files": [
+                        {
+                            "id": 10041,
+                            "file": "4da1d33c-2cc7-45d0-a24d-b72a641555ce.jpeg",
+                            "name": "0000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T22:24:06.000Z",
+                            "updated_at": "2021-06-04T22:24:06.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4da1d33c-2cc7-45d0-a24d-b72a641555ce.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10041,
+                                "alternative_id": 6187
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6188,
+                    "question_id": 1505,
+                    "description": "Fibrilação atrial",
+                    "explanation": "Perfeito doc! Arrasou!😁 A Fibrilação Atrial é a taquicardia sustentada mais comum na população, sendo mais prevalente em indivíduos do sexo masculinos e de idade avançada. A principal causa de fibrilação atrial é o remodelamento cardíaco devido a hipertensão arterial, seguido pelas valvopatias! Doc, mas falando nisso, você já viu uma FA em um ECG? Saca só essa imagem abaixo (setinha vermelha mostra ausência de onda P, característico da FA)👇\n- Fonte: https://cardiopapers.com.br/novo-guideline-de-f-aha-2014/",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-09T03:32:42.000Z",
+                    "updated_at": "2022-01-12T17:29:16.000Z",
+                    "files": [
+                        {
+                            "id": 10040,
+                            "file": "a775919f-bc62-4138-8bec-7ea99ef1046f.jpeg",
+                            "name": "Afib_ecg.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T22:17:40.000Z",
+                            "updated_at": "2021-06-04T22:17:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a775919f-bc62-4138-8bec-7ea99ef1046f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10040,
+                                "alternative_id": 6188
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1505,
+                "questionary_id": 267554,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1507,
+            "institution_id": 4,
+            "description": "Um quadro clínico de um paciente jovem que, após episódio de libação alcoólica, apresenta taquiarritmia de curso benigno, que melhora em 24 horas, é a descrição da seguinte condição:",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-09T03:45:21.000Z",
+            "updated_at": "2022-05-17T10:46:33.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 1507
+                    }
+                },
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 1507
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6193,
+                    "question_id": 1507,
+                    "description": "Fibrilação atrial.",
+                    "explanation": "- Falso, Doc! 🤔\n- A fibrilação atrial é a taquiarritmia mais comum nesse quadro, mas podem ocorrer outras!\n- Doc, você já viu uma FA em um ECG? Saca só (se liga na setinha vermelha mostrando a ausência de onda P, típica da FA)👇\n- Fonte: [https://cardiopapers.com.br/novo-guideline-de-f-aha-2014/](https://cardiopapers.com.br/novo-guideline-de-f-aha-2014/)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:45:21.000Z",
+                    "updated_at": "2022-05-17T10:46:33.000Z",
+                    "files": [
+                        {
+                            "id": 10040,
+                            "file": "a775919f-bc62-4138-8bec-7ea99ef1046f.jpeg",
+                            "name": "Afib_ecg.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T22:17:40.000Z",
+                            "updated_at": "2021-06-04T22:17:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a775919f-bc62-4138-8bec-7ea99ef1046f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10040,
+                                "alternative_id": 6193
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6194,
+                    "question_id": 1507,
+                    "description": "Taquicardia por reentrada nodal.",
+                    "explanation": "- Falso, Doc! 🤔\n- Apesar de poder ser uma das taquiarritmias nesse quadro, podem ocorrer outras, não sendo esse o nome da síndrome! \n- Doc, só para ilustrar, se liga nesse ECG mostrando uma taquicardia por reentrada nodal (preste atenção no pseudo S e pseudo R, que representam a despolarização atrial precoce pela reentrada)👇\n- Fonte: [http://www.mairimed.com/artigos/taquicardias/](http://www.mairimed.com/artigos/taquicardias/)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:45:21.000Z",
+                    "updated_at": "2022-05-17T10:46:33.000Z",
+                    "files": [
+                        {
+                            "id": 10044,
+                            "file": "1ca783ab-eec1-48dd-b6e9-e47ef5b50cf5.jpeg",
+                            "name": "000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T22:34:29.000Z",
+                            "updated_at": "2021-06-04T22:34:29.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1ca783ab-eec1-48dd-b6e9-e47ef5b50cf5.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10044,
+                                "alternative_id": 6194
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6195,
+                    "question_id": 1507,
+                    "description": "Flutter atrial.",
+                    "explanation": "- Falso, Doc! 🤔\n- Apesar de poder ser uma das taquiarritmias nesse quadro, podem ocorrer outras, não sendo esse o nome da síndrome descrita acima! \n- Doc, mas falando nisso, se liga nesse EGC de um paciente com flutter atrial (preste a atenção nas famosas \"ondas F\" do flutter)👇\n- Fonte: [https://breakem.org/2019/08/01/taquicardias/](https://breakem.org/2019/08/01/taquicardias/)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:45:21.000Z",
+                    "updated_at": "2022-05-17T10:46:33.000Z",
+                    "files": [
+                        {
+                            "id": 10042,
+                            "file": "bddc55ad-5d3c-4b47-a2e5-57bc856e9395.png",
+                            "name": "6-flutter.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-04T22:26:22.000Z",
+                            "updated_at": "2021-06-04T22:26:22.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/bddc55ad-5d3c-4b47-a2e5-57bc856e9395.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10042,
+                                "alternative_id": 6195
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6196,
+                    "question_id": 1507,
+                    "description": "Holiday Syndrome.",
+                    "explanation": "- Perfeito, Doc! Mandou bem demais! 😁 \n- Também chamada de Síndrome Pós-feriado, é caracterizada pela ocorrência de uma taquiarritmia, principalmente fibrilação atrial, após episódio de libação alcoólica, especialmente em indivíduos jovens.\n- O curso é benigno, resolvendo em até 24 horas espontaneamente. A explicação para esse fenômeno hipotetiza que o acetaldeído proveniente do álcool ativa o sistema nervoso simpático, que causa alterações na condução cardíaca, gerando taquiarritmias.\n- Doc, se liga nessa imagem esquematizando a fisiopatologia dessa síndrome👇\n- Fonte: [https://www.semanticscholar.org/paper/Holiday-Heart-Syndrome-Revisited-after-34-Years-Tonelo-Provid%C3%AAncia/468d76dec0e0d18fe0de3e541c67d848736e784d](https://www.semanticscholar.org/paper/Holiday-Heart-Syndrome-Revisited-after-34-Years-Tonelo-Provid%C3%AAncia/468d76dec0e0d18fe0de3e541c67d848736e784d)",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-09T03:45:21.000Z",
+                    "updated_at": "2022-05-17T10:46:33.000Z",
+                    "files": [
+                        {
+                            "id": 10043,
+                            "file": "da9bbd69-68e2-4765-8ecb-cacfc4e59b3e.png",
+                            "name": "3-Figure2-1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-04T22:30:55.000Z",
+                            "updated_at": "2021-06-04T22:30:55.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/da9bbd69-68e2-4765-8ecb-cacfc4e59b3e.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10043,
+                                "alternative_id": 6196
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1507,
+                "questionary_id": 267554,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1509,
+            "institution_id": 4,
+            "description": "Sobre o escore HASBLED, assinale a alternativa **INCORRETA:**",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-09T03:58:31.000Z",
+            "updated_at": "2022-06-27T19:39:29.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 1509
+                    }
+                },
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 1509
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6201,
+                    "question_id": 1509,
+                    "description": "Hipertensão e idade acima de 65 anos contam pontos no escore",
+                    "explanation": "Perfeito doc! 😁 A letra H representa Hypertension e a letra E representa Elderly (idade > 65 anos). Se liga nessa tabelinha doc👇\n- Fonte: [https://cardiopapers.com.br/qual-principal-funcao-do-escore-hasbled-na-fibrilacao-atrial/](https://cardiopapers.com.br/qual-principal-funcao-do-escore-hasbled-na-fibrilacao-atrial/)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:58:32.000Z",
+                    "updated_at": "2022-06-27T19:39:29.000Z",
+                    "files": [
+                        {
+                            "id": 10045,
+                            "file": "6ee8cf0d-0abe-4912-969d-401ac15c8366.png",
+                            "name": "hasbled.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-04T22:39:35.000Z",
+                            "updated_at": "2021-06-04T22:39:35.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/6ee8cf0d-0abe-4912-969d-401ac15c8366.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10045,
+                                "alternative_id": 6201
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6202,
+                    "question_id": 1509,
+                    "description": "Alteração em enzimas hepáticas e Sangramento prévio contam pontos no escore",
+                    "explanation": "Perfeito doc! 😁 A letra \"A\" representa \"Anormalidades hepáticas ou renais\" e a letra \"B\" representa \"Bleeding\" (sangramento prévio)! Se liga nessa tabelinha doc👇\n- Fonte: [https://cardiopapers.com.br/qual-principal-funcao-do-escore-hasbled-na-fibrilacao-atrial/](https://cardiopapers.com.br/qual-principal-funcao-do-escore-hasbled-na-fibrilacao-atrial/)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:58:32.000Z",
+                    "updated_at": "2022-06-27T19:39:29.000Z",
+                    "files": [
+                        {
+                            "id": 10045,
+                            "file": "6ee8cf0d-0abe-4912-969d-401ac15c8366.png",
+                            "name": "hasbled.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-04T22:39:35.000Z",
+                            "updated_at": "2021-06-04T22:39:35.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/6ee8cf0d-0abe-4912-969d-401ac15c8366.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10045,
+                                "alternative_id": 6202
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6203,
+                    "question_id": 1509,
+                    "description": "Um escore com pontuação maior que 3 contra-indica o uso de anticoagulantes",
+                    "explanation": "Falso doc!😋 Apesar de indicar um maior risco de sangramento, o médico pode prescrever anticoagulantes, avaliando a individualidade de cada paciente! Doc, falando nisso, você conhece esse escore? Se liga nisso👇\n- Fonte: [https://cardiopapers.com.br/qual-principal-funcao-do-escore-hasbled-na-fibrilacao-atrial/](https://cardiopapers.com.br/qual-principal-funcao-do-escore-hasbled-na-fibrilacao-atrial/)",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-09T03:58:32.000Z",
+                    "updated_at": "2022-06-27T19:39:29.000Z",
+                    "files": [
+                        {
+                            "id": 10045,
+                            "file": "6ee8cf0d-0abe-4912-969d-401ac15c8366.png",
+                            "name": "hasbled.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-04T22:39:35.000Z",
+                            "updated_at": "2021-06-04T22:39:35.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/6ee8cf0d-0abe-4912-969d-401ac15c8366.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10045,
+                                "alternative_id": 6203
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6204,
+                    "question_id": 1509,
+                    "description": "Uma pontuação no escore maior que 3 indica alto risco de sangramento",
+                    "explanation": "Perfeito doc!😁 Maior que 3 pontos na pontuação indica maior risco de sangramento, apesar de não contra-indicar o uso de anticoagulantes!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-09T03:58:32.000Z",
+                    "updated_at": "2022-06-27T19:39:29.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1509,
+                "questionary_id": 267554,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1676,
+            "institution_id": 4,
+            "description": "Paciente jovem com palpitações esporádicas de início súbito e com o traçado abaixo. Qual a principal hipótese diagnóstica?",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-12T04:35:14.000Z",
+            "updated_at": "2022-01-12T20:32:14.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 1676
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6888,
+                    "question_id": 1676,
+                    "description": "Fibrilação atrial",
+                    "explanation": "Falso doc! 😋 Temos presenta de onda P e o ritmo é regular. Na FA temos ausência de onda P e ritmo irregularmente irregular! Se liga nesse exemplo abaixo de FA (saca só a setinha vermelha indicando a ausência de onda P, típico de FA)👇\n- Fonte: https://cardiopapers.com.br/novo-guideline-de-f-aha-2014/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:35:14.000Z",
+                    "updated_at": "2022-01-12T17:32:14.000Z",
+                    "files": [
+                        {
+                            "id": 10040,
+                            "file": "a775919f-bc62-4138-8bec-7ea99ef1046f.jpeg",
+                            "name": "Afib_ecg.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T22:17:40.000Z",
+                            "updated_at": "2021-06-04T22:17:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a775919f-bc62-4138-8bec-7ea99ef1046f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10040,
+                                "alternative_id": 6888
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6889,
+                    "question_id": 1676,
+                    "description": "Bloqueio atrioventricular de 2º grau",
+                    "explanation": "Falso doc! 😋 No bloqueio atrioventricular temos um aumento do intervalo PR, que representa a passagem do impulso elétrico pelo nó AV. No ECG acima temos um **encurtament**o do intervalo PR. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:35:14.000Z",
+                    "updated_at": "2022-01-12T17:32:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6890,
+                    "question_id": 1676,
+                    "description": "Taquicardia Supraventricular por Reentrada Nodal",
+                    "explanation": "Falso doc! 😋Na taquicardia supraventricular por reentrada nodal temos ondas P retrógradas em derivações inferiores (DII, DIII e AvF), o que não observamos no ECG acima. Se liga no exemplo abaixo de uma taquicardia supraventricular por reentrada nodal👇\n- Fonte: http://www.mairimed.com/artigos/taquicardias/",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:35:14.000Z",
+                    "updated_at": "2022-01-12T17:32:14.000Z",
+                    "files": [
+                        {
+                            "id": 10044,
+                            "file": "1ca783ab-eec1-48dd-b6e9-e47ef5b50cf5.jpeg",
+                            "name": "000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T22:34:29.000Z",
+                            "updated_at": "2021-06-04T22:34:29.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1ca783ab-eec1-48dd-b6e9-e47ef5b50cf5.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10044,
+                                "alternative_id": 6890
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6891,
+                    "question_id": 1676,
+                    "description": "Wolff-Parkinson-White (WPW)",
+                    "explanation": "Perfeito doc! Arrasou! 😁 O traçado do WPW, doença caracterizada pela presença de via acessória de condução elétrica entre átrios e ventrículos, tem duas características fundamentais👇\n- Presença de intervalo PR diminuído, já que esse intervalo representa a condução pelo nó AV, e no WPW temos a condução por uma via acessória, acelerando a passagem do impulso dos átrios para os ventrículos\n- Presença de onda Delta\n- Doc, se liga nessa imagem esquematizando esses achados👇\n\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-12T01:35:14.000Z",
+                    "updated_at": "2022-01-12T17:32:14.000Z",
+                    "files": [
+                        {
+                            "id": 386,
+                            "file": "1591925709284.jpeg",
+                            "name": "5dd0d1625c25d78faa097180299ef732.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-12T04:35:09.000Z",
+                            "updated_at": "2020-06-12T04:35:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591925709284.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 386,
+                                "alternative_id": 6891
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 385,
+                    "file": "1591925359253.jpeg",
+                    "name": "6ece1c887b056735f19cc7e40f08964c.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-06-12T04:29:20.000Z",
+                    "updated_at": "2020-06-12T04:29:20.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591925359253.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 385,
+                        "question_id": 1676
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 1676,
+                "questionary_id": 267554,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1678,
+            "institution_id": 4,
+            "description": "O traçado eletrocardiográfico abaixo representa uma arritmia cardíaca denominada:",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-12T04:50:56.000Z",
+            "updated_at": "2022-01-15T20:16:26.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 1678
+                    }
+                },
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 1678
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6896,
+                    "question_id": 1678,
+                    "description": "Taquicardia supraventricular por reentrada nodal",
+                    "explanation": "Perfeito doc! 😁 \n- Por mecanismo de **reentrada**, temos um estímulo elétrico vindo do nó AV em direção aos átrios, uma direção oposta à convencional. Logo, teremos uma **onda P retrógada**, denominada onda P'. \n- Essa onda P' pode ser visualizada nas derivações **DII, DIII e aVF** (inferiores) como uma **\"pseudo S\",** que, na verdade, é uma onda P invertida. \n- Já nas derivações **V1 e avR** (direita) observamos a presença de uma onda **\"pseudo R\"** que na verdade é a onda P retrógrada. \n\nDoc, se liga nessa imagem esquematizando os mecanismos de reentrada típicos dessa arritmia👇\n- Fonte: [https://temasemcardiologia.com.br/desafio-de-ecg-5-qual-diagnostico/](https://temasemcardiologia.com.br/desafio-de-ecg-5-qual-diagnostico/)",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-12T01:50:56.000Z",
+                    "updated_at": "2022-01-15T17:16:26.000Z",
+                    "files": [
+                        {
+                            "id": 10048,
+                            "file": "51395ad6-cc72-4848-a67a-9fa80f4fbd70.png",
+                            "name": "Capturadetela2015-09-28aCC80s00.40.53.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-05T00:26:12.000Z",
+                            "updated_at": "2021-06-05T00:26:12.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/51395ad6-cc72-4848-a67a-9fa80f4fbd70.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10048,
+                                "alternative_id": 6896
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6897,
+                    "question_id": 1678,
+                    "description": "Fibrilação atrial",
+                    "explanation": "Falso doc! 😋 Na FA temos ausência de onda P e ritmo irregularmente irregular! Doc, mas falando nisso, saca só esse ECG mostrando uma FA👇\n- Fonte: [https://cardiopapers.com.br/novo-guideline-de-f-aha-2014/](https://cardiopapers.com.br/novo-guideline-de-f-aha-2014/)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:50:56.000Z",
+                    "updated_at": "2022-01-15T17:16:26.000Z",
+                    "files": [
+                        {
+                            "id": 10040,
+                            "file": "a775919f-bc62-4138-8bec-7ea99ef1046f.jpeg",
+                            "name": "Afib_ecg.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T22:17:40.000Z",
+                            "updated_at": "2021-06-04T22:17:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a775919f-bc62-4138-8bec-7ea99ef1046f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10040,
+                                "alternative_id": 6897
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6898,
+                    "question_id": 1678,
+                    "description": "Bloqueio atrioventricular de 2º grau",
+                    "explanation": "Falso doc! 😋 No bloqueio atrioventricular temos um aumento do intervalo PR, que representa a passagem do impulso elétrico pelo nó AV",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:50:56.000Z",
+                    "updated_at": "2022-01-15T17:16:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6899,
+                    "question_id": 1678,
+                    "description": "Wolff-Parkinson-White (WPW)",
+                    "explanation": "Falso doc! 😋 O traçado do WPW, doença caracterizada pela presença de via acessória de condução elétrica entre átrios e ventrículos, tem duas características fundamentais:\n- Presença de intervalo PR diminuído, já que esse intervalo representa a condução pelo nó AV, e no WPW temos a condução por uma via acessória, acelerando a passagem do impulso dos átrios para os ventrículos\n- Presença de onda Delta\n- Se liga nesse traçado com achados típicos dessa doença👇\n- Fonte: [https://pt.wikipedia.org/wiki/S%C3%ADndrome_de_Wolff-Parkinson-White](https://pt.wikipedia.org/wiki/S%C3%ADndrome_de_Wolff-Parkinson-White)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:50:56.000Z",
+                    "updated_at": "2022-01-15T17:16:26.000Z",
+                    "files": [
+                        {
+                            "id": 10041,
+                            "file": "4da1d33c-2cc7-45d0-a24d-b72a641555ce.jpeg",
+                            "name": "0000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T22:24:06.000Z",
+                            "updated_at": "2021-06-04T22:24:06.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4da1d33c-2cc7-45d0-a24d-b72a641555ce.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10041,
+                                "alternative_id": 6899
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 387,
+                    "file": "1591926416086.jpeg",
+                    "name": "av.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-06-12T04:46:56.000Z",
+                    "updated_at": "2020-06-12T04:46:56.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591926416086.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 387,
+                        "question_id": 1678
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 1678,
+                "questionary_id": 267554,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1679,
+            "institution_id": 22,
+            "description": "Homem, 71a, relata emagrecimento de 8 kg nos últimos 2 meses, associado a fraqueza para subir escadas e pentear o cabelo. Há 2 semanas com aumento da frequência das evacuações, cefaleia e palpitações. Antecedentes pessoais: diabetes mellitus em uso de insulina e metformina, além de tabagismo 80 maços/ano. Exame físico: PA = 162 x 104 mmHg; FC = 108bpm; FR = 21 irpm; T= 37,3°C; oximetria de pulso (ar ambiente) = 96%; neurológico: hiperreflexia global e fraqueza muscular proximal em membros superiores e inferiores grau IV. Eletrocardiograma: A conduta é:\n\n\n",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-12T02:01:20.000Z",
+            "updated_at": "2022-01-12T17:33:44.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 22,
+                "title": "UNICAMP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:12:16.000Z",
+                "updated_at": "2020-05-18T19:12:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1070,
+                    "title": "Casos Clínicos com Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:02:01.000Z",
+                    "updated_at": "2022-01-15T20:21:49.000Z",
+                    "pivot": {
+                        "discipline_id": 1070,
+                        "question_id": 1679
+                    }
+                },
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 1679
+                    }
+                },
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 1679
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6900,
+                    "question_id": 1679,
+                    "description": "Eletroneuromiografia e hemoglobina glicada",
+                    "explanation": "Falso doc! 😋 Paciente apresentando sinais compatíveis com hipertireoidismo como cefaleia, aumento do ritmo intestinal, perda de peso, associado ao desenvolvimento de uma fibrilação atrial. Esses exames não seriam a melhor escolha no momento!\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:01:20.000Z",
+                    "updated_at": "2022-01-12T17:33:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6901,
+                    "question_id": 1679,
+                    "description": "TSH, T4 livre, metoprolol e rivaroxabana.",
+                    "explanation": "Perfeito doc! Arrasou! 😁 Paciente apresentando sinais compatíveis com **hipertireoidism**o como cefaleia, aumento do ritmo intestinal, perda de peso, associado ao desenvolvimento de um**a fibrilação atrial**. Esses exames são essenciais no momento. Paciente deve receber um bloqueador de nódulo AV e uma anticoagulação pelo CHADVASC2 elevado! Doc, você lembra desse escore? Se liga nisso👇\n- Fonte: [https://cardiopapers.com.br/chads-vasc-um-melhor-escore-para-avaliar-risco-de-eventos-tromboembolicos/](https://cardiopapers.com.br/chads-vasc-um-melhor-escore-para-avaliar-risco-de-eventos-tromboembolicos/)\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-12T02:01:20.000Z",
+                    "updated_at": "2022-01-12T17:33:44.000Z",
+                    "files": [
+                        {
+                            "id": 10049,
+                            "file": "ff664d1a-7b1b-40b9-9d7e-5987d90d54d3.jpeg",
+                            "name": "chadsvasc.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T00:35:20.000Z",
+                            "updated_at": "2021-06-05T00:35:20.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ff664d1a-7b1b-40b9-9d7e-5987d90d54d3.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10049,
+                                "alternative_id": 6901
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6902,
+                    "question_id": 1679,
+                    "description": "Coprocultura e ciprofloxacino.",
+                    "explanation": "Falso doc! 😋 Paciente apresentando sinais compatíveis com hipertireoidismo como cefaleia, aumento do ritmo intestinal, perda de peso, associado ao desenvolvimento de uma fibrilação atrial. Esses exames não seriam a melhor escolha no momento.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:01:20.000Z",
+                    "updated_at": "2022-01-12T17:33:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6903,
+                    "question_id": 1679,
+                    "description": "Tomografia de crânio e coletar liquor.",
+                    "explanation": "Falso doc! 😋 Paciente apresentando sinais compatíveis com hipertireoidismo como cefaleia, aumento do ritmo intestinal, perda de peso, associado ao desenvolvimento de uma fibrilação atrial. A principal complicação da FA é o AVEi cardioembólico, todavia o melhor exame seria a RM e não a TC!\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:01:20.000Z",
+                    "updated_at": "2022-01-12T17:33:44.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 388,
+                    "file": "1591927222759.png",
+                    "name": "Sem título.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-06-12T05:00:22.000Z",
+                    "updated_at": "2020-06-12T05:00:22.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591927222759.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 388,
+                        "question_id": 1679
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 1679,
+                "questionary_id": 267554,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1680,
+            "institution_id": 22,
+            "description": "Homem, 72a, é admitido no pronto-socorro com história de palpitações de início súbito há 1 hora. Nega dispneia, síncope ou queixas prévias de palpitações. Antecedentes pessoais: hipertensão arterial sistêmica em uso de hidroclorotiazida e amlodipina. Exame físico: bom estado geral; FR = 24 irpm; PA = 112 x 68 mmHg, consiente, orientado; pulmões: ausculta: sem alterações; Coração: bulhas rítmicas sem sopros, eletrocardiograma: A conduta é:\n\n\n\n![](https://qbank.s3.sa-east-1.amazonaws.com/uploads/1616524588947.jpeg)\n\n",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-12T05:04:13.000Z",
+            "updated_at": "2022-01-12T20:34:11.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 22,
+                "title": "UNICAMP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:12:16.000Z",
+                "updated_at": "2020-05-18T19:12:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 1680
+                    }
+                },
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 1680
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6904,
+                    "question_id": 1680,
+                    "description": "Cardioversão elétrica.",
+                    "explanation": "Falso doc! 😋 Paciente estável com uma FA com menos de 48h, pode-se optar pelo controle da frequência cardíaca ou reversão do ritmo. Não temos indicação para cardioversão elétrica!\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:04:14.000Z",
+                    "updated_at": "2022-01-12T17:34:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6905,
+                    "question_id": 1680,
+                    "description": "Adenosina intravenosa.",
+                    "explanation": "Falso doc! 😋 Paciente estável com uma FA com menos de 48h, pode-se optar pelo controle da frequência cardíaca ou reversão do ritmo. A adenosina é usado para casos de taquicardia supraventriculares com RR regular!\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:04:14.000Z",
+                    "updated_at": "2022-01-12T17:34:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6906,
+                    "question_id": 1680,
+                    "description": "Amiodarona intravenosa.",
+                    "explanation": "Perfeito doc! Arrasou! 😁 Paciente estável com uma FA com menos de 48h, pode-se optar pelo controle da frequência cardíaca ou reversão do ritmo. A amiodarona pode fazer as duas coisas, sendo uma reversão química!\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-12T02:04:14.000Z",
+                    "updated_at": "2022-01-12T17:34:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6907,
+                    "question_id": 1680,
+                    "description": " Heparina subcutânea.",
+                    "explanation": "Falso doc! 😋Paciente estável com uma FA com menos de 48h, pode-se optar pelo controle da frequência cardíaca ou reversão do ritmo. Não precisa heparinizar porque tem menos de 48h!\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:04:14.000Z",
+                    "updated_at": "2022-01-12T17:34:11.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 389,
+                    "file": "1591927360831.png",
+                    "name": "Sem título.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-06-12T05:02:41.000Z",
+                    "updated_at": "2020-06-12T05:02:41.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591927360831.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 389,
+                        "question_id": 1680
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 1680,
+                "questionary_id": 267554,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1683,
+            "institution_id": 25,
+            "description": "Mulher de 68 anos de idade é hipertensa em uso de losartana 50 mg ao dia e diabética em uso de metformina 1000 mg ao dia. Apresentou subitamente, há 5 horas, cefaleia holocraniana de moderada intensidade, latejante, além de dificuldade para mover o membro superior e inferior direitos e desvio de rima labial para a esquerda. No exame clínico: bom estado geral, consciente, orientada temporal e espacialmente, afebril, acianótica e anictérica. Pressão arterial = 150 x 102 mmHg, pulso = 72 bpm, irregular. Ausculta cardíaca com bulhas arrítmicas e normofonéticas em dois tempos, sem sopros. Apresenta hemiparesia completa e proporcionada grau 3 à direita, disartria, anomia e hemi-hipoestesia completa à direita. O restante do exame clínico está sem alterações. Foram realizados os exames a seguir. Tomografia de crânio. Eletrocardiograma (12 derivações). (Conforme imagem do caderno de questões). A profilaxia secundária em nível ambulatorial deve ser realizada preferencialmente com:",
+            "difficulty": "medium",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-12T02:33:24.000Z",
+            "updated_at": "2022-01-12T17:35:19.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 25,
+                "title": "USP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:55:52.000Z",
+                "updated_at": "2020-05-18T19:55:52.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1070,
+                    "title": "Casos Clínicos com Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:02:01.000Z",
+                    "updated_at": "2022-01-15T20:21:49.000Z",
+                    "pivot": {
+                        "discipline_id": 1070,
+                        "question_id": 1683
+                    }
+                },
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 1683
+                    }
+                },
+                {
+                    "id": 720,
+                    "title": "Fibrilação Atrial",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T23:37:46.000Z",
+                    "updated_at": "2021-05-05T23:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 720,
+                        "question_id": 1683
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6916,
+                    "question_id": 1683,
+                    "description": "Varfarina",
+                    "explanation": "Acertou, Doc! 😍 Quadro sugestivo de AVC isquêmico, com ausculta típica de fibrilação atrial. Após a alta hospitalar, como ela tem um CHA2DS2VASc maior que 2, deve realizar anticoagulação com novos anticoagulantes orais ou com a varfarina. Doc, bora relembrar esse escore?👇\n- Fonte: [https://cardiopapers.com.br/chads-vasc-um-melhor-escore-para-avaliar-risco-de-eventos-tromboembolicos/](https://cardiopapers.com.br/chads-vasc-um-melhor-escore-para-avaliar-risco-de-eventos-tromboembolicos/)",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-12T02:33:24.000Z",
+                    "updated_at": "2022-01-12T17:35:19.000Z",
+                    "files": [
+                        {
+                            "id": 10049,
+                            "file": "ff664d1a-7b1b-40b9-9d7e-5987d90d54d3.jpeg",
+                            "name": "chadsvasc.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T00:35:20.000Z",
+                            "updated_at": "2021-06-05T00:35:20.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ff664d1a-7b1b-40b9-9d7e-5987d90d54d3.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10049,
+                                "alternative_id": 6916
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6917,
+                    "question_id": 1683,
+                    "description": "Aspirina",
+                    "explanation": "Falso doc! 😋 A escolha para anticoagulação de pacientes com Fibrilação Atrial são a varfarina ou os novos anticoagulantes orais. Apenas na contra-indicação destes, partirmos para apenas antiagregação plaquetária com AAS e clopidogrel!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:33:24.000Z",
+                    "updated_at": "2022-01-12T17:35:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6918,
+                    "question_id": 1683,
+                    "description": "Clopídogrel",
+                    "explanation": "Falso doc! 😋 A escolha para anticoagulação de pacientes com Fibrilação Atrial são a varfarina ou os novos anticoagulantes orais. Apenas na contra-indicação destes, partirmos para apenas antiagregação plaquetária com AAS e clopidogrel!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:33:24.000Z",
+                    "updated_at": "2022-01-12T17:35:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6919,
+                    "question_id": 1683,
+                    "description": "Heparina",
+                    "explanation": "Falso doc! 😋 A escolha para anticoagulação de pacientes com Fibrilação Atrial são a varfarina ou os novos anticoagulantes orais. A heparina pode ser feita durante a internação para o ajuste do RNI para uso da varfarina, mas não usada ambulatorialmente!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:33:24.000Z",
+                    "updated_at": "2022-01-12T17:35:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 393,
+                    "file": "1591928336261.png",
+                    "name": "Sem título.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-06-12T05:18:56.000Z",
+                    "updated_at": "2020-06-12T05:18:56.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591928336261.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 393,
+                        "question_id": 1683
+                    }
+                },
+                {
+                    "id": 394,
+                    "file": "1591928374831.png",
+                    "name": "Sem título.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-06-12T05:19:35.000Z",
+                    "updated_at": "2020-06-12T05:19:35.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591928374831.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 394,
+                        "question_id": 1683
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 1683,
+                "questionary_id": 267554,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8838,
+            "institution_id": 4,
+            "description": "Após um paciente chegar ao PS com palpitações, o plantonista solicitou, após examiná-lo, um ECG. Com o resultado do exame em mãos o médico reconheceu no traçado uma taquicardia, com intervalos RR regulares e complexo QRS dentro dos padrões de normalidade. A conduta inicial para cessar tal arritmia é:",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-06T13:22:50.000Z",
+            "updated_at": "2022-01-12T17:35:44.000Z",
+            "user_id": 1482,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1070,
+                    "title": "Casos Clínicos com Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:02:01.000Z",
+                    "updated_at": "2022-01-15T20:21:49.000Z",
+                    "pivot": {
+                        "discipline_id": 1070,
+                        "question_id": 8838
+                    }
+                },
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 8838
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36244,
+                    "question_id": 8838,
+                    "description": "Prescrição de metoprolol.",
+                    "explanation": "Falso, Doc!\nOs beta-bloqueadores, bem como os bloqueadores de canais de Cálcio são alternatinvas finais no manejo de uma taquicardia supraventricular (TSV) com RR regular e QRS curto. Sendo esses fármacos tentados após falha dos outros métodos, Doc. \nOlhe esse fluxograma da ESC, para manejo de uma TSV:\nFonte: Josep Brugada, Demosthenes G Katritsis, Elena Arbelo, Fernando Arribas, \nJeroen J Bax, Carina Blomström-Lundqvist, Hugh Calkins, Domenico \nCorrado, Spyridon G Deftereos, Gerhard-Paul Diller, Juan J Gomez-Doblas,\n Bulent Gorenek, Andrew Grace, Siew Yen Ho, Juan-Carlos Kaski, \nKarl-Heinz Kuck, Pier David Lambiase, Frederic Sacher, Georgia \nSarquella-Brugada, Piotr Suwalski, Antonio Zaza, ESC Scientific Document\n Group,  2019 ESC Guidelines for the management of patients with \nsupraventricular tachycardia\nThe Task Force for the management of \npatients with supraventricular tachycardia of the European Society of \nCardiology (ESC): Developed in collaboration with the Association for \nEuropean Paediatric and Congenital Cardiology (AEPC), *European Heart Journal*, Volume 41, Issue 5, 1 February 2020, Pages 655–720, [https://doi.org/10.1093/eurheartj/ehz467](https://doi.org/10.1093/eurheartj/ehz467) ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-06T13:22:50.000Z",
+                    "updated_at": "2022-01-12T17:35:44.000Z",
+                    "files": [
+                        {
+                            "id": 10123,
+                            "file": "1c4df789-a2f5-499e-98c6-cbc3a5458fd8.png",
+                            "name": "TSV ESC.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-06T15:52:34.000Z",
+                            "updated_at": "2021-06-06T15:52:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1c4df789-a2f5-499e-98c6-cbc3a5458fd8.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10123,
+                                "alternative_id": 36244
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36245,
+                    "question_id": 8838,
+                    "description": "Cardioversão Elétrica sincronizada.",
+                    "explanation": "Falso, Doc!\nA Cardioversão é indicada quando o paciente está com uma taquicardia instável ou se não há reversão do quadro após as medidas iniciais preconizadas.\nSe liga no fluxograma da ESC para o manejo de TSV:\n\nFonte: Josep Brugada, Demosthenes G Katritsis, Elena Arbelo, Fernando Arribas, \n\nJeroen J Bax, Carina Blomström-Lundqvist, Hugh Calkins, Domenico \n\nCorrado, Spyridon G Deftereos, Gerhard-Paul Diller, Juan J Gomez-Doblas,\n\n Bulent Gorenek, Andrew Grace, Siew Yen Ho, Juan-Carlos Kaski, \n\nKarl-Heinz Kuck, Pier David Lambiase, Frederic Sacher, Georgia \n\nSarquella-Brugada, Piotr Suwalski, Antonio Zaza, ESC Scientific Document\n\n Group,  2019 ESC Guidelines for the management of patients with \n\nsupraventricular tachycardia\n\nThe Task Force for the management of \n\npatients with supraventricular tachycardia of the European Society of \n\nCardiology (ESC): Developed in collaboration with the Association for \n\nEuropean Paediatric and Congenital Cardiology (AEPC), *European Heart Journal*, Volume 41, Issue 5, 1 February 2020, Pages 655–720, [https://doi.org/10.1093/eurheartj/ehz467](https://doi.org/10.1093/eurheartj/ehz467)  ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-06T13:22:50.000Z",
+                    "updated_at": "2022-01-12T17:35:44.000Z",
+                    "files": [
+                        {
+                            "id": 10123,
+                            "file": "1c4df789-a2f5-499e-98c6-cbc3a5458fd8.png",
+                            "name": "TSV ESC.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-06T15:52:34.000Z",
+                            "updated_at": "2021-06-06T15:52:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1c4df789-a2f5-499e-98c6-cbc3a5458fd8.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10123,
+                                "alternative_id": 36245
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36246,
+                    "question_id": 8838,
+                    "description": "Manobras Vagais.",
+                    "explanation": "Correto, Doc!\nEm um paciente com ums Taquisupra e com etiologia não definida devemos, inicialmente, tentar revertê-lá com Manobras Vagais, as quais podem ter 19 a 54% de sucesso, conforme o último guideline da ESC.\nLembre as principais manobras vagais que pode ser usadas, Doc:\n1. Manobra de Valsalva ou Manobra de Valsalva modificada: é a principal manobra utilizadas nas emergências, Doc.; ela é feita com um aumento da pressão abdominal (que pode ser feito assoprando contra alguma resistência), a manobra modificada envolve, também, elevação dos membros inferiores, **olhe sua sequência nas imagens abaixo**)\n2. Massagem Carotidea: é uma massagem realizada com o pescoço do paciente em uma posição estendida, com a cabeça voltada para o lado ao qual a pressão é aplicada. **Muito cuidado em pacientes com história de AVC ou obstrução de carótidas**\n3. Imersão facial em água fria ou tosse forte: são manobras POUCO recomendadas atualmente, doc, ou seja, não faça elas.\nCaso não consigamos reverter com essas manobras, Doc, passamos para medidas medicamentosas, sendo preferencialmente a adenosina o próximo passo.\nOlhe a imagem da manobra de Valsalva:\nFonte: [https://www.grepmed.com/images/3384/instructions-management-modified-maneuver-valsalva](https://www.grepmed.com/images/3384/instructions-management-modified-maneuver-valsalva)",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-06-06T13:22:50.000Z",
+                    "updated_at": "2022-01-12T17:35:44.000Z",
+                    "files": [
+                        {
+                            "id": 10127,
+                            "file": "f1a8c5a6-381d-42b2-bffd-6565ff224bea.png",
+                            "name": "instructions-management-modified-maneuver-valsalva-original.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-06T16:11:49.000Z",
+                            "updated_at": "2021-06-06T16:11:49.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f1a8c5a6-381d-42b2-bffd-6565ff224bea.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10127,
+                                "alternative_id": 36246
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36247,
+                    "question_id": 8838,
+                    "description": "Amiodarona.",
+                    "explanation": "Falso, Doc!\nA amiodarona é um antiarritimico utilizado na cardioversão química de TSV, como FA e Flutter, Atrial ou para taquicardias ventriculares. Nos outros tipos de taqui supras não usamos, em geral, a amiodarona.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-06T13:22:50.000Z",
+                    "updated_at": "2022-01-12T17:35:44.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8838,
+                "questionary_id": 267554,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8841,
+            "institution_id": 4,
+            "description": "Durante a reversão de uma taquicardia, após a administração do medicamento, o paciente relata ao interno que estava acompanhando o caso que está \"sentindo que vai morrer a qualquer momento\". O estudante, não viu qual foi o fármaco utilizado, mas com o relato do paciente, ele supõe que o fármaco usado e o tipo de arritmia são, respectivamente:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-06T16:52:30.000Z",
+            "updated_at": "2022-01-18T01:03:27.000Z",
+            "user_id": 1482,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 8841
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36256,
+                    "question_id": 8841,
+                    "description": "Amiodarona e taquicardia supraventricular.",
+                    "explanation": "Falso, Doc! 😕 \n- A amiodarona é um fármaco utilizado para a cardioversão química de arritmias como **fibrilação atrial** ou para a condução de **taquicardias ventriculares.** \n- Seus principais efeitos adversos são depósitos cutâneos e na córnea, fotossensibilidade e sintomas gastrointestinais (naúseas e vômitos).\n- Lembre-se, Doc, outro sintoma da amiodarona é hipotireoidismo**,** já que possui grande quantidade de iodo, o que pode levar a feedback negativo para a tireóide",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-06T13:52:30.000Z",
+                    "updated_at": "2022-01-17T22:03:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36257,
+                    "question_id": 8841,
+                    "description": "Amiodarona e taquicardia ventricular.",
+                    "explanation": "Falso, Doc! 😕 \n- A amiodarona é, realmente, um fármaco utilizado para a cardioversão química de arritmias como **Fibrilação atrial** ou para a condução de **taquicardias ventriculares.** \n- Além disso, seus principais efeitos adversos são depósitos cutâneos e na córnea, fotossensibilidade e sintomas gastrointestinais (naúseas e vômitos).\n- Lembre-se, Doc, outro sintoma da amiodarona é hipotireoidismo**,** já que possui grande quantidade de iodo, o que pode levar a feedback negativo para a tireóide \n\n\n💡 Atente para o Mnemônico:\n**TPPLLCC**:\n**T**ireóide\n**P**hotosensitivity\n**P**eripheral Neurophaty\n**L**ung fibrosis\n**L**iver damage\n**C**ardiac depression\n**C**orneal microdeposits",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-06T13:52:30.000Z",
+                    "updated_at": "2022-01-17T22:03:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36258,
+                    "question_id": 8841,
+                    "description": "Adenosina e taquicardia supraventricular.",
+                    "explanation": "Perfeito, Doc! 😍\n- A adenosina é um antiarritmico que é usado principalmente para a reversão de taquicardias **supraventriculares**.\n- Lembre, Doc, um dos sintomas do paciente ao usar a adenosina pode ser a \"**sensação de morte iminente**\", que cessa após alguns minutos, pois a droga possui meia vida curta. \n- Além disso, a adenosina possui outros efeitos, como rubor facial, cefaleia e pode provocar broncoespasmo (cuidado com seu uso em pacientes com asma).\n\n\nDoc, olha o fluxograma da ESC para o tratamento de TSV e veja como a adenosina é uma opção com recomendações fortes 👇:\n\n\n\nFonte: Josep Brugada, et. al. ESC Scientific Document Group,  2019 ESC Guidelines for the management of patients with supraventricular tachycardia. The Task Force for the management of patients with supraventricular tachycardia of the European Society of Cardiology (ESC): Developed in collaboration with the Association for European Paediatric and Congenital Cardiology (AEPC), *European Heart Journal*, Volume 41, Issue 5, 1 February 2020, Pages 655–720, [https://doi.org/10.1093/eurheartj/ehz467](https://doi.org/10.1093/eurheartj/ehz467)  \n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-06-06T13:52:30.000Z",
+                    "updated_at": "2022-01-17T22:03:27.000Z",
+                    "files": [
+                        {
+                            "id": 10123,
+                            "file": "1c4df789-a2f5-499e-98c6-cbc3a5458fd8.png",
+                            "name": "TSV ESC.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-06T15:52:34.000Z",
+                            "updated_at": "2021-06-06T15:52:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1c4df789-a2f5-499e-98c6-cbc3a5458fd8.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10123,
+                                "alternative_id": 36258
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36259,
+                    "question_id": 8841,
+                    "description": "Adenosina e taquicardia ventricular.",
+                    "explanation": "Falso, Doc! 😕 \n- A adenosina é um antiarritmico que é usado principalmente para a reversão de taquicardias **supraventriculares**, não sendo usada para taquicardia ventriculares.\n- Lembre, Doc, um dos sintomas do paciente ao usar a adenosina pode ser a \"**sensação de morte iminente\"**, que cessa após alguns minutos, pois a droga possui meia vida curta.\n- Além disso, a adenosina possui outros efeitos, como rubor facial, cefaleia e pode provocar broncoespasmo (cuidado com seu uso em pacientes com doenças pulmonares). ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-06T13:52:30.000Z",
+                    "updated_at": "2022-01-17T22:03:27.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8841,
+                "questionary_id": 267554,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8845,
+            "institution_id": 4,
+            "description": "Sobre os diversos tipos de taquicardia SUPRAVENTRICULAR, assinale a alternativa CORRETA: ",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-06T19:20:24.000Z",
+            "updated_at": "2022-01-12T20:36:58.000Z",
+            "user_id": 1482,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 8845
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36272,
+                    "question_id": 8845,
+                    "description": "A Taquicardia Atrial Multifocal (TAM) é uma taquisupra que pode ser irregular ou regular, caracterizada pela presença de ondas P similares precedendo QRS, sendo mais comum em pacientes com doença pulmonar associada.",
+                    "explanation": "Falso, Doc!\nA TAM é uma taquiarritmia de origem supraventricular com múltiplos focos arrítimicos  no tecido atrial. Dessa forma, uma característica dessa arritmia é a presença de ondas P com morfologia distinta entre si, decorrente da representação no ECG dos diferentes focos de ativação.\nVeja a representação de uma TAM, Doc:\nFonte: https://www.youtube.com/watch?v=wmQ2PU-WkEU",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-06T16:20:24.000Z",
+                    "updated_at": "2022-01-12T17:36:58.000Z",
+                    "files": [
+                        {
+                            "id": 10218,
+                            "file": "659d7625-9537-4310-a751-a3be88f19287.jpeg",
+                            "name": "TAM.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-06T19:20:15.000Z",
+                            "updated_at": "2021-06-06T19:20:15.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/659d7625-9537-4310-a751-a3be88f19287.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10218,
+                                "alternative_id": 36272
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36273,
+                    "question_id": 8845,
+                    "description": "A taquicardia sinusal não é um tipo de taquicardia supraventricular, sendo ela apenas uma variante da normalidade.",
+                    "explanation": "Falso, Doc!!\nA taquicardia sinusal é SIM um tipo de taquicardia supraventricular. Ela pode ser tanto um mecanismo adaptativo em resposta a uma alteração metabólica normal, como secundária a outros processos patológicos (febre, anemia, hipertireoidismo ou TEP).\nLembre que na taqui sinusal temos onda P de mesma morfologia, com eixo normal (entre 0° a 90°), precedendo todo QRS, que é curto, e FC > 100 bpm.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-06T16:25:07.000Z",
+                    "updated_at": "2022-01-12T17:36:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36274,
+                    "question_id": 8845,
+                    "description": "A Taquicardia Supraventricular por Reentrada Nodal (TSRN) é desencadeada por vias de condução no nó AV que possuem velocidades de condução diferentes e períodos refratários iguais, sendo que essa arritmia pode ser conduzida de forma típica ou atípica.",
+                    "explanation": "Falso, Doc!\nAtenção para os detalhes. Sim, a Taquicardia Supraventricular por Reentrada Nodal (TSRN) é desencadeada por vias de condução no nó AV que possuem velocidades de condução diferentes, mas seus períodos refratários **diferentes**, também. Em geral a via de propagação rápida possui preíodo refratário longo, sendo a recíprica verdadeira. \nNa origem desta arritmia, Doc, caso tenhamos um estímulo extrasistólico, o impulso pode se propagar pela via que estará disponível, normal ou acessória (fora do período refratário). Se essa via for a acessória podemos propagar o estímulo pelo circuito e deflagrar contrações tanto atriais, quanto ventriculares que, em uma situação normal, não seriam desencadeadas.\nVeja o exemplo do mecanismo de reentrada nodal na imagem abaixo:\nFonte: https://www.sanarmed.com/taquiarritmias",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-06T16:45:37.000Z",
+                    "updated_at": "2022-01-12T17:36:58.000Z",
+                    "files": [
+                        {
+                            "id": 10219,
+                            "file": "85bd6162-809f-49ee-a250-818f53cc32c9.png",
+                            "name": "TSRN.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-06T19:37:21.000Z",
+                            "updated_at": "2021-06-06T19:37:21.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/85bd6162-809f-49ee-a250-818f53cc32c9.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10219,
+                                "alternative_id": 36274
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36275,
+                    "question_id": 8845,
+                    "description": "Em uma taquicardia supraventricular por reentrada átrio ventricular, quando temos uma condução ortodrômica temos a condução do impulso no sentido ventriculo --> atrio.",
+                    "explanation": "Correto, Doc!\nNas taquicardias supraventricular por reentrada átrio ventricular (AV) temos um impulso que passa entre as câmaras cardíacas por vias acessórias que não são o nó AV. \nCaso essa via conduza o estímulo no sentido ortodrômico temos que inicialmente o potencial vai do átrio, passa pelo nó AV para os ventrículos e, pela via acessória, retorna dos ventrículos aos átrios.\nPor outro lado, caso tenhamos uma condução antidrômica, o estímulo vai dos ventrículos, passa pelo nó AV, estimula os átrios e, pela via acessória, desce novamente aos ventrículos.\nRepare, na figura abaixo, Doc, a diferença nas vias de condução e como tais conduções refletem no traçado do ECG:\nFonte: https://www.misodor.com.br/ARRITMIASPEDIATRICAS.php",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-06-06T16:45:37.000Z",
+                    "updated_at": "2022-01-12T17:36:58.000Z",
+                    "files": [
+                        {
+                            "id": 10220,
+                            "file": "88842a98-4b55-46c8-b521-a0d32e48b07a.jpeg",
+                            "name": "TRAVREENTRADA.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-06T19:45:26.000Z",
+                            "updated_at": "2021-06-06T19:45:26.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/88842a98-4b55-46c8-b521-a0d32e48b07a.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10220,
+                                "alternative_id": 36275
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8845,
+                "questionary_id": 267554,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1682,
+            "institution_id": 25,
+            "description": "Mulher de 28 anos de idade em tratamento de hipertireoidismo ha 1 mês com tapazol refere há 1 hora palpitações intensas e tontura. Ao exame clínico com PA 80x48 mmHg. Feito o eletrocardiograma a seguir. (Conforme imagem do caderno de questões). A conduta deve ser:\n\n\n",
+            "difficulty": "hard",
+            "year": "2013-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-12T02:16:45.000Z",
+            "updated_at": "2022-01-12T17:34:48.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 25,
+                "title": "USP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:55:52.000Z",
+                "updated_at": "2020-05-18T19:55:52.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 1682
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6912,
+                    "question_id": 1682,
+                    "description": "Adenosina endovenosa",
+                    "explanation": "Falso doc! 😋 Temos uma taquiarritmia com QRS estreito e regular sugestivo de flutter, com instabilidade hemodinâmica. Logo, a conduta inicial é a **CARDIOVESÃO ELÉTRICA SINCRONIZAD**A",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:16:45.000Z",
+                    "updated_at": "2022-01-12T17:34:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6913,
+                    "question_id": 1682,
+                    "description": "Cardioversão elétrica 200J",
+                    "explanation": "Falso doc! 😋 Temos uma taquiarritmia com QRS estreito e regular sugestivo de flutter, com instabilidade hemodinâmica. Logo, a conduta inicial é a **CARDIOVESÃO ELÉTRICA SINCRONIZADA.** Porém, o primeiro choque no flutter é uma **carga mais baix**a, não direto com 200J!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:16:45.000Z",
+                    "updated_at": "2022-01-12T17:34:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6914,
+                    "question_id": 1682,
+                    "description": "Metoprolol endovenoso",
+                    "explanation": "Falso doc! 😋 Temos uma taquiarritmia com QRS estreito e regular sugestivo de flutter, com instabilidade hemodinâmica. Logo, a conduta inicial é a **CARDIOVESÃO ELÉTRICA SINCRONIZADA**  Doc, o uso de betabloqueadores nesse momento pod**e agravar a hipotensão**!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-12T02:16:45.000Z",
+                    "updated_at": "2022-01-12T17:34:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6915,
+                    "question_id": 1682,
+                    "description": "Cardioversão elétrica 50J",
+                    "explanation": "Acertou, Doc! 😍 Temos uma taquiarritmia com QRS estreito e regular sugestivo de flutter, com instabilidade hemodinâmica. Logo, a conduta inicial é a **CARDIOVESÃO ELÉTRICA SINCRONIZADA**. A carga do choque inicialmente é baixa, 50J em um cardioversor com onda bifásica. Só vamos aumentar se essa carga não for suficiente. Doc, se liga nesse fluxograma de manejo do flutter atrial👇\n- Fonte: [https://spc.pt/wp-content/uploads/2020/07/Taquicardia-supraventricular-definitivo.pdf](https://spc.pt/wp-content/uploads/2020/07/Taquicardia-supraventricular-definitivo.pdf)",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-12T02:16:45.000Z",
+                    "updated_at": "2022-01-12T17:34:48.000Z",
+                    "files": [
+                        {
+                            "id": 10062,
+                            "file": "704d1edf-9b31-467d-9c7b-efd4a62e0c69.jpeg",
+                            "name": "000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T01:39:28.000Z",
+                            "updated_at": "2021-06-05T01:39:28.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/704d1edf-9b31-467d-9c7b-efd4a62e0c69.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10062,
+                                "alternative_id": 6915
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 392,
+                    "file": "1591928027523.png",
+                    "name": "Sem título.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-06-12T05:13:48.000Z",
+                    "updated_at": "2020-06-12T05:13:48.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591928027523.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 392,
+                        "question_id": 1682
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 1682,
+                "questionary_id": 267554,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8846,
+            "institution_id": 4,
+            "description": "Em um paciente assintomático com via acessória (pré-excitação) documentada no ECG, devemos certamente sugerir um estudo eletrofisiológico e, caso necessário, possível ablação eletiva nos seguintes casos EXCETO:",
+            "difficulty": "hard",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-06T20:19:07.000Z",
+            "updated_at": "2022-01-12T20:37:51.000Z",
+            "user_id": 1482,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1070,
+                    "title": "Casos Clínicos com Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:02:01.000Z",
+                    "updated_at": "2022-01-15T20:21:49.000Z",
+                    "pivot": {
+                        "discipline_id": 1070,
+                        "question_id": 8846
+                    }
+                },
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 8846
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36276,
+                    "question_id": 8846,
+                    "description": "Atleta Profissional",
+                    "explanation": "Falso, Doc!\nSegundo os Guidelines mais recentes (ESC,2019), em uma pré-excitação documentada em paciente assintomático devemos efetuar uma monitorização eletrofisiológica e considerar ablação eletiva em pacientes que fazem atividades físicas de alta intensidade, esportistas profissionais ou naqueles com ocupação de risco (motoristas, pilotos de avião, por exemplo).  ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-06T17:19:07.000Z",
+                    "updated_at": "2022-01-12T17:37:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36277,
+                    "question_id": 8846,
+                    "description": "Motorista de Ônibus.",
+                    "explanation": "Falso, Doc!\nSegundo os Guidelines mais recentes (ESC,2019), em uma pré-excitação documentada em paciente assintomático devemos efetuar uma monitorização eletrofisiológica e considerar ablação eletiva em pacientes que fazem atividades físicas de alta intensidade, esportistas profissionais ou naqueles com ocupação de risco (motoristas, pilotos de avião, por exemplo). ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-06T17:19:07.000Z",
+                    "updated_at": "2022-01-12T17:37:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36278,
+                    "question_id": 8846,
+                    "description": "Estudante Sedentário.",
+                    "explanation": "Correto, Doc!\nSegundo os Guidelines mais recentes (ESC,2019), em uma pré-excitação documentada em paciente assintomático **devemos** efetuar uma monitorização eletrofisiológica e considerar ablação eletiva em pacientes que fazem atividades físicas de alta intensidade, esportistas profissionais ou naqueles com ocupação de risco (motoristas, pilotos de avião, por exemplo).  \nDessa forma, nesse paciente sem ocupação de alto risco ou hobbie de alto esforço/atleta profissional podemos seguir com acompanhamento clinico, a princípio, sem uma monitorização eletrofisiológica invasiva da sua via acessória. Isso, no entanto, Doc, não contra-indica tal monitorização, caso o médico julgue necessário em concordância com o seu paciente.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-06-06T17:19:07.000Z",
+                    "updated_at": "2022-01-12T17:37:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36279,
+                    "question_id": 8846,
+                    "description": "Piloto de Avião.",
+                    "explanation": "Falso, Doc!\nSegundo os Guidelines mais recentes (ESC,2019), em uma pré-excitação documentada em paciente assintomático devemos efetuar uma monitorização eletrofisiológica e considerar ablação eletiva em pacientes que fazem atividades físicas de alta intensidade, esportistas profissionais ou naqueles com ocupação de risco (motoristas, pilotos de avião, por exemplo).  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-06T17:19:07.000Z",
+                    "updated_at": "2022-01-12T17:37:51.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8846,
+                "questionary_id": 267554,
+                "timer": 0
+            }
+        }
+    ]
+}   

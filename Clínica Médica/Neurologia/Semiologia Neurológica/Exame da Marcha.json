@@ -1,0 +1,2044 @@
+{
+    "id": 267622,
+    "user_id": 1699,
+    "title": "Exame da Marcha",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T03:00:31.000Z",
+    "updated_at": "2022-07-11T03:00:31.000Z",
+    "study_plan_id": 670,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 7759,
+            "institution_id": 4,
+            "description": "Qual o nome da marcha patológica mostrada na imagem?\n\nFonte da imagem: [https://line.17qq.com/articles/kghgkomdv_p3.html](https://line.17qq.com/articles/kghgkomdv_p3.html)",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-05T01:56:32.000Z",
+            "updated_at": "2021-05-05T15:48:39.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 717,
+                    "title": "Exame da Marcha",
+                    "description": null,
+                    "parent_id": 245,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T01:03:25.000Z",
+                    "updated_at": "2022-01-26T15:33:19.000Z",
+                    "pivot": {
+                        "discipline_id": 717,
+                        "question_id": 7759
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 31860,
+                    "question_id": 7759,
+                    "description": "Marcha atáxica",
+                    "explanation": "Isso mesmo, Doc! 😁 \n- O nome \"atáxica\" vem de *ataxis* que quer dizer **falta de ordem/coordenação** (lembre-se da taxonomia = ordenar/classificar). Nessa marcha o doente anda em zigue-zague, com movimentos incertos, como uma pessoa embriagada , por isso às vezes aparece como **marcha do ébrio �**�\n- Outro nome dado a ela é **marcha cerebelar,** porque é causada por incoordenação de movimentos devido a lesões do cerebelo (centro da coordenação)",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-05-04T22:56:32.000Z",
+                    "updated_at": "2021-05-05T12:48:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31861,
+                    "question_id": 7759,
+                    "description": "Marcha claudicante",
+                    "explanation": "Falso, Doc!\n\nNa marcha claudicante o paciente \"manca\" para um dos lados. Ocorre na insuficiência arterial periférica ou lesões do aparelho locomotor, quando o fluxo de sangue para os músculos se torna insuficiênte quando o paciente caminha.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-04T22:56:32.000Z",
+                    "updated_at": "2021-05-05T12:48:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31862,
+                    "question_id": 7759,
+                    "description": "Marcha em tesoura (ou espástica)",
+                    "explanation": "Falso, Doc! \n\n- Na marcha em tesoura, como o nome já diz, o movimento lembra o de uma tesoura, pois **os dois membros inferiores** estão **enrijecidos e espásticos** (também como o nome já diz), semifletidos\n- Aparece em algumas **paralisias cerebrais**\nDá uma olhada na imagem pra entender melhor, Doc! **😉**👇\n\nFonte: https://cargocollective.com/bhairavi_singh/Scissor-Gait-Walker",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-04T22:56:32.000Z",
+                    "updated_at": "2021-05-05T12:48:39.000Z",
+                    "files": [
+                        {
+                            "id": 8226,
+                            "file": "e30f802d-009a-432a-9235-d3288ef51384.jpeg",
+                            "name": "dfdf2_900.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-05T02:21:46.000Z",
+                            "updated_at": "2021-05-05T02:21:46.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e30f802d-009a-432a-9235-d3288ef51384.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8226,
+                                "alternative_id": 31862
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 31863,
+                    "question_id": 7759,
+                    "description": "Marcha helicópode (ou ceifante)",
+                    "explanation": "Falso, Doc! Também chamada de marcha **hemiplégica**, na marcha ceifante o paciente o paciente apresenta:\n- **flexão de  90° do membro superior** no cotovelo e em **adução**\n- Leve **pronação da mão,** que fica  fechada \n- Do mesmo lado o **membro inferior fica enrijecido**, espástico, sem flexão do joelho (por causa da hemiplegia)\nA perna então se arrasta pelo chão descrevendo um semicírculo, lembrando uma foice (por isso ceifante 🤓)\n\nFica mais fácil de entender com uma imagem, né, Doc? Dá só uma olhada 👇:\nFonte: @neurostudent [https://www.instagram.com/neurostudent](https://www.instagram.com/neurostudent)\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-04T22:56:32.000Z",
+                    "updated_at": "2021-05-05T12:48:39.000Z",
+                    "files": [
+                        {
+                            "id": 8225,
+                            "file": "17ad184f-fcf6-402e-847a-46c7b375b831.png",
+                            "name": "Captura de tela 2021-05-04 195528.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-05T01:55:44.000Z",
+                            "updated_at": "2021-05-05T01:55:44.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/17ad184f-fcf6-402e-847a-46c7b375b831.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8225,
+                                "alternative_id": 31863
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 8223,
+                    "file": "31e230f8-b1b7-4ba3-bfd8-bdaf08de1c93.png",
+                    "name": "gait.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2021-05-05T01:33:39.000Z",
+                    "updated_at": "2021-05-05T01:33:39.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/31e230f8-b1b7-4ba3-bfd8-bdaf08de1c93.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 8223,
+                        "question_id": 7759
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 7759,
+                "questionary_id": 267622,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7765,
+            "institution_id": 4,
+            "description": "B.L.C, 73 anos, entra no seu consultório com a cabeça inclinada para a frente, dando passos miúdos, rápidos e  enrijecidos, como se fosse um bloco, e você nota que ele não faz o movimento automático dos braços  durante a marcha. Qual o provável diagnótico do paciente?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-05T05:26:10.000Z",
+            "updated_at": "2021-05-05T18:49:55.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 717,
+                    "title": "Exame da Marcha",
+                    "description": null,
+                    "parent_id": 245,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T01:03:25.000Z",
+                    "updated_at": "2022-01-26T15:33:19.000Z",
+                    "pivot": {
+                        "discipline_id": 717,
+                        "question_id": 7765
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 31884,
+                    "question_id": 7765,
+                    "description": "Marcha tabética",
+                    "explanation": " Falso, Doc!   \n- Na marcha tabética, o paciente levanta os membros inferiores abrupta e explosivamente e coloca o calcanhar no solo de modo intenso.  \n- Como o problema do paciente é a sensibilidade propioceptiva por **lesão no cordão posterior da medula**, você pode pedir para o  paciente tentar andar de olhos fechados. Provavelmente ele vai ter muito mais dificuldade ou não vai conseguir \nAchou muito difícil de gravar com esse nome estranho, Doc? É só lembrar do barulho \"tá! tá!\" que o pé faz no chão. \"Tá\" de tabética (não vai confundir com \"tum\" e falar marcha tumbética hein? 😜)  ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-05T02:26:10.000Z",
+                    "updated_at": "2021-05-05T15:49:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31885,
+                    "question_id": 7765,
+                    "description": "Marcha de Miopática",
+                    "explanation": "Falso, Doc!\nA marcha miopática, também é conhecida como \"anserina\". Anserino significa \"relativo a pato ou ganso\"🤓 , por isso também é chamada de marcha de pato). Esse nome é dado porque o paciente apresenta:\n• acentuação da lordose lombar para caminhar\n• e inclina o tronco pra direita e pra esquerda, alternadamente\nSemelhante ao andar de um pato\nCausa ➞ doenças musculares (diminuição da força dos músculos pélvicos e das coxas)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-05T02:26:10.000Z",
+                    "updated_at": "2021-05-05T15:49:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31886,
+                    "question_id": 7765,
+                    "description": "Marcha cerebelar",
+                    "explanation": "Falso, Doc!\n- Na marcha cerebelar (cerebelo = centro da coordenação)**,** o doente anda em zigue-zague, com movimentos incertos,\ncomo uma pessoa embriagada , por isso às vezes aparece como **marcha do ébrio �**� ou atáxica (ataxia = falta de coordenação)\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-05T02:26:10.000Z",
+                    "updated_at": "2021-05-05T15:49:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31887,
+                    "question_id": 7765,
+                    "description": "Marcha parkinsoniana",
+                    "explanation": "Muito bem, Doc! 🤗 As características são exatamente as da marcha parkinsoniana. \n- É causada pela falta de controle dos movimentos e dificuldade de iniciar movimentos musculares. \n- Há bradicinesia, com pobreza de movimentos automáticos, como movimentar os braços durante a marcha.\n\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-05-05T02:26:10.000Z",
+                    "updated_at": "2021-05-05T15:49:55.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7765,
+                "questionary_id": 267622,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7766,
+            "institution_id": 4,
+            "description": "Paciente A.L.M, 32 anos, entra no seu consultório caminhando com o membro inferior esquerdo enrijecido, sem flexionar o joelho, arrastando-o pelo chão descrevendo um semicírculo. O membro superior, do mesmo lado, está fletido 90° no cotovelo e em adução, com leve pronação da mão, que permanece fechada. Qual o nome dessa marcha?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-05T14:54:54.000Z",
+            "updated_at": "2021-05-05T18:01:41.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 717,
+                    "title": "Exame da Marcha",
+                    "description": null,
+                    "parent_id": 245,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T01:03:25.000Z",
+                    "updated_at": "2022-01-26T15:33:19.000Z",
+                    "pivot": {
+                        "discipline_id": 717,
+                        "question_id": 7766
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 31888,
+                    "question_id": 7766,
+                    "description": "Marcha parkinsoniana",
+                    "explanation": "Falso, Doc! Na marcha parkinsoniana:\n-  o paciente anda **em bloco,** enrijecido, com **passos miúdos e rápidos**, devido à falta de controle dos movimentos e dificuldade de iniciar movimentos musculares. \n- Há bradicinesia, com **pobreza de movimentos automáticos**, como movimentar os braços durante a marcha. \n- Fica com a **cabeça inclinada para a frente**\nSe liga nessa imagem resumindo isso tudo, Doc! 👇\n\nFonte: https://www.shutterstock.com/pt/image-vector/parkinsons-disease-symptoms-illustration-about-health-763720675",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-05T11:54:54.000Z",
+                    "updated_at": "2021-05-05T15:01:41.000Z",
+                    "files": [
+                        {
+                            "id": 8232,
+                            "file": "c304b74a-193e-4912-9cf8-c7e9eb4949fe.jpeg",
+                            "name": "mal-de-parkinson-sintomas-763720675-753x1000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-05T14:37:46.000Z",
+                            "updated_at": "2021-05-05T14:37:46.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c304b74a-193e-4912-9cf8-c7e9eb4949fe.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8232,
+                                "alternative_id": 31888
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 31889,
+                    "question_id": 7766,
+                    "description": "Marcha em tesoura",
+                    "explanation": "Falso, Doc!\n\n- Na marcha espástica, ou em tesoura, como o nome já diz, o movimento lembra o de uma tesoura, pois os **dois membros inferiores** estão **enrijecidos e espásticos** (também como o nome já diz), semifletidos\n- Aparece em algumas paralisias cerebrais\nDá uma olhada na imagem pra entender melhor, Doc! 😉👇\n\nDe <https://acesso.medsimpleoficial.com.br/admin/questions/7759/edit> \n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-05T11:54:54.000Z",
+                    "updated_at": "2021-05-05T15:01:41.000Z",
+                    "files": [
+                        {
+                            "id": 8226,
+                            "file": "e30f802d-009a-432a-9235-d3288ef51384.jpeg",
+                            "name": "dfdf2_900.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-05T02:21:46.000Z",
+                            "updated_at": "2021-05-05T02:21:46.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e30f802d-009a-432a-9235-d3288ef51384.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8226,
+                                "alternative_id": 31889
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 31890,
+                    "question_id": 7766,
+                    "description": "Marcha hemiplégica",
+                    "explanation": "Perfeito, Doc! 😍 A descrição é exatamente a de um paciente com marcha hemiplégica, também chamada de ceifante,  já que a perna se arrasta pelo chão descrevendo esse semicírculo, lembrando uma foice.\nFica mais fácil de entender com uma imagem, né, Doc? Dá só uma olhada 👇:\nFonte: @neurostudent [https://www.instagram.com/neurostudent](https://www.instagram.com/neurostudent)\n\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-05-05T11:54:54.000Z",
+                    "updated_at": "2021-05-05T15:01:41.000Z",
+                    "files": [
+                        {
+                            "id": 8225,
+                            "file": "17ad184f-fcf6-402e-847a-46c7b375b831.png",
+                            "name": "Captura de tela 2021-05-04 195528.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-05T01:55:44.000Z",
+                            "updated_at": "2021-05-05T01:55:44.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/17ad184f-fcf6-402e-847a-46c7b375b831.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8225,
+                                "alternative_id": 31890
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 31891,
+                    "question_id": 7766,
+                    "description": "Marcha vestibular",
+                    "explanation": "Falso, Doc!\n\nDoc, a marcha vestibular é causada por lesão vestibular (isto é, no labirinto - para lembrar que o vestíbulo é o labirinto, lembre como foi um labirinto conseguir passar no vestibular 😁).  E como o vestíbulo é fundamental para o equilíbrio e propiocepção, lesões nesse local fazem o paciente realmente se sentir em um labirinto 😵. Ele apresentará?\n- **lateropulsão,** como alguém o empurrasse para o lado quando tenta se mover em linha reta. \n- Se você pedir para ele ir de frente e voltar de costas, com os olhos fechados, o trajeto que ele vai fazer parecer uma estrela, por isso também é chamada de **marcha em estrela ⭐**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-05T11:54:54.000Z",
+                    "updated_at": "2021-05-05T15:01:41.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7766,
+                "questionary_id": 267622,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2387,
+            "institution_id": 4,
+            "description": "Sobre o exame físico neurológico da motricidade assinale a alternativa correta: ",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-24T16:14:20.000Z",
+            "updated_at": "2022-01-26T12:33:03.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 717,
+                    "title": "Exame da Marcha",
+                    "description": null,
+                    "parent_id": 245,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T01:03:25.000Z",
+                    "updated_at": "2022-01-26T15:33:19.000Z",
+                    "pivot": {
+                        "discipline_id": 717,
+                        "question_id": 2387
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 9835,
+                    "question_id": 2387,
+                    "description": "A marcha cerebelar é caracterizada por um andar em zigue-zague, como um bêbado. Esse tipo de marcha traduz incoordenação de movimentos em decorrência de lesão da ponte.",
+                    "explanation": "- Falso, Doc! 🤔\n- A marcha cerebelar traduz incoordenação de movimentos em decorrência de **lesões do cerebelo!** Doc, se liga nesse exemplo:👇\n- Fonte: [https://blog.neurovida.pt/2018/09/27/tecnicas-promissoras-para-o-tratamento-mais-eficaz-da-ataxia-cerebelar/](https://blog.neurovida.pt/2018/09/27/tecnicas-promissoras-para-o-tratamento-mais-eficaz-da-ataxia-cerebelar/)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-24T16:14:20.000Z",
+                    "updated_at": "2022-01-26T12:33:03.000Z",
+                    "files": [
+                        {
+                            "id": 12710,
+                            "file": "01e26e11-97d6-4d93-81bf-4a4bb9db9be9.jpeg",
+                            "name": "00000000000000000000000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-04T18:48:04.000Z",
+                            "updated_at": "2021-07-04T18:48:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/01e26e11-97d6-4d93-81bf-4a4bb9db9be9.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12710,
+                                "alternative_id": 9835
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9836,
+                    "question_id": 2387,
+                    "description": "Na marcha parkinsoniana, o paciente anda como um bloco enrijecido, com o movimento automático dos braços normal, mas com os passos pequenos e rápidos, ocorre nos portadores da doença de Parkinson.",
+                    "explanation": "- Falso, Doc! 🤔\n- Na marcha parkinsoniana, o paciente anda como um bloco, enrijecido, **sem o movimento automático dos braços.**\n- A cabeça permanece inclinada para frente e os passos são miúdos e rápidos, dando a impressão de que o doente “corre atrás do seu centro de gravidade” e que irá sofrer uma queda para frente. Doc, se liga nesse exemplo:👇\n- Fonte: [https://www.rafaeloliveiraneuro.com/doenca-de-parkinson](https://www.rafaeloliveiraneuro.com/doenca-de-parkinson)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-24T16:14:20.000Z",
+                    "updated_at": "2022-01-26T12:33:03.000Z",
+                    "files": [
+                        {
+                            "id": 12711,
+                            "file": "cdd9a102-05c8-4c95-848d-6aa4b3ead3a0.jpeg",
+                            "name": "000000000000000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-04T18:49:34.000Z",
+                            "updated_at": "2021-07-04T18:49:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/cdd9a102-05c8-4c95-848d-6aa4b3ead3a0.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12711,
+                                "alternative_id": 9836
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9837,
+                    "question_id": 2387,
+                    "description": "Na marcha em tesoura ou espástica, o paciente tem os dois membros inferiores enrijecidos e semifletidos, os pés se arrastam e as pernas se cruzam uma na frente da outra quando tenta caminhar. Esse tipo de marcha é frequente nas manifestações espásticas da paralisia cerebral",
+                    "explanation": "- Perfeito, Doc! 😻\n- O movimento cruzado das pernas lembra uma tesoura em ação.\n- Este tipo de marcha é bastante frequente nas formas espásticas da paralisia cerebral, como ilustrado na imagem abaixo:👇\n- Fonte: clinicaintensiva.com.br/espasticidade/",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-24T16:14:20.000Z",
+                    "updated_at": "2022-01-26T12:33:03.000Z",
+                    "files": [
+                        {
+                            "id": 12712,
+                            "file": "2ef02466-4440-472b-a463-520945318a58.jpeg",
+                            "name": "andar-espastico-marcha-em-tesoura-espasticidade-paralisia-cerebral-450x300 (1).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-04T18:50:41.000Z",
+                            "updated_at": "2021-07-04T18:50:41.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2ef02466-4440-472b-a463-520945318a58.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12712,
+                                "alternative_id": 9837
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9838,
+                    "question_id": 2387,
+                    "description": "A prova de Romberg avalia o equilíbrio estático, pede se ao paciente para ficar na posição ortostática com os pés afastados e fechar os olhos. Se o paciente apresenta grandes oscilações com tendência à queda, o teste é positivo.",
+                    "explanation": "- Falso, Doc! 🤔\n- O paciente deve ficar em posição ortostática com os pés juntos e olhando fixamente para frente. Nesta postura, ele deve permanecer alguns segundos.\n- Em seguida, ordena-­se ao paciente que feche as pálpebras durante alguns segundos. A presença de grandes oscilações, desequilíbrio e forte tendência à queda, torna o teste positivo. Se liga nessa imagem, Doc:👇\n- Fonte: [https://www.lacs.com.br/exames-complementares/194/teste-de-romberg](https://www.lacs.com.br/exames-complementares/194/teste-de-romberg)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-24T16:14:20.000Z",
+                    "updated_at": "2022-01-26T12:33:03.000Z",
+                    "files": [
+                        {
+                            "id": 12713,
+                            "file": "4f9d988c-8de1-4664-9cae-c6953733bd47.jpeg",
+                            "name": "nRxuSiHHpSp6q3LvfA0K (1).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-07-04T18:52:10.000Z",
+                            "updated_at": "2021-07-04T18:52:10.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4f9d988c-8de1-4664-9cae-c6953733bd47.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12713,
+                                "alternative_id": 9838
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2387,
+                "questionary_id": 267622,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7762,
+            "institution_id": 4,
+            "description": "Qual o nome da marcha patológica mostrada na imagem?\n\nFonte da imagem: [https://www.youtube.com/watch?v=-Dusn7cSh0U](https://www.youtube.com/watch?v=-Dusn7cSh0U)",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-05T04:05:40.000Z",
+            "updated_at": "2021-05-05T18:52:54.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 717,
+                    "title": "Exame da Marcha",
+                    "description": null,
+                    "parent_id": 245,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T01:03:25.000Z",
+                    "updated_at": "2022-01-26T15:33:19.000Z",
+                    "pivot": {
+                        "discipline_id": 717,
+                        "question_id": 7762
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 31872,
+                    "question_id": 7762,
+                    "description": "Marcha tabética",
+                    "explanation": "Falso, Doc! \n- Na marcha tabética, o paciente levanta os membros inferiores abrupta e explosivamente e coloca o calcanhar no solo de modo intenso. \n- Causa  ➞  perda de sensibilidade propioceptiva por **lesão no cordão posterior da medula.** Podemos pedir para o paciente tentar andar de  olhos fechados (provavelmente ele vai ter muito mais dificuldade ou não vai conseguir)\nAchou muito difícil de gravar com esse nome estranho, Doc? É só lembrar do barulho \"tá! tá!\" que o pé faz no chão. \"Tá\" de tabética (não vai confundir com \"tum\" e falar marcha tumbética hein? 😜)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-05T01:05:40.000Z",
+                    "updated_at": "2021-05-05T15:52:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31873,
+                    "question_id": 7762,
+                    "description": "Marcha escarvante",
+                    "explanation": "Parabéns, Doc! 👏 \n- Doc, no dicionário Michaelis 🤓 diz que \"escarvar\" é \"Cavar (o solo) superficialmente, como faz o cavalo com os cascos\" (lembre de escavar!!), e é exatamente isso que essa marcha lembra. \n- Causa  ➞  paralisia do movimento de **flexão dorsal** do pé. É comum o paciente tropeçar  ao tentar caminhar.\nSe liga nessa imagem esquematizando essa marcha de \"escarvar\" o solo 👇\n\nFonte: na imagem",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-05-05T01:05:40.000Z",
+                    "updated_at": "2021-05-05T15:52:54.000Z",
+                    "files": [
+                        {
+                            "id": 8228,
+                            "file": "65162491-1ac9-44b4-be26-b7cb728e2731.png",
+                            "name": "Captura de tela 2021-05-04 203917.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-05T02:39:47.000Z",
+                            "updated_at": "2021-05-05T02:39:47.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/65162491-1ac9-44b4-be26-b7cb728e2731.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8228,
+                                "alternative_id": 31873
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 31874,
+                    "question_id": 7762,
+                    "description": "Marcha anserina",
+                    "explanation": "Falso, Doc!\nOlha só. Anserino significa \"relativo a pato ou ganso\"🤓 , por isso também é chamada de marcha de pato. Esse nome é dado porque o paciente apresenta:\n- acentuação da **lordose lombar** para caminhar\n- e inclina o tronco **pra direita e pra esquerda**, alternadamente\nSemelhante ao andar de um pato\n- Causa  ➞  **doenças musculares** (diminuição da força dos músculos pélvicos e das coxas)\nTambém é chamada de marcha miopática\nEssas duas imagens vão te ajudar a entender melhor, Doc! 👇\n\nFontes: [https://investigafisio.blog/2019/03/07/marcha-de-pato-o-del-anade/](https://investigafisio.blog/2019/03/07/marcha-de-pato-o-del-anade/)\nVan Iersel MB, Mulley GP. What is a waddling gait? . Disponível em: [https://www.tandfonline.com/doi/abs/10.1080/09638280410001672526](https://www.tandfonline.com/doi/abs/10.1080/09638280410001672526)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-05T01:05:40.000Z",
+                    "updated_at": "2021-05-05T15:52:54.000Z",
+                    "files": [
+                        {
+                            "id": 8231,
+                            "file": "42b3c477-fd7a-45d0-9b9e-ff957e377816.png",
+                            "name": "Captura de tela 2021-05-04 215339.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-05T03:57:48.000Z",
+                            "updated_at": "2021-05-05T03:57:48.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/42b3c477-fd7a-45d0-9b9e-ff957e377816.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8231,
+                                "alternative_id": 31874
+                            }
+                        },
+                        {
+                            "id": 8230,
+                            "file": "411a987d-5de1-4fe1-be7d-f695da778892.jpeg",
+                            "name": "download (1).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-05T03:57:47.000Z",
+                            "updated_at": "2021-05-05T03:57:47.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/411a987d-5de1-4fe1-be7d-f695da778892.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8230,
+                                "alternative_id": 31874
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 31875,
+                    "question_id": 7762,
+                    "description": "Marcha de pequenos passos",
+                    "explanation": "Falso, Doc!\n\nNa marcha de pequenos passos temos:\n- **Passos muito curtos**\n- Paciente arrasta o pé ao caminhar, como se estivesse “**patinando**”. \n- Causas  ➞  paralisia pseudobulbar, em idosos e doenças extrapiramidais. \n\nÀs vezes, o paciente não consegue sair do lugar (“freezing”). ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-05T01:05:40.000Z",
+                    "updated_at": "2021-05-05T15:52:54.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 8227,
+                    "file": "c42d9a17-a4e7-426a-976c-1b511753abca.jpeg",
+                    "name": "hqdefault.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2021-05-05T02:36:40.000Z",
+                    "updated_at": "2021-05-05T02:36:40.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c42d9a17-a4e7-426a-976c-1b511753abca.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 8227,
+                        "question_id": 7762
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 7762,
+                "questionary_id": 267622,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7771,
+            "institution_id": 4,
+            "description": "Sobre a causa das diferentes marchas patológicas, assinale a alternativa CORRETA:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-05T15:43:23.000Z",
+            "updated_at": "2021-05-05T18:50:11.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 717,
+                    "title": "Exame da Marcha",
+                    "description": null,
+                    "parent_id": 245,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T01:03:25.000Z",
+                    "updated_at": "2022-01-26T15:33:19.000Z",
+                    "pivot": {
+                        "discipline_id": 717,
+                        "question_id": 7771
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 31908,
+                    "question_id": 7771,
+                    "description": "A marcha tabética é causada por lesão no cordão lateral da medula",
+                    "explanation": "Falso, Doc!\n- Ela é causada por lesão no codão, ou funículo, **posterior** da medula, o que leva a falha na propiocepção. \nDoc, vamos lembrar um pouco de neuroanatomia . Os tratos ascendentes da medula espinal são:\n- **Funículo posterior**: ligado à **propiocepção**, tato fino e percepção de vibrações\n- **Trato espinotalâmico lateral**: dor e temperatura\n- **Trato espinotalâmico anterior**:  tato grosso e pressão\nDoc, é complexo mesmo, mas uma imagem pode ajudar. Dá uma olhada nesse esquema 👇:\nFonte: https://edisciplinas.usp.br/pluginfile.php/2298264/mod_resource/content/1/sistema%20motor.pdf",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-05T12:43:23.000Z",
+                    "updated_at": "2021-05-05T15:50:11.000Z",
+                    "files": [
+                        {
+                            "id": 8233,
+                            "file": "533baf9d-51bf-4421-88e7-a2c6890e2d65.png",
+                            "name": "Captura de tela 2021-05-05 092943.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-05T15:31:52.000Z",
+                            "updated_at": "2021-05-05T15:31:52.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/533baf9d-51bf-4421-88e7-a2c6890e2d65.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8233,
+                                "alternative_id": 31908
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 31909,
+                    "question_id": 7771,
+                    "description": "A causa mais comum de marcha ceifante é o acidente vascular cerebral",
+                    "explanation": "Isso mesmo, Doc! 😁\nTambém chamada de **marcha hemiplégica,** essa é a causa mais comum. Hemi = metade. Plegia = paralisia. Portanto, o paciente tem um dos lados do corpo paralisados. Por isso que há, do mesmo lado do corpo:\n- **flexão de 90° do membro superior** no cotovelo e em adução\n- Leve **pronação da mão, que fica fechada** \n- Do mesmo lado o **membro inferior fica enrijecido,** espástico, sem flexão do joelho \n- A perna então se arrasta pelo chão descrevendo um semicírculo, lembrando uma foice (por isso ceifante 🤓)\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-05-05T12:43:23.000Z",
+                    "updated_at": "2021-05-05T15:50:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31910,
+                    "question_id": 7771,
+                    "description": "A marcha anserina é causada por paralisia pseudolobular",
+                    "explanation": "Falso, Doc!\n\nA marcha anserina (marcha miopática) é causada por **distúrbios musculares**, que causam diminuição da força dos músculos pélvicos e das coxas, principalmente, levando o paciente a andar de forma que lembra um pato:\n- acentuação da lordose lombar para caminhar\n- inclina o tronco pra direita e pra esquerda, alternadamente",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-05T12:43:23.000Z",
+                    "updated_at": "2021-05-05T15:50:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31911,
+                    "question_id": 7771,
+                    "description": "A marcha em tesoura é causada por hemiplegia",
+                    "explanation": "Falso, Doc!\nA marcha da hemiplegia é a marcha ceifante/helicópode/hemiplégica, em que uma das pernas fica rígida, sem flexão do joelho. Na marcha em tesoura não é só uma perna que está enrijecida e espástica, mas **as duas**, e há semiflexão dos membros inferiores, podendo ser causada por paralisias cerebrais\n\nDá uma olhada na imagem pra entender melhor, Doc! **😉**👇 \nFonte:   https://cargocollective.com/bhairavi_singh/Scissor-Gait-Walker",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-05T12:43:23.000Z",
+                    "updated_at": "2021-05-05T15:50:11.000Z",
+                    "files": [
+                        {
+                            "id": 8226,
+                            "file": "e30f802d-009a-432a-9235-d3288ef51384.jpeg",
+                            "name": "dfdf2_900.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-05T02:21:46.000Z",
+                            "updated_at": "2021-05-05T02:21:46.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e30f802d-009a-432a-9235-d3288ef51384.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8226,
+                                "alternative_id": 31911
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7771,
+                "questionary_id": 267622,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7773,
+            "institution_id": 4,
+            "description": "Sobre as marchas patológicas, assinale a alternativa CORRETA:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-05T12:55:15.000Z",
+            "updated_at": "2022-04-24T17:37:13.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 717,
+                    "title": "Exame da Marcha",
+                    "description": null,
+                    "parent_id": 245,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T01:03:25.000Z",
+                    "updated_at": "2022-01-26T15:33:19.000Z",
+                    "pivot": {
+                        "discipline_id": 717,
+                        "question_id": 7773
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 31916,
+                    "question_id": 7773,
+                    "description": "A marcha claudicante pode ser causada por lesões do aparelho locomotor.",
+                    "explanation": "Boa, Doc! Acertou! 😍 \n- Na marcha claudicante o paciente \"manca\" para um dos lados. \n- Também ocorre na insuficiência arterial periférica, quando o fluxo de sangue para os músculos se torna insuficiente quando o paciente caminha.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-05-05T12:55:15.000Z",
+                    "updated_at": "2022-04-24T17:37:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31917,
+                    "question_id": 7773,
+                    "description": "A marcha vestibular é também chamada de marcha do ébrio.",
+                    "explanation": "Errada, Doc! 🤔 \n- A marcha do ébrio 🍺 é a **marcha cerebelar/atáxic**a, em que o paciente anda desordenadamente (ataxia), como um bêbado, devido à lesão de cerebelo.\n- A **marcha vestibular** é causada por lesão vestibular, isto é, no labirinto - para lembrar que o vestíbulo é o labirinto, lembre como foi um labirinto conseguir passar no vestibular 😁. E como o vestíbulo é fundamental para o equilíbrio e propiocepção, lesões nesse local fazem o paciente realmente se sentir em um labirinto 😵, como se estivesse sendo empurrado quando tenta andar em linha reta\n- A marcha cerebelar também é chamada de  marcha em estrela ⭐ , porque se você pedir para ele ir de frente e voltar de costas, com os olhos fechados, o trajeto que ele vai fazer parecer uma estrela",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-05T12:55:15.000Z",
+                    "updated_at": "2022-04-24T17:37:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31918,
+                    "question_id": 7773,
+                    "description": "A  marcha escarvante é causada por paralisia do movimento de extensão do pé.",
+                    "explanation": "Errada, Doc! 🤔 \n- Ela acontece por paralisia do movimento de flexão **dorsal** do pé, deixando o **pé caído** durante a marcha. É comum o paciente tropeçar ao tentar caminhar. \n- Doc, no dicionário Michaelis 🤓 diz que \"escarvar\" é \"Cavar (o solo) superficialmente, como faz o cavalo com os cascos\" (lembre de escavar), e é exatamente isso que essa marcha lembra. \n- Se liga nessa imagem da marcha escarvante pra entender bem! 👇\n\nFonte: na imagem",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-05T12:55:15.000Z",
+                    "updated_at": "2022-04-24T17:37:13.000Z",
+                    "files": [
+                        {
+                            "id": 8228,
+                            "file": "65162491-1ac9-44b4-be26-b7cb728e2731.png",
+                            "name": "Captura de tela 2021-05-04 203917.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-05T02:39:47.000Z",
+                            "updated_at": "2021-05-05T02:39:47.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/65162491-1ac9-44b4-be26-b7cb728e2731.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8228,
+                                "alternative_id": 31918
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 31919,
+                    "question_id": 7773,
+                    "description": "Na marcha parkinsoniana o paciente mexe os braços descontroladamente em movimentos amplos exagerados, devido aos tremores de parkinson.",
+                    "explanation": "Errada, Doc! 🤔  É ao contrário!\n- O paciente fica rígido como um bloco devido a bradicinesia.\n- Há bradicinesia e há pobreza de movimentos automáticos, como movimentar os braços durante a marcha.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-05T12:55:15.000Z",
+                    "updated_at": "2022-04-24T17:37:13.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7773,
+                "questionary_id": 267622,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7775,
+            "institution_id": 4,
+            "description": "Sobre a marcha espástica, assinale a alternativa CORRETA:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-05T16:01:19.000Z",
+            "updated_at": "2021-05-05T16:01:19.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 717,
+                    "title": "Exame da Marcha",
+                    "description": null,
+                    "parent_id": 245,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T01:03:25.000Z",
+                    "updated_at": "2022-01-26T15:33:19.000Z",
+                    "pivot": {
+                        "discipline_id": 717,
+                        "question_id": 7775
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 31924,
+                    "question_id": 7775,
+                    "description": "É também chamada de marcha escarvante",
+                    "explanation": "Falso, Doc! \n- A marcha escarvante é também conhecida como ceifante. \n- A marcha espástica é a marcha em tesoura.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-05T13:01:19.000Z",
+                    "updated_at": "2021-05-05T13:01:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31925,
+                    "question_id": 7775,
+                    "description": "É causada pela síndrome de parkinson",
+                    "explanation": "Falso, Doc! A marcha da síndrome de parkinson é a marcha parkinsoniana, em que o paicente anda como um bloco enrijecido, com pouco movimento dos braços",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-05T13:01:19.000Z",
+                    "updated_at": "2021-05-05T13:01:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31926,
+                    "question_id": 7775,
+                    "description": "É conhecida como marcha em tesoura",
+                    "explanation": "Perfeito, Doc! 😍 \n• Na marcha em tesoura, como o nome já diz, o movimento lembra o de uma tesoura, pois os dois membros inferiores estão enrijecidos e espásticos (também como o nome já diz), semifletidos\n• Aparece em algumas paralisias cerebrais\nDá uma olhada na imagem pra entender melhor, Doc! 😉👇\nFonte: https://cargocollective.com/bhairavi_singh/Scissor-Gait-Walker\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-05-05T13:01:19.000Z",
+                    "updated_at": "2021-05-05T13:01:19.000Z",
+                    "files": [
+                        {
+                            "id": 8226,
+                            "file": "e30f802d-009a-432a-9235-d3288ef51384.jpeg",
+                            "name": "dfdf2_900.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-05T02:21:46.000Z",
+                            "updated_at": "2021-05-05T02:21:46.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e30f802d-009a-432a-9235-d3288ef51384.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8226,
+                                "alternative_id": 31926
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 31927,
+                    "question_id": 7775,
+                    "description": "É conhecida como marcha atáxica",
+                    "explanation": "Falso, Doc! \nA marcha atáxica é a marcha cerebelar, ou do ébrio 🍺",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-05T13:01:19.000Z",
+                    "updated_at": "2021-05-05T13:01:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7775,
+                "questionary_id": 267622,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7776,
+            "institution_id": 4,
+            "description": "Sobre as alterações da marcha, assinale a alternativa INCORRETA:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-05T16:12:54.000Z",
+            "updated_at": "2021-05-05T16:12:54.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 717,
+                    "title": "Exame da Marcha",
+                    "description": null,
+                    "parent_id": 245,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T01:03:25.000Z",
+                    "updated_at": "2022-01-26T15:33:19.000Z",
+                    "pivot": {
+                        "discipline_id": 717,
+                        "question_id": 7776
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 31928,
+                    "question_id": 7776,
+                    "description": "Podem ser causadas por deficiência de vitamina E",
+                    "explanation": "Isso mesmo, Doc! Hipovitaminose E pode causar afecções musculares e neurológicas, já que essa vitamina tem função antioxidante.\n\nOutras hipovitaminoses que podem levar a disbasias são as de B12 e folato (já que afetam o sistema nervoso)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-05T13:12:54.000Z",
+                    "updated_at": "2021-05-05T13:12:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31929,
+                    "question_id": 7776,
+                    "description": "Também são conhecidas como disbasias",
+                    "explanation": "Perfeito, Doc! Vem do grego:\n- Dis = dificuldade\n- Basia = marcha, caminhar",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-05T13:12:54.000Z",
+                    "updated_at": "2021-05-05T13:12:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31930,
+                    "question_id": 7776,
+                    "description": "Na marcha helicópode a mão do paciente fica em posição supina",
+                    "explanation": "Muito bem, Doc! Essa é a incorreta!\nTambém chamada de marcha hemiplégica, ou ceifante, nela o paciente apresenta:\n- **flexão de 90° do membro superior** no cotovelo e em adução\n- Leve **pronação** da mão, que fica fechada \n- Do mesmo lado o **membro inferior fica enrijecido**, espástico, sem flexão do joelho (por causa da hemiplegia)\nA perna então se arrasta pelo chão descrevendo um semicírculo, lembrando uma foice (por isso ceifante 🤓)\nFica mais fácil de entender com uma imagem, né, Doc? Dá só uma olhada 👇:\nFonte: @neurostudent [https://www.instagram.com/neurostudent](https://www.instagram.com/neurostudent)\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-05-05T13:12:54.000Z",
+                    "updated_at": "2021-05-05T13:12:54.000Z",
+                    "files": [
+                        {
+                            "id": 8225,
+                            "file": "17ad184f-fcf6-402e-847a-46c7b375b831.png",
+                            "name": "Captura de tela 2021-05-04 195528.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-05T01:55:44.000Z",
+                            "updated_at": "2021-05-05T01:55:44.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/17ad184f-fcf6-402e-847a-46c7b375b831.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8225,
+                                "alternative_id": 31930
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 31931,
+                    "question_id": 7776,
+                    "description": "A marcha dos pequenos passos ocorre nas doenças extrapiramidais",
+                    "explanation": "Certo, Doc! Ocorre também na paralisia pseudolobular. \n\nCaracterísticas:\n- Passos muito curtos\n- Paciente arrasta o pé ao caminhar, como se estivesse “patinando”. \n- Às vezes, o paciente não consegue sair do lugar (“freezing”). ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-05T13:12:54.000Z",
+                    "updated_at": "2021-05-05T13:12:54.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7776,
+                "questionary_id": 267622,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7781,
+            "institution_id": 4,
+            "description": "Assinale a alternativa que contem o nome da alteração de marcha em que, quando solicitado a andar para frente e para trás de olhos fechados, o paciente faz o trajeto mostrado na imagem:\n\nFonte: https://www.picuki.com/tag/tiposdemarcha",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-05T18:13:37.000Z",
+            "updated_at": "2021-05-05T18:13:37.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 717,
+                    "title": "Exame da Marcha",
+                    "description": null,
+                    "parent_id": 245,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T01:03:25.000Z",
+                    "updated_at": "2022-01-26T15:33:19.000Z",
+                    "pivot": {
+                        "discipline_id": 717,
+                        "question_id": 7781
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 31948,
+                    "question_id": 7781,
+                    "description": "Marcha tabética",
+                    "explanation": "Falso, Doc!\n\n- Na marcha tabética, o paciente levanta os membros inferiores abrupta e explosivamente e coloca o calcanhar no solo de modo intenso. \n- Como o problema do paciente é a sensibilidade propioceptiva por lesão no cordão posterior da medula, você pode pedir para o **paciente tentar andar de olhos fechados.** Provavelmente ele vai ter muito mais dificuldade ou não vai conseguir, e não andar formando a forma de uma estrela\nAchou muito difícil de gravar com esse nome estranho, Doc? É só lembrar do barulho \"tá! tá!\" que o pé faz no chão. \"Tá\" de tabética (não vai confundir com \"tum\" e falar marcha tumbética hein? 😜)\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-05T15:13:37.000Z",
+                    "updated_at": "2021-05-05T15:13:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31949,
+                    "question_id": 7781,
+                    "description": "Marcha do ébrio/cerebelar",
+                    "explanation": "Falso, Doc! \n- O nome **marcha cerebelar** vem de ser causada por incoordenação de movimentos devido a lesões do cerebelo (centro da coordenação)\n- Nela, o paciente anda em zigue-zague, com movimentos incertos, como uma pessoa embriagada , por isso às vezes aparece como **marcha do ébrio** 🍺\n- Também é chamada de **marcha atáxica**. \"atáxica\" vem de ataxis que quer dizer falta de ordem/coordenação (lembre-se da palavra taxonomia = ordenar/classificar)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-05T15:13:37.000Z",
+                    "updated_at": "2021-05-05T15:13:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31950,
+                    "question_id": 7781,
+                    "description": "Marcha espástica",
+                    "explanation": "Falso, Doc!\nNa marcha em tesoura, como o nome já diz, o movimento lembra o de uma tesoura, pois os dois membros inferiores estão enrijecidos e espásticos (também como o nome já diz), semifletidos, passando um na frente do outro alternadamente.\n Dá uma\nolhada na imagem pra entender melhor, Doc!\n**😉**👇 \n  \nFonte: [https://cargocollective.com/bhairavi_singh/Scissor-Gait-Walker](https://cargocollective.com/bhairavi_singh/Scissor-Gait-Walker)  \n\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-05T15:13:37.000Z",
+                    "updated_at": "2021-05-05T15:13:37.000Z",
+                    "files": [
+                        {
+                            "id": 8226,
+                            "file": "e30f802d-009a-432a-9235-d3288ef51384.jpeg",
+                            "name": "dfdf2_900.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-05T02:21:46.000Z",
+                            "updated_at": "2021-05-05T02:21:46.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e30f802d-009a-432a-9235-d3288ef51384.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8226,
+                                "alternative_id": 31950
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 31951,
+                    "question_id": 7781,
+                    "description": "Marcha vestibular",
+                    "explanation": "Parabéns, Doc! 👏 \nA marcha vestibular é causada por lesão vestibular (isto é, no **labirinto** - para lembrar que o vestíbulo é o labirinto, lembre como foi um labirinto conseguir passar no vestibular 😁). \nE como o vestíbulo é fundamental para o equilíbrio e propiocepção, lesões nesse local fazem o paciente realmente se sentir em um labirinto 😵. Ele apresentará:\n- lateropulsão, como alguém o empurrasse para o lado quando tenta se mover em linha reta. \n- Se você pedir para ele ir de frente e voltar de costas, com os olhos fechados, o trajeto que ele vai fazer parecer uma estrela, por isso também é chamada de marcha em estrela ⭐\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-05-05T15:13:37.000Z",
+                    "updated_at": "2021-05-05T15:13:37.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 8239,
+                    "file": "7bbae33b-900b-48bc-a6af-9db6f6fcfa65.png",
+                    "name": "Captura de tela 2021-05-05 120400.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2021-05-05T18:04:40.000Z",
+                    "updated_at": "2021-05-05T18:04:40.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7bbae33b-900b-48bc-a6af-9db6f6fcfa65.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 8239,
+                        "question_id": 7781
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 7781,
+                "questionary_id": 267622,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7783,
+            "institution_id": 303,
+            "description": "O membro inferior desempenha funções vitais como a deambulação e a sustentação do peso corporal. Sua integridade é essencial para a marcha, o que permite a locomoção dos seres humanos. Porém, algumas pessoas podem apresentar marchas patológicas. Sobre as marchas patológicas, marque a alternativa CORRETA.",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-05T18:29:36.000Z",
+            "updated_at": "2021-05-05T18:29:36.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 303,
+                "title": "COTEC FADENOR",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-05-05T15:29:36.000Z",
+                "updated_at": "2021-05-05T15:29:36.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 717,
+                    "title": "Exame da Marcha",
+                    "description": null,
+                    "parent_id": 245,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T01:03:25.000Z",
+                    "updated_at": "2022-01-26T15:33:19.000Z",
+                    "pivot": {
+                        "discipline_id": 717,
+                        "question_id": 7783
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 31956,
+                    "question_id": 7783,
+                    "description": "Marcha escarvante: para se locomover, o paciente mantém os membros inferiores enrijecidos e espásticos em semiflexão, e os pés se arrastam tocando o chão com o hálux.",
+                    "explanation": "Falso, Doc! Isso ocorre apenas em um dos membros inferiores, e não em ambos",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-05T15:29:36.000Z",
+                    "updated_at": "2021-05-05T15:29:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31957,
+                    "question_id": 7783,
+                    "description": "Marcha anserina: para se locomover, o paciente acentua a lordose lombar, mantém o membro superior aduzido e fletido a 90 graus e os membros inferiores em extensão com balanceio da pelve.",
+                    "explanation": "Falso, Doc! O membro superior aduzido e fletido 90° é uma característica da **marcha ceifante**, e não da anserina",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-05T15:29:36.000Z",
+                    "updated_at": "2021-05-05T15:29:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31958,
+                    "question_id": 7783,
+                    "description": "Marcha de ébrio: para se locomover, o paciente anda como um bloco, com os membros superiores aduzidos, com a cabeça inclinada para frente e os passos são rápidos e curtos.",
+                    "explanation": "Falso, Doc! Essa descrição é da **marcha parkinsoniana**, e não da marcha do ébrio\n ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-05T15:29:36.000Z",
+                    "updated_at": "2021-05-05T15:29:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31959,
+                    "question_id": 7783,
+                    "description": "Marcha tabética: para se locomover, o paciente mantém o olhar fixo no chão, os membros inferiores são erguidos abrupta e explosivamente e, ao serem recolocados no chão, os calcanhares tocam o solo pesadamente.",
+                    "explanation": "Perfeito, Doc! 😍 Isso ocorre por lesão do cordão dorsal da coluna, causando deficiência de propiocepção",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-05-05T15:29:36.000Z",
+                    "updated_at": "2021-05-05T15:29:36.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7783,
+                "questionary_id": 267622,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9427,
+            "institution_id": 4,
+            "description": "Em relação às marchas patológicas, assinale a alternativa **INCORRETA:**",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-25T00:18:30.000Z",
+            "updated_at": "2022-01-26T12:32:02.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 717,
+                    "title": "Exame da Marcha",
+                    "description": null,
+                    "parent_id": 245,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T01:03:25.000Z",
+                    "updated_at": "2022-01-26T15:33:19.000Z",
+                    "pivot": {
+                        "discipline_id": 717,
+                        "question_id": 9427
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 38565,
+                    "question_id": 9427,
+                    "description": "A marcha espástica é caracterizada pelos MMII enrijecidos e espásticos que se cruzam durante o caminhar",
+                    "explanation": "Essa está certa, Doc! 🤔\n- A marcha espástica ou espasmódica ocorre em pacientes com ambos MMII enrijecidos e espásticos, que permanecem semifletidos, de modo que os pés se arrastam e as pernas se cruzam quando o paciente tenta deambular. \n- Ocorre em pacientes com **esclerose múltipla** e em quadros de **paraparesia de MMII!** \n- Doc, se liga nesse exemplo👇\n- Fonte da imagem: [http://www.clinicaintensiva.com.br/espasticidade/](http://www.clinicaintensiva.com.br/espasticidade/)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-25T00:18:30.000Z",
+                    "updated_at": "2022-01-26T12:32:02.000Z",
+                    "files": [
+                        {
+                            "id": 12138,
+                            "file": "d1425bff-e54f-4a07-8d85-8b9bec28d22e.jpeg",
+                            "name": "andar-espastico-marcha-em-tesoura-espasticidade-paralisia-cerebral-450x300.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-25T03:00:28.000Z",
+                            "updated_at": "2021-06-25T03:00:28.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d1425bff-e54f-4a07-8d85-8b9bec28d22e.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12138,
+                                "alternative_id": 38565
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 38566,
+                    "question_id": 9427,
+                    "description": "Na marcha escarvante, o paciente anda com joelhos flexionados e altos, trazendo ao chão de maneira com que faça uma batida",
+                    "explanation": "Essa está certa, Doc! 🤔 \n- Na marcha escarvante, o paciente arrasta os pés ou elevam-no bem alto, com joelhos flexionados, trazendo ao chão de maneira com que faça uma batida. \n- É uma marcha vista em  quadros de **fraqueza no músculo tibial anterior** e em **doenças do neurônio motor inferior!** \n- Doc, se liga nessa imagem👇\n- Fonte: [http://blogaodefisio.blogspot.com/2014/](http://blogaodefisio.blogspot.com/2014/)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-25T00:18:30.000Z",
+                    "updated_at": "2022-01-26T12:32:02.000Z",
+                    "files": [
+                        {
+                            "id": 12139,
+                            "file": "04ca6070-7c97-44cb-b600-ecf376b2b5ec.png",
+                            "name": "escarvante.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-25T03:12:59.000Z",
+                            "updated_at": "2021-06-25T03:12:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/04ca6070-7c97-44cb-b600-ecf376b2b5ec.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12139,
+                                "alternative_id": 38566
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 38567,
+                    "question_id": 9427,
+                    "description": "A marcha parkinsoniana caracteriza-se por um caminhar com passos largos e desproporcionais",
+                    "explanation": "Boa, Doc, essa é a incorreta! 👊 \n- A marcha parkinsoniana é caracterizada por um andar de p**assos curtos e pés que arrastam no chão!** \n- Como o próprio nome sugere, é a marcha típica do paciente com **doença de Parkinson** e de pacientes com estágio avançado de **aterosclerose cerebral**! \n- Doc, saca só essa imagem👇\n- Fonte: [http://www.tuttopilates.com.br/pilates-para-parkinson/](http://www.tuttopilates.com.br/pilates-para-parkinson/)",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-06-25T00:18:30.000Z",
+                    "updated_at": "2022-01-26T12:32:02.000Z",
+                    "files": [
+                        {
+                            "id": 12140,
+                            "file": "89543758-ab77-4d2f-9aee-089bb9373788.jpeg",
+                            "name": "pilate-para-parkinson-capa-tutto-1280x720.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-25T00:15:54.000Z",
+                            "updated_at": "2021-06-25T00:15:54.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/89543758-ab77-4d2f-9aee-089bb9373788.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12140,
+                                "alternative_id": 38567
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 38568,
+                    "question_id": 9427,
+                    "description": "Durante a marcha tabética, o paciente mantém o olhar fixo no chão, levantando abruptamente os MMII ao caminhar",
+                    "explanation": "Essa está certa, Doc! 🤔 \n- Essa marcha é típica de condições como a **lesão do cordão posterior da medula** em que há perda da sensibilidade proprioceptiva! Lembra que é na região posterior da medula que entram os nervos aferentes? 🤓 Assim fica fácil gravar!\n- Também é chamada de marcha tabética. 😉",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-25T00:18:30.000Z",
+                    "updated_at": "2022-01-26T12:32:02.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9427,
+                "questionary_id": 267622,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7780,
+            "institution_id": 4,
+            "description": "Em relação às marchas patológicas, assinale a alternativa CORRETA:\n\n",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-05T17:58:28.000Z",
+            "updated_at": "2021-05-05T17:58:28.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 717,
+                    "title": "Exame da Marcha",
+                    "description": null,
+                    "parent_id": 245,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T01:03:25.000Z",
+                    "updated_at": "2022-01-26T15:33:19.000Z",
+                    "pivot": {
+                        "discipline_id": 717,
+                        "question_id": 7780
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 31944,
+                    "question_id": 7780,
+                    "description": "Na marcha do idoso há movimentos lentificados, passos curtos e aumento dos movimentos associados aos membros superiores",
+                    "explanation": "Falso, Doc!\nHá **diminuição** dos movimentos dos membros superiores. Podem haver também aterações no equilíbrio, coordenação, sensibilidade e força muscular, que aumentam os riscos de queda",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-05T14:58:28.000Z",
+                    "updated_at": "2021-05-05T14:58:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31945,
+                    "question_id": 7780,
+                    "description": "Paciente com marcha parkinsoniana permanece com a cabeça inclinada para trás",
+                    "explanation": "Isso mesmo, Doc, essa é a alternativa incorreta!\nNa marcha parkinsoniana:\n- o doente anda como um **bloco, enrijecido**, \n- **sem o movimento automático dos braços**. \n- cabeça permanece inclinada para **frente** (parecendo que corre atrás do seu centro de gravidade e que irá sofrer uma queda para a frente) \n- **passos miúdos e rápidos**,\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-05T14:58:28.000Z",
+                    "updated_at": "2021-05-05T14:58:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31946,
+                    "question_id": 7780,
+                    "description": "Na marcha anserina há uma elevação acentuada do membro inferior, lembrando o \"passo de ganso\" dos soldados prussianos",
+                    "explanation": "Falso, Doc! Essa descrição é da marcha escarvante, em que o paciente tem paralisia do movimento de **flexão dorsal** do pé., fazendo com que eleve muito o membro superior para tentar colocar o pé no chão, mas acabe encostando sempre a ponta primeiro, como se estivesse escavando o chão, como o cavalo faz com as patas (essa é a definição de escarvar, segundo o   dicionário 🤓) ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-05T14:58:28.000Z",
+                    "updated_at": "2021-05-05T14:58:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31947,
+                    "question_id": 7780,
+                    "description": "Na apraxia da marcha a lesão ocorre em ambos os hemisférios e a dificuldade da marcha é principalmente no seu início",
+                    "explanation": "Exatamente, Doc! 😁\nApraxia é a incapacidade de coordenar movimentos voluntários. A apraxia da marcha é causada por **lesão frontal de ambos os hemisférios**, gerando dificuldade da marcha, **em especial no início dela.**\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-05-05T14:58:28.000Z",
+                    "updated_at": "2021-05-05T14:58:28.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7780,
+                "questionary_id": 267622,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7782,
+            "institution_id": 302,
+            "description": "Em relação às marchas patológicas, marque a alternativa correta.",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-05T18:21:37.000Z",
+            "updated_at": "2021-05-05T18:21:37.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 302,
+                "title": "MS Concursos",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-05-05T15:21:37.000Z",
+                "updated_at": "2021-05-05T15:21:37.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 717,
+                    "title": "Exame da Marcha",
+                    "description": null,
+                    "parent_id": 245,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T01:03:25.000Z",
+                    "updated_at": "2022-01-26T15:33:19.000Z",
+                    "pivot": {
+                        "discipline_id": 717,
+                        "question_id": 7782
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 31952,
+                    "question_id": 7782,
+                    "description": "A marcha em tesoura manifesta-se na diplegia espástica congênita, porém apresenta acentuada hipotonia dos adutores do quadril.",
+                    "explanation": "Falso, Doc! Na marcha em tesoura/espástica, há uma contratura dos adutores do quadril, gerando espasticidade, ou seja, há **hipertonia**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-05T15:21:37.000Z",
+                    "updated_at": "2021-05-05T15:21:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31953,
+                    "question_id": 7782,
+                    "description": "A marcha atáxica é também conhecida como marcha ebriosa, e é encontrada nas lesões do mesencéfalo.",
+                    "explanation": "Falso, Doc! A lesão ocorre no cerebelo, por isso também é chamada de **marcha cerebelar**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-05T15:21:37.000Z",
+                    "updated_at": "2021-05-05T15:21:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31954,
+                    "question_id": 7782,
+                    "description": "Marcha tabética é encontrada nas lesões dos cordões posteriores da medula.",
+                    "explanation": "Verdadeiro, Doc! Ela é causada por lesão no codão, ou funículo, **posterior** da medula, o que leva a falha na propiocepção. \nDoc, vamos lembrar um pouco de neuroanatomia . Os tratos ascendentes da medula espinal são:\n- **Funículo posterior**: ligado à **propiocepção**, tato fino e percepção de vibrações\n- **Trato espinotalâmico lateral**: dor e temperatura\n- **Trato espinotalâmico anterior**:  tato grosso e pressão\n\nDoc, é complexo mesmo, mas uma imagem pode ajudar. Dá uma olhada nesse esquema 👇:\n\nFonte: [https://edisciplinas.usp.br/pluginfile.php/2298264/mod_resource/content/1/sistema%20motor.pdf](https://edisciplinas.usp.br/pluginfile.php/2298264/mod_resource/content/1/sistema%20motor.pdf) ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-05-05T15:21:37.000Z",
+                    "updated_at": "2021-05-05T15:21:37.000Z",
+                    "files": [
+                        {
+                            "id": 8233,
+                            "file": "533baf9d-51bf-4421-88e7-a2c6890e2d65.png",
+                            "name": "Captura de tela 2021-05-05 092943.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-05T15:31:52.000Z",
+                            "updated_at": "2021-05-05T15:31:52.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/533baf9d-51bf-4421-88e7-a2c6890e2d65.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8233,
+                                "alternative_id": 31954
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 31955,
+                    "question_id": 7782,
+                    "description": "A marcha digitígrada ocorre devido à hipotonia do tríceps sural.",
+                    "explanation": "Falso, Doc! Ocorre quando há **hipertonia** do tríceps sural. Quando contraímos o tríceps sural, há flexão plantar do pé e, com isso marcha se faz na ponta dos pés, motivo porque também é chamada de **marcha da bailarina**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-05T15:21:37.000Z",
+                    "updated_at": "2021-05-05T15:21:37.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7782,
+                "questionary_id": 267622,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7784,
+            "institution_id": 304,
+            "description": "Acerca do exame neurológico do pré-escolar e do escolar, assinale a alternativa correta.",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-05T18:47:23.000Z",
+            "updated_at": "2021-05-05T18:47:23.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 304,
+                "title": "Secretaria do Estado de Saúde do Distrito Federal - DF",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-05-05T15:47:23.000Z",
+                "updated_at": "2021-05-05T15:47:23.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 717,
+                    "title": "Exame da Marcha",
+                    "description": null,
+                    "parent_id": 245,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T01:03:25.000Z",
+                    "updated_at": "2022-01-26T15:33:19.000Z",
+                    "pivot": {
+                        "discipline_id": 717,
+                        "question_id": 7784
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 31960,
+                    "question_id": 7784,
+                    "description": "A marcha em tesoura é a marcha típica que representa a ocorrência de lesão unilateral ao trato corticoespinhal, primeiro neurônio motor, geralmente secundária a um acidente vascular cerebral. Também é conhecida por marcha ceifante, pois o movimento para realizar a marcha forma um semicírculo no chão do lado parético.",
+                    "explanation": "Falso, Doc!\n- Na marcha hemiplégica, helicópode, ou **marcha ceifante,** o paciente o paciente apresenta alteração de apenas um lado do corpo, sendo que o membro inferior desse lado fica enrijecido, espástico, sem flexão do joelho e a perna então se arrasta pelo chão descrevendo um semicírculo, lembrando uma foice (por isso ceifante 🤓). A causa mais comum é o **AV**C\n- Já na marcha em tesoura, ou espástica, como o nome já diz, o movimento lembra o de uma tesoura, pois **os dois membros inferiores** (e não apenas um) estão enrijecidos e espásticos (também como o nome já diz), semifletidos. Aparece em algumas paralisias cerebrais",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-05T15:47:23.000Z",
+                    "updated_at": "2021-05-05T15:47:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31961,
+                    "question_id": 7784,
+                    "description": "A marcha anserina é provocada quando alguma doença leva ao dano da coluna proprioceptiva exclusivamente, como, por exemplo, ocorre na sífilis terciária e nas neuropatias sensitivas.",
+                    "explanation": "Falso, Doc! A marcha anserina, ou de Trelendeburg, também é chamada de mioática, porque é causada por doenças musculares, com diminuição da força dos músculos pélvicos e das coxas.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-05T15:47:23.000Z",
+                    "updated_at": "2021-05-05T15:47:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31962,
+                    "question_id": 7784,
+                    "description": "Na ataxia cerebelar, a marcha torna-se cambaleante, desajeitada, titubeante, com base alargada e o paciente oscila de um lado para o outro, sendo incapaz de seguir um trajeto retilíneo no chão.",
+                    "explanation": "Exato, Doc! 🤗 Por isso essa marcha também é conhecida como marcha do ébrio 🍺",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-05-05T15:47:23.000Z",
+                    "updated_at": "2021-05-05T15:47:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31963,
+                    "question_id": 7784,
+                    "description": "No exame de estática, com o paciente em pé, os pés unidos e os braços ao longo do corpo, sempre há piora do desequilíbrio das afecções cerebelares com os olhos fechados.",
+                    "explanation": "Falso, Doc! Na avaliação do equilíbrio estático efetua-se a **prova de Romberg,** em que o paciente deve ficar em pé, com os pés juntos, olhando para a frente e fechar as pálpebras. Em determinadas alterações neurológicas, há desequilíbrio e forte tendência a queda). Essa pode ser\n- Para qualquer lado e imediatamente ao fechar o olho  ➞  lesão das vias de sensibilidade proprioceptiva consciente\n- Sempre para o mesmo lado após um pequeno  ➞  lesão do aparelho vestibular.\n\nDesequilíbrio antes mesmo de o paciente fechar os olhos, pode sugerir uma ataxia cerebelar, mas mas não é sempre que isso ocorrerá na doença",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-05T15:47:23.000Z",
+                    "updated_at": "2021-05-05T15:47:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31964,
+                    "question_id": 7784,
+                    "description": "No exame de estática, o teste de Romberg, olhos fechados, é manobra semiotécnica para averiguar lesão cerebelar apenas.",
+                    "explanation": "\nFalso, Doc! Na avaliação do equilíbrio estático efetua-se a **prova de Romberg,** em que o paciente deve ficar em pé, com os pés juntos, olhando para a frente e fechar as pálpebras. Em determinadas alterações neurológicas, há desequilíbrio e forte tendência a queda). Essa pode ser\n- Para qualquer lado e imediatamente ao fechar o olho  ➞  lesão das vias de sensibilidade proprioceptiva consciente\n- Sempre para o mesmo lado após um pequeno  ➞  lesão do aparelho vestibular.\n\nDesequilíbrio antes mesmo de o paciente fechar os olhos, pode sugerir uma ataxia cerebelar, mas o teste avalia principalmente lesões de labirinto, *tabes dorsalis* (que causa marcha tabética), degeneração combinada da medula e neuropatia periférica",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-05-05T15:47:23.000Z",
+                    "updated_at": "2021-05-05T15:47:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7784,
+                "questionary_id": 267622,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7786,
+            "institution_id": 305,
+            "description": "A marcha de um paciente com distrofia muscular é do tipo:",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-05T18:58:37.000Z",
+            "updated_at": "2021-05-05T18:58:37.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 305,
+                "title": "VUNESP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-05-05T15:58:37.000Z",
+                "updated_at": "2021-05-05T15:58:37.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 717,
+                    "title": "Exame da Marcha",
+                    "description": null,
+                    "parent_id": 245,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T01:03:25.000Z",
+                    "updated_at": "2022-01-26T15:33:19.000Z",
+                    "pivot": {
+                        "discipline_id": 717,
+                        "question_id": 7786
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 31969,
+                    "question_id": 7786,
+                    "description": "ceifante",
+                    "explanation": "Falso, Doc! A marcha ceifante é causada por hemiplegia, e não por distrofia muscular",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-05T15:58:37.000Z",
+                    "updated_at": "2021-05-05T15:58:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31970,
+                    "question_id": 7786,
+                    "description": "claudicante",
+                    "explanation": "Falso, Doc! A marcha claudicante é causada por lesões do aparelho locomotor ou insuficiência arterial periférica, e não por distrofia muscular ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-05T15:58:37.000Z",
+                    "updated_at": "2021-05-05T15:58:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31971,
+                    "question_id": 7786,
+                    "description": "miopática",
+                    "explanation": "Certo, Doc! 😁 A marcha anserina, ou miopática, é causada por doenças musculares com diminuição da força dos músculos pélvicos e das coxas, o que pode acontecer na distrofia muscular",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-05-05T15:58:37.000Z",
+                    "updated_at": "2021-05-05T15:58:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31972,
+                    "question_id": 7786,
+                    "description": "festinante",
+                    "explanation": "Falso, Doc! Festinante é outro nome para a marcha parkinsoniana, que ocorre na síndrome de Parkinson, e não na distrofia muscular",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-05T15:58:37.000Z",
+                    "updated_at": "2021-05-05T15:58:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31973,
+                    "question_id": 7786,
+                    "description": "talonante",
+                    "explanation": "Falso, Doc! Marcha talonante (de talus - calcanhar) é a mesma coisa que marcha tabética. Ocorre por perda de sensibilidade propioceptiva por lesão no cordão posterior da medula, e não por distrofia muscular",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-05-05T15:58:37.000Z",
+                    "updated_at": "2021-05-05T15:58:37.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7786,
+                "questionary_id": 267622,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7787,
+            "institution_id": 306,
+            "description": "J.S.S., 67 anos, sexo feminino, iniciou quadro de sucessivas quedas, tremores, principalmente em membros\nsuperiores, e alterações da marcha. Procurou, então, um neurologista para esclarecimento diagnóstico. Este observou que seu padrão de marcha era compatível com uma determinada síndrome e uma específica análise biomecânica. Assinale a opção coerente com o quadro acima descrito.",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-05T19:07:29.000Z",
+            "updated_at": "2021-05-05T19:07:29.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 306,
+                "title": "UNIFESO",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-05-05T16:07:29.000Z",
+                "updated_at": "2021-05-05T16:07:29.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 717,
+                    "title": "Exame da Marcha",
+                    "description": null,
+                    "parent_id": 245,
+                    "is_enabled": true,
+                    "created_at": "2021-05-05T01:03:25.000Z",
+                    "updated_at": "2022-01-26T15:33:19.000Z",
+                    "pivot": {
+                        "discipline_id": 717,
+                        "question_id": 7787
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 31974,
+                    "question_id": 7787,
+                    "description": "Marcha hipercinética compatível com Coreoatetose.",
+                    "explanation": "Falso, Doc! Na coreoatetose há a presença de coreia (movimentos involuntários, imprevisíveis e aleatórios dos memebros superiores) e atetose (movimento lento, involuntário e contorcido dos membros) Não costuma haver uma marcha específica.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-05T16:07:29.000Z",
+                    "updated_at": "2021-05-05T16:07:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31975,
+                    "question_id": 7787,
+                    "description": "Marcha hipocinética, própria do Parkinsonismo, com flexão de tronco e pescoço.",
+                    "explanation": "Arrasou, Doc! 😁 Há hipocinese na marcha parkinsoniana ocorre na síndrome de parkinson (na qual aparecem tremores como descrito no caso)\n- Há passos curtos, movimento em bloco e a cabeça inclinada para a frente, lembrando um esquiador (por isso é chamada de **postura do Esquiador**). \n- O movimento dos braços também é reduzido devido à bradicinesia.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-05-05T16:07:29.000Z",
+                    "updated_at": "2021-05-05T16:07:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31976,
+                    "question_id": 7787,
+                    "description": "Marcha anserina, própria da miopatia.",
+                    "explanation": "Falso, Doc! O quadro de tremores em idoso conforme descrito é indicativo de síndrome de Parkinson",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-05T16:07:29.000Z",
+                    "updated_at": "2021-05-05T16:07:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31977,
+                    "question_id": 7787,
+                    "description": "Marcha em tesoura, específica de lesões piramidais.",
+                    "explanation": "Falso, Doc! O quadro de tremores em idoso conforme descrito é indicativo de síndrome de Parkinson ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-05T16:07:29.000Z",
+                    "updated_at": "2021-05-05T16:07:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 31978,
+                    "question_id": 7787,
+                    "description": "Marcha ceifante, com o padrão de Werneck-mann ",
+                    "explanation": "Falso, Doc! O quadro de tremores em idoso conforme descrito é indicativo de síndrome de Parkinson",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-05-05T16:07:29.000Z",
+                    "updated_at": "2021-05-05T16:07:29.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7787,
+                "questionary_id": 267622,
+                "timer": 0
+            }
+        }
+    ]
+}

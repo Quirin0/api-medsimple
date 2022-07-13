@@ -1,0 +1,1156 @@
+{
+    "id": 268199,
+    "user_id": 1699,
+    "title": "Radiografia da Coluna",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T22:54:52.000Z",
+    "updated_at": "2022-07-11T22:54:52.000Z",
+    "study_plan_id": 496,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 5731,
+            "institution_id": 4,
+            "description": "Qual é o exame padrão-ouro para investigar as patologias da coluna dorsal?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-01-04T01:59:32.000Z",
+            "updated_at": "2021-01-05T03:02:14.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 570,
+                    "title": "Radiologia da Coluna ",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2021-01-04T01:53:34.000Z",
+                    "updated_at": "2021-01-04T01:53:34.000Z",
+                    "pivot": {
+                        "discipline_id": 570,
+                        "question_id": 5731
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23653,
+                    "question_id": 5731,
+                    "description": "Raio-x",
+                    "explanation": "É um exame de imagem barato e amplamente disponível. Pode demonstrar patologias relacionadas as vertebras. Contudo, apresenta poucas informações sobre os tecidos adjacentes as vertebras.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-01-03T22:59:32.000Z",
+                    "updated_at": "2021-01-05T00:02:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23654,
+                    "question_id": 5731,
+                    "description": "Ressonância Magnética",
+                    "explanation": "Perfeito, Doc. É o melhor exame de imagem para avaliar a coluna vertebral\n- Possui nitidez para os tecidos moles adjacentes as vertebras, podendo aumentar a gama de diagnósticos possíveis.\n- Possui suas limitações, já que não é disponível na maioria dos serviços.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-01-03T22:59:32.000Z",
+                    "updated_at": "2021-01-05T00:02:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23655,
+                    "question_id": 5731,
+                    "description": "Tomografia Computadorizada",
+                    "explanation": "Pode apresentar uma boa alternativa ao Raio-X, sendo atualmente, muito utilizado no trauma para avaliar a coluna vertebral. Não é o padrão-ouro.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-01-03T22:59:32.000Z",
+                    "updated_at": "2021-01-05T00:02:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23656,
+                    "question_id": 5731,
+                    "description": "Ultrassonografia",
+                    "explanation": "Não é considerado um exame de imagem apropriado para avaliação da coluna vertebral",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-01-03T22:59:32.000Z",
+                    "updated_at": "2021-01-05T00:02:14.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5731,
+                "questionary_id": 268199,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5732,
+            "institution_id": 4,
+            "description": "Diga o nome da estrutura apontada pela \"seta branca sólida\":\n\n\n",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-01-04T02:03:34.000Z",
+            "updated_at": "2021-03-11T04:57:58.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 570,
+                    "title": "Radiologia da Coluna ",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2021-01-04T01:53:34.000Z",
+                    "updated_at": "2021-01-04T01:53:34.000Z",
+                    "pivot": {
+                        "discipline_id": 570,
+                        "question_id": 5732
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23657,
+                    "question_id": 5732,
+                    "description": "Canal espinhal",
+                    "explanation": "Representado pelo \"C\" na imagem\n\n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-01-03T23:03:34.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2622,
+                            "file": "1609714916482.jpeg",
+                            "name": "coluna 2.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-01-04T02:01:57.000Z",
+                            "updated_at": "2021-01-04T02:01:57.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609714916482.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2622,
+                                "alternative_id": 23657
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 23658,
+                    "question_id": 5732,
+                    "description": "Processo espinhoso",
+                    "explanation": "Representado pela linha branca pontilhada na imagem",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-01-03T23:03:34.000Z",
+                    "updated_at": "2021-01-03T23:03:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23659,
+                    "question_id": 5732,
+                    "description": "Pedículos vertebrais",
+                    "explanation": "Perfeito, doc; É examente essa estrutura anatômica.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-01-03T23:03:34.000Z",
+                    "updated_at": "2021-01-03T23:03:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23660,
+                    "question_id": 5732,
+                    "description": "Processo transverso",
+                    "explanation": "Representado pelo \"T'' da imagem\n\n\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-01-03T23:03:34.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2623,
+                            "file": "1609715003970.jpeg",
+                            "name": "coluna 2.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-01-04T02:03:24.000Z",
+                            "updated_at": "2021-01-04T02:03:24.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609715003970.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2623,
+                                "alternative_id": 23660
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 2621,
+                    "file": "1609714849706.jpeg",
+                    "name": "coluna.JPG",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2021-01-04T02:00:50.000Z",
+                    "updated_at": "2021-01-04T02:00:50.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609714849706.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 2621,
+                        "question_id": 5732
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 5732,
+                "questionary_id": 268199,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5837,
+            "institution_id": 4,
+            "description": "Assinale a ordem correta das estruturas que fazem parte da coluna: ",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-01-21T00:47:33.000Z",
+            "updated_at": "2021-01-21T00:47:33.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 570,
+                    "title": "Radiologia da Coluna ",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2021-01-04T01:53:34.000Z",
+                    "updated_at": "2021-01-04T01:53:34.000Z",
+                    "pivot": {
+                        "discipline_id": 570,
+                        "question_id": 5837
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 24084,
+                    "question_id": 5837,
+                    "description": "Ligamento longitudinal anterior ➡ Ligamento longitudinal posterior ➡ Ligamento flavo ➡ Ligamento interespinhoso ➡ Ligamento supraespinal",
+                    "explanation": "Perfeito, doc. Essa é a sequência correta. Essa anatomia acaba por ser de extrema importância, já que é um conhecimento necessário para procedimentos como a punção lombar.\n\n\n\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-01-20T21:47:33.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2654,
+                            "file": "1611179176232.jpeg",
+                            "name": "coluna 11.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-01-21T00:46:17.000Z",
+                            "updated_at": "2021-01-21T00:46:17.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1611179176232.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2654,
+                                "alternative_id": 24084
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 24085,
+                    "question_id": 5837,
+                    "description": "Ligamento longitudinal posterior ➡ Ligamento longitudinal anterior  ➡ Ligamento flavo ➡ Ligamento interespinhoso ➡ Ligamento supraespinal",
+                    "explanation": "Quase doc, tente de novo!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-01-20T21:47:33.000Z",
+                    "updated_at": "2021-01-20T21:47:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24086,
+                    "question_id": 5837,
+                    "description": "Ligamento longitudinal posterior ➡ Ligamento longitudinal anterior  ➡ Ligamento flavo ➡ Ligamento supraespinal➡ Ligamento interespinhoso  ",
+                    "explanation": "Quase doc, houve uma troca de palavras.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-01-20T21:47:33.000Z",
+                    "updated_at": "2021-01-20T21:47:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24087,
+                    "question_id": 5837,
+                    "description": "Ligamento longitudinal anterior ➡ Ligamento longitudinal posterior ➡ Ligamento flavo ➡ Ligamento supraespinal➡ Ligamento interespinhoso  ",
+                    "explanation": "\nTente de novo. Não desista 😊",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-01-20T21:47:33.000Z",
+                    "updated_at": "2021-01-20T21:47:33.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5837,
+                "questionary_id": 268199,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5733,
+            "institution_id": 4,
+            "description": "Para diagnosticar irregularidades no alinhamento da coluna cervical, utilizamos três linhas como guias (mostrada na imagem). Assinale a correlação INCORRETA em relação a estrutura anatômica e as linhas.\n\n\n",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-01-04T02:11:53.000Z",
+            "updated_at": "2021-10-02T20:52:26.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 570,
+                    "title": "Radiologia da Coluna ",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2021-01-04T01:53:34.000Z",
+                    "updated_at": "2021-01-04T01:53:34.000Z",
+                    "pivot": {
+                        "discipline_id": 570,
+                        "question_id": 5733
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23661,
+                    "question_id": 5733,
+                    "description": "Posterior a linha preta pontilhada -> Processo transverso e lâmina vertebral",
+                    "explanation": "Perfeito, são exatamente essas estruturas.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-01-03T23:11:53.000Z",
+                    "updated_at": "2021-10-02T17:52:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23662,
+                    "question_id": 5733,
+                    "description": "Entre linhas pretas -> Corpos vertebrais posteriores",
+                    "explanation": "Perfeito, são exatamente essas estruturas. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-01-03T23:11:53.000Z",
+                    "updated_at": "2021-10-02T17:52:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23663,
+                    "question_id": 5733,
+                    "description": "Entre linha preta sólida e linha branca pontilhada -> Corpos vertebrais Anteriores",
+                    "explanation": "Perfeito, são exatamente essas estruturas.  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-01-03T23:11:53.000Z",
+                    "updated_at": "2021-10-02T17:52:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23664,
+                    "question_id": 5733,
+                    "description": "Todas as alternativas estão corretas",
+                    "explanation": "Exatamente, doc.\n- Essa visão lateral permite uma rápido acesso a fratura/subluxação espinhal.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-01-03T23:11:53.000Z",
+                    "updated_at": "2021-10-02T17:52:26.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 2624,
+                    "file": "1609715201172.jpeg",
+                    "name": "coluna 3.JPG",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2021-01-04T02:06:41.000Z",
+                    "updated_at": "2021-01-04T02:06:41.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609715201172.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 2624,
+                        "question_id": 5733
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 5733,
+                "questionary_id": 268199,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5734,
+            "institution_id": 4,
+            "description": "Qual é o diagnóstico mais compatível com a imagem?\n\n\n",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-01-04T02:23:17.000Z",
+            "updated_at": "2021-03-11T04:57:58.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 570,
+                    "title": "Radiologia da Coluna ",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2021-01-04T01:53:34.000Z",
+                    "updated_at": "2021-01-04T01:53:34.000Z",
+                    "pivot": {
+                        "discipline_id": 570,
+                        "question_id": 5734
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23665,
+                    "question_id": 5734,
+                    "description": "Hérnia de disco entre C2-C3",
+                    "explanation": "Quase doc, tenta de novo. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-01-03T23:23:17.000Z",
+                    "updated_at": "2021-01-03T23:23:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23666,
+                    "question_id": 5734,
+                    "description": "Hérnia de disco entre C3-C4",
+                    "explanation": "Quase doc, tenta de novo. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-01-03T23:23:17.000Z",
+                    "updated_at": "2021-01-03T23:23:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23667,
+                    "question_id": 5734,
+                    "description": "Hérnia de disco entre C4-C5",
+                    "explanation": "Perfeito, Doc. Temos na linha branca sólida uma extensão posterior no espaço entre C4-C5 com seguida compressão da medula espinhal.\n\n\n\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-01-03T23:23:17.000Z",
+                    "updated_at": "2021-03-11T01:58:18.000Z",
+                    "files": [
+                        {
+                            "id": 2626,
+                            "file": "1609716182403.jpeg",
+                            "name": "coluna 5.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-01-04T02:23:03.000Z",
+                            "updated_at": "2021-01-04T02:23:03.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609716182403.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2626,
+                                "alternative_id": 23667
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 23668,
+                    "question_id": 5734,
+                    "description": "Hérnia de disco entre C5-C6",
+                    "explanation": "Quase doc, tenta de novo.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-01-03T23:23:17.000Z",
+                    "updated_at": "2021-01-03T23:23:17.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 2625,
+                    "file": "1609716011729.jpeg",
+                    "name": "coluna 4.JPG",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2021-01-04T02:20:12.000Z",
+                    "updated_at": "2021-01-04T02:20:12.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609716011729.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 2625,
+                        "question_id": 5734
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 5734,
+                "questionary_id": 268199,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5736,
+            "institution_id": 4,
+            "description": "O que a seta sólida branca aponta?\n\n\n\n",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-01-05T02:54:07.000Z",
+            "updated_at": "2021-03-11T04:57:58.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 570,
+                    "title": "Radiologia da Coluna ",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2021-01-04T01:53:34.000Z",
+                    "updated_at": "2021-01-04T01:53:34.000Z",
+                    "pivot": {
+                        "discipline_id": 570,
+                        "question_id": 5736
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23673,
+                    "question_id": 5736,
+                    "description": "Osteofito",
+                    "explanation": "Exatamente. É um dos sinais do processo de osteoartrose vertebral.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-01-04T23:54:07.000Z",
+                    "updated_at": "2021-01-04T23:54:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23674,
+                    "question_id": 5736,
+                    "description": "Esclerose do corpo vertebral",
+                    "explanation": "Representado pela linha sólida preta",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-01-04T23:54:07.000Z",
+                    "updated_at": "2021-01-04T23:54:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23675,
+                    "question_id": 5736,
+                    "description": "Articulações facetárias",
+                    "explanation": "Estão representadas com a seta sólida preta\n\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-01-04T23:54:07.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2628,
+                            "file": "1609804356063.jpeg",
+                            "name": "coluna 7.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-01-05T02:52:36.000Z",
+                            "updated_at": "2021-01-05T02:52:36.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609804356063.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2628,
+                                "alternative_id": 23675
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 23676,
+                    "question_id": 5736,
+                    "description": "Fenômeno do vácuo intradiscal",
+                    "explanation": "Representa uma dissecção do disco e está representado pela seta preta pontilhada",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-01-04T23:54:07.000Z",
+                    "updated_at": "2021-01-04T23:54:07.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 2627,
+                    "file": "1609804125536.jpeg",
+                    "name": "coluna 6.JPG",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2021-01-05T02:48:46.000Z",
+                    "updated_at": "2021-01-05T02:48:46.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609804125536.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 2627,
+                        "question_id": 5736
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 5736,
+                "questionary_id": 268199,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5737,
+            "institution_id": 4,
+            "description": "Sobre as fraturas vertebrais por compressão, assinale a incorreta:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-01-05T03:00:08.000Z",
+            "updated_at": "2021-01-05T03:00:08.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 570,
+                    "title": "Radiologia da Coluna ",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2021-01-04T01:53:34.000Z",
+                    "updated_at": "2021-01-04T01:53:34.000Z",
+                    "pivot": {
+                        "discipline_id": 570,
+                        "question_id": 5737
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23677,
+                    "question_id": 5737,
+                    "description": "Mulheres são mais acometidas que homens",
+                    "explanation": "Perfeito.\n- Mulheres são mais acometidas que homens\n- São tipicamente secundárias a osteoporose.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-01-05T00:00:08.000Z",
+                    "updated_at": "2021-01-05T00:00:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23678,
+                    "question_id": 5737,
+                    "description": "Podem apresentar-se como um aumento da cifose vertebral",
+                    "explanation": "Perfeito.\n- Geralmente são assintomáticas\n- Podem aumentar a cifose e/ou diminuir a altura total do(a) paciente.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-01-05T00:00:08.000Z",
+                    "updated_at": "2021-01-05T00:00:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23679,
+                    "question_id": 5737,
+                    "description": "Compressões osteoporóticas geralmente envolvem a parte posterior do corpo vertebral, poupando a parte anterior e superior",
+                    "explanation": "Falso. Justamento o contrário.\n- Poupam a parte posterior do corpo vertebral\n- Afeta a parte anterior e superior\n\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-01-05T00:00:08.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2629,
+                            "file": "1609804718331.jpeg",
+                            "name": "coluna 8.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-01-05T02:58:38.000Z",
+                            "updated_at": "2021-01-05T02:58:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1609804718331.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2629,
+                                "alternative_id": 23679
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 23680,
+                    "question_id": 5737,
+                    "description": "Geralmente não temos déficit neurológico associado",
+                    "explanation": "Perfeito.\n- Isso porquê geralmente envolve a região anterior da vértebra, longo da coluna espinhal",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-01-05T00:00:08.000Z",
+                    "updated_at": "2021-01-05T00:00:08.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5737,
+                "questionary_id": 268199,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5738,
+            "institution_id": 4,
+            "description": "Sobre neoplasias envolvendo a coluna dorsal, assinale a correta:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-01-05T03:09:44.000Z",
+            "updated_at": "2021-01-05T03:09:44.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 570,
+                    "title": "Radiologia da Coluna ",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2021-01-04T01:53:34.000Z",
+                    "updated_at": "2021-01-04T01:53:34.000Z",
+                    "pivot": {
+                        "discipline_id": 570,
+                        "question_id": 5738
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23681,
+                    "question_id": 5738,
+                    "description": "Tumores primárias são mais comuns que metástases ósseas",
+                    "explanation": "Falso.\n- As metástases para osso são 25 vezes mais comuns do que os tumores ósseos primários.\n- Geralmente ocorrem na medula óssea vermelha e no esquele axial.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-01-05T00:09:44.000Z",
+                    "updated_at": "2021-01-05T00:09:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23682,
+                    "question_id": 5738,
+                    "description": "Acontece com mais frequência na parte anterior dos corpos vertebrais",
+                    "explanation": "Falso.\n- Devido ao rico fornecimento de sangue na porção posterior dos corpos vertebrais, depósitos hematogénicos metastáticos para essa parte da coluna vertebral são comuns, especialmente do carcinoma do pulmão e da mama.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-01-05T00:09:44.000Z",
+                    "updated_at": "2021-01-05T00:09:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23683,
+                    "question_id": 5738,
+                    "description": "O câncer de próstata representa uma doença maligna que produz metástases osteoblásticas",
+                    "explanation": "Perfeito.\n- A doença metastática pode ser principalmente osteoblástica, ou seja, osteoblástica, ou principalmente destruidora dos ossos, ou seja, osteolítica.   \n- O câncer de próstata é um exemplo de doença maligna com metástases osteoblásticas.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-01-05T00:09:44.000Z",
+                    "updated_at": "2021-01-05T00:09:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23684,
+                    "question_id": 5738,
+                    "description": "O atual exame para screening de tumores na coluna dorsal é a tomografia computadorizada",
+                    "explanation": "Falso.\n- O atual estudo de selecção para a detecção de metástases espinais é a **Cintilografia com Tecnécio**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-01-05T00:09:44.000Z",
+                    "updated_at": "2021-01-05T00:09:44.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5738,
+                "questionary_id": 268199,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5739,
+            "institution_id": 4,
+            "description": "Qual é a fratura mais comum da coluna vertebral?",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-01-05T03:12:45.000Z",
+            "updated_at": "2021-01-05T03:12:45.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 570,
+                    "title": "Radiologia da Coluna ",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2021-01-04T01:53:34.000Z",
+                    "updated_at": "2021-01-04T01:53:34.000Z",
+                    "pivot": {
+                        "discipline_id": 570,
+                        "question_id": 5739
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23685,
+                    "question_id": 5739,
+                    "description": "Fratura por compressão",
+                    "explanation": "Perfeito. É a causa mais comum de fratura da coluna vertebral",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-01-05T00:12:45.000Z",
+                    "updated_at": "2021-01-05T00:12:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23686,
+                    "question_id": 5739,
+                    "description": "Fratura de Jefferson",
+                    "explanation": "- Falso\n- É uma fratura de C1 que envolve o arco anterior e posterior.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-01-05T00:12:45.000Z",
+                    "updated_at": "2021-01-05T00:12:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23687,
+                    "question_id": 5739,
+                    "description": "Fratura de Hangman",
+                    "explanation": "- Falso\n- É uma fratura dos elementos posteriores de C2",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-01-05T00:12:45.000Z",
+                    "updated_at": "2021-01-05T00:12:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 23688,
+                    "question_id": 5739,
+                    "description": "Fratura de Chance",
+                    "explanation": "- Falso\n- São fraturas transversas que afetam todo o corpo vertebral (corpo, pedículo e processo espinhoso)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-01-05T00:12:45.000Z",
+                    "updated_at": "2021-01-05T00:12:45.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5739,
+                "questionary_id": 268199,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5836,
+            "institution_id": 4,
+            "description": "Complete a frase:\n\nFraturas por compressão vertebral são geralmente secundárias a __________\n\n",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-01-21T00:40:44.000Z",
+            "updated_at": "2021-01-21T00:40:44.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 570,
+                    "title": "Radiologia da Coluna ",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2021-01-04T01:53:34.000Z",
+                    "updated_at": "2021-01-04T01:53:34.000Z",
+                    "pivot": {
+                        "discipline_id": 570,
+                        "question_id": 5836
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 24080,
+                    "question_id": 5836,
+                    "description": "Neoplasias",
+                    "explanation": "Podem causar fraturas por compressão. Principalmente as metástases líticas, como o câncer de próstata. Contudo, não é o padrão mais comum.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-01-20T21:40:44.000Z",
+                    "updated_at": "2021-01-20T21:40:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 24081,
+                    "question_id": 5836,
+                    "description": "Osteoporose",
+                    "explanation": "Perfeito, doc! A causa mais comum de fraturas vertebrais por compressão está relacionada a osteoporose, uma doença crônica\n\n\n\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-01-20T21:40:44.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2651,
+                            "file": "1611178600543.jpeg",
+                            "name": "coluna 9.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-01-21T00:36:41.000Z",
+                            "updated_at": "2021-01-21T00:36:41.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1611178600543.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2651,
+                                "alternative_id": 24081
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 24082,
+                    "question_id": 5836,
+                    "description": "Artrite anquilosante",
+                    "explanation": "É uma doença crônica, caracterizada por inflamação crônica e artrite. Eventualmente, pode culminar na fusão das articulações vertebrais.\n\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-01-20T21:40:44.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2652,
+                            "file": "1611178771295.jpeg",
+                            "name": "coluna 10.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-01-21T00:39:32.000Z",
+                            "updated_at": "2021-01-21T00:39:32.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1611178771295.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2652,
+                                "alternative_id": 24082
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 24083,
+                    "question_id": 5836,
+                    "description": "Trauma",
+                    "explanation": "Mais relacionado a fraturas diretas. isto é, traumáticas. \n\n\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-01-20T21:40:44.000Z",
+                    "updated_at": "2021-03-11T01:58:39.000Z",
+                    "files": [
+                        {
+                            "id": 2653,
+                            "file": "1611178825316.jpeg",
+                            "name": "download.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-01-21T00:40:25.000Z",
+                            "updated_at": "2021-01-21T00:40:25.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1611178825316.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 2653,
+                                "alternative_id": 24083
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5836,
+                "questionary_id": 268199,
+                "timer": 0
+            }
+        }
+    ]
+}

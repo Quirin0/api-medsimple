@@ -1,0 +1,1550 @@
+{
+    "id": 268261,
+    "user_id": 1699,
+    "title": "Sepse e Choque Séptico",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T23:38:48.000Z",
+    "updated_at": "2022-07-11T23:38:48.000Z",
+    "study_plan_id": 293,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 3645,
+            "institution_id": 4,
+            "description": "Assinale a alternativa que corresponda à definição atual de Sepse:",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-25T03:39:20.000Z",
+            "updated_at": "2021-11-21T23:32:02.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 384,
+                    "title": "Sepse e choque séptico",
+                    "description": null,
+                    "parent_id": 186,
+                    "is_enabled": true,
+                    "created_at": "2020-07-24T23:46:25.000Z",
+                    "updated_at": "2020-07-24T23:46:25.000Z",
+                    "pivot": {
+                        "discipline_id": 384,
+                        "question_id": 3645
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15015,
+                    "question_id": 3645,
+                    "description": "Infecção documentada ou suspeita associada a pelo menos 2 pontos no escore SOFA",
+                    "explanation": "Perfeito doc! Arrasou demais!😍 A sepse é uma disfunção orgânica, potencialmente fatal, cuja causa é uma resposta desregulada do organismo à INFECÇÃO. Na atual definição de SEPSE, devemos ter👇\n- Infecção **documentada ou suspeita**\n- ≥ **2 pontos** no SOFA (Sequential Organ Failure Assesment), já que esse escore identifica disfunções orgânicas importantes\n- Se liga nessa tabelinha doc👇\n\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-25T00:39:20.000Z",
+                    "updated_at": "2021-11-21T20:32:02.000Z",
+                    "files": [
+                        {
+                            "id": 847,
+                            "file": "1595637474700.jpeg",
+                            "name": "sofa.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-07-25T03:37:55.000Z",
+                            "updated_at": "2020-07-25T03:37:55.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1595637474700.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 847,
+                                "alternative_id": 15015
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 15016,
+                    "question_id": 3645,
+                    "description": "Infecção comprovada associada a pelo menos 2 pontos no escore SOFA",
+                    "explanation": "Falso doc!😋 A infecção também pode ser suspeita. Não necessariamente precisa estar comprovada.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-25T00:39:20.000Z",
+                    "updated_at": "2021-11-21T20:32:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15017,
+                    "question_id": 3645,
+                    "description": "Infecção comprovada ou pelo menos 5 pontos no escore SOFA",
+                    "explanation": "Falso doc!😋 A infecção pode ser apenas suspeita e a pontuação no SOFA deve ser de pelo menos 2 pontos.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-25T00:39:20.000Z",
+                    "updated_at": "2021-11-21T20:32:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15018,
+                    "question_id": 3645,
+                    "description": "Infecção documentada ou suspeita  ou pelo menos 2 pontos no escore SOFA",
+                    "explanation": "Falso doc!😋 Deve haver as 2 situações: Infecção E pelo menos 2 pontos no SOFA",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-25T00:39:20.000Z",
+                    "updated_at": "2021-11-21T20:32:02.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3645,
+                "questionary_id": 268261,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3646,
+            "institution_id": 4,
+            "description": "Qual dos itens abaixo **NÃO FAZ** parte do escore SOFA (Sequential Organ Failure Assesment):",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-25T00:47:54.000Z",
+            "updated_at": "2021-11-21T20:34:09.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 384,
+                    "title": "Sepse e choque séptico",
+                    "description": null,
+                    "parent_id": 186,
+                    "is_enabled": true,
+                    "created_at": "2020-07-24T23:46:25.000Z",
+                    "updated_at": "2020-07-24T23:46:25.000Z",
+                    "pivot": {
+                        "discipline_id": 384,
+                        "question_id": 3646
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15019,
+                    "question_id": 3646,
+                    "description": "TAP e TTPA",
+                    "explanation": "Boa doc, essa é a incorreta!😋 O item no escore SOFA que representa comprometimento na coagulação são a contagem de PLAQUETAS. Para lembrar dos itens que fazem parte do SOFA, use o mnemônico **SOFA**:\n- **S**: **S**angue (plaquetas) e **S**NC\n- **O**: **O**xigenação (PaO2/FiO2)\n- **F: F**ígado (bilirrubinas)\n- **A**:**A**núria (Creatinina e Diurese) e **A**rterial Pressure (Pressão Arterial Média)\n\n\n\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-25T00:47:54.000Z",
+                    "updated_at": "2021-11-21T20:34:09.000Z",
+                    "files": [
+                        {
+                            "id": 848,
+                            "file": "1595637994854.jpeg",
+                            "name": "WhatsApp Image 2020-07-24 at 21.46.07.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-07-25T03:46:35.000Z",
+                            "updated_at": "2020-07-25T03:46:35.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1595637994854.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 848,
+                                "alternative_id": 15019
+                            }
+                        },
+                        {
+                            "id": 849,
+                            "file": "1595638011080.jpeg",
+                            "name": "sofa.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-07-25T03:46:51.000Z",
+                            "updated_at": "2020-07-25T03:46:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1595638011080.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 849,
+                                "alternative_id": 15019
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 15020,
+                    "question_id": 3646,
+                    "description": "Pressão Arterial Média",
+                    "explanation": "Perfeito doc, esse critério faz parte do SOFA. Confira na alternativa correta um macete para te fazer lembrar de todos os critérios💡",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-25T00:47:54.000Z",
+                    "updated_at": "2021-11-21T20:34:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15021,
+                    "question_id": 3646,
+                    "description": "Escala de Coma de Glasgow",
+                    "explanation": "Perfeito doc, esse critério faz parte do SOFA. Confira na alternativa correta um macete para te fazer lembrar de todos os critérios💡 ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-25T00:47:54.000Z",
+                    "updated_at": "2021-11-21T20:34:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15022,
+                    "question_id": 3646,
+                    "description": "Dosagem de Bilirrubinas",
+                    "explanation": "Perfeito doc, esse critério faz parte do SOFA. Confira na alternativa correta um macete para te fazer lembrar de todos os critérios💡 ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-25T00:47:54.000Z",
+                    "updated_at": "2021-11-21T20:34:09.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3646,
+                "questionary_id": 268261,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3647,
+            "institution_id": 4,
+            "description": "Qual dos itens abaixo **NÃO FAZ PARTE** dos critérios do Quick-SOFA?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-25T00:55:31.000Z",
+            "updated_at": "2021-11-21T20:38:04.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 384,
+                    "title": "Sepse e choque séptico",
+                    "description": null,
+                    "parent_id": 186,
+                    "is_enabled": true,
+                    "created_at": "2020-07-24T23:46:25.000Z",
+                    "updated_at": "2020-07-24T23:46:25.000Z",
+                    "pivot": {
+                        "discipline_id": 384,
+                        "question_id": 3647
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15023,
+                    "question_id": 3647,
+                    "description": "Pressão arterial Sistólica",
+                    "explanation": "Perfeito doc, é um critério do QUICK-Sofa.😁 Esse é um critério do QUICK-Sofa. Confira na alternativa incorreta a explicação completa sobre esse escore.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-25T00:55:31.000Z",
+                    "updated_at": "2021-11-21T20:38:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15024,
+                    "question_id": 3647,
+                    "description": "Frequência Respiratória",
+                    "explanation": "Perfeito doc, é um critério do QUICK-Sofa.😁 Esse é um critério do QUICK-Sofa. Confira na alternativa incorreta a explicação completa sobre esse escore. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-25T00:55:31.000Z",
+                    "updated_at": "2021-11-21T20:38:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15025,
+                    "question_id": 3647,
+                    "description": "Escala de coma de Glasgow",
+                    "explanation": "Perfeito doc, é um critério do QUICK-Sofa.😁 Confira na alternativa incorreta a explicação completa sobre esse escore.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-25T00:55:31.000Z",
+                    "updated_at": "2021-11-21T20:38:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15026,
+                    "question_id": 3647,
+                    "description": "Creatinina",
+                    "explanation": "Boa doc, essa é a incorreta!😋 O Quick-SOFA é um escore utilizado no pronto socorro ou na emergência em situações em que não há recursos ou tempo hábil para fechar os critérios do SOFA (que necessita de exames laboratoriais). Logo, funciona como uma \"triagem\" de pacientes potencialmente sépticos. Para fechar os critérios do Quick-SOFA, devemos ter **2 ou mai**s dos seguintes itens:\n- **PA sistólica <100 mmHg**\n- **Frequência Respiratória >22 irpm**\n- **Glasgow <15**\n- Como a Creatinina é um exame laboratorial, certamente ela não faz parte do Quick-SOFA",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-07-25T00:55:31.000Z",
+                    "updated_at": "2021-11-21T20:38:04.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3647,
+                "questionary_id": 268261,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3648,
+            "institution_id": 4,
+            "description": "Sobre o choque séptico, julgue as afirmativas abaixo:\n- I. Só podemos dizer que houve sepse se houver documentação/suspeita de infecção + pelo menos 2 pontos no escore SOFA\n- II. No choque séptico, há necessidade de vasopressor para manter a pressão arterial média acima de 65mmHg\n- III. No choque séptico os níveis de lactato se mantém acima de 2 mmol/L, mesmo após a reanimação volêmica adequada\n- Estão **CORRETAS:**",
+            "difficulty": "easy",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-25T06:17:15.000Z",
+            "updated_at": "2022-03-26T12:02:39.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 384,
+                    "title": "Sepse e choque séptico",
+                    "description": null,
+                    "parent_id": 186,
+                    "is_enabled": true,
+                    "created_at": "2020-07-24T23:46:25.000Z",
+                    "updated_at": "2020-07-24T23:46:25.000Z",
+                    "pivot": {
+                        "discipline_id": 384,
+                        "question_id": 3648
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15027,
+                    "question_id": 3648,
+                    "description": "Apenas I",
+                    "explanation": "Falso doc! 💡Confira o comentário completo na alternativa correta.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-25T03:17:15.000Z",
+                    "updated_at": "2022-03-26T12:02:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15028,
+                    "question_id": 3648,
+                    "description": "Apenas II",
+                    "explanation": "Falso doc!💡Confira o comentário completo na alternativa correta.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-25T03:17:15.000Z",
+                    "updated_at": "2022-03-26T12:02:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15029,
+                    "question_id": 3648,
+                    "description": "Apenas I e II",
+                    "explanation": "Falso doc!💡Confira o comentário completo na alternativa correta.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-25T03:17:15.000Z",
+                    "updated_at": "2022-03-26T12:02:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15030,
+                    "question_id": 3648,
+                    "description": "Apenas II e III",
+                    "explanation": "Falso doc!💡Confira o comentário completo na alternativa correta\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-25T03:17:15.000Z",
+                    "updated_at": "2022-03-26T12:02:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15031,
+                    "question_id": 3648,
+                    "description": "Todas estão corretas",
+                    "explanation": "Perfeito doc, arrasou demais!😍 Acompanha o meu raciocínio👇\n- I. Verdadeiro. A definição de SEPSE é: documentação/suspeita de infecção + pelo menos 2 pontos no SOFA. E a definição de CHOQUE SÉPTICO É: SEPSE + Necessidade de vasopressor para manter a pressão arterial média >65mmHg + Níveis de lactato >2 mmoL/L, mesmo após reanimação volêmica. Logo, para haver choque séptico tem que haver sepse, e no conceito de sepse necessariamente há 2 pontos no SOFA. Assim, concluímos que a alternativa I está correta.\n- II. Verdadeiro. Como comentado na alternativa I, faz parte da definição de sepse. Sabemos que a sepse é um choque do tipo distributivo, ou seja, há uma má distribuição da regulação da constrição/dilatação dos vasos, ocorrendo vasodilatação periférica. Logo, só com vasopressores conseguimos manter uma pressão arterial média de pelo menos 65 mmHg.\n- III. Verdadeiro. Como comentado na alternativa I, a falta de entrega de oxigênio é tão grande que mesmo após reanimação volêmica adequada os níveis de lactato se mantém elevados.",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-07-25T03:17:15.000Z",
+                    "updated_at": "2022-03-26T12:02:39.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3648,
+                "questionary_id": 268261,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3649,
+            "institution_id": 4,
+            "description": "Feito o diagnóstico de sepse em um paciente, é fundamental que na primeira hora sejam tomadas uma série de ações para impedir que o paciente evolua rapidamente para o óbito. Sobre essas medidas, assinale a alternativa **INCORRETA:**",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-25T03:37:10.000Z",
+            "updated_at": "2022-03-12T13:04:52.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 384,
+                    "title": "Sepse e choque séptico",
+                    "description": null,
+                    "parent_id": 186,
+                    "is_enabled": true,
+                    "created_at": "2020-07-24T23:46:25.000Z",
+                    "updated_at": "2020-07-24T23:46:25.000Z",
+                    "pivot": {
+                        "discipline_id": 384,
+                        "question_id": 3649
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15032,
+                    "question_id": 3649,
+                    "description": "Deve-se fazer a dosagem do lactato",
+                    "explanation": "Perfeito doc!😁 É fundamental a dosagem dos níveis de lactato pois ele será um dos guias para a necessidade de mais reposição volêmica.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-25T03:37:10.000Z",
+                    "updated_at": "2022-03-12T13:04:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15033,
+                    "question_id": 3649,
+                    "description": "Deve-se coletar cultura nos primeiros 45 minutos",
+                    "explanation": "Perfeito doc!😁 Antes do início da antibioticoterapia, recomenda-se a coleta da cultura para identificação do agente causador da sepse e, posteriormente, escalonar a antibioticoterapia para o antibiótico direcionado para o agente encontrado na cultura. (Escalonar significa tirar o antibiótico empírico que você usou inicialmente \"às cegas\" e passar a utilizar o antibiótico direcionado pela cultura).",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-25T03:37:10.000Z",
+                    "updated_at": "2022-03-12T13:04:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15034,
+                    "question_id": 3649,
+                    "description": "A antibioticoterapia deve ser guiada pela história e fatores de risco para microorganismos resistentes",
+                    "explanation": "Perfeito doc!😁 De acordo com o sepsis 2021, para adultos com sepse ou choque séptico e alto risco para MRSA ou MDR, recomenda-se o uso empírico de antibióticos com cobertura contra esses microorganismos, caso contrário não!\n ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-25T03:37:10.000Z",
+                    "updated_at": "2022-03-12T13:04:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15035,
+                    "question_id": 3649,
+                    "description": "É fundamental a reposição volêmica, independente dos níveis pressóricos ou de lactato",
+                    "explanation": "Boa doc, essa é a incorreta!😴 É recomendada a reposição volêmica com 30mL/kg de cristaloide na primeira hora para pacientes **hipotenso**s ou se **Lactat**o ≥ **4mmol/L.** Lembre de todas as medidas que devem ser realizadas na 1ª hora (GOLDE HOUR). É também chamado o \"pacote da primeira hora\":\n- Medir **Lactato**\n- **Cultura** nos primeiros 45 minutos\n- **Antibioticoterapia de amplo espectro**\n- 30mL/kg de **cristaloide para hipotensos ou lactato** **≥ 4mmol/L**\n- **Vasopressores** para manter **Pressão Arterial Média** ≥ **65mmHg** se **hipotensão persistente durante ou após infusão de fluidos**.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-07-25T03:37:10.000Z",
+                    "updated_at": "2022-03-12T13:04:52.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3649,
+                "questionary_id": 268261,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3650,
+            "institution_id": 4,
+            "description": "O medicamento vasopressor de primeira escolha para ser usado em caso de paciente com choque séptico é:",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-25T03:47:42.000Z",
+            "updated_at": "2021-11-21T20:48:14.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 384,
+                    "title": "Sepse e choque séptico",
+                    "description": null,
+                    "parent_id": 186,
+                    "is_enabled": true,
+                    "created_at": "2020-07-24T23:46:25.000Z",
+                    "updated_at": "2020-07-24T23:46:25.000Z",
+                    "pivot": {
+                        "discipline_id": 384,
+                        "question_id": 3650
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15036,
+                    "question_id": 3650,
+                    "description": "Vasopressina",
+                    "explanation": "Falso doc!😋 Podemos usar a vasopressina em caso de refratariedade à noradrenalina, mas não é a primeira escolha. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-25T03:47:42.000Z",
+                    "updated_at": "2021-11-21T20:48:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15037,
+                    "question_id": 3650,
+                    "description": "Adrenalina",
+                    "explanation": "Falso doc!😋 Podemos usar a adrenalina em caso de refratariedade à noradrenalina, mas não é a primeira escolha.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-25T03:47:42.000Z",
+                    "updated_at": "2021-11-21T20:48:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15038,
+                    "question_id": 3650,
+                    "description": "Noradrenalina",
+                    "explanation": "Perfeito doc, mandou bem demais!😎 Noradrenalina é o vasopressor que se mostrou mais eficiente nos trials com pacientes sépticos. Logo, deve ser nossa primeira escolha, a fim de manter uma Pressão Arterial Média maior que 65 mmHg.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-25T03:47:42.000Z",
+                    "updated_at": "2021-11-21T20:48:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15039,
+                    "question_id": 3650,
+                    "description": "Dobutamina",
+                    "explanation": "Falso doc!😋 Dobutamina é um inotrópico e não um vasopressor.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-25T03:47:42.000Z",
+                    "updated_at": "2021-11-21T20:48:14.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3650,
+                "questionary_id": 268261,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3651,
+            "institution_id": 4,
+            "description": "A medicação de escolha a ser usada em associação à noradrenalina em caso de choque séptico associado a choque cardiogênico é:",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-25T03:54:32.000Z",
+            "updated_at": "2021-12-14T12:13:25.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 384,
+                    "title": "Sepse e choque séptico",
+                    "description": null,
+                    "parent_id": 186,
+                    "is_enabled": true,
+                    "created_at": "2020-07-24T23:46:25.000Z",
+                    "updated_at": "2020-07-24T23:46:25.000Z",
+                    "pivot": {
+                        "discipline_id": 384,
+                        "question_id": 3651
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15040,
+                    "question_id": 3651,
+                    "description": "Dopamina",
+                    "explanation": "Falso doc!😋 A dopamina, apesar de ser vasopressor e ter alguma ação inotrópica, não seria a medicação de escolha conforme os resultados dos ensaios clínicos realizados em pacientes com choque séptico e cardiogênico.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-25T03:54:32.000Z",
+                    "updated_at": "2021-12-14T12:13:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15041,
+                    "question_id": 3651,
+                    "description": "Adrenalina",
+                    "explanation": "Falso doc!😋 A vasopressina teria a mesma função da noradrenalina, logo não seria efetiva para reparar a bomba cardíaca que está fraca no choque cardiogênico. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-25T03:54:32.000Z",
+                    "updated_at": "2021-12-14T12:13:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15042,
+                    "question_id": 3651,
+                    "description": "Vasopressina",
+                    "explanation": "Falso doc!😋 A vasopressina teria a mesma função da noradrenalina, logo não seria efetiva para reparar a bomba cardíaca que está fraca no choque cardiogênico.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-25T03:54:32.000Z",
+                    "updated_at": "2021-12-14T12:13:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15043,
+                    "question_id": 3651,
+                    "description": "Dobutamina",
+                    "explanation": "Perfeito doc! Mandou bem demais! 😁 A Dobutamina é uma medicação inotrópica, fundamental para aumentar a força de contratilidade cardíaca em caso de choque CARDIOGÊNICO associado a qualquer outro tipo de choque, No choque séptico, é comum que a bomba cardíaca perca força em uma fase tardia, por ação de citocinas liberadas decorrentes do combate aos agentes infecciosos da sepse. Se liga nesse esquema doc👇\n- Fonte: [https://www.scielo.br/j/rbti/a/WB5sDtzYy9WNGbRvxSrtfRd/?lang=pt](https://www.scielo.br/j/rbti/a/WB5sDtzYy9WNGbRvxSrtfRd/?lang=pt)",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-07-25T03:54:32.000Z",
+                    "updated_at": "2021-12-14T12:13:25.000Z",
+                    "files": [
+                        {
+                            "id": 23698,
+                            "file": "01d3b839-ed0e-4c30-8aff-705714a665bb.jpeg",
+                            "name": "3bb716c7dd4cb9c549eed6bb84ffc05945e21f6d.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-21T20:54:17.000Z",
+                            "updated_at": "2021-11-21T20:54:17.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/01d3b839-ed0e-4c30-8aff-705714a665bb.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23698,
+                                "alternative_id": 15043
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3651,
+                "questionary_id": 268261,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3652,
+            "institution_id": 4,
+            "description": "Na primeira hora do diagnóstico de sepse, chamada de \"Golden-Hour\" devemos realizar uma série de medidas denominadas \"Pacote da primeira hora\". Após realização dessas medidas de ressucitação iniciais, devemos esperar que o paciente apresente:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-25T04:02:38.000Z",
+            "updated_at": "2021-11-21T20:57:38.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 384,
+                    "title": "Sepse e choque séptico",
+                    "description": null,
+                    "parent_id": 186,
+                    "is_enabled": true,
+                    "created_at": "2020-07-24T23:46:25.000Z",
+                    "updated_at": "2020-07-24T23:46:25.000Z",
+                    "pivot": {
+                        "discipline_id": 384,
+                        "question_id": 3652
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15044,
+                    "question_id": 3652,
+                    "description": "Pressão Venosa Central >20 mmHg",
+                    "explanation": "Falso doc!😋 Esperamos que a Pressão Venosa Central esteja entre 8 e 12 mmHg.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:02:38.000Z",
+                    "updated_at": "2021-11-21T20:57:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15045,
+                    "question_id": 3652,
+                    "description": "Pressão arterial média esteja acima de 80 mmHg",
+                    "explanation": "Falso doc!😋 Esperamos que a Pressão Arterial Média esteja  maior ou igual a 65mmHg.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:02:38.000Z",
+                    "updated_at": "2021-11-21T20:57:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15046,
+                    "question_id": 3652,
+                    "description": "Débito urinário esteja ≥ 0,5 mL/kg/h",
+                    "explanation": "Perfeito doc! Que orgulho!😎Lembrando que as medidas iniciais de ressucitação são: Medir lactato, Coletar cultura nos primeiros 45 minutos, iniciar antibioticoterapia de largo espectro, reposição volêmica com cristaloide 30mL/kg se paciente hipotenso ou lactato ≥ 4 mmol/L e, ainda, uso de vasopressores para manter a Pressão Arterial Média ≥ 65mmHg se hipotensão persistir durante ou após reposição volêmica. Após essas medidas, esperamos que👇\n- **Pressão Venosa Central entre 8-12mmHg**\n- **Pressão Arterial Média** ≥ **65mmHg**\n- **Débito Urinário ≥ 0,5mL/kg/h**\n- **Saturação venosa central ≥ 70%**",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-25T04:02:38.000Z",
+                    "updated_at": "2021-11-21T20:57:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15047,
+                    "question_id": 3652,
+                    "description": "Saturação venosa central ≥80%",
+                    "explanation": "Falso doc!😋 Esperamos que a saturação venosa central esteja ≥ 70%.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:02:38.000Z",
+                    "updated_at": "2021-11-21T20:57:38.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3652,
+                "questionary_id": 268261,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3653,
+            "institution_id": 4,
+            "description": "Você avalia um paciente através do escore Quick-SOFA e o mesmo apresenta Frequência Respiratória de 26, Pressão Arterial Sistólica de 90 mmHg e Glasgow 15., embora não apresente sintomas ou sinais localizatórios de infecção. Você solicita a internação dele, mas não tem certeza se realmente o paciente possui infecção e não tem como confirmar o diagnóstico de sepse, já que não há todos os recursos disponíveis em sua unidade de atendimento para realizar os exames necessários. Se você pudesse escolher entre um dos exames abaixo, qual você escolheria para poder descartar ou manter com mais segurança o seu diagnóstico de sepse?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-25T04:15:20.000Z",
+            "updated_at": "2021-11-21T21:00:07.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 384,
+                    "title": "Sepse e choque séptico",
+                    "description": null,
+                    "parent_id": 186,
+                    "is_enabled": true,
+                    "created_at": "2020-07-24T23:46:25.000Z",
+                    "updated_at": "2020-07-24T23:46:25.000Z",
+                    "pivot": {
+                        "discipline_id": 384,
+                        "question_id": 3653
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15048,
+                    "question_id": 3653,
+                    "description": "Raio-X de tórax",
+                    "explanation": "Falso doc!😋 O Raio-X de tórax iria apenas identificar algum acometimento pulmonar.. Como no enunciado foi dito que não há sinais ou sintomas localizatórios de infecção não seria o ideal buscar uma infecção através de um exame de imagem isolado.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:15:20.000Z",
+                    "updated_at": "2021-11-21T21:00:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15049,
+                    "question_id": 3653,
+                    "description": "Urocultura",
+                    "explanation": "Falso doc!😋 A urocultura iria apenas identificar algum acometimento infeccioso do trato genitourinário.. Como no enunciado foi dito que não há sinais ou sintomas localizatórios de infecção não seria o ideal buscar uma infecção em um sistema isoladamente.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:15:20.000Z",
+                    "updated_at": "2021-11-21T21:00:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15050,
+                    "question_id": 3653,
+                    "description": "Procalcitonina",
+                    "explanation": "Perfeito doc! Arrasou demais!😎 A procalcitonina é um ótimo marcador de infecção bacteriana, já que ele se eleva bastante em infecções bacterianas e não se eleva ou se eleva pouco em infecções virais  ou não bacterianas. Logo, seria um bom aliado para identificar se o paciente possui ou não um quadro infeccioso bacteriano. Gostamos de pensar que a  **PR**Ocalcitonina é**PR**Ofissional em identificar infecção bacteriana.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-25T04:15:20.000Z",
+                    "updated_at": "2021-11-21T21:00:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15051,
+                    "question_id": 3653,
+                    "description": "Hemograma",
+                    "explanation": "Falso doc!😋 Um dos fatores para o diagnóstico de SEPSE através  do escore SOFA é o nível de plaquetas, mas existem outros 6 critérios além desse. Poderíamos pensar também que a leucocitose poderia nos indicar um quadro infeccioso. Todavia, um melhor marcador para infecção bacteriana (que mais comumente causa sepse) é a Procalcitonina.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:15:20.000Z",
+                    "updated_at": "2021-11-21T21:00:07.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3653,
+                "questionary_id": 268261,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3655,
+            "institution_id": 17,
+            "description": "Um homem de 50 anos, com antecedentes de hemofilia A leve, desde os 15 anos de idade, e cirrose hepática por vírus C, vai ao pronto-socorro com queixa de dor no hipocôndrio direito, contínua, de forte intensidade, crescente, há 2 dias. Nega febre, mas refere calafrios, muito mal-estar e anorexia. Está em regular estado geral, desidratado 3/4+, apático e prostrado. Sinais vitais: frequência cardíaca: 135 bpm; PA: 110 × 70 mmHg; frequência respiratória: 32 irpm. Saturação de oxigênio: 89%, em ar ambiente. Tempo de enchimento capilar: 4 segundos. O murmúrio vesicular está presente bilateralmente, mas reduzido nas bases. As bulhas cardíacas são taquicárdicas, mas regulares e normofonéticas. O abdome está globoso e distendido, sendo doloroso difusamente à palpação, mas sem irritação peritoneal. Os ruídos hidroaéreos estão presentes e não aumentados. Não tem edema de membros inferiores. Exames laboratoriais: leucócitos: 28.380/mm³, sem desvio à esquerda; plaquetas: 173.000/mm³; albumina sérica: 2,8 g/dL; PCR: 246 mg/L; INR: 1,58; R: 1,73; Na⁺: 138 mEq/L; K⁺: 4 mEq/L; Ureia: 134 mg/dL; Creati- nina: 1,68 mg/dL. Foi colhida cultura de urina e de sangue periférico. Primeiro passo no tratamento desse doente:\n",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-25T04:30:32.000Z",
+            "updated_at": "2021-11-21T21:07:30.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 17,
+                "title": "HIAE",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T14:14:57.000Z",
+                "updated_at": "2020-05-18T14:14:57.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 384,
+                    "title": "Sepse e choque séptico",
+                    "description": null,
+                    "parent_id": 186,
+                    "is_enabled": true,
+                    "created_at": "2020-07-24T23:46:25.000Z",
+                    "updated_at": "2020-07-24T23:46:25.000Z",
+                    "pivot": {
+                        "discipline_id": 384,
+                        "question_id": 3655
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15057,
+                    "question_id": 3655,
+                    "description": "Hemodiálise.",
+                    "explanation": "Falso doc!😋 Alternativa equivocada. Paciente com eletrólitos dentro da normalidade.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:30:32.000Z",
+                    "updated_at": "2021-11-21T21:07:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15058,
+                    "question_id": 3655,
+                    "description": " Intubação traqueal. ",
+                    "explanation": "Falso doc!😋 Alternativa equivocada. Paciente sem critérios para intubação.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:30:32.000Z",
+                    "updated_at": "2021-11-21T21:07:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15059,
+                    "question_id": 3655,
+                    "description": " Laparotomia exploradora.",
+                    "explanation": "Falso doc!😋 Conduta radical, paciente ainda sem exame de imagem, sem peritonite, sem instabilidade hemodinâmica, não há indicação!\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:30:32.000Z",
+                    "updated_at": "2021-11-21T21:07:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15060,
+                    "question_id": 3655,
+                    "description": "Laparoscopia diagnóstica e, eventualmente, terapêutica. ",
+                    "explanation": "Falso doc!😋 Paciente com sinais vitais alterados por possível infecção. Essa não seria a melhor conduta, mesmo pensando numa colecistite.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:30:32.000Z",
+                    "updated_at": "2021-11-21T21:07:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15061,
+                    "question_id": 3655,
+                    "description": " Passagem de cateter venoso central e de sonda vesical, hidratação e antibiótico IV e reposição de fator VIII.",
+                    "explanation": "Perfeito doc! Que orgulho!😍 No momento, suspeitando-se de processo séptico instalado, temos que hidratar o paciente, começar um antibiótica na primeira hora, monitorizar o paciente e repor o fator VIII (hemofilia A).\n",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-07-25T04:30:32.000Z",
+                    "updated_at": "2021-11-21T21:07:30.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3655,
+                "questionary_id": 268261,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3656,
+            "institution_id": 11,
+            "description": "Um paciente de 21 anos é admitido na sala de emergência sonolento e visivelmente desidratado. Segundo familiares, paciente apresenta diarreia e febre nos últimos 5 dias. Não há relato de comorbidades ou uso de medicações contínuas. Ao exame físico: REG, sonolento, Glasgow 11 (o3v3m5), desidratado IV+/IV+, pele fria. Taquicárdico, ausculta cardíaca sem sopros. FC: 138 bpm e PA: 70 × 40 mmHg. Ausculta pulmonar sem achados. Taquipneico, FR: 27 ipm e Saturação de 98% em ar ambiente. Abdome plano, normotenso, ruídos hiperativos e sem dor a palpação. Exames laboratoriais: hemograma com leucocitose, neutrofilia, desvio a esquerda e presença de granulações tóxicas. Contagem de plaquetas e coagulograma normais. Cr 2,8mg/dL e U 95 mg/dL. Na+ 148 mEq/L, K+ 3,0 mEq/L. Cl −120 mEq/L (VR 90-110 mEq/L). Albumina 4g/dL. Lactato VR 18 mg/dL (VR 18 mg/dL). Gasometria arterial: pH 7,0; HCO₃- . 5 mEq/L; pCO2 28 mmHg. Neste caso é **CORRETO** afirmar que:\n",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-25T04:38:21.000Z",
+            "updated_at": "2021-11-21T21:12:26.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 11,
+                "title": "SUS-SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T17:55:16.000Z",
+                "updated_at": "2020-05-17T17:55:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 384,
+                    "title": "Sepse e choque séptico",
+                    "description": null,
+                    "parent_id": 186,
+                    "is_enabled": true,
+                    "created_at": "2020-07-24T23:46:25.000Z",
+                    "updated_at": "2020-07-24T23:46:25.000Z",
+                    "pivot": {
+                        "discipline_id": 384,
+                        "question_id": 3656
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15062,
+                    "question_id": 3656,
+                    "description": "Há critérios para choque séptico segundo o estudo sepsis 3. Deve-se realizar expansão volêmica com coloides sintéticos; coleta de culturas; antibioticoterapia precoce.",
+                    "explanation": "Falso doc!😋 A conduta ideal seria a expansão de volume com CRISTALOIDE, coleta de culturas e antibioticoterapia na primeira hora!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:38:21.000Z",
+                    "updated_at": "2021-11-21T21:12:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15063,
+                    "question_id": 3656,
+                    "description": " Há critérios para choque séptico segundo o estudo sepsis 3. Deve-se realizar noradrenalina em acesso venoso periférico; coleta de culturas; antibioticoterapia precoce.",
+                    "explanation": "Falso doc!😋 O uso de noradrenalina está indicado se for mantida hipotensão durante ou após reposição volêmica.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:38:21.000Z",
+                    "updated_at": "2021-11-21T21:12:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15064,
+                    "question_id": 3656,
+                    "description": "Não há critérios para sepse segundo o estudo sepsis 3. Deve-se realizar expansão volêmica com cristaloides balanceados; coleta de culturas e antibioticoterapia precoce.",
+                    "explanation": "Falso doc!😋 A conduta está correta, mas há sim critério para sepse. Comentamos sobre eles na alternativa correta.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:38:21.000Z",
+                    "updated_at": "2021-11-21T21:12:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15065,
+                    "question_id": 3656,
+                    "description": " Há critérios para sepse segundo o estudo sepsis 3. Deve-se realizar expansão volêmica com coloides sintéticos; coleta de culturas; antibioticoterapia precoce.",
+                    "explanation": "Falso doc!😋 A conduta é expansão de volume com CRISTALOIDES, e não coloides.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:38:21.000Z",
+                    "updated_at": "2021-11-21T21:12:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15066,
+                    "question_id": 3656,
+                    "description": " Há critérios para sepse segundo o estudo sepsis 3. Deve-se realizar expansão volêmica com cristaloides balanceados; coleta de culturas; antibioticoterapia precoce.",
+                    "explanation": "Perfeito doc! Arrasou demais!😍 A sepse é uma disfunção orgânica, potencialmente fatal, cuja causa é uma resposta desregulada do organismo à INFECÇÃO. Na atual definição de SEPSE, devemos ter👇\n- Infecção **documentada ou suspeita**\n- ≥ **2 pontos** no SOFA (Sequential Organ Failure Assesment), já que esse escore identifica disfunções orgânicas importantes\n- Na presença de sepse, devemos realizar medidas iniciais na primeira hora, que são as seguintes👇\n- Medir **Lactato**\n- **Cultura** nos primeiros 45 minutos\n- **Antibioticoterapia de amplo espectro**\n- 30mL/kg de **cristaloide para hipotensos ou lactato** **≥ 4mmol/L**\n- **Vasopressores** para manter **Pressão Arterial Média** ≥ **65mmHg** se **hipotensão persistente durante ou após infusão de fluidos**. \n- Doc, para nunca mais esquecer, se liga nessa tabelinha👇",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-07-25T04:38:21.000Z",
+                    "updated_at": "2021-11-21T21:12:26.000Z",
+                    "files": [
+                        {
+                            "id": 850,
+                            "file": "1595651830417.jpeg",
+                            "name": "sofa.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-07-25T07:37:11.000Z",
+                            "updated_at": "2020-07-25T07:37:11.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1595651830417.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 850,
+                                "alternative_id": 15066
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3656,
+                "questionary_id": 268261,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3657,
+            "institution_id": 1,
+            "description": "Um paciente masculino, 68 anos, procura a emergência com queixa de dor lombar e febre há 48 horas. Há 24 horas vem apresentando dispneia, com piora progressiva nas últimas 6 horas. Na admissão apresenta-se sonolento, pontuando 14 na escala de coma de Glasgow, FR = 26 irpm, PA = 110 x 60 mmHg, FC = 87 bpm, afebril. São realizados alguns exames complementares: RX de tórax: sem alterações; gasometria arterial: pH = 7,28; pCO₂ = 24 mmHg; pO₂ = 56 mmHg; HCO₃ = 17 mEq/L; Hb = 12 mg/dl; Ht = 42%, leucócitos = 10.000/mm³; parcial de urina: leucocitúria = 1.500.000/nitrito positivo. Em relação ao quadro clínico, é **CORRETO** afirmar que:",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-25T04:45:40.000Z",
+            "updated_at": "2021-11-21T21:17:14.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 1,
+                "title": "UFSC",
+                "state": "Santa Catarina",
+                "is_enabled": true,
+                "created_at": "2020-05-16T20:39:39.000Z",
+                "updated_at": "2020-05-16T20:39:39.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 384,
+                    "title": "Sepse e choque séptico",
+                    "description": null,
+                    "parent_id": 186,
+                    "is_enabled": true,
+                    "created_at": "2020-07-24T23:46:25.000Z",
+                    "updated_at": "2020-07-24T23:46:25.000Z",
+                    "pivot": {
+                        "discipline_id": 384,
+                        "question_id": 3657
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15067,
+                    "question_id": 3657,
+                    "description": "Baseado no qSOFA, o paciente apresenta suspeita de sepse.",
+                    "explanation": "Perfeito doc! Mandou bem demais!😁 O Quick-SOFA é um escore utilizado no pronto socorro ou na emergência em situações em que não há recursos ou tempo hábil para fechar os critérios do SOFA (que necessita de exames laboratoriais). Logo, funciona como uma \"triagem\" de pacientes potencialmente sépticos. Para fechar os critérios do Quick-SOFA, devemos ter **2 ou mai**s dos seguintes itens👇\n- **PA sistólica <100 mmHg**\n- **Frequência Respiratória >22 irpm (**paciente da questão possui FR de 26)\n- **Glasgow <15 (**paciente da questão possui Glasgow de 14)",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-25T04:45:40.000Z",
+                    "updated_at": "2021-11-21T21:17:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15068,
+                    "question_id": 3657,
+                    "description": "Podemos descartar disfunção pulmonar, uma vez que o RX de tórax não apresenta alterações.",
+                    "explanation": "Falso doc!😋 Em um quadro pulmonar, a clínica aparece primeiro do que as alterações no exame de imagem.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:45:40.000Z",
+                    "updated_at": "2021-11-21T21:17:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15069,
+                    "question_id": 3657,
+                    "description": "Baseado nos critérios de SIRS e no SOFA, o paciente apresenta sepse.",
+                    "explanation": "Falso doc!😋 A SIRS (Síndrome de Resposta Inflamatória Sistêmica) foi um conceito que foi abolido para o diagnóstico de sepse!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:45:40.000Z",
+                    "updated_at": "2021-11-21T21:17:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15070,
+                    "question_id": 3657,
+                    "description": "Não é esperado um aumento de mortalidade para esse paciente.",
+                    "explanation": "Falso doc!😋 Como ele possui um quick SOFA positivo, espera-se um maior aumento de mortalidade para esse paciente, já que ele tem mais chances de realmente estar séptico.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:45:40.000Z",
+                    "updated_at": "2021-11-21T21:17:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15071,
+                    "question_id": 3657,
+                    "description": "Não há evidência de infecção, então não é possível caracterizar sepse; apenas SIRS.",
+                    "explanation": "Falso doc!😋 Dor lombar, febre, leucocitúria e nitrito positivo indicam um possível foco urinário!",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:45:40.000Z",
+                    "updated_at": "2021-11-21T21:17:14.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3657,
+                "questionary_id": 268261,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3659,
+            "institution_id": 28,
+            "description": "As medidas associadas com a redução da mortalidade no choque séptico, além da ressuscitação volêmica, são:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-25T08:13:55.000Z",
+            "updated_at": "2021-11-22T00:29:29.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 28,
+                "title": "UNESP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T20:27:31.000Z",
+                "updated_at": "2020-05-18T20:27:31.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 384,
+                    "title": "Sepse e choque séptico",
+                    "description": null,
+                    "parent_id": 186,
+                    "is_enabled": true,
+                    "created_at": "2020-07-24T23:46:25.000Z",
+                    "updated_at": "2020-07-24T23:46:25.000Z",
+                    "pivot": {
+                        "discipline_id": 384,
+                        "question_id": 3659
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15076,
+                    "question_id": 3659,
+                    "description": "antibioticoterapia precoce, uso de corticoide, controle glicêmico, uso de agentes vasopressores precocemente",
+                    "explanation": "Falso doc!😋 O uso de corticoides não tem indicação de rotina na sepse. Ele pode ser usado após falha em manter a pressão arterial média acima de 65mmHg com noradrenalina e adrenalina ou vasopressina. Nesses casos, podemos tentar usar Hidrocortisona 200mg/dia no máximo.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-25T05:13:55.000Z",
+                    "updated_at": "2021-11-21T21:29:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15077,
+                    "question_id": 3659,
+                    "description": "antibioticoterapia na primera hora de tratamento, controle glicêmico, uso de dopamina e vasopressina, se necessário",
+                    "explanation": "Falso doc!😋 Dopamina e vasopressina não são os vasopressores mais utilizados no choque séptico, mas a noradrenalina e a adrenalina.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-25T05:13:55.000Z",
+                    "updated_at": "2021-11-21T21:29:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15078,
+                    "question_id": 3659,
+                    "description": "antibioticoterapia precoce, uso de imunoblobulina humano, uso de proteína C ativada, uso de agentes vasopressores precocemente",
+                    "explanation": "Falso doc!😋 O uso de imunoglobulina humana e de proteína C ativada de rotina não são indicados no choque séptico.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-25T05:13:55.000Z",
+                    "updated_at": "2021-11-21T21:29:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15079,
+                    "question_id": 3659,
+                    "description": "antibioticoterapia na primeira hora de tratamento, controle glicêmico, uso de agentes vasopressores precocemente",
+                    "explanation": "Perfeito doc! Que orgulho!😁 Apesar de estar incompleto, esses parâmetros estão incluídos nas medidas iniciais de ressucitação no choque séptico, que são: \n- Medir **Lactato**\n- **Cultura** nos primeiros 45 minutos\n- **Antibioticoterapia de amplo espectro**\n- 30mL/kg de **cristaloide para hipotensos ou lactato** **≥ 4mmol/L**\n- **Vasopressores** para manter **Pressão Arterial Média** ≥ **65mmHg** se **hipotensão persistente durante ou após infusão de fluidos**.\n- O controle de glicemia acaba sendo uma necessidade padrão em qualquer situação. \n- Saca só essa imagem doc👇\n- Fonte: https://pebmed.com.br/surviving-sepsis-2018-o-que-muda-na-sepse-com-essa-atualizacao/",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-07-25T05:13:55.000Z",
+                    "updated_at": "2021-11-21T21:29:29.000Z",
+                    "files": [
+                        {
+                            "id": 23702,
+                            "file": "6678fb75-5ac5-4593-9fac-807466fee32e.jpeg",
+                            "name": "00000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-21T21:24:09.000Z",
+                            "updated_at": "2021-11-21T21:24:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/6678fb75-5ac5-4593-9fac-807466fee32e.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23702,
+                                "alternative_id": 15079
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3659,
+                "questionary_id": 268261,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3654,
+            "institution_id": 4,
+            "description": "Uma dúvida frequente frente a um paciente séptico é: Qual esquema de antibiótico empírico devo iniciar? A resposta para isso não é fácil, pois depende do perfil de paciente e do local do foco infeccioso. Sobre esse assunto, julgue as afirmativas:\n- I. Quando o foco infeccioso é o trato genitourinário, devo preferir o uso de antibióticos que cubram gram positivos\n- II. Quando o foco infeccioso é a pele, devo preferir o uso de antibióticos que cubram gram negativos\n- III. Em um paciente com Fibrose Cística e foco pulmonar, devo preferir uma cefalosporina de 4ª geração\n- IV. Em pacientes com infecção hospitalar, devo pensar em germes gram negativos multirresistentes, e optar por uma cefalosporina de 4ª geraçao ou piperacilina + tazobactam",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-25T04:25:36.000Z",
+            "updated_at": "2021-11-21T21:03:57.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 384,
+                    "title": "Sepse e choque séptico",
+                    "description": null,
+                    "parent_id": 186,
+                    "is_enabled": true,
+                    "created_at": "2020-07-24T23:46:25.000Z",
+                    "updated_at": "2020-07-24T23:46:25.000Z",
+                    "pivot": {
+                        "discipline_id": 384,
+                        "question_id": 3654
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15052,
+                    "question_id": 3654,
+                    "description": "Todas as alternativas estão corretas",
+                    "explanation": "Falso doc!💡Confira o comentário completo na alternativa correta.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:25:36.000Z",
+                    "updated_at": "2021-11-21T21:03:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15053,
+                    "question_id": 3654,
+                    "description": "Apenas I está correta",
+                    "explanation": "Falso doc!💡Confira o comentário completo na alternativa correta.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:25:36.000Z",
+                    "updated_at": "2021-11-21T21:03:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15054,
+                    "question_id": 3654,
+                    "description": "Apenas I e III estão corretas",
+                    "explanation": "Falso doc!💡Confira o comentário completo na alternativa correta.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:25:36.000Z",
+                    "updated_at": "2021-11-21T21:03:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15055,
+                    "question_id": 3654,
+                    "description": "Apenas II e IV estão corretas",
+                    "explanation": "Falso doc!💡Confira o comentário completo na alternativa correta.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:25:36.000Z",
+                    "updated_at": "2021-11-21T21:03:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15056,
+                    "question_id": 3654,
+                    "description": "Apenas III e IV estão corretas",
+                    "explanation": "Perfeito doc! Arrasou demais! Acompanha o meu raciocínio👇\n- I.Falso doc. Infecções do trato genitourinário penso mais em germes gram negativos, como a E. coli. Logo, Devo optar por cefalosporinas de 3ª geração ou Quinolonas via endovenosa.\n- II.Falso doc. Infecções  de pele devo pensar em germes gram positivos como o S. aureus. Logo, devo optar por Oxacilina ou, se MRSA, por Vancomicina.\n- III. Verdadeiro doc. Pacientes com Fibrose Cística  tem como principal agente infeccioso em quadros pulmonares a Pseudomonas. Logo devo optar por cefalosporinas de 4ªgeração, que cobrem Pseudomonas\n- IV. Verdadeiro doc. Pacientes com infecção de origem presumivelmente hospitalar tem como principais agentes gram negativos multirresistentes como Klebsiella, Pseudomonas e Acinetobacter. Logo, devo optar por Cefalosporianas de 4ª geração ou Piperacilina + Sulbactam.",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-07-25T04:25:36.000Z",
+                    "updated_at": "2021-11-21T21:03:57.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3654,
+                "questionary_id": 268261,
+                "timer": 0
+            }
+        },
+        {
+            "id": 3658,
+            "institution_id": 61,
+            "description": "Mulher, 70 anos, internada no pronto socorro devido rebaixamento do nível de consciência, febre intermitente e disúria há três dias. Antecedentes de diabetes e hipertensão arterial, em uso de metformina e hidroclorotiazida. Realizado atendimento pré hospitalar sendo medicada com 2 g de ceftriaxona por via endovenosa. Ao exame: mau estado geral, afebril, perfusão periférica lentificada, sem sinais de congestão pulmonar, sem sinais de desconforto respiratório. PA = 80 x 50 mmHg, extremidades sem edemas, escala de coma de Glasgow 12. Hemograma: HB: 10,5 G/dL; HT 33%, GB: 20.000/mm³ (15% bastões, 60% segmentados, 15% linfócitos), Plaquetas: 130.000/mm³. Eletrocardiograma realizado na admissão (Conforme imagem do caderno de questões). Qual é a conduta imediata mais apropriada? \n\n\n",
+            "difficulty": "hard",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-25T04:59:21.000Z",
+            "updated_at": "2021-11-21T21:25:58.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 61,
+                "title": "USP-RP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-23T20:44:31.000Z",
+                "updated_at": "2020-05-23T20:44:31.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 384,
+                    "title": "Sepse e choque séptico",
+                    "description": null,
+                    "parent_id": 186,
+                    "is_enabled": true,
+                    "created_at": "2020-07-24T23:46:25.000Z",
+                    "updated_at": "2020-07-24T23:46:25.000Z",
+                    "pivot": {
+                        "discipline_id": 384,
+                        "question_id": 3658
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15072,
+                    "question_id": 3658,
+                    "description": "Metoprolol endovenoso",
+                    "explanation": "Falso doc!😋 Em uma Fibrilação Atrial com paciente estável hemodinamicamente talvez eu poderia pensar em dar um beta-bloqueador para controle de frequência. Mas nesse caso, há instabilidade hemodinâmica. Mas mesmo assim, pensando na conduta padrão para fibrilação atrial com instabilidade hemodinâmica, há uma pegadinha. Leia o comentário completo na alternativa correta!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:59:21.000Z",
+                    "updated_at": "2021-11-21T21:25:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15073,
+                    "question_id": 3658,
+                    "description": "Massagem do seio carotídeo",
+                    "explanation": "Falso doc!😋 A massagem do seio carotídeo não é a conduta de escolha na Fibrilação Atrial. E mesmo sabendo qual é a conduta de escolha padrão na fibrilação atrial, nessa questão há uma pegadinha. Leia o comentário completo na alternativa abaixo.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:59:21.000Z",
+                    "updated_at": "2021-11-21T21:25:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15074,
+                    "question_id": 3658,
+                    "description": "Cardioversão elétrica sincronizada",
+                    "explanation": "Falso doc!😋 Essa questão foi maldosa. Se olharmos só para o eletrocardiograma vamos ver que ela tem uma fibrilação atrial e, como ela está instável hemodinamicamente, automaticamente pensamos na conduta de CARDIOVERSÃO ELÉTRICA SINCRONIZADA. Porém, provavelmente, a causa da fibrilação atrial é a sepse. Logo, primeiro temos que tentar resolver a possível causa da FA e, se ela persistir mesmo após o tratamento adequado, aí sim partimos para a cardioversão.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-25T04:59:21.000Z",
+                    "updated_at": "2021-11-21T21:25:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 15075,
+                    "question_id": 3658,
+                    "description": "Soro fisiológico 0,9% endovenoso",
+                    "explanation": "Perfeito doc! Mandou bem demais!😎 Paciente idosa com foco infeccioso urinário que evoluiu para sepse. Lembrando do Quick-SOFA, ela possui 2 critérios (Pressão arterial sistólica <100mmHg e Glasgow <15) , logo é sugestivo de sepse. Logo, a conduta na primeira hora deve ser medir lactato, coletar culturas nos primeiros 45 minutos, iniciar antibioticoterapia (que já foi dado ceftriaxona EV) e reposição volêmica com cristaloide (que é a resposta). Se liga nessa tabelinha doc👇\n- Fonte: https://pebmed.com.br/sepse-revisao-clinica-pebmed/",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-07-25T04:59:21.000Z",
+                    "updated_at": "2021-11-21T21:25:58.000Z",
+                    "files": [
+                        {
+                            "id": 23702,
+                            "file": "6678fb75-5ac5-4593-9fac-807466fee32e.jpeg",
+                            "name": "00000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-21T21:24:09.000Z",
+                            "updated_at": "2021-11-21T21:24:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/6678fb75-5ac5-4593-9fac-807466fee32e.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23702,
+                                "alternative_id": 15075
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 851,
+                    "file": "1595652648656.png",
+                    "name": "Sem título.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-07-25T07:50:49.000Z",
+                    "updated_at": "2020-07-25T07:50:49.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1595652648656.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 851,
+                        "question_id": 3658
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 3658,
+                "questionary_id": 268261,
+                "timer": 0
+            }
+        }
+    ]
+}

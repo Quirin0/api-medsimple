@@ -1,0 +1,1524 @@
+{
+    "id": 267557,
+    "user_id": 1699,
+    "title": "Taquicardias Ventriculares",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T02:25:53.000Z",
+    "updated_at": "2022-07-11T02:25:53.000Z",
+    "study_plan_id": 754,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 1673,
+            "institution_id": 4,
+            "description": "Definimos taquiarritmia e bradiarritmia, respectivamente, pela frequência cardíaca de:",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-12T04:23:03.000Z",
+            "updated_at": "2022-01-18T00:48:55.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 1673
+                    }
+                },
+                {
+                    "id": 793,
+                    "title": "Taquicardias Ventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-06-05T02:34:23.000Z",
+                    "updated_at": "2021-06-05T02:34:23.000Z",
+                    "pivot": {
+                        "discipline_id": 793,
+                        "question_id": 1673
+                    }
+                },
+                {
+                    "id": 418,
+                    "title": "Bradiarritmias",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-08-10T17:07:33.000Z",
+                    "updated_at": "2020-08-10T17:07:33.000Z",
+                    "pivot": {
+                        "discipline_id": 418,
+                        "question_id": 1673
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6876,
+                    "question_id": 1673,
+                    "description": "Maior que 100 bpm e menor que 50 bpm",
+                    "explanation": "Perfeito doc! Mandou bem demais! 😁 \n- Se, ao ECG, a distância entre os QRS corresponder a uma frequência cardíaca **menor que 50 bpm**, temos uma bradiarritmia, e se for **maior do que 100 bpm** temos taquiarritmias. \n- Muita gente pensa que para ser uma arritmia deve ser algo patológico ou ter ritmo alterado. Isso não é verdade, inclusive a taquiarritmia mais comum é a taquicardia sinusal, que é apenas uma frequência cardíaca maior que 100, que podemos ter em qualquer situação de exercício físico do dia a dia ou situações de estresse ou nervosismo. \n- Doc, se liga no exemplo abaixo, mostrando uma bradi e uma taquiarritmia no ECG👇\n- Fonte imagem 1 (bradiarritmia): [https://www.medicinanet.com.br/conteudos/revisoes/2295/bradiarritmias.htm](https://www.medicinanet.com.br/conteudos/revisoes/2295/bradiarritmias.htm)\n- Fonte imagem 2 (taquiarritmia): [https://cardiodf.com.br/saude/taquicardia-sinusal-grave-normal-o-que-taquicardia-sinusal](https://cardiodf.com.br/saude/taquicardia-sinusal-grave-normal-o-que-taquicardia-sinusal)  ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-12T01:23:03.000Z",
+                    "updated_at": "2022-01-17T21:48:55.000Z",
+                    "files": [
+                        {
+                            "id": 10038,
+                            "file": "fe980c03-ed9f-4cbd-a079-b3e87531be05.jpeg",
+                            "name": "20090910115925.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T21:57:45.000Z",
+                            "updated_at": "2021-06-04T21:57:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/fe980c03-ed9f-4cbd-a079-b3e87531be05.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10038,
+                                "alternative_id": 6876
+                            }
+                        },
+                        {
+                            "id": 10039,
+                            "file": "d385284c-7f62-438b-9678-d8e4f059e5c3.jpeg",
+                            "name": "df5b4400-2b95-4830-b98c-e333fe510ef3.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T22:01:06.000Z",
+                            "updated_at": "2021-06-04T22:01:06.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d385284c-7f62-438b-9678-d8e4f059e5c3.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10039,
+                                "alternative_id": 6876
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6877,
+                    "question_id": 1673,
+                    "description": "Maior que 110 bpm, com ritmo irregular, e menor que 60 bpm",
+                    "explanation": "Falso doc! 😋 \n- Apesar do nome, o ritmo não precisa ser irregular para se considerar uma taquiarritmia\n- Além disso, consideramos bradiarritmia em batimentos abaixo de 50 bpm!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:23:03.000Z",
+                    "updated_at": "2022-01-17T21:48:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6878,
+                    "question_id": 1673,
+                    "description": "Maior que 100 bpm, com ritmo irregular, e menor que 50 bpm",
+                    "explanation": "Falso doc! 😋 \n- Apesar do nome, o ritmo não precisa ser irregular para se considerar uma taquiarritmia! Doc, lembre-se que a taquicardia mais comum é a taquicardia sinusal, cujo ritmo é **regular**!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:23:03.000Z",
+                    "updated_at": "2022-01-17T21:48:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6879,
+                    "question_id": 1673,
+                    "description": "Maior que 120 bpm e menor que 60 bpm",
+                    "explanation": "Falso doc! 😋 Os valores estão errados! Considerados taquiarritmia quando **> 100 bpm** e bradiarritmia quando **< 50 bp**m!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:23:03.000Z",
+                    "updated_at": "2022-01-17T21:48:55.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1673,
+                "questionary_id": 267557,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8798,
+            "institution_id": 4,
+            "description": "Em relação às taquicardias ventriculares, assinale a alternativa INCORRETA:",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-05T03:03:11.000Z",
+            "updated_at": "2021-06-05T03:03:11.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 793,
+                    "title": "Taquicardias Ventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-06-05T02:34:23.000Z",
+                    "updated_at": "2021-06-05T02:34:23.000Z",
+                    "pivot": {
+                        "discipline_id": 793,
+                        "question_id": 8798
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36083,
+                    "question_id": 8798,
+                    "description": "Tipicamente cursam com QRS alargado",
+                    "explanation": "Perfeito doc! 😁 Você já deve ter ouvido a máxima: **\"Diante de uma taquicardia com QRS alargado, considere Taqui Ventricular até que se prove contrário”**. E é exatamente assim que ocorre. As taqui ventriculares cursam com QRS maior do que 0,12 segundos (3 mm)! Doc, se liga nesse exemplo abaixo👇\n- Fonte: http://publicacoes.cardiol.br/portal/abc/portugues/2018/v11005/significancia-prognostica-da-taquicardia-ventricular-nao-sustentada-depende-de-sua-frequencia-e-duracao.asp",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-05T00:03:11.000Z",
+                    "updated_at": "2021-06-05T00:03:11.000Z",
+                    "files": [
+                        {
+                            "id": 10067,
+                            "file": "8723add0-b4f2-419c-b3a2-f0bd8c96a2dc.jpeg",
+                            "name": "unnamed.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T02:43:11.000Z",
+                            "updated_at": "2021-06-05T02:43:11.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8723add0-b4f2-419c-b3a2-f0bd8c96a2dc.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10067,
+                                "alternative_id": 36083
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36084,
+                    "question_id": 8798,
+                    "description": "Bloqueio de ramo é um diagnóstico diferencial importante em paciente com suspeita de taqui ventricular",
+                    "explanation": "Perfeito doc! 😁 Tanto as taquicardias ventriculares quanto os bloqueios de ramo cursam com QRS alargado, sendo, portanto, um diagnóstico diferencial importante em um paciente com um quadro de taqui associado a um alargamento de QRS. Doc, esse paciente pode estar fazendo uma taquicardia supraventricular porém com QRS alargado por conta do bloqueio!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-05T00:03:11.000Z",
+                    "updated_at": "2021-06-05T00:03:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36085,
+                    "question_id": 8798,
+                    "description": "Um ECG com QRS alargado e dissociação AV fala contra taquicardia ventricular",
+                    "explanation": "Falso doc! Pegadinha do malandro😋 É o contrário! A dissociação AV é o encontro de ondas P  perdidas no traçado da taquicardia, sem relação com o QRS. Ou seja, não é o estímulo atrial que está levando à despolarização ventricular. O ventrículo está agindo de forma independente, o que nos leva a pensar em uma **taquicardia ventricular!** Doc, se liga nesse exemplo abaixo mostrando uma TV típica👇\n- Fonte: http://itarget.com.br/newclients/sobrachome.org/home/wp-content/uploads/videos/precon/2019/precon-campinas/aliados-23-08/Aula%204-21h20%20%E2%80%93%2021h40%20Arritmias%20ventriculares-classifica%C3%A7%C3%A3o%20e%20apresenta%C3%A7%C3%A3o%20eletrogr%C3%A1fica_Roni%20Daniel%20Gomes.pdf",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-06-05T00:03:11.000Z",
+                    "updated_at": "2021-06-05T00:03:11.000Z",
+                    "files": [
+                        {
+                            "id": 10068,
+                            "file": "8a200934-c4f0-431a-82e5-6e8d2d3f3826.jpeg",
+                            "name": "000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T02:54:49.000Z",
+                            "updated_at": "2021-06-05T02:54:49.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8a200934-c4f0-431a-82e5-6e8d2d3f3826.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10068,
+                                "alternative_id": 36085
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36086,
+                    "question_id": 8798,
+                    "description": "Taquicardias com QRS > 0,12 segundos e irregularidade de ritmo fala a favor de origem ventricular",
+                    "explanation": "Perfeito doc! 😁 Ritmos irregulares associados a QRS alargados em uma taquicardia falam muito a favor de um quadro de taqui ventricular! Nas irregularidades muito evidentes, devemos pensar na TV polimórfica ou FA com condução aberrante!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-05T00:03:11.000Z",
+                    "updated_at": "2021-06-05T00:03:11.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8798,
+                "questionary_id": 267557,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8799,
+            "institution_id": 4,
+            "description": "Sobre o diagnóstico diferencial das taquiarritmias, todos os achados abaixo falam a favor de taquicardia ventricular, EXCETO:",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-05T03:32:12.000Z",
+            "updated_at": "2021-06-05T03:32:12.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 793,
+                    "title": "Taquicardias Ventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-06-05T02:34:23.000Z",
+                    "updated_at": "2021-06-05T02:34:23.000Z",
+                    "pivot": {
+                        "discipline_id": 793,
+                        "question_id": 8799
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36087,
+                    "question_id": 8799,
+                    "description": "Dissociação atrioventricular",
+                    "explanation": "Perfeito doc! 😁 A dissociação AV é o encontro de ondas P perdidas no traçado da taquicardia, sem relação com o QRS. Ou seja, não é o estímulo atrial que está levando à despolarização ventricular. O ventrículo está agindo de forma independente, o que nos leva sim a pensar em taquicardia ventricular! Doc, se liga nesse exemplo👇\n- Fonte: http://itarget.com.br/newclients/sobrachome.org/home/wp-content/uploads/videos/precon/2019/precon-campinas/aliados-23-08/Aula%204-21h20%20%E2%80%93%2021h40%20Arritmias%20ventriculares-classifica%C3%A7%C3%A3o%20e%20apresenta%C3%A7%C3%A3o%20eletrogr%C3%A1fica_Roni%20Daniel%20Gomes.pdf",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-05T00:32:12.000Z",
+                    "updated_at": "2021-06-05T00:32:12.000Z",
+                    "files": [
+                        {
+                            "id": 10068,
+                            "file": "8a200934-c4f0-431a-82e5-6e8d2d3f3826.jpeg",
+                            "name": "000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T02:54:49.000Z",
+                            "updated_at": "2021-06-05T02:54:49.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8a200934-c4f0-431a-82e5-6e8d2d3f3826.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10068,
+                                "alternative_id": 36087
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36088,
+                    "question_id": 8799,
+                    "description": "Batimentos de captura e fusão",
+                    "explanation": "Perfeito doc! Esses são achados que falam a favor sim de uma taquicardia ventricular. Doc, em uma taqui ventricular, uma onda P sinusal que está \"perdida\" pode, eventualmente, produzir um QRS próprio. Saca só👇\n- se o QRS for estreito=> o batimento é dito de captura\n- se o QRS for alargado=> o batimento é dito de fusão",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-05T00:32:12.000Z",
+                    "updated_at": "2021-06-05T00:32:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36089,
+                    "question_id": 8799,
+                    "description": "QRS muito alargado",
+                    "explanation": "Perfeito doc! 😁 Um QRS > 0,16 segundos (4 mm) é muito sugestivo de TV. Doc, quanto mais alargado o QRS, maior é a chance de ser ventricular!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-05T00:32:12.000Z",
+                    "updated_at": "2021-06-05T00:32:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36090,
+                    "question_id": 8799,
+                    "description": "QRS uniformes e com padrão de transição típico de V1 a V6",
+                    "explanation": "Falso doc! Pegadinha😋 Isso fala contra taquicardia ventricular. Em uma taqui ventricular, esperamos variações do QRS e do segmento ST, além de que a presença de todos os QRS positivos nas derivações precordiais ou todos negativos fala mais a favor de TV do que a presença da transição típica de V1 a V6! Doc, se liga nesse exemplo de TV👇\n- Fonte: https://pt.my-ekg.com/arritmias-cardiacas/taquicardias-ventriculares/taquicardias-ventriculares.html",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-06-05T00:32:12.000Z",
+                    "updated_at": "2021-06-05T00:32:12.000Z",
+                    "files": [
+                        {
+                            "id": 10069,
+                            "file": "e9cec56f-28f7-41d8-8dbe-a57187723124.png",
+                            "name": "taquicardia-ventricular.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-05T03:32:08.000Z",
+                            "updated_at": "2021-06-05T03:32:08.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e9cec56f-28f7-41d8-8dbe-a57187723124.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10069,
+                                "alternative_id": 36090
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8799,
+                "questionary_id": 267557,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8802,
+            "institution_id": 4,
+            "description": "Em relação aos tipos de taquicardia ventricular, quanto à sintomatologia e evolução clínica, assinale a alternativa INCORRETA:",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-05T04:13:47.000Z",
+            "updated_at": "2021-06-05T04:13:47.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 793,
+                    "title": "Taquicardias Ventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-06-05T02:34:23.000Z",
+                    "updated_at": "2021-06-05T02:34:23.000Z",
+                    "pivot": {
+                        "discipline_id": 793,
+                        "question_id": 8802
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36099,
+                    "question_id": 8802,
+                    "description": "Episódios de TV que duram menos do que 30 segundos são chamados de TV não sustentada",
+                    "explanation": "Perfeito doc! 😁 Esse é um conceito importante quanto à classificação das taquicardias ventriculares. Podemos inicialmente dividir as TV em dois subtipos: não sustentada (< 30 segundos) e sustentada (>30 segundos)!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-05T01:13:47.000Z",
+                    "updated_at": "2021-06-05T01:13:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36100,
+                    "question_id": 8802,
+                    "description": "As TV não sustentadas são caracterizadas por curta duração e instabilidade hemodinâmica leve",
+                    "explanation": "Falso doc! Pegadinha do malandro! 😎 As TV não sustentadas são caracterizadas por um período de duração menor do que 30 segundos e por **não causarem instabilidade hemodinâmic**a, diferentemente do que ocorre na TV sustentada, que, por definição, dura mais de 30 segundos OU cursa com instabilidade hemodinâmica!",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-06-05T01:13:47.000Z",
+                    "updated_at": "2021-06-05T01:13:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36101,
+                    "question_id": 8802,
+                    "description": "Tanto as TV sustentadas quanto as não sustentadas podem ser mono ou polimórficas",
+                    "explanation": "Perfeito doc! 😁Aqui está um conceito muito importante das taquicardias ventriculares. Tanto as TV sustentadas quanto às não-sustentadas podem ser mono ou polimórficas. Se liga nessa imagem esquematizando isso doc👇\n- Fonte: http://www.mairimed.com/artigos/taquicardias/",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-05T01:13:47.000Z",
+                    "updated_at": "2021-06-05T01:13:47.000Z",
+                    "files": [
+                        {
+                            "id": 10076,
+                            "file": "e3f730e8-543b-47a2-b477-dcce3d1f53ee.png",
+                            "name": "taqui5.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-05T04:07:00.000Z",
+                            "updated_at": "2021-06-05T04:07:00.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e3f730e8-543b-47a2-b477-dcce3d1f53ee.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10076,
+                                "alternative_id": 36101
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36102,
+                    "question_id": 8802,
+                    "description": "O ritmo idioventricular acelerado é uma taquicardia ventricular lenta, com ritmo entre 60 e 120 bpm",
+                    "explanation": "Perfeito doc! 😁 Esse é inclusive um dos nomes antigos do ritmo idioventricular acelerado: \"taquicardia ventricular lenta\", uma vez que se caracteriza por uma sequência de complexos QRS batendo entre 60-120 bpm. É um quadro benigno e autolimitado, geralmente ocorrendo na fase aguda do IAM, muitas vezes associado a própria reperfusão miocárdica!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-05T01:13:47.000Z",
+                    "updated_at": "2021-06-05T01:13:47.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8802,
+                "questionary_id": 267557,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8844,
+            "institution_id": 4,
+            "description": "Para a distinção de uma taquicardia com QRS largo entre supraventricular e ventricular podemos usar alguns métodos. Dentre os abaixo, qual deles **NÃO** pode ser usado para tal fim?",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-06T18:02:30.000Z",
+            "updated_at": "2022-01-18T01:08:29.000Z",
+            "user_id": 1482,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 8844
+                    }
+                },
+                {
+                    "id": 793,
+                    "title": "Taquicardias Ventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-06-05T02:34:23.000Z",
+                    "updated_at": "2021-06-05T02:34:23.000Z",
+                    "pivot": {
+                        "discipline_id": 793,
+                        "question_id": 8844
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36268,
+                    "question_id": 8844,
+                    "description": "Algoritmo de Brugada.",
+                    "explanation": "Esse pode ser usado sim, Doc! 🤔\n- O algoritmo de Brugada é **um dos mais conhecidos** para a distinçaõ entre taquicadia ventricular e supraventricular com QRS largo.\n\nOlhe a sequência na foto abaixo 👇:\nFonte: [https://cardiopapers.com.br/qual-o-diagnostico-4/](https://cardiopapers.com.br/qual-o-diagnostico-4/)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-06T15:02:30.000Z",
+                    "updated_at": "2022-01-17T22:08:29.000Z",
+                    "files": [
+                        {
+                            "id": 10150,
+                            "file": "2a8cacb2-88dd-4dfc-acbd-f4d4d9b8471d.png",
+                            "name": "brugada.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-06T17:40:58.000Z",
+                            "updated_at": "2021-06-06T17:40:58.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2a8cacb2-88dd-4dfc-acbd-f4d4d9b8471d.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10150,
+                                "alternative_id": 36268
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36269,
+                    "question_id": 8844,
+                    "description": "Algoritmo de Santos.",
+                    "explanation": "Esse pode ser usado sim, Doc! 🤔\n- O algoritmo de Santos, descrito por um brasileiro, é uma das formas de diferenciarmos taquicardia ventricular de supreventricular olhando para as derivações DI, DII, V1 e V6.\n\n\nVeja a sequência do algoritmo, Doc 👇:\nFonte: [https://cardiopapers.com.br/taquicardia-de-qrs-largo/](https://cardiopapers.com.br/taquicardia-de-qrs-largo/)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-06T15:02:30.000Z",
+                    "updated_at": "2022-01-17T22:08:29.000Z",
+                    "files": [
+                        {
+                            "id": 10152,
+                            "file": "43ea7307-c3f4-4fc0-bb00-e6a9b9971460.png",
+                            "name": "santos.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-06T17:43:59.000Z",
+                            "updated_at": "2021-06-06T17:43:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/43ea7307-c3f4-4fc0-bb00-e6a9b9971460.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10152,
+                                "alternative_id": 36269
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36270,
+                    "question_id": 8844,
+                    "description": "Critérios de Romhilt-Estes.",
+                    "explanation": "Boa, Doc, essa é a incorreta! 👊 \n- Os Critérios de Romhilt-Estes foram desenvolvidos para para o **diagnóstico de sobrecarga ventricular esquerda**, não sendo úteis para o diagnóstico diferencial de arritmias.\n\nVamos lembrar dos critérios com a tabela abaixo 👇:\nFonte:[https://www.sanarmed.com/ecg-sobrecargas-ventriculares](https://www.sanarmed.com/ecg-sobrecargas-ventriculares)",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-06-06T15:12:41.000Z",
+                    "updated_at": "2022-01-17T22:08:29.000Z",
+                    "files": [
+                        {
+                            "id": 10163,
+                            "file": "a8422d49-eb6c-473c-b545-6c2231554004.png",
+                            "name": "Rhomilt.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-06T18:12:28.000Z",
+                            "updated_at": "2021-06-06T18:12:28.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a8422d49-eb6c-473c-b545-6c2231554004.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10163,
+                                "alternative_id": 36270
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36271,
+                    "question_id": 8844,
+                    "description": "Algoritmo de Vereckey.",
+                    "explanation": "Esse pode ser usado sim, Doc! 🤔\n- O algoritmo de Vereckey se baseia na diferença entre direção e velocidade da ativação ventricular durante a arritmia de QRS largo, sendo uma ferramenta para diferenciar a origem, ventricular ou supraventricular. \n- Nele olhamos apenas a derivação aVR (lembre-se, a**V**e**R**ekey 💡).\n\nOlhe o algoritmo abaixo, Doc 👇:\nFonte: [https://cardiopapers.com.br/qual-o-diagnostico-4/](https://cardiopapers.com.br/qual-o-diagnostico-4/)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-06T15:12:41.000Z",
+                    "updated_at": "2022-01-17T22:08:29.000Z",
+                    "files": [
+                        {
+                            "id": 10161,
+                            "file": "dc1bfe34-3f2a-4759-a138-f21b1fa0ccf5.png",
+                            "name": "vereckeyyy.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-06T18:07:34.000Z",
+                            "updated_at": "2021-06-06T18:07:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/dc1bfe34-3f2a-4759-a138-f21b1fa0ccf5.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10161,
+                                "alternative_id": 36271
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8844,
+                "questionary_id": 267557,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8800,
+            "institution_id": 4,
+            "description": "Sobre os critérios de Brugada, assinale a alternativa CORRETA:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-05T03:49:15.000Z",
+            "updated_at": "2021-06-05T03:49:15.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 793,
+                    "title": "Taquicardias Ventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-06-05T02:34:23.000Z",
+                    "updated_at": "2021-06-05T02:34:23.000Z",
+                    "pivot": {
+                        "discipline_id": 793,
+                        "question_id": 8800
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36091,
+                    "question_id": 8800,
+                    "description": "É utilizado para identificar qual é o tipo de taquicardia ventricular presente",
+                    "explanation": "Falso doc! 😋  Os critérios de Brugada são utilizados para auxiliar na distinção das taquicardias de QRS largo, basicamente, dizendo se a taquicardia em questão é ventricular ou não! Não discrimina qual é o tipo de taqui ventricular! ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-05T00:49:15.000Z",
+                    "updated_at": "2021-06-05T00:49:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36092,
+                    "question_id": 8800,
+                    "description": "Para que se tenha o diagnóstico de TV por esses critérios é necessário a presença de 3 dos 4 critérios",
+                    "explanation": "Falso doc! 😋 Os critérios de Brugada são utilizados para a identificação de taquicardias ventriculares e baseiam-se em 4 perguntas, de modo que a resposta positiva em qualquer uma das perguntas já é suficiente para um diagnóstico de taquicardia ventricular!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-05T00:49:15.000Z",
+                    "updated_at": "2021-06-05T00:49:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36093,
+                    "question_id": 8800,
+                    "description": "Presença de critérios morfológicos para TV e a ausência de RS nas derivações precordiais falam a favor de TV",
+                    "explanation": "Perfeito doc! Arrasou! 😎 Os critérios de Brugada são utilizados para a identificação de taquicardias ventriculares e baseiam-se nas seguintes perguntas👇\n- 1- Ausência de complexo RS em todas as derivações precordiais?\n- 2- Duração do intervalo RS > 100 ms em uma derivação precordial?\n- 3- Dissociação Atrioventricular?\n- 4- Existem critérios morfológicos para TV?\n- A resposta positiva em qualquer uma das perguntas permite o diagnóstico de taquicardia ventricular\n- Doc, só para ilustrar, se liga nesse fluxograma contendo os critérios de Brugada👇\n- Fonte: https://cardiopapers.com.br/qual-o-diagnostico-4/",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-06-05T00:49:15.000Z",
+                    "updated_at": "2021-06-05T00:49:15.000Z",
+                    "files": [
+                        {
+                            "id": 10072,
+                            "file": "39143037-2c79-4e08-aef4-5f758215aab0.png",
+                            "name": "brugada2.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-05T03:47:09.000Z",
+                            "updated_at": "2021-06-05T03:47:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/39143037-2c79-4e08-aef4-5f758215aab0.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10072,
+                                "alternative_id": 36093
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36094,
+                    "question_id": 8800,
+                    "description": "Um intervalo RS menor do que 100 ms em uma derivação precordial é suficiente para o diagnóstico de TV",
+                    "explanation": "Falso doc! Pegadinha😋 Na verdade, é a presença de um intervalo RS **maior do que 100 m**s em uma derivação precordial que é suficiente para o diagnóstico de TV!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-05T00:49:15.000Z",
+                    "updated_at": "2021-06-05T00:49:15.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8800,
+                "questionary_id": 267557,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8807,
+            "institution_id": 4,
+            "description": "Qual é o maior risco de uma taquicardia ventricular?",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-05T04:46:33.000Z",
+            "updated_at": "2021-06-05T04:46:33.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 793,
+                    "title": "Taquicardias Ventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-06-05T02:34:23.000Z",
+                    "updated_at": "2021-06-05T02:34:23.000Z",
+                    "pivot": {
+                        "discipline_id": 793,
+                        "question_id": 8807
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36120,
+                    "question_id": 8807,
+                    "description": "Degeneração miocárdica",
+                    "explanation": "Falso doc! 😋 Uma taquicardia ventricular sustentada pode sim gerar degeneração miocárdica a longo prazo, mas esse não é a principal preocupação de uma TV!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-05T01:46:33.000Z",
+                    "updated_at": "2021-06-05T01:46:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36121,
+                    "question_id": 8807,
+                    "description": "Instabilidade Hemodinâmica",
+                    "explanation": "Falso doc!😋 Embora a TV sustentada comumente evolua com instabilidade hemodinâmica que pode comprometer o estado geral do paciente, essa não é a principal preocupação de uma TV!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-05T01:46:33.000Z",
+                    "updated_at": "2021-06-05T01:46:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36122,
+                    "question_id": 8807,
+                    "description": "Degeneração em Fibrilação Ventricular",
+                    "explanation": "Perfeito doc! Arrasou! 😁 Essa é a grande preocupação diante de uma taquicardia ventricular, uma vez que a fibrilação ventricular é um ritmo de parada e o paciente pode evoluir à obito em pouco tempo! Fatores como FC > 180 bpm, episódio sincopal, instabilidade hemodinâmica e fração de ejeção < 40% aumentam o risco de degeneração de uma TV em FV!",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-06-05T01:46:33.000Z",
+                    "updated_at": "2021-06-05T01:46:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36123,
+                    "question_id": 8807,
+                    "description": "Não há preocupação diante de uma TV por tratar-se de um quadro benigno e autolimitado",
+                    "explanation": "Falso doc! 😋 As taquicardias ventriculares são as taquiarritmias mais preocupantes por conta da sua capacidade de se degenerar em fibrilação ventricular e morte!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-05T01:46:33.000Z",
+                    "updated_at": "2021-06-05T01:46:33.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8807,
+                "questionary_id": 267557,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8820,
+            "institution_id": 4,
+            "description": "Sobre a Torsades de Pointes, assinale a alternativa INCORRETA:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-06T01:20:24.000Z",
+            "updated_at": "2021-06-06T01:20:24.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 793,
+                    "title": "Taquicardias Ventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-06-05T02:34:23.000Z",
+                    "updated_at": "2021-06-05T02:34:23.000Z",
+                    "pivot": {
+                        "discipline_id": 793,
+                        "question_id": 8820
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36172,
+                    "question_id": 8820,
+                    "description": "É uma taquicardia ventricular monomórfica que pode levar a morte súbita.",
+                    "explanation": "Falso doc! Pegadinha do malandro! 😎 A Torsades de Pointes é uma taquicardia ventricular **POLIMÓRFIC**A, cujo fator predisponente fundamental é o intervalo QT longo! Essa taquicardia ventricular está altamente associada à morte súbita! Doc, você já viu uma Torsades de Pointes? Se liga nisso👇\n- Fonte: https://pt.wikipedia.org/wiki/Torsades_de_pointes",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-06-05T22:20:24.000Z",
+                    "updated_at": "2021-06-05T22:20:24.000Z",
+                    "files": [
+                        {
+                            "id": 10095,
+                            "file": "78d23581-a4a7-42ee-bc14-2efaa26790dd.png",
+                            "name": "300px-Torsades_de_Pointes_TdP.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-06T01:12:54.000Z",
+                            "updated_at": "2021-06-06T01:12:54.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/78d23581-a4a7-42ee-bc14-2efaa26790dd.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10095,
+                                "alternative_id": 36172
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36173,
+                    "question_id": 8820,
+                    "description": "Determinadas drogas como a cloroquina, tricíclicos e a procainamina estão relacionados ao desenvolvimento dessa condição",
+                    "explanation": "Perfeito doc! 😁 Drogas, distúrbios hidroeletrolíticos, anorexia nervosa, dieta líquida proteica e bradiarritmias malignas estão entre as principais causas de Torsades de Pointes!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-05T22:20:24.000Z",
+                    "updated_at": "2021-06-05T22:20:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36174,
+                    "question_id": 8820,
+                    "description": "Pode ocorrer secundariamente a causas hereditárias",
+                    "explanation": "Perfeito doc! 😁 O grande exemplo aqui é a síndrome do QT longo congênita, que pode ser tanto autossômica dominante (síndrome de Romano-Ward) quanto autossômica recessiva (síndrome de Jervell-Lange-Nielsen)!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-05T22:20:24.000Z",
+                    "updated_at": "2021-06-05T22:20:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36175,
+                    "question_id": 8820,
+                    "description": "A correção de distúrbios hidroeletrolíticos e a suplementação de potássio fazem parte da terapêutica",
+                    "explanation": "Perfeito doc! 😁 O manejo do paciente com Torsades de Pointes envolve os seguintes ítens👇\n- Correção de disúrbios hidroeletrolíticos\n- Suspensão de medicações relacionadas que possam estar gerando o quadro\n- Sulfato de magnésio 2g em bolo + 3-20 mg/min de manutenção, até 10g em 5h!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-05T22:20:24.000Z",
+                    "updated_at": "2021-06-05T22:20:24.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8820,
+                "questionary_id": 267557,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1667,
+            "institution_id": 4,
+            "description": "A principal alteração de ECG que você estar relacionada com o uso de macrolídeos é:",
+            "difficulty": "hard",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-12T03:17:10.000Z",
+            "updated_at": "2022-01-03T23:32:12.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 515,
+                    "title": "Macrolídeos",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-11-02T00:57:10.000Z",
+                    "updated_at": "2020-11-02T00:57:10.000Z",
+                    "pivot": {
+                        "discipline_id": 515,
+                        "question_id": 1667
+                    }
+                },
+                {
+                    "id": 793,
+                    "title": "Taquicardias Ventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-06-05T02:34:23.000Z",
+                    "updated_at": "2021-06-05T02:34:23.000Z",
+                    "pivot": {
+                        "discipline_id": 793,
+                        "question_id": 1667
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6852,
+                    "question_id": 1667,
+                    "description": "Diminuição do segmento QRS",
+                    "explanation": "Falso, Doc! 🙉  O principal sinal de alteração cardíaca causada por macrolídeos que aparece no ECG é o **prolongamento do intervalo Q**T ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-12T00:17:10.000Z",
+                    "updated_at": "2022-01-03T20:32:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6853,
+                    "question_id": 1667,
+                    "description": "Prolongamento de QT",
+                    "explanation": "Perfeito, Doc! Que orgulho! 😍\n- Os macrolídeos estão entre os medicamentos que podem causar prolongamento do intervalo QT\n- 🖐 Doc, sempre que ver alguma alteração desse tipo, pergunte ao paciente que medicamentos ele toma\n- Lembre-se que o prolongamento do QT predispõe à Torsades de Pointes\n\n\n💡 Doc, se liga nesse macete irado para lembrar as drogas que prolongam o QT 👇:\n\nFonte: https://cardiopapers.com.br/como-memorizar-as-principais-drogas-que-aumentam-intervalo-qt/",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-12T00:17:10.000Z",
+                    "updated_at": "2022-01-03T20:32:12.000Z",
+                    "files": [
+                        {
+                            "id": 25623,
+                            "file": "4661b2f2-f8f7-4dd4-9896-378a6a43615a.png",
+                            "name": "papers.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-03T20:29:10.000Z",
+                            "updated_at": "2022-01-03T20:29:10.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4661b2f2-f8f7-4dd4-9896-378a6a43615a.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25623,
+                                "alternative_id": 6853
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6854,
+                    "question_id": 1667,
+                    "description": "Inversão de onda T",
+                    "explanation": "Falso, Doc! 🙉  O principal sinal de alteração cardíaca causada por macrolídeos que aparece no ECG é o **prolongamento do intervalo Q**T  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-12T00:17:10.000Z",
+                    "updated_at": "2022-01-03T20:32:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6855,
+                    "question_id": 1667,
+                    "description": "Inversão de onda P",
+                    "explanation": "Falso, Doc! 🙉  O principal sinal de alteração cardíaca causada por macrolídeos que aparece no ECG é o **prolongamento do intervalo Q**T  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-12T00:17:10.000Z",
+                    "updated_at": "2022-01-03T20:32:12.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1667,
+                "questionary_id": 267557,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8805,
+            "institution_id": 4,
+            "description": "Sabe-se que a taquicardia ventricular (TV) é a taquiarritmia mais preocupante, uma vez que possui a capacidade de se degenerar em fibrilação ventricular (FV) e morte súbita. São fatores de risco associados à degeneração de uma TV em em FV, EXCETO:",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-05T04:26:54.000Z",
+            "updated_at": "2021-06-05T04:26:54.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 793,
+                    "title": "Taquicardias Ventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-06-05T02:34:23.000Z",
+                    "updated_at": "2021-06-05T02:34:23.000Z",
+                    "pivot": {
+                        "discipline_id": 793,
+                        "question_id": 8805
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36111,
+                    "question_id": 8805,
+                    "description": "FC > 180 bpm",
+                    "explanation": "Perfeito doc! 😁 Esse é, inclusive, o principal fator de risco! Dificilmente uma TV com < 150 bpm vai se degenerar em FV, porém uma TV com > 180 bpm passa a apresentar um risco considerável!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-05T01:26:54.000Z",
+                    "updated_at": "2021-06-05T01:26:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36112,
+                    "question_id": 8805,
+                    "description": "Episódio sincopal",
+                    "explanation": "Perfeito doc!😁 Toda taquicardia ventricular que evolui com episódio sincopal ou qualquer sintoma de instabilidade hemodinâmica pode se degenerar em fibrilação ventricular!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-05T01:26:54.000Z",
+                    "updated_at": "2021-06-05T01:26:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36113,
+                    "question_id": 8805,
+                    "description": "Fração de ejeção < 60%",
+                    "explanation": "Falso doc! Pegadinha😋 Uma fração de ejeção < 60% é considerada normal! Passamos a considerar um fator de risco para a degeneração de uma TV em fibrilação ventricular a partir de valores abaixo de 40%, sobretudo se menores que 35%!",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-06-05T01:26:54.000Z",
+                    "updated_at": "2021-06-05T01:26:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36114,
+                    "question_id": 8805,
+                    "description": "Instabilidade Hemodinâmica",
+                    "explanation": "Perfeito doc!😁 Qualquer taquicardia ventricular que evolua com episódios de síncope ou qualquer outro sintoma de instabilidade hemodinâmica possui um risco maior de se degenerar em fibrilação ventricular!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-05T01:26:54.000Z",
+                    "updated_at": "2021-06-05T01:26:54.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8805,
+                "questionary_id": 267557,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8823,
+            "institution_id": 363,
+            "description": "Paciente do sexo feminino, hipertensa de longa data, não aderente ao tratamento, dá entrada na urgência queixando-se de palpitações e dispneia. Ao exame, encontra-se hipotensa (92 x 60 mmHg; PA habitual: 160 x 106 mmHg), ansiosa e confusa. O ECG mostra o traçado abaixo. A opção terapêutica nesse caso é (*modificada):*",
+            "difficulty": "hard",
+            "year": "2011-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-05T22:41:08.000Z",
+            "updated_at": "2022-01-12T17:02:43.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 363,
+                "title": "SANTA CASA DE MISERICÓRDIA DE BELO HORIZONTE – MG",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-06-05T22:41:08.000Z",
+                "updated_at": "2021-06-05T22:41:08.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 793,
+                    "title": "Taquicardias Ventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-06-05T02:34:23.000Z",
+                    "updated_at": "2021-06-05T02:34:23.000Z",
+                    "pivot": {
+                        "discipline_id": 793,
+                        "question_id": 8823
+                    }
+                },
+                {
+                    "id": 1070,
+                    "title": "Casos Clínicos com Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:02:01.000Z",
+                    "updated_at": "2022-01-15T20:21:49.000Z",
+                    "pivot": {
+                        "discipline_id": 1070,
+                        "question_id": 8823
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36184,
+                    "question_id": 8823,
+                    "description": "Desfibrilação",
+                    "explanation": "Falso doc! 😋 Não há indicação de desfibrilação nesse caso, uma vez que o paciente apresenta uma taquicardia ventricular monomórfica e regular, com presença de pulso apesar da instabilidade hemodinâmica. Um choque não sincronizado aqui poderia levar a uma fibrilação ventricular, podendo levar o paciente à óbito!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-05T22:41:08.000Z",
+                    "updated_at": "2022-01-12T17:02:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36185,
+                    "question_id": 8823,
+                    "description": "Cardioversão sincronizada",
+                    "explanation": "Perfeito doc! Mandou bem! 😎 O ECG mostra uma taquicardia com QRS largo, o que nos leva a duas hipóteses diagnósticas principais: taquicardia ventricular (nesse caso monomórfica) e taquicardia supraventricular com aberrância. Independente do diagnóstico final, como existe instabilidade hemodinâmica, temos indicação imediata de cardioversão elétrica, nesse caso, sincronizada pois existe pulso! A não sincronização do choque pode resultar em degeneração da taquicardia em fibrilação ventricular, agravando o quadro do paciente!",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-06-05T22:41:08.000Z",
+                    "updated_at": "2022-01-12T17:02:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36186,
+                    "question_id": 8823,
+                    "description": "Amiodarona",
+                    "explanation": "Falso doc! 😋 Como há instabilidade hemodinâmica, temos indicação de cardioversão elétrica imediata, sendo, nesse caso, sincronizada, uma vez que a paciente apresenta pulso!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-06-05T22:41:08.000Z",
+                    "updated_at": "2022-01-12T17:02:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36187,
+                    "question_id": 8823,
+                    "description": "Diltiazem",
+                    "explanation": "Falso doc! 😋 Como há instabilidade hemodinâmica, temos indicação de cardioversão elétrica imediata, sendo, nesse caso, sincronizada, uma vez que a paciente apresenta pulso! ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-05T22:41:08.000Z",
+                    "updated_at": "2022-01-12T17:02:43.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 10096,
+                    "file": "a121ec5f-fbd2-48d2-a636-f8ae17f343ca.jpeg",
+                    "name": "000000000000000000000000000000000000.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2021-06-06T01:36:47.000Z",
+                    "updated_at": "2021-06-06T01:36:47.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a121ec5f-fbd2-48d2-a636-f8ae17f343ca.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 10096,
+                        "question_id": 8823
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 8823,
+                "questionary_id": 267557,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8827,
+            "institution_id": 4,
+            "description": "Como pode ser manejado um paciente com taquicardia ventricular sustentada que não causa instabilidade hemodinâmica?",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-06T02:06:26.000Z",
+            "updated_at": "2021-06-06T02:06:26.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 793,
+                    "title": "Taquicardias Ventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-06-05T02:34:23.000Z",
+                    "updated_at": "2021-06-05T02:34:23.000Z",
+                    "pivot": {
+                        "discipline_id": 793,
+                        "question_id": 8827
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36200,
+                    "question_id": 8827,
+                    "description": "Cardioversão elétrica sincronizada",
+                    "explanation": "Falso doc! 😋 A cardioversão elétrica sincronizada está reservada para casos em que há instabilidade hemodinâmica!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-05T23:06:26.000Z",
+                    "updated_at": "2021-06-05T23:06:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36201,
+                    "question_id": 8827,
+                    "description": "Adenosina",
+                    "explanation": "Falso doc! 😋 A adenosina é utilizada em quadros de taquicardia supraventricular com ritmo regular!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-05T23:06:26.000Z",
+                    "updated_at": "2021-06-05T23:06:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36202,
+                    "question_id": 8827,
+                    "description": "Amiodarona",
+                    "explanation": "Perfeiro doc! Arrasou! 😎 A amiodarona é a droga de escolha em pacientes com taquicardia ventricular monomórfica! Lembrando doc, que a taquicardia monomórfica é a taqui que não cursa com instabilidade hemodinâmica! Caso haja instabilidade hemodinâmica, partimos para a cardioversão elétrica!",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-06-05T23:06:26.000Z",
+                    "updated_at": "2021-06-05T23:06:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36203,
+                    "question_id": 8827,
+                    "description": "Desfibrilação",
+                    "explanation": "Falso doc! 😋 Não temos indicação de desfibrilação em paciente com taquicardia ventricular **sem instabilidade hemodinâmica!** Se fosse uma TV polimórfica/FV, ai sim podemos lançar mão da desfibrilação, utilizando as mesmas cargas de uma PCR!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-05T23:06:26.000Z",
+                    "updated_at": "2021-06-05T23:06:26.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8827,
+                "questionary_id": 267557,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8831,
+            "institution_id": 4,
+            "description": "Em relação ao tratamento das taquicardias ventriculares, assinale a alternativa INCORRETA:",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-06T02:23:59.000Z",
+            "updated_at": "2021-06-06T02:23:59.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 793,
+                    "title": "Taquicardias Ventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-06-05T02:34:23.000Z",
+                    "updated_at": "2021-06-05T02:34:23.000Z",
+                    "pivot": {
+                        "discipline_id": 793,
+                        "question_id": 8831
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36216,
+                    "question_id": 8831,
+                    "description": "Pacientes com TVNS portadores de doença coronariana podem se beneficiar do uso do cardiodesfibrilador implantável",
+                    "explanation": "Perfeito doc! 😁 A taquicardia ventricular não sustentada deve ser manejada de acordo com a função cardíaca do paciente e a presença ou não de cardiopatia. Em pacientes não cardiopatas, o tratamento é sintomático com betabloqueadores, enquanto em pacientes com doença coronariana e FE < 35-40% que apresentam TVMS instável induzível no estudo eletrofisiológico, podemos lançar mão de um cardiodesfibrilador implantável!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-05T23:23:59.000Z",
+                    "updated_at": "2021-06-05T23:23:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36217,
+                    "question_id": 8831,
+                    "description": "Toda taquicardia ventricular sustentada precisa ser prontamente revertida",
+                    "explanation": "Perfeito doc! 😁 Todas taqui ventriculares sustentadas PRECISAM ser revertidas! Quanto mais alta a frequência cardíaca, mais rápido terá de ser o atendimento! Se houver sinal de instabilidade hemodinâmica, devemos lançar mão de uma cardioversão elétrica emergencial!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-05T23:23:59.000Z",
+                    "updated_at": "2021-06-05T23:23:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36218,
+                    "question_id": 8831,
+                    "description": "A adenosina é o antiarrítmico de primeira escolha para pacientes com TV monomórfica após a reversão",
+                    "explanation": "Falso doc! Pegadinha do malandro! 😋 A **AMIODARONA** é o antiarrítmico de escolha para pacientes com taquicardia ventricular monomórfica! Doc, a adenosina é utilizada para quadros de taquicardia supraventricular com ritmo regular!",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-06-05T23:23:59.000Z",
+                    "updated_at": "2021-06-05T23:23:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36219,
+                    "question_id": 8831,
+                    "description": "Pacientes com TVNS sem cardiopatia podem ser manejados com betabloqueadores para controle sintomático",
+                    "explanation": "Perfeito doc! 😁 A taquicardia ventricular não sustentada deve ser manejada de acordo com a função cardíaca do paciente e a presença ou não de cardiopatia. Em pacientes não cardiopatas, o tratamento é sintomático com betabloqueadores, enquanto em pacientes com doença coronariana e FE < 35-40% que apresentam TVMS instável induzível no estudo eletrofisiológico, podemos lançar mão de um cardiodesfibrilador implantável! ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-05T23:23:59.000Z",
+                    "updated_at": "2021-06-05T23:23:59.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8831,
+                "questionary_id": 267557,
+                "timer": 0
+            }
+        }
+    ]
+}

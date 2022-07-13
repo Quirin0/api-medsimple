@@ -1,0 +1,1989 @@
+{
+    "id": 267284,
+    "user_id": 1699,
+    "title": "Derrame Pleural\t\t",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-10T19:56:05.000Z",
+    "updated_at": "2022-07-10T19:56:05.000Z",
+    "study_plan_id": 49,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 1342,
+            "institution_id": 4,
+            "description": "Qual é a principal causa de derrame pleural na prática clínica?",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-06T20:46:52.000Z",
+            "updated_at": "2021-06-05T06:24:36.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 158,
+                    "title": "Derrame Pleural\t\t",
+                    "description": null,
+                    "parent_id": 33,
+                    "is_enabled": true,
+                    "created_at": "2020-06-06T20:39:05.000Z",
+                    "updated_at": "2020-06-06T20:39:05.000Z",
+                    "pivot": {
+                        "discipline_id": 158,
+                        "question_id": 1342
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 5513,
+                    "question_id": 1342,
+                    "description": "Empiema",
+                    "explanation": "Falso doc! 😋 O empiema pode ser um causa de derrame pleura do tipo **exsudat**o, contudo, **não é a causa mais comum**. As principais causas de exsudato são o **derrame parapneumônico e o câncer**.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-06T17:46:53.000Z",
+                    "updated_at": "2021-06-05T03:24:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5514,
+                    "question_id": 1342,
+                    "description": "Insuficiência Cardíaca Congestiva",
+                    "explanation": "Perfeito doc! Arrasou! 😁 A insuficiência cardíaca congestiva é a principal causa de derrame pleural na prática clínica, sendo considerada um **transudato.** Doc, o derrame pleural na ICC ocorre por conta do acúmulo de sangue retrógrado ao coração insuficiente, gerando aumento da pressão hidrostática e consequente derrame líquido na pleura. Doc, se liga nessa imagem esquematizando como a circulação pulmonar está acoplada ao coração, de modo que uma falência na bomba pode levar ao acúmulo de líquido de modo retrógrado 👇\n- Fonte: https://www.biologianet.com/anatomia-fisiologia-animal/circulacao-sistemica-pulmonar.htm",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-06T17:46:53.000Z",
+                    "updated_at": "2021-06-05T03:24:36.000Z",
+                    "files": [
+                        {
+                            "id": 10077,
+                            "file": "39237a9c-8f01-45fa-916a-664a9db3d3b1.jpeg",
+                            "name": "circulacao.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T06:23:28.000Z",
+                            "updated_at": "2021-06-05T06:23:28.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/39237a9c-8f01-45fa-916a-664a9db3d3b1.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10077,
+                                "alternative_id": 5514
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5515,
+                    "question_id": 1342,
+                    "description": "Hemotórax",
+                    "explanation": "Falso doc! 😋 Pode ser uma causa de derrame pleura do tipo **exsudat**o, contudo, **não é a causa mais comum**!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-06T17:46:53.000Z",
+                    "updated_at": "2021-06-05T03:24:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5516,
+                    "question_id": 1342,
+                    "description": "Cirrose hepática",
+                    "explanation": "Falso doc! 😋 A cirrose hepática pode ser uma causa de derrame pleura do tipo **transudat**o, contudo, **não é a causa mais comum**!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-06T17:46:53.000Z",
+                    "updated_at": "2021-06-05T03:24:36.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1342,
+                "questionary_id": 267284,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1343,
+            "institution_id": 4,
+            "description": "Qual é o método de imagem mais sensível para avaliar o derrame pleural?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-06T20:56:26.000Z",
+            "updated_at": "2021-06-05T06:31:05.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 158,
+                    "title": "Derrame Pleural\t\t",
+                    "description": null,
+                    "parent_id": 33,
+                    "is_enabled": true,
+                    "created_at": "2020-06-06T20:39:05.000Z",
+                    "updated_at": "2020-06-06T20:39:05.000Z",
+                    "pivot": {
+                        "discipline_id": 158,
+                        "question_id": 1343
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 5517,
+                    "question_id": 1343,
+                    "description": "Radiografia de Tórax PA",
+                    "explanation": "Falso doc! 😋 O rx de tórax PA é o exame mais comumente utilizado. No entanto, para que o derrame seja visível (na posteroanterior) é preciso que mais de 200 ml de líquido se acumule no seio costofrênico lateral. Irá causar um \"velamento\" do seio costofrênico. Doc, se liga nessa imagem mostrando esse velamento pelas setinhas👇\nFonte: Pneumoimagem.com.br",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-06T17:56:26.000Z",
+                    "updated_at": "2021-06-05T03:31:05.000Z",
+                    "files": [
+                        {
+                            "id": 358,
+                            "file": "1591465874056.jpeg",
+                            "name": "pneumo.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-06T20:51:14.000Z",
+                            "updated_at": "2020-06-06T20:51:14.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591465874056.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 358,
+                                "alternative_id": 5517
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5518,
+                    "question_id": 1343,
+                    "description": "Tomografia Computadorizada de Tórax",
+                    "explanation": "Perfeito doc! Mandou bem! 😎 A TC de tórax é o método de imagem **mais sensível para avaliar o derrame pleural,** sendo capaz de detectar volumes de **10 ml de derrame pleural!** Doc, você já viu um derrame pleural em uma TC? Se liga nisso👇\n- Fonte: https://www.medicinanet.com.br/m/conteudos/casos/6387/pleurite_lupica.htm",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-06T17:56:26.000Z",
+                    "updated_at": "2021-06-05T03:31:05.000Z",
+                    "files": [
+                        {
+                            "id": 10078,
+                            "file": "e9605f86-56e7-46b8-9981-51644f7fb1b4.jpeg",
+                            "name": "20150810092214.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T06:27:04.000Z",
+                            "updated_at": "2021-06-05T06:27:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e9605f86-56e7-46b8-9981-51644f7fb1b4.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10078,
+                                "alternative_id": 5518
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5519,
+                    "question_id": 1343,
+                    "description": "Ultrassom a beira leito",
+                    "explanation": "Falso doc! 😋 O USG a beira leito deve ser o exame de escolha quando precisamos de um diagnóstico rápido (emergência), uma vez que é rapido, prático, amplamente disponível e pode detectar derrames com volume de apenas 20 mL. No entanto, **não é** o exame mais sensível!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-06T17:56:26.000Z",
+                    "updated_at": "2021-06-05T03:31:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5520,
+                    "question_id": 1343,
+                    "description": "Radiografia de Tórax em Perfil",
+                    "explanation": "Falso doc! A radiografia de tórax em perfil é um pouco mais sensível que a postero-anterior. Contudo, ainda são necessários mais de 100 ml de líquido para **“velar” o seio costofrênico posterior!** Doc, mas falando nisso, você já viu um RX de perfil com derrame pleural? Saca só (se liga no velamento do seio costofrênico apontado pela setinha)👇\n- Fonte: https://www.pneumoimagem.com.br/p-pneumo-imagens/39/147/ct/derrame-pleural/",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-06T17:56:26.000Z",
+                    "updated_at": "2021-06-05T03:31:05.000Z",
+                    "files": [
+                        {
+                            "id": 10080,
+                            "file": "18c6d1af-f1cf-4663-ab0f-8c733ac2f2c4.jpeg",
+                            "name": "DP-perfil.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T06:28:39.000Z",
+                            "updated_at": "2021-06-05T06:28:39.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/18c6d1af-f1cf-4663-ab0f-8c733ac2f2c4.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10080,
+                                "alternative_id": 5520
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1343,
+                "questionary_id": 267284,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1352,
+            "institution_id": 4,
+            "description": "São Critérios de Light para exsudato de líquido pleural: \n- I) Relação de proteína pleural / proteína sérica ≥ 0,6; \n- II) Relação LDH pleural / LDH sérica > 0,6; \n- III) LDH pleural > 2/3 LDH sérica (LSN) ; ",
+            "difficulty": "easy",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-06T23:47:42.000Z",
+            "updated_at": "2022-05-23T12:26:08.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 158,
+                    "title": "Derrame Pleural\t\t",
+                    "description": null,
+                    "parent_id": 33,
+                    "is_enabled": true,
+                    "created_at": "2020-06-06T20:39:05.000Z",
+                    "updated_at": "2020-06-06T20:39:05.000Z",
+                    "pivot": {
+                        "discipline_id": 158,
+                        "question_id": 1352
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 5555,
+                    "question_id": 1352,
+                    "description": "Apenas I",
+                    "explanation": "Falso doc! 😋 Alternativa errada, uma vez que a relação proteína do líquido pleural/proteína do plasma deve ser maior do que **0,**5 e não 0,6!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-06T20:47:42.000Z",
+                    "updated_at": "2022-05-23T12:26:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5556,
+                    "question_id": 1352,
+                    "description": "Apenas II",
+                    "explanation": "Falso doc! A alternativa II também está correta! Vide comentário completo na alternativa correta doc!💡 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-06T20:47:42.000Z",
+                    "updated_at": "2022-05-23T12:26:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5557,
+                    "question_id": 1352,
+                    "description": "Apenas III",
+                    "explanation": "Falso doc! A alternativa II também está correta! Vide comentário completo na alternativa correta doc!💡",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-06T20:47:42.000Z",
+                    "updated_at": "2022-05-23T12:26:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5558,
+                    "question_id": 1352,
+                    "description": "I e III",
+                    "explanation": "Falso doc! Qestão conceitual! **A alternativa I está incorreta**, uma vez que a relação proteína do líquido pleural/proteína sérica deve ser maior do que **0,5** para que o derrame seja exsudativo e não 0,6!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-06T20:47:42.000Z",
+                    "updated_at": "2022-05-23T12:26:08.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5559,
+                    "question_id": 1352,
+                    "description": "II e III",
+                    "explanation": "Perfeito doc! Arrasou! 😎 O derrame será exsudativo se pelo **menos um dos critérios de Ligh**t por positivo👇\n- Relação proteína do líquido/proteína do plasma > 0,5\n- Relação LDH do líquido/LDH do plasma > 0,6\n- LDH do derrame pleural for > 2/3 do limite superior da normalidade no plasma (> 200 U/l)\n\nFonte: https://www.hcrp.usp.br/revistaqualidade/uploads/Artigos/218/218.pdf",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-06-06T20:47:42.000Z",
+                    "updated_at": "2022-05-23T12:26:08.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1352,
+                "questionary_id": 267284,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1354,
+            "institution_id": 4,
+            "description": "O derrame pleural se caracteriza pelo aumento do volume do líquido pleural normal. Para classificá-lo em exsudato ou transudato, devem ser dosadas as seguintes substâncias: ",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-07T02:04:11.000Z",
+            "updated_at": "2021-06-05T07:03:19.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 158,
+                    "title": "Derrame Pleural\t\t",
+                    "description": null,
+                    "parent_id": 33,
+                    "is_enabled": true,
+                    "created_at": "2020-06-06T20:39:05.000Z",
+                    "updated_at": "2020-06-06T20:39:05.000Z",
+                    "pivot": {
+                        "discipline_id": 158,
+                        "question_id": 1354
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 5564,
+                    "question_id": 1354,
+                    "description": "Glicose e pH",
+                    "explanation": "Falso doc! 😋 A glicose e o pH podem ser usados para auxiliar no diagnóstico de derrame parapneumônico. Contudo, **não fazem parte** dos critérios de Light para diferenciar **exsudato de transudato**. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-06T23:04:11.000Z",
+                    "updated_at": "2021-06-05T04:03:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5565,
+                    "question_id": 1354,
+                    "description": "pH e LDH",
+                    "explanation": "Falso doc! 😋 O pH pode ser usado para auxiliar no diagnóstico de derrame parapneumônico. Contudo, **não faz parte** dos critérios de Light para diferenciar **exsudato de transudato**!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-06T23:04:11.000Z",
+                    "updated_at": "2021-06-05T04:03:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5566,
+                    "question_id": 1354,
+                    "description": "LDH e proteínas",
+                    "explanation": "Perfeito doc! Mandou bem demais! 😎Ambos são critérios de Light para diferenciar **exsudato de transudato**👇\n- Relação **proteína** do líquido/proteína do plasma > 0,5\n- Relação **LDH** do líquido/LDH do plasma > 0,6 \n- **LDH** do líquido > 2/3 do limite superior da normalidade no plasma (> 200 U/l)\n- Doc, a presença de qualquer um dos critérios acima já caracteriza o derrame como exsudativo!\n- Se liga nessa tabelinha👇\n- Fonte: https://emergenciarules.com/2018/07/15/manejo-do-derrame-pleural-no-departamento-de-emergenciade/",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-06T23:04:11.000Z",
+                    "updated_at": "2021-06-05T04:03:19.000Z",
+                    "files": [
+                        {
+                            "id": 10081,
+                            "file": "9505d55b-8899-4d4f-8a8a-3d0a95a56ebe.jpeg",
+                            "name": "img_1939-1-3072380089-1531682843853.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:02:14.000Z",
+                            "updated_at": "2021-06-05T07:02:14.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9505d55b-8899-4d4f-8a8a-3d0a95a56ebe.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10081,
+                                "alternative_id": 5566
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5567,
+                    "question_id": 1354,
+                    "description": "Proteínas e glicose",
+                    "explanation": "Falso doc! 😋 A glicose pode ser usada para auxiliar no diagnóstico de derrame parapneumônico. Contudo, **não faz part**e dos critérios de Light para diferenciar **exsudato de transudato**!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-06T23:04:11.000Z",
+                    "updated_at": "2021-06-05T04:03:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1354,
+                "questionary_id": 267284,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1344,
+            "institution_id": 4,
+            "description": "São critérios de Light usados na diferenciação do derrame pleural, EXCETO:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-06T21:10:50.000Z",
+            "updated_at": "2021-06-05T07:09:09.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 158,
+                    "title": "Derrame Pleural\t\t",
+                    "description": null,
+                    "parent_id": 33,
+                    "is_enabled": true,
+                    "created_at": "2020-06-06T20:39:05.000Z",
+                    "updated_at": "2020-06-06T20:39:05.000Z",
+                    "pivot": {
+                        "discipline_id": 158,
+                        "question_id": 1344
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 5521,
+                    "question_id": 1344,
+                    "description": "Relação LDH do líquido/LDH do plasma > 0,6",
+                    "explanation": "Perfeito doc! Esse é um dos critérios de Light. 💡O derrame será **exsudativ**o se pelo menos **um dos critérios abaixo for satisfeito**:\n- Relação LDH do líquido/LDH do plasma > 0,6\n- LDH do líquido > 2/3 do limite superior da normalidade no plasma \n- Relação proteína do líquido/proteína do plasma > 0,5 \n- Doc, se liga nessa tabelinha👇\n- Fonte: [https://emergenciarules.com/2018/07/15/manejo-do-derrame-pleural-no-departamento-de-emergenciade/](https://emergenciarules.com/2018/07/15/manejo-do-derrame-pleural-no-departamento-de-emergenciade/)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-06T18:10:50.000Z",
+                    "updated_at": "2021-06-05T04:09:09.000Z",
+                    "files": [
+                        {
+                            "id": 10081,
+                            "file": "9505d55b-8899-4d4f-8a8a-3d0a95a56ebe.jpeg",
+                            "name": "img_1939-1-3072380089-1531682843853.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:02:14.000Z",
+                            "updated_at": "2021-06-05T07:02:14.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9505d55b-8899-4d4f-8a8a-3d0a95a56ebe.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10081,
+                                "alternative_id": 5521
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5522,
+                    "question_id": 1344,
+                    "description": "LDH do líquido > 2/3 do limite superior da normalidade no plasma ",
+                    "explanation": "Perfeito doc! Esse é um dos critérios! Isso é explicado pelo fato de que, em derrames exsudativos, espera-se uma elevação de LDH, um marcador inflamatório importante! Doc, para ilustrar, se liga nessa tabelinha👇\n- Fonte: https://emergenciarules.com/2018/07/15/manejo-do-derrame-pleural-no-departamento-de-emergenciade/",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-06T18:10:50.000Z",
+                    "updated_at": "2021-06-05T04:09:09.000Z",
+                    "files": [
+                        {
+                            "id": 10081,
+                            "file": "9505d55b-8899-4d4f-8a8a-3d0a95a56ebe.jpeg",
+                            "name": "img_1939-1-3072380089-1531682843853.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:02:14.000Z",
+                            "updated_at": "2021-06-05T07:02:14.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9505d55b-8899-4d4f-8a8a-3d0a95a56ebe.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10081,
+                                "alternative_id": 5522
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5523,
+                    "question_id": 1344,
+                    "description": "Relação proteína do líquido/proteína do plasma > 0,5",
+                    "explanation": "Perfeito doc!😁 Esse é um dos critérios! Isso é explicado pelo fato de que no exsudato espera-se uma concentração maior de proteínas, o que acaba elevando essa relação. Doc, se liga nessa tabelinha👇\n- Fonte: https://emergenciarules.com/2018/07/15/manejo-do-derrame-pleural-no-departamento-de-emergenciade/",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-06T18:10:50.000Z",
+                    "updated_at": "2021-06-05T04:09:09.000Z",
+                    "files": [
+                        {
+                            "id": 10081,
+                            "file": "9505d55b-8899-4d4f-8a8a-3d0a95a56ebe.jpeg",
+                            "name": "img_1939-1-3072380089-1531682843853.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:02:14.000Z",
+                            "updated_at": "2021-06-05T07:02:14.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9505d55b-8899-4d4f-8a8a-3d0a95a56ebe.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10081,
+                                "alternative_id": 5523
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5524,
+                    "question_id": 1344,
+                    "description": "Relação proteína do líquido/proteína do plasma > 0,6",
+                    "explanation": "Falso doc! Pegadinha do malandro! É uma pequena decoreba🙈. A proteína do líquido pleural deve ser maior qu**e 50%(0.5**) do que a proteína do plasma. Isso ocorre uma vez que no exsudato espera-se uma quantidade maior de proteína, elevando essa relação! Doc, para ilustrar, se liga nessa tabelinha👇\n- Fonte: https://emergenciarules.com/2018/07/15/manejo-do-derrame-pleural-no-departamento-de-emergenciade/",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-06T18:10:50.000Z",
+                    "updated_at": "2021-06-05T04:09:09.000Z",
+                    "files": [
+                        {
+                            "id": 10081,
+                            "file": "9505d55b-8899-4d4f-8a8a-3d0a95a56ebe.jpeg",
+                            "name": "img_1939-1-3072380089-1531682843853.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:02:14.000Z",
+                            "updated_at": "2021-06-05T07:02:14.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9505d55b-8899-4d4f-8a8a-3d0a95a56ebe.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10081,
+                                "alternative_id": 5524
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1344,
+                "questionary_id": 267284,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1345,
+            "institution_id": 44,
+            "description": "Um senhor de 62 anos, com história de dispneia aos médios esforços, vem encaminhado ao hospital com diagnóstico de derrame pleural moderado à direita. O médico assistente confirma o diagnóstico pela radiografia e realiza uma punção torácica para coleta de exames e diagnóstico. É um Critério de Light usado na diferenciação de transudato e exsudato:",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-06T21:24:33.000Z",
+            "updated_at": "2021-06-05T07:13:18.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 44,
+                "title": "FAMERP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-20T19:50:31.000Z",
+                "updated_at": "2020-05-20T19:50:31.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 158,
+                    "title": "Derrame Pleural\t\t",
+                    "description": null,
+                    "parent_id": 33,
+                    "is_enabled": true,
+                    "created_at": "2020-06-06T20:39:05.000Z",
+                    "updated_at": "2020-06-06T20:39:05.000Z",
+                    "pivot": {
+                        "discipline_id": 158,
+                        "question_id": 1345
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 5525,
+                    "question_id": 1345,
+                    "description": "relação entre proteína do líquido pleural e sérica menor ou igual a 0,5 fala a favor de transudato e maior que 0,5 indica um exsudato",
+                    "explanation": "Perfeito doc! Mandou bem demais! 😎 Esse é um dos critérios de Light! Lembrando que precisamos apenas de **um critéri**o para realizar o diagnóstico de exsudato. Outros critérios são:\n- LDH do líquido > 2/3 do limite superior da normalidade no plasma \n- Relação proteína do líquido/proteína do plasma > 0,6\n- Doc, para nunca mais esquecer, se liga nessa tabelinha resumindo esses critérios👇\n- Fonte: https://emergenciarules.com/2018/07/15/manejo-do-derrame-pleural-no-departamento-de-emergenciade/",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-06T18:24:33.000Z",
+                    "updated_at": "2021-06-05T04:13:18.000Z",
+                    "files": [
+                        {
+                            "id": 10081,
+                            "file": "9505d55b-8899-4d4f-8a8a-3d0a95a56ebe.jpeg",
+                            "name": "img_1939-1-3072380089-1531682843853.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:02:14.000Z",
+                            "updated_at": "2021-06-05T07:02:14.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9505d55b-8899-4d4f-8a8a-3d0a95a56ebe.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10081,
+                                "alternative_id": 5525
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5526,
+                    "question_id": 1345,
+                    "description": "níveis baixos de glicose (abaixo 60 mg/dl) estão associados, entre as causas mais comuns de derrame pleural, o derrame parapneumônico, tuberculose pleural, neoplasia e artrite reumatoide",
+                    "explanation": "Falso doc! 😋 A alternativa está correta! Você pode lembrar das causas mais comuns de exsudato pelo mnemônico **PINTa** (termina no feminino🙈): Parapneumônico, Inflamatório (artrite reumatoide, LES), Neoplasia e Tuberculose Pleural. O erro da questão é que **a glicose não é um critério de Ligh**t!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-06T18:24:33.000Z",
+                    "updated_at": "2021-06-05T04:13:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5527,
+                    "question_id": 1345,
+                    "description": "relação entre DHL do líquido pleural e sérico menor 0,6 fala a favor de exsudato e maior que 0,6, transudato",
+                    "explanation": "Falso doc! É o contrário! 😋 Uma relação entre DHL do líquido pleural e sérico **maio**r que 0,6 **fala a favor de exsudato,** uma vez que em um derrame exsudativo esperamos aumento de LDH e não diminuição!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-06T18:24:33.000Z",
+                    "updated_at": "2021-06-05T04:13:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5528,
+                    "question_id": 1345,
+                    "description": "valor de pH menor que 7,20, sobretudo em conjunto com valor baixo de glicose e elevado de DHL, indicam evolução complicada da infecção e provável necessidade de drenagem do derrame",
+                    "explanation": "Perfeito doc! A alternativa está correta! Valores menores que **7,20** realmente indicam evolução complicada da infecção e provável necessidade de drenagem do derrame. Outras causas de pH menor que 7,2 incluem artrite reumatoide, tuberculose, neoplasia, hemotórax e lúpus. O erro da questão é que **o pH não é um critério de Light!** ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-06T18:24:33.000Z",
+                    "updated_at": "2021-06-05T04:13:18.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1345,
+                "questionary_id": 267284,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1346,
+            "institution_id": 4,
+            "description": "O resultado da análise do derrame pleural apresenta a relação proteína do líquido pleural / proteína sérica igual a 0,9 e LDH do líquido pleural / LDH sérico de 1,2. O resultado descrito é sugestivo de:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-06T21:39:41.000Z",
+            "updated_at": "2021-06-05T07:19:32.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 158,
+                    "title": "Derrame Pleural\t\t",
+                    "description": null,
+                    "parent_id": 33,
+                    "is_enabled": true,
+                    "created_at": "2020-06-06T20:39:05.000Z",
+                    "updated_at": "2020-06-06T20:39:05.000Z",
+                    "pivot": {
+                        "discipline_id": 158,
+                        "question_id": 1346
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 5529,
+                    "question_id": 1346,
+                    "description": "insuficiência cardíaca congestiva",
+                    "explanation": "Falso doc! A síndrome nefrótica é uma clássica causa de **transudato**. Para lembrar das principais: **\"INCINE\"** alguém🙈: **I**Nsuficiência Cardíaca, **C**Irrose **e N**Efrótica. No caso acima, temos u**m exsudato**! ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-06T18:39:41.000Z",
+                    "updated_at": "2021-06-05T04:19:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5530,
+                    "question_id": 1346,
+                    "description": "neoplasia",
+                    "explanation": "Perfeito doc! Arrasou! 😎 Nesse caso temos **2 dos 3 critérios de Ligh**t, o que nos permite realizar o diagnóstico de **exsudat**o. Para lembrar dos principais pega esse macete MEDsimple=> **PINTa**👇\n- **P**arapneumônico\n- **I**nflamatório\n- **N**eoplasia\n- **T**uberculose pleural\n- Doc, falando nisso, você já viu um derrame pleural em um rx de tórax? Se liga nisso (vide o velamento de quase metade do hemitórax esquerdo do paciente)👇\n- Fonte: https://www.tuasaude.com/derrame-pleural/ ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-06T18:39:41.000Z",
+                    "updated_at": "2021-06-05T04:19:32.000Z",
+                    "files": [
+                        {
+                            "id": 10082,
+                            "file": "e8a3be69-4ec3-41f9-861f-a11f18a116b9.jpeg",
+                            "name": "derrame-pleural_20807_l.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:17:59.000Z",
+                            "updated_at": "2021-06-05T07:17:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e8a3be69-4ec3-41f9-861f-a11f18a116b9.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10082,
+                                "alternative_id": 5530
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5531,
+                    "question_id": 1346,
+                    "description": "síndrome nefrótica",
+                    "explanation": "Falso doc! A síndrome nefrótica é uma clássica causa de **transudato**. Para lembrar das principais: **\"INCINE\"** alguém🙈: **I**Nsuficiência Cardíaca, **C**Irrose **e N**Efrótica. No caso acima, temos u**m exsudato**!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-06T18:39:41.000Z",
+                    "updated_at": "2021-06-05T04:19:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5532,
+                    "question_id": 1346,
+                    "description": "cirrose hepática",
+                    "explanation": "Falso doc! Essa é uma clássica causa de **transudato**. Para lembrar das principais: **\"INCINE\"** alguém🙈: **I**Nsuficiência Cardíaca, **C**Irrose **e N**Efrótica. No caso acima, temos u**m exsudato**!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-06T18:39:41.000Z",
+                    "updated_at": "2021-06-05T04:19:32.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1346,
+                "questionary_id": 267284,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1347,
+            "institution_id": 11,
+            "description": "De acordo com os critérios tradicionais de Light, um derrame pleural é definido como exsudato, se apresentar:",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-06T22:13:54.000Z",
+            "updated_at": "2021-06-05T07:24:34.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 11,
+                "title": "SUS-SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T17:55:16.000Z",
+                "updated_at": "2020-05-17T17:55:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 158,
+                    "title": "Derrame Pleural\t\t",
+                    "description": null,
+                    "parent_id": 33,
+                    "is_enabled": true,
+                    "created_at": "2020-06-06T20:39:05.000Z",
+                    "updated_at": "2020-06-06T20:39:05.000Z",
+                    "pivot": {
+                        "discipline_id": 158,
+                        "question_id": 1347
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 5533,
+                    "question_id": 1347,
+                    "description": "DHL do líquido pleural > 50% do limite superior do DHL sérico (determinado pelo laboratório)",
+                    "explanation": "Falso doc! Pegadinha do malandro! 😋Seria mais que 66%  (2/3) do limite superior do LDH sérico. Doc, para nunca mais esquecer, se liga nessa tabelinha👇\n- Fonte: https://emergenciarules.com/2018/07/15/manejo-do-derrame-pleural-no-departamento-de-emergenciade/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-06T19:13:54.000Z",
+                    "updated_at": "2021-06-05T04:24:34.000Z",
+                    "files": [
+                        {
+                            "id": 10081,
+                            "file": "9505d55b-8899-4d4f-8a8a-3d0a95a56ebe.jpeg",
+                            "name": "img_1939-1-3072380089-1531682843853.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:02:14.000Z",
+                            "updated_at": "2021-06-05T07:02:14.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9505d55b-8899-4d4f-8a8a-3d0a95a56ebe.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10081,
+                                "alternative_id": 5533
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5534,
+                    "question_id": 1347,
+                    "description": "razão proteína do líquido pleural/proteína sérica > 0,5 ou razão DHL do líquido pleural/DHL sérico > 0,6",
+                    "explanation": "Perfeito doc! Mandou ver! 😁 Os critérios de Light são os seguintes👇\n- Proteína pleural/Proteína plasmática > 0,5 \n- DHL pleural/DHL plasmática > 0,6;\n- DHL pleural > 2/3 do limite superior do DHL sérico \n- Doc, a presença de qualquer um dos critérios, já permite o diagnóstico de exsudato.\n- Agora, se liga nessa tabelinha👇\n- Fonte: https://emergenciarules.com/2018/07/15/manejo-do-derrame-pleural-no-departamento-de-emergenciade/",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-06T19:13:54.000Z",
+                    "updated_at": "2021-06-05T04:24:34.000Z",
+                    "files": [
+                        {
+                            "id": 10081,
+                            "file": "9505d55b-8899-4d4f-8a8a-3d0a95a56ebe.jpeg",
+                            "name": "img_1939-1-3072380089-1531682843853.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:02:14.000Z",
+                            "updated_at": "2021-06-05T07:02:14.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9505d55b-8899-4d4f-8a8a-3d0a95a56ebe.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10081,
+                                "alternative_id": 5534
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5535,
+                    "question_id": 1347,
+                    "description": "colesterol do líquido pleural acima de 50% do colesterol sérico",
+                    "explanation": "Falso doc! 😋 O valor de colesterol no líquido pleural pode ser utilizado na investigação de um quilotórax, no entanto, **não é um critério de Light**!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-06T19:13:54.000Z",
+                    "updated_at": "2021-06-05T04:24:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5536,
+                    "question_id": 1347,
+                    "description": "albumina do líquido pleural > 1 g/ dL",
+                    "explanation": "Falso doc! 😋O valor de albumina isolado no líquido pleural **não é um critério de Light!** Doc, leia as outras alternativas para potencializar o seu conhecimento!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-06T19:13:54.000Z",
+                    "updated_at": "2021-06-05T04:24:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5537,
+                    "question_id": 1347,
+                    "description": "razão da proteína sérica/proteína do líquido pleural > 0,6 e razão DHL sérico/ DHL do líquido pleural > 0,5",
+                    "explanation": "Falso doc! Pegadinha do malandro!😋 A alternativa inverteu os valores dos critérios de Light. Se liga nessa tabelinha para nunca mais esquecer👇\n- Fonte: https://emergenciarules.com/2018/07/15/manejo-do-derrame-pleural-no-departamento-de-emergenciade/",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-06-06T19:13:54.000Z",
+                    "updated_at": "2021-06-05T04:24:34.000Z",
+                    "files": [
+                        {
+                            "id": 10081,
+                            "file": "9505d55b-8899-4d4f-8a8a-3d0a95a56ebe.jpeg",
+                            "name": "img_1939-1-3072380089-1531682843853.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:02:14.000Z",
+                            "updated_at": "2021-06-05T07:02:14.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/9505d55b-8899-4d4f-8a8a-3d0a95a56ebe.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10081,
+                                "alternative_id": 5537
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1347,
+                "questionary_id": 267284,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1348,
+            "institution_id": 66,
+            "description": "Paciente do sexo feminino, 20 anos, eupneica, surge com dor torácica e febre há 1 mês. Após passar por diversas UPA, enfim, chega ao HUJBB-UFPA. Realiza radiografia que evidencia derrame pleural direito de médio volume. A conduta adequada é:",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-06T22:23:37.000Z",
+            "updated_at": "2021-06-05T07:32:18.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 66,
+                "title": "UFPA",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-23T22:59:09.000Z",
+                "updated_at": "2020-05-23T22:59:09.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 158,
+                    "title": "Derrame Pleural\t\t",
+                    "description": null,
+                    "parent_id": 33,
+                    "is_enabled": true,
+                    "created_at": "2020-06-06T20:39:05.000Z",
+                    "updated_at": "2020-06-06T20:39:05.000Z",
+                    "pivot": {
+                        "discipline_id": 158,
+                        "question_id": 1348
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 5538,
+                    "question_id": 1348,
+                    "description": "realizar TC",
+                    "explanation": "Falso doc! 😋 Já temos o diagnóstico de derrame pleural feito pela **radiografi**a. Por isso, a melhor conduta seria realizar a **toracocentese diagnóstica!** Nesse momento, não faz sentido solicitar uma TC!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-06T19:23:38.000Z",
+                    "updated_at": "2021-06-05T04:32:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5539,
+                    "question_id": 1348,
+                    "description": "realizar toracocentese e biópsia pleural com agulha",
+                    "explanation": "Perfeito doc! Voando baixo!😎 Derrame pleural de etiologia a esclarecer, sobretudo na presença de febre, **DEV**E ser submetido à **toracocentese diagnóstica!** Além disso, como faz >3 semanas, devemos realizar a **pesquisa de BAAR e a biópsia pleural (tuberculose).** Doc, se liga nesse fluxograma diagnóstico de derrame pleural👇\n- Fonte: https://www.hcrp.usp.br/revistaqualidade/uploads/Artigos/218/218.pdf",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-06T19:23:38.000Z",
+                    "updated_at": "2021-06-05T04:32:18.000Z",
+                    "files": [
+                        {
+                            "id": 10083,
+                            "file": "7befb1e2-b09d-4fcf-93fe-4dd9ba1df2b7.jpeg",
+                            "name": "000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:29:36.000Z",
+                            "updated_at": "2021-06-05T07:29:36.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7befb1e2-b09d-4fcf-93fe-4dd9ba1df2b7.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10083,
+                                "alternative_id": 5539
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5540,
+                    "question_id": 1348,
+                    "description": "drenagem pleural por toracostomia",
+                    "explanation": "Falso doc! 😋 Essa conduta está indicada nos derrames pleurais volumosos, derrames parapneumônicos complicados ou no **caso de hemotórax!** Em caso de derrame pleural simples à esclarecer, o primeiro passo é a toratocentese diagnóstica! Saca só esse fluxograma👇\n- Fonte: https://www.hcrp.usp.br/revistaqualidade/uploads/Artigos/218/218.pdf",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-06T19:23:38.000Z",
+                    "updated_at": "2021-06-05T04:32:18.000Z",
+                    "files": [
+                        {
+                            "id": 10083,
+                            "file": "7befb1e2-b09d-4fcf-93fe-4dd9ba1df2b7.jpeg",
+                            "name": "000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:29:36.000Z",
+                            "updated_at": "2021-06-05T07:29:36.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7befb1e2-b09d-4fcf-93fe-4dd9ba1df2b7.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10083,
+                                "alternative_id": 5540
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5541,
+                    "question_id": 1348,
+                    "description": "videopleuroscopia para biópsia",
+                    "explanation": "Falso doc! 😋 A videopleuroscopia com biópsia poderia ser feita em uma suspeita de tuberculose pleural. No entanto, no momento, o exame a ser feito é a **toracocentese diagnóstica inicialmente!** Se liga nesse fluxograma👇\n- Fonte: https://www.hcrp.usp.br/revistaqualidade/uploads/Artigos/218/218.pdf",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-06T19:23:38.000Z",
+                    "updated_at": "2021-06-05T04:32:18.000Z",
+                    "files": [
+                        {
+                            "id": 10083,
+                            "file": "7befb1e2-b09d-4fcf-93fe-4dd9ba1df2b7.jpeg",
+                            "name": "000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:29:36.000Z",
+                            "updated_at": "2021-06-05T07:29:36.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7befb1e2-b09d-4fcf-93fe-4dd9ba1df2b7.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10083,
+                                "alternative_id": 5541
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5542,
+                    "question_id": 1348,
+                    "description": "partir direto para tratamento específico",
+                    "explanation": "Falso doc! 😋O quadro não apresenta uma definição do diagnóstico. Por isso, temos que realizar a toracocentese para definir a **etiologia do derrame pleural!** Se liga nesse fluxograma doc👇\n- Fonte: https://www.hcrp.usp.br/revistaqualidade/uploads/Artigos/218/218.pdf",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-06-06T19:23:38.000Z",
+                    "updated_at": "2021-06-05T04:32:18.000Z",
+                    "files": [
+                        {
+                            "id": 10083,
+                            "file": "7befb1e2-b09d-4fcf-93fe-4dd9ba1df2b7.jpeg",
+                            "name": "000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:29:36.000Z",
+                            "updated_at": "2021-06-05T07:29:36.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7befb1e2-b09d-4fcf-93fe-4dd9ba1df2b7.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10083,
+                                "alternative_id": 5542
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1348,
+                "questionary_id": 267284,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1349,
+            "institution_id": 6,
+            "description": "Homem de 55 anos foi internado com quadro de tosse com secreção amarelada, dor tipo pleurítica, febre e queda do estado geral de início há três dias. Foi realizado exame de imagem do tórax que revelou pneumonia bacteriana em lobo inferior direito. Iniciaram-se amoxicilina-clavulanato e azitromicina que resultaram em melhora inicial do quadro. Após três dias de tratamento, a febre e a tosse retornaram e houve mudança na ausculta pulmonar com submacicez e murmúrio vesicular abolido em base do pulmão direito e egofonia. A radiografia de tórax mostrou consolidação alveolar e velamento da base do pulmão direito com a parábola de Damoiseau. A conduta a seguir deve ser:\n",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-06T22:40:27.000Z",
+            "updated_at": "2021-06-05T07:37:59.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 6,
+                "title": "UERJ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T14:06:12.000Z",
+                "updated_at": "2020-05-17T14:06:12.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 158,
+                    "title": "Derrame Pleural\t\t",
+                    "description": null,
+                    "parent_id": 33,
+                    "is_enabled": true,
+                    "created_at": "2020-06-06T20:39:05.000Z",
+                    "updated_at": "2020-06-06T20:39:05.000Z",
+                    "pivot": {
+                        "discipline_id": 158,
+                        "question_id": 1349
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 5543,
+                    "question_id": 1349,
+                    "description": "trocar a prescrição para ceftriaxone, mantendo a azitromicina",
+                    "explanation": "Falso doc! 😋 O resultado da toracocentese é quem deve guiar a troca de antibiótico. Além disso, a análise do líquido pleural vai nos indicar a diferenciação entre um derrame parapneumônico **simples, complicado e um empiema**!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-06T19:40:27.000Z",
+                    "updated_at": "2021-06-05T04:37:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5544,
+                    "question_id": 1349,
+                    "description": "realizar toracocentese e análise do líquido pleural ",
+                    "explanation": "Perfeito doc! Arrasou! 😎 **A toracocentese DEVE ser feita para guiar a conduta terapêutica e em dúvidas diagnósticas**! A análise do líquido pleural pode nos indicar a diferenciação entre um derrame parapneumônico simples e um complicado. Além disso, análises como **Gram, cultura, glicose, pH, podem ser realizadas**. Doc, lembrando que derrames parapneumônicos se dividem em três:\n- simples  \n- complicado\n- empiema\n- Doc, se liga nessa imagem esquematizando esses três tipos de derrames parapneumônicos de acordo com sua análise micro e macroscópica👇\n- Fonte: https://www.medicinanet.com.br/conteudos/revisoes/5653/derrame_pleural.htm",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-06T19:40:27.000Z",
+                    "updated_at": "2021-06-05T04:37:59.000Z",
+                    "files": [
+                        {
+                            "id": 10085,
+                            "file": "34acab8d-0a99-4bfd-9d96-9db1a07722f8.jpeg",
+                            "name": "20131211101714.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:35:32.000Z",
+                            "updated_at": "2021-06-05T07:35:32.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/34acab8d-0a99-4bfd-9d96-9db1a07722f8.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10085,
+                                "alternative_id": 5544
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5545,
+                    "question_id": 1349,
+                    "description": "realizar pleuroscopia com biópsia pleural ",
+                    "explanation": "Falso doc! Quase! 😋A pleuroscopia seria realizada numa suspeita de **tuberculose pleura**l. Nesse caso, temos a suspeita de um derrame parapneumônico. Por isso, temos que realizar a toracocentese diagnóstica para descobrir a etiologia! Se liga nesse fluxograma doc👇\n- Fonte: https://www.hcrp.usp.br/revistaqualidade/uploads/Artigos/218/218.pdf",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-06T19:40:27.000Z",
+                    "updated_at": "2021-06-05T04:37:59.000Z",
+                    "files": [
+                        {
+                            "id": 10083,
+                            "file": "7befb1e2-b09d-4fcf-93fe-4dd9ba1df2b7.jpeg",
+                            "name": "000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:29:36.000Z",
+                            "updated_at": "2021-06-05T07:29:36.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7befb1e2-b09d-4fcf-93fe-4dd9ba1df2b7.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10083,
+                                "alternative_id": 5545
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5546,
+                    "question_id": 1349,
+                    "description": "solicitar TC de tórax e toracotomia",
+                    "explanation": "Falso doc! Pegadinha do malandro!😋 A **radiografi**a já apresentou o diagnóstico de derrame pleural. Além disso, a toracotomia é indicada em casos específicos, como hemotórax, empiema e derrames volumosos! No momento, devemos realizar uma toracocentese, que vai guiar a nossa conduta a partir disso!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-06T19:40:27.000Z",
+                    "updated_at": "2021-06-05T04:37:59.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1349,
+                "questionary_id": 267284,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1350,
+            "institution_id": 4,
+            "description": "Devemos tratar um derrame parapneumônico complicado com antibioticoterapia + drenagem torácica se:",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-06T22:52:11.000Z",
+            "updated_at": "2022-05-23T12:40:14.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 158,
+                    "title": "Derrame Pleural\t\t",
+                    "description": null,
+                    "parent_id": 33,
+                    "is_enabled": true,
+                    "created_at": "2020-06-06T20:39:05.000Z",
+                    "updated_at": "2020-06-06T20:39:05.000Z",
+                    "pivot": {
+                        "discipline_id": 158,
+                        "question_id": 1350
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 5547,
+                    "question_id": 1350,
+                    "description": "pH > 7.2 ",
+                    "explanation": "Falso doc! Pegadinha do malandro! 😋 Devemos tratar se pH < 7,2 e não maior!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-06T19:52:11.000Z",
+                    "updated_at": "2022-05-23T12:40:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5548,
+                    "question_id": 1350,
+                    "description": "glicose > 60 mg/dl",
+                    "explanation": "Falso doc! É o contrário! 😋 Menores níveis de glicose estão associados a um maior risco de complicação. Logo, devemos tratar se **glicose < 60 mg/dl e não maior**!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-06T19:52:11.000Z",
+                    "updated_at": "2022-05-23T12:40:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5549,
+                    "question_id": 1350,
+                    "description": "pH <7,2 e LDH do líquido pleural > 1.000 U/l.",
+                    "explanation": "Perfeito doc! Questão difícil hein! Mandou bem!😁 Doc, devemos tratar se o **pH estiver <7,2, LDH do líquido pleural > 1.000 U/L e glicose <40 mg%.** Podemos ter bacterioscopia e culturas negativas no derrame complicado, por isso, usamos critérios para o tratamento empírico. Lembrando que temos três categorias para o derrame parapneumônico👇\n- Simple ➡ Antibioticoterapia\n- Complicado ➡ Drenagem fechada + Antibioticoterapia. \n- Empiema ➡ Drenagem fechada + Antibioticoterapia + Possível lise das aderências\n- Doc, se liga nos achados micro e macroscípicos de cada um desses tipos👇\n- Fonte: [https://www.medicinanet.com.br/conteudos/revisoes/5653/derrame_pleural.htm](https://www.medicinanet.com.br/conteudos/revisoes/5653/derrame_pleural.htm)",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-06T19:52:11.000Z",
+                    "updated_at": "2022-05-23T12:40:14.000Z",
+                    "files": [
+                        {
+                            "id": 10086,
+                            "file": "7ba86a6f-0a91-4701-a7b8-c68f1bf1912c.jpeg",
+                            "name": "20131211101714.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:35:34.000Z",
+                            "updated_at": "2021-06-05T07:35:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7ba86a6f-0a91-4701-a7b8-c68f1bf1912c.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10086,
+                                "alternative_id": 5549
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5550,
+                    "question_id": 1350,
+                    "description": "glicose > 80 mg/dl",
+                    "explanation": "Falso doc! 😋 Menores níveis de glicose estão associados a um maior nível de complicação! Logo, devemos tratar se **glicose < 60 mg/dl** e não > 80 mg/dl!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-06T19:52:11.000Z",
+                    "updated_at": "2022-05-23T12:40:14.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1350,
+                "questionary_id": 267284,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1351,
+            "institution_id": 36,
+            "description": "Dentre as opções abaixo, indique a que MELHOR caracteriza um derrame pleural parapneumônico: ",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-06T23:41:51.000Z",
+            "updated_at": "2022-06-21T18:12:46.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 36,
+                "title": "UFPI",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-19T16:16:10.000Z",
+                "updated_at": "2020-05-19T16:16:10.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 158,
+                    "title": "Derrame Pleural\t\t",
+                    "description": null,
+                    "parent_id": 33,
+                    "is_enabled": true,
+                    "created_at": "2020-06-06T20:39:05.000Z",
+                    "updated_at": "2020-06-06T20:39:05.000Z",
+                    "pivot": {
+                        "discipline_id": 158,
+                        "question_id": 1351
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 5551,
+                    "question_id": 1351,
+                    "description": "pH > 7,20; Relação DHL pleural/plasmática > 0,5; Glicose < 116mg",
+                    "explanation": "- Falso doc! Pegadinha do malandro!😋 Espera-se níveis reduzidos de pH (<7,20), além de elevação de LDH (> 1000 U) e redução dos níveis de glicose (<60 mg/dL). Se liga nesse quadrinho doc👇\n- Fonte: [https://www.medicinanet.com.br/conteudos/revisoes/5653/derrame_pleural.htm](https://www.medicinanet.com.br/conteudos/revisoes/5653/derrame_pleural.htm)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-06T20:41:52.000Z",
+                    "updated_at": "2022-06-21T18:12:46.000Z",
+                    "files": [
+                        {
+                            "id": 10086,
+                            "file": "7ba86a6f-0a91-4701-a7b8-c68f1bf1912c.jpeg",
+                            "name": "20131211101714.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:35:34.000Z",
+                            "updated_at": "2021-06-05T07:35:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7ba86a6f-0a91-4701-a7b8-c68f1bf1912c.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10086,
+                                "alternative_id": 5551
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5552,
+                    "question_id": 1351,
+                    "description": "pH > 7,40; DHL 2/3 acima do limite superior; Proteína acima de 3g%",
+                    "explanation": "- Falso doc! Quase!😣 Em um derrame parapneumônico complicado, espera-se um pH < 7,20 e não > 7,40! Além disso, espera-se níveis reduzidos de glicose e elevados de LDH! Se liga nesse quadrinho👇\n- Fonte: [https://www.medicinanet.com.br/conteudos/revisoes/5653/derrame_pleural.htm](https://www.medicinanet.com.br/conteudos/revisoes/5653/derrame_pleural.htm)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-06T20:41:52.000Z",
+                    "updated_at": "2022-06-21T18:12:46.000Z",
+                    "files": [
+                        {
+                            "id": 10086,
+                            "file": "7ba86a6f-0a91-4701-a7b8-c68f1bf1912c.jpeg",
+                            "name": "20131211101714.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:35:34.000Z",
+                            "updated_at": "2021-06-05T07:35:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7ba86a6f-0a91-4701-a7b8-c68f1bf1912c.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10086,
+                                "alternative_id": 5552
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5553,
+                    "question_id": 1351,
+                    "description": "pH < 7,30; Relação DHL pleural/plasmática >0,5; LDH>500U",
+                    "explanation": "- Falso doc! Quase!😣 Em um derrame parapneumônico complicado, espera-se um pH < 7,20, um LDH > 1000 U e níveis de glicose < 60 mg/dL! Se liga nesse quadrinho doc👇\n- Fonte: [https://www.medicinanet.com.br/conteudos/revisoes/5653/derrame_pleural.htm](https://www.medicinanet.com.br/conteudos/revisoes/5653/derrame_pleural.htm)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-06T20:41:52.000Z",
+                    "updated_at": "2022-06-21T18:12:46.000Z",
+                    "files": [
+                        {
+                            "id": 10085,
+                            "file": "34acab8d-0a99-4bfd-9d96-9db1a07722f8.jpeg",
+                            "name": "20131211101714.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:35:32.000Z",
+                            "updated_at": "2021-06-05T07:35:32.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/34acab8d-0a99-4bfd-9d96-9db1a07722f8.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10085,
+                                "alternative_id": 5553
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5554,
+                    "question_id": 1351,
+                    "description": "pH < 7,20; LDH > 1000U; Glicose < 60mg",
+                    "explanation": "Perfeito doc! Voando baixo! 😎 Os critérios que podem indicar uma derrame parapneumônico complicado são👇\n- glicose < 60 mg/dl\n- pH < 7.2 \n- pH entre 7.2-7.3 e LDH do líquido pleural > 1.000 U/l \n- Doc, para ilustrar, se liga nesse quadrinho esquematizando isso👇\n- Fonte: [https://www.medicinanet.com.br/conteudos/revisoes/5653/derrame_pleural.htm](https://www.medicinanet.com.br/conteudos/revisoes/5653/derrame_pleural.htm)",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-06T20:41:52.000Z",
+                    "updated_at": "2022-06-21T18:12:46.000Z",
+                    "files": [
+                        {
+                            "id": 10086,
+                            "file": "7ba86a6f-0a91-4701-a7b8-c68f1bf1912c.jpeg",
+                            "name": "20131211101714.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:35:34.000Z",
+                            "updated_at": "2021-06-05T07:35:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7ba86a6f-0a91-4701-a7b8-c68f1bf1912c.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10086,
+                                "alternative_id": 5554
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1351,
+                "questionary_id": 267284,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1353,
+            "institution_id": 4,
+            "description": " Para o esclarecimento de um derrame pleural, deve-se:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-07T00:03:13.000Z",
+            "updated_at": "2021-06-05T07:54:19.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 158,
+                    "title": "Derrame Pleural\t\t",
+                    "description": null,
+                    "parent_id": 33,
+                    "is_enabled": true,
+                    "created_at": "2020-06-06T20:39:05.000Z",
+                    "updated_at": "2020-06-06T20:39:05.000Z",
+                    "pivot": {
+                        "discipline_id": 158,
+                        "question_id": 1353
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 5560,
+                    "question_id": 1353,
+                    "description": "Realizar a punção na borda inferior da costela superior",
+                    "explanation": "Falso doc! Nem pensar! 😫 Temos vasos e nervos intercostais atravessando a **borda inferior da costela superior**. Por isso, é contraindicado a punção nesse local! Se liga nessa imagem doc👇\n- Fonte: https://pt.slideshare.net/flaviasmatos/anatomia-do-sistema-respiratorio-parte-ii",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-06T21:03:13.000Z",
+                    "updated_at": "2021-06-05T04:54:19.000Z",
+                    "files": [
+                        {
+                            "id": 10087,
+                            "file": "23d3efea-760e-4075-a5d1-ab89acda60fb.jpeg",
+                            "name": "anatomia-do-sistema-respiratorio-parte-ii-12-728.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:50:45.000Z",
+                            "updated_at": "2021-06-05T07:50:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/23d3efea-760e-4075-a5d1-ab89acda60fb.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10087,
+                                "alternative_id": 5560
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5561,
+                    "question_id": 1353,
+                    "description": "Realizar a punção na borda inferior da costela inferior",
+                    "explanation": "Falso doc! Nem pense nisso! 😫Temos vasos e nervos intercostais atravessando a **borda inferior da costela inferior**. Por isso, é contraindicado a punção nesse local. Se liga nessa imagem👇\n- Fonte: https://pt.slideshare.net/flaviasmatos/anatomia-do-sistema-respiratorio-parte-ii ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-06T21:03:13.000Z",
+                    "updated_at": "2021-06-05T04:54:19.000Z",
+                    "files": [
+                        {
+                            "id": 10087,
+                            "file": "23d3efea-760e-4075-a5d1-ab89acda60fb.jpeg",
+                            "name": "anatomia-do-sistema-respiratorio-parte-ii-12-728.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:50:45.000Z",
+                            "updated_at": "2021-06-05T07:50:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/23d3efea-760e-4075-a5d1-ab89acda60fb.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10087,
+                                "alternative_id": 5561
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5562,
+                    "question_id": 1353,
+                    "description": "Realizar a punção na borda superior da costela inferior",
+                    "explanation": "Perfeito doc! Mandou bem! 😁 A punção **SEMPR**E deve ser feita sob a borda superior da costela inferior, uma vez que temos **vasos e nervos intercostai**s atravessando a borda inferior da costela superior, por isso, direcionamos nossa punção para um foco mais inferior. Doc, se liga nessa imagem ilustrando esse procedimento👇\n\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-06T21:03:13.000Z",
+                    "updated_at": "2021-06-05T04:54:19.000Z",
+                    "files": [
+                        {
+                            "id": 359,
+                            "file": "1591476804042.jpeg",
+                            "name": "thoracocentesis.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-06T23:53:24.000Z",
+                            "updated_at": "2020-06-06T23:53:24.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591476804042.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 359,
+                                "alternative_id": 5562
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5563,
+                    "question_id": 1353,
+                    "description": "A punção independe do local",
+                    "explanation": "Falso doc! Muito pelo contrário!😋 A punção DEVE ser realizada ao nível da base pulmonar (onde o líquido está acumulado) e de uma maneira a não danificar nervos e vasos! Se liga nessa imagem doc👇\n- Fonte: https://pt.slideshare.net/flaviasmatos/anatomia-do-sistema-respiratorio-parte-ii",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-06T21:03:13.000Z",
+                    "updated_at": "2021-06-05T04:54:19.000Z",
+                    "files": [
+                        {
+                            "id": 10087,
+                            "file": "23d3efea-760e-4075-a5d1-ab89acda60fb.jpeg",
+                            "name": "anatomia-do-sistema-respiratorio-parte-ii-12-728.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:50:45.000Z",
+                            "updated_at": "2021-06-05T07:50:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/23d3efea-760e-4075-a5d1-ab89acda60fb.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10087,
+                                "alternative_id": 5563
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1353,
+                "questionary_id": 267284,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1355,
+            "institution_id": 4,
+            "description": "Mulher de 32 anos é admitida no hospital com quadro de dor na base do hemitórax direito ventilatório dependente, febre moderada de 38°C, e Rx de Torax confirma o diagnóstico de derrame pleural moderado sem desconforto ventilatório. Qual o procedimento mais apropriado para início de investigação?\n\n\n\n",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-07T02:15:56.000Z",
+            "updated_at": "2021-06-05T07:58:38.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 158,
+                    "title": "Derrame Pleural\t\t",
+                    "description": null,
+                    "parent_id": 33,
+                    "is_enabled": true,
+                    "created_at": "2020-06-06T20:39:05.000Z",
+                    "updated_at": "2020-06-06T20:39:05.000Z",
+                    "pivot": {
+                        "discipline_id": 158,
+                        "question_id": 1355
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 5568,
+                    "question_id": 1355,
+                    "description": "Toracocentese",
+                    "explanation": "Perfeito doc! Mandou bem demais!😁. É a melhor alternativa. Utilizamos a toracocentese quando👇\n- Não sabemos ou temos dúvida do diagnóstico\n- Coleta de material\n- Aliviar dispneia\n- 1 cm de derrame na Incidência de Lawrell(1awrell)\n- Doc, se liga nesse fluxograma para nunca mais esquecer👇\n- Fonte: https://www.hcrp.usp.br/revistaqualidade/uploads/Artigos/218/218.pdf",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-06T23:15:56.000Z",
+                    "updated_at": "2021-06-05T04:58:38.000Z",
+                    "files": [
+                        {
+                            "id": 10083,
+                            "file": "7befb1e2-b09d-4fcf-93fe-4dd9ba1df2b7.jpeg",
+                            "name": "000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T07:29:36.000Z",
+                            "updated_at": "2021-06-05T07:29:36.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7befb1e2-b09d-4fcf-93fe-4dd9ba1df2b7.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10083,
+                                "alternative_id": 5568
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 5569,
+                    "question_id": 1355,
+                    "description": "Drenagem torácica em selo d'água",
+                    "explanation": "Falso doc! 😋 Podemos realizar a drenagem torácica em selo d'água em derrames pleurais específicos como hemotórax, empiema e derrames volumosos. No momento, a melhor alternativa é a realização da **toracocentese para realizar o diagnóstico**!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-06T23:15:56.000Z",
+                    "updated_at": "2021-06-05T04:58:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5570,
+                    "question_id": 1355,
+                    "description": "Biópsia pleural",
+                    "explanation": "Falso doc! 😋Temos que realizar biópsia pleural numa suspeita de derrame por **tuberculose ((granulomas caseosos na histopatologia + cultura de fragmento positiva).** No entanto, ainda assim, o primeiro passo é a toracocentese!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-06T23:15:56.000Z",
+                    "updated_at": "2021-06-05T04:58:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5571,
+                    "question_id": 1355,
+                    "description": "Tomografia Computadorizada",
+                    "explanation": "Falso doc! Pegadinha!😋 Já temos o diagnóstico realizado pela **radiografia de tóra**x.💡 No entanto, tenha em mente que a TC é **o padrão-our**o para o diagnóstico de derrame pleural! Falando nisso, você já viu um derrame pleural em uma TC de tórax? Se liga nisso👇\n- Fonte: https://www.medicinanet.com.br/conteudos/casos/6387/pleurite_lupica.htm",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-06T23:15:56.000Z",
+                    "updated_at": "2021-06-05T04:58:38.000Z",
+                    "files": [
+                        {
+                            "id": 10078,
+                            "file": "e9605f86-56e7-46b8-9981-51644f7fb1b4.jpeg",
+                            "name": "20150810092214.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-05T06:27:04.000Z",
+                            "updated_at": "2021-06-05T06:27:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e9605f86-56e7-46b8-9981-51644f7fb1b4.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10078,
+                                "alternative_id": 5571
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1355,
+                "questionary_id": 267284,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1356,
+            "institution_id": 4,
+            "description": "Paciente masculino, de 27 anos de idade, com empiema pleural, é submetido a drenagem em selo d‘água. Cinco dias após, mantém quadro febril, com radiografia de tórax sem melhora em relação ao exame inicial. A ultrassonografia demonstrou presença de coleção multiloculada com septos grosseiros e conteúdo espesso. A alternativa correta com relação a conduta mais apropriada é: ",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-07T02:23:26.000Z",
+            "updated_at": "2021-06-05T08:02:49.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 158,
+                    "title": "Derrame Pleural\t\t",
+                    "description": null,
+                    "parent_id": 33,
+                    "is_enabled": true,
+                    "created_at": "2020-06-06T20:39:05.000Z",
+                    "updated_at": "2020-06-06T20:39:05.000Z",
+                    "pivot": {
+                        "discipline_id": 158,
+                        "question_id": 1356
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 5572,
+                    "question_id": 1356,
+                    "description": "Drenagem em selo d'água",
+                    "explanation": "Falso doc! 😋 A drenagem em selo a´'gua já foi feita! Devemos tentar a lise das aderências com um **método mecânic**o (pleuroscopia). Após o procedimento, podemos deixar um dreno em selo d'água!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-06T23:23:26.000Z",
+                    "updated_at": "2021-06-05T05:02:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5573,
+                    "question_id": 1356,
+                    "description": "Troca de antibioticoterapia",
+                    "explanation": "Falso doc! 😋 No momento, temos que tentar a **lise das aderência**s com um **método mecânic**o (pleuroscopia)! ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-06T23:23:26.000Z",
+                    "updated_at": "2021-06-05T05:02:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5574,
+                    "question_id": 1356,
+                    "description": "Pleuroscopia e nova drenagem",
+                    "explanation": "Perfeito doc! Arrasou! 😎 Paciente complicou do derrame parapneumônico! Por isso, deve-se tentar a lise das aderências com um **método mecânic**o (pleuroscopia). Além disso, continuamos o tratamento com antibióticos + drenagem!",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-06T23:23:26.000Z",
+                    "updated_at": "2021-06-05T05:02:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5575,
+                    "question_id": 1356,
+                    "description": "Toracotomia exploradora",
+                    "explanation": "Falso doc! 😋 Paciente complicou do derrame parapneumônico. Por isso, deve-se tentar a lise das aderências com **método químic**o (ex.: instilação intrapleural de fibrinolítico + DNAse) ou **mecânic**o (pleuroscopia). A toracotomia exploradora é um **método muito invasiv**o e **não indicado para desbridamento mecânico das loculações**!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-06T23:23:26.000Z",
+                    "updated_at": "2021-06-05T05:02:49.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1356,
+                "questionary_id": 267284,
+                "timer": 0
+            }
+        }
+    ]
+}

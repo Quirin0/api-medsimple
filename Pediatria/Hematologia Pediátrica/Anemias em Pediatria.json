@@ -1,0 +1,2612 @@
+{
+    "id": 268432,
+    "user_id": 1699,
+    "title": "Anemias em Pediatria",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-12T00:49:44.000Z",
+    "updated_at": "2022-07-12T00:49:44.000Z",
+    "study_plan_id": 1248,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 15,
+            "institution_id": 7,
+            "description": "Lactente de 11 meses, sexo feminino, foi atendida  no serviço de ambulatório pois a mãe queixa quadro de irritabilidade, anorexia, letargia e palidez. Ao exame observamos palidez nas  palmas das mãos, nos vincos palmares, unhas e conjuntiva. Tem exames laboratoriais com os seguintes resultados: Hemoglobina 9 g/dL; VCM < 70 mg/L; saturação da transferrina < 16%, RDW aumentado e ferritina sérica diminuída. Qual o diagnóstico desta anemia: \n",
+            "difficulty": "easy",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T14:11:08.000Z",
+            "updated_at": "2022-04-19T20:34:37.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 7,
+                "title": "CERMAM",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T14:11:08.000Z",
+                "updated_at": "2020-05-17T14:11:08.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 9,
+                    "title": "Anemia Ferropriva",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-17T17:29:16.000Z",
+                    "updated_at": "2020-05-17T17:29:16.000Z",
+                    "pivot": {
+                        "discipline_id": 9,
+                        "question_id": 15
+                    }
+                },
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 15
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 57,
+                    "question_id": 15,
+                    "description": "anemia megaloblástica ",
+                    "explanation": "Falso doc! A anemia megaloblástica é caracterizada por ter um VCM >100 fL, cursando com causas como deficiência de folato ou B12!\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:11:08.000Z",
+                    "updated_at": "2022-04-19T20:34:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 58,
+                    "question_id": 15,
+                    "description": " anemia ferropriva ",
+                    "explanation": "Perfeito doc! Mandou bem!😎 Estamos diante de uma anemia microcítica👇\n- Anemias microcíticas são anemias caracterizadas pela produção de hemácias de tamanho reduzido (VCM < 80 fL). \n- A causa mais comum de anemia em criança é ferropriva. \n- Além disso temos uma baixa saturação de transferrina, ou seja, tem pouco ferro sendo transportado nos “vagões”. Para complementar, o RDW aumentando nos diz que uma hemácia é diferente da outra, um processo bem peculiar das anemias ferroprivas. \n- A medula óssea distribui o ferro de maneira assimétrica para as hemácias, culminando nesse processo de diferenciação com umas hemácias maiores que outras.\n- Doc, se liga nesse resuminho do laboratório típico da anemia ferropriva👇\n- Fonte: https://www.scielo.br/j/rbhh/a/LcXsgjK5XPGyWmVGM9KKY6f/?lang=pt\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-17T14:11:08.000Z",
+                    "updated_at": "2022-04-19T20:34:37.000Z",
+                    "files": [
+                        {
+                            "id": 23289,
+                            "file": "0e94e022-92a0-4fb3-ab88-a61efa0d0010.gif",
+                            "name": "96b274110f700428107d3bac4c1ee3dcdd7f5638.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2021-11-13T21:22:59.000Z",
+                            "updated_at": "2021-11-13T21:22:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/0e94e022-92a0-4fb3-ab88-a61efa0d0010.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23289,
+                                "alternative_id": 58
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 59,
+                    "question_id": 15,
+                    "description": " anemia falciforme",
+                    "explanation": "Falso doc! Acompanha meu raciocínio👇 \n- Não é muito característico da anemia falciforme cursar com um quadro crônica microcítico e com baixa saturação de transferrina. \n- Um dos achados clássicos da anemia falciforme são os drepanócitos ou células em formato de foice.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:11:08.000Z",
+                    "updated_at": "2022-04-19T20:34:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 60,
+                    "question_id": 15,
+                    "description": " anemia da doença crônica",
+                    "explanation": "Falso doc! Acompanha meu raciocínio👇\n- Anemias microcíticas são anemias caracterizadas pela produção de hemácias de tamanho reduzido (VCM < 80 fL). \n- É um dos diagnósticos diferenciais.\n- Possui os níveis de saturação de transferrina baixos, porém possui altos níveis de ferritina. \n- Sendo a ferritina considerada um marcador inflamatório de doenças. \n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:11:08.000Z",
+                    "updated_at": "2022-04-19T20:34:37.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 15,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        },
+        {
+            "id": 20,
+            "institution_id": 4,
+            "description": "Qual é o melhor **marcador** dos estoques de ferro no corpo? ",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T17:35:43.000Z",
+            "updated_at": "2022-04-19T20:32:52.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 20
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 20
+                    }
+                },
+                {
+                    "id": 9,
+                    "title": "Anemia Ferropriva",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-17T17:29:16.000Z",
+                    "updated_at": "2020-05-17T17:29:16.000Z",
+                    "pivot": {
+                        "discipline_id": 9,
+                        "question_id": 20
+                    }
+                },
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 20
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 78,
+                    "question_id": 20,
+                    "description": "Ferritina",
+                    "explanation": "Perfeito doc! Mandou bem!😎 A concentração sérica de ferritina é diretamente proporcional às reservas de ferro no organismo. É o principal marcador dos estoques de ferro, sendo a primeira a depletar na anemia carencial por ferro. Os níveis normais de ferritina no plasma variam entre 20 a 200 ng/ml., variando um pouco de acordo com o laboratório! Doc, se liga nessa imagem ilustrando a estrutura da ferritina👇\n- Fonte: https://docplayer.com.br/80858-Alteracoes-nos-niveis-de-ferritina-e-transferrina-e-sua-relacao-com-doenca-hepatica.html\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-17T14:35:43.000Z",
+                    "updated_at": "2022-04-19T20:32:52.000Z",
+                    "files": [
+                        {
+                            "id": 23290,
+                            "file": "fab855cf-9ac2-4186-9389-8024171bd92c.jpeg",
+                            "name": "19-0.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-13T21:28:47.000Z",
+                            "updated_at": "2021-11-13T21:28:47.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/fab855cf-9ac2-4186-9389-8024171bd92c.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23290,
+                                "alternative_id": 78
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 79,
+                    "question_id": 20,
+                    "description": "Saturação de Transferrina",
+                    "explanation": "Falso doc! Espelha a porcentagem de receptores de ferro em todas as moléculas de transferrina circulante que se encontram saturados. Valores abaixo de 15% são consistentes com o diagnóstico de anemia ferropriva. Podem auxiliar no diagnóstico, mas não são o principal marcador.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:35:43.000Z",
+                    "updated_at": "2022-04-19T20:32:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 80,
+                    "question_id": 20,
+                    "description": "Ferro sérico",
+                    "explanation": "Falso doc! Não é o principal marcador do estoque de ferro corporal(é uma pegadinha). Na anemia de doença crônica o ferro sérico também está baixo, geralmente < 50 mg/dl. Nas talassemias e na anemia sideroblástica, o ferro sérico geralmente está normal ou elevado.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:35:43.000Z",
+                    "updated_at": "2022-04-19T20:32:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 81,
+                    "question_id": 20,
+                    "description": "Transferrina",
+                    "explanation": "Falso doc!😋 É mensurado pelo TIBIC, que mede os sítios totais de ligação da transferrina. É mais ou menos como contar 4 poltronas para mensurar quantos carros existem. Auxilia no diagnóstico, mas não é o principal marcador. Nos casos de ferropriva, o TIBIC encontra-se elevado. Ao contrário, na anemia de doença crônica, o TIBIC encontra-se diminuído. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:35:43.000Z",
+                    "updated_at": "2022-04-19T20:32:52.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 20,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        },
+        {
+            "id": 21,
+            "institution_id": 4,
+            "description": "Sobre a anemia ferropriva, assinale a alternativa **INCORRETA:**\n",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T17:40:14.000Z",
+            "updated_at": "2022-04-19T20:32:59.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 21
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 21
+                    }
+                },
+                {
+                    "id": 9,
+                    "title": "Anemia Ferropriva",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-17T17:29:16.000Z",
+                    "updated_at": "2020-05-17T17:29:16.000Z",
+                    "pivot": {
+                        "discipline_id": 9,
+                        "question_id": 21
+                    }
+                },
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 21
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 82,
+                    "question_id": 21,
+                    "description": "Na absorção do ferro na dieta, a forma heme é melhor absorvida do que a forma não heme",
+                    "explanation": "Perfeito doc! De uma forma geral, cerca de 30% do heme é absorvido, contra apenas 10% da forma não heme. Por isso, uma dieta a base de fontes animais são importante em relação a oferta diária de ferro, uma vez que fornece mais ferro sob a forma heme!\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:40:14.000Z",
+                    "updated_at": "2022-04-19T20:32:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 83,
+                    "question_id": 21,
+                    "description": "O ácido ascórbico (vitamina C), por ser um ácido, é um importante agente estimulante da absorção dos sais de ferro.",
+                    "explanation": "Perfeito doc! O pH e o estado oxidativo do ferro são altamente relevantes para a sua absorção. É mais ou menos assim👇\n- um pH ácido e a vitamina C ajudam na conversão do Fe+3 para Fe+2, o que aumenta muito a absorção (já que o Fe+2 tem transportadores próprios na membrana intestinal). \n- doc, é justamente esse um dos motivos de absorvermos mais ferro de alimentos de origem animal: o estado oxidativo do Fe na carne vermelha, por exemplo, é Fe2+ (ferroso)!\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:40:14.000Z",
+                    "updated_at": "2022-04-19T20:32:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 84,
+                    "question_id": 21,
+                    "description": "O íleo terminal e jejuno são as regiões intestinais responsáveis pela absorção de todo o ferro alimentar",
+                    "explanation": "Falso doc! Pegadinha do malandro!😴 **O duodeno e o jejuno proximal** são as regiões intestinais responsáveis pela absorção de todo o ferro alimentar. Em pacientes com cirurgias disabsortivas (que perderam parte do intestino) a anemia mais prevalente é a ferropriva (por má absorção desse nutriente).\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-17T14:40:14.000Z",
+                    "updated_at": "2022-04-19T20:32:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 85,
+                    "question_id": 21,
+                    "description": "Uma das principais vias de eliminação corpórea de ferro é a via fecal",
+                    "explanation": "Perfeito doc! Através de um processo descamativo da mucosa intestinal acontece a maior perda de ferro do organismo. Lembrando que o ferro absorvido pelas células da mucosa intestinal só será repassado para a transferrina se existirem as necessidades corpóreas desse metal.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:40:14.000Z",
+                    "updated_at": "2022-04-19T20:32:59.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 21,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        },
+        {
+            "id": 22,
+            "institution_id": 4,
+            "description": "Qual é o **nome da proteína** que tem a capacidade de **INIBIR** o transporte de ferro pela membrana basolateral do enterócito em direção ao plasma?\n",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T17:42:56.000Z",
+            "updated_at": "2022-04-19T20:33:05.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 9,
+                    "title": "Anemia Ferropriva",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-17T17:29:16.000Z",
+                    "updated_at": "2020-05-17T17:29:16.000Z",
+                    "pivot": {
+                        "discipline_id": 9,
+                        "question_id": 22
+                    }
+                },
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 22
+                    }
+                },
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 22
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 22
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 86,
+                    "question_id": 22,
+                    "description": "transferrina",
+                    "explanation": "Falso doc!😋 É uma proteína que funciona como carreadora de ferro corporal (tem a capacidade de capturar e transportar duas moléculas de ferro). Tende a aumentar sua produção em episódios de anemia ferropriva e diminuir em ambientes de doença crônica!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:42:56.000Z",
+                    "updated_at": "2022-04-19T20:33:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 87,
+                    "question_id": 22,
+                    "description": "hepcidina",
+                    "explanation": "Perfeito doc! Arrasou!😎 A hepcidina é um hormônio sintetizado no fígado. Saca só👇 \n- Funciona como um quelante do ferro (ou seja, ajuda ele a ser eliminado e não mais absorvido). \n- A hipóxia inibe a sua síntese, enquanto o ferro e citocinas inflamatórias estimulam sua produção. Ela explica em partes a anemia de doença crônica.\n- Doc, se liga nessa imagem esquematizando a ação da hepcidina👇\n- Fonte: https://www.researchgate.net/figure/Figura-3-Acao-da-hepcidina-no-metabolismo-do-ferro-Ao-formar-o-complexo-com-a_fig2_250035405\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-17T14:42:56.000Z",
+                    "updated_at": "2022-04-19T20:33:05.000Z",
+                    "files": [
+                        {
+                            "id": 23291,
+                            "file": "cc9e0b62-f519-493a-ab0b-6151247153ff.png",
+                            "name": "Figura-3-Acao-da-hepcidina-no-metabolismo-do-ferro-Ao-formar-o-complexo-com-a.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-13T21:41:31.000Z",
+                            "updated_at": "2021-11-13T21:41:31.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/cc9e0b62-f519-493a-ab0b-6151247153ff.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23291,
+                                "alternative_id": 87
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 88,
+                    "question_id": 22,
+                    "description": "ferritina",
+                    "explanation": "Falso doc!😋 A ferritina é o “armazém de ferro” no corpo!\n- Funciona como um “saquinho” cheio de ferro. É o marcador mais fiel dos estoques de ferro corporais.  \n- A concentração sérica de ferritina é diretamente proporcional às reservas de ferro no organismo.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:42:56.000Z",
+                    "updated_at": "2022-04-19T20:33:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 89,
+                    "question_id": 22,
+                    "description": "heme",
+                    "explanation": "Falso doc!😋 O heme é uma proteína que junto com a globina formam o complexo que tem a capacidade de carrear oxigênio e gás carbônico (a hemoglobina)!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:42:56.000Z",
+                    "updated_at": "2022-04-19T20:33:05.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 22,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        },
+        {
+            "id": 24,
+            "institution_id": 4,
+            "description": "Qual é o exame de **MAIOR ACURÁCIA** para o diagnóstico de anemia ferropriva? ",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T20:14:53.000Z",
+            "updated_at": "2022-04-19T20:33:19.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 24
+                    }
+                },
+                {
+                    "id": 9,
+                    "title": "Anemia Ferropriva",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-17T17:29:16.000Z",
+                    "updated_at": "2020-05-17T17:29:16.000Z",
+                    "pivot": {
+                        "discipline_id": 9,
+                        "question_id": 24
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 24
+                    }
+                },
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 24
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 94,
+                    "question_id": 24,
+                    "description": "mielograma",
+                    "explanation": "Perfeito doc! Que orgulho!😎 O mielograma é o exame de maior acurácia para o diagnóstico da anemia ferropriva, porém só deve ser realizado em casos duvidosos, já que é um exame invasivo. É usado o corante azul de Prússia para visualizar os estoques de ferro na médula. A presença de qualquer ferro corável afasta a possibilidade de anemia ferropriva declarada. Ausência de ferro nos macrófagos e eritroblastos da medula confirma o diagnóstico. Doc, se liga nessa imagem ilustrando esse procedimento👇\n- Fonte: https://www.tuasaude.com/mielograma/\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-17T17:14:53.000Z",
+                    "updated_at": "2022-04-19T20:33:19.000Z",
+                    "files": [
+                        {
+                            "id": 23292,
+                            "file": "0b487bca-d3c6-4fe3-a67d-591283ff7d54.jpeg",
+                            "name": "mielograma_25752_l.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-11-13T21:52:39.000Z",
+                            "updated_at": "2021-11-13T21:52:39.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/0b487bca-d3c6-4fe3-a67d-591283ff7d54.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23292,
+                                "alternative_id": 94
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 95,
+                    "question_id": 24,
+                    "description": "ferritina",
+                    "explanation": "Falso doc! Mesmo sendo o melhor marcador sérico para os estoques de ferro corporal, a ferritina não é tão acurado quando a biópsia da médula ósseas (mielograma). É o exame mais feito na rotina médica para investigar casos de anemia ferropriva.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-17T17:14:53.000Z",
+                    "updated_at": "2022-04-19T20:33:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 96,
+                    "question_id": 24,
+                    "description": "Transferrina",
+                    "explanation": "Falso doc! É o principal \"transportador\" do ferro no corpo. Seus níveis podem aumentar na anemia ferropriva, todavia, não é o melhor marcador dos estoques de ferro corporal.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T17:14:53.000Z",
+                    "updated_at": "2022-04-19T20:33:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 97,
+                    "question_id": 24,
+                    "description": "Ferro sérico",
+                    "explanation": "Falso doc! O ferro sérico pode estar diminuído na anemia ferropriva. Na anemia de doença crônica o ferro sérico também está baixo, geralmente < 50 mg/dl. E nas talassemias pode estar aumentado. Não é o melhor marcador dos estoques de ferro.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-17T17:14:53.000Z",
+                    "updated_at": "2022-04-19T20:33:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 24,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        },
+        {
+            "id": 25,
+            "institution_id": 4,
+            "description": "Qual é a anemia **microcítica e hipocrômica** mais comum?",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T20:21:54.000Z",
+            "updated_at": "2022-04-19T20:33:26.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 25
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 25
+                    }
+                },
+                {
+                    "id": 9,
+                    "title": "Anemia Ferropriva",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-17T17:29:16.000Z",
+                    "updated_at": "2020-05-17T17:29:16.000Z",
+                    "pivot": {
+                        "discipline_id": 9,
+                        "question_id": 25
+                    }
+                },
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 25
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 98,
+                    "question_id": 25,
+                    "description": "Anemia por deficiência de B12",
+                    "explanation": "Falso doc! As anemias por deficiência de B12 apresentam-se como macrocíticas (VCM>100fL). A fisiopatologia consiste na dificuldade na divisão celular por alterações no metabolismo dos nucleotídeos!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-17T17:21:54.000Z",
+                    "updated_at": "2022-04-19T20:33:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 99,
+                    "question_id": 25,
+                    "description": "Anemia por deficiência de folato",
+                    "explanation": "Falso doc! As anemias por deficiência de folato apresentam-se como macrocíticas (VCM>100fL). A fisiopatologia consiste na dificuldade na divisão celular por alterações no metabolismo dos nucleotídeos!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-17T17:21:54.000Z",
+                    "updated_at": "2022-04-19T20:33:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 100,
+                    "question_id": 25,
+                    "description": "Anemia de doença crônica",
+                    "explanation": "Falso doc! A anemia de doença crônica apresenta-se em grande parte dos casos como uma anemia normocítica. As citocinas liberadas pela doença podem diminuir a produção de EPO pelo parênquima renal. Assim, estimulando uma menor produção de hemácias. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T17:21:54.000Z",
+                    "updated_at": "2022-04-19T20:33:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 101,
+                    "question_id": 25,
+                    "description": "anemia ferropriva",
+                    "explanation": "Perfeito doc! Mandou bem!😁 A anemia ferropriva é a principal causa de anemia micro-hipo no Mundo. Também é a principal causa de anemia normo-normo no Mundo. A fisiopatologia está relacionada a menor produção de hemoglobina. Sua maior causa é o sangramento crônico, porém, em crianças, tem a deficiência nutricional como principal fator. Por isso, existem campanhas para sua suplementação em períodos como gestação e infância. Doc, se liga nessa tabelinha de achados típicos da anemia ferropriva👇\n- Fonte: https://www.scielo.br/j/rbhh/a/LcXsgjK5XPGyWmVGM9KKY6f/?lang=pt",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-17T17:21:54.000Z",
+                    "updated_at": "2022-04-19T20:33:26.000Z",
+                    "files": [
+                        {
+                            "id": 23289,
+                            "file": "0e94e022-92a0-4fb3-ab88-a61efa0d0010.gif",
+                            "name": "96b274110f700428107d3bac4c1ee3dcdd7f5638.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2021-11-13T21:22:59.000Z",
+                            "updated_at": "2021-11-13T21:22:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/0e94e022-92a0-4fb3-ab88-a61efa0d0010.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23289,
+                                "alternative_id": 101
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 25,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        },
+        {
+            "id": 28,
+            "institution_id": 11,
+            "description": "Considere os índices hematimétricos: VCM (volume corpuscular médio), HCM (hemoglobina corpuscular média), CHCM (concentração de hemoglobina corpuscular média), RDW (red cell distribution width) e CTLF (capacidade total de ligação de ferro). Na anemia ferropênica, ocorre aumento de\n",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T20:55:16.000Z",
+            "updated_at": "2022-04-19T20:33:33.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 11,
+                "title": "SUS-SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T17:55:16.000Z",
+                "updated_at": "2020-05-17T17:55:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 28
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 28
+                    }
+                },
+                {
+                    "id": 9,
+                    "title": "Anemia Ferropriva",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-17T17:29:16.000Z",
+                    "updated_at": "2020-05-17T17:29:16.000Z",
+                    "pivot": {
+                        "discipline_id": 9,
+                        "question_id": 28
+                    }
+                },
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 28
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 110,
+                    "question_id": 28,
+                    "description": "RDW e CTLF. ",
+                    "explanation": "Perfeito doc! Arrasou!😎 Me acompanha aqui👇\n- Temos aumento do RDW, já que a medula distribui de forma desigual o ferro entre as hemácias.\n- Além disso, temos um aumento na capacidade total de ligação ao ferro (CTLF), já que o corpo produz mais transferrina numa tentativa de compensar o transporte de ferro.\n- Doc, saca só esse resuminho👇\n- Fonte: https://www.scielo.br/j/rbhh/a/LcXsgjK5XPGyWmVGM9KKY6f/?lang=pt\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-17T17:55:16.000Z",
+                    "updated_at": "2022-04-19T20:33:33.000Z",
+                    "files": [
+                        {
+                            "id": 23289,
+                            "file": "0e94e022-92a0-4fb3-ab88-a61efa0d0010.gif",
+                            "name": "96b274110f700428107d3bac4c1ee3dcdd7f5638.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2021-11-13T21:22:59.000Z",
+                            "updated_at": "2021-11-13T21:22:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/0e94e022-92a0-4fb3-ab88-a61efa0d0010.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23289,
+                                "alternative_id": 110
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 111,
+                    "question_id": 28,
+                    "description": "saturação de transferrina e VCM. ",
+                    "explanation": "Falso doc! Temos uma diminuição da saturação da transferrina já que menos moléculas de ferro ocupam os sítios de ligação da transferrina e uma diminuição do volume corpuscular médio por menor produção de hemoglobina.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-17T17:55:16.000Z",
+                    "updated_at": "2022-04-19T20:33:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 112,
+                    "question_id": 28,
+                    "description": "ferritina sérica e RDW",
+                    "explanation": "Falso doc! Temos uma queda da ferritina sérica, a qual é o melhor marcador sérico para diagnóstico de anemia ferropriva. O RDW marca a diferença de simetria entre grupos de hemácia. No caso da anemia ferropriva, temos uma oferta desproporcional de ferro para hemácia, resultando em tamanhos e formatos diferentes (aumentando o RDW).",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T17:55:16.000Z",
+                    "updated_at": "2022-04-19T20:33:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 113,
+                    "question_id": 28,
+                    "description": "CTLF e HCM. ",
+                    "explanation": "Falso doc! Temos uma aumento do CTLF, o qual é uma medida indireta do número de transferrina. Existe uma maior produção de transferrina no intuito de aumentar a entrega de ferro. Temos uma queda na hemoglobina corpuscular média (tem menos hemoglobinas dentro da hemácia)!\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-17T17:55:16.000Z",
+                    "updated_at": "2022-04-19T20:33:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 114,
+                    "question_id": 28,
+                    "description": "saturação de transferrina e CHCM.",
+                    "explanation": "Falso doc! Temos uma queda na saturação de transferrina porque menos sítios da transferrina estão ocupados por moléculas de ferro. Temos também uma queda na concentração de hemoglobina corpuscular média, pois menos hemoglobina é produzida!",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-05-17T17:55:16.000Z",
+                    "updated_at": "2022-04-19T20:33:33.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 28,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        },
+        {
+            "id": 32,
+            "institution_id": 13,
+            "description": "Na avaliação da deficiência de ferro, qual dos seguintes indicadores reflete as reservas corporais de ferro? ",
+            "difficulty": "easy",
+            "year": "2008-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T21:27:33.000Z",
+            "updated_at": "2022-04-19T20:33:47.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 13,
+                "title": "UNIFESP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T18:27:33.000Z",
+                "updated_at": "2020-05-17T18:27:33.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 32
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 32
+                    }
+                },
+                {
+                    "id": 9,
+                    "title": "Anemia Ferropriva",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-17T17:29:16.000Z",
+                    "updated_at": "2020-05-17T17:29:16.000Z",
+                    "pivot": {
+                        "discipline_id": 9,
+                        "question_id": 32
+                    }
+                },
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 32
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 128,
+                    "question_id": 32,
+                    "description": "ferritina no soro",
+                    "explanation": "Perfeito doc! Que orgulho hein!😎 Esse conceito é importantíssimo! A ferritina é uma proteína de armazenamento do ferro no corpo. \n- É a proteína sérica mais fidedigna com os estoques corporais de ferro. \n- Para entender melhor, no interior das células, o ferro é armazenado em complexos com proteínas, como a ferritina e a hemossiderina.  \n- O ferro na ferritina ou hemossiderina pode ser usados pelo organismo, embora a hemossiderina seja menos prontamente disponível do que a ferritina!",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-17T18:27:33.000Z",
+                    "updated_at": "2022-04-19T20:33:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 129,
+                    "question_id": 32,
+                    "description": "hepcidina no soro",
+                    "explanation": "Falso doc! A hepcidina é uma proteína produzida em estados de inflamação, a qual inibe a síntese da ferroportina, diminuindo a absorção de ferro corporal. Não é o melhor marcador sérico dos estoques de ferro no corpo e na anemia ferropriva encontra-se aumentada!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-17T18:27:33.000Z",
+                    "updated_at": "2022-04-19T20:33:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 130,
+                    "question_id": 32,
+                    "description": "protoporfirina eritrocitária",
+                    "explanation": "Falso doc! É uma proteína do metabolismo do heme geralmente não dosada para diagnóstico de anemia ferropriva!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T18:27:33.000Z",
+                    "updated_at": "2022-04-19T20:33:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 131,
+                    "question_id": 32,
+                    "description": "ferro sérico",
+                    "explanation": "Falso doc! O ferro sérico pode diminuir na anemia ferropriva, porém não é considerado um bom marcador sérico da doença. Ele tem a característica de também diminuir na anemia de doença crônica.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-17T18:27:33.000Z",
+                    "updated_at": "2022-04-19T20:33:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 132,
+                    "question_id": 32,
+                    "description": "transferrina no soro",
+                    "explanation": "Falso doc! A transferrina é como um \"carro\" que transporta o ferro pelo organismo. Tem a tendência de aumentar sua produção em períodos de escassez de ferro para compensar o transporte. Não é o principal marcador dos estoques de ferro no corpo!",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-05-17T18:27:33.000Z",
+                    "updated_at": "2022-04-19T20:33:47.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 32,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        },
+        {
+            "id": 33,
+            "institution_id": 4,
+            "description": "Dentre os exames laboratorias listados abaixo, qual o primeiro a se alterar em um paciente cuja dieta é pobre em ferro? ",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T21:47:09.000Z",
+            "updated_at": "2022-04-19T20:33:53.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 33
+                    }
+                },
+                {
+                    "id": 9,
+                    "title": "Anemia Ferropriva",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-17T17:29:16.000Z",
+                    "updated_at": "2020-05-17T17:29:16.000Z",
+                    "pivot": {
+                        "discipline_id": 9,
+                        "question_id": 33
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 33
+                    }
+                },
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 33
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 133,
+                    "question_id": 33,
+                    "description": "Volume Corpuscular Médio",
+                    "explanation": "Falso doc! Basicamente, a anemia ferropriva tem três fases👇\n- primeiro acabam os estoques de ferro\n- depois a eritropoiese fica defeituosa\n- por fim, ocorre diminuição de eritrócitos, o que chamamos de anemia, nesse caso, ferropriva.\n- o volume corpuscular médio só altera na terceira fase ou no final da segunda, junto com outras características, como a anisocitose!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-17T18:47:09.000Z",
+                    "updated_at": "2022-04-19T20:33:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 134,
+                    "question_id": 33,
+                    "description": "Hemoglobina",
+                    "explanation": "Falso doc! A hemoglobina começa a cair na fase 2 da depleção de ferro, quando a eritropoiese começa a ficar defeituosa pela falta de ferro!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-17T18:47:09.000Z",
+                    "updated_at": "2022-04-19T20:33:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 135,
+                    "question_id": 33,
+                    "description": "Ferritina",
+                    "explanation": "Perfeito doc, mandou bem!😁 É o principal marcador dos estoques de ferro no organismo, sendo o primeiro a diminuir quando o balanço de ferro fica negativo!",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-17T18:47:09.000Z",
+                    "updated_at": "2022-04-19T20:33:53.000Z",
+                    "files": []
+                },
+                {
+                    "id": 136,
+                    "question_id": 33,
+                    "description": "Ferro sérico",
+                    "explanation": "Falso doc! Pode estar reduzido na anemia ferropriva, porém geralmente acontece após a queda dos estoques de ferro (ferritina).",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-17T18:47:09.000Z",
+                    "updated_at": "2022-04-19T20:33:53.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 33,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13726,
+            "institution_id": 4,
+            "description": "A partir de qual valor de hemoglobina é considerada anemia para crianças menores de 5 anos?",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-19T21:40:41.000Z",
+            "updated_at": "2022-04-19T21:40:41.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 13726
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 56250,
+                    "question_id": 13726,
+                    "description": "<9 g/dL",
+                    "explanation": "Falso, Doc! 😌\n- Entre 6 meses e 5 anos ➡ < **11 g/dL**\n- Entre 5-11 anos ➡ < 11,5 g/dL\n- Entre 12-14 anos  ➡ < 12 g/dL ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-04-19T21:40:41.000Z",
+                    "updated_at": "2022-04-19T21:40:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56251,
+                    "question_id": 13726,
+                    "description": "<11 g/dL",
+                    "explanation": "Muito bem, Doc! 😁\n- Entre 6 meses e 5 anos ➡ < **11 g/dL**\n- Entre 5-11 anos ➡ < 11,5 g/dL\n- Entre 12-14 anos  ➡ < 12 g/dL  ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-04-19T21:40:41.000Z",
+                    "updated_at": "2022-04-19T21:40:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56252,
+                    "question_id": 13726,
+                    "description": "< 11,5 g/dL",
+                    "explanation": "Falso, Doc! 😌\n- Entre 6 meses e 5 anos ➡ < **11 g/dL**\n- Entre 5-11 anos ➡ < 11,5 g/dL\n- Entre 12-14 anos  ➡ < 12 g/dL  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-19T21:40:41.000Z",
+                    "updated_at": "2022-04-19T21:40:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56253,
+                    "question_id": 13726,
+                    "description": "< 12 g/dL",
+                    "explanation": "Falso, Doc! 😌\n- Entre 6 meses e 5 anos ➡ < **11 g/dL**\n- Entre 5-11 anos ➡ < 11,5 g/dL\n- Entre 12-14 anos  ➡ < 12 g/dL  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-19T21:40:41.000Z",
+                    "updated_at": "2022-04-19T21:40:41.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13726,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13727,
+            "institution_id": 4,
+            "description": "A partir de qual valor de hematócrito é considerada anemia para crianças entre 6 meses e 5 anos?",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-19T21:44:35.000Z",
+            "updated_at": "2022-04-19T21:44:35.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 13727
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 56254,
+                    "question_id": 13727,
+                    "description": "<33%",
+                    "explanation": "Isso aí, Doc! Mandou bem mesmo! 💪\n- 6 meses a 5 anos ➡ <33%\n- 5-11 anos ➡  <34%\n- 12-14 anos ➡  <36%  ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-04-19T21:44:35.000Z",
+                    "updated_at": "2022-04-19T21:44:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56255,
+                    "question_id": 13727,
+                    "description": "<34%",
+                    "explanation": "Falso, Doc! 😵‍💫\n- 6 meses a 5 anos ➡ <33%\n- 5-11 anos ➡  <34%\n- 12-14 anos ➡  <36% ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-04-19T21:44:35.000Z",
+                    "updated_at": "2022-04-19T21:44:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56256,
+                    "question_id": 13727,
+                    "description": "<35%",
+                    "explanation": "Falso, Doc! 😵‍💫\n- 6 meses a 5 anos ➡ <33%\n- 5-11 anos ➡  <34%\n- 12-14 anos ➡  <36% ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-19T21:44:35.000Z",
+                    "updated_at": "2022-04-19T21:44:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56257,
+                    "question_id": 13727,
+                    "description": "<36%",
+                    "explanation": "Falso, Doc! 😵‍💫\n- 6 meses a 5 anos ➡ <33%\n- 5-11 anos ➡  <34%\n- 12-14 anos ➡  <36% ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-19T21:44:35.000Z",
+                    "updated_at": "2022-04-19T21:44:35.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13727,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        },
+        {
+            "id": 26,
+            "institution_id": 4,
+            "description": "Assinale a alternativa **CORRETA:**",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T17:32:01.000Z",
+            "updated_at": "2022-04-19T20:32:45.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 26
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 26
+                    }
+                },
+                {
+                    "id": 9,
+                    "title": "Anemia Ferropriva",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-17T17:29:16.000Z",
+                    "updated_at": "2020-05-17T17:29:16.000Z",
+                    "pivot": {
+                        "discipline_id": 9,
+                        "question_id": 26
+                    }
+                },
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 26
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 102,
+                    "question_id": 26,
+                    "description": "A dose recomendada para a correção da anemia ferropriva é de 300 mg de ferro elementar",
+                    "explanation": "Falso doc! A dose recomendada é de 150-200mg de ferro elementar por dia, o que dá 3-4 comprimidos de sulfato de ferro. Outra maneira de pensar é que o ferro corresponde a 20% da massa do sulfato ferroso. Para crianças, a dose deve ser um pouquinho menor: 2-5 mg/kg/dia de ferro elementar!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-17T17:32:01.000Z",
+                    "updated_at": "2022-04-19T20:32:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 103,
+                    "question_id": 26,
+                    "description": "A absorção do sulfato ferroso é melhor quando administrado após as refeições",
+                    "explanation": "Falso doc! A absorção é melhor quando tomado de estômago vazio. O baixo pH ajuda na conversão do Fe+3 para Fe+2 e, assim, uma melhora na absorção desse metal. Frutas cítricas e a vitamina C têm o mesmo princípio. Alguns pacientes podem reclamar de desconforto gástrico, constipação, vômitos, entre outros. Só assim, existe a indicação de administrar com as refeições.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-17T17:32:01.000Z",
+                    "updated_at": "2022-04-19T20:32:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 104,
+                    "question_id": 26,
+                    "description": "A resposta ao tratamento deve ser observada avaliando-se o hematócrito",
+                    "explanation": "Falso doc! A resposta ao tratamento deve ser observada avaliando o número de reticulócitos, a qual aumenta na primeira semana de tratamento.O hematócrito começa a subir duas semanas depois do tratamento. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T17:32:01.000Z",
+                    "updated_at": "2022-04-19T20:32:45.000Z",
+                    "files": []
+                },
+                {
+                    "id": 105,
+                    "question_id": 26,
+                    "description": "A reposição de ferro deve durar 3-6 meses após a normalização do hematócrito",
+                    "explanation": "Perfeito doc, exatamente isso!😍 Isso tudo para reabastecer os estoques de ferro perdidos. O controle também pode ser feito pelo principal marcador sérico de ferro: a ferritina. Em crianças o tempo geralmente é de 3-4 meses. Doc, no entanto, lembre-se que esse tempo é muito variável e depende da intensidade da anemia e sua causa.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-17T17:32:01.000Z",
+                    "updated_at": "2022-04-19T20:32:45.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 26,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        },
+        {
+            "id": 30,
+            "institution_id": 11,
+            "description": "Lactente de 9 meses, previamente hígido, passa a retificar a curva de peso a partir do oitavo mês de vida. A criança fez aleitamento materno exclusivo até o sétimo mês de vida, quando passou a receber sucos, frutas e sopinha no almoço e jantar, o que ainda não aceita muito bem preferindo mamar o seio materno. A criança mama 3 vezes a noite, e várias vezes durante o dia, “sempre e quando ela quer”. Com esse histórico, o pediatra solicitou hemograma, ferritina e ferro sérico. O hemograma mostrou Hb 9,2 g/dL. No diagnóstico mais prevalente, as alterações mais esperadas nos exames são:\n",
+            "difficulty": "medium",
+            "year": "2013-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T21:04:54.000Z",
+            "updated_at": "2022-04-24T19:31:11.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 11,
+                "title": "SUS-SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T17:55:16.000Z",
+                "updated_at": "2020-05-17T17:55:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 30
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 30
+                    }
+                },
+                {
+                    "id": 9,
+                    "title": "Anemia Ferropriva",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-17T17:29:16.000Z",
+                    "updated_at": "2020-05-17T17:29:16.000Z",
+                    "pivot": {
+                        "discipline_id": 9,
+                        "question_id": 30
+                    }
+                },
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 30
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 119,
+                    "question_id": 30,
+                    "description": "VCM e HCM normais, RDW normal, ferritina normal e ferro sérico baixo. ",
+                    "explanation": "Falso doc! Sendo o diagnóstico mais provável a anemia ferropriva, esperamos uma anemia **micro-hipo**, RDW **aumentado**, ferritina baixa e um ferro sérico normal ou baixo.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-17T18:04:54.000Z",
+                    "updated_at": "2022-04-24T19:31:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 120,
+                    "question_id": 30,
+                    "description": " VCM e HCM diminuídos, RDW normal, ferritina baixa e ferro sérico normal. ",
+                    "explanation": "Falso doc! Sendo o diagnóstico mais provável a anemia ferropriva, esperamos uma anemia micro-hipo, RDW **aumentado**, ferritina baixa e um ferro sérico normal ou baixo.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-17T18:04:54.000Z",
+                    "updated_at": "2022-04-24T19:31:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 121,
+                    "question_id": 30,
+                    "description": "VCM e HCM diminuídos, RDW aumentado, ferritina baixa e ferro sérico normal. ",
+                    "explanation": "Perfeito doc! Arrasou!😍 Sendo o diagnóstico mais provável a anemia ferropriva, esperamos uma anemia **micro-hip**o, RDW **aumentad**o, ferritina **baix**a e um ferro sérico **normal ou baix**o. Saca só essa tabelinha👇\n- Fonte: https://www.scielo.br/j/rbhh/a/LcXsgjK5XPGyWmVGM9KKY6f/?lang=pt",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-17T18:04:54.000Z",
+                    "updated_at": "2022-04-24T19:31:11.000Z",
+                    "files": [
+                        {
+                            "id": 23289,
+                            "file": "0e94e022-92a0-4fb3-ab88-a61efa0d0010.gif",
+                            "name": "96b274110f700428107d3bac4c1ee3dcdd7f5638.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2021-11-13T21:22:59.000Z",
+                            "updated_at": "2021-11-13T21:22:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/0e94e022-92a0-4fb3-ab88-a61efa0d0010.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23289,
+                                "alternative_id": 121
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 122,
+                    "question_id": 30,
+                    "description": "VCM e HCM diminuídos, RDW aumentado, ferritina normal e ferro sérico diminuído. ",
+                    "explanation": "Falso doc! Sendo o diagnóstico mais provável a anemia ferropriva, esperamos uma anemia **micro-hipo**, RDW **aumentado**, ferritina **baixa** e um ferro sérico **normal ou baixo.**\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-17T18:04:54.000Z",
+                    "updated_at": "2022-04-24T19:31:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 123,
+                    "question_id": 30,
+                    "description": "VCM e HCM normais, RDW aumentado, ferritina baixa e ferro sérico normal.",
+                    "explanation": "Falso doc! Sendo o diagnóstico mais provável a anemia ferropriva, esperamos uma anemia **micro-hipo**, RDW aumentado, ferritina baixa e um ferro sérico normal ou baixo.\n",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-05-17T18:04:54.000Z",
+                    "updated_at": "2022-04-24T19:31:11.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 30,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        },
+        {
+            "id": 712,
+            "institution_id": 4,
+            "description": "Em relação às diferenças encontradas entre o leite humano e o leite de vaca integral, assinale a alternativa **correta:**",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-28T16:45:29.000Z",
+            "updated_at": "2022-04-19T21:36:28.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 80,
+                    "title": "Aleitamento \t\t",
+                    "description": null,
+                    "parent_id": 160,
+                    "is_enabled": true,
+                    "created_at": "2020-05-28T00:41:52.000Z",
+                    "updated_at": "2020-06-07T05:56:39.000Z",
+                    "pivot": {
+                        "discipline_id": 80,
+                        "question_id": 712
+                    }
+                },
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 712
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 2928,
+                    "question_id": 712,
+                    "description": "O leite de vaca tem menor concentração de caseína",
+                    "explanation": "Falso doc! O leite de vaca tem uma **maior concentração de proteínas.** E dessas proteínas, 80% são caseína. Isto é, o leite de vaca tem uma maior concentração de caseína, o que, inclusive, está relacionado a um maior risco de desenvolvimento de atopias!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-28T13:45:29.000Z",
+                    "updated_at": "2022-04-19T21:36:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2929,
+                    "question_id": 712,
+                    "description": "O leite de vaca tem menor concentração de ferro.",
+                    "explanation": "Falso doc! Na realidade, o leite de vaca tem quase a mesma concentração de ferro, contudo esse ferro é menos absorvido que o leite humano (devido a fatores como a **lactoferrina do leite humano**)!\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-28T13:45:30.000Z",
+                    "updated_at": "2022-04-19T21:36:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 2930,
+                    "question_id": 712,
+                    "description": "O leite de vaca possui três vezes mais proteínas.",
+                    "explanation": "Perfeito doc! Arrasou! E faz sentido, já que um bezerro pesa muito mais que um bebê, por isso, existe uma demanda muito maior por proteína. Pode parecer até um benefício a primeira vista, mas temos que pensar que esse aporte de proteínas é danoso para o rins do bebê e também está relacionado ao desenvolvimento de atopias e outras complicações já conhecidas. Doc, para nunca mais esquecer, saca só essa tabelinha do Ministério da Saúde, comparando colostro, leite maduro e leite de vaca👇\n- Fonte: https://bvsms.saude.gov.br/bvs/publicacoes/saude_crianca_aleitamento_materno_cab23.pdf",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-28T13:45:30.000Z",
+                    "updated_at": "2022-04-19T21:36:28.000Z",
+                    "files": [
+                        {
+                            "id": 10959,
+                            "file": "70b944ae-44f4-43c6-a7c6-229c3de9fcfd.jpeg",
+                            "name": "000000000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-13T13:56:25.000Z",
+                            "updated_at": "2021-06-13T13:56:25.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/70b944ae-44f4-43c6-a7c6-229c3de9fcfd.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10959,
+                                "alternative_id": 2930
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 2931,
+                    "question_id": 712,
+                    "description": "A proteína do soro com maior concentração no leite humano é a betalactoglobulina",
+                    "explanation": "Falso doc! A proteína do soro com maior concentração no leite humano é a **alfalactoalbumina humana.** O importante desse conhecimento é saber que essa proteína tem um baixo poder alergênico, ao contrário da **betalactoglobulina (extremamente alergênica e principal componente no soro do leite de vaca)!**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-28T13:45:30.000Z",
+                    "updated_at": "2022-04-19T21:36:28.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 712,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8957,
+            "institution_id": 355,
+            "description": "Assinale a alternativa correta, quanto ao metabolismo do ferro e a anemia ferropriva.\n\n",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-06-10T18:18:10.000Z",
+            "updated_at": "2022-04-19T20:33:59.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 355,
+                "title": "UFRJ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-05-28T23:56:40.000Z",
+                "updated_at": "2021-05-28T23:56:40.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 810,
+                    "title": "Metabolismo do ferro",
+                    "description": null,
+                    "parent_id": 68,
+                    "is_enabled": true,
+                    "created_at": "2021-06-10T15:59:09.000Z",
+                    "updated_at": "2021-06-24T02:25:41.000Z",
+                    "pivot": {
+                        "discipline_id": 810,
+                        "question_id": 8957
+                    }
+                },
+                {
+                    "id": 9,
+                    "title": "Anemia Ferropriva",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-17T17:29:16.000Z",
+                    "updated_at": "2020-05-17T17:29:16.000Z",
+                    "pivot": {
+                        "discipline_id": 9,
+                        "question_id": 8957
+                    }
+                },
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 8957
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 36637,
+                    "question_id": 8957,
+                    "description": "  O local principal de absorção de ferro é o jejuno.   ",
+                    "explanation": "Falso, Doc! De 10 a 30% do ferro ingerido na dieta é absorvido. A maior parte dessa absorção ocorre no **duodeno**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-06-10T15:18:10.000Z",
+                    "updated_at": "2022-04-19T20:33:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36638,
+                    "question_id": 8957,
+                    "description": "Os níveis séricos de receptores solúveis da transferrina correlacionam-se com a atividade eritropoiética e encontram-se   reduzidos na anemia ferropriva.   ",
+                    "explanation": "Falso, Doc! \n- Na anemia ferropriva o que está reduzido é a **saturação da transferrina**, porque não há ferro suficiente para ligar-se a ela\n- Baixos niveis de transferrina podem indicar problema hepático, já que é uma proteína produzida no fígado",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-06-10T15:18:10.000Z",
+                    "updated_at": "2022-04-19T20:33:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36639,
+                    "question_id": 8957,
+                    "description": "Na ausência de doença hepática, infecção ou estados inflamatórios crônicos, a ferritina sérica se relaciona proporcionalmente com os estoques corporais totais de ferro.   ",
+                    "explanation": "Muito bem, Doc! 🤗 É por isso que a ferritina pode ser muito útil para o diagnóstico precoce de anemia.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-06-10T15:18:10.000Z",
+                    "updated_at": "2022-04-19T20:33:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36640,
+                    "question_id": 8957,
+                    "description": " Alterações no Red Cell Distribution Width (RDW) e na hemoglobina globular média (HGM) são posteriores ao achado de microcitose. ",
+                    "explanation": "Falso, Doc! Inicialmente as hemácias podem começar a ser produzidas em tamanhos e formatos variados (variação no RDW), para mais tardiamente haver microcitose",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-06-10T15:18:10.000Z",
+                    "updated_at": "2022-04-19T20:33:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 36641,
+                    "question_id": 8957,
+                    "description": "A deficiência de ferro não é a causa mais frequente de deficiência nutricional do mundo.",
+                    "explanation": "Falso, Doc! É, sim, a causa mais frequente de deficiência nutricional no mundo. Nos países subdesenvolvidos atinge cerca de 36% da população",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-06-10T15:18:10.000Z",
+                    "updated_at": "2022-04-19T20:33:59.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8957,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11658,
+            "institution_id": 167,
+            "description": "A carência nutricional de ferro afeta o desenvolvimento mental de 40 a 60% das crianças. \n\nAssinale a alternativa com as principais alterações bioquímicas encontradas na depleção de ferro SEM anemia: ",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-10-20T16:24:19.000Z",
+            "updated_at": "2022-04-19T20:34:05.000Z",
+            "user_id": 91,
+            "is_residency": false,
+            "institution": {
+                "id": 167,
+                "title": "COMISSÃO ESTADUAL DE RESIDÊNCIA MÉDICA DO AMAZONAS – AM",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-08-19T16:48:13.000Z",
+                "updated_at": "2020-08-19T16:48:13.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 9,
+                    "title": "Anemia Ferropriva",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-17T17:29:16.000Z",
+                    "updated_at": "2020-05-17T17:29:16.000Z",
+                    "pivot": {
+                        "discipline_id": 9,
+                        "question_id": 11658
+                    }
+                },
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 11658
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 47721,
+                    "question_id": 11658,
+                    "description": "Hgb, VCM, RDW normais; Ferro sérico e  ferritina baixos",
+                    "explanation": "Perfeito Doc!\nA questão solicita as alterações encontradas **ANTES** de um estado de anemia. \nNesse contexto, haverá **depleção** dos parâmetros representativos dos **estoques de ferro** do organismo, como a **ferritina e o ferro séricos.** \nA eritropoese ainda não estará comprometida, logo, parâmetros como **hemoglobina, volume corpuscular médico (VCM) e índice de anisocitose (RDW)** estarão ainda normais.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-10-20T13:24:19.000Z",
+                    "updated_at": "2022-04-19T20:34:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 47722,
+                    "question_id": 11658,
+                    "description": "Hbg, ferro sérico e ferritina baixos; RDW e  VCM normais",
+                    "explanation": "Incorreto Doc!\nA hemoglobina ainda estará normal Doc, quando não há anemia! \nSomente os parâmetros representativos das reservas de ferro no organismo, como ferritina e ferro sérico, estarão alterados.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-10-20T13:24:19.000Z",
+                    "updated_at": "2022-04-19T20:34:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 47723,
+                    "question_id": 11658,
+                    "description": "Hgb, ferro sérico, ferritina e VCM baixos;  RDW normal",
+                    "explanation": "Incorreto Doc!\nEm um estágio de depleção das reservas orgânicas de ferro, ainda não haverá alteração de parâmetros hematimétricos, como hemoglobina e volume corpuscular médio (VCM).",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-10-20T13:24:19.000Z",
+                    "updated_at": "2022-04-19T20:34:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 47724,
+                    "question_id": 11658,
+                    "description": "Hbg, VCM normais; RDW elevado; Ferro  sérico e ferritina baixos",
+                    "explanation": "Incorreto Doc!\n\nNão haverá alterações dos índices hematimétricos, somente das reservas de ferro (ferro sérico e ferritina). ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-10-20T13:24:19.000Z",
+                    "updated_at": "2022-04-19T20:34:05.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11658,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11662,
+            "institution_id": 503,
+            "description": "A deficiência de ferro em lactentes e crianças maiores, acompanha-se clinicamente de todos \nos sinais e sintomas, EXCETO: ",
+            "difficulty": "medium",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-10-20T16:42:44.000Z",
+            "updated_at": "2022-04-19T20:34:11.000Z",
+            "user_id": 91,
+            "is_residency": false,
+            "institution": {
+                "id": 503,
+                "title": "FUNDAÇÃO UNIVERSITÁRIA DE CIÊNCIAS  DA SAÚDE DE ALAGOAS – AL",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-10-20T13:42:44.000Z",
+                "updated_at": "2021-10-20T13:42:44.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 9,
+                    "title": "Anemia Ferropriva",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-17T17:29:16.000Z",
+                    "updated_at": "2020-05-17T17:29:16.000Z",
+                    "pivot": {
+                        "discipline_id": 9,
+                        "question_id": 11662
+                    }
+                },
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 11662
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 47737,
+                    "question_id": 11662,
+                    "description": "Irritabilidade ",
+                    "explanation": "Correto Doc!\n\nIrritabilidade, letargia e anorexia são sintomas que aparecem em estágios posteriores da deficiência de ferro, com níveis de hemoglobina abaixo de 5 mg/dL, aproximadamente. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-10-20T13:42:44.000Z",
+                    "updated_at": "2022-04-19T20:34:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 47738,
+                    "question_id": 11662,
+                    "description": "Geofagia",
+                    "explanation": "Correto Doc! \nO desejo de ingerir substâncias não nutritivas, como terra e gelo, é um dos sintomas da deficiência sistêmica de ferro!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-10-20T13:42:44.000Z",
+                    "updated_at": "2022-04-19T20:34:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 47739,
+                    "question_id": 11662,
+                    "description": "Hipertrofia das papilas gustativas.",
+                    "explanation": "Essa é a incorreta Doc!\nLembre-se das aulas de anemia ferropriva na Hematologia. Um dos **sinais típicos** é a glossite atrófica, caracterizada pela atrofia das papilas gustativas e não hipertrofia.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-10-20T13:42:44.000Z",
+                    "updated_at": "2022-04-19T20:34:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 47740,
+                    "question_id": 11662,
+                    "description": "Anorexia",
+                    "explanation": "Correto Doc!\nIrritabilidade, letargia e anorexia são sintomas que aparecem em estágios posteriores da deficiência de ferro, com níveis de hemoglobina abaixo de 5 mg/dL, aproximadamente.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-10-20T13:42:44.000Z",
+                    "updated_at": "2022-04-19T20:34:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 47741,
+                    "question_id": 11662,
+                    "description": "Palidez",
+                    "explanation": "Correto Doc!\nA aplidez cutâneo-mucosa é um sinal importantíssimo do exame físico, representativo de anemias com hemoglobina abaixo de 6-7 mg/dL.\nVale ressaltar que a anemia costuma ser assintomática até a hemoglobina chegar a esses níveis.",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-10-20T13:42:44.000Z",
+                    "updated_at": "2022-04-19T20:34:11.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11662,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11672,
+            "institution_id": 504,
+            "description": "A anemia ferropriva é uma das mais frequentes anemias carenciais. \nNa avaliação de uma criança com anemia ferropriva, é caracteristicamente encontrado um aumento de: ",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-10-20T20:32:51.000Z",
+            "updated_at": "2022-04-19T20:34:31.000Z",
+            "user_id": 91,
+            "is_residency": false,
+            "institution": {
+                "id": 504,
+                "title": "ESCOLA DE SAÚDE PÚBLICA DO  CEARÁ – CE",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-10-20T17:32:51.000Z",
+                "updated_at": "2021-10-20T17:32:51.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 9,
+                    "title": "Anemia Ferropriva",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-17T17:29:16.000Z",
+                    "updated_at": "2020-05-17T17:29:16.000Z",
+                    "pivot": {
+                        "discipline_id": 9,
+                        "question_id": 11672
+                    }
+                },
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 11672
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 47778,
+                    "question_id": 11672,
+                    "description": "Ferritina sérica",
+                    "explanation": "Incorreto Doc!\nA ferritina representa os \"estoques\" de ferro orgânicos. Então, no caso de uma anemia por deficiência de ferro, a ferritina estará reduzida.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-10-20T17:32:51.000Z",
+                    "updated_at": "2022-04-19T20:34:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 47779,
+                    "question_id": 11672,
+                    "description": "Volume corpuscular médio",
+                    "explanation": "Incorreto Doc!\n\nNo caso da anemia ferropriva, em que haverá depleção das reservas de ferro (matéria-prima dos eritrócitos), veremos redução do volume corpuscular médio (VCM).",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-10-20T17:32:51.000Z",
+                    "updated_at": "2022-04-19T20:34:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 47780,
+                    "question_id": 11672,
+                    "description": "Hemoglobina globular média",
+                    "explanation": "Incorreto Doc!\n\nA hemoglobina estará diminuída Doc! É um dos parâmetros hematimétricos que se reduz, já que a quantidade de hemoglobina estará proporcional à hematopoese do organismo.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-10-20T17:32:51.000Z",
+                    "updated_at": "2022-04-19T20:34:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 47781,
+                    "question_id": 11672,
+                    "description": "Capacidade de ligação com o ferro",
+                    "explanation": "Correto Doc! Essa é a resposta adequada!\nPrecisamos raciocinar Doc. No caso de **anemia ferropriva**, vemos uma **diminuição das reservas orgânicas de ferro,** que se prolongada pode prejudicar a eritropoese e alterar os parâmetros hematimétricos.\nPor lógica, podemos entender que, visando o maior aproveitamento do ferro, que está escasso, a **capacidade de ligação do ferro** estará aumentada!\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-10-20T17:32:51.000Z",
+                    "updated_at": "2022-04-19T20:34:31.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11672,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11673,
+            "institution_id": 355,
+            "description": "Pré-escolar, 2 anos, sexo feminino, apresenta diagnóstico de Anemia por Deficiência de Ferro, sendo prescrito sulfato ferroso - 5 mg/Kg/dia de ferro elementar.\nO parâmetro laboratorial mais específico para aquele diagnóstico e o parâmetro laboratorial de resposta mais precoce ao tratamento são, respectivamente: ",
+            "difficulty": "medium",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-10-20T18:20:01.000Z",
+            "updated_at": "2022-04-19T20:34:17.000Z",
+            "user_id": 91,
+            "is_residency": false,
+            "institution": {
+                "id": 355,
+                "title": "UFRJ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-05-28T23:56:40.000Z",
+                "updated_at": "2021-05-28T23:56:40.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 9,
+                    "title": "Anemia Ferropriva",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-17T17:29:16.000Z",
+                    "updated_at": "2020-05-17T17:29:16.000Z",
+                    "pivot": {
+                        "discipline_id": 9,
+                        "question_id": 11673
+                    }
+                },
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 11673
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 47782,
+                    "question_id": 11673,
+                    "description": "Ferritina e reticulócitos",
+                    "explanation": "Perfeito Doc!\nAqui vamos **racionar** acerca da resposta ao tratamento com sulfato ferroso.\nOs **reticulócitos** correspondem às hemácias \"imaturas\", então, quando recolocamos matéria-prima em um sistema deficitário, por consequência, eles **tendem à aumentar** no sangue, como uma forma de recuperar \"o tempo perdido\" e trazer o organismo à homeostase novamente.\nA **ferritina**, por corresponder aos **estoques corporais de ferro**, também **aumentará** conforme a reposição for feita.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-10-20T18:20:01.000Z",
+                    "updated_at": "2022-04-19T20:34:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 47783,
+                    "question_id": 11673,
+                    "description": "Ferritina e hematócrito",
+                    "explanation": "Incorreto Doc!\nO hematócrito realmente aumentará conforme o ferro for reposto, entretanto, não é mais precoce que os reticulócitos.\nA lógica é a seguinte Doc, primeiro a fábrica precisa aumentar a produção, para depois o total de produtos aumentar.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-10-20T18:20:01.000Z",
+                    "updated_at": "2022-04-19T20:34:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 47784,
+                    "question_id": 11673,
+                    "description": "Ferro sérico e hemoglobina ",
+                    "explanation": "Incorreto Doc!\n\nNão são os parâmetros mais precoces!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-10-20T18:20:01.000Z",
+                    "updated_at": "2022-04-19T20:34:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 47785,
+                    "question_id": 11673,
+                    "description": "Saturação de transferrina e hemoglobina",
+                    "explanation": "Incorreto Doc!\n\nNão são os parâmetros mais precoces! \nA saturação de transferrina, inclusive, demorará muito para aumentar, visto que os estoques corporais para transporte estavam BAIXOS.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-10-20T18:20:01.000Z",
+                    "updated_at": "2022-04-19T20:34:17.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11673,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13721,
+            "institution_id": 4,
+            "description": "Sobre a anemia fisiológica do lactente, assinale a alternativa CORRETA:",
+            "difficulty": "medium",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-19T20:42:42.000Z",
+            "updated_at": "2022-04-19T20:42:42.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 13721
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 56229,
+                    "question_id": 13721,
+                    "description": "O quadro inicia com 30 dias de vida, aproximadamente",
+                    "explanation": "Falso, Doc! 😬 Tem início com **7 dias** de vida!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-04-19T20:42:42.000Z",
+                    "updated_at": "2022-04-19T20:42:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56230,
+                    "question_id": 13721,
+                    "description": "É uma anemia normocrômica e normocítica",
+                    "explanation": "Isso mesmo, Doc! 🤗 \n- É uma anemia **normocrômica e normocítica**\n- Ocorre por adaptação do organismo do RN, vindo de um ambiente de hipóxia intraútero (e, portanto, possuidor de elevados níveis de Hb) a um ambiente com mais oxigênio\n- Não é necessário tratamento! \n\nDoc, dá uma olhada no comentário das outras alternativas para aprofundar seus conhecimentos 😉 ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-04-19T20:42:42.000Z",
+                    "updated_at": "2022-04-19T20:42:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56231,
+                    "question_id": 13721,
+                    "description": "A hemoglobina atinge os níveis mais baixos, de 9,5-11 g/dL, com 5 meses de vida",
+                    "explanation": "Falso, Doc! 😬 Os níveis mais baixos, de 9,5-11 g/dL ocorrem com **6-12 semanas** ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-19T20:42:42.000Z",
+                    "updated_at": "2022-04-19T20:42:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 56232,
+                    "question_id": 13721,
+                    "description": "O tratamento é feito com ferro elementar a 1 mg/kg/dia",
+                    "explanation": "Falso, Doc! 🥴 Não é necessário tratamento! \n- Olha o nome, Doc: **fisiológica**\n- Apenas devemos nos atentar para RNs com quadros de hemólise, sintomas de anemia ou Hb < 9 g/dL, o que pode indicar uma causa **patológica**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-19T20:42:42.000Z",
+                    "updated_at": "2022-04-19T20:42:42.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13721,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        },
+        {
+            "id": 29,
+            "institution_id": 6,
+            "description": "Lactente de 8 meses é levado para consulta médica, pois a mãe acha que ele está muito pálido. Nascido de parto normal, a termo, sem intercorrências neonatais, foi amamentado exclusivamente até 4 meses de vida e, no momento, aceita papa de frutas e legumes (com feijão e macarrão), ingerindo alimentos em pedaços, mas em pouca quantidade. Faz uso de sulfato ferroso, com a dose de ferro elementar correspondente a 2mg/kg/dia, desde os 6 meses de idade. A avaliação nutricional é normal, apesar do ganho de peso limítrofe. O hemograma colhido revela 8.000 leucócitos, Hgb = 9 g/dL, VCM = 68, RDW = 15 e 490.000 plaquetas. A conduta adequada nesse momento é:\n",
+            "difficulty": "hard",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T18:01:12.000Z",
+            "updated_at": "2022-04-19T20:33:12.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 6,
+                "title": "UERJ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T14:06:12.000Z",
+                "updated_at": "2020-05-17T14:06:12.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 29
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 29
+                    }
+                },
+                {
+                    "id": 9,
+                    "title": "Anemia Ferropriva",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-17T17:29:16.000Z",
+                    "updated_at": "2020-05-17T17:29:16.000Z",
+                    "pivot": {
+                        "discipline_id": 9,
+                        "question_id": 29
+                    }
+                },
+                {
+                    "id": 1175,
+                    "title": "Anemias em Pediatria",
+                    "description": null,
+                    "parent_id": 1173,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T20:32:42.000Z",
+                    "updated_at": "2022-04-19T20:32:42.000Z",
+                    "pivot": {
+                        "discipline_id": 1175,
+                        "question_id": 29
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 115,
+                    "question_id": 29,
+                    "description": "orientar aumento da frequência das refeições",
+                    "explanation": "Falso doc! Pelo relato de caso, a avaliação nutricional foi averiguada como normal, o que não justificaria a anemia apresentada pela criança.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-17T18:01:12.000Z",
+                    "updated_at": "2022-04-19T20:33:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 116,
+                    "question_id": 29,
+                    "description": "aumentar a dose do ferro para 5mg/kg/dia ",
+                    "explanation": "Perfeito doc! Voando baixo!😎Essa seria a conduta mais correta. Me acompanha👇\n- Anemia apresentando microcitose e anisocitose (RDW>14) em criança=> provavelmente é ferropriva\n- A anemia ferropriva é disparado a causa mais comum de anemia na infância. Além disso, podemos ver um aumento do números de plaquetas, indicando uma possível tentativa da médula de ter maior produção de hemácias. \n- A conduta mais correta seria realizar o tratamento da anemia ferropriva: dose terapêutica de 3-5mg/kg/dia, fracionadas ou em dose única.\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-17T18:01:12.000Z",
+                    "updated_at": "2022-04-19T20:33:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 117,
+                    "question_id": 29,
+                    "description": "solicitar eletroforese de hemoglobina ",
+                    "explanation": "Falso doc! A causa mais comum de anemia na infância de longe é anemia ferropriva. Porém as talassemias fazem parte do diagnóstico diferencial. No entanto, geralmente, as talassemias possuem um RDW dentro da normalidade!\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T18:01:12.000Z",
+                    "updated_at": "2022-04-19T20:33:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 118,
+                    "question_id": 29,
+                    "description": "solicitar exames de cinética do ferro",
+                    "explanation": "Falso doc! Nesse caso, esses exames são dispensáveis no momento, devido a etiologia mais prevalente ser a anemia ferropriva, optando-se diretamente pelo tratamento com o sulfato ferroso. Após 1-2 semanas, pode-se mensurar a resposta pelo número de reticulócitos!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-17T18:01:12.000Z",
+                    "updated_at": "2022-04-19T20:33:12.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 29,
+                "questionary_id": 268432,
+                "timer": 0
+            }
+        }
+    ]
+}

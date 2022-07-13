@@ -1,0 +1,2939 @@
+{
+    "id": 267298,
+    "user_id": 1699,
+    "title": "Introdução às Anemias",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-10T19:59:02.000Z",
+    "updated_at": "2022-07-10T19:59:02.000Z",
+    "study_plan_id": 36,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 3,
+            "institution_id": 4,
+            "description": "A anemia se caracteriza por uma: ",
+            "difficulty": "easy",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T00:19:59.000Z",
+            "updated_at": "2022-06-27T23:07:22.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 3
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 3
+                    }
+                },
+                {
+                    "id": 5,
+                    "title": "Anemias(introdução)",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:39:52.000Z",
+                    "updated_at": "2020-05-16T23:39:52.000Z",
+                    "pivot": {
+                        "discipline_id": 5,
+                        "question_id": 3
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7,
+                    "question_id": 3,
+                    "description": "Redução na concentração de hemoglobina ou de células vermelhas.",
+                    "explanation": "- Perfeito! Arrasou, Doc! 🤗\n- As anemias são caracterizadas pela queda da linhagem de células vermelhas ou por redução na concentração de hemoglobina.\n- Doenças crônicas, falta de nutrientes e perdas sanguíneas podem levar à anemia. \n- Valores de hemoglobina menores de 12 em mulheres e de 13 em homens já indicam um certo grau de anemia.\n- Fonte da imagem: https://www.biomedicinapadrao.com.br/2021/01/por-que-ocorre-palidez-na-anemia.html",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-16T21:19:59.000Z",
+                    "updated_at": "2022-06-27T23:07:22.000Z",
+                    "files": [
+                        {
+                            "id": 43297,
+                            "file": "40852cd4-5c84-4a2d-95cf-ed01d80254e1.png",
+                            "name": "palidez-anemia.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-27T23:05:38.000Z",
+                            "updated_at": "2022-06-27T23:05:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/40852cd4-5c84-4a2d-95cf-ed01d80254e1.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43297,
+                                "alternative_id": 7
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "question_id": 3,
+                    "description": "Redução no número de células brancas.",
+                    "explanation": "- Falso, Doc! 😣\n- O nome mais adequado para esse fenômeno seria **leucopenia**.\n- As anemias são caracterizadas pela queda da linhagem de células vermelhas ou por redução na concentração de hemoglobina.\n- Doenças crônicas, falta de nutrientes e perdas sanguíneas podem levar à anemia. \n- Valores de hemoglobina menores de 12 em mulheres e de 13 em homens já indicam um certo grau de anemia.\n- Fonte da imagem: https://www.biomedicinapadrao.com.br/2021/01/por-que-ocorre-palidez-na-anemia.html",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-16T21:19:59.000Z",
+                    "updated_at": "2022-06-27T23:07:22.000Z",
+                    "files": [
+                        {
+                            "id": 43297,
+                            "file": "40852cd4-5c84-4a2d-95cf-ed01d80254e1.png",
+                            "name": "palidez-anemia.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-27T23:05:38.000Z",
+                            "updated_at": "2022-06-27T23:05:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/40852cd4-5c84-4a2d-95cf-ed01d80254e1.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43297,
+                                "alternative_id": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "question_id": 3,
+                    "description": "Redução no número de plaquetas.",
+                    "explanation": "- Falso, Doc! 😣\n- O nome correto seria **plaquetopenia ou trombocitopenia.** \n- As anemias são caracterizadas pela queda da linhagem de células vermelhas ou por redução na concentração de hemoglobina.\n- Doenças crônicas, falta de nutrientes e perdas sanguíneas podem levar à anemia. \n- Valores de hemoglobina menores de 12 em mulheres e de 13 em homens já indicam um certo grau de anemia.\n- Fonte da imagem: https://www.biomedicinapadrao.com.br/2021/01/por-que-ocorre-palidez-na-anemia.html",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-16T21:19:59.000Z",
+                    "updated_at": "2022-06-27T23:07:22.000Z",
+                    "files": [
+                        {
+                            "id": 43297,
+                            "file": "40852cd4-5c84-4a2d-95cf-ed01d80254e1.png",
+                            "name": "palidez-anemia.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-27T23:05:38.000Z",
+                            "updated_at": "2022-06-27T23:05:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/40852cd4-5c84-4a2d-95cf-ed01d80254e1.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43297,
+                                "alternative_id": 9
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "question_id": 3,
+                    "description": "Todas estão corretas.",
+                    "explanation": "- Falso, Doc! 😣\n- Apenas a letra A indica corretamente o significado de anemia.\n- As anemias são caracterizadas pela queda da linhagem de células vermelhas ou por redução na concentração de hemoglobina.\n- Doenças crônicas, falta de nutrientes e perdas sanguíneas podem levar à anemia. \n- Valores de hemoglobina menores de 12 em mulheres e de 13 em homens já indicam um certo grau de anemia.\n- Fonte da imagem: https://www.biomedicinapadrao.com.br/2021/01/por-que-ocorre-palidez-na-anemia.html",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-16T21:19:59.000Z",
+                    "updated_at": "2022-06-27T23:07:22.000Z",
+                    "files": [
+                        {
+                            "id": 43297,
+                            "file": "40852cd4-5c84-4a2d-95cf-ed01d80254e1.png",
+                            "name": "palidez-anemia.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-27T23:05:38.000Z",
+                            "updated_at": "2022-06-27T23:05:38.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/40852cd4-5c84-4a2d-95cf-ed01d80254e1.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43297,
+                                "alternative_id": 10
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 3,
+                "questionary_id": 267298,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5,
+            "institution_id": 4,
+            "description": "Qual é o principal hormônio que estimula o processo de eritropoese e onde ele é produzido?\n",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T00:27:00.000Z",
+            "updated_at": "2022-06-27T23:11:50.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 5
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 5
+                    }
+                },
+                {
+                    "id": 5,
+                    "title": "Anemias(introdução)",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:39:52.000Z",
+                    "updated_at": "2020-05-16T23:39:52.000Z",
+                    "pivot": {
+                        "discipline_id": 5,
+                        "question_id": 5
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 15,
+                    "question_id": 5,
+                    "description": "Eritropoietina e parênquima renal.",
+                    "explanation": "- Perfeito! Muito bem, Doc! 😇\n- A eritropoietina é o fator mais importante de crescimento e de diferenciação das células tronco para linhagens mais complexas, como a eritroide.\n- A eritropoietina é um hormônio produzido pelo  parênquima renal, nas células tubulares proximais, em resposta à hipóxia tecidual.\n- Fonte da imagem: https://pt.dreamstime.com/eritropoietina-e-eritropoiese-eritropoetina-citocina-glicoproteica-secretada-pelo-rim-em-resposta-hipoxia-celular-que-estimula-image214494763",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-17T00:27:00.000Z",
+                    "updated_at": "2022-06-27T23:11:50.000Z",
+                    "files": [
+                        {
+                            "id": 43298,
+                            "file": "21e5bf2c-7753-40f3-83cb-84937ed462eb.jpeg",
+                            "name": "eritropoietina-e-eritropoiese-eritropoetina-citocina-glicoproteica-secretada-pelo-rim-em-resposta-hipoxia-celular-que-estimula-214494763.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T23:10:02.000Z",
+                            "updated_at": "2022-06-27T23:10:02.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/21e5bf2c-7753-40f3-83cb-84937ed462eb.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43298,
+                                "alternative_id": 15
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "question_id": 5,
+                    "description": "Calcitonina e células C da tireoide.",
+                    "explanation": "- Incorreto, Doc! 🤔\n- A calcitonina é um hormônio relacionada à homeostase do cálcio. É produzido pelas células C da tireoide, também conhecidas como células parafoliculares.\n- A eritropoietina é o fator mais importante de crescimento e de diferenciação das células tronco para linhagens mais complexas, como a eritroide.\n- A eritropoietina é um hormônio produzido pelo  parênquima renal, nas células tubulares proximais, em resposta à hipóxia tecidual.\n- Fonte da imagem: https://pt.dreamstime.com/eritropoietina-e-eritropoiese-eritropoetina-citocina-glicoproteica-secretada-pelo-rim-em-resposta-hipoxia-celular-que-estimula-image214494763",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-17T00:27:00.000Z",
+                    "updated_at": "2022-06-27T23:11:50.000Z",
+                    "files": [
+                        {
+                            "id": 43298,
+                            "file": "21e5bf2c-7753-40f3-83cb-84937ed462eb.jpeg",
+                            "name": "eritropoietina-e-eritropoiese-eritropoetina-citocina-glicoproteica-secretada-pelo-rim-em-resposta-hipoxia-celular-que-estimula-214494763.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T23:10:02.000Z",
+                            "updated_at": "2022-06-27T23:10:02.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/21e5bf2c-7753-40f3-83cb-84937ed462eb.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43298,
+                                "alternative_id": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "question_id": 5,
+                    "description": "Eritropoietina e suprarrenal.",
+                    "explanation": "- Incorreto, Doc! 🤔\n- A eritropoietina é o fator mais importante de crescimento e de diferenciação das células tronco para linhagens mais complexas, como a eritroide.\n- A eritropoietina é um hormônio produzido pelo  parênquima renal, nas células tubulares proximais, em resposta à hipóxia tecidual.\n- Fonte da imagem: https://pt.dreamstime.com/eritropoietina-e-eritropoiese-eritropoetina-citocina-glicoproteica-secretada-pelo-rim-em-resposta-hipoxia-celular-que-estimula-image214494763",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T00:27:00.000Z",
+                    "updated_at": "2022-06-27T23:11:50.000Z",
+                    "files": [
+                        {
+                            "id": 43298,
+                            "file": "21e5bf2c-7753-40f3-83cb-84937ed462eb.jpeg",
+                            "name": "eritropoietina-e-eritropoiese-eritropoetina-citocina-glicoproteica-secretada-pelo-rim-em-resposta-hipoxia-celular-que-estimula-214494763.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T23:10:02.000Z",
+                            "updated_at": "2022-06-27T23:10:02.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/21e5bf2c-7753-40f3-83cb-84937ed462eb.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43298,
+                                "alternative_id": 17
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "question_id": 5,
+                    "description": "Insulina e suprarrenal.",
+                    "explanation": "- Incorreto, Doc! 🤔\n- A insulina é um hormônio anabólico produzido nas células ß do pâncreas, o qual tem como maior função manter a homeostase da glicose.\n- A eritropoietina é o fator mais importante de crescimento e de diferenciação das células tronco para linhagens mais complexas, como a eritroide.\n- A eritropoietina é um hormônio produzido pelo  parênquima renal, nas células tubulares proximais, em resposta à hipóxia tecidual.\n- Fonte da imagem: https://pt.dreamstime.com/eritropoietina-e-eritropoiese-eritropoetina-citocina-glicoproteica-secretada-pelo-rim-em-resposta-hipoxia-celular-que-estimula-image214494763",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-17T00:27:00.000Z",
+                    "updated_at": "2022-06-27T23:11:50.000Z",
+                    "files": [
+                        {
+                            "id": 43298,
+                            "file": "21e5bf2c-7753-40f3-83cb-84937ed462eb.jpeg",
+                            "name": "eritropoietina-e-eritropoiese-eritropoetina-citocina-glicoproteica-secretada-pelo-rim-em-resposta-hipoxia-celular-que-estimula-214494763.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T23:10:02.000Z",
+                            "updated_at": "2022-06-27T23:10:02.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/21e5bf2c-7753-40f3-83cb-84937ed462eb.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43298,
+                                "alternative_id": 18
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5,
+                "questionary_id": 267298,
+                "timer": 0
+            }
+        },
+        {
+            "id": 6,
+            "institution_id": 4,
+            "description": "Em relação à eritropoese, qual é a sequência correta? ",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T00:38:01.000Z",
+            "updated_at": "2022-06-27T13:20:55.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 6
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 6
+                    }
+                },
+                {
+                    "id": 5,
+                    "title": "Anemias(introdução)",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:39:52.000Z",
+                    "updated_at": "2020-05-16T23:39:52.000Z",
+                    "pivot": {
+                        "discipline_id": 5,
+                        "question_id": 6
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19,
+                    "question_id": 6,
+                    "description": "Reticulócito → Eritroblasto basofílico → Eritroblasto policromático → Eritroblasto ortocromático → Proeritroblasto → Hemácia.",
+                    "explanation": "- Falso, Doc! 🤔\n- A ordem correta é: Proeritroblasto → Eritroblasto basofílico → Eritroblasto policromático → Eritroblasto ortocromático → Reticulócito → Hemácia.\n- O reticulócito é o clássico ponto de diferenciação antes da hemácia.\n- O processo de eritropoese envolve uma redução do volume celular, um aumento do citoplasma, que vai de azul (basofílico) a róseo (acidófilo), uma redução progressiva do núcleo e uma condensação da cromatina.\n- O processo é regulado para repor o número de hemácias senescentes perdidas.\n- Fonte da imagem: [https://www.ufsj.edu.br/portal2-repositorio/File/laact/Atlas%20Hematologia%20Clinica%20220920.pdf](https://www.ufsj.edu.br/portal2-repositorio/File/laact/Atlas%20Hematologia%20Clinica%20220920.pdf)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-17T00:38:01.000Z",
+                    "updated_at": "2022-06-27T13:20:55.000Z",
+                    "files": [
+                        {
+                            "id": 43248,
+                            "file": "0b6dca0b-20da-42ee-a9b9-9da78133b4ae.jpeg",
+                            "name": "images.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T11:47:40.000Z",
+                            "updated_at": "2022-06-27T11:47:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/0b6dca0b-20da-42ee-a9b9-9da78133b4ae.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43248,
+                                "alternative_id": 19
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 20,
+                    "question_id": 6,
+                    "description": "Proeritroblasto → Eritroblasto basofílico → Reticulócito → Eritroblasto ortocromático → Eritroblasto policromático → Hemácia.",
+                    "explanation": "- Falso, Doc! 🤔\n- A ordem correta é: Proeritroblasto → Eritroblasto basofílico → Eritroblasto policromático → Eritroblasto ortocromático → Reticulócito → Hemácia.\n- O reticulócito é o clássico ponto de diferenciação antes da hemácia.\n- O processo de eritropoese envolve uma redução do volume celular, um aumento do citoplasma, que vai de azul (basofílico) a róseo (acidófilo), uma redução progressiva do núcleo e uma condensação da cromatina.\n- O processo é regulado para repor o número de hemácias senescentes perdidas.\n- Fonte da imagem: [https://www.ufsj.edu.br/portal2-repositorio/File/laact/Atlas%20Hematologia%20Clinica%20220920.pdf](https://www.ufsj.edu.br/portal2-repositorio/File/laact/Atlas%20Hematologia%20Clinica%20220920.pdf)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-17T00:38:01.000Z",
+                    "updated_at": "2022-06-27T13:20:55.000Z",
+                    "files": [
+                        {
+                            "id": 43248,
+                            "file": "0b6dca0b-20da-42ee-a9b9-9da78133b4ae.jpeg",
+                            "name": "images.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T11:47:40.000Z",
+                            "updated_at": "2022-06-27T11:47:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/0b6dca0b-20da-42ee-a9b9-9da78133b4ae.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43248,
+                                "alternative_id": 20
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 21,
+                    "question_id": 6,
+                    "description": "Proeritroblasto → Eritroblasto basofílico → Eritroblasto policromático → Eritroblasto ortocromático → Reticulócito → Hemácia.",
+                    "explanation": "- Perfeito, Doc! Acertou! 😍\n- A ordem correta é: Proeritroblasto → Eritroblasto basofílico → Eritroblasto policromático → Eritroblasto ortocromático → Reticulócito → Hemácia.\n- O processo de eritropoese envolve uma redução do volume celular, um aumento do citoplasma, que vai de azul (basofílico) a róseo (acidófilo), uma redução progressiva do núcleo e uma condensação da cromatina.\n- O processo é regulado para repor o número de hemácias senescentes perdidas.\n- Fonte da imagem: [https://www.ufsj.edu.br/portal2-repositorio/File/laact/Atlas%20Hematologia%20Clinica%20220920.pdf](https://www.ufsj.edu.br/portal2-repositorio/File/laact/Atlas%20Hematologia%20Clinica%20220920.pdf)",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-16T21:38:01.000Z",
+                    "updated_at": "2022-06-27T13:20:55.000Z",
+                    "files": [
+                        {
+                            "id": 43248,
+                            "file": "0b6dca0b-20da-42ee-a9b9-9da78133b4ae.jpeg",
+                            "name": "images.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T11:47:40.000Z",
+                            "updated_at": "2022-06-27T11:47:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/0b6dca0b-20da-42ee-a9b9-9da78133b4ae.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43248,
+                                "alternative_id": 21
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 22,
+                    "question_id": 6,
+                    "description": "Eritroblasto ortocromático → Proeritroblasto → Eritroblasto policromático → Eritroblasto basofílico → Reticulócito → Hemácia.",
+                    "explanation": "- Falso, Doc! 🤔\n- A ordem correta é: Proeritroblasto → Eritroblasto basofílico → Eritroblasto policromático → Eritroblasto ortocromático → Reticulócito → Hemácia.\n- O processo de eritropoese envolve uma redução do volume celular, um aumento do citoplasma, que vai de azul (basofílico) a róseo (acidófilo), uma redução progressiva do núcleo e uma condensação da cromatina.\n- O processo é regulado para repor o número de hemácias senescentes perdidas.\n- Fonte da imagem: [https://www.ufsj.edu.br/portal2-repositorio/File/laact/Atlas%20Hematologia%20Clinica%20220920.pdf](https://www.ufsj.edu.br/portal2-repositorio/File/laact/Atlas%20Hematologia%20Clinica%20220920.pdf)\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-16T21:38:01.000Z",
+                    "updated_at": "2022-06-27T13:20:55.000Z",
+                    "files": [
+                        {
+                            "id": 43248,
+                            "file": "0b6dca0b-20da-42ee-a9b9-9da78133b4ae.jpeg",
+                            "name": "images.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T11:47:40.000Z",
+                            "updated_at": "2022-06-27T11:47:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/0b6dca0b-20da-42ee-a9b9-9da78133b4ae.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43248,
+                                "alternative_id": 22
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 6,
+                "questionary_id": 267298,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7,
+            "institution_id": 4,
+            "description": "Todas as alternativas abaixo citam conceitos corretos, **EXCETO:** ",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T00:42:49.000Z",
+            "updated_at": "2022-06-25T20:12:59.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 7
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 7
+                    }
+                },
+                {
+                    "id": 5,
+                    "title": "Anemias(introdução)",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:39:52.000Z",
+                    "updated_at": "2020-05-16T23:39:52.000Z",
+                    "pivot": {
+                        "discipline_id": 5,
+                        "question_id": 7
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 23,
+                    "question_id": 7,
+                    "description": "VCM - reflete o tamanho médio das hemácias.",
+                    "explanation": "- Essa está correta, Doc! 🤔\n- VCM - reflete o tamanho médio das hemácias.\n- As anemias podem ser microcíticas, quando têm um tamanho menor do que 80 fl.\n- Ou podem ser macrocíticas, quando têm um tamanho maior do que 100 fl.\n- Fonte da imagem: https://newslab.com.br/eritrograma-indices-hematimetricos/\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-17T00:42:49.000Z",
+                    "updated_at": "2022-06-25T20:12:59.000Z",
+                    "files": [
+                        {
+                            "id": 43121,
+                            "file": "d663389b-728f-49cb-b947-a8b6c456a9c4.png",
+                            "name": "tabela-1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-25T20:12:23.000Z",
+                            "updated_at": "2022-06-25T20:12:23.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d663389b-728f-49cb-b947-a8b6c456a9c4.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43121,
+                                "alternative_id": 23
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 24,
+                    "question_id": 7,
+                    "description": "HCM - reflete a cor das hemácias, ou seja, a quantidade de hemoglobina média dentro das hemácias.",
+                    "explanation": "- Essa está correta, Doc! 🤔\n- HCM - reflete a cor das hemácias, ou seja, a quantidade de hemoglobina média dentro das hemácias.\n- Por exemplo, na anemia ferropriva, o HCM tende a diminuir, classificando-a como uma anemia hipocrômica.\n- Fonte da imagem: https://newslab.com.br/eritrograma-indices-hematimetricos/",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-17T00:42:49.000Z",
+                    "updated_at": "2022-06-25T20:12:59.000Z",
+                    "files": [
+                        {
+                            "id": 43121,
+                            "file": "d663389b-728f-49cb-b947-a8b6c456a9c4.png",
+                            "name": "tabela-1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-25T20:12:23.000Z",
+                            "updated_at": "2022-06-25T20:12:23.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d663389b-728f-49cb-b947-a8b6c456a9c4.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43121,
+                                "alternative_id": 24
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 25,
+                    "question_id": 7,
+                    "description": "CHCM - reflete a quantidade de hemácias.",
+                    "explanation": "- Perfeito, Doc! Essa alternativa é a **incorreta**! 😍\n- O CHCM, na verdade, também está relacionado à cor da hemácia, diminuindo em anemias carenciais como a ferropriva.\n- Fonte da imagem: https://newslab.com.br/eritrograma-indices-hematimetricos/",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-17T00:42:49.000Z",
+                    "updated_at": "2022-06-25T20:12:59.000Z",
+                    "files": [
+                        {
+                            "id": 43121,
+                            "file": "d663389b-728f-49cb-b947-a8b6c456a9c4.png",
+                            "name": "tabela-1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-25T20:12:23.000Z",
+                            "updated_at": "2022-06-25T20:12:23.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d663389b-728f-49cb-b947-a8b6c456a9c4.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43121,
+                                "alternative_id": 25
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 26,
+                    "question_id": 7,
+                    "description": "RDW - reflete a variação do tamanho das hemácias.",
+                    "explanation": "- Essa está correta, Doc! 🤔\n- RDW - reflete a variação do tamanho das hemácias.\n- O RDW é importante na diferenciação entre algumas anemias, como a ferropriva das talassemias, por exemplo.\n- Basicamente, quanto maior o RDW, maior é a diferença de tamanho entre as hemácias.\n- Fonte da imagem: https://newslab.com.br/eritrograma-indices-hematimetricos/",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-16T21:42:49.000Z",
+                    "updated_at": "2022-06-25T20:12:59.000Z",
+                    "files": [
+                        {
+                            "id": 43121,
+                            "file": "d663389b-728f-49cb-b947-a8b6c456a9c4.png",
+                            "name": "tabela-1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-25T20:12:23.000Z",
+                            "updated_at": "2022-06-25T20:12:23.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d663389b-728f-49cb-b947-a8b6c456a9c4.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43121,
+                                "alternative_id": 26
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 7,
+                "questionary_id": 267298,
+                "timer": 0
+            }
+        },
+        {
+            "id": 9,
+            "institution_id": 4,
+            "description": "Qual das associações abaixo está **INCORRETA**:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T00:55:36.000Z",
+            "updated_at": "2022-06-27T13:32:23.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 9
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 9
+                    }
+                },
+                {
+                    "id": 5,
+                    "title": "Anemias(introdução)",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:39:52.000Z",
+                    "updated_at": "2020-05-16T23:39:52.000Z",
+                    "pivot": {
+                        "discipline_id": 5,
+                        "question_id": 9
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 31,
+                    "question_id": 9,
+                    "description": "Esquizócitos → Anemias hemolíticas microangiopáticas.",
+                    "explanation": "- Essa está correta, Doc! 😣\n- Os esquizócitos possuem um “formato esquisito” de célula fragmentada.\n- Eles perdem pedaços de seus citoplasmas ao passarem por um endotélio lesionado e, por isso, aparecem nas anemias hemolíticas microangiopáticas.\n- Fonte da imagem: https://www.biomedicinapadrao.com.br/2012/01/alteracao-morfologica-das-hemacias.html",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-17T00:55:36.000Z",
+                    "updated_at": "2022-06-27T13:32:23.000Z",
+                    "files": [
+                        {
+                            "id": 43268,
+                            "file": "c0220916-a0e6-4d8b-ba01-4c22e5ce025e.png",
+                            "name": "Esquizócitos[2].png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-27T13:28:00.000Z",
+                            "updated_at": "2022-06-27T13:28:00.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c0220916-a0e6-4d8b-ba01-4c22e5ce025e.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43268,
+                                "alternative_id": 31
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 32,
+                    "question_id": 9,
+                    "description": "Dacriócitos → Mielofibrose.",
+                    "explanation": "- Essa está correta, Doc! 😣\n- Os dacriócitos são células em formato de lágrima.\n- Os dacriócitos indicam um processo de eritropoese extra-medular.\n- Fonte da imagem: https://www.biomedicinapadrao.com.br/2012/01/alteracao-morfologica-das-hemacias.html",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-17T00:55:36.000Z",
+                    "updated_at": "2022-06-27T13:32:23.000Z",
+                    "files": [
+                        {
+                            "id": 43269,
+                            "file": "eeb13ea9-8621-4a8a-b33b-5e78d398b7d3.png",
+                            "name": "Dacriócitos[2].png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-27T13:28:43.000Z",
+                            "updated_at": "2022-06-27T13:28:43.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/eeb13ea9-8621-4a8a-b33b-5e78d398b7d3.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43269,
+                                "alternative_id": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 33,
+                    "question_id": 9,
+                    "description": "Corpúsculo de Pappenheimer → Anemia sideroblástica.",
+                    "explanation": "- Essa está correta, Doc! 😣\n- Os Corpúsculo de Pappenheimer são depósitos de ferro nas hemácias, os quais são encontrados em anemias por deposição de ferro, como a sideroblástica.\n- Fonte da imagem: https://atlasemhematologia.com.br/sem-categoria/inclusoes-eritrocitarias-conhecendo-as-principais/",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T00:55:36.000Z",
+                    "updated_at": "2022-06-27T13:32:23.000Z",
+                    "files": [
+                        {
+                            "id": 43270,
+                            "file": "c800fb48-cd20-40c6-b4a9-e830e876e9b3.png",
+                            "name": "vem-que-vem-3.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-27T13:31:46.000Z",
+                            "updated_at": "2022-06-27T13:31:46.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c800fb48-cd20-40c6-b4a9-e830e876e9b3.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43270,
+                                "alternative_id": 33
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 34,
+                    "question_id": 9,
+                    "description": "Corpúsculo de Howell-Jolly → Hiperesplenismo.",
+                    "explanation": "- Acertou, Doc! Essa é a alternativa **incorreta**! 😍\n- Ao encontrarmos os Corpúsculo de Howell-Jolly, podemos inferir que há uma baixa função do baço, causada por um **hipo**esplenismo ou até por uma ausência do baço → asplenia.\n- Fonte da imagem: https://atlasemhematologia.com.br/sem-categoria/inclusoes-eritrocitarias-conhecendo-as-principais/",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-17T00:55:36.000Z",
+                    "updated_at": "2022-06-27T13:32:23.000Z",
+                    "files": [
+                        {
+                            "id": 43271,
+                            "file": "114cd12c-585e-4e09-8eca-49341fecdb51.png",
+                            "name": "vem-que-vem.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-27T13:32:14.000Z",
+                            "updated_at": "2022-06-27T13:32:14.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/114cd12c-585e-4e09-8eca-49341fecdb51.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43271,
+                                "alternative_id": 34
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 9,
+                "questionary_id": 267298,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11,
+            "institution_id": 4,
+            "description": "Qual das alternativas abaixo aponta uma causa de anemia hiperproliferativa?",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T16:52:55.000Z",
+            "updated_at": "2022-06-27T23:33:05.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 11
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 11
+                    }
+                },
+                {
+                    "id": 5,
+                    "title": "Anemias(introdução)",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:39:52.000Z",
+                    "updated_at": "2020-05-16T23:39:52.000Z",
+                    "pivot": {
+                        "discipline_id": 5,
+                        "question_id": 11
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 39,
+                    "question_id": 11,
+                    "description": "Anemias carenciais.",
+                    "explanation": "- Falso, Doc! 😫\n- As anemias carenciais podem ocorrer, por exemplo, por deficiência de ferro e de vitamina B12. Geralmente, são hipoproliferativas, pois faltam substratos para a produção de hemácias.\n- O sangramento agudo pode levar ao aumento da produção celular ao nível de médula óssea, tanto pelo estímulo da perda de hemácias como pela hipóxia em tecidos periféricos, os quais estimulam o aumento da produção de EPO no parênquima renal.\n- Por isso, cursamos com **uma anemia hiperproliferativa.**\n- Fonte da imagem: https://slideplayer.com.br/amp/1813740/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-17T13:52:55.000Z",
+                    "updated_at": "2022-06-27T23:33:05.000Z",
+                    "files": [
+                        {
+                            "id": 43302,
+                            "file": "8f7b73c7-4489-401a-9959-f602fd148a71.jpeg",
+                            "name": "SÉRIE+VERMELHA+ANEMIA+HIPOPROLIFETARIVA+ANEMIA+HIPERPROLIFERATIVA.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T23:31:00.000Z",
+                            "updated_at": "2022-06-27T23:31:00.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8f7b73c7-4489-401a-9959-f602fd148a71.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43302,
+                                "alternative_id": 39
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 40,
+                    "question_id": 11,
+                    "description": "Desordens da medula.",
+                    "explanation": "- Falso, Doc! 😫\n- A anemia aplásica, a mielofibrose e a mielodisplasia atrapalham a produção celular da medula óssea. Consideramos, então. uma **anemia hipoproliferativa.**\n- O sangramento agudo pode levar ao aumento da produção celular ao nível de médula óssea, tanto pelo estímulo da perda de hemácias como pela hipóxia em tecidos periféricos, os quais estimulam o aumento da produção de EPO no parênquima renal.\n- Por isso, cursamos com **uma anemia hiperproliferativa.**\n- Fonte da imagem: https://slideplayer.com.br/amp/1813740/",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-17T13:52:55.000Z",
+                    "updated_at": "2022-06-27T23:33:05.000Z",
+                    "files": [
+                        {
+                            "id": 43302,
+                            "file": "8f7b73c7-4489-401a-9959-f602fd148a71.jpeg",
+                            "name": "SÉRIE+VERMELHA+ANEMIA+HIPOPROLIFETARIVA+ANEMIA+HIPERPROLIFERATIVA.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T23:31:00.000Z",
+                            "updated_at": "2022-06-27T23:31:00.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8f7b73c7-4489-401a-9959-f602fd148a71.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43302,
+                                "alternative_id": 40
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 41,
+                    "question_id": 11,
+                    "description": "Anemia de doença crônica.",
+                    "explanation": "- Falso, Doc! 😫\n- A anemia de doença crônica cursa com a liberação de citocinas inflamatórias sistêmicas, as quais inibem a produção de EPO. Sendo assim, mais comumente, cursaremos com anemia hipoproliferativa.\n- O sangramento agudo pode levar ao aumento da produção celular ao nível de médula óssea, tanto pelo estímulo da perda de hemácias como pela hipóxia em tecidos periféricos, os quais estimulam o aumento da produção de EPO no parênquima renal.\n- Por isso, cursamos com **uma anemia hiperproliferativa.**\n- Fonte da imagem: https://slideplayer.com.br/amp/1813740/",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T13:52:55.000Z",
+                    "updated_at": "2022-06-27T23:33:05.000Z",
+                    "files": [
+                        {
+                            "id": 43302,
+                            "file": "8f7b73c7-4489-401a-9959-f602fd148a71.jpeg",
+                            "name": "SÉRIE+VERMELHA+ANEMIA+HIPOPROLIFETARIVA+ANEMIA+HIPERPROLIFERATIVA.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T23:31:00.000Z",
+                            "updated_at": "2022-06-27T23:31:00.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8f7b73c7-4489-401a-9959-f602fd148a71.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43302,
+                                "alternative_id": 41
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 42,
+                    "question_id": 11,
+                    "description": "Sangramento agudo evidente.",
+                    "explanation": "- Correto! Parabéns, Doc! 🎉\n- O sangramento agudo pode levar ao aumento da produção celular ao nível de médula óssea, tanto pelo estímulo da perda de hemácias como pela hipóxia em tecidos periféricos, os quais estimulam o aumento da produção de EPO no parênquima renal.\n- Por isso, cursamos com **uma anemia hiperproliferativa.**\n- Fonte da imagem: https://slideplayer.com.br/amp/1813740/",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-17T13:52:55.000Z",
+                    "updated_at": "2022-06-27T23:33:05.000Z",
+                    "files": [
+                        {
+                            "id": 43302,
+                            "file": "8f7b73c7-4489-401a-9959-f602fd148a71.jpeg",
+                            "name": "SÉRIE+VERMELHA+ANEMIA+HIPOPROLIFETARIVA+ANEMIA+HIPERPROLIFERATIVA.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T23:31:00.000Z",
+                            "updated_at": "2022-06-27T23:31:00.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8f7b73c7-4489-401a-9959-f602fd148a71.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43302,
+                                "alternative_id": 42
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11,
+                "questionary_id": 267298,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12,
+            "institution_id": 4,
+            "description": "Qual destas abaixo é uma causa de anemia hipoproliferativa?",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T16:55:50.000Z",
+            "updated_at": "2022-06-27T23:01:08.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 12
+                    }
+                },
+                {
+                    "id": 5,
+                    "title": "Anemias(introdução)",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:39:52.000Z",
+                    "updated_at": "2020-05-16T23:39:52.000Z",
+                    "pivot": {
+                        "discipline_id": 5,
+                        "question_id": 12
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 12
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 44,
+                    "question_id": 12,
+                    "description": "Esferocitose hereditária.",
+                    "explanation": "- Falso, Doc! 🤔\n- A esferocitose hereditária pode cursar com hemólise pois, ao passarem pela circulação esplênica, as hemácias podem ser parcialmente digeridas.\n- Assim, temos uma hemólise classificada como anemia hiperproliferativa.\n- Fonte da imagem: https://slideplayer.com.br/amp/1813740/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-17T16:55:50.000Z",
+                    "updated_at": "2022-06-27T23:01:08.000Z",
+                    "files": [
+                        {
+                            "id": 43281,
+                            "file": "919a295b-9b07-496c-a4a6-075efa8f2bab.jpeg",
+                            "name": "SÉRIE+VERMELHA+ANEMIA+HIPOPROLIFETARIVA+ANEMIA+HIPERPROLIFERATIVA.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T14:33:57.000Z",
+                            "updated_at": "2022-06-27T14:33:57.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/919a295b-9b07-496c-a4a6-075efa8f2bab.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43281,
+                                "alternative_id": 44
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 45,
+                    "question_id": 12,
+                    "description": "Malária.",
+                    "explanation": "- Falso, Doc! 🤔\n- A malária, classicamente, causa a destruição das hemácias em tecidos periféricos, cursando com uma anemia hemolítica. Por isso, é hiperproliferativa.\n- Fonte da imagem: [https://slideplayer.com.br/amp/1813740/](https://slideplayer.com.br/amp/1813740/)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-17T16:55:50.000Z",
+                    "updated_at": "2022-06-27T23:01:08.000Z",
+                    "files": [
+                        {
+                            "id": 43281,
+                            "file": "919a295b-9b07-496c-a4a6-075efa8f2bab.jpeg",
+                            "name": "SÉRIE+VERMELHA+ANEMIA+HIPOPROLIFETARIVA+ANEMIA+HIPERPROLIFERATIVA.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T14:33:57.000Z",
+                            "updated_at": "2022-06-27T14:33:57.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/919a295b-9b07-496c-a4a6-075efa8f2bab.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43281,
+                                "alternative_id": 45
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 46,
+                    "question_id": 12,
+                    "description": "Anemia hemolítica autoimune.",
+                    "explanation": "- Falso, Doc! 🤔\n- As anemias hemolíticas causam a destruição das hemácias, a nível periférico ou central. \n- Assim, elas estimulam a maior produção de reticulócitos e de hemácias para suprir essa demanda.\n- Por isso, são classicamente anemias hiperproliferativas.\n- Fonte da imagem: https://slideplayer.com.br/amp/1813740/",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T16:55:50.000Z",
+                    "updated_at": "2022-06-27T23:01:08.000Z",
+                    "files": [
+                        {
+                            "id": 43281,
+                            "file": "919a295b-9b07-496c-a4a6-075efa8f2bab.jpeg",
+                            "name": "SÉRIE+VERMELHA+ANEMIA+HIPOPROLIFETARIVA+ANEMIA+HIPERPROLIFERATIVA.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T14:33:57.000Z",
+                            "updated_at": "2022-06-27T14:33:57.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/919a295b-9b07-496c-a4a6-075efa8f2bab.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43281,
+                                "alternative_id": 46
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 48,
+                    "question_id": 12,
+                    "description": "Anemia perniciosa.",
+                    "explanation": "- Perfeito! Muito bem, Doc! 🎊\n- A anemia perniciosa está relacionada a uma má-absorção da vitamina B12 por produção incipiente do fator intrínseco.\n- Por isso, temos uma anemia carencial que é, classicamente, uma anemia hipoproliferativa.\n- Fonte da imagem: [https://slideplayer.com.br/amp/1813740/](https://slideplayer.com.br/amp/1813740/)",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-17T16:55:50.000Z",
+                    "updated_at": "2022-06-27T23:01:08.000Z",
+                    "files": [
+                        {
+                            "id": 43281,
+                            "file": "919a295b-9b07-496c-a4a6-075efa8f2bab.jpeg",
+                            "name": "SÉRIE+VERMELHA+ANEMIA+HIPOPROLIFETARIVA+ANEMIA+HIPERPROLIFERATIVA.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T14:33:57.000Z",
+                            "updated_at": "2022-06-27T14:33:57.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/919a295b-9b07-496c-a4a6-075efa8f2bab.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43281,
+                                "alternative_id": 48
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12,
+                "questionary_id": 267298,
+                "timer": 0
+            }
+        },
+        {
+            "id": 18,
+            "institution_id": 10,
+            "description": "A principal utilidade do RDW (Red-Cell Distribution Width) é?\n- *(questão adaptada)*",
+            "difficulty": "easy",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T17:20:45.000Z",
+            "updated_at": "2022-06-27T13:53:44.000Z",
+            "user_id": 108,
+            "is_residency": true,
+            "institution": {
+                "id": 10,
+                "title": "SES-GO ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T14:20:45.000Z",
+                "updated_at": "2020-05-17T14:20:45.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 18
+                    }
+                },
+                {
+                    "id": 5,
+                    "title": "Anemias(introdução)",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:39:52.000Z",
+                    "updated_at": "2020-05-16T23:39:52.000Z",
+                    "pivot": {
+                        "discipline_id": 5,
+                        "question_id": 18
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 18
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 70,
+                    "question_id": 18,
+                    "description": "Permitir a apresentação de valores de normalidade entre 15 e 18%.",
+                    "explanation": "- Errado, Doc! 😫\n- O RDW é um valor que permite quantificar o grau de anisocitose, que é basicamente se uma hemácia é diferente da outra.\n- Pode ajudar na diferenciação de patologias como a anemia ferropriva e as talassemias.\n- Observe a anisocitose:\n- Fonte da imagem: https://hematologia.farmacia.ufg.br/p/7165-anisocitose",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:20:45.000Z",
+                    "updated_at": "2022-06-27T13:53:44.000Z",
+                    "files": [
+                        {
+                            "id": 43277,
+                            "file": "d604ac48-86ba-46f9-a91b-243a826f5590.jpeg",
+                            "name": "Anisocitose_z3.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T13:53:04.000Z",
+                            "updated_at": "2022-06-27T13:53:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d604ac48-86ba-46f9-a91b-243a826f5590.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43277,
+                                "alternative_id": 70
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 71,
+                    "question_id": 18,
+                    "description": "Oferecer uma medida qualitativa da anisocitose.",
+                    "explanation": "- Correto! Acertou, Doc! 😻\n- Essa, entre as alternativas, é a melhor definição para o RDW.\n- O RDW consegue oferecer uma medida qualitativa da anisocitose.\n- Diante uma anemia microcítica, por exemplo, conforme o RDW, as anemias se enquadram em dois grupos: aquelas com uma população de hemácias heterogênea, entre elas a anemia ferropriva, e as com uma população homogênea de hemácias, citando-se, neste caso, a talassemia minor e a anemia de doença crônica.\n- Observe a anisocitose:\n- Fonte da imagem: https://hematologia.farmacia.ufg.br/p/7165-anisocitose",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-17T14:20:45.000Z",
+                    "updated_at": "2022-06-27T13:53:44.000Z",
+                    "files": [
+                        {
+                            "id": 43277,
+                            "file": "d604ac48-86ba-46f9-a91b-243a826f5590.jpeg",
+                            "name": "Anisocitose_z3.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T13:53:04.000Z",
+                            "updated_at": "2022-06-27T13:53:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d604ac48-86ba-46f9-a91b-243a826f5590.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43277,
+                                "alternative_id": 71
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 72,
+                    "question_id": 18,
+                    "description": "Falar em favor da população eritrocitária homogênea, através de valores aumentados.",
+                    "explanation": "- Errado, Doc! 😫\n- Os valores aumentados do RDW sugerem uma população heterogênea de hemácias, enquadrando-se em doenças como a anemia ferropriva.\n- Observe a anisocitose:\n- Fonte da imagem: https://hematologia.farmacia.ufg.br/p/7165-anisocitose",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:20:45.000Z",
+                    "updated_at": "2022-06-27T13:53:44.000Z",
+                    "files": [
+                        {
+                            "id": 43277,
+                            "file": "d604ac48-86ba-46f9-a91b-243a826f5590.jpeg",
+                            "name": "Anisocitose_z3.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T13:53:04.000Z",
+                            "updated_at": "2022-06-27T13:53:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d604ac48-86ba-46f9-a91b-243a826f5590.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43277,
+                                "alternative_id": 72
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 73,
+                    "question_id": 18,
+                    "description": "Evidenciar a diferenciação entre a anemia ferropriva e a ß-talassemia heterozigótica.",
+                    "explanation": "- Errado, Doc! 😫\n- A diferenciação entre essas condições é uma das consequências de seu uso, mas não seria a melhor definição para a medida.\n- Realmente, diante de uma anemia microcítica, por exemplo, conforme o RDW, as anemias se enquadram em dois grupos: aquelas com uma população de hemácias heterogênea, entre elas a anemia ferropriva, e as com uma população homogênea de hemácias, citando-se, neste caso, a talassemia minor e a anemia de doença crônica.\n- Observe a anisocitose:\n- Fonte da imagem: https://hematologia.farmacia.ufg.br/p/7165-anisocitose",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:20:45.000Z",
+                    "updated_at": "2022-06-27T13:53:44.000Z",
+                    "files": [
+                        {
+                            "id": 43277,
+                            "file": "d604ac48-86ba-46f9-a91b-243a826f5590.jpeg",
+                            "name": "Anisocitose_z3.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T13:53:04.000Z",
+                            "updated_at": "2022-06-27T13:53:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/d604ac48-86ba-46f9-a91b-243a826f5590.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43277,
+                                "alternative_id": 73
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 18,
+                "questionary_id": 267298,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10,
+            "institution_id": 4,
+            "description": "Assinale a associação **INCORRETA** quanto à morfologia das hemácias:  ",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T01:00:22.000Z",
+            "updated_at": "2022-06-27T13:42:57.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 10
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 10
+                    }
+                },
+                {
+                    "id": 5,
+                    "title": "Anemias(introdução)",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:39:52.000Z",
+                    "updated_at": "2020-05-16T23:39:52.000Z",
+                    "pivot": {
+                        "discipline_id": 5,
+                        "question_id": 10
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 35,
+                    "question_id": 10,
+                    "description": "Esferócitos → Hemólise ou em casos de pacientes que sofreram queimaduras.",
+                    "explanation": "- Acertou, Doc! Muito bem! Essa é a alternativa **incorreta**! 😻\n- Os esferócitos, na verdade, estão mais relacionados à doença Esferocitose Hereditária, podendo também ser vistas nas anemias autoimunes.\n- Em pacientes que sofrem queimaduras, existe um dano endotelial agudo.\n- Por isso, é mais comum encontrarmos uma anemia microangiopática e esquizócitos.\n- Fonte da imagem: https://www.biomedicinapadrao.com.br/2012/01/alteracao-morfologica-das-hemacias.html",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-17T01:00:22.000Z",
+                    "updated_at": "2022-06-27T13:42:57.000Z",
+                    "files": [
+                        {
+                            "id": 43274,
+                            "file": "917bbd93-f8e5-4f8c-b36f-05effad9b784.png",
+                            "name": "Esferócitos[2].png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-27T13:39:39.000Z",
+                            "updated_at": "2022-06-27T13:39:39.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/917bbd93-f8e5-4f8c-b36f-05effad9b784.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43274,
+                                "alternative_id": 35
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 36,
+                    "question_id": 10,
+                    "description": "Hemácias em alvo → Hemoglobinopatias C, E ou S, Síndromes Talassêmicas e em pacientes com doença hepática. ",
+                    "explanation": "- Essa está correta, Doc! 🤔\n- As hemácias em alvo indicam que existe um excesso de membrana em relação à quantidade de hemoglobina no citoplasma.\n- São clássicas das hemoglobinopatias C.\n- Fonte da imagem: https://www.biomedicinapadrao.com.br/2012/01/alteracao-morfologica-das-hemacias.html",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-17T01:00:22.000Z",
+                    "updated_at": "2022-06-27T13:42:57.000Z",
+                    "files": [
+                        {
+                            "id": 43275,
+                            "file": "c39af1b1-068d-4834-b6d6-fff6b78120d3.png",
+                            "name": "Codócitos[2].png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-27T13:40:30.000Z",
+                            "updated_at": "2022-06-27T13:40:30.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c39af1b1-068d-4834-b6d6-fff6b78120d3.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43275,
+                                "alternative_id": 36
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 37,
+                    "question_id": 10,
+                    "description": "Dacriócitos → Em grande quantidade na mielofibrose.",
+                    "explanation": "- Essa está correta, Doc! 🤔\n- Os dacriócitos são células em formato de lágrima.\n- Os dacriócitos indicam um processo de eritropoiese extramedular.\n- Fonte da imagem: https://www.biomedicinapadrao.com.br/2012/01/alteracao-morfologica-das-hemacias.html",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T01:00:22.000Z",
+                    "updated_at": "2022-06-27T13:42:57.000Z",
+                    "files": [
+                        {
+                            "id": 43269,
+                            "file": "eeb13ea9-8621-4a8a-b33b-5e78d398b7d3.png",
+                            "name": "Dacriócitos[2].png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-27T13:28:43.000Z",
+                            "updated_at": "2022-06-27T13:28:43.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/eeb13ea9-8621-4a8a-b33b-5e78d398b7d3.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43269,
+                                "alternative_id": 37
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 38,
+                    "question_id": 10,
+                    "description": "Hemácias policromáticas → Anemias hemolíticas.",
+                    "explanation": "- Essa está correta, Doc! 🤔\n- Lembra da sequência de diferenciação do eritroblasto?\n- Temos uma sequência de mudanças de cor da hemácia, do azul (basofílico) para o rosa (acidófilo).\n- Nessa jornada, observamos as hemácias policromáticas.\n- Porém, esse processo ocorre lá na medula óssea.\n- Ao encontrarmos no sangue periférico, podemos inferir que existe algo destruindo as hemácias e que o corpo está usando as células pré-maturas como forma de reforço.\n- Fonte da imagem: https://www.ufsj.edu.br/portal2-repositorio/File/laact/Atlas%20Hematologia%20Clinica%20220920.pdf",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-17T01:00:22.000Z",
+                    "updated_at": "2022-06-27T13:42:57.000Z",
+                    "files": [
+                        {
+                            "id": 43248,
+                            "file": "0b6dca0b-20da-42ee-a9b9-9da78133b4ae.jpeg",
+                            "name": "images.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T11:47:40.000Z",
+                            "updated_at": "2022-06-27T11:47:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/0b6dca0b-20da-42ee-a9b9-9da78133b4ae.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43248,
+                                "alternative_id": 38
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10,
+                "questionary_id": 267298,
+                "timer": 0
+            }
+        },
+        {
+            "id": 17,
+            "institution_id": 9,
+            "description": "Hematopoese é o processo de formação, desenvolvimento e maturação dos elementos figurados do sangue. Sobre esse processo, qual das alternativas está **INCORRETA**?\n- *(questão adaptada)*",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T14:18:31.000Z",
+            "updated_at": "2022-06-27T23:21:02.000Z",
+            "user_id": 108,
+            "is_residency": true,
+            "institution": {
+                "id": 9,
+                "title": "UFT ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T14:18:31.000Z",
+                "updated_at": "2020-05-17T14:18:31.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 17
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 17
+                    }
+                },
+                {
+                    "id": 5,
+                    "title": "Anemias(introdução)",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:39:52.000Z",
+                    "updated_at": "2020-05-16T23:39:52.000Z",
+                    "pivot": {
+                        "discipline_id": 5,
+                        "question_id": 17
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 66,
+                    "question_id": 17,
+                    "description": "A hematopoese se inicia no saco vitelino, passando para o fígado e o baço e, finalmente, se estabelecendo na medula óssea, principal sítio produtor fisiológico na idade adulta.",
+                    "explanation": "- Essa está certa, Doc! 😉\n- As primeiras células-tronco hematopoiéticas se desenvolvem no saco vitelino, dando suporte com a rápida produção de eritrócitos.\n- Entre o 2° e o 3° mês de gestação, as CT primitivas e definitivas colonizam o fígado e o baço.\n- Eventualmente, as CT definitivas migram para a medula óssea através da circulação, onde será estabelecido o principal sítio de hematopoiese. \n- Fonte da imagem: https://edisciplinas.usp.br/pluginfile.php/4093085/ mod_resource/content/0/Hematopoese%20MED%202017%20%281%29.pdf",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:18:31.000Z",
+                    "updated_at": "2022-06-27T23:21:02.000Z",
+                    "files": [
+                        {
+                            "id": 43300,
+                            "file": "cc5206d8-d74a-4109-a374-8a9e2cec8a05.png",
+                            "name": "Captura de Tela 2022-06-27 às 20.19.41 (2).png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-27T23:20:52.000Z",
+                            "updated_at": "2022-06-27T23:20:52.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/cc5206d8-d74a-4109-a374-8a9e2cec8a05.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43300,
+                                "alternative_id": 66
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 67,
+                    "question_id": 17,
+                    "description": "A stem-cell, ou célula-tronco, pode originar precursores mieloides e precursores linfoides ou pode se autorregenerar, formando uma nova célula-tronco.",
+                    "explanation": "- Essa está certa, Doc! 😉\n- A stem-cell, ou célula-tronco, pode originar precursores mieloides e precursores linfoides ou pode se autorregenerar, formando uma nova célula-tronco.\n- Fonte da imagem: https://pt.wikipedia.org/wiki/Hematopoiese",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:18:31.000Z",
+                    "updated_at": "2022-06-27T23:21:02.000Z",
+                    "files": [
+                        {
+                            "id": 43299,
+                            "file": "ae1f56b3-ef3d-4101-a106-f8f582019ef6.jpeg",
+                            "name": "Hematopoiese_humana_pt.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T23:17:59.000Z",
+                            "updated_at": "2022-06-27T23:17:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ae1f56b3-ef3d-4101-a106-f8f582019ef6.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43299,
+                                "alternative_id": 67
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 68,
+                    "question_id": 17,
+                    "description": "A hematopoese é coordenada por vários fatores de crescimento específicos que estimulam a diferenciação das células.",
+                    "explanation": "- Essa está certa, Doc! 😉\n- A hematopoese é coordenada por vários fatores de crescimento específicos que estimulam a diferenciação das células.\n- Fonte da imagem: https://pt.wikipedia.org/wiki/Hematopoiese",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:18:31.000Z",
+                    "updated_at": "2022-06-27T23:21:02.000Z",
+                    "files": [
+                        {
+                            "id": 43299,
+                            "file": "ae1f56b3-ef3d-4101-a106-f8f582019ef6.jpeg",
+                            "name": "Hematopoiese_humana_pt.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T23:17:59.000Z",
+                            "updated_at": "2022-06-27T23:17:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ae1f56b3-ef3d-4101-a106-f8f582019ef6.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43299,
+                                "alternative_id": 68
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 69,
+                    "question_id": 17,
+                    "description": "O precursor linfoide é responsável pela diferenciação em linfócitos T, linfócitos B e monócitos.",
+                    "explanation": "- Acertou, Doc! Essa alternativa está realmente **incorreta**! 😻\n- Na verdade, os monócitos vêm de um precursor **mieloide**, junto com os basófilos, os eosinófilos, as hemácias e as plaquetas.\n- Já os precursores linfoides são responsáveis pela linhagem de linfócitos T, B e natural killer. \n- Fonte da imagem: https://pt.wikipedia.org/wiki/Hematopoiese",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-17T14:18:31.000Z",
+                    "updated_at": "2022-06-27T23:21:02.000Z",
+                    "files": [
+                        {
+                            "id": 43299,
+                            "file": "ae1f56b3-ef3d-4101-a106-f8f582019ef6.jpeg",
+                            "name": "Hematopoiese_humana_pt.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T23:17:59.000Z",
+                            "updated_at": "2022-06-27T23:17:59.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ae1f56b3-ef3d-4101-a106-f8f582019ef6.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43299,
+                                "alternative_id": 69
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 17,
+                "questionary_id": 267298,
+                "timer": 0
+            }
+        },
+        {
+            "id": 19,
+            "institution_id": 4,
+            "description": "Numere corretamente as colunas relacionando a morfologia eritrocitária à anemia hemolítica que a produz: \n- 1 - Esferócitos.                                       \n- 2 - Células em alvo.                                             \n- 3 - Esquizócitos.                                    \n- 4 - Corpos de Heinz.                              \n- (  ) Deficiência de glicose-6-fosfato desidrogenase.\n- (  ) Anemia hemolítica autoimune. \n- (  ) Talassemias.      \n- (  ) Anemia microangiopática. ",
+            "difficulty": "medium",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T14:27:45.000Z",
+            "updated_at": "2022-06-27T23:27:02.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 19
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 19
+                    }
+                },
+                {
+                    "id": 5,
+                    "title": "Anemias(introdução)",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:39:52.000Z",
+                    "updated_at": "2020-05-16T23:39:52.000Z",
+                    "pivot": {
+                        "discipline_id": 5,
+                        "question_id": 19
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 74,
+                    "question_id": 19,
+                    "description": "1 - 3 - 4 - 2.",
+                    "explanation": "- Errado, Doc! 😣\n- A ordem correta é 4 - 1 - 2 - 3.\n- **4 →** Os corpos de Heinz são encontrados na deficiência de glicose-6-fosfato desidrogenase, pois são proteínas desnaturadas que precipitam para a membrana celular da hemácia.\n- **1 →** Os esferócitos são encontrados na anemia hemolítica autoimune. A hemácia marcada por um anticorpo sofre pequenas lesões ao passar pela circulação esplênica. Na medida em que a hemácia tenta se reformular, acaba tomando formas diferentes, como a esférica.\n- **2 →** Células em alvo estão relacionadas às talassemias.\n- **3 →** Os esquizócitos têm formas \"estranhas\", são hemácias que sofreram danos na circulação periférica. Geralmente, acontecem quando temos endotélio de capilar lesionado, como em uma anemia microangiopática.\n- Fonte da imagem: https://ibapcursos.com.br/hemacias-eritrocitos-conheca-suas-principais-funcoes-e-alteracoes/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:27:45.000Z",
+                    "updated_at": "2022-06-27T23:27:02.000Z",
+                    "files": [
+                        {
+                            "id": 43301,
+                            "file": "5dfe8b97-8e3c-4859-91f9-9b54af607d2c.jpeg",
+                            "name": "hemácias-eritrócitos-alterações-morfológicas-poiquilocitose-ovalócitos-estomatócitos-esferócitos-drepanócitos-hemácias-em-foco-dacriocitos.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T23:25:33.000Z",
+                            "updated_at": "2022-06-27T23:25:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/5dfe8b97-8e3c-4859-91f9-9b54af607d2c.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43301,
+                                "alternative_id": 74
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 75,
+                    "question_id": 19,
+                    "description": "2 - 4 - 3 - 1.",
+                    "explanation": "- Errado, Doc! 😣\n- A ordem correta é 4 - 1 - 2 - 3.\n- **4 →** Os corpos de Heinz são encontrados na deficiência de glicose-6-fosfato desidrogenase, pois são proteínas desnaturadas que precipitam para a membrana celular da hemácia.\n- **1 →** Os esferócitos são encontrados na anemia hemolítica autoimune. A hemácia marcada por um anticorpo sofre pequenas lesões ao passar pela circulação esplênica. Na medida em que a hemácia tenta se reformular, acaba tomando formas diferentes, como a esférica.\n- **2 →** Células em alvo estão relacionadas às talassemias.\n- **3 →** Os esquizócitos têm formas \"estranhas\", são hemácias que sofreram danos na circulação periférica. Geralmente, acontecem quando temos endotélio de capilar lesionado, como em uma anemia microangiopática.\n- Fonte da imagem: https://ibapcursos.com.br/hemacias-eritrocitos-conheca-suas-principais-funcoes-e-alteracoes/",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:27:45.000Z",
+                    "updated_at": "2022-06-27T23:27:02.000Z",
+                    "files": [
+                        {
+                            "id": 43301,
+                            "file": "5dfe8b97-8e3c-4859-91f9-9b54af607d2c.jpeg",
+                            "name": "hemácias-eritrócitos-alterações-morfológicas-poiquilocitose-ovalócitos-estomatócitos-esferócitos-drepanócitos-hemácias-em-foco-dacriocitos.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T23:25:33.000Z",
+                            "updated_at": "2022-06-27T23:25:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/5dfe8b97-8e3c-4859-91f9-9b54af607d2c.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43301,
+                                "alternative_id": 75
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 76,
+                    "question_id": 19,
+                    "description": "4 - 1 - 2 - 3.",
+                    "explanation": "- Acertou! Perfeito, Doc! 😎\n- **4 →** Os corpos de Heinz são encontrados na deficiência de glicose-6-fosfato desidrogenase, pois são proteínas desnaturadas que precipitam para a membrana celular da hemácia.\n- **1 →** Os esferócitos são encontrados na anemia hemolítica autoimune. A hemácia marcada por um anticorpo sofre pequenas lesões ao passar pela circulação esplênica. Na medida em que a hemácia tenta se reformular, acaba tomando formas diferentes, como a esférica.\n- **2 →** Células em alvo estão relacionadas às talassemias.\n- **3 →** Os esquizócitos têm formas \"estranhas\", são hemácias que sofreram danos na circulação periférica. Geralmente, acontecem quando temos endotélio de capilar lesionado, como em uma anemia microangiopática.\n- Fonte da imagem: https://ibapcursos.com.br/hemacias-eritrocitos-conheca-suas-principais-funcoes-e-alteracoes/",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-17T14:27:45.000Z",
+                    "updated_at": "2022-06-27T23:27:02.000Z",
+                    "files": [
+                        {
+                            "id": 43301,
+                            "file": "5dfe8b97-8e3c-4859-91f9-9b54af607d2c.jpeg",
+                            "name": "hemácias-eritrócitos-alterações-morfológicas-poiquilocitose-ovalócitos-estomatócitos-esferócitos-drepanócitos-hemácias-em-foco-dacriocitos.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T23:25:33.000Z",
+                            "updated_at": "2022-06-27T23:25:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/5dfe8b97-8e3c-4859-91f9-9b54af607d2c.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43301,
+                                "alternative_id": 76
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 77,
+                    "question_id": 19,
+                    "description": "3 - 2 - 1 - 4.",
+                    "explanation": "- Errado, Doc! 😣\n- A ordem correta é 4 - 1 - 2 - 3.\n- **4 →** Os corpos de Heinz são encontrados na deficiência de glicose-6-fosfato desidrogenase, pois são proteínas desnaturadas que precipitam para a membrana celular da hemácia.\n- **1 →** Os esferócitos são encontrados na anemia hemolítica autoimune. A hemácia marcada por um anticorpo sofre pequenas lesões ao passar pela circulação esplênica. Na medida em que a hemácia tenta se reformular, acaba tomando formas diferentes, como a esférica.\n- **2 →** Células em alvo estão relacionadas às talassemias.\n- **3 →** Os esquizócitos têm formas \"estranhas\", são hemácias que sofreram danos na circulação periférica. Geralmente, acontecem quando temos endotélio de capilar lesionado, como em uma anemia microangiopática.\n- Fonte da imagem: https://ibapcursos.com.br/hemacias-eritrocitos-conheca-suas-principais-funcoes-e-alteracoes/",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:27:45.000Z",
+                    "updated_at": "2022-06-27T23:27:02.000Z",
+                    "files": [
+                        {
+                            "id": 43301,
+                            "file": "5dfe8b97-8e3c-4859-91f9-9b54af607d2c.jpeg",
+                            "name": "hemácias-eritrócitos-alterações-morfológicas-poiquilocitose-ovalócitos-estomatócitos-esferócitos-drepanócitos-hemácias-em-foco-dacriocitos.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T23:25:33.000Z",
+                            "updated_at": "2022-06-27T23:25:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/5dfe8b97-8e3c-4859-91f9-9b54af607d2c.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43301,
+                                "alternative_id": 77
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 19,
+                "questionary_id": 267298,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8,
+            "institution_id": 4,
+            "description": "Qual é a fórmula de correção da contagem de reticulócitos e qual é a sua função? ",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T00:48:59.000Z",
+            "updated_at": "2022-06-25T20:03:59.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 8
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 8
+                    }
+                },
+                {
+                    "id": 5,
+                    "title": "Anemias(introdução)",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:39:52.000Z",
+                    "updated_at": "2020-05-16T23:39:52.000Z",
+                    "pivot": {
+                        "discipline_id": 5,
+                        "question_id": 8
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 27,
+                    "question_id": 8,
+                    "description": "Ht/40 X % de reticulócitos ou Hb/15 X % de reticulócitos. Ajuda na diferenciação entre as anemias hiperproliferativas e hipoproliferativas.",
+                    "explanation": "- Perfeito, Doc! Acertou! 😍\n- A fórmula de correção da contagem de reticulócitos é um dado muito útil para diferenciar as anemias hipoproliferativas e as hiperproliferativas, já que, algumas vezes, os dados podem estar superestimados.\n- Vamos imaginar 1 reticulócito para cada 100 hemácias, ou seja 1%.\n- Agora vamos imaginar que perdemos 50 hemácias por um sangramento, porém não perdemos o nosso reticulócito.\n- Ao todo, ainda temos 1 reticulócito, mas no cálculo final ele foi para 2%, ou seja, dobrou.\n- Por isso, usamos o cálculo para corrigir esse erro.\n- Fonte da imagem: https://labpratica.com.br/2019/04/17/interpretacao-clinica-e-valor-diagnostico-dos-reticulocitos/",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-17T00:48:59.000Z",
+                    "updated_at": "2022-06-25T20:03:59.000Z",
+                    "files": [
+                        {
+                            "id": 43120,
+                            "file": "916ab6c0-e831-4c4b-a6a5-59d5d34fbb98.png",
+                            "name": "Captura de Tela 2022-06-25 às 16.59.56.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-25T20:00:35.000Z",
+                            "updated_at": "2022-06-25T20:00:35.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/916ab6c0-e831-4c4b-a6a5-59d5d34fbb98.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43120,
+                                "alternative_id": 27
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 28,
+                    "question_id": 8,
+                    "description": "Ht/40 X % de reticulócitos ou Hb/15 X % de reticulócitos. Ajuda na diferenciação entre as anemias ferropriva e por deficiência de vitamina B12.",
+                    "explanation": "- Falso, Doc! 🤔\n- A fórmula de correção da contagem de reticulócitos é um dado muito útil para diferenciar as anemias hipoproliferativas e as hiperproliferativas, já que, algumas vezes, os dados podem estar superestimados.\n- Vamos imaginar 1 reticulócito para cada 100 hemácias, ou seja 1%.\n- Agora vamos imaginar que perdemos 50 hemácias por um sangramento, porém não perdemos o nosso reticulócito.\n- Ao todo, ainda temos 1 reticulócito, mas no cálculo final ele foi para 2%, ou seja, dobrou.\n- Por isso, usamos o cálculo para corrigir esse erro.\n- Tanto a anemia ferropriva quanto a por deficiência de B12 são carenciais, ou seja, hipoproliferativas. \n- Fonte da imagem: https://labpratica.com.br/2019/04/17/interpretacao-clinica-e-valor-diagnostico-dos-reticulocitos/ ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-16T21:48:59.000Z",
+                    "updated_at": "2022-06-25T20:03:59.000Z",
+                    "files": [
+                        {
+                            "id": 43120,
+                            "file": "916ab6c0-e831-4c4b-a6a5-59d5d34fbb98.png",
+                            "name": "Captura de Tela 2022-06-25 às 16.59.56.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-25T20:00:35.000Z",
+                            "updated_at": "2022-06-25T20:00:35.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/916ab6c0-e831-4c4b-a6a5-59d5d34fbb98.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43120,
+                                "alternative_id": 28
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 29,
+                    "question_id": 8,
+                    "description": "Ht/30 X % de reticulócitos ou Hb/10 X % de reticulócitos. Ajuda na diferenciação entre as anemias de doença crônica e ferropriva.",
+                    "explanation": "-  Falso, Doc! 🤔\n- A fórmula de correção da contagem de reticulócitos é um dado muito útil para diferenciar as anemias hipoproliferativas e as hiperproliferativas, já que, algumas vezes, os dados podem estar superestimados.\n- Vamos imaginar 1 reticulócito para cada 100 hemácias, ou seja 1%.\n- Agora vamos imaginar que perdemos 50 hemácias por um sangramento, porém não perdemos o nosso reticulócito.\n- Ao todo, ainda temos 1 reticulócito, mas no cálculo final ele foi para 2%, ou seja, dobrou.\n- Por isso, usamos o cálculo para corrigir esse erro.\n- As anemias por doença crônica e ferropriva são classicamente hipoproliferativas.\n- Fonte da imagem: https://labpratica.com.br/2019/04/17/interpretacao-clinica-e-valor-diagnostico-dos-reticulocitos/",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T00:48:59.000Z",
+                    "updated_at": "2022-06-25T20:03:59.000Z",
+                    "files": [
+                        {
+                            "id": 43120,
+                            "file": "916ab6c0-e831-4c4b-a6a5-59d5d34fbb98.png",
+                            "name": "Captura de Tela 2022-06-25 às 16.59.56.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-25T20:00:35.000Z",
+                            "updated_at": "2022-06-25T20:00:35.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/916ab6c0-e831-4c4b-a6a5-59d5d34fbb98.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43120,
+                                "alternative_id": 29
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 30,
+                    "question_id": 8,
+                    "description": "Ht/30 X % de reticulócitos ou Hb/10 X % de reticulócitos. Ajuda na diferenciação entre as anemias por sangramento agudo e por hemólise.",
+                    "explanation": "- Falso, Doc! 🤔\n- A fórmula de correção da contagem de reticulócitos é um dado muito útil para diferenciar as anemias hipoproliferativas e as hiperproliferativas, já que, algumas vezes, os dados podem estar superestimados.\n- Vamos imaginar 1 reticulócito para cada 100 hemácias, ou seja 1%.\n- Agora vamos imaginar que perdemos 50 hemácias por um sangramento, porém não perdemos o nosso reticulócito.\n- Ao todo, ainda temos 1 reticulócito, mas no cálculo final ele foi para 2%, ou seja, dobrou.\n- Por isso, usamos o cálculo para corrigir esse erro.\n- As anemias de sangramento agudo e por hemólise são classicamente hiperproliferativas.\n- Fonte da imagem: https://labpratica.com.br/2019/04/17/interpretacao-clinica-e-valor-diagnostico-dos-reticulocitos/",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-17T00:48:59.000Z",
+                    "updated_at": "2022-06-25T20:03:59.000Z",
+                    "files": [
+                        {
+                            "id": 43120,
+                            "file": "916ab6c0-e831-4c4b-a6a5-59d5d34fbb98.png",
+                            "name": "Captura de Tela 2022-06-25 às 16.59.56.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-06-25T20:00:35.000Z",
+                            "updated_at": "2022-06-25T20:00:35.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/916ab6c0-e831-4c4b-a6a5-59d5d34fbb98.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43120,
+                                "alternative_id": 30
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8,
+                "questionary_id": 267298,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13,
+            "institution_id": 5,
+            "description": "Paciente de sete anos consulta por emagrecimento, cansaço, inapetência e dores abdominais. Tem histórico de crises convulsivas e, há 3 anos, faz uso de valproato de sódio e difenil-hidantoína. Os exames complementares mostram hemoglobina de 9 g/dL, leucócitos de 7.500/mm3, eosinófilos de 2%, linfócitos de 30% e plaquetas de 155.000/mm3. O VCM está acima de 120 fL (VCM normal: 80 - 100 fL). O diagnóstico mais provável é anemia?\n- *(questão adaptada)*",
+            "difficulty": "hard",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T16:59:53.000Z",
+            "updated_at": "2022-06-27T14:28:27.000Z",
+            "user_id": 108,
+            "is_residency": true,
+            "institution": {
+                "id": 5,
+                "title": "AMRIGS",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T13:59:53.000Z",
+                "updated_at": "2020-05-17T13:59:53.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 13
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 13
+                    }
+                },
+                {
+                    "id": 5,
+                    "title": "Anemias(introdução)",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:39:52.000Z",
+                    "updated_at": "2020-05-16T23:39:52.000Z",
+                    "pivot": {
+                        "discipline_id": 5,
+                        "question_id": 13
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 49,
+                    "question_id": 13,
+                    "description": "Falciforme.",
+                    "explanation": "- Errado! 🙈\n- As anemias falciformes geralmente são normocíticas ou microcíticas. É uma anemia que possui como característica a presença de drepanócitos ou de hemácias em foice. Alguns dados, como o histórico familiar, podem ajudar no diagnóstico diferencial.\n- O cerne da questão está em identificar uma anemia com VCM aumentado, o qual a classifica como anemia macrocítica, podendo ser megaloblástica.\n- Entre as anemias macrocíticas, as principais são por deficiência de vitamina B12 e de folato. \n- Anticonvulsivantes como a fenitoína, o valproato e a carbamazepina podem afetar a absorção dos folatos, causando anemia megaloblástica.\n- Fonte da imagem: https://www.medicinanet.com.br/conteudos/revisoes/5645/anemias.htm",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-17T16:59:53.000Z",
+                    "updated_at": "2022-06-27T14:28:27.000Z",
+                    "files": [
+                        {
+                            "id": 43280,
+                            "file": "8c9fe82a-d9a5-4612-b3a6-2e4bf5906596.jpeg",
+                            "name": "20131205152938.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T14:25:31.000Z",
+                            "updated_at": "2022-06-27T14:25:31.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8c9fe82a-d9a5-4612-b3a6-2e4bf5906596.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43280,
+                                "alternative_id": 49
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 50,
+                    "question_id": 13,
+                    "description": "Megaloblástica.",
+                    "explanation": "- Perfeito! Arrasou, Doc! 🎉\n- O cerne da questão está em identificar uma anemia com VCM aumentado, o qual a classifica como anemia macrocítica, podendo ser megaloblástica.\n- Entre as anemias macrocíticas, as principais são por deficiência de vitamina B12 e de folato. \n- Anticonvulsivantes como a fenitoína, o valproato e a carbamazepina podem afetar a absorção dos folatos, causando anemia megaloblástica.\n- Fonte da imagem: https://www.medicinanet.com.br/conteudos/revisoes/5645/anemias.htm",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-17T16:59:53.000Z",
+                    "updated_at": "2022-06-27T14:28:27.000Z",
+                    "files": [
+                        {
+                            "id": 43280,
+                            "file": "8c9fe82a-d9a5-4612-b3a6-2e4bf5906596.jpeg",
+                            "name": "20131205152938.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T14:25:31.000Z",
+                            "updated_at": "2022-06-27T14:25:31.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8c9fe82a-d9a5-4612-b3a6-2e4bf5906596.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43280,
+                                "alternative_id": 50
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 51,
+                    "question_id": 13,
+                    "description": "Sideroblástica.",
+                    "explanation": "- Errado! 🙈\n- A anemia sideroblástica é uma condição em que o ferro não é adequadamente utilizado para a produção das hemácias, sendo classicamente uma das anemias microcíticas.\n- O cerne da questão está em identificar uma anemia com VCM aumentado, o qual a classifica como anemia macrocítica, podendo ser megaloblástica.\n- Entre as anemias macrocíticas, as principais são por deficiência de vitamina B12 e de folato. \n- Anticonvulsivantes como a fenitoína, o valproato e a carbamazepina podem afetar a absorção dos folatos, causando anemia megaloblástica.\n- Fonte da imagem: https://www.medicinanet.com.br/conteudos/revisoes/5645/anemias.htm",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T16:59:53.000Z",
+                    "updated_at": "2022-06-27T14:28:27.000Z",
+                    "files": [
+                        {
+                            "id": 43280,
+                            "file": "8c9fe82a-d9a5-4612-b3a6-2e4bf5906596.jpeg",
+                            "name": "20131205152938.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T14:25:31.000Z",
+                            "updated_at": "2022-06-27T14:25:31.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8c9fe82a-d9a5-4612-b3a6-2e4bf5906596.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43280,
+                                "alternative_id": 51
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 52,
+                    "question_id": 13,
+                    "description": "Ferropriva.",
+                    "explanation": "- Errado! 🙈\n- Na anemia por deficiência de ferro, o achado mais comum é uma anemia microcítica e hipocrômica. \n- O cerne da questão está em identificar uma anemia com VCM aumentado, o qual a classifica como anemia macrocítica, podendo ser megaloblástica.\n- Entre as anemias macrocíticas, as principais são por deficiência de vitamina B12 e de folato. \n- Anticonvulsivantes como a fenitoína, o valproato e a carbamazepina podem afetar a absorção dos folatos, causando anemia megaloblástica.\n- Fonte da imagem: https://www.medicinanet.com.br/conteudos/revisoes/5645/anemias.htm",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-17T16:59:53.000Z",
+                    "updated_at": "2022-06-27T14:28:27.000Z",
+                    "files": [
+                        {
+                            "id": 43280,
+                            "file": "8c9fe82a-d9a5-4612-b3a6-2e4bf5906596.jpeg",
+                            "name": "20131205152938.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T14:25:31.000Z",
+                            "updated_at": "2022-06-27T14:25:31.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8c9fe82a-d9a5-4612-b3a6-2e4bf5906596.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43280,
+                                "alternative_id": 52
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13,
+                "questionary_id": 267298,
+                "timer": 0
+            }
+        },
+        {
+            "id": 14,
+            "institution_id": 6,
+            "description": "Mulher negra de 26 anos procura atendimento com queixa de fraqueza e desânimo há algumas semanas, com piora progressiva. Relata febre e emagrecimento. O exame físico mostra mucosas descoradas +2/+4, sem outras alterações. Exames laboratoriais revelam hemoglobina = 7,8 g/dL, hematócrito = 22%, VCM = 77 fL, CHCM = 25 pg, leucócitos = 10.500/mm³, plaquetas = 550.000/mm³, reticulócitos = 3,0%, ferro sérico = 30 µg/dL (normal de 35 a 150 µg/dL) e capacidade de ligação do ferro = 200 µg/dL (normal de 220 a 420 µg/dL). A classificação e a causa da anemia microcítica, respectivamente, são:\n- *(questão adaptada)*",
+            "difficulty": "hard",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T17:06:12.000Z",
+            "updated_at": "2022-06-27T14:18:34.000Z",
+            "user_id": 108,
+            "is_residency": true,
+            "institution": {
+                "id": 6,
+                "title": "UERJ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T14:06:12.000Z",
+                "updated_at": "2020-05-17T14:06:12.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 14
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 14
+                    }
+                },
+                {
+                    "id": 5,
+                    "title": "Anemias(introdução)",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:39:52.000Z",
+                    "updated_at": "2020-05-16T23:39:52.000Z",
+                    "pivot": {
+                        "discipline_id": 5,
+                        "question_id": 14
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 53,
+                    "question_id": 14,
+                    "description": "Normocrômica/Anemia falciforme.",
+                    "explanation": "- Errado, Doc! 😜\n- A epidemiologia da mulher negra falaria a favor de uma anemia falciforme. Todavia, a anemia falciforme não é microcítica em grande parte dos casos. Além disso, achados como os drepanócitos não são citados no texto.\n- Entretanto, não se engane por esse valor de reticulócitos de 3%! Na correção, teremos que o índice reticulocitário é < 2, ou seja, estamos diante de uma anemia **hipoproliferativa**.\n- A partir disso, percebemos que, além dos sintomas sistêmicos, como febre, fraqueza e desânimo, temos uma capacidade de ligação ao ferro (TIBIC) baixa, o que nos indica uma certa inibição a essa proteína, o contrário ao visto na anemia ferropriva, em que teríamos aumento.\n- Considerando-se esses fatores, nossa principal hipótese será anemia por doença crônica de base.\n- Fonte da imagem: https://www.scielo.br/j/rbhh/a/7D3gPvKffhJXmhGkcKPHGxP/?lang=pt",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:06:12.000Z",
+                    "updated_at": "2022-06-27T14:18:34.000Z",
+                    "files": [
+                        {
+                            "id": 43279,
+                            "file": "92151073-2070-4bb2-90d9-720c25581b30.gif",
+                            "name": "d267bb87c584480bdaa5b30007bea57aa15d2c93.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-06-27T14:14:34.000Z",
+                            "updated_at": "2022-06-27T14:14:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/92151073-2070-4bb2-90d9-720c25581b30.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43279,
+                                "alternative_id": 53
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 54,
+                    "question_id": 14,
+                    "description": "Hipocrômica/Anemia de doença crônica.",
+                    "explanation": "- Perfeito, Doc! Acertou! 🤓\n- Não se engane por esse valor de reticulócitos de 3%! Na correção, teremos que o índice reticulocitário é < 2, ou seja, estamos diante de uma anemia **hipoproliferativa**.\n- A partir disso, percebemos que, além dos sintomas sistêmicos, como febre, fraqueza e desânimo, temos uma capacidade de ligação ao ferro (TIBIC) baixa, o que nos indica uma certa inibição a essa proteína, o contrário ao visto na anemia ferropriva, em que teríamos aumento.\n- Considerando-se esses fatores, nossa principal hipótese será anemia por doença crônica de base.\n- Fonte da imagem: https://www.scielo.br/j/rbhh/a/7D3gPvKffhJXmhGkcKPHGxP/?lang=pt",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-17T17:06:12.000Z",
+                    "updated_at": "2022-06-27T14:18:34.000Z",
+                    "files": [
+                        {
+                            "id": 43279,
+                            "file": "92151073-2070-4bb2-90d9-720c25581b30.gif",
+                            "name": "d267bb87c584480bdaa5b30007bea57aa15d2c93.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-06-27T14:14:34.000Z",
+                            "updated_at": "2022-06-27T14:14:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/92151073-2070-4bb2-90d9-720c25581b30.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43279,
+                                "alternative_id": 54
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 55,
+                    "question_id": 14,
+                    "description": "Hipocrômica/Anemia por deficiência de ferro.",
+                    "explanation": "- Errado, Doc! 😜\n- As características clássicas da anemia por deficiência de ferro são a microcitose e a hipocromia.\n- A cinética do ferro pode ser pedida para realizar o diagnóstico, sendo a ferritina a proteína mais sensível para realização do diagnóstico.\n- Entretanto, não se engane por esse valor de reticulócitos de 3%! Na correção, teremos que o índice reticulocitário é < 2, ou seja, estamos diante de uma anemia **hipoproliferativa**.\n- A partir disso, percebemos que, além dos sintomas sistêmicos, como febre, fraqueza e desânimo, temos uma capacidade de ligação ao ferro (TIBIC) baixa, o que nos indica uma certa inibição a essa proteína, o contrário ao visto na anemia ferropriva, em que teríamos aumento.\n- Considerando-se esses fatores, nossa principal hipótese será anemia por doença crônica de base.\n- Fonte da imagem: https://www.scielo.br/j/rbhh/a/7D3gPvKffhJXmhGkcKPHGxP/?lang=pt",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:06:12.000Z",
+                    "updated_at": "2022-06-27T14:18:34.000Z",
+                    "files": [
+                        {
+                            "id": 43279,
+                            "file": "92151073-2070-4bb2-90d9-720c25581b30.gif",
+                            "name": "d267bb87c584480bdaa5b30007bea57aa15d2c93.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-06-27T14:14:34.000Z",
+                            "updated_at": "2022-06-27T14:14:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/92151073-2070-4bb2-90d9-720c25581b30.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43279,
+                                "alternative_id": 55
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 56,
+                    "question_id": 14,
+                    "description": "Normocrômica/Anemia por deficiência de eritropoietina.",
+                    "explanation": "- Errado, Doc! 😜\n- A anemia por deficiência de EPO acontece geralmente em pacientes com insuficiência renal, afetando praticamente todas as linhagens hematológicas. É comum visualizarmos anemia e plaquetopenia nesses casos, o que não é compatível com o caso.\n- Entretanto, Doc, não se engane por esse valor de reticulócitos de 3%! Na correção, teremos que o índice reticulocitário é < 2, ou seja, estamos diante de uma anemia **hipoproliferativa**.\n- A partir disso, percebemos que, além dos sintomas sistêmicos, como febre, fraqueza e desânimo, temos uma capacidade de ligação ao ferro (TIBIC) baixa, o que nos indica uma certa inibição a essa proteína, o contrário ao visto na anemia ferropriva, em que teríamos aumento.\n- Considerando-se esses fatores, nossa principal hipótese será anemia por doença crônica de base.\n- Fonte da imagem: https://www.scielo.br/j/rbhh/a/7D3gPvKffhJXmhGkcKPHGxP/?lang=pt",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:06:12.000Z",
+                    "updated_at": "2022-06-27T14:18:34.000Z",
+                    "files": [
+                        {
+                            "id": 43279,
+                            "file": "92151073-2070-4bb2-90d9-720c25581b30.gif",
+                            "name": "d267bb87c584480bdaa5b30007bea57aa15d2c93.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-06-27T14:14:34.000Z",
+                            "updated_at": "2022-06-27T14:14:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/92151073-2070-4bb2-90d9-720c25581b30.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43279,
+                                "alternative_id": 56
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 14,
+                "questionary_id": 267298,
+                "timer": 0
+            }
+        },
+        {
+            "id": 16,
+            "institution_id": 8,
+            "description": "Izabel, 50 anos, com histórico prévio de cirurgia bariátrica (restritiva-disabsortiva) há 10 anos, sem seguimento regular. Encaminhada ao Pronto-Socorro do Hospital Cajuru por anemia, com Hb de 6,5 g por dL e volume corpuscular médio de 120 fL. Além disso, apresentava diminuição da série branca (2500 leucócitos por mm3) e das plaquetas (45.000 por mm3 ). Sorologias realizadas na admissão, incluindo pesquisa de HIV, negativas. Quadro recente relatado pelos familiares de piora cognitiva progressiva e desequilíbrio. Recebeu diagnóstico de Demência de Alzheimer há cerca de duas semanas, após avaliação em Unidade de Emergência, tendo iniciado Memantina, com pouca resposta. Das deficiências a seguir, a que melhor explica as alterações clínicas encontradas nessa paciente é a deficiência de?\n- *(questão adaptada)*",
+            "difficulty": "hard",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-17T17:14:54.000Z",
+            "updated_at": "2022-06-27T23:36:19.000Z",
+            "user_id": 108,
+            "is_residency": true,
+            "institution": {
+                "id": 8,
+                "title": "PUC-PR",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T14:14:54.000Z",
+                "updated_at": "2020-05-17T14:14:54.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 16
+                    }
+                },
+                {
+                    "id": 5,
+                    "title": "Anemias(introdução)",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:39:52.000Z",
+                    "updated_at": "2020-05-16T23:39:52.000Z",
+                    "pivot": {
+                        "discipline_id": 5,
+                        "question_id": 16
+                    }
+                },
+                {
+                    "id": 4,
+                    "title": "Hematologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:40.000Z",
+                    "updated_at": "2020-05-16T23:37:40.000Z",
+                    "pivot": {
+                        "discipline_id": 4,
+                        "question_id": 16
+                    }
+                },
+                {
+                    "id": 1172,
+                    "title": "Cirurgia Bariátrica",
+                    "description": null,
+                    "parent_id": 146,
+                    "is_enabled": true,
+                    "created_at": "2022-04-19T14:27:41.000Z",
+                    "updated_at": "2022-04-19T14:27:41.000Z",
+                    "pivot": {
+                        "discipline_id": 1172,
+                        "question_id": 16
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 61,
+                    "question_id": 16,
+                    "description": "Ferro.",
+                    "explanation": "- Falso, Doc! 🙈\n- A anemia causada por deficiência de ferro, classicamente, cursa com hemácias microcíticas.\n- A questão nos mostra uma anemia com volume corpuscular médio alto, > que 100 fL, o que indica uma anemia macrocítica.\n- O diagnóstico de deficiência de vitamina B12 é altamente sugerido pelo histórico de cirurgia bariátrica, já que o fator intrínseco, necessário para a absorção da vitamina, é produzido pelas células parietais, que estão localizadas no estômago.\n- Além disso, sinais de alteração no funcionamento do sistema nervoso também são indicativos de deficiência de vitamina B12.\n- Fonte da imagem: http://laboratorioviotti.com.br/portfolio-item/vitamina-b12/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-17T17:14:54.000Z",
+                    "updated_at": "2022-06-27T23:36:19.000Z",
+                    "files": [
+                        {
+                            "id": 43278,
+                            "file": "da7b6a54-c5eb-4894-b232-69dbe8263145.jpeg",
+                            "name": "b12.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T14:03:50.000Z",
+                            "updated_at": "2022-06-27T14:03:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/da7b6a54-c5eb-4894-b232-69dbe8263145.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43278,
+                                "alternative_id": 61
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 62,
+                    "question_id": 16,
+                    "description": "Zinco.",
+                    "explanation": "- Falso, Doc! 🙈\n- O zinco é importante para o turn-over celular de células epiteliais. Todavia, não apresenta grande relevância para o raciocínio das anemias.\n- A questão nos mostra uma anemia com volume corpuscular médio alto, > que 100 fL, o que indica uma anemia macrocítica.\n- O diagnóstico de deficiência de vitamina B12 é altamente sugerido pelo histórico de cirurgia bariátrica, já que o fator intrínseco, necessário para a absorção da vitamina, é produzido pelas células parietais, que estão localizadas no estômago.\n- Além disso, sinais de alteração no funcionamento do sistema nervoso também são indicativos de deficiência de vitamina B12.\n- Fonte da imagem: http://laboratorioviotti.com.br/portfolio-item/vitamina-b12/",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-17T17:14:54.000Z",
+                    "updated_at": "2022-06-27T23:36:19.000Z",
+                    "files": [
+                        {
+                            "id": 43278,
+                            "file": "da7b6a54-c5eb-4894-b232-69dbe8263145.jpeg",
+                            "name": "b12.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T14:03:50.000Z",
+                            "updated_at": "2022-06-27T14:03:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/da7b6a54-c5eb-4894-b232-69dbe8263145.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43278,
+                                "alternative_id": 62
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 64,
+                    "question_id": 16,
+                    "description": "Vitamina D.",
+                    "explanation": "- Falso, Doc! 🙈\n- A vitamina D participa de processos enzimáticos intracelulares e na homeostase sérica de cálcio. Todavia, não apresenta grande relevância para o raciocínio das anemias.\n- A questão nos mostra uma anemia com volume corpuscular médio alto, > que 100 fL, o que indica uma anemia macrocítica.\n- O diagnóstico de deficiência de vitamina B12 é altamente sugerido pelo histórico de cirurgia bariátrica, já que o fator intrínseco, necessário para a absorção da vitamina, é produzido pelas células parietais, que estão localizadas no estômago.\n- Além disso, sinais de alteração no funcionamento do sistema nervoso também são indicativos de deficiência de vitamina B12.\n- Fonte da imagem: http://laboratorioviotti.com.br/portfolio-item/vitamina-b12/",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-17T14:14:54.000Z",
+                    "updated_at": "2022-06-27T23:36:19.000Z",
+                    "files": [
+                        {
+                            "id": 43278,
+                            "file": "da7b6a54-c5eb-4894-b232-69dbe8263145.jpeg",
+                            "name": "b12.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T14:03:50.000Z",
+                            "updated_at": "2022-06-27T14:03:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/da7b6a54-c5eb-4894-b232-69dbe8263145.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43278,
+                                "alternative_id": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 65,
+                    "question_id": 16,
+                    "description": "Vitamina B12.",
+                    "explanation": "- Perfeito, Doc! Arrasou! 😽\n- A questão nos mostra uma anemia com volume corpuscular médio alto, > que 100 fL, o que indica uma anemia macrocítica.\n- O diagnóstico de deficiência de vitamina B12 é altamente sugerido pelo histórico de cirurgia bariátrica, já que o fator intrínseco, necessário para a absorção da vitamina, é produzido pelas células parietais, que estão localizadas no estômago.\n- Além disso, sinais de alteração no funcionamento do sistema nervoso também são indicativos de deficiência de vitamina B12.\n- Fonte da imagem: [http://laboratorioviotti.com.br/portfolio-item/vitamina-b12/](http://laboratorioviotti.com.br/portfolio-item/vitamina-b12/)",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-17T14:14:54.000Z",
+                    "updated_at": "2022-06-27T23:36:19.000Z",
+                    "files": [
+                        {
+                            "id": 43278,
+                            "file": "da7b6a54-c5eb-4894-b232-69dbe8263145.jpeg",
+                            "name": "b12.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-06-27T14:03:50.000Z",
+                            "updated_at": "2022-06-27T14:03:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/da7b6a54-c5eb-4894-b232-69dbe8263145.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 43278,
+                                "alternative_id": 65
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 16,
+                "questionary_id": 267298,
+                "timer": 0
+            }
+        }
+    ]
+}

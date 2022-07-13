@@ -1,0 +1,961 @@
+{
+    "id": 268331,
+    "user_id": 1699,
+    "title": "Imunização Pediátrica",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-12T00:06:52.000Z",
+    "updated_at": "2022-07-12T00:06:52.000Z",
+    "study_plan_id": 1273,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 13960,
+            "institution_id": 4,
+            "description": "A vacina “**tríplice viral**” é contra quais doenças e qual idade ela deve ser aplicada?",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-06-04T14:53:29.000Z",
+            "updated_at": "2022-06-04T14:53:29.000Z",
+            "user_id": 7321,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 28,
+                    "title": "Pediatria",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-20T03:18:11.000Z",
+                    "updated_at": "2020-05-20T03:18:11.000Z",
+                    "pivot": {
+                        "discipline_id": 28,
+                        "question_id": 13960
+                    }
+                },
+                {
+                    "id": 1196,
+                    "title": "Imunização pediátrica",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-06-04T14:42:31.000Z",
+                    "updated_at": "2022-06-04T14:42:31.000Z",
+                    "pivot": {
+                        "discipline_id": 1196,
+                        "question_id": 13960
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 57202,
+                    "question_id": 13960,
+                    "description": " Sarampo, varicela e caxumba, 12 meses",
+                    "explanation": " Não foi dessa vez, doc 😫.  A varicela não corresponde à tríplice viral  ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-06-04T14:53:29.000Z",
+                    "updated_at": "2022-06-04T14:53:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57203,
+                    "question_id": 13960,
+                    "description": "Tétano, difteria e sarampo, 9 meses ",
+                    "explanation": "-  Errou, doc 😌  Tétano e difteria não fazem parte da vacina tríplice viral \n- O tempo aplicação da tríplice viral\nnão é aos 9 meses   ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-06-04T14:53:29.000Z",
+                    "updated_at": "2022-06-04T14:53:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57204,
+                    "question_id": 13960,
+                    "description": "Sarampo, rubéola e caxumba, 12 meses ",
+                    "explanation": " Acertou, boa!  ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2022-06-04T14:53:29.000Z",
+                    "updated_at": "2022-06-04T14:53:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57205,
+                    "question_id": 13960,
+                    "description": "Rubéola, caxumba e varíola, 15 meses ",
+                    "explanation": "Errou, que pena😌\n- Varíola não faz parte da aplicação da\ntríplice viral \n- O tempo de aplicação não é aos 15\nmeses  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-06-04T14:53:29.000Z",
+                    "updated_at": "2022-06-04T14:53:29.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13960,
+                "questionary_id": 268331,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13965,
+            "institution_id": 4,
+            "description": "Contra quais doenças a vacina pentavalente protege ?",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-06-04T16:26:42.000Z",
+            "updated_at": "2022-06-04T17:11:15.000Z",
+            "user_id": 7321,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1196,
+                    "title": "Imunização pediátrica",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-06-04T14:42:31.000Z",
+                    "updated_at": "2022-06-04T14:42:31.000Z",
+                    "pivot": {
+                        "discipline_id": 1196,
+                        "question_id": 13965
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 57222,
+                    "question_id": 13965,
+                    "description": "Coqueluche, meningite por Hib (haemophilus influenzae b), difteria, tétano e hepatite B",
+                    "explanation": " Boa, doc!🤗",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-06-04T16:26:42.000Z",
+                    "updated_at": "2022-06-04T17:11:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57223,
+                    "question_id": 13965,
+                    "description": "Varicela, sarampo, influenza, coqueluche e tétano ",
+                    "explanation": " Errou!😫\n-  Sarampo e varicela não fazem parte da pentavalente  ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-06-04T16:26:42.000Z",
+                    "updated_at": "2022-06-04T17:11:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57224,
+                    "question_id": 13965,
+                    "description": "Sarampo, rubéola, caxumba, coqueluche e tétano ",
+                    "explanation": "Não foi dessa vez! 😣\n- Sarampo, rubéola, caxumba e coqueluche não fazem parte da pentavalente ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-06-04T16:26:42.000Z",
+                    "updated_at": "2022-06-04T17:11:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57225,
+                    "question_id": 13965,
+                    "description": "Tétano, difteria, rotavírus, caxumba e coqueluche ",
+                    "explanation": " Errou!  \n- Caxumba e rotavírus não fazem parte da pentavelente  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-06-04T16:26:42.000Z",
+                    "updated_at": "2022-06-04T17:11:15.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13965,
+                "questionary_id": 268331,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13966,
+            "institution_id": 4,
+            "description": "Assinale a alternativa que corresponde à vacina que  não tem na rede pública? ",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-06-04T16:35:55.000Z",
+            "updated_at": "2022-06-04T17:10:57.000Z",
+            "user_id": 7321,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1196,
+                    "title": "Imunização pediátrica",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-06-04T14:42:31.000Z",
+                    "updated_at": "2022-06-04T14:42:31.000Z",
+                    "pivot": {
+                        "discipline_id": 1196,
+                        "question_id": 13966
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 57226,
+                    "question_id": 13966,
+                    "description": "Vacina contra Rotavírus",
+                    "explanation": "Errou!😫\nRotavírus tem na rede pública, obrigatória  aos 2 meses ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-06-04T16:35:55.000Z",
+                    "updated_at": "2022-06-04T17:10:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57227,
+                    "question_id": 13966,
+                    "description": "Vacina contra Hepatite A",
+                    "explanation": " Errou! 🤔\nHepatite A tem na rede pública, dose única nas UBS\nmenores de 5 anos  ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-06-04T16:35:55.000Z",
+                    "updated_at": "2022-06-04T17:10:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57228,
+                    "question_id": 13966,
+                    "description": "Vacina contra Meningocócica B",
+                    "explanation": "Acertou, muito bem! 😎\n- Na rede pública, infelizmente ainda não tem vacina contra Meningocócica B, mas todo profissional da saúde deve fazer orientação para a realização dessa vacina",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2022-06-04T16:35:55.000Z",
+                    "updated_at": "2022-06-04T17:10:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57229,
+                    "question_id": 13966,
+                    "description": "Vacina contra HPV",
+                    "explanation": " Não foi dessa vez!\n-  A vacina contra o HPV tem na rede pública\n- Meninas 9-14 anos\n- Meninos 11-14 anos ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-06-04T16:35:55.000Z",
+                    "updated_at": "2022-06-04T17:10:57.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13966,
+                "questionary_id": 268331,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13968,
+            "institution_id": 4,
+            "description": "Assinale a alternativa que corresponde às vacinas necessárias serem tomadas por via oral? ",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-06-04T16:52:47.000Z",
+            "updated_at": "2022-06-04T17:10:27.000Z",
+            "user_id": 7321,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1196,
+                    "title": "Imunização pediátrica",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-06-04T14:42:31.000Z",
+                    "updated_at": "2022-06-04T14:42:31.000Z",
+                    "pivot": {
+                        "discipline_id": 1196,
+                        "question_id": 13968
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 57234,
+                    "question_id": 13968,
+                    "description": "Tríplice viral e rotavírus",
+                    "explanation": " Errou!😫 Tríplice viral não é administrada por via oral  ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-06-04T16:52:47.000Z",
+                    "updated_at": "2022-06-04T17:10:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57235,
+                    "question_id": 13968,
+                    "description": "VOP e rotavírus",
+                    "explanation": " Mandou bem, doc!😎\n-  VOP(vacina oral póliomelite) e rotavírus\nsão tomadas por via oral  ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-06-04T16:52:47.000Z",
+                    "updated_at": "2022-06-04T17:10:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57236,
+                    "question_id": 13968,
+                    "description": "Hepatite A e pentavelente",
+                    "explanation": " Errou, doc. 🙈\n- Hepatite A e pentavalente são por via parenteral  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-06-04T16:52:47.000Z",
+                    "updated_at": "2022-06-04T17:10:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57237,
+                    "question_id": 13968,
+                    "description": "Meningocócica C e ACWY",
+                    "explanation": " Não foi dessa vez.😫\n- Meningo C e ACWY são aplicadas por via\nparenteral  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-06-04T16:52:47.000Z",
+                    "updated_at": "2022-06-04T17:10:27.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13968,
+                "questionary_id": 268331,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13961,
+            "institution_id": 4,
+            "description": "A poliomielite é uma doença contagiosa aguda causada pelo poliovírus, podendo causar a paralisia de crianças. Hoje, a doença é considerada erradicada devido à existência de vacinas. Sabendo disso, quais as formas existentes de administração dessa vacina e de que forma o vírus se encontra em cada via?  \n",
+            "difficulty": "medium",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-06-04T15:22:39.000Z",
+            "updated_at": "2022-06-04T15:22:39.000Z",
+            "user_id": 7321,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1196,
+                    "title": "Imunização pediátrica",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-06-04T14:42:31.000Z",
+                    "updated_at": "2022-06-04T14:42:31.000Z",
+                    "pivot": {
+                        "discipline_id": 1196,
+                        "question_id": 13961
+                    }
+                },
+                {
+                    "id": 28,
+                    "title": "Pediatria",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-20T03:18:11.000Z",
+                    "updated_at": "2020-05-20T03:18:11.000Z",
+                    "pivot": {
+                        "discipline_id": 28,
+                        "question_id": 13961
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 57206,
+                    "question_id": 13961,
+                    "description": "A vacina pode ser administrada na forma de via parenteral (vírus inativado) e via oral (vírus atenuado) ",
+                    "explanation": "Boa, doc! 😉\n \n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-06-04T15:22:39.000Z",
+                    "updated_at": "2022-06-04T15:22:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57207,
+                    "question_id": 13961,
+                    "description": "A vacina pode ser administrada na forma de via parenteral (vírus ativo) e via endovenosa (vírus atenuado) ",
+                    "explanation": " Não foi dessa vez!😌 \n-  Na via parenteral o vírus não está ativo \n- Não há uma via endovenosa  ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-06-04T15:22:39.000Z",
+                    "updated_at": "2022-06-04T15:22:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57208,
+                    "question_id": 13961,
+                    "description": "A vacina pode ser administrada na forma de via oral (vírus ativado) e via parenteral (vírus atenuado) ",
+                    "explanation": "Errou, doc 😫\n-  Na via oral o vírus não está ativado \n- Na via parenteral o vírus não está\natenuado  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-06-04T15:22:39.000Z",
+                    "updated_at": "2022-06-04T15:22:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57209,
+                    "question_id": 13961,
+                    "description": "A vacina pode ser administrada na forma de  via parenteral (vírus atenuado) e via oral (vírus inativado)",
+                    "explanation": " Errou, que pena! 🙈\n- O vírus na via parenteral não está\natenuado. \n- O vírus na via oral não está inativado.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-06-04T15:22:39.000Z",
+                    "updated_at": "2022-06-04T15:22:39.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13961,
+                "questionary_id": 268331,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13962,
+            "institution_id": 4,
+            "description": "Hoje sabe-se que o Papilomavírus Humano (HPV) pode ser encontrado tanto em homens quanto em mulheres. Entretanto, há vacinas disponíveis para ambos, ajudando a amenizar a prevalência dessa doença. Assim, responda qual idade é necessária para a vacinação e o intervalo entre as duas doses ",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-06-04T15:28:20.000Z",
+            "updated_at": "2022-06-04T15:29:28.000Z",
+            "user_id": 7321,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1196,
+                    "title": "Imunização pediátrica",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-06-04T14:42:31.000Z",
+                    "updated_at": "2022-06-04T14:42:31.000Z",
+                    "pivot": {
+                        "discipline_id": 1196,
+                        "question_id": 13962
+                    }
+                },
+                {
+                    "id": 28,
+                    "title": "Pediatria",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-20T03:18:11.000Z",
+                    "updated_at": "2020-05-20T03:18:11.000Z",
+                    "pivot": {
+                        "discipline_id": 28,
+                        "question_id": 13962
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 57210,
+                    "question_id": 13962,
+                    "description": "Meninas de 12-15 anos e meninos de 13-16. Intervalo de um ano entre as doses",
+                    "explanation": " Errou, doc! 😌\n- A idade de vacinação de\nmeninas não é de 12-15 anos  \n- A idade de vacinação de meninos não é\nde 13-16 anos. \n- Intervalo entre as doses não é de um\nano  ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-06-04T15:28:20.000Z",
+                    "updated_at": "2022-06-04T15:29:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57211,
+                    "question_id": 13962,
+                    "description": "Meninas de 9-14 anos e meninos de 11-14 anos. Com intervalo de seis meses entre as doses. ",
+                    "explanation": " Acertou, doc! 👏",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-06-04T15:28:20.000Z",
+                    "updated_at": "2022-06-04T15:29:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57212,
+                    "question_id": 13962,
+                    "description": "Meninas de 7-10 anos e meninos de 12-14 anos. Intervalo de 7 meses entre as doses",
+                    "explanation": " Puxa, não foi dessa vez! 😫\n- A vacinação de meninas não é de 7-10\nanos \n- A vacinação de meninos não é de 12-14\nanos. \n- O intervalo entre as doses não é de 7 meses",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-06-04T15:28:20.000Z",
+                    "updated_at": "2022-06-04T15:29:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57213,
+                    "question_id": 13962,
+                    "description": "Meninas de 5-10 anos e meninos de 8-10. Intervalo de 2 anos entre as doses",
+                    "explanation": " Errou! 🙈\n- A vacinação de meninas não\né de 5-10 anos  \n-  A vacinação de meninos não é de 8-10\nanos  \n-  O intervalo entre as doses não é\nde 2 anos  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-06-04T15:28:20.000Z",
+                    "updated_at": "2022-06-04T15:29:28.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13962,
+                "questionary_id": 268331,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13963,
+            "institution_id": 4,
+            "description": "M.C, 80 anos, viúva, oito filhos, evangélica, natural e residente de Florianópolis, chega à UBS reclamando de muita dor e inchaço na cabeça, conta  que começou após aparecer algumas feridas no rosto. Durante o exame físico você examina as feridas e o edema localizado e descobre se tratar provavelmente de Herpes-zóster. Qual a doença que a paciente necessariamente deve ter pego na sua infância para ter desenvolvido a Herpes-zóster?  ",
+            "difficulty": "medium",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-06-04T16:00:38.000Z",
+            "updated_at": "2022-06-04T17:11:36.000Z",
+            "user_id": 7321,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 28,
+                    "title": "Pediatria",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-20T03:18:11.000Z",
+                    "updated_at": "2020-05-20T03:18:11.000Z",
+                    "pivot": {
+                        "discipline_id": 28,
+                        "question_id": 13963
+                    }
+                },
+                {
+                    "id": 1196,
+                    "title": "Imunização pediátrica",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-06-04T14:42:31.000Z",
+                    "updated_at": "2022-06-04T14:42:31.000Z",
+                    "pivot": {
+                        "discipline_id": 1196,
+                        "question_id": 13963
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 57214,
+                    "question_id": 13963,
+                    "description": "Hepatite A ",
+                    "explanation": "Errou, doc!😌\n\n- Hepatite A  é causada pelo vírus VHA, sem\nrelação com a Herpes zoster  ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-06-04T16:00:38.000Z",
+                    "updated_at": "2022-06-04T17:11:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57215,
+                    "question_id": 13963,
+                    "description": "HHV-1  ",
+                    "explanation": "Não foi dessa vez, doc!😫\n-  HHV-1 é uma herpes simples, sem relação com a manifestação\nde Herpes zóster ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-06-04T16:00:38.000Z",
+                    "updated_at": "2022-06-04T17:11:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57216,
+                    "question_id": 13963,
+                    "description": "HHV-2 ",
+                    "explanation": "Errou!😫\nA HHV-2  é uma herpes simples, sem\nrelação com a manifestação de Herpes-zóster ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-06-04T16:00:38.000Z",
+                    "updated_at": "2022-06-04T17:11:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57217,
+                    "question_id": 13963,
+                    "description": "Varicela ",
+                    "explanation": "Acertou, doc! 👏\n- Só manifesta Herpes-zóster quem algum dia já manifestou Varicela (HHV-3), essa doença é mais prevalente em idosos.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2022-06-04T16:00:38.000Z",
+                    "updated_at": "2022-06-04T17:11:36.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13963,
+                "questionary_id": 268331,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13964,
+            "institution_id": 4,
+            "description": "Assinale a alternativa que contém apenas vacinas necessárias aos **2 meses**:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-06-04T16:14:06.000Z",
+            "updated_at": "2022-06-20T21:58:48.000Z",
+            "user_id": 7321,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1196,
+                    "title": "Imunização pediátrica",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-06-04T14:42:31.000Z",
+                    "updated_at": "2022-06-04T14:42:31.000Z",
+                    "pivot": {
+                        "discipline_id": 1196,
+                        "question_id": 13964
+                    }
+                },
+                {
+                    "id": 28,
+                    "title": "Pediatria",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-20T03:18:11.000Z",
+                    "updated_at": "2020-05-20T03:18:11.000Z",
+                    "pivot": {
+                        "discipline_id": 28,
+                        "question_id": 13964
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 57218,
+                    "question_id": 13964,
+                    "description": "Rotavírus, pentavalente, pneumocócica e VIP (primeira dose)",
+                    "explanation": "Acertou, Doc! Mandou bem! 😀 Vamos revisar o calendário vacinal?\n- Ao nascer: BCG e hepatite B\n- **2 meses: rotavírus, pentavalente, pneumocócica e VIP**\n- 3 meses: meningocócica C\n- 4 meses: rotavírus, pentavalente, pneumocócica e VIP \n- 5 meses: meningocócica C  \n- 6 meses: pentavalente e VIP\n- 9 meses: Febre amarela\n- 12 meses: tríplice viral, pneumocócica e meningocócica\n- 15 meses: tetra viral, VOP, hepatite A e DTP\n- 4 anos: febre amarela, VOP e DTP\n- 9 aos 14 anos: HPV",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-06-04T16:14:06.000Z",
+                    "updated_at": "2022-06-20T21:58:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57219,
+                    "question_id": 13964,
+                    "description": "BCG, rotavírus e pentavalente ",
+                    "explanation": "Errou, doc. 😣\n- BCG não é necessária aos 2 meses, essa deve ser aplicada ao nascer.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-06-04T16:14:06.000Z",
+                    "updated_at": "2022-06-20T21:58:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57220,
+                    "question_id": 13964,
+                    "description": "Tetraviral, pentavalente e meningocócica C.",
+                    "explanation": "Puxa, não foi dessa vez!\n- A tetra viral não é necessária aos 2 meses, apenas nos 15 meses ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-06-04T16:14:06.000Z",
+                    "updated_at": "2022-06-20T21:58:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57221,
+                    "question_id": 13964,
+                    "description": "VIP primeira dose, meningocócica ACWY e pentavalente ",
+                    "explanation": " Errou, que pena!  \n- A Meningocócica ACWY não é necessária aos 2 meses  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-06-04T16:14:06.000Z",
+                    "updated_at": "2022-06-20T21:58:48.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13964,
+                "questionary_id": 268331,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13967,
+            "institution_id": 4,
+            "description": "Assinale\na alternativa que corresponde à unidade pública responsável pela facilitação do\nacesso da população à prevenção de doenças do Programa Nacional de Imunizações\n(PNI)",
+            "difficulty": "medium",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-06-04T16:40:24.000Z",
+            "updated_at": "2022-06-04T17:10:38.000Z",
+            "user_id": 7321,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1196,
+                    "title": "Imunização pediátrica",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-06-04T14:42:31.000Z",
+                    "updated_at": "2022-06-04T14:42:31.000Z",
+                    "pivot": {
+                        "discipline_id": 1196,
+                        "question_id": 13967
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 57230,
+                    "question_id": 13967,
+                    "description": "CRIE (Centro de referência de imunobiológicos especiais)",
+                    "explanation": "Acertou, boa! 😎\n- Lembre-se que em especial são populações portadoras de imunodeficiência\ncongênita ou adquirida e de outras condições são assistidas por essa unidade\npública ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-06-04T16:40:24.000Z",
+                    "updated_at": "2022-06-04T17:10:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57231,
+                    "question_id": 13967,
+                    "description": "ADDV (Associação distribuidora de vacinas)",
+                    "explanation": " Errou, doc! 😣\n- ADDV não é a unidade pública responsável pela\nfacilitação do acesso da população à prevenção de doenças do PNI  ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-06-04T16:40:24.000Z",
+                    "updated_at": "2022-06-04T17:10:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57232,
+                    "question_id": 13967,
+                    "description": "CDVS (Centro de distribuição de vacinação social)",
+                    "explanation": "Nãofoi dessa vez! \n- O CDVS não faz parte da prevenção de doenças do PNI ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-06-04T16:40:24.000Z",
+                    "updated_at": "2022-06-04T17:10:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57233,
+                    "question_id": 13967,
+                    "description": "CGPNI (Coordenação Geral do Programa Nacional de Imunizações)",
+                    "explanation": "Errou, que pena! 🤔\n- O CGPNI não possui a função de facilitação do acesso de vacinação para o PNI. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-06-04T16:40:24.000Z",
+                    "updated_at": "2022-06-04T17:10:38.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13967,
+                "questionary_id": 268331,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13983,
+            "institution_id": 4,
+            "description": "H.M.B, 3 meses e 4 dias, lactente levado pela mãe ao pronto atendimento. A mãe queixa-se que há dois dias seu filho iniciou  tosse e coriza, e um dia antes do atendimento a mãe afirma que começou um quadro concomitante de diarréia. Durante o exame físico você percebe que o paciente estava com 39,2 ºC e ao verificar a carteira de\nvacinação observa a falta de uma vacina importante aos 2 meses contra determinado agente que pode estar vinculado aos sintomas relatados. Qual é essa\npossível vacina?  ",
+            "difficulty": "medium",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-06-04T17:09:32.000Z",
+            "updated_at": "2022-06-04T17:09:32.000Z",
+            "user_id": 7321,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1196,
+                    "title": "Imunização pediátrica",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-06-04T14:42:31.000Z",
+                    "updated_at": "2022-06-04T14:42:31.000Z",
+                    "pivot": {
+                        "discipline_id": 1196,
+                        "question_id": 13983
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 57238,
+                    "question_id": 13983,
+                    "description": "Tetraviral",
+                    "explanation": "Não foi dessa vez, doc! 🙉\nA tetraviral corresponde aos vírus da caxumba, rubéola, sarampo e varicela. Sem\nrelação com a lista de sintomas citados. Inclusive essa vacina é apenas aos 15\nmeses  ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-06-04T17:09:32.000Z",
+                    "updated_at": "2022-06-04T17:09:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57239,
+                    "question_id": 13983,
+                    "description": "Pneumocócica",
+                    "explanation": "Errou!🤔\nPneumocócica é uma vacina que protege contra doenças graves causada pela\npneumococo, como pneumonias. Não se relaciona muito com os sintomas relatados",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-06-04T17:09:32.000Z",
+                    "updated_at": "2022-06-04T17:09:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57240,
+                    "question_id": 13983,
+                    "description": "Rotavírus",
+                    "explanation": "Boa,doc!  😎\n- Rotavírus é um gênero de vírus RNA da família Reoviridae. Está relacionadocom os sintomas do paciente e é uma das principais causas de diarreia grave em lactentes. A vacinação do rotavírus é aos 2 meses",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2022-06-04T17:09:32.000Z",
+                    "updated_at": "2022-06-04T17:09:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57241,
+                    "question_id": 13983,
+                    "description": "Meningocócica C",
+                    "explanation": "- Errou, doc 😌\n- A vacina Meningocócica C conjugada serve para evitar doenças causadas pelo meningococo C, como meningite e meningococcemia. É para ser aplicada aos 3 meses  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-06-04T17:09:32.000Z",
+                    "updated_at": "2022-06-04T17:09:32.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13983,
+                "questionary_id": 268331,
+                "timer": 0
+            }
+        }
+    ]
+}

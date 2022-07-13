@@ -1,0 +1,1336 @@
+{
+    "id": 268364,
+    "user_id": 1699,
+    "title": "Doença do Refluxo Gastroesofágico (Lactente)",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-12T00:20:51.000Z",
+    "updated_at": "2022-07-12T00:20:51.000Z",
+    "study_plan_id": 354,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 4330,
+            "institution_id": 4,
+            "description": "O Refluxo Gastroesofágico no lactente é na maioria das vezes:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-31T16:05:43.000Z",
+            "updated_at": "2020-08-31T16:05:43.000Z",
+            "user_id": 34,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 450,
+                    "title": "Doença do Refluxo Gastroesofágico em Pediatria",
+                    "description": null,
+                    "parent_id": 150,
+                    "is_enabled": true,
+                    "created_at": "2020-08-31T15:52:30.000Z",
+                    "updated_at": "2020-08-31T15:52:30.000Z",
+                    "pivot": {
+                        "discipline_id": 450,
+                        "question_id": 4330
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17890,
+                    "question_id": 4330,
+                    "description": "Fisiológico",
+                    "explanation": "Verdadeiro. A grande maioria do refluxo gastroesofágico é FISIOLÓGICA, se manifestando clinicamente por regurgitação do alimento ingerido. \n- O **pico** geralmente ocorre aos **4 meses** de idade, tendo **resolução espontânea entre 1 e 2 anos de idade**",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-08-31T13:05:43.000Z",
+                    "updated_at": "2020-08-31T13:05:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17891,
+                    "question_id": 4330,
+                    "description": "Patológico",
+                    "explanation": "Falso. Ele passa a ser patológico (Doença do Refluxo Gastroesofágico) quando cursa com repercussões clínicas como dores persistentes, esofagite, broncoaspiração ou perda ponderal.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:05:43.000Z",
+                    "updated_at": "2020-08-31T13:05:43.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4330,
+                "questionary_id": 268364,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4331,
+            "institution_id": 4,
+            "description": "O mecanismo fisiopatológico que explica o refluxo gastroesofágico no lactente é:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-31T16:11:04.000Z",
+            "updated_at": "2020-08-31T16:11:04.000Z",
+            "user_id": 34,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 450,
+                    "title": "Doença do Refluxo Gastroesofágico em Pediatria",
+                    "description": null,
+                    "parent_id": 150,
+                    "is_enabled": true,
+                    "created_at": "2020-08-31T15:52:30.000Z",
+                    "updated_at": "2020-08-31T15:52:30.000Z",
+                    "pivot": {
+                        "discipline_id": 450,
+                        "question_id": 4331
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17892,
+                    "question_id": 4331,
+                    "description": "Contração excessiva do Esfincter Esofágico Inferior (EEI) no período pós prandial",
+                    "explanation": "Falso. Se ocorresse contração excessiva do EEI  após a alimentação não iria ocorrer refluxo.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:11:04.000Z",
+                    "updated_at": "2020-08-31T13:11:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17893,
+                    "question_id": 4331,
+                    "description": "Imaturidade do EEI",
+                    "explanation": "Verdadeiro. Até entre o primeiro e segundo ano de vida, há um relaxamento excessivo do EEI, favorecendo o retorno do conteúdo estomacal para o esôfago e, consequentemente, a regurgitação.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-08-31T13:11:04.000Z",
+                    "updated_at": "2020-08-31T13:11:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17894,
+                    "question_id": 4331,
+                    "description": "Agenesia do EEI",
+                    "explanation": "Falso. Realmente se não houvesse a formaçao do EEI o refluxo seria constante. Todavia, não é uma causa comum de refluxo gastroesofágico",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:11:04.000Z",
+                    "updated_at": "2020-08-31T13:11:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17895,
+                    "question_id": 4331,
+                    "description": "Hiperplasia do EEI",
+                    "explanation": "Falso. Não ocorre hipeplasia do EEI. e, caso ocorresse, o efeito seria de impedir a regurgitação.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:11:04.000Z",
+                    "updated_at": "2020-08-31T13:11:04.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4331,
+                "questionary_id": 268364,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4332,
+            "institution_id": 4,
+            "description": "O refluxo gastroesofágico **fisiológico** no lactente pode ser diagnósticado conforme os critérios de:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-31T16:16:35.000Z",
+            "updated_at": "2022-03-31T20:55:48.000Z",
+            "user_id": 34,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 450,
+                    "title": "Doença do Refluxo Gastroesofágico em Pediatria",
+                    "description": null,
+                    "parent_id": 150,
+                    "is_enabled": true,
+                    "created_at": "2020-08-31T15:52:30.000Z",
+                    "updated_at": "2020-08-31T15:52:30.000Z",
+                    "pivot": {
+                        "discipline_id": 450,
+                        "question_id": 4332
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17896,
+                    "question_id": 4332,
+                    "description": "Ranson ",
+                    "explanation": "Falso. Isso é um critério de gravidade de pancreatite.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:16:35.000Z",
+                    "updated_at": "2022-03-31T20:55:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17897,
+                    "question_id": 4332,
+                    "description": "Apache II",
+                    "explanation": "Falso . Isso é um critério de gravidade de pancreatite",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:16:35.000Z",
+                    "updated_at": "2022-03-31T20:55:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17898,
+                    "question_id": 4332,
+                    "description": "Roma IV",
+                    "explanation": "Verdadeiro. Segundo os critérios de Roma IV, o refluxo gastroesofágico fisiológico é confirmado pela presença de **ambos os critérios abaixo, em um lactente entre 3 semanas e 12 meses de vida:**\n- ≥ 2 regurgitações por dia por  ≥ 3 semanas\n- Ausência de vômitos, hematêmese, aspiração, perda ponderal ou déficit de deglutição",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-08-31T13:16:35.000Z",
+                    "updated_at": "2022-03-31T20:55:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17899,
+                    "question_id": 4332,
+                    "description": "Hinchey",
+                    "explanation": "Falso. Esse é um critério de classificação de diverticulite",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:16:35.000Z",
+                    "updated_at": "2022-03-31T20:55:48.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4332,
+                "questionary_id": 268364,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4334,
+            "institution_id": 4,
+            "description": "Sobre a evolução temporal do Refluxo Gastroesofágico no lactente, assinale a alternativa correta:",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-31T16:31:46.000Z",
+            "updated_at": "2020-08-31T16:31:46.000Z",
+            "user_id": 34,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 450,
+                    "title": "Doença do Refluxo Gastroesofágico em Pediatria",
+                    "description": null,
+                    "parent_id": 150,
+                    "is_enabled": true,
+                    "created_at": "2020-08-31T15:52:30.000Z",
+                    "updated_at": "2020-08-31T15:52:30.000Z",
+                    "pivot": {
+                        "discipline_id": 450,
+                        "question_id": 4334
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17904,
+                    "question_id": 4334,
+                    "description": "Os vômitos são frequentes até os 12 meses de vida",
+                    "explanation": "Falso. A presença de vômitos fala a favor de Doença do Refluxo Gastroesofágico. Quando falamos apenas em Refluxo Gastroesofágico nos referimos ao refluxo fisiológico, que cursa com **regurgitação** e não vômitos caracteristicamente.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:31:46.000Z",
+                    "updated_at": "2020-08-31T13:31:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17905,
+                    "question_id": 4334,
+                    "description": "O pico dos episódios de refluxo gastroesofágico ocorre por volta dos 7 meses de vida, quando é iniciada a alimentação complementar",
+                    "explanation": "Falso. O pico dos episódios de refluxo gastroesofágico ocorre por volta dos 4 meses. \n- Aos 6 meses de vida, 80% dos lactentes já tiveram resolução espontãnea dos episódios",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:31:46.000Z",
+                    "updated_at": "2020-08-31T13:31:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17906,
+                    "question_id": 4334,
+                    "description": "Por volta dos 4 anos de vida inicia a resolução da maturidade do Esfincter Esofágico Inferior",
+                    "explanation": "Falso. Por volta do primeiro ano de vida, mais de 90% dos lactentes já tiveram a resolução dos episódios de refluxo gastroesofágico",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:31:47.000Z",
+                    "updated_at": "2020-08-31T13:31:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17907,
+                    "question_id": 4334,
+                    "description": "Inicia entre 1 a 4 meses de vida",
+                    "explanation": "Perfeito. Os episódios de refluxo gastroesofágico podem iniciar desde o primeiro mês de vida até o quarto mês de vida na maioria dos casos. \n- O pico ocorre normalmente ao 4º mês de vida\n- Por volta dos 6 meses de vida cerca de 80% dos lactente tem os episódios resolvidos\n- Após o primeiro ano de vida, mais de 90% dos lactentes já tiveram resolução dos episódios de refluxo gastroesofágico",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-08-31T13:31:47.000Z",
+                    "updated_at": "2020-08-31T13:31:47.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4334,
+                "questionary_id": 268364,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4333,
+            "institution_id": 4,
+            "description": "Qual das alternativas abaixo não apresenta um pré-requisito dos critérios de Roma IV para refluxo gastroesofágico fisiológico:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-31T16:21:17.000Z",
+            "updated_at": "2020-08-31T16:21:17.000Z",
+            "user_id": 34,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 450,
+                    "title": "Doença do Refluxo Gastroesofágico em Pediatria",
+                    "description": null,
+                    "parent_id": 150,
+                    "is_enabled": true,
+                    "created_at": "2020-08-31T15:52:30.000Z",
+                    "updated_at": "2020-08-31T15:52:30.000Z",
+                    "pivot": {
+                        "discipline_id": 450,
+                        "question_id": 4333
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17900,
+                    "question_id": 4333,
+                    "description": "Lactente entre 3 semanas de vida e 12 meses",
+                    "explanation": "Perfeito. A definição de refluxo fisiológico pelos critérios de Roma IV se aplica a lactentes entre 3 semanas e 12 meses",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:21:17.000Z",
+                    "updated_at": "2020-08-31T13:21:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17901,
+                    "question_id": 4333,
+                    "description": "Ocorrência de  ≥2regurgitações por dia por  ≥3 semanas",
+                    "explanation": "Verdadeiro. Um dos critérios é a presença de  ≥2regurgitações por dia por  ≥3 semanas.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:21:17.000Z",
+                    "updated_at": "2020-08-31T13:21:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17902,
+                    "question_id": 4333,
+                    "description": "Presença de vômitos",
+                    "explanation": "Na verdade, para atender os critérios e Roma IV para refluxo fisiológico, deve haver **ausência de vômitos!**\nVamos relembrar os critérios de Roma?\n- Segundo os critérios de Roma IV, o refluxo gastroesofágico fisiológico é confirmado pela presença de **ambos os critérios abaixo, em um lactente entre 3 meses e 12 meses de vida:**\n- ≥ 2 regurgitações por dia por  ≥ 3 semanas\n- Ausência de vômitos, hematêmese, aspiração, perda ponderal ou déficit de deglutição ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-08-31T13:21:17.000Z",
+                    "updated_at": "2020-08-31T13:21:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17903,
+                    "question_id": 4333,
+                    "description": "Ausência de déficit de deglutição",
+                    "explanation": "Correto.  Para atender aos critérios de Roma IV, deve haver ausência de vômitos, hematêmese, aspiração, perda ponderal ou déficit de deglutição . ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:21:17.000Z",
+                    "updated_at": "2020-08-31T13:21:17.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4333,
+                "questionary_id": 268364,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4335,
+            "institution_id": 4,
+            "description": "Em um lactente que apresenta recusa alimentar e que, ao deglutir, realiza movimentos de contorção do pescoço, temos como principal hipótese diagnóstica:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-31T16:39:55.000Z",
+            "updated_at": "2020-08-31T16:39:55.000Z",
+            "user_id": 34,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 450,
+                    "title": "Doença do Refluxo Gastroesofágico em Pediatria",
+                    "description": null,
+                    "parent_id": 150,
+                    "is_enabled": true,
+                    "created_at": "2020-08-31T15:52:30.000Z",
+                    "updated_at": "2020-08-31T15:52:30.000Z",
+                    "pivot": {
+                        "discipline_id": 450,
+                        "question_id": 4335
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17908,
+                    "question_id": 4335,
+                    "description": "Reflixo Gastroesofágico Fisiológico",
+                    "explanation": "Falso. No refluxo gastroesofágico não temos repercussões clínicas significativas. Nesse quadro do enunciado, ocorre contorção do corpo ao deglutir o alimento devido à **dor.**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:39:55.000Z",
+                    "updated_at": "2020-08-31T13:39:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17909,
+                    "question_id": 4335,
+                    "description": "Síndrome de Sandifer",
+                    "explanation": "Perfeito. A síndrome de Sandifer é classicamente caracterizada por recusa alimentar + contorção do pescoço ao deglutir devido à **dor ao deglutir**. O quadro clínico se assemelha, inclusive, ao de **epilepsia**, sendo um diagnóstico diferencial importante. \n- Assista o vídeo [https://www.youtube.com/watch?v=bWsr2D6pSX4](https://www.youtube.com/watch?v=bWsr2D6pSX4)  para ter uma melhor visualização desse quadro que chama muito a atenção.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-08-31T13:39:55.000Z",
+                    "updated_at": "2020-08-31T13:39:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17910,
+                    "question_id": 4335,
+                    "description": "Alergia a Proteína do Leite da Vaca (APLV)",
+                    "explanation": "Falso. Apesar de ser um diagnóstico diferencial importante da doença do refluxo gastroesofágico, a APLV não cursa com recusa alimentar ou movimentos de contorção. Na APLV é importante observar a diarreia explosiva e a hiperemia perianal.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:39:55.000Z",
+                    "updated_at": "2020-08-31T13:39:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17911,
+                    "question_id": 4335,
+                    "description": "Engasgamento",
+                    "explanation": "Falso. No engastamento teríamos a presença do reflexo da tosse na tentativa de expelir o alimento entalado.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:39:55.000Z",
+                    "updated_at": "2020-08-31T13:39:55.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4335,
+                "questionary_id": 268364,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4336,
+            "institution_id": 4,
+            "description": "Quais dos exames abaixo seriam os mais adequados para o diagnóstico de doença do refluxo gastroesofágico (DRGE)?",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-31T16:44:22.000Z",
+            "updated_at": "2020-08-31T16:44:22.000Z",
+            "user_id": 34,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 450,
+                    "title": "Doença do Refluxo Gastroesofágico em Pediatria",
+                    "description": null,
+                    "parent_id": 150,
+                    "is_enabled": true,
+                    "created_at": "2020-08-31T15:52:30.000Z",
+                    "updated_at": "2020-08-31T15:52:30.000Z",
+                    "pivot": {
+                        "discipline_id": 450,
+                        "question_id": 4336
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17912,
+                    "question_id": 4336,
+                    "description": "Endoscopia digestiva alta",
+                    "explanation": "Falso. Esse é um exame para observar complicações associadas, como esofagite, mas não para o diagnóstico.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:44:22.000Z",
+                    "updated_at": "2020-08-31T13:44:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17913,
+                    "question_id": 4336,
+                    "description": "Cintilografia",
+                    "explanation": "Falso. A cintilografia é um exame interessante para observar a presença de **aspiração**, mas não para o diagnóstico de DRGE",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:44:22.000Z",
+                    "updated_at": "2020-08-31T13:44:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17914,
+                    "question_id": 4336,
+                    "description": "pHmetria",
+                    "explanation": "Correto. Tanto a pHmetria quanto a Impedanciometria são bons exames para o diagnóstico de DRGE. A pHmetria é capaz de identificar o grau de acidez causado pelo refluxo ácido e a impedanciometria é ainda capaz de identificar regurgitações de caráter básico, como biliar, por exemplo.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-08-31T13:44:22.000Z",
+                    "updated_at": "2020-08-31T13:44:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17915,
+                    "question_id": 4336,
+                    "description": "Esofagografia contrastada",
+                    "explanation": "Falso. E esofagografia contrastada é um bom exame para o diagnóstico de anormalidades estruturais do esôfago como dilatações no seu trajeto, mas não para avaliar  a competência do Esfíncter Esofágico Inferior.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:44:22.000Z",
+                    "updated_at": "2020-08-31T13:44:22.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4336,
+                "questionary_id": 268364,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4337,
+            "institution_id": 4,
+            "description": "Com relação a medidas que podem contribuir para a diminuição do refluxo gastroesofágico, assinale a alternativa incorreta:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-31T16:53:54.000Z",
+            "updated_at": "2020-08-31T16:53:54.000Z",
+            "user_id": 34,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 450,
+                    "title": "Doença do Refluxo Gastroesofágico em Pediatria",
+                    "description": null,
+                    "parent_id": 150,
+                    "is_enabled": true,
+                    "created_at": "2020-08-31T15:52:30.000Z",
+                    "updated_at": "2020-08-31T15:52:30.000Z",
+                    "pivot": {
+                        "discipline_id": 450,
+                        "question_id": 4337
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17916,
+                    "question_id": 4337,
+                    "description": "Dieta hipoalergênica é uma medida conservadora indicada",
+                    "explanation": "Perfeito. A dieta hipoalergênica é indicada já que muitas vezes o quadro de regurgitação/êmese é causada pela Alergia a Proteína do Leite de Vaca (APLV) ou por alergia a outros componentes. Logo, se houver resolução do quadro após a introdução da dieta hipoalergênica, devemos considerar o diagnóstico de APLV ou outra alergia alimentar.\n- Se a criança faz uso de leite de vaca recomenda-se substituir por fórmula **hidrolizada**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:53:54.000Z",
+                    "updated_at": "2020-08-31T13:53:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17917,
+                    "question_id": 4337,
+                    "description": "Espessamento dos alimentos é recomendado",
+                    "explanation": "Perfeito. Refeições fracionadas, em pequenos volumes com uso de alimentos engrossados, com o objetivo de reduzir a distensão gástrica. Em crianças maiores também se recomenda a restrição de substâncias que diminuam a pressão do EEI ou retardem o esvaziamento gástrico, como: condimentos, molhos, enlatados, alimentos gordurosos, doces, cremes, chocolates, frutas e sucos cítricos, bebidas gaseificadas,  chá e café, álcool e tabagismo. Além disso, orienta-se comer devagar, não tomar líquidos durante as refeições e não dormir logo após as refeições.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:53:54.000Z",
+                    "updated_at": "2020-08-31T13:53:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17918,
+                    "question_id": 4337,
+                    "description": "Logo após a alimentação, a posição prona pode ser adota se acompanhada de um adulto",
+                    "explanation": "Verdadeiro. Apesar de aumentar o risco de morte súbita, é recomendada a posição prona se monitorada por um adulto após a alimentação. Também recomenda-se a posição ereta no colo do pai/mãe após a alimentação. Ainda, recomenda-se também a posição supina com a cabeceira elevada.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:53:54.000Z",
+                    "updated_at": "2020-08-31T13:53:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17919,
+                    "question_id": 4337,
+                    "description": "Recomenda-se, após a alimentação, a posição supina com travesseiro elevado",
+                    "explanation": "Falso. Na posição supina, o que deve estar elevado é a **CABECEIRA** da cama. O uso de travasseiro irá levar a obstrução da via aérea e não irá contribuir para a redução do refluxo.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-08-31T13:53:54.000Z",
+                    "updated_at": "2020-08-31T13:53:54.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4337,
+                "questionary_id": 268364,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4338,
+            "institution_id": 4,
+            "description": "Caso as medidas conservadoras não sejam suficientes para a diminuição dos sintomas da doença do refluxo gastroesofágico (DRGE), podemos lançar mão do tratamento medicamentoso. Qual é a medicação mais eficaz no controle dos sintomas da DRGE?",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-31T16:57:02.000Z",
+            "updated_at": "2020-08-31T16:57:02.000Z",
+            "user_id": 34,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 450,
+                    "title": "Doença do Refluxo Gastroesofágico em Pediatria",
+                    "description": null,
+                    "parent_id": 150,
+                    "is_enabled": true,
+                    "created_at": "2020-08-31T15:52:30.000Z",
+                    "updated_at": "2020-08-31T15:52:30.000Z",
+                    "pivot": {
+                        "discipline_id": 450,
+                        "question_id": 4338
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17920,
+                    "question_id": 4338,
+                    "description": "Inibidor de Bomba de Prótons (IBP)",
+                    "explanation": "Verdadeiro! Apesar de outras medicações poderem ser indicadas,, a medicação de maior eficácia no controle dos sintomas de DRGE no lactente é o IBP.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-08-31T13:57:02.000Z",
+                    "updated_at": "2020-08-31T13:57:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17921,
+                    "question_id": 4338,
+                    "description": "Domperidona",
+                    "explanation": "Falso. A domperidona é um pró-cinético que pode ser utilizado, mas não é superior ao IBP para o controle da DRGE.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:57:02.000Z",
+                    "updated_at": "2020-08-31T13:57:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17922,
+                    "question_id": 4338,
+                    "description": "Antagonistas H2",
+                    "explanation": "Falso. Apesar de poderem ser utilizadas, antogonistas de receptor H2 como a ranitidina são inferiores aos IBPs no controle da DRGE.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:57:02.000Z",
+                    "updated_at": "2020-08-31T13:57:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17923,
+                    "question_id": 4338,
+                    "description": "Bromoprida",
+                    "explanation": "Falso. A bromoprida é um pró-cinético que pode ser utilizado, mas não é superior ao IBP para o controle da DRGE. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-31T13:57:02.000Z",
+                    "updated_at": "2020-08-31T13:57:02.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4338,
+                "questionary_id": 268364,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4339,
+            "institution_id": 4,
+            "description": "Em caso de falha no tratamento conservador e farmacológico para doença do refluxo gastroesofágico (DRGE), qual seria a cirurgia de escolha para o tratamento dessa condição?",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-31T17:05:32.000Z",
+            "updated_at": "2020-08-31T17:05:32.000Z",
+            "user_id": 34,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 450,
+                    "title": "Doença do Refluxo Gastroesofágico em Pediatria",
+                    "description": null,
+                    "parent_id": 150,
+                    "is_enabled": true,
+                    "created_at": "2020-08-31T15:52:30.000Z",
+                    "updated_at": "2020-08-31T15:52:30.000Z",
+                    "pivot": {
+                        "discipline_id": 450,
+                        "question_id": 4339
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17924,
+                    "question_id": 4339,
+                    "description": "Cirurgia de Capella",
+                    "explanation": "Falso. Essa técnica é utilizada na cirurgia bariátrica.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-31T14:05:32.000Z",
+                    "updated_at": "2020-08-31T14:05:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17925,
+                    "question_id": 4339,
+                    "description": "Y de Roux",
+                    "explanation": "Falso. Essa técnica é utilizada na cirurgia bariátrica.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-31T14:05:32.000Z",
+                    "updated_at": "2020-08-31T14:05:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17926,
+                    "question_id": 4339,
+                    "description": "Cardiomiotomia de Heller",
+                    "explanation": "Falso. Esse é um procedimento cirúrgico utilizado no tratamento da acalasia",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-31T14:05:32.000Z",
+                    "updated_at": "2020-08-31T14:05:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17927,
+                    "question_id": 4339,
+                    "description": "Fundoplicatura de Nissen",
+                    "explanation": "Correto. A cirurgia basicamente aumenta o esfíncter esofágico inferior, envolvendo o fundo estomacal ao redor do esfíncter esofágico inferior. Se realizado de maneira adequada, esse procedimento evitará refluxo adicional com efeitos colaterais mínimos e eliminará a necessidade de terapia médica de longo prazo.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-08-31T14:05:32.000Z",
+                    "updated_at": "2020-08-31T14:05:32.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4339,
+                "questionary_id": 268364,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4340,
+            "institution_id": 5,
+            "description": "Em relação às características do refluxo gastroesofágico fisiológico do lactente, é correto afirmar que:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-31T17:21:42.000Z",
+            "updated_at": "2020-08-31T17:21:42.000Z",
+            "user_id": 34,
+            "is_residency": false,
+            "institution": {
+                "id": 5,
+                "title": "AMRIGS",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T13:59:53.000Z",
+                "updated_at": "2020-05-17T13:59:53.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 450,
+                    "title": "Doença do Refluxo Gastroesofágico em Pediatria",
+                    "description": null,
+                    "parent_id": 150,
+                    "is_enabled": true,
+                    "created_at": "2020-08-31T15:52:30.000Z",
+                    "updated_at": "2020-08-31T15:52:30.000Z",
+                    "pivot": {
+                        "discipline_id": 450,
+                        "question_id": 4340
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17928,
+                    "question_id": 4340,
+                    "description": "Inicia-se, normalmente, entre a primeira e a quarta semana de vida.",
+                    "explanation": "Falso. O refluxo fisiológico pode ocorrer até os 6 meses de vida, sem idade pré estaelecida para seu aparecimento",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-31T14:21:42.000Z",
+                    "updated_at": "2020-08-31T14:21:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17929,
+                    "question_id": 4340,
+                    "description": "50% se tornarão refluxos gastroesofágicos patológicos.",
+                    "explanation": "Falso. A ocorrência de refluxo fisiológico não quer dizer que vai evoluir para patológico",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-31T14:21:42.000Z",
+                    "updated_at": "2020-08-31T14:21:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17930,
+                    "question_id": 4340,
+                    "description": "O quadro tende a melhorar no 2º semestre de vida e a desaparecer no 2º ano.",
+                    "explanation": "Verdadeiro. O refluxo gastroesofágio fisiológico tende a desaparecer em 90% dos casos até o primeiro ano de vida, e quase a totalidade dos casos até o final do segundo ano de vida, já que ocorre a maturação completa do esfincter esofágico inferior",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-08-31T14:21:42.000Z",
+                    "updated_at": "2020-08-31T14:21:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17931,
+                    "question_id": 4340,
+                    "description": "15% dos lactentes com refluxo gastroesofágico fisiológico terão comprometimento do crescimento.",
+                    "explanation": "Falso. O refluxo fisiológico não está associado a complicações ou comprometimento do ganho ponderal ou desenvolvimento do lactente. Se houver esses sintomas devemos investigar a DOENÇA do refluxo gastroesofágico",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-31T14:21:42.000Z",
+                    "updated_at": "2020-08-31T14:21:42.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4340,
+                "questionary_id": 268364,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4341,
+            "institution_id": 70,
+            "description": "Lactente de 13 meses de idade foi atendida pela terceira vez por quadro de sibilância, porém sem febre ou coriza. A mãe relatou que, desde o primeiro episódio, ocorrido aos 2 meses de idade, o início da sintomatologia era súbito, com tosse nas noites que antecediam os atendimentos. Em uso de fórmula láctea, a paciente estava crescendo e ganhando peso; regurgitava nos primeiros meses, mas, progressivamente, foi apresentando melhora. No histórico familiar, não constavam asma ou eczema. Em cada uma das ocasiões anteriores, houve resposta parcial ao uso de broncodilatador, mas a paciente mantinha discreta sibilância entre os episódios. O exame físico mostrou-se normal, exceto pelos roncos esparsos bilateralmente e pela leve sibilância expiratória. A pesquisa de sangue oculto nas fezes foi negativa, e o hemograma não indicou eosinofilia. A radiografia de tórax mostrou moderada hiperinsuflação bilateralmente, mas sem infiltrado. Além da hipótese diagnóstica de lactente sibilante, que outra hipótese, dentre as abaixo, também deve ser considerada?",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-31T17:26:11.000Z",
+            "updated_at": "2020-08-31T17:26:11.000Z",
+            "user_id": 34,
+            "is_residency": false,
+            "institution": {
+                "id": 70,
+                "title": "HCPA",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-25T13:31:28.000Z",
+                "updated_at": "2020-05-25T13:31:28.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 450,
+                    "title": "Doença do Refluxo Gastroesofágico em Pediatria",
+                    "description": null,
+                    "parent_id": 150,
+                    "is_enabled": true,
+                    "created_at": "2020-08-31T15:52:30.000Z",
+                    "updated_at": "2020-08-31T15:52:30.000Z",
+                    "pivot": {
+                        "discipline_id": 450,
+                        "question_id": 4341
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17932,
+                    "question_id": 4341,
+                    "description": "Refluxo gastroesofágico.",
+                    "explanation": "Perfeito, doc. A DRGE pode estar associada a distúrbios respiratórios como estridor recorrente, tosse, pneumonia de repetição e reatividade das vias aéreas (sibilos).",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-08-31T14:26:11.000Z",
+                    "updated_at": "2020-08-31T14:26:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17933,
+                    "question_id": 4341,
+                    "description": "Alergia à proteína do leite de vaca.",
+                    "explanation": "Falso. Não há sangue oculto nas fezes, além de ter bom ganho de peso e não apresentar lesões na pele (eczema)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-31T14:26:11.000Z",
+                    "updated_at": "2020-08-31T14:26:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17934,
+                    "question_id": 4341,
+                    "description": "Aspiração de corpo estranho.",
+                    "explanation": "Falso. Não há história de aspiração de corpo estranho além de aspiração de corpo estranho não demorar tanto tempo para dar sintomas.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-31T14:26:11.000Z",
+                    "updated_at": "2020-08-31T14:26:11.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17935,
+                    "question_id": 4341,
+                    "description": "Fístula traqueoesofágica.",
+                    "explanation": "Falso. A clínica seria de engasgos e afogamento ao se alimentar nesse caso",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-31T14:26:11.000Z",
+                    "updated_at": "2020-08-31T14:26:11.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4341,
+                "questionary_id": 268364,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4342,
+            "institution_id": 72,
+            "description": "Sobre refluxo gastroesofágico e doença do refluxo gastroesofágico em crianças, considere as afirmativas a seguir:\n-  I. O aleitamento materno deve ser sempre incentivado. O uso de espessantes será recomendado nos lactentes já em uso de fórmula; \n- II. O decúbito lateral esquerdo é o mais recomendado por facilitar esvaziamento gástrico e diminuir episódios de refluxo; \n- III. Os espessantes de arroz têm melhor indicação, por serem mais hipoalergênicos e com melhor digestibilidade ; \n- IV. Recomenda-se diminuir o tamanho das porções das refeições/mamadas, com aumento da frequência para todas crianças. Assinale a alternativa correta.",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-31T17:33:23.000Z",
+            "updated_at": "2020-08-31T17:33:23.000Z",
+            "user_id": 34,
+            "is_residency": false,
+            "institution": {
+                "id": 72,
+                "title": "UEL",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-25T20:28:55.000Z",
+                "updated_at": "2020-05-25T20:28:55.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 450,
+                    "title": "Doença do Refluxo Gastroesofágico em Pediatria",
+                    "description": null,
+                    "parent_id": 150,
+                    "is_enabled": true,
+                    "created_at": "2020-08-31T15:52:30.000Z",
+                    "updated_at": "2020-08-31T15:52:30.000Z",
+                    "pivot": {
+                        "discipline_id": 450,
+                        "question_id": 4342
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17936,
+                    "question_id": 4342,
+                    "description": "Somente as afirmativas I e II são corretas.",
+                    "explanation": "Confira o comentário completo na alternativa correta",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-31T14:33:23.000Z",
+                    "updated_at": "2020-08-31T14:33:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17937,
+                    "question_id": 4342,
+                    "description": "Somente as afirmativas I e IV são corretas.",
+                    "explanation": "- I - Correto. O uso de espessantes é uma medida conservadora no manejo do refluxo\n- II - Falso. Para diminuir o risco de morte súbita, a posição supina é a mais recomendada\n- III-Falso. Essa alternativa não tem fundamento nenhum\n- IV- Correto. É uma medida conservadora para o manejo do refluxo",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-08-31T14:33:23.000Z",
+                    "updated_at": "2020-08-31T14:33:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17938,
+                    "question_id": 4342,
+                    "description": "Somente as afirmativas III e IV são corretas.",
+                    "explanation": "Confira o comentário completo na alternativa correta ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-31T14:33:23.000Z",
+                    "updated_at": "2020-08-31T14:33:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17939,
+                    "question_id": 4342,
+                    "description": "Somente as afirmativas I, II e III são corretas.",
+                    "explanation": "Confira o comentário completo na alternativa correta ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-31T14:33:23.000Z",
+                    "updated_at": "2020-08-31T14:33:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17940,
+                    "question_id": 4342,
+                    "description": "Somente as afirmativas II, III e IV são corretas.",
+                    "explanation": "Confira o comentário completo na alternativa correta ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-08-31T14:33:23.000Z",
+                    "updated_at": "2020-08-31T14:33:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4342,
+                "questionary_id": 268364,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4343,
+            "institution_id": 36,
+            "description": "Em relação ao refluxo gastroesofágico na infância, assinale a opção INCORRETA.",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-31T17:37:01.000Z",
+            "updated_at": "2020-08-31T17:37:01.000Z",
+            "user_id": 34,
+            "is_residency": false,
+            "institution": {
+                "id": 36,
+                "title": "UFPI",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-19T16:16:10.000Z",
+                "updated_at": "2020-05-19T16:16:10.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 450,
+                    "title": "Doença do Refluxo Gastroesofágico em Pediatria",
+                    "description": null,
+                    "parent_id": 150,
+                    "is_enabled": true,
+                    "created_at": "2020-08-31T15:52:30.000Z",
+                    "updated_at": "2020-08-31T15:52:30.000Z",
+                    "pivot": {
+                        "discipline_id": 450,
+                        "question_id": 4343
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17941,
+                    "question_id": 4343,
+                    "description": "Na cicatrização de lesões erosivas, no tratamento do refluxo gastroesofágico, os inibidores da bomba de prótons têm eficácia superior aos antagonistas do receptor H2 da histamina.",
+                    "explanation": "Perfeito. Os IBPs são superiores aos antagonistas de receptor H2, mesmo que levemente superiores.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-31T14:37:01.000Z",
+                    "updated_at": "2020-08-31T14:37:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17942,
+                    "question_id": 4343,
+                    "description": "Os inibidores da bomba de prótons devem ser usados antes da primeira refeição e os comprimidos não podem ser quebrados.",
+                    "explanation": "Perfeito. Essa é a forma ideal de ingestão dos IBPs.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-31T14:37:02.000Z",
+                    "updated_at": "2020-08-31T14:37:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17943,
+                    "question_id": 4343,
+                    "description": "A maioria dos casos de refluxo gastroesofágico em lactentes é fisiológico e não necessita exames diagnósticos e nem uso de medicação específica.",
+                    "explanation": "Perfeito. A grande maioria é fisiológica e podemos detectar de forma mais precisa pelos critérios de Roma IV, sem precisar de exames.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-31T14:37:02.000Z",
+                    "updated_at": "2020-08-31T14:37:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17944,
+                    "question_id": 4343,
+                    "description": "A ultrassonografia esofagogástrica tem papel importante no diagnóstico diferencial com a estenose hipertrófica de piloro, mas apresenta baixa especificidade para o diagnóstico de doença do refluxo gastroesofágico.",
+                    "explanation": "Verdadeiro. A ultrassonografia não é um bom exame para identificar relaxamento excessivo do Esfíncter Esofágico Inferior",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-31T14:37:02.000Z",
+                    "updated_at": "2020-08-31T14:37:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17945,
+                    "question_id": 4343,
+                    "description": "A posição de dormir prona (decúbito ventral) diminui os episódios de refluxo, é muito segura e deve ser encorajada como uma medida postural importante no tratamento do refluxo gastroesofágico em lactentes de todas as idades, independente da gravidade do refluxo.",
+                    "explanation": "Falso. Diminui os episódios de refluxo sim, mas não é segura pois aumenta o risco de morte súbita",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-08-31T14:37:02.000Z",
+                    "updated_at": "2020-08-31T14:37:02.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4343,
+                "questionary_id": 268364,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4344,
+            "institution_id": 16,
+            "description": "Lactente, 2 meses de idade, sexo masculino, é trazido a consulta ambulatorial de rotina. Os pais estão preocupados porque a criança tem episódios de regurgitação após quase todas as mamadas, com saída de grande quantidade de leite, algumas vezes chegou a sair leite pelo nariz. Refere que, apesar disso, a criança não fica incomodada, e aceita bem as mamadas, sem irritabilidade ou desconforto. Hábito intestinal de 3 a 4 evacuações por dia, as fezes são pastosas, sem sangue ou muco. Nega qualquer outro sintoma. O lactente está em seio materno exclusivo desde o nascimento, eliminou mecônico com 24 horas de vida, tem teste do pezinho normal. Ao exame clínico, criança em bom estado geral, abdome globoso, flácido, sem distensão ou massas palpáveis. Sem outras alterações ao exame clínico. Peso atual de 5.050 g (na consulta realizada há 30 dias o peso era 4.000 g). A conduta é:",
+            "difficulty": "hard",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-31T17:50:19.000Z",
+            "updated_at": "2020-08-31T17:50:19.000Z",
+            "user_id": 34,
+            "is_residency": false,
+            "institution": {
+                "id": 16,
+                "title": "IAMSPE",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T22:45:13.000Z",
+                "updated_at": "2020-05-17T22:45:13.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 450,
+                    "title": "Doença do Refluxo Gastroesofágico em Pediatria",
+                    "description": null,
+                    "parent_id": 150,
+                    "is_enabled": true,
+                    "created_at": "2020-08-31T15:52:30.000Z",
+                    "updated_at": "2020-08-31T15:52:30.000Z",
+                    "pivot": {
+                        "discipline_id": 450,
+                        "question_id": 4344
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17946,
+                    "question_id": 4344,
+                    "description": "Introduzir leite extensamente hidrolisado e restringir dieta da mãe em relação a leite e derivados.",
+                    "explanation": "Falso. Quadro clássico de refluxo gastroesofágico fisiológico. Não há repercussões clínicas nem perda de peso.  Não há necessidade de restriçaõ dietética materna. Deve-se manter o aleitamento materno",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-31T14:50:19.000Z",
+                    "updated_at": "2020-08-31T14:50:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17947,
+                    "question_id": 4344,
+                    "description": "Introduzir leite espessado e iniciar ranitidina e domperidona com reavaliação em 4 semanas.",
+                    "explanation": "Falso. Quadro clássico de refluxo gastroesofágico fisiológico. Não há repercussões clínicas nem perda de peso.  Não ha necessidade de introduzir leite espessado ou fármacos.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-31T14:50:19.000Z",
+                    "updated_at": "2020-08-31T14:50:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17948,
+                    "question_id": 4344,
+                    "description": "Encaminhar para avaliação fonoaudiológica e solicitar estudo contrastado de estômago, esôfago e duodeno.",
+                    "explanation": "Falso. Quadro clássico de refluxo gastroesofágico fisiológico. Não há repercussões clínicas nem perda de peso. ão há necessidade de maiores investigações",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-31T14:50:19.000Z",
+                    "updated_at": "2020-08-31T14:50:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17949,
+                    "question_id": 4344,
+                    "description": "Orientar medidas posturais e manter aleitamento materno exclusivo até 6 meses de idade.",
+                    "explanation": "Perfeito. Quadro clássico de refluxo gastroesofágico fisiológico. Não há repercussões clínicas nem perda de peso. A conduta são apenas medidas de orientação e Aleitamento materno exclusivo até os 6 meses.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-08-31T14:50:19.000Z",
+                    "updated_at": "2020-08-31T14:50:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4344,
+                "questionary_id": 268364,
+                "timer": 0
+            }
+        }
+    ]
+}

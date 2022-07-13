@@ -1,0 +1,1495 @@
+{
+    "id": 267620,
+    "user_id": 1699,
+    "title": "Doença de Alzheimer",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T02:59:35.000Z",
+    "updated_at": "2022-07-11T02:59:35.000Z",
+    "study_plan_id": 1128,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 1834,
+            "institution_id": 4,
+            "description": "Qual é a causa mais comum de demência?",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-14T15:05:44.000Z",
+            "updated_at": "2022-01-28T20:37:54.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1080,
+                    "title": "Doença de Alzheimer",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2022-01-28T20:37:08.000Z",
+                    "updated_at": "2022-01-28T20:37:08.000Z",
+                    "pivot": {
+                        "discipline_id": 1080,
+                        "question_id": 1834
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7541,
+                    "question_id": 1834,
+                    "description": "Hidrocefalia de pressão normal",
+                    "explanation": "Falso doc!😋 Não é a causa mais comum. Você pode lembrar dos sintomas dela pelo mnemônico: DIA ➡ **Demência, incotinência e ataxia**.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-14T12:05:44.000Z",
+                    "updated_at": "2022-01-28T17:37:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7542,
+                    "question_id": 1834,
+                    "description": "Doença de Alzheimer",
+                    "explanation": "Perfeito doc! Mandou bem demais!😍 É a causa mais comum de demência, correspondendo quase 50% de todos os casos. Os principais fatores de risco são:\n- idade avançada\n- história familiar positiva",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-14T12:05:44.000Z",
+                    "updated_at": "2022-01-28T17:37:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7543,
+                    "question_id": 1834,
+                    "description": "Sequelas de infartos cerebrais",
+                    "explanation": "Falso doc!😋 Não é a causa mais comum. Acontece geralmente em degraus. Tem infarto ➡ Piora ➡ Tem mais infarto ➡ Piora mais!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-14T12:05:44.000Z",
+                    "updated_at": "2022-01-28T17:37:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7544,
+                    "question_id": 1834,
+                    "description": "Demência frontotemporal",
+                    "explanation": "Falso doc!😋 Não é a causa mais comum. É clássica pelas alterações na personalidade!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-14T12:05:44.000Z",
+                    "updated_at": "2022-01-28T17:37:54.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1834,
+                "questionary_id": 267620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1835,
+            "institution_id": 4,
+            "description": "São medicações utilizadas para tratamento da doença de Alzheimer, **EXCETO:**",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-14T15:13:53.000Z",
+            "updated_at": "2022-01-28T20:37:12.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1080,
+                    "title": "Doença de Alzheimer",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2022-01-28T20:37:08.000Z",
+                    "updated_at": "2022-01-28T20:37:08.000Z",
+                    "pivot": {
+                        "discipline_id": 1080,
+                        "question_id": 1835
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7545,
+                    "question_id": 1835,
+                    "description": "Piridostigmina",
+                    "explanation": "Perfeito doc!😁 A teoria mais aceita é que na doença de Alzheimer temos a diminuição de acelticolina, por isso, o tratamento é com anticolinesterásicos centrais. Doc, saca só👇\n- Piridostigmina ➡ parassimpaticomimético **inibidor de colinesterase**\n- Outras drogas que podem ajudar no tratamento: antioxidantes(vitamina E) e memantina (antagonista do receptor de glutamato)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-14T12:13:53.000Z",
+                    "updated_at": "2022-01-28T17:37:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7546,
+                    "question_id": 1835,
+                    "description": "Osetalmivir",
+                    "explanation": "Falso doc!😋 O osetalmivir é um medicamento utilizado contra infecções virais, não fazendo parte do arsenal terapêutico da doença de Alzheimer! Doc, veja as outras alternativas para potencializar o seu aprendizado!😍",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-14T12:13:53.000Z",
+                    "updated_at": "2022-01-28T17:37:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7547,
+                    "question_id": 1835,
+                    "description": "Rivastigmina",
+                    "explanation": "Perfeito doc!😎 A teoria mais aceita é que na doença de Alzheimer temos a diminuição de acelticolina, por isso, o tratamento é com anticolinesterásicos centrais, como a Rivastigmina, um parassimpaticomimético **inibidor de colinesterase**!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-14T12:13:53.000Z",
+                    "updated_at": "2022-01-28T17:37:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7548,
+                    "question_id": 1835,
+                    "description": "Donepezila",
+                    "explanation": "Perfeito doc!😋 A teoria mais aceita é que na doença de Alzheimer temos a diminuição de acelticolina, por isso, o tratamento é com anticolinesterásicos centrais, como a Donepezila!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-14T12:13:53.000Z",
+                    "updated_at": "2022-01-28T17:37:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7549,
+                    "question_id": 1835,
+                    "description": "Galantamina",
+                    "explanation": "Perfeito doc!😁 A teoria mais aceita é que na doença de Alzheimer temos a diminuição de acelticolina, por isso, o tratamento é com anticolinesterásicos centrais, como a Galantina!",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-06-14T12:13:53.000Z",
+                    "updated_at": "2022-01-28T17:37:12.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1835,
+                "questionary_id": 267620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12497,
+            "institution_id": 511,
+            "description": "Mulher, 86 anos, há 6 meses perdeu-se no trajeto da igreja para a sua casa e vem apresentando esquecimento de evolução insidiosa. Não está reconhecendo os sobrinhos e não se lembra do nome das amigas com quem fazia aulas de pintura e por isso tem deixado de frequentá-las. Não apresenta alteração do ciclo sono-vigília, do humor e do apetite. Qual é a substância envolvida na fisiopatologia do diagnóstico mais provável?\n",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-01-28T20:44:59.000Z",
+            "updated_at": "2022-01-28T20:44:59.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 511,
+                "title": "HOSPITAL DAS CLÍNICAS DA FACULDADE DE MEDICINA DE RIBEIRÃO PRETO DA UNIVERSIDADE DE SÃO PAULO – SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-10-26T18:58:51.000Z",
+                "updated_at": "2021-10-26T18:58:51.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1080,
+                    "title": "Doença de Alzheimer",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2022-01-28T20:37:08.000Z",
+                    "updated_at": "2022-01-28T20:37:08.000Z",
+                    "pivot": {
+                        "discipline_id": 1080,
+                        "question_id": 12497
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 51241,
+                    "question_id": 12497,
+                    "description": "Acetilcolina ",
+                    "explanation": "Boa, Doc! 😁👏 \n- A doença de Alzheimer é a principal causa de demência, sendo caracterizada por quadro insidioso de perda da **memória** e **orientação,** mais precocemente.\n- Sua fisiopatologia inclui **deficiência de acetilcolina**, deposição de proteína beta-amilóide formando placas senis e hiperfosforilação da proteína TAU\n- Tanto a doença causa deficiência de acetilcolina que o seu tratamento inclui o uso de **acetilcolinesterásicos**",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-01-28T17:44:59.000Z",
+                    "updated_at": "2022-01-28T17:44:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 51242,
+                    "question_id": 12497,
+                    "description": "Noradrenalina ",
+                    "explanation": "Falso, Doc! 🤔 Não é essa a substância envolvida no Alzheimer.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-01-28T17:44:59.000Z",
+                    "updated_at": "2022-01-28T17:44:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 51243,
+                    "question_id": 12497,
+                    "description": "Serotonina ",
+                    "explanation": "Falso, Doc! 🤔 Não é essa a substância envolvida no Alzheimer. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-01-28T17:44:59.000Z",
+                    "updated_at": "2022-01-28T17:44:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 51244,
+                    "question_id": 12497,
+                    "description": "Dopamina",
+                    "explanation": "Falso, Doc! 🤔 Dopamina está mais relacionada com a doença de Parkinson. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-01-28T17:44:59.000Z",
+                    "updated_at": "2022-01-28T17:44:59.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12497,
+                "questionary_id": 267620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 14010,
+            "institution_id": 4,
+            "description": "Sobre as definições de demência e sua relação com a doença de Alcheimer, analise as seguintes afirmativas: \n\n1. O diagnóstico etiológico das demências se baseia principalmente no tempo de evolução e na ordem do acometimento. \n2. A doença de Alzheimer possui como manifestações iniciais a amnésia anterógrada e a perda do senso geográfico. \n3. Os distúrbios motores são encontrados com relativa frequência nas fases iniciais da doença.\n\nAssinale a alternativa que julga corretamente as afirmativas.",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-06-09T17:50:01.000Z",
+            "updated_at": "2022-06-09T17:50:01.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1080,
+                    "title": "Doença de Alzheimer",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2022-01-28T20:37:08.000Z",
+                    "updated_at": "2022-01-28T20:37:08.000Z",
+                    "pivot": {
+                        "discipline_id": 1080,
+                        "question_id": 14010
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 57347,
+                    "question_id": 14010,
+                    "description": "V - V - V",
+                    "explanation": "Falso, Doc! 🤔 \n- A afirmativa 3 é **incorreta**.\nConfira o comentário das afirmativas na alternativa correta. 😉",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-06-09T17:50:01.000Z",
+                    "updated_at": "2022-06-09T17:50:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57348,
+                    "question_id": 14010,
+                    "description": "F - F - V",
+                    "explanation": "Falso, Doc! 🤔 \n- As afirmativas I e II são **verdadeiras**\n- A afirmativa III é **falsa**\nConfira o comentário das afirmativas na alternativa correta. 😉 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-06-09T17:50:01.000Z",
+                    "updated_at": "2022-06-09T17:50:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57349,
+                    "question_id": 14010,
+                    "description": "V - F - V",
+                    "explanation": "Falso, Doc! 🤔 \n- A afimativa II é **verdadeira**\n- A afirmativa III é **falsa**\nConfira o comentário das afirmativas na alternativa correta. 😉 ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-06-09T17:50:01.000Z",
+                    "updated_at": "2022-06-09T17:50:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57350,
+                    "question_id": 14010,
+                    "description": "V - V - F",
+                    "explanation": "Certo, Doc! 😎\n\n👇 Confira aqui a **justificativ**a das afirmativas! \n\nI. V: As demências podem ser diferenciadas etiologicamente de forma primária pelo exame clínico, utilizando o **tempo** de evolução e a **ordem** com que as funções cognitivas vão sendo perdidas. \nII. V: A doença de Alzheimer costuma ter como principais manifestações iniciais a **amnésia** **anterógrada** (memória recente ou de aprendizado \"novo\") e a **perda do senso geográfico**.\nIII. F: Os distúrbios motores, como a paresia e espasticidade, **não são comuns** de serem encontrados na doença de Alzheimer, exceto em suas fases mais **finais**. \n\nParabéns! 🎉🎉",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2022-06-09T17:50:01.000Z",
+                    "updated_at": "2022-06-09T17:50:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57351,
+                    "question_id": 14010,
+                    "description": "F - V - V",
+                    "explanation": "Falso, Doc! 🤔 \n- A afirmativa I é **verdadeira**\n- A afirmativa III é **falsa**\nConfira o comentário das afirmativas na alternativa correta. 😉 ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2022-06-09T17:50:01.000Z",
+                    "updated_at": "2022-06-09T17:50:01.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 14010,
+                "questionary_id": 267620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 14018,
+            "institution_id": 4,
+            "description": "Sobre o diagnóstico da doença de Alzheimer, assinale a alternativa **CORRETA**:\n",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-06-10T18:52:25.000Z",
+            "updated_at": "2022-06-10T18:52:25.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1080,
+                    "title": "Doença de Alzheimer",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2022-01-28T20:37:08.000Z",
+                    "updated_at": "2022-01-28T20:37:08.000Z",
+                    "pivot": {
+                        "discipline_id": 1080,
+                        "question_id": 14018
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 57382,
+                    "question_id": 14018,
+                    "description": "O diagnóstico final é determinado pelos critérios do DSM IV ou V.",
+                    "explanation": "Falso, Doc! 🤔\n\n- O diagnóstico final somente é possível no pós-morte, através de um **exame** **neuropatológico** do cérebro por biópsia. \n- Quaisquer um dos demais critérios utilizados para a análise do paciente com **suspeita** de Doença de Alzheimer somente nos permite diagnosticar uma doença de Alzheimer **provável** ou **possível**🤓",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-06-10T18:52:25.000Z",
+                    "updated_at": "2022-06-10T18:52:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57383,
+                    "question_id": 14018,
+                    "description": "Após suspeita diagnótica, a dosagem de beta-amilóide e proteína TAU no líquor é o exame confirmatório normalmente realizado.",
+                    "explanation": "Falso, Doc! 🤔\n\n- O exame de dosagem de beta-amilóide e proteína TAU no líquor cefalorraquidiano é um exame possível, mas **não é obrigatório** e **nem** **confirmatório**. \n- O exame confirmatório somente é realizado por exame neuropatológico do cérebro por biópsia.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-06-10T18:52:25.000Z",
+                    "updated_at": "2022-06-10T18:52:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57384,
+                    "question_id": 14018,
+                    "description": "O encontro de déficits cognitivos somente durante o curso de delírio fala a favor de doença de Parkinson.",
+                    "explanation": "Falso, Doc! 🤔\n\n- O DSM-IV para doença de Alzheimer diz que os déficits cognitivos **não devem** ser observados em outros fatores, e **não podem** ocorrer *exclusivamente* durante um delírio. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-06-10T18:52:25.000Z",
+                    "updated_at": "2022-06-10T18:52:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57385,
+                    "question_id": 14018,
+                    "description": "O achado de atrofia de lobo parietal na tomografia computadorizada afasta o diagnóstico de doença de Alzheimer.",
+                    "explanation": "Falso, Doc! 🤔\n\n- No diagnóstico da doença de Alzheimer, a TC é um recurso complementar. \n- Nessa doença, a TC pode ser **normal** ou demonstrar algumas alterações um pouco mais características da DA, como: 👇\n1. Atrofia de hipocampo\n2. **Atrofia** **em** **lobos** **parietal** e/ou temporal. 🤓",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-06-10T18:52:25.000Z",
+                    "updated_at": "2022-06-10T18:52:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57386,
+                    "question_id": 14018,
+                    "description": "O diagnóstico ideal deve conter TC de crânio e exame de sangue com hormônios tireoidianos e vitamina B12.",
+                    "explanation": "Certo, Doc! 😎\n\n- Um dos critérios diagnósticos da doença de Alzheimer é a **exclusão de outras causas** de demência.\n- Para isso, precisamos de TC e exames laboratoriais que afastem outras hipóteses diagnósticas! 🤓\n\nParabéns!! 🎉",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2022-06-10T18:52:25.000Z",
+                    "updated_at": "2022-06-10T18:52:25.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 14018,
+                "questionary_id": 267620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 14019,
+            "institution_id": 15,
+            "description": "Na atualidade, o tratamento farmacológico preconizado para a demência de Alzheimer são as substâncias: \n ",
+            "difficulty": "easy",
+            "year": "2011-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-06-10T19:19:54.000Z",
+            "updated_at": "2022-06-10T19:19:54.000Z",
+            "user_id": 1475,
+            "is_residency": true,
+            "institution": {
+                "id": 15,
+                "title": "UFPR",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T21:15:10.000Z",
+                "updated_at": "2020-05-17T21:15:10.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1080,
+                    "title": "Doença de Alzheimer",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2022-01-28T20:37:08.000Z",
+                    "updated_at": "2022-01-28T20:37:08.000Z",
+                    "pivot": {
+                        "discipline_id": 1080,
+                        "question_id": 14019
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 57387,
+                    "question_id": 14019,
+                    "description": "Hipnóticos",
+                    "explanation": "Falso, Doc! 🤔\n\n- Os **hipnóticos** atuam em receptores GABA, provocando hiperpolarizçaão celular. São utilizados como depressores do SNC. 😣\n\n\n- Os medicamentos usados na doença de Alzheimer são os **anticolinesterásicos**\n- Esses fármacos atuam inibindo a enzima anticolinesterase, aumentando a quantidade de **acetilcolina** disponsível no cérebro. 🤓 ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-06-10T19:19:54.000Z",
+                    "updated_at": "2022-06-10T19:19:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57388,
+                    "question_id": 14019,
+                    "description": "Fitoterápicos",
+                    "explanation": "Falso, Doc! 🤔\n\n- Os medicamentos usados na doença de Alzheimer são os **anticolinesterásicos**\n- Esses fármacos atuam inibindo a enzima anticolinesterase, aumentando a quantidade de **acetilcolina** disponsível no cérebro. 🤓 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-06-10T19:19:54.000Z",
+                    "updated_at": "2022-06-10T19:19:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57389,
+                    "question_id": 14019,
+                    "description": "Anticolinérgicos",
+                    "explanation": "Falso, Doc! 🤔\n\n- Os anticolinérgicos atuam **diminuindo a ação da acetilcolina**, o que pioraria ainda mais as manifestações da Doença de Alzheimer. 😣\n\n- Os medicamentos usados na doença de Alzheimer são os **anticolinesterásicos**\n- Esses fármacos atuam inibindo a enzima anticolinesterase, aumentando a quantidade de **acetilcolina** disponsível no cérebro. 🤓 ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-06-10T19:19:54.000Z",
+                    "updated_at": "2022-06-10T19:19:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57390,
+                    "question_id": 14019,
+                    "description": "Anticolinesterásicas",
+                    "explanation": "Certo, Doc! 😎\n\n- Esses fármacos atuam inibindo a enzima anticolinesterase, aumentando a quantidade de **acetilcolina** disponsível no cérebro. 🤓 \n- **#dica** esses fármacos são utilizados para melhorar discretamente os sintomas e/ou diminuir a progressão da doença.\n- 👉 Ou seja, a DA é **incuráve**l, e os medicamentos atuam somente para retardar a piora do paciente. 😣\n\nParabéns!! 🎉",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2022-06-10T19:19:54.000Z",
+                    "updated_at": "2022-06-10T19:19:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57391,
+                    "question_id": 14019,
+                    "description": "Neurolépticas",
+                    "explanation": "Falso, Doc! 🤔\n\n- Os **neurolépticos** bloqueiam receptores de serotonina, não interferindo diretamente na progressão da DA. 😣\n\n- Os medicamentos usados na doença de Parkinson são os **anticolinesterásicos**\n- Esses fármacos atuam inibindo a enzima anticolinesterase, aumentando a quantidade de **acetilcolina** disponsível no cérebro. 🤓 \n\n",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2022-06-10T19:19:54.000Z",
+                    "updated_at": "2022-06-10T19:19:54.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 14019,
+                "questionary_id": 267620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 14021,
+            "institution_id": 4,
+            "description": "Sobre o manejo farmacológico do paciente com doença de Alzheimer, analise as afirmativas a seguir, e as julgue:\n\n1. O remédio de primeira linha é a memantina, um agonista do receptor de glutamato.\n2. Pode-se associar vitamina E e selegilina ao donepezil em pacientes sem IC.\n3. A desvantagem principal do uso de tacrina é a hepatotoxicidade. ",
+            "difficulty": "easy",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-06-10T19:42:16.000Z",
+            "updated_at": "2022-06-10T19:42:16.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1080,
+                    "title": "Doença de Alzheimer",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2022-01-28T20:37:08.000Z",
+                    "updated_at": "2022-01-28T20:37:08.000Z",
+                    "pivot": {
+                        "discipline_id": 1080,
+                        "question_id": 14021
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 57396,
+                    "question_id": 14021,
+                    "description": "V - V - V",
+                    "explanation": "Falso, Doc! 🤔 \n\n- A afirmativa I é **falsa**\n\nConfira na alternativa correta a **justificativa** para as afirmativas.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-06-10T19:42:16.000Z",
+                    "updated_at": "2022-06-10T19:42:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57397,
+                    "question_id": 14021,
+                    "description": "V - V - F",
+                    "explanation": "Falso, Doc! 🤔 \n\n- A afirmativa I é **falsa**\n- A afirmativa III é **verdadeira**\n\nConfira na alternativa correta a **justificativa** para as afirmativas. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-06-10T19:42:16.000Z",
+                    "updated_at": "2022-06-10T19:42:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57398,
+                    "question_id": 14021,
+                    "description": "F - F - V",
+                    "explanation": "Falso, Doc! 🤔 \n\n- A afirmativa II é **verdadeira**\n\nConfira na alternativa correta a **justificativa** para as afirmativas. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-06-10T19:42:16.000Z",
+                    "updated_at": "2022-06-10T19:42:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57399,
+                    "question_id": 14021,
+                    "description": "V - F - V",
+                    "explanation": "Falso, Doc! 🤔 \n\n- A afirmativa I é **falsa**\n- A afirmativa II é **verdadeira**\n\nConfira na alternativa correta a **justificativa** para as afirmativas. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-06-10T19:42:16.000Z",
+                    "updated_at": "2022-06-10T19:42:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57400,
+                    "question_id": 14021,
+                    "description": "F - V - V",
+                    "explanation": "Certo, Doc! 😎\n\nConfira aqui as **justificativas** para as afirmações: 👇\n\n1. F: a **memantina** **é reservada** para pacientes com quadros moderados ou graves, sendo *associada a um anticolinesterásico.* A monoterapia está indicada em pacientes com intolerância aos anticolinesterásicos.\n2. V: Juntamente com o **donepezil**, um anticolinesterásico de primeira linha, pode-se utlizar **antioxidantes** como a vitamina E e selegilina para pacientes com DA sem insuficiência cardíaca.\n3. V:  A **tacrina** possui como principal efeito adverso a **hepatotoxicidade**, quase não sendo mais utilizada na prática clínica!\n\nParabéns!! 🎉",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2022-06-10T19:42:16.000Z",
+                    "updated_at": "2022-06-10T19:42:16.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 14021,
+                "questionary_id": 267620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1836,
+            "institution_id": 4,
+            "description": "Assinale a alternativa **INCORRETA** em relação a doença de Alzheimer:",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-14T15:23:42.000Z",
+            "updated_at": "2022-01-28T20:37:21.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1080,
+                    "title": "Doença de Alzheimer",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2022-01-28T20:37:08.000Z",
+                    "updated_at": "2022-01-28T20:37:08.000Z",
+                    "pivot": {
+                        "discipline_id": 1080,
+                        "question_id": 1836
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7550,
+                    "question_id": 1836,
+                    "description": " As alterações cognitivas da doença de Alzheimer tendem a seguir um padrão típico, começando com deficiência de memória e expandindo-se para deficits visuoespaciais e da linguagem.",
+                    "explanation": "Perfeito doc!😁 A doença de Alzheimer segue um curso insiodioso, isto é, leva anos para desenvolver todos os sinais e sintomas. Geralmente, o quadro inicia com amnésia anterógrada e desorientação temporoespacial, seguindo, de modo progressivo, com distúrbio do raciocínio lógico, planejamento, linguagem, agnosias, apraxias e desinterese pelas atividades habituais!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-14T12:23:42.000Z",
+                    "updated_at": "2022-01-28T17:37:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7551,
+                    "question_id": 1836,
+                    "description": " A ênfase no tratamento é na melhora a longo prazo dos problemas comportamentais e neurológicos associados, bem como no fornecimento de suporte ao cuidador.",
+                    "explanation": "Perfeito doc!😁 É uma doença incurável, por isso, o tratamento visa melhorar os sintomas a longo prazo para condicionar uma melhor qualidade de vida para o paciente!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-14T12:23:42.000Z",
+                    "updated_at": "2022-01-28T17:37:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7552,
+                    "question_id": 1836,
+                    "description": "Os exames de neuroimagem, como tomografia computadorizada e ressonância magnética, detectam um padrão único específico da doença e sempre se encontram alterados no início de sua evolução.",
+                    "explanation": "Falso doc! Pegadinha do malandro!😴 O diagnóstico é de **exclusão** com uma clínica compatível com o quadro de doença de Alzheimer + exclusão de outras causas. A TC e a RM podem ser normais ou mostrar uma atrofia cerebral, não sendo muito específica para a doença! Doc, se liga nesse exemplo de TC de um paciente com doença de Alzheimer👇\n- Fonte: https://pt.slideshare.net/RafaelHigashi/doena-de-alzheimer-6893262",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-14T12:23:42.000Z",
+                    "updated_at": "2022-01-28T17:37:21.000Z",
+                    "files": [
+                        {
+                            "id": 16352,
+                            "file": "1a70900e-b449-4b67-9e72-9a88f7a64f7d.jpeg",
+                            "name": "00000000000000000000000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-08-06T01:20:14.000Z",
+                            "updated_at": "2021-08-06T01:20:14.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1a70900e-b449-4b67-9e72-9a88f7a64f7d.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 16352,
+                                "alternative_id": 7552
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 7553,
+                    "question_id": 1836,
+                    "description": "O tratamento é feito com anticolinesterásicos centrais",
+                    "explanation": "Perfeito doc!😁 Assim, aumentamos a quantidade de acelticolina na fenda sináptica, melhorando os sintomas da doença!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-14T12:23:42.000Z",
+                    "updated_at": "2022-01-28T17:37:21.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1836,
+                "questionary_id": 267620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1841,
+            "institution_id": 10,
+            "description": "É um achado relevante para o diagnóstico da doença de Alzheimer:\n\n",
+            "difficulty": "medium",
+            "year": "2013-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-14T16:28:24.000Z",
+            "updated_at": "2022-01-28T20:37:28.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 10,
+                "title": "SES-GO ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T14:20:45.000Z",
+                "updated_at": "2020-05-17T14:20:45.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1080,
+                    "title": "Doença de Alzheimer",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2022-01-28T20:37:08.000Z",
+                    "updated_at": "2022-01-28T20:37:08.000Z",
+                    "pivot": {
+                        "discipline_id": 1080,
+                        "question_id": 1841
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7571,
+                    "question_id": 1841,
+                    "description": "alteração progressiva do comportamento, com ausência de outras manifestações",
+                    "explanation": "Falso doc!😋 Geralmente temos alterações como amnésia anterógrada e perda do senso geográfico antes de alterações no comportamento!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-14T13:28:25.000Z",
+                    "updated_at": "2022-01-28T17:37:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7572,
+                    "question_id": 1841,
+                    "description": "afasia progressiva, sem outras manifestações cognitivas.",
+                    "explanation": "Falso doc!😋 Geralmente temos alterações como amnésia anterógrada e perda do senso geográfico antes da afasia. Além disso, quando encontramos perdas neurológicas focais, devemos direcionar nosso diagnóstico para outras causas, como as demências vasculares!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-14T13:28:25.000Z",
+                    "updated_at": "2022-01-28T17:37:28.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7573,
+                    "question_id": 1841,
+                    "description": "alteração de dois ou mais domínios cognitivos de forma progressiva.",
+                    "explanation": "Perfeito doc! Que orgulho!😍 Temos alterações, por exemplo, em memória e percepção geográfica no início da doença, e, com a evolução progressiva do quadro, podemos ter alterações na linguagem e diferentes graus de agnosia! Doc, saca só esse esquema👇\n- Fonte: https://www.medicinanet.com.br/conteudos/revisoes/5934/demencia_de_alzheimer_vascular_e_mista.htm",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-14T13:28:25.000Z",
+                    "updated_at": "2022-01-28T17:37:28.000Z",
+                    "files": [
+                        {
+                            "id": 16355,
+                            "file": "eda1b916-2fad-42c2-ab2c-063e4d5a1090.jpeg",
+                            "name": "20140910091101.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-08-06T01:40:22.000Z",
+                            "updated_at": "2021-08-06T01:40:22.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/eda1b916-2fad-42c2-ab2c-063e4d5a1090.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 16355,
+                                "alternative_id": 7573
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 7574,
+                    "question_id": 1841,
+                    "description": "afasia progressiva inicial associada a um domínio cognitivo.",
+                    "explanation": "Falso doc!😋 Geralmente temos alterações como amnésia anterógrada e perda do senso geográfico antes da afasia!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-14T13:28:25.000Z",
+                    "updated_at": "2022-01-28T17:37:28.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1841,
+                "questionary_id": 267620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10693,
+            "institution_id": 416,
+            "description": "O diagnóstico por imagem de ressonância magnética na doença de Alzheimer, com contexto clínico de deficit cognitivo, baseia-se, principalmente, em alterações encontradas no:",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-09-06T01:19:08.000Z",
+            "updated_at": "2022-01-28T20:37:37.000Z",
+            "user_id": 1570,
+            "is_residency": false,
+            "institution": {
+                "id": 416,
+                "title": "SES - GO",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-08-30T14:01:23.000Z",
+                "updated_at": "2021-08-30T14:01:23.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1080,
+                    "title": "Doença de Alzheimer",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2022-01-28T20:37:08.000Z",
+                    "updated_at": "2022-01-28T20:37:08.000Z",
+                    "pivot": {
+                        "discipline_id": 1080,
+                        "question_id": 10693
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43746,
+                    "question_id": 10693,
+                    "description": "Giro do cíngulo.",
+                    "explanation": "**Falso, doc!** As principais regiões anatômicas afetadas pela doença de Alzheimer são o córtex cerebral, o hipocampo e os ventrículos.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-09-05T22:19:08.000Z",
+                    "updated_at": "2022-01-28T17:37:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43747,
+                    "question_id": 10693,
+                    "description": "Hipocampo.",
+                    "explanation": "**Perfeito, doc**! A doença de Alzheimer é caracterizada por uma perda sináptica e neuronal sobretudo em regiões do cérebro ligadas à cognição, como o córtex cerebral, corpo estriado ventral e hipocampo. Inicialmente, o Alzheimer gera uma amnésia anterógrada, causando uma degeneração no hipocampo, estrutura fundamental para aquisição, armazenamento e organização da memória. **Doc**, se liga nessa imagem demonstrando as principais alterações anatômicas e histológicas causadas na fisiopatologia da doença de Alzheimer. 👇 \n- Fonte: http://aumagic.blogspot.com/2018/11/a-doenca-de-alzheimer-mais-frequente.html",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-09-05T22:19:08.000Z",
+                    "updated_at": "2022-01-28T17:37:37.000Z",
+                    "files": [
+                        {
+                            "id": 18985,
+                            "file": "a7986bfa-70b4-4c26-9b49-6255f3a531ef.png",
+                            "name": "alzheimer insta.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-09-05T22:15:05.000Z",
+                            "updated_at": "2021-09-05T22:15:05.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a7986bfa-70b4-4c26-9b49-6255f3a531ef.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 18985,
+                                "alternative_id": 43747
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 43748,
+                    "question_id": 10693,
+                    "description": "Fórnice.",
+                    "explanation": "**Falso, doc!** O deficit cognitivo da doença de Alzheimer está relacionado sobretudo à atrofia do hipocampo e às alterações corticais.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-09-05T22:19:08.000Z",
+                    "updated_at": "2022-01-28T17:37:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43749,
+                    "question_id": 10693,
+                    "description": "Lobo frontal.",
+                    "explanation": "**Falso, doc**! Quando pensamos em alterações neurodegenerativas do lobo frontal, geralmente estamos nos referindo à demência frontotemporal (doença de Pick)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-09-05T22:19:08.000Z",
+                    "updated_at": "2022-01-28T17:37:37.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10693,
+                "questionary_id": 267620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12466,
+            "institution_id": 573,
+            "description": "São características da dêmencia de Alzheimer:\n",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-01-26T22:38:13.000Z",
+            "updated_at": "2022-01-28T20:37:46.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 573,
+                "title": "Hospital Universitário Cassiano Antônio de Moraes",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2022-01-26T19:38:13.000Z",
+                "updated_at": "2022-01-26T19:38:13.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1080,
+                    "title": "Doença de Alzheimer",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2022-01-28T20:37:08.000Z",
+                    "updated_at": "2022-01-28T20:37:08.000Z",
+                    "pivot": {
+                        "discipline_id": 1080,
+                        "question_id": 12466
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 51107,
+                    "question_id": 12466,
+                    "description": "Convulsões e distúrbio de marcha precoces. ",
+                    "explanation": "\nFalso, Doc! 🤔 Não são características da doença de Alzheimer\n\n\n\n\n\n\n\n\n\n\n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-01-26T19:38:13.000Z",
+                    "updated_at": "2022-01-28T17:37:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 51108,
+                    "question_id": 12466,
+                    "description": "Sintomas psiquiátricos e vegetativos. ",
+                    "explanation": "Perfeito, Doc! 😍\n- A doença de Alzheimer é caracterizada por déficit na **memória anterógrada** e na **orientação temporoespacial**\n- Em fases mais avançadas há sintomas psicóticos e vegetativos\n\n\n\n ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-01-26T19:38:13.000Z",
+                    "updated_at": "2022-01-28T17:37:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 51109,
+                    "question_id": 12466,
+                    "description": "Atividades de vida diária preservadas. ",
+                    "explanation": "Falso, Doc! 🤔  Há grande perda, progressivva, da capacidade de execução das atividades de vida diária. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-01-26T19:38:13.000Z",
+                    "updated_at": "2022-01-28T17:37:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 51110,
+                    "question_id": 12466,
+                    "description": "Alteração neurológica focal. ",
+                    "explanation": "Falso, Doc! 🤔 Não é uma característica da doença de Alzheimer.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-01-26T19:38:13.000Z",
+                    "updated_at": "2022-01-28T17:37:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 51111,
+                    "question_id": 12466,
+                    "description": "História familiar ausente.",
+                    "explanation": "Falso, Doc! 🤔 Pode ser doença  esporádica ou familiar. Muitas vezes há associação familiar.",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2022-01-26T19:38:13.000Z",
+                    "updated_at": "2022-01-28T17:37:46.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12466,
+                "questionary_id": 267620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 14009,
+            "institution_id": 4,
+            "description": "Sobre a epidemiologia  e caracterização geral da doença de Alzheimer, assinale a alternativa CORRETA:",
+            "difficulty": "medium",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-06-09T15:47:57.000Z",
+            "updated_at": "2022-06-09T15:47:57.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1080,
+                    "title": "Doença de Alzheimer",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2022-01-28T20:37:08.000Z",
+                    "updated_at": "2022-01-28T20:37:08.000Z",
+                    "pivot": {
+                        "discipline_id": 1080,
+                        "question_id": 14009
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 57342,
+                    "question_id": 14009,
+                    "description": "A doença de Alzheimer é a segunda causa mais comum de demência no mundo, sendo responsável por cerca de 30% dos casos.",
+                    "explanation": "Falso, Doc! 🤔\n\n- A doença de Alzheimer é a **primeira** causa de demência no mundo, e é responsável por mais de **50% dos casos**. 🙀\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-06-09T15:47:57.000Z",
+                    "updated_at": "2022-06-09T15:47:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57343,
+                    "question_id": 14009,
+                    "description": "Acomete cerca de 10% dos pacientes acima de 85 anos.",
+                    "explanation": "Falso, Doc! 🤔\n\n- A doença de Alzheimer atinge até **20-40%** dos pacientes **acima dos 85 anos**. \n- Quando falamos de pacientes **acima de 65 anos**, e abaixo de 85 anos, a doença de Alzheimer acomete **5-10%** dos pacientes. 🤓",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-06-09T15:47:57.000Z",
+                    "updated_at": "2022-06-09T15:47:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57344,
+                    "question_id": 14009,
+                    "description": "Os principais fatores de risco são a idade avançada e a história familiar positiva. ",
+                    "explanation": "Certo, Doc! 😎\n\n- A doença de Alzheimer possui como principais fatores de risco a **idade** **avançada**, especialmente acima de 65 anos, e a **história** **familiar** **positiva**.\n\nParabéns!! 🎉",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2022-06-09T15:47:57.000Z",
+                    "updated_at": "2022-06-09T15:47:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57345,
+                    "question_id": 14009,
+                    "description": "É uma doença degenerativa de evolução súbita que envolve a amnésia retrógrada.",
+                    "explanation": "Falso, Doc! 🤔\n\n- A doença de Alzheimer é uma doença degenerativa que possui uma **evolução** **insidiosa**, sendo este**** um fator importantíssimo para a suspeita desse tipo de demência! 🤓\n- Além disso, a doença de Alzheimer envolve uma **amnésia** **anterógrada 👉** que compromete a memória de novas informações, como o que houve de forma recente.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-06-09T15:47:57.000Z",
+                    "updated_at": "2022-06-09T15:47:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57346,
+                    "question_id": 14009,
+                    "description": "O diagnóstico da demência degenerativa é determinado pelo comprometimento cognitivo e comportamental de pelo menos dois domínios.",
+                    "explanation": "Falso, Doc! 🤔\n\n- O diagnóstico de demência degenerativa é composto por **dois** **parâmetros!**\n- O comprometimento cognitivo e comportamental **E** o prejuízo funcional. \n\n- **Prejuízo funcional** 👉 comprometimento das atividades sociais e ocupacionais costumeiras do indivíduo! 🤓\n- Deve ser resultante das alterações **cognitivas**, e não devido à limitação física.",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2022-06-09T15:47:57.000Z",
+                    "updated_at": "2022-06-09T15:47:57.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 14009,
+                "questionary_id": 267620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 14011,
+            "institution_id": 4,
+            "description": "Sabemos que a demência por doença de Alzheimer e por infartos vasculares podem possuir manifestações semelhantes. Sobre isso, assinale a alternativa que contém a principal característica clínica da demência vascular que a diferencia da doença de Alzheimer:",
+            "difficulty": "medium",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-06-09T17:55:13.000Z",
+            "updated_at": "2022-06-09T17:55:13.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1080,
+                    "title": "Doença de Alzheimer",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2022-01-28T20:37:08.000Z",
+                    "updated_at": "2022-01-28T20:37:08.000Z",
+                    "pivot": {
+                        "discipline_id": 1080,
+                        "question_id": 14011
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 57352,
+                    "question_id": 14011,
+                    "description": "Evolução insidiosa.",
+                    "explanation": "Falso, Doc! 🤔\n\n- A demência vascular possui **início** **súbito** dos déficits neurológicos.\n- 🙀 **Cuidado, Doc**!\n- A questão solicita a caracterísitca da doença **vascular**. \n- Assim, uma evolução insidiosa seria mais característica da **doença de Alzheimer**.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-06-09T17:55:13.000Z",
+                    "updated_at": "2022-06-09T17:55:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57353,
+                    "question_id": 14011,
+                    "description": "Distúrbios motores.",
+                    "explanation": "Certo, Doc! 😎\n\n- Os distúrbios motores, como a síndrome piramidal e afasias motoras, são bem característicos da **clínica inicial** da demência vascular, auxiliando na  entre as duas condições. \n- 🤓 Hey Doc, lembre-se que outra característica diferencial entre essas duas demências é o fato de a demência vascular ter **início súbito** dos sintomas.\n\n\n🎉 Parabéns! 🎉",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-06-09T17:55:13.000Z",
+                    "updated_at": "2022-06-09T17:55:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57354,
+                    "question_id": 14011,
+                    "description": "Prejuízos funcionais. ",
+                    "explanation": "Falso, Doc!  🤔\n\n- Todas as demências neurodegenerativas são caracterizadas por **prejuízos funcionais**. \n- Assim, essa não seria uma característica que **diferenciaria** a doença de Alzheimer da demência vascular. 🤓",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-06-09T17:55:13.000Z",
+                    "updated_at": "2022-06-09T17:55:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57355,
+                    "question_id": 14011,
+                    "description": "RM demonstrando infartos cerebrais.",
+                    "explanation": "Falso, Doc! 🤔\n\n- A questão solicita um aspecto **clínico** de diferenciação.\n- Assim, ainda que uma RM com infartos cerebrais sugira uma demência vascular, essa alternativa não pode responder ao enunciado. 😣",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-06-09T17:55:13.000Z",
+                    "updated_at": "2022-06-09T17:55:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57356,
+                    "question_id": 14011,
+                    "description": "Distúrbios da memória.",
+                    "explanation": "Falso, Doc! 🤔\n\n- Os distúrbios da memória são alterações mais características da **doença** **de** **Alzheimer**, e o enunciado solicita a característica clínica da demência vascular. 🤓\n",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2022-06-09T17:55:13.000Z",
+                    "updated_at": "2022-06-09T17:55:13.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 14011,
+                "questionary_id": 267620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 14012,
+            "institution_id": 4,
+            "description": "Acerca da fisiopatologia da doença de Alzheimer, analise as seguintes afirmativas: \n1. É uma doença cortical com depleção de acetilcolina. \n2. O acúmulo de proteína amilóide no citoplasma neuronal causa degeneração neuronal. \n3. A perda dos novelos neurofibrilares auxilia no desenvolvimento da condição.\n\nAssinale a alternativa que julga corretamente as afirmativas,",
+            "difficulty": "medium",
+            "year": "2022-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-06-09T18:18:47.000Z",
+            "updated_at": "2022-06-09T18:18:47.000Z",
+            "user_id": 1475,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1080,
+                    "title": "Doença de Alzheimer",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2022-01-28T20:37:08.000Z",
+                    "updated_at": "2022-01-28T20:37:08.000Z",
+                    "pivot": {
+                        "discipline_id": 1080,
+                        "question_id": 14012
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 57357,
+                    "question_id": 14012,
+                    "description": "V - F - F",
+                    "explanation": "Certo, Doc! 😎\n\nConfira a seguir a **justificativa** das afirmações 👇\n1. V - A doença de Alzheimer consiste em uma demência do tipo **cortical**, decorrente da **depleção** **de** **acetilcolina** produzida, principalmente, pelos lobos parietias e temporais, hipocampo e núcleo basal de Meynert.\n2. F - A doença de Alzheimer possui em sua fisiopatologia o acúmulo de proteína beta-amilóide no **interstício**, e de novelos neurofibrilares de proteína tau no citoplasma dos neurônios, provocando morte neuronal.\n3. F - A doença de Alzheimer possui em sua fisiopatologia o **acúmulo** de novelos neurofibrilares no citoplasma dos neurônios, e não sua perda, provocando morte neuronal.\n\nParabéns!! 🎉\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-06-09T18:18:47.000Z",
+                    "updated_at": "2022-06-09T18:18:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57358,
+                    "question_id": 14012,
+                    "description": "V - V - F",
+                    "explanation": "Falso, Doc! 🤔 \n- A afirmativa II é **falsa**\nAcompanhe na alternativa correta na justificativa para as afirmações. 😜 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-06-09T18:18:47.000Z",
+                    "updated_at": "2022-06-09T18:18:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57359,
+                    "question_id": 14012,
+                    "description": "F - V - F",
+                    "explanation": "Falso, Doc! 🤔 \n- A afirmativa I é **verdadeira**\n- A afirmativa II é **falsa**\nAcompanhe na alternativa correta na justificativa para as afirmações. 😜 ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-06-09T18:18:47.000Z",
+                    "updated_at": "2022-06-09T18:18:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57360,
+                    "question_id": 14012,
+                    "description": "F - F - F",
+                    "explanation": "Falso, Doc! 🤔 \n- A afirmativa I é **verdadeira**\nAcompanhe na alternativa correta na justificativa para as afirmações. 😜 ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-06-09T18:18:47.000Z",
+                    "updated_at": "2022-06-09T18:18:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57361,
+                    "question_id": 14012,
+                    "description": "F - V - F",
+                    "explanation": "Falso, Doc! 🤔\n- A afirmativa I é **verdadeira**\n- A afirmativa II é **falsa**\n Acompanhe na alternativa correta na justificativa para as afirmações. 😜 \n\n",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2022-06-09T18:18:47.000Z",
+                    "updated_at": "2022-06-09T18:18:47.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 14012,
+                "questionary_id": 267620,
+                "timer": 0
+            }
+        },
+        {
+            "id": 14020,
+            "institution_id": 298,
+            "description": "No processo fisiopatológico da doença de Alzheimer (DA), da demência por corpos de\nLewy (DCL), e da degeneração lobar frontotemporal (DFT) destacam-se, respectivamente,\nos seguintes achados:\n ",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-06-10T19:34:05.000Z",
+            "updated_at": "2022-06-10T19:34:05.000Z",
+            "user_id": 1475,
+            "is_residency": true,
+            "institution": {
+                "id": 298,
+                "title": "FMUSP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-05-03T18:48:26.000Z",
+                "updated_at": "2021-05-03T18:48:26.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1080,
+                    "title": "Doença de Alzheimer",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2022-01-28T20:37:08.000Z",
+                    "updated_at": "2022-01-28T20:37:08.000Z",
+                    "pivot": {
+                        "discipline_id": 1080,
+                        "question_id": 14020
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 57392,
+                    "question_id": 14020,
+                    "description": "DA: peptídeo beta-amiloide e proteína tau; DCL: alfa-sinucleína; DFT: tau, ubiquitina, TDP-43 e FUS.",
+                    "explanation": "Certo, Doc! 😎\n\n- Importante saber a fisiopatologia das diferentes **demências** para poder diagnosticar entre elas! 💯\n\n- Na doença de **Alzheimer** há beta-amilóide e proteína TAU\n- Na demência por **corpos de lewy** há alfa-sinucleína ou corpos de lewy (inclusões eosinofílicas intracitoplasmáticas)\n- Na demência **frontotemporal** há TAU, ubiquitina, TDP-43 e FUS ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-06-10T19:34:05.000Z",
+                    "updated_at": "2022-06-10T19:34:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57393,
+                    "question_id": 14020,
+                    "description": "DA: ubiquitina; DCL: neurofilamento de cadeia leve; DFT: amiloide cerebral.",
+                    "explanation": "Falso, Doc! 🤔\n\n- Na **doença de Alzheimer**, há beta-amilóide e proteína TAU!\n\n- O foco da questão era lembrarmos da **fisiopatologia** da doença de Alzheimer. Mas para **#complementar** 👇\n1. DLC: alfa-sinucleína\n2. DFT: tau, ubiquitina, TDP-43 e FUS.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-06-10T19:34:05.000Z",
+                    "updated_at": "2022-06-10T19:34:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57394,
+                    "question_id": 14020,
+                    "description": "DA: placas senis e emaranhados neurofibrilares; DCL: corpúsculos de Pick; DFT: corpúsculos de Lewy.",
+                    "explanation": "Falso, Doc! 🤔\n\n- O foco da questão era lembrar da **fisiopatologia** da doença de Alzheimer, e isso você **acertou**!! 🎉 parabéns!!\n- A DA realmente possui placas senis de beta-amilóide e emaranhados neurofibrilares de proteína TAU!!\n\n- 😣 Essa alternativa está incorreta por conta da fisiopatologia das **demais demência**s! 😣",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-06-10T19:34:05.000Z",
+                    "updated_at": "2022-06-10T19:34:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 57395,
+                    "question_id": 14020,
+                    "description": "DA: apolipoproteína E; DCL: proteína 14-3-3; DFT: proteína priônica.",
+                    "explanation": "Falso, Doc! 🤔\n\n- Na **doença de Alzheimer**, há beta-amilóide e proteína TAU!\n- O foco da questão era  lembrarmos da **fisiopatologia** da doença de Alzheimer! Mas para **#complementar** 👇\n1. DLC: alfa-sinucleína\n2. DFT: tau, ubiquitina, TDP-43 e FUS. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-06-10T19:34:05.000Z",
+                    "updated_at": "2022-06-10T19:34:05.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 14020,
+                "questionary_id": 267620,
+                "timer": 0
+            }
+        }
+    ]
+}

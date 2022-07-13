@@ -1,0 +1,1505 @@
+{
+    "id": 268386,
+    "user_id": 1699,
+    "title": "Síndromes Nefríticas e Nefróticas na Pediatria",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-12T00:27:20.000Z",
+    "updated_at": "2022-07-12T00:27:20.000Z",
+    "study_plan_id": 1061,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 11913,
+            "institution_id": 4,
+            "description": "Qual é a principal causa de Síndrome Nefrótica na infância?",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-11-06T07:09:03.000Z",
+            "updated_at": "2021-11-06T07:09:03.000Z",
+            "user_id": 2296,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1036,
+                    "title": "Síndromes Nefríticas e Nefróticas na Pediátria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2021-11-05T22:39:30.000Z",
+                    "updated_at": "2021-11-05T22:39:30.000Z",
+                    "pivot": {
+                        "discipline_id": 1036,
+                        "question_id": 11913
+                    }
+                },
+                {
+                    "id": 414,
+                    "title": "Nefropediatria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2020-08-07T19:58:34.000Z",
+                    "updated_at": "2020-08-07T19:58:34.000Z",
+                    "pivot": {
+                        "discipline_id": 414,
+                        "question_id": 11913
+                    }
+                },
+                {
+                    "id": 189,
+                    "title": "Nefrologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-06-11T20:16:05.000Z",
+                    "updated_at": "2020-06-11T20:16:05.000Z",
+                    "pivot": {
+                        "discipline_id": 189,
+                        "question_id": 11913
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 48779,
+                    "question_id": 11913,
+                    "description": "Glomerulonefrite pós-estreptocócica",
+                    "explanation": "Falso doc! A glomeruloNEFRITE pós-estreptocócica causa, uma glomerulonefrite, como o nome sugere. O sinal predominante é de hematúria e a proteinúria não costuma ultrapassar níveis nefróticos.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-11-06T04:09:03.000Z",
+                    "updated_at": "2021-11-06T04:09:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48780,
+                    "question_id": 11913,
+                    "description": "Doença de Lesão Mínima",
+                    "explanation": "Boa doc! Correto! A Doença de Lesão Mínima é a Síndrome Nefrótica mais comum da infância e é de natureza auto-imune. Pode ser precedida por infecções virais, principalmente de via aérea e se apresenta com proteinúria maciça e edema.  Em geral, responde muito bem à corticóides.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-11-06T04:09:03.000Z",
+                    "updated_at": "2021-11-06T04:09:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48781,
+                    "question_id": 11913,
+                    "description": "Nefropatia por IgA",
+                    "explanation": "Falso doc! Pegadinha ein, mas a Nefropatia por IgA é a glomeruloNEFRITE mais comum, portanto, a maior causadora de Síndrome Nefrítica. Tem pico durante a adolescência e predomina no sexo masculino. Cursa com hematúria e possui prognóstico favorável.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-11-06T04:09:03.000Z",
+                    "updated_at": "2021-11-06T04:09:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48782,
+                    "question_id": 11913,
+                    "description": "Glomerulonefrite membranoproliferativa",
+                    "explanation": "Falso doc! Essa entidade pode apresentar tanto manifestações nefríticas quanto nefróticas. Em crianças, causa por volta de 10% das síndromes nefróticas. É imunomediada e se caracteriza pelo espessamento da membrana basal glomerular, cursando com sintomas de síndrome nefrótica como edema e hipertensão. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-11-06T04:09:03.000Z",
+                    "updated_at": "2021-11-06T04:09:03.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11913,
+                "questionary_id": 268386,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11911,
+            "institution_id": 4,
+            "description": "Paciente de 8 anos é trazido pela mãe ao serviço de emergência. Informante notou há 2 dias edema periorbital e, hoje, em tornozelos. Em exame parcial de urina lê-se proteínas +++/4+ e ausência de hematúria. É diagnosticada Síndrome Nefrótica por provável Doença de Lesão Mínima. Sobre o manejo dessa condição, assinale a alternativa correta:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-11-05T19:48:05.000Z",
+            "updated_at": "2021-11-05T19:48:05.000Z",
+            "user_id": 2296,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 240,
+                    "title": "Síndrome Nefrótica",
+                    "description": null,
+                    "parent_id": 189,
+                    "is_enabled": true,
+                    "created_at": "2020-06-22T13:29:54.000Z",
+                    "updated_at": "2020-06-22T13:29:54.000Z",
+                    "pivot": {
+                        "discipline_id": 240,
+                        "question_id": 11911
+                    }
+                },
+                {
+                    "id": 1036,
+                    "title": "Síndromes Nefríticas e Nefróticas na Pediátria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2021-11-05T22:39:30.000Z",
+                    "updated_at": "2021-11-05T22:39:30.000Z",
+                    "pivot": {
+                        "discipline_id": 1036,
+                        "question_id": 11911
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 48771,
+                    "question_id": 11911,
+                    "description": "Corticóides e diuréticos integram a conduta.",
+                    "explanation": "Boa doc! Essa alternativa está correta: a Doença por Lesão Mínima, principal causa de Síndrome Nefrótica na infância, em geral responde muito bem à corticóides. Os diuréticos servem para alívio dos sintomas congestivos.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-11-05T19:48:05.000Z",
+                    "updated_at": "2021-11-05T19:48:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48772,
+                    "question_id": 11911,
+                    "description": "Deve-se incentivar a ingesta de sal, por risco de hiponatremia.",
+                    "explanation": "Falso doc! A ingesta de sal tem por consequência a piora do edema, e não deve ser promovida. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-11-05T19:48:06.000Z",
+                    "updated_at": "2021-11-05T19:48:06.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48773,
+                    "question_id": 11911,
+                    "description": "A ingesta de fluídos não deve ser inibida.",
+                    "explanation": "Incorreta doc. A restrição hídrica deve ser aventada por risco de hiponatremia. Deve-se recomendar hidratação com solução isotônica salina. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-11-05T19:48:06.000Z",
+                    "updated_at": "2021-11-05T19:48:06.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48774,
+                    "question_id": 11911,
+                    "description": "Deve-se recomendar repouso, de preferência restrito ao leito.",
+                    "explanation": "Errado doc! Pelo contrário, deve-se estimular atividades: a Síndrome Nefrótica leva a um estado de hipercoagulabilidade, pela perda de fatores de anticoagulação (antitrombina e proteína S) na urina. Assim, restrição ao leito aumenta as chances de trombose venosa.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-11-05T19:48:06.000Z",
+                    "updated_at": "2021-11-05T19:48:06.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11911,
+                "questionary_id": 268386,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11914,
+            "institution_id": 4,
+            "description": "Paciente de 11 anos vem à emergência acompanhado pela mãe. Relata que há 2 dias tem apresentado urina escurecida, em cor de coca-cola. Também refere que há 3 dias apresentou dor de garganta, com resolução espontânea. Exame parcial de urina revela 1-2 leucócitos/campo (VR <5 leucócitos/campo); hemácias 110/campo (VR 3-5 hemácias/campo), proteínas 2+/4+, presença de cilindros hemáticos. O provável diagnóstico é:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-11-06T05:37:49.000Z",
+            "updated_at": "2021-11-06T05:37:49.000Z",
+            "user_id": 2296,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1036,
+                    "title": "Síndromes Nefríticas e Nefróticas na Pediátria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2021-11-05T22:39:30.000Z",
+                    "updated_at": "2021-11-05T22:39:30.000Z",
+                    "pivot": {
+                        "discipline_id": 1036,
+                        "question_id": 11914
+                    }
+                },
+                {
+                    "id": 414,
+                    "title": "Nefropediatria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2020-08-07T19:58:34.000Z",
+                    "updated_at": "2020-08-07T19:58:34.000Z",
+                    "pivot": {
+                        "discipline_id": 414,
+                        "question_id": 11914
+                    }
+                },
+                {
+                    "id": 189,
+                    "title": "Nefrologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-06-11T20:16:05.000Z",
+                    "updated_at": "2020-06-11T20:16:05.000Z",
+                    "pivot": {
+                        "discipline_id": 189,
+                        "question_id": 11914
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 48783,
+                    "question_id": 11914,
+                    "description": "Glomerulonefrite pós-Estreptocócica",
+                    "explanation": "Falso doc! Para diferenciar GNPE de Glomerulonefrite por IgA, a temporalidade é importante: na GNPE a dor de garganta precede a Síndrome Nefrítica em semanas, enquanto a Glomerulonefrite por IgA ocorre dias após o quadro viral.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-11-06T05:37:49.000Z",
+                    "updated_at": "2021-11-06T05:37:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48784,
+                    "question_id": 11914,
+                    "description": "Nefropatia por IgA",
+                    "explanation": "Arrasou doc! Essa alternativa é a correta: o quadro mostra uma Síndrome Nefrítica - hematúria, proteinúria que não chega à níveis nefróticos e cilindros hemáticos. Para diferenciar Nefropatia por IgA de Glomerulonefrite pós-Estreptocócica, devemos lembrar que a GNPE ocorre em média de 1-2 semanas após a infecção pelo Streptococcus pyogenes. Já a Nefropatia por IgA ocorre dias após sintomas virais.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-11-06T05:37:49.000Z",
+                    "updated_at": "2021-11-06T05:37:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48785,
+                    "question_id": 11914,
+                    "description": "Cistite complicada",
+                    "explanation": "Falso doc! Dica: sempre que houverem cilindros no parcial de urina, temos que pensar em dano renal. Os cilindros hemáticos são vistos nas Síndromes Nefríticas pelo dano aos túbulos renais. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-11-06T05:37:49.000Z",
+                    "updated_at": "2021-11-06T05:37:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48786,
+                    "question_id": 11914,
+                    "description": "Amiloidose",
+                    "explanation": "Errada doc! A amiloidose ocorre por acúmulo de proteínas mutantes em diversos órgãos, mas principalmente em rins. Lá, cursam com Síndrome Nefrótica, o que não é apresentado no caso acima. A amiloidose ocorre em idosos.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-11-06T05:37:49.000Z",
+                    "updated_at": "2021-11-06T05:37:49.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11914,
+                "questionary_id": 268386,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11915,
+            "institution_id": 4,
+            "description": "Paciente de 7 anos é diagnosticado por você com Síndrome Nefrótica, por Doença de Lesão Mínima. Sobre a evolução dessa doença, deve-se informar a mãe do paciente:",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-11-06T08:45:09.000Z",
+            "updated_at": "2021-11-06T09:12:27.000Z",
+            "user_id": 2296,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1036,
+                    "title": "Síndromes Nefríticas e Nefróticas na Pediátria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2021-11-05T22:39:30.000Z",
+                    "updated_at": "2021-11-05T22:39:30.000Z",
+                    "pivot": {
+                        "discipline_id": 1036,
+                        "question_id": 11915
+                    }
+                },
+                {
+                    "id": 414,
+                    "title": "Nefropediatria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2020-08-07T19:58:34.000Z",
+                    "updated_at": "2020-08-07T19:58:34.000Z",
+                    "pivot": {
+                        "discipline_id": 414,
+                        "question_id": 11915
+                    }
+                },
+                {
+                    "id": 189,
+                    "title": "Nefrologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-06-11T20:16:05.000Z",
+                    "updated_at": "2020-06-11T20:16:05.000Z",
+                    "pivot": {
+                        "discipline_id": 189,
+                        "question_id": 11915
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 48787,
+                    "question_id": 11915,
+                    "description": "Que ele está sujeito a maior risco de sangramento.",
+                    "explanation": "Falso doc! Esses pacientes estão em estado de hipercoagulabilidade: na proteinúria maciça são perdidas a antitrombina III e a proteína S, importantes anticoagulantes. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-11-06T05:45:09.000Z",
+                    "updated_at": "2021-11-06T06:12:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48788,
+                    "question_id": 11915,
+                    "description": "Que ele está sujeito à infecções.",
+                    "explanation": "Boooa doc! Isso mesmo. Esse paciente perdeu proteínas na urina, entre elas, anticorpos! ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-11-06T05:45:09.000Z",
+                    "updated_at": "2021-11-06T06:12:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48789,
+                    "question_id": 11915,
+                    "description": "Que a hidratação vigorosa é a medida terapêutica mais importante.",
+                    "explanation": "Falso doc! Esses pacientes perderam albumina na urina e, geralmente, estão edemaciados. A hiperhidratação nesses casos pode piorar os edemas e levar à hiponatremia.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-11-06T05:45:09.000Z",
+                    "updated_at": "2021-11-06T06:12:27.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48790,
+                    "question_id": 11915,
+                    "description": "Que é uma doença de extrema gravidade e provavelmente terá um desfecho desfavorável.",
+                    "explanation": "Incorreto doc! É uma doença de curso geralmente benigno, com boa resposta à corticóides.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-11-06T05:45:09.000Z",
+                    "updated_at": "2021-11-06T06:12:27.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11915,
+                "questionary_id": 268386,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11916,
+            "institution_id": 4,
+            "description": "Você está cuidando de uma criança com Síndrome Nefrítica aguda. Qual dos eventos abaixo provavelmente constará na história clínica desse paciente?",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-11-06T09:09:25.000Z",
+            "updated_at": "2021-11-06T09:09:25.000Z",
+            "user_id": 2296,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1036,
+                    "title": "Síndromes Nefríticas e Nefróticas na Pediátria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2021-11-05T22:39:30.000Z",
+                    "updated_at": "2021-11-05T22:39:30.000Z",
+                    "pivot": {
+                        "discipline_id": 1036,
+                        "question_id": 11916
+                    }
+                },
+                {
+                    "id": 189,
+                    "title": "Nefrologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-06-11T20:16:05.000Z",
+                    "updated_at": "2020-06-11T20:16:05.000Z",
+                    "pivot": {
+                        "discipline_id": 189,
+                        "question_id": 11916
+                    }
+                },
+                {
+                    "id": 414,
+                    "title": "Nefropediatria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2020-08-07T19:58:34.000Z",
+                    "updated_at": "2020-08-07T19:58:34.000Z",
+                    "pivot": {
+                        "discipline_id": 414,
+                        "question_id": 11916
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 48791,
+                    "question_id": 11916,
+                    "description": "História de ITU de repetição.",
+                    "explanation": "Falso doc! ITUs de repetição podem indicar má-formações em vias urinárias, mas não são causa de glomerulonefrite aguda.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-11-06T06:09:25.000Z",
+                    "updated_at": "2021-11-06T06:09:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48792,
+                    "question_id": 11916,
+                    "description": "História recente de infecção de pele.",
+                    "explanation": "Booooa doc! Uma história clínica positiva para Impetigo, causada pelo Streptococcus pyogenes, leva à pensar em uma Síndrome Nefrítica por Glomerulonefrite pós-estreptocócica.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-11-06T06:09:25.000Z",
+                    "updated_at": "2021-11-06T06:09:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48793,
+                    "question_id": 11916,
+                    "description": "Férias no campo, com natação em lagoa.",
+                    "explanation": "Falso doc! Nadar em água contaminada está relacionada à invasão por vermes do gênero Schistosoma. O Schistosoma haematobium  está associado à esquistossomose do aparelho urinário e pode causar hematúria.  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-11-06T06:09:25.000Z",
+                    "updated_at": "2021-11-06T06:09:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48794,
+                    "question_id": 11916,
+                    "description": "Pai com doença policística renal.",
+                    "explanation": "Errada doc! A Doença Policística Renal Autossomica Dominante, pode cursar com hematúria, mas não é causa de Síndrome Nefrítica. Ela se manifesta por dores abdominais e massas palpáveis e pode correr com falência renal.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-11-06T06:09:25.000Z",
+                    "updated_at": "2021-11-06T06:09:25.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11916,
+                "questionary_id": 268386,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11917,
+            "institution_id": 4,
+            "description": "Qual a principal causa de falência renal aguda em crianças?",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-11-06T09:22:10.000Z",
+            "updated_at": "2021-11-06T09:22:10.000Z",
+            "user_id": 2296,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1036,
+                    "title": "Síndromes Nefríticas e Nefróticas na Pediátria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2021-11-05T22:39:30.000Z",
+                    "updated_at": "2021-11-05T22:39:30.000Z",
+                    "pivot": {
+                        "discipline_id": 1036,
+                        "question_id": 11917
+                    }
+                },
+                {
+                    "id": 414,
+                    "title": "Nefropediatria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2020-08-07T19:58:34.000Z",
+                    "updated_at": "2020-08-07T19:58:34.000Z",
+                    "pivot": {
+                        "discipline_id": 414,
+                        "question_id": 11917
+                    }
+                },
+                {
+                    "id": 189,
+                    "title": "Nefrologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-06-11T20:16:05.000Z",
+                    "updated_at": "2020-06-11T20:16:05.000Z",
+                    "pivot": {
+                        "discipline_id": 189,
+                        "question_id": 11917
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 48795,
+                    "question_id": 11917,
+                    "description": "Glomerulonefrite pós-estreptocócica.",
+                    "explanation": "Faaalso doc! A principal causa é desidratação. A GNPE pode cursar raramente com Glomerulonefrite Rapidamente Progressiva, e então falência renal.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-11-06T06:22:10.000Z",
+                    "updated_at": "2021-11-06T06:22:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48796,
+                    "question_id": 11917,
+                    "description": "ITUs de repetição que progridem para Glomerulonefrite Rapidamente Progressiva.",
+                    "explanation": "Errado doc! ITUs de repetição não progridem para Glomerulonefrite Rapidamente Progressiva, pois se tratam de duas síndromes diferentes: ITUs podem causar pielonefrite, com hematúria, disuria e dor em flancos. As glomerulonefrites se tratam de doenças que afetam os glomérulos e cursam com hematúria, hipertensão e edema.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-11-06T06:22:10.000Z",
+                    "updated_at": "2021-11-06T06:22:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48797,
+                    "question_id": 11917,
+                    "description": "Pielonefrite.",
+                    "explanation": "Falso doc! Pielonefrites não tratadas podem cursar com falência renal, no entanto, essa não é a principal causa.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-11-06T06:22:10.000Z",
+                    "updated_at": "2021-11-06T06:22:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48798,
+                    "question_id": 11917,
+                    "description": "Injúria por causa pré-renal.",
+                    "explanation": "Arrasou doc!! A principal causa de injúria renal aguda em crianças é a desidratação! ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-11-06T06:22:10.000Z",
+                    "updated_at": "2021-11-06T06:22:10.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11917,
+                "questionary_id": 268386,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11918,
+            "institution_id": 4,
+            "description": "Você diagnostica uma criança de 6 anos com Glomerulonefrite pós-estreptocócica. São possíveis sinais e sintomas dessa condição, EXCETO:",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-11-06T09:29:30.000Z",
+            "updated_at": "2021-11-06T09:29:30.000Z",
+            "user_id": 2296,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1036,
+                    "title": "Síndromes Nefríticas e Nefróticas na Pediátria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2021-11-05T22:39:30.000Z",
+                    "updated_at": "2021-11-05T22:39:30.000Z",
+                    "pivot": {
+                        "discipline_id": 1036,
+                        "question_id": 11918
+                    }
+                },
+                {
+                    "id": 414,
+                    "title": "Nefropediatria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2020-08-07T19:58:34.000Z",
+                    "updated_at": "2020-08-07T19:58:34.000Z",
+                    "pivot": {
+                        "discipline_id": 414,
+                        "question_id": 11918
+                    }
+                },
+                {
+                    "id": 189,
+                    "title": "Nefrologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-06-11T20:16:05.000Z",
+                    "updated_at": "2020-06-11T20:16:05.000Z",
+                    "pivot": {
+                        "discipline_id": 189,
+                        "question_id": 11918
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 48799,
+                    "question_id": 11918,
+                    "description": "Proteinuria.",
+                    "explanation": "Essa alternativa está correta doc! As Síndromes Nefríticas podem correr com proteinúria, geralmente abaixo de 3,5g/24h (que caracterizaria Síndrome Nefrótica).",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-11-06T06:29:30.000Z",
+                    "updated_at": "2021-11-06T06:29:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48800,
+                    "question_id": 11918,
+                    "description": "Hematúria.",
+                    "explanation": "Certíssimo doc! Esse é o marco das Síndromes Nefríticas, junto de cilindros hemáticos.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-11-06T06:29:30.000Z",
+                    "updated_at": "2021-11-06T06:29:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48801,
+                    "question_id": 11918,
+                    "description": "Poliúria.",
+                    "explanation": "Boooooa doc! Essa alternativa é falsa. As glomerulonefrites não cursam com poliúria. Mas, podem cursar com oligúria se houver falência renal.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-11-06T06:29:30.000Z",
+                    "updated_at": "2021-11-06T06:29:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48802,
+                    "question_id": 11918,
+                    "description": "Edema.",
+                    "explanation": "Alternativa certa doc. As glomerulonefrites também cursam com edema, assim como as Síndromes Nefróticas. Em geral, o acúmulo de líquido ocorrem em mãoes e pés.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-11-06T06:29:30.000Z",
+                    "updated_at": "2021-11-06T06:29:30.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11918,
+                "questionary_id": 268386,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11956,
+            "institution_id": 512,
+            "description": "O quadro clínico denominado síndrome nefrótica pode ocorrer como consequência, em associação ou como parte de diferentes enfermidades e de múltiplas patologias renais. A causa mais comum de síndrome nefrótica idiopática primária na infância está associada a:",
+            "difficulty": "medium",
+            "year": "2013-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-11-10T22:04:42.000Z",
+            "updated_at": "2021-11-10T22:04:42.000Z",
+            "user_id": 2296,
+            "is_residency": false,
+            "institution": {
+                "id": 512,
+                "title": "CESPE/UnB ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-10-26T19:12:28.000Z",
+                "updated_at": "2021-10-26T19:12:28.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 414,
+                    "title": "Nefropediatria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2020-08-07T19:58:34.000Z",
+                    "updated_at": "2020-08-07T19:58:34.000Z",
+                    "pivot": {
+                        "discipline_id": 414,
+                        "question_id": 11956
+                    }
+                },
+                {
+                    "id": 189,
+                    "title": "Nefrologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-06-11T20:16:05.000Z",
+                    "updated_at": "2020-06-11T20:16:05.000Z",
+                    "pivot": {
+                        "discipline_id": 189,
+                        "question_id": 11956
+                    }
+                },
+                {
+                    "id": 1036,
+                    "title": "Síndromes Nefríticas e Nefróticas na Pediátria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2021-11-05T22:39:30.000Z",
+                    "updated_at": "2021-11-05T22:39:30.000Z",
+                    "pivot": {
+                        "discipline_id": 1036,
+                        "question_id": 11956
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 48950,
+                    "question_id": 11956,
+                    "description": "Glomerulonefrite membranoproliferativa.",
+                    "explanation": "Falso doc! A glomerulonefrite membranoproliferativa, apesar do nome, muitas vezes possui a co-apresentação síndrome nefrótica. No entanto, não possui alta incidência na população pediátrica.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-11-10T19:04:42.000Z",
+                    "updated_at": "2021-11-10T19:04:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48951,
+                    "question_id": 11956,
+                    "description": "Glomerulopatia membranosa.",
+                    "explanation": "A GM é causa de síndrome nefrótica, principalmente em adultos caucasianos. Não possui grande incidência na população pediátrica.  Sempre lembrar: a causa de síndrome nefrótica mais prevalente na pediatria é a Doença de Lesão Mínima.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-11-10T19:04:42.000Z",
+                    "updated_at": "2021-11-10T19:04:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48952,
+                    "question_id": 11956,
+                    "description": "Glomerulonefrite proliferativa mesangial.",
+                    "explanation": "Errada doc. Não deixe os nomes grandes te confundirem: a causa mais comum de síndrome nefrótica na infância é a Doença de Lesão Mínima.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-11-10T19:04:42.000Z",
+                    "updated_at": "2021-11-10T19:04:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48953,
+                    "question_id": 11956,
+                    "description": "Lesão glomerular mínima.",
+                    "explanation": "Arrasou doc! Essa resposta está correta. A lesão glomerular mínima, ou Donça de Lesão Mínima é a a causa mais comum de síndrome nefrótica na criança. Muitas vezes é idiopática, mas pode ter como gatilho uma infecção recente, vacinação e raramente, linfomas. Tem ótima resposta à corticóides.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-11-10T19:04:42.000Z",
+                    "updated_at": "2021-11-10T19:04:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48954,
+                    "question_id": 11956,
+                    "description": "Esclerose glomerular segmentar focal.",
+                    "explanation": "Falso doc! A EGSF é uma causa de síndrome nefrótica principalmente em adultos, e de causa idiopática. Pode estar relacionada à HIV, anemia falciforme, uso de heróna e obesidade.",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-11-10T19:04:42.000Z",
+                    "updated_at": "2021-11-10T19:04:42.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11956,
+                "questionary_id": 268386,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11957,
+            "institution_id": 480,
+            "description": "Na nefropatia por IgA, os depósitos mesangiais de IgA sugerem fortemente uma relação com outra glomerulonefrite presente em uma das seguintes doenças:\n ",
+            "difficulty": "medium",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-11-10T22:55:41.000Z",
+            "updated_at": "2021-11-10T22:55:41.000Z",
+            "user_id": 2296,
+            "is_residency": false,
+            "institution": {
+                "id": 480,
+                "title": "CS-UFG",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-10-05T00:16:06.000Z",
+                "updated_at": "2021-10-05T00:16:06.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 414,
+                    "title": "Nefropediatria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2020-08-07T19:58:34.000Z",
+                    "updated_at": "2020-08-07T19:58:34.000Z",
+                    "pivot": {
+                        "discipline_id": 414,
+                        "question_id": 11957
+                    }
+                },
+                {
+                    "id": 189,
+                    "title": "Nefrologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-06-11T20:16:05.000Z",
+                    "updated_at": "2020-06-11T20:16:05.000Z",
+                    "pivot": {
+                        "discipline_id": 189,
+                        "question_id": 11957
+                    }
+                },
+                {
+                    "id": 1036,
+                    "title": "Síndromes Nefríticas e Nefróticas na Pediátria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2021-11-05T22:39:30.000Z",
+                    "updated_at": "2021-11-05T22:39:30.000Z",
+                    "pivot": {
+                        "discipline_id": 1036,
+                        "question_id": 11957
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 48955,
+                    "question_id": 11957,
+                    "description": "Síndrome hemolítico-urêmica.",
+                    "explanation": "Falso doc! A Síndrome Hemolítica Urêmica pode se relacionar com Gastroenterites por Shigella, mas não tem correlação com doenças por depósito de IgA.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-11-10T19:55:41.000Z",
+                    "updated_at": "2021-11-10T19:55:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48956,
+                    "question_id": 11957,
+                    "description": "Púrpura de Henoch-Schöenlein.",
+                    "explanation": "Boa doc! Certíssima! A Nefropatia por IgA, também conhecida como Doença de Berger, descreve uma vasculite causada por IgA em território renal. A Púpura de Henoch-Schöenlein também é uma vasculite por IgA mas  com acometimento de diversos sistemas como o articular, cutâneo e visceral. Tente imaginar que a Nefropatia por IgA é uma das manifestações da Púrpura de Henoch-Schöenlein.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-11-10T19:55:41.000Z",
+                    "updated_at": "2021-11-10T19:55:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48957,
+                    "question_id": 11957,
+                    "description": "Glomerulonefrite difusa aguda.",
+                    "explanation": "Falso doc! A Glomerulonefrite difusa aguda geralmente se relaciona com infecçoes estreptocócicas, sendo chamada de Glomerulonefrite difusa aguda pós-estrepetocócica (GNPE). Ela não se relaciona com depósitos mesangiais de IgA, mas é uma reação de hipersensibilidade pois o dano é causado pela deposição de complexos imunes (complemento + IgG + IgM).",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-11-10T19:55:41.000Z",
+                    "updated_at": "2021-11-10T19:55:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48958,
+                    "question_id": 11957,
+                    "description": "Granulomatose necrotizante de Wegener",
+                    "explanation": "Incorreta doc. A Granulomatose com poliangiite é uma doença sistêmica, auto-imune, caracterizada por uma vasculite necrotizante granulomatosa. Tem natureza na imunidade celular, portanto fatores humorais como IgA não fazem parte da fisiopatologia.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-11-10T19:55:41.000Z",
+                    "updated_at": "2021-11-10T19:55:41.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11957,
+                "questionary_id": 268386,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11958,
+            "institution_id": 480,
+            "description": "A diminuição de C3 é bastante útil no diagnóstico e na evolução de algumas glomerulopatias agudas. Esta diminuição pode ocorrer em:\n ",
+            "difficulty": "medium",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-11-10T23:06:29.000Z",
+            "updated_at": "2021-11-10T23:06:29.000Z",
+            "user_id": 2296,
+            "is_residency": false,
+            "institution": {
+                "id": 480,
+                "title": "CS-UFG",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-10-05T00:16:06.000Z",
+                "updated_at": "2021-10-05T00:16:06.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 414,
+                    "title": "Nefropediatria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2020-08-07T19:58:34.000Z",
+                    "updated_at": "2020-08-07T19:58:34.000Z",
+                    "pivot": {
+                        "discipline_id": 414,
+                        "question_id": 11958
+                    }
+                },
+                {
+                    "id": 1036,
+                    "title": "Síndromes Nefríticas e Nefróticas na Pediátria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2021-11-05T22:39:30.000Z",
+                    "updated_at": "2021-11-05T22:39:30.000Z",
+                    "pivot": {
+                        "discipline_id": 1036,
+                        "question_id": 11958
+                    }
+                },
+                {
+                    "id": 189,
+                    "title": "Nefrologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-06-11T20:16:05.000Z",
+                    "updated_at": "2020-06-11T20:16:05.000Z",
+                    "pivot": {
+                        "discipline_id": 189,
+                        "question_id": 11958
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 48959,
+                    "question_id": 11958,
+                    "description": "Glomerulonefrite pós-infeciosa.",
+                    "explanation": "Arrasou doc! Os níveis de C3 ajudam a elucidar a etiologia das Síndromes Nefríticas. Na Glomerulonefrite pós-infeciosa o C3 encontra-se diminuído, devido ao consumo frente à resposta imune. Lembrando que o C3 é um fator do Sistema Complemento, ativado por IgM e IgG e que participa da fisiopatologia dessa doença por ao se depositar nos vasos renais. É uma reação de hipersensibilidade do tipo III.\n ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-11-10T20:06:29.000Z",
+                    "updated_at": "2021-11-10T20:06:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48960,
+                    "question_id": 11958,
+                    "description": "Glomerulopatia por IgA.",
+                    "explanation": "Falso doc. Nessa doença, O C3 não sofrerá alterações. O achado seria de IgA sérico aumentado.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-11-10T20:06:29.000Z",
+                    "updated_at": "2021-11-10T20:06:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48961,
+                    "question_id": 11958,
+                    "description": "Glomeruloesclerose segmentar e focal.",
+                    "explanation": "Incorreta doc! Essa é uma doença na qual a imunofluorescência, em geral, não encontra depósitos imunes. Nela, há apagamento dos podócitos - como na Doença de Lesão Mínima - e, em geral os níveis de C3 não estão diminuídos.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-11-10T20:06:29.000Z",
+                    "updated_at": "2021-11-10T20:06:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48962,
+                    "question_id": 11958,
+                    "description": "Glomerulonefrite por lesões mínimas.",
+                    "explanation": "Errada doc. A glomerulonefrite por lesões mínimas não é causada pela ativação do Sistema Complemento, e, sua biópsia com imunofluorescência é negativa. Os níveis de C3 não são alterados. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-11-10T20:06:29.000Z",
+                    "updated_at": "2021-11-10T20:06:29.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11958,
+                "questionary_id": 268386,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11960,
+            "institution_id": 480,
+            "description": "A síndrome nefrótica por lesões mínimas é a forma mais comum de síndrome nefrótica na infância. Acerca dessa síndrome, deve-se considerar o seguinte:\n ",
+            "difficulty": "medium",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-11-10T20:31:32.000Z",
+            "updated_at": "2021-11-10T20:31:32.000Z",
+            "user_id": 2296,
+            "is_residency": false,
+            "institution": {
+                "id": 480,
+                "title": "CS-UFG",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-10-05T00:16:06.000Z",
+                "updated_at": "2021-10-05T00:16:06.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 414,
+                    "title": "Nefropediatria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2020-08-07T19:58:34.000Z",
+                    "updated_at": "2020-08-07T19:58:34.000Z",
+                    "pivot": {
+                        "discipline_id": 414,
+                        "question_id": 11960
+                    }
+                },
+                {
+                    "id": 189,
+                    "title": "Nefrologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-06-11T20:16:05.000Z",
+                    "updated_at": "2020-06-11T20:16:05.000Z",
+                    "pivot": {
+                        "discipline_id": 189,
+                        "question_id": 11960
+                    }
+                },
+                {
+                    "id": 1036,
+                    "title": "Síndromes Nefríticas e Nefróticas na Pediátria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2021-11-05T22:39:30.000Z",
+                    "updated_at": "2021-11-05T22:39:30.000Z",
+                    "pivot": {
+                        "discipline_id": 1036,
+                        "question_id": 11960
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 48967,
+                    "question_id": 11960,
+                    "description": "A maioria dos casos responderá à corticoterapia em oito semanas.",
+                    "explanation": "Certíssimo doc! Essa doença tem uma excelente resposta à corticoterapia.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-11-10T20:31:32.000Z",
+                    "updated_at": "2021-11-10T20:31:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48968,
+                    "question_id": 11960,
+                    "description": "A biópsia renal é necessária entre dois e sete anos de idade.",
+                    "explanation": "Falso doc: lembre que a biópsia renal é um exame invasivo e, no caso das Síndromes Glomerulares em crianças, que geralmente correm de maneira benigna, tenta-se o teste terapêutico com corticoterapia. A biópsia é salva para casos refratários ao tratamento.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-11-10T20:31:32.000Z",
+                    "updated_at": "2021-11-10T20:31:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48969,
+                    "question_id": 11960,
+                    "description": "O acometimento no sexo feminino é sinal de mau prognóstico.",
+                    "explanation": "Errado doc: não existe associação entre o sexo e o prognóstico da doença, no entanto, a incidência é maior em meninos, numa proporção 3:2.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-11-10T20:31:32.000Z",
+                    "updated_at": "2021-11-10T20:31:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48970,
+                    "question_id": 11960,
+                    "description": " As causas secundárias devem ser investigadas nos casos com resposta terapêutica.",
+                    "explanation": "Falso doc. Se houver resposta à corticosteróides, não é necessário prosseguir com a investigação: na maioria das vezes a doença por lesão mínima é idiopática ou causada por gatilhos como infecções. Apenas em situações reservadas, e de sintomatologia diversa, a investigação deveria prosseguir para afastar a o diagnóstico de linfoma, uma das patologias associadas à doença de lesão mínima.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-11-10T20:31:32.000Z",
+                    "updated_at": "2021-11-10T20:31:32.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11960,
+                "questionary_id": 268386,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11919,
+            "institution_id": 4,
+            "description": "Paciente de 6 anos é admitido no serviço de emergência por dores articulares e dor abdominal há 4 dias. Hoje, surgiram manchas na pele, mostradas na imagem ao lado. Ao sondar o paciente, percebe-se urina avermelhada. Qual o provável diagnóstico?",
+            "difficulty": "hard",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-11-06T06:50:23.000Z",
+            "updated_at": "2021-11-06T06:50:23.000Z",
+            "user_id": 2296,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1036,
+                    "title": "Síndromes Nefríticas e Nefróticas na Pediátria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2021-11-05T22:39:30.000Z",
+                    "updated_at": "2021-11-05T22:39:30.000Z",
+                    "pivot": {
+                        "discipline_id": 1036,
+                        "question_id": 11919
+                    }
+                },
+                {
+                    "id": 189,
+                    "title": "Nefrologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-06-11T20:16:05.000Z",
+                    "updated_at": "2020-06-11T20:16:05.000Z",
+                    "pivot": {
+                        "discipline_id": 189,
+                        "question_id": 11919
+                    }
+                },
+                {
+                    "id": 414,
+                    "title": "Nefropediatria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2020-08-07T19:58:34.000Z",
+                    "updated_at": "2020-08-07T19:58:34.000Z",
+                    "pivot": {
+                        "discipline_id": 414,
+                        "question_id": 11919
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 48803,
+                    "question_id": 11919,
+                    "description": "Púrpura de Henoch-Scholein.",
+                    "explanation": "Booooa doc! A púrpura palpável, artralgias, dores abdominais e hematúria levam à hipótese de Henoch-Scholein. Essa é a vasculite de pequenos vasos mais comum na infância, com acometimento de diversos aparelho. Ela se caracteriza pela deposição de IgA nos vasos causando inflamação.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-11-06T06:50:23.000Z",
+                    "updated_at": "2021-11-06T06:50:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48804,
+                    "question_id": 11919,
+                    "description": "Eritema infeccioso.",
+                    "explanation": "Falso doc! O eritema infeccioso é causado pelo Parvovírus B19 e causa  exantema maculopapular que se inicia nas bochechas  (face esbofeteada), dor de garganta, febre baixa e dor de cabeça. Não cursa com hematúria.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-11-06T06:50:23.000Z",
+                    "updated_at": "2021-11-06T06:50:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48805,
+                    "question_id": 11919,
+                    "description": "Síndrome de Alport.",
+                    "explanation": "Essa alternativa está incorreta doc. A Síndrome de Alport é uma desordem hereditária, na qual a produção de colágeno tipo IV, constituinte da membrana basal, é afetado. É caracterizada por hematúria, freqüentemente levando à falência renal. Pode ser acompanhada por outras alterações como:perda auditiva  e alterações oculares. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-11-06T06:50:23.000Z",
+                    "updated_at": "2021-11-06T06:50:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 22775,
+                    "file": "5b8fa0c8-2d1e-4701-a0cb-50509e336589.jpeg",
+                    "name": "220px-Purpura2.JPG",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2021-11-06T06:36:55.000Z",
+                    "updated_at": "2021-11-06T06:36:55.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/5b8fa0c8-2d1e-4701-a0cb-50509e336589.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 22775,
+                        "question_id": 11919
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 11919,
+                "questionary_id": 268386,
+                "timer": 0
+            }
+        },
+        {
+            "id": 11959,
+            "institution_id": 480,
+            "description": "Um adolescente de 13 anos, do sexo masculino, é encaminhado para avaliação de hematúria microscópica, dismorfismo eritrocitário na urina de 90% e proteinúria de 24 horas = 500 mg/dia, sem outros sinais ou sintomas associados. O avô (materno) tem insuficiência renal e surdez, o irmão do avô faleceu apôs transplante renal e a mãe (filha única) tem hematúria desde a infância. No momento, a avaliação para distúrbios metabólicos, doenças autoimunes e doenças hematológicas são normais. A audiometria mostrou discreta hipoacusia neurossensorial leve.\n ",
+            "difficulty": "hard",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-11-10T23:22:12.000Z",
+            "updated_at": "2021-11-10T23:22:12.000Z",
+            "user_id": 2296,
+            "is_residency": false,
+            "institution": {
+                "id": 480,
+                "title": "CS-UFG",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-10-05T00:16:06.000Z",
+                "updated_at": "2021-10-05T00:16:06.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 414,
+                    "title": "Nefropediatria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2020-08-07T19:58:34.000Z",
+                    "updated_at": "2020-08-07T19:58:34.000Z",
+                    "pivot": {
+                        "discipline_id": 414,
+                        "question_id": 11959
+                    }
+                },
+                {
+                    "id": 189,
+                    "title": "Nefrologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-06-11T20:16:05.000Z",
+                    "updated_at": "2020-06-11T20:16:05.000Z",
+                    "pivot": {
+                        "discipline_id": 189,
+                        "question_id": 11959
+                    }
+                },
+                {
+                    "id": 1036,
+                    "title": "Síndromes Nefríticas e Nefróticas na Pediátria",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2021-11-05T22:39:30.000Z",
+                    "updated_at": "2021-11-05T22:39:30.000Z",
+                    "pivot": {
+                        "discipline_id": 1036,
+                        "question_id": 11959
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 48963,
+                    "question_id": 11959,
+                    "description": "Glomeruloesclerose segmentar e focal e biópsia renal com microscopia óptica.",
+                    "explanation": "Falso doc! Primeiramente, a GESF é causa de Síndrome Nefrótica, enquanto nosso caso descreve uma Síndrome Nefrítica. Também, essa doença não seria comum na população pediátrica.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-11-10T20:22:12.000Z",
+                    "updated_at": "2021-11-10T20:22:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48964,
+                    "question_id": 11959,
+                    "description": "Erro inato do metabolismo e biópsia renal com microscopia eletrônica.",
+                    "explanation": "Incorreta doc. Erros inatos do metabolismo, em geral, cursam com quadros floridos e de início precoce, não afetam múltiplos membros de uma família e afetam múltiplos sistemas. O quadro clinico descreve uma família na qual as principais manifestações são hematúria e surdez, o que nos direciona ao diagnóstico de Síndrome de Alport. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-11-10T20:22:12.000Z",
+                    "updated_at": "2021-11-10T20:22:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48965,
+                    "question_id": 11959,
+                    "description": " Síndrome de Alport e biópsia renal com microscopia eletrônica.",
+                    "explanation": "Boa doc! Arrasou! A doença de Alport é uma doença genética rara que se apresenta com a tríade: hematúria, surdez e alterações oculares. É causada por uma mutação no colágeno tipo IV, que forma as membranas basais (por isso a manifestação em diversos aparelhos). O diagnóstico é feito pro ME que mostra espessamento irregular da membrana basal além do padrão em \"cesta trançada\" (basket-weave).",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-11-10T20:22:12.000Z",
+                    "updated_at": "2021-11-10T20:22:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 48966,
+                    "question_id": 11959,
+                    "description": " Doença de membrana fina e biópsia renal com microscopia óptica.",
+                    "explanation": "Falso doc! Essa doença também é de origem genética, e explicaria a hematúria. No entanto, não explicaria a surdez. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-11-10T20:22:12.000Z",
+                    "updated_at": "2021-11-10T20:22:12.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 11959,
+                "questionary_id": 268386,
+                "timer": 0
+            }
+        }
+    ]
+}

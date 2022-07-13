@@ -1,0 +1,1972 @@
+{
+    "id": 268263,
+    "user_id": 1699,
+    "title": "Coma e Alteração no Nível de Consciência",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T23:39:42.000Z",
+    "updated_at": "2022-07-11T23:39:42.000Z",
+    "study_plan_id": 1238,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 1568,
+            "institution_id": 4,
+            "description": " A escala de coma de Glasgow, avalia os seguintes aspectos:  ",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-10T07:52:52.000Z",
+            "updated_at": "2022-04-11T23:01:07.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 182,
+                    "title": "Atendimento inicial ao politraumatizado",
+                    "description": null,
+                    "parent_id": 94,
+                    "is_enabled": true,
+                    "created_at": "2020-06-10T07:24:45.000Z",
+                    "updated_at": "2020-06-10T07:24:45.000Z",
+                    "pivot": {
+                        "discipline_id": 182,
+                        "question_id": 1568
+                    }
+                },
+                {
+                    "id": 299,
+                    "title": "Coma e Alteração do Nível de Consciência",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T06:54:00.000Z",
+                    "updated_at": "2022-04-11T22:17:45.000Z",
+                    "pivot": {
+                        "discipline_id": 299,
+                        "question_id": 1568
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6443,
+                    "question_id": 1568,
+                    "description": "Resposta motora, resposta verbal e resposta sensitiva",
+                    "explanation": "Falso doc!😋 Não há avaliação de resposta sensitiva, e faltou a resposta ocular!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-10T04:52:52.000Z",
+                    "updated_at": "2022-04-11T23:01:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6444,
+                    "question_id": 1568,
+                    "description": "Resposta motora, resposta verbal e abertura ocular",
+                    "explanation": "Perfeito doc!😁 Estes são os 3 itens avaliados na escala de Glasgow. Se liga nesse macete para lembrar das pontuaçõs: \n- Abertura ocular pode somar até 4 pontos=> OLHO tem 4 letras\n- Resposta verbal até 5 pontos=> FALAR tem 5 letras\n- Resposta motora até 6 pontos=> MOTORA tem 6 letras\n- Doc, para complementar seu aprendizado, dá uma olhada nessa tabela completinha da escala de coma de Glasgow👇\n- Fonte: https://www2.ufjf.br/neurologia/2018/12/11/escala-de-coma-de-glasgow-importancia-e-atualizacao-de-2018/",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-10T04:52:52.000Z",
+                    "updated_at": "2022-04-11T23:01:07.000Z",
+                    "files": [
+                        {
+                            "id": 8877,
+                            "file": "f7eb3bd7-a44e-4dbd-a88a-5cb6c9b0e434.png",
+                            "name": "Tabela-ECG.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-16T20:48:50.000Z",
+                            "updated_at": "2021-05-16T20:48:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f7eb3bd7-a44e-4dbd-a88a-5cb6c9b0e434.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8877,
+                                "alternative_id": 6444
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6445,
+                    "question_id": 1568,
+                    "description": "Resposta sensitiva, resposta verbal e abertura ocular",
+                    "explanation": "Falso doc! Pegadinha😋 Não há avaliação sensitiva, mas sim motora!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-10T04:52:52.000Z",
+                    "updated_at": "2022-04-11T23:01:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6446,
+                    "question_id": 1568,
+                    "description": "Resposta sensitiva, resposta verbal e diâmetro pupilar",
+                    "explanation": "Falso doc! 😋Não há avaliação sensitiva e faltou a abertura ocular e reposta motora. A avaliação das pupilas ainda não foi considerada no ATLS, apesar de ter sido lançada uma escala de coma de glasgow com avaliação associada da reatividade das pupilas!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-10T04:52:52.000Z",
+                    "updated_at": "2022-04-11T23:01:07.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1568,
+                "questionary_id": 268263,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2859,
+            "institution_id": 4,
+            "description": "As estruturas responsáveis por manter o NÍVEL DE CONSCIÊNCIA e o CONTEÚDO da consciência, respectivamente, são:",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-08T04:24:43.000Z",
+            "updated_at": "2022-01-29T18:19:29.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 299,
+                    "title": "Coma e Alteração do Nível de Consciência",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T06:54:00.000Z",
+                    "updated_at": "2022-04-11T22:17:45.000Z",
+                    "pivot": {
+                        "discipline_id": 299,
+                        "question_id": 2859
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11771,
+                    "question_id": 2859,
+                    "description": " Hemisférios cerebrais e Sistema Ativador Reticular Ascendente (SARA) ",
+                    "explanation": "Falso, Doc! 😋 \n- O SARA é o responsável pelo estado de alerta comportamental. Podemos dizer que é o fator \"QUANTITATIVO\" da consciência. Está ligado com a **atenção**.\n- Já os hemisférios cerebrais são os responsáveis pelo CONTEÚDO daquilo que processamos.\n\n\n\n\nDá uma olhada nessa imagem do SARA, Doc 👇:\n\n\n\n\nFonte da imagem: [https://suaprodutividade.com.br/sistema-ativador-reticular/](https://suaprodutividade.com.br/sistema-ativador-reticular/) ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-08T04:24:43.000Z",
+                    "updated_at": "2022-01-29T18:19:29.000Z",
+                    "files": [
+                        {
+                            "id": 26676,
+                            "file": "085cec84-c37b-4538-b989-77ea06d64bb3.jpeg",
+                            "name": "sistema-ativador-reticular-ascendente-SARA-capa.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-29T18:16:42.000Z",
+                            "updated_at": "2022-01-29T18:16:42.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/085cec84-c37b-4538-b989-77ea06d64bb3.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26676,
+                                "alternative_id": 11771
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11772,
+                    "question_id": 2859,
+                    "description": "Hemisférios cerebrais e Tálamo",
+                    "explanation": "Falso, Doc! 😋 \n- O SARA é o responsável pelo estado de alerta comportamental. Podemos dizer que é o fator \"QUANTITATIVO\" da consciência. Está ligado com a **atenção**.\n- Já os hemisférios cerebrais são os responsáveis pelo CONTEÚDO daquilo que processamos.\n\n\n\nDá uma olhada nessa imagem do SARA, Doc 👇:\n\n\n\n\nFonte da imagem: [https://suaprodutividade.com.br/sistema-ativador-reticular/](https://suaprodutividade.com.br/sistema-ativador-reticular/) ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-08T04:24:43.000Z",
+                    "updated_at": "2022-01-29T18:19:29.000Z",
+                    "files": [
+                        {
+                            "id": 26676,
+                            "file": "085cec84-c37b-4538-b989-77ea06d64bb3.jpeg",
+                            "name": "sistema-ativador-reticular-ascendente-SARA-capa.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-29T18:16:42.000Z",
+                            "updated_at": "2022-01-29T18:16:42.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/085cec84-c37b-4538-b989-77ea06d64bb3.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26676,
+                                "alternative_id": 11772
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11773,
+                    "question_id": 2859,
+                    "description": "Sistema Ativador Reticular Ascendente (SARA) e Hemisférios cerebrais",
+                    "explanation": "Muito bem, Doc! 😁 \n- O SARA é o responsável pelo estado de alerta comportamental. Podemos dizer que é o fator \"QUANTITATIVO\" da consciência. Está ligado com a **atenção**.\n- Já os hemisférios cerebrais são os responsáveis pelo CONTEÚDO daquilo que processamos.\n\nDá uma olhada nessa imagem do SARA, Doc 👇:\n\nFonte da imagem: [https://suaprodutividade.com.br/sistema-ativador-reticular/](https://suaprodutividade.com.br/sistema-ativador-reticular/)",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-08T04:24:43.000Z",
+                    "updated_at": "2022-01-29T18:19:29.000Z",
+                    "files": [
+                        {
+                            "id": 26676,
+                            "file": "085cec84-c37b-4538-b989-77ea06d64bb3.jpeg",
+                            "name": "sistema-ativador-reticular-ascendente-SARA-capa.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-29T18:16:42.000Z",
+                            "updated_at": "2022-01-29T18:16:42.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/085cec84-c37b-4538-b989-77ea06d64bb3.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26676,
+                                "alternative_id": 11773
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11774,
+                    "question_id": 2859,
+                    "description": "Tálamo e Hemisférios Cerebrais",
+                    "explanation": "Falso, Doc! 😋 \n- \nO SARA é o responsável pelo estado de alerta comportamental. Podemos dizer que é o fator \"QUANTITATIVO\" da consciência. Está ligado com a **atenção**.\n- \nJá os hemisférios cerebrais são os responsáveis pelo CONTEÚDO daquilo que processamos.\n\n\n\n\nDá uma olhada nessa imagem do SARA, Doc 👇:\n\n\n\n\nFonte da imagem: https://suaprodutividade.com.br/sistema-ativador-reticular/ ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-08T04:24:43.000Z",
+                    "updated_at": "2022-01-29T18:19:29.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2859,
+                "questionary_id": 268263,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13607,
+            "institution_id": 4,
+            "description": "Coma é um estado de consciência em que o indivíduo perde a percepção de si ou do ambiente e não oferece resposta aos estímulos externos. A respeito do coma, assinale a alternativa CORRETA:",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-11T22:39:40.000Z",
+            "updated_at": "2022-04-11T22:43:44.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 299,
+                    "title": "Coma e Alteração do Nível de Consciência",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T06:54:00.000Z",
+                    "updated_at": "2022-04-11T22:17:45.000Z",
+                    "pivot": {
+                        "discipline_id": 299,
+                        "question_id": 13607
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 55750,
+                    "question_id": 13607,
+                    "description": "Está relacionado com alterações do Sistema Reticular Ativador Ascendente, localizado no córtex cerebral, relacionado com o nível de consciência",
+                    "explanation": "Falso, Doc! 😋\n- **SARA** (localizado na região **posterior da ponte, mesencéfalo, tálamo e hipotálamo**) ➡ nível de consciência\n- **Hemiférios cerebrais** ➡  responsáveis pelo conteúdo da consciência\n\nQualquer alteração na interação entre esses dois sistemas pode levar a alterações da consciência e **coma**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-04-11T22:39:40.000Z",
+                    "updated_at": "2022-04-11T22:43:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55751,
+                    "question_id": 13607,
+                    "description": "As lesões que levam ao coma são normalmente supratentoriais",
+                    "explanation": "Falso, Doc! 😋 Para causar coma, a lesão deve ser extensa. Por isso, grande parte dos casos estão relacionados com causas **tóxico-metabólicas,** e não com lesões focais**.** As causas podem ser:\n- Infratentoriais ➡ cerca de 15% dos casos, quando é atingido o SARA\n- Supratentoriais ➡  cerca de 20% dos casos, mas tem de ser **extensa,** comprimindo o SARA ou um dos hemisférios\n- Encefalopatias **difusas/multifocais** ➡ **65% dos casos (mais comum)**\n\nAs causas podem ser metabólicas, tóxicas, infecções, doenças cerebrovasculares, neoplasias, lesões traumáticas, etc. \n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-04-11T22:39:40.000Z",
+                    "updated_at": "2022-04-11T22:43:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55752,
+                    "question_id": 13607,
+                    "description": "Se o paciente estiver em descerebração, consideramos que a lesão deve ter acometido a região infratentorial",
+                    "explanation": "Arrasou, Doc! 🤩 Devemos avaliar o padrão motor e respiratório do paciente. Sobre o aspecto motor ele podemos ter alguns padrões, pela forma como o paciente reage ao **estímulo doloros**o:\n- Decorticação ➡  lesão supratentorial\n- Descerebração ➡ lesão infratentorial\n- Flacidez ou ausência de reflexos ➡ lesão periférica associada\n\nDoc, não lembra como são as posturas de decorticação e descerebração? Saca só 👇:\n\nFonte da imagem: [https://www.facebook.com/Labsonhos/posts/1287780188237622/](https://www.facebook.com/Labsonhos/posts/1287780188237622/)",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2022-04-11T22:39:40.000Z",
+                    "updated_at": "2022-04-11T22:43:44.000Z",
+                    "files": [
+                        {
+                            "id": 33559,
+                            "file": "c6e64d64-a818-4f25-97a2-55006ab1341d.jpeg",
+                            "name": "120468702_1287780164904291_482264992504521124_n.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-04-11T22:39:28.000Z",
+                            "updated_at": "2022-04-11T22:39:28.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c6e64d64-a818-4f25-97a2-55006ab1341d.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 33559,
+                                "alternative_id": 55752
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 55753,
+                    "question_id": 13607,
+                    "description": "Após a estabilização do paciente pelo ABCDE e aferição da glicemia, deve-se proceder com o exame neurológico completo",
+                    "explanation": "Falso, Doc! 😣 O exame neurológico nesses casos deve ser **rápido e direcionad**o, avaliando:\n- Nível de consciência (Glasgow)\n- Pupilas, motricidade ocular e fundo de olho\n- Padrão respiratório e motor ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-11T22:39:40.000Z",
+                    "updated_at": "2022-04-11T22:43:44.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13607,
+                "questionary_id": 268263,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13608,
+            "institution_id": 4,
+            "description": "Qual desses não faz parte do exame de um paciente em coma?",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-04-11T22:56:26.000Z",
+            "updated_at": "2022-04-11T23:00:43.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 299,
+                    "title": "Coma e Alteração do Nível de Consciência",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T06:54:00.000Z",
+                    "updated_at": "2022-04-11T22:17:45.000Z",
+                    "pivot": {
+                        "discipline_id": 299,
+                        "question_id": 13608
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 55754,
+                    "question_id": 13608,
+                    "description": "Avaliação dos reflexos miotáticos",
+                    "explanation": "Boa, Doc, essa é a incorreta! 🤓\n- A avaliação somática do paciente comatoso não envolve a avaliação de reflexos tendinosos/miotáticos. Ele não irá apresentá-los!\n- O que devemos fazer é avaliar possíveis reflexos a **estímulos dolorosos e táteis.** Exemplos são os padrões de descerebração e decorticação em resposta a estímulo doloroso, o reflexo corneopalpebral, etc. \n\nDoc, dá uma olhada no comentário das outras alternativas para aprofundar seus conhecimentos 😉 ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-04-11T22:56:26.000Z",
+                    "updated_at": "2022-04-11T23:00:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55755,
+                    "question_id": 13608,
+                    "description": "Avaliação do padrão respiratório",
+                    "explanation": "Essa deve ser feita, sim, Doc! 😇 Deve-se sempre avaliar o padrão respiratório, que pode ser Cheyne-Stokes, Kussmaul, apnêustico, de Biot, hiperventilação neurogênica, entre outros. \n\nVeja no esquema 👇 :\n\nFonte da imagem: [https://www.revistas.usp.br%2Frevistadc%2Farticle%2Fdownload%2F59185%2F62203%2F76094&psig=AOvVaw0hnJEJNNPbkerxC3TAiJnk&ust=1649803813426000&source=images&cd=vfe&ved=0CAsQjhxqFwoTCKjqq6WMjfcCFQAAAAAdAAAAABAP](https://www.revistas.usp.br%2Frevistadc%2Farticle%2Fdownload%2F59185%2F62203%2F76094&psig=AOvVaw0hnJEJNNPbkerxC3TAiJnk&ust=1649803813426000&source=images&cd=vfe&ved=0CAsQjhxqFwoTCKjqq6WMjfcCFQAAAAAdAAAAABAP)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-04-11T22:56:26.000Z",
+                    "updated_at": "2022-04-11T23:00:43.000Z",
+                    "files": [
+                        {
+                            "id": 33561,
+                            "file": "27bb0e94-f1d4-4ee4-a292-2730671a1e1a.jpeg",
+                            "name": "Captura de tela 2022-04-11 195059.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-04-11T22:52:25.000Z",
+                            "updated_at": "2022-04-11T22:52:25.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/27bb0e94-f1d4-4ee4-a292-2730671a1e1a.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 33561,
+                                "alternative_id": 55755
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 55756,
+                    "question_id": 13608,
+                    "description": "Resposta óculocefálica",
+                    "explanation": "Essa deve ser feita, sim, Doc! 😇 Pode ser avaliada pela:\n- Resposta **oculocefálica** ➡ movimento dos olhos quando se movimenta a cabeça (normal em pacientes saudáveis é os olhos irem no sentido oposto - ausente ou assimétrico indica lesão do tronco cerebral)\n- Resposta **calórica** ➡  injeta-se água gelada no canal auditivo (a resposta normal seria os olhos irem lentamente para o lado irrigado - ausente ou assimétrico indica lesão de tronco cerebral)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-04-11T22:56:26.000Z",
+                    "updated_at": "2022-04-11T23:00:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55757,
+                    "question_id": 13608,
+                    "description": "Fundo de olho",
+                    "explanation": "Essa deve ser feita, sim, Doc! 😇 Deve-se avaliar a motricidade ocular:\n- Extrínseca ➡ reflexo oculocefálico/olhos de boneca e oculovestibular/resposta calórica\n- E intrínsecos ➡  fundo de olho e pupilas (reflexo fotomotor direto e consensual)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-04-11T22:56:26.000Z",
+                    "updated_at": "2022-04-11T23:00:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 55758,
+                    "question_id": 13608,
+                    "description": "Avaliação do nível de consciência",
+                    "explanation": "Essa deve ser feita, sim, Doc!!!! 😬 O paciente está em coma! Você precisa classificá-lo de acordo com a escala de coma de Glasgow!",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2022-04-11T22:56:26.000Z",
+                    "updated_at": "2022-04-11T23:00:43.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13608,
+                "questionary_id": 268263,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1564,
+            "institution_id": 4,
+            "description": "Mulher de 40 anos, vítima de colisão carro-carro é atendido na emergência. A avaliação neurológica é a seguinte: abertura ocular sem resposta aos estímulos, emissão de sons incompreensíveis e movimento de decorticação. De acordo com a classificação pela escala de coma de Glasgow, o paciente encontra-se no seguinte valor:  ",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-10T07:40:04.000Z",
+            "updated_at": "2022-04-11T22:19:15.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 182,
+                    "title": "Atendimento inicial ao politraumatizado",
+                    "description": null,
+                    "parent_id": 94,
+                    "is_enabled": true,
+                    "created_at": "2020-06-10T07:24:45.000Z",
+                    "updated_at": "2020-06-10T07:24:45.000Z",
+                    "pivot": {
+                        "discipline_id": 182,
+                        "question_id": 1564
+                    }
+                },
+                {
+                    "id": 299,
+                    "title": "Coma e Alteração do Nível de Consciência",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T06:54:00.000Z",
+                    "updated_at": "2022-04-11T22:17:45.000Z",
+                    "pivot": {
+                        "discipline_id": 299,
+                        "question_id": 1564
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6427,
+                    "question_id": 1564,
+                    "description": "8",
+                    "explanation": "Falso doc! 😋 Confira o comentário completo na alternativa correta! ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-10T04:40:04.000Z",
+                    "updated_at": "2022-04-11T22:19:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6428,
+                    "question_id": 1564,
+                    "description": "6",
+                    "explanation": "Perfeito doc! Mandou bem demais 😁Para o cálculo, devemos observar as pontuações para:\n- Abertura ocular: sem resposta a estímulos soma 1 ponto\n- Resposta verbal: sons incompreensíveis somam 2 pontos\n- Resposta motora: decorticação (flexão anormal) soma 3 pontos\n- 1+2+3 = 6\n- Doc, para complementar o seu aprendizado, se liga nessa tabela completinha👇\n- Fonte: https://www2.ufjf.br/neurologia/2018/12/11/escala-de-coma-de-glasgow-importancia-e-atualizacao-de-2018/",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-10T04:40:04.000Z",
+                    "updated_at": "2022-04-11T22:19:15.000Z",
+                    "files": [
+                        {
+                            "id": 8877,
+                            "file": "f7eb3bd7-a44e-4dbd-a88a-5cb6c9b0e434.png",
+                            "name": "Tabela-ECG.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-05-16T20:48:50.000Z",
+                            "updated_at": "2021-05-16T20:48:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f7eb3bd7-a44e-4dbd-a88a-5cb6c9b0e434.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8877,
+                                "alternative_id": 6428
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6429,
+                    "question_id": 1564,
+                    "description": "7",
+                    "explanation": "Falso doc! 😋 Confira o comentário completo na alternativa correta!  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-10T04:40:04.000Z",
+                    "updated_at": "2022-04-11T22:19:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6430,
+                    "question_id": 1564,
+                    "description": "13",
+                    "explanation": "Falso doc! 😋 Confira o comentário completo na alternativa correta!  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-10T04:40:04.000Z",
+                    "updated_at": "2022-04-11T22:19:15.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1564,
+                "questionary_id": 268263,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1815,
+            "institution_id": 4,
+            "description": "Paciente vítima de acidente por arma de fogo encontra-se com nível de consciência rebaixada. Apresenta-se no momento com freqüência cardíaca de 94; Pressão arterial 130x80; 16 incursões respiratórias por minuto; boa perfusão periférica; abertura ocular espontânea; pupilas fotoreagentes; localizando a dor à estímulos dolorosos; resposta verbal confusa. De acordo com a escala de coma de Glasgow, qual é a pontuação no presente momento?  ",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-14T04:45:11.000Z",
+            "updated_at": "2022-04-11T23:01:30.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 205,
+                    "title": "Trauma Cranioencefálico",
+                    "description": null,
+                    "parent_id": 94,
+                    "is_enabled": true,
+                    "created_at": "2020-06-14T06:59:02.000Z",
+                    "updated_at": "2020-06-14T06:59:02.000Z",
+                    "pivot": {
+                        "discipline_id": 205,
+                        "question_id": 1815
+                    }
+                },
+                {
+                    "id": 299,
+                    "title": "Coma e Alteração do Nível de Consciência",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T06:54:00.000Z",
+                    "updated_at": "2022-04-11T22:17:45.000Z",
+                    "pivot": {
+                        "discipline_id": 299,
+                        "question_id": 1815
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7461,
+                    "question_id": 1815,
+                    "description": "11",
+                    "explanation": "Falso doc!😋 Confira o comentário completo na alternativa correta. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-14T04:45:11.000Z",
+                    "updated_at": "2022-04-11T23:01:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7462,
+                    "question_id": 1815,
+                    "description": "9",
+                    "explanation": "Falso doc!😋 Confira o comentário completo na alternativa correta.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-14T04:45:11.000Z",
+                    "updated_at": "2022-04-11T23:01:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7463,
+                    "question_id": 1815,
+                    "description": "12",
+                    "explanation": "Falso doc!😋 Confira o comentário completo na alternativa correta.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-14T04:45:11.000Z",
+                    "updated_at": "2022-04-11T23:01:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7464,
+                    "question_id": 1815,
+                    "description": "13",
+                    "explanation": "Perfeito doc! Arrasou!😍 Saca só:\n- Resposta ocular espontânea = 4 pontos\n- Resposta verbal confusa = 4 pontos \n- Resposta motora localizando a dor = 5 pontos\n- Totalizando =  13 pontos",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-14T04:45:11.000Z",
+                    "updated_at": "2022-04-11T23:01:30.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1815,
+                "questionary_id": 268263,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2860,
+            "institution_id": 4,
+            "description": "Sobre a avaliação do reflexo óculo-cefálico, assinale a alternativa correta:",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-08T07:31:40.000Z",
+            "updated_at": "2022-05-04T22:12:35.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 299,
+                    "title": "Coma e Alteração do Nível de Consciência",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T06:54:00.000Z",
+                    "updated_at": "2022-04-11T22:17:45.000Z",
+                    "pivot": {
+                        "discipline_id": 299,
+                        "question_id": 2860
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11775,
+                    "question_id": 2860,
+                    "description": "Essa avaliação tem o objetivo de testar a integridade do tálamo.",
+                    "explanation": "Falso, Doc! 🤔 Esta avaliação tem o objetivo de testar a integridade do **tronco encefálico**.\n\n\nDoc, dá uma olhada nas vias do reflexo vestibulo-ocular (que passam pelo tronco encefálico) 👇:\n\nFonte da imagem : [https://commons.wikimedia.org/wiki/File:1419_Vestibulo-Ocular_Reflex.jpg](https://commons.wikimedia.org/wiki/File:1419_Vestibulo-Ocular_Reflex.jpg) \n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-08T04:31:40.000Z",
+                    "updated_at": "2022-05-04T22:12:35.000Z",
+                    "files": [
+                        {
+                            "id": 26677,
+                            "file": "c82ba8d2-ff4b-4495-b353-6a83fc7d8a4f.jpeg",
+                            "name": "1419_Vestibulo-Ocular_Reflex (2).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-29T18:25:18.000Z",
+                            "updated_at": "2022-01-29T18:25:18.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c82ba8d2-ff4b-4495-b353-6a83fc7d8a4f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26677,
+                                "alternative_id": 11775
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11776,
+                    "question_id": 2860,
+                    "description": "No teste aplicando água quente nos ouvidos, o normal é que o olhar se mova para o lado da água quente.",
+                    "explanation": "Falso, Doc! 🤔 Esta avaliação tem o objetivo de testar a integridade do **tronco encefálico** e pode ser feita das seguintes formas:\n- Teste da água **quente** => olho se move para o lado **oposto**\n- Teste da água **fria** => se move para o **mesmo** lado\n\n\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-08T04:31:40.000Z",
+                    "updated_at": "2022-05-04T22:12:35.000Z",
+                    "files": [
+                        {
+                            "id": 26678,
+                            "file": "4df33028-79b7-4e7e-a546-bf86ca4c035d.png",
+                            "name": "Lawrence_1960_13.8.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-29T18:29:27.000Z",
+                            "updated_at": "2022-01-29T18:29:27.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4df33028-79b7-4e7e-a546-bf86ca4c035d.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26678,
+                                "alternative_id": 11776
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11777,
+                    "question_id": 2860,
+                    "description": "Ao movimentar a cabeça para a direita, o normal é que os olhos realizem movimento em sentido OPOSTO à cabeça",
+                    "explanation": "Perfeito, Doc! 😍 \n- Essa é uma manobra usada para avaliar a integridade do **tronco encefálico**. \n- Chamada de Manobra dos **Olhos de Boneca.** \n- Realizam-se movimentos bruscos da cabeça para a direita e esquerda, e depois flexão e extensão. O normal é que os olhos realizem movimentos em igual direção e velocidade, porém em **sentido contrário** da cabeça.\n\n\nDoc, dá uma olhada nas vias do reflexo vestibulo-ocular (que passam pelo tronco encefálico) 👇:\n\nFonte da imagem : [https://commons.wikimedia.org/wiki/File:1419_Vestibulo-Ocular_Reflex.jpg](https://commons.wikimedia.org/wiki/File:1419_Vestibulo-Ocular_Reflex.jpg)  ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-08T04:31:40.000Z",
+                    "updated_at": "2022-05-04T22:12:35.000Z",
+                    "files": [
+                        {
+                            "id": 26677,
+                            "file": "c82ba8d2-ff4b-4495-b353-6a83fc7d8a4f.jpeg",
+                            "name": "1419_Vestibulo-Ocular_Reflex (2).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-29T18:25:18.000Z",
+                            "updated_at": "2022-01-29T18:25:18.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c82ba8d2-ff4b-4495-b353-6a83fc7d8a4f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26677,
+                                "alternative_id": 11777
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11778,
+                    "question_id": 2860,
+                    "description": "Em caso de trauma cervical, a avaliação não pode ser feita",
+                    "explanation": "Falso, Doc! 🤔 A manobra dos olhos de boneca não pode ser feita em caso de trauma cervical.  O que podemos fazer é:\n- Teste da água **quente** => olho se move para o lado **oposto**\n- Teste da água **fria** => se move para o **mesmo** lado \n\n\nSe não se mover, temos lesão do tronco encefálico \n\n\n\n\nDoc, dá uma olhada nas vias do reflexo vestibulo-ocular (que passam pelo tronco encefálico) 👇:\n\n\n\n\nFonte da imagem:  [https://stringfixer.com/pt/Caloric_reflex_test](https://stringfixer.com/pt/Caloric_reflex_test) ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-08T04:31:40.000Z",
+                    "updated_at": "2022-05-04T22:12:35.000Z",
+                    "files": [
+                        {
+                            "id": 26678,
+                            "file": "4df33028-79b7-4e7e-a546-bf86ca4c035d.png",
+                            "name": "Lawrence_1960_13.8.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-29T18:29:27.000Z",
+                            "updated_at": "2022-01-29T18:29:27.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4df33028-79b7-4e7e-a546-bf86ca4c035d.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26678,
+                                "alternative_id": 11778
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2860,
+                "questionary_id": 268263,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2861,
+            "institution_id": 4,
+            "description": "Sobre a avaliação pupilar do paciente com rebaixamento do nível de consciência, assinale a alternativa CORRETA:",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-08T07:39:41.000Z",
+            "updated_at": "2022-01-29T21:50:54.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 299,
+                    "title": "Coma e Alteração do Nível de Consciência",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T06:54:00.000Z",
+                    "updated_at": "2022-04-11T22:17:45.000Z",
+                    "pivot": {
+                        "discipline_id": 299,
+                        "question_id": 2861
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11779,
+                    "question_id": 2861,
+                    "description": "Na intoxicação por cocaína, as pupilas ficam mióticas",
+                    "explanation": "Falso, Doc! 🙈 \n- Na intoxicação por cocaína, as pupilas ficam visivelmente DILATADAS (**midriáticas**) e com atraso na reação à luz.\n- A cocaína bloqueia a recaptação de dopamina e noradrenalina, causando **ativação simpática,** que leva a midríase. \n\nDoc, relembre as funções do simpático e parassimpático 👇:\n\n\nFonte da imagem: https://blogdoenem.com.br/biologia-sistema-nervoso/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-08T04:39:41.000Z",
+                    "updated_at": "2022-01-29T18:50:54.000Z",
+                    "files": [
+                        {
+                            "id": 26679,
+                            "file": "a29fd27f-584d-4e3e-bb58-e4595661b8fd.png",
+                            "name": "Captura de tela 2022-01-29 154128.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-29T18:41:57.000Z",
+                            "updated_at": "2022-01-29T18:41:57.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a29fd27f-584d-4e3e-bb58-e4595661b8fd.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26679,
+                                "alternative_id": 11779
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11780,
+                    "question_id": 2861,
+                    "description": "Na lesão de ponte, as pupilas são tipicamente puntiformes",
+                    "explanation": "Parabéns, Doc! 👏 \n- 💡 Um macete para lembrar disso é  que na lesão da ponte as pupilas são PONTIformes. Embora puntiformes, elas continuam fotorreagentes!\n\nDoc, dá uma olhada nos diferentes padrões pupilares e o que eles podem sugerir para você 👇:\n\nFonte da imagem:  http://ligaparaibanadeneurointensivismo.blogspot.com/2017/10/padrao-pupilar-os-musculos-dilatadores.html",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-08T04:39:41.000Z",
+                    "updated_at": "2022-01-29T18:50:54.000Z",
+                    "files": [
+                        {
+                            "id": 26680,
+                            "file": "64065508-e863-4ffc-b185-831935a3acb8.jpeg",
+                            "name": "01.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-29T18:48:40.000Z",
+                            "updated_at": "2022-01-29T18:48:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/64065508-e863-4ffc-b185-831935a3acb8.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26680,
+                                "alternative_id": 11780
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11781,
+                    "question_id": 2861,
+                    "description": "Na intoxicação por opioides, temos tipicamente pupilas midriáticas",
+                    "explanation": "Falso, Doc! 🙈 \n- Na intoxicação por opioides, temos classicamente pupilas **mióticas**.\n- Isso ocorre por estimulação **parassimpática.** \n\n\nDoc, relembre as funções do simpático e parassimpático 👇:\n\n\n\n\n\n\n\nFonte da imagem: https://blogdoenem.com.br/biologia-sistema-nervoso/ ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-08T04:39:41.000Z",
+                    "updated_at": "2022-01-29T18:50:54.000Z",
+                    "files": [
+                        {
+                            "id": 26679,
+                            "file": "a29fd27f-584d-4e3e-bb58-e4595661b8fd.png",
+                            "name": "Captura de tela 2022-01-29 154128.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-29T18:41:57.000Z",
+                            "updated_at": "2022-01-29T18:41:57.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a29fd27f-584d-4e3e-bb58-e4595661b8fd.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26679,
+                                "alternative_id": 11781
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11782,
+                    "question_id": 2861,
+                    "description": "Na herniação uncal, temos compressão do III par craniano, fazendo com que a pupila lado acometido fique miótica",
+                    "explanation": "Falso, Doc! 🙈  Se o III par **(oculomoto**r), localizado no mesencéfalo, é acometido, perde-se a capacidade de contração pupilar, ou seja, haverá **midrías**e.\n\n\nDoc, dá uma olhada nos diferentes padrões pupilares e o que eles podem sugerir para você 👇:\n\n\n\n\nFonte da imagem:  http://ligaparaibanadeneurointensivismo.blogspot.com/2017/10/padrao-pupilar-os-musculos-dilatadores.html \n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-08T04:39:41.000Z",
+                    "updated_at": "2022-01-29T18:50:54.000Z",
+                    "files": [
+                        {
+                            "id": 26680,
+                            "file": "64065508-e863-4ffc-b185-831935a3acb8.jpeg",
+                            "name": "01.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-29T18:48:40.000Z",
+                            "updated_at": "2022-01-29T18:48:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/64065508-e863-4ffc-b185-831935a3acb8.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26680,
+                                "alternative_id": 11782
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2861,
+                "questionary_id": 268263,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2862,
+            "institution_id": 4,
+            "description": "Nas figuras abaixo, as letras A e B correspondem, respectivamente, às posturas de:\n\nFonte da imagem: [https://www.uptodate.com/contents/image?imageKey=NEURO/61697](https://www.uptodate.com/contents/image?imageKey=NEURO/61697)\n\n\n",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-08T04:45:29.000Z",
+            "updated_at": "2022-04-11T23:01:33.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 299,
+                    "title": "Coma e Alteração do Nível de Consciência",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T06:54:00.000Z",
+                    "updated_at": "2022-04-11T22:17:45.000Z",
+                    "pivot": {
+                        "discipline_id": 299,
+                        "question_id": 2862
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11783,
+                    "question_id": 2862,
+                    "description": "Descerebração e Decorticação",
+                    "explanation": "Falso, Doc! 🙉\n- Decorticação = membro inferior extendido e **superior fletido**\n- Descerebração = membro superior **extendido**  também",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-08T04:45:29.000Z",
+                    "updated_at": "2022-04-11T23:01:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11784,
+                    "question_id": 2862,
+                    "description": "Decorticação e Descerebração",
+                    "explanation": "Arrasou, Doc! 😎 \n- Decorticação = membro inferior extendido e **superior fletido**\n- Descerebração = membro superior **extendido**  também \n- A postura de **decorticação** está normalmente associada a lesões **acima do mesencéfalo** (pense que o paciente está sem a ação do córtex - decorticação)\n- A **descerebração** está associada a lesões que **atingem os mesencéfalo** (do mesencéfalo para baixo), no diencéfalo ou lesões altas no tronco. \n- 💡 Para não confundir as duas posturas, associe que DESCErebração **\"DESCE**\"  = observe como os braços descem na descerebração.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-08T04:45:29.000Z",
+                    "updated_at": "2022-04-11T23:01:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 51290,
+                    "question_id": 2862,
+                    "description": "Reflexo extenso-flexor e Reflexo extenso-extensor",
+                    "explanation": "Falso, Doc! 🙉\n- Decorticação = membro inferior extendido e **superior fletido**\n- Descerebração = membro superior **extendido**  também ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-01-29T18:57:27.000Z",
+                    "updated_at": "2022-04-11T23:01:33.000Z",
+                    "files": []
+                },
+                {
+                    "id": 51291,
+                    "question_id": 2862,
+                    "description": "Reflexo extenso-extensor e Reflexo extenso-flexor",
+                    "explanation": "Falso, Doc! 🙉\n- Decorticação = membro inferior extendido e **superior fletido**\n- Descerebração = membro superior **extendido**  também ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-01-29T18:57:27.000Z",
+                    "updated_at": "2022-04-11T23:01:33.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 634,
+                    "file": "1594183383868.png",
+                    "name": "Sem título.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-07-08T07:43:04.000Z",
+                    "updated_at": "2020-07-08T07:43:04.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1594183383868.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 634,
+                        "question_id": 2862
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 2862,
+                "questionary_id": 268263,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2872,
+            "institution_id": 25,
+            "description": "Mulher, 52 anos de idade, veio trazida ao Pronto-Socorro por queixa de cefaleia e uma crise tônico-clônica generalizada que ocorreu dois dias antes da admissão. Em seguida evoluiu com sonolência. Ao exame de admissão tem temperatura de 38ºC, PA 100x60 mmHg, FC: 112bpm e restante do exame clínico geral sem alterações. No exame neurológico, encontrava-se sonolenta, com abertura ocular aos estímulos verbais vigorosos, retirada inespecífica dos membros à dor, falando palavras desconexas, reflexos profundos globalmente vivos e reflexo cutâneo plantar em flexão bilateral. Também foram observadas algumas clonias em hemiface direta. Tomografia computadorizada de crânio mostrou uma hipoatenuação em lobo temporal esquerdo. Exames laboratoriais revelaram uma leucocitose de 13500 sem desvios à esquerda e um aumento da proteína C reativa. Foi então submetida a ma punção lombar para coleta de líquor cujo resultado foi de 41 células (66% de linfócitos, 32% de monócitos e 2% de neutrófilos), 48 hemácias, proteína de 59 mg/dL, glicose de 64 mg/dL e lactato de 25 mg/dL. Qual é a pontuação dessa paciente pela escala de coma de Glasgow?",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-08T08:27:43.000Z",
+            "updated_at": "2022-01-30T01:09:01.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 25,
+                "title": "USP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:55:52.000Z",
+                "updated_at": "2020-05-18T19:55:52.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 299,
+                    "title": "Coma e Alteração do Nível de Consciência",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T06:54:00.000Z",
+                    "updated_at": "2022-04-11T22:17:45.000Z",
+                    "pivot": {
+                        "discipline_id": 299,
+                        "question_id": 2872
+                    }
+                },
+                {
+                    "id": 804,
+                    "title": "Exame do Estado Mental - Atenção e consciência",
+                    "description": null,
+                    "parent_id": 179,
+                    "is_enabled": true,
+                    "created_at": "2021-06-08T00:29:28.000Z",
+                    "updated_at": "2021-06-08T00:29:28.000Z",
+                    "pivot": {
+                        "discipline_id": 804,
+                        "question_id": 2872
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11822,
+                    "question_id": 2872,
+                    "description": "8",
+                    "explanation": "Falso, Doc! 😌 Ao exame neurológico, a escala de coma de Glasgow é de 10:\n- Abertura ocular a estímulo verbal: 3\n- Resposta verbal: palavras desconexas: 3\n- Resposta motora: retirada inespecífica: 4 \n\n\nSe liga 👇:\n\n\n\n\nFonte da imagem: https://www.significados.com.br/escala-de-glasgow/ ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-08T05:27:43.000Z",
+                    "updated_at": "2022-01-29T22:09:01.000Z",
+                    "files": [
+                        {
+                            "id": 26684,
+                            "file": "40568ec3-c2c6-43da-9453-ca56742fff8c.png",
+                            "name": "escala-de-glasgow.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-29T22:07:04.000Z",
+                            "updated_at": "2022-01-29T22:07:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/40568ec3-c2c6-43da-9453-ca56742fff8c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26684,
+                                "alternative_id": 11822
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11823,
+                    "question_id": 2872,
+                    "description": "10",
+                    "explanation": "Arrasou, Doc! 😎 Ao exame neurológico, a escala de coma de Glasgow é de 10:\n- Abertura ocular a estímulo verbal: 3\n- Resposta verbal: palavras desconexas: 3\n- Resposta motora: retirada inespecífica: 4\n\nSe liga 👇:\n\nFonte da imagem: https://www.significados.com.br/escala-de-glasgow/\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-08T05:27:43.000Z",
+                    "updated_at": "2022-01-29T22:09:01.000Z",
+                    "files": [
+                        {
+                            "id": 26684,
+                            "file": "40568ec3-c2c6-43da-9453-ca56742fff8c.png",
+                            "name": "escala-de-glasgow.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-29T22:07:04.000Z",
+                            "updated_at": "2022-01-29T22:07:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/40568ec3-c2c6-43da-9453-ca56742fff8c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26684,
+                                "alternative_id": 11823
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11824,
+                    "question_id": 2872,
+                    "description": "12",
+                    "explanation": "Falso, Doc! 😌 Ao exame neurológico, a escala de coma de Glasgow é de 10:\n- Abertura ocular a estímulo verbal: 3\n- Resposta verbal: palavras desconexas: 3\n- Resposta motora: retirada inespecífica: 4  \n\n\nSe liga 👇:\n\nFonte da imagem: https://www.significados.com.br/escala-de-glasgow/ ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-08T05:27:43.000Z",
+                    "updated_at": "2022-01-29T22:09:01.000Z",
+                    "files": [
+                        {
+                            "id": 26684,
+                            "file": "40568ec3-c2c6-43da-9453-ca56742fff8c.png",
+                            "name": "escala-de-glasgow.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-29T22:07:04.000Z",
+                            "updated_at": "2022-01-29T22:07:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/40568ec3-c2c6-43da-9453-ca56742fff8c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26684,
+                                "alternative_id": 11824
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11825,
+                    "question_id": 2872,
+                    "description": "14",
+                    "explanation": "Falso, Doc! 😌 Ao exame neurológico, a escala de coma de Glasgow é de 10:\n- Abertura ocular a estímulo verbal: 3\n- Resposta verbal: palavras desconexas: 3\n- Resposta motora: retirada inespecífica: 4  \n\n\nSe liga 👇:\n\n\n\n\nFonte da imagem: https://www.significados.com.br/escala-de-glasgow/ ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-08T05:27:43.000Z",
+                    "updated_at": "2022-01-29T22:09:01.000Z",
+                    "files": [
+                        {
+                            "id": 26684,
+                            "file": "40568ec3-c2c6-43da-9453-ca56742fff8c.png",
+                            "name": "escala-de-glasgow.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-29T22:07:04.000Z",
+                            "updated_at": "2022-01-29T22:07:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/40568ec3-c2c6-43da-9453-ca56742fff8c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26684,
+                                "alternative_id": 11825
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2872,
+                "questionary_id": 268263,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2873,
+            "institution_id": 25,
+            "description": "Menina, 12 anos de idade, com diagnóstico de Sarcoma de Ewing em quadril esquerdo há um ano. Há três dias foi internada em enfermaria para controle álgico. Recebe omeprazol, gabapentina, amitriptilina, dipirona e morfina. Mãe refere que a criança não está com bom controle álgico, necessitando de doses extras de morfina. Encontra-se sonolenta há quatro horas. Ao exame clínico, está em regular estado geral, sonolenta, confusa, abre o olho quando chamada, pupilas puntiformes. Conseguiu sentar-se na cama quando solicitado pelo médico. Parâmetros vitais: FR = 12rpm, FC= 60 bpm, PA= 98 x 56 mmHg, glicemia capilar de 70 mg/dL. O escore que esta paciente obtém na Escala de Coma de Glasgow é:",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-08T08:31:51.000Z",
+            "updated_at": "2022-04-11T23:02:59.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 25,
+                "title": "USP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:55:52.000Z",
+                "updated_at": "2020-05-18T19:55:52.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 299,
+                    "title": "Coma e Alteração do Nível de Consciência",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T06:54:00.000Z",
+                    "updated_at": "2022-04-11T22:17:45.000Z",
+                    "pivot": {
+                        "discipline_id": 299,
+                        "question_id": 2873
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11826,
+                    "question_id": 2873,
+                    "description": "14",
+                    "explanation": "Falso, Doc! 🙊 Conforme a escala de coma de Glasgow:\n- Abertura ocular: 3 pontos (abre ao comando verbal)\n- Resposta verbal: 4 pontos (resposta confusa)\n- Resposta Motora: 6 pontos (obedece comandos) \n\n\nSe liga 👇:\n\n\n\n\nFonte da imagem: https://www.significados.com.br/escala-de-glasgow/ ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-08T05:31:51.000Z",
+                    "updated_at": "2022-04-11T23:02:59.000Z",
+                    "files": [
+                        {
+                            "id": 26684,
+                            "file": "40568ec3-c2c6-43da-9453-ca56742fff8c.png",
+                            "name": "escala-de-glasgow.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-29T22:07:04.000Z",
+                            "updated_at": "2022-01-29T22:07:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/40568ec3-c2c6-43da-9453-ca56742fff8c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26684,
+                                "alternative_id": 11826
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11827,
+                    "question_id": 2873,
+                    "description": "13",
+                    "explanation": "Perfeito, Doc! 😍 Que orgulho! Conforme a escala de coma de Glasgow:\n- Abertura ocular: 3 pontos (abre ao comando verbal)\n- Resposta verbal: 4 pontos (resposta confusa)\n- Resposta Motora: 6 pontos (obedece comandos)\n\n\nSe liga 👇:\n\n\n\n\nFonte da imagem: [https://www.significados.com.br/escala-de-glasgow/](https://www.significados.com.br/escala-de-glasgow/) ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-08T05:31:51.000Z",
+                    "updated_at": "2022-04-11T23:02:59.000Z",
+                    "files": [
+                        {
+                            "id": 26684,
+                            "file": "40568ec3-c2c6-43da-9453-ca56742fff8c.png",
+                            "name": "escala-de-glasgow.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-29T22:07:04.000Z",
+                            "updated_at": "2022-01-29T22:07:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/40568ec3-c2c6-43da-9453-ca56742fff8c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26684,
+                                "alternative_id": 11827
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11828,
+                    "question_id": 2873,
+                    "description": "12",
+                    "explanation": "Falso, Doc! 🙊 Conforme a escala de coma de Glasgow:\n- Abertura ocular: 3 pontos (abre ao comando verbal)\n- Resposta verbal: 4 pontos (resposta confusa)\n- Resposta Motora: 6 pontos (obedece comandos) \n\n\nSe liga 👇:\n\n\n\n\nFonte da imagem: https://www.significados.com.br/escala-de-glasgow/ ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-08T05:31:51.000Z",
+                    "updated_at": "2022-04-11T23:02:59.000Z",
+                    "files": [
+                        {
+                            "id": 26684,
+                            "file": "40568ec3-c2c6-43da-9453-ca56742fff8c.png",
+                            "name": "escala-de-glasgow.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-29T22:07:04.000Z",
+                            "updated_at": "2022-01-29T22:07:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/40568ec3-c2c6-43da-9453-ca56742fff8c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26684,
+                                "alternative_id": 11828
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11829,
+                    "question_id": 2873,
+                    "description": "11",
+                    "explanation": "Falso, Doc! 🙊 Conforme a escala de coma de Glasgow:\n- Abertura ocular: 3 pontos (abre ao comando verbal)\n- Resposta verbal: 4 pontos (resposta confusa)\n- Resposta Motora: 6 pontos (obedece comandos) \n\n\nSe liga 👇:\n\n\n\n\nFonte da imagem: https://www.significados.com.br/escala-de-glasgow/ ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-08T05:31:51.000Z",
+                    "updated_at": "2022-04-11T23:02:59.000Z",
+                    "files": [
+                        {
+                            "id": 26684,
+                            "file": "40568ec3-c2c6-43da-9453-ca56742fff8c.png",
+                            "name": "escala-de-glasgow.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-29T22:07:04.000Z",
+                            "updated_at": "2022-01-29T22:07:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/40568ec3-c2c6-43da-9453-ca56742fff8c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26684,
+                                "alternative_id": 11829
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2873,
+                "questionary_id": 268263,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2858,
+            "institution_id": 4,
+            "description": "Um paciente acordado e consciente, mas que não fala ou não se move voluntariamente, mas mantém movimentos oculares verticais e elevação palpevral está em um estado denominado:",
+            "difficulty": "hard",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-08T07:12:46.000Z",
+            "updated_at": "2022-04-11T23:02:00.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 299,
+                    "title": "Coma e Alteração do Nível de Consciência",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T06:54:00.000Z",
+                    "updated_at": "2022-04-11T22:17:45.000Z",
+                    "pivot": {
+                        "discipline_id": 299,
+                        "question_id": 2858
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11767,
+                    "question_id": 2858,
+                    "description": "Estado de coma",
+                    "explanation": "Falso, Doc! 😋 \n- O coma é um estado em que o indivíduo não demonstra conhecimento de si próprio e do ambiente, caracterizado pela extrema diminuição ou ausência de alerta comportamental, permanecendo **não responsivo a estímulos internos e externos**, e com os **olhos fechados** ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-08T04:12:46.000Z",
+                    "updated_at": "2022-04-11T23:02:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11768,
+                    "question_id": 2858,
+                    "description": "Estado vegetativo",
+                    "explanation": "Falso, Doc! 😋 \n- O estado vegetativo ocorre após um dano cerebral isquêmico difuso. \n- O paciente pode recuperar a abertura dos olhos no ciclo sono vigília, mas **sem recuperar a consciência.** ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-08T04:12:46.000Z",
+                    "updated_at": "2022-04-11T23:02:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11769,
+                    "question_id": 2858,
+                    "description": "Delirium",
+                    "explanation": "Falso, Doc! 😋 Dellirium é uma alteração do conteúdo da consciência, caracterizado, principalmente pelo **comprometimento da atençã**o e incapacidade de manter coerência do pensamento.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-08T04:12:46.000Z",
+                    "updated_at": "2022-04-11T23:02:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11770,
+                    "question_id": 2858,
+                    "description": "Síndrome do cativeiro",
+                    "explanation": "Arrasou, Doc! 😎 \n- Também chamado de **Locked in Syndrome,** o paciente conseguem se comunicar **apenas por PISCAMENTOS.** \n- O motivo é uma **lesão na ponte** ventral que leva ao bloqueio das vias eferentes do córtex para a medula **(trato piramidal)** e do córtex para os núcleos de pares cranianos **(trato córtico-pontino).**\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-07-08T04:12:46.000Z",
+                    "updated_at": "2022-04-11T23:02:00.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2858,
+                "questionary_id": 268263,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2869,
+            "institution_id": 25,
+            "description": "Homem, 28 anos de idade, recebeu 20 mL de glicose 50% endovenosa em atendimento por intoxicação alcoólica aguda. Após 20 minutos, o paciente evoluiu com confusão mental. Neste momento, o paciente encontrava-se com glicemia capilar de 100mg/dL, afebril, descorado, desnutrido, sem sinais de comprometimento respiratório ou cardíaco. Ao exame neurológico observa-se marcha com base alargada, dismetria à manobra índex-nariz bilateralmente, nistagmo horizontal que bate para a esquerda ao olhar para a esquerda e bate para direita ao olhar para a direita; paresia do músculo ocular reto lateral bilateralmente. Qual é a principal hipótese diagnóstica para o quadro neurológico?\n",
+            "difficulty": "hard",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-08T05:16:57.000Z",
+            "updated_at": "2022-04-11T23:02:04.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 25,
+                "title": "USP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:55:52.000Z",
+                "updated_at": "2020-05-18T19:55:52.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 299,
+                    "title": "Coma e Alteração do Nível de Consciência",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T06:54:00.000Z",
+                    "updated_at": "2022-04-11T22:17:45.000Z",
+                    "pivot": {
+                        "discipline_id": 299,
+                        "question_id": 2869
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11810,
+                    "question_id": 2869,
+                    "description": "Acidente vascular cerebral isquêmico.",
+                    "explanation": "Falso, Doc! 🙈 Não há histórico de doença cardiovascular ou arritmia e não apresenta um quadro focal mais típico de paresia ou plegia em apenas um lado do corpo, disartria ou desvio de comissura labial ou vertigem.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-08T05:16:57.000Z",
+                    "updated_at": "2022-04-11T23:02:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11811,
+                    "question_id": 2869,
+                    "description": "Mielinólise pontina central.",
+                    "explanation": "Falso, Doc! 🙈 A mielinólise pontina central é causada por **oscilações abruptas na osmolaridade sérica**, resultando em desmielinização simétrica da parte central da base da ponte ocasionada por correção rápida da hiponatremia.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-08T05:16:57.000Z",
+                    "updated_at": "2022-04-11T23:02:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11812,
+                    "question_id": 2869,
+                    "description": " Polirradiculoneurite tóxico-metabólica.",
+                    "explanation": "Falso, Doc! 🙈 Não há descrição de sintomas radiculares como dor ou parestesia no território de um dermátomo.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-08T05:16:57.000Z",
+                    "updated_at": "2022-04-11T23:02:04.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11813,
+                    "question_id": 2869,
+                    "description": "Encefalopatia de Wernicke.",
+                    "explanation": "Fera demais, Doc! 🙀 Em intoxicação por álcool e provável histórico de abuso da substância, a encefalopatia de Wernicke caracteriza-se pela **tríad**e: \n- alteração súbita do nível de consciência;\n- ataxia;\n- oftalmoplexia/nistagmo pela deficiência da vitamina B1 (tiamina). \n\nEsta vitamina é uma coenzima importante no metabolismo da glicose. Por isso, pode ser desencadeada pela aplicação de soro glicosado sem prescrição prévia de tiamina.\n\n\nDoc, olha o esqueminha resumindo a doença 👇:\n\nFonte da imagem: https://slideplayer.com.br/slide/9971338/\n\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-07-08T05:16:57.000Z",
+                    "updated_at": "2022-04-11T23:02:04.000Z",
+                    "files": [
+                        {
+                            "id": 26683,
+                            "file": "c3004d76-3566-4553-b135-8902233cd7f4.png",
+                            "name": "Captura de tela 2022-01-29 174540.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-29T20:46:29.000Z",
+                            "updated_at": "2022-01-29T20:46:29.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c3004d76-3566-4553-b135-8902233cd7f4.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26683,
+                                "alternative_id": 11813
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2869,
+                "questionary_id": 268263,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12487,
+            "institution_id": 537,
+            "description": "Joana tem 74 anos e é portadora de hipertensão arterial há 20 anos. Foi encontrada pelo seu filho no sofá da sala, não responsiva ao ser chamada pelo nome. Sr. Manoel chamou o SAMU. Ela foi intubada, sua pressão arterial estava 220/124mmHg, pulso de 80 batimentos/minuto rítmico. Ao exame neurológico apresentava desvio vertical intermitente dos olhos para baixo, sem resposta à manobra dos olhos de boneca. As pupilas estão mióticas. A estimulação dolorosa determina postura extensora bilateral e, consegue piscar ao comando de voz do médico emergencista. Qual seria a provável causa destes achados?",
+            "difficulty": "hard",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-01-27T22:56:46.000Z",
+            "updated_at": "2022-04-11T23:03:09.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 537,
+                "title": "PUC - Sorocaba",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-11-29T10:57:58.000Z",
+                "updated_at": "2021-11-29T10:57:58.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1079,
+                    "title": "Doença Encefalovascular Hemorrágica (AVE hemorrágico)",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2022-01-28T01:02:48.000Z",
+                    "updated_at": "2022-01-28T01:02:48.000Z",
+                    "pivot": {
+                        "discipline_id": 1079,
+                        "question_id": 12487
+                    }
+                },
+                {
+                    "id": 299,
+                    "title": "Coma e Alteração do Nível de Consciência",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T06:54:00.000Z",
+                    "updated_at": "2022-04-11T22:17:45.000Z",
+                    "pivot": {
+                        "discipline_id": 299,
+                        "question_id": 12487
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 51196,
+                    "question_id": 12487,
+                    "description": "Encefalopatia anóxica. ",
+                    "explanation": "Falso, Doc! 😬 A encefalopatia anóxica não curso com sinais neurológicos focais e, sim, quadros mais difusos.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-01-27T22:56:46.000Z",
+                    "updated_at": "2022-04-11T23:03:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 51197,
+                    "question_id": 12487,
+                    "description": "Infarto isquêmico da artéria cerebral média esquerda. ",
+                    "explanation": " Falso, Doc! 😬 \n- Embora esse seja o local mais comum para AVEs, o caso da paciente indica uma lesão a nível da **ponte,** um quadro típico de **síndrome do encarceramento** (ou \"locked in\")  \n- Só podemos diferenciar um quadro isquêmico de um hemorrágico com o auxílio dos exames de imagem (tomografia computadorizada. No entanto, a instalação mais aguda, o fato de a paciente ser hipertensa de longa data (hipertensão de longa data é a principal causa de hemorragia encefálica intraparenquimatosa) e a localização pontina, falam a favor de ser um quadro **hemorrágico.**\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-01-27T22:56:46.000Z",
+                    "updated_at": "2022-04-11T23:03:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 51198,
+                    "question_id": 12487,
+                    "description": "Infarto hemorrágico pontino. ",
+                    "explanation": "Fera demais, Doc! 🙀 Arrasou!\n- O quadro da paciente é típico de **síndrome do encarceramento** (ou \"locked in\") que ocorre em **lesões** do tronco encefálico, a nível da **ponte**, já que a paciente parece apresentar alterações da via piramidal (tetraplegia) e limitação do movimento ocular horizontal e do reflexo vestibulo ocular (VOR), além de miose. O paciente conseguem se comunicar **apenas por PISCAMENTOS.** \n- A **lesão na ponte** ventral que leva ao bloqueio das vias eferentes do córtex para a medula **(trato piramidal**) e do córtex para os núcleos de pares cranianos **(trato córtico-pontino)** \n- Só podemos diferenciar um quadro isquêmico de um hemorrágico com o auxílio dos exames de imagem (tomografia computadorizada). No entanto, a instalação mais aguda, o fato de a paciente ser hipertensa de longa data (hipertensão de longa data é a principal causa de hemorragia encefálica intraparenquimatosa) e a localização pontina, falam a favor de ser um quadro **hemorrágico.**\n\n\n\n\nDoc, dá uma olhada nas vias do VOR e repara como possuem passagem pela ponte 😉👇:\n\n\nFonte da imagem: [https://upload.wikimedia.org/wikipedia/commons/d/d2/1419_Vestibulo-Ocular_Reflex.jpg](https://upload.wikimedia.org/wikipedia/commons/d/d2/1419_Vestibulo-Ocular_Reflex.jpg) ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2022-01-27T22:56:46.000Z",
+                    "updated_at": "2022-04-11T23:03:09.000Z",
+                    "files": [
+                        {
+                            "id": 26606,
+                            "file": "0f969205-758b-4eaa-a992-1404a9f5d878.jpeg",
+                            "name": "1419_Vestibulo-Ocular_Reflex (1).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-27T22:56:41.000Z",
+                            "updated_at": "2022-01-27T22:56:41.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/0f969205-758b-4eaa-a992-1404a9f5d878.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26606,
+                                "alternative_id": 51198
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 51199,
+                    "question_id": 12487,
+                    "description": "Infarto hemorrágico cerebelar.",
+                    "explanation": "  Falso, Doc! 😬  O caso da paciente indica uma lesão de **tronco encefálic**o a nível da **ponte,** um quadro típico de **síndrome do encarcerament**o (ou \"locked in\") \n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-01-27T22:56:46.000Z",
+                    "updated_at": "2022-04-11T23:03:09.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12487,
+                "questionary_id": 268263,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12509,
+            "institution_id": 554,
+            "description": "Paciente de 12 anos, sexo feminino, levada ao Pronto Atendimento por rebaixamento de nível de consciência. Mãe conta que adolescente permaneceu sozinha por cerca de 30 minutos, e foi encontrada desacordada, com embalagem de clonazepam, que mãe faz uso, vazia ao lado dela. Nega quaisquer antecedentes patológicos. Paciente encaminhada à sala de emergência e monitorizada. Na avaliação inicial: MEG, pálida FC=120bpm, FR=6ipm, PA=90x50mmHg Pupilas mióticas. Escala de coma de Glasgow: - Abertura ocular: sem abertura - Resposta verbal: sons incompreensíveis - Resposta motora: Retira ao estímulo doloroso Qual a abordagem mais apropriada nesse momento?\n",
+            "difficulty": "hard",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-01-29T22:48:55.000Z",
+            "updated_at": "2022-04-11T23:03:13.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 554,
+                "title": "UNIVERSIDADE DE SÃO PAULO",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2022-01-06T20:47:00.000Z",
+                "updated_at": "2022-01-06T20:47:00.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 299,
+                    "title": "Coma e Alteração do Nível de Consciência",
+                    "description": null,
+                    "parent_id": 26,
+                    "is_enabled": true,
+                    "created_at": "2020-07-08T06:54:00.000Z",
+                    "updated_at": "2022-04-11T22:17:45.000Z",
+                    "pivot": {
+                        "discipline_id": 299,
+                        "question_id": 12509
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 51292,
+                    "question_id": 12509,
+                    "description": "Ofertar oxigênio por máscara não reinalante, preparar material para intubação, realizar lavagem gástrica imediata pois ingestão há menos de 1 hora. ",
+                    "explanation": "Falso, Doc! 😣 Lavagem gástrica deve ser evitada, já que há rebaixamento da consciência (risco de broncoaspiração).",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-01-29T22:48:55.000Z",
+                    "updated_at": "2022-04-11T23:03:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 51293,
+                    "question_id": 12509,
+                    "description": "Iniciar ventilação com bolsa-valva-máscara e realizar intubação orotraqueal imediata, pois paciente com rebaixamento de nível de consciência (Glasgow 5). ",
+                    "explanation": "Falso, Doc! 😣  A paciente é Glasgow**** 7, acompanha comigo:\n- Abertura ocular: nenhuma (1 ponto)\n- Resposta verbal: palavras incompreensíveis (2 pontos)\n- Resposta motora: movimento de retirada (4 pontos)\n\n\nDá uma olhadinha 👇: https://www.significados.com.br/escala-de-glasgow/",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-01-29T22:48:55.000Z",
+                    "updated_at": "2022-04-11T23:03:13.000Z",
+                    "files": [
+                        {
+                            "id": 26684,
+                            "file": "40568ec3-c2c6-43da-9453-ca56742fff8c.png",
+                            "name": "escala-de-glasgow.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-29T22:07:04.000Z",
+                            "updated_at": "2022-01-29T22:07:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/40568ec3-c2c6-43da-9453-ca56742fff8c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26684,
+                                "alternative_id": 51293
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 51294,
+                    "question_id": 12509,
+                    "description": "Ofertar oxigênio por máscara não reinalante, iniciar expansão volêmica com soro fisiológico 20ml/kg, realizar lavagem gástrica pois ingestão há menos de 1 hora, e entrar em contato com Centro de Intoxicação. ",
+                    "explanation": "Falso, Doc! 😣 Lavagem gástrica deve ser evitada, já que há rebaixamento da consciência (risco de broncoaspiração). ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-01-29T22:48:55.000Z",
+                    "updated_at": "2022-04-11T23:03:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 51295,
+                    "question_id": 12509,
+                    "description": "Iniciar ventilação com bolsa-valva-máscara, preparar material para intubação orotraqueal, iniciar expansão com soro fisiológico 20ml/kg, considerar administração de flumazenil.",
+                    "explanation": "Arrasou, Doc! 😎 As condutas devem seguir o ABC: Airway (vias aéreas), Breathing (respiração), Circulation (circulação). Deve ser feito:\n- A e B = **intubação orotraqueal**, já que a escala de Glasgow está abaixo de 8 (**pontuação 7**)\n- C = expansão volêmica com **soro fisiológico 20 ml/kg**\n- O **flumazenil** é importante em intoxicação por benzodiazepinicos, pois é o fármaco **antídoto** a ser utilizado.\n\nDá uma olhadinha na escala de Glasgow, Doc 👇: \n\n[https://www.significados.com.br/escala-de-glasgow/](https://www.significados.com.br/escala-de-glasgow/) ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2022-01-29T22:48:55.000Z",
+                    "updated_at": "2022-04-11T23:03:13.000Z",
+                    "files": [
+                        {
+                            "id": 26684,
+                            "file": "40568ec3-c2c6-43da-9453-ca56742fff8c.png",
+                            "name": "escala-de-glasgow.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-29T22:07:04.000Z",
+                            "updated_at": "2022-01-29T22:07:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/40568ec3-c2c6-43da-9453-ca56742fff8c.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26684,
+                                "alternative_id": 51295
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12509,
+                "questionary_id": 268263,
+                "timer": 0
+            }
+        }
+    ]
+}

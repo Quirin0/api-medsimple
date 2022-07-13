@@ -1,0 +1,2623 @@
+{
+    "id": 268234,
+    "user_id": 1699,
+    "title": "Antimicrobianos na Clínica",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T23:10:26.000Z",
+    "updated_at": "2022-07-11T23:10:26.000Z",
+    "study_plan_id": 202,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 2559,
+            "institution_id": 87,
+            "description": " A diminuição do tempo de tratamento com antimicrobianos, quando bem indicado, apenas **NÃO** promove o seguinte item:\n",
+            "difficulty": "easy",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T14:51:39.000Z",
+            "updated_at": "2022-01-05T20:58:54.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 87,
+                "title": "HOB-DF",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-28T00:40:55.000Z",
+                "updated_at": "2020-05-28T00:40:55.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 2559
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10523,
+                    "question_id": 2559,
+                    "description": "Reduz a exposição de pacientes a antibióticos.",
+                    "explanation": "Esta está certinha, Doc! 😅 \n- Quanto menor o tempo de uso ➡ Menor a exposição aos antibióticos",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T11:51:39.000Z",
+                    "updated_at": "2022-01-05T17:58:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10524,
+                    "question_id": 2559,
+                    "description": "Ocorre que limita o risco de indução de resistência.",
+                    "explanation": "Esta está certinha, Doc! 😅 \n- Menor tempo de exposição ao antibiótico ➡ Menor seleção de microrganismos resistentes.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T11:51:39.000Z",
+                    "updated_at": "2022-01-05T17:58:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10525,
+                    "question_id": 2559,
+                    "description": "Reduz os custos.",
+                    "explanation": "Esta está certinha, Doc! 😅  \n- Menos dias de tratamento ➡ Menos medicação necessária ➡ Mais barato o tratamento.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T11:51:39.000Z",
+                    "updated_at": "2022-01-05T17:58:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10526,
+                    "question_id": 2559,
+                    "description": "Piora a adesão ao tratamento por não o valorizar adequadamente.",
+                    "explanation": "Boa, Doc, essa é a incorreta! 👊 Ao contrário, **melhora a adesão do tratamento**. ➡ São menos dias necessários para o tratamento.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-30T11:51:39.000Z",
+                    "updated_at": "2022-01-05T17:58:54.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2559,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2570,
+            "institution_id": 4,
+            "description": "Com relação à escolha de antimicrobianos, qual associação é a mais adequada?\n",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T20:10:53.000Z",
+            "updated_at": "2022-01-05T21:26:19.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 2570
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10568,
+                    "question_id": 2570,
+                    "description": "S. aureus sensível à meticilina - vancomicina.",
+                    "explanation": "Falso, Doc! 😬\n- A vancomicina é mais utilizada para S. aureus **resistente** à meticilina (e não sensível).\n\n💡 Via de regra utilizamos:\n- MSSA = oxacilina (meticilina)\n- MRSA = vancomicina",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T17:10:53.000Z",
+                    "updated_at": "2022-01-05T18:26:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10569,
+                    "question_id": 2570,
+                    "description": "S. aureus sensível à meticilina - cefazolina.",
+                    "explanation": "Parabéns, Doc! 👏 Possuem excelente cobertura para Gram positivos(incluindo MSSA e strep).\n- Possuem menor cobertura para Gram-negativos ➡ KEP ➡ Klebsiella, E.coli, Proteus.\n- São utilizados na infecção por MSSA em pacientes **alérgicos a penicilina** (pois a primeira indicação seria **oxacilina**)\n- **MSSA ➡ S.aureus sensível à meticilina** \n\n\n💡 Via de regra utilizamos:\n- MSSA = oxacilina (meticilina)\n- MRSA = vancomicina ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-30T17:10:53.000Z",
+                    "updated_at": "2022-01-05T18:26:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10570,
+                    "question_id": 2570,
+                    "description": "S. aureus resistente à meticilina - ciprofloxacino.",
+                    "explanation": "\nFalso, Doc! 😬  \n- Possui uma ótima cobertura para Gram-negativas, porém uma **pobre cobertura para Gram-positivos**",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T17:10:53.000Z",
+                    "updated_at": "2022-01-05T18:26:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10571,
+                    "question_id": 2570,
+                    "description": "S. aureus resistente à meticilina - claritromicina.",
+                    "explanation": "Falso, Doc! 😬  \n- A claritromicina é um **macrolídeo**.\n- É útil para MSSA (S. aureus sensível à meticilina), porém não para MRSA",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T17:10:53.000Z",
+                    "updated_at": "2022-01-05T18:26:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2570,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4187,
+            "institution_id": 4,
+            "description": "Todas as opções são indicações para associção de vancomicina ao esquema básico de monoterapia com betalactâmico antipseudomonas da neutropenia febril, **exceto:**",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-18T13:32:45.000Z",
+            "updated_at": "2022-01-10T19:18:57.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 431,
+                    "title": "Neutropenia Febril",
+                    "description": null,
+                    "parent_id": 4,
+                    "is_enabled": true,
+                    "created_at": "2020-08-17T17:20:14.000Z",
+                    "updated_at": "2020-08-17T17:20:14.000Z",
+                    "pivot": {
+                        "discipline_id": 431,
+                        "question_id": 4187
+                    }
+                },
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 4187
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17280,
+                    "question_id": 4187,
+                    "description": "Hipotensão arterial",
+                    "explanation": "Perfeito. É uma das indicações de associação.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-18T10:32:45.000Z",
+                    "updated_at": "2022-01-10T16:18:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17281,
+                    "question_id": 4187,
+                    "description": "Suspeita de infecção do cateter venoso profundo",
+                    "explanation": "Perfeito. É uma das indicações de associação. São exemplos: \n- Febre + calafrios quando o cateter é usado; \n- Sinais flogísticos na região do cateter.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-18T10:32:45.000Z",
+                    "updated_at": "2022-01-10T16:18:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17282,
+                    "question_id": 4187,
+                    "description": "Pneumonia",
+                    "explanation": "Perfeito. É uma das indicações de associação. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-18T10:32:45.000Z",
+                    "updated_at": "2022-01-10T16:18:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17283,
+                    "question_id": 4187,
+                    "description": "Infecção de pele ou partes moles",
+                    "explanation": "Perfeito. É uma das indicações de associação.  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-18T10:32:45.000Z",
+                    "updated_at": "2022-01-10T16:18:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17284,
+                    "question_id": 4187,
+                    "description": "Idade > 60 anos",
+                    "explanation": "A **idade** pode indicar um **pior prognóstico**, mas não está indica o uso de vancomicina",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-08-18T10:32:45.000Z",
+                    "updated_at": "2022-01-10T16:18:57.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4187,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4553,
+            "institution_id": 4,
+            "description": "Atualmente a recomendação é de administrar a profilaxia antibiótico no parto cirúrgico 30 a 60 minutos antes da incisão da pele. Qual é o antibiótico geralmente utilizado?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-17T01:41:36.000Z",
+            "updated_at": "2022-01-10T19:23:40.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 475,
+                    "title": "Cesariana",
+                    "description": null,
+                    "parent_id": 19,
+                    "is_enabled": true,
+                    "created_at": "2020-09-17T01:17:36.000Z",
+                    "updated_at": "2020-09-17T01:17:36.000Z",
+                    "pivot": {
+                        "discipline_id": 475,
+                        "question_id": 4553
+                    }
+                },
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 4553
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 18838,
+                    "question_id": 4553,
+                    "description": "Ceftriaxona",
+                    "explanation": "Falso. Ceftriaxona é uma cefalosporina de terceira geração. Geralmente usamos uma cefalosporina de primeira geração.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-09-16T22:41:36.000Z",
+                    "updated_at": "2022-01-10T16:23:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 18839,
+                    "question_id": 4553,
+                    "description": "Cefazolina",
+                    "explanation": "Perfeito. Usamos uma cefalosporina de primeira geração.\n- A ideia é cobrir os patógenos de pele como o S.aureus\n- 1-2 g, administrada em dose única",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-09-16T22:41:36.000Z",
+                    "updated_at": "2022-01-10T16:23:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 18840,
+                    "question_id": 4553,
+                    "description": "Metronidazol",
+                    "explanation": "Não realizamos como rotina.\n- O metronidazol realiza a cobertura contra germes anaeróbios, principalmente de pelve e abdômen.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-09-16T22:41:36.000Z",
+                    "updated_at": "2022-01-10T16:23:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 18841,
+                    "question_id": 4553,
+                    "description": "Cefepime",
+                    "explanation": "É um antibiótico de largo espectro. Não é utilizado como profilaxia em parto cirúrgico.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-16T22:41:36.000Z",
+                    "updated_at": "2022-01-10T16:23:41.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4553,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4682,
+            "institution_id": 4,
+            "description": "Em um paciente com pneumonia por Pseudomonas aeruginosa, qual dos seguintes antibióticos pode ser utilizado?",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-25T23:52:40.000Z",
+            "updated_at": "2022-01-10T19:03:35.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 484,
+                    "title": "Penicilinas Semissintéticas e Penicilinas na Prática Clínica",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-09-25T16:20:40.000Z",
+                    "updated_at": "2022-01-10T19:34:32.000Z",
+                    "pivot": {
+                        "discipline_id": 484,
+                        "question_id": 4682
+                    }
+                },
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 4682
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 19363,
+                    "question_id": 4682,
+                    "description": "Penicilina G cristalina",
+                    "explanation": "Falso, Doc! 👀 A penicilina G cristalina **não cobre bacilos gram-negativos**.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-09-25T20:52:40.000Z",
+                    "updated_at": "2022-01-10T16:03:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19364,
+                    "question_id": 4682,
+                    "description": "Amoxicilina + Clavulanato",
+                    "explanation": "Falso, Doc! 👀 A amoxicilina + clavulanato cobre cocos gram+ e alguns bacilos gram-, no entanto **não cobre Pseudomonas aeruginosa**.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-25T20:52:40.000Z",
+                    "updated_at": "2022-01-10T16:03:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19365,
+                    "question_id": 4682,
+                    "description": "Oxacilina",
+                    "explanation": "Falso, Doc! 👀 A oxacilina é empregada sobretudo no tratamento de infecções por **estafilococo**s.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-09-25T20:52:40.000Z",
+                    "updated_at": "2022-01-10T16:03:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 19366,
+                    "question_id": 4682,
+                    "description": "Piperacilina + tazobactam",
+                    "explanation": "Arrasou, Doc! 😎\n- A **piperacilina** é uma penicilina de quarta geração, com espectro ampliado, e cobertura importante de bacilos gram-negativos, entre eles a Pseudomonas aeruginosa. \n- A associação com o inibidor de beta-lactamase tazobactam restaura a atividade desta penicilina sobre os microrganismos que mostram resistência, sendo principalmente indicado para tratamento de infecções por Pseudomonas aeruginosa.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-09-25T20:52:40.000Z",
+                    "updated_at": "2022-01-10T16:03:35.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4682,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 5031,
+            "institution_id": 4,
+            "description": "Qual é o esquema antibiótico para o tratamento de sepse neonatal? ",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-11-01T15:25:33.000Z",
+            "updated_at": "2022-01-10T19:21:02.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 513,
+                    "title": "Sepse Neonatal",
+                    "description": null,
+                    "parent_id": 29,
+                    "is_enabled": true,
+                    "created_at": "2020-11-01T15:05:45.000Z",
+                    "updated_at": "2020-11-01T15:05:45.000Z",
+                    "pivot": {
+                        "discipline_id": 513,
+                        "question_id": 5031
+                    }
+                },
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 5031
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 20792,
+                    "question_id": 5031,
+                    "description": "Ampicilina + Gentamicina",
+                    "explanation": "Perfeito, Estamos cobrindo o GBS com a Ampicilina e os Gram-negativos com a Gentamicina (Aminoglicosídeo).",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-11-01T12:25:33.000Z",
+                    "updated_at": "2022-01-10T16:21:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20793,
+                    "question_id": 5031,
+                    "description": "Ciprofloxacino",
+                    "explanation": "Não é o esquema ideal para o tratamento, já que não temos a cobertura para GBS",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-11-01T12:25:33.000Z",
+                    "updated_at": "2022-01-10T16:21:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20794,
+                    "question_id": 5031,
+                    "description": "Penicilina G cristalina",
+                    "explanation": "Carece de cobertura para Gram-negativos da flora vaginal. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-11-01T12:25:33.000Z",
+                    "updated_at": "2022-01-10T16:21:02.000Z",
+                    "files": []
+                },
+                {
+                    "id": 20795,
+                    "question_id": 5031,
+                    "description": "Ampicilina",
+                    "explanation": "Carece de cobertura para Gram-negativos da flora vaginal.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-11-01T12:25:33.000Z",
+                    "updated_at": "2022-01-10T16:21:02.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 5031,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 6531,
+            "institution_id": 4,
+            "description": "Qual é o antibiótico de primeira escolha para tratamento da Coqueluche?",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-03-01T16:44:46.000Z",
+            "updated_at": "2022-01-10T19:20:06.000Z",
+            "user_id": 50,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 619,
+                    "title": "Coqueluche",
+                    "description": null,
+                    "parent_id": 54,
+                    "is_enabled": true,
+                    "created_at": "2021-03-01T15:33:20.000Z",
+                    "updated_at": "2021-03-01T15:33:20.000Z",
+                    "pivot": {
+                        "discipline_id": 619,
+                        "question_id": 6531
+                    }
+                },
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 6531
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 26888,
+                    "question_id": 6531,
+                    "description": "Amoxicilina",
+                    "explanation": "Falso doc! A Bordetella pertussis é um cocobacilo gram-negativo complexo e não é coberto por penicilinas!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-03-01T13:44:46.000Z",
+                    "updated_at": "2022-01-10T16:20:06.000Z",
+                    "files": []
+                },
+                {
+                    "id": 26889,
+                    "question_id": 6531,
+                    "description": "Azitromicina",
+                    "explanation": "Perfeito doc! O classe de antibiótico de escolha para o tratamento da coqueluche é a classe dos macrolídeos, sendo a azitromicina a primeira escolha atualmente! A segunda escolha é a claritromicina, e o tratamento deve ser feito por um período de 5 dias com azitromicina e 7-10 dias com claritromicina.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2021-03-01T13:44:46.000Z",
+                    "updated_at": "2022-01-10T16:20:06.000Z",
+                    "files": []
+                },
+                {
+                    "id": 26890,
+                    "question_id": 6531,
+                    "description": "Eritromicina",
+                    "explanation": "Falso doc! Durante muito tempo a eritromicina foi considerada de escolha. No entanto, hoje apesar de ser uma alternativa, é pouco usada, uma vez que está relacionada a um maior risco de estenose hipertrófica do piloro em lactentes.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-03-01T13:44:46.000Z",
+                    "updated_at": "2022-01-10T16:20:06.000Z",
+                    "files": []
+                },
+                {
+                    "id": 26891,
+                    "question_id": 6531,
+                    "description": "Sulfametoxazol-trimetropim",
+                    "explanation": "Falso doc! O Sulfametoxazol-trimetropim não é o ATB de escolha, mas pode ser considerado uma alternativa, considerando que é contraindicado em <2 meses pelo risco de Kernicterus.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-03-01T13:44:46.000Z",
+                    "updated_at": "2022-01-10T16:20:06.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 6531,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1714,
+            "institution_id": 4,
+            "description": "Qual das classes de antibióticos abaixo é a mais famosa por gerar necrose tubular aguda?",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-12T15:44:54.000Z",
+            "updated_at": "2022-01-12T21:19:31.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 507,
+                    "title": "Aminoglicosídeos",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-10-28T19:27:45.000Z",
+                    "updated_at": "2020-10-28T19:27:45.000Z",
+                    "pivot": {
+                        "discipline_id": 507,
+                        "question_id": 1714
+                    }
+                },
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 1714
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7045,
+                    "question_id": 1714,
+                    "description": "Aminoglicosídeos",
+                    "explanation": "Perfeito, Doc! 😍\n- Outra característica para lembrar são os **\"Cilindros granulosos acastanhados**\" no exame de urina.\n- Além da nefrotoxicidade, outro efeito colateral importante de lembrar é a **ototoxicidade**.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-12T12:44:54.000Z",
+                    "updated_at": "2022-01-12T18:19:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7046,
+                    "question_id": 1714,
+                    "description": "Penicilinas",
+                    "explanation": "Falso, Doc! 😋 \n- Não têm essa característica.\n- Os principais efeitos adversos para lembrar das penicilinas são as **reações de hipersensibilidade** \n- As penicilinas também podem gerar toxicidade renal, mas é dada por **nefrite intersticial alérgica**, na maioria dos casos, principalmente pela oxacilina.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-12T12:44:54.000Z",
+                    "updated_at": "2022-01-12T18:19:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7047,
+                    "question_id": 1714,
+                    "description": "Tetraciclinas",
+                    "explanation": "Falso, Doc! 😋 \n- As tetraciclinas, assim como os aminoglicosídeos, agem na **subunidade 30S dos ribossomos**\n- Os principais efeitos colaterais das tetraciclinas são **problemas dentários e diarréia.**",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-12T12:44:54.000Z",
+                    "updated_at": "2022-01-12T18:19:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7048,
+                    "question_id": 1714,
+                    "description": "Clindamicina",
+                    "explanation": "Falso, Doc! 😋 O principal efeito colateral da clindamicina (uma lincosamida) é **diarréi**a associada ao Clostridium difficile (a causa mais comum de colite pseudomembranosa)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-12T12:44:54.000Z",
+                    "updated_at": "2022-01-12T18:19:31.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1714,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1722,
+            "institution_id": 4,
+            "description": "Qual classe de antibiótico é teratogênica, causando surdez em neonatos?",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-12T17:10:03.000Z",
+            "updated_at": "2022-01-13T03:45:12.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 507,
+                    "title": "Aminoglicosídeos",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-10-28T19:27:45.000Z",
+                    "updated_at": "2020-10-28T19:27:45.000Z",
+                    "pivot": {
+                        "discipline_id": 507,
+                        "question_id": 1722
+                    }
+                },
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 1722
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 7077,
+                    "question_id": 1722,
+                    "description": "Penicilinas",
+                    "explanation": "Falso, Doc! 😅  \n- **Não são teratogênicas.**\n- Inclusive o tratamento de sífilis congênita é feito com injeções de penicilina.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-12T14:10:03.000Z",
+                    "updated_at": "2022-01-13T00:45:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7078,
+                    "question_id": 1722,
+                    "description": "Aminoglicosídeos",
+                    "explanation": "Acertou em cheio, Doc! 👌\n- Importante lembrar que os principais problemas dos aminoglicosídeos são **nefro e ototoxicidade** e também **teratogenia**, gerando surdez no RN.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-12T14:10:03.000Z",
+                    "updated_at": "2022-01-13T00:45:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7079,
+                    "question_id": 1722,
+                    "description": "Tetraciclinas",
+                    "explanation": "Falso, Doc! 😅   O principal efeito colateral das tetraciclinas em bebês tem a ver com **falha no desenvolvimento dos dentes**.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-12T14:10:04.000Z",
+                    "updated_at": "2022-01-13T00:45:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 7080,
+                    "question_id": 1722,
+                    "description": "Macrolídeos",
+                    "explanation": "Falso, Doc! 😅  \n- Varia muito o risco na gravidez. \n- Azitromicina, por exemplo, é risco C, ou seja, não é embriotóxica ou teratogênica em animais; no ser humano não há estudos controlados.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-12T14:10:04.000Z",
+                    "updated_at": "2022-01-13T00:45:12.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1722,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2558,
+            "institution_id": 4,
+            "description": "Em relação à antibioticoterapia, assinale a afirmativa **INCORRETA.**\n",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T14:47:12.000Z",
+            "updated_at": "2022-01-07T02:20:32.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 2558
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10519,
+                    "question_id": 2558,
+                    "description": "A ceftriaxona, cefalosporina de 3ª geração, é indicada no tratamento da meningite bacteriana.",
+                    "explanation": "Esta está certa, Doc! 😅 \n- Tem um ótimo espectro de ação contra gram-positivos e gram-negativos e **atravessa a barreira hemato-encefálica**\n- Não possui cobertura para pseudomonas e anaeróbios\n- É a droga de **primeira escolha** nas meningites bacterianas.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T11:47:12.000Z",
+                    "updated_at": "2022-01-06T23:20:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10520,
+                    "question_id": 2558,
+                    "description": "A meningite bacteriana pode ser tratada com a associação de ceftriaxona e vancomicina.",
+                    "explanation": "Esta está certa, Doc! 😅 \n- A associação a vancomicina se deve aos MRSA possíveis causadores de meningite.\n- Possui uma cobertura para os estreptococos resistentes\n- A vancomicina não possui cobertura para gram negativos (útil apenas para gram-positivos).",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T11:47:12.000Z",
+                    "updated_at": "2022-01-06T23:20:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10521,
+                    "question_id": 2558,
+                    "description": "O carbapenêmico ertapenem é muito utilizado no tratamento da pneumonia nosocomial, tendo bom espectro de ação contra a pseudomonas aeruginosa.",
+                    "explanation": "Boa, Doc, essa é a incorreta! 👊 Os carbapenêmicos são antibióticos de largo espectro de ação.\n- A maioria cobre Pseudomonas, com **exceção do Ertapenem**\n- Possuem cobertura para gram positivo, negativo, anaeróbios.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-30T11:47:12.000Z",
+                    "updated_at": "2022-01-06T23:20:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10522,
+                    "question_id": 2558,
+                    "description": "A ampicilina/sulbactam tem ação contra a bactéria Acinetobacter baumannii.",
+                    "explanation": "Esta está certa, Doc! 😅 Possui um espectro de ação semelhante à Amoxicilina/Clavulanato.\n- **Exceto** quando falamos do Acinetobacter ➡ A sensibilidade da ampicilina/sulbactam é **alta** nesse caso.\n- Não possui atividade contra os outros organismo do acrônimo SPACE (Serratia spp, Providencia spp, Proteus spp. não mirabilis, Citrobactéria spp., and Enterobactéria spp). São microrganismo que podem ter resistência in vivo mesmo não tendo in vitro.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T11:47:12.000Z",
+                    "updated_at": "2022-01-06T23:20:32.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2558,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2560,
+            "institution_id": 12,
+            "description": "Paciente de 20 anos apresenta celulite na perna esquerda. Diz que é jogador de futebol americano e que tudo começou a partir de um ferimento produzido pelo uso de caneleira de proteção. Foi prescrita cefalexina e ele foi orientado a retornar em cinco dias. O paciente retornou um pouco pior, ainda com febre, dor e calor local. A cultura colhida na primeira consulta revela crescimento de Staphylococcus aureus resistente à meticilina. O estado geral do paciente ainda é bom. Por cuidados locais, deve-se trocar o antibiótico para:",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T12:01:14.000Z",
+            "updated_at": "2022-01-05T18:43:29.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 12,
+                "title": "SES-RJ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T18:11:22.000Z",
+                "updated_at": "2020-05-17T18:11:22.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 2560
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10527,
+                    "question_id": 2560,
+                    "description": "Sulfametoxazol com trimetoprim.",
+                    "explanation": "Arrasou, Doc! 😎\n- A cefalexina é uma cefalosporina de **primeira** geração, ou seja, com boa ação contra gram-positivos, como o S. aureus. No entanto, as únicas cefalosporinas que possuem ação contra S. aureus **resistente** a meticilina, são as de **quinta** geração\n- O sulfametoxazol/trimetropin é uma **sulfa** e é uma ótima escolha para cobertura de **lesões de pele e tecidos moles** e possui **boa cobertura contra MRSA.**\n- É a melhor escolha para abscessos após a Linezolida\n- Possui uma fraca cobertura a streptococos.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-30T12:01:14.000Z",
+                    "updated_at": "2022-01-05T18:43:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10528,
+                    "question_id": 2560,
+                    "description": "Amoxacilina com clavulanato.",
+                    "explanation": "Falso, Doc! 😬  \n- Possui uma boa cobertura a alguns gram positivos, alguns gram negativos e anaeróbios.\n- No entanto,  não é uma boa opção para MRSA",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T12:01:14.000Z",
+                    "updated_at": "2022-01-05T18:43:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10529,
+                    "question_id": 2560,
+                    "description": "Ciprofloxaxina.",
+                    "explanation": "Falso, Doc! 😬  \n- É a melhor quinolona quando se fala de cobertura para **gram-negativos**, possuindo não tão grande cobertura para gram positivos.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T12:01:14.000Z",
+                    "updated_at": "2022-01-05T18:43:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10530,
+                    "question_id": 2560,
+                    "description": "Cefuroxima",
+                    "explanation": "Falso, Doc! 😬  É uma cefalosporina de segunda geração.\n- Possui uma boa cobertura para gram-positivos e uma excelente cobertura para gram-negativos \n- É usada para infecções respiratórias, gonorreia, ITUs, doença de Lyme, etc.\n- No entanto, as únicas cefalosporinas que possuem ação contra **MRSA** são as de **quinta** geração ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T12:01:14.000Z",
+                    "updated_at": "2022-01-05T18:43:29.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2560,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2561,
+            "institution_id": 109,
+            "description": "Recém-nascido com 12 dias de vida encontra-se na UTI desde o nascimento por prematuridade. Apresenta-se com hipotermia, apneia, resíduo gástrico positivo, pele rendilhada e hipoatividade. Realizada punção lombar que evidenciou liquor com baixos níveis de glicose, hiperproteinorraquia e pleocitose com predomínio de neutrófilos. Qual(is) o(s) antibiótico de eleição, dentre os abaixo citados?",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T15:13:42.000Z",
+            "updated_at": "2022-01-06T00:41:05.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 109,
+                "title": "SURCE",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-06-09T11:29:46.000Z",
+                "updated_at": "2020-06-09T11:29:46.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 2561
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10531,
+                    "question_id": 2561,
+                    "description": "Cefepime",
+                    "explanation": "Perfeito, Doc! 😍 \n- Temos uma suspeita de **meningite em neonato (<1 mês)** ➡ Temos que pensar em cobertura para S. agalactie (gram positivo), E. coli (gram negativo), L. monocytogenes (gram positivos)\n- O Cefepime possui **largo espectro** contra gram positivos (MSSA, streptococcus) e gram negativos(incluindo pseudomonas).\n- Possui fraca cobertura a anaeróbios.\n- É uma cefalosporina de quarta geração.\n- É o medicamento de escolha em meningite com suspeita de gram negativos, neutropênia febril, meningite nosocomial.\n- O antibiótico para tratamento empírico de escolha, no entanto, normalmente é a **ceftriaxona** ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-30T12:13:42.000Z",
+                    "updated_at": "2022-01-05T21:41:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10532,
+                    "question_id": 2561,
+                    "description": "Ampicilina",
+                    "explanation": "Falso, Doc! 😣 \n- Temos uma suspeita de **meningite em neonato (<1 mês)** ➡ Temos que pensar em cobertura para S. agalactie (gram positivo), E. coli (gram negativo), L. monocytogenes (gram positivos) Cobre a maioria dos gram positivos(inclusivre S.agalactie) ➡ Contudo, **não** cobre MSSA e tem **fraca atuação sobre os gram-negativos**\n- Geralmente, é associada a **gentamicina** em infecções neonatais.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T12:13:42.000Z",
+                    "updated_at": "2022-01-05T21:41:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10533,
+                    "question_id": 2561,
+                    "description": "Metronidazol",
+                    "explanation": "Falso, Doc! 😣 Essa é a principal droga de escolha para cobertura de **anaeróbios e protozoário**s",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T12:13:42.000Z",
+                    "updated_at": "2022-01-05T21:41:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10534,
+                    "question_id": 2561,
+                    "description": "Piperacilina + tazobactam.",
+                    "explanation": "Falso, Doc! 😣 É um antibiótico de **largo espectro** ➡ Possui cobertura para **gram positivo, gram negativo, anaeróbios.** \n- Porém, não seria a primeira escolha **no escalonamento** do tratamento",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T12:13:42.000Z",
+                    "updated_at": "2022-01-05T21:41:05.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2561,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2563,
+            "institution_id": 4,
+            "description": "Na abordagem de uma úlcera de decúbito infectada, foi retirado um fragmento para cultura. O resultado evidenciou presença de Pseudomonas aeruginosa. Como opção de antibioticoterapia adequada para este caso, pode-se considerar:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T16:00:51.000Z",
+            "updated_at": "2022-01-06T01:06:49.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 2563
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10539,
+                    "question_id": 2563,
+                    "description": "cefuroxima.",
+                    "explanation": "Falso, Doc! 🙊 É uma cefalosporina d**e segunda geração,** assim como a cefoxitina\n- As cefalosporinas de **1a, 2a e 5a** geração **não possuem atividade contra pseudomonas**\n- Já as de 3a e, principalmente, de 4a geração possuem atividade contra pseudomonas  \n- Possui uma boa cobertura para gram positivos e gram negativos ➡ Maior que a primeira geração de cefalosporinas\n- É usada para infecções respiratórias, gonorreia, ITUs, doença de Lyme, etc.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T13:00:51.000Z",
+                    "updated_at": "2022-01-05T22:06:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10540,
+                    "question_id": 2563,
+                    "description": "ertapenem",
+                    "explanation": "Falso, Doc! 🙊 Os carbapenêmicos são antibióticos de largo espectro de ação.\n- A maioria cobre Pseudomonas, com **exceção do** **Ertapenem**\n- Possuem cobertura para gram positivo, negativo, anaeróbios. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T13:00:51.000Z",
+                    "updated_at": "2022-01-05T22:06:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10541,
+                    "question_id": 2563,
+                    "description": "ampicilina/sulbactam.",
+                    "explanation": "Falso, Doc! 🙊 \n- É uma ótima escolha para cobertura de **lesões de pele e tecidos moles** devido a **boa cobertura contra MRSA.**\n- É a melhor escolha para abscessos após a **Linezolida.**\n- Contudo, possui uma fraca cobertura a streptococos. \n- Não possui cobertura para **Pseudomonas.**\n- A única penicilina com ação antipseudomonas é a **piperacilina**",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T13:00:51.000Z",
+                    "updated_at": "2022-01-05T22:06:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10542,
+                    "question_id": 2563,
+                    "description": "piperacilina/tazobactam.",
+                    "explanation": "Muito bem, Doc! 😁 \n- É uma penicilina de largo espectro de ação\n- Possui cobertura para gram positivos, gram negativos, anaeróbios\n- Possui cobertura para **Pseudomonas** (diferentemente das demais penicilinas)\n- Não possui cobertura para MRSA, atípicos(Clamídia, Micoplasma e Legionella).",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-30T13:00:51.000Z",
+                    "updated_at": "2022-01-05T22:06:49.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2563,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2565,
+            "institution_id": 61,
+            "description": "Menina de 7 anos de idade, com diagnóstico de infecção urinária de repetição por bexiga neurogênica, está internada em uso de ceftriaxona para tratamento de pielonefrite. No segundo dia de internação, ainda mantendo febre, é obtido o resultado da urocultura, com presença de Escherichia coli produtora de betalactamases de espectro ampliado (ESBL). Frente a este achado, assinale a melhor alternativa de antibiótico para continuar o tratamento:\n",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T14:05:17.000Z",
+            "updated_at": "2020-06-30T14:05:17.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 61,
+                "title": "USP-RP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-23T20:44:31.000Z",
+                "updated_at": "2020-05-23T20:44:31.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 2565
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10547,
+                    "question_id": 2565,
+                    "description": "Ceftriaxona.",
+                    "explanation": "Paciente não está melhorando com o uso de ceftriaxona.\n- Além disso, temos Escherichia coli produtora de betalactamases. \n- As cefalosporinas são **Beta-lactâmicos ➡ Resistem apenas a alguns produtores de betalactamases.** ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T14:05:17.000Z",
+                    "updated_at": "2020-06-30T14:05:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10548,
+                    "question_id": 2565,
+                    "description": "Cefepime",
+                    "explanation": "- É uma cefalosporina de quarta geração\n- Possui um largo espectro para gram positivos e negativos(incluindo Pseudomonas)\n- Quase nada de cobertura para anaeróbios.\n- As cefalosporinas são **Beta-lactâmicos ➡ Resistem apenas a alguns produtores de betalactamases.** ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T14:05:17.000Z",
+                    "updated_at": "2020-06-30T14:05:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10549,
+                    "question_id": 2565,
+                    "description": "Meropenem",
+                    "explanation": "Mesmo sendo beta-lactâmicos, os carbapenêmicos(meropenem, imipenem, ertapenem) s**ão indicados em infecções por produtores de betalactamases(ESBL-extended spectrum beta lactamase producers).**\n- Possui uma largo espectro de ação\n- Podem diminuir o limiar convulsivo.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-30T14:05:17.000Z",
+                    "updated_at": "2020-06-30T14:05:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10550,
+                    "question_id": 2565,
+                    "description": "Ceftazidima",
+                    "explanation": "É uma cefalosporina de terceira geração.\n- Possui apenas cobertura para gram negativos(incluindo Pseudomonas)\n- Não possui cobertura para gram positivos e **anaeróbios.**\n- As cefalosporinas são **Beta-lactâmicos ➡ Resistem apenas a alguns produtores de betalactamases.**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T14:05:17.000Z",
+                    "updated_at": "2020-06-30T14:05:17.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2565,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2566,
+            "institution_id": 4,
+            "description": "A associação de antimicrobianos de escolha para tratamento das infecções de ferida após mordedura de cão é:\n",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T17:17:57.000Z",
+            "updated_at": "2022-01-06T22:16:13.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 2566
+                    }
+                },
+                {
+                    "id": 484,
+                    "title": "Penicilinas Semissintéticas e Penicilinas na Prática Clínica",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-09-25T16:20:40.000Z",
+                    "updated_at": "2022-01-10T19:34:32.000Z",
+                    "pivot": {
+                        "discipline_id": 484,
+                        "question_id": 2566
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10551,
+                    "question_id": 2566,
+                    "description": "clindamicina + amoxicilina.",
+                    "explanation": "Falso, Doc! 🤔\n- Clindamicina ➡ Excelente atividade contra anaeróbios e gram-positivos ➡ Pode ser usada em pele, infecções pélvicas, abscesso pulmonar, sinusites.\n- Amoxicilina ➡ Usado contra gram positivos ➡ (Pneumococo, Streptococo, Listeria), mas não MSSA.\n- **Não** é a combinação de primeira escolha para o tratamento de mordeduras.  ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T14:17:57.000Z",
+                    "updated_at": "2022-01-06T19:16:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10552,
+                    "question_id": 2566,
+                    "description": "cefoxitina + doxiciclina.",
+                    "explanation": "Falso, Doc! 🤔 \n- Cefoxitina ➡ cefalosporina de segunda geração ➡ Cobre anaerobios e gram negativos, mas não pseudomonas.\n- Doxiciclina ➡ Tetraciclina ➡ Largo espectro de ação ➡ Possui atividade contra patógenos atípicos.\n- **Não** é a combinação de primeira escolha para o tratamento de mordeduras. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T14:17:57.000Z",
+                    "updated_at": "2022-01-06T19:16:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10553,
+                    "question_id": 2566,
+                    "description": "penicilina + doxiciclina.",
+                    "explanation": "Falso, Doc! 🤔 \n- Penicilina ➡ Boa cobertura para alguns gram positivos e negativos\n- Doxiciclina ➡ Tetraciclina ➡ Largo espectro de ação ➡ Possui atividade contra patógenos atípicos.\n- **Não** é a combinação de primeira escolha para o tratamento de mordeduras.  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T14:17:57.000Z",
+                    "updated_at": "2022-01-06T19:16:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10554,
+                    "question_id": 2566,
+                    "description": "amoxicilina + ácido clavulânico.",
+                    "explanation": "Perfeito, Doc! 👏😁 É o melhor esquema para o tratamento **e profilaxia de mordedura**s.\n- Possui atividade contra alguns gram positivos (MSSA, Strep), alguns negativos e anaeróbios. \n- Não possui cobertura para pseudomonas.\n- Usado para: **infecções de tecidos moles e pele (especialmente mordeduras)**, otite média, sinusite, infecções respiratória.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-30T14:17:57.000Z",
+                    "updated_at": "2022-01-06T19:16:13.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2566,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2568,
+            "institution_id": 11,
+            "description": "Um homem internado em UTI, com cateter venoso central, apresenta febre e duas hemoculturas, periférica e central, positivas para estafilococo coagulase negativo. Tratamento empírico deve ser iniciado com: ",
+            "difficulty": "medium",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T19:55:12.000Z",
+            "updated_at": "2022-01-06T22:28:05.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 11,
+                "title": "SUS-SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T17:55:16.000Z",
+                "updated_at": "2020-05-17T17:55:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 2568
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10559,
+                    "question_id": 2568,
+                    "description": "oxacilina.",
+                    "explanation": "Falso, Doc! 😬  \n- É uma penicilina que pode agir contra S. aureus meticilina sensível (MSSA). É uma boa escolha para **celulite, endocardite, osteomielite, bacteremia por MSSA.**\n- Não possuem cobertura para Estafilococo Coagulase negativo ➡ **Resistência é maior que 80% das cepas.** \n- O principal estafilococo coagulase negativo que você precisa lembrar, Doc, é o **S. epidermidis,** associado com infecções relacionadas a **cateteres endovenosos.**\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T16:55:12.000Z",
+                    "updated_at": "2022-01-06T19:28:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10560,
+                    "question_id": 2568,
+                    "description": "ceftriaxona e gentamicina.",
+                    "explanation": "Falso, Doc! 😬 \n- Os aminoglicosídeos, como a **gentamicina** são úteis em infecções por gram-negativos (incluindo pseudomonas). Contudo, quase nenhuma cobertura para gram-positivos ou anaeróbios. \n- São mais utilizados em infecções comunitárias, e não hospitalares\n- Já as cefalosporinas de 3a geração, como a **ceftriaxona** também não possuem ação contra MRSA (apenas as de 5a geração possuem!)\n- Essa combinação **não** é capaz de cobrir os germes MRSA.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T16:55:12.000Z",
+                    "updated_at": "2022-01-06T19:28:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10561,
+                    "question_id": 2568,
+                    "description": "vancomicina.",
+                    "explanation": "Arrasou, Doc! 😎\n- É o medicamento de escolha preconizado pelos principais guidelines de medicina intensiva.\n- A vancomicina é o antibiótico de escolha para o tratamento de possíveis **MRSA (ambiente hospitalar).**\n- É um **glicopeptídeo** que inibe a síntese da **parede celular dos Gram-positivos.**\n- Possui boa atividade **contra gram-positivos em geral.** ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-30T16:55:12.000Z",
+                    "updated_at": "2022-01-06T19:28:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10562,
+                    "question_id": 2568,
+                    "description": "ceftriaxona.",
+                    "explanation": "Falso, Doc! 😬 As cefalosporinas de 3a geração, como a **ceftriaxon**a também não possuem ação contra MRSA (apenas as de 5a geração possuem!)\n ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T16:55:12.000Z",
+                    "updated_at": "2022-01-06T19:28:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10563,
+                    "question_id": 2568,
+                    "description": "ampicilina e gentamicina.",
+                    "explanation": "Falso, Doc! 😬 \n- Os aminoglicosídeos, como a **gentamicina** são úteis em infecções por gram-negativos (incluindo pseudomonas). Contudo, quase nenhuma cobertura para gram-positivos ou anaeróbios. \n- São mais utilizados em infecções comunitárias, e não hospitalares \n- Já a **ampicilina**, é uma penicilina semissintética, que também não possui cobertura para MRSA**.** \n- A combinação indicada é usada em sepse neonatal",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-06-30T16:55:12.000Z",
+                    "updated_at": "2022-01-06T19:28:05.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2568,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2571,
+            "institution_id": 4,
+            "description": "Paciente de 42 anos idade, em pós-operatório abdominal com celulite extensa e exsudato purulento ao redor de ferida cirúrgica. Apresenta febre, leucocitose e hemocultura positiva para Staphylococcus aureus meticilina/oxacilina resistente. Qual das opções abaixo é um antibiótico da classe das cefalosporinas **adequado** a cobertura desse paciente?",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T17:22:03.000Z",
+            "updated_at": "2022-05-03T13:43:12.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 2571
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10572,
+                    "question_id": 2571,
+                    "description": "Ceftarolina",
+                    "explanation": "Isso mesmo, Doc! 🤓\n- Entre as cefalosporinas, apenas as de **5a geração** possuem ação contra MRSA\n- A principal indicação para MRSA é o glicopeptídeo **vancomicina.** No entanto, dentre as cefalosporinas, esse medicamento é uma opção.\n- Possui ótima cobertura para Gram positivos ➡ **Incluem MRSA (resistente a meticilina), VISA (sensível a vancomicina), VRSA (resistente a vancomicina).** \n- Possui uma boa cobertura para Gram-negativos ➡ Semelhante a Ceftriaxona ➡ Porém não cobre Pseudomonas.\n\n\n- Como diria Seu Jorge: Ceftarolina, eu preciso de você😂",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-30T17:22:03.000Z",
+                    "updated_at": "2022-05-03T13:43:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10573,
+                    "question_id": 2571,
+                    "description": "Vancomicina",
+                    "explanation": "Falso, Doc! 🙊 É o antibiótico de escolha para cobertura de infecções por MRSA.\n- No entanto, **não é uma cefalosporina** 😜",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T17:22:03.000Z",
+                    "updated_at": "2022-05-03T13:43:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10574,
+                    "question_id": 2571,
+                    "description": "Cefepima",
+                    "explanation": "Falso, Doc! 🙊 É uma cefalosporina de **4a geração**.\n- Entre as cefalosporinas, apenas as de **5a geração** possuem ação contra MRSA\n- Age contra gram positivos ➡ MSSA (meticilina sensível) e streptococos.\n- Age contra a maioria dos gram-negativos ➡ Incluindo Pseudomonas.\n- Usado na neutropenia febril.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T17:22:03.000Z",
+                    "updated_at": "2022-05-03T13:43:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10575,
+                    "question_id": 2571,
+                    "description": "Daptomicina",
+                    "explanation": "Falso, Doc! 🙊 \n- É um antibiótico lipopeptídico, e um ótimo substituto para a vancomicina (que é a principal indicação para MRSA)\n- Portanto, também tem ação contra MRSA, mas **não é uma cefalosporina**\n- Assim como a vancomicina, cobre apenas **gram-positivos.** Não tem atividade contra gram-negativos",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T17:22:03.000Z",
+                    "updated_at": "2022-05-03T13:43:12.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2571,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4478,
+            "institution_id": 6,
+            "description": "Homem, vítima de trauma contuso, com possíveis múltiplas fraturas de costelas, foi submetido a exame físico de pneumotórax esquerdo. Devido à dessaturação crescente de oxigenação do paciente, a toracostomia à esquerda foi realizada em condições subótimas. Nesse caso, a antibioticoprofilaxia a ser realizada consiste em:\n",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-09T19:58:26.000Z",
+            "updated_at": "2022-04-24T16:13:47.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 6,
+                "title": "UERJ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T14:06:12.000Z",
+                "updated_at": "2020-05-17T14:06:12.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 470,
+                    "title": "Infecção em Cirurgia ",
+                    "description": "Antibioticoprofilaxia e ISC",
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-09-09T19:16:08.000Z",
+                    "updated_at": "2020-09-09T19:28:31.000Z",
+                    "pivot": {
+                        "discipline_id": 470,
+                        "question_id": 4478
+                    }
+                },
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 4478
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 18521,
+                    "question_id": 4478,
+                    "description": "ciprofloxacina",
+                    "explanation": "Apresenta uma boa cobertura para Gram negativos, contudo, não para S.aureus ou S. epidermidis.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-09-09T16:58:26.000Z",
+                    "updated_at": "2022-04-24T16:13:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 18522,
+                    "question_id": 4478,
+                    "description": "ceftriaxone",
+                    "explanation": "Não seria o antibiótico de primeira escolha.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-09T16:58:26.000Z",
+                    "updated_at": "2022-04-24T16:13:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 18523,
+                    "question_id": 4478,
+                    "description": "cefepime",
+                    "explanation": "É um antibiótico de largo espectro, não seria a primeira escolha,",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-09-09T16:58:26.000Z",
+                    "updated_at": "2022-04-24T16:13:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 18524,
+                    "question_id": 4478,
+                    "description": "cefazolina",
+                    "explanation": "Perfeito, doc.  Os principais agentes etiológicos da infecção são germes de pele, principalmente **Staphylococcus aureus, seguido de Staphylococcus coagulase negativo (S. epidermidis, principalmente).** \n- **As cefalosporinas de primeira geração são os antibióticos de primeira escolha.**",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-09-09T16:58:26.000Z",
+                    "updated_at": "2022-04-24T16:13:47.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4478,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4498,
+            "institution_id": 4,
+            "description": "Paciente será submetida à histerectomia vaginal, devido a prolapso genital total. Qual esquema antibiótico de escolha para profilaxia deve ser?\n",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-09-10T15:58:27.000Z",
+            "updated_at": "2022-01-10T19:23:31.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 470,
+                    "title": "Infecção em Cirurgia ",
+                    "description": "Antibioticoprofilaxia e ISC",
+                    "parent_id": 16,
+                    "is_enabled": true,
+                    "created_at": "2020-09-09T19:16:08.000Z",
+                    "updated_at": "2020-09-09T19:28:31.000Z",
+                    "pivot": {
+                        "discipline_id": 470,
+                        "question_id": 4498
+                    }
+                },
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 4498
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 18602,
+                    "question_id": 4498,
+                    "description": "Cefalotina 2 g isolada.",
+                    "explanation": "É uma cefalosporina de primeira geração.\n- Seria uma escolha certa se existisse a necessidade de cobertura para germes de pele, como o Staphylococcus aureus.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-09-10T12:58:27.000Z",
+                    "updated_at": "2022-01-10T16:23:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 18603,
+                    "question_id": 4498,
+                    "description": "Ciprofloxacina 400 mg isolada.",
+                    "explanation": "Seria uma escolha certa se existisse a necessidade de cobertura para germes do trato gastrointestinal, especialmente gram negativos",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-09-10T12:58:27.000Z",
+                    "updated_at": "2022-01-10T16:23:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 18604,
+                    "question_id": 4498,
+                    "description": "Ampicilina 2 g + gentamicina 1,5 mg/kg.",
+                    "explanation": "Perfeito. Estamos fazendo a cobertura da flora pélvica. \n- Principais microrganismos: streptococcus agalactiae, listeria, E.coli.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-09-10T12:58:27.000Z",
+                    "updated_at": "2022-01-10T16:23:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 18605,
+                    "question_id": 4498,
+                    "description": "Clindamicina 600mg + metronidazol 1g",
+                    "explanation": "É uma combinação para cobertura de germes anaeróbios.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-09-10T12:58:27.000Z",
+                    "updated_at": "2022-01-10T16:23:31.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4498,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12367,
+            "institution_id": 525,
+            "description": "A escolha criteriosa de antibióticos é fundamental para a boa prática clínica, evitando o uso indiscriminado que pode acarretar padrões de resistência bacteriana danosos a toda a população. Correlacione as colunas indicando a primeira escolha de antimicrobiano para cada infecção: \n- Penicilina benzatina. \n- Amoxicilina + clavulanato. \n- Eritromicina. \n- Ampicilina. \n- Oxacilina. \n\n\n- ( ) Mordedura de cão. \n- ( ) Coqueluche. \n- ( ) Amigdalite bacteriana. \n- ( ) Síndrome da pele escaldada. \n- ( ) Infecção por enterococo sensível. \n\n\nAssinale a alternativa que apresenta a numeração correta da coluna da direita, de cima para baixo.\n",
+            "difficulty": "medium",
+            "year": "2013-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-01-07T00:18:17.000Z",
+            "updated_at": "2022-01-07T01:04:58.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 525,
+                "title": "HOSPITAL DAS CLÍNICAS-PR",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-11-15T20:16:15.000Z",
+                "updated_at": "2021-11-15T20:16:15.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 12367
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 50677,
+                    "question_id": 12367,
+                    "description": "2 – 4 – 3 – 1 – 5 ",
+                    "explanation": "Falso, Doc! 😋 Confira a explicação completa no comentário da alternativa correta. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-01-07T00:18:17.000Z",
+                    "updated_at": "2022-01-07T01:04:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50678,
+                    "question_id": 12367,
+                    "description": "1 – 2 – 3 – 5 – 4 ",
+                    "explanation": "Falso, Doc! 😋 Confira a explicação completa no comentário da alternativa correta.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-01-07T00:18:17.000Z",
+                    "updated_at": "2022-01-07T01:04:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50679,
+                    "question_id": 12367,
+                    "description": "2 – 3 – 1 – 5 – 4 ",
+                    "explanation": "Perfeitíssimo, Doc! 😍 Analisando as alternativas:\n- (2) - Para **mordedura de cão** a primeira escolha é **amoxacilina e clavulanato** (grava essa, Doc!). Possuem amplo espectro.\n- (3) - Doc, a coqueluche é causada pela **Bordetella Pertussis,** um coco gram-negativo, e o grupo antibiótico de escolha são os **macrolídeos**, como a eritromicina\n- (1) - Faringite por **Streptococo do grupo A** (pyogenes) pode ser tratada por **penicilina benzatina** (Doc, se liga, porque não há tantas indicações para a penicilina benzatina atualmente, e você pode gravar algumas, como essa e a sífilis)\n- (5) - Essa condição é tratada com antibiótico resistente a penicilinase, como **oxacilina**, via intravenosa. O tratamento deve começar o mais precocemente possível. Pode ser usada também cefalosporina (de 1a ou 2a geração) ou vancomicina. Repare que todas essas medicações são úteis para gram-positivos.\n- (4) As **aminopenicilinas**, como a ampicilina,**** são os melhores beta-lactâmicos para cobrir **enterococos.**",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2022-01-07T00:18:17.000Z",
+                    "updated_at": "2022-01-07T01:04:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50680,
+                    "question_id": 12367,
+                    "description": "4 – 2 – 1 – 3 – 5 ",
+                    "explanation": "Falso, Doc! 😋 Confira a explicação completa no comentário da alternativa correta. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-01-07T00:18:17.000Z",
+                    "updated_at": "2022-01-07T01:04:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50681,
+                    "question_id": 12367,
+                    "description": "4 – 3 – 5 – 1 – 2.",
+                    "explanation": "Falso, Doc! 😋 Confira a explicação completa no comentário da alternativa correta. ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2022-01-07T00:18:17.000Z",
+                    "updated_at": "2022-01-07T01:04:58.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12367,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12368,
+            "institution_id": 225,
+            "description": "Jovem feminina se encontrava internada no hospital com quadro de importante infecção de foco abdominal. Nesse aspecto, o tratamento estava sendo conduzido pela cirurgia geral, porém você foi chamado para oferecer parecer relacionado à queda do débito que complicou o caso clínico. Ao avaliar a prescrição, assinale a alternativa em que a medicação NÃO interage com a disfunção renal.\n\n",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-01-10T13:39:22.000Z",
+            "updated_at": "2022-01-10T13:39:22.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 225,
+                "title": "Hospital Alvorada - SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-01-18T21:29:12.000Z",
+                "updated_at": "2021-01-18T21:29:12.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 12368
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 50682,
+                    "question_id": 12368,
+                    "description": "Amicacina. ",
+                    "explanation": "Falso, Doc! 🙉 \n- Os **aminoglicosídeos**, como a amicacina e gentamicina são os medicamentos mais **nefrotóxicos** entre os antimicrobianos\n- O aumento de radicais livres causado pelo uso desses medicamentos pode levar a queda do débito e insuficiência renal aguda",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-01-10T13:39:22.000Z",
+                    "updated_at": "2022-01-10T13:39:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50683,
+                    "question_id": 12368,
+                    "description": "Ceftriaxona.   ",
+                    "explanation": "Falso, Doc! 🙉 \n- Os aminoglicosídeos, como a amicacina e gentamicina, e as **cefalosporinas**, como ceftriaxona e cefalotina, são os medicamentos mais **nefrotóxicos** entre os antimicrobianos\n- As cefalosporinas fazem isso por causarem **necrose tubular aguda**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-01-10T13:39:22.000Z",
+                    "updated_at": "2022-01-10T13:39:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50684,
+                    "question_id": 12368,
+                    "description": "Metronidazol. ",
+                    "explanation": "Muito bem, Doc! 😁\n- O metronidazol faz parte do grupo dos nitroimidazólicos e é muito utilizado contra **anaeróbios** principalmente em infecções intestinais\n- Pode causar, além dos comuns a maioria dos antimicrobianos (náuseas, vômitos, diarreia), efeitos adversos como gosto metálico na boca e neurotoxicidade. Porém não é comum causar nefrotoxicidade\n\n\n💡 Principais antibióticos que causam nefrotoxicidade = aminoglicosídeos e cefalosporinas",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2022-01-10T13:39:22.000Z",
+                    "updated_at": "2022-01-10T13:39:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50685,
+                    "question_id": 12368,
+                    "description": "Cefalotina. ",
+                    "explanation": "Falso, Doc! 🙉 \n- Os aminoglicosídeos, como a amicacina e gentamicina, e as **cefalosporinas**, como ceftriaxona e cefalotina, são os medicamentos mais **nefrotóxicos** entre os antimicrobianos\n- As cefalosporinas fazem isso por causarem **necrose tubular aguda** ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-01-10T13:39:22.000Z",
+                    "updated_at": "2022-01-10T13:39:22.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12368,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12370,
+            "institution_id": 225,
+            "description": "Os seguintes antibióticos exigem ajuste de dose para função renal, EXCETO:",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-01-10T14:19:23.000Z",
+            "updated_at": "2022-01-10T14:19:23.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 225,
+                "title": "Hospital Alvorada - SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-01-18T21:29:12.000Z",
+                "updated_at": "2021-01-18T21:29:12.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 12370
+                    }
+                },
+                {
+                    "id": 537,
+                    "title": "Lincosamidas",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-11-24T20:16:10.000Z",
+                    "updated_at": "2020-11-24T20:27:33.000Z",
+                    "pivot": {
+                        "discipline_id": 537,
+                        "question_id": 12370
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 50691,
+                    "question_id": 12370,
+                    "description": "Vancomicina. ",
+                    "explanation": "Esse precisa, sim, Doc! 🙊 Cerca de **75**% da vancomicina, nas primeiras 24h, é excretada por via glomerular",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-01-10T14:19:23.000Z",
+                    "updated_at": "2022-01-10T14:19:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50692,
+                    "question_id": 12370,
+                    "description": "Clindamicina. ",
+                    "explanation": "Muito bem, Doc, esse é o que não precisa! 🤗👏\n- A clindamicina **não** exige ajuste de dose para pacientes com insuficiência renal, nem hepática",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-01-10T14:19:23.000Z",
+                    "updated_at": "2022-01-10T14:19:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50693,
+                    "question_id": 12370,
+                    "description": "Meropenem.",
+                    "explanation": "Esse precisa, sim, Doc! 🙊  O meropenem é excretado inicialmente inalterado pelos rins.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-01-10T14:19:23.000Z",
+                    "updated_at": "2022-01-10T14:19:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50694,
+                    "question_id": 12370,
+                    "description": "Cefepime.",
+                    "explanation": "Esse precisa, sim, Doc! 🙊  A via urinária é a principal forma de excreção do cefepime",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-01-10T14:19:23.000Z",
+                    "updated_at": "2022-01-10T14:19:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12370,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12371,
+            "institution_id": 356,
+            "description": "Para profissionais da área de saúde, as quimioprofilaxias antimicrobianas em casos de exposições à situações de riscos são fundamentais. Assim sendo, associe as colunas e escolha a alternativa com a sequência CORRETA: (Conforme imagem do caderno de questões) (TONELLI E, FREIRE LMS. Condutas com os contatos de doenças transmissíveis. Em: ROCHA MOC, PEDROSO ERP. Fundamentos em Infectologia. Editora Rubio. 2009 )\n",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-01-10T14:34:07.000Z",
+            "updated_at": "2022-01-10T14:34:07.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 356,
+                "title": "HOSPITAL ANGELINA CARON",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-05-29T14:12:04.000Z",
+                "updated_at": "2021-05-29T14:12:04.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 12371
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 50695,
+                    "question_id": 12371,
+                    "description": "II, II, III, IV. ",
+                    "explanation": "Falso, Doc! 😬   Confira a explicação completa no comentário da alternativa correta 😉 ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-01-10T14:34:07.000Z",
+                    "updated_at": "2022-01-10T14:34:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50696,
+                    "question_id": 12371,
+                    "description": "II, III, II, I. ",
+                    "explanation": "Falso, Doc! 😬   Confira a explicação completa no comentário da alternativa correta 😉 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-01-10T14:34:07.000Z",
+                    "updated_at": "2022-01-10T14:34:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50697,
+                    "question_id": 12371,
+                    "description": "IV, II, II, III. ",
+                    "explanation": "Falso, Doc! 😬   Confira a explicação completa no comentário da alternativa correta 😉 ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-01-10T14:34:07.000Z",
+                    "updated_at": "2022-01-10T14:34:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50698,
+                    "question_id": 12371,
+                    "description": "IV, II, II, II. ",
+                    "explanation": "Falso, Doc! 😬   Confira a explicação completa no comentário da alternativa correta 😉",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-01-10T14:34:07.000Z",
+                    "updated_at": "2022-01-10T14:34:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50699,
+                    "question_id": 12371,
+                    "description": "III, III, I, II.",
+                    "explanation": "Parabéns, Doc! 😍 Repare que a questão fala em **profilaxi**a e, não, tratamento.\n- A **rifampicina** é o medicamento de escolha para profilaxia tanto da doença meningocócica quanto da infecção por H. influenziae tipo B. Outra opção de profilaxia para a meningite é o ciprofloxacino (mas lembre-se que é profilaxia. O ciprofloxacino não atravessa a BHE, então não seria útil para tratamento).\n- Para a profilaxia de tuberculose (tanto para não infectados quanto já infecrados sem a doença - ILTB) normalmente o medicamento de escolha é a **isoniazida.** Há também um esquema que utiliza a rifampicina. \n- A quimioprofilaxia para difteria é a **eritromicina** por 7 dias. Lembrando que o tratamento da doença pode ser feito com penicilina ou eritromicina.",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2022-01-10T14:34:07.000Z",
+                    "updated_at": "2022-01-10T14:34:07.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 25888,
+                    "file": "3b04c4ae-25be-4765-a66e-fef1893f4eb9.jpeg",
+                    "name": "23397-large-1569993818.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2022-01-10T14:23:57.000Z",
+                    "updated_at": "2022-01-10T14:23:57.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3b04c4ae-25be-4765-a66e-fef1893f4eb9.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 25888,
+                        "question_id": 12371
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 12371,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12372,
+            "institution_id": 239,
+            "description": "A respeito dos antibióticos, pode-se afirmar:",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-01-10T15:55:25.000Z",
+            "updated_at": "2022-01-10T16:00:17.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 239,
+                "title": "HOSPITAL MATERNIDADE THEREZINHA DE JESUS – MG",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-02-19T14:38:19.000Z",
+                "updated_at": "2021-02-19T14:38:19.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 12372
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 50700,
+                    "question_id": 12372,
+                    "description": "Fluoroquinolonas podem alargar o intervalo QT. ",
+                    "explanation": "Perfeito, Doc! 😍 O principal efeito adverso das fluoroquinolonas é o **alargamento do intervalo QT,** que pode levar a Torsade de Pointes, com gravidade. ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-01-10T15:55:25.000Z",
+                    "updated_at": "2022-01-10T16:00:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50701,
+                    "question_id": 12372,
+                    "description": "Cefalosporinas são boas opções para enterococos. ",
+                    "explanation": "Falso, Doc! 🤔\n- **Não devem ser usados** pois todos possuem **resistência a cefalosporinas**\n- Se for sensível a **ampicilina**, é a droga de escolha\n- Podemos usar contra enterococo: **vancomicina** (glicopeptídeo). \n- No entanto, há enterococos **VRE** (enterococo resistente a vancomicina). Nesse caso podemos usar: daptomicina (bom medicamento para substituir vancomicina em diversos casos), aminoglicosídeos (como estreptomicina, amicacina e gentamicina), penicilinas naturais e linezolida (oxazolidinonas).\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-01-10T15:55:25.000Z",
+                    "updated_at": "2022-01-10T16:00:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50702,
+                    "question_id": 12372,
+                    "description": "Metronidazol não é boa opção para bacteroides. ",
+                    "explanation": "Falso, Doc! 🤔 Para tratar anaeróbios usamos a regrinha 💡:\n- Acima do diafragma: clindamicina\n- Abaixo do diafragma: **metronidazol** (um nitroimidazólico)\n- Alguns patógenos anaeróbios que causam infecção \"abaixo do diafragma\" são: Clostridium sp. (gram-positivos) e os gram-negativos: **bacteroides fragilis,** fusobacterium sp. e prevotella sp. \n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-01-10T15:55:25.000Z",
+                    "updated_at": "2022-01-10T16:00:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50703,
+                    "question_id": 12372,
+                    "description": "Meropenem é melhor escolha para stenotrophomonas.",
+                    "explanation": "Falso, Doc! 🤔\n- Stenotrophomonas maltophilia é um microorganismo multirresistente (como a pseudomonas). É um bacilo gram-negativo. \n- A indicação atualmente é o uso de **sulfametoxazol-trimetropim** (bactrim)**,** podendo ser usado também levofloxacino.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-01-10T16:00:17.000Z",
+                    "updated_at": "2022-01-10T16:00:17.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12372,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1664,
+            "institution_id": 4,
+            "description": "Qual é o medicamento de escolha para o tratamento da conjuntivite neonatal (causada por Neisseria ou Clamídia)?",
+            "difficulty": "hard",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-12T02:42:52.000Z",
+            "updated_at": "2022-01-03T22:00:36.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 515,
+                    "title": "Macrolídeos",
+                    "description": null,
+                    "parent_id": 483,
+                    "is_enabled": true,
+                    "created_at": "2020-11-02T00:57:10.000Z",
+                    "updated_at": "2020-11-02T00:57:10.000Z",
+                    "pivot": {
+                        "discipline_id": 515,
+                        "question_id": 1664
+                    }
+                },
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 1664
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6840,
+                    "question_id": 1664,
+                    "description": "Cefalexina",
+                    "explanation": "Falso, Doc! 😋 É uma **cefalosporina de primeira geraçã**o e não é a principal escolha para essas infecções.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-11T23:42:52.000Z",
+                    "updated_at": "2022-01-03T19:00:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6841,
+                    "question_id": 1664,
+                    "description": "Eritromicina",
+                    "explanation": "Você é fera, Doc! 😻 \n- Essa droga trata ambas bactérias e é a **primeira escolha** em caso de conjutivite neonatal. \n- É um macrolídeo bacteriostático que **inibe a unidade 50S** dos ribossomos bacterianos.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-11T23:42:52.000Z",
+                    "updated_at": "2022-01-03T19:00:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6842,
+                    "question_id": 1664,
+                    "description": "Penicilina G",
+                    "explanation": "Falso, Doc! 😋 É um beta-lactâmico e não é primeira escolha para tratamento de clamídia.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-11T23:42:52.000Z",
+                    "updated_at": "2022-01-03T19:00:36.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6843,
+                    "question_id": 1664,
+                    "description": "Clavulanato",
+                    "explanation": "Falso, Doc! 😋 Isso não é um antibiótico, mas sim um **inibidor de beta-lactamases** utilizado principalmente em associação com amoxicilina.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-11T23:42:52.000Z",
+                    "updated_at": "2022-01-03T19:00:36.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1664,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2567,
+            "institution_id": 131,
+            "description": "Paciente de 24 anos apresenta icterícia obstrutiva (enzimas hepáticas mostram padrão colestático), sem febre ou dor abdominal. Na anamnese não pode-se inferir uma causa provável. A ultrassonografia de abdome não mostrou colecistolitiase, mas apenas dilatação de vias biliares intra e extrahepaticas. O paciente apresentou colangite enquanto aguardava a realização de exame de imagem. Qual é a opção adequada para antibioticoterapia:",
+            "difficulty": "hard",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T19:48:40.000Z",
+            "updated_at": "2022-01-07T02:23:19.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 131,
+                "title": "SUPREMA",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-06-18T11:38:49.000Z",
+                "updated_at": "2020-06-18T11:38:49.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 2567
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10555,
+                    "question_id": 2567,
+                    "description": "Carbapenemico + vancomicina",
+                    "explanation": "Falso, Doc! 🙉 Diante de uma colangite, os microrganismos mais encontrados são **E. coli (25 a 50 %), Klebsiella (15 a 20%) e Enterobacter spp. (5 a 10 %) ➡ Gram negativo**s\n- Geralmente não começamos o tratamento antibiótico com drogas de largo espectro como os carbapenêmicos ➡ Vamos escalonando.\n- Mas tenha em mente que pode ser usado.  ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T16:48:40.000Z",
+                    "updated_at": "2022-01-06T23:23:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10556,
+                    "question_id": 2567,
+                    "description": "Cefalosporina de terceira geração + metronidazol",
+                    "explanation": "Perfeito, Doc! 😍 Diante de uma colangite, os microrganismos mais encontrados são **E. coli (25 a 50 %), Klebsiella (15 a 20%) e Enterobacter spp. (5 a 10 %) ➡ Gram negativo**s\n- Além disso, o trato gastrointestinal possui uma flora polimicrobiana ➡ **com presença de anaeróbios**\n- Podemos realizar os seguintes esquemas:\n- **💡Ceftriaxona ou Ciprofloxacino ou Levofloxacina + Metronidazo**l\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-30T16:48:40.000Z",
+                    "updated_at": "2022-01-06T23:23:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10557,
+                    "question_id": 2567,
+                    "description": "Piperacilina-tazobactan",
+                    "explanation": "Falso, Doc! 🙉 Diante de uma colangite, os microrganismos mais encontrados são **E. coli (25 a 50 %), Klebsiella (15 a 20%) e Enterobacter spp. (5 a 10 %) ➡ Gram negativo**s\n- Geralmente não começamos o tratamento antibiótico com drogas de largo espectro como a piperacilina ➡ Vamos escalonando.\n- Mas tenha em mente que pode ser usado. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T16:48:40.000Z",
+                    "updated_at": "2022-01-06T23:23:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10558,
+                    "question_id": 2567,
+                    "description": "Bactrim",
+                    "explanation": "Falso, Doc! 🙉 Não é um esquema antibiótico usado na colangite.\n- É uma boa escolha para cobertura de infecções de pele por MRSA.\n- Apresenta cobertura baixa para Streptococcus",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T16:48:40.000Z",
+                    "updated_at": "2022-01-06T23:23:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2567,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12361,
+            "institution_id": 525,
+            "description": "Com relação às principais indicações dos antimicrobianos, numere a coluna da direita de acordo com sua correspondência com a coluna da esquerda.\n- Amoxicilina/clavulanato. \n- Metronidazol. \n- Azitromicina. \n- Daptomicina. \n- Meropenem.\n\n\n\n\n- ( ) Endocardite infecciosa por MRSA. \n- ( ) Pé diabético. \n- ( ) Pneumonia associada à ventilação mecânica. \n- ( ) Diarreia hospitalar (C. difficile). \n- ( ) Pneumonia comunitária (C. pneumoniae). \n\n\n\n\nAssinale a alternativa que apresenta a numeração correta da coluna da direita, de cima para baixo.\n",
+            "difficulty": "hard",
+            "year": "2010-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-01-04T01:58:35.000Z",
+            "updated_at": "2022-01-05T17:30:52.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 525,
+                "title": "HOSPITAL DAS CLÍNICAS-PR",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-11-15T20:16:15.000Z",
+                "updated_at": "2021-11-15T20:16:15.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 274,
+                    "title": "Antimicrobianos na Clínica\t\t",
+                    "description": null,
+                    "parent_id": 21,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T14:32:49.000Z",
+                    "updated_at": "2020-06-30T14:32:49.000Z",
+                    "pivot": {
+                        "discipline_id": 274,
+                        "question_id": 12361
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 50651,
+                    "question_id": 12361,
+                    "description": " 4 – 1 – 5 – 2 – 3.  ",
+                    "explanation": "Inacreditável, Doc! Você é fera demais! 😻🚀 Analisando cada um dos casos:\n- (4) - Para MRSA (S. aureus resistente a meticilina) não podemos usar a meticilina (oxacilina), um tipo de penicilina. A principal indicação, nesses casos, é a **vancomicina** (um aminoglicosídeo. Fácil lembrar dela para MRSA, já que é eficiente apenas para gram-positivos)**.** No entanto, a **daptomicina** é um lipopeptídeo de serve como alternativa para os aminoglicosídeos, sendo a melhor escolha nesse caso 😉;\n- (1) - Doc, no pé diabético, temos necrose da pele e, provavelmente, cocos gram-positivos como o **S. aureus e Streptococcus pyogenes** estão envolvidos. Nesse caso, podemos utilizar penicilina, de preferência já associada a inibidor de beta-lactamase 🤗;\n- (5) - Doc, nessa aqui, já que a causa é ventilação mecânica. era bom lembrar grupos de medicamentos que utilizamos no ambiente **hospitalar**: carbapenêmicos, polimixinas, glicopeptídeos e oxazilidonas. Os carbapenêmicos, como o meropenem, são boas opções para tratamento empírico de infecções hospitalares 🤓;\n- (2) - 💡 Essa tem um macete imperdível, Doc! Quando se trata de bacilos gram-negativos fermentadores de glicose (enterobactérias), como clostridium, grava assim: **\"Diafragma para cima = clindamicina. Diafragma para baixo = metronidazol\".** Como é uma infecção intestinal, diafragma para baixo, usa-se o metronidazol.\n- (3) - 💡  Dooooc, fica atento nessa aqui! A Chlamydia pneumoniae é uma das bactérias **atípicas** (lembrar de: clamídia, legionela e micoplasma!!!) e, nesses casos, **sempre lembre de macrolídeo**s, como a azitromicina. \n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-01-04T01:58:35.000Z",
+                    "updated_at": "2022-01-05T17:30:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50652,
+                    "question_id": 12361,
+                    "description": "5 – 1 – 4 – 3 – 2. ",
+                    "explanation": "Errou, Doc! 🙈 Questãozinha difícil, né? Mas muito completa, dá para aprender bastante! Não deixa de olhar com calma o comentário completo na alternativa correta! 🤓👊 ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-01-04T01:58:35.000Z",
+                    "updated_at": "2022-01-05T17:30:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50653,
+                    "question_id": 12361,
+                    "description": " 5 – 3 – 4 – 2 – 1.  ",
+                    "explanation": "Errou, Doc! 🙈 Questãozinha difícil, né? Mas muito completa, dá para aprender bastante! Não deixa de olhar com calma o comentário completo na alternativa correta! 🤓👊",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-01-04T01:58:35.000Z",
+                    "updated_at": "2022-01-05T17:30:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50654,
+                    "question_id": 12361,
+                    "description": "4 – 2 – 5 – 1 – 3.  ",
+                    "explanation": "Errou, Doc! 🙈 Questãozinha difícil, né? Mas muito completa, dá para aprender bastante! Não deixa de olhar com calma o comentário completo na alternativa correta! 🤓👊 ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-01-04T01:58:35.000Z",
+                    "updated_at": "2022-01-05T17:30:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50655,
+                    "question_id": 12361,
+                    "description": "5 – 3 – 4 – 1 – 2.",
+                    "explanation": "Errou, Doc! 🙈 Questãozinha difícil, né? Mas muito completa, dá para aprender bastante! Não deixa de olhar com calma o comentário completo na alternativa correta! 🤓👊 ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2022-01-04T01:58:35.000Z",
+                    "updated_at": "2022-01-05T17:30:52.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12361,
+                "questionary_id": 268234,
+                "timer": 0
+            }
+        }
+    ]
+}

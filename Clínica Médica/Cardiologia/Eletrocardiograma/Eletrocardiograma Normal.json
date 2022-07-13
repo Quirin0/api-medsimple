@@ -1,0 +1,1299 @@
+{
+    "id": 267571,
+    "user_id": 1699,
+    "title": "Eletrocardiograma Normal",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T02:33:51.000Z",
+    "updated_at": "2022-07-11T02:33:51.000Z",
+    "study_plan_id": 60,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 2021,
+            "institution_id": 4,
+            "description": "Complete as sentenças:\n\n- Cada quadradinho do eletrocardiograma corresponde a **__** na horizontal e **____** na vertical. Cada quadrado grande possui ***_*** na horizontal e **__** na vertical.",
+            "difficulty": "easy",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-17T03:24:44.000Z",
+            "updated_at": "2022-01-11T19:48:52.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 222,
+                    "title": "Eletrocardiograma Normal",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-06-17T03:18:03.000Z",
+                    "updated_at": "2022-01-12T20:16:23.000Z",
+                    "pivot": {
+                        "discipline_id": 222,
+                        "question_id": 2021
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 8318,
+                    "question_id": 2021,
+                    "description": "0,04s; 0,1mV; 2s; 0,5mV",
+                    "explanation": "Falso, Doc! 😋 Confira o comentário completo na alternativa correta.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-17T00:24:44.000Z",
+                    "updated_at": "2022-01-11T16:48:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 8319,
+                    "question_id": 2021,
+                    "description": "0,04s; 1mV; 2s; 5mV",
+                    "explanation": "Falso, Doc! 😋 Confira o comentário completo na alternativa correta. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-17T00:24:44.000Z",
+                    "updated_at": "2022-01-11T16:48:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 8320,
+                    "question_id": 2021,
+                    "description": "0,04 ms; 0,1mV; 0,2ms; 0,5mV",
+                    "explanation": "Falso, Doc! 😋 Confira o comentário completo na alternativa correta. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-17T00:24:44.000Z",
+                    "updated_at": "2022-01-11T16:48:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 8321,
+                    "question_id": 2021,
+                    "description": "0,04s; 0,1mV; 0,2s; 0,5mV",
+                    "explanation": "Isso aí, Doc! 🤗\n- O papel milimetrado do ECG é processado em uma velocidade de **25mm/s**. \n- Cada quadradinho representa **0,04s.** Como cada quadradão tem **5 quadradinhos**, temos 0,2s na horizontal. \n- Cada quadradinho na vertical corresponde a **0,1mV**, e 5 quadradinhos (um quadradão) na vertical corresponde a **0,5mV**\n\nVeja no esquema 👇:\n\nFonte da imagem: https://pt.my-ekg.com/generalidades-ecg/papel-ecg.html",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-17T00:24:44.000Z",
+                    "updated_at": "2022-01-11T16:48:52.000Z",
+                    "files": [
+                        {
+                            "id": 25889,
+                            "file": "999de418-6287-40b1-a143-87b0b3087ee4.png",
+                            "name": "papel-ekg-medidas.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T00:34:09.000Z",
+                            "updated_at": "2022-01-11T00:34:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/999de418-6287-40b1-a143-87b0b3087ee4.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25889,
+                                "alternative_id": 8321
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2021,
+                "questionary_id": 267571,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2023,
+            "institution_id": 4,
+            "description": "Assinale a alternativa que apresente o **CORRETO** posicionamento de derivações precordiais do ECG:",
+            "difficulty": "easy",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-17T03:45:30.000Z",
+            "updated_at": "2022-03-12T23:18:59.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 222,
+                    "title": "Eletrocardiograma Normal",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-06-17T03:18:03.000Z",
+                    "updated_at": "2022-01-12T20:16:23.000Z",
+                    "pivot": {
+                        "discipline_id": 222,
+                        "question_id": 2023
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 8326,
+                    "question_id": 2023,
+                    "description": "V1: 4º espaço intercostal esquerdo paraesternal e V2: 4º espaço intercostal direito paraesternal",
+                    "explanation": "Falso, Doc! 🙈  **V**1 fica do lado **direit**o e**V**2 fica do lado **esquerd**o paraesternal",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-17T00:45:30.000Z",
+                    "updated_at": "2022-03-12T23:18:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 8327,
+                    "question_id": 2023,
+                    "description": "V3 fica entre V2 e V4; V4 fica no 5º espaço intercostal  esquerdo na linha axilar anterior",
+                    "explanation": "Falso, Doc! 🙈  V4 fica no 5º espaço intercostal esquerdo na linha **hemiclavicula**r.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-17T00:45:30.000Z",
+                    "updated_at": "2022-03-12T23:18:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 8328,
+                    "question_id": 2023,
+                    "description": "V5 fica no 6º espaço intercostal esquerdo na linha axilar média",
+                    "explanation": "Falso, Doc! 🙈 V5 fica no 5º espaço intercostal esquerdo na linha axilar **anterio**r",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-17T00:45:30.000Z",
+                    "updated_at": "2022-03-12T23:18:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 8329,
+                    "question_id": 2023,
+                    "description": "V1: 4º espaço intercostal direito paraesternal; V6: 5º espaço intercostal esquerdo na linha axilar média",
+                    "explanation": "Perfeito, Doc! 😍 Sabendo onde são colocados os eletrodos fica mais fácil o raciocínio da interpretação do ECG. \n- **V1 e V2** = região **paraesternal**, no **4º** espaço intercostal, à **direita e esquerda,** respectivamente. \n- V3 = entre V2 e V4\n- V4 = **5°** espaço intercostal esquerdo, na linha **hemiclavicular**\n- V5 = **5°** espaço intercostal esquerdo, na linha **axilar anterior**\n- V6 =  **5°** espaço intercostal esquerdo, na linha **axilar média**\n\nVeja na imagem, Doc 👇:\n\n\nFonte da imagem: [https://telemedicinamorsch.com.br/blog/como-colocar-eletrodos-no-paciente](https://telemedicinamorsch.com.br/blog/como-colocar-eletrodos-no-paciente)\n\n\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-17T00:45:30.000Z",
+                    "updated_at": "2022-03-12T23:18:59.000Z",
+                    "files": [
+                        {
+                            "id": 25896,
+                            "file": "ad6cec66-7b79-48ef-980f-8039d1d46492.png",
+                            "name": "Captura de tela 2022-01-11 121455.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T15:15:07.000Z",
+                            "updated_at": "2022-01-11T15:15:07.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ad6cec66-7b79-48ef-980f-8039d1d46492.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25896,
+                                "alternative_id": 8329
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2023,
+                "questionary_id": 267571,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2024,
+            "institution_id": 4,
+            "description": "Sobre as derivações dos membros no eletrocardiograma, assinale a alternativa CORRETA:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-17T03:50:20.000Z",
+            "updated_at": "2022-01-11T18:30:07.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 222,
+                    "title": "Eletrocardiograma Normal",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-06-17T03:18:03.000Z",
+                    "updated_at": "2022-01-12T20:16:23.000Z",
+                    "pivot": {
+                        "discipline_id": 222,
+                        "question_id": 2024
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 8330,
+                    "question_id": 2024,
+                    "description": "D1 aponta do braço direito para o braço esquerdo",
+                    "explanation": "Isso mesmo, Doc! 🤗\n- DI aponta da direita para a esquerda. \n\nObserve o triângulo de Einthoven 👇:\n\nFonte da imagem: https://pt.my-ekg.com/generalidades-ecg/derivacoes-ecg.html",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-17T00:50:20.000Z",
+                    "updated_at": "2022-01-11T15:30:07.000Z",
+                    "files": [
+                        {
+                            "id": 25898,
+                            "file": "ea450ac4-d72a-4a1f-b6ec-30575dfd53e0.png",
+                            "name": "derivaciones-frontales.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T15:29:00.000Z",
+                            "updated_at": "2022-01-11T15:29:00.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ea450ac4-d72a-4a1f-b6ec-30575dfd53e0.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25898,
+                                "alternative_id": 8330
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 8331,
+                    "question_id": 2024,
+                    "description": "aVR está posicionado no lado esquerdo",
+                    "explanation": "Falso, Doc! 🤔 R de \"Right\" em inglês significa que está do lado **direit**o.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-17T00:50:20.000Z",
+                    "updated_at": "2022-01-11T15:30:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 8332,
+                    "question_id": 2024,
+                    "description": "A derivação D3 aponta do braço direito para o pé esquerdo",
+                    "explanation": "Falso, Doc! 🤔 D3 aponta do **braço esquerd**o para **o pé esquerd**o\n\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-17T00:50:20.000Z",
+                    "updated_at": "2022-01-11T15:30:07.000Z",
+                    "files": [
+                        {
+                            "id": 475,
+                            "file": "1592354983854.png",
+                            "name": "download (3).png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-06-17T03:49:44.000Z",
+                            "updated_at": "2020-06-17T03:49:44.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1592354983854.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 475,
+                                "alternative_id": 8332
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 8333,
+                    "question_id": 2024,
+                    "description": "D2 aponta do braço esquerdo para o pé esquerdo",
+                    "explanation": "Falso, Doc! 🤔  D2 aponta do **braço direito para o pé esquerd**o\n\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-17T00:50:20.000Z",
+                    "updated_at": "2022-01-11T15:30:07.000Z",
+                    "files": [
+                        {
+                            "id": 476,
+                            "file": "1592355016701.png",
+                            "name": "download (3).png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-06-17T03:50:16.000Z",
+                            "updated_at": "2020-06-17T03:50:16.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1592355016701.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 476,
+                                "alternative_id": 8333
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2024,
+                "questionary_id": 267571,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2025,
+            "institution_id": 4,
+            "description": "Sobre a normalidade da onda P no eletrocardiograma, assinale a alternativa CORRETA:",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-17T03:54:57.000Z",
+            "updated_at": "2022-01-11T19:16:38.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 222,
+                    "title": "Eletrocardiograma Normal",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-06-17T03:18:03.000Z",
+                    "updated_at": "2022-01-12T20:16:23.000Z",
+                    "pivot": {
+                        "discipline_id": 222,
+                        "question_id": 2025
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 8334,
+                    "question_id": 2025,
+                    "description": "A duração deve ser inferior a 0,20 segundos",
+                    "explanation": "Falso, Doc! 😣 A duração deve ser inferior a **0,1**1 segundos\n- 💡 Doc, de forma aproximada a onda P mede  **2,**5 quadradinhos de duração e**2,**5 de amplitude 🤓",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-17T00:54:58.000Z",
+                    "updated_at": "2022-01-11T16:16:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 8335,
+                    "question_id": 2025,
+                    "description": "A amplitude máxima é de 3,0mm",
+                    "explanation": "Falso, Doc! 😣 A amplitude máxima é de 2,5 mm (2,5 quadradinhos).\n- 💡 Doc, de forma aproximada a onda P mede  **2,**5 quadradinhos de duração e**2,**5 de amplitude 🤓.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-17T00:54:58.000Z",
+                    "updated_at": "2022-01-11T16:16:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 8336,
+                    "question_id": 2025,
+                    "description": "O eixo da onda P pode variar entre -60º e +60º",
+                    "explanation": "Falso, Doc! 😣 O eixo da onda P pode variar entr**e -30º e +90º,** assim como o do QRS.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-17T00:54:58.000Z",
+                    "updated_at": "2022-01-11T16:16:38.000Z",
+                    "files": []
+                },
+                {
+                    "id": 8337,
+                    "question_id": 2025,
+                    "description": "A onda P é positiva nas derivações D1, D2 e avF",
+                    "explanation": "Muito bem, Doc! 😁\n- Como esses derivações apontam para baixo e para a esquerda, é o mesmo sentido que ocorre a despolarização atrial, logo a onda P é positiva nessas derivações\n\nDá uma olhada nas imagens pra ajudar a entender, Doc!\n\nFonte das imagens: https://ennioss.wordpress.com/tag/despolarizacao/ e https://www.physoc.org/magazine-articles/trigonometry-of-the-ecg/",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-17T00:54:58.000Z",
+                    "updated_at": "2022-01-11T16:16:38.000Z",
+                    "files": [
+                        {
+                            "id": 25900,
+                            "file": "f1eb362d-bccd-4dac-b3cb-e00053841c52.png",
+                            "name": "dahl-and-berg-fig1 (1).png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T16:15:50.000Z",
+                            "updated_at": "2022-01-11T16:15:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f1eb362d-bccd-4dac-b3cb-e00053841c52.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25900,
+                                "alternative_id": 8337
+                            }
+                        },
+                        {
+                            "id": 25899,
+                            "file": "8486ac5d-c7aa-4835-b742-37c3cb6be518.jpeg",
+                            "name": "slide_24 (1).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-11T16:15:49.000Z",
+                            "updated_at": "2022-01-11T16:15:49.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/8486ac5d-c7aa-4835-b742-37c3cb6be518.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25899,
+                                "alternative_id": 8337
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2025,
+                "questionary_id": 267571,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2734,
+            "institution_id": 4,
+            "description": "Assinale a alternativa correta sobre a normalidade da onda T:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-06T00:56:37.000Z",
+            "updated_at": "2022-01-11T20:19:22.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 222,
+                    "title": "Eletrocardiograma Normal",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-06-17T03:18:03.000Z",
+                    "updated_at": "2022-01-12T20:16:23.000Z",
+                    "pivot": {
+                        "discipline_id": 222,
+                        "question_id": 2734
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11250,
+                    "question_id": 2734,
+                    "description": "É normalmente apiculada",
+                    "explanation": "Falso, Doc! 🙉\n- É normalmente **arredondada**. \n- Podemos observar onda T apiculada na fase inicial de uma **isquemia miocárdica** e também na **hipercalemia**.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-05T21:56:37.000Z",
+                    "updated_at": "2022-01-11T17:19:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11251,
+                    "question_id": 2734,
+                    "description": "É mais lenta na sua primeira porção",
+                    "explanation": "Boa, Doc! 🤗 Assim como uma montanha russa, a subida da onda T é mais lenta, e a descida é mais rápida.\n\n\nVeja na imagem 👇:\n\n\nFonte da imagem: http://www.medicinehack.com/2012/05/t-waves-ecg.html\n\n\n\nDoc, dá uma olhada no comentário das outras alternativas para aprofundar seus conhecimentos 😉 \n\n\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-05T21:56:37.000Z",
+                    "updated_at": "2022-01-11T17:19:22.000Z",
+                    "files": [
+                        {
+                            "id": 25908,
+                            "file": "340679a7-17ba-4ee3-bf51-350a2c00b719.png",
+                            "name": "Captura de tela 2022-01-11 141837.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T17:18:56.000Z",
+                            "updated_at": "2022-01-11T17:18:56.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/340679a7-17ba-4ee3-bf51-350a2c00b719.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25908,
+                                "alternative_id": 11251
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11252,
+                    "question_id": 2734,
+                    "description": "Quanto a amplitude, é maior ou igual ao complexo QRS que a precede",
+                    "explanation": "Falso, Doc! 🙉 A onda T tem amplitude **meno**r do que o complexo QRS que a precede.\n\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-05T21:56:37.000Z",
+                    "updated_at": "2022-01-11T17:19:22.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11253,
+                    "question_id": 2734,
+                    "description": "É positiva em avR",
+                    "explanation": "Falso, Doc! 🙉 \n- O vetor de repolarização ventricular aponta para a **esquerda,** para **frente** e para **baixo**, na maioria das vezes.\n- Logo, pode ser **negativa** a onda T nas derivações mais à direita, isto é, AVR, DIII e V1\n\nVeja na imagem esse vetor (número 5) 👇:\n\n\nFonte da imagem: http://files.fisiologiaucs.webnode.com/200000052-5a9b05b93b/Monitoria%20ECG%20UEM%201.pdf\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-05T21:56:37.000Z",
+                    "updated_at": "2022-01-11T17:19:22.000Z",
+                    "files": [
+                        {
+                            "id": 25907,
+                            "file": "eb2e0be8-37b8-41fe-957a-a56e1b450977.png",
+                            "name": "Captura de tela 2022-01-11 141254.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T17:15:16.000Z",
+                            "updated_at": "2022-01-11T17:15:16.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/eb2e0be8-37b8-41fe-957a-a56e1b450977.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25907,
+                                "alternative_id": 11253
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2734,
+                "questionary_id": 267571,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12396,
+            "institution_id": 558,
+            "description": "Assinale a alternativa incorreta sobre a onda P no ECG.",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-01-16T02:39:51.000Z",
+            "updated_at": "2022-01-18T00:43:17.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 558,
+                "title": "Santa Casa de Misericórdia da Campanha",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2022-01-15T23:39:51.000Z",
+                "updated_at": "2022-01-15T23:39:51.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 222,
+                    "title": "Eletrocardiograma Normal",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-06-17T03:18:03.000Z",
+                    "updated_at": "2022-01-12T20:16:23.000Z",
+                    "pivot": {
+                        "discipline_id": 222,
+                        "question_id": 12396
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 50806,
+                    "question_id": 12396,
+                    "description": "Representa a despolarização do átrio. ",
+                    "explanation": "Esta está certa, Doc! 😅 Bem facinho, né? 😴 A onda P representa justamente a despolarização dos átrios. Se tudo estiver normal isso ocorre pelo impulso que percorre desde o nó sinusal até o nó atrioventricular.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-01-15T23:39:51.000Z",
+                    "updated_at": "2022-01-17T21:43:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50807,
+                    "question_id": 12396,
+                    "description": "A onda P sinusal demonstra a despolarização do AD para o AE. ",
+                    "explanation": "Esta está certa, Doc! 😅 Bem facinho, né? 😴 A onda P representa justamente a despolarização dos átrios. Se tudo estiver normal isso ocorre pelo impulso que percorre desde o nó sinusal até o nó atrioventricular. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-01-15T23:39:51.000Z",
+                    "updated_at": "2022-01-17T21:43:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50808,
+                    "question_id": 12396,
+                    "description": "Sua duração é de aproximadamente 0,24s e sua amplitude é inferior a 0,25mV. ",
+                    "explanation": "Boa, Doc, essa é a incorreta! 👊  \n- 💡 A duração e amplitude da onda P são muito fáceis de gravar, Doc! É só lembrar que são **2,5 quadradinhos de duração e 2,5 quadradinhos de amplitud**e, o que corresponde a  0,1 segundos e 2,5 mV, respectivamente\n\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2022-01-15T23:39:51.000Z",
+                    "updated_at": "2022-01-17T21:43:17.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50809,
+                    "question_id": 12396,
+                    "description": "A deflexão positiva inicial é a despolarização do AD, e a segunda deflexão negativa carresponde à despolarização de AE.",
+                    "explanation": "Esta está certa, Doc! 😅  Lembre que os eletrodos são colocados na região anterior e lateral. Dessa forma, como a despolarização vem do átrio direito (mais anterior) e segue para o esquerdo (mais posterior), a onda P tende a ter essa deflexão positiva seguida de negativa, formando sua típica aparência arrendondada no ECG. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-01-15T23:39:51.000Z",
+                    "updated_at": "2022-01-17T21:43:17.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12396,
+                "questionary_id": 267571,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1120,
+            "institution_id": 4,
+            "description": "Correlacione as derivações do ECG com a região do coração com determinada região\n- **I.** V1-V2 \n- **II.** V3-V4  \n- **III**.DII, DIII e avF \n- **IV.** DI e AvL\n- **A.**Parede inferior  \n- **B.**Septal  \n- **C**.Anterior \n- **D**.Lateral Alta\n",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-03T01:10:51.000Z",
+            "updated_at": "2022-01-12T20:52:42.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 135,
+                    "title": "Síndromes Coronarianas Agudas (SCA)",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-06-03T00:20:49.000Z",
+                    "updated_at": "2020-06-03T00:20:49.000Z",
+                    "pivot": {
+                        "discipline_id": 135,
+                        "question_id": 1120
+                    }
+                },
+                {
+                    "id": 222,
+                    "title": "Eletrocardiograma Normal",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-06-17T03:18:03.000Z",
+                    "updated_at": "2022-01-12T20:16:23.000Z",
+                    "pivot": {
+                        "discipline_id": 222,
+                        "question_id": 1120
+                    }
+                },
+                {
+                    "id": 1073,
+                    "title": "Cardiopatia Isquêmica no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:52:34.000Z",
+                    "updated_at": "2022-01-15T20:21:57.000Z",
+                    "pivot": {
+                        "discipline_id": 1073,
+                        "question_id": 1120
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4600,
+                    "question_id": 1120,
+                    "description": "I A, II C, III B, IV D",
+                    "explanation": "Confira o comentário completo na alternativa correta ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-02T22:10:52.000Z",
+                    "updated_at": "2022-01-12T17:52:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4601,
+                    "question_id": 1120,
+                    "description": "I A, II D, III C, IV B",
+                    "explanation": "Confira o comentário completo na alternativa correta ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-02T22:10:52.000Z",
+                    "updated_at": "2022-01-12T17:52:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4602,
+                    "question_id": 1120,
+                    "description": "I B, II A , III C, IV D",
+                    "explanation": "Confira o comentário completo na alternativa correta",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-02T22:10:52.000Z",
+                    "updated_at": "2022-01-12T17:52:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4603,
+                    "question_id": 1120,
+                    "description": "I B, II C, III A e IV D",
+                    "explanation": "Perfeito. Cada derivação reflete melhor uma área cardíaca irrigada por determinada artéria. O raciocínio de como isso ocorre é justamente relacionado à posição de cada um dos eletrodos do ECG. \nFizemos um resumo para vocês poderem exercitar:\n\n\n\n\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-02T22:10:52.000Z",
+                    "updated_at": "2022-01-12T17:52:42.000Z",
+                    "files": [
+                        {
+                            "id": 278,
+                            "file": "1591135795380.png",
+                            "name": "Sem título.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-06-03T01:09:55.000Z",
+                            "updated_at": "2020-06-03T01:09:55.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591135795380.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 278,
+                                "alternative_id": 4603
+                            }
+                        },
+                        {
+                            "id": 1086,
+                            "file": "1600174425481.png",
+                            "name": "Sem título.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-09-15T15:53:46.000Z",
+                            "updated_at": "2020-09-15T15:53:46.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1600174425481.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1086,
+                                "alternative_id": 4603
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1120,
+                "questionary_id": 267571,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2022,
+            "institution_id": 4,
+            "description": "Quais são os locais de posicionamento correto dos eletrodos periféricos de acordo com a cor?",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-17T03:37:04.000Z",
+            "updated_at": "2022-01-11T22:46:32.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 222,
+                    "title": "Eletrocardiograma Normal",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-06-17T03:18:03.000Z",
+                    "updated_at": "2022-01-12T20:16:23.000Z",
+                    "pivot": {
+                        "discipline_id": 222,
+                        "question_id": 2022
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 8322,
+                    "question_id": 2022,
+                    "description": "Membro superior direito:Preto ; Membro inferior direito: Amarelo; Membro superior esquerdo: Vermelho; Membro inferior esquerdo: verde",
+                    "explanation": "Falso, Doc! 🙈 Confira o comentário completo e um macete na alternativa correta para nunca mais errar 🤓 ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-17T00:37:04.000Z",
+                    "updated_at": "2022-01-11T19:46:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 8323,
+                    "question_id": 2022,
+                    "description": "Membro superior direito: Vermelho; Membro inferior direito: Preto; Membro superior esquerdo: Amarelo; Membro inferior esquerdo: verde",
+                    "explanation": "Perfeito, Doc! 😍 \n\n\n\n💡 Um macete para nunca mais esquecer é associar as cores dos eletrodos à dois times: \n- Lado direito = **FLAMENGO** (vermelho e preto) ❤️🖤\n- Lado esquerdo = **BRASIL** (amarelo e verde). Lembre que o Brasil está sempre no coração 💛💚, logo as cores do Brasil ficam do lado esquerdo\n- \"O chão é terra\" 🗻, logo, as cores mais escuras ficam nos membros inferiores : Verde (no membro inferior esquerdo) e Preto (no membro inferior direito)\n\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-17T00:37:04.000Z",
+                    "updated_at": "2022-01-11T19:46:32.000Z",
+                    "files": [
+                        {
+                            "id": 472,
+                            "file": "1592354211719.png",
+                            "name": "download (2).png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-06-17T03:36:51.000Z",
+                            "updated_at": "2020-06-17T03:36:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1592354211719.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 472,
+                                "alternative_id": 8323
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 8324,
+                    "question_id": 2022,
+                    "description": "Membro superior direito:Amarelo ; Membro inferior direito: Preto; Membro superior esquerdo: Vermelho; Membro inferior esquerdo: verde",
+                    "explanation": "Falso, Doc! 🙈 Confira o comentário completo e um macete na alternativa correta para nunca mais errar 🤓",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-17T00:37:04.000Z",
+                    "updated_at": "2022-01-11T19:46:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 8325,
+                    "question_id": 2022,
+                    "description": "Membro superior direito: Verde ; Membro inferior direito: Preto; Membro superior esquerdo: Vermelho; Membro inferior esquerdo: Amarelo",
+                    "explanation": "Falso, Doc! 🙈 Confira o comentário completo e um macete na alternativa correta para nunca mais errar 🤓 ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-17T00:37:04.000Z",
+                    "updated_at": "2022-01-11T19:46:32.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2022,
+                "questionary_id": 267571,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2731,
+            "institution_id": 4,
+            "description": "Sobre a normalidade do complexo QRS, assinale a alternativa CORRETA:",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-05T23:57:08.000Z",
+            "updated_at": "2022-01-11T19:47:37.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 222,
+                    "title": "Eletrocardiograma Normal",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-06-17T03:18:03.000Z",
+                    "updated_at": "2022-01-12T20:16:23.000Z",
+                    "pivot": {
+                        "discipline_id": 222,
+                        "question_id": 2731
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11238,
+                    "question_id": 2731,
+                    "description": "Ele representa a repolarização ventricular",
+                    "explanation": "Falso, Doc! 🤔\n- O complexo QRS representa a **despolarização** ventricular.\n- A repolarização é representada pela onda T",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-05T20:57:08.000Z",
+                    "updated_at": "2022-01-11T16:47:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11239,
+                    "question_id": 2731,
+                    "description": "Normalmente, há uma progressão de um complexo QRS negativo em V1 para um QRS positivo em V6",
+                    "explanation": "Mandou bem, Doc! 👊\n- Se pensarmos no posicionamento das derivações precordiais, temos **V1 que está à direita** do esterno e, progressivamente, as derivações vão se **aproximando do ictus cordis**, bem para onde aponta o vetor da despolarização ventricular. \n- Logo, o esperado é que tenhamos uma progressão de um QRS negativo em V1, até um QRS positivo em V4, V5 e V6.\n\n\nDá uma olhada na imagem, Doc 👇:\n\n\nFonte da imagem: Alilamedicalmedia",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-05T20:57:08.000Z",
+                    "updated_at": "2022-01-11T16:47:37.000Z",
+                    "files": [
+                        {
+                            "id": 583,
+                            "file": "1593982370427.png",
+                            "name": "wpw.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-07-05T23:52:51.000Z",
+                            "updated_at": "2020-07-05T23:52:51.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1593982370427.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 583,
+                                "alternative_id": 11239
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11240,
+                    "question_id": 2731,
+                    "description": "A duração normal é de, no máximo 0,2 s.",
+                    "explanation": "Falso, Doc! 🤔 \n- A duração normal é de, no máximo, **0,11s**, aproximadamente **2,5 quadradinhos**, igual a onda P.\n- Quando temos um QRS alargado, normalmente temos algum bloqueio na condução ventricular.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-05T20:57:08.000Z",
+                    "updated_at": "2022-01-11T16:47:37.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11241,
+                    "question_id": 2731,
+                    "description": "A sua amplitude normal, pelos critérios de Sokolov, deve ser menor que 25mm se somarmos S de V1 + R de V5",
+                    "explanation": "Falso, Doc! 🤔 \n- Pelos critérios de Sokolov, usados para avaliarmos se há sobrecarga ventricular esquerda, devemos ter **S V1 ou V2** (o maior) + **R V5 ou V6** (o maior) **< 35mm.**\n- 💡 Em resumo, devemos pegar os QRS dos \"extremos\" das derivações precordiais (o mais negativo de V1 ou V2 e o mais positivo de V5 ou V6) e essa soma tem que ser menor que 35.\n\n\nVeja no esquema, Doc:👇\n\nVeja no esquema, Doc :s://www.facebook.com/cerebromedico/photos/2773586556254552 ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-05T20:57:08.000Z",
+                    "updated_at": "2022-01-11T16:47:37.000Z",
+                    "files": [
+                        {
+                            "id": 25904,
+                            "file": "b3937f57-9802-4a82-86d4-c222aeb4b4e2.png",
+                            "name": "106991306_2773586559587885_7245627910970129143_n.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T16:45:02.000Z",
+                            "updated_at": "2022-01-11T16:45:02.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b3937f57-9802-4a82-86d4-c222aeb4b4e2.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25904,
+                                "alternative_id": 11241
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2731,
+                "questionary_id": 267571,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2730,
+            "institution_id": 4,
+            "description": "Sobre a normalidade do intervalo PR, assinale a alternativa CORRETA:",
+            "difficulty": "hard",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-05T23:42:15.000Z",
+            "updated_at": "2022-01-12T20:43:06.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 222,
+                    "title": "Eletrocardiograma Normal",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-06-17T03:18:03.000Z",
+                    "updated_at": "2022-01-12T20:16:23.000Z",
+                    "pivot": {
+                        "discipline_id": 222,
+                        "question_id": 2730
+                    }
+                },
+                {
+                    "id": 1069,
+                    "title": "Bloqueios atrioventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T00:37:46.000Z",
+                    "updated_at": "2022-01-12T00:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 1069,
+                        "question_id": 2730
+                    }
+                },
+                {
+                    "id": 418,
+                    "title": "Bradiarritmias",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-08-10T17:07:33.000Z",
+                    "updated_at": "2020-08-10T17:07:33.000Z",
+                    "pivot": {
+                        "discipline_id": 418,
+                        "question_id": 2730
+                    }
+                },
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 2730
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11234,
+                    "question_id": 2730,
+                    "description": "A sua duração normal é de 0,2 a 0,4 segundos",
+                    "explanation": "Falso, Doc! 😅  A sua duração normal é de 0,12 a 0,20 segundos, ou seja **3 a 5 quadradinhos**.\n- 💡 É mais fácil lembrar por quadradinhos do que por segundos: Por exemplo, a onda P normal tem até 3 quadradinhos (ou, mais especificamente, 2,5). O intervalo PR normal tem de 3 a 5 quadradinhos. O complexo QRS normal, assim como a onda P, tem até 3 quadradinhos.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-05T20:42:15.000Z",
+                    "updated_at": "2022-01-12T17:43:06.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11235,
+                    "question_id": 2730,
+                    "description": "O Bloqueio Atrioventricular (BAV) do 1º grau tem um intervalo PR maior que 3 quadradinhos",
+                    "explanation": "Falso, Doc! 😅 \n- O BAV do primeiro grau tem um intervalo PR maior que **5 quadradinhos** (já que a duração normal é de 3 a 5 quadradinhos). \n- Lembrando que no BAV do 1º grau o intervalo PR é alargado e tem uma duração fixa (e não há falha da condução).\n\nVeja na imagem:👇\n\n\nFonte da imagem: www.synapsemed.com.br/bloqueiosecg \n\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-05T20:42:15.000Z",
+                    "updated_at": "2022-01-12T17:43:06.000Z",
+                    "files": [
+                        {
+                            "id": 25901,
+                            "file": "3620c032-ab0b-4daf-9f2f-36db2c540d05.png",
+                            "name": "Captura de tela 2022-01-11 132924.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T16:30:31.000Z",
+                            "updated_at": "2022-01-11T16:30:31.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3620c032-ab0b-4daf-9f2f-36db2c540d05.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25901,
+                                "alternative_id": 11235
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11236,
+                    "question_id": 2730,
+                    "description": "No BAV de segundo grau Mobitz tipo I, cada intervalo PR tem duração maior do que o anterior",
+                    "explanation": "Arrasou, Doc! 😎\n- 💡 Para não confundir Mobitz tipo I e Mobitz tipo II, na medsimple a gente gosta de dizer que no Mobitz tipo **U**M, o intervalo PR é **UM PIOR QUE O OUTR**O.  \n- Lembrando que esse fenômeno é chamado de **fenômeno de Wenckebach.**\n\n\nVeja na imagem:👇\n\n\nFonte da imagem: www.synapsemed.com.br/bloqueiosecg \n\n \n\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-05T20:42:15.000Z",
+                    "updated_at": "2022-01-12T17:43:06.000Z",
+                    "files": [
+                        {
+                            "id": 25902,
+                            "file": "16867ee3-ce45-4a69-ad7b-5b17bc6b53b5.png",
+                            "name": "Captura de tela 2022-01-11 132940.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T16:31:10.000Z",
+                            "updated_at": "2022-01-11T16:31:10.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/16867ee3-ce45-4a69-ad7b-5b17bc6b53b5.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25902,
+                                "alternative_id": 11236
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11237,
+                    "question_id": 2730,
+                    "description": "No BAV de segundo grau Mobitz do tipo II há completa dissociação entre a frequência atrial e ventricular",
+                    "explanation": "Falso, Doc! 😅\n-  Essa é a descrição do **BAV total,** também chamado de BAV de terceiro grau. \n- No BAV de segundo grau **Mobitz do tipo II**, temos intervalos PR de duração normal e, de repente, temos uma onda P que não é seguida de complexo QRS, ou seja, temos um impulso atrial que é bloqueado repentinamente.\n\n\nVeja na imagem o Mobitz 2 👇:\n\n\nFonte da imagem: www.synapsemed.com.br/bloqueiosecg \n\n \n\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-05T20:42:15.000Z",
+                    "updated_at": "2022-01-12T17:43:06.000Z",
+                    "files": [
+                        {
+                            "id": 25903,
+                            "file": "b0d7dfa3-8216-4cdd-aa18-6ef645dd51dc.png",
+                            "name": "Captura de tela 2022-01-11 132951.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T16:31:36.000Z",
+                            "updated_at": "2022-01-11T16:31:36.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b0d7dfa3-8216-4cdd-aa18-6ef645dd51dc.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25903,
+                                "alternative_id": 11237
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2730,
+                "questionary_id": 267571,
+                "timer": 0
+            }
+        }
+    ]
+}

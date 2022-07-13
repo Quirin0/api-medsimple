@@ -1,0 +1,2048 @@
+{
+    "id": 268436,
+    "user_id": 1699,
+    "title": "Suporte Básico de Vida Pediátrico",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-12T00:50:43.000Z",
+    "updated_at": "2022-07-12T00:50:43.000Z",
+    "study_plan_id": 1179,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 13000,
+            "institution_id": 4,
+            "description": "Segundo o Ministério da Saúde, mais de um terço dos traumas admitidos em pronto-socorro estão na faixa etária pediátrica. Sobre o trauma pediátrico, assinale qual a maior causa de morte entre crianças de todas as idades.",
+            "difficulty": "easy",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-03-04T16:52:11.000Z",
+            "updated_at": "2022-03-05T20:00:07.000Z",
+            "user_id": 303,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1123,
+                    "title": "Suporte Básico de Vida Pediátrico",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-03-04T16:47:11.000Z",
+                    "updated_at": "2022-03-04T16:47:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1123,
+                        "question_id": 13000
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 53344,
+                    "question_id": 13000,
+                    "description": "Acidente com veículos",
+                    "explanation": "Excelente, Doc!🤓 \nTraumas associados com veículos automotores são a causa mais comum de morte entre crianças de todas as idades, sejam elas passageiros, pedestres ou ciclistas. \nAs demais causas de morte incluem afogamento, incêndio (asfixia e queimadura) e quedas, em ordem decrescente.\nDoc, dá uma olhadinha na diferença de mortalidade entre essas diferentes causas.👇\n- Fonte da imagem: [https://www.spsp.org.br/site/asp/boletins/AT9.pdf](https://www.spsp.org.br/site/asp/boletins/AT9.pdf)",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-03-04T16:52:11.000Z",
+                    "updated_at": "2022-03-05T20:00:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53345,
+                    "question_id": 13000,
+                    "description": "Afogamento",
+                    "explanation": "Errado, Doc!😣 \nAfogamento é a 2a causa mais comum de morte entre crianças. Acidentes com automóveis são a causa mais comum, seguidos por afogamento, incêndio (asfixia e queimadura) e queda.\nDoc, dá uma olhadinha na diferença de mortalidade entre essas diferentes causas.👇\n- Fonte da imagem: [https://www.spsp.org.br/site/asp/boletins/AT9.pdf](https://www.spsp.org.br/site/asp/boletins/AT9.pdf) \n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-03-04T16:52:11.000Z",
+                    "updated_at": "2022-03-05T20:00:07.000Z",
+                    "files": [
+                        {
+                            "id": 29425,
+                            "file": "db4d1a04-6c70-47eb-936d-2b542187ee80.png",
+                            "name": "Principais acidentes fatais em menores de 14 anos.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-05T19:53:50.000Z",
+                            "updated_at": "2022-03-05T19:53:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/db4d1a04-6c70-47eb-936d-2b542187ee80.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29425,
+                                "alternative_id": 53345
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53346,
+                    "question_id": 13000,
+                    "description": "Quedas",
+                    "explanation": "Falso, Doc!🤔\nApesar de quedas serem a causa mais comum de trauma entre crianças, raramente resultam em morte, ocupando 5° lugar nas causas de falecimento. \nA causa mais comum de morte na população pediátrica são traumas associados a colisões com veículos automotores, afogamento, incêndio (asfixia e queimadura) e queda, em ordem descrescente.\nDoc, se liga na tabela abaixo com a comparação entre as principais causas de mortalidade por faixa etária. 👇\n- Fonte da imagem: [https://www.spsp.org.br/site/asp/boletins/AT9.pdf](https://www.spsp.org.br/site/asp/boletins/AT9.pdf) ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-03-04T16:52:11.000Z",
+                    "updated_at": "2022-03-05T20:00:07.000Z",
+                    "files": [
+                        {
+                            "id": 29425,
+                            "file": "db4d1a04-6c70-47eb-936d-2b542187ee80.png",
+                            "name": "Principais acidentes fatais em menores de 14 anos.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-05T19:53:50.000Z",
+                            "updated_at": "2022-03-05T19:53:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/db4d1a04-6c70-47eb-936d-2b542187ee80.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29425,
+                                "alternative_id": 53346
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53347,
+                    "question_id": 13000,
+                    "description": "Maus tratos",
+                    "explanation": "Errado, Doc!🙈\nOs maus tratos infantis são a maior causa de homicídio em crianças menores de 12 meses.\nA causa mais comum de morte entre crianças de todas as idades são traumas decorrentes de colisões automobilísticas, seguidos por afogamento, incêndio (asfixia e queimadura) e queda.\nDoc, se liga na tabela abaixo com a comparação entre os principais acidentes fatais por faixa etária. 👇\n- Fonte da imagem: [https://www.spsp.org.br/site/asp/boletins/AT9.pdf](https://www.spsp.org.br/site/asp/boletins/AT9.pdf) ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-03-04T16:52:11.000Z",
+                    "updated_at": "2022-03-05T20:00:07.000Z",
+                    "files": [
+                        {
+                            "id": 29425,
+                            "file": "db4d1a04-6c70-47eb-936d-2b542187ee80.png",
+                            "name": "Principais acidentes fatais em menores de 14 anos.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-05T19:53:50.000Z",
+                            "updated_at": "2022-03-05T19:53:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/db4d1a04-6c70-47eb-936d-2b542187ee80.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29425,
+                                "alternative_id": 53347
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53348,
+                    "question_id": 13000,
+                    "description": "Lesões por arma de fogo",
+                    "explanation": "Os traumas por arma de fogo são a maior causa de homicídio entre crianças acima de 1 ano e adolescentes.\nEntretanto, em relação a todas as idades, a causa mais comum de morte é decorrente de acidentes com veículos, afogamento, incêndio, homicídio e queda, em ordem descrescente.\nDoc, dá uma olhadinha nessa tabela com os principais acidentes fatais em menores de 14 anos, dividio por faixa etária. 👇\n- Fonte da imagem: https://www.spsp.org.br/site/asp/boletins/AT9.pdf",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2022-03-04T16:52:11.000Z",
+                    "updated_at": "2022-03-05T20:00:07.000Z",
+                    "files": [
+                        {
+                            "id": 29425,
+                            "file": "db4d1a04-6c70-47eb-936d-2b542187ee80.png",
+                            "name": "Principais acidentes fatais em menores de 14 anos.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-05T19:53:50.000Z",
+                            "updated_at": "2022-03-05T19:53:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/db4d1a04-6c70-47eb-936d-2b542187ee80.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29425,
+                                "alternative_id": 53348
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13000,
+                "questionary_id": 268436,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13001,
+            "institution_id": 4,
+            "description": "A Síndrome da Morte Súbita do Lactente (SMSL) refere-se à morte súbita de um lactente com menos de um ano e que permance inexplicável após a investigação do caso. Sobre a SMSL, assinale corretamente o fator de proteção recomendado pela Sociedade Brasileira de Pediatria para reduzir essa condição:",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-03-04T17:05:59.000Z",
+            "updated_at": "2022-03-05T19:48:23.000Z",
+            "user_id": 303,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1123,
+                    "title": "Suporte Básico de Vida Pediátrico",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-03-04T16:47:11.000Z",
+                    "updated_at": "2022-03-04T16:47:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1123,
+                        "question_id": 13001
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 53349,
+                    "question_id": 13001,
+                    "description": "Os lactentes devem ser colocados para dormir em decúbito ventral",
+                    "explanation": "Errado, Doc!😣\nUm dos fatores de proteção mais importantes para a prevenção da síndrome da morte súbita do lactente é colocar o bebê para dormir em decúbito dorsal (\"barriga para cima\") até 1 ano de idade.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-03-04T17:05:59.000Z",
+                    "updated_at": "2022-03-05T19:48:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53350,
+                    "question_id": 13001,
+                    "description": "Bebês de até pelo menos 6 meses devem dormir no quarto dos pais, na mesma cama",
+                    "explanation": "Falso, Doc!😜\nPara prevenir a SMSL é importante que os bebês até 6 meses, mas idealmente até 1 ano, durmam no quarto dos pais, porém, no próprio berço.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-03-04T17:05:59.000Z",
+                    "updated_at": "2022-03-05T19:48:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53351,
+                    "question_id": 13001,
+                    "description": "Superaquecer os bebês com cobertas ao dormir, evitando ao máximo a hipotermia",
+                    "explanation": "Errado, Doc!🙈\nNão se deve superaquecer, nem cobrir a cabeça dos bebês. Além disso, não se deve deixar objetos soltos e macios na cama/berço, como travesseiros e cobertas.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-03-04T17:05:59.000Z",
+                    "updated_at": "2022-03-05T19:48:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53352,
+                    "question_id": 13001,
+                    "description": "Não devem ser utilizadas cadeirinhas de carro e outros dispositivos de assento para o sono",
+                    "explanation": "Arrasou, Doc!😎\nAs cadeirinhas de carro e outros dispositivos de assento devem ser evitados ao máximo durante o sono do lactente, sendo utilizados somente para transporte e sob supervisão.\nDoc, se liga nessa imagem contendo os principais fatores de proteção para a Síndrome da Morte Súbita do Lactente.👇\n- Fonte da imagem: http://www.draanafigueiredo.com.br/morte-subita-do-lactente",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2022-03-04T17:05:59.000Z",
+                    "updated_at": "2022-03-05T19:48:23.000Z",
+                    "files": [
+                        {
+                            "id": 29423,
+                            "file": "574bfbc0-2727-4115-b800-405d97a9aeed.jpeg",
+                            "name": "image_5 (1).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-03-05T19:48:07.000Z",
+                            "updated_at": "2022-03-05T19:48:07.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/574bfbc0-2727-4115-b800-405d97a9aeed.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29423,
+                                "alternative_id": 53352
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13001,
+                "questionary_id": 268436,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13003,
+            "institution_id": 4,
+            "description": "O manejo das vias aéreas é uma etapa primordial na avaliação e resposta ao trauma, tanto adulto quanto pediátrico. Sobre o manejo correto das vias aéreas, assinale a alternativa **INCORRETA**:",
+            "difficulty": "easy",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-03-04T19:04:03.000Z",
+            "updated_at": "2022-03-05T19:41:10.000Z",
+            "user_id": 303,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1123,
+                    "title": "Suporte Básico de Vida Pediátrico",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-03-04T16:47:11.000Z",
+                    "updated_at": "2022-03-04T16:47:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1123,
+                        "question_id": 13003
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 53357,
+                    "question_id": 13003,
+                    "description": "Na emergência pediátrica, a respiração é considerada normal quando forem observados sinais de movimento respiratório, inclusive gasping",
+                    "explanation": "Excelente, Doc, você achou a **incorreta**!😍\nDe fato, na emergência pediátrica devem ser observados sons e movimentos respiratórios. \nEntretanto, o gasping (som de respiração agônica, caracterizada por barulho ofegante e difícil) sugere um quadro de sofrimento respiratório, sendo uma indicação para iniciar a RCP.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-03-04T19:04:03.000Z",
+                    "updated_at": "2022-03-05T19:41:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53358,
+                    "question_id": 13003,
+                    "description": "Se a criança estiver respirando normalmente, deve-se virá-la em posição de recuperação ",
+                    "explanation": "Essa está certa, Doc!🤔\nMediante respiração normal , a criança deve ser virada em posição de recuperação, como mostrado na imagem, e suas vias aéreas devem ser mantidas abertas com inclinação da cabeça. Ao mesmo tempo, envie ou peça ajuda e verifique continuamente a presença de respiração normal.\n- Fonte da imagem: [https://www.prociv.viaoceanica.net/fotos/documentos/1490290487.pdf](https://www.prociv.viaoceanica.net/fotos/documentos/1490290487.pdf)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-03-04T19:04:03.000Z",
+                    "updated_at": "2022-03-05T19:41:10.000Z",
+                    "files": [
+                        {
+                            "id": 29242,
+                            "file": "7e96e00d-c25f-44cd-9c4c-74c040900726.jpeg",
+                            "name": "download.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-03-04T18:40:45.000Z",
+                            "updated_at": "2022-03-04T18:40:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7e96e00d-c25f-44cd-9c4c-74c040900726.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29242,
+                                "alternative_id": 53358
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53359,
+                    "question_id": 13003,
+                    "description": "Se a respiração da criança estiver anormal ou ausente, devem ser realizadas 5 respirações de resgate iniciais, observando resposta de engasgo ou tosse",
+                    "explanation": "Essa está certa, Doc!😁\nQuando a respiração da criança estiver ausente devem ser realizadas 5 respirações de resgate ou 5 compressões do dispositivo bolsa-valva-máscara antes de iniciar a RCP. Cada ventilação deve durar 1s e deve-se ficar atento a qualquer resposta de engasgo ou tosse.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-03-04T19:04:03.000Z",
+                    "updated_at": "2022-03-05T19:41:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53360,
+                    "question_id": 13003,
+                    "description": "Se a criança não apresentar respiração normal, mas estiver com pulso e boa perfusão periférica, devem ser feitas respirações de resgate",
+                    "explanation": "Essa está certa, Doc!🤔\nApós avaliar a respiração e checar o pulso por 1s, se for averiguado pulso, mas não respiração, deve-se fornecer respirações de resgate.\nAs respirações de resgate consistem em 1 respiração a cada 3-5s (12-20 respirações/min).",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-03-04T19:04:03.000Z",
+                    "updated_at": "2022-03-05T19:41:10.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13003,
+                "questionary_id": 268436,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13028,
+            "institution_id": 4,
+            "description": "O SCORE de trauma pediátrico estabelece 3 categorias de gravidade, as quais são preditores de severidade no trauma infantil. Sobre essas categorias, assinale a alternativa **CORRETA**: ",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-03-05T14:37:13.000Z",
+            "updated_at": "2022-03-05T19:41:59.000Z",
+            "user_id": 303,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1123,
+                    "title": "Suporte Básico de Vida Pediátrico",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-03-04T16:47:11.000Z",
+                    "updated_at": "2022-03-04T16:47:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1123,
+                        "question_id": 13028
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 53461,
+                    "question_id": 13028,
+                    "description": "SCORE + 2 = 10-20 Kg, oxigênio via oral ou nasal, pressão sanguínea sistólica 50-90 mmHg com pulso carotídeo/femoral palpável",
+                    "explanation": "Errado, Doc! 😋\nO SCORE +2 é caracterizado em crianças com peso > 20Kg, com vias aéreas pérvias, pressão sanguínea sistólica > 90 mmHg com extremidades bem perfundidas e pulso periférico.\nDoc, se liga na tabela abaixo com os scores de trauma pediátrico. 👇\nFonte da imagem: AMERICAN COLLEGE OF SURGEONS. ATLS – Advanced Trauma Life Support for Doctors. 10. ed. Chicago: Committee on Trauma, 2018.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-03-05T14:37:13.000Z",
+                    "updated_at": "2022-03-05T19:41:59.000Z",
+                    "files": [
+                        {
+                            "id": 29344,
+                            "file": "387fca02-cf10-4a03-94f3-9e9dbf137b28.png",
+                            "name": "pediatric trauma score.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-05T14:28:29.000Z",
+                            "updated_at": "2022-03-05T14:28:29.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/387fca02-cf10-4a03-94f3-9e9dbf137b28.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29344,
+                                "alternative_id": 53461
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53462,
+                    "question_id": 13028,
+                    "description": "SCORE + 1  = < 10 Kg, via aérea artificial (intubação, cricotireoidostomia, traqueostomia),coma",
+                    "explanation": "Errado, Doc! 🙈\nO SCORE +1 está presente em crianças entre 10-20 Kg, com administração de oxigênio via oral ou nasal e com baixo ou nenhum rebaixamento do nível de consciência.\nDoc, se liga na tabela abaixo com os scores de trauma pediátrico.👇\nFonte da imagem: AMERICAN COLLEGE OF SURGEONS. ATLS – Advanced Trauma Life Support for Doctors. 10. ed. Chicago: Committee on Trauma, 2018. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-03-05T14:37:13.000Z",
+                    "updated_at": "2022-03-05T19:41:59.000Z",
+                    "files": [
+                        {
+                            "id": 29344,
+                            "file": "387fca02-cf10-4a03-94f3-9e9dbf137b28.png",
+                            "name": "pediatric trauma score.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-05T14:28:29.000Z",
+                            "updated_at": "2022-03-05T14:28:29.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/387fca02-cf10-4a03-94f3-9e9dbf137b28.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29344,
+                                "alternative_id": 53462
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53463,
+                    "question_id": 13028,
+                    "description": "SCORE + 2 = 10-20 Kg,  via aérea artificial (intubação, cricotireoidostomia, traqueostomia), 50-90 mmHg com pulsos carotídeo/femoral palpáveis",
+                    "explanation": "Falso, Doc!🤨\nAs características explicitadas na alternativa estão presentes no SCORE +1. \nPara saber diferenciar as características de cada uma das categorias, dá uma olhadinha na tabela do score de trauma pediátrico.👇\nFonte da imagem: AMERICAN COLLEGE OF SURGEONS. ATLS – Advanced Trauma Life Support for Doctors. 10. ed. Chicago: Committee on Trauma, 2018. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-03-05T14:37:13.000Z",
+                    "updated_at": "2022-03-05T19:41:59.000Z",
+                    "files": [
+                        {
+                            "id": 29344,
+                            "file": "387fca02-cf10-4a03-94f3-9e9dbf137b28.png",
+                            "name": "pediatric trauma score.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-05T14:28:29.000Z",
+                            "updated_at": "2022-03-05T14:28:29.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/387fca02-cf10-4a03-94f3-9e9dbf137b28.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29344,
+                                "alternative_id": 53463
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53464,
+                    "question_id": 13028,
+                    "description": "SCORE + 1 = 10-20 Kg, administração de oxigênio via oral ou nasal, pressão sanguínea sistólica 50-90 mmHg e baixa ou nenhuma perda do nível de consciência.",
+                    "explanation": "Excelente, Doc! 👊\nNo SCORE +1, temos 10-20 Kg, administração de oxigênio via oral ou nasal, pressão sanguínea sistólica 50-90 mmHg, baixa ou nenhuma perda do nível de consciência, fratura única ou fechada e contusão, abrasão ou laceração < 7 cm, não envolvendo a fáscia. \nDoc, se liga na tabela abaixo com os scores de trauma pediátrico. 👇\nFonte da imagem: AMERICAN COLLEGE OF SURGEONS. ATLS – Advanced Trauma Life Support for Doctors. 10. ed. Chicago: Committee on Trauma, 2018. ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2022-03-05T14:37:13.000Z",
+                    "updated_at": "2022-03-05T19:41:59.000Z",
+                    "files": [
+                        {
+                            "id": 29344,
+                            "file": "387fca02-cf10-4a03-94f3-9e9dbf137b28.png",
+                            "name": "pediatric trauma score.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-05T14:28:29.000Z",
+                            "updated_at": "2022-03-05T14:28:29.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/387fca02-cf10-4a03-94f3-9e9dbf137b28.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29344,
+                                "alternative_id": 53464
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13028,
+                "questionary_id": 268436,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13004,
+            "institution_id": 4,
+            "description": "Sobre as manobras de ressucitação cardiorrespiratória, assinale a alternativa **INCORRETA:**",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-03-04T19:29:37.000Z",
+            "updated_at": "2022-03-05T19:40:13.000Z",
+            "user_id": 303,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1123,
+                    "title": "Suporte Básico de Vida Pediátrico",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-03-04T16:47:11.000Z",
+                    "updated_at": "2022-03-04T16:47:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1123,
+                        "question_id": 13004
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 53361,
+                    "question_id": 13004,
+                    "description": "No lactente, o pulso carotídeo deve ser averiguado, enquanto na criança, o pulso braquial",
+                    "explanation": "Parabéns, Doc!👊 Essa é a alternativ**a incorreta**!\nNa presença de criança inconsciente, o profissional de saúde deve checar o pulso a cada 2 minutos após o início da RCP. \nNo lactente, deve-se palpar o pulso braquial, enquanto na criança, o pulso carotídeo. Em qualquer um dos dois grupos pode-se palpar o pulso femoral.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-03-04T19:29:37.000Z",
+                    "updated_at": "2022-03-05T19:40:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53362,
+                    "question_id": 13004,
+                    "description": "A taxa de compressões torácicas deve ser de 100-120/min, ou seja, a mesma de adultos",
+                    "explanation": "Essa está certinha, Doc!😇\nA taxa de compressões torácicas deve ser de 100-120/min, tanto para lactente quanto para crianças.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-03-04T19:29:37.000Z",
+                    "updated_at": "2022-03-05T19:40:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53363,
+                    "question_id": 13004,
+                    "description": "Caso o socorrista presencie o colapso, deve-se primeiro solicitar ajuda e posteriormente iniciar as manobras de reanimação",
+                    "explanation": "Essa está correta, Doc!😉\nQuando o socorrista está presente no momento do colapso, este deve primeiro solicitar ajuda para a emergência e, então, iniciar as manobras de reanimação.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-03-04T19:29:37.000Z",
+                    "updated_at": "2022-03-05T19:40:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53364,
+                    "question_id": 13004,
+                    "description": "Em lactentes, a compressão torácica deve ser realizada com dois dedos abaixo da linha intermamilar",
+                    "explanation": "Essa está certa, Doc!🤔\nEm lactentes, um único soccorista por realizar a compressão torácica com dois dedos abaixo da linha intermamilar, no terço inferior do esterno.\nJá quando há 2 socorristas, pode-se optar pela técnica de 2 polegares.\nSe liga nas imagens abaixo para saber como funciona a técnica de compressão torácica em lactentes.\n- Fonte da imagem: [https://www.ahajournals.org/doi/10.1161/CIR.0000000000000901#d1e1754](https://www.ahajournals.org/doi/10.1161/CIR.0000000000000901#d1e1754)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-03-04T19:29:37.000Z",
+                    "updated_at": "2022-03-05T19:40:13.000Z",
+                    "files": [
+                        {
+                            "id": 29245,
+                            "file": "49f51ecc-1cfb-42bf-ad69-2a9eb8a155d4.gif",
+                            "name": "cir.0000000000000901.fig03.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-03-04T19:25:45.000Z",
+                            "updated_at": "2022-03-04T19:25:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/49f51ecc-1cfb-42bf-ad69-2a9eb8a155d4.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29245,
+                                "alternative_id": 53364
+                            }
+                        },
+                        {
+                            "id": 29244,
+                            "file": "08b274ab-0c69-4acc-974c-fc74a2dff278.gif",
+                            "name": "cir.0000000000000901.fig02.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-03-04T19:25:45.000Z",
+                            "updated_at": "2022-03-04T19:25:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/08b274ab-0c69-4acc-974c-fc74a2dff278.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29244,
+                                "alternative_id": 53364
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53365,
+                    "question_id": 13004,
+                    "description": "As compressões torácicas devem deprimir pelo menos 1/3 do diâmetro anteroposterior do tórax ",
+                    "explanation": "Essa está correta, Doc!😉\nAs compressões torácicas de alta qualidade devem ter profundidade de 1/3 do diâmetro anteroposterior do tórax da criança, o que corresponde a:\n- Lactente - 4cm\n- Criança - 5cm\n- Adolescente - 5-6cm\nLembrando que é importante permitir a reexpansão do tórax a cada compressão.",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2022-03-04T19:29:37.000Z",
+                    "updated_at": "2022-03-05T19:40:13.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13004,
+                "questionary_id": 268436,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13006,
+            "institution_id": 4,
+            "description": "Entre lactentes e crianças, em geral, a parada cardiorrespiratória não acontece por causas cardíacas primárias, mas por falência respiratória progressiva ou choque. Sobre as manobras de ventilação e manejo de vias aéreas, assinale a alternativa **CORRETA:**",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-03-04T19:58:56.000Z",
+            "updated_at": "2022-03-05T19:39:12.000Z",
+            "user_id": 303,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1123,
+                    "title": "Suporte Básico de Vida Pediátrico",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-03-04T16:47:11.000Z",
+                    "updated_at": "2022-03-04T16:47:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1123,
+                        "question_id": 13006
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 53370,
+                    "question_id": 13006,
+                    "description": "A manobra de elevação da mandíbula com leve extensão do pescoço deve ser realizada em todos os casos",
+                    "explanation": "Errado, Doc!😣\nA manobra de Chin-Lift, que consiste na elevação da mandíbula com leve extensão do pescoço, deve ser realizada somente em casos em que não haja suspeita de lesão da coluna cervical.\nNesses casos, deve-se optar pela manobra de Jaw-Thrust - elevação da mandíbula com o posicionamento dos dedos médios e indicadores de forma a projetá-la para frente.\nDá uma olhadinha nas imagens abaixo, Doc, pra relembrar as manobras de Chin-Lift e Jaw-Thrust👇\n- Fonte da imagem: [https://cobralt.com.br/atendimento-ao-traumatizado-abcde-do-trauma-guia-pratico-para-academicos/](https://cobralt.com.br/atendimento-ao-traumatizado-abcde-do-trauma-guia-pratico-para-academicos/)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-03-04T19:58:56.000Z",
+                    "updated_at": "2022-03-05T19:39:12.000Z",
+                    "files": [
+                        {
+                            "id": 29246,
+                            "file": "3efa6ac4-9229-489b-a2cf-a798331408a8.jpeg",
+                            "name": "manobras.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-03-04T19:44:04.000Z",
+                            "updated_at": "2022-03-04T19:44:04.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3efa6ac4-9229-489b-a2cf-a798331408a8.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29246,
+                                "alternative_id": 53370
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53371,
+                    "question_id": 13006,
+                    "description": "A RCP deve ser feita em ciclos de 30 compressões com 2 ventilações quando tiver apenas 1 socorrista presente",
+                    "explanation": "Arrasou, Doc!😎\nQuando a RCP é realizada sem suporte avançado de via aérea, as recomendações são as seguintes:\n- Um socorrista - Ciclos de 30 compressões com 2 ventilações\n- Dois socorristas - Ciclos de 15 compressões com 2 ventilações",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-03-04T19:58:56.000Z",
+                    "updated_at": "2022-03-05T19:39:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53372,
+                    "question_id": 13006,
+                    "description": "No ambiente pré-hospitalar, opta-se pela ventilação por intubação endotraqueal em detrimento à ventilação por bolsa-valva-máscara",
+                    "explanation": "Errado, Doc!🙈\nA ventilação bolsa-valva-máscara é preferida em relação às intervenções avançadas de via aérea no manejo pré-hospitalar da criança.\nIsso porque a colocação de vias aéreas avançadas pode interromper a aplicação de compressões torácicas de alta qualidade ou ainda resultar em dispositivo mal posicionado.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-03-04T19:58:56.000Z",
+                    "updated_at": "2022-03-05T19:39:12.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53373,
+                    "question_id": 13006,
+                    "description": "Em caso de intubação orotraqueal, o tamanho da cânula é calculado pela fórmula (idade/4 +4) com cuff e (idade/4 + 3,5) sem cuff",
+                    "explanation": "Falso, Doc!😋\nO tamanho da cânula é calculado sim de forma diferente pela presença ou não de cuff, sendo as seguintes fórmulas aplicadas:\n- Com cuff - Idade/4 +3,5\n- Sem cuff - Idade/4 + 4\nLembrando que o uso da cânula com ou sem cuff depende da patologia de base e da dificuldade respiratória.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-03-04T19:58:56.000Z",
+                    "updated_at": "2022-03-05T19:39:12.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13006,
+                "questionary_id": 268436,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13008,
+            "institution_id": 4,
+            "description": "A administração de drogas durante a ressucitação cardiorrespiratória pode auxiliar no retorno à circulação espontânea e melhorar a perfusão coronariana e cerebral. Sobre as recomendações de uso de drogas durante a parada cardiorrespiratória, assinale a alternativa **CORRETA:**",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-03-04T20:26:32.000Z",
+            "updated_at": "2022-06-18T16:42:14.000Z",
+            "user_id": 303,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1123,
+                    "title": "Suporte Básico de Vida Pediátrico",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-03-04T16:47:11.000Z",
+                    "updated_at": "2022-03-04T16:47:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1123,
+                        "question_id": 13008
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 53379,
+                    "question_id": 13008,
+                    "description": "Após o terceiro choque, se a criança permanecer em ritmo de fibrilação ventricular ou taquicardia ventricular não deve ser utilizado amiodarona ou lidocaína",
+                    "explanation": "Errado, Doc!🙊\nTanto a fibrilação ventricular quanto a taquicardia ventricular são ritmos chocáveis e, portanto, caso a criança não retorne à circulação espontânea após o terceiro choque, deve ser administrado amiodarona ou lidocaína.\nDá uma conferida no fluxograma abaixo para relembrar o seguimento do manejo da reanimação cardiopulmonar👇\n- Fonte da imagem: [https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/Highlights/Hghlghts_2020ECCGuidelines_Portuguese.pdf](https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/Highlights/Hghlghts_2020ECCGuidelines_Portuguese.pdf)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-03-04T20:26:32.000Z",
+                    "updated_at": "2022-06-18T16:42:14.000Z",
+                    "files": [
+                        {
+                            "id": 29250,
+                            "file": "e1906e99-e741-4b1d-894e-c9fb98829482.png",
+                            "name": "3.-algoritimo-de-RCP-adulto.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-04T20:12:10.000Z",
+                            "updated_at": "2022-03-04T20:12:10.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e1906e99-e741-4b1d-894e-c9fb98829482.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29250,
+                                "alternative_id": 53379
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53380,
+                    "question_id": 13008,
+                    "description": "Pacientes em ritmo não chocável não devem receber dose de epinefrina",
+                    "explanation": "Errado, Doc! Para pacientes pediátricos em qualquer situação, seja o ritmo chocável ou não, é recomendada a administração de epinefrina dentro de 5 minutos do início das compressões torácicas.\nDá uma olhadinha nesse algoritmo de manejo de PCR pediátrico estabelecido pela American Heart Association👇\n- Fonte da imagem: [https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/Highlights/Hghlghts_2020ECCGuidelines_Portuguese.pdf](https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/Highlights/Hghlghts_2020ECCGuidelines_Portuguese.pdf)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-03-04T20:26:32.000Z",
+                    "updated_at": "2022-06-18T16:42:14.000Z",
+                    "files": [
+                        {
+                            "id": 29250,
+                            "file": "e1906e99-e741-4b1d-894e-c9fb98829482.png",
+                            "name": "3.-algoritimo-de-RCP-adulto.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-04T20:12:10.000Z",
+                            "updated_at": "2022-03-04T20:12:10.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e1906e99-e741-4b1d-894e-c9fb98829482.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29250,
+                                "alternative_id": 53380
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53381,
+                    "question_id": 13008,
+                    "description": "A dose de amiodarona que deve ser administrada em pacientes com ritmo chocável é de 10mg/Kg bolus, via intravenosa ou intraóssea ",
+                    "explanation": "Errado, Doc!🤔\nA dose de amiodarona recomendada para pacientes pediátricos em ritmo chocável é de 5mg/Kg bolus, podendo ser administrada via intravenosa ou intraóssea. \nPodem ser repetidas 3 doses em caso de ritmo chocável refratário.\nDoc, aproveita e dá uma olhadinha no algoritmo completo do manejo da parada cardiorrespiratória pediátrica 👇\n- Fonte da imagem: [https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/Highlights/Hghlghts_2020ECCGuidelines_Portuguese.pdf](https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/Highlights/Hghlghts_2020ECCGuidelines_Portuguese.pdf)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-03-04T20:26:32.000Z",
+                    "updated_at": "2022-06-18T16:42:14.000Z",
+                    "files": [
+                        {
+                            "id": 29250,
+                            "file": "e1906e99-e741-4b1d-894e-c9fb98829482.png",
+                            "name": "3.-algoritimo-de-RCP-adulto.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-04T20:12:10.000Z",
+                            "updated_at": "2022-03-04T20:12:10.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e1906e99-e741-4b1d-894e-c9fb98829482.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29250,
+                                "alternative_id": 53381
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53382,
+                    "question_id": 13008,
+                    "description": "A dose de epinefrina recomendada é de 0.01 mg/Kg e deve ser administrada em todos os pacientes que apresentem parada cardiorrespiratória",
+                    "explanation": "Você é fera, Doc!😻\nA epinefrina deve ser administrada tanto em pacientes com ritmo chocável quanto aqueles com ritmo não chocável a cada 3-5 minutos, na dose de 0.01 mg/Kg (0.1mL/Kg em concentração de 0.1 mg/mL).\nConfere o algoritimo a seguir sobre a parada cardiorrespiratória pediátrica 👇\n- Fonte da imagem: [https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/Highlights/Hghlghts_2020ECCGuidelines_Portuguese.pdf](https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/Highlights/Hghlghts_2020ECCGuidelines_Portuguese.pdf)",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2022-03-04T20:26:32.000Z",
+                    "updated_at": "2022-06-18T16:42:14.000Z",
+                    "files": [
+                        {
+                            "id": 29250,
+                            "file": "e1906e99-e741-4b1d-894e-c9fb98829482.png",
+                            "name": "3.-algoritimo-de-RCP-adulto.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-04T20:12:10.000Z",
+                            "updated_at": "2022-03-04T20:12:10.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e1906e99-e741-4b1d-894e-c9fb98829482.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29250,
+                                "alternative_id": 53382
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13008,
+                "questionary_id": 268436,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13010,
+            "institution_id": 4,
+            "description": "Mediante averiguação do ritmo chocável deve-se recorrer, o quanto antes, ao uso de desfibrilador, uma vez que quanto menor o tempo de parada cardíaca por fibrilação ventricular ou taquicardia ventricular, maior a probabilidade de retorno à circulação espontânea. Sobre o uso de desfibriladores, assinale a alternativa **CORRETA:**",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-03-04T20:39:42.000Z",
+            "updated_at": "2022-03-05T19:37:24.000Z",
+            "user_id": 303,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1123,
+                    "title": "Suporte Básico de Vida Pediátrico",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-03-04T16:47:11.000Z",
+                    "updated_at": "2022-03-04T16:47:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1123,
+                        "question_id": 13010
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 53387,
+                    "question_id": 13010,
+                    "description": "A energia aplicada pelo desfibrilador deve corresponder a 20J/Kg",
+                    "explanation": "Falso, Doc!🙊\nA recomendação é iniciar a desfibrilação com uma energia de 2J/Kg, sendo que para ritmo chocável refratário, pode-se desfibrilar em 4J/Kg.  \nCaso haja necessidade, maiores níveis de energia podem ser considerados, desde que não excedam 10J/Kg.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-03-04T20:39:42.000Z",
+                    "updated_at": "2022-03-05T19:37:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53388,
+                    "question_id": 13010,
+                    "description": "As pás pediátricas devem ser usadas em crianças menores de 12 anos ou de 20 Kg, mas caso não estejam disponíveis, pode-se usar as pás de adulto",
+                    "explanation": "Errado, Doc!😋\nO uso de pás pediátricas é recomendado somente para crianças menores de 8 anos ou de 25 Kg.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-03-04T20:39:42.000Z",
+                    "updated_at": "2022-03-05T19:37:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53389,
+                    "question_id": 13010,
+                    "description": "Se as pás não couberem no tórax do paciente sem se tocar, pode-se optar pela colocação de um pá no tórax e outra no dorso do paciente",
+                    "explanation": "Mandou bem, Doc!👊\nDevem ser utilizadas as maiores pás possíveis que irão caber no tórax da criança enquanto mantém uma boa separação entre si. Entretanto, quando não houver tamanho de pás apropriado para isso, deve-se colocar uma pá no tórax e outra no dorso do paciente.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2022-03-04T20:39:42.000Z",
+                    "updated_at": "2022-03-05T19:37:24.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53390,
+                    "question_id": 13010,
+                    "description": "Em bebês com menos de 1 ano de idade, o uso de desfibrilador automático externo é preferível",
+                    "explanation": "Errado, Doc!🤔\nPara lactentes com menos de 1 ano de idade, o desfibrilador manual é preferível. Além disso, vale lembrar que o desfibrilador automático externo não pode ser usado em crianças no período neonatal.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-03-04T20:39:42.000Z",
+                    "updated_at": "2022-03-05T19:37:24.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13010,
+                "questionary_id": 268436,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13018,
+            "institution_id": 4,
+            "description": "Menina, 2 anos, previamente hígida, consciente, deu entrada no pronto-socorro com dificuldade respiratória. Pai conta que criança brincava no chão da sala com seus brinquedos quando começou a apresentar sinais de engasgo e tosse. Ao exame, a criança apresentava cianótica, com piora respiratória e rebaixamento do nível de consciência. Sobre a obstrução de via aérea por corpo estranho assinale a alternativa **CORRETA:**\n",
+            "difficulty": "medium",
+            "year": "2021-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-03-04T23:20:10.000Z",
+            "updated_at": "2022-03-05T19:36:39.000Z",
+            "user_id": 303,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1123,
+                    "title": "Suporte Básico de Vida Pediátrico",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-03-04T16:47:11.000Z",
+                    "updated_at": "2022-03-04T16:47:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1123,
+                        "question_id": 13018
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 53419,
+                    "question_id": 13018,
+                    "description": "A suspeita de obstrução de via aérea por corpo estranho ocorre em casos de desdobramento agudo, com sinal de laringite ou epiglotite, tosse e história recente de brincar ou comer objetos pequenos",
+                    "explanation": "Errado, Doc!😣\nA obstrução por via aérea é caraterizado por um aparecimento súbito de estresse respiratório de tosse, esgasgo ou estritor. Ademais, não deve haver presença de sinais de outras doenças, como laringite ou epiglotite, e devem estar presentes  pistas de alerta, como histórico de comer ou brincar com objetos pequenos antes do aparecimento dos sintomas. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-03-04T23:20:10.000Z",
+                    "updated_at": "2022-03-05T19:36:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53420,
+                    "question_id": 13018,
+                    "description": "Lactentes conscientes até 1 ano de idade devem ser posicionados com a cabeça em um nível superior ao tórax e receber 5 golpes na região interescapular.",
+                    "explanation": "Falso, Doc!😫\nLactentes até 1 ano de idade devem ser posicionados com a cabeça em um nível inferior ao do tórax, para que a gravidade possa auxiliar na remoção do corpo estranho. \nA criança deve ser apoiada no colo do socorrista, com a cabeça segurada pelo polegar de uma mão na mandíbula inferior e um ou dois dedos da mesma mão no mesmo ponto no outro lado da mandíbula. \nEntão, devem ser aplicados até 5 golpes nas costas com a palma de uma mão na região interescapular. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-03-04T23:20:10.000Z",
+                    "updated_at": "2022-03-05T19:36:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53421,
+                    "question_id": 13018,
+                    "description": "Caso os golpes na região interescapular não resolvam e o lactente/criança permaneça consciente, deve-se aplicar a manobra de Heimilich em lactentes e compressões torácicas em crianças.",
+                    "explanation": "Errado, Doc!😢\nSe a criança permanecer consciente após os golpes na região interescapular, deve-se realizar as seguintes manobras, de acordo com a faixa etária:\n- **Lactente** - 5 compressões torácicas com o lactente em posição supina de cabeça para baixo.\n- **Crianças** - 5 compressões abdominais na região entre o apêndice xifoide e a cicatriz umbilical com as mãos juntas em formato de punho.\nÉ importante lembrar que a manobra de Heimilich não deve ser realizada em menores de 1 ano pelo risco de lesão hepática, além da dificuldade gerada pelo tamanho e tônus da vítima.  \nDoc, dá uma olhada nessas imagens para ver como funcionam as manobras de desobstrução das vias aéreas👇\n- Fonte da imagem: [https://pediatriavirtual.com/engasgos/](https://pediatriavirtual.com/engasgos/)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-03-04T23:20:10.000Z",
+                    "updated_at": "2022-03-05T19:36:39.000Z",
+                    "files": [
+                        {
+                            "id": 29321,
+                            "file": "57425cb1-4b43-442a-a5a1-3da6acdcd908.jpeg",
+                            "name": "engasgo.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-03-04T23:12:08.000Z",
+                            "updated_at": "2022-03-04T23:12:08.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/57425cb1-4b43-442a-a5a1-3da6acdcd908.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29321,
+                                "alternative_id": 53421
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53422,
+                    "question_id": 13018,
+                    "description": "Se a criança permanecer inconsciente e não conseguir retirar o objeto da via aérea, inicie as respirações de resgate e a RCP",
+                    "explanation": "Arrasou, Doc!🤓\nSe a tentativa de retirada do corpo estranho da via áerea não for bem sucedida e a criança permanecer inconsciente, abra a via aérea e tente 5 respirações de resgate, avaliando o movimento do tórax. \nProceda, independente das respirações bem-sucedidas, com a execução da RCP até que a ajuda chegue ou a criança melhore. ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2022-03-04T23:20:10.000Z",
+                    "updated_at": "2022-03-05T19:36:39.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13018,
+                "questionary_id": 268436,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13020,
+            "institution_id": 4,
+            "description": "As ações do suporte básico de vida pediátrico são essenciais para aumentar a taxa de sobrevida dos pacientes. No que se refere às ações de urgência e emergência no suporte pediátrico, assinale a opção **CORRETA:**",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-03-04T23:58:00.000Z",
+            "updated_at": "2022-07-04T21:50:46.000Z",
+            "user_id": 303,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1123,
+                    "title": "Suporte Básico de Vida Pediátrico",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-03-04T16:47:11.000Z",
+                    "updated_at": "2022-03-04T16:47:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1123,
+                        "question_id": 13020
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 53427,
+                    "question_id": 13020,
+                    "description": "Tanto a cadeia de sobrevivência extra-hospitalar do paciente pediátrico quanto a do adulto apresentam os mesmo 6 elos, organizados na mesma sequência",
+                    "explanation": "Errado, Doc!😢\nHá uma importante diferença entre a cadeia de sobrevivência adulta e pediátrica, uma vez que a cadeia pediátrica tem em seu 1° elo e prevenção da parada cardiorrespiratória, enquanto a do adulto possui o seu 1° elo estabelecido no acionamento do serviço médico de emergência. \nSe liga nas imagens a seguir mostrando a diferença entre as duas cadeias de sobrevivência para PCRIH (PCR intra-hospitalar) e PCREH (PCR extra-hospitalar)👇\n- Fonte da imagem: [https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/Highlights/Hghlghts_2020ECCGuidelines_Portuguese.pdf](https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/Highlights/Hghlghts_2020ECCGuidelines_Portuguese.pdf)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-03-04T23:58:00.000Z",
+                    "updated_at": "2022-07-04T21:50:46.000Z",
+                    "files": [
+                        {
+                            "id": 29325,
+                            "file": "b4848e5b-cdbb-453b-9665-4f5c74e03570.png",
+                            "name": "prevenção PCR ped.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-04T23:43:47.000Z",
+                            "updated_at": "2022-03-04T23:43:47.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b4848e5b-cdbb-453b-9665-4f5c74e03570.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29325,
+                                "alternative_id": 53427
+                            }
+                        },
+                        {
+                            "id": 29326,
+                            "file": "fc3bb1ff-2a2f-4182-b166-39203e3f57e4.png",
+                            "name": "prevenção PCR ped.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-04T23:44:33.000Z",
+                            "updated_at": "2022-03-04T23:44:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/fc3bb1ff-2a2f-4182-b166-39203e3f57e4.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29326,
+                                "alternative_id": 53427
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53428,
+                    "question_id": 13020,
+                    "description": "Ao presenciar a perda de consciência de um paciente pediátrico, a reanimação cardiopulmonar é feita após a ativação do serviço médico de emergência",
+                    "explanation": "Fera demais, Doc!😻Sobre a ativação do serviço médico de emergência, a única exceção é quando não se observa-se o colapso súbito da criança em frente ao socorrista. Nesses casos, está indicado realizar 2 min de compressão e somente após acionar o serviço de emergência (considerando apenas um socorrista). Caso estejam presentes dois socorristas no momento, um aciona o serviço e o outro inicia as manobras de RCP. ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-03-04T23:58:00.000Z",
+                    "updated_at": "2022-07-04T21:50:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53429,
+                    "question_id": 13020,
+                    "description": "O local mais indicado para se averiguar o pulso é através da palpação da carótida, tanto em lactentes quanto em crianças",
+                    "explanation": "Errado, Doc!😜\nNo lactente deve-se palpar o pulso braquial, enquanto na criança, o pulso carotídeo. Em qualquer um dos grupos pode-se palpar o pulso femoral. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-03-04T23:58:00.000Z",
+                    "updated_at": "2022-07-04T21:50:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53430,
+                    "question_id": 13020,
+                    "description": "Recomenda-se que as compressões torácicas, quando realizadas por dois socorristas, sejam feitas na relação compressão-ventilação 15:2 e sempre com uma ou duas mãos",
+                    "explanation": "Errado, Doc!🤔\nEm lactentes, a compressão torácica deve ser realizada com dois dedos ou dois polegares, abaixo da linha intermamilar no terço inferior do esterno. Já em crianças maiores, deve-se realizar a compressão do terço inferior do esterno com as duas mãos.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-03-04T23:58:00.000Z",
+                    "updated_at": "2022-07-04T21:50:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53431,
+                    "question_id": 13020,
+                    "description": "A corrente de sobrevivência extra-hospitalar pediátrica é composta por 5 elos interdependentes, sendo o primeiro deles referente à RCP de alta qualidade.",
+                    "explanation": "Errado, Doc!🤨\nEla é composta por 6 elos interdependentes, sendo que o primeiro deles corresponde à prevenção da parada cardiorrespiratória. \nSe liga na imagem abaixo pra conferir a cadeia de sobrevivência pediátrica👇\nFonte da imagem: https://cpr.heart.org/-/media/CPR-Files/CPR-Guidelines-Files/Highlights/Hghlghts_2020ECCGuidelines_Portuguese.pdf",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2022-03-04T23:58:00.000Z",
+                    "updated_at": "2022-07-04T21:50:46.000Z",
+                    "files": [
+                        {
+                            "id": 29325,
+                            "file": "b4848e5b-cdbb-453b-9665-4f5c74e03570.png",
+                            "name": "prevenção PCR ped.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-04T23:43:47.000Z",
+                            "updated_at": "2022-03-04T23:43:47.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b4848e5b-cdbb-453b-9665-4f5c74e03570.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29325,
+                                "alternative_id": 53431
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13020,
+                "questionary_id": 268436,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13019,
+            "institution_id": 642,
+            "description": "Lactente de 9 meses admitido na emergência pediátrica devido à febre, prostração e dispneia há 2 dias. Na admissão o paciente está não responsivo a estímulos e sem pulso detectável. A conduta adequada é:\n",
+            "difficulty": "hard",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-03-04T23:32:41.000Z",
+            "updated_at": "2022-03-05T19:35:34.000Z",
+            "user_id": 303,
+            "is_residency": true,
+            "institution": {
+                "id": 642,
+                "title": "SANTA CASA - ES",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2022-03-04T23:32:41.000Z",
+                "updated_at": "2022-03-04T23:32:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1123,
+                    "title": "Suporte Básico de Vida Pediátrico",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-03-04T16:47:11.000Z",
+                    "updated_at": "2022-03-04T16:47:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1123,
+                        "question_id": 13019
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 53423,
+                    "question_id": 13019,
+                    "description": "Realizar compressões torácicas, obter acesso venoso, proceder intubação orotraqueal e realizar desfibrilação",
+                    "explanation": "Errado, Doc!😢\nA desfibrilação deve ser realizada somente em caso de presença de ritmos chocáveis (fibrilação ventricular e taquicardia ventricular sem pulso). Como a questão, em nenhum momento, cita o ritmo apresentado pela criança, não se tem certeza da necessidade de desfibrilação ou não. \n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-03-04T23:32:41.000Z",
+                    "updated_at": "2022-03-05T19:35:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53424,
+                    "question_id": 13019,
+                    "description": "Iniciar imediatamente compressões torácicas na relação compressão/ventilação de 30:2 quando há 01 socorrista e de 15:2 na presença de 02 socorristas",
+                    "explanation": "Excelente, Doc!😎\nApós avaliar o estado de consciência e os sinais vitais, em caso de ausência de resposta, deve-se iniciar imediatamente as manobras de compressão torácica e ventilação de alta qualidade, com a seguinte organização:\n- 01 socorrista -  Ciclos de 30 compressões e 2 ventilações\n- 02 socorristas - Ciclos de 15 compressões e 2 ventilações ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-03-04T23:32:41.000Z",
+                    "updated_at": "2022-03-05T19:35:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53425,
+                    "question_id": 13019,
+                    "description": "Realizar ventilação de resgate com bolsa-valva-máscara e depois iniciar compressões torácicas. Analisar ritmo cardíaco após 2 minutos de reanimação cardiopulmonar",
+                    "explanation": "Errado, Doc!😣\nA prioridade no suporte básico à vida é iniciar as compressões torácicas, as quais, preferencialmente, não devem ser interrompidas para realizar a ventilação com bolsa-valva-máscara. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-03-04T23:32:41.000Z",
+                    "updated_at": "2022-03-05T19:35:34.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53426,
+                    "question_id": 13019,
+                    "description": "Obter acesso venoso imediatamente e administrar epinefrina endovenosa e acesso vascular profundo",
+                    "explanation": "Errado, Doc!🙈\nEnquanto as compressões torácicas e a ventilação são realizadas deve-se obter, concomitantemente, o acesso venoso para administrar epinefrina endovenosa dentro dos primeiros 3-5 minutos do início das manobras de suporte à vida. \nEntretanto, obter o acesso venoso e administrar epinefrina não são as prioridades no manejo e devem ser feitas somente após o início das compressões torácicas.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-03-04T23:32:41.000Z",
+                    "updated_at": "2022-03-05T19:35:34.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13019,
+                "questionary_id": 268436,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13024,
+            "institution_id": 22,
+            "description": "Criança, 6 anos, engasgou com um pedaço de bala dura. Não consegue falar e respirar efetivamente, tenta tossir, mas não consegue. Mantém os olhos \"arregalados\" e as mãos no pescoço. A conduta imediata é:",
+            "difficulty": "hard",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-03-05T14:00:55.000Z",
+            "updated_at": "2022-03-05T19:33:17.000Z",
+            "user_id": 303,
+            "is_residency": true,
+            "institution": {
+                "id": 22,
+                "title": "UNICAMP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:12:16.000Z",
+                "updated_at": "2020-05-18T19:12:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1123,
+                    "title": "Suporte Básico de Vida Pediátrico",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-03-04T16:47:11.000Z",
+                    "updated_at": "2022-03-04T16:47:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1123,
+                        "question_id": 13024
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 53444,
+                    "question_id": 13024,
+                    "description": "Deitar a criança no chão e iniciar a reanimação cardiopulmonar",
+                    "explanation": "Errado, Doc!😢\nSomente em caso de inconsciência por obstrução das vias aéreas por corpo estranho em crianças que se deve realizar a reanimação cardiopulmonar, após pesquisar a via aérea e realizar 5 insuflações. \nEntretanto, a criança do caso apresenta-se consciente e, portanto, opta-se por realizar a manobra de Heimilich (compressões abdominais).\nDoc, se liga no algoritmo da imagem sobre manejo do paciente consciente com obstrução das vias aéreas por corpo estranho. 👇\n- Fonte da imagem: [https://www.inem.pt/wp-content/uploads/2017/09/Suporte-B%C3%A1sico-de-Vida-Pedi%C3%A1trico.pdf](https://www.inem.pt/wp-content/uploads/2017/09/Suporte-B%C3%A1sico-de-Vida-Pedi%C3%A1trico.pdf)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-03-05T14:00:55.000Z",
+                    "updated_at": "2022-03-05T19:33:17.000Z",
+                    "files": [
+                        {
+                            "id": 29342,
+                            "file": "14eec36a-dd1d-48ac-b4bc-8129b871be77.png",
+                            "name": "Algoritmo obstrução VA consciente.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-05T13:38:09.000Z",
+                            "updated_at": "2022-03-05T13:38:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/14eec36a-dd1d-48ac-b4bc-8129b871be77.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29342,
+                                "alternative_id": 53444
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53445,
+                    "question_id": 13024,
+                    "description": "Varredura digital, às cegas, para retirar o corpo estranho",
+                    "explanation": "Errado, Doc! 😣\nA varredura digital é realizada somente quando a criança estiver incosciente e, além disso, o objeto deve ser removido em apenas um único movimento, não devendo varrer a cavidade oral às cegas. \nDoc, dá uma olhadinha no algoritmo de manejo de desobstrução em paciente inconsciente. 👇\n- Fonte da imagem:  [https://www.inem.pt/wp-content/uploads/2017/09/Suporte-B%C3%A1sico-de-Vida-Pedi%C3%A1trico.pdf](https://www.inem.pt/wp-content/uploads/2017/09/Suporte-B%C3%A1sico-de-Vida-Pedi%C3%A1trico.pdf)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-03-05T14:00:55.000Z",
+                    "updated_at": "2022-03-05T19:33:17.000Z",
+                    "files": [
+                        {
+                            "id": 29343,
+                            "file": "c46a3f4b-2cac-4269-ae31-10dd30e8aa66.png",
+                            "name": "Algoritmo obstrução VA inconsciente.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-05T13:40:39.000Z",
+                            "updated_at": "2022-03-05T13:40:39.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c46a3f4b-2cac-4269-ae31-10dd30e8aa66.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29343,
+                                "alternative_id": 53445
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53446,
+                    "question_id": 13024,
+                    "description": "Dar golpes nas costas com a criança em decúbito lateral",
+                    "explanation": "Errado, Doc! 😢\nOs golpes nas costas não devem ser aplicados com a criança em decúbito lateral, mas sim, com a criança em pé  e inclinada para frente, de preferência com a cabeça posicionada para baixo. \nSe a criança for pequena, pode ser colocada no colo do reanimador.\nDoc, confere as imagens abaixo para relembrar as manobras de desobstrução das vias aéreas.👇\n- Fonte da imagem: [https://pediatriavirtual.com/engasgos/](https://pediatriavirtual.com/engasgos/)",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-03-05T14:00:55.000Z",
+                    "updated_at": "2022-03-05T19:33:17.000Z",
+                    "files": [
+                        {
+                            "id": 29321,
+                            "file": "57425cb1-4b43-442a-a5a1-3da6acdcd908.jpeg",
+                            "name": "engasgo.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-03-04T23:12:08.000Z",
+                            "updated_at": "2022-03-04T23:12:08.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/57425cb1-4b43-442a-a5a1-3da6acdcd908.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29321,
+                                "alternative_id": 53446
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53447,
+                    "question_id": 13024,
+                    "description": "Rápidas compressões em região epigástrica",
+                    "explanation": "Mandou bem, Doc! 🤓\nSe a criança permanecer consciente após os golpes na região interescapular, deve ser feita a manobra de Hemilich (compressões abdominais).\nLembrando que a manobra de Heimilich não deve ser realizada em menores de 1 ano pelo risco de lesão hepática.\nDoc, confere a imagem abaixo para relembrar o algoritmo de manejo da vítima consciente com obstrução das vias aéreas.👇\n- Fonte da imagem: [https://www.inem.pt/wp-content/uploads/2017/09/Suporte-B%C3%A1sico-de-Vida-Pedi%C3%A1trico.pdf](https://www.inem.pt/wp-content/uploads/2017/09/Suporte-B%C3%A1sico-de-Vida-Pedi%C3%A1trico.pdf)",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2022-03-05T14:00:55.000Z",
+                    "updated_at": "2022-03-05T19:33:17.000Z",
+                    "files": [
+                        {
+                            "id": 29342,
+                            "file": "14eec36a-dd1d-48ac-b4bc-8129b871be77.png",
+                            "name": "Algoritmo obstrução VA consciente.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-05T13:38:09.000Z",
+                            "updated_at": "2022-03-05T13:38:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/14eec36a-dd1d-48ac-b4bc-8129b871be77.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29342,
+                                "alternative_id": 53447
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13024,
+                "questionary_id": 268436,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13025,
+            "institution_id": 643,
+            "description": "Sobre o suporte básico de vida em pediatria, assinale a alternativa **CORRETA:**",
+            "difficulty": "hard",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-03-05T14:07:25.000Z",
+            "updated_at": "2022-03-05T19:32:23.000Z",
+            "user_id": 303,
+            "is_residency": false,
+            "institution": {
+                "id": 643,
+                "title": "FUNPAR-UFPR",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2022-03-05T14:07:25.000Z",
+                "updated_at": "2022-03-05T14:07:25.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1123,
+                    "title": "Suporte Básico de Vida Pediátrico",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-03-04T16:47:11.000Z",
+                    "updated_at": "2022-03-04T16:47:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1123,
+                        "question_id": 13025
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 53448,
+                    "question_id": 13025,
+                    "description": "A ressuscitação cardiopulmonar (RCP) em bebês e crianças com ventilações de resgate deve ser iniciada, em vez de compressões torácicas, respeitando ABC",
+                    "explanation": "Errado, Doc! 🤨\nAs ventilações de resgate e as compressões torácicas devem ser iniciadas simultaneamente em ciclos de compressão-ventilação de 30:2 (1 socorrista) ou 15:2 (2 socorristas) em caso de ausência de pulso e respiração ou pulso <60 bpm com comprometimento ventilatório. ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-03-05T14:07:25.000Z",
+                    "updated_at": "2022-03-05T19:32:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53449,
+                    "question_id": 13025,
+                    "description": "Em lactente com apneia e pulso central ausente, deve-se iniciar a RCP e checar o pulso a cada 4 min",
+                    "explanation": "Errado, Doc! 🙈\nEm lactente inconsciente com pulso central ausente, deve-se, imediatamente, iniciar as compressões torácicas, sendo que o pulso deve ser checado a cada 2 minutos. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-03-05T14:07:25.000Z",
+                    "updated_at": "2022-03-05T19:32:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53450,
+                    "question_id": 13025,
+                    "description": "Se a criança apresentar apneia com pulso central presente, deve ser realizada ventilação de resgate, sendo 1 ventilação a cada 10s, totalizando 6 ventilações por minuto",
+                    "explanation": "Errado, Doc! 😢\nA frequência das ventilações deve respeitar as metas de 1 ventilação a cada 3s, ou seja, aproximadamente 20 ventilações por minuto. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-03-05T14:07:25.000Z",
+                    "updated_at": "2022-03-05T19:32:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53451,
+                    "question_id": 13025,
+                    "description": "Se houver 2 socorristas, deve ser iniciada a RCP com proporção de 30 compressões para 2 ventilações (30:2)",
+                    "explanation": "Errado, Doc! 😣\nNa presença de um socorrista, a RCP deve ser feita na proporção ventilação-compressão de 30:2. Se houverem 2 socorristas, esta pode ser feita na proporção de 15:2. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-03-05T14:07:25.000Z",
+                    "updated_at": "2022-03-05T19:32:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53452,
+                    "question_id": 13025,
+                    "description": "Em lactentes com bradipneia, pulso central presente com 50 bpm, perfusão periférica ruim, mesmo após ventilação de resgate, deve ser iniciada a RCP ",
+                    "explanation": "Arrasou, Doc! 🥰\nBradicardia com bpm <60 associado à compromentimento da ventilação indica necessidade de se iniciar a RCP.",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2022-03-05T14:07:25.000Z",
+                    "updated_at": "2022-03-05T19:32:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13025,
+                "questionary_id": 268436,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13027,
+            "institution_id": 236,
+            "description": "Uma criança de 11 meses é admitida no pronto-socorro com história de início súbito de dificuldade respiratória, após ingestão de pão de queijo. Ao exame clínico, observa-se cianose generalizada, esforço respiratório, com retração supraesternal, tiragem subdiafragmática e choro fraco. A conduta mais adequada é:\n",
+            "difficulty": "hard",
+            "year": "2013-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-03-05T14:20:26.000Z",
+            "updated_at": "2022-03-05T19:31:10.000Z",
+            "user_id": 303,
+            "is_residency": true,
+            "institution": {
+                "id": 236,
+                "title": "FHEMIG",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-02-09T01:58:04.000Z",
+                "updated_at": "2021-02-09T01:58:04.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1123,
+                    "title": "Suporte Básico de Vida Pediátrico",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-03-04T16:47:11.000Z",
+                    "updated_at": "2022-03-04T16:47:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1123,
+                        "question_id": 13027
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 53457,
+                    "question_id": 13027,
+                    "description": "Abrir as vias aéreas e remover o corpo estranho manualmente",
+                    "explanation": "Errado, Doc! 🙈\nAbrir as vias aéreas para remover o corpo estranho manualmente somente é realizado em caso de criança inconsciente e deve ser realizado com um único movimento dos dedos. \nDoc, se liga no algoritmo de desobstrução das vias aéreas em vítima inconsciente.👇\n- Fonte da imagem:  [https://www.inem.pt/wp-content/uploads/2017/09/Suporte-B%C3%A1sico-de-Vida-Pedi%C3%A1trico.pdf](https://www.inem.pt/wp-content/uploads/2017/09/Suporte-B%C3%A1sico-de-Vida-Pedi%C3%A1trico.pdf)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-03-05T14:20:26.000Z",
+                    "updated_at": "2022-03-05T19:31:10.000Z",
+                    "files": [
+                        {
+                            "id": 29343,
+                            "file": "c46a3f4b-2cac-4269-ae31-10dd30e8aa66.png",
+                            "name": "Algoritmo obstrução VA inconsciente.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-05T13:40:39.000Z",
+                            "updated_at": "2022-03-05T13:40:39.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c46a3f4b-2cac-4269-ae31-10dd30e8aa66.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29343,
+                                "alternative_id": 53457
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53458,
+                    "question_id": 13027,
+                    "description": "Abrir as vias aéreas e ventilar com bolsa e máscara com oxigênio a 100%",
+                    "explanation": "Errado, Doc! 😢\nO suporte ventilatório não é recomendado, pois pode piorar a evolução do quadro, por aprofundar o corpo estranho em direção às vias aéreas inferiores. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-03-05T14:20:26.000Z",
+                    "updated_at": "2022-03-05T19:31:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53459,
+                    "question_id": 13027,
+                    "description": "Aplicar 5 golpes nas costas e 5 compressões torácicas até que o corpo estranho seja expelido",
+                    "explanation": "Arrasou, Doc! 😍\nEm caso de vítima lactente consciente com tosse ineficaz, deve-se alterar ciclos de 5 golpes interescapulares e 5 compressões torácicas.\nLembrando que lactentes não podem ser submetidos à manobra de Heimilich (compressões abdominais) devido ao risco de lesão hepática.\nDoc, confere a imagem abaixo com o algoritmo de desobstrução de vias aéreas em vítima consciente. 👇\n- Fonte da imagem:  [https://www.inem.pt/wp-content/uploads/2017/09/Suporte-B%C3%A1sico-de-Vida-Pedi%C3%A1trico.pdf](https://www.inem.pt/wp-content/uploads/2017/09/Suporte-B%C3%A1sico-de-Vida-Pedi%C3%A1trico.pdf)",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2022-03-05T14:20:26.000Z",
+                    "updated_at": "2022-03-05T19:31:10.000Z",
+                    "files": [
+                        {
+                            "id": 29342,
+                            "file": "14eec36a-dd1d-48ac-b4bc-8129b871be77.png",
+                            "name": "Algoritmo obstrução VA consciente.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-05T13:38:09.000Z",
+                            "updated_at": "2022-03-05T13:38:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/14eec36a-dd1d-48ac-b4bc-8129b871be77.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29342,
+                                "alternative_id": 53459
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53460,
+                    "question_id": 13027,
+                    "description": "Aplicar compressões abdominais até que o corpo estranho seja expelido.",
+                    "explanation": "Errado, Doc! 😢\nEm lactentes conscientes, deve-se aplicar 5 pancadas na região interescapular seguidas de 5 compressões torácicas com 2 dedos com o intuito de remover o corpo estranho.\nDoc, confere aí o algoritmo para obstrução de vias aéreas em vítima consciente. 👇\n- Fonte da imagem: [https://www.inem.pt/wp-content/uploads/2017/09/Suporte-B%C3%A1sico-de-Vida-Pedi%C3%A1trico.pdf](https://www.inem.pt/wp-content/uploads/2017/09/Suporte-B%C3%A1sico-de-Vida-Pedi%C3%A1trico.pdf)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-03-05T14:20:26.000Z",
+                    "updated_at": "2022-03-05T19:31:10.000Z",
+                    "files": [
+                        {
+                            "id": 29342,
+                            "file": "14eec36a-dd1d-48ac-b4bc-8129b871be77.png",
+                            "name": "Algoritmo obstrução VA consciente.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-03-05T13:38:09.000Z",
+                            "updated_at": "2022-03-05T13:38:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/14eec36a-dd1d-48ac-b4bc-8129b871be77.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29342,
+                                "alternative_id": 53460
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13027,
+                "questionary_id": 268436,
+                "timer": 0
+            }
+        },
+        {
+            "id": 13030,
+            "institution_id": 227,
+            "description": "Para um lactente de seis meses, as compressões torácicas para massagem cardíaca devem ser realizadas posicionando-se:",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-03-05T15:03:12.000Z",
+            "updated_at": "2022-03-05T19:29:54.000Z",
+            "user_id": 303,
+            "is_residency": false,
+            "institution": {
+                "id": 227,
+                "title": "FGV",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-01-18T21:55:45.000Z",
+                "updated_at": "2021-01-18T21:55:45.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1123,
+                    "title": "Suporte Básico de Vida Pediátrico",
+                    "description": null,
+                    "parent_id": 28,
+                    "is_enabled": true,
+                    "created_at": "2022-03-04T16:47:11.000Z",
+                    "updated_at": "2022-03-04T16:47:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1123,
+                        "question_id": 13030
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 53469,
+                    "question_id": 13030,
+                    "description": "Dois dedos das mãos na porção média do esterno",
+                    "explanation": "Errado, Doc!😢\nNo lactente, as compressões torácicas podem ser realizadas por um único socorrista com dois dedos abaixo da linha intermamilar, no terço inferior do esterno.\nDoc, dá uma olhadinha na imagem para conferir a manobra de compressão torácica em lactente. 👇\n- Fonte da imagem: [https://www.ahajournals.org/doi/10.1161/CIR.0000000000000901#d1e1754](https://www.ahajournals.org/doi/10.1161/CIR.0000000000000901#d1e1754) ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-03-05T15:03:12.000Z",
+                    "updated_at": "2022-03-05T19:29:54.000Z",
+                    "files": [
+                        {
+                            "id": 29244,
+                            "file": "08b274ab-0c69-4acc-974c-fc74a2dff278.gif",
+                            "name": "cir.0000000000000901.fig02.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-03-04T19:25:45.000Z",
+                            "updated_at": "2022-03-04T19:25:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/08b274ab-0c69-4acc-974c-fc74a2dff278.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29244,
+                                "alternative_id": 53469
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53470,
+                    "question_id": 13030,
+                    "description": "Dois dedos das mãos na metade inferior do esterno",
+                    "explanation": "Mandou bem, Doc! 😎\nNo lactente, as compressões torácicas, quando realizadas por um único socorrista, são realizadas com dois dedos abaixo da linha intermamilar, no terço inferior do esterno.\nNa presença de dois socorristas, podem ser usados dois polegares, com os demais dedos circundando o tórax do lactente.\nDoc, bora relembrar as manobras de compressão torácica em lactente? Então, dá uma conferida nas imagens abaixo. 👇\n- Fonte da imagem: [https://www.ahajournals.org/doi/10.1161/CIR.0000000000000901#d1e1754](https://www.ahajournals.org/doi/10.1161/CIR.0000000000000901#d1e1754) ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-03-05T15:03:12.000Z",
+                    "updated_at": "2022-03-05T19:29:54.000Z",
+                    "files": [
+                        {
+                            "id": 29244,
+                            "file": "08b274ab-0c69-4acc-974c-fc74a2dff278.gif",
+                            "name": "cir.0000000000000901.fig02.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-03-04T19:25:45.000Z",
+                            "updated_at": "2022-03-04T19:25:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/08b274ab-0c69-4acc-974c-fc74a2dff278.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29244,
+                                "alternative_id": 53470
+                            }
+                        },
+                        {
+                            "id": 29245,
+                            "file": "49f51ecc-1cfb-42bf-ad69-2a9eb8a155d4.gif",
+                            "name": "cir.0000000000000901.fig03.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-03-04T19:25:45.000Z",
+                            "updated_at": "2022-03-04T19:25:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/49f51ecc-1cfb-42bf-ad69-2a9eb8a155d4.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29245,
+                                "alternative_id": 53470
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53471,
+                    "question_id": 13030,
+                    "description": "Palma de uma das mãos na porção média do esterno",
+                    "explanation": "Errado, Doc! 🙈\nA compressão torácica utilizando uma ou duas mãos é realizada somente em crianças maiores.\nNo lactente, deve-se realizar as compressões torácicas com dois dedos abaixo da linha intermamilar, no terço inferior do esterno.\nDoc, dá uma olhadinha na imagem abaixo para relembrar a manobra de compressão torácica em lactente. 👇\n- Fonte da imagem: [https://www.ahajournals.org/doi/10.1161/CIR.0000000000000901#d1e1754](https://www.ahajournals.org/doi/10.1161/CIR.0000000000000901#d1e1754)  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-03-05T15:03:12.000Z",
+                    "updated_at": "2022-03-05T19:29:54.000Z",
+                    "files": [
+                        {
+                            "id": 29244,
+                            "file": "08b274ab-0c69-4acc-974c-fc74a2dff278.gif",
+                            "name": "cir.0000000000000901.fig02.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-03-04T19:25:45.000Z",
+                            "updated_at": "2022-03-04T19:25:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/08b274ab-0c69-4acc-974c-fc74a2dff278.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29244,
+                                "alternative_id": 53471
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 53472,
+                    "question_id": 13030,
+                    "description": "Palma de uma das mãos na metade inferior do esterno",
+                    "explanation": "Errado, Doc! 😣\nA manobra de compressão torácica com a palma de uma das mãos na metade inferior do externo é realizada somente em crianças maiores.\nNos lactentes, a compressão torácica deve ser realizada com dois dedos, abaixo da linha intermamilar, no terço inferior do esterno.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-03-05T15:03:12.000Z",
+                    "updated_at": "2022-03-05T19:29:54.000Z",
+                    "files": []
+                },
+                {
+                    "id": 53473,
+                    "question_id": 13030,
+                    "description": "Palma de uma das mãos, com os dedos entrelaçados na outra mão, na metade inferior do esterno",
+                    "explanation": "Errado, Doc! 😋\nNo lactente, as compressões torácicas, na presença de somente um socorrista, são realizadas com dois dedos abaixo da linha intermamilar, no terço inferior do esterno.\nA manobra envolvendo a palma de uma mão, com os dedos entrelaçados na outra mão, é realizada somente em crianças maiores, no terço inferior do esterno.\nDoc, dá uma olhadinha na imagem abaixo para relembrar a manobra de compressão torácica em lactente.👇\n- Fonte da imagem: [https://www.ahajournals.org/doi/10.1161/CIR.0000000000000901#d1e1754](https://www.ahajournals.org/doi/10.1161/CIR.0000000000000901#d1e1754) ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2022-03-05T15:03:12.000Z",
+                    "updated_at": "2022-03-05T19:29:54.000Z",
+                    "files": [
+                        {
+                            "id": 29244,
+                            "file": "08b274ab-0c69-4acc-974c-fc74a2dff278.gif",
+                            "name": "cir.0000000000000901.fig02.gif",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "gif",
+                            "created_at": "2022-03-04T19:25:45.000Z",
+                            "updated_at": "2022-03-04T19:25:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/08b274ab-0c69-4acc-974c-fc74a2dff278.gif",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 29244,
+                                "alternative_id": 53473
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 13030,
+                "questionary_id": 268436,
+                "timer": 0
+            }
+        }
+    ]
+}

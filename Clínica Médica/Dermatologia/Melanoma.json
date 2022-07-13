@@ -1,0 +1,1586 @@
+{
+    "id": 267659,
+    "user_id": 1699,
+    "title": "Melanoma",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T03:20:30.000Z",
+    "updated_at": "2022-07-11T03:20:30.000Z",
+    "study_plan_id": 91,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 2532,
+            "institution_id": 4,
+            "description": "Assinale a alternativa que corresponda ao câncer de pele mais agressivo dentre todos os cânceres de pele:\n",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T01:31:46.000Z",
+            "updated_at": "2022-01-02T23:47:14.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 272,
+                    "title": "Melanoma",
+                    "description": null,
+                    "parent_id": 254,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T02:59:10.000Z",
+                    "updated_at": "2020-06-30T02:59:10.000Z",
+                    "pivot": {
+                        "discipline_id": 272,
+                        "question_id": 2532
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10411,
+                    "question_id": 2532,
+                    "description": "Carcinoma Basocelular (CBC)",
+                    "explanation": "Falso doc!😋 Gostamos de diferenciar o CEC do **C**BC, porque podemos associar ele à letra **\"B**\" de Bonzinho (raramente causa metástase) e \"B\" de Balaio (tem mais que os outros, é o mais comum). Apesar de ser pouco agressivo a nível de metástases, é um tumor localmente agressivo!\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T01:31:46.000Z",
+                    "updated_at": "2022-01-02T23:47:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10412,
+                    "question_id": 2532,
+                    "description": "Carcinoma Espinocelular (CEC)",
+                    "explanation": "Falso doc!😋É o mais agressivo dos tumores de pele NÃO MELANOMA, mas não chega a ser mais agressivo que o melanoma!\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T01:33:08.000Z",
+                    "updated_at": "2022-01-02T23:47:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10413,
+                    "question_id": 2532,
+                    "description": "Melanoma",
+                    "explanation": "Perfeito doc! Arrasou!😍 O melanoma é um tumor maligno com origem nos melanócitos, que geralmente tem a pele como local primário, embora possa ocorrer em outros tecidos (retina, mucosas, SNC). É considerado o mais agressivo devido ao seu alto potencial de produzir metástases!\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-30T01:33:08.000Z",
+                    "updated_at": "2022-01-02T23:47:14.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10414,
+                    "question_id": 2532,
+                    "description": "Queratose seborreica",
+                    "explanation": "Falso doc!😋 Não é uma lesão maligna, embora possa ser confundida com melanoma pelo aspecto nos idosos!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T01:33:08.000Z",
+                    "updated_at": "2022-01-02T23:47:14.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2532,
+                "questionary_id": 267659,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2535,
+            "institution_id": 4,
+            "description": "Assinale a alternativa que **NÃO** corresponde a um fator de risco para melanoma:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T04:50:52.000Z",
+            "updated_at": "2022-01-03T02:49:35.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 272,
+                    "title": "Melanoma",
+                    "description": null,
+                    "parent_id": 254,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T02:59:10.000Z",
+                    "updated_at": "2020-06-30T02:59:10.000Z",
+                    "pivot": {
+                        "discipline_id": 272,
+                        "question_id": 2535
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10423,
+                    "question_id": 2535,
+                    "description": "Fototipo I e II",
+                    "explanation": "Falso doc!😋 Indivíduos de pele clara (fototipos I e II) são mais propensos a desenvolver melanoma, já que possuem menos melanina (ou seja, menos proteção) do que os indivíduos de pele escura!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T01:50:52.000Z",
+                    "updated_at": "2022-01-02T23:49:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10424,
+                    "question_id": 2535,
+                    "description": "Histórico de queimaduras solares",
+                    "explanation": "Falso doc!😋 Histórico de exposição solar e de queimaduras solares são grandes fatores de risco para desenvolvimento de melanoma, especialmente os subtipos LENTIGO MALIGNO e EXTENSIVO SUPERFICIAL!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T01:50:52.000Z",
+                    "updated_at": "2022-01-02T23:49:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10425,
+                    "question_id": 2535,
+                    "description": "Nevos congênitos",
+                    "explanation": "Falso doc!😋 Tanto nevos congênitos como nevos atípicos (displásico, nevus de Spitz, etc) são fatores de risco para desenvolvimetno de melanoma!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T01:50:52.000Z",
+                    "updated_at": "2022-01-02T23:49:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10426,
+                    "question_id": 2535,
+                    "description": "Queratose seborreica",
+                    "explanation": "Boa doc, essa é a incorreta!😴 A queratose seborreica não é uma lesão precursora de melanoma, apesar de ser um diagnóstico diferencial pela aparência semelhante ao melanoma em idosos. Se liga nessa imagem ilustrando essa condição doc👇\n\n\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-30T01:50:52.000Z",
+                    "updated_at": "2022-01-02T23:49:35.000Z",
+                    "files": [
+                        {
+                            "id": 548,
+                            "file": "1593481716856.jpeg",
+                            "name": "seborrheic_keratosis_high_pt.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-30T04:48:37.000Z",
+                            "updated_at": "2020-06-30T04:48:37.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1593481716856.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 548,
+                                "alternative_id": 10426
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2535,
+                "questionary_id": 267659,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2542,
+            "institution_id": 4,
+            "description": "Sobre a avaliação da lesão suspeita de melanoma pela regra ABCDE, assinale a alternativa **CORRETA:**",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T02:26:35.000Z",
+            "updated_at": "2022-01-02T23:52:49.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 272,
+                    "title": "Melanoma",
+                    "description": null,
+                    "parent_id": 254,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T02:59:10.000Z",
+                    "updated_at": "2020-06-30T02:59:10.000Z",
+                    "pivot": {
+                        "discipline_id": 272,
+                        "question_id": 2542
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10452,
+                    "question_id": 2542,
+                    "description": "Na letra A, deve haver assimetria nos dois eixos da lesão para que seja suspeita",
+                    "explanation": "Falso doc!😋  Basta haver assimetria em apenas um eixo da lesão para considerarmos suspeita!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T02:26:35.000Z",
+                    "updated_at": "2022-01-02T23:52:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10453,
+                    "question_id": 2542,
+                    "description": "Na letra B analisamos as bordas da lesão, sendo que bordas muito bem delimitadas sugerem melanoma",
+                    "explanation": "Falso doc!😋 Bordas entrecortadas, mal delimitadas, falam a favor de melanoma!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T02:26:35.000Z",
+                    "updated_at": "2022-01-02T23:52:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10454,
+                    "question_id": 2542,
+                    "description": "Na letra C, a presença de 2 cores fala a favor de melanoma",
+                    "explanation": "Falso doc!😋 A presença de 3 ou mais cores fala a favor de melanoma. Uma lesão benigna normalmente tem uma ou duas cores!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T02:26:35.000Z",
+                    "updated_at": "2022-01-02T23:52:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10455,
+                    "question_id": 2542,
+                    "description": "Na letra D, um diâmetro maior que 6mm fala a favor de melanoma",
+                    "explanation": "Perfeito doc! Arrasou!😍 Lesões que em seu maior diâmetro possuem 6mm ou mais, temos que suspeitar de melanoma! Se liga nesse esquema doc👇\n- Fonte: https://sobramfa.com.br/2018/04/05/abcde-da-pele/",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-30T02:26:35.000Z",
+                    "updated_at": "2022-01-02T23:52:49.000Z",
+                    "files": [
+                        {
+                            "id": 25576,
+                            "file": "c273eb60-95ca-442a-b76b-2241ade9f1bb.jpeg",
+                            "name": "00000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-02T23:51:57.000Z",
+                            "updated_at": "2022-01-02T23:51:57.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c273eb60-95ca-442a-b76b-2241ade9f1bb.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25576,
+                                "alternative_id": 10455
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2542,
+                "questionary_id": 267659,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2545,
+            "institution_id": 4,
+            "description": "Os principais locais do corpo de ocorrência de melanoma em homens e mulheres são, respectivamente:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T02:42:18.000Z",
+            "updated_at": "2022-01-02T23:57:10.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 272,
+                    "title": "Melanoma",
+                    "description": null,
+                    "parent_id": 254,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T02:59:10.000Z",
+                    "updated_at": "2020-06-30T02:59:10.000Z",
+                    "pivot": {
+                        "discipline_id": 272,
+                        "question_id": 2545
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10464,
+                    "question_id": 2545,
+                    "description": "Tronco e Membros Inferiores",
+                    "explanation": "Perfeito doc! Arrasou!😍 Não é muito difícil. Lembre da relação entre exposição solar e melanoma👇\n- homens=> andam sem camisa no sol\n- mulheres=> andam de saia\n- Logo, teremos mais lesões no tronco em homens e nos membros inferiores de mulheres.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-30T02:42:18.000Z",
+                    "updated_at": "2022-01-02T23:57:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10465,
+                    "question_id": 2545,
+                    "description": "Face e Face",
+                    "explanation": "Falso doc!😋 Se considerarmos apenas o Melanoma **Lentigo Malign**o, é o que mais ocorre em face, mas de modo geral, não é o local preferido de melanoma!\n\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T02:42:18.000Z",
+                    "updated_at": "2022-01-02T23:57:10.000Z",
+                    "files": [
+                        {
+                            "id": 549,
+                            "file": "1593484877222.jpeg",
+                            "name": "0365-0596-abd-92-04-0565-gf01.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-30T05:41:18.000Z",
+                            "updated_at": "2020-06-30T05:41:18.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1593484877222.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 549,
+                                "alternative_id": 10465
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 10466,
+                    "question_id": 2545,
+                    "description": "Face e Membros Inferiores",
+                    "explanation": "Falso doc!😋 Nas mulheres, de fato, ocorre mais em membros inferiores. Mas nos homens não é na face!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T02:42:18.000Z",
+                    "updated_at": "2022-01-02T23:57:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10467,
+                    "question_id": 2545,
+                    "description": "Tronco e Face",
+                    "explanation": "Falso doc!😋 Nos homens, de fato, ocorre mais em membros superiores. Mas nas mulheres não ocorre mais na face!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T02:42:18.000Z",
+                    "updated_at": "2022-01-02T23:57:10.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2545,
+                "questionary_id": 267659,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2546,
+            "institution_id": 4,
+            "description": "Associe as imagens aos respectivos subtipos de melanoma:\n- I. Lentigo maligno;\n- II. Extensivo Superficial;\n- III. Nodular;\n- IV. Lentiginoso Acral\n- A.\n- B. \n- C \n- D\n\n",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T05:54:45.000Z",
+            "updated_at": "2022-01-03T02:59:39.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 272,
+                    "title": "Melanoma",
+                    "description": null,
+                    "parent_id": 254,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T02:59:10.000Z",
+                    "updated_at": "2020-06-30T02:59:10.000Z",
+                    "pivot": {
+                        "discipline_id": 272,
+                        "question_id": 2546
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10468,
+                    "question_id": 2546,
+                    "description": "I-A; II-B; III-C; IV-D",
+                    "explanation": "Falso doc!😋 Confira o comentário completo na alternativa correta! ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T02:54:45.000Z",
+                    "updated_at": "2022-01-02T23:59:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10469,
+                    "question_id": 2546,
+                    "description": "I-A; II-C; III-B; IV-D",
+                    "explanation": "Falso doc!😋 Confira o comentário completo na alternativa correta! ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T02:54:45.000Z",
+                    "updated_at": "2022-01-02T23:59:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10470,
+                    "question_id": 2546,
+                    "description": "I-B; II-C; III-D; IV-A",
+                    "explanation": "Perfeito doc! Arrasou!😍 Acompanha o meu raciocínio👇\n- I-B: Lentigo Maligno: acomete caracteristicamente a face.\n- II-C: Extenso superficial: corresponde a 70% dos melanomas ( é aquele que ocorre mais nas pernas das mulheres e no tronco dos homens devido à fotoexposição nessas regiões).\n- III-D: Nodular: como o nome já diz, tem um crescimento vertical (exofítico). Tem caracteristicamente uma evolução rápida.\n- IV-A: Lentiginoso Acral: Acomete caracteristicamente palmas plantas e abaixo da lâmina ungueal. É mais comum em negros.\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-30T02:54:45.000Z",
+                    "updated_at": "2022-01-02T23:59:39.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10471,
+                    "question_id": 2546,
+                    "description": "I-D; II-C; III-B; IV-A",
+                    "explanation": "Falso doc!😋 Confira o comentário completo na alternativa correta! ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T02:54:45.000Z",
+                    "updated_at": "2022-01-02T23:59:39.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 550,
+                    "file": "1593485280694.jpeg",
+                    "name": "acral.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-06-30T05:48:01.000Z",
+                    "updated_at": "2020-06-30T05:48:01.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1593485280694.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 550,
+                        "question_id": 2546
+                    }
+                },
+                {
+                    "id": 551,
+                    "file": "1593485295233.jpeg",
+                    "name": "0365-0596-abd-92-04-0565-gf01.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-06-30T05:48:16.000Z",
+                    "updated_at": "2020-06-30T05:48:16.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1593485295233.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 551,
+                        "question_id": 2546
+                    }
+                },
+                {
+                    "id": 552,
+                    "file": "1593485313215.jpeg",
+                    "name": "extensivo.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-06-30T05:48:34.000Z",
+                    "updated_at": "2020-06-30T05:48:34.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1593485313215.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 552,
+                        "question_id": 2546
+                    }
+                },
+                {
+                    "id": 554,
+                    "file": "1593485345647.jpeg",
+                    "name": "nodular.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-06-30T05:49:06.000Z",
+                    "updated_at": "2020-06-30T05:49:06.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1593485345647.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 554,
+                        "question_id": 2546
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 2546,
+                "questionary_id": 267659,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2547,
+            "institution_id": 4,
+            "description": "O local mais comum de metástase de melanoma é:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T06:01:48.000Z",
+            "updated_at": "2022-01-03T03:03:09.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 272,
+                    "title": "Melanoma",
+                    "description": null,
+                    "parent_id": 254,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T02:59:10.000Z",
+                    "updated_at": "2020-06-30T02:59:10.000Z",
+                    "pivot": {
+                        "discipline_id": 272,
+                        "question_id": 2547
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10472,
+                    "question_id": 2547,
+                    "description": "Sistema Nervoso Central",
+                    "explanation": "Falso doc!😋 Apesar de ser o que aconteceu na série Grey's Anatomy, os órgãos sólidos só são o 4º local de preferência de metástase de melanomas e, dentre os órgãos sólidos, a ordem de acometimento é: Fígado > Pulmão > Ossos> Sistema Nervoso Central!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:01:48.000Z",
+                    "updated_at": "2022-01-03T00:03:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10473,
+                    "question_id": 2547,
+                    "description": "Linfonodo",
+                    "explanation": "Falso doc!😋 O linfonodo é o segundo local mais comum de metástase de melanoma, por isso se faz a pesquisa de linfonodo sentinela dependendo do Breslow da lesão!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:01:48.000Z",
+                    "updated_at": "2022-01-03T00:03:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10474,
+                    "question_id": 2547,
+                    "description": "Pele, distante do sítio primário",
+                    "explanation": "Falso doc!😋 Esse é o 3º sítio mais comum de metástase de melanoma!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:01:48.000Z",
+                    "updated_at": "2022-01-03T00:03:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10475,
+                    "question_id": 2547,
+                    "description": "Pele, próxima ao sítio primário",
+                    "explanation": "Perfeito doc! Arrasou!😍 Por mais óbvio que pareça, sim, o local preferido de metástase do melanoma é na própria pele, próxima ao sítio primário! Doc, se liga no esquema do ABCDE para nunca mais esquecer de como avaliar uma lesão de pele👇\n- Fonte: https://sobramfa.com.br/2018/04/05/abcde-da-pele/",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-30T03:01:48.000Z",
+                    "updated_at": "2022-01-03T00:03:09.000Z",
+                    "files": [
+                        {
+                            "id": 25576,
+                            "file": "c273eb60-95ca-442a-b76b-2241ade9f1bb.jpeg",
+                            "name": "00000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-02T23:51:57.000Z",
+                            "updated_at": "2022-01-02T23:51:57.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c273eb60-95ca-442a-b76b-2241ade9f1bb.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25576,
+                                "alternative_id": 10475
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2547,
+                "questionary_id": 267659,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2548,
+            "institution_id": 4,
+            "description": "Para o diagnóstico de melanoma em uma lesão suspeita, preconiza-se a realização de biópsia com margem de:",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T06:03:37.000Z",
+            "updated_at": "2022-01-03T03:04:10.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 272,
+                    "title": "Melanoma",
+                    "description": null,
+                    "parent_id": 254,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T02:59:10.000Z",
+                    "updated_at": "2020-06-30T02:59:10.000Z",
+                    "pivot": {
+                        "discipline_id": 272,
+                        "question_id": 2548
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10476,
+                    "question_id": 2548,
+                    "description": "1-3 mm",
+                    "explanation": "Perfeito doc! Arrasou!😍 Questão conceitual. A biópsia excisional inicial é feita com margem de 1-3mm para o cálculo do índice de Breslow. Caso necessário, amplia-se a margem conforme o Breslow! Se liga nessa tabelinha doc👇",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-30T03:03:37.000Z",
+                    "updated_at": "2022-01-03T00:04:10.000Z",
+                    "files": [
+                        {
+                            "id": 12130,
+                            "file": "dc04500b-75fc-4ee9-a36f-7af2c48a2156.jpeg",
+                            "name": "unnamed (9).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-24T22:47:46.000Z",
+                            "updated_at": "2021-06-24T22:47:46.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/dc04500b-75fc-4ee9-a36f-7af2c48a2156.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 12130,
+                                "alternative_id": 10476
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 10477,
+                    "question_id": 2548,
+                    "description": "2mm",
+                    "explanation": "Falso doc!😋 Questão conceitual. A biópsia excisional inicial é feita com margem de 1-3mm para o cálculo do índice de Breslow. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:03:37.000Z",
+                    "updated_at": "2022-01-03T00:04:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10478,
+                    "question_id": 2548,
+                    "description": "3mm",
+                    "explanation": "Falso doc!😋 Questão conceitual. A biópsia excisional inicial é feita com margem de 1-3mm para o cálculo do índice de Breslow. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:03:37.000Z",
+                    "updated_at": "2022-01-03T00:04:10.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10479,
+                    "question_id": 2548,
+                    "description": "sem margens",
+                    "explanation": "Falso doc!😋 Questão conceitual. A biópsia excisional inicial é feita com margem de 1-3mm para o cálculo do índice de Breslow.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:03:37.000Z",
+                    "updated_at": "2022-01-03T00:04:10.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2548,
+                "questionary_id": 267659,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2549,
+            "institution_id": 4,
+            "description": "O melhor indicador prognóstico de um melanoma é:",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T03:07:06.000Z",
+            "updated_at": "2022-01-03T00:07:23.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 272,
+                    "title": "Melanoma",
+                    "description": null,
+                    "parent_id": 254,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T02:59:10.000Z",
+                    "updated_at": "2020-06-30T02:59:10.000Z",
+                    "pivot": {
+                        "discipline_id": 272,
+                        "question_id": 2549
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10480,
+                    "question_id": 2549,
+                    "description": "O diâmetro da lesão",
+                    "explanation": "Falso doc!😋 Questão conceitual. O principal marcador prognóstico do melanoma é o índice de Breslow!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:07:06.000Z",
+                    "updated_at": "2022-01-03T00:07:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10481,
+                    "question_id": 2549,
+                    "description": "O índice de Breslow",
+                    "explanation": "Perfeito doc! Arrasou!😍 Questão conceitual. O principal marcador prognóstico do melanoma é o índice de Breslow. Ele nos dá, além do prognóstico, as margens cirúrgicas que devemos ampliar na cirurgia. Ele é calculado pela espessura da epiderme (sem contar a camada córnea) até a última célula tumoral! ",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-30T03:07:06.000Z",
+                    "updated_at": "2022-01-03T00:07:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10482,
+                    "question_id": 2549,
+                    "description": "O índice de Clark",
+                    "explanation": "Falso doc!😋 Questão conceitual. O principal marcador prognóstico do melanoma é o índice de Breslow! ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:07:06.000Z",
+                    "updated_at": "2022-01-03T00:07:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10483,
+                    "question_id": 2549,
+                    "description": "A tomografia de crânio",
+                    "explanation": "Falso doc!😋 Questão conceitual. O principal marcador prognóstico do melanoma é o índice de Breslow.  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:07:06.000Z",
+                    "updated_at": "2022-01-03T00:07:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2549,
+                "questionary_id": 267659,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2553,
+            "institution_id": 13,
+            "description": "Paciente com diagnóstico de melanoma cutâneo, confirmado por biópsia excisional. Qual dos parâmetros abaixo melhor orienta a próxima conduta?",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T03:22:40.000Z",
+            "updated_at": "2022-01-03T00:12:58.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 13,
+                "title": "UNIFESP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T18:27:33.000Z",
+                "updated_at": "2020-05-17T18:27:33.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 272,
+                    "title": "Melanoma",
+                    "description": null,
+                    "parent_id": 254,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T02:59:10.000Z",
+                    "updated_at": "2020-06-30T02:59:10.000Z",
+                    "pivot": {
+                        "discipline_id": 272,
+                        "question_id": 2553
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10496,
+                    "question_id": 2553,
+                    "description": "Ulceração",
+                    "explanation": "Falso doc!😋 A ulceração por si só não orienta conduta, mas em caso de Breslow <1mm, se houver ulceração é um definidor de pesquisa de linfonodo sentinela!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:22:40.000Z",
+                    "updated_at": "2022-01-03T00:12:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10497,
+                    "question_id": 2553,
+                    "description": "Índice mitótico",
+                    "explanation": "Falso doc!😋 O índice mitótico por si só não orienta conduta.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:22:40.000Z",
+                    "updated_at": "2022-01-03T00:12:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10498,
+                    "question_id": 2553,
+                    "description": "Níveis de Clark",
+                    "explanation": "Falso doc!😋 O nível de Clark por si só não orienta conduta, mas em caso de Breslow <1mm, se houver Clark 4 é um definidor de pesquisa de linfonodo sentinela!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:22:40.000Z",
+                    "updated_at": "2022-01-03T00:12:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10499,
+                    "question_id": 2553,
+                    "description": "Crescimento vertical",
+                    "explanation": "Falso doc!😋 Crescimento vertical para fora da lesão não orienta conduta. O Breslow não deixa de ser uma medida do crescimetno vertical para dentro da pele!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:22:40.000Z",
+                    "updated_at": "2022-01-03T00:12:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10500,
+                    "question_id": 2553,
+                    "description": "Índice de Breslow",
+                    "explanation": "Perfeito doc! Arrasou!😍 Dependendo do Índice de Breslow vamos indicar ou não a pesquisa de linfonodo sentinela e a ampliação de margens cirúrgicas. Me acompanha👇\n- Lesões com Breslow >1mm ou <1mm + Clark 4 ou ulceração=> merecem pesquisa de linfonodo sentinela.",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-06-30T03:22:40.000Z",
+                    "updated_at": "2022-01-03T00:12:58.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2553,
+                "questionary_id": 267659,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2554,
+            "institution_id": 117,
+            "description": "Com relação ao melanoma, o subtipo mais frequente é o **___** e o fator prognóstico de microestadiamento mais importante é o(a) **_**.",
+            "difficulty": "easy",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T06:28:35.000Z",
+            "updated_at": "2022-01-03T03:19:32.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 117,
+                "title": "PUC-RS",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-06-12T18:48:09.000Z",
+                "updated_at": "2020-06-12T18:48:09.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 272,
+                    "title": "Melanoma",
+                    "description": null,
+                    "parent_id": 254,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T02:59:10.000Z",
+                    "updated_at": "2020-06-30T02:59:10.000Z",
+                    "pivot": {
+                        "discipline_id": 272,
+                        "question_id": 2554
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10501,
+                    "question_id": 2554,
+                    "description": "nodular - ulceração",
+                    "explanation": "Falso doc!😋Nodular é o terceiro mais comum, e a ulceração não é o fator prognóstico mais importante!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:28:35.000Z",
+                    "updated_at": "2022-01-03T00:19:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10502,
+                    "question_id": 2554,
+                    "description": "lentiginoso acral - ulceração",
+                    "explanation": "Falso doc!😋 Lentiginoso acral é o mais raro de forma geral, sendo mais comum em negros. E ulceração não é o principal fator prognóstico!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:28:35.000Z",
+                    "updated_at": "2022-01-03T00:19:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10503,
+                    "question_id": 2554,
+                    "description": "nodular - espessura tumoral",
+                    "explanation": "Falso doc!😋 Nodular é o terceiro mais comum, e espessura tumoral (Breslow) é sim o fator prognóstico mais importante!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:28:35.000Z",
+                    "updated_at": "2022-01-03T00:19:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10504,
+                    "question_id": 2554,
+                    "description": "lentigo maligno - número de mitoses",
+                    "explanation": "Falso doc!😋 Lentigo maligno é o segundo mais comum de forma geral, e o mais comum em idosos. Número de mitoses não é o fator prognóstico mais importante!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:28:35.000Z",
+                    "updated_at": "2022-01-03T00:19:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10505,
+                    "question_id": 2554,
+                    "description": "extensivo superficial - espessura tumor",
+                    "explanation": "Perfeito doc! Arrasou!😍 O extensivo superficial corresponde a 70% dos melanomas, e o índice de Breslow (espessura do tumor infiltrando na pele) é o principal fator prognóstico. Doc, se liga nessa imagem ilustrando um melanoma extensivo superficial👇\n- Fonte: https://www.topicosdesaude.com/cancer-pele-melanoma/",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2020-06-30T03:28:35.000Z",
+                    "updated_at": "2022-01-03T00:19:32.000Z",
+                    "files": [
+                        {
+                            "id": 25577,
+                            "file": "25135799-0078-4a66-a0d8-a9830003ffa9.jpeg",
+                            "name": "melanoma-extensivo-superficial-280x188.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-03T00:17:35.000Z",
+                            "updated_at": "2022-01-03T00:17:35.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/25135799-0078-4a66-a0d8-a9830003ffa9.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25577,
+                                "alternative_id": 10505
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2554,
+                "questionary_id": 267659,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2544,
+            "institution_id": 4,
+            "description": "Nem sempre no exame dermatológico suspeitamos de melanoma pelas alterações do ABCDE. Muitas vezes, apenas pelo fato de uma lesão ser muito diferente dos outros nevos do paciente, mesmo com o ABCDE normal, devemos suspeitar de melanoma. Na dermatologia, essa regra é chamada de:",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T02:36:03.000Z",
+            "updated_at": "2022-01-02T23:55:13.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 272,
+                    "title": "Melanoma",
+                    "description": null,
+                    "parent_id": 254,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T02:59:10.000Z",
+                    "updated_at": "2020-06-30T02:59:10.000Z",
+                    "pivot": {
+                        "discipline_id": 272,
+                        "question_id": 2544
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10460,
+                    "question_id": 2544,
+                    "description": "Koebner",
+                    "explanation": "Falso doc!😋 O Fenômeno de Koebner é o fato de que um trauma em região de pele sã desencadeia, nesta o surgimento de lesões do mesmo tipo das encontradas em outro local do corpo, nos portadores de doenças como psoríase, vitiligo e líquen plano!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T02:36:03.000Z",
+                    "updated_at": "2022-01-02T23:55:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10461,
+                    "question_id": 2544,
+                    "description": "Orvalho sangrante",
+                    "explanation": "Falso doc!😋 Essa é uma característica de lesões da psoríase, após a descamação proposital!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T02:36:03.000Z",
+                    "updated_at": "2022-01-02T23:55:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10462,
+                    "question_id": 2544,
+                    "description": "Breslow",
+                    "explanation": "Falso doc!😋 Breslow é um índice utilizado para determinar o prognóstico e as margens cirúrgicas, a partir da espessura do tumor!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T02:36:03.000Z",
+                    "updated_at": "2022-01-02T23:55:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10463,
+                    "question_id": 2544,
+                    "description": "Patinho feio",
+                    "explanation": "Perfeito doc! Arrasou!😍 É isso mesmo! Por mais engraçado que pareça o nome, é uma regra utilizada na dermatologia, para que suspeitemos de lesões que são muito diferentes do padrão normal do paciente.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-30T02:36:03.000Z",
+                    "updated_at": "2022-01-02T23:55:13.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2544,
+                "questionary_id": 267659,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2550,
+            "institution_id": 4,
+            "description": "Se um melanoma na biópsia excisional inicial possui Breslow de 2,5 mm, a margem cirúrgica deve ser de:",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T06:10:57.000Z",
+            "updated_at": "2022-06-29T13:04:42.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 272,
+                    "title": "Melanoma",
+                    "description": null,
+                    "parent_id": 254,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T02:59:10.000Z",
+                    "updated_at": "2020-06-30T02:59:10.000Z",
+                    "pivot": {
+                        "discipline_id": 272,
+                        "question_id": 2550
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10484,
+                    "question_id": 2550,
+                    "description": "0,5 a 1 cm",
+                    "explanation": "Falso doc!😋 Questão conceitual. Confira o comentário na alternativa correta.  ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:10:57.000Z",
+                    "updated_at": "2022-06-29T13:04:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10485,
+                    "question_id": 2550,
+                    "description": "1 a 2 cm",
+                    "explanation": "Falso doc!😋Questão conceitual. Confira o comentário na alternativa correta.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:10:57.000Z",
+                    "updated_at": "2022-06-29T13:04:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10486,
+                    "question_id": 2550,
+                    "description": "2 cm",
+                    "explanation": "Perfeito doc! Arrasou!😍 Conforme o índice de Breslow, sabemos a margem cirúrgica que devemos ter na cirurgia. A lógica é fácil, me acompanha aqui👇\n- Breslow in situ (restrito à epiderme): Margem 0,5 a 1cm\n- Breslow <1 mm: Margem 1cm\n- Breslow 1-2 mm: Margem 1-2cm\n- Breslow >2 mm: Margem de 2cm",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-30T03:10:57.000Z",
+                    "updated_at": "2022-06-29T13:04:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10487,
+                    "question_id": 2550,
+                    "description": "3 cm",
+                    "explanation": "Falso doc!😋 Questão conceitual. Confira o comentário na alternativa correta. Antigamente realizavam-se margens mais extensas, mas hoje sabe-se que isso não é necessário!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:10:57.000Z",
+                    "updated_at": "2022-06-29T13:04:42.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2550,
+                "questionary_id": 267659,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2551,
+            "institution_id": 25,
+            "description": "Mulher, 42 anos, apresentou lesão cutânea hiperpigmentada de 1,5 cm em face anterior de perna direita. Após consulta com dermatologista, foi indicada biópsia excisional da lesão. O diagnóstico histopatológico foi de Melanoma nodular, Breslow 2,3 mm, nível de Clark III, ulceração presente, 3 mitoses/mm², microsatelitose ausente, regressão ausente, invasão perineural ausente, invasão angiolinfática ausente, fase de crescimento vertical, margens cirúrgicas livres (a menor distando 2,5 mm da lesão). No retorno pós-biópsia, a paciente não apresentava queixas. A reavaliação clínica revelou linfonodo palpável em região inguinal direita, 2 cm, móvel, fibroelástico, indolor. Foram realizadas tomografias de tórax, abdome e pelve que não evidenciaram metástases à distância. Qual é a próxima conduta?\n",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T03:16:11.000Z",
+            "updated_at": "2022-01-03T00:10:44.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 25,
+                "title": "USP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:55:52.000Z",
+                "updated_at": "2020-05-18T19:55:52.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 272,
+                    "title": "Melanoma",
+                    "description": null,
+                    "parent_id": 254,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T02:59:10.000Z",
+                    "updated_at": "2020-06-30T02:59:10.000Z",
+                    "pivot": {
+                        "discipline_id": 272,
+                        "question_id": 2551
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10488,
+                    "question_id": 2551,
+                    "description": "Ampliação de margens com pesquisa de linfonodo sentinela.",
+                    "explanation": "Falso doc!😋 As margens de 2,5mm realizadas já estão adequadas.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:16:11.000Z",
+                    "updated_at": "2022-01-03T00:10:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10489,
+                    "question_id": 2551,
+                    "description": " Linfadenectomia inguinal e ampliação das margens.",
+                    "explanation": "Falso doc!😋 As margens de 2,5mm realizadas já estão adequadas, e não há evidências de que o linfonodo seja metastático.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:16:11.000Z",
+                    "updated_at": "2022-01-03T00:10:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10490,
+                    "question_id": 2551,
+                    "description": " Quimioterapia e radioterapia.",
+                    "explanation": "Falso doc!😋 Antes de qualquer outra conduta, deve-se investigar o comprometimento do linfonodo.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:16:11.000Z",
+                    "updated_at": "2022-01-03T00:10:44.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10491,
+                    "question_id": 2551,
+                    "description": " Punção aspirativa por agulha fina (PAAF) do linfonodo.",
+                    "explanation": "Perfeito doc! Arrasou!😍 A primeira coisa a fazer é investigar o linfonodo, sendo a PAAF o método ideal!\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-30T03:16:11.000Z",
+                    "updated_at": "2022-01-03T00:10:44.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2551,
+                "questionary_id": 267659,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2555,
+            "institution_id": 88,
+            "description": "E.F.G, 42 anos, sexo masculino, empresário, notou lesão escura em região deltoide há cerca de 1 ano, mas não deu maior importância. Há 20 dias notou pequena ulceração na borda, com sangramento discreto. Ao exame, foi constatada lesão hipercrômica de 1,2 cm, irregular, com ulceração mínima em uma das bordas. A biopsia incisional revelou melanoma Breslow de 0,8 mm com presença de mais de 1 mitose por mm². Sobre este caso e com seus conhecimentos sobre melanoma, assinale a alternativa **INCORRETA:**",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T06:34:34.000Z",
+            "updated_at": "2022-01-03T03:22:35.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 88,
+                "title": "PSU-MG",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-28T16:33:18.000Z",
+                "updated_at": "2020-05-28T16:33:18.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 272,
+                    "title": "Melanoma",
+                    "description": null,
+                    "parent_id": 254,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T02:59:10.000Z",
+                    "updated_at": "2020-06-30T02:59:10.000Z",
+                    "pivot": {
+                        "discipline_id": 272,
+                        "question_id": 2555
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10506,
+                    "question_id": 2555,
+                    "description": "A presença de mitoses é típica de crescimento vertical.",
+                    "explanation": "Verdadeiro doc!😁 Um grande número de mitoses pode levar a um maior crescimento vertical",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:34:34.000Z",
+                    "updated_at": "2022-01-03T00:22:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10507,
+                    "question_id": 2555,
+                    "description": "Está indicado realizar a pesquisa de linfonodo sentinela.",
+                    "explanation": "Verdadeiro doc!😁 As indicações para pesquisa de linfonodo sentinela são:\n- Breslow >1mm\n- Breslow <1mm + Clark 4 ou Ulceração.\n- **No caso, temos Breslow de 0,8mm e ulceração, sendo indicada a pesquisa.**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:34:34.000Z",
+                    "updated_at": "2022-01-03T00:22:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10508,
+                    "question_id": 2555,
+                    "description": "Linfonodo sentinela é o linfonodo acometido por metástase.",
+                    "explanation": "Boa doc, essa é a incorreta!😴 Linfonodo sentinela é o primeiro da cadeia referente ao local da lesão. A banca não considerou como metástase se apenas o primeiro linfonodo estiver acometido!",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-30T03:34:34.000Z",
+                    "updated_at": "2022-01-03T00:22:35.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10509,
+                    "question_id": 2555,
+                    "description": "Ulceração da lesão é um importante fator de mau prognóstico.",
+                    "explanation": "Verdadeiro doc!😁 Também é um fator de mau prognóstico, sendo o mais importante fator o índice de Breslow. O índice de mitoses por campo também é um fator de mau prognóstico.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:34:34.000Z",
+                    "updated_at": "2022-01-03T00:22:35.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2555,
+                "questionary_id": 267659,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2556,
+            "institution_id": 30,
+            "description": "A classificação de Clark para melanoma invasivo foi proposta em 1969 e relaciona a extensão da invasão tumoral com as camadas anatômicas da pele. Os tumores que se estendem para dentro da derme papilar e também apresentam um excelente prognóstico são classificados como Clark de nível:",
+            "difficulty": "hard",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-30T06:38:41.000Z",
+            "updated_at": "2022-01-03T03:24:57.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 30,
+                "title": "HNMD",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T20:47:50.000Z",
+                "updated_at": "2020-05-18T20:47:50.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 272,
+                    "title": "Melanoma",
+                    "description": null,
+                    "parent_id": 254,
+                    "is_enabled": true,
+                    "created_at": "2020-06-30T02:59:10.000Z",
+                    "updated_at": "2020-06-30T02:59:10.000Z",
+                    "pivot": {
+                        "discipline_id": 272,
+                        "question_id": 2556
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 10510,
+                    "question_id": 2556,
+                    "description": "1",
+                    "explanation": "Falso doc!😋 Clark 1 é o melanoma in situ, restrito à EPIDERME apenas!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:38:41.000Z",
+                    "updated_at": "2022-01-03T00:24:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10511,
+                    "question_id": 2556,
+                    "description": "2",
+                    "explanation": "Perfeito doc! Arrasou!😍 Clark 2 é o melanoma que adentra a derme papilar, mas não atinge a reticular. Se liga nessa tabelinha doc👇\n- Fonte: http://www.cirurgiacp.ufc.br/files/aulas_residentes/Ubiranei%20Oliveira%20Silva%202005-2006/melanoma%20em%20cabeca%20e%20pescoco.pdf",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-30T03:38:41.000Z",
+                    "updated_at": "2022-01-03T00:24:57.000Z",
+                    "files": [
+                        {
+                            "id": 25578,
+                            "file": "2f3dbb3d-5955-433a-baa8-27c68bba867b.jpeg",
+                            "name": "00000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-03T00:24:07.000Z",
+                            "updated_at": "2022-01-03T00:24:07.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2f3dbb3d-5955-433a-baa8-27c68bba867b.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25578,
+                                "alternative_id": 10511
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 10512,
+                    "question_id": 2556,
+                    "description": "3",
+                    "explanation": "Falso doc!😋 Clark 3 é o melanoma que atinge o início da derme reticular.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:38:41.000Z",
+                    "updated_at": "2022-01-03T00:24:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10513,
+                    "question_id": 2556,
+                    "description": "4",
+                    "explanation": "Falso doc!😋Clark 4 é o melanoma que atinge TODA A DERME RETICULAR.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:38:41.000Z",
+                    "updated_at": "2022-01-03T00:24:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 10514,
+                    "question_id": 2556,
+                    "description": "5",
+                    "explanation": "Falso doc!😋 Clark 5 é o melanoma que atinge o subcutâneo.",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-06-30T03:38:41.000Z",
+                    "updated_at": "2022-01-03T00:24:57.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2556,
+                "questionary_id": 267659,
+                "timer": 0
+            }
+        }
+    ]
+}

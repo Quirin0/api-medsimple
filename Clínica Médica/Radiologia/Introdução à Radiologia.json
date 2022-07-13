@@ -1,0 +1,1379 @@
+{
+    "id": 268197,
+    "user_id": 1699,
+    "title": "Introdução à Radiologia",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T22:53:47.000Z",
+    "updated_at": "2022-07-11T22:53:47.000Z",
+    "study_plan_id": 352,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 4281,
+            "institution_id": 4,
+            "description": "Qual alternativa indica a melhor sequência do composto **menos denso** para o **mais denso:**",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-25T19:36:51.000Z",
+            "updated_at": "2022-01-19T19:45:58.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 440,
+                    "title": "Radiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-08-25T19:21:50.000Z",
+                    "updated_at": "2020-08-25T19:21:50.000Z",
+                    "pivot": {
+                        "discipline_id": 440,
+                        "question_id": 4281
+                    }
+                },
+                {
+                    "id": 441,
+                    "title": "Introdução à Radiologia",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-08-25T19:22:06.000Z",
+                    "updated_at": "2020-08-25T19:22:06.000Z",
+                    "pivot": {
+                        "discipline_id": 441,
+                        "question_id": 4281
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17686,
+                    "question_id": 4281,
+                    "description": "Ar ➡ Gordura ➡ Tecido Mole ➡ Cálcio ➡ Metal",
+                    "explanation": "Isso mesmo, Doc! 🤗 \n- Quanto maior o número atômico do composto, mais denso. \n- Por isso metais  (e.g Ferro) são mais densos que o cálcio.\n- Na radiografia, os elementos **menos densos** ficam mais **escuros** (como o ar, que é preto) e os **mais densos** ficam mais **claros** (o metal fica branco).\n\n\nFonte da imagem: Eiradio",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-08-25T16:36:51.000Z",
+                    "updated_at": "2022-01-19T16:45:58.000Z",
+                    "files": [
+                        {
+                            "id": 1028,
+                            "file": "1598372977075.jpeg",
+                            "name": "Ei radio.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-08-25T19:29:37.000Z",
+                            "updated_at": "2020-08-25T19:29:37.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1598372977075.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1028,
+                                "alternative_id": 17686
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 17687,
+                    "question_id": 4281,
+                    "description": "Ar ➡ Gordura ➡ Tecido Mole ➡ Metal ➡ Cálcio",
+                    "explanation": "Falso, Doc! 😋 Resposta conceitual. \n- Porém, Doc, perceba que os metais possuem um número atômico maior que o cálcio, que é maior que os carbono (tecido mole) ou componentes do ar(oxigênio, nitrogênio, etc).\n- Outra forma de pensar é meio intuitiva. Pense que um metal é mais \"duro\" que um osso, certo? Mais denso.\n\nFonte da imagem: https://www.todamateria.com.br/tabela-periodica/\n\n\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-25T16:36:51.000Z",
+                    "updated_at": "2022-01-19T16:45:58.000Z",
+                    "files": [
+                        {
+                            "id": 1029,
+                            "file": "1598373130504.jpeg",
+                            "name": "tabela-periodica-og.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-08-25T19:32:11.000Z",
+                            "updated_at": "2020-08-25T19:32:11.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1598373130504.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1029,
+                                "alternative_id": 17687
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 17688,
+                    "question_id": 4281,
+                    "description": "Cálcio ➡ Gordura ➡ Tecido Mole ➡ Metal ➡ Ar",
+                    "explanation": "Falso, Doc! 😋 **O ar é o menos denso** entre os compostos apresentados.\n- Ar ➡ composto de oxigênio, nitrogênio e carbono. Todos composto com baixo número atômico.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-25T16:36:51.000Z",
+                    "updated_at": "2022-01-19T16:45:58.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17689,
+                    "question_id": 4281,
+                    "description": "Ar ➡ Tecido Mole ➡ Gordura➡ Cálcio ➡ Metal",
+                    "explanation": "Falso, Doc! 😋 Os tecidos moles(e.g músculo) são mais densos que a gordura.\n- 💡 É simples: imagine 1kg de músculo e 1kg de gordura. Qual irá ocupar mais espaço? O menos denso ➡ **Gordura**.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-25T16:36:51.000Z",
+                    "updated_at": "2022-01-19T16:45:58.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4281,
+                "questionary_id": 268197,
+                "timer": 15
+            }
+        },
+        {
+            "id": 4282,
+            "institution_id": 4,
+            "description": "Temos 5 densidades básicas da radiografia que refletem: Ar, gordura, Partes Moles, Cálcio e Metal. Levando em conta a imagem, qual composto está melhor representado pelo preto (mais a esquerda) e pelo branco (mais a direita), respectivamente:",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-25T19:44:22.000Z",
+            "updated_at": "2022-01-19T19:48:59.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 441,
+                    "title": "Introdução à Radiologia",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-08-25T19:22:06.000Z",
+                    "updated_at": "2020-08-25T19:22:06.000Z",
+                    "pivot": {
+                        "discipline_id": 441,
+                        "question_id": 4282
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17690,
+                    "question_id": 4282,
+                    "description": "Metal e Ar",
+                    "explanation": "Falso, Doc! 🙈 Ao contrário. Os elementos menos densos ficam mais escuros e os muito densos, mais claros.\n- Ar ➡ Preto\n- Metal ➡ Branco",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-25T16:44:22.000Z",
+                    "updated_at": "2022-01-19T16:48:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17691,
+                    "question_id": 4282,
+                    "description": "Partes moles e Ar",
+                    "explanation": "Falso, Doc! 🙈  Os elementos menos densos ficam mais escuros e os muito densos, mais claros.\n- Ar ➡ Preto\n- Metal ➡ Branco \n\n\nAs partes moles possuem densidade intermediária. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-25T16:44:22.000Z",
+                    "updated_at": "2022-01-19T16:48:59.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17692,
+                    "question_id": 4282,
+                    "description": "Ar e Metal",
+                    "explanation": "Perfeito, Doc! 👌 \n- **Ar** ➡ Possui a menor absorção dos raios-x ➡ Mais raios passam ➡ **Preto**\n- **Metal** ➡ Absorve prativamente todos os raios-x ➡ Nenhum ou poucos raios passam ➡ **Branco**\n\nFonte: Eiradio",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-08-25T16:44:22.000Z",
+                    "updated_at": "2022-01-19T16:48:59.000Z",
+                    "files": [
+                        {
+                            "id": 1031,
+                            "file": "1598373788065.jpeg",
+                            "name": "Ei radio.JPG",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-08-25T19:43:08.000Z",
+                            "updated_at": "2020-08-25T19:43:08.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1598373788065.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1031,
+                                "alternative_id": 17692
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 17693,
+                    "question_id": 4282,
+                    "description": "Metal e Cálcio",
+                    "explanation": "Falso, Doc! 🙈 Os elementos menos densos ficam mais escuros e os muito densos, mais claros.\n- Ar ➡ Preto\n- Metal ➡ Branco \n\nMetal e cálcio possuem alta densidade ➡ Mais perto do branco.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-25T16:44:22.000Z",
+                    "updated_at": "2022-01-19T16:48:59.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 1030,
+                    "file": "1598373510640.jpeg",
+                    "name": "densidades.JPG",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-08-25T19:38:31.000Z",
+                    "updated_at": "2020-08-25T19:38:31.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1598373510640.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 1030,
+                        "question_id": 4282
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 4282,
+                "questionary_id": 268197,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4283,
+            "institution_id": 4,
+            "description": "Qual tipo de exame é esse?\n\n\nFonte da imagem: WikiCommons\n",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-25T19:56:20.000Z",
+            "updated_at": "2022-01-19T19:52:48.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 441,
+                    "title": "Introdução à Radiologia",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-08-25T19:22:06.000Z",
+                    "updated_at": "2020-08-25T19:22:06.000Z",
+                    "pivot": {
+                        "discipline_id": 441,
+                        "question_id": 4283
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17694,
+                    "question_id": 4283,
+                    "description": "Radiografia",
+                    "explanation": "Falso, Doc! 🤔 Não temos esse nível de detalhe numa radiografia de crânio.\n\nVeja um exemplo 👇:\n\n\nFonte da imagem: Wiki commons",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-25T16:56:20.000Z",
+                    "updated_at": "2022-01-19T16:52:48.000Z",
+                    "files": [
+                        {
+                            "id": 1033,
+                            "file": "1598374006457.jpeg",
+                            "name": "Skull_X-ray_-_lateral_view.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-08-25T19:46:47.000Z",
+                            "updated_at": "2020-08-25T19:46:47.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1598374006457.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1033,
+                                "alternative_id": 17694
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 17695,
+                    "question_id": 4283,
+                    "description": "Ressonância Magnética",
+                    "explanation": "Falso, Doc! 🤔 \n- Pode confundir no começo. A **ressonância** possui maior nível de detalhe de **partes moles.**\n- 💡 Dica: Osso na TC é branco.\n\nVeja uma imagem de ressonância para perceber a diferença 👇:\n\nFonte da imagem: Wiki Commons",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-25T16:56:20.000Z",
+                    "updated_at": "2022-01-19T16:52:48.000Z",
+                    "files": [
+                        {
+                            "id": 1034,
+                            "file": "1598374183544.jpeg",
+                            "name": "MRI_Head_Brain_Normal.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-08-25T19:49:44.000Z",
+                            "updated_at": "2020-08-25T19:49:44.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1598374183544.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1034,
+                                "alternative_id": 17695
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 17696,
+                    "question_id": 4283,
+                    "description": "Tomografia computadorizada",
+                    "explanation": "Muito bem, Doc! 😁 É um exame de TC de crânio.\n- A TC possui algumas particularidades, como a mensuração da densidade do tecido por unidades de Hounsfield (HU)\n- -1000 HU ➡ Ar\n- +1000 HU ➡ Metal\n- 0 HU ➡ Líquido\n- **Mais densa a substância ➡ Maiores unidades de Hounsfield.**\n\nDoc, dá uma olhada no comentário das outras alternativas para aprofundar seus conhecimentos 😉 ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-08-25T16:56:20.000Z",
+                    "updated_at": "2022-01-19T16:52:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17697,
+                    "question_id": 4283,
+                    "description": "Ultrassonografia",
+                    "explanation": "Falso, Doc! 🤔 A ultrassonografia utilizada energia acústica ao invés de raios-x.\n- Não usam radiação ionizante ➡ Seguros em grávidas e crianças.\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-25T16:56:20.000Z",
+                    "updated_at": "2022-01-19T16:52:48.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 1032,
+                    "file": "1598373942898.jpeg",
+                    "name": "Brain_CT_scan.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-08-25T19:45:43.000Z",
+                    "updated_at": "2020-08-25T19:45:43.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1598373942898.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 1032,
+                        "question_id": 4283
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 4283,
+                "questionary_id": 268197,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4294,
+            "institution_id": 4,
+            "description": "São métodos de imagem que não possuem radiação ionizante:\n- I - Raio-x\n- II - Tomografia Computadorizada\n- III - Ressonância magnética\n- IV - Ultrassonografia",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-26T19:56:25.000Z",
+            "updated_at": "2022-01-19T19:55:01.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 441,
+                    "title": "Introdução à Radiologia",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-08-25T19:22:06.000Z",
+                    "updated_at": "2020-08-25T19:22:06.000Z",
+                    "pivot": {
+                        "discipline_id": 441,
+                        "question_id": 4294
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17738,
+                    "question_id": 4294,
+                    "description": "I e II",
+                    "explanation": "Falso, Doc! 😅 Esses são **justament**e os métodos que utilizam radiação ionizante!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-26T16:56:25.000Z",
+                    "updated_at": "2022-01-19T16:55:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17739,
+                    "question_id": 4294,
+                    "description": "II, III e IV",
+                    "explanation": "Falso, Doc! 😅 RX e TC são métodos que utilizam radiação ionizante! ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-26T16:56:25.000Z",
+                    "updated_at": "2022-01-19T16:55:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17740,
+                    "question_id": 4294,
+                    "description": "III e IV",
+                    "explanation": "Perfeito, Doc! 😍 São exemplos de métodos de imagem que não usam radiação ionizante.\n- **Ultrassom** ➡ Energia sonora\n- **Ressonância magnética** ➡ Usa o potencial de energia armazenado em átomos de hidrogênio",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-08-26T16:56:25.000Z",
+                    "updated_at": "2022-01-19T16:55:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17741,
+                    "question_id": 4294,
+                    "description": "I, II e IV",
+                    "explanation": "Falso, Doc! 😅 RX e TC são métodos que utilizam radiação ionizante!  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-26T16:56:25.000Z",
+                    "updated_at": "2022-01-19T16:55:01.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17742,
+                    "question_id": 4294,
+                    "description": "Todas as alternativas",
+                    "explanation": "Falso, Doc! 😅 USG e RNM são métodos que **não** utilizam radiação ionizante!  ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-08-26T16:56:25.000Z",
+                    "updated_at": "2022-01-19T16:55:01.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4294,
+                "questionary_id": 268197,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4297,
+            "institution_id": 4,
+            "description": "Qual plano de corte tomográfico está representado na imagem?\n\n\nFonte da imagem: Flickr",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-26T20:24:06.000Z",
+            "updated_at": "2022-01-19T20:00:11.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 441,
+                    "title": "Introdução à Radiologia",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-08-25T19:22:06.000Z",
+                    "updated_at": "2020-08-25T19:22:06.000Z",
+                    "pivot": {
+                        "discipline_id": 441,
+                        "question_id": 4297
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17751,
+                    "question_id": 4297,
+                    "description": "Sagital",
+                    "explanation": "Falso, Doc! 😬  \n- Sagital é o plano anatômico que divide o corpo humano em metades **esquerda e direita**. \n- Passa por vários pontos anatômicos entre os quais nariz, umbigo, centro de gravidade e sínfise púbica e cai num espaço livre entre calcanhares.\n- 💡 Doc, o SAgital é o que divide o corpo em duas SAIdes (em inglês, \"sides\", lados)\n\n\nFonte da imagem: Flickr",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-26T17:24:06.000Z",
+                    "updated_at": "2022-01-19T17:00:11.000Z",
+                    "files": [
+                        {
+                            "id": 1045,
+                            "file": "1598462477741.jpeg",
+                            "name": "6828090534_7758017df8_b.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-08-26T20:21:18.000Z",
+                            "updated_at": "2020-08-26T20:21:18.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1598462477741.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1045,
+                                "alternative_id": 17751
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 17752,
+                    "question_id": 4297,
+                    "description": "Coronal",
+                    "explanation": "Mandou bem, Doc! 👊 \n- Divide o corpo com cortes verticais e perpendiculares ao plano mediano. Assim é possível definir a parte ventral/anterior (frente) da parte dorsal/posterior (costas).\n- 💡 Doc, \"coronal\" lembra \"coroa\". Pensa numa coroa no estilo \"tiara\" sendo colocada e cortando a pessoa em duas metades 👀 \n\nDoc, eu se fosse você dava uma olhada no comentário das outras alternativas 🤓 \n\nFonte da imagem: Flickr\n\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-08-26T17:24:06.000Z",
+                    "updated_at": "2022-01-19T17:00:11.000Z",
+                    "files": [
+                        {
+                            "id": 1046,
+                            "file": "1598462519962.jpeg",
+                            "name": "6786254912_497075a474_b.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-08-26T20:22:00.000Z",
+                            "updated_at": "2020-08-26T20:22:00.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1598462519962.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1046,
+                                "alternative_id": 17752
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 17753,
+                    "question_id": 4297,
+                    "description": "Axial",
+                    "explanation": "Falso, Doc! 😬  Também chamado de plano **transversa**l.\n- É um corte imaginário dividindo um organismo ou órgão ao meio, separando em **superior e inferior**.\n- Termo utilizado na descrição de partes do corpo.\n- 💡 Doc, pensa que o AXial divide a pessoa em \"AXima\" e abaixo 😂😜. \n\nFonte: Flickr",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-26T17:24:06.000Z",
+                    "updated_at": "2022-01-19T17:00:11.000Z",
+                    "files": [
+                        {
+                            "id": 1047,
+                            "file": "1598462592947.jpeg",
+                            "name": "6158591733_f563ec0727_b.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-08-26T20:23:13.000Z",
+                            "updated_at": "2020-08-26T20:23:13.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1598462592947.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1047,
+                                "alternative_id": 17753
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 17754,
+                    "question_id": 4297,
+                    "description": "Nenhuma das alternativas",
+                    "explanation": "Falso, Doc! 🤔 Temos três planos que dividem o corpo:\n- Axial\n- Coronal\n- Sagital\n\nA alternativa B está correta 😉.\n\nFonte: Wikicommons",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-26T17:24:06.000Z",
+                    "updated_at": "2022-01-19T17:00:11.000Z",
+                    "files": [
+                        {
+                            "id": 1048,
+                            "file": "1598462631383.png",
+                            "name": "Human_anatomy_planes-ES.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-08-26T20:23:52.000Z",
+                            "updated_at": "2020-08-26T20:23:52.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1598462631383.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1048,
+                                "alternative_id": 17754
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 1044,
+                    "file": "1598462016220.jpeg",
+                    "name": "6158592087_1d1dffabcd_b.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-08-26T20:13:37.000Z",
+                    "updated_at": "2020-08-26T20:13:37.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1598462016220.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 1044,
+                        "question_id": 4297
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 4297,
+                "questionary_id": 268197,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4284,
+            "institution_id": 4,
+            "description": "Assinale a correlação **correta** sobre os termos radiográficos:",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-25T20:06:33.000Z",
+            "updated_at": "2022-04-03T14:59:21.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 441,
+                    "title": "Introdução à Radiologia",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-08-25T19:22:06.000Z",
+                    "updated_at": "2020-08-25T19:22:06.000Z",
+                    "pivot": {
+                        "discipline_id": 441,
+                        "question_id": 4284
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17698,
+                    "question_id": 4284,
+                    "description": "Tomografia computadorizada - Aumento da densidade ➡ Mais radiopaco.",
+                    "explanation": "Falso, Doc! 🙉 São termos da **radiografi**a.\n- Aumento da densidade ➡ **Radiopaco** ➡ Ex.: Pneumonia.\n- Diminuição da densidade ➡ **Radiolúcido** ➡ Ex.: Pneumotórax.\n- No contexto da tomografia, falamos em **hipo** ou **hiperdenso.**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-25T17:06:33.000Z",
+                    "updated_at": "2022-04-03T14:59:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17699,
+                    "question_id": 4284,
+                    "description": "Ressonância Magnética - Diminuição da atenuação ➡ Hipodenso.",
+                    "explanation": "Falso, Doc! 🙉  Hipodenso é um termo da Tomografia Computadorizada.\n- Aumento da atenuação ➡ **Hiperdenso** ➡ Ex.: Pneumonia.\n- Diminuição da atenuação ➡ **Hipodenso** ➡ Ex.: Pneumotórax. \n- No contexto da ressonância magnética, falamos em **diminuição da intensidade** ou **radiointenso.**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-25T17:06:33.000Z",
+                    "updated_at": "2022-04-03T14:59:21.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17700,
+                    "question_id": 4284,
+                    "description": "Ultrassom - Aumento da ecogenicidade ➡ Imagem + branca.",
+                    "explanation": "Arrasou, Doc! 😎 \n- Aumento da **ecogenicidade** ➡  Imagem + **branca** ➡ **Calcificações.**\n- Diminuição da ecogenicidade ➡  Imagem + preta ➡ Líquido.\n- Dá uma olhadinha no esquema 👇:\n- Fonte da imagem: Wiki Commons.",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-08-25T17:06:33.000Z",
+                    "updated_at": "2022-04-03T14:59:21.000Z",
+                    "files": [
+                        {
+                            "id": 1036,
+                            "file": "1598375048510.png",
+                            "name": "Ultrasound_lesions_echogenicity.svg.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-08-25T20:04:09.000Z",
+                            "updated_at": "2020-08-25T20:04:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1598375048510.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1036,
+                                "alternative_id": 17700
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 17701,
+                    "question_id": 4284,
+                    "description": "Radiografia - Aumento da intensidade ➡ Radiointenso.",
+                    "explanation": "Falso, Doc! 🙉 Radiointenso é um termo para designar Ressonância Magnética.\n- Radiointenso ➡ Mais branco.\n- Diminuição da intensidade ➡ Mais preto.\n- No contexto da radiografia, falamos em **radiopaco** ou **radiolúcido.**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-25T17:06:33.000Z",
+                    "updated_at": "2022-04-03T14:59:21.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4284,
+                "questionary_id": 268197,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4295,
+            "institution_id": 4,
+            "description": "Qual tipo de probe está representado na imagem?\n\nFonte da imagem: https://icurevisited.com/pt-br/lus/",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-26T20:03:34.000Z",
+            "updated_at": "2022-01-19T20:16:57.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 441,
+                    "title": "Introdução à Radiologia",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-08-25T19:22:06.000Z",
+                    "updated_at": "2020-08-25T19:22:06.000Z",
+                    "pivot": {
+                        "discipline_id": 441,
+                        "question_id": 4295
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17743,
+                    "question_id": 4295,
+                    "description": "Convexo",
+                    "explanation": "Não tem pra ninguém, Doc! 💪 Isso mesmo! É um probe abdominal\n- Baixa frequência\n- Alta penetração\n- Uso: Abdomen, FAST, E-FAST, pulmonar, pleura, ginecologia.\n\nVeja na tabela 👇:\n\n\nFonte da imagem: https://icurevisited.com/pt-br/lus/",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-08-26T17:03:34.000Z",
+                    "updated_at": "2022-01-19T17:16:57.000Z",
+                    "files": [
+                        {
+                            "id": 26120,
+                            "file": "52ed4725-c0d2-4b6b-9d10-d9a4decbd7ec.png",
+                            "name": "probes-1024x638.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-19T17:08:52.000Z",
+                            "updated_at": "2022-01-19T17:08:52.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/52ed4725-c0d2-4b6b-9d10-d9a4decbd7ec.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26120,
+                                "alternative_id": 17743
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 17744,
+                    "question_id": 4295,
+                    "description": "Linear",
+                    "explanation": "Falso, Doc! 🙊 O linear é o Probe vascular\n- Alta frequência\n- Baixa penetração\n- Usos: vascular, pleura, pleura, nervo óptico.\n\n\n\nVeja na tabela 👇:\n\n\n\n\n\n\n\nFonte da imagem: https://icurevisited.com/pt-br/lus/ \n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-26T17:03:34.000Z",
+                    "updated_at": "2022-01-19T17:16:57.000Z",
+                    "files": [
+                        {
+                            "id": 26120,
+                            "file": "52ed4725-c0d2-4b6b-9d10-d9a4decbd7ec.png",
+                            "name": "probes-1024x638.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-19T17:08:52.000Z",
+                            "updated_at": "2022-01-19T17:08:52.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/52ed4725-c0d2-4b6b-9d10-d9a4decbd7ec.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26120,
+                                "alternative_id": 17744
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 17745,
+                    "question_id": 4295,
+                    "description": "Setorial",
+                    "explanation": "Falso, Doc! 🙊 O setoral é também chamado de probe cardíaco.\n- Possui frequência baixa\n- Alta penetração\n- Usos: cardíaco, pulmonar, pleura, FAST, E-FAST\n\n\nVeja na tabela 👇:\n\n\n\n\n\n\n\nFonte da imagem: https://icurevisited.com/pt-br/lus/ \n\n\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-26T17:03:34.000Z",
+                    "updated_at": "2022-01-19T17:16:57.000Z",
+                    "files": [
+                        {
+                            "id": 26120,
+                            "file": "52ed4725-c0d2-4b6b-9d10-d9a4decbd7ec.png",
+                            "name": "probes-1024x638.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-19T17:08:52.000Z",
+                            "updated_at": "2022-01-19T17:08:52.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/52ed4725-c0d2-4b6b-9d10-d9a4decbd7ec.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26120,
+                                "alternative_id": 17745
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 17746,
+                    "question_id": 4295,
+                    "description": "Nenhuma das alternativas",
+                    "explanation": "Falso, Doc! 🙊 Os três tipos de probles clássicos são:\n- Convexo\n- Linear\n- Setorial\n\nO mostrado na imagem da questão é o convexo, conforme indicado pela letra A. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-26T17:03:34.000Z",
+                    "updated_at": "2022-01-19T17:16:57.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 26119,
+                    "file": "94aa3911-0222-4472-acfa-cb500eb082bd.png",
+                    "name": "Captura de tela 2022-01-19 140728.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2022-01-19T17:08:04.000Z",
+                    "updated_at": "2022-01-19T17:08:04.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/94aa3911-0222-4472-acfa-cb500eb082bd.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 26119,
+                        "question_id": 4295
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 4295,
+                "questionary_id": 268197,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4296,
+            "institution_id": 4,
+            "description": "Qual tecido possui densidade mais próxima de 0(zero) unidades de Hounsfield?",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-26T20:11:39.000Z",
+            "updated_at": "2022-01-19T20:24:01.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 441,
+                    "title": "Introdução à Radiologia",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-08-25T19:22:06.000Z",
+                    "updated_at": "2020-08-25T19:22:06.000Z",
+                    "pivot": {
+                        "discipline_id": 441,
+                        "question_id": 4296
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17747,
+                    "question_id": 4296,
+                    "description": "Ar",
+                    "explanation": "Falso, Doc! 😕  Apresenta-se como a menor densidade da escala, com próximo de -1000 HU.\n\n\n\nVeja no esquema 👇 :\n\n\n\n\nFonte da imagem : https://www2.dee.cefetmg.br/wp-content/uploads/sites/18/2017/11/TCC_2016_2_CIALopes.pdf  \n\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-26T17:11:39.000Z",
+                    "updated_at": "2022-01-19T17:24:01.000Z",
+                    "files": [
+                        {
+                            "id": 26121,
+                            "file": "c9a3e579-3b1b-47ba-acb0-c03aa7ab6bdb.png",
+                            "name": "Captura de tela 2022-01-19 142125.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-19T17:21:40.000Z",
+                            "updated_at": "2022-01-19T17:21:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c9a3e579-3b1b-47ba-acb0-c03aa7ab6bdb.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26121,
+                                "alternative_id": 17747
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 17748,
+                    "question_id": 4296,
+                    "description": "Gordura",
+                    "explanation": "Falso, Doc! 😕 A gordura possui por volta de **-40 a -100HU**.\n\n\nVeja no esquema 👇 :\n\n\n\n\nFonte da imagem : https://www2.dee.cefetmg.br/wp-content/uploads/sites/18/2017/11/TCC_2016_2_CIALopes.pdf  \n\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-26T17:11:39.000Z",
+                    "updated_at": "2022-01-19T17:24:01.000Z",
+                    "files": [
+                        {
+                            "id": 26121,
+                            "file": "c9a3e579-3b1b-47ba-acb0-c03aa7ab6bdb.png",
+                            "name": "Captura de tela 2022-01-19 142125.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-19T17:21:40.000Z",
+                            "updated_at": "2022-01-19T17:21:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c9a3e579-3b1b-47ba-acb0-c03aa7ab6bdb.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26121,
+                                "alternative_id": 17748
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 17749,
+                    "question_id": 4296,
+                    "description": "Água",
+                    "explanation": "Fera demais, Doc! 😁 É a densidade que configura o 0(zero) HU. A TC possui algumas particularidades, como a mensuração da densidade do tecido por unidades de Hounsfield (HU)\n- -1000 HU ➡ Ar\n- +1000 HU ➡ Metal\n- 0 HU ➡ Líquido\n- **Mais densa a substância ➡ Maiores unidades de Hounsfield.** \n\nVeja no esquema 👇 :\n\nFonte da imagem : https://www2.dee.cefetmg.br/wp-content/uploads/sites/18/2017/11/TCC_2016_2_CIALopes.pdf ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-08-26T17:11:39.000Z",
+                    "updated_at": "2022-01-19T17:24:01.000Z",
+                    "files": [
+                        {
+                            "id": 1042,
+                            "file": "1598461787711.jpeg",
+                            "name": "unidades-hounsfield.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-08-26T20:09:48.000Z",
+                            "updated_at": "2020-08-26T20:09:48.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1598461787711.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1042,
+                                "alternative_id": 17749
+                            }
+                        },
+                        {
+                            "id": 26121,
+                            "file": "c9a3e579-3b1b-47ba-acb0-c03aa7ab6bdb.png",
+                            "name": "Captura de tela 2022-01-19 142125.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-19T17:21:40.000Z",
+                            "updated_at": "2022-01-19T17:21:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c9a3e579-3b1b-47ba-acb0-c03aa7ab6bdb.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26121,
+                                "alternative_id": 17749
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 17750,
+                    "question_id": 4296,
+                    "description": "Osso",
+                    "explanation": "Falso, Doc! 😕   Representa uma das maiores densidades. Podendo ir de **400-1000 HU**.\n\n\nVeja no esquema 👇 :\n\n\n\n\nFonte da imagem : https://www2.dee.cefetmg.br/wp-content/uploads/sites/18/2017/11/TCC_2016_2_CIALopes.pdf  \n\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-26T17:11:39.000Z",
+                    "updated_at": "2022-01-19T17:24:01.000Z",
+                    "files": [
+                        {
+                            "id": 1043,
+                            "file": "1598461824825.jpeg",
+                            "name": "unidades-hounsfield.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-08-26T20:10:25.000Z",
+                            "updated_at": "2020-08-26T20:10:25.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1598461824825.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1043,
+                                "alternative_id": 17750
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4296,
+                "questionary_id": 268197,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4298,
+            "institution_id": 4,
+            "description": "Uma ressonância magnética do cérebro é solicitada para um paciente com suspeita de câncer metastático. Qual das seguintes informações é contraindicação à ressonância magnética?",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-26T20:44:47.000Z",
+            "updated_at": "2022-01-19T20:28:46.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 441,
+                    "title": "Introdução à Radiologia",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-08-25T19:22:06.000Z",
+                    "updated_at": "2020-08-25T19:22:06.000Z",
+                    "pivot": {
+                        "discipline_id": 441,
+                        "question_id": 4298
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17755,
+                    "question_id": 4298,
+                    "description": "Substituição total do quadril",
+                    "explanation": "Falso, Doc! 😋 Não é uma contraindicação.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-26T17:44:47.000Z",
+                    "updated_at": "2022-01-19T17:28:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17756,
+                    "question_id": 4298,
+                    "description": "Histórico de reações alérgicas a contrastes iodados",
+                    "explanation": "Falso, Doc! 😋 Não é uma contraindicação, já que a RM não usa contraste.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-26T17:44:47.000Z",
+                    "updated_at": "2022-01-19T17:28:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17757,
+                    "question_id": 4298,
+                    "description": "Cirurgia prévia",
+                    "explanation": "Falso, Doc! 😋 Não é uma contraindicação. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-26T17:44:47.000Z",
+                    "updated_at": "2022-01-19T17:28:46.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17758,
+                    "question_id": 4298,
+                    "description": "Usuário de marca-passo",
+                    "explanation": "Na mosca, Doc! 🐝\n- É uma contraindicação, já que pode levar a **desregulações do aparelho,** podendo culminar em **arritmias**.",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-08-26T17:44:47.000Z",
+                    "updated_at": "2022-01-19T17:28:46.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4298,
+                "questionary_id": 268197,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4299,
+            "institution_id": 4,
+            "description": "Durante uma ultrassonografia com Doppler, convencionou-se que o fluxo em direção ao transdutor é **____** e o fluxo na direção contrária ao transdutor é **____**.",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-26T20:53:29.000Z",
+            "updated_at": "2022-01-19T21:02:18.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 441,
+                    "title": "Introdução à Radiologia",
+                    "description": null,
+                    "parent_id": 440,
+                    "is_enabled": true,
+                    "created_at": "2020-08-25T19:22:06.000Z",
+                    "updated_at": "2020-08-25T19:22:06.000Z",
+                    "pivot": {
+                        "discipline_id": 441,
+                        "question_id": 4299
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 17759,
+                    "question_id": 4299,
+                    "description": "Azul; Vermelho",
+                    "explanation": "Falso, Doc! 😣 Ao contrário. Confira a resposta na alternativa correta.  ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-26T17:53:29.000Z",
+                    "updated_at": "2022-01-19T18:02:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17760,
+                    "question_id": 4299,
+                    "description": "Vermelho; Azul",
+                    "explanation": "Parabéns, Doc! 👏 \n- **Vermelho** ➡  Fluxo em direção ao transdutor ➡ Ou seja, \"ta **chegando**\"\n- **Azul** ➡ Fluxo na direção **contrária** ao transdutor ➡ Ou seja, \"ta saindo\"\n\nNa imagem:\n- Artérias: Tão saindo do probe\n- Veias: Estão entrando no probe\n\n\nFonte da imagem: https://drpixel.fcm.unicamp.br/conteudo/interpretacao-do-doppler-obstetrico-na-avaliacao-da-vitalidade-fetal",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-08-26T17:53:29.000Z",
+                    "updated_at": "2022-01-19T18:02:18.000Z",
+                    "files": [
+                        {
+                            "id": 26122,
+                            "file": "e3a886f3-3d02-46be-b398-c9512bf2f68a.jpeg",
+                            "name": "Doppler_umb (1).jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-19T17:34:34.000Z",
+                            "updated_at": "2022-01-19T17:34:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e3a886f3-3d02-46be-b398-c9512bf2f68a.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26122,
+                                "alternative_id": 17760
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 17761,
+                    "question_id": 4299,
+                    "description": "Vermelho; Vermelho",
+                    "explanation": "Falso, Doc! 😣 Confira a resposta na alternativa correta. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-26T17:53:29.000Z",
+                    "updated_at": "2022-01-19T18:02:18.000Z",
+                    "files": []
+                },
+                {
+                    "id": 17762,
+                    "question_id": 4299,
+                    "description": "Azul; Azul",
+                    "explanation": "Falso, Doc! 😣 Confira a resposta na alternativa correta.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-26T17:53:29.000Z",
+                    "updated_at": "2022-01-19T18:02:18.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 4299,
+                "questionary_id": 268197,
+                "timer": 0
+            }
+        }
+    ]
+}

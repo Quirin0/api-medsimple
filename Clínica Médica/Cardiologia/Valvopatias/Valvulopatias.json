@@ -1,0 +1,1824 @@
+{
+    "id": 267572,
+    "user_id": 1699,
+    "title": "Valvulopatias",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T02:34:16.000Z",
+    "updated_at": "2022-07-11T02:34:16.000Z",
+    "study_plan_id": 68,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 74,
+            "institution_id": 4,
+            "description": "Qual é a tríade clássica de sintomas na estenose aórtica? ",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T21:49:29.000Z",
+            "updated_at": "2021-10-16T01:58:29.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 74
+                    }
+                },
+                {
+                    "id": 7,
+                    "title": "Valvopatias",
+                    "description": "Estenoses e Insuficiências das valvas cardíacas",
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:24.000Z",
+                    "updated_at": "2020-05-16T23:45:24.000Z",
+                    "pivot": {
+                        "discipline_id": 7,
+                        "question_id": 74
+                    }
+                },
+                {
+                    "id": 535,
+                    "title": "Curso de Valvopatias (Intensivo de ECG e TáDeClinicagem)",
+                    "description": null,
+                    "parent_id": 7,
+                    "is_enabled": true,
+                    "created_at": "2020-11-22T23:27:43.000Z",
+                    "updated_at": "2020-11-22T23:27:43.000Z",
+                    "pivot": {
+                        "discipline_id": 535,
+                        "question_id": 74
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 303,
+                    "question_id": 74,
+                    "description": "Angina, Síncope aos esforços e dispneia",
+                    "explanation": "Perfeito doc!😁 Essa é a tríade clássica da Estenose Aórtica (EAo).\n- A angina ocorre devido a maior massa ventricular esquerda, já que a resistência oferecida pela estenose causa inicialmente hipertrofia do ventrículo esquerdo, o que gera uma maior demanda de oxigênio comparado com a quantidade de oxigênio entregue pelas coronárias, resultando em hipóxia no músculo cardíaco com consequente dor anginosa.\n- A síncope aos esforços ocorre pois durante o exercício físico há vasodilatação periférica e, devido a estenose, a quantidade de sangue que sai do coração não aumenta na mesma proporção, gerando hipotensão e síncope.\n- Já a dispneia, considerada o SINTOMA DE PIOR PROGNÓSTICO na EAo, ocorre a longo prazo, devido à Insuficiência Cardíaca consequente à disfunção sistólica do VE, que, por sua vez, está prejudicada devido à sua sobrecarga de pressão ao longo do tempo. Esta pressão é transmitida ao átrio esquerdo e, consequentemente, ao sistema pulmonar, gerando dispneia.\n- Saca só essa imagem doc👇\n- Fonte: https://www.bostonscientific.com/pt-BR/pacientes/condicoes-clinicas/estenose-da-valvula-aortica.html\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-18T18:49:29.000Z",
+                    "updated_at": "2021-10-15T22:58:29.000Z",
+                    "files": [
+                        {
+                            "id": 21771,
+                            "file": "3f321ff5-7670-4f76-b82a-ecbc85883650.png",
+                            "name": "image.img.valvula-aortica.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-10-15T22:57:32.000Z",
+                            "updated_at": "2021-10-15T22:57:32.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3f321ff5-7670-4f76-b82a-ecbc85883650.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 21771,
+                                "alternative_id": 303
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 305,
+                    "question_id": 74,
+                    "description": "Dispneia, síncope aos esforços e tosse",
+                    "explanation": "Falso doc!😋 Dispneia e síncope aos esforços fazem parte da tríade, mas não a tosse!\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T18:49:29.000Z",
+                    "updated_at": "2021-10-15T22:58:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 306,
+                    "question_id": 74,
+                    "description": "Dispneia paroxística noturna, noctúria e ortopneia.",
+                    "explanation": "Falso doc!😋 Nenhum desses sintomas faz parte da tríade. Esses sintomas são típicos de Insuficiência Cardíaca!\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T18:49:29.000Z",
+                    "updated_at": "2021-10-15T22:58:29.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 74,
+                "questionary_id": 267572,
+                "timer": 0
+            }
+        },
+        {
+            "id": 75,
+            "institution_id": 4,
+            "description": "Como é o sopro característico na estenose aórtica?\n",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T21:51:12.000Z",
+            "updated_at": "2021-10-16T02:02:48.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 75
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 75
+                    }
+                },
+                {
+                    "id": 7,
+                    "title": "Valvopatias",
+                    "description": "Estenoses e Insuficiências das valvas cardíacas",
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:24.000Z",
+                    "updated_at": "2020-05-16T23:45:24.000Z",
+                    "pivot": {
+                        "discipline_id": 7,
+                        "question_id": 75
+                    }
+                },
+                {
+                    "id": 535,
+                    "title": "Curso de Valvopatias (Intensivo de ECG e TáDeClinicagem)",
+                    "description": null,
+                    "parent_id": 7,
+                    "is_enabled": true,
+                    "created_at": "2020-11-22T23:27:43.000Z",
+                    "updated_at": "2020-11-22T23:27:43.000Z",
+                    "pivot": {
+                        "discipline_id": 535,
+                        "question_id": 75
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 307,
+                    "question_id": 75,
+                    "description": "Diastólico, em diamante, que irradia para as carótidas",
+                    "explanation": "Falso doc! 😋 O sopro é Sistólico.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T18:51:12.000Z",
+                    "updated_at": "2021-10-15T23:02:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 308,
+                    "question_id": 75,
+                    "description": "Sistólico, em diamante, que irradia para as carótidas",
+                    "explanation": "Perfeito doc!😁 Acompanha meu raciocínio👇\n- Durante a sístole, o sangue que o VE bombeia passa pela valva aórtica para chegar na circulação sistêmica. Na EAo, há resistência a essa passagem. \n- Sabe aquelas portas enferrujadas de bar dos filmes de Velho-Oeste? Imagine uma multidão tentando passar por ela de uma vez só. No comecinho todo mundo se bate e quase ninguém passa, depois o pessoal consegue se organizar e passar em maior quantidade até que os últimos que querem passar não conseguem, pois não tem força para abrir a porta.\n- A válvula estenosada é como se fosse a porta enferrujada, de difícil abertura, e as pessoas são como se fossem o sangue. \n- Essas fases: no início passa pouco, depois mais quantidade e a quantidade final tem dificuldade de passar é o que chamamos de forma “DIAMANTE”.\n- Além disso, por uma questão acústica, o sopro pode ser ouvido nas carótidas, já que estão entre os primeiros ramos da aorta.\n- Doc, se liga nessa imagem👇\n- Fonte: https://cardiopapers.com.br/conceitos-basicos-quais-os-tipos-de-sopro/\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-18T18:51:12.000Z",
+                    "updated_at": "2021-10-15T23:02:48.000Z",
+                    "files": [
+                        {
+                            "id": 21772,
+                            "file": "a222bc09-a4ce-4bac-9e89-fc6c7126bf6a.png",
+                            "name": "sopros.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-10-15T23:01:08.000Z",
+                            "updated_at": "2021-10-15T23:01:08.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a222bc09-a4ce-4bac-9e89-fc6c7126bf6a.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 21772,
+                                "alternative_id": 308
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 309,
+                    "question_id": 75,
+                    "description": "Diastólico, em ruflar",
+                    "explanation": "Falso doc!😋 Este sopro diastólico em ruflar é o sopro da ESTENOSE MITRAL. Para não esquecer mais, lembre que os sopros das Estenoses tem essas descrições “artísticas”: Diamante na estenose aórtica e “Ruflar”, como o som do bater das asas de um pássaro, na estenose mitral!\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T18:51:12.000Z",
+                    "updated_at": "2021-10-15T23:02:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 310,
+                    "question_id": 75,
+                    "description": "Sistólico, em ruflar, com irradiação para a axila",
+                    "explanation": "Falso doc! 😋 A descrição do sopro é em DIAMANTE, com irradiação para as CARÓTIDAS.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T18:51:12.000Z",
+                    "updated_at": "2021-10-15T23:02:48.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 75,
+                "questionary_id": 267572,
+                "timer": 0
+            }
+        },
+        {
+            "id": 77,
+            "institution_id": 4,
+            "description": "Sobre a estenose aórtica é **INCORRETO** afirmar:\n",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T21:53:10.000Z",
+            "updated_at": "2021-10-16T02:05:13.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 77
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 77
+                    }
+                },
+                {
+                    "id": 7,
+                    "title": "Valvopatias",
+                    "description": "Estenoses e Insuficiências das valvas cardíacas",
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:24.000Z",
+                    "updated_at": "2020-05-16T23:45:24.000Z",
+                    "pivot": {
+                        "discipline_id": 7,
+                        "question_id": 77
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 316,
+                    "question_id": 77,
+                    "description": "Tem como causas importantes a Degeneração valvar, EAo congênita e Valva aórtica bicúspide congênita",
+                    "explanation": "Perfeito doc! A principal causa é a degeneração valvar em idosos. As principais causas congênitas são a Valva Aórtica bicúspide congênita e a EAo congênita!\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T18:53:10.000Z",
+                    "updated_at": "2021-10-15T23:05:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 317,
+                    "question_id": 77,
+                    "description": "O pulso característico é parvus e tardus",
+                    "explanation": "Perfeito doc! Devido à resistência imposta pela EAo, o pulso tem uma força (amplitude) pequena, ou seja, “parvus”, e uma duração prolongada “tardus”\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T18:53:10.000Z",
+                    "updated_at": "2021-10-15T23:05:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 318,
+                    "question_id": 77,
+                    "description": "A Pressão Arterial tende a ser Convergente",
+                    "explanation": "Perfeito doc! Como há menor ejeção de volume na sístole, a pressão sistólica cair e tende a se aproximar da diastólica\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T18:53:10.000Z",
+                    "updated_at": "2021-10-15T23:05:13.000Z",
+                    "files": []
+                },
+                {
+                    "id": 319,
+                    "question_id": 77,
+                    "description": "Pelo fenômeno de Gallavardin, devido a calcificação da valva aórtica em idosos, o sopro irradia para o foco aórtico acessório.",
+                    "explanation": "Falso doc!😋 O fenômeno de Gallavardin ocorre sim devido a calcificação da valva aórtica em idosos, mas ele consiste em irradiação do sopro para o foco MITRAL. Grave esse quadro clínico que é clássico👇\n- Sopro sistólico no foco mitral em idoso pode ser por estenose aórtica, devido ao fenômeno de Gallavardin!\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-18T18:53:10.000Z",
+                    "updated_at": "2021-10-15T23:05:13.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 77,
+                "questionary_id": 267572,
+                "timer": 0
+            }
+        },
+        {
+            "id": 78,
+            "institution_id": 4,
+            "description": "Sobre a insuficiência Aórtica (IAo) é correto afirmar, **EXCETO:**\n",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T21:55:07.000Z",
+            "updated_at": "2021-10-16T02:08:48.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 78
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 78
+                    }
+                },
+                {
+                    "id": 7,
+                    "title": "Valvopatias",
+                    "description": "Estenoses e Insuficiências das valvas cardíacas",
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:24.000Z",
+                    "updated_at": "2020-05-16T23:45:24.000Z",
+                    "pivot": {
+                        "discipline_id": 7,
+                        "question_id": 78
+                    }
+                },
+                {
+                    "id": 535,
+                    "title": "Curso de Valvopatias (Intensivo de ECG e TáDeClinicagem)",
+                    "description": null,
+                    "parent_id": 7,
+                    "is_enabled": true,
+                    "created_at": "2020-11-22T23:27:43.000Z",
+                    "updated_at": "2020-11-22T23:27:43.000Z",
+                    "pivot": {
+                        "discipline_id": 535,
+                        "question_id": 78
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 320,
+                    "question_id": 78,
+                    "description": "Os principais sintomas consistem em angina e aqueles relacionados à Insuficiência Cardíaca",
+                    "explanation": "Perfeito doc!😁 Esses são sintomas típicos da insuficiência aórtica!\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T18:55:07.000Z",
+                    "updated_at": "2021-10-15T23:08:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 321,
+                    "question_id": 78,
+                    "description": "A Pressão arterial na IAo tende a ser divergente",
+                    "explanation": "Perfeito doc! Como parte do sangue retorna da aorta para os ventrículos durante a diástole, há uma diminuição da pressão diastólica, e esse “sangue extra” que fica nos ventrículos na diástole é bombeado na sístole, aumentando a pressão sistólica, causando uma pressão arterial Divergente!\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T18:55:07.000Z",
+                    "updated_at": "2021-10-15T23:08:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 322,
+                    "question_id": 78,
+                    "description": "O sopro típico é proto diastólico, melhor ouvido em foco aórtico acessório",
+                    "explanation": "Perfeito doc! Essa é a descrição CLÁSSICA do sopro da insuficiência aórtica!\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T18:55:07.000Z",
+                    "updated_at": "2021-10-15T23:08:48.000Z",
+                    "files": []
+                },
+                {
+                    "id": 323,
+                    "question_id": 78,
+                    "description": "O sopro de Austin Flint pode ocorrer na Insuficiência Aórtica, causando uma insuficiência mitral relativa",
+                    "explanation": "Falso doc! Pegadinha do malandro!😴 O sopro de Austin Flint causa uma ESTENOSE mitral relativa, já que a regurgitação de sangue proveniente da IAo impede a devida abertura da válvula mitral, ocorrendo, portanto, uma estenose mitral relativa e não uma insuficiência valvar! Doc, dá uma olhada nessa imagem com os diferentes tipos de sopros👇\n- Fonte: https://pt.wikipedia.org/wiki/Sopro_diast%C3%B3lico\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-18T18:55:07.000Z",
+                    "updated_at": "2021-10-15T23:08:48.000Z",
+                    "files": [
+                        {
+                            "id": 21773,
+                            "file": "2f9fa729-a0e5-4e7f-b4d4-94a6eaa835ab.png",
+                            "name": "Phonocardiograms_from_normal_and_abnormal_heart_sounds.svg.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-10-15T23:08:27.000Z",
+                            "updated_at": "2021-10-15T23:08:27.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2f9fa729-a0e5-4e7f-b4d4-94a6eaa835ab.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 21773,
+                                "alternative_id": 323
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 78,
+                "questionary_id": 267572,
+                "timer": 0
+            }
+        },
+        {
+            "id": 79,
+            "institution_id": 4,
+            "description": "Quanto à fisiopatologia da Insuficiência Aórtica, marque a alternativa **INCORRETA:**\n",
+            "difficulty": "easy",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T21:56:43.000Z",
+            "updated_at": "2021-10-16T02:13:29.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 79
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 79
+                    }
+                },
+                {
+                    "id": 7,
+                    "title": "Valvopatias",
+                    "description": "Estenoses e Insuficiências das valvas cardíacas",
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:24.000Z",
+                    "updated_at": "2020-05-16T23:45:24.000Z",
+                    "pivot": {
+                        "discipline_id": 7,
+                        "question_id": 79
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 324,
+                    "question_id": 79,
+                    "description": "Dentre as causas, podemos citar: Febre Reumática, Endocardite, Mixomas, Sífilis, Síndrome de Marfan e Espondilite Anquilosante.",
+                    "explanation": "Perfeito doc! Grave que as insuficiências tem um GRANDE NÚMERO DE CAUSAS, diferente das estenoses, que tem causas mais restritas!\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T18:56:43.000Z",
+                    "updated_at": "2021-10-15T23:13:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 325,
+                    "question_id": 79,
+                    "description": "Quando se estabelece agudamente, a IAo causa Edema Agudo de Pulmão",
+                    "explanation": "Perfeito doc!😁 Quando se estabelece agudamente, como em casos de Endocardite, não há tempo para o VE se adaptar à sobrecarga de volume, ocorrendo consequentemente congestão pulmonar aguda!\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T18:56:43.000Z",
+                    "updated_at": "2021-10-15T23:13:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 326,
+                    "question_id": 79,
+                    "description": "Quando se estabelece cronicamente, a IAo causa sintomas de Insuficiência Cardíaca Congestiva. ",
+                    "explanation": "Perfeito doc!😁 A IAo cronicamente causa sobrecarga de volume no VE, dando tempo para ele se adaptar. Porém, ao longo do tempo, o VE não conseguirá mais dar conta de todo esse volume, tendo sua contratilidade e acomodação prejudicados, gerando sintomas de Insuficiência Cardíaca Congestiva!\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T18:56:43.000Z",
+                    "updated_at": "2021-10-15T23:13:29.000Z",
+                    "files": []
+                },
+                {
+                    "id": 327,
+                    "question_id": 79,
+                    "description": "Ao Raio-X de tórax de um paciente com IAo estabelecida cronicamente, veremos um coração de tamanho normal.",
+                    "explanation": "Falso doc!😴 Conforme o comentário na alternativa C, cronicamente ocorrerá dilatação das câmaras cardíacas esquerdas. Logo, teremos um coração grande devido a sobrecarga de volume, como ilustrado na imagem abaixo👇\n- Fonte: https://www.msdmanuals.com/pt/casa/dist%C3%BArbios-do-cora%C3%A7%C3%A3o-e-dos-vasos-sangu%C3%ADneos/diagn%C3%B3stico-de-dist%C3%BArbios-do-cora%C3%A7%C3%A3o-e-dos-vasos-sangu%C3%ADneos/radiografias-do-t%C3%B3rax\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-18T18:56:43.000Z",
+                    "updated_at": "2021-10-15T23:13:29.000Z",
+                    "files": [
+                        {
+                            "id": 21774,
+                            "file": "271eb0e6-7b65-4ab0-a460-1d1dab3f320f.jpeg",
+                            "name": "523-dilated-cardiomyopathy-chest-x-ray-s116-springer-high_pt.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-10-15T23:13:22.000Z",
+                            "updated_at": "2021-10-15T23:13:22.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/271eb0e6-7b65-4ab0-a460-1d1dab3f320f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 21774,
+                                "alternative_id": 327
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 79,
+                "questionary_id": 267572,
+                "timer": 0
+            }
+        },
+        {
+            "id": 80,
+            "institution_id": 4,
+            "description": "Sobre a Estenose Mitral (EMi) é correto afirmar, **EXCETO:**\n",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T21:59:40.000Z",
+            "updated_at": "2021-10-20T01:11:07.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 80
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 80
+                    }
+                },
+                {
+                    "id": 7,
+                    "title": "Valvopatias",
+                    "description": "Estenoses e Insuficiências das valvas cardíacas",
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:24.000Z",
+                    "updated_at": "2020-05-16T23:45:24.000Z",
+                    "pivot": {
+                        "discipline_id": 7,
+                        "question_id": 80
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 328,
+                    "question_id": 80,
+                    "description": "Dentre os sintomas, podemos encontrar dispneia, tosse, sibilos, hemoptise, palpitação, disfagia e rouquidão",
+                    "explanation": "Essa está certa doc! Na EMi, o sangue não consegue ser esvaziado adequadamente do AE para o VE, causando sobrecarga de volume e consequente dilatação do VE, tendo como consequências: Congestão Pulmonar (Dispneia, Tosse, Sibilos e Hemoptise), Áreas de distensão do AE e consequentemente Fibrilação Atrial (Palpitação), AE aumentado comprimindo estruturas adjacentes como o esôfago (disfagia) e o n. laríngeo recorrente (rouquidão).\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T18:59:40.000Z",
+                    "updated_at": "2021-10-19T22:11:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 329,
+                    "question_id": 80,
+                    "description": "Ao raio-X, podemos encontrar o sinal da bailarina, devido ao aumento do volume do Átrio Esquerdo (AE)",
+                    "explanation": "Essa está certa doc! Com o aumento do AE, ocorre elevação do brônquio-fonte Esquerdo, caracterizando o sinal da bailarina. Saca só essa imagem doc👇",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T18:59:40.000Z",
+                    "updated_at": "2021-10-19T22:11:07.000Z",
+                    "files": [
+                        {
+                            "id": 21813,
+                            "file": "29b8efa0-e47d-4591-9542-efa89282069a.jpeg",
+                            "name": "00000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-10-16T22:26:39.000Z",
+                            "updated_at": "2021-10-16T22:26:39.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/29b8efa0-e47d-4591-9542-efa89282069a.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 21813,
+                                "alternative_id": 329
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 330,
+                    "question_id": 80,
+                    "description": "O Sopro de Grahm Steel é um sopro diastólico de insuficiência tricúspide que é consequência da sobrecarga do Átrio esquerdo gerado pela EMi.",
+                    "explanation": "Acertou, Doc! Essa é a **incorreta**.😍 O Sopro de Grahm Steel é um sopro de insuficiência tricúspide como uma consequência da sobrecarga do Átrio esquerdo gerada pela EMi, Porém, o sopro de Insuficiência tricúspide é SISTÓLICO, já que há regurgitação de sangue para o átrio Direito durante a sístole do ventrículo direito.\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-18T18:59:40.000Z",
+                    "updated_at": "2021-10-19T22:11:07.000Z",
+                    "files": []
+                },
+                {
+                    "id": 331,
+                    "question_id": 80,
+                    "description": "Podemos encontrar rouquidão pela compressão do nervo laríngeo recorrente pelo Átrio Esquerdo aumentado de tamanho",
+                    "explanation": "Essa está certa doc! Conforme comentário na alternativa A, várias manifestações extra-cardíacas podem ocorrer por conta do aumento de volume do átrio esquerdo",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T18:59:41.000Z",
+                    "updated_at": "2021-10-19T22:11:07.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 80,
+                "questionary_id": 267572,
+                "timer": 0
+            }
+        },
+        {
+            "id": 81,
+            "institution_id": 4,
+            "description": "Assinale a alternativa **CORRETA** sobre a Estenose Mitral (EMi):\n",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T22:01:05.000Z",
+            "updated_at": "2021-10-17T01:30:32.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 81
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 81
+                    }
+                },
+                {
+                    "id": 7,
+                    "title": "Valvopatias",
+                    "description": "Estenoses e Insuficiências das valvas cardíacas",
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:24.000Z",
+                    "updated_at": "2020-05-16T23:45:24.000Z",
+                    "pivot": {
+                        "discipline_id": 7,
+                        "question_id": 81
+                    }
+                },
+                {
+                    "id": 535,
+                    "title": "Curso de Valvopatias (Intensivo de ECG e TáDeClinicagem)",
+                    "description": null,
+                    "parent_id": 7,
+                    "is_enabled": true,
+                    "created_at": "2020-11-22T23:27:43.000Z",
+                    "updated_at": "2020-11-22T23:27:43.000Z",
+                    "pivot": {
+                        "discipline_id": 535,
+                        "question_id": 81
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 332,
+                    "question_id": 81,
+                    "description": "Febre Reumática é uma das causas, mas não é a principal.",
+                    "explanation": "Falso doc!😋 Febre Reumática é sim a principal causa de estenose mitral em cerca de 90% das vezes. Lembre ainda que a febre reumática é uma complicação inflamatória aguda da infecção faríngea por estreptococos do grupo A (GAS), o famoso Streptococcus pyogenes! Cuidado para não confundir o Staphylococcus aureus, que pode causar endocardite, com o Strep pyogenes. A febre reumática causa artrites, cardites, nódulos subcutâneos, eritema marginado e coreia. O diagnóstico baseia-se na aplicação dos critérios de Jones relacionados com dados de história, exame e testes laboratoriais. O tratamento inclui ácido acetilsalicílico ou outros anti-inflamatórios não esteroides (AINEs), corticoides durante cardites graves e antimicrobianos para erradicar infecção estreptocócica residual e prevenir a reinfecção. \n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:01:05.000Z",
+                    "updated_at": "2021-10-16T22:30:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 333,
+                    "question_id": 81,
+                    "description": "O sopro típico da estenose mitral é Mesodiastólico, em ruflar, com B1 Hiperfonética e estalido de abertura mitral.",
+                    "explanation": "Perfeito doc! Arrasou! 😍 Esse é o sopro típico da estenose mitral. Lembre da dica das estenoses, elas tem uma descrição “artística”: Estenose aórtica tem sopro “em diamante” e estenose mitral tem sopro “em ruflar”, como o som das asas de um pássaro. Doc, se liga nesse esquema👇\n- Fonte: https://pt.wikipedia.org/wiki/Sopro_diast%C3%B3lico\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:01:05.000Z",
+                    "updated_at": "2021-10-16T22:30:32.000Z",
+                    "files": [
+                        {
+                            "id": 21773,
+                            "file": "2f9fa729-a0e5-4e7f-b4d4-94a6eaa835ab.png",
+                            "name": "Phonocardiograms_from_normal_and_abnormal_heart_sounds.svg.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-10-15T23:08:27.000Z",
+                            "updated_at": "2021-10-15T23:08:27.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2f9fa729-a0e5-4e7f-b4d4-94a6eaa835ab.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 21773,
+                                "alternative_id": 333
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 334,
+                    "question_id": 81,
+                    "description": "Uma área de valva mitral menor que 2cm² caracteriza uma estenose grave.",
+                    "explanation": "Falso doc!😋 Para ser caracterizado como grave, a área deve ser menor que 1,5cm².\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:01:05.000Z",
+                    "updated_at": "2021-10-16T22:30:32.000Z",
+                    "files": []
+                },
+                {
+                    "id": 335,
+                    "question_id": 81,
+                    "description": "Na decisão do tratamento percutâneo, um score de Block-Wilkins ≤ 15 define a anatomia valvar como favorável para esse procedimento.",
+                    "explanation": "Falso doc!😁 Um score Block-Wilkins ≤ 8 é que define uma anatomia valvar favorável ao tratamento percutâneo. As características valvares avaliadas nesses score são: Mobilidade, Acometimento subvalvar, Espessura dos Folhetos e Calcificação Mitral. Macete para decorar esses itens do score de Block Wilkins: MedSimple Em Casa (Mobilidade, Subvalvar, Espessura e Calcificação)\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:01:05.000Z",
+                    "updated_at": "2021-10-16T22:30:32.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 81,
+                "questionary_id": 267572,
+                "timer": 0
+            }
+        },
+        {
+            "id": 82,
+            "institution_id": 4,
+            "description": "Sobre a Insuficiência Mitral (IMi), marque a alternativa **INCORRETA:**\n",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T19:02:31.000Z",
+            "updated_at": "2021-10-16T22:33:23.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 82
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 82
+                    }
+                },
+                {
+                    "id": 7,
+                    "title": "Valvopatias",
+                    "description": "Estenoses e Insuficiências das valvas cardíacas",
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:24.000Z",
+                    "updated_at": "2020-05-16T23:45:24.000Z",
+                    "pivot": {
+                        "discipline_id": 7,
+                        "question_id": 82
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 336,
+                    "question_id": 82,
+                    "description": "O sopro típico da IMi é holossistólico, com irradiação para a axila e B1 Hipofonética.",
+                    "explanation": "Perfeito doc! Essa é a descrição perfeita do sopro típico da IMi. É legal notar que na IMi a B1 é hipofonética, enquanto na EMi a B1 é Hiperfonética.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:02:31.000Z",
+                    "updated_at": "2021-10-16T22:33:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 337,
+                    "question_id": 82,
+                    "description": "Dentre as valvopatias, é a que ocorre com mais frequência após Febre Reumática",
+                    "explanation": "Perfeito doc! A IMi é a queridinha da Febre Reumática, apesar de a Febre Reumática poder causar qualquer uma das outras valvopatias.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:02:31.000Z",
+                    "updated_at": "2021-10-16T22:33:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 338,
+                    "question_id": 82,
+                    "description": "Os sintomas típicos são dispneia e relacionados a Insuficiência Cardíaca Congestiva.",
+                    "explanation": "Perfeito doc! Dispneia e ICC devido a sobrecarga do átrio esquerdo ocorrem com frequência.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:02:31.000Z",
+                    "updated_at": "2021-10-16T22:33:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 339,
+                    "question_id": 82,
+                    "description": "Quando se instala agudamente, a IMi não tem como característica causar Edema Agudo de Pulmão.",
+                    "explanation": "Falso doc!😴 Essa é a afirmação incorreta. Ao se instalar agudamente, não há tempo de adaptação das câmaras cardíacas, ocorrendo Edema Agudo de Pulmão. Isso ocorre, por exemplo, ao romper as cordoalhas da valva em um Infarto Agudo do Miocárdio.\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:02:31.000Z",
+                    "updated_at": "2021-10-16T22:33:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 82,
+                "questionary_id": 267572,
+                "timer": 0
+            }
+        },
+        {
+            "id": 84,
+            "institution_id": 4,
+            "description": "Sobre as próteses valvares, marque a associação **CORRETA:**\n",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T19:07:25.000Z",
+            "updated_at": "2021-10-16T22:41:57.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 84
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 84
+                    }
+                },
+                {
+                    "id": 7,
+                    "title": "Valvopatias",
+                    "description": "Estenoses e Insuficiências das valvas cardíacas",
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:24.000Z",
+                    "updated_at": "2020-05-16T23:45:24.000Z",
+                    "pivot": {
+                        "discipline_id": 7,
+                        "question_id": 84
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 344,
+                    "question_id": 84,
+                    "description": "Próteses biológicas são menos duráveis e são menos trombogênicas, logo são mais indicadas para idosos",
+                    "explanation": "Perfeito doc! Arrasou!😍 Próteses biológicas são mais semelhantes ao nosso organismo, causando menos trombo, porém tem menor durabilidade, sendo ideal para idosos. Doc, se liga nessa imagem ilustrando as valvas mecânicas e as biológicas👇\n- Fonte: https://blog.escolaecope.com.br/proteses-valvares-cardiacas-avaliacao/\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:07:25.000Z",
+                    "updated_at": "2021-10-16T22:41:57.000Z",
+                    "files": [
+                        {
+                            "id": 21814,
+                            "file": "2b89538b-5484-4732-9826-b13b52418291.jpeg",
+                            "name": "00000000000000000000000000000000000000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-10-16T22:39:06.000Z",
+                            "updated_at": "2021-10-16T22:39:06.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/2b89538b-5484-4732-9826-b13b52418291.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 21814,
+                                "alternative_id": 344
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 345,
+                    "question_id": 84,
+                    "description": "Próteses biológicas são mais duráveis e são menos trombogênicas, logo são mais indicadas para idosos.",
+                    "explanation": "Falso doc!😋 Próteses Biológicas são mais semelhantes ao nosso organismo, causando menos trombo, porém tem **menor durabilidad**e, sendo ideal para idosos.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:07:25.000Z",
+                    "updated_at": "2021-10-16T22:41:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 346,
+                    "question_id": 84,
+                    "description": "Próteses metálicas são mais trombogênicas, porém são mais duráveis, logo são mais indicadas para pacientes idosos.",
+                    "explanation": "Falso doc!😋 Por serem mais duráveis, são mais indicadas para pacientes jovens!\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:07:25.000Z",
+                    "updated_at": "2021-10-16T22:41:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 347,
+                    "question_id": 84,
+                    "description": "Próteses metálicas não podem ser usadas em pacientes que necessitam de anticoagulação por alguma outra condição cardiovascular.",
+                    "explanation": "Falso doc!😋 As próteses metálicas também precisão de anticoagulação, pois elas são bastante trombogênicas. Logo, se o paciente já tem uma condição que ele precise usar anticoagulantes, pode-se utilizar a válvula metálica, já que essa anticoagulação vai ser útil para esse paciente tanto para a válvula mecânica tanto para sua doença!\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:07:25.000Z",
+                    "updated_at": "2021-10-16T22:41:57.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 84,
+                "questionary_id": 267572,
+                "timer": 0
+            }
+        },
+        {
+            "id": 85,
+            "institution_id": 13,
+            "description": "**Mulher, 30 anos, com estenose mitral sintomática, procura o pronto socorro devido a fibrilação atrial de alta resposta ventricular. Você deve indicar a reversão imediata da arritmia porque a paciente pode desenvolver rapidamente:**\n ",
+            "difficulty": "medium",
+            "year": "2020-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T22:09:03.000Z",
+            "updated_at": "2020-05-18T22:09:03.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 13,
+                "title": "UNIFESP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T18:27:33.000Z",
+                "updated_at": "2020-05-17T18:27:33.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 85
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 85
+                    }
+                },
+                {
+                    "id": 7,
+                    "title": "Valvopatias",
+                    "description": "Estenoses e Insuficiências das valvas cardíacas",
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:24.000Z",
+                    "updated_at": "2020-05-16T23:45:24.000Z",
+                    "pivot": {
+                        "discipline_id": 7,
+                        "question_id": 85
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 348,
+                    "question_id": 85,
+                    "description": "Bloqueio atrioventricular de alto grau",
+                    "explanation": "Não seria uma complicação nesse caso.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:09:03.000Z",
+                    "updated_at": "2020-05-18T19:09:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 349,
+                    "question_id": 85,
+                    "description": "Infarto agudo do miocárdio",
+                    "explanation": "Não seria uma complicação nesse caso.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:09:03.000Z",
+                    "updated_at": "2020-05-18T19:09:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 350,
+                    "question_id": 85,
+                    "description": "Choque cardiogênico",
+                    "explanation": "Por ser uma FA de alta resposta ventricular, talvez o choque cardiogênico não se instala-se tão rapidamente.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:09:03.000Z",
+                    "updated_at": "2020-05-18T19:09:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 351,
+                    "question_id": 85,
+                    "description": "Edema agudo de pulmão",
+                    "explanation": "Na estenose mitral há dificuldade de esvaziamento do sangue do AE para o VE e isso piora na presença de uma Fibrilação Atrial, na qual o AE não possui contrações eficazes. Logo, a sequência é o acúmulo de líquido para os pulmões, resultando em Edema Agudo de Pulmão.\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:09:03.000Z",
+                    "updated_at": "2020-05-18T19:09:03.000Z",
+                    "files": []
+                },
+                {
+                    "id": 352,
+                    "question_id": 85,
+                    "description": "Arritmia ventricular complexa",
+                    "explanation": "Não seria uma complicação nesse caso.\n\n",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:09:03.000Z",
+                    "updated_at": "2020-05-18T19:09:03.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 85,
+                "questionary_id": 267572,
+                "timer": 0
+            }
+        },
+        {
+            "id": 86,
+            "institution_id": 7,
+            "description": " **Paciente de 32 anos procurou atendimento ambulatorial por dispneia aos esforços moderados. O exame físico do aparelho cardiovascular mostra 1ª bulha hiperfonética, sopro diastólico em 5º espaço intercostal esquerdo na linha hemiclavicular (+++/6+), PA=110x70mmHg e FC=90bpm. Qual é o principal diagnóstico, tratamento inicial e exame-padrão ouro no diagnóstico das valvopatias, respectivamente?**\n",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T22:10:27.000Z",
+            "updated_at": "2020-11-23T17:31:25.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 7,
+                "title": "CERMAM",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-17T14:11:08.000Z",
+                "updated_at": "2020-05-17T14:11:08.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 86
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 86
+                    }
+                },
+                {
+                    "id": 7,
+                    "title": "Valvopatias",
+                    "description": "Estenoses e Insuficiências das valvas cardíacas",
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:24.000Z",
+                    "updated_at": "2020-05-16T23:45:24.000Z",
+                    "pivot": {
+                        "discipline_id": 7,
+                        "question_id": 86
+                    }
+                },
+                {
+                    "id": 535,
+                    "title": "Curso de Valvopatias (Intensivo de ECG e TáDeClinicagem)",
+                    "description": null,
+                    "parent_id": 7,
+                    "is_enabled": true,
+                    "created_at": "2020-11-22T23:27:43.000Z",
+                    "updated_at": "2020-11-22T23:27:43.000Z",
+                    "pivot": {
+                        "discipline_id": 535,
+                        "question_id": 86
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 353,
+                    "question_id": 86,
+                    "description": "Estenose tricúspide, betabloqueador e cintilografia do miocárdio",
+                    "explanation": "Sopro diastólico em foco mitral fala a favor de estenose mitral, cujo tratamento inicial é betabloqueador e exame diagnóstico o ecocardiograma.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:10:27.000Z",
+                    "updated_at": "2020-11-23T14:31:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 354,
+                    "question_id": 86,
+                    "description": "Estenose mitral, betabloqueador e ecocardiograma. ",
+                    "explanation": "Perfeito. Sopro diastólico em foco mitral fala a favor de estenose mitral, cujo tratamento inicial é betabloqueador e exame diagnóstico o ecocardiograma.\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:10:27.000Z",
+                    "updated_at": "2020-11-23T14:31:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 355,
+                    "question_id": 86,
+                    "description": "Estenose pulmonar, diurético e ecocardiograma.",
+                    "explanation": "Sopro diastólico em foco mitral fala a favor de estenose mitral, cujo tratamento inicial é betabloqueador e exame diagnóstico o ecocardiograma. O sopro de estenose pulmonar ocorre em 2ºEIC em bordo esternal esquerdo.\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:10:27.000Z",
+                    "updated_at": "2020-11-23T14:31:25.000Z",
+                    "files": []
+                },
+                {
+                    "id": 356,
+                    "question_id": 86,
+                    "description": "Insuficiência mitral, diurético e ecocardiograma.",
+                    "explanation": "O sopro da insuficiência mitral seria sistólico, e o tratamento clínico da Estenose Mitral é com Beta-bloqueador.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:10:27.000Z",
+                    "updated_at": "2020-11-23T14:31:25.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 86,
+                "questionary_id": 267572,
+                "timer": 0
+            }
+        },
+        {
+            "id": 87,
+            "institution_id": 22,
+            "description": "**Idoso de 72 anos trazido ao pronto atendimento com queixa de dor no peito seguida de desmaio quando ajudava a esposa a arrastar um armário, há 1 hora. Nos últimos 3 meses, teve várias vezes sensação de desmaio com tonturas e escurecimento da vista quando faz esforço, o que o obriga a se sentar, havendo melhora. Antecedente pessoal: HAS, em uso de captopril 75mg/dia, PA 140x82, FC=96bpm, sopro em foco aórtico com irradiação para a região cervical direita. A principal hipótese diagnóstica é:** ",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T22:12:16.000Z",
+            "updated_at": "2020-05-18T22:12:16.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 22,
+                "title": "UNICAMP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:12:16.000Z",
+                "updated_at": "2020-05-18T19:12:16.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 87
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 87
+                    }
+                },
+                {
+                    "id": 7,
+                    "title": "Valvopatias",
+                    "description": "Estenoses e Insuficiências das valvas cardíacas",
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:24.000Z",
+                    "updated_at": "2020-05-16T23:45:24.000Z",
+                    "pivot": {
+                        "discipline_id": 7,
+                        "question_id": 87
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 357,
+                    "question_id": 87,
+                    "description": "Estenose aórtica reumática",
+                    "explanation": "Apesar de ser estenose aórtica a principal hipótese, a etiologia reumática é mais comum em jovens do que idosos.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:12:16.000Z",
+                    "updated_at": "2020-05-18T19:12:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 358,
+                    "question_id": 87,
+                    "description": "Infarto Agudo do Miocárdio",
+                    "explanation": "A presença de sopro fala a favor de uma valvopatia.\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:12:16.000Z",
+                    "updated_at": "2020-05-18T19:12:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 359,
+                    "question_id": 87,
+                    "description": "Bloqueio atrioventricular Mobitz tipo I",
+                    "explanation": "A presença de sopro fala a favor de uma valvopatia",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T22:12:16.000Z",
+                    "updated_at": "2020-05-18T22:12:16.000Z",
+                    "files": []
+                },
+                {
+                    "id": 360,
+                    "question_id": 87,
+                    "description": "Estenose aórtica calcificada",
+                    "explanation": " O quadro clínico é típico de estenose aórtica: dispneia, angina e síncope aos esforços são a tríade clássica, sendo a etiologia de calcificação com degeneração valvar a principal causa dessa valvopatia em idosos.\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:12:16.000Z",
+                    "updated_at": "2020-05-18T19:12:16.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 87,
+                "questionary_id": 267572,
+                "timer": 0
+            }
+        },
+        {
+            "id": 83,
+            "institution_id": 4,
+            "description": "Sobre o tratamento das valvopatias, assinale a alternativa **CORRETA:**\n",
+            "difficulty": "hard",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T22:04:19.000Z",
+            "updated_at": "2021-10-17T01:36:42.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 3,
+                    "title": "Clínica Médica",
+                    "description": null,
+                    "parent_id": null,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:37:04.000Z",
+                    "updated_at": "2020-05-16T23:37:04.000Z",
+                    "pivot": {
+                        "discipline_id": 3,
+                        "question_id": 83
+                    }
+                },
+                {
+                    "id": 6,
+                    "title": "Cardiologia",
+                    "description": null,
+                    "parent_id": 3,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:00.000Z",
+                    "updated_at": "2020-05-16T23:45:00.000Z",
+                    "pivot": {
+                        "discipline_id": 6,
+                        "question_id": 83
+                    }
+                },
+                {
+                    "id": 7,
+                    "title": "Valvopatias",
+                    "description": "Estenoses e Insuficiências das valvas cardíacas",
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:24.000Z",
+                    "updated_at": "2020-05-16T23:45:24.000Z",
+                    "pivot": {
+                        "discipline_id": 7,
+                        "question_id": 83
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 340,
+                    "question_id": 83,
+                    "description": "Opta-se por tratar cirurgicamente os pacientes assintomáticos, independente da avaliação da função de contrátil do coração, para evitar complicações futuras.",
+                    "explanation": "Falso doc!😋 O tratamento cirúrgico em assintomáticos é realizado se houver algum outro fator agravante associado, como Fração de Ejeção do Ventrículo Esquerdo diminuída na EAo e IAo ou Fibrilação Atrial e Hipertensão Pulmonar na EMi e IMi\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:04:19.000Z",
+                    "updated_at": "2021-10-16T22:36:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 341,
+                    "question_id": 83,
+                    "description": "No tratamento clínico, deve-se realizar sempre a profilaxia para Endocardite. ",
+                    "explanation": "Perfeito doc! Arrasou demais!😍 Realiza-se profilaxia para Endocardite nas valvopatias, uma vez que lesão valvar é um fator predisponente para a instalação da infecção na Endocardite Infecciosa. \n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:04:19.000Z",
+                    "updated_at": "2021-10-16T22:36:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 342,
+                    "question_id": 83,
+                    "description": "No tratamento clínico da EAo, é indicado o uso de vasodilatadores, especialmente na EAo grave.",
+                    "explanation": "Falso doc!😋 Na EAo **contraindica-s**e o uso de vasodilatadores, especialmente na EAo grave. Inclusive o uso de iECA na EAo grave é contra-indicado, pois essas medicações pioram a hipotensão. Lembre que na estenose aórtica o volume ejetado é cada vez menor, agora imagine se você vasodilatar esse paciente, seria quase como uma mangueira com pouca água dentro!\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:04:19.000Z",
+                    "updated_at": "2021-10-16T22:36:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 343,
+                    "question_id": 83,
+                    "description": "No tratamento clínico da EMi, é contra-indicado o uso de beta-bloqueadores",
+                    "explanation": "Falso doc! Pelo contrário!😴 O uso de beta-bloqueadores é o indicado, uma vez que essa medicação aumenta o tempo de diástole do VE, permitindo um maior esvaziamento do AE, diminuindo a sobrecarga nessa câmara cardíaca!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:04:19.000Z",
+                    "updated_at": "2021-10-16T22:36:42.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 83,
+                "questionary_id": 267572,
+                "timer": 0
+            }
+        },
+        {
+            "id": 89,
+            "institution_id": 24,
+            "description": " Paciente de 60 anos refere episódio de síncope há 1 semana, após esforço físico vigoroso. Relata episódios de dor precordial também relacionados ao esforço, iniciados há 2 meses, mas nega acompanhamento prévio por qualquer patologia. Ausculta cadríaca: RCR, 3T (presença de B4), com 2ª bulha hipofonética e desdobramento paradoxal. Além disso, sopro sistólico mais audível na borda paraesternal esquerda, com irradiação para as carótidas. Segue o ECG do paciente abaixo. O diagnóstico mais provável é:\n\n\n",
+            "difficulty": "hard",
+            "year": "2012-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-05-18T19:16:29.000Z",
+            "updated_at": "2022-01-12T17:07:55.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 24,
+                "title": "UFG",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-18T19:16:29.000Z",
+                "updated_at": "2020-05-18T19:16:29.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 7,
+                    "title": "Valvopatias",
+                    "description": "Estenoses e Insuficiências das valvas cardíacas",
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-05-16T23:45:24.000Z",
+                    "updated_at": "2020-05-16T23:45:24.000Z",
+                    "pivot": {
+                        "discipline_id": 7,
+                        "question_id": 89
+                    }
+                },
+                {
+                    "id": 535,
+                    "title": "Curso de Valvopatias (Intensivo de ECG e TáDeClinicagem)",
+                    "description": null,
+                    "parent_id": 7,
+                    "is_enabled": true,
+                    "created_at": "2020-11-22T23:27:43.000Z",
+                    "updated_at": "2020-11-22T23:27:43.000Z",
+                    "pivot": {
+                        "discipline_id": 535,
+                        "question_id": 89
+                    }
+                },
+                {
+                    "id": 1070,
+                    "title": "Casos Clínicos com Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:02:01.000Z",
+                    "updated_at": "2022-01-15T20:21:49.000Z",
+                    "pivot": {
+                        "discipline_id": 1070,
+                        "question_id": 89
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 363,
+                    "question_id": 89,
+                    "description": "Infarto agudo do miocárdio sem supradesnivelamento de ST",
+                    "explanation": "A presença de sopro fala mais a favor de uma valvopatia.\n",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:16:29.000Z",
+                    "updated_at": "2022-01-12T17:07:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 364,
+                    "question_id": 89,
+                    "description": "Insuficiência mitral isquêmica",
+                    "explanation": "Sopro irradiando para as carótidas é bem típico de estenose aórtica. O sopro da insuficiência mitral irradia para axila.\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:16:29.000Z",
+                    "updated_at": "2022-01-12T17:07:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 365,
+                    "question_id": 89,
+                    "description": "Estenose Aórtica",
+                    "explanation": "Desdobramento paradoxal de B2 (aquele que ocorre na expiração) fala a favor de estenose aórtica, além do episódio de síncope após esforço e angina. O ECG com sobrecarga ventricular esquerda e padrão strain (inversão de onda T e infra de ST) também fala a favor de estenose aórtica.\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-05-18T19:16:29.000Z",
+                    "updated_at": "2022-01-12T17:07:55.000Z",
+                    "files": []
+                },
+                {
+                    "id": 366,
+                    "question_id": 89,
+                    "description": "Comunicação Interatrial",
+                    "explanation": "A comunicação interatrial é um defeito congênito, que normalmente é descoberto em uma idade mais jovem.\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-05-18T19:16:29.000Z",
+                    "updated_at": "2022-01-12T17:07:55.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 1321,
+                    "file": "1606695046816.jpeg",
+                    "name": "screenshot.778.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-11-30T03:10:47.000Z",
+                    "updated_at": "2020-11-30T03:10:47.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1606695046816.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 1321,
+                        "question_id": 89
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 89,
+                "questionary_id": 267572,
+                "timer": 0
+            }
+        }
+    ]
+}

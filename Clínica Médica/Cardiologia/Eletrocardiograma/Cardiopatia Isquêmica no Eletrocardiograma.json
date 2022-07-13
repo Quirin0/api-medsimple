@@ -1,0 +1,970 @@
+{
+    "id": 267564,
+    "user_id": 1699,
+    "title": "Cardiopatia Isquêmica no Eletrocardiograma",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T02:31:41.000Z",
+    "updated_at": "2022-07-11T02:31:41.000Z",
+    "study_plan_id": 1126,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 1120,
+            "institution_id": 4,
+            "description": "Correlacione as derivações do ECG com a região do coração com determinada região\n- **I.** V1-V2 \n- **II.** V3-V4  \n- **III**.DII, DIII e avF \n- **IV.** DI e AvL\n- **A.**Parede inferior  \n- **B.**Septal  \n- **C**.Anterior \n- **D**.Lateral Alta\n",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-03T01:10:51.000Z",
+            "updated_at": "2022-01-12T20:52:42.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 135,
+                    "title": "Síndromes Coronarianas Agudas (SCA)",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-06-03T00:20:49.000Z",
+                    "updated_at": "2020-06-03T00:20:49.000Z",
+                    "pivot": {
+                        "discipline_id": 135,
+                        "question_id": 1120
+                    }
+                },
+                {
+                    "id": 222,
+                    "title": "Eletrocardiograma Normal",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-06-17T03:18:03.000Z",
+                    "updated_at": "2022-01-12T20:16:23.000Z",
+                    "pivot": {
+                        "discipline_id": 222,
+                        "question_id": 1120
+                    }
+                },
+                {
+                    "id": 1073,
+                    "title": "Cardiopatia Isquêmica no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:52:34.000Z",
+                    "updated_at": "2022-01-15T20:21:57.000Z",
+                    "pivot": {
+                        "discipline_id": 1073,
+                        "question_id": 1120
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4600,
+                    "question_id": 1120,
+                    "description": "I A, II C, III B, IV D",
+                    "explanation": "Confira o comentário completo na alternativa correta ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-02T22:10:52.000Z",
+                    "updated_at": "2022-01-12T17:52:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4601,
+                    "question_id": 1120,
+                    "description": "I A, II D, III C, IV B",
+                    "explanation": "Confira o comentário completo na alternativa correta ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-02T22:10:52.000Z",
+                    "updated_at": "2022-01-12T17:52:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4602,
+                    "question_id": 1120,
+                    "description": "I B, II A , III C, IV D",
+                    "explanation": "Confira o comentário completo na alternativa correta",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-02T22:10:52.000Z",
+                    "updated_at": "2022-01-12T17:52:42.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4603,
+                    "question_id": 1120,
+                    "description": "I B, II C, III A e IV D",
+                    "explanation": "Perfeito. Cada derivação reflete melhor uma área cardíaca irrigada por determinada artéria. O raciocínio de como isso ocorre é justamente relacionado à posição de cada um dos eletrodos do ECG. \nFizemos um resumo para vocês poderem exercitar:\n\n\n\n\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-02T22:10:52.000Z",
+                    "updated_at": "2022-01-12T17:52:42.000Z",
+                    "files": [
+                        {
+                            "id": 278,
+                            "file": "1591135795380.png",
+                            "name": "Sem título.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-06-03T01:09:55.000Z",
+                            "updated_at": "2020-06-03T01:09:55.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591135795380.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 278,
+                                "alternative_id": 4603
+                            }
+                        },
+                        {
+                            "id": 1086,
+                            "file": "1600174425481.png",
+                            "name": "Sem título.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-09-15T15:53:46.000Z",
+                            "updated_at": "2020-09-15T15:53:46.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1600174425481.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 1086,
+                                "alternative_id": 4603
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1120,
+                "questionary_id": 267564,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1121,
+            "institution_id": 4,
+            "description": "Sobre a definição de SUPRA DE ST no ECG, consideramos:\n- I. Obrigatoriamente em 2 derivações contíguas\n- II.Bloqueio de Ramo Esquerdo Novo\n- III. Supra de ST ≥ 1mm em qualquer derivação",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-03T01:31:53.000Z",
+            "updated_at": "2022-01-15T20:13:31.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 135,
+                    "title": "Síndromes Coronarianas Agudas (SCA)",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-06-03T00:20:49.000Z",
+                    "updated_at": "2020-06-03T00:20:49.000Z",
+                    "pivot": {
+                        "discipline_id": 135,
+                        "question_id": 1121
+                    }
+                },
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 1121
+                    }
+                },
+                {
+                    "id": 1073,
+                    "title": "Cardiopatia Isquêmica no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:52:34.000Z",
+                    "updated_at": "2022-01-15T20:21:57.000Z",
+                    "pivot": {
+                        "discipline_id": 1073,
+                        "question_id": 1121
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4604,
+                    "question_id": 1121,
+                    "description": "Apenas I está correta",
+                    "explanation": "Falso, Doc! 😬 Confira o comentário completo na alternativa correta.\n💡Tem um super macete que tenho certeza que vai te ajudar ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-02T22:31:53.000Z",
+                    "updated_at": "2022-01-15T17:13:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4605,
+                    "question_id": 1121,
+                    "description": "Apenas I e II estão corretas",
+                    "explanation": "Perfeito, Doc! 😍 Que orgulho! A definição de SUPRA de ST engloba as seguintes definições:\n- Novo Bloqueio de Ramo Esquerdo ou;\n- Elevação do segmento ST **≥ 1mm e pelo menos 2 derivações contíguas** (ou seja, uma do ladinho da outra, como V1 e V2), exceto em **V2 e V3,** já que V2 e V3 já tem um \"suprinha\" fisiológico. Nessas duas derivações devo ter ≥ 1,5mm de elevação em mulheres de qualquer idade, ≥ 2mm de elevação em homens de 40 anos ou mais e ≥ 2,5mm de elevação em homens menores de 40 anos.\n\nNão se preocupe, temos um super macete para você lembrar desse detalhe:\n- 💡  Faça um \"V\" ✌️ com a sua mão. Ficam dois dedos para cima (para você lembrar de V2) e sobram 3 dedos para baixo (para vc lembrar de V3)\n- 💡Observe que em homens, exigimos uma elevação menor dos mais velhos. \"👴🏻Do velhinho a gente exige menos elevação\" \n\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-02T22:31:53.000Z",
+                    "updated_at": "2022-01-15T17:13:31.000Z",
+                    "files": [
+                        {
+                            "id": 279,
+                            "file": "1591136929620.jpeg",
+                            "name": "WhatsApp Image 2020-06-02 at 19.20.11 (2).jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-03T01:28:50.000Z",
+                            "updated_at": "2020-06-03T01:28:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591136929620.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 279,
+                                "alternative_id": 4605
+                            }
+                        },
+                        {
+                            "id": 280,
+                            "file": "1591136968449.jpeg",
+                            "name": "WhatsApp Image 2020-06-02 at 19.20.11 (1).jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-03T01:29:28.000Z",
+                            "updated_at": "2020-06-03T01:29:28.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591136968449.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 280,
+                                "alternative_id": 4605
+                            }
+                        },
+                        {
+                            "id": 281,
+                            "file": "1591136985315.jpeg",
+                            "name": "WhatsApp Image 2020-06-02 at 19.20.11.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-03T01:29:45.000Z",
+                            "updated_at": "2020-06-03T01:29:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591136985315.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 281,
+                                "alternative_id": 4605
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4606,
+                    "question_id": 1121,
+                    "description": "Apenas I e III estão corretas",
+                    "explanation": "Falso, Doc! 😬 Confira o comentário completo na alternativa correta. \n\n💡Tem um super macete que tenho certeza que vai te ajudar ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-02T22:31:53.000Z",
+                    "updated_at": "2022-01-15T17:13:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4607,
+                    "question_id": 1121,
+                    "description": "Todas as afirmativas estão corretas",
+                    "explanation": "Falso, Doc! 😬 Confira o comentário completo na alternativa correta. \n💡Tem um super macete que tenho certeza que vai te ajudar",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-02T22:31:53.000Z",
+                    "updated_at": "2022-01-15T17:13:31.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1121,
+                "questionary_id": 267564,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2732,
+            "institution_id": 4,
+            "description": "Sobre o conceito de onda Q patológica, assinale a alternativa CORRETA:",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-06T00:18:26.000Z",
+            "updated_at": "2022-01-16T01:00:57.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 2732
+                    }
+                },
+                {
+                    "id": 1073,
+                    "title": "Cardiopatia Isquêmica no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:52:34.000Z",
+                    "updated_at": "2022-01-15T20:21:57.000Z",
+                    "pivot": {
+                        "discipline_id": 1073,
+                        "question_id": 2732
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11242,
+                    "question_id": 2732,
+                    "description": "Deve ter 1/3 da altura do complexo QRS, pelo menos 0,04s de duração e estar presente em pelo menos duas derivações contíguas",
+                    "explanation": "Você é fera, Doc! 😻 Questão conceitual. Para uma onda Q ser considerada patológica, ela deve atender a 3 características: (💡 lembre-se da regra do \"1,2,3\"):\n- **\"1\"** Pelo menos 1 quadradinho de duração (ou seja, 0,04 segundos)\n- **\"2\"**: Presente em pelo menos 2 derivações contíguas\n- **\"3\"** Pelo menos 1/**3** da altura do QRS\n\n\nVeja na imagem, Doc 👇:\n\nFonte da imagem: https://cardiopapers.com.br/curso-basico-de-eletrocardiograma-parte-12-areas-inativas/\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-05T21:18:26.000Z",
+                    "updated_at": "2022-01-15T22:00:57.000Z",
+                    "files": [
+                        {
+                            "id": 25906,
+                            "file": "dd124b28-57de-46c1-9b48-c6cda40d91c5.png",
+                            "name": "Captura de tela 2022-01-11 135437.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T16:54:57.000Z",
+                            "updated_at": "2022-01-11T16:54:57.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/dd124b28-57de-46c1-9b48-c6cda40d91c5.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25906,
+                                "alternative_id": 11242
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11243,
+                    "question_id": 2732,
+                    "description": "Deve ter 1/3 da altura do complexo QRS, pelo menos 0,08s de duração e estar presente em pelo menos três derivações contíguas",
+                    "explanation": "Falso, Doc! 😫 Questão conceitual. Confira um super macete na alternativa correta para nunca mais errar 🤓.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-05T21:18:26.000Z",
+                    "updated_at": "2022-01-15T22:00:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11244,
+                    "question_id": 2732,
+                    "description": "Deve ter 1/4 da altura do complexo QRS, pelo menos 0,04s de duração e estar presente em pelo menos duas derivações contíguas",
+                    "explanation": "Falso, Doc! 😫 Questão conceitual. Confira um super macete na alternativa correta para nunca mais errar 🤓. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-05T21:18:26.000Z",
+                    "updated_at": "2022-01-15T22:00:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11245,
+                    "question_id": 2732,
+                    "description": "Deve ter 1/3 da altura do complexo QRS, pelo menos 0,04s de duração e independe de estar presente em pelo menos duas derivações contíguas",
+                    "explanation": "💡Questão conceitual. Confira um super Falso, Doc! 😫 Questão conceitual. Confira um super macete na alternativa correta para nunca mais errar 🤓.  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-05T21:18:26.000Z",
+                    "updated_at": "2022-01-15T22:00:57.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2732,
+                "questionary_id": 267564,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10729,
+            "institution_id": 447,
+            "description": "Qual das alternativas abaixo está INCORRETA em relação à localização da isquemia ou do infarto através do eletrocardiograma? ",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-09-07T15:35:04.000Z",
+            "updated_at": "2022-01-12T17:52:57.000Z",
+            "user_id": 91,
+            "is_residency": false,
+            "institution": {
+                "id": 447,
+                "title": "HOSPITAL UNIVERSITÁRIO  REGIONAL DE MARINGÁ – PR",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-09-07T15:35:04.000Z",
+                "updated_at": "2021-09-07T15:35:04.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 135,
+                    "title": "Síndromes Coronarianas Agudas (SCA)",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-06-03T00:20:49.000Z",
+                    "updated_at": "2020-06-03T00:20:49.000Z",
+                    "pivot": {
+                        "discipline_id": 135,
+                        "question_id": 10729
+                    }
+                },
+                {
+                    "id": 1073,
+                    "title": "Cardiopatia Isquêmica no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:52:34.000Z",
+                    "updated_at": "2022-01-15T20:21:57.000Z",
+                    "pivot": {
+                        "discipline_id": 1073,
+                        "question_id": 10729
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43906,
+                    "question_id": 10729,
+                    "description": "Parede anterosseptal - Derivações V1, V2, V3.",
+                    "explanation": "Correto Doc!\nO IAM Anterosseptal pode aparecer nas derivações V1-V2; V1-V3 ou V1-V4; \nTente associar a posição das derivações com as paredes cardíacas! \nFonte da imagem: [https://pt.my-ekg.com/generalidades-ecg/correlacao-paredes-derivacoes.html](https://pt.my-ekg.com/generalidades-ecg/correlacao-paredes-derivacoes.html)",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-09-07T15:35:04.000Z",
+                    "updated_at": "2022-01-12T17:52:57.000Z",
+                    "files": [
+                        {
+                            "id": 19053,
+                            "file": "e2214109-2fac-485b-80aa-60cbc2e735ca.png",
+                            "name": "derivaciones-localizacion.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-09-07T15:22:57.000Z",
+                            "updated_at": "2021-09-07T15:22:57.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e2214109-2fac-485b-80aa-60cbc2e735ca.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 19053,
+                                "alternative_id": 43906
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 43907,
+                    "question_id": 10729,
+                    "description": " Parede anterior - Derivações V1, V2, V3 e V4.",
+                    "explanation": "Correto!\nO IAM de parede anterior pode se manifestar em uma grande quantidade de derivações, subdivindo-se com maior especificidade em:\n- IAM Anterosseptal: V1-V2; V1-V3; V1-V4;\n- IAM Anterolateral: V5, V6, D1 e aVL;\n- IAM Anterior extenso: V1-V6, D1 e aVL; ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-09-07T15:35:04.000Z",
+                    "updated_at": "2022-01-12T17:52:57.000Z",
+                    "files": [
+                        {
+                            "id": 19053,
+                            "file": "e2214109-2fac-485b-80aa-60cbc2e735ca.png",
+                            "name": "derivaciones-localizacion.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-09-07T15:22:57.000Z",
+                            "updated_at": "2021-09-07T15:22:57.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e2214109-2fac-485b-80aa-60cbc2e735ca.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 19053,
+                                "alternative_id": 43907
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 43908,
+                    "question_id": 10729,
+                    "description": "Parede inferior - Derivações D2, D3, e aVF.",
+                    "explanation": "Correto!\nBasta lembrar da posição das derivações do ECG!\nFonte da imagem: [https://pt.my-ekg.com/generalidadesecg/correlacao-paredes-derivacoes.html](https://pt.my-ekg.com/generalidades-ecg/correlacao-paredes-derivacoes.html) ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-09-07T15:35:04.000Z",
+                    "updated_at": "2022-01-12T17:52:57.000Z",
+                    "files": [
+                        {
+                            "id": 19053,
+                            "file": "e2214109-2fac-485b-80aa-60cbc2e735ca.png",
+                            "name": "derivaciones-localizacion.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-09-07T15:22:57.000Z",
+                            "updated_at": "2021-09-07T15:22:57.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e2214109-2fac-485b-80aa-60cbc2e735ca.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 19053,
+                                "alternative_id": 43908
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 43909,
+                    "question_id": 10729,
+                    "description": "Parede dorsal - Derivações D1 e aVL.",
+                    "explanation": "Essa é a incorreta Doc!\nO IAM dorsal é mais difícil de visualizar, para isso utilizamos alguns recursos, como derivações extra e visualização de imagens espelhadas.\nAs derivações típicas para o diagnóstico de IAM Dorsal são: imagem em espelho em V1-V2 ou V1-V5 ou supra ST em V7 e V8.\nFonte da imagem: [https://pt.my-ekg.com/generalidadesecg/correlacao-paredes-derivacoes.html](https://pt.my-ekg.com/generalidades-ecg/correlacao-paredes-derivacoes.html) ",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2021-09-07T15:35:04.000Z",
+                    "updated_at": "2022-01-12T17:52:57.000Z",
+                    "files": [
+                        {
+                            "id": 19053,
+                            "file": "e2214109-2fac-485b-80aa-60cbc2e735ca.png",
+                            "name": "derivaciones-localizacion.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-09-07T15:22:57.000Z",
+                            "updated_at": "2021-09-07T15:22:57.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e2214109-2fac-485b-80aa-60cbc2e735ca.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 19053,
+                                "alternative_id": 43909
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 43910,
+                    "question_id": 10729,
+                    "description": "Ventrículo direito - Derivações V3R, V4R, V5R e V6R.",
+                    "explanation": "Correto!\nAs derivações com R referem-se à derivações extras colocados no lado direito do coração, na mesma posição de V1, V2, V3, etc.\nFonte da imagem: https://pt.my-ekg.com/generalidadesecg/derivacoes-direitas-posteriores.html",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-09-07T15:35:04.000Z",
+                    "updated_at": "2022-01-12T17:52:57.000Z",
+                    "files": [
+                        {
+                            "id": 19054,
+                            "file": "81a721de-6e01-41b1-bc4f-adc1b43c9729.png",
+                            "name": "derivações direita.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-09-07T15:32:33.000Z",
+                            "updated_at": "2021-09-07T15:32:33.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/81a721de-6e01-41b1-bc4f-adc1b43c9729.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 19054,
+                                "alternative_id": 43910
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10729,
+                "questionary_id": 267564,
+                "timer": 0
+            }
+        },
+        {
+            "id": 10735,
+            "institution_id": 448,
+            "description": "Sr. Manoel, 57 anos, procurou o pronto-socorro por  causa de dor no peito, do tipo “opressiva”, com duração acima de duas horas, que se manifestou enquanto dormia. Sua frequência cardíaca é de 41 bpm. \nO ECG revela bradicardia sinusal e supradesnivelamento de ST nas derivações DII, DIII e aVF. \nAssinale a alternativa CORRETA: ",
+            "difficulty": "medium",
+            "year": "2013-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-09-07T16:29:50.000Z",
+            "updated_at": "2022-01-12T17:53:05.000Z",
+            "user_id": 91,
+            "is_residency": false,
+            "institution": {
+                "id": 448,
+                "title": "HOSPITAL DAS CLÍNICAS DA UFU – MG",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-09-07T16:29:50.000Z",
+                "updated_at": "2021-09-07T16:29:50.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 135,
+                    "title": "Síndromes Coronarianas Agudas (SCA)",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-06-03T00:20:49.000Z",
+                    "updated_at": "2020-06-03T00:20:49.000Z",
+                    "pivot": {
+                        "discipline_id": 135,
+                        "question_id": 10735
+                    }
+                },
+                {
+                    "id": 1070,
+                    "title": "Casos Clínicos com Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:02:01.000Z",
+                    "updated_at": "2022-01-15T20:21:49.000Z",
+                    "pivot": {
+                        "discipline_id": 1070,
+                        "question_id": 10735
+                    }
+                },
+                {
+                    "id": 1073,
+                    "title": "Cardiopatia Isquêmica no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:52:34.000Z",
+                    "updated_at": "2022-01-15T20:21:57.000Z",
+                    "pivot": {
+                        "discipline_id": 1073,
+                        "question_id": 10735
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 43932,
+                    "question_id": 10735,
+                    "description": "IAM de parede inferior.",
+                    "explanation": "Essa é a correta!\nVamos ver o porquê:\nO quadro clínico indica um IAM típico, com um \"supra de ST\" no ECG. As derivações afetadas são DII, DIII e aVF, todas da parede inferior do coração. Podemos inferir que a obstrução é na artéria coronária direita.\nMas por que a bradicardia?\nA bradicardia sinusal é frequente nas primeiras 6 horas do IAM, mais comum ainda quando a parede inferior é acometida. Isso decorre principalmente de uma hiperativação vagal! Esse fenômeno é conhecido como reflexo de Bezold-Jarisch. ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-09-07T16:29:50.000Z",
+                    "updated_at": "2022-01-12T17:53:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43933,
+                    "question_id": 10735,
+                    "description": "Aneurisma de ventrículo esquerdo",
+                    "explanation": "Incorreto!\nVeja a afirmativa correta para saber certinho o porquê!",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-09-07T16:29:50.000Z",
+                    "updated_at": "2022-01-12T17:53:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43934,
+                    "question_id": 10735,
+                    "description": " Infarto anterior extenso.",
+                    "explanation": "Incorreto!\n\nVeja a afirmativa correta para saber certinho o porquê! ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-09-07T16:29:50.000Z",
+                    "updated_at": "2022-01-12T17:53:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43935,
+                    "question_id": 10735,
+                    "description": " Infarto de ventrículo direito.",
+                    "explanation": "Incorreto!\n\nVeja a afirmativa correta para saber certinho o porquê! ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-09-07T16:29:50.000Z",
+                    "updated_at": "2022-01-12T17:53:05.000Z",
+                    "files": []
+                },
+                {
+                    "id": 43936,
+                    "question_id": 10735,
+                    "description": "Isquemia da parede anterior",
+                    "explanation": "Incorreto!\n\nVeja a afirmativa correta para saber certinho o porquê! ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-09-07T16:29:50.000Z",
+                    "updated_at": "2022-01-12T17:53:05.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 10735,
+                "questionary_id": 267564,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12392,
+            "institution_id": 556,
+            "description": "JCF, 52 anos, diabético e tabagista procurou o P.S. com queixa de dor tipo aperto em região epigástrica, com irradiação para região retroesternal e mandíbula, acompanhada de náuseas e sudorese intensa. PA= 90/50 mmHg, FC= 104 bpm, Pulmões: MV presente bilateralmente, sem RA. Coração: rítmico, sem sopros, bulhas normofonéticas. Pulsos: presentes e simétricos. ECG: Responda a questão: (VER IMAGEM - imagem adaptada): Assinale a alternativa correta:\n\n\nFonte da imagem: [https://medpri.me/upload/texto/texto-aula-420.html](https://medpri.me/upload/texto/texto-aula-420.html)\n\n",
+            "difficulty": "medium",
+            "year": "2009-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-01-15T18:13:08.000Z",
+            "updated_at": "2022-01-15T22:55:41.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 556,
+                "title": "UNIVERSIDADE DE RIBEIRÃO PRETO",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2022-01-15T18:13:08.000Z",
+                "updated_at": "2022-01-15T18:13:08.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1073,
+                    "title": "Cardiopatia Isquêmica no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:52:34.000Z",
+                    "updated_at": "2022-01-15T20:21:57.000Z",
+                    "pivot": {
+                        "discipline_id": 1073,
+                        "question_id": 12392
+                    }
+                },
+                {
+                    "id": 1070,
+                    "title": "Casos Clínicos com Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:02:01.000Z",
+                    "updated_at": "2022-01-15T20:21:49.000Z",
+                    "pivot": {
+                        "discipline_id": 1070,
+                        "question_id": 12392
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 50788,
+                    "question_id": 12392,
+                    "description": "Trata-se de um IAM com supra de parede anterior e o paciente deverá ser encaminhado para angioplastia primária.",
+                    "explanation": "Falso, Doc! 🤔 \n- As derivações com supra de ST são DII, DIII e AVF, indicando que a parede acometida é a **inferior**, irrigada pela coronária direita.\n- Se a parede acometida fosse a anterior, as derivações alteradas seriam as de **V3 e V4**",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-01-15T18:13:08.000Z",
+                    "updated_at": "2022-01-15T22:55:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50789,
+                    "question_id": 12392,
+                    "description": "Trata-se de um IAM com supra de parede inferior e o paciente deverá receber imediatamente nitrato e morfina para alívio da dor. ",
+                    "explanation": "Falso, Doc! 🤔 \n- As derivações com supra de ST são DII, DIII e AVF, indicando que a parede acometida é a **inferior**, irrigada pela coronária direita. \n- A mesma artéria irriga o ventrículo direito, e em infartos de VD o nitrato está **contraindicado**. \n- Isso porque o nitrato causa venodilatação, podendo reter o sangue nas veias, prejudicando a pré-carga para o coração direito e causar hipotensão, piorando o quadro. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-01-15T18:13:08.000Z",
+                    "updated_at": "2022-01-15T22:55:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50790,
+                    "question_id": 12392,
+                    "description": "Trata-se de um IAM com supra de parede anterior e o paciente deverá receber Trombolítico, AAS, nitrato, clopidogrel e heparina. ",
+                    "explanation": "Falso, Doc! 🤔 \n- As derivações com supra de ST são DII, DIII e AVF, indicando que a parede acometida é a **inferior**, irrigada pela coronária direita.\n- Se a parede acometida fosse a anterior, as derivações alteradas seriam as de **V3 e V4.**",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-01-15T18:13:08.000Z",
+                    "updated_at": "2022-01-15T22:55:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50791,
+                    "question_id": 12392,
+                    "description": "Trata-se de um IAM sem supra de ST de alto risco, devendo o paciente ser encaminhado para realização de Cineangiocoronariografia de urgência. ",
+                    "explanation": "Falso, Doc! 🤔 \n- As derivações **com supra de ST** são DII, DIII e AVF, indicando que a parede acometida é a inferior, irrigada pela coronária direita.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-01-15T18:13:08.000Z",
+                    "updated_at": "2022-01-15T22:55:41.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50792,
+                    "question_id": 12392,
+                    "description": "Trata-se de um IAM de parede inferior e deverá ser traçado V7 e V8 e V3R e V4R. O paciente deverá ser encaminhado para trombólise imediata (mecânica ou química).",
+                    "explanation": "Perfeito, Doc! 😍 A paciente possui supra de ST nas derivações D2, D3 e AVF, o que indica infarto da parede inferior. \n- ⚠️ Doc, grava isso: sempre que houver sinais de infarto nas derivações da parede inferior (D2, D3 e AVF) precisamos fazer a pesquisa de infarto nas paredes **posterior (V7 e V8) e direita (V3R e V4R),** com eletrodos acessórios.\n- Devemos fazer isso porque a **artéria coronária direita** (responsável pela irrigação da parede **inferior**), também irriga as paredes do VD (**direita**) e **posterior** do coração.  \n- O tratamento de escolha seria a **angioplastia primária**\n- A **trombólise imediata** (mecânica ou química) deve ser feita em casos em que não é possível fazer o procedimento ou quando for demorar mais de 120 minutos para poder realizá-lo. \n\n\nDoc, olha essa tabela para lembrar a associação entre as derivações alteradas, a parede e a artéria acometida. Depois, se liga no esquema para visualizar isso no ECG 👇:\n\n\nFonte das imagens: [https://medpri.me/upload/texto/texto-aula-420.html](https://medpri.me/upload/texto/texto-aula-420.html)\n\n\n\n💡 Doc, só uma última dica. Se liga nas posições dos eletrodos acessórios. Você saberia colocá-los?\n- V3R = entre V1 e V4R (posição oposta a V3)\n- V4R = 5° espaço intercostal direito, na linha hemiclavicular direita (posição oposta a V4)\n- V7 = 5° EI esquerdo, linha axilar posterior\n- V8 = 5° EI esquerdo, no ângulo inferior da escápula\n- V9 = 5° EI esquerdo, na linha paravertebral esquerda",
+                    "order": 4,
+                    "correct": true,
+                    "created_at": "2022-01-15T18:13:08.000Z",
+                    "updated_at": "2022-01-15T22:55:41.000Z",
+                    "files": [
+                        {
+                            "id": 26049,
+                            "file": "7ae94e41-e1a0-4304-aab1-403545944411.png",
+                            "name": "Captura de tela 2022-01-15 180349.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-15T21:05:54.000Z",
+                            "updated_at": "2022-01-15T21:05:54.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7ae94e41-e1a0-4304-aab1-403545944411.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26049,
+                                "alternative_id": 50792
+                            }
+                        },
+                        {
+                            "id": 26050,
+                            "file": "e7087659-9cc9-4afc-b7f1-3e5013fd67ae.png",
+                            "name": "Captura de tela 2022-01-15 180404.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-15T21:05:55.000Z",
+                            "updated_at": "2022-01-15T21:05:55.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/e7087659-9cc9-4afc-b7f1-3e5013fd67ae.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26050,
+                                "alternative_id": 50792
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 26039,
+                    "file": "97d37e50-b291-47dd-8b7b-a83117eb82d5.png",
+                    "name": "f16 - ECG de um IAM da parede inferior com supradesnivelamento de ST em D2, D3 e aVF.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2022-01-15T20:48:33.000Z",
+                    "updated_at": "2022-01-15T20:48:33.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/97d37e50-b291-47dd-8b7b-a83117eb82d5.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 26039,
+                        "question_id": 12392
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 12392,
+                "questionary_id": 267564,
+                "timer": 0
+            }
+        }
+    ]
+}

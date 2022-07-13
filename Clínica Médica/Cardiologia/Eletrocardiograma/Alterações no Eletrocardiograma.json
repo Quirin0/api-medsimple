@@ -1,0 +1,2778 @@
+{
+    "id": 267565,
+    "user_id": 1699,
+    "title": "Alterações no Eletrocardiograma",
+    "is_commented": true,
+    "is_timed": false,
+    "created_at": "2022-07-11T02:31:54.000Z",
+    "updated_at": "2022-07-11T02:31:54.000Z",
+    "study_plan_id": 1116,
+    "is_simulated": false,
+    "is_completed": false,
+    "accurate": null,
+    "status": null,
+    "questions": [
+        {
+            "id": 2367,
+            "institution_id": 4,
+            "description": "Qual das alterações eletrocardiográficas **NÃO** é encontrada na **hipercalemia**?",
+            "difficulty": "easy",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-24T14:27:12.000Z",
+            "updated_at": "2022-01-16T01:50:30.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 252,
+                    "title": "Distúrbio do potássio\t\t",
+                    "description": null,
+                    "parent_id": 189,
+                    "is_enabled": true,
+                    "created_at": "2020-06-23T19:21:33.000Z",
+                    "updated_at": "2020-06-23T19:21:33.000Z",
+                    "pivot": {
+                        "discipline_id": 252,
+                        "question_id": 2367
+                    }
+                },
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 2367
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 9753,
+                    "question_id": 2367,
+                    "description": "Ondas T altas e apiculadas",
+                    "explanation": "Perfeito doc, é uma das característiscas do ECG da hipercalemia!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-24T11:27:12.000Z",
+                    "updated_at": "2022-01-15T22:50:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 9754,
+                    "question_id": 2367,
+                    "description": "Onda P apiculada",
+                    "explanation": "Boa doc, essa é a incorreta!😎 Na hipercalemia, na realidade, temos **o ACHATAMENTO da onda P.** Doc, para nunca mais esquecer, se liga nessa imagem mostrando os principais achados de ECG em um paciente hipercalêmico👇\n- Fonte: https://cardiopapers.com.br/quais-alteracoes-eletrocardiograficas-que-surgem-na-hipercalemia/",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-24T11:27:12.000Z",
+                    "updated_at": "2022-01-15T22:50:30.000Z",
+                    "files": [
+                        {
+                            "id": 23335,
+                            "file": "b7018fca-0cc4-42e9-839d-ecf8dd287247.png",
+                            "name": "hipercalemia.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-11-15T18:54:21.000Z",
+                            "updated_at": "2021-11-15T18:54:21.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b7018fca-0cc4-42e9-839d-ecf8dd287247.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 23335,
+                                "alternative_id": 9754
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9755,
+                    "question_id": 2367,
+                    "description": "Achatamento da onda P",
+                    "explanation": "Perfeito doc, é uma das característiscas do ECG da hipercalemia!",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-24T11:27:12.000Z",
+                    "updated_at": "2022-01-15T22:50:30.000Z",
+                    "files": []
+                },
+                {
+                    "id": 9756,
+                    "question_id": 2367,
+                    "description": "Alargamento do QRS",
+                    "explanation": "Perfeito doc, essa é uma das característiscas do ECG da hipercalemia!",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-24T11:27:12.000Z",
+                    "updated_at": "2022-01-15T22:50:30.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2367,
+                "questionary_id": 267565,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4036,
+            "institution_id": 4,
+            "description": "Qual o ritmo do ECG?\n\n\n",
+            "difficulty": "easy",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-10T18:49:44.000Z",
+            "updated_at": "2022-01-15T20:19:49.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 418,
+                    "title": "Bradiarritmias",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-08-10T17:07:33.000Z",
+                    "updated_at": "2020-08-10T17:07:33.000Z",
+                    "pivot": {
+                        "discipline_id": 418,
+                        "question_id": 4036
+                    }
+                },
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 4036
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 16646,
+                    "question_id": 4036,
+                    "description": "Ritmo idiojuncional",
+                    "explanation": "Falso, Doc! 🙈 Temos:\n- QRS estreito\n- Frequência cardíaca entre 40-60bpm\n- **Pode ou não ter onda p retrógrada, negativa em D2 e \"colada\" ao QRS** \n\nFonte: ECGGuru",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-08-10T15:49:44.000Z",
+                    "updated_at": "2022-01-15T17:19:49.000Z",
+                    "files": [
+                        {
+                            "id": 931,
+                            "file": "1597074310542.jpeg",
+                            "name": "125 Junctional Rhythm.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-08-10T18:45:11.000Z",
+                            "updated_at": "2020-08-10T18:45:11.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1597074310542.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 931,
+                                "alternative_id": 16646
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 16647,
+                    "question_id": 4036,
+                    "description": "Ritmo idioventricular",
+                    "explanation": "Falso, Doc! 🙈 no ritmo idioventricular temos:\n- **QRS alargado e aberrante ➡ Origem ventricular**\n- FC < 40bpm \n\nVeja na imagem 👇:\nFonte da imagem: ECGpedia.org",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-10T15:49:44.000Z",
+                    "updated_at": "2022-01-15T17:19:49.000Z",
+                    "files": [
+                        {
+                            "id": 932,
+                            "file": "1597074436968.png",
+                            "name": "12257.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-08-10T18:47:17.000Z",
+                            "updated_at": "2020-08-10T18:47:17.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1597074436968.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 932,
+                                "alternative_id": 16647
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 16648,
+                    "question_id": 4036,
+                    "description": "Bradicardia sinusal",
+                    "explanation": "Muito bem, Doc! 😁 Na bradicardia sinusal, temos:\n- **Onda P positiva** em D2 e D1, precedendo cada QRS\n- FC < 60 bpm ",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-08-10T15:49:44.000Z",
+                    "updated_at": "2022-01-15T17:19:49.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16649,
+                    "question_id": 4036,
+                    "description": "Ritmo idioatrial",
+                    "explanation": "Falso, Doc! 🙈 O ritmo idioatrial temos:\n- QRS estreito ✅\n- FC entre 40-60 bpm ✅\n- **Onda p de morfologia diferente da onda p sinusal, com intervalo PR >120ms. ❌**",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-10T15:49:44.000Z",
+                    "updated_at": "2022-01-15T17:19:49.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 930,
+                    "file": "1597074125575.png",
+                    "name": "ECG-showing-sinus-bradycardia.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-08-10T18:42:06.000Z",
+                    "updated_at": "2020-08-10T18:42:06.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1597074125575.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 930,
+                        "question_id": 4036
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 4036,
+                "questionary_id": 267565,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4085,
+            "institution_id": 4,
+            "description": "Qual tipo de bloqueio é apresentado no ECG:\n\n\n",
+            "difficulty": "easy",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-12T00:19:39.000Z",
+            "updated_at": "2022-01-16T01:01:06.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 418,
+                    "title": "Bradiarritmias",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-08-10T17:07:33.000Z",
+                    "updated_at": "2020-08-10T17:07:33.000Z",
+                    "pivot": {
+                        "discipline_id": 418,
+                        "question_id": 4085
+                    }
+                },
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 4085
+                    }
+                },
+                {
+                    "id": 1074,
+                    "title": "Bloqueios de Ramos no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-16T00:58:04.000Z",
+                    "updated_at": "2022-01-16T00:58:04.000Z",
+                    "pivot": {
+                        "discipline_id": 1074,
+                        "question_id": 4085
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 16846,
+                    "question_id": 4085,
+                    "description": "Bloqueio de Ramo Direito",
+                    "explanation": "Excelente, Doc! 🤓 A definição de bloqueio de ramo direito é:\n- Presença de onda R’ alargada em V1 e ondas S alargadas em D1 e V6.\n- Dica: **M**a**RR**o**W**\n- **M em V1**\n- **W em V6**\n- **RR ➡ Right**",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-08-11T21:19:39.000Z",
+                    "updated_at": "2022-01-15T22:01:06.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16847,
+                    "question_id": 4085,
+                    "description": "Bloqueio de Ramo Esquerdo",
+                    "explanation": "Falso, Doc! 😕  A definição de bloqueio de ramo esquerdo é:\n- Presença de onda S alargada em V1 e onda R alargada + ausência de onda q em D1 e V6.\n- Macete: **W**a**LL**o**M**\n- **Forma uma W em V1**\n- **E um M em V6**\n- **LL ➡ Left**\n\nFonte: Healio",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-11T21:19:39.000Z",
+                    "updated_at": "2022-01-15T22:01:06.000Z",
+                    "files": [
+                        {
+                            "id": 956,
+                            "file": "1597180586929.png",
+                            "name": "lbbb_precordialleads1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-08-12T00:16:28.000Z",
+                            "updated_at": "2020-08-12T00:16:28.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1597180586929.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 956,
+                                "alternative_id": 16847
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 16848,
+                    "question_id": 4085,
+                    "description": "Bloqueio atrioventricular de primeiro grau",
+                    "explanation": "Falso, Doc! 😕 \n- Intervalo PR entre 120-200 ms\n- Toda onda p é seguida por um QRS\n- Ou seja, não temos Bloqueio atrioventricular ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-11T21:19:39.000Z",
+                    "updated_at": "2022-01-15T22:01:06.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16849,
+                    "question_id": 4085,
+                    "description": "Bloqueio atrioventricular total",
+                    "explanation": "Falso, Doc! 😕 \n- Intervalo PR entre 120-200 ms\n- Toda onda P é seguida por um QRS\n- Ou seja, não temos Bloqueio atrioventricular",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-11T21:19:39.000Z",
+                    "updated_at": "2022-01-15T22:01:06.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 955,
+                    "file": "1597180271142.png",
+                    "name": "rbbb_small.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2020-08-12T00:11:12.000Z",
+                    "updated_at": "2020-08-12T00:11:12.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1597180271142.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 955,
+                        "question_id": 4085
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 4085,
+                "questionary_id": 267565,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1121,
+            "institution_id": 4,
+            "description": "Sobre a definição de SUPRA DE ST no ECG, consideramos:\n- I. Obrigatoriamente em 2 derivações contíguas\n- II.Bloqueio de Ramo Esquerdo Novo\n- III. Supra de ST ≥ 1mm em qualquer derivação",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-03T01:31:53.000Z",
+            "updated_at": "2022-01-15T20:13:31.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 135,
+                    "title": "Síndromes Coronarianas Agudas (SCA)",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-06-03T00:20:49.000Z",
+                    "updated_at": "2020-06-03T00:20:49.000Z",
+                    "pivot": {
+                        "discipline_id": 135,
+                        "question_id": 1121
+                    }
+                },
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 1121
+                    }
+                },
+                {
+                    "id": 1073,
+                    "title": "Cardiopatia Isquêmica no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:52:34.000Z",
+                    "updated_at": "2022-01-15T20:21:57.000Z",
+                    "pivot": {
+                        "discipline_id": 1073,
+                        "question_id": 1121
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 4604,
+                    "question_id": 1121,
+                    "description": "Apenas I está correta",
+                    "explanation": "Falso, Doc! 😬 Confira o comentário completo na alternativa correta.\n💡Tem um super macete que tenho certeza que vai te ajudar ",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-02T22:31:53.000Z",
+                    "updated_at": "2022-01-15T17:13:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4605,
+                    "question_id": 1121,
+                    "description": "Apenas I e II estão corretas",
+                    "explanation": "Perfeito, Doc! 😍 Que orgulho! A definição de SUPRA de ST engloba as seguintes definições:\n- Novo Bloqueio de Ramo Esquerdo ou;\n- Elevação do segmento ST **≥ 1mm e pelo menos 2 derivações contíguas** (ou seja, uma do ladinho da outra, como V1 e V2), exceto em **V2 e V3,** já que V2 e V3 já tem um \"suprinha\" fisiológico. Nessas duas derivações devo ter ≥ 1,5mm de elevação em mulheres de qualquer idade, ≥ 2mm de elevação em homens de 40 anos ou mais e ≥ 2,5mm de elevação em homens menores de 40 anos.\n\nNão se preocupe, temos um super macete para você lembrar desse detalhe:\n- 💡  Faça um \"V\" ✌️ com a sua mão. Ficam dois dedos para cima (para você lembrar de V2) e sobram 3 dedos para baixo (para vc lembrar de V3)\n- 💡Observe que em homens, exigimos uma elevação menor dos mais velhos. \"👴🏻Do velhinho a gente exige menos elevação\" \n\n",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-06-02T22:31:53.000Z",
+                    "updated_at": "2022-01-15T17:13:31.000Z",
+                    "files": [
+                        {
+                            "id": 279,
+                            "file": "1591136929620.jpeg",
+                            "name": "WhatsApp Image 2020-06-02 at 19.20.11 (2).jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-03T01:28:50.000Z",
+                            "updated_at": "2020-06-03T01:28:50.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591136929620.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 279,
+                                "alternative_id": 4605
+                            }
+                        },
+                        {
+                            "id": 280,
+                            "file": "1591136968449.jpeg",
+                            "name": "WhatsApp Image 2020-06-02 at 19.20.11 (1).jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-03T01:29:28.000Z",
+                            "updated_at": "2020-06-03T01:29:28.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591136968449.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 280,
+                                "alternative_id": 4605
+                            }
+                        },
+                        {
+                            "id": 281,
+                            "file": "1591136985315.jpeg",
+                            "name": "WhatsApp Image 2020-06-02 at 19.20.11.jpeg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-03T01:29:45.000Z",
+                            "updated_at": "2020-06-03T01:29:45.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591136985315.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 281,
+                                "alternative_id": 4605
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 4606,
+                    "question_id": 1121,
+                    "description": "Apenas I e III estão corretas",
+                    "explanation": "Falso, Doc! 😬 Confira o comentário completo na alternativa correta. \n\n💡Tem um super macete que tenho certeza que vai te ajudar ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-02T22:31:53.000Z",
+                    "updated_at": "2022-01-15T17:13:31.000Z",
+                    "files": []
+                },
+                {
+                    "id": 4607,
+                    "question_id": 1121,
+                    "description": "Todas as afirmativas estão corretas",
+                    "explanation": "Falso, Doc! 😬 Confira o comentário completo na alternativa correta. \n💡Tem um super macete que tenho certeza que vai te ajudar",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-02T22:31:53.000Z",
+                    "updated_at": "2022-01-15T17:13:31.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1121,
+                "questionary_id": 267565,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1406,
+            "institution_id": 107,
+            "description": "Mulher de 68 anos, em pós-operatório de cirurgia ortopédica (prótese de joelho), evolui com dispneia súbita associada à hipoxemia. Qual é a alteração eletrocardiográfica mais comum no tromboembolismo pulmonar? ",
+            "difficulty": "medium",
+            "year": "2012-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-07T18:22:51.000Z",
+            "updated_at": "2022-01-15T17:14:20.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 107,
+                "title": "IBC",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-06-07T18:22:51.000Z",
+                "updated_at": "2020-06-07T18:22:51.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 163,
+                    "title": "Tromboembolismo Pulmonar\t\t",
+                    "description": null,
+                    "parent_id": 33,
+                    "is_enabled": true,
+                    "created_at": "2020-06-07T15:24:20.000Z",
+                    "updated_at": "2020-06-07T15:24:20.000Z",
+                    "pivot": {
+                        "discipline_id": 163,
+                        "question_id": 1406
+                    }
+                },
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 1406
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 5774,
+                    "question_id": 1406,
+                    "description": "Supradesnivelamento de ST",
+                    "explanation": "Falso, Doc! 😣 Pode estar associado a um infarto do ventrículo direito secundário ao TEP. Contudo, **é mais incomum**.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-07T18:22:51.000Z",
+                    "updated_at": "2022-01-15T17:14:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5775,
+                    "question_id": 1406,
+                    "description": "S1Q3T3",
+                    "explanation": "Falso, Doc! 😣 Apesar de ser um padrão popular encontrado no TEP, **este achado é incomu**m. Geralmente ocorre nos casos de **embolia maciça**. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-07T18:22:52.000Z",
+                    "updated_at": "2022-01-15T17:14:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5776,
+                    "question_id": 1406,
+                    "description": "Fibrilação ventricular",
+                    "explanation": "Falso, Doc! 😣 É uma alteração menos comum no TEP. Pode acontecer em casos de TEP maciço, com disfunção ventricular direita.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-07T18:22:52.000Z",
+                    "updated_at": "2022-01-15T17:14:20.000Z",
+                    "files": []
+                },
+                {
+                    "id": 5777,
+                    "question_id": 1406,
+                    "description": "Taquicardia sinusal",
+                    "explanation": "Isso mesmo, Doc! 🤗 Não é muito específica, mas é a alteração **mais encontrada**.\nAlterações no ECG encontradas:\n- **Taquicardia Sinusal**\n- **Inversão da onda T em V1 a V4**\n- **Bloqueio de ramo direito** \n- **S1Q3T3**\n- **Baixa voltagem em derivação dos membros**\n\n\n",
+                    "order": 3,
+                    "correct": true,
+                    "created_at": "2020-06-07T18:22:52.000Z",
+                    "updated_at": "2022-01-15T17:14:20.000Z",
+                    "files": [
+                        {
+                            "id": 366,
+                            "file": "1591553835518.png",
+                            "name": "download.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2020-06-07T21:17:16.000Z",
+                            "updated_at": "2020-06-07T21:17:16.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591553835518.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 366,
+                                "alternative_id": 5777
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 1406,
+                "questionary_id": 267565,
+                "timer": 0
+            }
+        },
+        {
+            "id": 1678,
+            "institution_id": 4,
+            "description": "O traçado eletrocardiográfico abaixo representa uma arritmia cardíaca denominada:",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-12T04:50:56.000Z",
+            "updated_at": "2022-01-15T20:16:26.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1072,
+                    "title": "Taquicardias Supraventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:29:11.000Z",
+                    "updated_at": "2022-01-12T20:29:11.000Z",
+                    "pivot": {
+                        "discipline_id": 1072,
+                        "question_id": 1678
+                    }
+                },
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 1678
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 6896,
+                    "question_id": 1678,
+                    "description": "Taquicardia supraventricular por reentrada nodal",
+                    "explanation": "Perfeito doc! 😁 \n- Por mecanismo de **reentrada**, temos um estímulo elétrico vindo do nó AV em direção aos átrios, uma direção oposta à convencional. Logo, teremos uma **onda P retrógada**, denominada onda P'. \n- Essa onda P' pode ser visualizada nas derivações **DII, DIII e aVF** (inferiores) como uma **\"pseudo S\",** que, na verdade, é uma onda P invertida. \n- Já nas derivações **V1 e avR** (direita) observamos a presença de uma onda **\"pseudo R\"** que na verdade é a onda P retrógrada. \n\nDoc, se liga nessa imagem esquematizando os mecanismos de reentrada típicos dessa arritmia👇\n- Fonte: [https://temasemcardiologia.com.br/desafio-de-ecg-5-qual-diagnostico/](https://temasemcardiologia.com.br/desafio-de-ecg-5-qual-diagnostico/)",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-06-12T01:50:56.000Z",
+                    "updated_at": "2022-01-15T17:16:26.000Z",
+                    "files": [
+                        {
+                            "id": 10048,
+                            "file": "51395ad6-cc72-4848-a67a-9fa80f4fbd70.png",
+                            "name": "Capturadetela2015-09-28aCC80s00.40.53.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2021-06-05T00:26:12.000Z",
+                            "updated_at": "2021-06-05T00:26:12.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/51395ad6-cc72-4848-a67a-9fa80f4fbd70.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10048,
+                                "alternative_id": 6896
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6897,
+                    "question_id": 1678,
+                    "description": "Fibrilação atrial",
+                    "explanation": "Falso doc! 😋 Na FA temos ausência de onda P e ritmo irregularmente irregular! Doc, mas falando nisso, saca só esse ECG mostrando uma FA👇\n- Fonte: [https://cardiopapers.com.br/novo-guideline-de-f-aha-2014/](https://cardiopapers.com.br/novo-guideline-de-f-aha-2014/)",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:50:56.000Z",
+                    "updated_at": "2022-01-15T17:16:26.000Z",
+                    "files": [
+                        {
+                            "id": 10040,
+                            "file": "a775919f-bc62-4138-8bec-7ea99ef1046f.jpeg",
+                            "name": "Afib_ecg.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T22:17:40.000Z",
+                            "updated_at": "2021-06-04T22:17:40.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/a775919f-bc62-4138-8bec-7ea99ef1046f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10040,
+                                "alternative_id": 6897
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6898,
+                    "question_id": 1678,
+                    "description": "Bloqueio atrioventricular de 2º grau",
+                    "explanation": "Falso doc! 😋 No bloqueio atrioventricular temos um aumento do intervalo PR, que representa a passagem do impulso elétrico pelo nó AV",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:50:56.000Z",
+                    "updated_at": "2022-01-15T17:16:26.000Z",
+                    "files": []
+                },
+                {
+                    "id": 6899,
+                    "question_id": 1678,
+                    "description": "Wolff-Parkinson-White (WPW)",
+                    "explanation": "Falso doc! 😋 O traçado do WPW, doença caracterizada pela presença de via acessória de condução elétrica entre átrios e ventrículos, tem duas características fundamentais:\n- Presença de intervalo PR diminuído, já que esse intervalo representa a condução pelo nó AV, e no WPW temos a condução por uma via acessória, acelerando a passagem do impulso dos átrios para os ventrículos\n- Presença de onda Delta\n- Se liga nesse traçado com achados típicos dessa doença👇\n- Fonte: [https://pt.wikipedia.org/wiki/S%C3%ADndrome_de_Wolff-Parkinson-White](https://pt.wikipedia.org/wiki/S%C3%ADndrome_de_Wolff-Parkinson-White)",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-12T01:50:56.000Z",
+                    "updated_at": "2022-01-15T17:16:26.000Z",
+                    "files": [
+                        {
+                            "id": 10041,
+                            "file": "4da1d33c-2cc7-45d0-a24d-b72a641555ce.jpeg",
+                            "name": "0000000000000000000000.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-06-04T22:24:06.000Z",
+                            "updated_at": "2021-06-04T22:24:06.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/4da1d33c-2cc7-45d0-a24d-b72a641555ce.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 10041,
+                                "alternative_id": 6899
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 387,
+                    "file": "1591926416086.jpeg",
+                    "name": "av.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2020-06-12T04:46:56.000Z",
+                    "updated_at": "2020-06-12T04:46:56.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1591926416086.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 387,
+                        "question_id": 1678
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 1678,
+                "questionary_id": 267565,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2323,
+            "institution_id": 4,
+            "description": "Na hipocalemia profunda, definida com o potássio sérico inferior a 2,5 mEq/L, pode-se encontrar as seguintes manifestações eletrocardiográficas, **EXCETO:**\n\n\n\n\n\n\n\n\n\n\n\n\n",
+            "difficulty": "medium",
+            "year": "2018-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-06-23T19:21:33.000Z",
+            "updated_at": "2022-01-15T22:54:19.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 252,
+                    "title": "Distúrbio do potássio\t\t",
+                    "description": null,
+                    "parent_id": 189,
+                    "is_enabled": true,
+                    "created_at": "2020-06-23T19:21:33.000Z",
+                    "updated_at": "2020-06-23T19:21:33.000Z",
+                    "pivot": {
+                        "discipline_id": 252,
+                        "question_id": 2323
+                    }
+                },
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 2323
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 9569,
+                    "question_id": 2323,
+                    "description": "Torsades de pointes.",
+                    "explanation": "Perfeito doc!😁 A hipocalemia pode alargar o QRS formando um ambiente propício para o Torsades de pointes!",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-06-23T19:21:33.000Z",
+                    "updated_at": "2022-01-15T22:54:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 9570,
+                    "question_id": 2323,
+                    "description": "Achatamento da onda T.",
+                    "explanation": "Perfeito doc!😁 Uma das alterações da hipocalemia é o **desaparecimento da onda T**.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-06-23T19:21:33.000Z",
+                    "updated_at": "2022-01-15T22:54:19.000Z",
+                    "files": []
+                },
+                {
+                    "id": 9571,
+                    "question_id": 2323,
+                    "description": "Desaparecimento da onda P.",
+                    "explanation": "Boa doc, essa é a alternativa incorreta!😴 Na HIPOCALEMIA temos um onda P cada vez MAIS APICULADA e uma onda T que tende a ficar achatada. Na hipercalemia, ocorre o inverso. Doc, para nunca mais esquecer, se liga nessa imagem👇\n- Fonte: InDepthTutorialsandInformation",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-06-23T19:21:33.000Z",
+                    "updated_at": "2022-01-15T22:54:19.000Z",
+                    "files": [
+                        {
+                            "id": 534,
+                            "file": "1592939912042.jpeg",
+                            "name": "tmp1421111.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2020-06-23T22:18:32.000Z",
+                            "updated_at": "2020-06-23T22:18:32.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1592939912042.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 534,
+                                "alternative_id": 9571
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 9572,
+                    "question_id": 2323,
+                    "description": "Surgimento ou proeminência da onda U",
+                    "explanation": "Perfeito doc, esses são achados típicos😁\n\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-06-23T19:21:33.000Z",
+                    "updated_at": "2022-01-15T22:54:19.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2323,
+                "questionary_id": 267565,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2732,
+            "institution_id": 4,
+            "description": "Sobre o conceito de onda Q patológica, assinale a alternativa CORRETA:",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-06T00:18:26.000Z",
+            "updated_at": "2022-01-16T01:00:57.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 2732
+                    }
+                },
+                {
+                    "id": 1073,
+                    "title": "Cardiopatia Isquêmica no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:52:34.000Z",
+                    "updated_at": "2022-01-15T20:21:57.000Z",
+                    "pivot": {
+                        "discipline_id": 1073,
+                        "question_id": 2732
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11242,
+                    "question_id": 2732,
+                    "description": "Deve ter 1/3 da altura do complexo QRS, pelo menos 0,04s de duração e estar presente em pelo menos duas derivações contíguas",
+                    "explanation": "Você é fera, Doc! 😻 Questão conceitual. Para uma onda Q ser considerada patológica, ela deve atender a 3 características: (💡 lembre-se da regra do \"1,2,3\"):\n- **\"1\"** Pelo menos 1 quadradinho de duração (ou seja, 0,04 segundos)\n- **\"2\"**: Presente em pelo menos 2 derivações contíguas\n- **\"3\"** Pelo menos 1/**3** da altura do QRS\n\n\nVeja na imagem, Doc 👇:\n\nFonte da imagem: https://cardiopapers.com.br/curso-basico-de-eletrocardiograma-parte-12-areas-inativas/\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-07-05T21:18:26.000Z",
+                    "updated_at": "2022-01-15T22:00:57.000Z",
+                    "files": [
+                        {
+                            "id": 25906,
+                            "file": "dd124b28-57de-46c1-9b48-c6cda40d91c5.png",
+                            "name": "Captura de tela 2022-01-11 135437.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T16:54:57.000Z",
+                            "updated_at": "2022-01-11T16:54:57.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/dd124b28-57de-46c1-9b48-c6cda40d91c5.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25906,
+                                "alternative_id": 11242
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11243,
+                    "question_id": 2732,
+                    "description": "Deve ter 1/3 da altura do complexo QRS, pelo menos 0,08s de duração e estar presente em pelo menos três derivações contíguas",
+                    "explanation": "Falso, Doc! 😫 Questão conceitual. Confira um super macete na alternativa correta para nunca mais errar 🤓.",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-05T21:18:26.000Z",
+                    "updated_at": "2022-01-15T22:00:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11244,
+                    "question_id": 2732,
+                    "description": "Deve ter 1/4 da altura do complexo QRS, pelo menos 0,04s de duração e estar presente em pelo menos duas derivações contíguas",
+                    "explanation": "Falso, Doc! 😫 Questão conceitual. Confira um super macete na alternativa correta para nunca mais errar 🤓. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-05T21:18:26.000Z",
+                    "updated_at": "2022-01-15T22:00:57.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11245,
+                    "question_id": 2732,
+                    "description": "Deve ter 1/3 da altura do complexo QRS, pelo menos 0,04s de duração e independe de estar presente em pelo menos duas derivações contíguas",
+                    "explanation": "💡Questão conceitual. Confira um super Falso, Doc! 😫 Questão conceitual. Confira um super macete na alternativa correta para nunca mais errar 🤓.  ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-05T21:18:26.000Z",
+                    "updated_at": "2022-01-15T22:00:57.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2732,
+                "questionary_id": 267565,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2737,
+            "institution_id": 87,
+            "description": "Sobre a morfologia da onda P, é CORRETO afirmar:",
+            "difficulty": "medium",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-06T01:33:29.000Z",
+            "updated_at": "2022-01-12T20:15:58.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 87,
+                "title": "HOB-DF",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-28T00:40:55.000Z",
+                "updated_at": "2020-05-28T00:40:55.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 2737
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11260,
+                    "question_id": 2737,
+                    "description": "A onda P sinusal é positiva em aVR, D1 e D2",
+                    "explanation": "Falso, Doc! 😋 \n- A onda P sinusal é **NEGATIVA** em aVR! \n- Lembre que a despolarização atrial aponta para baixo e para a esquerda, totalmente oposto à aVR, que fica em cima e à direita.\n\n\nVeja na imagem, Doc 👇:\n\nFonte da imagem: https://www.ecgnow.com.br/blog/como-identificar-o-eixo-cardiaco/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-05T22:33:29.000Z",
+                    "updated_at": "2022-01-12T17:15:58.000Z",
+                    "files": [
+                        {
+                            "id": 25909,
+                            "file": "ac9f4670-8399-4ba3-a9e0-f65118aa8940.jpeg",
+                            "name": "como-identificar-o-eixo-cardiaco.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-11T19:27:37.000Z",
+                            "updated_at": "2022-01-11T19:27:37.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ac9f4670-8399-4ba3-a9e0-f65118aa8940.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25909,
+                                "alternative_id": 11260
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11261,
+                    "question_id": 2737,
+                    "description": "No ritmo atrial ectópico a onda P é negativa em D2, sendo comum em adolescentes",
+                    "explanation": "Não tem pra ninguém, Doc! 💪 \n- Com um ritmo atrial ectópico, temos um impulso que não parte do nó sino atrial.\n- Ele surge de alguma região aleatórea do átrio, **em direção ao nó sino atrial.** \n- Logo, como D2 aponta para a esquerda, e o impulso atrial ectópico aponta para a direita, teremos uma onda **NEGATIVA**.\n\nDoc, você já viu um ECG de paciente com essa condição? Saca só 👇:\n\nFonte da imagem: https://i0.wp.com/cardiopapers.com.br/wp-content/uploads/2017/10/ritmo-atrial.png?ssl=1",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-05T22:33:29.000Z",
+                    "updated_at": "2022-01-12T17:15:58.000Z",
+                    "files": [
+                        {
+                            "id": 25910,
+                            "file": "3d03c3a7-7ddb-4943-953d-2a910e67317d.png",
+                            "name": "ritmo-atrial.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T19:36:09.000Z",
+                            "updated_at": "2022-01-11T19:36:09.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3d03c3a7-7ddb-4943-953d-2a910e67317d.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25910,
+                                "alternative_id": 11261
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11262,
+                    "question_id": 2737,
+                    "description": "Quando há situs atrial inversus, a onda P é positiva em D1 e em avL",
+                    "explanation": "Falso, Doc! 😋 \n- No situs inversus o impulso elétrico irá na direção para baixo e para a direita. \n- Como D1 aponta para a esquerda e aVL está à esquerda, teremos ondas P **negativas.**\n\n\nVeja na imagem, Doc 👇:\n\n\nFonte da imagem: https://www.ecgnow.com.br/blog/como-identificar-o-eixo-cardiaco/ ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-05T22:33:29.000Z",
+                    "updated_at": "2022-01-12T17:15:58.000Z",
+                    "files": [
+                        {
+                            "id": 25909,
+                            "file": "ac9f4670-8399-4ba3-a9e0-f65118aa8940.jpeg",
+                            "name": "como-identificar-o-eixo-cardiaco.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-11T19:27:37.000Z",
+                            "updated_at": "2022-01-11T19:27:37.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ac9f4670-8399-4ba3-a9e0-f65118aa8940.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25909,
+                                "alternative_id": 11262
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11263,
+                    "question_id": 2737,
+                    "description": "A amplitude normal da onda P é de 4 mm",
+                    "explanation": "Falso, Doc! 😋 A **amplitud**e, ou seja, a altura da onda P normal é de até **2,5m**m\n\n\nVeja na imagem, Doc 👇:\n\n\n\nFonte da imagem: https://www.ecgnow.com.br/blog/como-identificar-o-eixo-cardiaco/  \n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-05T22:33:29.000Z",
+                    "updated_at": "2022-01-12T17:15:58.000Z",
+                    "files": [
+                        {
+                            "id": 25909,
+                            "file": "ac9f4670-8399-4ba3-a9e0-f65118aa8940.jpeg",
+                            "name": "como-identificar-o-eixo-cardiaco.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-11T19:27:37.000Z",
+                            "updated_at": "2022-01-11T19:27:37.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/ac9f4670-8399-4ba3-a9e0-f65118aa8940.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25909,
+                                "alternative_id": 11263
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2737,
+                "questionary_id": 267565,
+                "timer": 0
+            }
+        },
+        {
+            "id": 4035,
+            "institution_id": 4,
+            "description": "Qual ritmo é esse?\n\n\nFonte da imagem: Friedmann. 2. ed. 2016 ",
+            "difficulty": "medium",
+            "year": "2014-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-08-10T15:40:48.000Z",
+            "updated_at": "2022-03-17T17:52:47.000Z",
+            "user_id": 32,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 418,
+                    "title": "Bradiarritmias",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-08-10T17:07:33.000Z",
+                    "updated_at": "2020-08-10T17:07:33.000Z",
+                    "pivot": {
+                        "discipline_id": 418,
+                        "question_id": 4035
+                    }
+                },
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 4035
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 16642,
+                    "question_id": 4035,
+                    "description": "Ritmo idiojuncional",
+                    "explanation": "Perfeito, Doc! 👏Temos:\n- QRS estreito\n- Frequência cardíaca entre 40-60bpm\n- Pode ou não ter onda **P** **retrógrada, negativa em D2 e \"colada\" ao QRS**\n- 💡 Dica: idio é o prefixo usado para se referir as ritmos de escape.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2020-08-10T15:40:48.000Z",
+                    "updated_at": "2022-03-17T17:52:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16643,
+                    "question_id": 4035,
+                    "description": "Bradicardia atrial multifocal",
+                    "explanation": "Falso, Doc! 🙈 A bradicardia atrial multifocal se caracteriza por:\n- QRS estreito\n- Frequência cardíaca entre 40-60bpm\n- **3 ou mais morfologias de onda P na mesma derivação.**",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-08-10T15:40:48.000Z",
+                    "updated_at": "2022-03-17T17:52:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16644,
+                    "question_id": 4035,
+                    "description": "Ritmo idioventricular",
+                    "explanation": "Falso, Doc! 🙈 No ritmo idioventricular temos:\n- **QRS alargado e aberrante ➡ Origem ventricular**\n- FC < 40bpm",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-08-10T15:40:48.000Z",
+                    "updated_at": "2022-03-17T17:52:47.000Z",
+                    "files": []
+                },
+                {
+                    "id": 16645,
+                    "question_id": 4035,
+                    "description": "Bradicardia sinusal",
+                    "explanation": "Falso, Doc! 🙈 Na bradicardia sinusal temos:\n- **Onda P positiva** em D2 e D1, precedendo cada QRS\n- FR < 60 bpm",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-08-10T15:40:48.000Z",
+                    "updated_at": "2022-03-17T17:52:47.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 30995,
+                    "file": "17b51847-8023-4ac5-91f2-540d47b85e29.jpeg",
+                    "name": "Captura de tela 2022-03-17 145048.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2022-03-17T17:52:41.000Z",
+                    "updated_at": "2022-03-17T17:52:41.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/17b51847-8023-4ac5-91f2-540d47b85e29.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 30995,
+                        "question_id": 4035
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 4035,
+                "questionary_id": 267565,
+                "timer": 0
+            }
+        },
+        {
+            "id": 7992,
+            "institution_id": 4,
+            "description": "Paciente com suspeita de pericardite aguda apresenta o seguinte achado difusamente no eletrocardiograma (ver imagem).\n\nAssinale a alternativa que contem o estágio eletrocardiográfico da pericardite do paciente:\n\nFonte da imagem: [https://cardiopapers.com.br/ecg-na-pericardite-aguda/](https://cardiopapers.com.br/ecg-na-pericardite-aguda/)",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-11T00:01:30.000Z",
+            "updated_at": "2022-01-15T01:40:42.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 729,
+                    "title": "Doenças do Pericárdio (Pericardites)",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-10T23:10:16.000Z",
+                    "updated_at": "2021-05-11T16:40:51.000Z",
+                    "pivot": {
+                        "discipline_id": 729,
+                        "question_id": 7992
+                    }
+                },
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 7992
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 32808,
+                    "question_id": 7992,
+                    "description": "Estágio I",
+                    "explanation": "Falso, Doc! As alterações observadas no estágio I são:\n- Elevação do ST\n- Ondas T apiculadas\n- Infradesnivelamento de PR\nSe liga nesse esquema para não esquecer mais, Doc 😉👇:\n\nFonte da imagem: http://blog.cardioaula.com.br/artigos-cardiologia/pericardite-aguda-e-recorrente/",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2021-05-10T21:01:30.000Z",
+                    "updated_at": "2022-01-14T22:40:42.000Z",
+                    "files": [
+                        {
+                            "id": 8475,
+                            "file": "cc5f7826-0c7f-4789-9c70-5d337d3b799f.jpeg",
+                            "name": "Imagem23-4.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-10T23:43:34.000Z",
+                            "updated_at": "2021-05-10T23:43:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/cc5f7826-0c7f-4789-9c70-5d337d3b799f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8475,
+                                "alternative_id": 32808
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 32809,
+                    "question_id": 7992,
+                    "description": "Estágio II",
+                    "explanation": "Falso, Doc! No estágio II temos:\n- Normalização do ST\n- Achatamento de onda T\nSe liga nesse esquema para não esquecer mais, Doc 😉👇:\n\nFonte da imagem: http://blog.cardioaula.com.br/artigos-cardiologia/pericardite-aguda-e-recorrente/ ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-10T21:01:30.000Z",
+                    "updated_at": "2022-01-14T22:40:42.000Z",
+                    "files": [
+                        {
+                            "id": 8475,
+                            "file": "cc5f7826-0c7f-4789-9c70-5d337d3b799f.jpeg",
+                            "name": "Imagem23-4.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-10T23:43:34.000Z",
+                            "updated_at": "2021-05-10T23:43:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/cc5f7826-0c7f-4789-9c70-5d337d3b799f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8475,
+                                "alternative_id": 32809
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 32810,
+                    "question_id": 7992,
+                    "description": "Estágio III",
+                    "explanation": "Muito bem, Doc! 🤗\nO estágio III é caracterizado por inversão de onda T, como mostrado no ECG do paciente.\nSe liga nesse esquema para ver os outros estágios, Doc 😉👇:\n\nFonte da imagem: http://blog.cardioaula.com.br/artigos-cardiologia/pericardite-aguda-e-recorrente/ \n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2021-05-10T21:01:30.000Z",
+                    "updated_at": "2022-01-14T22:40:42.000Z",
+                    "files": [
+                        {
+                            "id": 8475,
+                            "file": "cc5f7826-0c7f-4789-9c70-5d337d3b799f.jpeg",
+                            "name": "Imagem23-4.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-10T23:43:34.000Z",
+                            "updated_at": "2021-05-10T23:43:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/cc5f7826-0c7f-4789-9c70-5d337d3b799f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8475,
+                                "alternative_id": 32810
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 32811,
+                    "question_id": 7992,
+                    "description": "Estágio IV",
+                    "explanation": "Falso, Doc! No estágio IV há normalização das ondas T.\n\nSe liga nesse esquema para não esquecer mais, Doc 😉👇:\n\nFonte da imagem: http://blog.cardioaula.com.br/artigos-cardiologia/pericardite-aguda-e-recorrente/ ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-10T21:01:30.000Z",
+                    "updated_at": "2022-01-14T22:40:42.000Z",
+                    "files": [
+                        {
+                            "id": 8475,
+                            "file": "cc5f7826-0c7f-4789-9c70-5d337d3b799f.jpeg",
+                            "name": "Imagem23-4.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2021-05-10T23:43:34.000Z",
+                            "updated_at": "2021-05-10T23:43:34.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/cc5f7826-0c7f-4789-9c70-5d337d3b799f.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 8475,
+                                "alternative_id": 32811
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 8476,
+                    "file": "c68b117e-2ca3-4d04-8a3f-1872689f85ee.png",
+                    "name": "Captura de tela 2021-05-10 175439.png",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "png",
+                    "created_at": "2021-05-10T23:56:43.000Z",
+                    "updated_at": "2021-05-10T23:56:43.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/c68b117e-2ca3-4d04-8a3f-1872689f85ee.png",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 8476,
+                        "question_id": 7992
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 7992,
+                "questionary_id": 267565,
+                "timer": 0
+            }
+        },
+        {
+            "id": 8009,
+            "institution_id": 154,
+            "description": "Uma mulher de 32 anos procurou atendimento médico com relato de que, há 6 meses, passou a apresentar fadiga, dispneia aos grandes esforços, edema de membros inferiores, dor no hipocôndrio direito e sensação de empachamento pós-prandial. Negou doenças anteriores, tabagismo e etilismo. Seu exame físico mostrou emagrecimento, FC = 90bpm, PA = 100x80mmHg, com evidência de pulso paradoxal, turgência jugular observada com cabeceira do leito elevada a 40°, aumento da pressão venosa jugular durante a inspiração profunda, retração intercostal (simultânea com a sístole cardíaca) observada no 11º e no 12º espaços intercostais esquer dos, ritmo cardíaco regular em 2 tempos, bulhas hipofonéticas, com presença de *knock* após a 2ª bulha cardíaca em área tricúspide. Aparelho respiratório sem anormalidades. Abdome: hepatomegalia dolorosa, sem ascite. Extremidades: edema de membros inferiores, mole, frio e indolor. O eletrocardiograma apresentou ritmo sinusal, frequência ventricular média = 92spm, SÂQRS= +120º, onda P entalhada em derivação D2, baixa volta gem do complexo QRS no plano frontal e alterações di fusas e inespecíficas da repolarização ventricular. Com base nessa situação clínica hipotética, assinale a alternativa que apresenta a principal hipótese diagnóstica:\n",
+            "difficulty": "medium",
+            "year": "2011-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2021-05-11T13:22:18.000Z",
+            "updated_at": "2022-01-14T22:40:50.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 154,
+                "title": "HFA",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-07-12T01:49:07.000Z",
+                "updated_at": "2020-07-12T01:49:07.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 729,
+                    "title": "Doenças do Pericárdio (Pericardites)",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2021-05-10T23:10:16.000Z",
+                    "updated_at": "2021-05-11T16:40:51.000Z",
+                    "pivot": {
+                        "discipline_id": 729,
+                        "question_id": 8009
+                    }
+                },
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 8009
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 32877,
+                    "question_id": 8009,
+                    "description": "pericardite constritiva ",
+                    "explanation": "Parabéns, Doc! 👏 O paciente tem pulso paradoxal, hipofonese de bulhas, turgência jugular e baixa voltagem do QRS no ECG. Tudo isso nos aponta o diagnóstico de acometimento grave do pericárdico.\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2021-05-11T13:22:18.000Z",
+                    "updated_at": "2022-01-14T22:40:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32878,
+                    "question_id": 8009,
+                    "description": "cor pulmonale",
+                    "explanation": "Falso, Doc! \n- O cor pulmonale tem como principal causa a DPOC, ou outros acometimentos pulmonares que se reflitam no coração direito. Faltam na história dados de acometimento respiratório e pulmonar, bem como história de tabagismo. \n- Também não costuma haver no cor pulmonale tamponamento pericárdico como apresentado pela paciente (pulso paradoxal, hipofonese de bulhas, baixa voltagem dos complexos QRS e turgência jugular, apontam para esse diagnóstico)\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2021-05-11T13:22:18.000Z",
+                    "updated_at": "2022-01-14T22:40:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32879,
+                    "question_id": 8009,
+                    "description": "mixoma atrial",
+                    "explanation": "Falso, Doc! Além de os dados apontarem para tamponamento cardíaco com pericardite constritiva, no mixoma atrial, em 86% dos casos, o acometimento do coração pelo tumor é esquerdo, e não direito (como indicariam dados de turgência jugular, por exemplo).\n\n\n\n \n\n\n\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2021-05-11T13:22:18.000Z",
+                    "updated_at": "2022-01-14T22:40:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32880,
+                    "question_id": 8009,
+                    "description": "cardiomiopatia hipertrófica ",
+                    "explanation": "Falso, Doc! A cardiomiopatia hipertrófica geralmente é assintomática e nela não há pulso paradoxal ou hipofonese das bulhas. \n\n \n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2021-05-11T13:22:18.000Z",
+                    "updated_at": "2022-01-14T22:40:50.000Z",
+                    "files": []
+                },
+                {
+                    "id": 32881,
+                    "question_id": 8009,
+                    "description": "miocardite viral",
+                    "explanation": "Falso, Doc! Haveria falência do ventrículo esquerdo nessa doença, e não direito.",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2021-05-11T13:22:18.000Z",
+                    "updated_at": "2022-01-14T22:40:50.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 8009,
+                "questionary_id": 267565,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12374,
+            "institution_id": 203,
+            "description": "São alterações eletrocardiográficas que podem ser encontradas em pacientes com hipercalemia:\n",
+            "difficulty": "medium",
+            "year": "2010-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-01-11T20:49:12.000Z",
+            "updated_at": "2022-01-15T22:51:23.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 203,
+                "title": "Hospital do Câncer - Instituto do Câncer do Ceará",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-12-24T19:20:53.000Z",
+                "updated_at": "2020-12-24T19:20:53.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 12374
+                    }
+                },
+                {
+                    "id": 252,
+                    "title": "Distúrbio do potássio\t\t",
+                    "description": null,
+                    "parent_id": 189,
+                    "is_enabled": true,
+                    "created_at": "2020-06-23T19:21:33.000Z",
+                    "updated_at": "2020-06-23T19:21:33.000Z",
+                    "pivot": {
+                        "discipline_id": 252,
+                        "question_id": 12374
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 50710,
+                    "question_id": 12374,
+                    "description": "Onda T alta, apiculada, estreita e simétrica. ",
+                    "explanation": "Não tem pra ninguém, Doc! 💪 Na hipercalemia podemos observar a onda T acompanhando o aumento de potássio:\n- **onda T apiculada, simétrica e e estreita** (lembre-se que a repolarização ventricular depende primordialmente de K+)\n- Mais tardiamente, ocorre **distúrbio de condução**, com diminuição da amplitude da onda P, prolongamento do intervalo PR e alargamento do complexo QRS.",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-01-11T20:49:12.000Z",
+                    "updated_at": "2022-01-15T22:51:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50711,
+                    "question_id": 12374,
+                    "description": "Onda T alta de base larga e assimétrica.",
+                    "explanation": "Falso, Doc! 🤔 Na hipercalemia podemos observar a onda T acompanhando o aumento de potássio:\n- **onda T apiculada, simétrica e e estreita** (lembre-se que a repolarização ventricular depende primordialmente de K+)\n ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-01-11T20:49:12.000Z",
+                    "updated_at": "2022-01-15T22:51:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50712,
+                    "question_id": 12374,
+                    "description": " Onda P aumentada e complexo QRS estreito. ",
+                    "explanation": "Falso, Doc! 🤔 \n- Na hipercalemia podemos observar a onda T acompanhando o aumento de potássio \n- Mais tardiamente, ocorre distúrbio de condução, com **diminuição** da amplitude da onda P, prolongamento do intervalo PR e alargamento do complexo QRS. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-01-11T20:49:12.000Z",
+                    "updated_at": "2022-01-15T22:51:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50713,
+                    "question_id": 12374,
+                    "description": "Inversão de onda T. ",
+                    "explanation": "Falso, Doc! 🤔 Na hipercalemia podemos observar a onda T acompanhando o aumento de potássio:\n- **onda T apiculada, simétrica e e estreita** (lembre-se que a repolarização ventricular depende primordialmente de K+) ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-01-11T20:49:12.000Z",
+                    "updated_at": "2022-01-15T22:51:23.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50714,
+                    "question_id": 12374,
+                    "description": "Onda P alta, apiculada, estreita e simétrica.",
+                    "explanation": "Falso, Doc! 🤔 \n- Na hipercalemia podemos observar a onda T acompanhando o aumento de potássio.\n- Mais tardiamente, ocorre distúrbio de condução, com **diminuição** da amplitude da onda P, prolongamento do intervalo PR e alargamento do complexo QRS.  \n ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2022-01-11T20:49:12.000Z",
+                    "updated_at": "2022-01-15T22:51:23.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12374,
+                "questionary_id": 267565,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12375,
+            "institution_id": 52,
+            "description": "Na síndrome de Brugada, os achados encontrados no eletrocardiograma são:\n",
+            "difficulty": "medium",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-01-13T14:22:28.000Z",
+            "updated_at": "2022-01-15T21:59:00.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 52,
+                "title": "HOSPITAL DAS CLÍNICAS DE TERESÓPOLIS COSTANTINO OTTAVIANO – RJ",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-21T17:20:22.000Z",
+                "updated_at": "2020-05-21T17:20:22.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 12375
+                    }
+                },
+                {
+                    "id": 1074,
+                    "title": "Bloqueios de Ramos no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-16T00:58:04.000Z",
+                    "updated_at": "2022-01-16T00:58:04.000Z",
+                    "pivot": {
+                        "discipline_id": 1074,
+                        "question_id": 12375
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 50716,
+                    "question_id": 12375,
+                    "description": "Bloqueio do ramo direito e supradesnivelamento do segmento ST em V1 a V3. ",
+                    "explanation": "Fera demais, Doc! 🙀 A síndrome de Brugrada é uma doença genética.\n- Na maioria dos casos, o gene afetado é o SCN5A, um gene de canal iônico, levando a **atividade elétrica anormal do ventrículo direito**\n- O quadro típico é de homens de **20 a 30 anos**, com coração **estruturalmente normal** e propensão a **taquiarritmias ventriculares** (parada cardíaca em coração estruturalmente saudável)\n- Os principais achados são de supra de ST em V1 a V3, com padrão RSR' (semelhante aos bloqueios de ramo direito)\n- 💡 Doc, o supra de ST nesses casos é chanfrado, como se tivesse **passado uma foic**e no traçado. Lembra que brugada lembra **brigad**a, e em uma briga pode ser que alguém use foice para dar golpes 😂. Grave que é e**m V1 e** V2, principalmente, às vezes atingindo V3\n\n\nDoc, você já viu como é o traçado da síndrome de Brugada? Saca só 👇:\n\n\nFonte da imagem: https://pt.my-ekg.com/doencas/sindrome-brugada.html\n\n\n\nDoc, eu se fosse você dava uma espiada no comentário das outras alternativas 👀 ",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-01-13T14:22:28.000Z",
+                    "updated_at": "2022-01-15T21:59:00.000Z",
+                    "files": [
+                        {
+                            "id": 25975,
+                            "file": "7d783f03-486d-4839-a0d8-d25a6e31b2f4.png",
+                            "name": "brugada-tipo1.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-13T14:15:10.000Z",
+                            "updated_at": "2022-01-13T14:15:10.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/7d783f03-486d-4839-a0d8-d25a6e31b2f4.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25975,
+                                "alternative_id": 50716
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 50717,
+                    "question_id": 12375,
+                    "description": "Bloqueio do ramo esquerdo e onda P apiculada. ",
+                    "explanation": "Falso, Doc! 😬 O padrão lembra o bloqueio de ramo **direito,** com RSR' presente nas derivações V1-V3",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-01-13T14:22:28.000Z",
+                    "updated_at": "2022-01-15T21:59:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50718,
+                    "question_id": 12375,
+                    "description": "Bloqueio do ramo direito e infradesnivelamento do segmento ST em V1 a V3.",
+                    "explanation": "Falso, Doc! 😬 Ocorre **supradesnivelament**o, e não infra",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-01-13T14:22:28.000Z",
+                    "updated_at": "2022-01-15T21:59:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50719,
+                    "question_id": 12375,
+                    "description": "Segmento PR curto. ",
+                    "explanation": "Falso, Doc! 😬  \n- O intervalo PR é mais curto em crianças ou com o aumento da frequência cardíaca, de forma fisiológica\n- No entanto, quando está com menos de 3 quadradinhos (<120 ms) devemos pensar em casos de ritmo ectópico atrial ou em **pré-excitação,** no caso da **Síndrome de Wolff-Parkinson-White** ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-01-13T14:22:28.000Z",
+                    "updated_at": "2022-01-15T21:59:00.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50720,
+                    "question_id": 12375,
+                    "description": "Onda delta.",
+                    "explanation": "Falso, Doc! 😬 Ondas delta ocorrem devido a **pré-excitaçã**o ventricular, e podem ser vistas em doenças de taquicardia ventricular, como a **Síndrome de Wolff-Parkinson-Whit**e",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2022-01-13T14:22:28.000Z",
+                    "updated_at": "2022-01-15T21:59:00.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12375,
+                "questionary_id": 267565,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12383,
+            "institution_id": 226,
+            "description": "Qual cardiomiopatia apresenta aumento da espessura da parede ventricular ao ecocardiograma e baixa voltagem de QRS ao eletrocardiograma?",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-01-13T19:34:51.000Z",
+            "updated_at": "2022-01-13T19:34:51.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 226,
+                "title": "HOSPITAL UNIVERSITÁRIO JÚLIO MÜLLER – MT",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-01-18T21:40:03.000Z",
+                "updated_at": "2021-01-18T21:40:03.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 12383
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 50749,
+                    "question_id": 12383,
+                    "description": "Cardiomiopatia hipertrófica. ",
+                    "explanation": "Falso, Doc! 😋 Como o nome já diz, a cardiomiopatia hipertrófica causa hipertrofia do miocardio ventrícular, levando a **aumento**  da amplitude do QRS.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-01-13T19:34:51.000Z",
+                    "updated_at": "2022-01-13T19:34:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50750,
+                    "question_id": 12383,
+                    "description": "Amiloidose. ",
+                    "explanation": "Perfeito, Doc! 😍\n- A amiloidose é uma miocardiopatia restritiva com causa infiltrativa. Com isso, ocorre espessamento da parede ventricular, mas não por hipertrofia das células, o que leva a baixa voltagem ao QRS.\n- 💡 Doc, qualquer coisa que se interponha entre o eletrodo e as células ventriculares pode ser causa de baixa voltagem (incluindo o tecido adiposo, em paciente obesos)",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-01-13T19:34:52.000Z",
+                    "updated_at": "2022-01-13T19:34:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50751,
+                    "question_id": 12383,
+                    "description": "Cardiomiopatia Chagásica. ",
+                    "explanation": "Falso, Doc! 😋 Na cardiomiopatia chagásica ocorre hipertrofia excêntrica e não infiltração ou espessamento da parede, não havendo baixa voltagem.\n\n\n",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-01-13T19:34:52.000Z",
+                    "updated_at": "2022-01-13T19:34:52.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50752,
+                    "question_id": 12383,
+                    "description": "Fibroelastose.",
+                    "explanation": "Falso, Doc! 😋  \n- Na fibroelastose ocorre insuficiência cardíaca restritiva, gerando espessamento **endocárdico**.\n- Não infiltração ou espessamento da parede do miocárdio, não havendo baixa voltagem. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-01-13T19:34:52.000Z",
+                    "updated_at": "2022-01-13T19:34:52.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12383,
+                "questionary_id": 267565,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12389,
+            "institution_id": 426,
+            "description": "Há uma miscelânea de condições em que o ECG apresenta alterações peculiares, não só nas cardiopatias, como também em doenças sistêmicas, em distúrbios metabólicos e na ação de medicamentos. Sendo INADEQUADO frente à intoxicação digitálica o seguinte item:",
+            "difficulty": "medium",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-01-15T01:21:04.000Z",
+            "updated_at": "2022-01-16T00:15:51.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 426,
+                "title": "HOSPITAL MEMORIAL ARTHUR RAMOS",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-09-01T12:05:36.000Z",
+                "updated_at": "2021-09-01T12:05:36.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 12389
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 50774,
+                    "question_id": 12389,
+                    "description": "depressão de ST-T de concavidade inferior. ",
+                    "explanation": "Boa, Doc, essa é a incorreta! 👊 \n- A ação digitálica pode causar no ECG a típica alteração em **colher de pedreiro**, em que ocorre depressão de ST-T com concavidade **superior** (e não inferior), parecendo uma colher. \n- Doc, é importante lembrar que esse achado, por si só, não indica **intoxicação** digitálica e, sim, apenas, o uso de digitálicos. \n- A intoxicação é identificada pela presença de sintomas como: xantopsia (enxergar os objetos amarelados), alterações cardiovasculares (síncope, palpitações, taquicardia), neurológicas (delirium, tontura), gastrointestinais (diarreia, vômitos e dor abdominal)\n- Achados sugestivos de **intoxicação** no ECG são a presença de extrassístoles ventriculares, BAV, bradicardia sinusal e fibrilação atrial.\n\n\nDoc, veja na imagem o achado de depressão do ST-T com concavidade superior (colher de pedreiro) 👇:\n\n\nFonte da imagem: [https://pt.my-ekg.com/metabolicas-drogas/digoxina-ecg.html](https://pt.my-ekg.com/metabolicas-drogas/digoxina-ecg.html)\n\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-01-14T22:21:04.000Z",
+                    "updated_at": "2022-01-15T21:15:51.000Z",
+                    "files": [
+                        {
+                            "id": 26029,
+                            "file": "1a99cb29-88ce-4c6c-8401-3513aec4c35e.png",
+                            "name": "digoxina-pt-img.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-14T22:16:22.000Z",
+                            "updated_at": "2022-01-14T22:16:22.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1a99cb29-88ce-4c6c-8401-3513aec4c35e.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26029,
+                                "alternative_id": 50774
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 50775,
+                    "question_id": 12389,
+                    "description": "onda T “em colher”. ",
+                    "explanation": "Esta está certa, Doc! 😅 A ação digitálica pode causar no ECG a típica alteração em **colher de pedreir**o, em que ocorre depressão de ST-T com concavidade superior, parecendo uma colher. \n- Doc, é importante lembrar que esse achado, por si só, não indica **intoxicação** digitálica e, sim, apenas, o uso de digitálicos. \n- A intoxicação é identificada pela presença de sintomas como: xantopsia (enxergar os objetos amarelados), alterações cardiovasculares (síncope, palpitações, taquicardia), neurológicas (delirium, tontura), gastrointestinais (diarreia, vômitos e dor abdominal)\n- Achados sugestivos de **intoxicação** no ECG são a presença de extrassístoles ventriculares, BAV, bradicardia sinusal e fibrilação atrial.\n\n\nDoc, veja na imagem o achado de depressão do ST-T com concavidade superior (colher de pedreiro) 👇:\n\nFonte da imagem: https://pt.my-ekg.com/metabolicas-drogas/digoxina-ecg.html\n\n\n\n\n  \n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-01-14T22:21:04.000Z",
+                    "updated_at": "2022-01-15T21:15:51.000Z",
+                    "files": [
+                        {
+                            "id": 26029,
+                            "file": "1a99cb29-88ce-4c6c-8401-3513aec4c35e.png",
+                            "name": "digoxina-pt-img.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-14T22:16:22.000Z",
+                            "updated_at": "2022-01-14T22:16:22.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/1a99cb29-88ce-4c6c-8401-3513aec4c35e.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26029,
+                                "alternative_id": 50775
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 50776,
+                    "question_id": 12389,
+                    "description": "diminuição do intervalo QTc. ",
+                    "explanation": "Esta está certa, Doc! 😅 Os digitálicos **reduzem o período refratári**o ventricular e atrial, levando a encurtamento do intervalo QT (que corresponde à repolarização), já que começa uma nova despolarização mais rapidamente.",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-01-14T22:21:04.000Z",
+                    "updated_at": "2022-01-15T21:15:51.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50777,
+                    "question_id": 12389,
+                    "description": "na intoxicação digitálica, podem ocorrer várias arritmias, predominando a extrassistolia ventricular.",
+                    "explanation": "Esta está certa, Doc! 😅 Inclusive, a forma mais comum são extrassístoles em **bigeminism**o. A presença de extrassístoles leva à suspeita de intoxicação, e não apenas \"efeito digitálico\" no ECG. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-01-14T22:21:04.000Z",
+                    "updated_at": "2022-01-15T21:15:51.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12389,
+                "questionary_id": 267565,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12391,
+            "institution_id": 448,
+            "description": "Correlacione achado da semiologia cardiovascular com laudos de ECG. \n- a - Ritmo cardíaco irregular, com variações de fonese de primeira bulha.; \n- b - Desdobramento de B2 na expiração em foco pulmonar.; \n- c - Desdobramento de B2 na inspiração em foco pulmonar.; \n- d – Hipofonese de B1.; \n\n\n\n\n\n- 1 – Bloqueio de ramo direito.; \n- 2 – Bloqueio de ramo esquerdo.; \n- 3 – Normal.; \n- 4 – Fibrilação atrial.; \n- 5 – Taquicardia atrial multifocal.; \n- 6 – Bloqueio Atrio-ventricular de 1º grau. \n\n\n\n\nAssinale a alternativa correta.\n",
+            "difficulty": "medium",
+            "year": "2015-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-01-15T18:03:51.000Z",
+            "updated_at": "2022-01-15T21:31:09.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 448,
+                "title": "HOSPITAL DAS CLÍNICAS DA UFU – MG",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2021-09-07T16:29:50.000Z",
+                "updated_at": "2021-09-07T16:29:50.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 12391
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 50783,
+                    "question_id": 12391,
+                    "description": "4A, 2C, 6D  ",
+                    "explanation": "Falso, Doc! 😋 Confira a explicação completa no comentário da alternativa correta 😉.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2022-01-15T18:03:51.000Z",
+                    "updated_at": "2022-01-15T21:31:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50784,
+                    "question_id": 12391,
+                    "description": "4D, 2B, 3C  ",
+                    "explanation": "Você é fera, Doc! 😻  Analisando as alternativas:\n- 4D/A = Ritmo cardíaco irregular + alteração da fonese de primeira bulha -> típico de **fibrilação atrial.** Pense que se o átrio não está contraindo direito (devido a circuitos de reentrada), pode haver alteração no fechamento da valva atrioventricular, que está relacionada com a contração atrial ao final da diástole ventricular. \n- 3C = O desdobramento de B2 durante a inspiração no foco pulmonar é um fenômeno **fisiológico.** Lembre-se que, ao inspirar, a pressão intratorácica se torna mais negtiva, facilitando o retorno venoso, o que aumento a pré-carga ao VD, atrasando o fechamento da valva pulmonar, em relação à aórtica. \n- 2B = O desdobramento de B2 durante a expiração é o chamado **desdobramento paradoxal.** Ocorre devido a um atraso no fechamento da valva aórtica. Nesses casos, durante a inspiração, desaparece o desdobramento fisiológico, já que a valva aórtica também está atrasada. Já durante a expiração, ocorre atraso do fechamento da aórtica, que se torna audível, já que a pulmonar está se fechando sem atraso nesse momento. Pode ser causado por bloqueio de ramo esquerdo.\n\nDoc, dá uma olhadinha nessa imagem mostrando os desdobramentos das bulhas 👇:\n\n\nFonte da imagem: https://slideplayer.com.br/slide/84998/",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2022-01-15T18:03:51.000Z",
+                    "updated_at": "2022-01-15T21:31:09.000Z",
+                    "files": [
+                        {
+                            "id": 26084,
+                            "file": "f87d5968-1e0b-4bd4-819d-d11ee98fd3c3.png",
+                            "name": "Captura de tela 2022-01-15 182933.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-15T21:29:46.000Z",
+                            "updated_at": "2022-01-15T21:29:46.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/f87d5968-1e0b-4bd4-819d-d11ee98fd3c3.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26084,
+                                "alternative_id": 50784
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 50785,
+                    "question_id": 12391,
+                    "description": "5A, 1B, 6D  ",
+                    "explanation": "Falso, Doc! 😋 Confira a explicação completa no comentário da alternativa correta 😉. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-01-15T18:03:51.000Z",
+                    "updated_at": "2022-01-15T21:31:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50786,
+                    "question_id": 12391,
+                    "description": "5D, 3B, 6A ",
+                    "explanation": "Falso, Doc! 😋 Confira a explicação completa no comentário da alternativa correta 😉. ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-01-15T18:03:51.000Z",
+                    "updated_at": "2022-01-15T21:31:09.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50787,
+                    "question_id": 12391,
+                    "description": "2B, 3B, 4D",
+                    "explanation": "Falso, Doc! 😋 Confira a explicação completa no comentário da alternativa correta 😉. ",
+                    "order": 4,
+                    "correct": false,
+                    "created_at": "2022-01-15T18:03:51.000Z",
+                    "updated_at": "2022-01-15T21:31:09.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12391,
+                "questionary_id": 267565,
+                "timer": 0
+            }
+        },
+        {
+            "id": 12394,
+            "institution_id": 169,
+            "description": "Qual a apresentação eletrocardiográfica mais clássica da doença de Chagas?",
+            "difficulty": "medium",
+            "year": "2019-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2022-01-15T22:11:45.000Z",
+            "updated_at": "2022-01-15T22:13:43.000Z",
+            "user_id": 1472,
+            "is_residency": false,
+            "institution": {
+                "id": 169,
+                "title": "HOSPITAL MUNICIPAL DE SÃO JOSÉ DOS CAMPOS – SP",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-09-01T17:43:12.000Z",
+                "updated_at": "2020-09-01T17:43:12.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1074,
+                    "title": "Bloqueios de Ramos no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-16T00:58:04.000Z",
+                    "updated_at": "2022-01-16T00:58:04.000Z",
+                    "pivot": {
+                        "discipline_id": 1074,
+                        "question_id": 12394
+                    }
+                },
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 12394
+                    }
+                },
+                {
+                    "id": 702,
+                    "title": "Doença de Chagas",
+                    "description": null,
+                    "parent_id": 631,
+                    "is_enabled": true,
+                    "created_at": "2021-05-03T19:37:20.000Z",
+                    "updated_at": "2021-05-03T19:37:20.000Z",
+                    "pivot": {
+                        "discipline_id": 702,
+                        "question_id": 12394
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 50798,
+                    "question_id": 12394,
+                    "description": "BRD + HBAE. ",
+                    "explanation": "Mandou bem demais, Doc! 👊👏\n- O **bloqueio de ramo direito (BRD)** pode ser um achado da normalidade no ECG, mas também pode ser causado por cardiomiopatias como a Doença de Chagas. \n- As características mais comuns para você identificar um BRD no ECG são QRS alargado (que indica bloqueio) com **V1 positivo** (BRD, já que V1 está à direita). Ocorre a típica \"letra M\" ou \"orelha do coelho\" nas derivações à direita (V1, V2 e V3).  \n- Nessa doença, o BRD pode vir associado com o **Hemibloqueio anterior esquerdo (HBAE)**, também chamado de Bloqueio Divisional Anterossuperior (BDAS). \n- O BDAS pode ser identificado por um desvio do eixo para a esquerda (além de -30°) e para cima (vê-se onda S proeminente em D2 e, mais ainda, em D3).\n\n\nDoc, se liga nesse ECG mostrando um paciente com BRD e BDAS/HBAE. Repare nos achados comentados 👇:\n\n\nFonte da imagem: [https://i1.wp.com/cardiopapers.com.br/wp-content/uploads/2017/05/BRDBDAS.jpg?ssl=1](https://i1.wp.com/cardiopapers.com.br/wp-content/uploads/2017/05/BRDBDAS.jpg?ssl=1)\n",
+                    "order": 0,
+                    "correct": true,
+                    "created_at": "2022-01-15T22:11:45.000Z",
+                    "updated_at": "2022-01-15T22:13:43.000Z",
+                    "files": [
+                        {
+                            "id": 26085,
+                            "file": "bb360b50-8909-4ab0-b401-94e3c1910b7b.jpeg",
+                            "name": "BRDBDAS.jpg",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "jpeg",
+                            "created_at": "2022-01-15T22:11:37.000Z",
+                            "updated_at": "2022-01-15T22:11:37.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/bb360b50-8909-4ab0-b401-94e3c1910b7b.jpeg",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 26085,
+                                "alternative_id": 50798
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 50799,
+                    "question_id": 12394,
+                    "description": "BRD + BAVT. ",
+                    "explanation": "Falso, Doc! 🤔 A doença de Chagas não causa bloqueio atrioventricular, e sim bloqueio de ramo. ",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2022-01-15T22:11:45.000Z",
+                    "updated_at": "2022-01-15T22:13:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50800,
+                    "question_id": 12394,
+                    "description": "BAVT + BRE. ",
+                    "explanation": "Falso, Doc! 🤔 A doença de Chagas não causa bloqueio atrioventricular, e sim bloqueio de ramo.  ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2022-01-15T22:11:45.000Z",
+                    "updated_at": "2022-01-15T22:13:43.000Z",
+                    "files": []
+                },
+                {
+                    "id": 50801,
+                    "question_id": 12394,
+                    "description": "BRE + HBAE.",
+                    "explanation": "Falso, Doc! 🤔 O bloqueio mais comum da doença de Chagas é o de ramo **direito.** ",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2022-01-15T22:11:45.000Z",
+                    "updated_at": "2022-01-15T22:13:43.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 12394,
+                "questionary_id": 267565,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2730,
+            "institution_id": 4,
+            "description": "Sobre a normalidade do intervalo PR, assinale a alternativa CORRETA:",
+            "difficulty": "hard",
+            "year": "2017-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-05T23:42:15.000Z",
+            "updated_at": "2022-01-12T20:43:06.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 222,
+                    "title": "Eletrocardiograma Normal",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-06-17T03:18:03.000Z",
+                    "updated_at": "2022-01-12T20:16:23.000Z",
+                    "pivot": {
+                        "discipline_id": 222,
+                        "question_id": 2730
+                    }
+                },
+                {
+                    "id": 1069,
+                    "title": "Bloqueios atrioventriculares",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T00:37:46.000Z",
+                    "updated_at": "2022-01-12T00:37:46.000Z",
+                    "pivot": {
+                        "discipline_id": 1069,
+                        "question_id": 2730
+                    }
+                },
+                {
+                    "id": 418,
+                    "title": "Bradiarritmias",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2020-08-10T17:07:33.000Z",
+                    "updated_at": "2020-08-10T17:07:33.000Z",
+                    "pivot": {
+                        "discipline_id": 418,
+                        "question_id": 2730
+                    }
+                },
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 2730
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11234,
+                    "question_id": 2730,
+                    "description": "A sua duração normal é de 0,2 a 0,4 segundos",
+                    "explanation": "Falso, Doc! 😅  A sua duração normal é de 0,12 a 0,20 segundos, ou seja **3 a 5 quadradinhos**.\n- 💡 É mais fácil lembrar por quadradinhos do que por segundos: Por exemplo, a onda P normal tem até 3 quadradinhos (ou, mais especificamente, 2,5). O intervalo PR normal tem de 3 a 5 quadradinhos. O complexo QRS normal, assim como a onda P, tem até 3 quadradinhos.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-05T20:42:15.000Z",
+                    "updated_at": "2022-01-12T17:43:06.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11235,
+                    "question_id": 2730,
+                    "description": "O Bloqueio Atrioventricular (BAV) do 1º grau tem um intervalo PR maior que 3 quadradinhos",
+                    "explanation": "Falso, Doc! 😅 \n- O BAV do primeiro grau tem um intervalo PR maior que **5 quadradinhos** (já que a duração normal é de 3 a 5 quadradinhos). \n- Lembrando que no BAV do 1º grau o intervalo PR é alargado e tem uma duração fixa (e não há falha da condução).\n\nVeja na imagem:👇\n\n\nFonte da imagem: www.synapsemed.com.br/bloqueiosecg \n\n\n",
+                    "order": 1,
+                    "correct": false,
+                    "created_at": "2020-07-05T20:42:15.000Z",
+                    "updated_at": "2022-01-12T17:43:06.000Z",
+                    "files": [
+                        {
+                            "id": 25901,
+                            "file": "3620c032-ab0b-4daf-9f2f-36db2c540d05.png",
+                            "name": "Captura de tela 2022-01-11 132924.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T16:30:31.000Z",
+                            "updated_at": "2022-01-11T16:30:31.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/3620c032-ab0b-4daf-9f2f-36db2c540d05.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25901,
+                                "alternative_id": 11235
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11236,
+                    "question_id": 2730,
+                    "description": "No BAV de segundo grau Mobitz tipo I, cada intervalo PR tem duração maior do que o anterior",
+                    "explanation": "Arrasou, Doc! 😎\n- 💡 Para não confundir Mobitz tipo I e Mobitz tipo II, na medsimple a gente gosta de dizer que no Mobitz tipo **U**M, o intervalo PR é **UM PIOR QUE O OUTR**O.  \n- Lembrando que esse fenômeno é chamado de **fenômeno de Wenckebach.**\n\n\nVeja na imagem:👇\n\n\nFonte da imagem: www.synapsemed.com.br/bloqueiosecg \n\n \n\n",
+                    "order": 2,
+                    "correct": true,
+                    "created_at": "2020-07-05T20:42:15.000Z",
+                    "updated_at": "2022-01-12T17:43:06.000Z",
+                    "files": [
+                        {
+                            "id": 25902,
+                            "file": "16867ee3-ce45-4a69-ad7b-5b17bc6b53b5.png",
+                            "name": "Captura de tela 2022-01-11 132940.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T16:31:10.000Z",
+                            "updated_at": "2022-01-11T16:31:10.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/16867ee3-ce45-4a69-ad7b-5b17bc6b53b5.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25902,
+                                "alternative_id": 11236
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 11237,
+                    "question_id": 2730,
+                    "description": "No BAV de segundo grau Mobitz do tipo II há completa dissociação entre a frequência atrial e ventricular",
+                    "explanation": "Falso, Doc! 😅\n-  Essa é a descrição do **BAV total,** também chamado de BAV de terceiro grau. \n- No BAV de segundo grau **Mobitz do tipo II**, temos intervalos PR de duração normal e, de repente, temos uma onda P que não é seguida de complexo QRS, ou seja, temos um impulso atrial que é bloqueado repentinamente.\n\n\nVeja na imagem o Mobitz 2 👇:\n\n\nFonte da imagem: www.synapsemed.com.br/bloqueiosecg \n\n \n\n\n",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-05T20:42:15.000Z",
+                    "updated_at": "2022-01-12T17:43:06.000Z",
+                    "files": [
+                        {
+                            "id": 25903,
+                            "file": "b0d7dfa3-8216-4cdd-aa18-6ef645dd51dc.png",
+                            "name": "Captura de tela 2022-01-11 132951.png",
+                            "path": "uploads",
+                            "type": "image",
+                            "subtype": "png",
+                            "created_at": "2022-01-11T16:31:36.000Z",
+                            "updated_at": "2022-01-11T16:31:36.000Z",
+                            "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/b0d7dfa3-8216-4cdd-aa18-6ef645dd51dc.png",
+                            "description": null,
+                            "source": null,
+                            "overlay_id": null,
+                            "user_id": null,
+                            "pivot": {
+                                "file_id": 25903,
+                                "alternative_id": 11237
+                            }
+                        }
+                    ]
+                }
+            ],
+            "answers": [],
+            "files": [],
+            "pivot": {
+                "question_id": 2730,
+                "questionary_id": 267565,
+                "timer": 0
+            }
+        },
+        {
+            "id": 2733,
+            "institution_id": 4,
+            "description": "Observe o ECG abaixo:\n\n\nQual das alternativas abaixo **NÃO** apresenta uma possível causa para o padrão apresentado na imagem?\n\n\nFonte da imagem: [https://www.medicinanet.com.br/conteudos/casos/1519/eletrocardiograma_19.htm](https://www.medicinanet.com.br/conteudos/casos/1519/eletrocardiograma_19.htm)\n",
+            "difficulty": "hard",
+            "year": "2016-01-01T00:00:00.000Z",
+            "is_enabled": true,
+            "created_at": "2020-07-05T21:47:20.000Z",
+            "updated_at": "2022-01-12T17:14:15.000Z",
+            "user_id": 108,
+            "is_residency": false,
+            "institution": {
+                "id": 4,
+                "title": "MEDsimple",
+                "state": null,
+                "is_enabled": true,
+                "created_at": "2020-05-16T21:11:41.000Z",
+                "updated_at": "2020-05-16T21:11:41.000Z"
+            },
+            "disciplines": [
+                {
+                    "id": 1071,
+                    "title": "Alterações no Eletrocardiograma",
+                    "description": null,
+                    "parent_id": 6,
+                    "is_enabled": true,
+                    "created_at": "2022-01-12T20:13:54.000Z",
+                    "updated_at": "2022-01-15T20:21:39.000Z",
+                    "pivot": {
+                        "discipline_id": 1071,
+                        "question_id": 2733
+                    }
+                }
+            ],
+            "alternatives": [
+                {
+                    "id": 11246,
+                    "question_id": 2733,
+                    "description": "Derrame pericárdico",
+                    "explanation": "Esta pode ser causa, sim, Doc! 😅 \n- Primeiro temos que saber o que tem de anormal nesse ECG. Observou que todas as ondas estão miúdas? Chamamos isso de **baixa voltagem.**\n- Os critérios para baixa voltagemo **QRS** não atinge **5 mm nas derivações periféricas** (DI, DII, DIII, aVF, aVL e aVR) e não atinge **10 mm nas derivações precordiais** ( V1, V2 V3, V4, V5 e V6).\n- Tudo o que faz com que o impulso elétrico seja identificado com menor intensidade pelos eletrodos pode ser uma causa de baixa voltagem. Ou seja, qualquer **\"barreira\" entre o eletrodo e o impulso elétrico** gera uma baixa voltagem na imagem. \n- No derrame pericárdico, temos **excesso de líquido no espaço pericárdico**, formando uma barreira entre o impulso elétrico e o eletrodo.",
+                    "order": 0,
+                    "correct": false,
+                    "created_at": "2020-07-05T21:47:20.000Z",
+                    "updated_at": "2022-01-12T17:14:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11247,
+                    "question_id": 2733,
+                    "description": "Hipertrofia ventricular esquerda",
+                    "explanation": "Boa, Doc, essa é a que não pode causar! 👊 Na hipertrofia ventricular esquerda, teremos uma **alta voltage**m, especialmente nas derivações precordiais, que estão mais próximas da grande massa miocárdica em um coração hipertrofiado.",
+                    "order": 1,
+                    "correct": true,
+                    "created_at": "2020-07-05T21:47:20.000Z",
+                    "updated_at": "2022-01-12T17:14:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11248,
+                    "question_id": 2733,
+                    "description": "Obesidade",
+                    "explanation": "Esta pode ser causa, sim, Doc! 😅 \n- Primeiro temos que saber o que tem de anormal nesse ECG. Observou que todas as ondas estão miúdas? Chamamos isso de **baixa voltagem.**\n- Os critérios para baixa voltagemo **QRS** não atinge **5 mm nas derivações periféricas** (DI, DII, DIII, aVF, aVL e aVR) e não atinge **10 mm nas derivações precordiais** ( V1, V2 V3, V4, V5 e V6).\n- Tudo o que faz com que o impulso elétrico seja identificado com menor intensidade pelos eletrodos pode ser uma causa de baixa voltagem. Ou seja, qualquer **\"barreira\" entre o eletrodo e o impulso elétrico** gera uma baixa voltagem na imagem. Na obesidade o **tecido adiposo** se interpõe. ",
+                    "order": 2,
+                    "correct": false,
+                    "created_at": "2020-07-05T21:47:20.000Z",
+                    "updated_at": "2022-01-12T17:14:15.000Z",
+                    "files": []
+                },
+                {
+                    "id": 11249,
+                    "question_id": 2733,
+                    "description": "Hipotireoidismo",
+                    "explanation": "Esta pode ser causa, sim, Doc! 😅 \n- Primeiro temos que saber o que tem de anormal nesse ECG. Observou que todas as ondas estão miúdas? Chamamos isso de **baixa voltagem.**\n- Os critérios para baixa voltagemo **QRS** não atinge **5 mm nas derivações periféricas** (DI, DII, DIII, aVF, aVL e aVR) e não atinge **10 mm nas derivações precordiais** ( V1, V2 V3, V4, V5 e V6).\n- Tudo o que faz com que o impulso elétrico seja identificado com menor intensidade pelos eletrodos pode ser uma causa de baixa voltagem. Ou seja, qualquer **\"barreira\" entre o eletrodo e o impulso elétrico** gera uma baixa voltagem na imagem. \n- No **hipotireoidismo**, de fato, temos um impulso elétrico de menor intensidade, logo é identificado com menor intensidade pelos eletrodos.",
+                    "order": 3,
+                    "correct": false,
+                    "created_at": "2020-07-05T21:47:20.000Z",
+                    "updated_at": "2022-01-12T17:14:15.000Z",
+                    "files": []
+                }
+            ],
+            "answers": [],
+            "files": [
+                {
+                    "id": 7258,
+                    "file": "640fa180-5dfb-4c68-acdf-f2aa343459c6.jpeg",
+                    "name": "20090119074429.jpg",
+                    "path": "uploads",
+                    "type": "image",
+                    "subtype": "jpeg",
+                    "created_at": "2021-04-15T03:21:34.000Z",
+                    "updated_at": "2021-04-15T03:21:34.000Z",
+                    "url": "https://qbank.s3.sa-east-1.amazonaws.com/uploads/640fa180-5dfb-4c68-acdf-f2aa343459c6.jpeg",
+                    "description": null,
+                    "source": null,
+                    "overlay_id": null,
+                    "user_id": null,
+                    "pivot": {
+                        "file_id": 7258,
+                        "question_id": 2733
+                    }
+                }
+            ],
+            "pivot": {
+                "question_id": 2733,
+                "questionary_id": 267565,
+                "timer": 0
+            }
+        }
+    ]
+}
